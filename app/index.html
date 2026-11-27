@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>El Viejo Mundo</title>
+<meta name="theme-color" content="#14170f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Viejo Mundo">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+  <header id="top">
+    <div class="brand"><span class="crest">⚔</span><span class="name">El Viejo Mundo</span></div>
+    <div id="turninfo"></div>
+    <nav id="phases"></nav>
+    <button id="btnMenu" class="ghost" aria-label="Menú">☰</button>
+  </header>
+  <main id="stage">
+    <canvas id="gl"></canvas>
+    <canvas id="cv"></canvas>
+    <div id="banner" hidden></div>
+    <div id="toast" hidden></div>
+    <div id="tools">
+      <button id="zIn" title="Acercar">＋</button>
+      <button id="zOut" title="Alejar">－</button>
+      <button id="zUndo" class="off" title="Deshacer la última acción" aria-label="Deshacer">↶</button>
+      <button id="zFit" title="Ajustar vista">⤢</button>
+      <button id="zUnit" title="Acercar a la unidad seleccionada (otra vez: volver)">🔍</button>
+      <button id="zRot" title="Girar mesa">⟳</button>
+      <button id="zTilt" title="Inclinar la cámara (arrastra arriba/abajo)" class="toggle">⤡</button>
+      <button id="zSnd" title="Sonido">🔊</button>
+      <button id="zRival" title="Mostrar/ocultar actividad del rival" class="toggle on">👁</button>
+      <button id="zAI" title="Ver el turno de la IA otra vez (pasos, cámara y velocidad)" hidden>🎬</button>
+    </div>
+    <div id="rotHud" hidden><button id="rhL" title="Girar 15° a la izquierda">⟲</button><button id="rhR" title="Girar 15° a la derecha">⟳</button></div>
+    <div id="placebar" hidden></div>
+    <div id="pbl" hidden></div>
+    <div id="pbk" hidden></div>
+    <div id="dice" hidden></div>
+    <div id="coach" hidden></div>
+    <div id="fab"></div>
+  </main>
+  <aside id="panel">
+    <button id="sheetHandle" aria-label="Plegar panel"><span></span></button>
+    <div id="tabs"></div>
+    <div id="panelBody"></div>
+    <div id="actions"></div>
+  </aside>
+</div>
+<div id="title" hidden></div>
+<div id="modal" hidden></div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
