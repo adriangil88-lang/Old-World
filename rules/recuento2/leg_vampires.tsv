@@ -1,0 +1,240 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+leg_vampires-001	leg_vampires.txt:1-53	Documento Legacy Vampire Counts: no apto para juego organizado; portada y copyright	NA	-	
+leg_vampires-002	leg_vampires.txt:55-62	Uso con 'Forming Units' y 'Warhammer Armies' del reglamento	NA	-	Remisión al Core
+leg_vampires-003	leg_vampires.txt:65-67	Personajes: hasta 50% de puntos	OK	data.js armyIssues/CATS (límite de porcentajes genérico)	
+leg_vampires-004	leg_vampires.txt:68-74	Personajes: 1+ Mago obligatorio	OK	data.js:4710 armyIssues vc (1+ Mago)	
+leg_vampires-005	leg_vampires.txt:69-70	0-1 Conde Vampiro, Nigromante Maestro o Rey Ghoul Strigoi por 1.000 pts	OK	data.js:4529 armyIssues vc (regex vc_(count|ghoulking|necromancer|necro_))	Las variantes vc_necro_terror/dragon/mortis no entran en el regex (vc_necro_ sí: OK)
+leg_vampires-006	leg_vampires.txt:71	0-1 Rey Tumulario o Banshee por 1.000 pts	OK	data.js:4529	
+leg_vampires-007	leg_vampires.txt:72-73	Esbirros Vampiro, Acólitos Nigrománticos, Señores Tumularios y Espectros del Túmulo como personajes sin límite	OK	data.js:1904 vc_cairnwraith cat/comp char	
+leg_vampires-008	leg_vampires.txt:74	Tomb Banshee es personaje	OK	data.js:1902 vc_banshee cat/comp char	
+leg_vampires-009	leg_vampires.txt:75-79	Básicas: al menos 25% en Esqueletos, Zombis, Necrófagos, Enjambres de Murciélagos, Lobos Funestos	OK	data.js:1885-1891,1916 comp:'core'; armyIssues genérico	
+leg_vampires-010	leg_vampires.txt:79-82	Con Tumularios, 0-1 unidad de Guardia de las Tumbas o Caballeros Negros como Básica	OK	data.js:4332 catsOf move(..., 'special','core')	
+leg_vampires-011	leg_vampires.txt:85-87	Especiales: hasta 50%; 0-1 unidad Guardia de las Tumbas o Caballeros Negros por 1.000 pts	OK	data.js:4530	Más 1 Básica con Tumularios (suma per+1)
+leg_vampires-012	leg_vampires.txt:88	0-1 unidad de Horrores de la Cripta o Murciélagos Funestos por 1.000 pts	OK	data.js:4531	
+leg_vampires-013	leg_vampires.txt:89	0-3 Carros de Cadáveres	OK	data.js:4532	
+leg_vampires-014	leg_vampires.txt:90-91	0-1 unidad de Huestes Espectrales por Espectro del Túmulo o Banshee	OK	data.js:4539	
+leg_vampires-015	leg_vampires.txt:92-94	Con Rey Ghoul Strigoi General: 0-1 unidad Vargheists o 0-1 Terrorgheist como Especial	PARCIAL	data.js:4333 catsOf	VERIF v732: data.js:4699 catsOf mueve Vargheists y Terrorgheist a Especial si hay cualquier Rey Ghoul (vc_ghoulking) en el ejercito; no exige que sea el General
+leg_vampires-016	leg_vampires.txt:68	Raras: hasta 25%; 0-1 unidad de Vargheists por 1.000 pts	OK	data.js:4534; comp:'rare' en vc_vargheists	
+leg_vampires-017	leg_vampires.txt:69	Raras: 0-2 Carruajes Negros	OK	data.js:4533 (blackcoach>2)	
+leg_vampires-018	leg_vampires.txt:70	Raras: 0-1 Terrorgheist o Varghulf por 1.000 pts	OK	data.js:4535	
+leg_vampires-019	leg_vampires.txt:71	Raras: 0-1 unidad de Caballeros de Sangre por 1.000 pts	OK	data.js:4536	
+leg_vampires-020	leg_vampires.txt:72-73	Raras: 0-1 unidad de Hexwraiths por Espectro del Túmulo o Banshee	OK	data.js:4538	
+leg_vampires-021	leg_vampires.txt:75-81	Aliados: hasta 25% en un contingente de Reyes Funerarios de Khemri	OK	data.js ALLY_TABLE/allyArmyIssues; rules.js createGame allyInfo	Contingente Reyes Funerarios hasta 25 %
+leg_vampires-022	leg_vampires.txt:83-88	Portaestandarte de Batalla: un Esbirro o Señor Tumulario por +25 pts, estandarte mágico sin límite	OK	data.js:3185-3216 itemIssues bsb genérico; blurb vc_wightlord:1872	Un solo PEB por ejército: data.js armyIssues
+leg_vampires-023	leg_vampires.txt:98	Perfil Conde Vampiro M6 HA7 HP5 F5 R5 H3 I6 A4 Ld8, 160 pts	OK	data.js:1835	
+leg_vampires-024	leg_vampires.txt:99	Perfil Esbirro Vampiro M6 HA6 HP4 F5 R4 H2 I5 A3 Ld7, 75 pts	OK	data.js:1854	
+leg_vampires-025	leg_vampires.txt:101-104	Infantería regular (personaje), peana 25x25, 1 modelo, arma de mano	OK	data.js:1835,1854 baseW 25 arm none	
+leg_vampires-026	leg_vampires.txt:106-110	Vampiro puede ser Mago con Magia Oscura, Ilusión o Nigromancia	OK	data.js:4694 SET lores dark/illusion/necromancy	
+leg_vampires-027	leg_vampires.txt:114-116	Un arma: mano adicional +3, a dos manos +4, lanza +4 (si montado)	OK	data.js:4094-4102 VCV	Lanza solo si montado
+leg_vampires-028	leg_vampires.txt:117	Escudo +2	OK	data.js:4098 VCV sh	
+leg_vampires-029	leg_vampires.txt:118-120	Armadura ligera +3 o pesada +6	OK	data.js:4099-4100	
+leg_vampires-030	leg_vampires.txt:121	Puede ir montado (ver montura)	OK	data.js:1841-1857	
+leg_vampires-031	leg_vampires.txt:123-124	Conde: Mago nivel 1 +30 / nivel 2 +60	OK	data.js:4101-4102 w1/w2	
+leg_vampires-032	leg_vampires.txt:125	Conde: objetos mágicos hasta 100 pts	OK	data.js:1835 ib:100	
+leg_vampires-033	leg_vampires.txt:126	Conde: Poderes vampíricos hasta 100 pts (presupuesto aparte)	OK	data.js:3207 vpBudget + itemIssues vpow; main.js:615	
+leg_vampires-034	leg_vampires.txt:128-130	Esbirro: Mago nivel 1 +30, objetos 50 pts, poderes 50 pts	OK	data.js:3207 vpBudget (Esbirro 50)	
+leg_vampires-035	leg_vampires.txt:133-134	Conde: Vitalidad Oscura, Inflamable, Indomable (2), Lore of Undeath, No muerto necromántico, Regeneración (5+)	OK	data.js:1835 sr darkVit/flammable/indom2/regen5; legacyLore data.js:4949	
+leg_vampires-036	leg_vampires.txt:135-136	Esbirro: Estandarte del Conde, Vitalidad Oscura, Inflamable, Indomable (1), Regeneración (5+)	OK	rules.js:5195 herald (Esbirro/Señor PEB) + data.js:4714 solo Esbirro/Señor PEB	
+leg_vampires-037	leg_vampires.txt:137-152	Estandarte del Conde: Esbirro PEB re-tira tests de Ld fallidos y reduce D3 Heridas del Inestable; no acumulativo con Ind	OK	rules.js:5195 Banner of the Count: Esbirro vc_thrall* reduce D3 (alcance de mando del PEB)	
+leg_vampires-038	leg_vampires.txt:154-174	Muerte del General: el General debe ser Mago; si cae, pierden Regeneración y Ld test por Heridas cada Inicio de turno	OK	rules.js:424-445,1713,5577 Muerte del General VC (s.hieroVC; exención Vitalidad Oscura)	
+leg_vampires-039	leg_vampires.txt:159-164	General Vampire Counts debe ser Mago; si solo 1 Mago, debe ser General	PARCIAL	data.js:4710-4712 armyIssues: General Mago; un solo Mago = General	VERIF v732: data.js:4981-4986 valida con UNITS.general (elegibles) y no con el General designado (e.gen): cualquier personaje elegible no Mago invalida; rules.js:6303 elige General por Ld sin exigir Mago
+leg_vampires-040	leg_vampires.txt:184	Perfil Nigromante Maestro M4 HA3 HP3 F3 R4 H3 I3 A2 Ld8, 130 pts	OK	data.js:1860	
+leg_vampires-041	leg_vampires.txt:185	Perfil Acólito Nigromántico M4 HA3 HP3 F3 R3 H2 I3 A1 Ld7, 60 pts	OK	data.js:1864	
+leg_vampires-042	leg_vampires.txt:187-191	Infantería regular (personaje), 25x25, 1, arma de mano	OK	data.js:1860-1864	
+leg_vampires-043	leg_vampires.txt:192-196	Maestro nivel 3, Acólito nivel 1; Magia Oscura, Ilusión o Nigromancia	OK	data.js:1860,1864,4694	
+leg_vampires-044	leg_vampires.txt:199	Nigromante puede ir montado	OK	data.js:5741 vc_acolyte_nightmare (+16)	
+leg_vampires-045	leg_vampires.txt:201-202	Maestro: nivel 4 +30; objetos hasta 100	OK	data.js:4137 WIZUP vc_necromancer; ib:100	
+leg_vampires-046	leg_vampires.txt:204-205	Acólito: nivel 2 +30; objetos hasta 50	OK	data.js:1871 vc_acolyte ib 50; WIZUP nivel 2 +30	
+leg_vampires-047	leg_vampires.txt:207-208	Nigromante: Vitalidad Oscura, Indomable (1), Invocación de Nehek, Lore of Undeath, No muerto, Regeneración (5+)	OK	data.js:1860,1864 sr darkVit indom1 nehek regen	
+leg_vampires-048	leg_vampires.txt:210-230	"Invocación de Nehek: Mando, Ld propio, unidad No muerta necromántica a 12"" recupera Heridas según tipo de tropa y nivel"	OK	rules.js:466 necroHeal, 6679 nehek (solo vc, personajes unidos primero, Acólito Oscuro nivel 1, tipo por troop type)	Orden de curación: la tropa es una reserva de Heridas, equivale a completar modelos heridos y luego resucitar
+leg_vampires-049	leg_vampires.txt:234	Perfil Rey Ghoul Strigoi M6 HA6 HP3 F5 R5 H3 I7 A5 Ld8, 145 pts	OK	data.js:1838	
+leg_vampires-050	leg_vampires.txt:236-239	Infantería regular (personaje), 25x25, arma de mano	OK	data.js:1838	
+leg_vampires-051	leg_vampires.txt:241-245	Strigoi puede ser Mago: Magia de Batalla, Oscura o Nigromancia	OK	data.js:4695; data.js:5342	
+leg_vampires-052	leg_vampires.txt:248	Puede ir montado	OK	data.js:5426 vc_ghoulking_terror	Solo en Terrorgheist
+leg_vampires-053	leg_vampires.txt:250-251	Mago nivel 1 +30, nivel 2 +60	OK	data.js:5342-5345	
+leg_vampires-054	leg_vampires.txt:252-253	Objetos hasta 75 y poderes hasta 75	OK	data.js:3207 vpBudget Rey Ghoul 75 aparte de objetos 75	
+leg_vampires-055	leg_vampires.txt:255-257	Reglas: Vitalidad Oscura, Inflamable, Odio (todos), Indomable (1), Lore, No muerto, Ataques envenenados, Regeneración 5+	OK	data.js:1838	
+leg_vampires-056	leg_vampires.txt:259-266	La Sed: 6 en D6 recupera 1 Herida si causó heridas sin salvar; persigue con un solo D6	PARCIAL	rules.js:5186,5153	VERIF v732: rules.js:5527 hungerDealt cuenta heridas sin salvar de toda la unidad (x.u), no solo del personaje; persecucion con un D6 ok (6019).
+leg_vampires-057	leg_vampires.txt:272	Perfil Espectro del Túmulo M6 HA4 HP0 F3 R3 H3 I2 A2 Ld6, 50 pts	OK	data.js:1903	
+leg_vampires-058	leg_vampires.txt:274-279	Infantería regular (personaje), Etéreo, Indomable (1), Terror, Regeneración 6+	OK	data.js:1904 vc_cairnwraith personaje	
+leg_vampires-059	leg_vampires.txt:281-284	Guadaña espectral: F, sin PA, Ataques mágicos, Heridas múltiples (D3), sin salvación de armadura	OK	data.js:1903 melee {mw:'D3', noArm:true}	
+leg_vampires-060	leg_vampires.txt:287	Perfil Rey Tumulario M4 HA5 HP0 F5 R5 H3 I4 A3 Ld9, 85 pts	OK	data.js:1867	
+leg_vampires-061	leg_vampires.txt:288	Perfil Señor Tumulario M4 HA4 HP0 F4 R5 H2 I4 A2 Ld8, 40 pts	OK	data.js:1870	
+leg_vampires-062	leg_vampires.txt:291-294	Infantería regular (personaje), 25x25, arma de mano y armadura pesada	OK	data.js:1867,1870	
+leg_vampires-063	leg_vampires.txt:297-300	Un arma: mano adicional +3, a dos manos +4, lanza +4	OK	data.js:5136-5145	
+leg_vampires-064	leg_vampires.txt:301	Escudo +2	OK	data.js:5136	
+leg_vampires-065	leg_vampires.txt:302	Puede ir montado	OK	data.js:1873,1876	
+leg_vampires-066	leg_vampires.txt:303-304	Objetos: Rey 100, Señor 50	OK	data.js:1867 vc_wightking ib 100	
+leg_vampires-067	leg_vampires.txt:307-308	Rey: Indomable (1), Golpe Mortal, No muerto, Regeneración 5+	OK	data.js:1867	Añade 'rally' no presente en el texto
+leg_vampires-068	leg_vampires.txt:309	Señor: Golpe Mortal, No muerto, Regeneración 6+, Estandarte Tumulario	OK	data.js:1870; rules.js:5080	Añade 'rally' no presente en el texto
+leg_vampires-069	leg_vampires.txt:311-324	Estandarte Tumulario (Señor PEB): re-tira Ld fallidos y reduce D3 Heridas del Inestable	OK	rules.js:5080 herald vc_wightlord(+steed) con std	
+leg_vampires-070	leg_vampires.txt:330	Perfil Banshee M6 HA3 HP0 F3 R3 H2 I3 A1 Ld6, 90 pts	OK	data.js:1901	
+leg_vampires-071	leg_vampires.txt:332-337	Infantería regular (personaje), Etéreo, Indomable (1), Mágicos, Terror, Regeneración 6+, Treno quejumbroso	OK	data.js:1902 vc_banshee personaje	
+leg_vampires-072	leg_vampires.txt:344-348	Conde/Esbirro: Pesadilla +16, Trono del Aquelarre, Terror Abisal (Conde), Dragón Zombi (Conde)	OK	data.js:1841-1857,5441-5430 monturas	
+leg_vampires-073	leg_vampires.txt:350-354	Nigromante/Acólito: Pesadilla, Motor Mortis, Terror Abisal y Dragón Zombi (Maestro)	OK	data.js:5741 vc_acolyte_nightmare; Maestro monturas OK	
+leg_vampires-074	leg_vampires.txt:356-357	Strigoi en Terrorgheist	OK	data.js:5426	
+leg_vampires-075	leg_vampires.txt:359-360	Wight Rey/Señor en Corcel Esquelético +14	OK	data.js:1873,1876 (ppm 99/54)	
+leg_vampires-076	leg_vampires.txt:364-371	Corcel Esquelético M7 HA2 F3 I2 A1, caballería pesada, Primera Carga, No muerto, Zancada	PARCIAL	data.js:1873 M7 mountAtk S3; sr firstCharge swiftstride	VERIF v732: data.js:1884 vc_wightlord_steed: M7 y mountAtk S3 A1 ok, barda ok (6084); faltan Primera Carga y Zancada (sr sin firstCharge/swiftstride), HA2/I2 de la montura no modelados. | Barda de serie: data.js:5458
+leg_vampires-077	leg_vampires.txt:375-382	Pesadilla M7 HA3 F4 I2 A1, 16 pts, Contracarga, Primera Carga, Zancada, barda	OK	data.js:1841 M7 mountAtk S4; avOpt barding data.js:5458	
+leg_vampires-078	leg_vampires.txt:386	Perfil Guardia de las Tumbas M4 HA3 HP3 F4 R4 H1 I3 A1 Ld7, 11 pts	OK	data.js:1895	
+leg_vampires-079	leg_vampires.txt:387	Senescal A2, +6 pts	OK	rules.js:4796 campeón +1 A; data.js CMD vc_graveguard [6,6,6]	El campeón suma +1 Ataque (A2)
+leg_vampires-080	leg_vampires.txt:389-392	Infantería pesada, 25x25, 10+, armas de mano, armadura pesada y escudos	OK	data.js:1895 vc_graveguard max 99 (sin máximo)	
+leg_vampires-081	leg_vampires.txt:395	Toda la unidad: armas a dos manos en vez de escudos +1/modelo	OK	data.js:3852 gw	
+leg_vampires-082	leg_vampires.txt:397-399	Campeón +6, portaestandarte +6, músico +6 por unidad	OK	data.js:2461 [6,6,6]	
+leg_vampires-083	leg_vampires.txt:400	Estandarte mágico hasta 50	OK	data.js:1895 bnMax:50	
+leg_vampires-084	leg_vampires.txt:401	Senescal: objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_vampires-085	leg_vampires.txt:402-404	0-1 unidad por 1.000 pts: Disciplinados +2/modelo; Defensa Implacable +1/modelo	OK	data.js:3853-3854 dr/id per1000	
+leg_vampires-086	leg_vampires.txt:406-407	Reglas: Golpe Cortante, Orden Cerrado, Indomable (1), No muerto, Regeneración 6+	OK	data.js:1895 sr cleave closeOrder indom1	
+leg_vampires-087	leg_vampires.txt:409-420	Defensa Implacable: unidad en Orden Cerrado con escudos puede no Ceder; no si UP ganador > doble	OK	rules.js:5095	
+leg_vampires-088	leg_vampires.txt:424	Perfil Guerrero Esqueleto M4 HA2 HP2 F3 R3 H1 I2 A1 Ld5, 5 pts	OK	data.js:1887	
+leg_vampires-089	leg_vampires.txt:425	Campeón Esqueleto A2 +5	OK	rules.js:4796 campeón +1 A; CMD vc_skeletons 5	
+leg_vampires-090	leg_vampires.txt:427-430	Infantería regular, 25x25, 10+, armas de mano, armadura ligera y escudos	OK	data.js:1887 vc_skeletons sin máximo	
+leg_vampires-091	leg_vampires.txt:433	Lanzas de empuje +1 por modelo	OK	data.js:3851	
+leg_vampires-092	leg_vampires.txt:434-437	Campeón +5, portaestandarte +5, músico +5	OK	data.js:2461	
+leg_vampires-093	leg_vampires.txt:438	0-1 unidad por 1.000 pts con estandarte mágico hasta 50	OK	data.js:4716 armyIssues: 0-1 Esqueletos por 1.000 pts con estandarte mágico	
+leg_vampires-094	leg_vampires.txt:440	Reglas: Orden Cerrado, Horda, No muerto, Regeneración 6+	OK	data.js:1887	
+leg_vampires-095	leg_vampires.txt:446	Perfil Zombi M4 HA2 HP0 F3 R3 H1 I1 A1 Ld2, 3 pts	OK	data.js:1885	
+leg_vampires-096	leg_vampires.txt:448-451	Infantería regular, 25x25, 20-40, armas de mano	OK	data.js:1885 min20 max40	
+leg_vampires-097	leg_vampires.txt:454-456	Portaestandarte +5, músico +5 (sin campeón)	OK	data.js:2461 [null,5,5]	
+leg_vampires-098	leg_vampires.txt:458-459	Reglas: Orden Cerrado, Horda, No muerto, Regeneración 6+, Los Recién Muertos	OK	data.js:1885; rules.js:5502	
+leg_vampires-099	leg_vampires.txt:1175-1178	Los Recién Muertos: puede superar tamaño inicial al resucitar (no el máximo)	OK	rules.js:5502 cap max	
+leg_vampires-100	leg_vampires.txt:463	Perfil Necrófago M5 HA3 HP3 F3 R4 H1 I3 A2 Ld5, 9 pts	OK	data.js:1889	
+leg_vampires-101	leg_vampires.txt:464	Crypt Ghast A3 +6	OK	data.js:2461 [6,null,null]	
+leg_vampires-102	leg_vampires.txt:466-469	Infantería regular, 25x25, 10+, armas de mano	OK	data.js:1889 vc_ghouls sin máximo	
+leg_vampires-103	leg_vampires.txt:472	Campeón +6; sin portaestandarte ni músico	OK	data.js:2461	
+leg_vampires-104	leg_vampires.txt:474-475	Reglas: Moverse por Terreno, No muerto, Orden Abierto, Ataques envenenados, Regen 6+, Movimiento de Reserva, Escaramuzad	OK	data.js:1889	
+leg_vampires-105	leg_vampires.txt:481	Perfil Horror M6 HA3 HP0 F4 R5 H3 I2 A3 Ld5, 46 pts	OK	data.js:1918	
+leg_vampires-106	leg_vampires.txt:482	Crypt Haunter A4 +7	OK	data.js: CMD vc_horrors [7,null,null]	
+leg_vampires-107	leg_vampires.txt:484-487	Infantería monstruosa, 40x40, 3+, garras	OK	data.js:1919 vc_horrors sin máximo	
+leg_vampires-108	leg_vampires.txt:492-493	Reglas: Indomable (1), Moverse por Terreno, No muerto, Orden Abierto, Regen 6+, Pisotón (1)	OK	data.js:1920 vc_horrors stompN 1	
+leg_vampires-109	leg_vampires.txt:495-496	Garras: F, PA -1, Ataques envenenados	OK	data.js:1918 melee ap:1; sr poisoned	
+leg_vampires-110	leg_vampires.txt:503	Perfil Enjambre de Murciélagos M1 HA3 HP0 F2 R2 H5 I4 A5 Ld3, 39 pts	OK	data.js:1916	
+leg_vampires-111	leg_vampires.txt:505-508	Enjambres, 40x40, 3+, garras y colmillos	OK	data.js:1917 vc_batswarm sin máximo	
+leg_vampires-112	leg_vampires.txt:509	Reglas: Volar (7), No muerto, Regen 6+, Escaramuzadores	OK	data.js:1916; FLYX vc_batswarm 7	
+leg_vampires-113	leg_vampires.txt:513	Perfil Vargheist M6 HA4 HP0 F5 R4 H3 I4 A3 Ld7, 61 pts	OK	data.js:1909	
+leg_vampires-114	leg_vampires.txt:514	Vargoyle A4 +7	OK	data.js: CMD vc_vargheists [7,null,null]	
+leg_vampires-115	leg_vampires.txt:516-519	Infantería monstruosa, 40x40, 3+, garras	OK	data.js:1909 vc_vargheists sin máximo	
+leg_vampires-116	leg_vampires.txt:524-525	Reglas: Perforante (2), Vitalidad Oscura, Inflamable, Volar (9), Frenesí, Indomable (1), Regen 6+, Escaramuzadores	OK	data.js:1909; FLYX vc_vargheists 9	
+leg_vampires-117	leg_vampires.txt:527-528	Garras F, PA -2	OK	data.js:1909 melee {ap:2, ab:2}	
+leg_vampires-118	leg_vampires.txt:533	Perfil Murciélago Funesto M1 HA3 HP0 F3 R3 H2 I3 A2 Ld3, 15 pts	OK	data.js:1893	
+leg_vampires-119	leg_vampires.txt:536-539	Infantería monstruosa, 40x40, 3+	OK	data.js:1894 vc_fellbats monInf 3+	
+leg_vampires-120	leg_vampires.txt:540-541	Reglas: Volar (10), No muerto, Regen 6+, Escaramuzadores, Zancada	OK	data.js:1893; FLYX vc_fellbats 10	
+leg_vampires-121	leg_vampires.txt:545	Perfil Hueste Espectral M6 HA3 HP0 F3 R3 H4 I1 A4 Ld4, 49 pts	OK	data.js:1899	
+leg_vampires-122	leg_vampires.txt:548-551	Enjambres, 40x40, 3-6, armas de mano	OK	data.js:1899 min3 max6	
+leg_vampires-123	leg_vampires.txt:552-553	Reglas: Espíritus Ligados, Etéreo, Ataques mágicos, No muerto, Orden Abierto, Regen 6+, Mov. Reserva	OK	data.js:1899	
+leg_vampires-124	leg_vampires.txt:555-561	Espíritus Ligados: no sujeto a Indisciplinado; usa Presencia Inspiradora y Mantened la Posición	OK	rules.js:2687 undisc excluye boundSpirits	
+leg_vampires-125	leg_vampires.txt:565	Perfil Caballero de Sangre HA5 HP3 F4 R4 H1 I4 A2 Ld7, 39 pts	OK	data.js:1907	
+leg_vampires-126	leg_vampires.txt:566	Kastellan A3 +7	OK	data.js: CMD vc_bloodknights [7,7,7]	
+leg_vampires-127	leg_vampires.txt:567	Pesadilla M7 HA3 F4 I2 A1	PARCIAL	data.js:1907 M7 mountAtk S4	VERIF v732: data.js:1915 vc_bloodknights: mountAtk {a1,S4,ap0} sin HA3 ni I2 de la Pesadilla; el motor usa HA5/I4 del jinete (no hay mountWS/mountI en rules.js); M7 A1 F4 OK
+leg_vampires-128	leg_vampires.txt:569-573	Caballería pesada, 30x60, 5+, armas de mano, lanzas, armadura pesada y escudos	OK	data.js:1907 vc_bloodknights sin máximo	
+leg_vampires-129	leg_vampires.txt:577-579	Campeón, portaestandarte, músico +7	OK	data.js: CMD vc_bloodknights [7,7,7]	
+leg_vampires-130	leg_vampires.txt:580	Estandarte mágico hasta 50	OK	data.js:1907 vc_bloodknights bnMax 50	
+leg_vampires-131	leg_vampires.txt:582	Armadura de placas en vez de pesada +5/modelo	OK	data.js:3860 fp	
+leg_vampires-132	leg_vampires.txt:583	Disciplinados +3/modelo	OK	data.js:3861 dr	
+leg_vampires-133	leg_vampires.txt:584-586	Kastellan: poderes vampíricos 25 y objetos 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_vampires-134	leg_vampires.txt:588-590	Reglas: Armas Malditas, Orden Cerrado, Contracarga, Vitalidad Oscura, Primera Carga, Inflamable, Indomable (1), Orgullo 	OK	data.js:1907 sr	
+leg_vampires-135	leg_vampires.txt:593-598	Armas Malditas: arma de mano con Ataques mágicos y PA -1	OK	data.js:1907 vc_bloodknights melee ap 1 + accursedW mágico	
+leg_vampires-136	leg_vampires.txt:599-605	Orgullo Marcial: todo modelo emite/acepta desafíos; no puede rechazarlos	OK	rules.js:4452 mustDuel martialPride (no puede rechazar)	
+leg_vampires-137	leg_vampires.txt:610	Perfil Caballero Negro HA3 HP0 F4 R4 H1 I3 A1 Ld6, 24 pts	OK	data.js:1897	
+leg_vampires-138	leg_vampires.txt:611	Hell Knight A2 +6	OK	data.js: CMD vc_blackknights [6,6,6]	
+leg_vampires-139	leg_vampires.txt:612	Corcel Esquelético M7 HA2 F3 I2 A1	OK	data.js:1897 vc_blackknights M7	
+leg_vampires-140	leg_vampires.txt:614-619	Caballería pesada, 30x60, 5+, armas de mano, armadura pesada y escudos	OK	data.js:1897 vc_blackknights sin máximo	
+leg_vampires-141	leg_vampires.txt:622-624	Toda la unidad: lanzas +2, barda +2	OK	data.js:3856-3858	
+leg_vampires-142	leg_vampires.txt:625-628	Campeón +6, portaestandarte +6, músico +6	OK	data.js: CMD vc_blackknights [6,6,6]	
+leg_vampires-143	leg_vampires.txt:629	Estandarte mágico hasta 50	OK	data.js:1897 vc_blackknights bnMax 50	
+leg_vampires-144	leg_vampires.txt:630	Hell Knight: objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_vampires-145	leg_vampires.txt:632-633	Reglas: Golpe Cortante (solo Caballeros Negros y Hell Knight), Orden Cerrado, Primera Carga, Regen 6+, Zancada	OK	data.js:1897	
+leg_vampires-146	leg_vampires.txt:638	Perfil Lobo Funesto M9 HA3 HP0 F3 R3 H1 I3 A1 Ld3, 8 pts	OK	data.js:1891	
+leg_vampires-147	leg_vampires.txt:639	Doom Wolf A2 +6	OK	data.js: CMD vc_direwolves [6,null,null]	
+leg_vampires-148	leg_vampires.txt:641-644	Bestias de guerra, 25x50, 5-20, garras y colmillos	OK	data.js:1891	
+leg_vampires-149	leg_vampires.txt:649-650	Reglas: No muerto, Orden Abierto, Regen 6+, Movimiento de Reserva, Carga Babeante, Zancada, Vanguardia	OK	data.js:1891	
+leg_vampires-150	leg_vampires.txt:652-656	Carga Babeante: +1 F en el turno que carga	OK	rules.js:4155	
+leg_vampires-151	leg_vampires.txt:659-661	Perfil Hexwraith HA3 HP0 F3 R3 H1 I2 A1 Ld5, 31 pts	OK	data.js:1905	
+leg_vampires-152	leg_vampires.txt:661	Hellwraith A2 +6	OK	data.js: CMD vc_hexwraith [6,null,null]	
+leg_vampires-153	leg_vampires.txt:662	Corcel Espectral M8 HA2 F3 I2 A1	OK	data.js:1905 M8	
+leg_vampires-154	leg_vampires.txt:664-669	Caballería ligera, 30x60, 5-10, armas de mano y a dos manos	PARCIAL	data.js:5300 vc_hexwraith melee GWP (armas a dos manos)	VERIF v732: data.js:1913 vc_hexwraith lightCav 30x60 5-10 y GWP (data.js:5577) ok; falta el ataque del Corcel espectral (casco: A1 F3 sin mountAtk/slots)
+leg_vampires-155	leg_vampires.txt:674-676	Reglas: Etéreo, Ataques Flamígeros, Volar (8), Mágicos, No muerto, Orden Abierto, Regen 6+, Segadores Espectrales, Zanca	OK	data.js:1905 sr spectralReapers	
+leg_vampires-156	leg_vampires.txt:678-687	Segadores Espectrales: sobrevolar unidad no trabada; F4 por modelo, sin armadura, flamígeros y mágicos	PARCIAL	rules.js:473 spectralReapers (tras mover en fase de movimiento); pref noReap; ai.js autoaprendizaje	VERIF v732: rules.js:566-585: elige automaticamente la unidad con mas modelos sobrevolados (la regla dice una unidad a eleccion); solo logE, sin popup; solo la renuncia global u.noReap | Si sobrevuela varias unidades, el motor elige la de más modelos sobrevolados y lo anuncia en el registro; el jugador puede renunciar con la preferencia
+leg_vampires-157	leg_vampires.txt:692-696	Trono del Aquelarre: F5 R5 H5; Doncellas A2 HA5 HP3 F5 I5 Ld7; Horda espectral A D6	OK	data.js:5296 vc_count_coven randA 8+D6; rules.js:4390 mountFrac randX	La Horda (F3) se resuelve con la F de la montura (F5): simplificación menor
+leg_vampires-158	leg_vampires.txt:697-701	Carro pesado, 50x100, 1, armadura 4+	OK	data.js:1850 Sv4/mountSv4	
+leg_vampires-159	leg_vampires.txt:705-707	Reglas: Orden Cerrado, Vitalidad Oscura, Primera Carga, Volar (8), Glamour, Impactos (D6+1), Objetivo Grande, Ataques al	OK	data.js:5296 randA 8+D6	
+leg_vampires-160	leg_vampires.txt:713-714	Glamour Espeluznante: test de Ld antes de impactar; si falla solo 6	OK	data.js:1850 sr beguile	
+leg_vampires-161	leg_vampires.txt:722-729	Estanque Adivinatorio: hechizo ligado nivel 2, CV 9+, repite 1s para impactar hasta el siguiente turno	OK	data.js:4932,4968; rules.js:3596	
+leg_vampires-162	leg_vampires.txt:732-733	Solo como montura; puntos añadidos al jinete (+210)	OK	data.js:5090 ppm 370; vc_thrall_coven 285	
+leg_vampires-163	leg_vampires.txt:737-740	Motor Mortis +195: F5 R5 H5; Banshees x3; Horda A D6	PARCIAL	data.js:1927 vc_mortis randA 3+D6; variantes 5+D6/4+D6	VERIF v732: data.js:1935 vc_mortis 195 pts T5 W5 A 3+D6 impactos D6+1; pero S3 (no F5 del carro) y la Horda (I1) comparte I3 con banshees: sin perfiles separados
+leg_vampires-164	leg_vampires.txt:741-744	Carro pesado, 50x100, armadura 4+	OK	data.js:1927 Sv4	
+leg_vampires-165	leg_vampires.txt:749-752	Reglas: Relicario Maldito, Tomo Blasfemo, Orden Cerrado, Vitalidad Oscura, Primera Carga, Volar (8), Impactos (D6+1), Ob	OK	data.js:1927	
+leg_vampires-166	leg_vampires.txt:754-759	Relicario Maldito: +1 M e I a No muertos necrománticos en alcance de mando	OK	rules.js:1476 mortisNear	
+leg_vampires-167	leg_vampires.txt:762-767	Tomo Blasfemo: +1 a lanzar para todos los Magos en alcance; doble tirada de percance	OK	rules.js:3440 miscast (Tomo: doble tirada de percance)	
+leg_vampires-168	leg_vampires.txt:770-771	Solo como montura de Nigromante/Acólito	OK	data.js:5736 ARMIES.vc sin vc_mortis (solo como montura)	
+leg_vampires-169	leg_vampires.txt:775-777	Carro de Cadáveres 115: F4 R4 H4; Corpsemaster A1; Muertos Inquietos A 2D6	OK	data.js:1925 vc_corpsecart randA 1+2D6	
+leg_vampires-170	leg_vampires.txt:779-782	Carro pesado, 50x100, 1, armadura 4+	OK	data.js:1924	
+leg_vampires-171	leg_vampires.txt:787-788	Corpsemaster: Mago nivel 1 de Nigromancia	OK	data.js:1924 wizard	
+leg_vampires-172	leg_vampires.txt:791-793	Corpsemaster: látigo +3 o lanza de caballería +3	PARCIAL	data.js:5536 opción cs (lanza de caballería); mountAtk randX	Falta el Látigo (+3): requiere ataque del jinete con Golpear primero separado del de Los Muertos Inquietos
+leg_vampires-173	leg_vampires.txt:794-796	Brasero +10 o Tintinabulación +15 obligatorio	OK	data.js:4715 armyIssues: Brasero o Tintinabulación obligatorio	
+leg_vampires-174	leg_vampires.txt:798-800	Reglas: Orden Cerrado, Vitalidad Oscura, Primera Carga, Impactos (D3+1), Indomable (1), Lore, No muerto, Ataques aleator	OK	data.js:1925 vc_corpsecart	
+leg_vampires-175	leg_vampires.txt:802-806	"Brasero: magos enemigos a 15"" aumentan CV en 1"	OK	rules.js:3854	
+leg_vampires-176	leg_vampires.txt:808-816	"Tintinabulación: +1 Herida con 4+ en Nehek a 15""; Inestable -1; acumulativa con Indomable"	OK	rules.js:6367,5080	
+leg_vampires-177	leg_vampires.txt:820-824	Carruaje Negro 205: F5 R6 H4; Wraith A2 HA3 I2 Ld5; Nightmares x2 M8	OK	data.js:1913	
+leg_vampires-178	leg_vampires.txt:824-830	Carro pesado, 50x100, armadura 3+	OK	data.js:1913 Sv3	
+leg_vampires-179	leg_vampires.txt:832-834	Reglas: Orden Cerrado, Primera Carga, Impactos (D6+2), Indomable (1), Mágicos, No muerto, Regen 6+, Carruaje Espectral, 	OK	data.js:1913	
+leg_vampires-180	leg_vampires.txt:836-845	Carruaje Espectral: Incorpóreo en Mando; pierde Impactos, gana Etéreo y Volar (10)	OK	rules.js:6343,2935,1479	
+leg_vampires-181	leg_vampires.txt:847-850	Guadaña espectral: ataques mágicos, sin salvación de armadura	OK	rules.js:4306 melee.noArm (vc_cairnwraith)	
+leg_vampires-182	leg_vampires.txt:853-855	Dragón Zombi +215: M6 HA4 F6 I5, +1 R, +5 H	OK	data.js:1844,5089-5094 (T6 W8 ppm 375)	
+leg_vampires-183	leg_vampires.txt:857-864	Behemoth, 100x150, Carroñeros, Orden Cerrado, Volar (9), Objetivo Grande, No muerto, Pisotón (D6), Zancada, Terror	OK	data.js:1844 sr; stompN D6	
+leg_vampires-184	leg_vampires.txt:860-861	Garras F -2; Aliento pestilente F2 PA -3; escamas armadura completa	OK	data.js:1844 mountAtk, ranged; 5094 mountSv 4	
+leg_vampires-185	leg_vampires.txt:866-870	Carroñeros: enemigos trabados -1 I	OK	rules.js:4023	
+leg_vampires-186	leg_vampires.txt:880	Solo como montura	OK	data.js:1844	
+leg_vampires-187	leg_vampires.txt:887	Perfil Terrorgheist M6 HA3 HP0 F5 R6 H6 I3 A4 Ld4, 205 pts	OK	data.js:1911	
+leg_vampires-188	leg_vampires.txt:889-893	Behemoth, 100x150, 1, garras, fauces y piel callosa (armadura ligera)	OK	data.js:1911	
+leg_vampires-189	leg_vampires.txt:894-896	Reglas: Orden Cerrado, Volar (9), Indomable (1), Infestado, Objetivo Grande, No muerto, Regen 5+, Pisotón (D6), Zancada,	OK	data.js:1911	
+leg_vampires-190	leg_vampires.txt:898-903	Infestado: al perder la última Herida, D6 impactos F2 PA-1 a unidades en contacto	OK	rules.js:2611	
+leg_vampires-191	leg_vampires.txt:905-911	Garras F PA-1 Perforante (1), Ataques envenenados; Fauces F PA-2 Perforante (1) Heridas múltiples (2); una fauces por tu	OK	rules.js:4269 poisonSkip (maw no envenenada)	
+leg_vampires-192	leg_vampires.txt:914-920	Como montura: +185, R+1, +5 H; A3 en perfil montura	OK	data.js:5426 vc_ghoulking_terror ppm 330	
+leg_vampires-193	leg_vampires.txt:924-925	Terror Abisal +120: M6 HA4 F5 I2 A3, +1 R, +4 H	OK	data.js:1847,5091 (T6 W7 ppm 280)	
+leg_vampires-194	leg_vampires.txt:927-933	Criatura monstruosa, 50x100, Orden Cerrado, Volar (9), Objetivo Grande, Pisotón (D3), Zancada, Terror	OK	data.js:5107 vc_count_terror tt monCreature, baseW 50	
+leg_vampires-195	leg_vampires.txt:935-940	Garras F PA-2; Cola venenosa Ataques envenenados, Golpe Primero, un ataque por turno	OK	data.js:5091 tail:true	
+leg_vampires-196	leg_vampires.txt:944-945	Solo como montura	OK	data.js:1847	
+leg_vampires-197	leg_vampires.txt:953	Perfil Varghulf M8 HA5 HP0 F5 R5 H4 I4 A4 Ld4, 140 pts	OK	data.js:1921	
+leg_vampires-198	leg_vampires.txt:955-958	Criatura monstruosa, 50x50, garras y piel callosa (armadura ligera)	OK	data.js:1921	
+leg_vampires-199	leg_vampires.txt:959-961	Reglas: Furia Bestial, Orden Cerrado, Contracarga, Vitalidad Oscura, Inflamable, Frenesí, Indomable (1), No muerto, Rege	OK	data.js:1921	
+leg_vampires-200	leg_vampires.txt:963-968	Furia Bestial: enemigos no reclaman puntos adicionales por flanco/retaguardia	OK	rules.js:4868	
+leg_vampires-201	leg_vampires.txt:970-971	Garras F PA-2	OK	data.js:1921 melee ap:2	
+leg_vampires-202	leg_vampires.txt:973-978	Poderes vampíricos: no afectan a la montura; cada poder una vez por ejército	OK	data.js:4713 armyIssues poder único por ejército; vpow	
+leg_vampires-203	leg_vampires.txt:980-984	Maldición del Revenante 50: +1 Herida	OK	data.js:3042	
+leg_vampires-204	leg_vampires.txt:985-992	Embaucar 40: test de Ld antes de impactar, si falla solo 6	OK	data.js:3043	
+leg_vampires-205	leg_vampires.txt:994-999	Horror Volador 35: solo infantería, Volar (10), no puede unirse	OK	data.js:3044	
+leg_vampires-206	leg_vampires.txt:1001-1007	Acólito Oscuro 30: gana Invocación de Nehek como Mago nivel 1	OK	data.js:2650	
+leg_vampires-207	leg_vampires.txt:984-987	Maestro de las Artes Negras 30: solo Conde nivel 2 o Esbirro nivel 1; +1 nivel	OK	data.js:3045	
+leg_vampires-208	leg_vampires.txt:989-993	Horror Sobrenatural 20: Terror	OK	data.js:3046	
+leg_vampires-209	leg_vampires.txt:995-1004	"Señor de la Noche 15: Mando, Ld propio, Murciélagos/Lobos a 12"" recuperan D6 Heridas"	OK	data.js:3047	
+leg_vampires-210	leg_vampires.txt:1010-1016	Objetos: comprables como Comunes; * son extremadamente comunes	OK	data.js:3048-3064 (star:true)	
+leg_vampires-211	leg_vampires.txt:1020-1028	Hoja Gélida 60: Golpe Mortal, mágica; test de R o Golpea Último e I 1	PARCIAL	data.js:3048	VERIF v732: data.js:3076 + rules.js:5550: test R -> fx frost = Golpea Ultimo (I1 solo en melee, rules.js:4676); no anula I en otros chequeos ni si hay Golpea Primero; afecta a la unidad entera
+leg_vampires-212	leg_vampires.txt:1030-1037	Espada de Reyes 55: F+1 PA-1, Golpe Mortal con 5+, mágica	OK	data.js:3049	
+leg_vampires-213	leg_vampires.txt:1039-1046	Bebedor de Sangre 45: PA-1 mágica, recupera 1 Herida	OK	data.js:3050	
+leg_vampires-214	leg_vampires.txt:1048-1057	Lanza del Terror 40: F+2 PA-2 Perforante (1), solo cargando, caballería/monstruo, repite impactar	OK	data.js:3051	
+leg_vampires-215	leg_vampires.txt:1059-1065	Cota Desollada 35: armadura pesada válida para Magos, salvación 6+	OK	data.js:3052	
+leg_vampires-216	leg_vampires.txt:1067-1075	Armadura Maldita 30: infantería/caballería, armadura completa, +1 R, -1 HA e I	OK	data.js:3078 vcl_accursed notRe	
+leg_vampires-217	leg_vampires.txt:1079-1085	Anillo von Carstein 40: solo Vampiros, un uso; 2+ para no perder la última Herida	OK	data.js:3079 vcl_ring onlyRe	
+leg_vampires-218	leg_vampires.txt:1087-1095	Corona de los Condenados 35: salvación 4+ y Estupidez	OK	data.js:3055	
+leg_vampires-219	leg_vampires.txt:1097-1108	Yelmo de Mando 40: Nigromantes y Tumularios, +D3 HA	OK	data.js:3060; rules cmdUse helm	
+leg_vampires-220	leg_vampires.txt:1110-1124	Mano de Polvo 35: solo Nigromantes, ligado nivel 2 CV 9+, 2D6 impactos F5 PA-1, se deshace con 1	OK	data.js:5102 hand_dust onlyRe	
+leg_vampires-221	leg_vampires.txt:1126-1131	Capa de Niebla y Sombras 30: Nigromantes de infantería, Etéreo	OK	data.js:3086 vcl_mist onlyRe + infOnly	
+leg_vampires-222	leg_vampires.txt:1097-1104	"Bastón Calavera 50: +3"" alcance de disipación y +1 a disipar"	OK	data.js:3062	
+leg_vampires-223	leg_vampires.txt:1109-1118	Cetro de de Noirot 35: Nehek dos veces; con 1 pierde Herida	PARCIAL	data.js:3063; rules.js:6356-6362	VERIF v732: rules.js:7537 permite 2 Nehek con noirot (D6, con 1 pierde Herida) pero main.js:1228 oculta el botón tras el primer uso (c.nehekK===turnKey): el humano no puede hacer la 2ª invocación
+leg_vampires-224	leg_vampires.txt:1120-1129	Familiar de Hechizos 15: 0-1 por Mago, un hechizo más	OK	data.js:3064	
+leg_vampires-225	leg_vampires.txt:1063-1066	Estandarte de los Túmulos 65: solo Señor Tumulario PEB; 3+ para impactar	OK	data.js:4715 armyIssues Estandarte de los Túmulos solo Señor Tumulario PEB	
+leg_vampires-226	leg_vampires.txt:1068-1074	Estandarte de Drakenhof 50: mejora la Regeneración en 1	OK	data.js:3057	
+leg_vampires-227	leg_vampires.txt:1076-1082	Estandarte Gemebundo 45: Miedo, D6 extra descartando el menor	OK	data.js:3058	
+leg_vampires-228	leg_vampires.txt:1084-1089	Estandarte de Vigor Infernal 40: Movimiento de Reserva	OK	data.js:3059	
+leg_vampires-229	leg_vampires.txt:1140-1153	Golpe Cortante: 6 para herir sin salvación de armadura/regen contra ciertos tipos	OK	rules.js:4672 cleave	
+leg_vampires-230	leg_vampires.txt:1141-1153	Indomable (X): reduce Heridas del Inestable en X; no acumulativo (usa el mayor)	OK	rules.js:5080	
+leg_vampires-231	leg_vampires.txt:1155-1162	Vitalidad Oscura: sin Muerte del General; puede marchar (con montura)	OK	rules.js:424-445 Muerte del General (exento) + marcha	
+leg_vampires-232	leg_vampires.txt:1159-1170	No muerto necromántico: no marchar salvo volar; Miedo, Inmune a psicología, Inquebrantable, Inestable	OK	rules.js:6323 joinCheck No muerto necromántico / Etéreo	
+leg_vampires-233	leg_vampires.txt:1179-1199	"Treno quejumbroso: Disparo, 8"", test de Ld -2, Heridas igual al fallo sin salvaciones"	OK	rules.js:6862-6873	
+leg_vampires-234	leg_vampires.txt:1171-1200	Resurrección: orden de curación (personajes, multi-herida, campeón, estandarte, músico, resto)	PARCIAL	rules.js:466 necroHeal	VERIF v732: rules.js:559 necroHeal: solo reserva de Heridas (personajes y luego tropa); no resucita campeon, portaestandarte ni musico en orden, ni coloca en fila frontal/trasera | El motor trata la tropa como reserva de Heridas (personajes unidos primero, luego modelos heridos y resurrección; Recién Muertos hasta tamaño máximo); campeón/estandarte/músico no se modelan como modelos sueltos
+leg_vampires-235	leg_vampires.txt:1206-1207	Lore of Undeath: descartar hechizo aleatorio y elegir signature o de la lista	OK	data.js:4949-4953 legacyLore	
+leg_vampires-236	leg_vampires.txt:1210-1228	Danza Macabra de Vanhal: CV 8+/12+, +D3 a M/HA/I a elegir (1 o 2), hasta siguiente turno	OK	rules.js:6653 pref danseA/danseB; UI main.js; ai.js	
+leg_vampires-237	leg_vampires.txt:1210-1224	Vigor Infernal: CV 7+/10+, Movimiento de Reserva a 1 unidad / a todas	OK	rules.js:6653 pref vigTgt; UI main.js; ai.js	Se mantiene la condición de unidad no movida (reserva de movimiento)
+leg_vampires-238	leg_vampires.txt:1230-1248	"Alzar a los Muertos: CV 10+, 2D3 Zombis Resucitados a 12"", sin cargar, sin PV"	PARCIAL	rules.js:3753 raiseDead (vc_risen)	Colocación automática (hacia el enemigo más cercano); falta elegirla el jugador
+leg_vampires-239	leg_vampires.txt:1238-1240	Zombi Resucitado: Escaramuzadores y Los Recién Muertos; no valen Puntos de Victoria	OK	data.js:5297 vc_risen (Escaramuzadores, Recién Muertos, sin Horda/Orden cerrado)	

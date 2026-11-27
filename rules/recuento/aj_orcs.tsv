@@ -1,0 +1,9 @@
+AJOR-001	AJ Orcs	Kiknik Toofsnatcha (105 pts, Chompa M9) perfil y reglas, Protege al jefe	OK	data.js gob_kiknik	Coste v797; reglas v658
+AJOR-002	AJ Orcs	Ogdruz Swampdigga (195 pts) perfil y reglas	OK	data.js orc_ogdruz	v658
+AJOR-003	AJ Orcs	Bruja Troll (235 pts, Behemoth, W6) y Lore of Troll Magic	OK	data.js troll_hag	v658
+AJOR-004	AJ Orcs	Ogros de las Tierras Yermas (31 pts, Aplastador +7)	OK	data.js orc_ogre_bulls	v658
+AJOR-005	AJ Orcs	Carro de Jabalíes de Orcos Negros (130 pts, tripulación x2, Jabalíes x2)	OK	data.js black_chariot	v658
+AJOR-006	AJ Orcs	Gigante Triturador (300 pts, W8, tabla de ataques)	OK	data.js orc_bonegrinder	v658
+AJOR-010	AJ Orcs	Listas Nomadic Waaagh!, Troll Horde, Brutes of the Badlands, Looters & Raiders: porcentajes y límites	OK	data.js OR_NOMAD/OR_TROLL; INF	v656; Regeneración mejorada para cualquier modelo con Regeneración
+AJOR-020	AJ Orcs	Objetos mágicos O&G AJ (Akrit Axe, Ídolo de Gork, Sombrero, Araña, Escudo Rencoroso, Baduumm, Apuñalaespaldas, Hoja, etc.)	OK	data.js items; rules.js	v656–v668 (Escudo Rencoroso al herir v668; Baduumm explosión)
+AJOR-030	AJ Orcs	Escenario Ambush at Winter's Teeth Pass	OK	rules.js SCN	verificado en sesiones previas

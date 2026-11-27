@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+aj_dwarfs2.tsv	aj_dwarfs2-048	CONFIRMA	data.js:4851 mm=0.25 para royal/expedition; MERCS.dw.expedition definida (data.js:3698)
+leg_daemons.tsv	leg_daemons-034	PARCIAL	data.js:5871/rules.js:4833: flailFirst exige u.chargeOK; la regla da F+2 en la primera ronda aunque lo carguen; si el Sanguinario es cargado pierde el bono
+cathay.tsv	cathay_aj-061	CONFIRMA	data.js ct_lanterns: Sv 4, baseW/D 100, ppm 135, min/max 1, files 1, tt heavyChar
+core_6.tsv	core6-007	CONFIRMA	rules.js:2408 (minRange/range) y shootCheck con LDV (indirecto aparte); rules.js:2861-2873 plantilla en tplCenter(target) = centro de la unidad
+leg_ogres.tsv	leg_ogres-030	CONFIRMA	data.js ok_tyrant/ok_bruiser: sr fear, impact (2, F5, PA-1 Carga de Toro), bullCharge, ogreCharge; Perforante(1) via AB() data.js:5738, sin montura
+core_3.tsv	c3-025	CONFIRMA	rules.js:6523 rallyTest: frac=models/startModels <0.25 => solo doble 1 natural; <0.5 => -1 Ld
+leg_vampires.tsv	leg_vampires-189	CONFIRMA	data.js:1919 vc_terrorgheist: closeOrder, flyer (FLYX 9), indom1, infested, large, undead, regen 5, stomp (D6 por defecto rules.js:5702), swiftstride, terror, wailing
+cathay.tsv	cathay_aj-052	PARCIAL	data.js:4928/4725: el limite 0-1 por 1.000 se cuenta por tipo (ct_jade y ct_jade_spear por separado) aunque son una misma entrada del libro; costes +1/+2/50 correctos
+faq_core_4.tsv	FC4-55	CONFIRMA	data.js:3324 itemFacOk: objeto comun (sin fac) o it.fac===d.faction del modelo
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-166	CONFIRMA	rules.js:2965-2970: dos dados de artilleria; un fallo = -1 impactar; dos = sin disparos y -1 Herida; disparos=suma
+leg_ogres.tsv	leg_ogres-190	CONFIRMA	data.js okl_spangle ward 4; rules.js:2062 un 1 natural en la tirada de anulacion destruye el objeto (ward=0 tambien anula otras salvaciones del lote)
+leg_darkelves.tsv	leg_darkelves-105	CONFIRMA	data.js:1639-1640 de_blackguard bnMax 100; bannerBudget data.js:3207
+leg_daemons.tsv	leg_daemons-276	CONFIRMA	rules.js:4563 +1 a lanzar si Tzeentch y mago (no altera doble 1); rules.js:177/4918 ALIGN_FOE tzeentch<->nurgle da Odio
+core_7.tsv	core_7-053	CONFIRMA	rules.js:246 monolith obj {feat:true,vp:200} + rules.js:6937 (+50 normal) y 6952 (+200) se suman
+cathay.tsv	faq_cathay-012	CONFIRMA	data.js:2535 ct_dragoneye deye 4; rules.js:8132-8136 D6 4+ obliga a elegir otro objetivo, con registro
+aj_bretonnia.tsv	aj_bretonnia-011	CONFIRMA	"rules.js:1084-1086 colina 16x16, pendiente peligrosa 8"" de ancho, zona plana 8x8 con empalizada"
+leg_daemons.tsv	leg_daemons-105	CONFIRMA	data.js:1993 dm_nurglings: swarm 40x40, min 3, veneno, solitario, ataques aleatorios D3+1, regen 6, escaramuza, 45 pts
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-104	CONFIRMA	data.js:2466 CMD cd_guard [6,6,6]; estandarte hasta 50 (bnMax por defecto)
+leg_vampires.tsv	leg_vampires-156	PARCIAL	rules.js:566-585: elige automaticamente la unidad con mas modelos sobrevolados (la regla dice una unidad a eleccion); solo logE, sin popup; solo la renuncia global u.noReap
+core_8.tsv	core_8-007	PARCIAL	data.js:2418 y rules.js:1776/4397/4699: +1 M/R/I correcto pero M no se limita a 10 (mvOf solo Math.max(1,...))
+leg_daemons.tsv	leg_daemons-062	PARCIAL	data.js:3463/5567: Trono M7 R5 H4 +160 base 50x100 ok, pero tripulacion de 2 Sanguinarios simplificada: mountAtk a5 F5 para todos (tripulante F4 I4 distintos) y sin HP/Ld propios
+core_8.tsv	core_8-077	PARCIAL	data.js dawnstone rr1save: rules.js:2061 y 2066 aplican el mismo flag a repeticion de 1 en salvacion especial y Regeneracion; la regla solo cubre salvacion de armadura
+faq_core_2.tsv	F2-034	CONFIRMA	"rules.js:268 bm_close zonas 22x15: borde corto 15"" (resto del mapa no verificable por OCR)"
+leg_vampires.tsv	leg_vampires-028	CONFIRMA	data.js:4339 VCV opcion sh Escudo +2, avOpt shield
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-142	CONFIRMA	data.js cd_render: M7 HA4 HP2 F4 R5 H3 I3 A2 Ld8, 56 pts, monCav
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-127	CONFIRMA	"data.js:5836 cd_sneakygits: regInf 25x25, min 10, melee extra (dos armas), ranged lanzadas 9"" F3 2 disparos; Ld5 I4 6 pts"
+battlemarch_quickref.tsv	battlemarch-061	PARCIAL	"data.js:4823-4824 cuenta cat!=""char""; Linterna Celeste (cat char, comp rare, no es personaje) no cuenta como unidad no personaje; swarm/warBeasts bien excluidos"
+leg_darkelves.tsv	leg_darkelves-170	PARCIAL	data.js:5820-5823 de_scourge: sr hatred generico (rules.js:4918 has(u,hatred)) = Odio contra todos; el libro dice Odio (Altos Elfos) solo
+leg_daemons.tsv	leg_daemons-190	CONFIRMA	data.js:3482/5983-5988 dm_burningchariot: lores 4, w2 +30, w3 +60, ib 50 (6057-6059); dm_burning retirado de ARMIES (5950)
+faq_core_2.tsv	F2-020	CONFIRMA	data.js:2302 foot_gork dist 2D6, D3+3 F5 PA-1, terreno dificil; rules.js:6402-6407 se mueve en cada Inicio de turno de ambos jugadores
+leg_darkelves.tsv	leg_darkelves-231	CONFIRMA	rules.js:4782: martial permite ataques de apoyo sin front para armas thrust/dread (lanzas/alabardas de apoyo)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-224	PARCIAL	rules.js:4783: ensorcelled da PA-1 salvo twoHands/extra/melee.ap; no excluye lanza/estocada, arma magica equipada ni montura (solo sr magical via data)
+aj_empire2.tsv	aj_empire2-120	CONFIRMA	data.js:4108-4119 ORD(chr,spec) magRes para Gran Maestre, Maestre de Capitulo e Inner Circle de ord_pan
+core_5.tsv	C5-099	CONFIRMA	rules.js:6993-7015 joinCheck: host cat inf/cav (un personaje no es anfitrion), varios personajes permitidos, limite por fila de combate
+leg_vampires.tsv	leg_vampires-064	CONFIRMA	data.js:5630-5638 opciones Rey/Senor Tumulario: Escudo +2 (avOpt shield)
+leg_lizardmen.tsv	leg_lizardmen-166	PARCIAL	data.js:3020 lml_firefly grant poisoned: rules.js:4916 p.poison (has) aplica tambien a la montura y con arma magica; solo flaming excluye montura (rules.js:5456)
+faq_core_3.tsv	28	PARCIAL	rules.js:3575-3586: D3+1 independiente de tirada de carga (ok), pero la Contracarga es automatica: sin eleccion del jugador (la regla dice may) ni de a quien contracargar, solo logE sin popup
+core_4.tsv	C4-130	PARCIAL	rules.js:4672-4684 effI: I1 previo a otros mod. y anula con Golpear primero (ok), pero la regla strikeLast (data.js:5877 Espada de bilis) no se consulta: solo melee.last la activa
+aj_highelves.tsv	aj_highelves-027	CONFIRMA	data.js:3324 itemFacOk: comunes o fac he del modelo (High Elf Realms)
+core_8.tsv	core_8-043	CONFIRMA	"data.js:2374 spectral_steed; rules.js:3847 solo personaje de infanteria a 12"", 4291 fx steed rip, has0 etereo, mvOf Volar 10"
+aj_wood2.tsv	aj_wood2-088	CONFIRMA	data.js:754-755 we_warden: closeOrder, drilled, elvenRef, mtCover, strikeFirst, stubborn, immunePsy (+parry, courageBeyond)
+leg_skaven.tsv	leg_skaven-174	PARCIAL	rules.js:4857 bellXA suma atk += 1 al total de la unidad; Ataques adicionales (1) es +1 por modelo (a)
+leg_lizardmen.tsv	leg_lizardmen-107	CONFIRMA	data.js:1725-1727 lm_coldones: closeOrder, coldBlooded, fear, stupidity, swiftstride, melee ap1 (Obsidiana), mountAtk ab1 solo Gelido, hide 1
+aj_bretonnia.tsv	aj_bretonnia-052	PARCIAL	"data.js:4897 exige type===""br_paladin""; Paladin a Pegaso/Pegaso real (br_paladin_peg, br_paladin_rpeg) no cuenta para 1+ Paladin"
+faq_libros.tsv	RQ11	PARCIAL	data.js:4678 Jinetes de Jabalí Basica solo si General Jefe de Guerra Y hay otro personaje montado en jabali (no es regla); data.js:4908 no comprueba que sea el General
+aj_beasts2.tsv	aj_beasts2-092	CONFIRMA	data.js:3777-3779 Gor 7 pts A1 Ld6, Ungor 6 pts HA3 R3 Ld5; CMD campeon Desgarrador +7 (bm_gor [7,5,5])
+leg_daemons.tsv	leg_daemons-017	CONFIRMA	data.js:4689-4690 General Slaanesh: dm_fiends, dm_hellflayer, dm_seekerchariot pasan a especial
+core_7.tsv	core_7-020	CONFIRMA	rules.js:237 tower obj {feat,vp:200}; rules.js:6937 +50 normal y 6952 +200 se acumulan
+core_5.tsv	C5-163	CONFIRMA	data.js:48 av(): ARM - shield - barding - hide, minimo 2+
+leg_darkelves.tsv	leg_darkelves-055	PARCIAL	"rules.js:1719 usa 12"" fijos para el -1 Ld de Grito de Guerra; la regla es el alcance de mando de la Bruja (commandRange = su Ld)"

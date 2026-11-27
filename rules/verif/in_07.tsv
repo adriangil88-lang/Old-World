@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+leg_darkelves.tsv	leg_darkelves-198	leg_darkelves.txt:854-857	Criatura monstruosa, 40x40, mano, mirada petrificante y armadura ligera	OK	data.js:1649	
+core_8.tsv	core_8-051	Waaagh! p.335 l.10809	"Pie de Gork (o Mork): Vortice 8+, 15"", 5"", FAQ: terreno dificil, 2D6"" cada Inicio, D3+3 F5 FP-1 a cualquier unidad"	OK	data.js:2290 vx{all,dist 2D6}; rules.js:5357	
+leg_daemons.tsv	leg_daemons-012	leg_daemons.txt L65-84	La alineacion del General se toma del personaje alineado mas caro, no del General elegido	OK	data.js:4469 generalOf+dmAlign	Un Principe Demonio alineado como General no cambia categorias; General real no se consulta
+core_6.tsv	core6-001	p.? Bolt Throwers	Perfil lanzavirotes: R48 F6 FP-3, Heridas múltiples (2), Mover o disparar, Torpe	OK	data.js:1447-1449 (dw_bolt), 1570,1655; rules.js:2038	Perfil leído en data; Mover o disparar comprobado en shootCheck1
+aj_wood2.tsv	aj_wood2-032	aj_wood2.txt:768-790	Worthy of Kurnous: repetir 1 naturales al impactar en Disparo o Combate contra la presa	OK	rules.js resolveShot0 rer (worthy)	
+cathay.tsv	cathay_aj-085	cathay_aj.txt 2200-2208	Granito: inmune a Heridas multiples (X); herida sin salvar = 1 herida	OK	rules.js:1643	
+aj_orcs2.tsv	aj_orcs2-078	aj_orcs2.txt:1154-1157	Carro Orco Negro: perfil: Carro F5 R5 H4 130 pts; tripulación HA4 HP3 F4 R4 I3 A1 Ld8; jabalíes M7 HA3 F3 I3 A1	OK	data.js:795	Carro F5 solo afecta al perfil del carro (impactos F5 implementados); tripulación HA4 F4 A1 por modelo correcta
+aj_orcs2.tsv	aj_orcs2-056	aj_orcs2.txt:1010-1011	Bruja Troll: equipo: Tocón, vómito, aliento de pantano, piel escamosa (armadura pesada)	OK	data.js:833	
+aj_highelves.tsv	aj_highelves-011	aj_highelves.txt:618-620	Defensor +100 PV por cada Mago suyo vivo al final	OK	rules.js:5904-5907	
+core_6.tsv	core6-049	Hills / Vantage Point	Unidad enteramente en colina ve a través de unidades no en colina; y es vista a través de unidades no en colina por unidades no en colina	OK	rules.js:2086	onHill exige todas las esquinas dentro de la colina
+leg_daemons.tsv	leg_daemons-167	leg_daemons.txt L774	"Horrores Rosados: llamas de Tzeentch (18"", F3, flamigeras, Disparos multiples 2, Disparo rapido)"	OK	data.js:1982	Falta Disparo rapido
+core_6.tsv	core6-059	Arcane Monolith	Controlador gana Resistencia a la Magia (-1)	OK	rules.js:1570	mrOf: el controlador del Monolito gana Res. Magia (-1)
+battlemarch_quickref.tsv	quickref-033	quickref.txt L118-120	Movimientos obligatorios: todos se hacen en esta subfase	OK	rules.js endPhase; runAway; reservas (enter)	Estructura de subfases implícita
+core_6.tsv	core6-066	Dark Ruins / Defended Position	La carga va contra el elemento; todos los arcos son frontales; siempre tras obstáculo bajo defendido	OK	rules.js:3311 (darkBld/darkAura/darkImm), 341 (SFEAT_CORE), 6728 (+100 PV), garrisonOpts	Dark Ruins no implementado
+aj_wood2.tsv	aj_wood2-098	aj_wood2.txt:1241-1246	Lanza asrai: Combate F FP-1, Luchar en filas extra	OK	data.js:750 melee thrust ap1	
+aj_wood2.tsv	aj_wood2-138	aj_wood2.txt:1587-1594	Hunt Master Pride 35: FP-2 mágica HM(2) solo contra monstruosos; solo OWH	OK	data.js:3087	
+aj_highelves.tsv	aj_highelves-122	aj_highelves.txt:1576-1577	Merwyrm reglas: Orden cerrado, Impactos (D3), Gran objetivo, Pisotón (D3+1), Terror	OK	data.js:1538-1539	
+leg_daemons.tsv	leg_daemons-285	leg_daemons.txt L1446-1451	"Death's heads: 12"", F+1, PA-1, Mover y disparar, Heridas multiples D3"	OK	data.js:1996,5380	No hay arma arrojadiza para Portadores de la Plaga ni Zanganos
+aj_highelves.tsv	aj_highelves-062	aj_highelves.txt:1185-1186	Ishaya reglas: Voz de mando, Armas de ithilmar, Disciplina naval, Grito de reagrupamiento, Atacar primero, Ataques de pr	OK	data.js:1523	
+aj_dwarfs2.tsv	aj_dwarfs2-045	aj_dwarfs2.txt L731-737	Fuerza Expedicionaria: personajes hasta 50%; 1+ Ingeniero o Zapador	OK	data.js:3433-3436	
+aj_empire2.tsv	aj_empire2-088	aj_empire2.txt:1306-1314	Ogros Imperiales: 0-1 unidad como Mercenarios en Montañas Enanas e Imperio, sujeta a Mercenarios Díscolos	OK	data.js:3520,3527,4437	
+faq_libros.tsv	Q10	FoF FAQ DMH	Runas del arma de Doomseeker se aplican a Impact Hits	OK	rules.js chargeImpacts whirlDeath	Impactos con perfil y runas de las hojas
+leg_ogres.tsv	leg_ogres-152	leg_ogres.txt:950-957	Esqueleto de piedra: -1 Herida perdida por Heridas múltiples (mín. 1)	OK	rules.js:1747	
+faq_core_1.tsv	FQ1-049	Errata p.186 Skirmishers & Charging	Pueden cargar a enemigo visible para más del 50 % de sus modelos al declarar cargas	OK	rules.js: skirmSeesHalf + chargeTargets	Visión por modelo >50%
+leg_ogres.tsv	leg_ogres-185	leg_ogres.txt:843-849	Tenderiser 70: F+2 FP-3 Ataques extra (+1) Mágico Heridas múltiples (D3) Golpea último	OK	data.js:3006	
+core_5.tsv	C5-134	p.213 Hand Weapons	Todos los modelos tienen arma de mano (HA, F, sin AP)	OK	rules.js:3959	Perfil base
+aj_orcs2.tsv	aj_orcs2-065	aj_orcs2.txt:1076-1080	Slimy Shanks: Enemigo que ataca a este modelo sufre -1 a impactar	OK	rules.js:4368, 4626	
+leg_ogres.tsv	leg_ogres-211	leg_ogres.txt:1038-1042	"Par de pistolas: disparo 24"" F4 FP-1 Perforante (1) Disparos múltiples (2) Disparo rápido; en combate Ataques extra (1) "	OK	data.js:~5246 (bloque v700 Ogros)	Maneaters bp con ataque extra
+core_5.tsv	C5-045	p.196 Behemoth	Thunderstomp: no se puede usar contra otro monstruo	OK	rules.js:4573-4574	if (!isMonster(e)) -> no se pisotea a monstruos
+leg_skaven.tsv	leg_skaven-045	leg_skaven.txt:167-168	"Mosquete de disformidad +9: 24"", F5, FP-2, Magical Attacks, Ponderous"	OK	data.js:4126	
+dawn_renegade_sc.tsv	renegade_web-082	renegade_web.txt:209-213	Gigante Triturador: 300 pts, M6 HA3 HP1 F7 R7 H8 I3 Ld10; behemot; Terror, Inquebrantable, Timmm-berrr!, Pisotón D6+1	OK	data.js:840-842 orc_bonegrinder	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-152	leg_chaosdwarfs.txt:412	Perfil Iron Daemon M5 F8 R7 H7, 275 pts	OK	data.js:2184 cd_ironDaemon	
+aj_wood2.tsv	aj_wood2-142	aj_wood2.txt:1618-1622	Ariel Favour 30: Resistencia a la Magia (-2)	OK	data.js:3092	
+faq_core_4.tsv	FC4-21	p15 dcha / Armas de guerra	Las reglas de un arma no se aplican a los ataques de la montura	OK	rules.js:ataques de montura sin reglas de arma	Los ataques de montura usan ...wo (kb, dmg, flaming, rerollOnes, cleave del jinete)
+leg_daemons.tsv	leg_daemons-180	leg_daemons.txt L838-841	Lanzallamas: Demoniaco, Ataques flamigeros, Escaramuza, Mover a traves de cobertura	OK	data.js:2005	
+battlemarch_quickref.tsv	battlemarch-084	battlemarch.txt L1596-1597	Terminado el despliegue, el ganador de una tirada elige quién juega primero	OK	rules.js:1058 RO bm_* [0,1]	
+cathay.tsv	cathay_notes-019	cathay_notes.md Armeria nota	Notas confirman dados cathay_aj: Cathayan lance S+1 AP-1 AB1 FER	OK	data.js spear:true spearAp1 spearAb1	
+aj_dwarfs2.tsv	aj_dwarfs2-134	aj_dwarfs2.txt L1258	Scout Gyrocopter: M1 (Fly 10) HA4 HP4 F4 R4 H3 I2 A2 L9, 60 pts	OK	data.js:1423 (M10 como vuelo)	M se representa como el vuelo 10
+aj_wood2.tsv	aj_wood2-069	aj_wood2.txt:1016-1022	Cuerno de la Cacería: una vez por partida en Mando, unidades en alcance de mando ganan Frenesí hasta fin de turno	OK	rules.js apply0 a.t horn; ai.js optionGroups hn; main.js botón	
+aj_highelves.tsv	aj_highelves-050	aj_highelves.txt:1081-1084	Korhil perfil M5 HA7 HP5 F4 R3 H3 I6 A4 L9, 175 pts; infantería pesada; peana 25; tamaño 1	OK	data.js:1502-1503	
+faq_core_1.tsv	FQ1-077	Errata p.327 Flaming Sword	Valor de lanzamiento 7+	OK	data.js:2326	
+faq_libros.tsv	F56	FoF AJ Wood Elf p.34 Spectral Hounds	Mientras queden Sabuesos Orion no puede ser blanco de disparos enemigos	OK	rules.js:2023	
+aj_wood2.tsv	aj_wood2-009	aj_wood2.txt:726-731	Personajes hasta 50%	OK	data.js:4448 by.char > 50%	
+core_6.tsv	core6-035	Dangerous Terrain	Como difícil para el movimiento; cada modelo que empieza, atraviesa o acaba en terreno peligroso hace test D6: 1 pierde una Herida	OK	rules.js:6469	feats por solape de unidad; test por modelo y elemento
+leg_darkelves.tsv	leg_darkelves-107	leg_darkelves.txt:417-418	Reglas: Orden cerrado, Reflejos, Odio eterno, Odio, Inmune a psicología, Maestría marcial, Tozudos	OK	data.js:1631 sr	
+cathay.tsv	cathay_aj-008	cathay_aj.txt 1123-1128	0-3 maquinas de guerra (Cohetes, Gran Canon) por 1.000 pts	OK	data.js:4496	Incluye variantes con Cargador ogro
+aj_chaos2.tsv	aj_chaos2-153	aj_chaos2.txt L1500-1502	Warpfire Mago Nivel 1 +30, Nivel 2 +60	OK	data.js:4257 ppm	
+aj_dwarfs2.tsv	aj_dwarfs2-052	aj_dwarfs2.txt L739-746	Expedicionaria Core (mín. 25%): Warriors, Thunderers y Dwarf Carts	OK	data.js:3434-3435 (dw_cart core)	
+battlemarch_quickref.tsv	quickref-014	quickref.txt L25-30 (tabla)	Disfunción 8-9 Poder Apenas Controlado: se lanza (al VL para dispersar) y no puede lanzar más este turno	OK	rules.js:3360-3363 miscast1 (noMore; return 1)	
+aj_beasts2.tsv	aj_beasts2-136	aj_beasts2.txt:1630-1639	Armadura Pesada del Caos* 30 pts: armadura pesada, Magos pueden llevarla, salvacion especial 5+; extremadamente comun	OK	data.js:~2812 star	

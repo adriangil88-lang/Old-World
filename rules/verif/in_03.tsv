@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+aj_dwarfs2.tsv	aj_dwarfs2-119	aj_dwarfs2.txt L1191-1192	Gromril great axe: F+2, FP-3, Requires Two Hands, Strike Last	OK	data.js:3540 (sb2 ap3 twoHands last)	
+aj_orcs2.tsv	aj_orcs2-120	aj_orcs2.txt:1397-1399	Objetos extremadamente comunes (*): Objetos con asterisco extremadamente comunes	OK	data.js:3069 (star)	
+core_5.tsv	C5-075	p.199 Musicians	Casualties: el musico se pierde solo si es de los ultimos modelos (tras portaestandarte/campeon)	OK	rules.js:1603	applyWounds: el musico solo cae si quedan solo mando; es el primero en caer
+leg_ogres.tsv	leg_ogres-071	leg_ogres.txt:297	Crusher: +6 pts, A4	OK	data.js:2459 (ok_bulls champ 6)	
+core_3.tsv	c3-084	Move Backwards (p.125)	Retroceder: Movimiento a la mitad	OK	rules.js:1904	
+leg_darkelves.tsv	leg_darkelves-167	leg_darkelves.txt:671-673	Carro Azote: F4 R4 H4, 85 pts; tripulación Maestros de Bestias; Corceles	OK	data.js:5263	
+leg_vampires.tsv	leg_vampires-011	leg_vampires.txt:85-87	Especiales: hasta 50%; 0-1 unidad Guardia de las Tumbas o Caballeros Negros por 1.000 pts	OK	data.js:4530	Más 1 Básica con Tumularios (suma per+1)
+aj_dwarfs2.tsv	aj_dwarfs2-075	aj_dwarfs2.txt L937-938	Ungrim Ironfist: M3 HA9 HP4 F4 R6 H3 I5 A4 L10, 315 pts	OK	data.js:4196	
+core_3.tsv	c3-074	Remaining Moves (p.123)	Unidades en huida, que cargaron o con movimiento obligatorio no vuelven a mover	OK	previewMove rules.js:1872-1873	
+aj_dwarfs2.tsv	aj_dwarfs2-174	aj_dwarfs2.txt L1480-1490	Runa de Fuego Rápido 15 pts: Multiple Shots (2) y Quick Shot	OK	data.js:2897; rules.js:2215	
+leg_skaven.tsv	leg_skaven-176	leg_skaven.txt:671-672	Campana: solo como montura de personaje, puntos sumados al jinete	OK	data.js:1754 mount:true	
+core_2.tsv	C2-123	Magic: Miscast Table 10-12	No se pueden intentar más hechizos el resto del turno	OK	rules.js miscast1 noMore	10-12 fija noMore
+leg_skaven.tsv	leg_skaven-204	leg_skaven.txt:824-826	Misfire D6 1 Meltdown: no dispara y se destruye	OK	rules.js:2358	
+leg_lizardmen.tsv	leg_lizardmen-147	leg_lizardmen.txt:690,694	Transcendent Healing 35 pts: Regeneration (5+)	OK	data.js:2998	
+aj_empire2.tsv	aj_empire2-117	aj_empire2.txt:1497-1504	Órdenes: admisión Maestres: Pantera +10, Lobo Blanco +15, Sol +10, Morr +15, Corazón +15	OK	data.js ORD (chr)	Costes +10/+15/+10/+15/+15
+leg_vampires.tsv	leg_vampires-076	leg_vampires.txt:364-371	Corcel Esquelético M7 HA2 F3 I2 A1, caballería pesada, Primera Carga, No muerto, Zancada	OK	data.js:1873 M7 mountAtk S3; sr firstCharge swiftstride	Barda de serie: data.js:5458
+leg_lizardmen.tsv	leg_lizardmen-167	leg_lizardmen.txt:815-821	Horned One* 10 pts: Saurus Hero en Cold One, pierde Stupidity y M8	OK	data.js:2993; data.js:121	
+aj_dwarfs2.tsv	aj_dwarfs2-131	aj_dwarfs2.txt L1236	IDM: runas de estandarte hasta 50 pts	OK	data.js bnMax 50	
+core_3.tsv	c3-177	Excess Casualties (p.149)	Bajas en exceso reducen los ataques de apoyo	OK	rules.js:3965	
+aj_orcs2.tsv	aj_orcs2-040	aj_orcs2.txt:893-894	Kiknik: All Sneaky Like Emboscadores gratis: 0-1 mob de Jinetes de Lobo con Emboscadores gratis	OK	data.js:3354, 4433	
+leg_lizardmen.tsv	leg_lizardmen-022	leg_lizardmen.txt:107	Slann: una Disciplina de los Old Ones	OK	data.js:2997-3003	
+leg_lizardmen.tsv	leg_lizardmen-005	leg_lizardmen.txt:71-73	Core: al menos 25 % de puntos	OK	data.js generico Gran Ejercito	
+leg_daemons.tsv	leg_daemons-120	leg_daemons.txt L519	Heraldo de Slaanesh: M6 HA6 HP4 F4 R3 H2 I6 A3 Ld8, 85 pts	OK	data.js:1943	
+faq_libros.tsv	Q06	FoF FAQ Dwarfs	Con Hesitation el enemigo no puede usar Press of Battle	OK	rules.js:3910, 3950 (hesitNow)	
+faq_libros.tsv	R08	RH p.46 Quell Impetuosity	"Unidad impetuosa a 6"" puede repetir el chequeo de Ld"	OK	rules.js:5514	
+battlemarch_quickref.tsv	battlemarch-151	battlemarch.txt L2335-2345	Vómito de Troll: arma de combate, un ataque adicional contra enemigos en contacto, al final, impacto automático	OK	rules.js:4716 (trollVomit)	Perfil F3 FP-2 según OCR del texto
+core_2.tsv	C2-035	Model Profiles: Characteristic Tests	6 natural siempre falla, 1 natural siempre supera; característica 0 o «-» falla automáticamente	OK	rules.js cFail:1565	6 falla, 1 supera, característica 0 o «-» falla
+faq_libros.tsv	RQ29	RH FAQ TK AJ	Terrors Below usa la FU de la unidad que lo usa	OK	rules.js:5210-5212 (usOf(res))	
+leg_daemons.tsv	leg_daemons-031	leg_daemons.txt L114-116	Sanguinario: Impactos (D3) con F6 (F del modelo)	OK	data.js:1958	Impactos con F5 en vez de F6
+leg_darkelves.tsv	leg_darkelves-007	leg_darkelves.txt:81-83	Especiales hasta 50%: Verdugos, Brujas Elfas, Sombras, Arpías	OK	data.js:1622,1628,1643,1653 comp:special	
+faq_core_1.tsv	FQ1-001	Errata p.101 Combat Result Bonus	Orden de combate, formación cerrada con Fuerza de Unidad 10+: +1 punto de resultado de combate	OK	rules.js:4729 (sideScore)	Condición: closeOrder, no escaramuza, cat inf/cav, files>=ranks, usOf>=10
+core_4.tsv	C4-004	Resultado de combate p.152	Heridas salvadas por Regeneración siguen contando para el resultado	OK	rules.js:4649 (real + x.regen)	Verificado en la suma de wounds
+faq_core_1.tsv	FQ1-009	Errata p.110 Dispel Roll & Result	Resultado de dispersión = tirada + Nivel/2 redondeando arriba	OK	rules.js:3254 (dMod), rules.js:3330	
+aj_bretonnia.tsv	aj_bretonnia-053	aj_bretonnia.txt L983	Damiselas y Sargentos de Armas	OK	data.js:3323 BR_CRUSADE	
+core_8.tsv	core_8-022	Alta Magia p.328 l.10494	"Drenar Magia (firma): Hex 9+, Propio, permanece; Magos enemigos a 24"" del lanzador suben +2 el VL de sus hechizos"	OK	data.js:drain_magic type hex self:true; rules.js spellTargets/castCheck	Ahora es Hex Propio
+aj_tk2.tsv	aj_tk2-025	aj_tk2.txt L770-778	Culto Mortuorio: uso con Reyes Funerarios de Ravening Hordes: Ejército de Infamia que sustituye al Gran Ejército	OK	data.js:3401,3449 INF.mortuary	
+leg_vampires.tsv	leg_vampires-056	leg_vampires.txt:259-266	La Sed: 6 en D6 recupera 1 Herida si causó heridas sin salvar; persigue con un solo D6	OK	rules.js:5186,5153	
+leg_skaven.tsv	leg_skaven-232	leg_skaven.txt:998-1003	Scurry Away: +1 al resultado de huida	OK	data.js:195; rules.js:2778	
+aj_empire2.tsv	aj_empire2-133	aj_empire2.txt:1605-1607	Hoja de Acero Plateada: solo en AoI de Órdenes de Caballería; no muertos sin salvación de armadura ni regeneración	OK	data.js item list knights; armyIssues	
+aj_wood2.tsv	aj_wood2-051	aj_wood2.txt:928-935	In Tune With Nature: Magos Elfos, Ancianos y Hechiceras Rama pueden conocer Lore of the Wilds	OK	rules.js:769	
+leg_lizardmen.tsv	leg_lizardmen-036	leg_lizardmen.txt:150-153	Skink Priest/Chief: regular infantry 25x25 1 modelo; arma de mano y piel curtida (armadura ligera)	OK	data.js:~1708 lm_skpriest arm light	Sacerdote Skink sin armadura ligera (arm none); Jefe correcto
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-021	leg_chaosdwarfs.txt:84-89	Portaestandarte de Batalla: un Infernal Seneschal por +25, un estandarte magico sin limite	OK	data.js:2458 cd_seneschal [null,25,null]; bsb	
+aj_orcs2.tsv	aj_orcs2-093	aj_orcs2.txt:1291-1299	Gigante Triturador: Dogs of War: 0-1 Mercenario en Orcos y Goblins, Guerreros del Caos y Brayherds	OK	data.js:3548 (MERCS woc/bm grand)	
+leg_skaven.tsv	leg_skaven-134	leg_skaven.txt:523	Giant Rat: perfil 6/2/0/2/3/1/4/1/3, 3 pts	OK	data.js:1769	
+core_3.tsv	c3-162	Supporting Attacks (p.145)	Detrás de un modelo en fila de combate; no al flanco/retaguardia ni desde la fila de combate	OK	attackProfile0 rules.js:3957-3961	
+battlemarch_quickref.tsv	battlemarch-014	battlemarch.txt L826-834	Weisnicht: cinco rondas o hasta que un bando se rinda; Puntos de Victoria de p.27	OK	rules.js:206 (turns:5); 5944-5960 scoreVP smallVP	La rendición no es una acción del motor
+core_4.tsv	C4-059	Terreno y combate p.159	Terreno impasable impide alinear: carga desordenada; hueco => Desorganizada	OK	doCharge alignFail rules.js	Terreno impasable que impide alinear: carga desordenada
+aj_chaos2.tsv	aj_chaos2-118	aj_chaos2.txt L1304-1316	Forma Deformada: elegir en Paso 1.1 de Elegir y Combatir una Transfiguración hasta tu siguiente turno	OK	rules.js wfPref/wfClaws..; main.js; ai.js wf	"Elige el jugador (wfPref); ""auto"" es una opción explícita del jugador; la IA lo aprende"
+faq_libros.tsv	F55	FoF AJ Wood Elf p.34 Orion	Borrar Fear	OK	data.js we_orion (sr sin fear; terror)	
+dawn_renegade_sc.tsv	cathay_dawn-018	cathay_dawn.txt:293-306	Las mediciones desde/hacia la unidad ocupante se hacen al edificio; visión 360° y línea de visión sobre otros modelos	OK	rules.js:1491-1520,6405 (edificios Dawn: garrison, plantillas, cañón, asalto, rotura)	Medición al edificio sí; visión de 360° no verificada en el código

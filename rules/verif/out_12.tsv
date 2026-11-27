@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+core_6.tsv	core6-039	CONFIRMA	"rules.js:3690-3763 alignFail: con Terreno impasable busca contacto desplazando; chargeDisordered incluye alignFail (sin +1 I). La nota ""No implementado"" esta obsoleta"
+leg_lizardmen.tsv	leg_lizardmen-067	CONFIRMA	data.js:4018 UNITS.lm_saurus.opts ts coste 1 por modelo, melee thrust
+aj_bretonnia.tsv	aj_bretonnia-035	CONFIRMA	data.js:3449 BR_EXILES_C br_questing rare; br_brigands comp rare; data.js:4869 limite Raras 33% para exiles
+leg_lizardmen.tsv	leg_lizardmen-063	CONFIRMA	"rules.js:3019 Slann a 3"" de lm_temple, D6 por impacto 2+ transfiere; opcion del jugador via pref noGuard (main.js:1253). Solo disparo; sin popup pero con boton y log"
+faq_core_1.tsv	FQ1-082	PARCIAL	rules.js:3846 filtra no huye y !moved, pero ademas exige !isEngaged: restriccion no presente en la errata (permite unidades trabadas)
+leg_lizardmen.tsv	leg_lizardmen-027	CONFIRMA	data.js:1680 lm_oldblood M4 WS6 BS0 S5 T5 W3 I3 A5 Ld8 ppm140
+core_6.tsv	core6-011	CONFIRMA	rules.js:2871-2888: sin LDV (spotted) un Hit! desvia dado Artilleria - BS (min 0), flecha normal; Ojo del Dragon cuenta como avistador. Declaracion deducida (sin LDV=indirecto)
+aj_beasts2.tsv	aj_beasts2-057	CONFIRMA	data.js NAMED.kralmaw: M5 WS3 BS3 S4 T5 W4 I3 A2 Ld8 ppm 245
+core_5.tsv	C5-122	PARCIAL	rules.js:5019,7413 chalRetire: el retador nomina (pref previa) pero solo entre personajes unidos (k===j); un campeon que podria aceptar no es nominable si hay personajes
+leg_daemons.tsv	leg_daemons-090	CONFIRMA	data.js:1945 dm_herald_nurgle ib:50; data.js:3333 itemIssues limita Dones a 50
+leg_vampires.tsv	leg_vampires-074	CONFIRMA	data.js:6045 vc_ghoulking_terror (145+185=330): T6 W8 (+1T +5H), A+4, Fly 9, regen, infested, perfil del Terrorgheist heredado
+leg_lizardmen.tsv	leg_lizardmen-087	PARCIAL	LDV a traves de Skinks (rules.js:2324) y mover/apartar (2190-2295, nudgeSkinks) OK, pero la carga (placeCharge/checkPlacement rules.js:3689, sin skinkScr) no atraviesa Skinks amigos
+faq_core_4.tsv	FC4-54	PARCIAL	rules.js:1023-1030 reparte n1=ceil(N/2) y n2 entre 2 Lores al azar, pero el 2o Lore es fijo (battle/wilds/waaagh/lady) y el reparto 2/1 lo decide el motor, no el jugador
+faq_core_3.tsv	32	CONFIRMA	rules.js:5967 unidad drilled reforma (prueba todos los frentes) antes de ceder terreno si saldria de la mesa; con log
+leg_darkelves.tsv	leg_darkelves-032	CONFIRMA	data.js:5145 SET para de_sorceress/de_supreme y variantes: battle, daemonology, dark, elementalism, illusion
+dawn_renegade_sc.tsv	renegade_web-096	CONFIRMA	data.js:3682,3695 MERCS.empire/dw grand incluyen imp_ogres; data.js:4852 limite 0-1 unidad
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-145	CONFIRMA	data.js:5856 cd_render opts gw coste 4 por modelo (y escudos 3)
+core_7.tsv	core_7-044	CONFIRMA	rules.js:247 SCENARIOS.surprise turns:6; rendicion en rules.js:6963
+faq_core_2.tsv	F2-088	CONFIRMA	rules.js:2901 hillRank solo si corners(u).every dentro de la colina (unidad entera); la nota del TSV esta obsoleta
+aj_highelves.tsv	aj_highelves-107	CONFIRMA	data.js:3809-3811 he_woodsmen wb arcos de guerra coste 1, ha armadura pesada coste 1 por modelo
+battlemarch_quickref.tsv	battlemarch-067	CONFIRMA	rules.js:941-960 tras colocar terreno: D6 1-2 dos tesoros, 3-4 tres, 5-6 un punto estrategico
+leg_vampires.tsv	leg_vampires-167	CONFIRMA	rules.js:4512 +1 al lanzar a todo mago (amigo o enemigo) en alcance de mando del Tomo; rules.js:3907 miscast tira dos veces y aplica ambas
+core_7.tsv	core_7-057	CONFIRMA	"rules.js:248 laststand: colina 14"" central + rasgo monolito o monumento (featPick, rules.js:889)"
+core_5.tsv	C5-160	CONFIRMA	data.js:46-48 ARM none=7, av() resta escudo (7->6)
+aj_highelves.tsv	aj_highelves-049	CONFIRMA	data.js:1510 he_korhil 175 pts, noItems, unique; permitido en listas con he_whitelions; check data.js:4763 exige Leones Blancos
+faq_libros.tsv	RQ18	CONFIRMA	rules.js:501 clashDuel: duelistas temporales sin banner, std ni mus (solo los dos participantes)
+battlemarch_quickref.tsv	battlemarch-086	CONFIRMA	rules.js:6812+ scoreVP: destruida PV completos, huyendo mitad, reducida a 25% o menos mitad (Muertos o huidos); smallVP para BM
+leg_vampires.tsv	leg_vampires-161	CONFIRMA	data.js:5404 scrying_pool enchant CV9 range 0 bound:2; rules.js:4237 fx djaf (repetir 1 al impactar) hasta tu siguiente turno; lanzable trabado
+dawn_renegade_sc.tsv	sc_tower-016	CONFIRMA	rules.js:783 smallVP (seize): General 50, estandarte 25, BSB 25; torre +100 (rules.js:256 obj vp100); gana mas PV
+aj_chaos2.tsv	aj_chaos2-066	PARCIAL	"rules.js:154 stDark regex /Cav|lightChar|heavyChar/ incluye Caballeria monstruosa (monCav), que no es ""cavalry""; excluye personajes montados (tt char). Repeticion en carga/huida/persecucion OK"
+leg_vampires.tsv	leg_vampires-176	CONFIRMA	"rules.js:7548 D6 4+ cura +1 Herida en Nehek a 15""; rules.js:5937 Inestable pierde -1 (acumulativo con indom)"
+battlemarch_quickref.tsv	quickref-050	CONFIRMA	rules.js:1787 applyWounds: cada herida no salvada resta una Herida, a 0 baja
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-255	CONFIRMA	data.js:2942 cdl_breath 25 pts single breathW; rules.js:1731 BREATHW S4 AP-2 flamigero magico
+battlemarch_quickref.tsv	quickref-013	CONFIRMA	rules.js:3955 miscast1 r===7: woundAndSave(1 impacto, F4, FP1) sobre el mago
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-143	CONFIRMA	data.js:3233/CMD cd_render [6,6,6]: campeon Ba'hal +6 pts por unidad
+aj_highelves.tsv	aj_highelves-075	CONFIRMA	data.js:1527 he_garrison M5 WS6 BS7 S4 T3 W2 I5 A3 Ld9 90 pts, arm light, arco de guerra
+faq_libros.tsv	RQ15	CONFIRMA	"rules.js:4499 Titere Infernal actua en la tirada de lanzamiento de cualquier hechizo (incluye ligados), enemigo a 15"", dueno no huye ni trabado"
+leg_darkelves.tsv	leg_darkelves-223	PARCIAL	data.js:3002 del_eye; rules.js:2979 se consume automaticamente en la primera descarga sin que el jugador decida cuando usarlo (uso unico); resto OK (repite fallos, portador y unidad)
+aj_empire2.tsv	aj_empire2-022	CONFIRMA	data.js:3324 itemFacOk: fac empire o comunes para la lista nuln; objetos list:knights excluidos (data.js:4716)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-037	CONFIRMA	data.js:4379 WIZUP cd_daemonsmith/cd_daemonsmith_taurus nivel 2 +30 (opcion w2 tambien en lammasu, verificado)
+dawn_renegade_sc.tsv	sc_shores-002	CONFIRMA	data.js:6289 SCN_REQ shores limit 2000, bando woc grand/wolves vs he grand/garrison, free:true (otros ejercitos)
+aj_empire2.tsv	aj_empire2-080	PARCIAL	data.js:3653 imp_ogres ppm 29 pero aj_empire2 dice 31 (renegade_web 2026 dice 29); resto perfil M6 WS3 BS3 S4 T4 W3 I2 A3 Ld7, monInf 40x40 OK
+leg_daemons.tsv	leg_daemons-137	CONFIRMA	data.js:2014 dm_fiends M8 WS4 BS0 S4 T4 W3 I6 A3 Ld7 66 pts
+aj_bretonnia.tsv	aj_bretonnia-162	CONFIRMA	data.js:2886 brsaj_grace 75 godsBan; rules.js:1716-1720 ignora modificadores negativos de Ld
+aj_chaos2.tsv	aj_chaos2-129	CONFIRMA	data.js:3207 bannerBudget por defecto 50 (woc_huscarls sin bnMax)
+leg_daemons.tsv	leg_daemons-136	CONFIRMA	data.js:2007,5923-5924 dm_seekers: counterCharge fastCav swiftstride openOrder skirmish; Perforante y Veneno solo del corcel (STEED slot abX1 poison)
+dawn_renegade_sc.tsv	renegade_web-092	PARCIAL	El limite 0-1 unidad de Enanos Imperiales mercenarios solo se valida en lista renegade (data.js:4881); en Gran Ejercito Imperio/Enanos no hay check (5 variantes dw_impmerc*)
+core_7.tsv	core_7-058	CONFIRMA	"rules.js:248 zf: defensor cuadrado 18"" central, atacante z gap 8; ALT_RULE laststand whole/def (rules.js:1305)"
+faq_libros.tsv	Q30	CONFIRMA	rules.js:2392,3033 hawkEye solo en disparo del arco asrai; hechizos ligados usan loneProtected sin hawkEye (rules.js:3865)
+core_8.tsv	core_8-092	PARCIAL	rules.js:7372 pot T D3, max 10 OK, pero fx expira al inicio del siguiente turno propio (rules.js:6221) en vez de al final del turno actual: dura tambien el turno rival

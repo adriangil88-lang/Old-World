@@ -1,0 +1,166 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+C5-001	p.190 Unit Strength	Fuerza de Unidad = modelos actuales x FU por modelo (la FU de personajes unidos se suma)	OK	rules.js:165-171	usOf; los personajes unidos suman su FU
+C5-002	p.190 Troop Type Tables	Modelos por fila minimos para dar Bonificacion de Filas	OK	rules.js:1340-1353; data.js:30-44	rankBonus cuenta filas con >= minRank modelos; no cuenta en Columna, Escaramuza, Alterada ni personajes/maquinas
+C5-003	p.190 Troop Type Tables	Bonificacion maxima de filas por tipo de tropa	OK	rules.js:1352; data.js:30-44	min(n, maxRank); Horda +1 en data.js:384
+C5-004	p.190 Regular Infantry	Tabla: 5 por fila, +2 max, FU 1	OK	data.js:30	
+C5-005	p.191 Heavy Infantry	Tabla: 4 por fila, +2 max, FU 1	OK	data.js:31	
+C5-006	p.191 Monstrous Infantry	Tabla: 3 por fila, +2 max, FU 3	OK	data.js:32	
+C5-007	p.191 Swarms	Tabla: sin filas, FU 3	OK	data.js:40	minRank 99 = sin bonus
+C5-008	p.192 Light/Heavy/Monstrous Cavalry, War Beasts	Tablas: 5/+1/2, 4/+1/2, 3/+1/3, 5/+1/1	OK	data.js:33-37	
+C5-009	p.194 Chariots	Tablas: ligero 3/+1/3, pesado -/-/5	OK	data.js:38-39	
+C5-010	p.195 Monsters	Tabla criatura monstruosa/behemot: sin filas, FU = Heridas iniciales	OK	data.js:41-42,381	d.us = d.W para monCreature/behemoth; usOf = models x us
+C5-011	p.197 War Machines	Tabla maquina de guerra: FU = Heridas iniciales	OK	rules.js:175	usOf usa startModels x W (Heridas iniciales)
+C5-012	p.190 FAQ 1.5.2 Regular Infantry	Press of Battle: la fila de combate (orden de combate, salvo el turno de carga) tiene 2 filas de fondo	OK	rules.js:3949-3951	Excluye lanza/empuje/escaramuza; segunda fila ataca con los mismos Ataques
+C5-013	p.190 FAQ 1.5.2 Regular Infantry	Massed Infantry: +1 resultado de combate si el bando tiene mayor FU e incluye infanteria regular/pesada	OK	rules.js:4731-4732	usAfter compara FU de ambos bandos
+C5-014	p.190 FAQ 1.5.2 Regular Infantry	Parry: arma de mano + escudo mejora la armadura en 1 en combate, maximo 3+	OK	rules.js:1645	Solo regInf/heavyInf con escudo, sin lanza/empuje/dos manos/extra; svOf>3 asegura el tope 3+
+C5-015	p.191 FAQ 1.5.2 Heavy Infantry	Press of Battle, Massed Infantry y Parry tambien para infanteria pesada	OK	rules.js:3949,4732,1645	Mismas condiciones tt in [regInf, heavyInf]
+C5-016	p.191 Heavy Infantry	Steady in the Ranks: no queda Alterada por flanco/retaguardia salvo enemigo FU 10+	OK	rules.js:4299-4305	Umbral 10 si tt=heavyInf, 5 en el resto; solo en Orden cerrado/abierto no se distingue (aplica tambien a escaramuza, sin efecto)
+C5-017	p.191 Monstrous Infantry	Clumsy: solo admite personajes tambien Clumsy	OK	rules.js:5918-5919	FAQ: un Clumsy puede unirse a unidad no Clumsy (clC)
+C5-018	p.191 Swarms	Insignificant: se puede trazar linea de vision a traves de un enjambre	OK	rules.js:2089	rayBlockedByUnits ignora enjambres
+C5-019	p.191 Swarms	Insignificant: los enjambres se ignoran al elegir objetivo entre personajes enemigos	OK	rules.js:2114	loneProtected ignora enjambres al hallar el blanco mas cercano
+C5-020	p.191 Swarms	No One Cares: los enjambres nunca causan Panico en unidades amigas	OK	rules.js:2912	Nadie se preocupa: ningun enjambre causa Panico
+C5-021	p.191 Swarms / p.191 War Beasts	Undisciplined: no usan Presencia Inspiradora ni Mantened la Posicion	OK	rules.js:2654,1418,2658	undisc(u) con excepciones runPack/boundSpirits; bsbNear y gen lo respetan
+C5-022	p.192 Light Cavalry	Split Profile: las reglas especiales de jinete/montura se aplican a ambos salvo indicacion	OK	data.js:u() 376-387	Perfil unico por unidad; sr a nivel de unidad
+C5-023	p.192 Light Cavalry	Jinete y montura usan sus propias HA, HP, F, I y A y sus armas	OK	rules.js hit loop mountAtk.ws; data.js mountAtk.ws	v763: perfiles exactos por elemento (personaje/tripulación/bestias) con ranuras de ataque; HA/I de todas las monturas con fila en los libros. Sin fila de libro no queda ninguna.
+C5-024	p.192 Light Cavalry	Los enemigos impactan contra la HA del jinete	OK	rules.js:4481,4225	Se usa dd.WS de la unidad (jinete)
+C5-025	p.192 Light Cavalry	Impactos de carga y Pisoton usan la F de la montura	OK	rules.js:3092-3102,4574-4577	Pisoton: d.mountAtk.S; impactos: S fijo en data (impact.S)
+C5-026	p.192 Light Cavalry	Tirada de salvacion usa la armadura del jinete	OK	rules.js:1451-1466	svOf sobre Sv de la unidad (jinete + barda via av())
+C5-027	p.192 Light Cavalry	Si el jinete llega a 0 Heridas se retira el modelo entero	OK	rules.js:1480-1500	Reserva unica de Heridas (la del jinete)
+C5-028	p.192 Cavalry Support	En ataque de apoyo solo ataca el jinete, no la montura	OK	rules.js:3925,3958	supN suma 1 ataque por modelo de apoyo; los ataques de montura solo van en la fila de frente (mountFrac 4075)
+C5-029	p.192-193 Heavy/Monstrous Cavalry	Split Profile y Cavalry Support (remite a Light Cavalry); Monstrous Cavalry Clumsy	OK	rules.js:5918	Clumsy via clU (monCav)
+C5-030	p.194 Light Chariots	Split Profile: usa el Movimiento de las bestias; tripulacion y bestias con sus propias caracteristicas	OK	data.js mountAtk	v763: perfiles exactos por elemento (personaje/tripulación/bestias) con ranuras de ataque; HA/I de todas las monturas con fila en los libros. Sin fila de libro no queda ninguna.
+C5-031	p.194 Light Chariots	Impactos de carga/Pisoton usan la F del carro; carro a 0 Heridas retira el modelo	OK	rules.js:3092-3102	impact S por unidad en data.js; reserva unica de Heridas
+C5-032	p.194 Light Chariots	Iron Shod Wheels: terreno dificil = peligroso	OK	rules.js:5957	"terrainEffects: dangerTest si has(u,""chariot"") y hay terreno dificil"
+C5-033	p.194 Light Chariots	Iron Shod Wheels: obstaculos lineales = terreno impasable	OK	rules.js:2052	previewMove rechaza cruzar muros (obstaculos lineales) con carros (sr chariot); el terreno dificil ya era peligroso (terrainEffects)
+C5-034	p.194 Light Chariots	Iron Shod Wheels: un 1 en la prueba de terreno peligroso pierde D3 Heridas	OK	rules.js:5965	"lost += has(u,""chariot"") ? d3 : 1"
+C5-035	p.194 Light Chariots	Churning Wheels: solo admite personajes con la misma regla	OK	rules.js:5892	"joinCheck: ""solo se unen personajes en carro"""
+C5-036	p.194 Light Chariots	Firing Platform: vision de 360 grados al disparar	OK	rules.js:2045	"shootCheck1 exime de arco frontal a ""chariot"""
+C5-037	p.194 Light Chariots	Firing Platform: vision de 360 grados al lanzar hechizos	OK	rules.js:3439	spellTargets: carros, escaramuzadores y personajes Solitarios sin limite de arco; disparo de carros ya era 360
+C5-038	p.195 Heavy Chariots	Scythed Wheels: Impactos de carga con Perforacion -2	OK	rules.js:3098	Impactos de cualquier carro pesado (tt heavyChar) con Perforacion -2 como minimo
+C5-039	p.195 Heavy Chariots	Lumbering: se considera Orden cerrado aunque sea un solo modelo	OK	rules.js:156	has0: Lumbering (heavyChar/monCreature/behemoth) cuenta siempre como Orden cerrado
+C5-040	p.195 Heavy Chariots	Lumbering: tras mover (salvo cargar/marchar/huir) puede pivotar hasta 90 grados sobre su centro	OK	rules.js:156	Giro libre hasta 90 grados tras mover para Lumbering (free en previewMove)
+C5-041	p.195 Heavy Chariots	Lumbering: no puede unirse a una unidad ni ser unido por personajes	OK	rules.js:6409	joinCheck rechaza LUMB como personaje o unidad
+C5-042	p.195 Monstrous Creature	Ridden Monster: personajes pueden montar monstruo (p.204)	OK	data.js tt monCreature/behemoth cat char	Variantes de personaje montado en data
+C5-043	p.195 Monstrous Creature/Behemoth	Lumbering (ver Heavy Chariots)	OK	rules.js:155	LUMB = heavyChar, monCreature, behemoth
+C5-044	p.196 Behemoth	Thunderstomp: Pisoton con Perforacion -2	OK	rules.js:4574-4577	d.tt===behemoth -> ap 2
+C5-045	p.196 Behemoth	Thunderstomp: no se puede usar contra otro monstruo	OK	rules.js:4573-4574	Reverificado v737: Pisotón no se usa contra monstruos (regla)
+C5-046	p.197 War Machines	Split Profile: Resistencia y Heridas de la dotacion en combate, de la maquina fuera de combate	OK	data.js crewT/crewW; rules.js crewWOf, machCrewMode, applyWounds, woundAndSave0	v812: perfil dividido completo. Datos de dotación (R y H) extraídos de FoF, RH, AJ y Legends: Trabuquete 4H, Lanzarrayos Skaven 3H, Mortero Terremoto 3H, Lanzavirotes Hobgoblin 2H, Cortagoblins 1H/1A, Reaper 2H, Yunque (máquina R7 H5; dotación R5 H4) y Ataúd (R6 H4; dotación R3 H4) separados en vez de sumados. En combate (trabada) valen R y H de la dotación; fuera, las de la máquina; si cualquiera llega a 0 se retira el modelo; -1 Ataque por Herida de dotación perdida.
+C5-047	p.197 War Machines	Cada Herida de la dotacion da -1 Ataques	OK	rules.js:4288	Ataques = max(1, A - Heridas perdidas)
+C5-048	p.197 War Machines	Tirada de salvacion usa la armadura de la dotacion	OK	rules.js:1451	Sv de la unidad = dotacion
+C5-049	p.197 War Machines	Si la dotacion o la maquina llega a 0 Heridas se retira el modelo	OK	rules.js:1480-1500	v753 Core p.197: dos contadores — en combate cuentan Resistencia y Heridas de la dotación, fuera de combate (disparo, hechizos) las de la máquina (u.mDmg); si cualquiera llega a 0 se retira el modelo entero
+C5-050	p.197 War Machines	We're Not Paid to Fight: si se rompe y huye de un combate, se destruye	OK	rules.js:4930	"res===""break"" y cat mach -> destroy"
+C5-051	p.197 War Machines	Weapon of War: no marchan	OK	rules.js:1883	
+C5-052	p.197 War Machines	Weapon of War: no declaran cargas	OK	rules.js:2824	chargeTargets devuelve [] para mach
+C5-053	p.197 War Machines	Weapon of War: no hacen movimiento de persecucion	OK	rules.js:4961	Los ganadores mach se saltan la persecucion
+C5-054	p.197 War Machines	Weapon of War: -1 al resultado de la tirada de huida (minimo 1)	OK	rules.js:2742	dist = max(1, dist-1)
+C5-055	p.197 FAQ 1.5.2 War Machines	Pivotar libremente sobre su centro justo antes de disparar sin contar como movida	OK	rules.js:2170	shootCheck/resolveShot: pivote libre antes de disparar sin contar como mover
+C5-056	p.197 War Machines	Puede hacer movimiento de seguimiento (follow up) como normal	OK	rules.js:5440	Las maquinas hacen seguimiento (no persiguen)
+C5-057	p.197 War Machines	Una maquina que pierde un combate puede retirarse en buen orden o ceder terreno	OK	rules.js:4930	Solo la ruptura destruye; fall/give se resuelven como normal
+C5-058	p.197 War Machines	Basing: tripulacion junto a la maquina	NA	-	Colocacion fisica de peanas; el motor no modela modelos individuales
+C5-059	p.198 Command Groups	Los modelos del grupo de mando cuentan como tropa (rank and file) salvo indicacion	OK	rules.js:1690	rf = models - mix (el mando cuenta como tropa)
+C5-060	p.198 Command Groups	Posicion en la fila delantera / centrado / reposicion al girar (Make Way)	NA	-	No hay modelos individuales (reserva de Heridas); posicion sin efecto de juego
+C5-061	p.199 Champions	Caracteristicas propias del campeon (mejores que sus companeros)	OK	rules.js ldOf/slotsOf; data.js champLd/champWS/champI/champS/champBS	v817: auditados todos los perfiles de campeón de fof/rh/AJ (Ld, HA, I, HP); añadidos Espadones HA5, Pistoleros HP/Ld, Arqueros/Guardia del Mar HP, Guardia de la Tumba I3, jinetes orcos/goblin y Jinetes del Caos Ld. El resto: coinciden con tropa +1 A.
+C5-062	p.199 Champions	Champions & Shooting: el campeon dispara al mismo objetivo con sus caracteristicas	OK	rules.js:2461	champBS: el campeón dispara al mismo objetivo con su HP propia (rules.js ~3133)
+C5-063	p.199 Champions	Champions in Combat: pelea normal en la fila; atacantes en contacto pueden dirigir ataques contra el	OK	rules.js:4461	v748 reverificado: ataques dirigidos al campeón (rules.js duelSwing/dirigidos) y lucha normal en la fila
+C5-064	p.199 Champions	Champions & Challenges: emiten y aceptan desafios como un personaje	OK	rules.js:4120-4124	"duelEligible incluye k:""c"" si u.champ y models>1"
+C5-065	p.199 Champions	Champions as Casualties (disparo): no cuenta entre las bajas salvo ultimo modelo / ataque a modelo concreto / plantilla	OK	rules.js:1480-1500,4610	v748 reverificado: applyWounds: el grupo de mando solo cae si quedan menos modelos que miembros; plantillas con ¡Cuidado, señor! (tplChampSplit)
+C5-066	p.199 Champions	Champions as Casualties (combate): no cuenta salvo ultimo modelo o ataques dirigidos; exceso no pasa a la unidad	OK	rules.js:4610	v748 reverificado: applyWounds + hitChampion: el campeón solo cae por último modelo o ataques dirigidos; el exceso no pasa a la unidad
+C5-067	p.199 Champions	Look Out, Sir! para el campeon (5+ de tropa, D6: 1 impacta)	OK	rules.js:2525-2532	¡Cuidado, señor! del campeón con 5+ de tropa: D6, con 1 recibe el impacto (rules.js ~2634 y plantillas tplChampSplit)
+C5-068	p.199 Standard Bearers	Mismas caracteristicas y equipo que la unidad	OK	data.js std flag	
+C5-069	p.199 Standard Bearers	Combat Result Bonus: +1 punto de resultado de combate con estandarte	OK	rules.js:4724	u.std && cat!=char && models>0 && !fleeing
+C5-070	p.199 Standard Bearers	Trophies of War: estandarte perdido por huida alcanzada o destruccion en combate da PV extra; no por disparo	OK	rules.js:5667-5673,4869,4998	trophy() solo desde combate y persecucion; stdsCaptured en puntuacion
+C5-071	p.199 Standard Bearers	Casualties: otro modelo recoge el estandarte; solo se pierde si campeon y portaestandarte son los dos ultimos (portaestandarte antes que campeon)	OK	rules.js:1603	applyWounds: portaestandarte solo cae si el y el campeon son los dos ultimos modelos (antes el musico)
+C5-072	p.199 Musicians	"Quick Time: +1 Ld (max 10) al marchar a 8"" de un enemigo"	OK	rules.js:6558-6560,2686	"musOk; el test solo se hace con enemigo a 8"" (nearEnemy8)"
+C5-073	p.199 Musicians	Onwards To Victory: +1 si hay empate y solo un bando tiene musico en la fila delantera	OK	rules.js:1603	El mando se coloca en la fila delantera (Make Way); el musico vive mientras no se pierda por la regla de ultimos modelos
+C5-074	p.199 Musicians	Steadying Rhythm: +1 Ld (max 10) de la unidad que huye al reagruparse	OK	rules.js:5525	
+C5-075	p.199 Musicians	Casualties: el musico se pierde solo si es de los ultimos modelos (tras portaestandarte/campeon)	OK	rules.js:1603	applyWounds: el musico solo cae si quedan solo mando; es el primero en caer
+C5-076	p.201 Characters	Command range = Liderazgo en pulgadas	OK	rules.js:5543	commandRange: D(c).Ld
+C5-077	p.201 Characters	"General y Portaestandarte de Batalla: command range 12"" (18"" con Large Target)"	OK	rules.js:5543	(general||isBSB) ? (large?18:12) : Ld
+C5-078	p.203 General	General = personaje de mayor Liderazgo del ejercito (empate: elige el jugador)	OK	data.js:4580	armyIssues valida que el General (marcado u optativo) tenga el Ld maximo; empate: elige el jugador
+C5-079	p.203 General	Un personaje Loner no puede ser General	OK	data.js:4584	v737: Solitario no puede ser General en todas las listas
+C5-080	p.203 General	Inspiring Presence: unidades a command range usan el Ld del General salvo que huya	OK	rules.js:1417-1418	Respeta undisc, Levas, mercenarios; toma max(ld propio, Ld General)
+C5-081	p.203 Battle Standard	El portador es un personaje que no puede ser el General; FAQ: su Ld no supera al del General	OK	data.js:4585	armyIssues: PEB distinto del General y Ld no superior (el General debe tener Ld maximo del ejercito)
+C5-082	p.203 Battle Standard	Se pierde si el portador muere; nadie la recoge	OK	rules.js:2655	isBSB exige c.models>0 y c.std de personaje
+C5-083	p.203 Battle Standard	Combat Result Bonus +1 incluso con otro estandarte; solo cuenta un Battle Standard	OK	rules.js:4725	bsbCR evita duplicar
+C5-084	p.203 Battle Standard	Hold Your Ground: repetir Panico/Reagrupar fallados y repetir 2D6 del test de Ruptura (no si el PEB huye)	OK	rules.js:2692,5529,4911	bsbNear: !fleeing, distancia <= commandRange, no Levas/Undisciplined/mercenarios
+C5-085	p.203 FAQ Battle Standard	Si el PEB rechaza un desafio y se retira, no da Hold Your Ground mientras su unidad siga trabada con quien desafio	OK	rules.js:2850	bsbNear: sin Mantened la posicion mientras la unidad siga trabada con quien desafio
+C5-086	p.204 Characters & Troop Type	Personaje montado adopta el tipo de tropa de la montura (caballeria/carro/monstruo)	OK	data.js tt de variantes montadas	Ej. emp_general_griffon tt monCreature
+C5-087	p.204 Ridden Monster	Split Profile: usa el Movimiento de la montura; HA/HP/F/I/A propias; el enemigo impacta con HA del personaje	OK	rules.js hit loop mountAtk.ws	v763: perfiles exactos por elemento (personaje/tripulación/bestias) con ranuras de ataque; HA/I de todas las monturas con fila en los libros. Sin fila de libro no queda ninguna.
+C5-088	p.204 Ridden Monster	Armadura: mejor entre montura y personaje; FAQ: escudo del personaje no mejora la de la montura; objeto magico se usa entero o nada	OK	rules.js:1461-1463	mountSv + armPick own/mount; min(sv, mountSv)
+C5-089	p.204 Ridden Monster	Improved Characteristics: la montura aumenta T y/o Heridas del personaje	OK	data.js perfiles montados	Perfil combinado en datos (p.ej. he_prince_sun W7 T5)
+C5-090	p.204 Chariot Mount	Heridas del personaje se suman a las del carro; To Wound contra la T mas alta	OK	data.js perfiles montados en carro	tk_king_chariot W7 T5; woc_lord_chariot W8 T5 (T combinada en dato)
+C5-091	p.204 Chariot Mount	Armadura: la mejor entre carro y personaje (escudo no mejora al carro)	OK	rules.js:1461-1463	
+C5-092	p.205 Characters & Formations	Personaje unido adopta la formacion de la unidad; montado en monstruo/carro, la de su montura	OK	rules.js:5881-5933	La formacion es de la unidad anfitriona; variantes montadas llevan su propio closeOrder
+C5-093	p.205 Characters & Formations	Un personaje Lone siempre cuenta como Escaramuza	OK	rules.js:2108	v749: Core p.205 «Un personaje Solitario se considera siempre en formación de Escaramuza»: has(u,"skirmish") es verdadero para Solitarios (ataque siempre de frente, −1 para impactar, movimiento libre, 360°)
+C5-094	p.206 Lone Characters	Evade: Lone no huido/trabado contactado por persecucion hace test de I y se aparta hasta su M	OK	rules.js:5535	Evasion solo para personajes Solitarios
+C5-095	p.206 Lone Characters	"Targeting: no se puede elegir como blanco de disparo/hechizo a 3"" de unidad amiga con 5+ modelos del mismo tipo salvo el blanco mas cercano"	OK	rules.js:1986-1993,2027,3155	Tambien cañon (2304, FAQ). Cuenta unidades por cat inf/cav y no huidas
+C5-096	p.207 Characters & Units	Unirse en despliegue colocado con la unidad	OK	rules.js:5881-5933,5995-6007	"joinCheck en despliegue (<=8"") y autoJoin"
+C5-097	p.207 Characters & Units	Unirse en Remaining Moves moviendo a contacto de peana con unidad no trabada ni huida	OK	rules.js:6453	"joinCheck: distancia max = Movimiento del personaje (sin haber movido); 8"" en despliegue"
+C5-098	p.207 Characters & Units	La unidad no puede mover tras unirse el personaje en Remaining Moves (cuenta como movida si ya movio)	OK	rules.js:6497	La unidad no puede mover tras unirse un personaje en Movimientos restantes (previewMove)
+C5-099	p.207 Characters & Units	Varios personajes pueden unirse; dos personajes no forman unidad ad hoc	OK	rules.js:5929,5931	Limite por fila de combate y host debe ser inf/cav
+C5-100	p.207 Characters & Units	Unit Strength: el personaje unido suma su FU	OK	rules.js:165-171	
+C5-101	p.207 Characters & Units	Spells: un hechizo que afecta a toda la unidad afecta al personaje que se une y viceversa	OK	rules.js:163	fx(): el personaje unido hereda los efectos de la unidad anfitriona
+C5-102	p.207 Characters & Units	Fleeing: el personaje huye con la unidad; si la alcanzan, muere	OK	rules.js:2732-2757,3084,4997	Los unidos se mueven con la unidad; destroy() los elimina
+C5-103	p.207 Characters & Units	Si la unidad se destruye (no por persecucion de huida) los personajes unidos NO mueren y quedan como Lone	OK	rules.js:2818	destroy(): los personajes unidos sobreviven como Solitarios salvo persecucion de huida
+C5-104	p.207 Positioning Characters	Colocacion en la fila delantera, desplazamiento de tropa, flanco, reposicion al girar	NA	-	Sin modelos individuales
+C5-105	p.207 Leaving A Unit	Salir en Remaining Moves antes de que la unidad mueva; no puede si la unidad no puede mover	OK	rules.js:6501	doLeave exige que la unidad no haya movido ni este inmovil/estupida/huyendo
+C5-106	p.208 Measurement	Distancias a/desde la unidad se miden desde la unidad completa; desde el personaje cuando es el origen	OK	rules.js:135,5977	v753: el personaje de la fila delantera se coloca en su ranura individual (syncJoined), así que las distancias desde él se miden desde su modelo; las de la unidad, desde el bloque
+C5-107	p.208 Unit Facing & LOS	Vision/LdV de la unidad y del personaje segun la regla (unidad como conjunto; personaje desde su modelo)	OK	rules.js:135	v753: LdV y alcance de los hechizos de un personaje unido salen de su modelo (ranura); la unidad usa su conjunto
+C5-108	p.208 Movement	Unidad con personaje usa el Movimiento del modelo mas lento; restricciones de movimiento a ambos	OK	rules.js:1561	mvOf usa el M del modelo mas lento (slowM)
+C5-109	p.208 Moving Through The Ranks	Mover personaje por las filas / volver a su posicion al acabar el combate	NA	-	Sin modelos individuales
+C5-110	p.209 FAQ Characters & Shooting	Personaje con proyectiles unido a unidad con proyectiles: ambos disparan al mismo objetivo con sus caracteristicas	OK	rules.js:7355	case shoot: los personajes unidos con proyectiles disparan al mismo blanco con sus caracteristicas
+C5-111	p.209 FAQ Enemy Shooting	Personaje unido a unidad del mismo tipo no es blanco de disparo salvo ataque a modelo concreto / plantilla / <5 de tropa	OK	rules.js:1588-1600,2525-2532	Con <5 de tropa se reparte un impacto por modelo y el resto entre personajes y unidad
+C5-112	p.209 FAQ Enemy Shooting	El numero de tropa (5) cuenta los modelos del mismo tipo de tropa que el personaje y el mando cuenta como tropa	OK	rules.js:1690	el mando cuenta como tropa
+C5-113	p.209 Look Out, Sir!	Personaje alcanzado por disparo con 5+ de tropa: D6, con 1 es herido, con 2+ el impacto va a la unidad	OK	rules.js:2701	Look Out Sir con plantillas; los demas disparos no pueden alcanzar al personaje (solo <5 de tropa, woundAndSave)
+C5-114	p.209 Characters In Combat	Personaje fuera de la fila de combate se mueve por las filas al elegirse el combate; ataca segun Ataques y proximidad	OK	rules.js:4466-4476	v750 Core p.209 + FAQ p.14: el personaje solo ataca a enemigos con los que está en contacto de peana (slotContact), sin moverse por la fila si no toca; dirige todos sus ataques a uno (botón por personaje, pref charTgt, IA por autoaprendizaje) o los divide por igual entre los que toca
+C5-115	p.209 Characters In Combat	Un personaje unido solo recibe impactos de ataques dirigidos de modelos en contacto (o Impactos/Pisoton si <5 de tropa)	OK	rules.js:1482,1588-1600,4466-4476	Los demas ataques van a la unidad
+C5-116	p.209 Characters In Combat	Too Many Characters: nunca mas personajes que modelos de la fila; los sobrantes se retiran	OK	rules.js expelExtraChars (inicio de turno)	v747: si hay más personajes que modelos en la fila delantera, los sobrantes salen de la unidad con aviso. Se comprueba al inicio de cada turno
+C5-117	p.209 Characters In Combat	Excess Wounds no pasan de unidad a personaje ni viceversa	OK	rules.js:1480-1500	Reservas de Heridas separadas por objeto
+C5-118	p.210 Challenges	Se emiten al elegir el combate (paso 1.1); un solo desafio por combate	OK	rules.js:4131-4180	v737: un desafío por combate aunque se rechace
+C5-119	p.210 Issuing A Challenge	El jugador activo tiene la primera opcion	OK	rules.js:4153	order: unidades del activo primero
+C5-120	p.210 Issuing A Challenge	El jugador nomina al retador entre personajes/campeones dentro o adyacentes a la fila de combate	OK	rules.js duelists + frontLayout/rearChars	v741: solo nominan los modelos de la fila delantera (no los de retaguardia)
+C5-121	p.210 Accepting A Challenge	El oponente nomina al aceptante elegible	OK	rules.js duelists + frontLayout/rearChars	v741: idem para aceptar
+C5-122	p.210 Refusing A Challenge	El retador nomina a uno de los que podian aceptar, que se retira (sin ataques, sin beneficios)	OK	rules.js:4846,7164 (chalRetire); main.js panel; ai.js optionGroups cr*	v801: el retador nomina entre personajes unidos Y campeón (chalRetire j:/c:); UI main.js y IA ai.js cr*; por defecto el motor elige al de mayor duelPower
+C5-123	p.210 Refusing A Challenge	El retirado no vuelve a la fila mientras la unidad siga trabada con el enemigo que desafio	OK	rules.js:4133,4175	retiredFrom se mantiene mientras haya contacto
+C5-124	p.210 Nowhere To Run	No se puede rechazar si no es parte de unidad, es el ultimo modelo o la unidad esta trabada en 4 arcos	OK	rules.js:4163	"canRefuse: k!==""s"", models>1, !engaged4"
+C5-125	p.211 Fighting A Challenge	Los duelistas atacan solo entre si en orden de Iniciativa; el resto no puede atacarles	OK	rules.js:4223-4249,4461	duelSwing y exclusion de duelistas en reparto
+C5-126	p.211 FAQ Challenges & Mounts	Montura/tripulacion ataca al rival; si un participante muere antes de que ataque su rival o la montura, esos ataques se pierden	OK	rules.js:4610	v761: jinete y montura atacan en su paso de Iniciativa (charGroups/mountOnlyPass); si el rival o el participante muere antes, los ataques de la montura que aún no se han hecho se pierden (FAQ Core p.211)
+C5-127	p.211 Overkill	Heridas no salvadas sobre las restantes del rival dan +1 resultado por herida, max +5	OK	rules.js:4610,4743	overkill acotado a 5; FAQ: cuenta tambien con campeones
+C5-128	p.211 To The Death!	Si ambos sobreviven y el combate sigue, el desafio continua y no se emiten otros	OK	rules.js:4133-4134,4155	u.duel persiste; duelOn revalida
+C5-129	p.212 Weapon Profiles	"Alcance Combat / pulgadas / minimo-maximo (p.ej. 12-60"")"	OK	rules.js:2040-2041	dist > rg.range -> fuera; rg.minRange -> demasiado cerca
+C5-130	p.212 Weapon Profiles	Fuerza S / S+n / n; Perforante (AP) negativo	OK	rules.js:3959-3970,2222	
+C5-131	p.213 More Than One Combat Weapon	Con dos o mas armas la unidad elige al elegirse el combate; FAQ: en cada subfase de Elegir combate	OK	rules.js:4733	Se elige arma en cada Elegir combate (sin bloqueo mwLock)
+C5-132	p.213 More Than One Combat Weapon	Toda la unidad (con mando) usa la misma arma; los personajes eligen por separado	OK	rules.js:4352	Por modelo m de [u, ...joined]
+C5-133	p.213 More Than One Combat Weapon	Campeon con equipo distinto elige arma aparte	OK	rules.js:4461	v748 reverificado: champGear/champView: el campeón con equipo distinto usa su propia arma
+C5-134	p.213 Hand Weapons	Todos los modelos tienen arma de mano (HA, F, sin AP)	OK	rules.js:3959	Perfil base
+C5-135	p.213 Additional Hand Weapon	Ataque adicional +1 y requiere dos manos (sin escudo)	OK	rules.js:3931,1645	melee.extra; twoHands pierde el escudo en combate
+C5-136	p.214 Flail	S+2, AP-2, Armour Bane (1) y bonos de F/Perforacion solo contra enemigos cargados (FAQ)	OK	rules.js:4004-4006	flailF/abCharge; AP -2 permanente
+C5-137	p.214 Great Weapon	S+2, AP-2, Armour Bane (1), Requiere dos manos, Golpea al final	OK	data.js melee {sb:2,ap:2,ab:1,twoHands,last}	15 unidades con ese perfil
+C5-138	p.214 Halberd	S+1, AP-1 (-2 contra modelos cargados), Armour Bane (1), dos manos (FAQ)	OK	rules.js:4322	Alabarda: AP-1 (-2 solo contra modelos cargados via apCharge), sin doble mejora
+C5-139	p.214 Morning Star	S+1, AP-1, Armour Bane (1); F y Perforante solo contra cargados (FAQ)	OK	rules.js:4006; data.js:3943	flailF
+C5-140	p.214 Whip	F, Fight in Extra Rank, Strike First	OK	data.js:2957	Ninguna unidad usa el latigo generico del Core: nada que aplicar v816: único usuario del látigo Core en las listas: Necrotecto (arma de mano + látigo): ahora elige en el momento (botón) látigo (F, sin FP, Ataca primero) o arma de mano con Khopesh; el Matón Orco y el Cuidador de Perros no existen como modelos propios en el motor.
+C5-141	p.215 Lance	S+2, AP-2, Armour Bane (1) solo si cargo y solo contra enemigos cargados; si no, arma de mano (FAQ)	OK	rules.js:3966	d.lance && chgE
+C5-142	p.215 Cavalry Spear	S+1, AP-1 solo en el turno de carga; Fight in Extra Rank; no apoya si cargo	OK	rules.js:3958,3968-3969	
+C5-143	p.215 Throwing Spear	F, Fight in Extra Rank, solo en el turno de carga	OK	rules.js:3958	melee.thrown solo apoya si chargeOK
+C5-144	p.215 Thrusting Spear	Fight in Extra Rank; sin apoyo si cargo; +1 I si es cargado por el frente	OK	rules.js:3958,3905	melee.thrust
+C5-145	p.216 More Than One Missile Weapon	Unidad con dos armas de proyectil elige una; personajes eligen por separado	OK	rules.js:2548 pickWpn; main.js:1381,1662,1813-1825; ai.js:326	Unidad elige arma al disparar (barra de colocación data-wp, momento del disparo); personajes eligen por separado (wpnPick); IA por valor esperado
+C5-146	p.216 Longbow	"30"", F3, Armour Bane (1), Volley Fire"	OK	data.js:393 (perfiles)	12 unidades
+C5-147	p.216 Shortbow	"18"", F3, Quick Shot, Volley Fire"	OK	data.js:W.shortbow	
+C5-148	p.216 Warbow	"24"", F del portador, Volley Fire"	OK	data.js:W.warbow	F3 fija; las 16 unidades con warbow tienen F3
+C5-149	p.216 Handgun	"24"", F4, AP-1, Armour Bane (1), Ponderous"	OK	data.js:W.handgun	
+C5-150	p.216 Pistol / Brace of Pistols	"12"", F4, AP-1, Armour Bane (1), Quick Shot; brace: Multiple Shots (2) y perfil de combate +1 Ataque"	OK	data.js:W.pistols	v798: W.pistols = 12", F4, PA-1, Perforante (1), Disparo rapido; par de pistolas = 2 disparos; coincide con p.216
+C5-151	p.216 Repeater handgun/pistol	Armour Bane (1), Multiple Shots (3), Ponderous / Quick Shot	OK	data.js outriders, emp_engineer	Una unidad cada uno
+C5-152	p.217 Crossbow	"30"", F4, Armour Bane (2), Ponderous"	OK	data.js:W.crossbow	
+C5-153	p.217 Repeater crossbow	"24"", F3, Armour Bane (1), Multiple Shots (2)"	OK	data.js de_crossbows	3 unidades
+C5-154	p.217 Repeater handbow / brace	"12"", F3, Multiple Shots (2) / brace (4), Quick Shot"	NA	data.js de_corsairs	v798: ninguna unidad del juego lleva brace de arcos de repeticion; sin efecto
+C5-155	p.218 Throwing weapons / Javelin	"9"" F, MS(2), Move & Shoot, Quick Shot / 12"" F, Move & Shoot, Quick Shot"	OK	data.js cd_khan, we_sisters	v798: las armas arrojadizas y jabalinas se definen con su perfil en cada unidad que las lleva (cd_khan, we_sisters); no existe unidad que use el perfil generico
+C5-156	p.218 Sling	"18"", F3, Multiple Shots (2)"	OK	data.js	Ninguna unidad usa honda: nada que aplicar v816: revisados FoF, RH y AJ: ninguna unidad lleva honda como arma; nada que aplicar.
+C5-157	p.218 Throwing axe	"9"", F+1, Quick Shot"	OK	data.js:3633	v798: hacha arrojadiza (9", F+1, Disparo rapido) existe como opcion de Enanos; ninguna otra unidad la lleva
+C5-158	p.219 Armour Value	Ligera 6+, pesada 5+, completa 4+	OK	data.js:46-48	ARM
+C5-159	p.220 Maximum Armour Value	Nunca mejor que 2+ (infanteria/caballeria); FAQ: 3+ para carro/monstruo/maquina	OK	rules.js:1550	tope 2+ / 3+ para monCreature, behemoth, lightChar, heavyChar y maquinas
+C5-160	p.220 No Armour	Sin armadura = 7+ para modificadores; escudo da 6+	OK	data.js:46-48	ARM none 7
+C5-161	p.221 Shield	El escudo mejora la armadura en 1	OK	data.js:av()	
+C5-162	p.221 Shield	Con arma Requires Two Hands en combate no se usa escudo	OK	rules.js:1645	
+C5-163	p.221 Barding	La montura con barda mejora la armadura en 1	OK	data.js:av()	
+C5-164	p.221 Wizards & Armour	Un Mago con armadura no puede hacer tiradas de lanzar ni disipar (barda excluida)	OK	rules.js:3447	castCheck: Mago con armadura/escudo (no barda) no lanza; el constructor ya filtraba
+TOTAL OK=96 PARCIAL=46 AUSENTE=18 NA=4

@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+aj_highelves.tsv	aj_highelves-004	aj_highelves.txt:558-572	Recreación histórica: atacante 2.500 pts Hueste Chracia con Korhil general y Guerreros Sombríos; defensor Brayherds con 	OK	rules.js:201 (SC.chalons)	"Composición histórica es una recomendación (""alternativamente cualquier ejército""); no se impone"
+core_2.tsv	C2-127	Magic: Bound Spells	Un modelo lanza un único hechizo ligado por fase	OK	rules.js:3164	
+aj_dwarfs2.tsv	aj_dwarfs2-018	aj_dwarfs2.txt L527-530	The Mountains Are Crawling: 0-6 unidades (0-3 personajes) del defensor con Emboscadores gratis	OK	rules.js khazidAmbush/ambIssue, pref scnAmb; main.js botón; ai.js decider pn:amb<id>	0-6 unidades (0-3 personajes) las marca el jugador en el despliegue; la IA decide unidad a unidad con aiPick
+aj_empire2.tsv	aj_empire2-037	aj_empire2.txt:952-956	Caballeros: el General debe ser Gran Maestre o Maestre de Capítulo de una Orden; toda unidad de caballeros y Maestre de 	OK	data.js:armyIssues ordOf	General debe ser GM/CM de una Orden; todo CM y unidad de la misma Orden
+aj_tk2.tsv	aj_tk2-094	aj_tk2.txt L1259-1274	Caballería Cohortes: opciones extra heredadas: Equipo fijo incluido	OK	data.js opts [] cohortes de caballería	equipo fijo
+aj_empire2.tsv	aj_empire2-042	aj_empire2.txt:970-978	Caballeros del Lobo Blanco (lista): Guardia Teutógena Especial sin límite, 0-1 Milicia Libre Básica por 1.000; sin Lecto	OK	data.js:3468-3469	
+aj_empire2.tsv	aj_empire2-143	aj_empire2.txt:1658-1662	Icono de Morr: 25 pts, Miedo; si ya tiene Miedo, Terror	OK	rules.js has0 terror (empaj_morr)	
+faq_core_2.tsv	F2-059	FAQ Magia	Un Mago puede intentar disipar un hechizo Ligado con disipacion de Mago (si esta en alcance)	OK	rules.js:3693,3254	tryDispel con boundPL
+leg_skaven.tsv	leg_skaven-072	leg_skaven.txt:273	Stormvermin: perfil 5/4/3/3/3/1/5/1/5, 10 pts	OK	data.js:1787	
+core_2.tsv	C2-057	Forming Units: Combat Result Bonus (FAQ p.101)	+1 punto de resultado en Orden de combate, solo Orden cerrado con Fuerza de Unidad 10+; acumulable por unidad (Core p.153)	OK	rules.js resultado de combate co += 1	Quitada la restricción inf/cav: cualquier formación de Orden cerrado con FU 10+ en Orden de combate
+aj_orcs2.tsv	aj_orcs2-052	aj_orcs2.txt:990-991	"Syphoned Strength: +1 a lanzar si a 3"" de mob de Trolls con US 6+ sin huir"	OK	rules.js:3919	
+aj_orcs2.tsv	aj_orcs2-063	aj_orcs2.txt:1064-1067	Motherly Love 3-4 Mother: Un modelo del frente sufre D3+1 Heridas sin armadura ni Regeneración	OK	rules.js:4910	
+dawn_renegade_sc.tsv	renegade_web-074	renegade_web.txt:184-184	Bandidos: Horda, Impetuosos, Levas, Tripulación variopinta, Orden abierto, Banda de guerra	OK	data.js:953-954 sr	
+leg_skaven.tsv	leg_skaven-027	leg_skaven.txt:115	Warlord/Chieftain: Scurry Away, Verminous Valour, Warband	OK	data.js:1746 sr	
+core_3.tsv	c3-080	Enemy Sighted (p.123)	Si falla se mueve normal pero cuenta como marcha	OK	rules.js:6560-6570	
+aj_empire2.tsv	aj_empire2-107	aj_empire2.txt:1442-1444	"Carro de Guerra: trabuco 12"" F3 FP-1 Disparos múltiples (D3) Fuego de salva; sin penalizadores largo/múltiple/stand&shoo"	OK	data.js:4270 (noPen, volley)	
+leg_skaven.tsv	leg_skaven-216	leg_skaven.txt:902-905	Warpstone Armour* 25: armadura pesada que puede llevar un Mago sin penalización	OK	data.js:3028	
+core_3.tsv	c3-088	Pivoting (p.125)	Pivotar sobre el centro ignorando unidades y terreno	OK	previewMove rules.js:1907-1914 (reforma en el sitio, sin pasos intermedios)	Solo se comprueba la posición final
+aj_wood2.tsv	aj_wood2-118	aj_wood2.txt:1378-1383	Aspect of the Hound +20: re-roll 1 al impactar en combate (personaje y unidad)	OK	data.js:3129	
+aj_empire2.tsv	aj_empire2-043	aj_empire2.txt:1032-1037	Harald Gemunsen: perfil Gran Maestre (M7 HA7 HP3 F4 R4 H3 I6 A4 L9) y 185 pts, caballería pesada, peana 30x60	OK	data.js:4193	
+aj_tk2.tsv	aj_tk2-028	aj_tk2.txt L807-816	Culto Mortuorio: Singulares hasta 50%: 1+ Escorpión por 1.000; Ushabti, Venerables, Enjambres, Carroñeros, Acechadores, 	OK	data.js:3450 allow; chk scorpion<per; promote colossus/necrosphinx	
+aj_bretonnia.tsv	aj_bretonnia-161	aj_bretonnia.txt L1736-1745	Varita de Golpe de Llama 15: un solo uso, Bola de Fuego atada Nivel de Poder 3; solo Exiliados	OK	data.js (brsaj_wand duplicado eliminado; se conserva flamestrike con list exiles y single)	Existen dos entradas (flamestrike sin 'single' y brsaj_wand sin list)
+dawn_renegade_sc.tsv	sc_tower-008	sc_tower.txt:24-25	Limitaciones de unidad: ≤125 pts (25 %) en una Rara o Mercenaria	OK	rules.js:6311 towerController; data.js armyIssues comp st	Solo con composición Battle March manual
+aj_highelves.tsv	aj_highelves-024	aj_highelves.txt:763	Raras: 0-2 Grandes Águilas por 1.000 pts	OK	data.js:3411 (he_eagle rare)	Límite correcto pero el Águila cuenta como Especial, no Rara
+dawn_renegade_sc.tsv	sc_shores-015	sc_shores.txt:67-71	Victoria: PV como en el reglamento más bonificaciones por marcadores	OK	rules.js:5940-5960 scoreVP; rules.js:5768-5776	
+leg_vampires.tsv	leg_vampires-148	leg_vampires.txt:641-644	Bestias de guerra, 25x50, 5-20, garras y colmillos	OK	data.js:1891	
+aj_orcs2.tsv	aj_orcs2-051	aj_orcs2.txt:984-985	"Protect Da Boss: No puede ser objetivo de disparo/hechizos enemigos a 3"" de mob de Trolls salvo que sea el más cercano"	OK	rules.js:2087 (trollGuard en loneProtected: disparo y hechizos)	
+aj_wood2.tsv	aj_wood2-083	aj_wood2.txt:1162-1175	Guardián de Talsyn perfil M5 HA7 HP4 F4 R3 H3 I6 A4 L9	OK	data.js:746	
+aj_orcs2.tsv	aj_orcs2-028	aj_orcs2.txt:774-780	Troll Horde: Especiales ≤50%: Mobs de Trolls y Carros de Lobos; 0-1 Jinetes de Jabalí y 0-1 Carro Jabalí por 1.000	OK	data.js:4681 (catsOf trollh)	Los Mobs de Trolls por encima de las Básicas pasan a Especiales; Carros de Lobos Especiales; 0-1 Jinetes y Carro de Jabalí por 1.000 pts
+core_2.tsv	C2-040	Other Model Information: Points Value	Valor en puntos del modelo y suma del ejército	OK	data.js:3300 unitCost; rules.js:902 armyPoints	
+battlemarch_quickref.tsv	battlemarch-178	battlemarch.txt L2734-2760	Objetos de Battle March: se compran como comunes, solo en listas de Battle March; asterisco = extremadamente común	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+aj_beasts2.tsv	aj_beasts2-114	aj_beasts2.txt:1419	Puede incluirse en cualquier ejercito Hombres Bestia con cualquier lista de composicion	OK	data.js:3454,3461 allow bm_herdstone	
+leg_vampires.tsv	leg_vampires-150	leg_vampires.txt:652-656	Carga Babeante: +1 F en el turno que carga	OK	rules.js:4155	
+faq_core_1.tsv	FQ1-023	Errata p.170 Frenzy	+1 Ataque el turno de carga o el siguiente a un movimiento de seguimiento; no afecta a montura/bestias/jinete	OK	rules.js:3934, 4074	
+battlemarch_quickref.tsv	quickref-004	quickref.txt L27-28	Doble 1 natural al lanzar: pifia, el hechizo no se lanza; tirar en la tabla de Disfunción	OK	rules.js:3934-3935 miscast()	
+aj_chaos2.tsv	aj_chaos2-178	aj_chaos2.txt L1682-1691	Cetro de Poder 55: +1 lanzar/disipar; doble natural -> impacto F10 FP-3	OK	data.js:2804; rules.js:3410,3813	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-179	leg_chaosdwarfs.txt:519	Trampling hooves: S de la montura, FP-1, Flaming Attacks	OK	data.js mountAtk ap1 flame	FP ok; horns no separados
+leg_darkelves.tsv	leg_darkelves-088	leg_darkelves.txt:358-360	Campeón/portaestandarte/músico +5 por unidad	OK	data.js:2464	
+faq_core_3.tsv	15	FAQ Core p.11 Combate	Perseguidor que alcanza a quien retrocedió en buen orden cuenta como cargador el turno siguiente (bonos según distancia perseguida)	OK	rules.js:~5615-5635 (pursuitCharges con d = distancia perseguida; chargeDist = pc.d)	La distancia de la carga es la perseguida realmente
+core_8.tsv	core_8-089	Objetos encantados p.340 l.11127	Alfombra Voladora 40: solo infanteria regular o pesada; Volar (8) y Zancada Rapida; no puede unirse a una unidad	OK	data.js:2622; rules.js:123	La restriccion de tipo de tropa se aproxima con onFoot
+dawn_renegade_sc.tsv	renegade_web-043	renegade_web.txt:95-99	Mercenarios Veteranos: Oficial +7, estandarte +5, músico +5; estandarte mágico hasta 50; completa +4; Disciplinados +1	OK	data.js:5592-5593 (fp 4, dr 1, bnMax 50); unitCost champ 7/std 5/mus 5	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-099	leg_chaosdwarfs.txt:267-270	Heavy infantry, 25x25, 10+, manos y armadura pesada	OK	data.js cd_guard max 99	Maximo 40 impuesto; el texto solo da 10+
+aj_orcs2.tsv	aj_orcs2-019	aj_orcs2.txt:679-681	Cunning Hunters: Jinetes de Lobo Emboscadores: Cualquier mob de Jinetes de Lobo puede tener Emboscadores por +1 pt/model	OK	data.js:595 (wolf_riders_amb ppm 11)	
+leg_skaven.tsv	leg_skaven-040	leg_skaven.txt:151-155	Ingeniero Brujo: infantería (personaje), 25x25, equipo arma de mano	OK	data.js:1763	
+leg_vampires.tsv	leg_vampires-034	leg_vampires.txt:128-130	Esbirro: Mago nivel 1 +30, objetos 50 pts, poderes 50 pts	OK	data.js:3207 vpBudget (Esbirro 50)	
+aj_dwarfs2.tsv	aj_dwarfs2-092	aj_dwarfs2.txt L1063-1066	"Rivet gun: 10"", F3, FP-2, Daña armadura (1); al impactar causa D3 impactos"	OK	data.js:4197 (ranged hitD3); rules.js:2488	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-010	leg_chaosdwarfs.txt:76	Hobgoblin Cutthroats en Basicas	OK	data.js:2141 cd_hobgoblins comp:core	
+leg_darkelves.tsv	leg_darkelves-053	leg_darkelves.txt:195	Perfil Bruja Sanguinaria 5/6/6/4/3/2/7/3/8, 70 pts	OK	data.js:1607	
+core_3.tsv	c3-070	Accidental Contact During Charge (p.131)	"Esquivar con rueda, detener la carga a 1"" o continuar"	OK	rules.js doCharge u.accHalt ~3160	"Detener a 1"" o continuar, elige el jugador (accHalt)"
+dawn_renegade_sc.tsv	cathay_dawn-090	cathay_dawn.txt:1037-1043	Flota de Jade: Personajes hasta 50 %: Miao Ying, 0-1 Señor Shugengan/Magistrado por 1.000, Puertas, Estrategas	OK	data.js:3417-3420 jadefleet; data.js:4456	

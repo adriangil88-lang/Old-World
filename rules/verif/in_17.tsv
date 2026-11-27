@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+leg_lizardmen.tsv	leg_lizardmen-149	leg_lizardmen.txt:696,700-701	Sorcerous Void 30 pts: Magic Resistance (-D3) tirado antes del despliegue	OK	data.js:3000; rules.js:790	
+aj_tk2.tsv	aj_tk2-063	aj_tk2.txt L1108-1111	Nekaph: tipo, base, equipo: Infantería regular nombrada, 25x25; Mayal de Reyes Conquistados y armadura ligera	OK	data.js nekaph opts []	
+leg_ogres.tsv	leg_ogres-118	leg_ogres.txt:968-975	Frío entumecedor: enemigos en contacto -1 HA e I (mín. 1)	OK	rules.js:4022,4625	
+leg_skaven.tsv	leg_skaven-028	leg_skaven.txt:115	Warlord/Chieftain: Warpstone Weapons (arma de mano mágica y FP-1 solo si arma de mano ordinaria única)	OK	data.js:SKW opts (delSr magical, ap0)	Warpstone Weapons solo con una arma de mano
+aj_highelves.tsv	aj_highelves-091	aj_highelves.txt:1362-1363	Mago errante: Gran Ejército puede incluir 0-1 Tejedor de Tormentas por 1.000 pts	OK	data.js:~4448 (Mago errante)	No hay validación ni límite del Tejedor en lista Gran Ejército
+leg_daemons.tsv	leg_daemons-181	leg_daemons.txt L844-845	"Warpflame: 18"", F4, PA-1, Ataques flamigeros, Mover y disparar, Disparos multiples D3, Disparo rapido"	OK	"data.js dm_flamers.ranged 18"" F4 FP-1 D3 flamigera"	"Alcance 8"" aliento sin PA-1/Disparos D3 (motor usa aliento)"
+leg_darkelves.tsv	leg_darkelves-228	leg_darkelves.txt:1053-1055	Reflejos Élficos: +1 I (máx 10) en la primera ronda; no la montura	OK	rules.js ~4086	El motor usa la I del jinete en personajes montados; la montura no tiene I propia
+aj_bretonnia.tsv	aj_bretonnia-126	aj_bretonnia.txt L1477-1479	Perfil de arma de asta se elige al inicio de la primera ronda del combate	OK	rules.js:4496-4506 (mwLock/mwPref)	
+faq_libros.tsv	RQ20	RH FAQ Beastmen	Hagtree Fetish no repite heridas de hechizos ligados	OK	rules.js:3411	
+core_5.tsv	C5-108	p.208 Movement	Unidad con personaje usa el Movimiento del modelo mas lento; restricciones de movimiento a ambos	OK	rules.js:1561	mvOf usa el M del modelo mas lento (slowM)
+leg_lizardmen.tsv	leg_lizardmen-173	leg_lizardmen.txt:852-862	Aquatic: sin penalizacion de Movimiento en rasgos de agua designados	OK	rules.js:2034-2040 aquatic	El unico rasgo de agua del juego es el pantano (cuenta como rasgo de agua designado); no hay estanques/rios
+core_5.tsv	C5-010	p.195 Monsters	Tabla criatura monstruosa/behemot: sin filas, FU = Heridas iniciales	OK	data.js:41-42,381	d.us = d.W para monCreature/behemoth; usOf = models x us
+leg_lizardmen.tsv	leg_lizardmen-176	leg_lizardmen.txt:863-869	Drop Rocks: una vez por partida al sobrevolar unidad no trabada, D3 impactos F4 por modelo	OK	rules.js:2574-2600,6817	
+aj_highelves.tsv	aj_highelves-136	aj_highelves.txt:1699-1707	Estandarte del Equilibrio 25 pts: en contacto nadie repite impactos ni heridas	OK	data.js:2870, rules.js:4228	
+leg_skaven.tsv	leg_skaven-183	leg_skaven.txt:711-712	Horno: solo como montura de personaje	OK	data.js:1825	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-081	leg_chaosdwarfs.txt:221-225	Giant Wolf: light cavalry, 25x50; Fast Cavalry, Fire & Flee, Swiftstride	OK	data.js:2133 sr fastCav fireFlee swiftstride baseD 50	
+battlemarch_quickref.tsv	quickref-071	quickref.txt L259-262	Modificada <= Ld o doble 1 natural: cede terreno	OK	rules.js resolveCombats (C4-023)	
+aj_bretonnia.tsv	aj_bretonnia-105	aj_bretonnia.txt L1380-1383	Infanteria regular (personaje), peana 25x25, arma de mano	OK	data.js:899	
+aj_empire2.tsv	aj_empire2-118	aj_empire2.txt:1497-1504	Órdenes: admisión unidades: Pantera +2, Lobo +3, Sol +2, Morr +3, Corazón +3 por modelo	OK	data.js ORD	Costes por modelo +2/+3/+2/+3/+3
+aj_chaos2.tsv	aj_chaos2-122	aj_chaos2.txt L1336-1339	Huscarl M4 HA4 HP3 F3 R4 H1 I3 A1 L7, 18 pts; First Sword A2 L8 +8; Warhorse M8	OK	data.js:3550	
+cathay.tsv	cathay_aj-071	cathay_aj.txt 1995-1998	"Baliza celestial: Magistrado/Estratega montado tiene rango de mando 12"""	OK	"rules.js commandRange: lantern montados 12"""	
+leg_daemons.tsv	leg_daemons-125	leg_daemons.txt L542	Heraldo de Slaanesh: Demoniaco, Favor (1), Lore of Daemons	OK	data.js:1943	
+battlemarch_quickref.tsv	battlemarch-154	battlemarch.txt L2368-2377	Caos 2 Recursos extraviados: Dado de Dispersión desde el centro; un carro llega por el borde; dueño por tirada	OK	rules.js dispersión	
+core_8.tsv	core_8-048	Waaagh! p.334 l.10814	"Luna Mala: Hex 10+, 15"", -D3 HA e I (min 1) hasta fin de turno"	OK	data.js:2287; rules.js:3514,3894,3977	
+dawn_renegade_sc.tsv	sc_waystones-011	sc_waystones.txt:64-68	"Niebla densa: quien dispare a una unidad a 12"" de la piedra en la Fase de Disparo sufre -1 adicional para impactar"	OK	rules.js:6303 proxController; data.js:5964 SCN_REQ	Medición centro a centro; aplicado en disparo, sin verificar otras formas de apuntar
+core_3.tsv	c3-163	How Many Attacks (p.146)	En contacto: tantos como Ataques; sin contacto: uno	OK	rules.js:3951 (inC*a + (rmEff-inC))	
+cathay.tsv	cathay_aj-105	cathay_aj.txt 2592-2600	Lanza del Espiritu Longma 25: F+1, FP-3, Perforacion 1, Magica; solo caballeria/monstruo/carro; solo el turno de carga	OK	data.js ct_longma chS/chAp + cavMonCh; itemIssues	F+1 y FP-3 solo el turno de carga; Perforación (1) y Mágica siempre; solo caballería/monstruo/carro.
+dawn_renegade_sc.tsv	sc_shores-016	sc_shores.txt:73-74	Cada marcador de playa controlado al final del turno de cualquiera: +50 PV	OK	rules.js:198 marks vp 50; rules.js:5775	
+core_7.tsv	core_7-049	core_rulebook.txt 9804-9815	Dark Monolith, unidades destruidas en la 1a batalla: D6 1-2 dispersas (no pueden usarse), 3+ regresan con modelos a la mitad (redondeando arriba)	OK	rules.js:linkedArmy (stage 2)	Destruidas: 1-2 dispersas, 3+ mitad de modelos (redondeo arriba)
+leg_vampires.tsv	leg_vampires-163	leg_vampires.txt:737-740	Motor Mortis +195: F5 R5 H5; Banshees x3; Horda A D6	OK	data.js:1927 vc_mortis randA 3+D6; variantes 5+D6/4+D6	
+faq_core_2.tsv	F2-017	Errata p.334 Puño de Gork	Valor de lanzamiento 8+	OK	data.js:2285	cv:8
+faq_core_4.tsv	FC4-45	p17 dcha / Obsidiana	Piedra de Obsidiana no mejora la RM de otra fuente	OK	rules.js:1644 (mrItems)	Las Piedras de Obsidiana se acumulan entre sí; el resto de fuentes de RM se toma como máximo
+leg_vampires.tsv	leg_vampires-228	leg_vampires.txt:1084-1089	Estandarte de Vigor Infernal 40: Movimiento de Reserva	OK	data.js:3059	
+aj_dwarfs2.tsv	aj_dwarfs2-114	aj_dwarfs2.txt L1174-1176	RCW: campeón, portaestandarte y músico +6 pts por unidad	OK	data.js:2476	
+aj_highelves.tsv	aj_highelves-023	aj_highelves.txt:761-762	Raras: 0-1 unidad de Guerreros Sombríos o Hermanas de Avelorn por 1.000 pts	OK	data.js:3411, 3412	
+core_2.tsv	C2-108	Magic: Casting Spells	Declarar hechizo y objetivo	OK	rules.js:6680-6694 case cast	
+core_2.tsv	C2-115	Magic: Magic Resistance (-X)	Modifica la tirada de lanzamiento de hechizos (incluidos ligados) contra unidades enemigas con la regla; no acumulable, vale el mayor	OK	rules.js:3712 y 3694 (resta Math.max(mrOf, mrItems)); 1477 mrOf	mrOf suma varias fuentes con tope 3
+core_7.tsv	core_7-056	core_rulebook.txt 9872-9897	Heroic Last Stand, tabla de bajas: >25% de US perdida en la 2a: 1-2 retira D3/D6 modelos (minimo 5/10), 3+ plena fuerza con Liderazgo -1; destruidas: 1 dispersa, 2+ mitad de modelos	OK	rules.js:linkedArmy stage 3 (1-2 / 3+; destruidas 1 / 2+)	Umbrales de la 3a batalla
+leg_skaven.tsv	leg_skaven-203	leg_skaven.txt:816-818	"Lightning Strike: línea recta 8D6"" desde base, un impacto por modelo bajo la línea, F por dado de artillería"	OK	rules.js:2344-2353	
+aj_beasts2.tsv	aj_beasts2-105	aj_beasts2.txt:1318-1321	Criatura monstruosa, base 75x50, unidad 1; garras y colmillos, astas retorcidas, piel escamosa (armadura pesada)	OK	data.js:4244 (arm heavy)	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-036	leg_chaosdwarfs.txt:117	Sorcerer-Prophet montado en Lammasu	OK	data.js:3595 cd_prophet_lammasu	Coste 290 = 195+95
+core_7.tsv	core_7-066	core_rulebook.txt 10079-10084	Tirar tantos D6 como Nivel de Hechiceria, repitiendo duplicados; el resultado indica los hechizos conocidos	OK	rules.js:createGame spellAlt (~880) + spellPick; main.js panel despliegue; ai.js optionGroups sa	Se tiran Nivel hechizos; jugador (UI) o IA (autoaprendizaje) pueden descartar uno por la firma
+faq_core_2.tsv	F2-078	FAQ Movimiento	Drilled en Columna obligada a cargar debe reformar si hay espacio	OK	rules.js: doCharge (Drilled reforma si hay espacio)	Sin logica de reforma
+dawn_renegade_sc.tsv	cathay_dawn-034	cathay_dawn.txt:373-383	Tabla Wasteland 6: Marisma (terreno difícil)	OK	dawn.js genDawn/buildLinear + rules.js createGame (tmode waste/shadow)	
+leg_darkelves.tsv	leg_darkelves-210	leg_darkelves.txt:942-944	Espada de la Ruina 65: F, Mágica; sin salvación de armadura, especial ni Regeneración	OK	data.js:2961	
+leg_skaven.tsv	leg_skaven-224	leg_skaven.txt:944-950	Brass Orb 50: un uso, en vez de atacar, 1 impacto contra modelo; test I o baja	OK	rules.js:a.t===orb	Añadida tirada única para impactar (HA) antes del test de I
+core_3.tsv	c3-141	Ward Saves (p.141)	La Salvación especial no la modifica la PA	OK	rules.js:1646, 1717-1725	
+core_3.tsv	c3-094	Fleeing Through Friends (p.133)	Atraviesa amigas sin frenar; si queda encima sigue hasta quedar libre	OK	pushAway rules.js:2808-2811	
+leg_skaven.tsv	leg_skaven-069	leg_skaven.txt:262-263	Cloud of Flies: los enemigos que atacan al personaje en combate sufren -1 para impactar	OK	rules.js:4626 (cloudFlies)	
+aj_tk2.tsv	aj_tk2-050	aj_tk2.txt L919-920	Settra: Carro de los Dioses impactos flamígeros y mágicos: Impactos con Ataques Flamígeros y Mágicos	OK	rules.js ~2951 impactos flaming/magical; data.js impact flaming magical	

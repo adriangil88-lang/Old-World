@@ -1,0 +1,276 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+quickref-001	quickref.txt L7-14	Cada turno de jugador tiene cuatro fases: Estrategia, Movimiento, Disparo, Combate	OK	rules.js endPhase (c3-016)	
+quickref-002	quickref.txt L19-24	Lanzar: 2D6 + Nivel del Mago; si iguala o supera el valor de lanzamiento, se lanza	OK	rules.js:3944 (total < cvN falla)	
+quickref-003	quickref.txt L25-26	Doble 6 natural al lanzar: se lanza sin importar el valor y no puede dispersarse	OK	rules.js:3942 (perfect), tryDispel rules.js:3367	
+quickref-004	quickref.txt L27-28	Doble 1 natural al lanzar: pifia, el hechizo no se lanza; tirar en la tabla de Disfunción	OK	rules.js:3934-3935 miscast()	
+quickref-005	quickref.txt L29-35	Dispersar: 2D6 (+Nivel del Mago si es de Mago); basta igualar el resultado de lanzamiento	OK	rules.js tryDispel (Nivel/2 FAQ)	
+quickref-006	quickref.txt L36-37	Doble 6 natural al dispersar: se dispersa sin importar el resultado de lanzamiento	OK	rules.js:3427 (x===6&&y===6)	
+quickref-007	quickref.txt L38-40	Doble 1 natural al dispersar: el intento falla y se tira en la tabla de Disfunción	OK	rules.js:3400-3406 (Superado en el Arte)	Usa la tabla adaptada del Core p.110; ligados exentos
+quickref-008	quickref.txt L41-47	Dispersión de Mago: Mago no trabado, no huyendo y dentro de alcance, nominado por el jugador	PARCIAL	rules.js:3372-3380 (pool automático, dispPref)	Sigue habiendo un solo dispPref; el dispersor se nombra automáticamente.
+quickref-009	quickref.txt L44-46	"Alcance de dispersión: Niveles 1-2 a 18""; Niveles 3-4 a 24"""	OK	rules.js:3372 dRange	
+quickref-010	quickref.txt L48-49	Dispersión del destino: una vez por turno, sin límite de alcance	OK	rules.js:3438-3444 (s.fated por turno)	Solo se usa si no hay Mago disponible o dispPref off
+quickref-011	quickref.txt L8-14 (tabla)	"Disfunción 2-4 Cascada Dimensional: plantilla de 5"", F10 FP-4 a todo modelo bajo ella (riesgo p.95)"	OK	rules.js:2241 blastCount	
+quickref-012	quickref.txt L15-20 (tabla)	"Disfunción 5-6 Detonación Calamitosa: plantilla de 3"", F6 FP-2 a todo modelo bajo ella (riesgo p.95)"	OK	rules.js:2241 blastCount	
+quickref-013	quickref.txt L21-24 (tabla)	Disfunción 7 Conjuración Descuidada: el Mago sufre un impacto de F4 FP-1	OK	rules.js:3356-3359 miscast1 (r===7)	
+quickref-014	quickref.txt L25-30 (tabla)	Disfunción 8-9 Poder Apenas Controlado: se lanza (al VL para dispersar) y no puede lanzar más este turno	OK	rules.js:3360-3363 miscast1 (noMore; return 1)	
+quickref-015	quickref.txt L31-35 (tabla)	Disfunción 10-12 Drenaje de Poder: invocación perfecta y no puede lanzar más este turno	OK	rules.js:3362 miscast1 (return r>=10?2:1)	
+quickref-016	quickref.txt L50-56	Fase de Estrategia en 4 subfases: Inicio de turno, Mando, Conjuración, Reagrupar tropas en huida	OK	rules.js:5234 beginStrategy; castCheck; rally (c3-025)	Las subfases no se distinguen como pasos separados, pero cada efecto ocurre en la fase
+quickref-017	quickref.txt L53-54	Inicio de turno: se resuelven acciones especiales y chequeos al inicio del turno	OK	rules.js:5234-5290 beginStrategy	
+quickref-018	quickref.txt L56-57	Mando: habilidades de personajes que no huyen se usan en la subfase de Mando	OK	rules.js:6343, cmdUse (Cáliz, Icono)	
+quickref-019	quickref.txt L59-60	Conjuración: los Magos lanzan Encantamientos y Maleficios	OK	rules.js castCheck (c3-019)	
+quickref-020	quickref.txt L61-63	Reagrupar tropas: el jugador activo intenta reagrupar; las que fallan siguen huyendo	OK	rules.js rally (c3-025)	
+quickref-021	quickref.txt L69-76	Declarar cargas: la unidad que carga debe poder trazar línea de visión al objetivo	OK	rules.js:2854 chargeTargets (c3-032)	LDV a nivel de unidad
+quickref-022	quickref.txt L77-80	Columna de marcha, trabadas o huyendo no pueden cargar	OK	rules.js ~3206 carga con Columna de Marcha (FAQ)	
+quickref-023	quickref.txt L84-85	Reacción Aguantar: la unidad espera la carga	OK	rules.js:2950 doCharge (c3-037)	
+quickref-024	quickref.txt L86-91	Reacción Plantar cara y disparar: dispara a quien carga; no si la distancia < M del que carga	OK	rules.js:3040-3050 doCharge standShoot (c3-040)	Excepciones por reglas especiales (Disparo rápido)
+quickref-025	quickref.txt L92-96	Reacción Huir: pivota de espaldas al centro del que carga y hace un movimiento de huida	OK	rules.js:2765 runAway; pushAway (c3-043)	
+quickref-026	quickref.txt L97-99	Unidad ya en huida debe declarar Huir; solo una reacción por fase	OK	rules.js charge reactions	
+quickref-027	quickref.txt L100-103	Alcance de carga: 2D6 descartando el menor + Movimiento	OK	rules.js doCharge (c3-048)	
+quickref-028	quickref.txt L104-105	Si el alcance basta, se hace el movimiento de carga	OK	rules.js:2950 doCharge	
+quickref-029	quickref.txt L106-108	Carga fallida: avanza hacia el objetivo la distancia de la tirada de carga	OK	rules.js doCharge maxStep (c3-050)	
+quickref-030	quickref.txt L109-114	Cargar a unidad que huye: si contacta se alinea y se destruye	OK	rules.js doCharge (c3-061)	
+quickref-031	quickref.txt L112-114	Tras destruir a la que huye, la unidad puede hacer chequeo de Ld para reformar	OK	rules.js run-down reform Ld	
+quickref-032	quickref.txt L115-117	Si no contacta con la que huye, se mueve todo su alcance de carga	OK	rules.js doCharge (c3-063)	
+quickref-033	quickref.txt L118-120	Movimientos obligatorios: todos se hacen en esta subfase	PARCIAL	rules.js endPhase; runAway; reservas (enter)	VERIF v732: Solo huida y retorno fuera de mesa en compulsoryMoves (rules.js:6600). Movimiento aleatorio/impetuosos se hacen en beginMove (rules.js:6490-6510) al inicio, antes de cargas y de la huida | Estructura de subfases implícita
+quickref-034	quickref.txt L121-123	Movimientos restantes: el resto de unidades mueven; los Magos lanzan Traslados	OK	rules.js Conveyance fase de movimiento	
+quickref-035	quickref.txt L126-130	Marchar: hasta doble M (triple en Columna de marcha); solo ruedas, ninguna otra maniobra	OK	rules.js:1871 previewMove (c3-077/078)	
+quickref-036	quickref.txt L130-131	"Marchar a 8"" de un enemigo exige chequeo de Liderazgo previo"	OK	rules.js nearEnemy8 (c3-079)	Voladores exentos en el motor
+quickref-037	quickref.txt L132-134	Una sola maniobra por movimiento; ningún modelo mueve más del doble de M	OK	rules.js:1871 previewMove (una maniobra, mult)	
+quickref-038	quickref.txt L135-136	Rueda: el borde delantero avanza pivotando sobre una esquina frontal	PARCIAL	rules.js previewMove (c3-082)	Una sola rueda; sin pivote real de esquina.
+quickref-039	quickref.txt L137-139	Giro: modelos en su sitio giran 90° o 180°; cada 90° gasta 1/4 de M	OK	rules.js previewMove (c3-083)	No se recolocan los modelos de mando
+quickref-040	quickref.txt L140-141	Retroceder: mitad de M	OK	rules.js previewMove (c3-084)	
+quickref-041	quickref.txt L142-143	De lado: mitad de M	OK	rules.js previewMove (c3-085)	
+quickref-042	quickref.txt L144-146	Reordenar filas: mitad de M para añadir o quitar hasta cinco modelos del frente	OK	rules.js previewMove (c3-086)	
+quickref-043	quickref.txt L147-149	Reformar: todo el M para pivotar sobre el centro y cambiar de formación	OK	rules.js previewMove (c3-087/088)	
+quickref-044	quickref.txt L158-170	Disparo: elegir unidad y declarar objetivo; secuencia completa por unidad, una a una	OK	rules.js:2030 shootCheck1 (c3-114)	
+quickref-045	quickref.txt L173-176	Impactar con HP: HP1 6+, 2 5+, 3 4+, 4 3+, 5 2+	OK	rules.js:1548 shootBase (c3-124)	
+quickref-046	quickref.txt L177-179	Modificadores: mover y disparar -1, largo alcance -1, plantar cara -1	OK	rules.js shootBase mods (c3-127..129)	
+quickref-047	quickref.txt L180-183	Modificadores: cobertura parcial -1, cobertura total -2	PARCIAL	rules.js (cobertura por muestreo)	Cobertura estimada con 5 muestras.
+quickref-048	quickref.txt L186-192	"Herir: tabla F contra R (10x10, 6+ máx., ""-"" imposible)"	OK	rules.js:1545 woundNeed (c3-133)	Verificadas las diez filas contra la tabla
+quickref-049	quickref.txt L193-196	Salvaciones por armadura y especiales tras cada herida	OK	rules.js woundAndSave (c3-136..142)	
+quickref-050	quickref.txt L197-201	Quitar bajas: cada herida no salvada quita una Herida; a 0 es baja	OK	rules.js applyWounds (c3-143)	
+quickref-051	quickref.txt L202-205	Pánico en Disparo si pierde más del 25% de los modelos que tenía al inicio de la fase	OK	rules.js:2742 panicFromLosses (c3-144)	
+quickref-052	quickref.txt L206-210	Fallos del Lanzapiedras: 1 destruido, 2-4 pierde 1 Herida y no dispara hasta la ronda siguiente, 5-6 no dispara	OK	rules.js:2076 misfire (core6-012)	
+quickref-053	quickref.txt L211-215	Tabla de Fallos de Pólvora: 1 destruida, 2-4 pierde una Herida y no dispara, 5-6 fuego fallido	OK	rules.js:2076 misfire (core6-027)	
+quickref-054	quickref.txt L216-221	Fallo en el dado de Artillería: se tira en la tabla de fallos que corresponda	OK	rules.js:2084 ART; 2248/2276 artDieM	
+quickref-055	quickref.txt L188-196	Fase de Combate en 4 subfases: elegir y luchar, resultado, Prueba de Ruptura, seguir y perseguir	OK	rules.js:4960 resolveCombats (C4-001..)	
+quickref-056	quickref.txt L197-199	1.1 El jugador activo elige el orden de los combates; cada uno se resuelve completo	OK	rules.js:5300 pref cmbOrd; ai.js optionGroups	
+quickref-057	quickref.txt L202-210	Iniciativa: se lucha de mayor a menor Iniciativa	OK	rules.js fightGroup (c3-164)	
+quickref-058	quickref.txt L208-212	Bono de Iniciativa por carga: +1 por pulgada entera, máx +3 al frente, +4 flanco/retaguardia	OK	rules.js effI (c3-165)	
+quickref-059	quickref.txt L213-216	Pueden atacar los modelos de la fila de combate; sin contacto de peana solo 1 ataque	OK	rules.js attackProfile0 (c3-162/177)	
+quickref-060	quickref.txt L226-230	Impactar en combate: tabla HA contra HA (10x10)	OK	rules.js:1537 HIT_TBL	Las diez filas coinciden con la tabla de la hoja
+quickref-061	quickref.txt L188-190	Herir y salvar en combate igual que en disparo	OK	rules.js woundAndSave	
+quickref-062	quickref.txt L192-196	Bajas desde la fila trasera; el modelo que da un paso al frente no ataca esa fase	PARCIAL	rules.js frontLost; applyWounds (c3-168/176)	Bajas retiradas en bloque.
+quickref-063	quickref.txt L229-237	Resultado: 1 pto por herida no salvada, +1 por fila, estandarte, estandarte de batalla	OK	rules.js sideScore (C4-002..008)	
+quickref-064	quickref.txt L238-239	Resultado: ataque de flanco +1, retaguardia +2	OK	rules.js sideScore (C4-009)	
+quickref-065	quickref.txt L240	Resultado: terreno elevado +1	OK	rules.js sideScore (hill por rango)	
+quickref-066	quickref.txt L241	Resultado: sobreeliminación +1 por herida sobrante	OK	rules.js sideScore (C4-011)	Solo desafíos, máx +5 (Core)
+quickref-067	quickref.txt L242	Resultado: otras bonificaciones según se aplique	OK	rules.js sideScore (C4-012)	
+quickref-068	quickref.txt L245-252	Prueba de Ruptura: 2D6 con la diferencia como penalizador contra el Ld	OK	rules.js resolveCombats Ruptura (C4-018..020)	
+quickref-069	quickref.txt L253-255	Tirada natural > Ld: la unidad se rompe y huye	OK	rules.js resolveCombats (C4-021)	
+quickref-070	quickref.txt L256-258	Natural <= Ld pero modificada > Ld: retrocede en buen orden	OK	rules.js resolveCombats (C4-022)	
+quickref-071	quickref.txt L259-262	Modificada <= Ld o doble 1 natural: cede terreno	OK	rules.js resolveCombats (C4-023)	
+quickref-072	quickref.txt L232-239	Seguir y perseguir: tras la Ruptura y antes de huir el ganador elige contenerse, seguir o perseguir	OK	rules.js pref restrain; ai.js	
+quickref-073	quickref.txt L235-238	Contenerse y reformar: chequeo de Ld; si lo pasa se queda y reforma gratis; si no debe seguir o perseguir	OK	rules.js pref restrain; ai.js	
+quickref-074	quickref.txt L240-243	Seguir: si el enemigo cede, avanzan; antes pueden hacer un giro gratis de 90° o 180°	PARCIAL	rules.js resolveCombats (C4-032/033)	El giro libre posterior no se ofrece; la orientación se alinea sola.
+quickref-075	quickref.txt L244-246	Perseguir: si el enemigo retrocede en buen orden o huye, la unidad ganadora puede perseguirlo	OK	rules.js resolveCombats (C4-035)	
+quickref-076	quickref.txt L247-249	Arrollar: si aniquiló al enemigo, puede hacer un movimiento de persecución recto	OK	rules.js resolveCombats (C4-036)	
+battlemarch-001	battlemarch.txt L1-110	Portada, índice, introducción y créditos del libro	NA		Sin efecto mecánico
+battlemarch-002	battlemarch.txt L112-540	Narrativa: Guerra de la Furia de Settra, Chainmaker y Waaagh! Spinecracker	NA		Ambientación
+battlemarch-003	battlemarch.txt L400-740	Narrativa: Paso de Axe Bite, Helmgart, duelo en el puente de Weisnicht	NA		Ambientación
+battlemarch-004	battlemarch.txt L742-760	Tabla de escenarios narrativos: tirar un D6 para elegir (Weisnicht, Bel-Cedas, Saqueadores, Karak, Sturdham, Gemelwald)	OK	main.js:459 sScnD6 (r-1 → lista de 6 escenarios)	
+battlemarch-005	battlemarch.txt L745-748	"Escenarios en mesas de 30""x44"" a 36""x48"" y ejércitos de 400 a 750 puntos"	OK	rules.js:635 (44x30 hasta 600, 48x36 si >600); main.js:423 límites 400..750	
+battlemarch-006	battlemarch.txt L762-772	Escenarios jugables con cualquiera de las listas de ejemplo o con listas propias	OK	data.js:5636 EXAMPLES; main.js (selector de listas)	
+battlemarch-007	battlemarch.txt L774-785	Escenarios enlazados: jugarlos en orden manteniendo el papel de atacante/defensor	OK	main.js:317 AXE_ORDER + botón mLink	
+battlemarch-008	battlemarch.txt L775-780	Atacante y defensor: acordados o a un D6 antes de elegir ejército	OK	rules.js:632 zsw/atk; main.js sZsw (D6 con zsw=2)	
+battlemarch-009	battlemarch.txt L786-800	"Weisnicht: terreno según p.268 más un río de 3"" a 6"" de ancho por el centro"	OK	rules.js:596-602 axeSetup weis (rw=3+floor(rnd*4))	
+battlemarch-010	battlemarch.txt L800-812	Weisnicht: el río es terreno peligroso	OK	rules.js:603 (kind swamp, danger:true, river:true)	
+battlemarch-011	battlemarch.txt L800-812	"Weisnicht: puente o vado (terreno abierto) de hasta 8"" en el centro"	OK	"rules.js:596-599 (hueco de 8"" centrado)"	
+battlemarch-012	battlemarch.txt L813-818	Weisnicht: despliegue alterno por unidades empezando por el atacante	OK	rules.js:1047 ALT_RULE bm_weisnicht [alt, atk]	
+battlemarch-013	battlemarch.txt L819-825	Weisnicht: primer turno según Clash of Steel	OK	rules.js:390 clashDuel; 408 clashStep	
+battlemarch-014	battlemarch.txt L826-834	Weisnicht: cinco rondas o hasta que un bando se rinda; Puntos de Victoria de p.27	OK	rules.js:206 (turns:5); 5944-5960 scoreVP smallVP	La rendición no es una acción del motor
+battlemarch-015	battlemarch.txt L835-846	Clash of Steel: cada jugador nomina un modelo de 1 Herida, infantería o caballería, al duelo central	OK	rules.js (War Beasts caballería, Core)	
+battlemarch-016	battlemarch.txt L835-846	Clash of Steel: se lucha todos los asaltos necesarios; el vencedor vuelve a su unidad y su dueño juega primero	OK	rules.js:390 clashDuel (bucle hasta caída)	
+battlemarch-017	battlemarch.txt L835-846	Clash of Steel: si caen ambos, tirada enfrentada; el perdedor muere y se retira	OK	rules.js:390-407 clashDuel (win===null → rollOff)	
+battlemarch-018	battlemarch.txt L846-848	Si un ejército Bretoniano gana el duelo, cuenta como haber rezado por las Bendiciones de la Dama	OK	rules.js:408-420 clashStep (s.bless[w]=true)	Solo si el ganador es Bretoniano y el rival no lo es
+battlemarch-019	battlemarch.txt L854-872	Bel-Cedas: el defensor lleva dos carros de equipaje (60x100 mm)	OK	rules.js:633 (dos bm_cart al defensor)	
+battlemarch-020	battlemarch.txt L873-880	Bel-Cedas: el defensor despliega todo primero; el atacante despliega las que quiera y el resto va a reserva	OK	rules.js:1047 ALT_RULE whole/def; 6595 resv	
+battlemarch-021	battlemarch.txt L888-890	Bel-Cedas: el atacante juega el primer turno	OK	rules.js:724 (s.first=atk)	
+battlemarch-022	battlemarch.txt L891-900	Bel-Cedas: cinco rondas; PV de p.27 y PV por carros de p.36	OK	rules.js:207 turns:5; 5886-5890 carros	
+battlemarch-023	battlemarch.txt L902-913	"¡Es una emboscada!: desde la 2ª ronda las reservas entran por cualquier borde largo, a más de 4"" de enemigos"	OK	rules.js:6522-6543 (turn>=2, borde top/bottom, enemyGap 4)	
+battlemarch-024	battlemarch.txt L915-935	"Saqueadores: terreno p.268 más dos graneros de máx. 6"" de ancho, terreno impasable"	OK	rules.js:604-607 (graneros 4x4, kind ruin barn)	
+battlemarch-025	battlemarch.txt L936-946	Saqueadores: despliegue alterno empezando por el defensor	OK	rules.js:1047 ALT_RULE bm_raiders [alt, def]	
+battlemarch-026	battlemarch.txt L947-953	Saqueadores: el defensor juega el primer turno; cinco rondas	OK	rules.js:724; 208 turns:5	
+battlemarch-027	battlemarch.txt L954-964	Saqueadores: el defensor gana 100 PV si el atacante tiene 0 Puntos de botín; el atacante 10 PV por punto	OK	rules.js:5879	
+battlemarch-028	battlemarch.txt L966-974	Saquear el granero: al final del turno atacante, unidad US 5+ libre y en contacto con un granero gana 1 Punto de botín	OK	rules.js:5762-5766	
+battlemarch-029	battlemarch.txt L976-995	"Karak Ziflin: terreno p.268 más una forja de máx. 6"", terreno impasable"	OK	"rules.js:608-611 (forja 3,94"", nolos)"	
+battlemarch-030	battlemarch.txt L996-1010	Karak Ziflin: despliegue alterno empezando por el atacante; primer turno del defensor; cinco rondas	OK	rules.js:1047 ALT_RULE bm_karak; 724; 209 turns:5	
+battlemarch-031	battlemarch.txt L1011-1026	Karak Ziflin: la forja es un punto estratégico; 25 PV al final de cada turno al que la controle	OK	rules.js:611 (vp:25), 5771	
+battlemarch-032	battlemarch.txt L1027-1043	Karak Ziflin: quien controle la forja gana Perforante (1) mientras la controle	OK	rules.js forge Math.max(ab,1)	
+battlemarch-033	battlemarch.txt L1045-1075	"Sturdham: terreno p.286, aldea de hasta 4 edificios (<=6"") con cercado de obstáculos bajos y huecos como puertas"	OK	opcional por texto	
+battlemarch-034	battlemarch.txt L1060-1075	Sturdham: dos tesoros a colocar según el mapa	OK	"rules.js:620 (a 7,5"" de los bordes cortos)"	Posición medida del mapa, no legible en el texto
+battlemarch-035	battlemarch.txt L1076-1084	Sturdham: el defensor despliega todo su ejército primero, luego el atacante	OK	rules.js:1047 ALT_RULE bm_sturdham [whole, def]	
+battlemarch-036	battlemarch.txt L1085-1092	Sturdham: primer turno por tirada enfrentada (gana y juega primero); cinco rondas	OK	rules.js:1058 RO bm_sturdham [0,0]; 210 turns:5	
+battlemarch-037	battlemarch.txt L1093-1103	Sturdham: +50 PV a quien tenga mayor US de modelos completamente dentro del cercado (sin huir)	OK	rules.js:5880-5884	
+battlemarch-038	battlemarch.txt L1104-1111	Seguridad del ganado: el defensor puntúa por controlar tesoros; el atacante solo por destruirlos (p.36)	OK	rules.js:5769 (noAtkCtl); raidOnly 621	
+battlemarch-039	battlemarch.txt L1113-1140	"Gemelwald: edificios (hasta cinco, <=6"") en la mitad del defensor; cercados opcionales"	OK	opcional por texto	
+battlemarch-040	battlemarch.txt L1141-1153	Gemelwald: defensor despliega todo primero; el atacante juega primero; seis rondas	OK	rules.js:1047; 724; 211 turns:6	
+battlemarch-041	battlemarch.txt L1154-1160	Gemelwald: 25 PV por edificio controlado al final de cada turno de cada jugador	OK	rules.js:5771 (L.vp=25 bld)	
+battlemarch-042	battlemarch.txt L1161-1163	¡Mantened firmes!: defensores que controlan un edificio repiten Pánicos fallidos	OK	rules.js:2714-2716 bldCtl	
+battlemarch-043	battlemarch.txt L1164-1166	¡Es nuestro!: atacantes que controlan un edificio repiten 1 naturales para herir	OK	rules.js:4226 (P.rr1)	
+battlemarch-044	battlemarch.txt L1170-1180	Helmgart: Capitán Weisgerber (General), 55 pts, mano, a dos manos y armadura completa	OK	data.js:5638; EXAMPLES.empire[0]	Coste motor = 55
+battlemarch-045	battlemarch.txt L1182-1188	Helmgart: 20 Tropas Estatales con campeón, estandarte y músico, armas de mano y escudos, 135 pts	OK	data.js:5638	Coste motor = 135
+battlemarch-046	battlemarch.txt L1189-1193	Helmgart: 10 Arcabuceros estatales con campeón, armas de mano y arcabuces, 85 pts	OK	data.js:5638	Coste motor = 85
+battlemarch-047	battlemarch.txt L1194-1198	Helmgart: 10 Arqueros con campeón, armas de mano y arcos de guerra, 75 pts	OK	data.js:5638	Coste motor = 75; Vanguardia incluida
+battlemarch-048	battlemarch.txt L1199-1204	Helmgart: 5 Batidores con campeón, pistolas, arcabuces de repetición y armadura pesada, 111 pts	PARCIAL	data.js:5638 (opts ssb)	Inconsistencia de fuente (texto: arcabuces repetidores; 111 pts solo cuadra con el trabuco lanzagranadas).
+battlemarch-049	battlemarch.txt L1205-1210	Helmgart: 10 Flagelantes con campeón, armas de mano y mayales, 137 pts	OK	data.js:5638	Coste motor = 137
+battlemarch-050	battlemarch.txt L1211-1230	Helmgart: requiere Forces of Fantasy; texto de ambientación y tácticas	NA		Ambientación
+battlemarch-051	battlemarch.txt L1258-1275	Drazgog: Gran Jefe Orco sobre jabalí, arma de mano, lanza de caballería, Escudo Encantado, armadura pesada, 86 pts	PARCIAL	data.js:5637 (opts ha+sh, ench_shield)	Inconsistencia fuente/puntos ya anotada.
+battlemarch-052	battlemarch.txt L1276-1280	Drazgog: Gran Jefe Orco Portaestandarte de batalla, arma de mano y armadura pesada, 83 pts	OK	data.js:5637	Coste motor = 83
+battlemarch-053	battlemarch.txt L1281-1284	Drazgog: Chamán Goblin (Oddgit) nivel 1 con arma de mano, 60 pts	OK	data.js:5637	Coste motor = 60
+battlemarch-054	battlemarch.txt L1285-1290	Drazgog: 15 Orcos con campeón, estandarte y músico, lanzas arrojadizas y escudos, 122 pts	OK	data.js:5637	Coste motor = 122
+battlemarch-055	battlemarch.txt L1291-1296	Drazgog: 5 Jinetes de Jabalí con estandarte y músico (sin campeón), armas de mano y escudos, 100 pts	PARCIAL	data.js:5637 (champ:true)	Inconsistencia fuente/puntos ya anotada.
+battlemarch-056	battlemarch.txt L1297-1300	Drazgog: 5 Jinetes de Lobo con campeón, armas de mano y arcos cortos, 57 pts	OK	data.js:5637 (opts sb)	Coste motor = 57
+battlemarch-057	battlemarch.txt L1301-1304	Drazgog: Carro de Jabalíes Orco con armas de mano y lanzas de caballería, 90 pts	OK	data.js:5637	Coste motor = 90
+battlemarch-058	battlemarch.txt L1305-1335	Drazgog: requiere Ravening Hordes; ambientación y tácticas	NA		Ambientación
+battlemarch-059	battlemarch.txt L1337-1346	Principios generales: ejércitos de Battle March de 400 a 750 puntos en incrementos de 50	OK	main.js:423 [400..750 paso 50]	
+battlemarch-060	battlemarch.txt L1347-1363	Listas según p.276 con diferencias; reglas válidas también para un Contingente Aliado	OK	data.js allyArmyIssues + rules.js createGame (promoción de General ignora aliados en Battle March)	Contingente aliado soportado con las reglas de Battle March
+battlemarch-061	battlemarch.txt L1365-1373	Mínimo dos unidades que no sean personajes (valen máquinas, no enjambres ni bestias de guerra)	PARCIAL	data.js:4417-4418	"VERIF v732: data.js:4823-4824 cuenta cat!=""char""; Linterna Celeste (cat char, comp rare, no es personaje) no cuenta como unidad no personaje; swarm/warBeasts bien excluidos"
+battlemarch-062	battlemarch.txt L1374-1380	Al menos un personaje como General; ningún personaje cuesta más del 25 % del ejército	OK	data.js:4432 (cualquier personaje General); 4425	
+battlemarch-063	battlemarch.txt L1382-1388	Ninguna unidad con Fuerza de Unidad mayor que 20	PARCIAL	data.js:4429 (d.cat !== char)	Los personajes quedan exentos del tope de 20 US.
+battlemarch-064	battlemarch.txt L1389-1395	Una sola unidad Básica <=35 %, Especial <=30 %, Rara o Mercenaria <=25 %	OK	data.js:4426-4428	
+battlemarch-065	battlemarch.txt L1396-1420	0-X por 1.000 puntos: en Battle March se puede incluir una sola opción de ese tipo (unidad, personaje o mejora)	PARCIAL	data.js:4419-4423	Detección de 0-X por 1000 no verificada.
+battlemarch-066	battlemarch.txt L1422-1437	"Mesa de 30""x44"" a 36""x48"" (pequeña 400-600, grande >600); terreno p.268 o disperso; evitar terreno >12"""	PARCIAL	rules.js:635; terrain.js genTerrain	Sin modo de terreno disperso.
+battlemarch-067	battlemarch.txt L1439-1451	Tras colocar terreno y antes de desplegar se tira en la tabla: 1-2 dos tesoros, 3-4 tres, 5-6 un punto estratégico	OK	rules.js:702-723 (r<=2 / <=4 / resto)	
+battlemarch-068	battlemarch.txt L1452-1476	"Tesoros: peana de 40 mm, según mapa, a >=3"" de terreno y sin cruzar obstáculo bajo (se mueve el terreno)"	PARCIAL	rules.js:703-720	Posiciones de tesoro según mapa no modeladas.
+battlemarch-069	battlemarch.txt L1477-1499	"Punto estratégico: peana de 100 mm en el centro, impasable y sin línea de visión, a >=3"" de terreno"	OK	"rules.js:703-721 (3,94"", nolos:true)"	
+battlemarch-070	battlemarch.txt L1490-1499	Propiedad inusual: se tira un D6 antes de desplegar; la unidad controladora la tiene hasta el final del siguiente turno	OK	rules.js:721, 5771 (fx endTurn)	
+battlemarch-071	battlemarch.txt L1515-1520	1-2 Magia en el aire: Resistencia a la magia (-2)	OK	rules.js:721 prop magic; mrItems 1488 (lmkmr +2)	
+battlemarch-072	battlemarch.txt L1522-1525	3-4 Celo justiciero: Frenesí	OK	rules.js:721 prop zeal (lmkz)	
+battlemarch-073	battlemarch.txt L1527-1530	5-6 «No nos vamos»: Obstinado	OK	rules.js:721 prop stubborn (lmks)	
+battlemarch-074	battlemarch.txt L1500-1511	"Control de objetivos: a 3"", US 5+, no huyendo ni con Estupidez; el más cercano; empate por US; si persiste, disputado"	OK	rules.js:325 bmCtl	
+battlemarch-075	battlemarch.txt L1548-1560	Mapa de despliegue por D6: 1 Batalla campal, 2 Encuentro cercano, 3 Flancos opuestos, 4 Encuentro, 5 Paso, 6 Flanqueo	OK	rules.js:205 bm_random; 635 (lista de seis)	
+battlemarch-076	battlemarch.txt L1551-1560	"Mapa 1 Pitched Battle: franjas de 7,5"" en los bordes largos"	OK	rules.js:204 bm_pitched; 234	
+battlemarch-077	battlemarch.txt L1551-1560	Mapa 2 Close Encounter: cuadrantes opuestos con círculo central excluido	PARCIAL	rules.js:212 bm_close	Medidas de despliegue basadas en mapa no modeladas.
+battlemarch-078	battlemarch.txt L1551-1560	Mapa 3 Opposed Flanks: dos triángulos opuestos en los bordes cortos	PARCIAL	rules.js:213 bm_opposed	Medidas de despliegue basadas en mapa no modeladas.
+battlemarch-079	battlemarch.txt L1551-1560	"Mapa 4 Meeting Engagement: franjas de 7,5"" desplazadas en bordes cortos opuestos"	PARCIAL	rules.js:214 bm_meeting	Medidas de despliegue basadas en mapa no modeladas.
+battlemarch-080	battlemarch.txt L1551-1560	"Mapa 5 Mountain Pass: zonas de 11"" en los bordes cortos con 22"" entre ellas"	OK	rules.js:215 bm_pass	"Cifras 11"" y 22"" visibles en el texto"
+battlemarch-081	battlemarch.txt L1551-1560	Mapa 6 Outflank: dos triángulos en diagonal	PARCIAL	rules.js:216 bm_outflank	Medidas de despliegue basadas en mapa no modeladas.
+battlemarch-082	battlemarch.txt L1562-1572	Un jugador elige el mapa y el rival la zona; el ganador de la tirada despliega primero; despliegue alterno	OK	rules.js:647 zsw; 1050-1078 FIRST_WIN, ALT_RULE	
+battlemarch-083	battlemarch.txt L1573-1585	Despliegues alternativos: invertir Cercano, Flancos, Encuentro y Flanqueo; D6 para decidir	OK	rules.js:643-646 rev (0/1/2=D6)	
+battlemarch-084	battlemarch.txt L1596-1597	Terminado el despliegue, el ganador de una tirada elige quién juega primero	OK	rules.js:1058 RO bm_* [0,1]	
+battlemarch-085	battlemarch.txt L1598-1608	Cinco rondas, hasta rendirse o agotar el tiempo acordado	OK	rules.js:204-216 turns:5	Rendición y tiempo no modelados
+battlemarch-086	battlemarch.txt L1609-1626	PV: destruir, hacer huir o reducir unidades enemigas (p.286 del Core)	OK	rules.js:5936-5946 scoreVP	
+battlemarch-087	battlemarch.txt L1627-1639	El Rey ha muerto: +50 PV si el General enemigo muere, sale de la mesa o huye al final	OK	rules.js:5944,5949 (smallVP → 50)	
+battlemarch-088	battlemarch.txt L1640-1649	Trofeos de guerra: +25 PV por estandarte capturado y +25 si el Portaestandarte de batalla enemigo muere/huye	OK	rules.js:5956,5958	
+battlemarch-089	battlemarch.txt L1650-1654	Tesoros: al final de cada turno de jugador, +10 PV por tesoro controlado	OK	rules.js:5771 (vp:10)	
+battlemarch-090	battlemarch.txt L1655-1660	Puntos estratégicos: al final de cada turno de jugador, +25 PV al que lo controle	OK	rules.js:5771 (vp:25 land)	
+battlemarch-091	battlemarch.txt L1668-1685	Karak Ziflin: Thane Sven (General) con arma de mano, armadura pesada, escudo y Piedra de Juramento, 77 pts	PARCIAL	data.js:5639 (arm plate, opts sh, dw_oathstone)	El Thane de FoF lleva armadura completa sin opción de pesada; el texto BM dice pesada.
+battlemarch-092	battlemarch.txt L1686-1692	Karak Ziflin: 12 Guerreros Enanos con campeón, estandarte y músico, armas de mano, escudos y armadura pesada, 123 pts	OK	data.js:5639	Coste motor = 123
+battlemarch-093	battlemarch.txt L1693-1697	Karak Ziflin: 12 Atronadores con campeón, arma de mano, arcabuces y armadura pesada, 125 pts	OK	data.js:5639	Coste motor = 125
+battlemarch-094	battlemarch.txt L1698-1703	Karak Ziflin: 10 Barbaslargas con campeón, estandarte y músico, armas a dos manos y armadura pesada, 148 pts	OK	data.js:5639 (opt gw)	Coste motor = 148
+battlemarch-095	battlemarch.txt L1704-1708	Karak Ziflin: 2 Girocópteros con arma de mano, cañones de vapor y fuselajes blindados (armadura completa), 120 pts	OK	data.js:5639	Coste motor = 120; arm plate
+battlemarch-096	battlemarch.txt L1709-1729	Karak Ziflin: requiere Forces of Fantasy; ambientación y tácticas	NA		Ambientación
+battlemarch-097	battlemarch.txt L1731-1745	Reikwald: Wargor Dhaalgu (General) con dos armas de mano y armadura pesada, 63 pts	OK	data.js EXAMPLES.bm	
+battlemarch-098	battlemarch.txt L1746-1750	Reikwald: Chamán Bray nivel 2 con bastón bray, 95 pts	OK	data.js:5640 (w2)	Coste motor = 95
+battlemarch-099	battlemarch.txt L1751-1756	Reikwald: 10 Bestigors con campeón, estandarte y músico, armas de mano, a dos manos y armadura pesada, 150 pts	OK	data.js:5640	Coste motor = 150
+battlemarch-100	battlemarch.txt L1757-1762	Reikwald: 20 Gors con campeón, estandarte y músico, cada uno con dos armas de mano, 157 pts	OK	data.js EXAMPLES.bm	
+battlemarch-101	battlemarch.txt L1763-1768	Reikwald: 10 Ungors con campeón, armas de mano, arcos cortos y Emboscadores, 67 pts	OK	data.js:5640 (bm_ungor_bow_amb)	Coste motor = 67
+battlemarch-102	battlemarch.txt L1769-1773	Reikwald: 10 Perros de Chaos Warhounds con garras y colmillos, 60 pts	OK	data.js:5640	Coste motor = 60
+battlemarch-103	battlemarch.txt L1774-1819	Reikwald: requiere Ravening Hordes; ambientación y tácticas	NA		Ambientación
+battlemarch-104	battlemarch.txt L1821-1835	Montfort: Paladín en Pegaso Real con Guantelete del Duelo, arma de mano, lanza, armadura pesada y escudo, 141 pts	OK	data.js:5641 (ln, sh, gauntlet)	Coste motor = 141
+battlemarch-105	battlemarch.txt L1836-1842	Montfort: 10 Caballeros del Reino a pie con campeón, estandarte y músico, armas, escudos y armadura pesada, 128 pts	OK	data.js:5641	Coste motor = 128
+battlemarch-106	battlemarch.txt L1843-1849	Montfort: 8 Caballeros Errantes con campeón, estandarte y músico, lanzas, armadura pesada y escudos, 170 pts	OK	data.js:5641	Coste motor = 170; el motor lleva además barda por defecto (no citada)
+battlemarch-107	battlemarch.txt L1850-1856	Montfort: 12 Hombres de Armas con Monje del Grial, mando, alabardas, armadura ligera y escudos, 72 pts	OK	data.js:5641 (gm)	Coste motor = 72
+battlemarch-108	battlemarch.txt L1857-1862	Montfort: 12 Arqueros Campesinos con campeón, estandarte y músico, arcos largos y estacas defensivas, 87 pts	OK	data.js:5641	Coste motor = 87
+battlemarch-109	battlemarch.txt L1863-1912	Montfort: requiere Forces of Fantasy; ambientación y tácticas	NA		Ambientación
+battlemarch-110	battlemarch.txt L1914-1930	Ulthuan: Noble Bel-Cedas (General) con arma de mano, alabarda, escudo, armadura pesada y Honor Guardia del Mar, 78 pts	OK	data.js EXAMPLES.he	
+battlemarch-111	battlemarch.txt L1931-1937	Ulthuan: 10 Guardia del Mar con mando, lanzas, arcos de guerra, escudos y armadura ligera, 137 pts	OK	data.js:5642	Coste motor = 137
+battlemarch-112	battlemarch.txt L1938-1943	Ulthuan: 5 Jinetes de Ellyrion con campeón, estandarte y músico, lanzas, arcos cortos y armadura ligera, 110 pts	OK	data.js:5642	Coste motor = 110
+battlemarch-113	battlemarch.txt L1944-1949	Ulthuan: 5 Guerreros Sombríos con campeón, arcos largos, armadura ligera y Fuga fingida, 81 pts	OK	data.js:5642 (ff)	Coste motor = 81
+battlemarch-114	battlemarch.txt L1950-1953	Ulthuan: Carro de Tiranoc con armas, lanzas de caballería y arcos largos, 75 pts	OK	data.js:5642	Coste motor = 75
+battlemarch-115	battlemarch.txt L1954-1958	Ulthuan: Cortacielos de Lothern con lanzavirotes de ojo de águila, 115 pts	OK	data.js:5642	Coste motor = 115
+battlemarch-116	battlemarch.txt L1959-1985	Ulthuan: requiere Forces of Fantasy; ambientación y tácticas	NA		Ambientación
+battlemarch-117	battlemarch.txt L1987-2000	Objetivos secundarios opcionales: Raid & Burn y Carros de equipaje, usables con cualquier mapa u objetivo	OK	rules.js:699 raid; 631 bagc; main.js ajustes	
+battlemarch-118	battlemarch.txt L2006-2013	Raid & Burn: unidad con US 5+ que entra en contacto de peana con un tesoro en Movimientos restantes empieza a destruirlo	OK	rules.js:5740-5745	
+battlemarch-119	battlemarch.txt L2010-2018	Mientras destruye un tesoro no puede disparar y solo lanza hechizos de alcance Combate o Propio	OK	rules.js:2046 shootCheck, 3277 castCheck	
+battlemarch-120	battlemarch.txt L2014-2030	Al inicio de su siguiente Inicio de turno, si sigue en contacto, US 5+, sin trabar ni huir, el tesoro se destruye	OK	rules.js:5246-5251 beginStrategy	
+battlemarch-121	battlemarch.txt L2035-2040	Raid & Burn: +30 PV por tesoro destruido	OK	rules.js:5249	
+battlemarch-122	battlemarch.txt L2041-2056	Carros: uno o ambos añaden un carro (Atacar el equipaje si solo uno; Deber de guardia si ambos)	OK	rules.js:631 bagc 1/2/3	
+battlemarch-123	battlemarch.txt L2054-2064	Carro vivo al final +25 PV a su dueño; si no, +25 PV al rival	OK	rules.js:5886-5888	
+battlemarch-124	battlemarch.txt L2058-2062	Carro completamente en la zona de despliegue enemiga al final: +25 PV a su dueño	OK	rules.js:5889	
+battlemarch-125	battlemarch.txt L2062-2064	Carro que escapa del campo: +25 PV a su dueño	OK	rules.js:5890 (escaped)	
+battlemarch-126	battlemarch.txt L2067-2076	Carro de equipaje: perfil, tipo Carro pesado, base 60x100 mm, tamaño 1, armadura 5+	OK	data.js UNITS verificado	
+battlemarch-127	battlemarch.txt L2077-2080	Carro: armas de mano; reglas Orden cerrado, Huir a lugar seguro, Solitario, No combatiente	OK	data.js:5477 sr [chariot, closeOrder, fleeSafe, loner, nonCombatant]	
+battlemarch-128	battlemarch.txt L2083-2090	Huir a lugar seguro: parte del carro que toque o cruce borde de mesa de la zona enemiga sale sin ser destruido	OK	rules.js:2794-2802 fleeSafeCheck	
+battlemarch-129	battlemarch.txt L2093-2100	No combatiente: no carga, persigue, arrolla ni sigue; sin Presencia inspiradora ni Mantened la posición	OK	rules.js chargeTargets, restrains 4241, 1424, 2690	
+battlemarch-130	battlemarch.txt L2104-2110	Carros representados por diorama en peana de 60x100 mm	NA		Representación física
+battlemarch-131	battlemarch.txt L2149-2165	Sucesos aleatorios: elegir una o varias tablas (Clima, Terreno salvaje, Caos de guerra) o tirar D3	OK	rules.js:699 hap weather|wild|chaos|all	
+battlemarch-132	battlemarch.txt L2201-2206	Juego igualado: se puede usar Sucesos aleatorios, incluso cambiando de tabla cada ronda	NA		Opcional de organizador
+battlemarch-133	battlemarch.txt L2207-2215	Clima: se tira un D6 antes del despliegue y el efecto dura toda la partida	OK	rules.js:700 (s.weather=d6)	
+battlemarch-134	battlemarch.txt L2219-2227	Clima 1 Aguacero: -1 a M (mín 1), sin Zancada veloz, afecta incluso a Volar	OK	rules.js:1479 mvOf; 147 has_ swiftstride	Volar (X) usa M del motor (FLYX), por lo que se aplica
+battlemarch-135	battlemarch.txt L2228-2233	"Clima 2 Vendaval: -6"" de alcance (mín 3"") a proyectiles de Fuerza 5 o menos"	OK	rules.js:1453 rangedOf1	
+battlemarch-136	battlemarch.txt L2234-2242	Clima 3 Calor: D6 por unidad al Inicio; con 1 (1-2 si armadura pesada o barda) D3 modelos test de R o pierden 1 Herida	OK	rules.js clima calor	
+battlemarch-137	battlemarch.txt L2243-2250	Clima 4 Rayos: cada Inicio de turno D6; con 1-2 una unidad aleatoria suya sufre D6 impactos F4 FP-1	OK	rules.js:5253	
+battlemarch-138	battlemarch.txt L2251-2264	"Clima 5 Remolino: plantilla 3"" al centro, dispersa 2D6"" y D6"" cada Inicio; -1 HA/HP a quien toca o atraviesa"	OK	rules.js dispersión	
+battlemarch-139	battlemarch.txt L2265-2276	Clima 6 Vientos helados: con 1 en D6 chequeo de Ld antes de mover, disparar, lanzar o cargar; obligatorios no afectados	OK	rules.js:5245, 6168-6172	
+battlemarch-140	battlemarch.txt L2277-2287	Terreno salvaje: unidades que acaban en elemento natural (o desplegadas en él) tiran D6 para descubrir su propiedad	OK	rules.js:341-353 wildDiscover, 6179	Bosque, colina y pantano
+battlemarch-141	battlemarch.txt L2292-2298	Terreno 1 Zarzal: difícil; marchar, cargar, huir o perseguir lo trata como peligroso	OK	rules.js:5490 movePursuer + pushAway Zarzal	
+battlemarch-142	battlemarch.txt L2299-2305	Terreno 2 Posición defensiva: cuenta como defender obstáculo bajo; quien carga queda Desorganizado	OK	rules.js obstáculo bajo	
+battlemarch-143	battlemarch.txt L2306-2312	Terreno 3 Esporas tóxicas: cada modelo que acaba completamente dentro hace test de R o pierde una Herida	OK	rules.js:352	
+battlemarch-144	battlemarch.txt L2313-2318	Terreno 4 Magia persistente: Resistencia a la magia (1) dentro del elemento	OK	rules.js:1488 (tt.wild===4 +1)	
+battlemarch-145	battlemarch.txt L2292-2298	Terreno 5 Hierbas curativas: al descubrir y cada Inicio de turno un modelo dentro recupera una Herida	PARCIAL	rules.js:355-358, 5244	"VERIF v732: rules.js wildHeal:459 elige automaticamente la 1a unidad del jugador activo con una esquina en el elemento y herida perdida; sin eleccion de modelo/unidad ni popup; modelo ""dentro"" aprox. por esquinas"
+battlemarch-146	battlemarch.txt L2300-2320	Terreno 6 Guarida de Troll: Troll furioso en contacto con el frente, cuenta como cargador, I 10, combate inmediato	OK	rules.js:542 wildTroll	
+battlemarch-147	battlemarch.txt L2300-2320	Guarida: si gana la unidad el Troll se retira y ella reforma; si gana el Troll vuelve a su guarida y defiende de nuevo	OK	rules.js:542-562 wildTroll; 4242 restrains	
+battlemarch-148	battlemarch.txt L2300-2320	Guarida: si descubre una unidad de Escaramuzadores, se forman antes de colocar al Troll	OK	rules.js guarida de trolls	
+battlemarch-149	battlemarch.txt L2321-2345	Troll furioso: perfil numérico, infantería monstruosa, base 40x40, tamaño 1, armadura ligera	OK	data.js UNITS verificado	
+battlemarch-150	battlemarch.txt L2321-2345	Troll furioso: reglas Perforante (1), Miedo, Inflamable, Regeneración (5+), Escaramuzadores	OK	data.js:5470 (sr, melee ab:1, regen 5)	
+battlemarch-151	battlemarch.txt L2335-2345	Vómito de Troll: arma de combate, un ataque adicional contra enemigos en contacto, al final, impacto automático	PARCIAL	rules.js:4716 (trollVomit)	VERIF v732: rules.js:5480 vomito F3 FP-2 auto-impacto al final, pero 1 ataque por unidad (vh=1), no uno por Troll en contacto con enemigo. | Perfil F3 FP-2 según OCR del texto
+battlemarch-152	battlemarch.txt L2347-2358	Caos de guerra: desde su 2º turno el primer jugador tira D6; si <= nº de turno, el rival tira en la tabla sin repetir	OK	rules.js:5254	
+battlemarch-153	battlemarch.txt L2359-2367	Caos 1 Inestabilidad etérea: dobles naturales 1-3 al lanzar son disfunción; 4-6 invocación perfecta	OK	rules.js:3929, 3942	
+battlemarch-154	battlemarch.txt L2368-2377	Caos 2 Recursos extraviados: Dado de Dispersión desde el centro; un carro llega por el borde; dueño por tirada	PARCIAL	rules.js dispersión	VERIF v732: rules.js:751 chaosCart usa angulo aleatorio continuo desde el centro, no un Dado de Dispersion (flechas/hit); resto correcto (borde, rollOff, announce)
+battlemarch-155	battlemarch.txt L2378-2386	Caos 3 Munición menguante: unidades con proyectiles solo pueden disparar cada dos turnos	OK	rules.js:2047	
+battlemarch-156	battlemarch.txt L2359-2367	Caos 4 Tesoros del interior: tesoros 20 PV y puntos estratégicos 50 PV	OK	rules.js:5254 (L.vp = 50/20)	
+battlemarch-157	battlemarch.txt L2374-2379	Caos 5 Conflicto prolongado: la partida dura seis rondas	OK	rules.js:5254 (s.maxT=6)	
+battlemarch-158	battlemarch.txt L2380-2395	Caos 6 Mercenarios errantes: el ganador de una tirada recibe 10 mercenarios (50 pts); empate ambos; borde fuera de zonas	OK	rules.js:536-540 chaosMercs, spawnEdge	
+battlemarch-159	battlemarch.txt L2396-2418	Mercenario errante: perfil, infantería regular, base 25x25, 10 modelos, equipo y reglas (Mercenarios, Escaramuzadores)	OK	data.js UNITS verificado	
+battlemarch-160	battlemarch.txt L2420-2444	Juego igualado: formato apto; las limitaciones de composición ya existen (sin restricciones extra)	NA		Texto organizativo
+battlemarch-161	battlemarch.txt L2453-2462	Objetos mágicos: se puede reducir (p.ej. 20 %) el gasto en objetos y runas en eventos	OK	main.js sItemCut/sTerrMax; data.js setItemCut	
+battlemarch-162	battlemarch.txt L2465-2475	"Terreno en eventos: el organizador puede reducir el máximo a 8"""	OK	rules.js:307 setTerrMax	
+battlemarch-163	battlemarch.txt L2477-2502	Escenarios y objetivos secundarios en eventos; elegir mapas/escenarios no repetidos hasta agotar los demás	NA		Organización de evento
+battlemarch-164	battlemarch.txt L2503-2575	Dos listas por jugador (misma facción), elegidas en secreto; en la última ronda la no usada	NA		Organización de evento; el motor juega una lista por partida
+battlemarch-165	battlemarch.txt L2577-2600	Objetivos secretos Battle March: elegir uno al inicio, anotarlo en secreto y revelarlos al final	OK	rules.js:6008 revelación; main.js sSecret	
+battlemarch-166	battlemarch.txt L2600-2622	Elegir tantos objetivos secretos como partidas del evento y no repetir uno ya usado	NA		Organización de evento
+battlemarch-167	battlemarch.txt L2623-2640	Partidas informales: generar al azar una reserva de tres objetivos secretos y elegir uno	OK	main.js:437 sSecPool	
+battlemarch-168	battlemarch.txt L2645-2652	Secreto Emboscada bien preparada: una unidad enemiga se retira en buen orden o huye en una fase de Disparo (+20 PV)	OK	rules.js:260, 2780	
+battlemarch-169	battlemarch.txt L2653-2660	"Secreto Reconocimiento: unidad con US 5+ a 3"" de un borde de la zona enemiga al final (+20 PV)"	OK	rules.js:258, 5832	
+battlemarch-170	battlemarch.txt L2661-2669	Secreto Explorar la zona: elemento nominado en secreto; unidad con US 5+ completamente dentro al final (+25 PV)	OK	rules.js:261, 5834	
+battlemarch-171	battlemarch.txt L2670-2678	Secreto Resistir al enemigo: unidad nominada viva, sin huir y con US 5+ al final (+50 PV)	OK	rules.js:262, 5835	
+battlemarch-172	battlemarch.txt L2679-2686	Secreto Alarde de duelista: matar a un personaje (30) o campeón (20) en desafío; una sola vez	OK	rules.js:259, 4754, 5841	
+battlemarch-173	battlemarch.txt L2687-2695	Secreto Recoger recursos: unidades US 5+ completamente dentro de dos elementos rocosos o bosques al final (+30 PV)	OK	rules.js secretos	
+battlemarch-174	battlemarch.txt L2696-2705	Secreto Matar a la bestia: matar una unidad monstruo, infantería o caballería monstruosa; las huidas cuentan (+50 PV)	OK	rules.js:264, 5837, 3299 isMonster	
+battlemarch-175	battlemarch.txt L2706-2715	Secreto Maestría mágica: dos hechizos lanzados sin dispersar, o dos dispersados sin disfunción propia (+50 PV)	OK	rules.js:265, 5749	
+battlemarch-176	battlemarch.txt L2716-2723	Secreto ¡Detenedlos!: ningún enemigo con US 5+ en tu zona de despliegue al final (+75 PV)	OK	rules.js secretos	
+battlemarch-177	battlemarch.txt L2724-2732	Secreto Tomar la torre: unidad propia controlando un punto estratégico o un edificio al final (+40 PV)	OK	rules.js secretos	
+battlemarch-178	battlemarch.txt L2734-2760	Objetos de Battle March: se compran como comunes, solo en listas de Battle March; asterisco = extremadamente común	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-179	battlemarch.txt L2780-2787	Hoja del Escaramuzador (25): FP-1, Ataques adicionales (+1), mágica; repite herir contra flanco o retaguardia	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-180	battlemarch.txt L2788-2800	"Bastón Escupespinas (20): 24"" F4, Perforante (1), mágica, Pesada; en combate F+1"	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-181	battlemarch.txt L2801-2811	Hacha del Explorador (15): F+1, FP-1, flamígera; infantería; una vez da Mover entre la maleza a su unidad	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-182	battlemarch.txt L2812-2820	Hoja de Diestro (10): mágica, +1 Iniciativa del portador	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-183	battlemarch.txt L2822-2830	Yelmo del Valor (25): +1 armadura, una vez por partida repetir los 2D6 de una Prueba de Ruptura (portador y su unidad)	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-184	battlemarch.txt L2832-2838	Cota Acolchada (20): armadura pesada; +1 de armadura contra FP - (máx 2+)	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-185	battlemarch.txt L2840-2847	Escudo con Borde de Hierro (15): escudo; +1 Ataque del portador (no montura) con arma de mano	AUSENTE		"+1 Ataque modelado como prof A+1; no se modela la restricción de ""arma de mano ordinaria""."
+battlemarch-186	battlemarch.txt L2849-2858	"Manto en Sombras (10): infantería, armadura ligera; no es objetivo de disparos ni hechizos a 6"" de una unidad amiga"	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-187	battlemarch.txt L2861-2870	Talismán de Autoridad (30): un uso; los enemigos que quieran atacar al portador hacen un chequeo de Ld o no atacan	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-188	battlemarch.txt L2871-2878	Talismán de Protección (15): salvación especial 6+ contra cualquier herida	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-189	battlemarch.txt L2880-2886	Estandarte del Renombre (15): un uso, +1 punto de resolución de combate	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-190	battlemarch.txt L2888-2896	Estandarte de los Valientes: la unidad gana Veterano	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-191	battlemarch.txt L2899-2908	Catalejo del Montaraz: el General suma +1 a la tirada para elegir primer turno; la copia del rival no sirve	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-192	battlemarch.txt L2910-2916	Ojo Omnividente de Numas (15): ignora modificadores de cobertura y bosques para la línea de visión al disparar	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-193	battlemarch.txt L2918-2924	Mapa de la Espesura (10): repetir el D6 de la tabla de Terreno salvaje	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-194	battlemarch.txt L2926-2932	Almanaque Encantado (5): repetir el D6 de la tabla de Caos de guerra	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-195	battlemarch.txt L2934-2940	Pergamino de Convocación Ígnea*: un uso, lanzar Bola de Fuego de Magia de Batalla en lugar de un hechizo	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-196	battlemarch.txt L2942-2948	Pergamino de Susurros Mortales* (10): un uso, lanzar Cábala Mortal de Nigromancia	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-197	battlemarch.txt L2950-2956	Fragmento de Piedra Bruja (10): un uso, +1 a una tirada de lanzamiento o dispersión	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-198	battlemarch.txt L2958-2966	Pergamino de Ofuscación*: un uso, lanzar Convocación Confusa de la Magia de Ilusión	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch-199	battlemarch.txt L2970-3038	Contraportada: contenido del libro y datos de edición	NA		Sin efecto mecánico

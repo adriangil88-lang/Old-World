@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+core_2.tsv	C2-043	CONFIRMA	data.js:4788 valida min y max de modelos con mensaje (mínimo N / máximo N modelos); stepper main.js usa d.min/d.max
+leg_darkelves.tsv	leg_darkelves-042	CONFIRMA	data.js:3479 mkVariant de_supreme_dragon: perfil Suprema+Dragón (T6 W9 A2+6, M6 Vuelo 10, Pisotón D6, aliento nocivo, ppm 430=150+280), lores en data.js:5145
+leg_lizardmen.tsv	leg_lizardmen-132	CONFIRMA	data.js:1746 y 6133: monCreature 60x100, Sv 3 (3+), cachiporra F FP-3 golpea al final, Arca de Sotek, 3 skinks HA2 F3 I4 con jabalinas venenosas; Sv es 3, no 4
+aj_wood2.tsv	aj_wood2-024	CONFIRMA	data.js:5117 máx 3*per Grandes Águilas (we_eagle) por 1.000 pts, también en lista owh (rara, WE_OWH)
+aj_dwarfs2.tsv	aj_dwarfs2-121	CONFIRMA	data.js:3683-3692 dw_impmerc: heavyInf, 25x25, min 5, arm light sin escudo, manos, perfil M3 HA4 HP3 F3 R4 I2 A1 Ld9
+aj_beasts2.tsv	aj_beasts2-084	CONFIRMA	data.js:1011 bm_hounds + mkVariant bm_primalhounds: M7 HA4 HP0 F3 R3 H1 I3 A1 Ld5 ppm 6 (Ld5 sobrescrito)
+leg_vampires.tsv	leg_vampires-095	CONFIRMA	data.js:1893 vc_zombies: M4 HA2 HP0 F3 R3 H1 I1 A1 Ld2 ppm 3
+faq_libros.tsv	C04	CONFIRMA	data.js:2250 ct_lanterns (y _amb/_hail): sr incluye flammable y no unbreakable; Sky Lantern T4 tambien correcto
+aj_dwarfs2.tsv	aj_dwarfs2-026	CONFIRMA	"data.js:3571 chk royal: dw_anvil o dw_runelord > per => error ""0-1 Yunque o Señor de las Runas por cada 1.000 pts"""
+leg_vampires.tsv	leg_vampires-223	PARCIAL	rules.js:7537 permite 2 Nehek con noirot (D6, con 1 pierde Herida) pero main.js:1228 oculta el botón tras el primer uso (c.nehekK===turnKey): el humano no puede hacer la 2ª invocación
+leg_darkelves.tsv	leg_darkelves-151	PARCIAL	data.js:3957-3961 opciones ff y sc con per1000 contadas por separado (data.js:4725): permite 1 unidad con ff y otra con sc por 1.000; la fuente da 0-1 unidad en total
+cathay.tsv	cathay_aj-031	PARCIAL	rules.js:3126 destroy(): revierte a forma Humana con D3 Heridas una vez y noDragon, heridas compartidas OK; pero solo logE (toast), sin announce/popup para el humano
+leg_daemons.tsv	leg_daemons-042	PARCIAL	data.js:1939 correcto a pie (furiousCharge, impetuous, indom1, magRes) pero en Juggernaut/Trono (slots rest en data.js:5569) el +1 Ataque de Carga furiosa (rules.js:4744) cae en la montura, que no deb
+leg_vampires.tsv	leg_vampires-032	CONFIRMA	data.js:1843 vc_count ib:100 (y variantes montadas ib 100); itemBudget0 data.js:3213 lo aplica
+dawn_renegade_sc.tsv	renegade_web-039	CONFIRMA	data.js:6208 rc_wizard1-3 (+12 a caballo, nivel2 75, nivel3 105) y 907-910 br_outcast ib:75; lores batalla/demonología/oscura/elem/ilusión/necro
+battlemarch_quickref.tsv	battlemarch-036	CONFIRMA	rules.js:491 RO bm_sturdham [0,0]: tirada enfrentada, el ganador juega primero sin +1; rules.js:266 turns:5
+aj_tk2.tsv	aj_tk2-031	CONFIRMA	rules.js:3222 kingNear: PEB tk_mpriest en lista mortuary (o tk_herald) repite cualquier chequeo de Ld fallado en rango de mando; usado en miedo/pánico/ruptura/reagrupar y Inestable
+faq_libros.tsv	R37	CONFIRMA	"data.js:2366-2367 light_death y light_protection bound:2 (NP 2); solo el blurb data.js:1283 aún dice ""Nivel de poder 3"" (texto)"
+leg_daemons.tsv	leg_daemons-041	CONFIRMA	data.js:1939 dm_herald_khorne ib:50 (variantes jug/trono heredan 50)
+aj_chaos2.tsv	aj_chaos2-092	CONFIRMA	data.js:1258 woc_galrauch ranged s4 ap1 breath flaming magical (fumes alterna) con elección del jugador galrMode (rules.js:7419, main.js:1294)
+aj_bretonnia.tsv	aj_bretonnia-146	CONFIRMA	"rules.js:2771 tabla bombarda: 4-5 ""se encasquilla y no dispara""; 2-3 pierde Herida, 1 destruida, 6 doble carga"
+aj_wood2.tsv	aj_wood2-038	CONFIRMA	data.js:5113 talsyn: nº de we_shadowdancer* > nº de unidades we_wardancers => error
+aj_chaos2.tsv	aj_chaos2-084	CONFIRMA	data.js:1257 woc_galrauch: Sv 3 (placas 4+ con Piel blindada 1), melee ap 2 garras F6, Fuego Oscuro y Humos de Contagio (twoHeaded, rules.js:2745), una sola por turno
+faq_core_1.tsv	FQ1-007	CONFIRMA	rules.js:3970 tryDispel: pool excluye !h.fleeing, !h.stupid, y trabadas salvo si son objetivo del hechizo (DTGT); reservas no están en s.units
+aj_empire2.tsv	aj_empire2-151	CONFIRMA	data.js:2862 empaj_ward y 2868 empaj_magnifier star:true (únicos dos con * en la fuente); duplicados permitidos data.js:3276
+battlemarch_quickref.tsv	battlemarch-180	CONFIRMA	"data.js:2493 bm_thorn: disparo 24"" F4 FP- Perforante 1 mágico Pesado (ponderous); combate F+1 Perforante 1 (cat w mágica); coste 20"
+leg_ogres.tsv	leg_ogres-151	PARCIAL	"data.js:5698 VULT 36"" F4 FP-1 ms quickShot OK, pero ignoresCover va en el perfil del arma y rules.js:2920 solo consulta has(u,""ignoresCover"") (regla de unidad): no ignora cobertura"
+leg_ogres.tsv	leg_ogres-176	CONFIRMA	data.js:2676 bn_mawseeker prof T+1, grant stupidity, infOnly (data.js:5787; validado 3257/3351)
+dawn_renegade_sc.tsv	cathay_dawn-017	PARCIAL	"rules.js:1597 garrisonOpts exige infantería US<=20 (torre 10) y edificio>=4""; pero basta rectDist<=M sin trayectoria ni contacto de peana real, y no puede haber movido antes"
+core_5.tsv	C5-024	CONFIRMA	rules.js:5295/5383: los impactos enemigos usan dd.WS de la unidad (jinete); montura con su propio WS solo en ranuras de ataque
+aj_highelves.tsv	aj_highelves-128	PARCIAL	"data.js:2907 heaj_starlance: F+3 FP-4 atacar primero solo al cargar OK, pero sin needMount/restricción: no se valida ""solo caballería o monstruo"" (cf. data.js:3257/3351)"
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-108	CONFIRMA	data.js:3232 CHAMP_IB [/^cd_(guard|blunderbuss)$/,25]: la Máscara de la Muerte (campeón) compra objetos hasta 25
+faq_core_1.tsv	FQ1-057	PARCIAL	rules.js:1917 reparto: rf=def.models-mix sin filtrar por mismo tipo de tropa y per=floor() deja el resto sin repartir; solo la rama de rules.js:3039 compara tt del personaje con la unidad
+leg_skaven.tsv	leg_skaven-017	CONFIRMA	data.js:4544 ALLY_TABLE sk:[AA(woc,uneasy)] con ALLY_MAX 0.25 (único contingente)
+leg_darkelves.tsv	leg_darkelves-079	CONFIRMA	data.js:1588/1600/3472: monturas Corcel Oscuro con fastCav y swiftstride (M9, HA3 F3 I4 A1; +14)
+core_8.tsv	core_8-031	CONFIRMA	"data.js:2359 + rules.js:4156: test Ld; pasa D3 F3 FP-, falla D3+3 F4 FP-3; VL 7, alcance 15"""
+core_2.tsv	C2-050	PARCIAL	Formaciones fijas (closeOrder/skirmish) existen, pero no hay elección en el despliegue ni cambio al reformar para unidades con varias (openOrder+skirmish en data.js:504,601); openOrder no se usa en ru
+leg_skaven.tsv	leg_skaven-070	PARCIAL	data.js:4374/1793 flailFirst: rules.js:4833 quita F+2 si !u.chargeOK, así que el defensor (cargado) no lo recibe en la primera ronda; FP-1, venenoso y repetir 1 para herir OK
+faq_core_1.tsv	FQ1-061	CONFIRMA	data.js:4276 flail sb2 ap2 twoHands flailF abCharge1: rules.js:4835 F y Perforante(1) solo contra modelos cargados (chgE)
+leg_darkelves.tsv	leg_darkelves-014	CONFIRMA	"data.js:5034 de_boltthrower > 2*per => ""máximo 2*per Segadores""; comp rare"
+leg_vampires.tsv	leg_vampires-119	CONFIRMA	data.js:1901 vc_fellbats monInf, 40x40, min 3, perfil y reglas (Vuelo, Regen 6+, Escaramuza, Zancada) correctos
+dawn_renegade_sc.tsv	renegade_web-028	CONFIRMA	rules.js:5094/5401 feintDodge: una vez por partida repite impactos con éxito de un modelo atacante (min(n,A)); jugador puede reservarlo con noFeint (rules.js:7435)
+core_8.tsv	core_8-106	PARCIAL	rules.js:4012 el pergamino se usa tras fallar 2D6 y re-tira 3D6 (roll3Best), no como D6 extra declarado antes; el doble 1 de roll3Best da [1,1] sin Superado en el Arte (miscast se comprueba antes, rul
+leg_daemons.tsv	leg_daemons-162	CONFIRMA	data.js:1957 dm_herald_tzeentch ib:50 (variantes disco/carro 50)
+faq_libros.tsv	R24	PARCIAL	Storm's Wrath (Frydaal data.js:4441) usa flailFirst: rules.js:4833 solo mira u.chargeOK, no chargedIds/objetivo (la comprobación por objetivo de rules.js:4848 es solo para firstS)
+faq_libros.tsv	F53	CONFIRMA	rules.js:2094-2109 gkFeat/gkJumpSpot: solo bosque y pantano (excluye colinas, campo abierto, vórtices, muros y edificios)
+leg_vampires.tsv	leg_vampires-131	CONFIRMA	"data.js:4059 vc_bloodknights opción fp ""Armadura completa en vez de pesada"" +5 por modelo, patch arm plate"
+faq_libros.tsv	C21	CONFIRMA	data.js:2519 ct_dfbombs rangedI s:3 (y dfAlt data.js:5524 s:3) conforme a la errata
+faq_core_1.tsv	FQ1-041	CONFIRMA	rules.js:3974 pool de tryDispel excluye !h.stupid (estupidez activa hasta su próximo inicio de turno)
+battlemarch_quickref.tsv	battlemarch-184	CONFIRMA	data.js:2497 bm_hauberk sv5 svNoAp:1; rules.js:1976 aplica +1 solo con FP 0 y tope 2+

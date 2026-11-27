@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+leg_skaven.tsv	leg_skaven-025	CONFIRMA	data.js:4324-4326 SKW opción ha (+3, arm heavy) en sk_warlord y sk_chieftain; también escudo +2.
+cathay.tsv	cathay_aj-123	PARCIAL	rules.js:3285-3294 friendsPanicDestroyed(...,fleeing=true) en destrucción por persecución/arrollamiento (3754,3786,6095) pasa will=false: sin repetición Voluntad de los Dragones.
+core_8.tsv	core_8-012	PARCIAL	"rules.js:158 phantasmNear mide 12"" desde el centro de la plantilla, no su borde (faltan 1,5""); Impetuoso (156) se aplica a todo enemigo a 12"", no solo a quien acabó su movimiento allí."
+aj_dwarfs2.tsv	aj_dwarfs2-129	CONFIRMA	data.js:3229 CHAMP_IB dw_impmerc {w:25}; champEligible/champIssues validan runas de arma y tope 25; champ requerido.
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-211	CONFIRMA	data.js:2185 cd_magma sr [blackshard, skirmish, moveOrFire].
+core_8.tsv	core_8-081	PARCIAL	rules.js:2049 la Piedra de la Suerte (luck) repite automáticamente la primera salvación de armadura fallida: sin elección del jugador ni aviso emergente.
+battlemarch_quickref.tsv	battlemarch-172	CONFIRMA	rules.js:5518 (campeón muerto en desafío: 20) y 5884 (personaje: 30), una sola vez (qq.flour); puntuación rules.js:6778 bm_flour.
+battlemarch_quickref.tsv	battlemarch-188	CONFIRMA	data.js:2501 bm_warding ward:6 genérico (wardOf rules.js:1749), vale contra cualquier herida.
+aj_chaos2.tsv	aj_chaos2-127	CONFIRMA	data.js:3438 MARK_COST woc_huscarls:2 por modelo; markCost data.js:3441.
+aj_wood2.tsv	aj_wood2-015	CONFIRMA	data.js:4662 catsOf owh: por cada 1.000 pts una unidad we_wild_riders pasa de Especial a Básica; el resto sigue Especial (WE_OWH).
+aj_orcs2.tsv	aj_orcs2-059	CONFIRMA	data.js:841-843 troll_hag sr: closeOrder, flammable, immunePsy, indisHunger, large, motherly, regen 5+, slimy, stomp D6, stupidity, terror, timber, unbreakable (+trollVomit).
+faq_core_2.tsv	F2-005	PARCIAL	rules.js:7060 vortexMoveHits solo se llama en el movimiento normal (8036); cargas (doCharge), huida y persecución que atraviesan el Pilar de Fuego no causan D3+3 impactos.
+aj_highelves.tsv	aj_highelves-135	CONFIRMA	data.js:2897 heaj_lothern lothern:true; rules.js:4851 ceil(mitad de la 3.ª fila) ataques de apoyo con lanzas de empuje.
+dawn_renegade_sc.tsv	cathay_dawn-119	CONFIRMA	rules.js:3592 chequeo de Ld ante carga al portador del Estandarte de Xen Wun; si falla xwHold y debe Mantener (impide Disparar y huir) con log.
+cathay.tsv	cathay_aj-022	CONFIRMA	data.js:2227-2231 ct_miaoying (flyer, large, stomp D6, swiftstride, terror, FLYX 9) y ct_miaoying_h (rally).
+aj_empire2.tsv	aj_empire2-147	CONFIRMA	data.js:2871 empaj_taal 20 pts, single, boundSpell oaken_shield PL3 (SPELLS data.js:2292).
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-056	CONFIRMA	data.js:2119 cd_castellan ib:100; 2122 cd_seneschal ib:50.
+cathay.tsv	cathay_aj-049	CONFIRMA	data.js:2235/2238 ct_jade (alabardas) y ct_jade_spear (escudos), ambas gratis y excluyentes (entradas separadas).
+leg_vampires.tsv	leg_vampires-133	CONFIRMA	data.js:3238 CHAMP_IB vc_bloodknights {n:25,vp:25}; champIssues (3264-3283) valida objetos 25 y poderes vampíricos 25 por separado.
+battlemarch_quickref.tsv	quickref-035	CONFIRMA	rules.js:2232 límite M*2 (x3 en Columna), 2252 al marchar solo avanzar/virar, 2260 sin otras maniobras.
+faq_libros.tsv	RQ03	CONFIRMA	Fanáticos son mejora de unidad (data.js:597 extraCost, 3876 opts) sin unidad propia: no puntúan PV por separado; PV solo por la unidad.
+leg_daemons.tsv	leg_daemons-112	PARCIAL	data.js:5930 sting: rules.js:5458 reparte el aguijón con prob. 1/a por impacto (no exactamente 1 ataque por modelo/turno); F5 FP-1 Perforante 1 sí.
+core_2.tsv	C2-105	CONFIRMA	rules.js:3867 castCheck: tope de hechizos = Nivel (3889-3890) y no repetir el mismo (u.casted.includes).
+core_4.tsv	C4-065	CONFIRMA	"rules.js:3285-3295 friendsPanicDestroyed: FU>=5 (al inicio de fase), amigos a 6"" (unitDist) no trabados; huyen del enemigo más cercano; un test por fase."
+leg_darkelves.tsv	leg_darkelves-217	PARCIAL	data.js:2996 del_banner_n da Tozudos (grant stubborn) pero sin cr:1: falta el +1 a la resolución de combate (rules.js:5657 usa ITEMS.cr).
+leg_vampires.tsv	leg_vampires-066	CONFIRMA	data.js:1875 vc_wightking ib:100 (+steed 1881); vc_wightlord ib:50 (1878,1884).
+aj_highelves.tsv	aj_highelves-117	CONFIRMA	data.js:2481 CMD he_warlions [null,null,null]: cmdAllowed impide campeón, portaestandarte y músico.
+dawn_renegade_sc.tsv	cathay_dawn-019	PARCIAL	"rules.js:1605 leaveBuilding coloca la unidad a 0,2"" del edificio, no en contacto de peana; la acción ungarrison (7755) vale en toda la fase de movimiento, no solo en Movimientos restantes."
+leg_daemons.tsv	leg_daemons-016	CONFIRMA	data.js:4689-4691 catsOf: General de Nurgle mueve dm_beast y dm_plaguedrones a Especiales.
+aj_bretonnia.tsv	aj_bretonnia-018	CONFIRMA	rules.js:156 has_(blessings) verdadero para u.rescue en matorea (fuerza de rescate marcada en 1088-1091) sin necesidad de rezar.
+dawn_renegade_sc.tsv	cathay_dawn-088	CONFIRMA	rules.js:6870-6872 atacante +50 por personaje vivo con unidad sin huir; defensor +50 por chKills (personajes muertos en desafío, 5884).
+core_5.tsv	C5-143	CONFIRMA	data.js:3919 melee.thrown; rules.js:4782 ataques de apoyo (fila extra) solo si u.chargeOK.
+faq_libros.tsv	R33	PARCIAL	rules.js:6446-6449 fx ssReg (by:p) solo expira al inicio del siguiente turno del dueño (6221), dura también el turno rival; la FAQ dice hasta el final de este turno.
+aj_highelves.tsv	aj_highelves-078	CONFIRMA	data.js:4227 he_garrison opts: Escudo +2, Armadura pesada +3 (arm heavy).
+core_5.tsv	C5-021	CONFIRMA	rules.js:3208 undisc (warBeasts/swarm) excluida en bsbNear 3218, kingNear 3223 y presencia inspiradora 1709.
+battlemarch_quickref.tsv	quickref-044	CONFIRMA	rules.js:8109 acción shoot: elige unidad y objetivo (shootCheck) y resuelve toda la secuencia (resolveShot) unidad a unidad.
+dawn_renegade_sc.tsv	cathay_dawn-054	CONFIRMA	rules.js:1321-1332 timelyInit: la lista con más puntos es primaria (o prim acordado); forceSec/genVP/bsbVP 6809-6811 (solo escenario Timely Arrival).
+aj_wood2.tsv	aj_wood2-017	CONFIRMA	data.js:3455 WE_OWH_NO incluye we_glade_guard, we_eternal, we_dryads; listAllows (4535) los excluye en owh.
+leg_skaven.tsv	leg_skaven-085	CONFIRMA	data.js:4003 sk_clanrats opción ts: lanzas de empuje cost 1 por modelo, melee.thrust.
+core_5.tsv	C5-147	CONFIRMA	data.js:403 W.shortbow range 18, s 3, quickShot, volley.
+core_6.tsv	core6-087	CONFIRMA	data.js:4620-4650 allyArmyIssues: % máximo, General propio (personaje obligatorio) y >=1 unidad no personaje.
+aj_chaos2.tsv	aj_chaos2-146	CONFIRMA	data.js:4471-4480 SPAWN_GODS t: flaming, magical, magRes2 (Resistencia mágica -2) en woc_gspawnt/bm_gspawnt.
+aj_tk2.tsv	aj_tk2-097	CONFIRMA	data.js:3758 tk_necroserpent hereda baseW 50 baseD 100 de tk_necroknights (1167), min:2, tt monCav.
+aj_empire2.tsv	aj_empire2-041	CONFIRMA	data.js:3607 INF.knights_heart: añade flagellants (Raros, sin límite por 1.000) y quita emp_ulric y emp_hulric.
+aj_chaos2.tsv	aj_chaos2-111	CONFIRMA	data.js:3733 woc_berserkers sr: frenzy, markUndivided, mtCover, openOrder, relentless, skirmish, warband.
+battlemarch_quickref.tsv	battlemarch-019	CONFIRMA	rules.js:857 axeK bel: el defensor recibe dos bm_cart; data.js:6101 bm_cart baseW 60 baseD 100.
+faq_core_2.tsv	F2-057	PARCIAL	rules.js:4064 applySpell termina el hechizo al relanzarlo solo si el nuevo lanzamiento tiene éxito; si falla o es dispersado el anterior sigue en juego (FAQ: termina al intentarlo).
+aj_dwarfs2.tsv	aj_dwarfs2-170	CONFIRMA	data.js:2921 rw_piercing; rules.js:2687 +1 F y through (Atravesar) en ballesta/arcabuz del ingeniero.
+battlemarch_quickref.tsv	quickref-022	CONFIRMA	rules.js:3410 chargeTargets excluye huida/trabada; Columna puede declarar pero no mueve salvo Drilled que reforma (3672-3676), según Core p.116 y FAQ.
+aj_chaos2.tsv	aj_chaos2-151	CONFIRMA	"data.js:4499-4503 woc_warpfire: behemoth, 60x100, arm plate, melee ap 2 (garras), ranged Ráfaga (6-24"", D3+1), sr completos."

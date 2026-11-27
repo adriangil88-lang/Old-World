@@ -1,0 +1,9 @@
+AJBM-001	AJ Beasts	Kralmaw, el Profeta de la Ruina (245 pts): perfil, Totem Macabro (-1 Ld a 6 pulgadas), Vision del futuro	OK	data.js bm_kralmaw	v641
+AJBM-002	AJ Beasts	Ghorros Warhoof (155 pts): perfil, Mansmasher magico (+1 F solo al cargar), Padre de las Bestias	OK	data.js bm_ghorros	v641/v644
+AJBM-003	AJ Beasts	Gors Deformes (16 pts, Splice-horn +8 Ld 8, Piel blindada (1) de serie, Bendiciones, Emboscadores)	OK	data.js bm_warped	v644/v674
+AJBM-004	AJ Beasts	Hijos de Ghorros (Centigors +2 pts/modelo, +1 HA, +1 Ld, Perforante (1), 0-1 manada con Ghorros)	OK	data.js bm_centigors_sons	v644/v674
+AJBM-005	AJ Beasts	Perros Primigenios (6 pts, Ld 5, min. 10, Tropa abigarrada, Banda de guerra, opciones +1 pt) y Ungor Ravager (+7, 1 por cada 3)	OK	data.js bm_primalhounds, bm_ravager	v645/v674; perfil comprobado v797
+AJBM-006	AJ Beasts	Preyton (Corona de Astas, Malicia Infinita, Astas retorcidas), Piedra de las Manadas, Saber Primigenio	OK	data.js; rules.js	v645
+AJBM-007	AJ Beasts	Objetos de Brayherds (Mazo Negro, Craneo del Unicornio, Espiritu Miron, etc.)	OK	data.js items	v641-v645
+AJBM-010	AJ Beasts	Listas Minotaur Blood Herd / Wild Herd / Primal Gatherings: porcentajes, promociones, limites	OK	INF.blood/wild	v641-v645
+AJBM-020	AJ Beasts	Escenario Clash at the Northern Crossroads	OK	rules.js SCN crossroads	verificado en sesiones previas

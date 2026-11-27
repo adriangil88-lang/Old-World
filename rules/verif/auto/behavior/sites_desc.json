@@ -1,0 +1,3432 @@
+{
+ "swiftD6:1": {
+  "fn": "swiftD6",
+  "line": 173,
+  "desc": "], dd = s.askMode?.[u.owner] ? o[0] : aiPick(s, u.owner,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "swiftD6:2": {
+  "fn": "swiftD6",
+  "line": 175,
+  "desc": "…: el D6 de Zancada veloz (…) ha salido …. ¿Lo repite con el Cuerno de Plata?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "gazeRoll:1": {
+  "fn": "gazeRoll",
+  "line": 189,
+  "desc": "569-570 «Characters in the defender’s army may re-roll the D6 when rolling on the Gaze of the Gods table»: se decide al ver la tirada (antes, umbral previo gazeRR)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "gazeRoll:2": {
+  "fn": "gazeRoll",
+  "line": 189,
+  "desc": "569-570 «Characters in the defender’s army may re-roll the D6 when rolling on the Gaze of the Gods table»: se decide al ver la tirada (antes, umbral previo gazeRR)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "gazeRoll:3": {
+  "fn": "gazeRoll",
+  "line": 194,
+  "desc": "…: la Mirada de los Dioses ha salido …. ¿Usa el Favor de los Dioses (un solo uso) para repetir el D6?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "daemonicInstability:1": {
+  "fn": "daemonicInstability",
+  "line": 469,
+  "desc": "…: Inestabilidad Demoníaca, doble 6 natural: la unidad es arrastrada de vuelta al éter y se retira del juego",
+  "loop": true,
+  "kind": "d3"
+ },
+ "wildDiscover:1": {
+  "fn": "wildDiscover",
+  "line": 746,
+  "desc": "…: el D6 de Terreno salvaje ha salido … (…). ¿Lo repites? (new/battlemarch.txt:2922-2924)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "wildDiscover:2": {
+  "fn": "wildDiscover",
+  "line": 749,
+  "desc": "Mapa de la Espesura: … repite el D6 de Terreno salvaje (… → …)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "wildDiscover:3": {
+  "fn": "wildDiscover",
+  "line": 755,
+  "desc": "… acaba dentro de las Esporas tóxicas: cada modelo tira un D6 y sufre una Herida si falla el chequeo de Resistencia … (un 6 siempre falla; un 1 siempre pasa).",
+  "loop": false,
+  "kind": "d6"
+ },
+ "rollOff:1": {
+  "fn": "rollOff",
+  "line": 798,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "rollOff:2": {
+  "fn": "rollOff",
+  "line": 798,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "firstRoll:1": {
+  "fn": "firstRoll",
+  "line": 923,
+  "desc": "Tirada del primer turno: … … contra … …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "firstRoll:2": {
+  "fn": "firstRoll",
+  "line": 923,
+  "desc": "Tirada del primer turno: … … contra … …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "chaosMercs:1": {
+  "fn": "chaosMercs",
+  "line": 1072,
+  "desc": "Mercenarios errantes: …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "chaosMercs:2": {
+  "fn": "chaosMercs",
+  "line": 1072,
+  "desc": "Mercenarios errantes: …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "createGame:1": {
+  "fn": "createGame",
+  "line": 1258,
+  "desc": "Clima: …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "createGame:2": {
+  "fn": "createGame",
+  "line": 1258,
+  "desc": "Clima: …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "createGame:3": {
+  "fn": "createGame",
+  "line": 1258,
+  "desc": "Clima: …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "createGame:4": {
+  "fn": "createGame",
+  "line": 1260,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "createGame:5": {
+  "fn": "createGame",
+  "line": 1279,
+  "desc": "}; s.terrain.push({ id:",
+  "loop": false,
+  "kind": "d6"
+ },
+ "createGame:6": {
+  "fn": "createGame",
+  "line": 1355,
+  "desc": "Vacío Hechicero: Resistencia a la magia (−D3), se tira antes de desplegar",
+  "loop": true,
+  "kind": "d3"
+ },
+ "createGame:7": {
+  "fn": "createGame",
+  "line": 1383,
+  "desc": "(Caballeros Pantera: la unidad de la Orden del Lobo Blanco no sufre Mercenarios díscolos) // Flota de Jade: los mercenarios no están sujetos a Mercenarios díscolos",
+  "loop": false,
+  "kind": "d6"
+ },
+ "createGame:8": {
+  "fn": "createGame",
+  "line": 1384,
+  "desc": "&& D(u).sr.includes(",
+  "loop": false,
+  "kind": "d6"
+ },
+ "createGame:9": {
+  "fn": "createGame",
+  "line": 1435,
+  "desc": "… recibe … Ficha(s) de Piedra Bruja (D3 antes del despliegue)",
+  "loop": true,
+  "kind": "d3"
+ },
+ "createGame:10": {
+  "fn": "createGame",
+  "line": 1477,
+  "desc": "Tirada de despliegue: … contra …; despliega primero el perdedor",
+  "loop": false,
+  "kind": "d6"
+ },
+ "createGame:11": {
+  "fn": "createGame",
+  "line": 1477,
+  "desc": "Tirada de despliegue: … contra …; despliega primero el perdedor",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applyWounds:1": {
+  "fn": "applyWounds",
+  "line": 2297,
+  "desc": "…: … Cuidador(es) caen en lugar de la bestia (… restantes)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applyWounds:2": {
+  "fn": "applyWounds",
+  "line": 2308,
+  "desc": "Collar de Shapesh: … conserva su última Herida; … pierde un modelo",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applyWounds:3": {
+  "fn": "applyWounds",
+  "line": 2312,
+  "desc": "…: Demasiado horrible para morir, tirada …:",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applyWounds:4": {
+  "fn": "applyWounds",
+  "line": 2314,
+  "desc": "…: ¡Demasiado horrible para morir! se alza de nuevo y recupera … Heridas",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applyWounds:5": {
+  "fn": "applyWounds",
+  "line": 2319,
+  "desc": "…: … conserva su última Herida",
+  "loop": false,
+  "kind": "d6"
+ },
+ "hitRoll:1": {
+  "fn": "hitRoll",
+  "line": 2363,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "hitRoll:2": {
+  "fn": "hitRoll",
+  "line": 2365,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "hitRoll:3": {
+  "fn": "hitRoll",
+  "line": 2366,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "hitRoll:4": {
+  "fn": "hitRoll",
+  "line": 2372,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave:1": {
+  "fn": "woundAndSave",
+  "line": 2418,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave:2": {
+  "fn": "woundAndSave",
+  "line": 2421,
+  "desc": "…: … Sabueso(s) de Orión abatido(s) (… restantes)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave:3": {
+  "fn": "woundAndSave",
+  "line": 2453,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave:4": {
+  "fn": "woundAndSave",
+  "line": 2463,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:1": {
+  "fn": "woundAndSave0",
+  "line": 2572,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:2": {
+  "fn": "woundAndSave0",
+  "line": 2573,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:3": {
+  "fn": "woundAndSave0",
+  "line": 2576,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:4": {
+  "fn": "woundAndSave0",
+  "line": 2577,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:5": {
+  "fn": "woundAndSave0",
+  "line": 2578,
+  "desc": "Gran Nombre Beastkiller: 1 repetición por turno contra Objetivo Grande",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:6": {
+  "fn": "woundAndSave0",
+  "line": 2579,
+  "desc": "Gran Nombre Deathcheater: una vez por partida",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:7": {
+  "fn": "woundAndSave0",
+  "line": 2580,
+  "desc": "Talismán de Piel de Hierro: repetir los 6 naturales para herir (disparos y combate, no impactos automáticos)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "woundAndSave0:8": {
+  "fn": "woundAndSave0",
+  "line": 2581,
+  "desc": "Armadura de las Eras: repetir las heridas con éxito",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:9": {
+  "fn": "woundAndSave0",
+  "line": 2582,
+  "desc": "Bola de Cristal (aj_empire2.txt:1706-1709): «re-roll a single roll To Hit or To Wound» contra un personaje amigo en el alcance de mando del portador (una vez por turno; l",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:10": {
+  "fn": "woundAndSave0",
+  "line": 2588,
+  "desc": "Hojas del Sol y la Luna (cathay_aj L2602): 4+ para parar el Golpe letal",
+  "loop": true,
+  "kind": "d6"
+ },
+ "woundAndSave0:11": {
+  "fn": "woundAndSave0",
+  "line": 2593,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:12": {
+  "fn": "woundAndSave0",
+  "line": 2593,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:13": {
+  "fn": "woundAndSave0",
+  "line": 2593,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:14": {
+  "fn": "woundAndSave0",
+  "line": 2608,
+  "desc": "Collar de Dientes Benditos: repite 1 naturales de anulación",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:15": {
+  "fn": "woundAndSave0",
+  "line": 2608,
+  "desc": "Collar de Dientes Benditos: repite 1 naturales de anulación",
+  "loop": true,
+  "kind": "d6"
+ },
+ "woundAndSave0:16": {
+  "fn": "woundAndSave0",
+  "line": 2611,
+  "desc": ")) && !(bz6 && r === 6) && !killing && !cl && !(flaming && has(def,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:17": {
+  "fn": "woundAndSave0",
+  "line": 2613,
+  "desc": "Regeneración mejorada (Horda Troll)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "woundAndSave0:18": {
+  "fn": "woundAndSave0",
+  "line": 2613,
+  "desc": "Regeneración mejorada (Horda Troll)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "woundAndSave0:19": {
+  "fn": "woundAndSave0",
+  "line": 2613,
+  "desc": "Regeneración mejorada (Horda Troll)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "woundAndSave0:20": {
+  "fn": "woundAndSave0",
+  "line": 2616,
+  "desc": "",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "woundAndSave0:21": {
+  "fn": "woundAndSave0",
+  "line": 2618,
+  "desc": "Secos como el polvo",
+  "loop": true,
+  "kind": "d6"
+ },
+ "lumberRoll:1": {
+  "fn": "lumberRoll",
+  "line": 2761,
+  "desc": "…: Destrucción desmedida — sale un 1, la máquina infernal se detiene y no puede mover más este turno",
+  "loop": false,
+  "kind": "d6"
+ },
+ "ogreMisfire:1": {
+  "fn": "ogreMisfire",
+  "line": 3064,
+  "desc": "¡… se despedaza!",
+  "loop": false,
+  "kind": "d6"
+ },
+ "misfire:1": {
+  "fn": "misfire",
+  "line": 3071,
+  "desc": "Ligado al infierno: −1 en la tabla de Avería",
+  "loop": false,
+  "kind": "d6"
+ },
+ "artDie:1": {
+  "fn": "artDie",
+  "line": 3078,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "hellRR:1": {
+  "fn": "hellRR",
+  "line": 3086,
+  "desc": "… tira el dado de Artillería. Con «Avería» se tira además en la tabla de Averías.",
+  "loop": false,
+  "kind": "d6"
+ },
+ "bldTplHits:1": {
+  "fn": "bldTplHits",
+  "line": 3229,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "flameHits:1": {
+  "fn": "flameHits",
+  "line": 3261,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "tplChampSplit:1": {
+  "fn": "tplChampSplit",
+  "line": 3273,
+  "desc": "¡Cuidado, señor! del campeón (…): …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "blastCount:1": {
+  "fn": "blastCount",
+  "line": 3294,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "tplPlan:1": {
+  "fn": "tplPlan",
+  "line": 3305,
+  "desc": "Rayo Fatídico se centra sin desvío; el resto se desvía D3+1\"",
+  "loop": false,
+  "kind": "d3"
+ },
+ "pigeonBomb:1": {
+  "fn": "pigeonBomb",
+  "line": 3456,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:1": {
+  "fn": "resolveShot0",
+  "line": 3507,
+  "desc": "…: recarga lenta (…), no dispara este turno",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:2": {
+  "fn": "resolveShot0",
+  "line": 3532,
+  "desc": "… está empapada y no logra disparar",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:3": {
+  "fn": "resolveShot0",
+  "line": 3537,
+  "desc": "); g.fx.push({ k:",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "resolveShot0:4": {
+  "fn": "resolveShot0",
+  "line": 3565,
+  "desc": "… exhala el Aliento del Cambio sobre …: … modelos impactados, … fallan el chequeo de Resistencia y son retirados",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:5": {
+  "fn": "resolveShot0",
+  "line": 3571,
+  "desc": "Aliento del Cambio alcanza a ……: … modelos impactados, … fallan el chequeo de Resistencia y son retirados",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:6": {
+  "fn": "resolveShot0",
+  "line": 3599,
+  "desc": "¡… revienta!",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:7": {
+  "fn": "resolveShot0",
+  "line": 3629,
+  "desc": "); g.fx.push({ k:",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "resolveShot0:8": {
+  "fn": "resolveShot0",
+  "line": 3638,
+  "desc": "¡Incoming! La bala de … revienta el edificio: … sufre … impactos de F4 (PA −1) → … herida(s); la bala se detiene",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveShot0:9": {
+  "fn": "resolveShot0",
+  "line": 3655,
+  "desc": "",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveShot0:10": {
+  "fn": "resolveShot0",
+  "line": 3658,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:11": {
+  "fn": "resolveShot0",
+  "line": 3700,
+  "desc": "…: ¡Fusión! la máquina y su dotación estallan",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:12": {
+  "fn": "resolveShot0",
+  "line": 3702,
+  "desc": "…: sobrecarga de energía, el rayo (F6) sale en dirección aleatoria",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "resolveShot0:13": {
+  "fn": "resolveShot0",
+  "line": 3706,
+  "desc": "rayo de …\" F…",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "resolveShot0:14": {
+  "fn": "resolveShot0",
+  "line": 3722,
+  "desc": "Ligado al infierno: … repite el dado de dispersión (¡Impacto!)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:15": {
+  "fn": "resolveShot0",
+  "line": 3724,
+  "desc": "Ingeniero Infernal: una vez por turno repite un dado de Dispersión o de Artillería",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:16": {
+  "fn": "resolveShot0",
+  "line": 3731,
+  "desc": "…: la plantilla se mueve …\". ¿En qué dirección?",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveShot0:17": {
+  "fn": "resolveShot0",
+  "line": 3741,
+  "desc": "Temblor: unidades a …\" del impacto sufren −1 M y pierden Zancada hasta el próximo turno",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:18": {
+  "fn": "resolveShot0",
+  "line": 3741,
+  "desc": "Temblor: unidades a …\" del impacto sufren −1 M y pierden Zancada hasta el próximo turno",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:19": {
+  "fn": "resolveShot0",
+  "line": 3816,
+  "desc": "FAQ FoF: un único modificador D3, no uno por fila o columna",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveShot0:20": {
+  "fn": "resolveShot0",
+  "line": 3819,
+  "desc": "",
+  "loop": true,
+  "kind": "rollExpr"
+ },
+ "resolveShot0:21": {
+  "fn": "resolveShot0",
+  "line": 3854,
+  "desc": "HP 6+: repite fallos (Core p.139)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:22": {
+  "fn": "resolveShot0",
+  "line": 3854,
+  "desc": "HP 6+: repite fallos (Core p.139)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:23": {
+  "fn": "resolveShot0",
+  "line": 3867,
+  "desc": "Pistola de remaches: cada impacto causa D3 impactos",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveShot0:24": {
+  "fn": "resolveShot0",
+  "line": 3870,
+  "desc": "…: fallo del arma, pierde una Herida",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:25": {
+  "fn": "resolveShot0",
+  "line": 3873,
+  "desc": "…: fallo del arma, … impactos propios → … heridas",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveShot0:26": {
+  "fn": "resolveShot0",
+  "line": 3878,
+  "desc": "Bombas cathayanas: cada impacto causa D3 (D3+1) impactos",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "resolveShot0:27": {
+  "fn": "resolveShot0",
+  "line": 3879,
+  "desc": "Runa Maestra de Llama Estallante: 2D3 impactos por impacto",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveShot0:28": {
+  "fn": "resolveShot0",
+  "line": 3879,
+  "desc": "Runa Maestra de Llama Estallante: 2D3 impactos por impacto",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveShot0:29": {
+  "fn": "resolveShot0",
+  "line": 3883,
+  "desc": "el texto se perdía al recomponer shotsTxt",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:30": {
+  "fn": "resolveShot0",
+  "line": 3884,
+  "desc": "todo modelo bajo la plantilla, amigo o enemigo",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:31": {
+  "fn": "resolveShot0",
+  "line": 3890,
+  "desc": "… (Slann) recibe … impacto(s). ¿Los intercepta la Guardia del Templo?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:32": {
+  "fn": "resolveShot0",
+  "line": 3923,
+  "desc": ", Malévolos (… impactos)",
+  "loop": true,
+  "kind": "d3"
+ },
+ "resolveShot0:33": {
+  "fn": "resolveShot0",
+  "line": 3929,
+  "desc": "FAQ p.209: ¡Cuidado, señor! solo si hay cinco o más modelos de tropa del mismo tipo de tropa que el personaje; si no, el impacto lo recibe el personaje",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:34": {
+  "fn": "resolveShot0",
+  "line": 3930,
+  "desc": "Gnoblar vigía (Ogros): con 5+ modelos se repite la tirada",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveShot0:35": {
+  "fn": "resolveShot0",
+  "line": 3931,
+  "desc": "una vez por turno",
+  "loop": false,
+  "kind": "d6"
+ },
+ "flyHit:1": {
+  "fn": "flyHit",
+  "line": 4010,
+  "desc": "…: detonación prematura (pierde 1 Herida)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "flyHit:2": {
+  "fn": "flyHit",
+  "line": 4013,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "flyHit:3": {
+  "fn": "flyHit",
+  "line": 4020,
+  "desc": "",
+  "loop": false,
+  "kind": "d3"
+ },
+ "flyHit:4": {
+  "fn": "flyHit",
+  "line": 4021,
+  "desc": "Estela de fuego (Fénix Flamígero): D6 impactos F4, FP −1, flamígeros",
+  "loop": false,
+  "kind": "d6"
+ },
+ "flyHit:5": {
+  "fn": "flyHit",
+  "line": 4022,
+  "desc": "? 0 : 1, { ranged: true, flaming: k ===",
+  "loop": false,
+  "kind": "d6"
+ },
+ "destroy:1": {
+  "fn": "destroy",
+  "line": 4038,
+  "desc": "… muere: … Nurglings escapan de su piel",
+  "loop": false,
+  "kind": "d3"
+ },
+ "destroy:2": {
+  "fn": "destroy",
+  "line": 4042,
+  "desc": "…: cae en forma Dragón y revierte a forma Humana con … Herida(s)",
+  "loop": false,
+  "kind": "d3"
+ },
+ "destroy:3": {
+  "fn": "destroy",
+  "line": 4048,
+  "desc": "Infestado: … sufre … impactos F2 → … bajas",
+  "loop": true,
+  "kind": "d6"
+ },
+ "destroy:4": {
+  "fn": "destroy",
+  "line": 4052,
+  "desc": "¡… estalla en fuego de disformidad! …: … impactos F5, FP −2 (… bajas)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "destroy:5": {
+  "fn": "destroy",
+  "line": 4056,
+  "desc": "¡… explota! …: … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "destroy:6": {
+  "fn": "destroy",
+  "line": 4056,
+  "desc": "¡… explota! …: … impactos → … bajas",
+  "loop": true,
+  "kind": "d6"
+ },
+ "destroy:7": {
+  "fn": "destroy",
+  "line": 4059,
+  "desc": "¡Los escarabajos de … se abalanzan sobre …! … impactos F2, FP −1 (… bajas)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "destroy:8": {
+  "fn": "destroy",
+  "line": 4059,
+  "desc": "¡Los escarabajos de … se abalanzan sobre …! … impactos F2, FP −1 (… bajas)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "destroy:9": {
+  "fn": "destroy",
+  "line": 4060,
+  "desc": "¡Los escarabajos de … se abalanzan sobre …! … impactos F2, FP −1 (… bajas)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "destroy:10": {
+  "fn": "destroy",
+  "line": 4060,
+  "desc": "¡Los escarabajos de … se abalanzan sobre …! … impactos F2, FP −1 (… bajas)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "destroy:11": {
+  "fn": "destroy",
+  "line": 4065,
+  "desc": "¡… estalla (Runa de Inmolación)! … sufre … impactos → … bajas",
+  "loop": true,
+  "kind": "d6"
+ },
+ "destroy:12": {
+  "fn": "destroy",
+  "line": 4069,
+  "desc": "Espíritus desatados: … sufre … impactos → … bajas",
+  "loop": true,
+  "kind": "d6"
+ },
+ "destroy:13": {
+  "fn": "destroy",
+  "line": 4069,
+  "desc": "Espíritus desatados: … sufre … impactos → … bajas",
+  "loop": true,
+  "kind": "d6"
+ },
+ "destroy:14": {
+  "fn": "destroy",
+  "line": 4075,
+  "desc": "¡… renace de sus cenizas con … Heridas!",
+  "loop": false,
+  "kind": "d6"
+ },
+ "destroy:15": {
+  "fn": "destroy",
+  "line": 4076,
+  "desc": "¡… renace de sus cenizas con … Heridas!",
+  "loop": false,
+  "kind": "d3"
+ },
+ "destroy:16": {
+  "fn": "destroy",
+  "line": 4077,
+  "desc": "… estalla en llamas: … sufre … impactos → … bajas",
+  "loop": true,
+  "kind": "d6"
+ },
+ "destroy:17": {
+  "fn": "destroy",
+  "line": 4084,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "destroy:18": {
+  "fn": "destroy",
+  "line": 4084,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "destroy:19": {
+  "fn": "destroy",
+  "line": 4090,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "rollPsy:1": {
+  "fn": "rollPsy",
+  "line": 4146,
+  "desc": "Estandarte Gemebundo: D6 extra, se descarta el más bajo",
+  "loop": true,
+  "kind": "d6"
+ },
+ "rollPsy:2": {
+  "fn": "rollPsy",
+  "line": 4146,
+  "desc": "Estandarte Gemebundo: D6 extra, se descarta el más bajo",
+  "loop": true,
+  "kind": "d6"
+ },
+ "rollPsy:3": {
+  "fn": "rollPsy",
+  "line": 4146,
+  "desc": "Estandarte Gemebundo: D6 extra, se descarta el más bajo",
+  "loop": true,
+  "kind": "d6"
+ },
+ "rollPsy:4": {
+  "fn": "rollPsy",
+  "line": 4147,
+  "desc": "León de Jade: repite Miedo/Pánico/Reagrupamiento/Terror fallidos",
+  "loop": true,
+  "kind": "roll2d6"
+ },
+ "rollPsy:5": {
+  "fn": "rollPsy",
+  "line": 4147,
+  "desc": "León de Jade: repite Miedo/Pánico/Reagrupamiento/Terror fallidos",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "rollPsy:6": {
+  "fn": "rollPsy",
+  "line": 4149,
+  "desc": "Estandarte de Sangre Fría (un solo uso)",
+  "loop": true,
+  "kind": "roll2d6"
+ },
+ "rollPsy:7": {
+  "fn": "rollPsy",
+  "line": 4149,
+  "desc": "Estandarte de Sangre Fría (un solo uso)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "rollPsy:8": {
+  "fn": "rollPsy",
+  "line": 4150,
+  "desc": "Sangre fría: D6 extra, se descarta el más alto",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "rollPsy:9": {
+  "fn": "rollPsy",
+  "line": 4151,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "rollPsy:10": {
+  "fn": "rollPsy",
+  "line": 4151,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "rollPsy:11": {
+  "fn": "rollPsy",
+  "line": 4151,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doWaaagh:1": {
+  "fn": "doWaaagh",
+  "line": 4158,
+  "desc": "); u.fx.push({ k:",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "runAway:1": {
+  "fn": "runAway",
+  "line": 4236,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "runAway:2": {
+  "fn": "runAway",
+  "line": 4236,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "runAway:3": {
+  "fn": "runAway",
+  "line": 4237,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "runAway:4": {
+  "fn": "runAway",
+  "line": 4237,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "pushAway:1": {
+  "fn": "pushAway",
+  "line": 4302,
+  "desc": "… huye a través del enemigo y pierde … herida…",
+  "loop": true,
+  "kind": "d6"
+ },
+ "despair:1": {
+  "fn": "despair",
+  "line": 4444,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "chargeImpacts:1": {
+  "fn": "chargeImpacts",
+  "line": 4521,
+  "desc": "Machácalos: … repite los impactos (… → …)",
+  "loop": true,
+  "kind": "rollExpr"
+ },
+ "chargeImpacts:2": {
+  "fn": "chargeImpacts",
+  "line": 4521,
+  "desc": "Machácalos: … repite los impactos (… → …)",
+  "loop": true,
+  "kind": "rollExpr"
+ },
+ "chargeImpacts:3": {
+  "fn": "chargeImpacts",
+  "line": 4522,
+  "desc": "…: Banquete de sangre, recupera … Heridas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:1": {
+  "fn": "doCharge",
+  "line": 4586,
+  "desc": "",
+  "loop": false,
+  "kind": "d3"
+ },
+ "doCharge:2": {
+  "fn": "doCharge",
+  "line": 4677,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:3": {
+  "fn": "doCharge",
+  "line": 4677,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:4": {
+  "fn": "doCharge",
+  "line": 4690,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:5": {
+  "fn": "doCharge",
+  "line": 4690,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:6": {
+  "fn": "doCharge",
+  "line": 4691,
+  "desc": "Orden Pantera: repite un único 1 natural de la tirada de carga",
+  "loop": true,
+  "kind": "d6"
+ },
+ "doCharge:7": {
+  "fn": "doCharge",
+  "line": 4691,
+  "desc": "Orden Pantera: repite un único 1 natural de la tirada de carga",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:8": {
+  "fn": "doCharge",
+  "line": 4694,
+  "desc": "Hambre voraz (leg_ogres.txt:771): «may re-roll its Charge roll» → decisión del jugador al ver la tirada",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:9": {
+  "fn": "doCharge",
+  "line": 4694,
+  "desc": "Hambre voraz (leg_ogres.txt:771): «may re-roll its Charge roll» → decisión del jugador al ver la tirada",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:10": {
+  "fn": "doCharge",
+  "line": 4697,
+  "desc": "Banda de guerra (core.txt:5851-5853) / estandartes: «may re-roll its Charge roll» → decisión del jugador al ver la tirada",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:11": {
+  "fn": "doCharge",
+  "line": 4697,
+  "desc": "Banda de guerra (core.txt:5851-5853) / estandartes: «may re-roll its Charge roll» → decisión del jugador al ver la tirada",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:12": {
+  "fn": "doCharge",
+  "line": 4703,
+  "desc": ") || ((u.banner ===",
+  "loop": false,
+  "kind": "d3"
+ },
+ "doCharge:13": {
+  "fn": "doCharge",
+  "line": 4704,
+  "desc": "… carga: ¿+D3 a la tirada de carga y +2\" de alcance máximo?",
+  "loop": false,
+  "kind": "d3"
+ },
+ "doCharge:14": {
+  "fn": "doCharge",
+  "line": 4705,
+  "desc": "Hambre de batalla (AJ Westerland): unidad solo de modelos con el rasgo: +2\" al alcance máximo de carga y +D3 a la tirada",
+  "loop": false,
+  "kind": "d3"
+ },
+ "doCharge:15": {
+  "fn": "doCharge",
+  "line": 4708,
+  "desc": "Virtud del Caballero Impetuoso (FoF p.102): +3\" al alcance máximo y +D3 a la tirada de carga",
+  "loop": true,
+  "kind": "d3"
+ },
+ "doCharge:16": {
+  "fn": "doCharge",
+  "line": 4711,
+  "desc": "Implacable: una vez por partida",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "doCharge:17": {
+  "fn": "doCharge",
+  "line": 4811,
+  "desc": "… se ensarta en las estacas (… herida…)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:18": {
+  "fn": "doCharge",
+  "line": 4825,
+  "desc": "… sufre un chequeo de Peligro en la empalizada: … herida…",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCharge:19": {
+  "fn": "doCharge",
+  "line": 4839,
+  "desc": ") || joinedLive(u).some((m) => D(m).sr.includes(",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "doCharge:20": {
+  "fn": "doCharge",
+  "line": 4839,
+  "desc": ") || joinedLive(u).some((m) => D(m).sr.includes(",
+  "loop": true,
+  "kind": "roll2d6"
+ },
+ "miscast1:1": {
+  "fn": "miscast1",
+  "line": 4970,
+  "desc": "Maldición del Hechicero: … falla el chequeo de Resistencia (…), pierde una Herida y su carne se endurece (+1 R)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "miscast1:2": {
+  "fn": "miscast1",
+  "line": 4978,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "miscast1:3": {
+  "fn": "miscast1",
+  "line": 4990,
+  "desc": "… es desbordado por los Vientos de la Magia (Varita de Dos Colas): … heridas sin salvación de armadura ni regeneración",
+  "loop": true,
+  "kind": "d3"
+ },
+ "miscast1:4": {
+  "fn": "miscast1",
+  "line": 4993,
+  "desc": "…: tirada de la tabla de percances = …. ¿Repite la tirada?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "miscast1:5": {
+  "fn": "miscast1",
+  "line": 4993,
+  "desc": "…: tirada de la tabla de percances = …. ¿Repite la tirada?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "miscast1:6": {
+  "fn": "miscast1",
+  "line": 4993,
+  "desc": "…: tirada de la tabla de percances = …. ¿Repite la tirada?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "miscast1:7": {
+  "fn": "miscast1",
+  "line": 4993,
+  "desc": "…: tirada de la tabla de percances = …. ¿Repite la tirada?",
+  "loop": true,
+  "kind": "roll2d6"
+ },
+ "miscast1:8": {
+  "fn": "miscast1",
+  "line": 4994,
+  "desc": "el jugador elige la política (u.condPol: harm = repetir 7 o menos, disaster = repetir 6 o menos, off = nunca)",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "miscast1:9": {
+  "fn": "miscast1",
+  "line": 4997,
+  "desc": "11188-11189 «a Wizard can use the Earthing Rod to re-roll»): opcional, se pregunta en el momento",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "tryDispel:1": {
+  "fn": "tryDispel",
+  "line": 5062,
+  "desc": "… usa el Pergamino de Transmogrificación: …… saca … …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "tryDispel:2": {
+  "fn": "tryDispel",
+  "line": 5068,
+  "desc": "… usa el Pergamino de Retroalimentación: … pierde … heridas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "tryDispel:3": {
+  "fn": "tryDispel",
+  "line": 5068,
+  "desc": "… usa el Pergamino de Retroalimentación: … pierde … heridas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "tryDispel:4": {
+  "fn": "tryDispel",
+  "line": 5085,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "tryDispel:5": {
+  "fn": "tryDispel",
+  "line": 5087,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "tryDispel:6": {
+  "fn": "tryDispel",
+  "line": 5103,
+  "desc": "Cogitación Apaciguadora: una vez por turno repite uno de los D6 al disipar",
+  "loop": false,
+  "kind": "d6"
+ },
+ "tryDispel:7": {
+  "fn": "tryDispel",
+  "line": 5103,
+  "desc": "Cogitación Apaciguadora: una vez por turno repite uno de los D6 al disipar",
+  "loop": false,
+  "kind": "d6"
+ },
+ "tryDispel:8": {
+  "fn": "tryDispel",
+  "line": 5104,
+  "desc": "Pergamino de Disrupción: una vez por turno",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "tryDispel:9": {
+  "fn": "tryDispel",
+  "line": 5105,
+  "desc": "… usa el Fragmento de Piedra Bruja: +1 a la tirada de dispersión",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "tryDispel:10": {
+  "fn": "tryDispel",
+  "line": 5128,
+  "desc": "El destino dispersa el hechizo",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "applySpell0:1": {
+  "fn": "applySpell0",
+  "line": 5215,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:2": {
+  "fn": "applySpell0",
+  "line": 5215,
+  "desc": "",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:3": {
+  "fn": "applySpell0",
+  "line": 5215,
+  "desc": "",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:4": {
+  "fn": "applySpell0",
+  "line": 5223,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:5": {
+  "fn": "applySpell0",
+  "line": 5223,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:6": {
+  "fn": "applySpell0",
+  "line": 5223,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:7": {
+  "fn": "applySpell0",
+  "line": 5223,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:8": {
+  "fn": "applySpell0",
+  "line": 5229,
+  "desc": "…: … impactos → … bajas",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:9": {
+  "fn": "applySpell0",
+  "line": 5236,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:10": {
+  "fn": "applySpell0",
+  "line": 5236,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:11": {
+  "fn": "applySpell0",
+  "line": 5236,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:12": {
+  "fn": "applySpell0",
+  "line": 5236,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:13": {
+  "fn": "applySpell0",
+  "line": 5236,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:14": {
+  "fn": "applySpell0",
+  "line": 5254,
+  "desc": "? (() => { u.fx = (u.fx || []).filter((f) => f.k !==",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:15": {
+  "fn": "applySpell0",
+  "line": 5254,
+  "desc": "? (() => { u.fx = (u.fx || []).filter((f) => f.k !==",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:16": {
+  "fn": "applySpell0",
+  "line": 5255,
+  "desc": "? Math.min(t.models, Math.max(1, Math.round(7.07 / ((t.baseW / 25.4) * (t.baseD / 25.4))))) : sp.hitsFn ===",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:17": {
+  "fn": "applySpell0",
+  "line": 5256,
+  "desc": "Bilis Ácida: la plantilla pequeña se desvía D3+1\" y sólo alcanza a los modelos bajo su posición final",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:18": {
+  "fn": "applySpell0",
+  "line": 5257,
+  "desc": "? Math.min(t.models, Math.max(1, Math.round(7.07 / ((t.baseW / 25.4) * (t.baseD / 25.4))))) : sp.hitsFn ===",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:19": {
+  "fn": "applySpell0",
+  "line": 5258,
+  "desc": "? (() => { const P = attackProfile(u, t); sp.s = P.S; sp.ap = P.ap; sp.ab = P.ab || 0; sp.flaming = !!P.flaming; sp.dmg = P.mw || 0; sp.noArmour = !!P.noArm; sp.noRegen =",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:20": {
+  "fn": "applySpell0",
+  "line": 5259,
+  "desc": "? (() => { const P = attackProfile(u, t); sp.s = P.S; sp.ap = P.ap; sp.ab = P.ab || 0; sp.flaming = !!P.flaming; sp.dmg = P.mw || 0; sp.noArmour = !!P.noArm; sp.noRegen =",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:21": {
+  "fn": "applySpell0",
+  "line": 5259,
+  "desc": "? (() => { const P = attackProfile(u, t); sp.s = P.S; sp.ap = P.ap; sp.ab = P.ab || 0; sp.flaming = !!P.flaming; sp.dmg = P.mw || 0; sp.noArmour = !!P.noArm; sp.noRegen =",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:22": {
+  "fn": "applySpell0",
+  "line": 5260,
+  "desc": "Doble Espectral: 2D6 impactos directos con las características y el arma del lanzador",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:23": {
+  "fn": "applySpell0",
+  "line": 5260,
+  "desc": "Doble Espectral: 2D6 impactos directos con las características y el arma del lanzador",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:24": {
+  "fn": "applySpell0",
+  "line": 5261,
+  "desc": "… falla el chequeo de Liderazgo por …: pierde … Heridas (… bajas)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:25": {
+  "fn": "applySpell0",
+  "line": 5261,
+  "desc": "… falla el chequeo de Liderazgo por …: pierde … Heridas (… bajas)",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:26": {
+  "fn": "applySpell0",
+  "line": 5263,
+  "desc": "? (champGear(t) && dT.id !==",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "applySpell0:27": {
+  "fn": "applySpell0",
+  "line": 5267,
+  "desc": ") ? 1 : dT && sp.hitsFn ===",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:28": {
+  "fn": "applySpell0",
+  "line": 5267,
+  "desc": ") ? 1 : dT && sp.hitsFn ===",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:29": {
+  "fn": "applySpell0",
+  "line": 5276,
+  "desc": "… se deshace en polvo y no podrá usarse más",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:30": {
+  "fn": "applySpell0",
+  "line": 5287,
+  "desc": "… cede terreno asustada",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "applySpell0:31": {
+  "fn": "applySpell0",
+  "line": 5307,
+  "desc": "… lanza …: … ${Object.entries(m).filter(([k]) => ['ws', 's', 't'].includes(k)).map(([k, v]) =>",
+  "loop": true,
+  "kind": "d3"
+ },
+ "applySpell0:32": {
+  "fn": "applySpell0",
+  "line": 5328,
+  "desc": "); c.fx = (c.fx || []).filter((f) => f.k !==",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:33": {
+  "fn": "applySpell0",
+  "line": 5328,
+  "desc": "); c.fx = (c.fx || []).filter((f) => f.k !==",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:34": {
+  "fn": "applySpell0",
+  "line": 5343,
+  "desc": "… lanza …: … ${[m.m ?",
+  "loop": true,
+  "kind": "d3"
+ },
+ "applySpell0:35": {
+  "fn": "applySpell0",
+  "line": 5351,
+  "desc": "Zombis Resucitados",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:36": {
+  "fn": "applySpell0",
+  "line": 5351,
+  "desc": "Zombis Resucitados",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:37": {
+  "fn": "applySpell0",
+  "line": 5377,
+  "desc": ") { t.fx = (t.fx || []).filter((f) => f.k !==",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:38": {
+  "fn": "applySpell0",
+  "line": 5389,
+  "desc": "«the effects of any other Hex previously cast on the target unit immediately expire» (antes solo Luna Mala)",
+  "loop": false,
+  "kind": "d3"
+ },
+ "applySpell0:39": {
+  "fn": "applySpell0",
+  "line": 5397,
+  "desc": "…: el Manto de Ghorok se vuelve contra él (pierde 1 Herida)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "applySpell0:40": {
+  "fn": "applySpell0",
+  "line": 5452,
+  "desc": "… aterriza mal y pierde 1 Herida (doble 1)",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "applySpell0:41": {
+  "fn": "applySpell0",
+  "line": 5515,
+  "desc": ") { t.fx = (t.fx || []).filter((f) => f.k !==",
+  "loop": false,
+  "kind": "d3"
+ },
+ "doCast0:1": {
+  "fn": "doCast0",
+  "line": 5619,
+  "desc": "también en hechizos ligados",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "doCast0:2": {
+  "fn": "doCast0",
+  "line": 5619,
+  "desc": "también en hechizos ligados",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCast0:3": {
+  "fn": "doCast0",
+  "line": 5619,
+  "desc": "también en hechizos ligados",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCast0:4": {
+  "fn": "doCast0",
+  "line": 5620,
+  "desc": "Títere Infernal: … descarta su dado más alto (hechizo ligado: FAQ RH)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCast0:5": {
+  "fn": "doCast0",
+  "line": 5630,
+  "desc": "…: Lugar de poder (Monolito arcano), repite un 1 natural al lanzar",
+  "loop": false,
+  "kind": "roll3Best"
+ },
+ "doCast0:6": {
+  "fn": "doCast0",
+  "line": 5630,
+  "desc": "…: Lugar de poder (Monolito arcano), repite un 1 natural al lanzar",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "doCast0:7": {
+  "fn": "doCast0",
+  "line": 5631,
+  "desc": "Lugar de poder: el Mago que controla el monolito repite un solo 1 natural",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCast0:8": {
+  "fn": "doCast0",
+  "line": 5631,
+  "desc": "Lugar de poder: el Mago que controla el monolito repite un solo 1 natural",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCast0:9": {
+  "fn": "doCast0",
+  "line": 5634,
+  "desc": "… consume una Ficha de Piedra Bruja: +… al lanzamiento",
+  "loop": false,
+  "kind": "d3"
+ },
+ "doCast0:10": {
+  "fn": "doCast0",
+  "line": 5636,
+  "desc": "… come una Larva Itxi (R …): +3 al lanzamiento",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCast0:11": {
+  "fn": "doCast0",
+  "line": 5641,
+  "desc": "…: Bastón Negro — dos 1 naturales: ¡percance!",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCast0:12": {
+  "fn": "doCast0",
+  "line": 5645,
+  "desc": "Títere Infernal: … descarta su dado más alto",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCast0:13": {
+  "fn": "doCast0",
+  "line": 5648,
+  "desc": "Pergamino de Atadura",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCast0:14": {
+  "fn": "doCast0",
+  "line": 5662,
+  "desc": "…: el Bastón de Baduumm estalla (plantilla de 5\")",
+  "loop": false,
+  "kind": "d3"
+ },
+ "doCast0:15": {
+  "fn": "doCast0",
+  "line": 5668,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "doCast0:16": {
+  "fn": "doCast0",
+  "line": 5681,
+  "desc": "… usa la Hoz de Grut: +… al lanzamiento; … pierde una Herida",
+  "loop": false,
+  "kind": "d3"
+ },
+ "doCast0:17": {
+  "fn": "doCast0",
+  "line": 5693,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "doCast0:18": {
+  "fn": "doCast0",
+  "line": 5698,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "doCast0:19": {
+  "fn": "doCast0",
+  "line": 5703,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "doCast0:20": {
+  "fn": "doCast0",
+  "line": 5726,
+  "desc": "… repite el lanzamiento (Bendición de Lileath)",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "doCast0:21": {
+  "fn": "doCast0",
+  "line": 5730,
+  "desc": "… repite el lanzamiento (Bendición de Hekarti)",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "doCast0:22": {
+  "fn": "doCast0",
+  "line": 5755,
+  "desc": "… pierde los nervios ante el Cygor (Devoraalmas)",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "doCast0:23": {
+  "fn": "doCast0",
+  "line": 5764,
+  "desc": "… sufre … impactos de la Esfera (… heridas)",
+  "loop": false,
+  "kind": "d3"
+ },
+ "doCast0:24": {
+  "fn": "doCast0",
+  "line": 5771,
+  "desc": "El Amuleto Verde Brillante de … explota",
+  "loop": false,
+  "kind": "d6"
+ },
+ "attackProfile0:1": {
+  "fn": "attackProfile0",
+  "line": 5990,
+  "desc": "Espada Matadragones: regla Matamonstruos (Core p.339), no repetición",
+  "loop": false,
+  "kind": "d6"
+ },
+ "attackProfile0:2": {
+  "fn": "attackProfile0",
+  "line": 5990,
+  "desc": "Espada Matadragones: regla Matamonstruos (Core p.339), no repetición",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "attackProfile0:3": {
+  "fn": "attackProfile0",
+  "line": 6017,
+  "desc": "",
+  "loop": true,
+  "kind": "d3"
+ },
+ "attackProfile0:4": {
+  "fn": "attackProfile0",
+  "line": 6039,
+  "desc": "Hoja Cacareante: Ataques extra (+D6); con un 6 natural pierde una Herida",
+  "loop": false,
+  "kind": "d6"
+ },
+ "restrains:1": {
+  "fn": "restrains",
+  "line": 6132,
+  "desc": "Veterano (Core): repite el chequeo de contención fallado",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "restrains:2": {
+  "fn": "restrains",
+  "line": 6132,
+  "desc": "Veterano (Core): repite el chequeo de contención fallado",
+  "loop": true,
+  "kind": "roll2d6"
+ },
+ "setupDuels:1": {
+  "fn": "setupDuels",
+  "line": 6199,
+  "desc": "Desdén de los Dragones: el desafío de … muere en sus labios",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "endlessBonus:1": {
+  "fn": "endlessBonus",
+  "line": 6238,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "endlessBonus:2": {
+  "fn": "endlessBonus",
+  "line": 6238,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "scyChoice:1": {
+  "fn": "scyChoice",
+  "line": 6329,
+  "desc": "…: ataque «Segador» con el Destructor de Eternidades — … sufre … impactos automáticos",
+  "loop": false,
+  "kind": "d6"
+ },
+ "joinedStrike:1": {
+  "fn": "joinedStrike",
+  "line": 6336,
+  "desc": ")) j._vb = true; if ((r < needJ || r === 1) && (pj.hatred && !u.fought || k < rdJ)) r = d6(s); else if (r === 1 && gj > 0) { gj--; r = d6(s); } if (r === 1 && fx(j,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "joinedStrike:2": {
+  "fn": "joinedStrike",
+  "line": 6336,
+  "desc": ")) j._vb = true; if ((r < needJ || r === 1) && (pj.hatred && !u.fought || k < rdJ)) r = d6(s); else if (r === 1 && gj > 0) { gj--; r = d6(s); } if (r === 1 && fx(j,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "joinedStrike:3": {
+  "fn": "joinedStrike",
+  "line": 6336,
+  "desc": ")) j._vb = true; if ((r < needJ || r === 1) && (pj.hatred && !u.fought || k < rdJ)) r = d6(s); else if (r === 1 && gj > 0) { gj--; r = d6(s); } if (r === 1 && fx(j,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "joinedStrike:4": {
+  "fn": "joinedStrike",
+  "line": 6336,
+  "desc": ")) j._vb = true; if ((r < needJ || r === 1) && (pj.hatred && !u.fought || k < rdJ)) r = d6(s); else if (r === 1 && gj > 0) { gj--; r = d6(s); } if (r === 1 && fx(j,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "joinedStrike:5": {
+  "fn": "joinedStrike",
+  "line": 6336,
+  "desc": ")) j._vb = true; if ((r < needJ || r === 1) && (pj.hatred && !u.fought || k < rdJ)) r = d6(s); else if (r === 1 && gj > 0) { gj--; r = d6(s); } if (r === 1 && fx(j,",
+  "loop": true,
+  "kind": "d6"
+ },
+ "duelSwing:1": {
+  "fn": "duelSwing",
+  "line": 6412,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "duelSwing:2": {
+  "fn": "duelSwing",
+  "line": 6413,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "duelSwing:3": {
+  "fn": "duelSwing",
+  "line": 6415,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "duelSwing:4": {
+  "fn": "duelSwing",
+  "line": 6416,
+  "desc": "",
+  "loop": true,
+  "kind": "d6"
+ },
+ "duelSwing:5": {
+  "fn": "duelSwing",
+  "line": 6417,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "duelSwing:6": {
+  "fn": "duelSwing",
+  "line": 6418,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "duelSwing:7": {
+  "fn": "duelSwing",
+  "line": 6419,
+  "desc": "? eUnit : T.m).sr.includes(",
+  "loop": false,
+  "kind": "d6"
+ },
+ "duelSwing:8": {
+  "fn": "duelSwing",
+  "line": 6422,
+  "desc": "&& crystalUse(s, T.k ===",
+  "loop": true,
+  "kind": "d6"
+ },
+ "fightGroup:1": {
+  "fn": "fightGroup",
+  "line": 6527,
+  "desc": ")) { t.fx = (t.fx || []); t.fx.push({ k:",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:2": {
+  "fn": "fightGroup",
+  "line": 6536,
+  "desc": "Los Merodeadores apuñalan a …: … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:3": {
+  "fn": "fightGroup",
+  "line": 6544,
+  "desc": "Una Matanza de Duendes acosa a …: … impactos → … bajas",
+  "loop": false,
+  "kind": "d3"
+ },
+ "fightGroup:4": {
+  "fn": "fightGroup",
+  "line": 6571,
+  "desc": "…: Bendición del Caos (…) → …[k]}",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:5": {
+  "fn": "fightGroup",
+  "line": 6580,
+  "desc": "Ataques aleatorios (Core p.176): se tira por separado para cada modelo de la fila",
+  "loop": true,
+  "kind": "rollExpr"
+ },
+ "fightGroup:6": {
+  "fn": "fightGroup",
+  "line": 6582,
+  "desc": "Gran hoja, Golpe segador: Ataques adicionales (+2D3)",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "fightGroup:7": {
+  "fn": "fightGroup",
+  "line": 6583,
+  "desc": "…: Mutación desenfrenada (…) — …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:8": {
+  "fn": "fightGroup",
+  "line": 6592,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "fightGroup:9": {
+  "fn": "fightGroup",
+  "line": 6608,
+  "desc": "Cornucopia de la Obesidad: … pierde … Herida(s) (… chequeos de Resistencia)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:10": {
+  "fn": "fightGroup",
+  "line": 6623,
+  "desc": "Sangre de Hashut…: … sufre … impactos (hieren con …+, sin armadura): … herida(s)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:11": {
+  "fn": "fightGroup",
+  "line": 6650,
+  "desc": "Estandarte del Cambio: … sufre … impactos F2 (… heridas)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "fightGroup:12": {
+  "fn": "fightGroup",
+  "line": 6650,
+  "desc": "Estandarte del Cambio: … sufre … impactos F2 (… heridas)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "fightGroup:13": {
+  "fn": "fightGroup",
+  "line": 6650,
+  "desc": "Estandarte del Cambio: … sufre … impactos F2 (… heridas)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "fightGroup:14": {
+  "fn": "fightGroup",
+  "line": 6651,
+  "desc": "Estandarte de Aquiescencia: … sufre −… HA e I",
+  "loop": true,
+  "kind": "d3"
+ },
+ "fightGroup:15": {
+  "fn": "fightGroup",
+  "line": 6687,
+  "desc": "… (Nurglings)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:16": {
+  "fn": "fightGroup",
+  "line": 6687,
+  "desc": "… (Nurglings)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:17": {
+  "fn": "fightGroup",
+  "line": 6695,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:18": {
+  "fn": "fightGroup",
+  "line": 6728,
+  "desc": "",
+  "loop": false,
+  "kind": "d3"
+ },
+ "fightGroup:19": {
+  "fn": "fightGroup",
+  "line": 6730,
+  "desc": "… (contra sí mismo)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:20": {
+  "fn": "fightGroup",
+  "line": 6762,
+  "desc": "",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "fightGroup:21": {
+  "fn": "fightGroup",
+  "line": 6762,
+  "desc": "",
+  "loop": false,
+  "kind": "d3"
+ },
+ "fightGroup:22": {
+  "fn": "fightGroup",
+  "line": 6805,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:23": {
+  "fn": "fightGroup",
+  "line": 6805,
+  "desc": "",
+  "loop": false,
+  "kind": "d3"
+ },
+ "fightGroup:24": {
+  "fn": "fightGroup",
+  "line": 6831,
+  "desc": ") && D(e).faction ===",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:25": {
+  "fn": "fightGroup",
+  "line": 6833,
+  "desc": ") && D(e).faction ===",
+  "loop": true,
+  "kind": "d6"
+ },
+ "fightGroup:26": {
+  "fn": "fightGroup",
+  "line": 6834,
+  "desc": "Furia del sapo: solo la montura repite los 1 al impactar",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:27": {
+  "fn": "fightGroup",
+  "line": 6835,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:28": {
+  "fn": "fightGroup",
+  "line": 6836,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:29": {
+  "fn": "fightGroup",
+  "line": 6837,
+  "desc": "Guardianes del Templo / Orden del Corazón Ardiente // Tótem del derramamiento",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:30": {
+  "fn": "fightGroup",
+  "line": 6838,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:31": {
+  "fn": "fightGroup",
+  "line": 6839,
+  "desc": "Reliquia de la Suerte",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:32": {
+  "fn": "fightGroup",
+  "line": 6840,
+  "desc": "Escudo Dorado: el atacante repite los 6 naturales para impactar",
+  "loop": true,
+  "kind": "d6"
+ },
+ "fightGroup:33": {
+  "fn": "fightGroup",
+  "line": 6841,
+  "desc": "Marca de Nurgle: el atacante repite los 6 naturales al impactar",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:34": {
+  "fn": "fightGroup",
+  "line": 6842,
+  "desc": "Furia primigenia / Hojas Malditas de Djaf: repite los 1 naturales al impactar",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:35": {
+  "fn": "fightGroup",
+  "line": 6846,
+  "desc": "Finta y esquiva",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:36": {
+  "fn": "fightGroup",
+  "line": 6848,
+  "desc": "Armadura de los Condenados",
+  "loop": true,
+  "kind": "d6"
+ },
+ "fightGroup:37": {
+  "fn": "fightGroup",
+  "line": 6849,
+  "desc": "Martillo de Rectitud: Ld o herida automática sin armadura // Sello de Parravon: 3+ siempre acierta",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:38": {
+  "fn": "fightGroup",
+  "line": 6912,
+  "desc": "",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "fightGroup:39": {
+  "fn": "fightGroup",
+  "line": 6912,
+  "desc": "",
+  "loop": false,
+  "kind": "d3"
+ },
+ "fightGroup:40": {
+  "fn": "fightGroup",
+  "line": 6969,
+  "desc": "Esquirla Infernal",
+  "loop": true,
+  "kind": "d6"
+ },
+ "fightGroup:41": {
+  "fn": "fightGroup",
+  "line": 6979,
+  "desc": "… falla el chequeo de R contra la Hoja de Nurglitch: −1 R permanente",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:42": {
+  "fn": "fightGroup",
+  "line": 6989,
+  "desc": "… falla el chequeo de Resistencia contra la Maza de la Inmundicia: −1 R hasta el final del turno",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fightGroup:43": {
+  "fn": "fightGroup",
+  "line": 7002,
+  "desc": "&& D(x.e).sr.includes(",
+  "loop": false,
+  "kind": "d3"
+ },
+ "abominableAttack:1": {
+  "fn": "abominableAttack",
+  "line": 7131,
+  "desc": "…: Alimentarse de … (…)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "abominableAttack:2": {
+  "fn": "abominableAttack",
+  "line": 7142,
+  "desc": "Pisotón atronador: FP −2 salvo contra otro monstruo; el pisotón en sí no tiene restricción (Core)",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "motherlyAttack:1": {
+  "fn": "motherlyAttack",
+  "line": 7146,
+  "desc": "… está trabada con varias unidades. ¿Contra cuál usa el Ataque maternal?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "motherlyAttack:2": {
+  "fn": "motherlyAttack",
+  "line": 7152,
+  "desc": "Cotorrear (… impactos, −1 Ld)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "motherlyAttack:3": {
+  "fn": "motherlyAttack",
+  "line": 7155,
+  "desc": "Pisotón atronador: FP −2 salvo contra otro monstruo; el pisotón en sí no tiene restricción (Core)",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "bonegrinderAttack:1": {
+  "fn": "bonegrinderAttack",
+  "line": 7162,
+  "desc": "…: … alcanza también a …… (… impactos → … heridas)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "bonegrinderAttack:2": {
+  "fn": "bonegrinderAttack",
+  "line": 7176,
+  "desc": ") ? 2 : 5) ? ((!sameTTc(c, e) && !has(e,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "bonegrinderAttack:3": {
+  "fn": "bonegrinderAttack",
+  "line": 7178,
+  "desc": "FAQ p.209: ¡Cuidado, señor! solo con cinco o más modelos de tropa del mismo tipo de tropa que el personaje",
+  "loop": false,
+  "kind": "d6"
+ },
+ "bonegrinderAttack:4": {
+  "fn": "bonegrinderAttack",
+  "line": 7180,
+  "desc": "; … falla el chequeo de Iniciativa y es devorado",
+  "loop": false,
+  "kind": "d6"
+ },
+ "bonegrinderAttack:5": {
+  "fn": "bonegrinderAttack",
+  "line": 7187,
+  "desc": "…: Ataque de Gigante Triturador (…) — Gran barrido sobre … (… impactos F…, FP −2)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "bonegrinderAttack:6": {
+  "fn": "bonegrinderAttack",
+  "line": 7193,
+  "desc": "Pisotón atronador: FP −2 salvo contra otro monstruo; el pisotón en sí no tiene restricción (Core)",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "giantAttack:1": {
+  "fn": "giantAttack",
+  "line": 7204,
+  "desc": "… agarra a los enemigos de … (Agarrar y…)…: … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "giantAttack:2": {
+  "fn": "giantAttack",
+  "line": 7204,
+  "desc": "… agarra a los enemigos de … (Agarrar y…)…: … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "giantAttack:3": {
+  "fn": "giantAttack",
+  "line": 7208,
+  "desc": ", auto: true }); txt =",
+  "loop": false,
+  "kind": "d6"
+ },
+ "giantAttack:4": {
+  "fn": "giantAttack",
+  "line": 7220,
+  "desc": "gran barrido (… ataques)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "giantAttack:5": {
+  "fn": "giantAttack",
+  "line": 7222,
+  "desc": "…: ataque de gigante… — …",
+  "loop": false,
+  "kind": "d6"
+ },
+ "giantAttack:6": {
+  "fn": "giantAttack",
+  "line": 7226,
+  "desc": "Pisotón atronador: FP −2 salvo contra otro monstruo; el pisotón en sí no tiene restricción (Core)",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "zzzzap:1": {
+  "fn": "zzzzap",
+  "line": 7235,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:1": {
+  "fn": "resolveCombats",
+  "line": 7261,
+  "desc": "Aura de dolor de …: … sufre … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:2": {
+  "fn": "resolveCombats",
+  "line": 7297,
+  "desc": "Mirada pétrea de …: … sufre … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:3": {
+  "fn": "resolveCombats",
+  "line": 7297,
+  "desc": "Mirada pétrea de …: … sufre … impactos → … bajas",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveCombats:4": {
+  "fn": "resolveCombats",
+  "line": 7336,
+  "desc": "…: … suma +… a la resolución de combate",
+  "loop": true,
+  "kind": "d3"
+ },
+ "resolveCombats:5": {
+  "fn": "resolveCombats",
+  "line": 7360,
+  "desc": "… sigue al enemigo en retirada: ¿añade +D6 (Zancada veloz)?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:6": {
+  "fn": "resolveCombats",
+  "line": 7360,
+  "desc": "… sigue al enemigo en retirada: ¿añade +D6 (Zancada veloz)?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:7": {
+  "fn": "resolveCombats",
+  "line": 7361,
+  "desc": "… sigue al enemigo en retirada: ¿añade +D6 (Zancada veloz)?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:8": {
+  "fn": "resolveCombats",
+  "line": 7361,
+  "desc": "… sigue al enemigo en retirada: ¿añade +D6 (Zancada veloz)?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:9": {
+  "fn": "resolveCombats",
+  "line": 7362,
+  "desc": "… sigue al enemigo en retirada: ¿añade +D6 (Zancada veloz)?",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveCombats:10": {
+  "fn": "resolveCombats",
+  "line": 7368,
+  "desc": ") || joinedLive(w).some((m) => D(m).sr.includes(",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "resolveCombats:11": {
+  "fn": "resolveCombats",
+  "line": 7368,
+  "desc": ") || joinedLive(w).some((m) => D(m).sr.includes(",
+  "loop": true,
+  "kind": "roll2d6"
+ },
+ "resolveCombats:12": {
+  "fn": "resolveCombats",
+  "line": 7392,
+  "desc": "… usa el Puñado de Laureles: repite el test de ruptura",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "resolveCombats:13": {
+  "fn": "resolveCombats",
+  "line": 7393,
+  "desc": "… usa el Puñado de Laureles: repite el test de ruptura",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:14": {
+  "fn": "resolveCombats",
+  "line": 7394,
+  "desc": "… usa el Puñado de Laureles: repite el test de ruptura",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "resolveCombats:15": {
+  "fn": "resolveCombats",
+  "line": 7395,
+  "desc": "… usa el Estandarte de Sangre Fría: D6 extra, se descarta el mayor",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:16": {
+  "fn": "resolveCombats",
+  "line": 7396,
+  "desc": "… usa la Gema del Valor: D6 extra, se descarta el mayor",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:17": {
+  "fn": "resolveCombats",
+  "line": 7397,
+  "desc": "Yelmo del Valor (Battle March): una vez por partida (el jugador puede desactivarlo)",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "resolveCombats:18": {
+  "fn": "resolveCombats",
+  "line": 7399,
+  "desc": "…: Virtud del Estoicismo, repite la tirada de ruptura",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "resolveCombats:19": {
+  "fn": "resolveCombats",
+  "line": 7400,
+  "desc": "…: Virtud del Estoicismo, repite la tirada de ruptura",
+  "loop": true,
+  "kind": "roll2d6"
+ },
+ "resolveCombats:20": {
+  "fn": "resolveCombats",
+  "line": 7401,
+  "desc": "… es Inestable: pierde … Heridas (… bajas)",
+  "loop": true,
+  "kind": "d3"
+ },
+ "resolveCombats:21": {
+  "fn": "resolveCombats",
+  "line": 7401,
+  "desc": "… es Inestable: pierde … Heridas (… bajas)",
+  "loop": true,
+  "kind": "d3"
+ },
+ "resolveCombats:22": {
+  "fn": "resolveCombats",
+  "line": 7449,
+  "desc": "¡Garrapatos descontrolados! … sufre … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:23": {
+  "fn": "resolveCombats",
+  "line": 7449,
+  "desc": "¡Garrapatos descontrolados! … sufre … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:24": {
+  "fn": "resolveCombats",
+  "line": 7450,
+  "desc": "¡Garrapatos descontrolados! … sufre … impactos → … bajas",
+  "loop": true,
+  "kind": "d3"
+ },
+ "resolveCombats:25": {
+  "fn": "resolveCombats",
+  "line": 7496,
+  "desc": ")) || bannersOf(w).some((b) => b.onePursuit) || (has(w,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:26": {
+  "fn": "resolveCombats",
+  "line": 7496,
+  "desc": ")) || bannersOf(w).some((b) => b.onePursuit) || (has(w,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:27": {
+  "fn": "resolveCombats",
+  "line": 7498,
+  "desc": "Estandarte del Jaguar: D6 extra, se descarta el menor",
+  "loop": true,
+  "kind": "d6"
+ },
+ "resolveCombats:28": {
+  "fn": "resolveCombats",
+  "line": 7499,
+  "desc": "… persigue: ¿añade +D6 a la persecución (Zancada veloz)?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:29": {
+  "fn": "resolveCombats",
+  "line": 7499,
+  "desc": "… persigue: ¿añade +D6 a la persecución (Zancada veloz)?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:30": {
+  "fn": "resolveCombats",
+  "line": 7500,
+  "desc": "Estandarte de la Cacería Salvaje: repite la persecución",
+  "loop": true,
+  "kind": "d6"
+ },
+ "resolveCombats:31": {
+  "fn": "resolveCombats",
+  "line": 7500,
+  "desc": "Estandarte de la Cacería Salvaje: repite la persecución",
+  "loop": false,
+  "kind": "d6"
+ },
+ "resolveCombats:32": {
+  "fn": "resolveCombats",
+  "line": 7501,
+  "desc": "Hambre de batalla: +D3 a la tirada de persecución",
+  "loop": false,
+  "kind": "d3"
+ },
+ "resolveCombats:33": {
+  "fn": "resolveCombats",
+  "line": 7530,
+  "desc": "… se alimenta de sangre caliente: recupera 1 Herida (La Sed)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "movePursuer0:1": {
+  "fn": "movePursuer0",
+  "line": 7575,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fanaticMove:1": {
+  "fn": "fanaticMove",
+  "line": 7603,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fanaticMove:2": {
+  "fn": "fanaticMove",
+  "line": 7603,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fanaticMove:3": {
+  "fn": "fanaticMove",
+  "line": 7609,
+  "desc": "¡Un Fanático atraviesa a …! … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "fanaticMove:4": {
+  "fn": "fanaticMove",
+  "line": 7613,
+  "desc": "El Fanático termina en Terreno hostil: test de Terreno Peligroso (…)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:1": {
+  "fn": "beginStrategy",
+  "line": 7623,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:2": {
+  "fn": "beginStrategy",
+  "line": 7634,
+  "desc": "Vientos helados: … debe superar un chequeo de Liderazgo antes de actuar",
+  "loop": true,
+  "kind": "d6"
+ },
+ "beginStrategy:3": {
+  "fn": "beginStrategy",
+  "line": 7645,
+  "desc": "Calor: armadura pesada, completa o barda sucumben con 1-2; chequeo de Resistencia (6 natural siempre falla)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:4": {
+  "fn": "beginStrategy",
+  "line": 7645,
+  "desc": "Calor: armadura pesada, completa o barda sucumben con 1-2; chequeo de Resistencia (6 natural siempre falla)",
+  "loop": false,
+  "kind": "d3"
+ },
+ "beginStrategy:5": {
+  "fn": "beginStrategy",
+  "line": 7645,
+  "desc": "Calor: armadura pesada, completa o barda sucumben con 1-2; chequeo de Resistencia (6 natural siempre falla)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:6": {
+  "fn": "beginStrategy",
+  "line": 7648,
+  "desc": "Rayo sobre …: … impactos F4 AP−1, … herida(s)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:7": {
+  "fn": "beginStrategy",
+  "line": 7648,
+  "desc": "Rayo sobre …: … impactos F4 AP−1, … herida(s)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:8": {
+  "fn": "beginStrategy",
+  "line": 7654,
+  "desc": "se decide al ver la tirada (antes, caras previas almaRR)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:9": {
+  "fn": "beginStrategy",
+  "line": 7654,
+  "desc": "se decide al ver la tirada (antes, caras previas almaRR)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:10": {
+  "fn": "beginStrategy",
+  "line": 7655,
+  "desc": "Almanaque Encantado: … repite el D6 de Caos de guerra (… → …)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:11": {
+  "fn": "beginStrategy",
+  "line": 7655,
+  "desc": "Almanaque Encantado: … repite el D6 de Caos de guerra (… → …)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "beginStrategy:12": {
+  "fn": "beginStrategy",
+  "line": 7705,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "beginStrategy:13": {
+  "fn": "beginStrategy",
+  "line": 7707,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:14": {
+  "fn": "beginStrategy",
+  "line": 7709,
+  "desc": "…: ¡Liberado al fin! El Demonio se libera (…\")",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:15": {
+  "fn": "beginStrategy",
+  "line": 7709,
+  "desc": "…: ¡Liberado al fin! El Demonio se libera (…\")",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:16": {
+  "fn": "beginStrategy",
+  "line": 7709,
+  "desc": "…: ¡Liberado al fin! El Demonio se libera (…\")",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:17": {
+  "fn": "beginStrategy",
+  "line": 7711,
+  "desc": "… sufre el estallido (… bajas)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "beginStrategy:18": {
+  "fn": "beginStrategy",
+  "line": 7725,
+  "desc": "… llega con un …. ¿Repite el dado de llegada (una vez por partida)?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:19": {
+  "fn": "beginStrategy",
+  "line": 7725,
+  "desc": "… llega con un …. ¿Repite el dado de llegada (una vez por partida)?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:20": {
+  "fn": "beginStrategy",
+  "line": 7725,
+  "desc": "… llega con un …. ¿Repite el dado de llegada (una vez por partida)?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:21": {
+  "fn": "beginStrategy",
+  "line": 7756,
+  "desc": "…: la Hoja Funesta le cobra una Herida",
+  "loop": true,
+  "kind": "d3"
+ },
+ "beginStrategy:22": {
+  "fn": "beginStrategy",
+  "line": 7757,
+  "desc": "… vuelve a su forma normal",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:23": {
+  "fn": "beginStrategy",
+  "line": 7758,
+  "desc": "El objeto transmogrificado de … vuelve a su forma normal",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:24": {
+  "fn": "beginStrategy",
+  "line": 7772,
+  "desc": "el jugador nomina la unidad (preferencia focus)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:25": {
+  "fn": "beginStrategy",
+  "line": 7778,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:26": {
+  "fn": "beginStrategy",
+  "line": 7789,
+  "desc": "… sufre la plaga de las flechas (… herida)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:27": {
+  "fn": "beginStrategy",
+  "line": 7800,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "beginStrategy:28": {
+  "fn": "beginStrategy",
+  "line": 7815,
+  "desc": "Terrores de las profundidades: … pierde … modelos (… chequeos de Iniciativa fallidos)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:29": {
+  "fn": "beginStrategy",
+  "line": 7826,
+  "desc": "… invoca la Llamada de la Tormenta",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "beginStrategy:30": {
+  "fn": "beginStrategy",
+  "line": 7829,
+  "desc": "La tormenta golpea a …: … impactos → … bajas",
+  "loop": true,
+  "kind": "d3"
+ },
+ "beginStrategy:31": {
+  "fn": "beginStrategy",
+  "line": 7842,
+  "desc": "…: ¿abre el Kanopi de Enkhil (un solo uso)? Chequeo de Liderazgo sin modificar; si lo supera se dispersan todos los hechizos que permanecen en juego (también los amigos).",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "beginStrategy:32": {
+  "fn": "beginStrategy",
+  "line": 7848,
+  "desc": "… activa la Runa de la Calma (…): los magos enemigos a …\" lanzan con +2",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "beginStrategy:33": {
+  "fn": "beginStrategy",
+  "line": 7863,
+  "desc": "… invoca Fuego del Alma: … sufre … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:34": {
+  "fn": "beginStrategy",
+  "line": 7874,
+  "desc": "Serpientes reptantes: … sufre … impactos F2 → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:35": {
+  "fn": "beginStrategy",
+  "line": 7875,
+  "desc": "Serpientes reptantes: … sufre … impactos F2 → … bajas",
+  "loop": true,
+  "kind": "d6"
+ },
+ "beginStrategy:36": {
+  "fn": "beginStrategy",
+  "line": 7875,
+  "desc": "Serpientes reptantes: … sufre … impactos F2 → … bajas",
+  "loop": true,
+  "kind": "d6"
+ },
+ "beginStrategy:37": {
+  "fn": "beginStrategy",
+  "line": 7876,
+  "desc": "Engendro de Sotek: … recupera … Heridas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:38": {
+  "fn": "beginStrategy",
+  "line": 7876,
+  "desc": "Engendro de Sotek: … recupera … Heridas",
+  "loop": false,
+  "kind": "d3"
+ },
+ "beginStrategy:39": {
+  "fn": "beginStrategy",
+  "line": 7880,
+  "desc": "Aura enloquecedora de …: … sufre … impactos → … bajas",
+  "loop": false,
+  "kind": "d3"
+ },
+ "beginStrategy:40": {
+  "fn": "beginStrategy",
+  "line": 7883,
+  "desc": "…: D6 de Borrachos = …. ¿Repite la tirada?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:41": {
+  "fn": "beginStrategy",
+  "line": 7885,
+  "desc": "…: D6 de Borrachos = …. ¿Repite la tirada?",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:42": {
+  "fn": "beginStrategy",
+  "line": 7904,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "beginStrategy:43": {
+  "fn": "beginStrategy",
+  "line": 7910,
+  "desc": "Báculo del Despertar: +D3 Heridas más a infantería y caballería",
+  "loop": true,
+  "kind": "d3"
+ },
+ "beginStrategy:44": {
+  "fn": "beginStrategy",
+  "line": 7910,
+  "desc": "Báculo del Despertar: +D3 Heridas más a infantería y caballería",
+  "loop": true,
+  "kind": "d3"
+ },
+ "beginStrategy:45": {
+  "fn": "beginStrategy",
+  "line": 7919,
+  "desc": "… (Corona de Reyes): … recupera … Heridas (… modelos se alzan)",
+  "loop": false,
+  "kind": "d3"
+ },
+ "beginStrategy:46": {
+  "fn": "beginStrategy",
+  "line": 7922,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "beginStrategy:47": {
+  "fn": "beginStrategy",
+  "line": 7925,
+  "desc": "… supera el chequeo. Elige el modificador hasta tu siguiente Inicio de turno (él, su montura y su unidad):",
+  "loop": true,
+  "kind": "d3"
+ },
+ "beginStrategy:48": {
+  "fn": "beginStrategy",
+  "line": 7936,
+  "desc": "… controla el elemento especial (…): … hasta el final del turno",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:49": {
+  "fn": "beginStrategy",
+  "line": 7942,
+  "desc": "… recupera una Herida (Capa de Isha)",
+  "loop": true,
+  "kind": "d6"
+ },
+ "beginStrategy:50": {
+  "fn": "beginStrategy",
+  "line": 7955,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:51": {
+  "fn": "beginStrategy",
+  "line": 7955,
+  "desc": "",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "beginStrategy:52": {
+  "fn": "beginStrategy",
+  "line": 7955,
+  "desc": "",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:53": {
+  "fn": "beginStrategy",
+  "line": 7973,
+  "desc": "… golpea a …: pierde … Heridas → … bajas",
+  "loop": true,
+  "kind": "d6"
+ },
+ "beginStrategy:54": {
+  "fn": "beginStrategy",
+  "line": 7973,
+  "desc": "… golpea a …: pierde … Heridas → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:55": {
+  "fn": "beginStrategy",
+  "line": 7975,
+  "desc": "… golpea a …: … impactos → … bajas",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "beginStrategy:56": {
+  "fn": "beginStrategy",
+  "line": 7975,
+  "desc": "… golpea a …: … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:57": {
+  "fn": "beginStrategy",
+  "line": 7975,
+  "desc": "… golpea a …: … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:58": {
+  "fn": "beginStrategy",
+  "line": 7975,
+  "desc": "… golpea a …: … impactos → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginStrategy:59": {
+  "fn": "beginStrategy",
+  "line": 7993,
+  "desc": "…: Capataz inmortal, … gana +… Iniciativa (máx. 10) hasta tu próximo turno",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "beginStrategy:60": {
+  "fn": "beginStrategy",
+  "line": 7994,
+  "desc": "…: Capataz inmortal, … gana +… Iniciativa (máx. 10) hasta tu próximo turno",
+  "loop": false,
+  "kind": "d3"
+ },
+ "beginStrategy:61": {
+  "fn": "beginStrategy",
+  "line": 8009,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "beginStrategy:62": {
+  "fn": "beginStrategy",
+  "line": 8011,
+  "desc": "… sucumbe a la Estupidez: no mueve, no dispara, no lanza ni dispersa y debe Aguantar si la cargan",
+  "loop": true,
+  "kind": "roll2d6"
+ },
+ "beginStrategy:63": {
+  "fn": "beginStrategy",
+  "line": 8012,
+  "desc": "Veterano / Pendón Reluciente: repite el chequeo de Estupidez fallado",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "impetuousTests:1": {
+  "fn": "impetuousTests",
+  "line": 8027,
+  "desc": "&& u.owner === 1 && D(u).sr.includes(",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "beginMove:1": {
+  "fn": "beginMove",
+  "line": 8049,
+  "desc": "…: ¡Bang y Phweee! pierde 1 Herida y se detiene",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginMove:2": {
+  "fn": "beginMove",
+  "line": 8049,
+  "desc": "…: ¡Bang y Phweee! pierde 1 Herida y se detiene",
+  "loop": false,
+  "kind": "d6"
+ },
+ "beginMove:3": {
+  "fn": "beginMove",
+  "line": 8068,
+  "desc": "Atraídos a la batalla (Châlons): quien ya era Impetuoso aplica −1 a la tirada",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "rallyTest:1": {
+  "fn": "rallyTest",
+  "line": 8084,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "rallyTest:2": {
+  "fn": "rallyTest",
+  "line": 8089,
+  "desc": "… repite la tirada de reagrupar (Monumento de gloria: Una visión inspiradora)",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "rallyTest:3": {
+  "fn": "rallyTest",
+  "line": 8090,
+  "desc": "… repite la tirada de reagrupar (Monumento de gloria: Una visión inspiradora)",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "rallyTest:4": {
+  "fn": "rallyTest",
+  "line": 8091,
+  "desc": "La Puerta: repetir Reagrupar",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "rallyTest:5": {
+  "fn": "rallyTest",
+  "line": 8092,
+  "desc": "Kineater",
+  "loop": true,
+  "kind": "roll2d6"
+ },
+ "rallyTest:6": {
+  "fn": "rallyTest",
+  "line": 8093,
+  "desc": "León de Jade (okl_lion): repite Reagrupar fallado; Veterano: repite cualquier chequeo de Liderazgo fallado salvo ruptura (Core p.181)",
+  "loop": true,
+  "kind": "roll2d6"
+ },
+ "rallyTest:7": {
+  "fn": "rallyTest",
+  "line": 8096,
+  "desc": "… repite la tirada de reagrupar (estandarte)",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "falconUse:1": {
+  "fn": "falconUse",
+  "line": 8135,
+  "desc": "); e.fx.push({ k:",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "randomMoves:1": {
+  "fn": "randomMoves",
+  "line": 8166,
+  "desc": "",
+  "loop": true,
+  "kind": "rollExpr"
+ },
+ "compulsoryMoves:1": {
+  "fn": "compulsoryMoves",
+  "line": 8205,
+  "desc": ") ? swiftD6(s, u, ev,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "compulsoryMoves:2": {
+  "fn": "compulsoryMoves",
+  "line": 8205,
+  "desc": ") ? swiftD6(s, u, ev,",
+  "loop": false,
+  "kind": "d6"
+ },
+ "endPlayerTurn:1": {
+  "fn": "endPlayerTurn",
+  "line": 8304,
+  "desc": "Duración aleatoria: … + ronda … = ……",
+  "loop": false,
+  "kind": "d6"
+ },
+ "vortexMoveHits0:1": {
+  "fn": "vortexMoveHits0",
+  "line": 8692,
+  "desc": "… alcanza a … al moverse a través de la plantilla: … impactos → … bajas",
+  "loop": false,
+  "kind": "rollExpr"
+ },
+ "bastionTest:1": {
+  "fn": "bastionTest",
+  "line": 8722,
+  "desc": "repite los 1 en Terreno peligroso",
+  "loop": false,
+  "kind": "d6"
+ },
+ "bastionTest:2": {
+  "fn": "bastionTest",
+  "line": 8722,
+  "desc": "repite los 1 en Terreno peligroso",
+  "loop": false,
+  "kind": "d6"
+ },
+ "bastionTest:3": {
+  "fn": "bastionTest",
+  "line": 8722,
+  "desc": "repite los 1 en Terreno peligroso",
+  "loop": false,
+  "kind": "d3"
+ },
+ "dangerTest:1": {
+  "fn": "dangerTest",
+  "line": 8743,
+  "desc": "Cenagal salado / Bosque denso: contratiempo con 1-2; Tierras fracturadas: 1-3 (Dawn p.26-27)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "dangerTest:2": {
+  "fn": "dangerTest",
+  "line": 8743,
+  "desc": "Cenagal salado / Bosque denso: contratiempo con 1-2; Tierras fracturadas: 1-3 (Dawn p.26-27)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "dangerTest:3": {
+  "fn": "dangerTest",
+  "line": 8743,
+  "desc": "Cenagal salado / Bosque denso: contratiempo con 1-2; Tierras fracturadas: 1-3 (Dawn p.26-27)",
+  "loop": false,
+  "kind": "d3"
+ },
+ "apply0:1": {
+  "fn": "apply0",
+  "line": 8983,
+  "desc": "Furia de Khaine (Carga furiosa)",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "apply0:2": {
+  "fn": "apply0",
+  "line": 8997,
+  "desc": "); tg.fx.push({ k:",
+  "loop": false,
+  "kind": "d3"
+ },
+ "apply0:3": {
+  "fn": "apply0",
+  "line": 9008,
+  "desc": "… se pone el Big Boss 'At: … es Inquebrantable",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "apply0:4": {
+  "fn": "apply0",
+  "line": 9028,
+  "desc": "Skaryn no llega al enemigo (…)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "apply0:5": {
+  "fn": "apply0",
+  "line": 9031,
+  "desc": "); t.fx.push({ k:",
+  "loop": false,
+  "kind": "d3"
+ },
+ "apply0:6": {
+  "fn": "apply0",
+  "line": 9064,
+  "desc": "… bebe …: recupera … heridas",
+  "loop": false,
+  "kind": "d3"
+ },
+ "apply0:7": {
+  "fn": "apply0",
+  "line": 9065,
+  "desc": "'A' = Poción de Fervor",
+  "loop": false,
+  "kind": "d3"
+ },
+ "apply0:8": {
+  "fn": "apply0",
+  "line": 9155,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "apply0:9": {
+  "fn": "apply0",
+  "line": 9160,
+  "desc": "Retroceso mágico alcanza a ……: … impactos → … bajas",
+  "loop": true,
+  "kind": "d3"
+ },
+ "apply0:10": {
+  "fn": "apply0",
+  "line": 9171,
+  "desc": "… falla el chequeo ante el Doblar sonoro: … impactos de F4 → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "apply0:11": {
+  "fn": "apply0",
+  "line": 9184,
+  "desc": "); m.fx.push({ k:",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "apply0:12": {
+  "fn": "apply0",
+  "line": 9244,
+  "desc": "Cetro de de Noirot: D6 por uso; con 1 pierde una Herida",
+  "loop": false,
+  "kind": "d6"
+ },
+ "apply0:13": {
+  "fn": "apply0",
+  "line": 9245,
+  "desc": "… falla la Invocación de Nehek",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "apply0:14": {
+  "fn": "apply0",
+  "line": 9248,
+  "desc": "].includes(tt) ? L + d3(s) : [",
+  "loop": false,
+  "kind": "d3"
+ },
+ "apply0:15": {
+  "fn": "apply0",
+  "line": 9249,
+  "desc": "… invoca Nehek: … recupera … Heridas",
+  "loop": true,
+  "kind": "d6"
+ },
+ "apply0:16": {
+  "fn": "apply0",
+  "line": 9269,
+  "desc": "…: se transforma (…) y recupera … Herida(s) (D3=…); no puede cargar este turno",
+  "loop": false,
+  "kind": "d3"
+ },
+ "apply0:17": {
+  "fn": "apply0",
+  "line": 9349,
+  "desc": "… llama a las criaturas de la noche: … recupera … Heridas (D6 = …)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "apply0:18": {
+  "fn": "apply0",
+  "line": 9351,
+  "desc": "); x.fx.push({ k:",
+  "loop": false,
+  "kind": "d3"
+ },
+ "apply0:19": {
+  "fn": "apply0",
+  "line": 9360,
+  "desc": "… azota a los suyos: +… Movimiento (D3 = …, máx. 10)",
+  "loop": false,
+  "kind": "d3"
+ },
+ "apply0:20": {
+  "fn": "apply0",
+  "line": 9368,
+  "desc": "… libera el Kanopo de Phâzerakt: surgen … Guerreros Esqueleto",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "apply0:21": {
+  "fn": "apply0",
+  "line": 9423,
+  "desc": "una única tirada para impactar (Habilidad de Armas del portador)",
+  "loop": false,
+  "kind": "d6"
+ },
+ "apply0:22": {
+  "fn": "apply0",
+  "line": 9425,
+  "desc": "… supera el test de Iniciativa (…) contra el Orbe de Latón",
+  "loop": false,
+  "kind": "d6"
+ },
+ "apply0:23": {
+  "fn": "apply0",
+  "line": 9721,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "apply0:24": {
+  "fn": "apply0",
+  "line": 9722,
+  "desc": "",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "apply0:25": {
+  "fn": "apply0",
+  "line": 9763,
+  "desc": "… pasa como una tormenta de arena sobre …: … impactos de F2 → … bajas",
+  "loop": false,
+  "kind": "d6"
+ },
+ "apply0:26": {
+  "fn": "apply0",
+  "line": 9842,
+  "desc": "Lamento de …: … supera el chequeo",
+  "loop": false,
+  "kind": "roll2d6"
+ },
+ "apply0:27": {
+  "fn": "apply0",
+  "line": 9890,
+  "desc": "Ojo del Dragón / Maw Rúnico (…): … — ${dr >= dthr ?",
+  "loop": true,
+  "kind": "d6"
+ }
+}

@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+aj_dwarfs2.tsv	aj_dwarfs2-119	CONFIRMA	data.js:3724 dw_royalwarriors_ga melee sb2 ap3 twoHands last, sin escudo, +1 pt/modelo (ppm 11).
+aj_orcs2.tsv	aj_orcs2-120	CONFIRMA	data.js:3376-3381 los objetos star:true se saltan duplicado y limite de categoria; unico * orco (Backstabber, data.js:3097) marcado star.
+core_5.tsv	C5-075	CONFIRMA	rules.js:1817-1819 mus/std/champ solo se pierden si cmdN>models, orden musico, portaestandarte, campeon; coincide con p.201.
+leg_ogres.tsv	leg_ogres-071	CONFIRMA	data.js:2467 CMD ok_bulls champ=6; campeon recibe +1 A automatico (A3->A4, rules.js:5356/5360).
+core_3.tsv	c3-084	CONFIRMA	rules.js:2256 previewMove: movimiento hacia atras (fwd<-0.5) mult=2 (mitad de M); marchar atras prohibido.
+leg_darkelves.tsv	leg_darkelves-167	CONFIRMA	data.js:5820 de_scourge: ppm85 S4 T4 W4, 2 Maestros (HA4 HP4 F3 I4 Ld8), 2 corceles M9, arm 5+, arpon F6 FP-3 MW(D3), impacto D6; 1-3 unidades.
+leg_vampires.tsv	leg_vampires-011	CONFIRMA	data.js:4698 con Tumularios GG/CN pasan a Basica; data.js:4971 limite per1k (+1 con Tumularios); Especial generico <=50%.
+aj_dwarfs2.tsv	aj_dwarfs2-075	CONFIRMA	data.js:4439 ungrim: M3 HA9 HP4 F4 R6 H3 I5 A4 Ld10, 315 pts; coincide con la fuente.
+core_3.tsv	c3-074	CONFIRMA	rules.js:2209-2225 previewMove rechaza si u.fleeing o u.moved/u.charged (ya actuo); movimientos obligatorios marcan moved.
+aj_dwarfs2.tsv	aj_dwarfs2-174	CONFIRMA	data.js:2925 rw_rapid 15 pts solo ingeniero; rules.js:2688 ms=true shots=2 + quickShot.
+leg_skaven.tsv	leg_skaven-176	PARCIAL	data.js:1762 sk_greyseer_bell cuesta 310 (unitCost) pero fuente: Vidente Gris 185 + Campana +185 = 370; como montura de personaje si, puntos incorrectos.
+core_2.tsv	C2-123	CONFIRMA	rules.js:3960 miscast 8-9 y 10-12 fijan u.noMore=true; rules.js:3886 impide lanzar mas; 10+ es invocacion perfecta.
+leg_skaven.tsv	leg_skaven-204	CONFIRMA	rules.js:2850 d6==1: Fusion, la maquina y dotacion estallan, se destruye sin disparar (applyWounds+destroy, return).
+leg_lizardmen.tsv	leg_lizardmen-147	CONFIRMA	data.js:3026 lml_d_healing cost35 regen:5, texto Regeneracion (5+); solo Slann en texto.
+aj_empire2.tsv	aj_empire2-117	CONFIRMA	data.js:4110-4118 ORD(chr): Pantera 10, Lobo Blanco 15, Sol 10, Morr 15, Corazon 15 para Gran Maestre/Maestre; unidades 2/3/2/3/3 por modelo.
+leg_vampires.tsv	leg_vampires-076	PARCIAL	data.js:1884 vc_wightlord_steed: M7 y mountAtk S3 A1 ok, barda ok (6084); faltan Primera Carga y Zancada (sr sin firstCharge/swiftstride), HA2/I2 de la montura no modelados.
+leg_lizardmen.tsv	leg_lizardmen-167	CONFIRMA	data.js:3021 lml_horned 10 pts star, onlyT lm_oldblood_cold/lm_scar_cold; rules.js:130 mount M8 y quita stupidity.
+aj_dwarfs2.tsv	aj_dwarfs2-131	CONFIRMA	data.js:3684-3689 dw_impmerc variantes bnMax:50 (runas estandarte hasta 50); ambito 0-1/1000 del texto es ambiguo.
+core_3.tsv	c3-177	CONFIRMA	rules.js:4733-4752 supN=models-rankModels; las bajas extra (u.models menor / frontLost) reducen automaticamente ataques de apoyo.
+aj_orcs2.tsv	aj_orcs2-040	CONFIRMA	data.js:3485 wolf_riders_snk addSr ambush needsKiknik; data.js:4848 solo 0-1 y requiere Kiknik; rules.js:6194-6196 +1/-1 a llegada con eleccion del jugador.
+leg_lizardmen.tsv	leg_lizardmen-022	PARCIAL	data.js:3021-3031 disciplinas cat x: la unica es solo via limite de categoria x (choca con otros objetos x); flag slann:true sin uso, otros magos lm podrian tomarlas.
+leg_lizardmen.tsv	leg_lizardmen-005	CONFIRMA	data.js:4866 Basicas >=25% de puntos en lista Gran Ejercito (core 0.25).
+leg_daemons.tsv	leg_daemons-120	CONFIRMA	data.js:1951 dm_herald_slaanesh M6 HA6 HP4 F4 R3 H2 I6 A3 Ld8, 85 pts.
+faq_libros.tsv	Q06	CONFIRMA	rules.js:4711 con estandarte hesit u.chargeOK=false y hesitNow=true; rules.js:4777 hesitNow bloquea Presion del combate.
+faq_libros.tsv	R08	PARCIAL	"rules.js:6514 repite el chequeo de Ld fallido a 6"" (quell) pero automaticamente y sin log ni aviso a un humano."
+battlemarch_quickref.tsv	battlemarch-151	PARCIAL	rules.js:5480 vomito F3 FP-2 auto-impacto al final, pero 1 ataque por unidad (vh=1), no uno por Troll en contacto con enemigo.
+core_2.tsv	C2-035	CONFIRMA	rules.js:1845 cFail: 6 falla, 1 pasa, caracteristica 0/- falla; usado en pruebas de I/R.
+faq_libros.tsv	RQ29	CONFIRMA	rules.js:6273 Terrores: tiradas de Iniciativa = usOf(res), la unidad que lo usa; nominacion del jugador o auto con announce.
+leg_daemons.tsv	leg_daemons-031	CONFIRMA	data.js:1967 dm_bloodthirster impact {n D3, S6, ap2}; Carga demoniaca FP-2 cumplida; F6 del modelo.
+leg_darkelves.tsv	leg_darkelves-007	CONFIRMA	data.js:5828ss UNITS de_executioners, de_witchelves, de_shades, de_harpies comp special; Especial generico <=50%.
+faq_core_1.tsv	FQ1-001	CONFIRMA	rules.js:5663 co+=1 si closeOrder, no skirmish, files>=ranks y usOf>=10.
+core_4.tsv	C4-004	CONFIRMA	rules.js:5561 wounds suma real + x.regen: las heridas salvadas por Regeneracion cuentan para el resultado.
+faq_core_1.tsv	FQ1-009	CONFIRMA	rules.js:3974 dMod = ceil(nivel/2) para magos en la tirada de disipar (resultado = tirada + nivel/2 redondeando arriba).
+aj_bretonnia.tsv	aj_bretonnia-053	CONFIRMA	data.js:3450 BR_CRUSADE incluye br_damsel y br_sergeant como personajes sin limite adicional.
+core_8.tsv	core_8-022	CONFIRMA	"data.js:2391 drain_magic hex cv9 self sig; rules.js:4406 permanece (fx drain); rules.js:4439/4559 +2 VL a magos enemigos a 24""."
+aj_tk2.tsv	aj_tk2-025	CONFIRMA	data.js:3540 LISTS.tk.mortuary y data.js:3588 INF.mortuary (core/rare 33%) sustituyen al Gran Ejercito; General Hierofante (4779).
+leg_vampires.tsv	leg_vampires-056	PARCIAL	rules.js:5527 hungerDealt cuenta heridas sin salvar de toda la unidad (x.u), no solo del personaje; persecucion con un D6 ok (6019).
+leg_skaven.tsv	leg_skaven-232	CONFIRMA	rules.js:3313 has(u,scurry) dist+=1 en tirada de huida/retroceso tras otros modificadores.
+aj_empire2.tsv	aj_empire2-133	CONFIRMA	data.js:2858 empaj_silvered list knights (4716 startsWith knights); rules.js noArm/noRegen y odio contra undead.
+aj_wood2.tsv	aj_wood2-051	CONFIRMA	rules.js:1010 y main.js:836 anaden lore wilds si lista talsyn y sr athelLoren (Magos, Ancianos, Hechiceras Rama).
+leg_lizardmen.tsv	leg_lizardmen-036	CONFIRMA	lm_skpriest/lm_skchief: arm light, base 25x25, 1 modelo, perfiles correctos (60/45 pts); nota previa obsoleta.
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-021	PARCIAL	data.js:2466 Senescal std 25, pero Castellan/Daemonsmith/Profeta/Khan/Taruk tienen std permitido (cmdAllowed true): no se limita a un Senescal Infernal.
+aj_orcs2.tsv	aj_orcs2-093	CONFIRMA	data.js:3717-3719 MERCS orcs/woc/bm grand con orc_bonegrinder; data.js:4853/4880 0-1.
+leg_skaven.tsv	leg_skaven-134	CONFIRMA	data.js sk_giantrats: 6/2/0/2/3/1/4/1/3, 3 pts, 10-30, reglas Close Order, Extra Rank, Horde, Scurry, Warband.
+core_3.tsv	c3-162	CONFIRMA	rules.js:4782 supN solo en frente (sideOf front), detras de la fila de combate y no desde la fila de combate.
+battlemarch_quickref.tsv	battlemarch-014	CONFIRMA	rules.js:262 bm_weisnicht turns:5; smallVP (783) PV; rendicion s.conceded (main.js:473/554, rules.js:6963).
+core_4.tsv	C4-059	PARCIAL	rules.js:3795-3801 alignFail marca carga desordenada, pero si queda hueco solo se registra: no se pone u.disrupted (falta Desorganizada).
+aj_chaos2.tsv	aj_chaos2-118	CONFIRMA	rules.js:5820-5827 Forma deformada al elegir combate: efectos garras/pinchos/carne (1758,4743,4804,1966); eleccion del jugador via wfPref (7593).
+faq_libros.tsv	F55	CONFIRMA	data.js:724 we_orion sr sin fear (terror, frenzy...), segun errata AJ Silvanos p.34.
+dawn_renegade_sc.tsv	cathay_dawn-018	CONFIRMA	rules.js:1603 gW/gD del edificio (medicion al edificio); rules.js:2317 vision sobre otros modelos; 2410 sin comprobar arco si u.garrison (360).

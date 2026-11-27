@@ -1,0 +1,96 @@
+id	fuente	resumen	estado	referencia	nota
+F2-001	Matched/Errata p.286 Dead or Fled	Unidad enemiga con <=25% de su Fuerza de Unidad inicial al final de la batalla vale 50% de sus puntos (redondeo arriba)	OK	rules.js:5802	Math.ceil(pts/2) con usOf<=25% de la US inicial
+F2-002	Errata p.286 Dead or Fled	Si su US es igual a sus Heridas iniciales, se usa el 25% de las Heridas iniciales	OK	rules.js: scoreVP	US=Heridas usa Heridas (excepto personajes, ya excluidos)
+F2-003	Errata p.321 Pilar de Fuego	Mientras esta en juego la plantilla es terreno dificil	OK	data.js:2280 (diff:true); rules.js:3560,1932	Ademas data marca nolos:true (bloquea vision), que esta FAQ no dice para el Pilar (si lo dice para Espiritu Elemental)
+F2-004	Errata p.321 Pilar de Fuego	"La plantilla se dispersa D6"" en cada subfase de Inicio de turno"	OK	rules.js:5357-5372	Mueve en el inicio de turno de ambos jugadores; D6 por rnd
+F2-005	Errata p.321 Pilar de Fuego	Unidad enemiga que se mueve a traves de la plantilla, o sobre la que pasa la plantilla, sufre D3+3 impactos	OK	rules.js: vortexMoveHits	v737: Pilar de Fuego también al cargar y al huir
+F2-006	Errata p.321 Pilar de Fuego	Impactos de Fuerza 3 con AP -2	OK	data.js:pillar_fire (S3 AP-2)	El motor usa S4 AP -1 (VERIFICACION v683 lo cambio de F3/-2 a F4/-1 con una version anterior); esta FAQ dice F3 AP -2. Ademas marca flamigero
+F2-007	Errata p.321 Urgencia Arcana	Valor de lanzamiento 9+	OK	data.js:2282	cv:9
+F2-008	Errata p.321 Huida Cobarde	Valor de lanzamiento 8+	OK	data.js:2283	cv:8
+F2-009	Errata p.329 Escudo de Saphery	Valor de lanzamiento 8+	OK	data.js:2385	cv:8
+F2-010	Errata p.331 Convocacion Confusa	Valor de lanzamiento 8+	OK	data.js:2345	cv:8
+F2-011	Errata p.331 Espejismo Miasmatico	Valor de lanzamiento 10+	OK	data.js:2390	cv:10
+F2-012	Errata p.333 Cabala Mortal	Valor de lanzamiento 8+	OK	data.js:2358	cv:8
+F2-013	Errata p.333 Vortice Espiritual	Valor de lanzamiento 10+	OK	data.js:2360	cv:10
+F2-014	Errata p.333 Vortice Espiritual	"A 8"" o menos de uno o mas Vortices, los enemigos sufren -1 Ld (minimo 2)"	OK	rules.js:1403; rules.js:1359	VERIF v771: rules.js vxNear mide desde el borde real de la peana (polígono) hasta el borde de la plantilla
+F2-015	Errata p.333 Vortice Espiritual	Esos enemigos no pueden usar la Presencia Inspiradora del General	OK	rules.js:1417	
+F2-016	Errata p.333 Maldicion de los Anos	Valor de lanzamiento 9+	OK	data.js:2361	cv:9
+F2-017	Errata p.334 Puño de Gork	Valor de lanzamiento 8+	OK	data.js:2285	cv:8
+F2-018	Errata p.335 Ahi Vamos	Valor de lanzamiento 8+	OK	data.js:2289	cv:8
+F2-019	Errata p.335 Pie de Gork	Plantilla es terreno dificil mientras esta en juego	OK	data.js:2290 (diff:true); rules.js:3560	"El texto de data dice ""peligroso"" pero el flag es diff"
+F2-020	Errata p.335 Pie de Gork	"La plantilla se dispersa 2D6"" en cada subfase de Inicio de turno"	OK	data.js:2290 (dist 2D6); rules.js:5361	
+F2-021	Errata p.335 Pie de Gork	Cualquier unidad (amiga o enemiga) que se mueve a traves o sobre la que pasa la plantilla sufre D3+3 impactos F5 AP -1	OK	rules.js: vortexMoveHits	all:true, D3+3 S5 AP1 correctos al dispersar la plantilla; ausente el daño cuando una unidad se mueve a traves de ella
+F2-022	Errata p.338 Hoja de Ogro	Puntos 75	OK	data.js:2521	cost:75
+F2-023	Errata p.339 Hoja Berserker	Perfil: Combate, F+1, sin AP, Ataques Extra (+1)	OK	data.js:2527	S:1, A:1, sin ap
+F2-024	Errata p.339 Hoja Berserker	Impetuoso (el portador es Impetuoso)	OK	data.js:2527 (grant impetuous); rules.js:5507-5518	
+F2-025	Errata p.339 Hoja Berserker	Ataques magicos	OK	rules.js: duelSwing/attackProfile (cualquier objeto -> mágico)	Solo figura en el texto; no se ha localizado el flag que haga magicos los ataques del arma (se asume por cat w, no comprobado)
+F2-026	Errata p.340 Yelmo Deslumbrante	Solo modelos de tropa infanteria o caballeria	OK	data.js:2539 (infCavOnly); main.js:611	Filtro en el constructor de ejercito
+F2-027	Errata p.342 Anillo Rubi de la Ruina	Puntos 35	OK	data.js:3159	cost:35
+F2-028	Errata p.342 Anillo Rubi de la Ruina	Portador lanza Bola de Fuego como hechizo Ligado con Nivel de Poder 1	OK	data.js:2275 (bound:1); rules.js:3123,3163-3164	"8+, 24"", 2D6 F4 flamigeros"
+F2-029	Errata p.344 Lanzar un hechizo	2D6 + Nivel de Hechiceria/2 (redondeo arriba) a la tirada de lanzamiento	OK	rules.js:3753,3765 (Math.ceil(level/2))	Aparece en la formula de relanzamiento; la tirada inicial usa la misma formula
+F2-030	Errata p.344 Disipar	Disipacion de Mago: 2D6 + Nivel/2 (redondeo arriba)	OK	rules.js:3254 (dMod)	
+F2-031	Errata p.344 Disipar	Se disipa si el resultado supera el resultado de lanzamiento	OK	rules.js:3308	> total
+F2-032	Matched Play p.28 Tren de bagaje	Impasable para el movimiento	OK	rules.js:1332 (hitsRuin incluye s.bags)	
+F2-033	Matched Play p.28 Tren de bagaje	Se ignora para la linea de vision	OK	rules.js:1953	El test de LOS no incluye s.bags
+F2-034	AJ Settra p.20 Close Encounter	"Cada borde corto mide 15"""	OK	rules.js:209	"Zonas 22""x15"""
+F2-035	AJ Settra p.20 Opposed Flanks	"Distancia entre zonas de despliegue 18"""	OK	rules.js:210	"Triangulos separados 18"" en los bordes cortos"
+F2-036	FAQ Principios	Si un efecto depende de una tirada natural y se repite el dado, el efecto previo se descarta	OK	rules.js:3770-3797	v777: auditado en impactos y heridas (hitRoll/woundAndSave): los efectos de 1/6 naturales se evalúan sobre el resultado final tras repetir (un dado solo se repite una vez); lanzamiento correcto
+F2-037	FAQ Principios	Mover y devolver una unidad cuenta como take-back	NA		Norma de juego entre jugadores
+F2-038	FAQ Principios	Impacto en el dado de dispersion: solo se usa la flecha pequeña si la regla lo dice; si no, no se mueve	OK	rules.js:5362-5363	Los objetos de movimiento aleatorio usan direccion aleatoria libre
+F2-039	FAQ Principios	Objeto cuya dispersion cruza el borde de la mesa se retira del juego	OK	rules.js: movimiento de vórtices (offT -> removeRip)	"Los vortices se limitan a 1,5"" del borde (clamp) en vez de retirarse; contradice la FAQ"
+F2-040	FAQ Principios	Un test de Liderazgo con Ld propio no puede usar el Ld de otro modelo (p.ej. el General)	OK	rules.js:ldOf; 5538	VERIF v775: los tests de Liderazgo propio de personajes/objetos usan D(c).Ld del modelo (no el del General); repasados todos los sitios de rules.js
+F2-041	FAQ Principios	Reglas de un solo uso con test de Liderazgo se consideran usadas aunque falle el test	OK	rules.js (Cuerno de Halcon: used.falcon antes del test)	VERIF v775: las reglas de un solo uso con test de Ld marcan el uso antes de tirar (roarUsed, used.*): se consideran usadas aunque falle
+F2-042	FAQ Principios	No hay maximo a las caracteristicas salvo que la regla lo indique	OK	rules.js:3987 (Math.min(10,S+...))	v800: topes restantes (49): Iniciativa de carga y pasos de Iniciativa (mecanica de orden 1-10), hechizos/pociones/auras con maximo expreso, minimos de Ld; el resto quitado
+F2-043	FAQ Principios	Orden Cerrado/Abierto de un solo modelo de frente es posible	OK	rules.js/main.js: files>=1	No comprobado que el reordenamiento permita files=1
+F2-044	FAQ Principios	Heridas no salvadas se aplican una a una, modelo a modelo; el exceso de Heridas multiples se pierde	OK	rules.js:1732-1738	through += Math.min(x, curRem)
+F2-045	FAQ Principios	Orden: primero Golpe letal/Matamonstruos, luego Heridas multiples, luego simples	OK	rules.js woundAndSave0 (ordK/ordM/ordS)	v805: las heridas no salvadas se acumulan y se aplican en el orden de la FAQ: Golpe letal/Matamonstruos, luego Heridas multiples, luego simples; la reserva conserva el modelo en curso (curRem) y el exceso se pierde. Test /tmp/order_test.mjs
+F2-046	FAQ Principios	Press of Battle con dos filas: las bajas salen de la primera fila de combate	OK	rules.js:3941,3949	Revisado v801 vs FAQ p.190 (Press of Battle) y FAQ casualties: la unidad lleva recuento de modelos por filas derivado; las bajas reducen primero la fila de contacto (frontLost, rules.js:5137) y la segunda fila (Press of Battle) sigue en la fila de combate; el modelo de atras sustituye al caido. Equivalente por recuento, sin posiciones individuales
+F2-047	FAQ Principios	Unidad con dos tipos de tropa: la mayoria de modelos determina su bonificacion de rango maxima	OK	rules.js: rankBonus (mxR0)	Mayoría de modelos (mixRear)
+F2-048	FAQ Principios	Unidad de Orden Cerrado de un modelo sigue siendo Orden Cerrado	OK	rules.js:1339,4729	closeOrder es flag de unidad; isColumn excluye models<=1
+F2-049	FAQ Principios	Una unidad no puede quedar oculta (obscured) por si misma	OK	rules.js:1958,1963	rayBlockedByUnits ignora origen y destino
+F2-050	FAQ Principios	Salvaciones no se combinan; con dos salvaciones especiales se usa la mejor	OK	rules.js:1449,1450,1646	bestSave toma el minimo
+F2-051	FAQ Magia	Un Mago solo puede lanzar tantos hechizos por turno como su Nivel de Hechiceria	OK	rules.js: castCheck	El tope solo se aplica con objetos castCap; en el resto depende del numero de hechizos conocidos
+F2-052	FAQ Magia	Hechizos de alcance Propio que afectan a un area no son acumulativos al lanzarse varias veces	OK	rules.js:3615,3627 (filter k + push)	v756: efectos de área Propio se consultan con .some()/bestSave sobre fx por unidad (Luz de la Protección: una sola vez aunque haya varias fuentes); relanzar sustituye el efecto
+F2-053	FAQ Magia	Repetir una tirada de lanzamiento fallida no evita el doble 1 natural (Disfuncion)	OK	rules.js: doCast Buzgob/Varita/Orbe excluyen doble 1	Lileath/Hekarti excluyen doble 1; Buzgob, Varita y Orbe solo excluyen doble 6 y pueden repetir un doble 1
+F2-054	FAQ Magia	Hechizo con dos valores de lanzamiento: no se declara; el resultado fija la potencia	OK	rules.js:3376	boost segun u.lastCast
+F2-055	FAQ Magia	Hechizo que Permanece en juego lanzado al valor alto se disipa en Conjuracion contra el valor minimo	OK	rules.js:3347,3355	Usa sp.cv-1 (valor base)
+F2-056	FAQ Magia	Se pueden intentar disipar todos los hechizos Permanece en juego que haya en juego	OK	rules.js:3339-3358	Itera todos los fx rip y vortices
+F2-057	FAQ Magia	Si el Mago relanza un hechizo que Permanece en juego ya activo, el anterior termina inmediatamente	OK	rules.js: applySpell (removeRip si ya activo)	v737: el hechizo anterior termina al intentar relanzarlo
+F2-058	FAQ Magia	Un modelo con armadura o escudo puede lanzar un hechizo Ligado	OK	rules.js:3160-3180	v737: castCheck exime hechizos Ligados de la restricción armadura/escudo
+F2-059	FAQ Magia	Un Mago puede intentar disipar un hechizo Ligado con disipacion de Mago (si esta en alcance)	OK	rules.js:3693,3254	tryDispel con boundPL
+F2-060	FAQ Magia	Atributo fisico que cuenta como armadura no impide lanzar/disipar	OK	rules.js:3160-3180	Sin penalizacion por armadura
+F2-061	FAQ Magia	Mago unido a unidad lanza Asalto solo estando en la fila de combate (no necesita contacto de peana)	OK	rules.js:3843-3855	v751 reverificado: v751 FAQ Core p.17: el Mago unido solo lanza Asalto si está en la fila de combate (rearChars)
+F2-062	FAQ Magia	Si un Mago rechaza un desafio y se retira, su unidad pierde los beneficios de hechizos Propio que haya lanzado	OK	rules.js: retireLoseSelfSpells	Solo marca retiredFrom; no se retiran los fx de hechizos Propio
+F2-063	FAQ Magia	Una unidad con Vuelo (X) sufre el vortice que cuenta como terreno peligroso	OK	rules.js: terrainEffects (voladores vs vórtice)	terrainEffects retorna sin test para voladores: el Vortice Espiritual/Penumbra no les afecta; contradice la FAQ
+F2-064	FAQ Movimiento	Que es un movimiento (tocar y cambiar de posicion)	NA		Norma de juego entre jugadores
+F2-065	FAQ Movimiento	Ningun modelo mueve mas de 2x M (o la distancia de dado); excepciones: columna x3, hechizos, etc.	OK	rules.js:1881-1882	v755: maniobra libre limitada a 2xM del modelo exterior (previewMove); frente sin atravesar unidades comprobado en cada paso del camino
+F2-066	FAQ Movimiento	Al virar no se mide la distancia de los modelos de la retaguardia	OK	rules.js:1917	Coste = turn*w*0.5 (modelo exterior de la fila delantera)
+F2-067	FAQ Movimiento	Una maniobra libre no cuenta para el movimiento pero respeta el limite de 2x M	OK	rules.js:1896,1914	v755: maniobra libre limitada a 2xM del modelo exterior (previewMove); frente sin atravesar unidades comprobado en cada paso del camino
+F2-068	FAQ Movimiento	Unidad que reagrupa y reforma puede mover en la fase de Movimiento	OK	rules.js:2753,1872-1875	rallied solo impide cargar/disparar
+F2-069	FAQ Movimiento	Una unidad trabada no puede mover	OK	rules.js:1873	isEngaged
+F2-070	FAQ Movimiento	Alcance maximo de carga es la distancia maxima a la que se puede declarar	OK	rules.js:2822-2825	reach = M+6 (+3 Zancada, +3 ¡Ahi vamos!)
+F2-071	FAQ Movimiento	Al hacer una maniobra, el frente no puede atravesar otra unidad (salvo al pivotar)	OK	rules.js:3045-3055 (carga); movimiento via checkPlacement	v755: maniobra libre limitada a 2xM del modelo exterior (previewMove); frente sin atravesar unidades comprobado en cada paso del camino
+F2-072	FAQ Movimiento	"Al virar una esquina trasera puede atravesar otra unidad sin acabar encima ni a menos de 1"" del enemigo"	OK	rules.js:checkPlacement	v755: la esquina trasera puede cruzar al virar (solo el borde delantero bloquea); final validado con checkPlacement (no encima, >=1" enemigo)
+F2-073	FAQ Movimiento	Virar durante una carga forma parte del movimiento de carga; el giro libre al contactar es gratuito	OK	rules.js:3033-3035	need incluye wheel
+F2-074	FAQ Movimiento	Frenetico/Impetuoso debe declarar carga aunque un Escaramuzador amigo estorbe, si puede dejar de estorbar	OK	rules.js:5507-5518	v757: la carga obligatoria (frenético/impetuoso) se omite si un Escaramuzador amigo estorba el camino y no puede dejar de estorbar (trabado/huyendo/ya movido); si puede (p. ej. cargar) se declara
+F2-075	FAQ Movimiento	Unidad en Columna de Marcha puede declarar carga (aunque no pueda mover la carga)	OK	rules.js: chargeTargets/doCharge (colRef)	chargeTargets devuelve [] si isColumn
+F2-076	FAQ Movimiento	Unidad Drilled en Columna que declara carga puede reformar a Orden de combate tras la tirada y antes de mover	OK	rules.js: doCharge (Drilled se reforma)	No hay reforma gratuita al cargar
+F2-077	FAQ Movimiento	Unidad obligada a cargar (Frenesi/Impetuoso) en Columna debe declarar y, si no puede, no mueve y la carga falla	OK	rules.js: doCharge colFail	La columna escapa de la carga obligatoria porque chargeTargets la excluye
+F2-078	FAQ Movimiento	Drilled en Columna obligada a cargar debe reformar si hay espacio	OK	rules.js: doCharge (Drilled reforma si hay espacio)	Sin logica de reforma
+F2-079	FAQ Movimiento	Objetivo Gran Tamaño ya trabado en su arco frontal: no se puede cargar su flanco en su lugar	OK	rules.js: doCharge (sideAtDeclare geométrico, sin recurso al flanco)	La carga contra el arco frontal ocupado simplemente no es posible; no se cambia al flanco
+F2-080	FAQ Movimiento	Unidad de un modelo a caballo de dos arcos: se carga el arco donde esta la mayoria	OK	rules.js: sideOf (arco del centro = mayoría)	
+F2-081	FAQ Movimiento	Carga contra defensor de obstaculo lineal bajo: contacto con el obstaculo, no se puede parar encima	OK	rules.js:3065 (chargeDisordered para stakes/garrison)	v798: el bloque rectangular ES la fila frontal: contacto = borde frontal a <=0,35" del obstaculo (tolerancia de colocacion) y carga que cruza el obstaculo (segHitsRect) => carga desordenada/contacto con el obstaculo; Fly(X) excluido
+F2-082	FAQ Movimiento	Redirigir carga: no puede cargar a una unidad mas alla de su alcance maximo	OK	rules.js:2979-2980	v737: alcance de redirección incluye +3 de fx charge
+F2-083	FAQ Movimiento	Refuerzos: ningun modelo se coloca a mas de 2x M del borde de entrada	OK	rules.js:1750-1757,6331	v755: Core p.134 coloca la unidad con el arco trasero en contacto total con el borde; ningún modelo queda a más de 2xM (el libro es más restrictivo y manda)
+F2-084	FAQ Movimiento	Un Mago no puede lanzar Conveyance el turno que cargo	OK	rules.js:3177	Ha cargado este turno
+F2-085	FAQ Disparo	Modelo que Aguanta y Dispara/Dispara y Huye no puede lanzar Proyectil magico/Vortice (incluye Ligados)	OK	rules.js:3167,3176	Hechizos solo en la fase de disparo propia; type missile incluye ligados
+F2-086	FAQ Disparo	Un modelo no puede usar Arma de aliento tras marchar	OK	rules.js: shootCheck (u.marched)	No comprobado que shootCheck bloquee el aliento tras marchar
+F2-087	FAQ Disparo	Proyectiles/Vortices mágicos no se lanzan tras marchar, tampoco los Ligados	OK	rules.js:3176	
+F2-088	FAQ Disparo	Unidad parcialmente en colina no dispara en dos filas (debe estar entera)	OK	rules.js: hillRank (corners enteras)	Usa inRect(u,t) del centro de la unidad, no que este entera
+F2-089	FAQ Disparo	Unidad mas alta en una colina puede ver y disparar sobre una mas baja; no al reves	OK	rules.js:1966 (onHill)	Existe onHill en rayBlockedByUnits; no comprobada la regla completa | Revisado v795: rayBlockedByUnits (rules.js:2488-2503) ve por encima de unidades no elevadas desde/hacia una colina y, en la misma colina, la unidad más cercana a la cima ve sobre la más baja; fila adicional de disparo en colina (rules.js:3199).
+F2-090	FAQ Disparo	Armas de proyectil de carros/howdahs las dispara la tripulacion con su HP	OK	rules.js:2161	v797: el motor dispara con la HP de la dotacion (BS de la unidad = BS del perfil de dotacion); verificado en Tanque de Vapor (Ingeniero HP4) y filas de dotacion releidas en VERIFICACION L698 (FoF, RH, AJ)
+F2-091	FAQ Combate	Modelos en segunda fila (Press of Battle) y de apoyo pueden luchar si cae el de delante	OK	rules.js:3941,3925	Revisado v801 vs FAQ p.190 (Press of Battle) y FAQ casualties: la unidad lleva recuento de modelos por filas derivado; las bajas reducen primero la fila de contacto (frontLost, rules.js:5137) y la segunda fila (Press of Battle) sigue en la fila de combate; el modelo de atras sustituye al caido. Equivalente por recuento, sin posiciones individuales
+F2-092	FAQ Combate	Perfil dividido en fila de combate sin contacto de peana: un ataque por modelo (jinete y montura)	OK	rules.js slotsOf (mountAtk.i/ws)	v738: la montura ataca en su propio paso de Iniciativa con su HA/F/FP; un ataque por modelo
+F2-093	FAQ Combate	Carga contra obstaculo defendido: sin Impactos ni Pisoton (sin contacto de peana con el enemigo)	OK	rules.js: chargeObsK (chargeImpacts, pisotón)	No se encontro condicion que suprima Impactos/Pisoton
+F2-094	FAQ Combate	Unidad de Orden Cerrado de un solo modelo puede reclamar la bonificacion de Orden de combate si tiene suficiente US	OK	rules.js: sideScore (u.models>=1)	Exige u.models > 1; excluye la unidad de un modelo
+TOTAL NA=2 OK=74 PARCIAL=18

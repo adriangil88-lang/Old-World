@@ -1,0 +1,204 @@
+opt|emp_witchhunter|FALTA: |SOBRA: magRes2,witchHunt|sin id: Suffer Not…
+opt|emp_engineer|FALTA: |SOBRA: artilleryMaster|sin id: Master of Ballistics
+opt|orc_bigs|FALTA: |SOBRA: bigUns|sin id: 
+opt|orc_frenzy|FALTA: |SOBRA: bigStabbas,frenzy,impact,warpaint|sin id: 
+opt|night_goblins_net|FALTA: |SOBRA: netters|sin id: 
+opt|bm_minotaurs_gw|FALTA: foeRender,motley|SOBRA: |sin id: 
+opt|woc_warriors_hb|FALTA: ensorcelled,magical|SOBRA: |sin id: 
+opt|woc_warriors_gw|FALTA: ensorcelled,magical|SOBRA: |sin id: 
+opt|tk_guard_ph|FALTA: |SOBRA: phalanx|sin id: 
+opt|tk_swarm_amb|FALTA: |SOBRA: ambush|sin id: 
+opt|tk_guard_hb|FALTA: khopesh|SOBRA: |sin id: 
+opt|tk_stalkers_amb|FALTA: swiftstride|SOBRA: ambush|sin id: 
+opt|dw_warriors_gw|FALTA: shieldwall|SOBRA: |sin id: 
+opt|dw_slayers_ahw|FALTA: |SOBRA: deathblow,hatredOrcs,immunePsy,loner,magRes2,openOrder,resolute,slayer,unbreakable|sin id: and foes – means that Slayers
+opt|sk_ratlinggun|FALTA: |SOBRA: wteam|sin id: 
+opt|sk_warpfire|FALTA: |SOBRA: wteam,moveOrFire|sin id: 
+opt|sk_windmortar|FALTA: |SOBRA: wteam,bombard,moveOrFire|sin id: 
+opt|dm_bloodthirster|FALTA: |SOBRA: indom2,strikeFirst|sin id: Daemon of Khorne;Infernal Favour (2)
+opt|ok_butcher_cauldron|FALTA: |SOBRA: cauldron|sin id: Armour Bane (1);Lore of the Great Maw
+opt|ok_slaughter_cauldron|FALTA: |SOBRA: cauldron|sin id: Armour Bane (1);Lore of the Great Maw
+opt|dw_royalwarriors_ga|FALTA: shieldwall|SOBRA: |sin id: 
+opt|woc_aspiring_amb|FALTA: |SOBRA: ambush|sin id: 
+opt|bm_gor_amb|FALTA: |SOBRA: ambush|sin id: 
+opt|bm_gor_aw_amb|FALTA: |SOBRA: ambush|sin id: 
+opt|bm_preyton_amb|FALTA: impact|SOBRA: ambush|sin id: 
+opt|bm_preyton_fr|FALTA: impact|SOBRA: frenzy|sin id: 
+opt|dm_herald_slaanesh_w1|FALTA: |SOBRA: indom1|sin id: Daemon of Slaanesh;Infernal Favour (1);Lore of Daemons
+opt|dm_herald_slaanesh_w2|FALTA: |SOBRA: indom1|sin id: Daemon of Slaanesh;Infernal Favour (1);Lore of Daemons
+comp|empire_general_h|FALTA: |SOBRA: holdLine,rally|sin id: 
+comp|empire_lord_peg|FALTA: |SOBRA: counterCharge,firstCharge,flyer,swiftstride|sin id: 
+comp|pistoliers|FALTA: hatredDwarfs,immunePsy,loner,motley,squigsWild,warband|SOBRA: counterCharge,fireFlee|sin id: 
+comp|outriders|FALTA: closeOrder,detachment,regimental|SOBRA: fireFlee,openOrder,skirmish,vanguard|sin id: 
+comp|boar_bigs|FALTA: firstCharge|SOBRA: bigUns,furiousCharge,counterCharge,tusker|sin id: Necromantic Undead
+comp|we_glade_riders|FALTA: detachment,evasive,openOrder,valour,chariotRun|SOBRA: skirmish|sin id: 
+comp|we_wild_riders|FALTA: closeOrder,hatredHE,murderous,veteran|SOBRA: counterCharge,fastCav,fear,frenzy,furiousCharge,mtCover,swiftstride,fireFlee|sin id: 
+comp|we_weaver_unicorn|FALTA: |SOBRA: athelLoren,beguile,counterCharge,stomp,swiftstride|sin id: Lore of Athel Loren
+comp|we_singer_unicorn|FALTA: |SOBRA: athelLoren,beguile,counterCharge,stomp,swiftstride|sin id: Lore of Athel Loren
+comp|orc_warboss_wyvern|FALTA: |SOBRA: closeOrder,flyer,large,stomp,swiftstride,terror|sin id: 
+comp|br_duke|FALTA: fastCav|SOBRA: blessings,grailVow,magical,immunePsy,stubborn,finestHorses,rally,counterCharge,firstCharge|sin id: 
+comp|br_baron|FALTA: fastCav|SOBRA: blessings,knightVow,finestHorses,rally,counterCharge,firstCharge|sin id: 
+comp|br_paladin|FALTA: fastCav|SOBRA: blessings,knightVow,finestHorses,rally,counterCharge,firstCharge|sin id: 
+comp|br_realm|FALTA: furiousCharge,fastCav|SOBRA: counterCharge,finestHorses,firstCharge,lanceForm|sin id: 
+comp|woc_lord_steed|FALTA: |SOBRA: counterCharge|sin id: 
+comp|woc_forsaken|FALTA: bloodRage,closeOrder,markUndivided,primalFury,warband,chariotRun,fastCav,fireFlee,swiftstride|SOBRA: openOrder,furiousCharge,immunePsy,impetuous,loner,magical,rampant,stubborn|sin id: 
+comp|woc_knights_l|FALTA: ensorcelled,magical|SOBRA: |sin id: 
+comp|tk_king_dragon|FALTA: |SOBRA: closeOrder,cloudDust,flyer,large,stomp,swiftstride,terror|sin id: 
+comp|tk_hpriest_dragon|FALTA: indom1|SOBRA: closeOrder,cloudDust,flyer,indom2,large,stomp,swiftstride,terror|sin id: Lore of Nehekhara;From Beneath the Sands
+comp|he_archmage_star|FALTA: |SOBRA: closeOrder,flyer,large,stomp,swiftstride,terror|sin id: Lore of Saphery
+comp|he_mage_eagle|FALTA: immunePsy,unbreakable,unstable,magical,warpSpawned|SOBRA: closeOrder,elvenRef,flyer,ithilmarW,lileath,stomp,swiftstride,valour|sin id: Daemon of Tzeentch;Infernal Favour (1);Lore of Daemons
+comp|he_archmage_moon|FALTA: |SOBRA: closeOrder,flyer,large,stomp,swiftstride,terror|sin id: Lore of Saphery
+comp|woc_lord_dragon|FALTA: |SOBRA: closeOrder,flyer,impetuous,large,stomp,swiftstride,terror|sin id: 
+comp|woc_gorechariot|FALTA: bullCharge,fear,ogreCharge,swiftstride|SOBRA: chariot,closeOrder,markUndivided|sin id: Armour Bane (1)**
+comp|dw_doomseeker|FALTA: |SOBRA: deathblow,firstFray,gromrilW,hatredOrcs,immunePsy,impact,loner,magRes2,resolute,skirmish,unbreakable,vanguard,whirlDeath|sin id: and foes – means that Slayers
+comp|he_prince_h|FALTA: |SOBRA: ithilmarW,rally,strikeFirst,valour|sin id: Ithilmar Barding
+comp|he_stormweaver_uni|FALTA: |SOBRA: beguile,counterCharge,magical,stomp,swiftstride|sin id: Lore of Saphery
+comp|he_reavers|FALTA: hatredHE,mtCover,seaCloak,chariotRun,fireFlee|SOBRA: valour|sin id: 
+comp|he_reavers_bow|FALTA: detachment,evasive,fireFlee,chariotRun|SOBRA: |sin id: 
+comp|he_silverhelms|FALTA: fastCav|SOBRA: closeOrder,elvenRef,firstCharge,ithilmarArm,valour|sin id: 
+comp|he_dragonprinces|FALTA: |SOBRA: ithilmarArm|sin id: Ithilmar Barding;Sons of Caledor
+comp|de_dreadlord_steed|FALTA: |SOBRA: fastCav,swiftstride|sin id: 
+comp|de_dreadlord_cold|FALTA: |SOBRA: fear,firstCharge,stupidity,swiftstride|sin id: 
+comp|de_dreadlord_dragon|FALTA: |SOBRA: closeOrder,flyer,large,stomp,swiftstride,terror|sin id: 
+comp|de_master_steed|FALTA: |SOBRA: fastCav,swiftstride|sin id: 
+comp|de_master_cold|FALTA: |SOBRA: fear,firstCharge,stupidity,swiftstride|sin id: 
+comp|de_supreme_cold|FALTA: |SOBRA: fear,firstCharge,stupidity,swiftstride|sin id: Lore of Naggaroth
+comp|de_coldones|FALTA: counterCharge|SOBRA: |sin id: Armour Bane (1, Cold One only);Armoured Hide (1)
+comp|de_warlocks|FALTA: counterCharge,fear,immunePsy,unbreakable,unstable,magical,warpSpawned|SOBRA: |sin id: Armour Bane (1, Steed of Slaanesh only);Daemon of Slaanesh
+comp|de_darkriders|FALTA: detachment,evasive,fireFlee,valour,chariotRun|SOBRA: hatredHE,skirmish|sin id: 
+comp|lm_oldblood_cold|FALTA: |SOBRA: fear,stupidity,swiftstride|sin id: Obsidian Blades
+comp|lm_scar_cold|FALTA: |SOBRA: fear,stupidity,swiftstride|sin id: Obsidian Blades
+comp|lm_skchief_terra|FALTA: |SOBRA: aquatic,coldBlooded,poisoned,dropRocks,fear,flyer,swiftstride|sin id: construction and other such
+comp|lm_skchief_ripper|FALTA: |SOBRA: aquatic,coldBlooded,poisoned,cleave,fear,flyer,furiousCharge,impetuous,swiftstride,toadRage|sin id: construction and other such
+comp|lm_coldones|FALTA: guardians,shieldwall,stubborn|SOBRA: fear,stupidity,swiftstride|sin id: Obsidian Blades
+comp|lm_ripperdactyls|FALTA: mtCover,poisoned|SOBRA: cleave,fear,flyer,furiousCharge,impetuous,swiftstride,toadRage|sin id: 
+comp|vc_count_nightmare|FALTA: |SOBRA: darkVit,fear,flammable,immunePsy,indom2,regen,unbreakable,undead,unstable|sin id: Necromantic Undead
+comp|vc_thrall_nightmare|FALTA: |SOBRA: darkVit,fear,flammable,immunePsy,indom1,regen,unbreakable,undead,unstable|sin id: Necromantic Undead
+comp|vc_necro_nightmare|FALTA: |SOBRA: fear,immunePsy,nehek,unbreakable,undead,unstable|sin id: Invocation of Nehek;Lore of Undeath;Necromantic Undead;Necromantic Undead
+comp|vc_wightking_steed|FALTA: firstCharge,swiftstride|SOBRA: indom1,fear,immunePsy,killingBlow,rally,regen,undead,unbreakable,unstable|sin id: once powerful magical blades.;Necromantic Undead
+comp|vc_wightlord_steed|FALTA: firstCharge,swiftstride|SOBRA: fear,immunePsy,killingBlow,rally,regen,undead,unbreakable,unstable|sin id: once powerful magical blades.;Necromantic Undead
+comp|vc_blackknights|FALTA: counterCharge|SOBRA: fear,immunePsy,unbreakable,undead,unstable|sin id: Necromantic Undead
+comp|dm_herald_khorne_jug|FALTA: |SOBRA: indom1,firstCharge,impact,swiftstride,cleave|sin id: Daemon of Khorne;Infernal Favour (1)
+comp|dm_herald_nurgle_pal|FALTA: regen|SOBRA: indom1|sin id: Daemon of Nurgle;Infernal Favour (1);Lore of Daemons
+comp|dm_herald_slaanesh_steed|FALTA: |SOBRA: indom1|sin id: Daemon of Slaanesh;Infernal Favour (1);Lore of Daemons;Armour Bane (1, Steed of Slaanesh only);Daemon of Slaanesh
+comp|dm_herald_tzeentch_disc|FALTA: |SOBRA: indom1|sin id: Daemon of Tzeentch;Infernal Favour (1);Lore of Daemons;Daemon of Tzeentch
+comp|dm_seekers|FALTA: closeOrder,chariotRun,fireFlee|SOBRA: counterCharge,openOrder,skirmish,poisoned|sin id: Daemons of Slaanesh
+comp|dm_hellflayer|FALTA: horde,impetuous,levies,motley,openOrder,warband|SOBRA: fear,immunePsy,unbreakable,unstable,chariot,impact,closeOrder,counterCharge,firstCharge,swiftstride,warpSpawned|sin id: 
+comp|ok_tyrant_thunder|FALTA: bullCharge,ogreCharge|SOBRA: closeOrder,firstCharge,large,numbChill,stomp,swiftstride,terror|sin id: Armour Bane (1)**
+comp|cd_daemonsmith_taurus|FALTA: ensorcelled,stubborn,magical|SOBRA: sorcCurse,bornFire,blazingBody,closeOrder,flyer,furiousCharge,large,stomp,swiftstride,terror|sin id: Lore of Hashut;Sorcerer’s Curse
+comp|cd_prophet_taurus|FALTA: ensorcelled,stubborn,magical|SOBRA: sorcCurse,bornFire,blazingBody,closeOrder,flyer,furiousCharge,large,rally,stomp,swiftstride,terror|sin id: Lore of Hashut;Sorcerer’s Curse
+comp|cd_khan_wolf|FALTA: chariotRun|SOBRA: |sin id: 
+comp|cd_centaurs|FALTA: loner,stubborn|SOBRA: |sin id: Armoured Hide (1)
+comp|ct_lancers|FALTA: firstCharge|SOBRA: cataphract,horde,willDragons|sin id: Necromantic Undead
+comp|we_glade_riders_sk|FALTA: detachment,evasive,openOrder,valour,chariotRun|SOBRA: skirmish,furiousCharge,impetuous|sin id: 
+comp|de_dreadlord_manticore|FALTA: |SOBRA: closeOrder,flyer,large,stomp,swiftstride,terror,wilful|sin id: 
+comp|de_sorceress_pegasus|FALTA: |SOBRA: counterCharge,firstCharge,flyer,swiftstride|sin id: Lore of Naggaroth
+comp|de_supreme_pegasus|FALTA: |SOBRA: counterCharge,firstCharge,flyer,swiftstride|sin id: Lore of Naggaroth
+comp|de_sorceress_steed|FALTA: |SOBRA: fastCav,swiftstride|sin id: Lore of Naggaroth
+comp|de_supreme_steed|FALTA: |SOBRA: fastCav,swiftstride|sin id: Lore of Naggaroth
+comp|de_sorceress_cold|FALTA: |SOBRA: fear,firstCharge,stupidity,swiftstride|sin id: Lore of Naggaroth
+comp|de_beastmaster_manticore|FALTA: |SOBRA: closeOrder,flyer,large,stomp,swiftstride,terror,wilful|sin id: 
+comp|de_supreme_dragon|FALTA: |SOBRA: closeOrder,flyer,large,stomp,swiftstride,terror|sin id: Lore of Naggaroth
+comp|orc_bigboss_boar|FALTA: counterCharge|SOBRA: |sin id: Armoured Hide (1)
+comp|black_warboss_boar|FALTA: quell,counterCharge|SOBRA: |sin id: Da Boyz;Armoured Hide (1)
+comp|black_bigboss_boar|FALTA: quell,counterCharge|SOBRA: |sin id: Da Boyz;Armoured Hide (1)
+comp|orc_weirdboy_boar|FALTA: counterCharge|SOBRA: |sin id: Lore of Gork;Mob Rule;Armoured Hide (1)
+comp|orc_weirdnob_boar|FALTA: counterCharge|SOBRA: |sin id: Lore of Gork;Mob Rule;Armoured Hide (1)
+comp|gob_warboss_wolf|FALTA: chariotRun,fastCav,fireFlee|SOBRA: |sin id: 
+comp|gob_warboss_wolf_amb|FALTA: chariotRun,fastCav,fireFlee|SOBRA: ambush|sin id: 
+comp|gob_bigboss_wolf|FALTA: chariotRun,fastCav,fireFlee|SOBRA: |sin id: 
+comp|gob_bigboss_wolf_amb|FALTA: chariotRun,fastCav,fireFlee|SOBRA: ambush|sin id: 
+comp|gob_oddnob_wolf|FALTA: chariotRun,fastCav,fireFlee|SOBRA: |sin id: Lore of Mork
+comp|gob_oddnob_wolf_amb|FALTA: chariotRun,fastCav,fireFlee|SOBRA: ambush|sin id: Lore of Mork
+comp|gob_oddgit_wolf|FALTA: chariotRun,fastCav,fireFlee|SOBRA: |sin id: Lore of Mork
+comp|gob_oddgit_wolf_amb|FALTA: chariotRun,fastCav,fireFlee|SOBRA: ambush|sin id: Lore of Mork
+comp|road_wardens|FALTA: closeOrder,detachment,regimental|SOBRA: fireFlee,openOrder,skirmish,vanguard|sin id: 
+comp|road_wardens_p|FALTA: closeOrder,detachment,regimental|SOBRA: fireFlee,openOrder,skirmish,vanguard|sin id: 
+comp|woc_chieftain_horse|FALTA: |SOBRA: counterCharge|sin id: 
+comp|woc_huscarls|FALTA: drunken,fastCav,horde,mtCover,openOrder,primalFury,skirmish,stomp,chariotRun,fireFlee|SOBRA: closeOrder,counterCharge,furiousCharge|sin id: 
+comp|bm_centigors_sons|FALTA: closeOrder,counterCharge,darkVit,firstCharge,flammable,indom1,martialPride,regen,undead,vanguard,fear,immunePsy,unbreakable,unstable|SOBRA: drunken,fastCav,horde,markUndivided,mtCover,primalFury,stomp,warband|sin id: Accursed Weapons;Necromantic Undead
+comp|woc_chosen_chariot|FALTA: stubborn|SOBRA: chariot,counterCharge,firstCharge,impact|sin id: 
+comp|tk_guardchariot|FALTA: closeOrder,markUndivided,ogreCharge,fastCav|SOBRA: chariot,cleave,dryDust,immunePsy,indom2,khopesh,openOrder,regen,reserveMove,undead,unbreakable,unstable|sin id: Armour Bane (1)
+comp|lm_oldblood_carno|FALTA: |SOBRA: bloodFrenzy,closeOrder,swiftstride,large,stomp,terror|sin id: Obsidian Blades
+comp|lm_scar_carno|FALTA: |SOBRA: bloodFrenzy,closeOrder,swiftstride,large,stomp,terror|sin id: Obsidian Blades
+comp|cd_prophet_lammasu|FALTA: |SOBRA: sorcCurse,closeOrder,flyer,large,magRes3,stomp,swiftstride,terror,furiousCharge,miasma|sin id: Lore of Hashut;Sorcerer’s Curse
+comp|cd_prophet_bale|FALTA: |SOBRA: sorcCurse,closeOrder,flyer,large,stomp,swiftstride,terror,furiousCharge,blazingBody,bornFire|sin id: Lore of Hashut;Sorcerer’s Curse
+comp|cd_daemonsmith_lammasu|FALTA: |SOBRA: sorcCurse,closeOrder,flyer,large,magRes3,stomp,swiftstride,terror,furiousCharge,miasma|sin id: Lore of Hashut;Sorcerer’s Curse
+comp|dw_slayers_g|FALTA: fastCav,swiftstride|SOBRA: deathblow,hatredOrcs,immunePsy,loner,magRes2,openOrder,resolute,slayer,unbreakable,fightMe|sin id: and foes – means that Slayers
+comp|br_prophetess_uni|FALTA: |SOBRA: beguile,counterCharge,stomp,swiftstride|sin id: Aura of the Lady;Lore of the Lady;Shield of the Lady
+comp|br_damsel_uni|FALTA: |SOBRA: beguile,counterCharge,stomp,swiftstride|sin id: Aura of the Lady;Lore of the Lady;Shield of the Lady
+comp|br_prophetess_rpeg|FALTA: |SOBRA: flyer,stomp,counterCharge,firstCharge,swiftstride|sin id: Aura of the Lady;Lore of the Lady;Shield of the Lady
+comp|he_garrison_griffon|FALTA: |SOBRA: closeOrder,flyer,large,stomp,swiftstride,terror|sin id: 
+comp|woc_warpfire_w2|FALTA: indom2,undead,fear,immunePsy,unbreakable,unstable|SOBRA: explosiveDemise,fireChaos,magical,magRes2,markUndivided,warpAura|sin id: 
+comp|dm_herald_slaanesh_steed_w1|FALTA: |SOBRA: indom1|sin id: Daemon of Slaanesh;Infernal Favour (1);Lore of Daemons;Armour Bane (1, Steed of Slaanesh only);Daemon of Slaanesh
+comp|dm_herald_slaanesh_steed_w2|FALTA: |SOBRA: indom1|sin id: Daemon of Slaanesh;Infernal Favour (1);Lore of Daemons;Armour Bane (1, Steed of Slaanesh only);Daemon of Slaanesh
+comp|vc_necro_terror|FALTA: |SOBRA: closeOrder,fear,flammable,flyer,immunePsy,large,stomp,swiftstride,terror,unbreakable,undead,unstable,nehek|sin id: Invocation of Nehek;Lore of Undeath;Necromantic Undead
+comp|vc_necro_dragon|FALTA: |SOBRA: closeOrder,fear,flammable,flyer,immunePsy,large,stomp,swiftstride,terror,unbreakable,undead,unstable,carrionFeeders,nehek|sin id: Invocation of Nehek;Lore of Undeath;Necromantic Undead
+comp|vc_ghoulking_terror|FALTA: flammable|SOBRA: closeOrder,fear,flyer,immunePsy,infested,large,stomp,swiftstride,terror,unbreakable,undead,unstable,wailing,hunger|sin id: Lore of Undeath;Necromantic Undead;the Hunger
+comp|vc_acolyte_nightmare|FALTA: |SOBRA: fear,immunePsy,nehek,unbreakable,undead,unstable|sin id: Invocation of Nehek;Lore of Undeath;Necromantic Undead;Necromantic Undead
+comp|rc_wizard1_h|FALTA: fastCav,swiftstride|SOBRA: |sin id: 
+comp|rc_wizard2_h|FALTA: fastCav,swiftstride|SOBRA: |sin id: 
+comp|rc_wizard3_h|FALTA: fastCav,swiftstride|SOBRA: |sin id: 
+comp|rc_freeblades|FALTA: fastCav|SOBRA: |sin id: 
+comp|woc_exalted_manticore|FALTA: bloodRage,foeRender,primalFury,warband|SOBRA: closeOrder,flyer,large,magical,rally,stomp,swiftstride,terror,wilful|sin id: Brayhorn (General only)
+comp|woc_exalted_dragon|FALTA: |SOBRA: closeOrder,flyer,impetuous,large,stomp,swiftstride,terror|sin id: 
+comp|woc_lord_daemon|FALTA: |SOBRA: fear,stomp,swiftstride|sin id: 
+comp|woc_exalted_daemon|FALTA: |SOBRA: fear,stomp,swiftstride|sin id: 
+comp|woc_aspiring_daemon|FALTA: |SOBRA: fear,stomp,swiftstride|sin id: 
+comp|woc_sorc_daemon|FALTA: |SOBRA: fear,stomp,swiftstride|sin id: Lore of Chaos
+comp|woc_exsorc_daemon|FALTA: |SOBRA: fear,stomp,swiftstride|sin id: Lore of Chaos
+mach|mortar|FALTA: |SOBRA: bombard,moveOrFire|sin id: 
+mach|helblaster|FALTA: |SOBRA: moveOrFire|sin id: 
+mach|helstorm|FALTA: |SOBRA: bombard,moveOrFire|sin id: 
+mach|wolf_riders_amb|FALTA: |SOBRA: ambush|sin id: 
+mach|black_chariot|FALTA: |SOBRA: chariot|sin id: 
+mach|wolf_chariot|FALTA: |SOBRA: chariot|sin id: 
+mach|gob_kiknik|FALTA: |SOBRA: itRun,magical,trophyRack|sin id: All Sneaky Like;Armour Bane (1, Chompa only);Armoured Hide (1);9It & Run
+mach|br_yeomen|FALTA: reserveMove,skirmish|SOBRA: |sin id: 
+mach|br_green_knight|FALTA: |SOBRA: ambush,magical|sin id: Aura of the Fay;Blessed Knight;Guardian of the Sacred Sites
+mach|br_questing|FALTA: |SOBRA: stubborn|sin id: 
+mach|br_grail|FALTA: |SOBRA: magical,immunePsy,stubborn|sin id: Living Saints
+mach|br_pegasus|FALTA: lanceForm|SOBRA: |sin id: 
+mach|br_bombard|FALTA: |SOBRA: moveOrFire|sin id: 
+mach|tk_horse_archers|FALTA: closeOrder,horde,vanguard|SOBRA: asaph,reserveMove,skirmish,scouts,openOrder|sin id: 
+mach|tk_necroknights|FALTA: khopesh,poisoned|SOBRA: |sin id: Armoured Hide (1)
+mach|he_skycutter|FALTA: |SOBRA: chariot|sin id: 
+mach|he_skycutter_bt|FALTA: |SOBRA: chariot|sin id: 
+mach|tk_catapult|FALTA: |SOBRA: bombard,moveOrFire|sin id: 
+mach|tk_casket|FALTA: skirmish|SOBRA: |sin id: Vortex of Souls
+mach|tk_warsphinx|FALTA: cleave,khopesh|SOBRA: |sin id: 
+mach|he_tiranoc|FALTA: quickShot|SOBRA: chariot|sin id: 
+mach|woc_chariot|FALTA: ensorcelled,magical|SOBRA: chariot|sin id: 
+mach|dw_anvil|FALTA: skirmish|SOBRA: immovable|sin id: Ancestral Shield;Rune Lore;Strike the Runes
+mach|dw_cart|FALTA: |SOBRA: chariot|sin id: 
+mach|dw_cart_miner|FALTA: |SOBRA: chariot|sin id: 
+mach|dw_hewer|FALTA: |SOBRA: moveOrFire|sin id: 
+mach|dw_bolt|FALTA: |SOBRA: moveOrFire|sin id: 
+mach|dw_cannon|FALTA: |SOBRA: cannon,moveOrFire|sin id: 
+mach|dw_organ|FALTA: |SOBRA: moveOrFire|sin id: 
+mach|dw_flame|FALTA: |SOBRA: moveOrFire|sin id: 
+mach|lm_terradons|FALTA: poisoned|SOBRA: |sin id: Armoured Hide (1)
+mach|lm_bastiladon|FALTA: |SOBRA: arkSotek|sin id: 
+mach|lm_troglodon|FALTA: |SOBRA: poisoned|sin id: Lore of Lustria
+mach|vc_bloodknights|FALTA: |SOBRA: accursedW,fear,immunePsy,unbreakable,undead,unstable|sin id: Accursed Weapons;Necromantic Undead
+mach|vc_blackcoach|FALTA: |SOBRA: chariot,incorpCoach,undead,fear,immunePsy,unbreakable,unstable|sin id: Necromantic Undead;Spectral Coach
+mach|dm_plaguedrones|FALTA: regen|SOBRA: |sin id: Armour Bane (2, Rot Fly only);Daemons of Nurgle
+mach|dm_seekerchariot|FALTA: poisoned,magical|SOBRA: chariot|sin id: Armour Bane (1, Steed of Slaanesh only);Daemon of Slaanesh
+mach|ok_ironblaster|FALTA: |SOBRA: chariot|sin id: Armour Bane (2, Rhinox only)
+mach|ok_scraplauncher|FALTA: |SOBRA: chariot|sin id: Armour Bane (2, Rhinox only)
+mach|cd_mortar|FALTA: |SOBRA: bombard,moveOrFire|sin id: 
+mach|cd_magma|FALTA: |SOBRA: moveOrFire|sin id: 
+mach|cd_bolt|FALTA: |SOBRA: moveOrFire|sin id: 
+mach|we_warhawks_sk|FALTA: |SOBRA: furiousCharge,impetuous|sin id: 
+mach|de_shrine|FALTA: |SOBRA: chariot|sin id: 
+mach|dm_burningchariot|FALTA: |SOBRA: chariot,flaming|sin id: Daemon of Tzeentch;Lore of Daemons
+mach|wolf_riders_snk|FALTA: |SOBRA: ambush|sin id: 
+mach|wolf_riders_hp|FALTA: openOrder,skirmish|SOBRA: closeOrder,horde|sin id: 
+mach|wolf_riders_amb_hp|FALTA: openOrder,skirmish|SOBRA: ambush,closeOrder,horde|sin id: 
+mach|cd_mortar_hb|FALTA: |SOBRA: bombard,moveOrFire,hellbound,fear,magical|sin id: 
+mach|cd_magma_hb|FALTA: |SOBRA: moveOrFire,hellbound,fear,magical|sin id: 
+mach|tk_horse_archers_cr|FALTA: closeOrder,horde,vanguard|SOBRA: asaph,reserveMove,skirmish,scouts,chariotRun|sin id: 
+mach|tk_horse_archers_mo|FALTA: closeOrder,horde,vanguard|SOBRA: asaph,reserveMove,skirmish,scouts,chariotRun,openOrder|sin id: 
+mach|emp_harald|FALTA: |SOBRA: hatredChaos,killingBlow,magical,panther1,reaverBM,pantherOnly|sin id: Grand Master of the Knights Panther;Hatred (Warriors of Chaos, Beastmen Brayherds & Daemonic models)
+mach|tk_settra|FALTA: impact|SOBRA: chariot,khopesh,reserveMove,swiftstride,settraGreat,noKneel,arise,sunBlade,crownNeh|sin id: Commander of Legions;Lore of Nehekhara;Settra Does
+mach|rc_bombard|FALTA: |SOBRA: moveOrFire|sin id: 

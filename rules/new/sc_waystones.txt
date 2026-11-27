@@ -1,0 +1,105 @@
+          The Toppling Of The Waystones
+T     hough the Shrouded Isle was heavily protected by the Sea Guard, little could deter the Norscans once blood had been
+      spilt. With each tide, more wolfships arrived, bringing Marauders to the isle’s shores. Fortified encampments were soon
+raised to protect the footholds the Norscans had secured upon the beaches. Only the isle’s ethereal mists guarded it, their
+cloying tendrils waylaying reinforcements and preventing the invading warbands from uniting against the isle’s defenders. Yet
+still the Norscans pressed inland, intent upon destroying the arcane source of the mists.
+
+Historical Recreation
+                                                                    The Defenders
+This battle represents the efforts of a number of Norscan           Each defending player should write a 2,000 points muster list
+warbands to topple the waystones of the Shrouded Isle and           using either the High Elf Realms Grand Army composition
+disperse its enshrouding mists, an act of aggression against        list or the Sea Guard Garrison Army of Infamy composition
+which the full might of the High Elf garrison was mobilised.        list (found in Forces of Fantasy and Arcane Journal – High Elf
+As such, this scenario is ideal for teams of two or more players.   Realms respectively).
+To represent this, each player should write a muster list
+as follows:                                                         Alternatively, this scenario may be played with any armies of
+                                                                    the players’ choosing.
+The Attackers
+Each attacking player should write a 2,000 points muster list       Set-up
+using either the Warriors of Chaos Grand Army composition           Place terrain as described in the Warhammer: The Old World
+list or the Wolves of the Sea Army of Infamy composition list       rulebook. In addition, place an Elven waystone – represented
+(found in Ravening Hordes and Arcane Journal – Warriors of          by a special feature (as described on page 272 of the
+Chaos respectively).                                                Warhammer: the Old World rulebook), measuring no more than
+                                                                    6" at its widest point, in the centre of the battlefield, as shown
+                                                                    on the map below.
+
+                                                                    For each additional 2,000 points muster list on each side, after
+                                                                    the first, the long edges of the battlefield should be increased
+                                                                    by an additional 36" and an additional Elven waystone should
+                                                                    be placed by the defenders. This should be placed anywhere
+                                                                    along the centre line of the battlefield, at least 36" from any
+                                                                    other Elven waystone. If possible, the width of the battlefield
+                                                                    should also be increased as its length increases, and each side’s
+                                                                    deployment zone extended accordingly.
+
+
+
+
+                                                               Attacker’s Deployment Zone
+
+
+
+                                                                                          12"
+
+
+                                                                     ElvenWaystone        6"
+
+
+                                                  6"                                                     6"
+                                                               Defender’s Deployment Zone
+
+
+
+
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2025.
+Deployment                                                          Scenario Special Rules
+The defender deploys their entire army anywhere in the              Arcane Conduits: The Elven waystones harness and direct
+defender’s deployment zone as shown on the map. Once                the Winds of Magic, power with which a Wizard can augment
+complete, the attacker then deploys their entire army within        their spells – at a price of course. When a Wizard within 12" of
+the attacker’s deployment zone, as shown on the map opposite.       an Elven waystone attempts to cast a spell, apply a +1 modifier
+                                                                    to the Casting roll. However, if the spell is Miscast, the Wizard
+First Turn                                                          suffers a -2 modifier when rolling on the miscast table.
+In this scenario, the defender will automatically take the
+first turn.                                                         Cloying Mist: The mists that protect the Shrouded Isle are
+                                                                    conjured by the Elven waystones and the air around them is
+Game Length                                                         thick with the cloying haze. Any model that targets a unit that
+The battle will last for six rounds, until every army on one side   is within 12" of an Elven waystone during the Shooting phase
+has reached its ‘break point’, or until one side concedes.          suffers an additional -1 To Hit modifier.
+
+                                                                    Break Point: Each 2,000 points army in this scenario has
+                                                                    a breaking point. This is equal to a quarter (25%) of the
+                                                                    total Unit Strength of that army at the start of the game. To
+                                                                    calculate the break point of an army, simply add together
+                                                                    the Unit Strength of every unit (including characters)
+                                                                    in the muster list and divide the total by four, rounding
+                                                                    fractions down.
+
+                                                                    With each model removed from play as a casualty and with
+                                                                    each unit destroyed, an army approaches its break point.
+                                                                    If, during any Start of Turn sub-phase, the remaining Unit
+                                                                    Strength of an army has fallen below its break point, that
+                                                                    army is considered to have ‘broken‘. At this point, the army is
+                                                                    removed from play as the remaining models lose their nerve
+                                                                    and flee the battlefield.
+
+                                                                    Note that units that have pursued a fleeing enemy off the
+                                                                    battlefield and units held in reserve count as being on the battlefield
+                                                                    for the purposes of determining whether or not an army has reached
+                                                                    its break point.
+
+                                                                    Victory!
+                                                                    Once the battle has ended, use Victory Points (VP) to
+                                                                    determine which player is the winner, as described in the
+                                                                    Warhammer: the Old World rulebook.
+
+                                                                    In addition, for each Elven waystone a player controls at the
+                                                                    end of the battle, their side wins a bonus of 250 VP. Elven
+                                                                    waystones are controlled by proximity, as described on page
+                                                                    272 of the Warhammer: the Old World rulebook.
+
+
+
+
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2025.
+

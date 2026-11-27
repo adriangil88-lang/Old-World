@@ -1,0 +1,13 @@
+DISTINTA 0.250 Peasent Soldiers ST                    k2 66302CC0|DE3D26D0 have=None
+DISTINTA 0.220 Jade Warriors ST (Spear)               k2 07FC1820|DE3D26D0 have=None
+DISTINTA 0.155 Jade Warriors ST                       k2 1CE20388|DE3D26D0 have=None
+DISTINTA 0.124 Peasent Soldiers MU                    k2 3815638E|DB7297E0 have=None
+DISTINTA 0.116 Jade Warriors MU (Spear)               k2 3815638E|52892CB7 have=None
+DISTINTA 0.107 Jade Warriors MU                       k2 3815638E|CF81FFB2 have=None
+DISTINTA 0.092 Jade Lancers MU                        k2 3815638E|5B92CB11 have=None
+igual    0.048 Jade Warriors CH                       k2 9BEF4737|EBA91391 have=None
+igual    0.026 Jade Warriors CH (Spear)               k2 5EEE14D8|EBA91391 have=None
+igual    0.017 Jade Lancers CH                        k2 03ABC33B|EBA91391 have=None
+igual    0.009 Jade Lancers ST                        k2 AABEF2B7|DE3D26D0 have=None
+igual    0.009 Peasent Warbow                         k2 DB7297E0|EBA91391 have=ct_peasants_bow
+igual    0.009 Peasent Soldiers CH                    k2 DB7297E0|EBA91391 have=None

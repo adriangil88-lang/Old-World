@@ -1,0 +1,13 @@
+// v838 — Objetos defensivos: salvaciones especiales, regeneración, Resistencia mágica (comparado con el texto) con dados forzados
+import { T, N, R, DATA, ok, eq, cur, diceAll, dice } from '../lib3.mjs';
+import { wearAny, UNC } from './_items.mjs';
+const { ITEMS } = DATA; const FILE = 'app/js/data.js (ITEMS: texto del objeto)';
+const thr = (key, ctx, S = 10, n = 1) => { for (let v = 2; v <= 6; v++) { const w = wearAny(key); cur(w.s); diceAll(v); const r = R.woundAndSave(w.s, w.u, n, S, 10, { noArmour: true, noRegen: true, auto: true, ...ctx }); if (r.through === 0) return v; } return 7; };
+for (const key of UNC()) {
+  const it = ITEMS[key], txt = it.text || '';
+  if (it.wardNM && /especial (\d)\+ contra ataques no mágicos/.test(txt)) { const n = +/especial (\d)\+ contra ataques no mágicos/.exec(txt)[1]; T('v838-it-df-wnm-' + key, FILE, `${it.name}: salvación especial ${n}+ contra ataques no mágicos`, () => { eq(thr(key, {}), n, 'contra ataque no mágico'); ok(thr(key, { magical: true }) > 6, 'contra ataque mágico no hay salvación'); }); }
+  if (it.wardS && /(\d)\+ contra heridas de ataques de F(\d) o menos y (\d)\+ contra F(\d) o más/.test(txt)) { const m = /(\d)\+ contra heridas de ataques de F(\d) o menos y (\d)\+ contra F(\d) o más/.exec(txt); T('v838-it-df-ws-' + key, FILE, `${it.name}: ${m[1]}+ contra F${m[2]} o menos, ${m[3]}+ contra F${m[4]} o más`, () => { eq(thr(key, {}, +m[2]), +m[1], 'F baja'); eq(thr(key, {}, +m[4]), +m[3], 'F alta'); }); }
+  if (it.wardMM && /(\d)\+ especial contra Proyectiles mágicos/.test(txt)) { const n = +/(\d)\+ especial contra Proyectiles mágicos/.exec(txt)[1]; T('v838-it-df-wmm-' + key, FILE, `${it.name}: ${n}+ especial contra Proyectiles mágicos`, () => { eq(thr(key, { missile: true, spellDmg: true, magical: true }), n, 'contra proyectil mágico'); ok(thr(key, {}) > n, 'contra otros ataques no'); }); }
+  if (it.regen && /Regeneración \((\d)\+\)/.test(txt)) { const n = +/Regeneración \((\d)\+\)/.exec(txt)[1]; T('v838-it-df-rg-' + key, FILE, `${it.name}: Regeneración ${n}+`, () => { const run = (v) => { const w = wearAny(key); cur(w.s); diceAll(v); return R.woundAndSave(w.s, w.u, 2, 10, 10, { noArmour: true, noWard: true }).through; }; eq(run(n), 0, `con un ${n} regenera`); eq(run(n - 1), 2, `con un ${n - 1} no`); }); }
+  if (it.mr && /Resistencia (?:a la )?magia \((?:−|-)(\d)\)/i.test(txt) && !/Mejora en 1/.test(txt)) { const n = +/Resistencia (?:a la )?magia \((?:−|-)(\d)\)/i.exec(txt)[1]; T('v838-it-df-mr-' + key, FILE, `${it.name}: Resistencia a la magia (−${n})`, () => { const w = wearAny(key); eq(R.mrItems(w.u), n, 'mrItems del portador'); }); }
+}

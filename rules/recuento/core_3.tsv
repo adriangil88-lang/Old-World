@@ -1,0 +1,179 @@
+id	fuente	resumen	estado	codigo	nota
+c3-001	Spell Duration (p.111)	Hechizo instantáneo: efecto inmediato y sin efecto posterior	NA	doCast0 rules.js:3683	Comportamiento por defecto; no es regla separada
+c3-002	Spell Duration (p.111)	Algunos hechizos expiran al final del turno del lanzador	OK	rules.js:5604 (endPlayerTurn filtra f.endTurn)	Cada hechizo debe fijar endTurn:true (p.ej. 3467, 3475, 3524); comprobado en muestra, no en todos
+c3-003	Spell Duration (p.111)	Otros duran hasta el siguiente Inicio de turno del lanzador	OK	rules.js:5169 (u.fx filtra f.by !== p al empezar su turno)	
+c3-004	Remains in Play (p.111)	Permanece en juego indefinidamente	OK	rules.js:3336 (fx.rip), vórtices s.vortex	
+c3-005	Remains in Play (p.111)	Termina si el lanzador muere o abandona el campo	OK	rules.js:5356	Reverificado v737: ripLive: acaba al instante si el lanzador muere
+c3-006	Remains in Play (p.111)	El lanzador puede terminar el hechizo al inicio de cualquier subfase	OK	rules.js ripPairs/endRip (apply) + ai.js optionGroups rp*	Acción endRip del jugador; IA vía autoaprendizaje
+c3-007	Remains in Play (p.111)	El Mago puede lanzar otros hechizos mientras mantiene uno	OK	castCheck rules.js:3157-3181	No hay límite por hechizos activos
+c3-008	Remains in Play (p.111 + FAQ)	No se puede lanzar el mismo hechizo; si se relanza termina de inmediato (FAQ)	OK	rules.js applySpell (recast termina de inmediato)	FAQ: relanzar termina el hechizo
+c3-009	Dispelling RiP (p.111 + FAQ)	Intentar dispersar un RiP rival en la subfase de Conjuración de tus turnos posteriores (Dispersión del destino o de Mago en alcance), tantos como se quiera	OK	rules.js dispelRipOne + acción dispelRip; main.js botones	En Conjuración, elige el jugador; una vez por hechizo y turno; IA vía optionGroups
+c3-010	Dispelling RiP (p.111)	Hay que superar el valor de lanzamiento mínimo del hechizo (no el resultado original)	OK	rules.js dispelRipOne (tryDispel total=cv)	Hay que superar el VL mínimo (FAQ)
+c3-011	Perfect Invocation (p.111)	RiP con invocación perfecta no se dispersa de inmediato pero sí en turnos posteriores	OK	tryDispel rules.js:3251 (perfect → false); dispelRip pasa false	
+c3-012	Wizards & Armour (p.111)	Un Mago con armadura o escudo no puede hacer tiradas de Lanzamiento ni Dispersión (barding exento; Armadura del Caos y mágicas exentas)	OK	rules.js wizArmoured + castCheck + tryDispel	Lanzar (castCheck) y Dispersar (tryDispel, pool) exigen que el Mago no lleve armadura/escudo (barda y Armadura del Caos exentas)
+c3-013	Turn Sequence (p.113)	Ronda = un turno por jugador, alternando	OK	endPlayerTurn rules.js:5598-5660	
+c3-014	Turn Sequence (p.113)	Primer turno fijado por escenario (tirada)	NA	firstRoll rules.js:458, rollOff 384	Preparación de partida, no leída a fondo
+c3-015	Turn Sequence (p.113)	Duración habitual de seis rondas (5-7 según escenario)	OK	rules.js:8 MAX_TURNS=6; s.maxT	Duración por defecto 6 rondas; los escenarios la fijan (5-7)
+c3-016	Turn Sequence (p.113)	Cuatro fases en orden Estrategia, Movimiento, Disparo, Combate	OK	endPhase rules.js:6694-6703	
+c3-017	Strategy 1 (p.114)	Inicio de turno: acciones y chequeos de reglas especiales en el orden que elija el activo	OK	rules.js beginStrategy (SOT/T tareas, askH sot<n>)	v802: las acciones/chequeos de Inicio de turno son tareas (clima, terreno, Raid&Burn, hito, bagaje, Fanaticos, Galrauch, Furia enjaulada, Caballero Verde, Emboscadores); con 2 o mas aplicables el jugador activo elige el orden por popup (Core p.113); IA: aiPick; codigo: orden por defecto. Test /tmp/sot_test.mjs
+c3-018	Strategy 2 (p.114)	Mando: el activo elige modelos no huidos y usa reglas de Mando; una vez por subfase	OK	rallyingCry rules.js:5545; acciones cmdUse	Auditado v801: cada accion de Mando lleva su marcador (rallycry c.rcK por turno rules.js:7881; cmdUse items u.used k_ por turno rules.js:8269 / cu_ por partida; pociones potK); limite "una vez por subfase de Mando" cumplido
+c3-019	Strategy 3 (p.114)	Conjuración: Magos no huidos lanzan Encantamientos/Maleficios; el inactivo puede dispersar	OK	castCheck rules.js:3166, tryDispel 3250	Fase y huida comprobadas en castCheck
+c3-020	Strategy 4 (p.114)	Reagrupar: Ld chequeo por cada unidad en huida; fallo sigue huyendo, éxito reagrupa	OK	rallyFleeing rules.js:5556, rallyTest 5523	Se hace automáticamente al terminar la fase; el activo no elige el orden
+c3-021	Rallied Units (p.114)	Al reagruparse puede hacer una reforma gratuita inmediata	OK	rules.js ~5896 (rallyFleeing freeReform)	Ya implementado: reforma gratuita al reagruparse
+c3-022	Rallied Units (p.114)	No puede cargar ese turno	OK	rules.js:5538, chargeTargets 2822 (u.noCharge)	
+c3-023	Rallied Units (p.114)	Cuenta como que se movió a efectos de disparo	OK	rules.js:2402 (u.moved o u.rallied: -1 a impactar)	También pierde Fuego de volea 2390
+c3-024	Insurmountable Losses (p.114)	Menos del 50% de modelos iniciales: -1 Ld al reagrupar	OK	rules.js:5527	
+c3-025	Insurmountable Losses (p.114)	Menos del 25%: solo reagrupa con doble 1 natural	OK	rules.js:5527	
+c3-026	Fleeing Units (p.114)	Quien no reagrupa sigue huyendo en Movimientos obligatorios	OK	pendFlee rules.js:5558, compulsoryMoves 5563	
+c3-027	"Movement 1"" Rule (p.116)"	"Ninguna unidad (salvo trabadas) acaba a 1"" o menos de un enemigo"	OK	checkPlacement rules.js:1830-1840 (enemyGap 1), previewMove 1937	
+c3-028	"Movement 1"" Rule (p.116)"	Se pueden separar unidades por la mínima distancia para respetar la regla	NA	—	Cortesía de mesa; el motor rechaza el movimiento
+c3-029	Movement sequence (p.116)	Orden: declarar cargas y reacciones, movimientos de carga, obligatorios, restantes	OK	case chargeAll rules.js:6615; case move 6551 (compulsoryMoves al primer movimiento)	
+c3-030	Declare Charges (p.117)	Solo se entra en combate cargando; hay que declarar unidad y objetivo	OK	chargeAll 6615, chargeTargets 2821	
+c3-031	Declare Charges (p.117)	Sin obligación de cargar salvo regla especial	OK	rules.js:5465, 5498, 5518 (cargas forzadas por reglas)	
+c3-032	Declare Charges (p.117)	Se necesita LDV de algún modelo y objetivo al menos en parte en el arco frontal	OK	chargeTargets rules.js:2829, inFrontArc 2833	LDV a nivel de unidad
+c3-033	Who Can Charge (p.117)	No cargan unidades trabadas, en huida o reagrupadas este turno	OK	chargeTargets rules.js:2822	
+c3-034	Who Can Charge (p.117)	En Columna de marcha se puede declarar pero no mover la carga	OK	doCharge colFail rules.js:~3570	Columna de marcha declara la carga; no la mueve (Drilled reforma primero)
+c3-035	Who Can Charge (p.117)	No se puede declarar una carga imposible (fuera de alcance máximo o con obstáculos)	OK	rules.js chargePossible (llamada en chargeTargets)	v807: ademas del alcance maximo (M+6), no se declara la carga si el terreno impasable (ruinas, edificios, muros altos, bagaje) impide llegar a contacto en el alcance maximo incluso rodeandolo (busqueda de ruta en rejilla de 1"); unidades que se interponen no la hacen imposible (Core p.117); Volar/Etereo/objetivo en edificio exentos. Test /tmp/charge_imp_test.mjs. Aproximacion conservadora: ignora la anchura de la unidad al rodear (no bloquea cargas legitimas)
+c3-036	Charging More Than One Unit (p.117)	Si no puede cargar sin tocar otras unidades, se declara contra todas y cada una hace su reacción	OK	doCharge rules.js:3047-3058	v758: doChargeG declara la carga contra todas las unidades que toca la posición de carga (extra) y cada una resuelve su reacción (reactOnly) antes de mover ninguna carga
+c3-037	Charge Reactions (p.117)	Reacciones Aguantar, Disparar y huir de la carga, Huir elegidas por el inactivo	OK	t.react main.js:1080, doCharge rules.js:2955	v759: al declarar una carga contra una unidad de un jugador humano (IA→humano y hot-seat) se abre una ventana y el jugador elige Mantener / Defender y disparar / Huir / Disparar y huir (main.js askReactions → acción react) antes de resolver la carga; la IA elige por autoaprendizaje (alternativas react en ai.js); en partidas por código se usa la preferencia previa
+c3-038	Charge Reactions (p.117)	Unidades en huida no pueden aguantar (huyen); trabadas deben aguantar	OK	doCharge rules.js:2955-2975	
+c3-039	Stand & Shoot (p.117)	Requiere armas de proyectil y LDV con el que carga	OK	doCharge rules.js:2992 (rangedOf, shootCheck standShoot)	
+c3-040	Stand & Shoot (p.117)	Si la distancia es menor que el Movimiento del que carga no puede disparar	OK	rules.js:2992 (dist >= mvOf(u))	Con excepciones de reglas especiales (quickShot)
+c3-041	Stand & Shoot (p.117)	Dispara aunque esté fuera de alcance y luego aguanta	OK	shootCheck1 rules.js:2042 (standShoot omite alcance)	
+c3-042	Stand & Shoot (p.117)	El que carga no hace Pánico por ese disparo	OK	rules.js:2548 (!standShoot)	
+c3-043	Flee reaction (p.117)	Gira sobre su centro para quedar de espaldas al centro del que carga y huye	OK	doCharge rules.js:2975 runAway; pushAway 2772	
+c3-044	Multiple charging units (p.117)	Solo puede Disparar y huir/Defender y disparar contra una carga por turno; elige cuál	OK	chargeAll rules.js:6629-6632; sasKey 2992	v798: chargeAll: con varias cargas contra la misma unidad, el jugador inactivo elige por popup contra cual Defender y disparar (sst); la huida sigue siendo del de mayor Fuerza de Unidad (Core p.117)
+c3-045	Multiple charging units (p.117)	Si huye de varias cargas, huye de la de mayor US (empate al azar)	OK	rules.js:6637 fleeFrom, 2975	
+c3-046	Charge Moves (p.121)	Cargas resueltas de una en una en el orden que elija el activo	OK	chargeAll rules.js:6637	
+c3-047	Charge Moves (p.117-121)	Se resuelven todas las reacciones antes de mover ninguna carga	OK	doCharge rules.js:2898-3120	v737: doCharge es un generador; chargeAll resuelve TODAS las reacciones antes de mover ninguna carga; la IA declara en lote
+c3-048	Charge Range (p.121)	Tirada de carga 2D6 descartando la menor; se suma al Movimiento	OK	rules.js:3016-3030 (roll = max(a,b))	
+c3-049	Charge Range (p.121)	Si no alcanza, carga fallida	OK	rules.js:3036-3037, 3109	
+c3-050	Failed Charge (p.121)	Carga fallida: avanza hacia el objetivo el resultado de la tirada de carga	OK	rules.js:3109 (maxStep = min(roll, dist-1.05))	
+c3-051	Max Possible Charge (p.121)	Alcance máximo posible = Movimiento actual + 6	OK	rules.js:2825, maxPossible 3047	
+c3-052	Charging Through Terrain (p.128)	Terreno difícil/peligroso u obstáculo bajo: descarta el dado más alto y -1 M (mín 1)	OK	rules.js:3016-3019, pathInForest 1333	Cubre bosque, pantano y muros; otro terreno difícil/peligroso del escenario no se considera
+c3-053	Charging Through Terrain (p.128)	Acaba con 25% o más en terreno difícil o a caballo de obstáculo bajo: Alterada	OK	rules.js straddlesLow/terrainDisrupted ~6295	Muros bajos cuentan: Alterada
+c3-054	Charge Move (p.126)	Maximizar modelos en contacto, ruta más corta y recta, alinear	OK	placeCharge rules.js:2837, need 3036	v759: la carga sigue el camino directo y, si una unidad (amiga o enemiga) o terreno lo cierra, prueba rodeos laterales con su coste de movimiento (Core p.126-131); contacto accidental, rueda opcional y alineación ya implementados
+c3-055	Charge Move (p.126)	El que carga no gira/retrocede/lado/reordena/reforma; puede una rueda	OK	rules.js:3035-3037 (coste de rueda)	v758: la carga solo admite el avance y una rueda opcional (c3-056); no hay otras maniobras
+c3-056	Charge Move (p.126)	La rueda es opcional si causaría carga fallida o impediría otra carga	OK	doCharge rules.js:~3484 (rueda opcional)	Si la rueda completa causaría carga fallida pero el avance llega a contacto, la rueda no se completa y la carga tiene éxito
+c3-057	Charge Move (p.126)	Tras contactar, segunda rueda gratuita para alinear de pleno	OK	placeCharge rules.js:2849 (face = -n)	Alineación siempre perfecta
+c3-058	Flank & Rear Charges (p.127)	Frente/flanco/retaguardia según el arco del objetivo en que está el que carga al declarar	OK	sideOf geom.js:103; rules.js:2902	v758: sideOfC (rules.js) cuenta los modelos de la fila delantera del que carga en cada arco cuando está a caballo de dos; gana el arco con más; empate = el que menos ventaja da (frente<flanco<retaguardia) (Core p.127)
+c3-059	Unable To Align (p.128)	Si no puede alinear, el objetivo se alinea; si no puede, hay hueco; carga desordenada	OK	doCharge rules.js:~3490-3520 alignFail	El objetivo se alinea o queda hueco; carga desordenada (sin bonificador de Iniciativa)
+c3-060	Disordered Charge (p.128)	Carga desordenada: sin bonificador de Iniciativa por cargar	OK	effI rules.js:3881	
+c3-061	Charging a Fleeing Enemy (p.129)	Carga contra unidad en huida que alcanza: se destruye	OK	rules.js:3084	
+c3-062	Charging a Fleeing Enemy (p.129)	Tras aniquilar puede reformar con chequeo de Ld, no se mueve más	OK	doCharge rules.js:~3610-3620	Tras aniquilar al huido: chequeo de Ld (Veterano/Armonía repiten) para reforma gratuita; no mueve más
+c3-063	Charging a Fleeing Enemy (p.129)	Si no hay contacto mueve todo el alcance sin carga fallida	OK	rules.js:3109 (t.fleeing ? total)	
+c3-064	Redirecting a Charge (p.129)	Redirigir exige chequeo de Ld; si falla debe aniquilar al huido	OK	doCharge rules.js:~3415 (noRedirect, redirTgt); main.js panel; ai.js vars	El jugador decide si redirige (noRedirect) y a qué unidad (redirTgt, pref); la IA lo elige por autoaprendizaje
+c3-065	Redirecting a Charge (p.129)	Objetivo de carga redirigida solo puede Aguantar o Huir; si huye no se redirige otra vez	OK	rules.js:2992 (!opts.redirected), 2978	
+c3-066	Redirecting a Charge (p.129)	Al redirigir el objetivo original huye a salvo (no se destruye)	OK	rules.js:2986 return doCharge alt	
+c3-067	Multiple Charging Units (p.130)	Varias cargas al mismo arco se mueven simultáneamente maximizando contacto	OK	doCharge rules.js:3047	v758: chargeAll resuelve todas las reacciones y jointCharges reparte el frente cuando varias cargas van al mismo arco; luego mueven en orden declarado
+c3-068	Multiple Charge Targets (p.130)	Si no alinea a todos, los no alineados se alinean a ella; desordenada contra ellos	OK	doCharge extraT rules.js:~3574	v758: extraT = unidades tocadas por la carga: se traban, reaccionan (c3-036) y la carga es desordenada contra ellas (disordFoes)
+c3-069	Accidental Contact (p.131)	"Contacto accidental: confirmar combate o Ceder terreno (frente); apartar 1"" (flanco/retaguardia o trabada)"	OK	rules.js doCharge accBlock ~3157	Contacto accidental ya implementado
+c3-070	Accidental Contact During Charge (p.131)	"Esquivar con rueda, detener la carga a 1"" o continuar"	OK	rules.js doCharge u.accHalt ~3160	"Detener a 1"" o continuar, elige el jugador (accHalt)"
+c3-071	Accidental Contact Running Down (p.131)	Redirige contra la unidad contactada y el huido escapa	OK	rules.js doCharge bu.fleeing ~3168	Aniquila al huido, sin reformar
+c3-072	Compulsory Moves (p.123)	Las unidades en huida se mueven primero	OK	compulsoryMoves rules.js:5563	
+c3-073	Compulsory Moves (p.123)	Otros movimientos obligatorios en el orden que elija el jugador	OK	beginMove rules.js:5455-5520	v760: compulsoryMoves reúne movimiento aleatorio, regreso de persecuciones y huida continuada y los resuelve en el orden de prioridad elegido por el jugador (compPri 1-9, botón «Orden obligatorio»); la IA lo decide por autoaprendizaje
+c3-074	Remaining Moves (p.123)	Unidades en huida, que cargaron o con movimiento obligatorio no vuelven a mover	OK	previewMove rules.js:1872-1873	
+c3-075	Basic Movement (p.123)	Avanzar hasta M; el ritmo lo marca el modelo más lento	OK	slowM rules.js:1748	M de la unidad = menor M entre modelos/personajes unidos
+c3-076	Basic Movement (p.123)	Mover en línea recta salvo maniobra	OK	previewMove rules.js:1897-1912	
+c3-077	Marching (p.123)	Marcha: dobla M, solo rueda, no dispara después	OK	previewMove rules.js:1881, 1903; shootCheck1 2031	
+c3-078	Marching (p.123)	En Columna de marcha triplica M	OK	isColumn rules.js:1881	
+c3-079	Enemy Sighted (p.123)	"Marchar a 8"" de un enemigo (no huido) exige chequeo de Ld"	OK	nearEnemy8 rules.js:1844, case move 6560	Los voladores quedan exentos en el motor (!has flyer 1944), no en el texto
+c3-080	Enemy Sighted (p.123)	Si falla se mueve normal pero cuenta como marcha	OK	rules.js:6560-6570	
+c3-081	Manoeuvres (p.124)	Una maniobra por movimiento; ningún modelo mueve más del doble de M	OK	previewMove rules.js:1893-1941	
+c3-082	Wheel (p.124)	Rueda: todos cuentan lo que el modelo exterior; puede ruedar varias veces alternando	OK	previewMove rules.js:1917	VERIF v770: rules.js previewMove/wheelPath: girar de ala sobre esquina delantera, alternando, coste = modelo exterior; el giro rápido y las ruedas alternas están en una sola maniobra por movimiento (Core p.124 + FAQ)
+c3-083	Turn (p.124)	Girar 90° = 1/4 de M, 180° = 1/2; mandos pasan a la nueva fila delantera	OK	rules.js:1913-1914	VERIF v771: modelPts deriva la posición de cada modelo del rumbo y capa de mando (ranuras de la fila delantera): al girar 90°/180° los mandos pasan a la nueva fila delantera; coste 1/4 y 1/2 de M correcto
+c3-084	Move Backwards (p.125)	Retroceder: Movimiento a la mitad	OK	rules.js:1904	
+c3-085	Move Sideways (p.125)	De lado: Movimiento a la mitad	OK	rules.js:1905	
+c3-086	Redress the Ranks (p.125)	Mitad de M para quitar o añadir hasta 5 modelos del frente	OK	rules.js:1919-1921	
+c3-087	Reform (p.125)	Reformar: todo el movimiento, girar hasta 180° y reordenar	OK	rules.js:1913-1914	
+c3-088	Pivoting (p.125)	Pivotar sobre el centro ignorando unidades y terreno	OK	previewMove rules.js:1907-1914 (reforma en el sitio, sin pasos intermedios)	Solo se comprueba la posición final
+c3-089	Ends of the World (p.125)	Una esquina puede salir de la mesa durante la maniobra si acaba dentro	OK	rules.js previewMove (noTable en pasos intermedios y ruedas), checkPlacement	v810 verificado: los pasos intermedios del movimiento y las ruedas se comprueban con noTable (una esquina puede cruzar el borde) y el destino final exige la unidad entera en la mesa (Core p.125 Los confines del mundo); la nota anterior estaba desfasada
+c3-090	Flee Move (p.132)	Tirada de huida 2D6; avanza esa distancia recto, completa aunque salga de la mesa	OK	runAway rules.js:2732, pushAway 2771	
+c3-091	Direction of Flight (p.132)	Huye de frente al centro del enemigo; en Movimiento obligatorio sigue su dirección	OK	pushAway rules.js:2772; compulsoryMoves 5568	
+c3-092	Flee Move (p.132)	Solo puede girar para rodear terreno impasable	OK	pushAway rules.js (esquiva de impasable)	Al tocar terreno impasable gira lo mínimo para rodearlo
+c3-093	Destruction of Fleeing Unit (p.132)	Cualquier parte que toque o cruce el borde: unidad destruida	OK	pushAway rules.js:2780-2790	Con la excepción de huir a lugar seguro (fleeSafeCheck 2761)
+c3-094	Fleeing Through Friends (p.133)	Atraviesa amigas sin frenar; si queda encima sigue hasta quedar libre	OK	pushAway rules.js:2808-2811	
+c3-095	Fleeing Through Enemies (p.133)	Chequeo de Peligro (1-3 pierde una Herida) por cada modelo que atravesó a un enemigo	OK	pushAway rules.js:~3205	Peligro por cada modelo que cruzó cada unidad enemiga (posición real de peanas por modelo)
+c3-096	Fleeing Through Enemies (p.133)	"Si acabaría encima o a 1"" de un enemigo sigue hasta quedar a 1"""	OK	rules.js pushAway (bucle de separación con foesX)	"Sigue hasta quedar a 1"" del enemigo atravesado"
+c3-097	Fleeing Through Terrain (p.133)	Sin penalizadores de M; hace chequeos de Terreno peligroso	OK	rules.js:2771-2812	
+c3-098	Greater Danger (p.133)	Huir de dos o más enemigos: del de mayor US (empate al azar)	OK	doCharge fleeFrom; resolveCombats main; panicFlee	Varias cargas/combate: huye de la de mayor US (empate al azar); Pánico: del enemigo más cercano no huido (según libro)
+c3-099	Limits of Endurance (p.133)	"Una sola huida por fase; la segunda no gira y recorre 0"""	OK	rules.js pushAway (dist<=0 no gira)	La segunda huida no gira
+c3-100	Give Ground (p.134)	"Retrocede 2"" directamente alejándose sin girar; se detiene al contactar o a 1"" de enemigo"	OK	rules.js pushAwayStep	"Se detiene a menos de 1"" de otro enemigo (distinto de los trabados)"
+c3-101	Fall Back In Good Order (p.134)	Tirada de huida 2D6 descartando la menor	OK	runAway rules.js:2740-2741	
+c3-102	Fall Back In Good Order (p.134)	Reagrupa automáticamente al final del movimiento	OK	rules.js:2751-2755	
+c3-103	Conveyance Spells (p.134)	Hechizos de Conveyance se lanzan en Movimientos restantes	OK	rules.js castCheck phase move	Conveyance en Movimientos restantes
+c3-104	Moving Off Battlefield (p.134)	Nadie sale de la mesa salvo huyendo o persiguiendo	OK	checkPlacement rules.js:1833	
+c3-105	Reinforcements (p.134)	Entran en Movimientos obligatorios, parte trasera en el borde mirando al centro	OK	reinforcePos rules.js:1750, case reinforce 6325-6352	
+c3-106	Reinforcements (p.134)	No marchan, cuentan como movidos al disparar, y pueden mover normal en Movimientos restantes	OK	reinfAt rules.js (canMove reinfFresh)	Refuerzos cuentan como movidos para disparar y no marchan, pero pueden mover normalmente en Movimientos restantes
+c3-107	Difficult Terrain (p.135)	-1 M (mín 1) si cualquier parte pasa por terreno difícil	OK	previewMove rules.js:1940	
+c3-108	Difficult Terrain (p.135)	Acabar con 25% o más en terreno difícil: Alterada	OK	rules.js straddlesLow/terrainDisrupted ~6295	Idem
+c3-109	Low Linear Obstacles (p.135)	Obstáculos lineales bajos cuentan como terreno difícil	OK	previewMove rules.js:1925-1931 (kind wall)	Pero a caballo de uno al acabar no se Altera (ver arriba)
+c3-110	Dangerous Terrain (p.135)	Chequeo por modelo (1 pierde una Herida) al empezar, pasar o acabar; por cada elemento	OK	dangerTest rules.js:5963; terrainEffects 5947	
+c3-111	Impassable Terrain (p.135)	Terreno impasable: hay que rodearlo; obstáculos altos son impasables	OK	hitsRuin rules.js:1573	Ruinas/edificios/imp y obstáculos lineales marcados t.high son impasables
+c3-112	Woods (p.135)	Bosques cuentan como difíciles o peligrosos según acuerdo	OK	previewMove rules.js:1925-1931, terrainEffects 5947	Bosque = difícil, pantano = peligroso
+c3-113	Battlefield Decoration (p.135)	"Elementos decorativos menores de 2"" no estorban"	OK	kind deco (no en hitsRuin 1332)	
+c3-114	Shooting sequence (p.136)	Secuencia completa por unidad, una a una	OK	shootCheck1 rules.js:2030 (u.shot)	
+c3-115	Who Can Shoot (p.137)	Solo unidades con armas de proyectil o lanzadoras	OK	shootCheck1 rules.js:2019	
+c3-116	Who Can Shoot (p.137)	No dispara quien cargó o marchó, está trabado o huye	OK	shootCheck1 rules.js:2020, 2033-2035	
+c3-117	Check Line of Sight (p.137)	LDV para cada modelo de la fila delantera	OK	frontShooters rules.js (resolveShot1)	LDV por modelo de la fila delantera
+c3-118	Check Range (p.137)	El alcance se comprueba por cada modelo	OK	frontShooters rules.js	Alcance por modelo de la fila delantera
+c3-119	We Can't All Shoot (p.137)	Modelos sin LDV o fuera de alcance no disparan	OK	frontShooters rules.js	Modelos sin LDV o fuera de alcance no disparan
+c3-120	Stand & Shoot range (p.137)	En Defender y disparar se asume en alcance	OK	rules.js:2042	
+c3-121	Only Front Rank (p.137)	Solo la fila delantera dispara salvo excepciones	OK	rules.js:2388	
+c3-122	How Many Shots (p.137)	Una vez por fase de Disparo, un disparo por modelo	OK	u.shot rules.js:2030; shooters*r.shots 2430	
+c3-123	No Splitting (p.137)	No se divide el disparo entre objetivos	OK	resolveShot0 rules.js:2183	Un solo objetivo por acción
+c3-124	Roll To Hit (p.138)	Tabla de HP: 1=6+ ... 5=2+	OK	shootBase rules.js:1537	
+c3-125	Natural 1 (p.138)	Un 1 natural siempre falla al disparar	OK	hitRoll rules.js:1544-1548	
+c3-126	BS 6+ (p.138)	HP 6+ repite el fallo con 2+/6+...2+/2+	OK	rules.js:2464 (d6 >= 12-BS)	Los modificadores solo en la primera tirada
+c3-127	To Hit Modifiers (p.138)	Moverse y disparar -1 (incluye reagrupar o reformar)	OK	rules.js:2402	
+c3-128	To Hit Modifiers (p.138)	Largo alcance -1 (más de la mitad del alcance)	OK	rules.js:2401	
+c3-129	To Hit Modifiers (p.138)	Defender y disparar -1 sin penalizar largo alcance	OK	rules.js:2401, 2407	
+c3-130	Cover (p.139)	Cobertura parcial -1 (hasta la mitad oculta)	OK	rules.js coverMod (modelPts, ≤48 muestras)	v740: cobertura contada por modelo con su posición real en la rejilla
+c3-131	Cover (p.139)	Cobertura completa -2 (más de la mitad)	OK	rules.js coverMod (modelPts, ≤48 muestras)	v740: idem
+c3-132	7+ To Hit (p.139)	Con 7+ hay que sacar 6 y repetir 4+/5+/6; 10 imposible	OK	hitRoll rules.js:1547-1553	
+c3-133	To Wound (p.140)	Tabla de Fuerza contra Resistencia	OK	woundNeed rules.js:1535	Contrastada con la tabla
+c3-134	To Wound (p.140)	Un 1 natural para herir falla	OK	woundAndSave0 rules.js:1702	
+c3-135	Too Tough To Wound (p.140)	Fuerza seis o más por debajo de Resistencia no hiere	OK	woundNeed rules.js:1535 (df>=6 → 7), woundAndSave0 1692	
+c3-136	Armour Save (p.141)	Se salva con tirada igual o mayor al valor de armadura	OK	woundAndSave0 rules.js:1709-1716	
+c3-137	Armour Save (p.141)	Un 1 natural siempre falla	OK	rules.js:1710 (roll(): x !== 1)	
+c3-138	Armour Value (p.141)	Equipo mejora la armadura hasta 2+ máximo	OK	svOf rules.js:1451-1466	También 3+ máximo para carros/monstruos/máquinas (FAQ)
+c3-139	Armour Value (p.141)	Sin armadura cuenta como 7+ para modificadores	OK	woundAndSave0 svD rules.js:~1872	Sin armadura = 7+ para modificadores y mejoras (svD ≤7)
+c3-140	Armour Piercing (p.141)	PA modifica la tirada de salvación	OK	rules.js:1709 (t = max(2,sv) + ap)	
+c3-141	Ward Saves (p.141)	La Salvación especial no la modifica la PA	OK	rules.js:1646, 1717-1725	
+c3-142	More Than One Save (p.141)	Primero armadura y luego especial; solo la mejor especial	OK	rules.js:1709-1725, bestSave 1449, ward 1646	
+c3-143	Remove Casualties (p.142)	Cada herida sin salvar quita una Herida; el modelo a 0 es baja	OK	applyWounds rules.js:1480-1500	
+c3-144	Panic Test (p.142)	Más de 25% de los modelos del inicio de la fase: chequeo de Pánico (Ld)	OK	panicFromLosses rules.js:2709-2717	
+c3-145	Fall Back or Flee (p.142)	Más de 50% de los iniciales: Retirada en buen orden; 50% o menos: huye	OK	panicFlee rules.js:2702-2708	
+c3-146	Fall Back or Flee (p.142)	Se aleja del enemigo cuyo disparo causó el Pánico	OK	panicFlee rules.js:2703-2705	
+c3-147	No Need For Hysterics (p.142)	Un solo Pánico por fase de Disparo	OK	rules.js:2710-2711 (panicTested)	
+c3-148	Magic Missile & Vortex (p.143)	Se lanzan en la fase de Disparo	OK	castCheck rules.js:3166	
+c3-149	Shooting Into Combat (p.143)	No se dispara a unidades trabadas	OK	shootCheck1 rules.js:2037	
+c3-150	Shooting From a Hill (p.143)	Una fila adicional en colina	OK	rules.js:2388-2392	
+c3-151	Volley Fire (p.143)	La mitad de cada fila trasera dispara, redondeando hacia arriba	OK	rules.js:2390-2391	Exige además no haberse movido (regla especial)
+c3-152	Automatic Hits (p.143)	Algunos ataques impactan sin tirada	OK	woundAndSave0 'auto' rules.js:1698; grape 2300	
+c3-153	Multiple Wounds (p.143)	Heridas múltiples: sin pasar el exceso del modelo	OK	rules.js:1731-1739	
+c3-154	Instant Kills (p.143)	Muerte instantánea sin salvaciones ni importar Heridas	OK	woundAndSave0 kb rules.js:1705	v810 revisado: Core p.143 Instant Kills no define mecanismo propio, solo que los efectos de baja directa no permiten salvaciones ni cuentan Heridas salvo que se diga otra cosa; cada efecto (Golpe letal: sin armadura ni regeneracion pero si especial, Matamonstruos, bajas por reglas, hechizos) esta implementado con su texto propio (woundAndSave0 killing; kbParry; destroy/models=0); no hace falta mecanismo generico
+c3-155	Unusual Attacks (p.143)	Impactos en Estrategia/Movimiento usan las subfases 3 y 4 del disparo	OK	rules.js:3092-3099 (woundAndSave + applyWounds)	
+c3-156	Combat sequence (p.144)	El activo elige el combate y se completan las cuatro subfases	OK	resolveCombats cmbOrd rules.js	El jugador activo elige el orden de combates (pref cmbOrd)
+c3-157	Combat Phase (p.144)	Todos los combates se resuelven; nadie puede abstenerse	OK	resolveCombats rules.js:4803	
+c3-158	End of Turn (p.144)	Al acabar los combates termina el turno y pasa al inactivo	OK	rules.js:6702, endPlayerTurn 5598	
+c3-159	Engaged (p.145)	Contacto de peana con enemigo: trabada	OK	"engagedWith rules.js:1300 (distancia < 0.12"")"	
+c3-160	Base Contact (p.145)	Todo modelo en contacto de peana lucha, incluso por flanco/retaguardia o esquina	OK	attackProfile0 rules.js:3921-3951	v749: nº de modelos que atacan = modelos cuya peana toca al enemigo (contactModels, ≤0,3"), por flanco, retaguardia o esquina; antes se estimaba por anchura de frente
+c3-161	Fighting Rank (p.145)	La fila con algún modelo en contacto lucha completa	OK	attackProfile0 rules.js:3921-3951	
+c3-162	Supporting Attacks (p.145)	Detrás de un modelo en fila de combate; no al flanco/retaguardia ni desde la fila de combate	OK	attackProfile0 rules.js:3957-3961	
+c3-163	How Many Attacks (p.146)	En contacto: tantos como Ataques; sin contacto: uno	OK	rules.js:3951 (inC*a + (rmEff-inC))	
+c3-164	Who Strikes First (p.146)	Se ataca por Iniciativa de mayor a menor	OK	fightGroup rules.js:4394	
+c3-165	Charging Units (p.146)	+1 Iniciativa por pulgada completa (máx +3 frente, +4 flanco/retaguardia; máx 10)	OK	effI rules.js:3881-3884	Usa chargeDist (distancia declarada)
+c3-166	Simultaneous Combat (p.146)	Misma Iniciativa: primero el activo y las bajas no reducen los ataques simultáneos	OK	rules.js:4419 (pending)	
+c3-167	Fallen Warriors (p.146)	Modelo muerto por Iniciativa superior antes de atacar pierde sus ataques	OK	frontLost rules.js:3941, 4654	
+c3-168	Stepping Forward (p.146)	Un modelo que da un paso al frente no lucha esa fase	OK	frontLost rules.js:3941	v749: los modelos de refuerzo comparten perfil, por lo que descontar frontLost del frente equivale a que quien da el paso no lucha; campeón/portaestandarte/músico/personajes se reponen por la capa frontLayout
+c3-169	Multiple Units In Combat (p.147)	El modelo en contacto con varios elige objetivo y divide ataques antes de tirar	OK	fightGroup perFoe rules.js (focus + contactModels)	El jugador elige objetivo (focus); sin elección, reparto según modelos en contacto con cada enemigo; IA vía optionGroups
+c3-170	Dividing Attacks (p.147)	Fila trabada con varias unidades debe atacar las que toca; sin contacto, la más cercana	OK	fightGroup perFoe rules.js	"VERIF v732: rules.js:5338-5341 reparte ataques automaticamente proporcional a modelos en contacto, a partes iguales si no hay contacto; sin eleccion del jugador ni ""mas cercana"" | Se reparte entre las unidades tocadas según contacto; las no tocadas no reciben ataques | v776: elección del jugador (botones "Atacar a") limitada a unidades en contacto de peana; IA la decide por autoaprendizaje (fo+id).
+c3-171	Fighting On Multiple Fronts (p.147)	Trabada en varios arcos: varias filas de combate	OK	attackProfile0 rules.js:3921 (sideOf por enemigo)	
+c3-172	Roll To Hit (p.148)	Tabla HA contra HA	OK	HIT_TBL rules.js:1527-1531	Las diez filas contrastadas con el libro
+c3-173	Roll To Hit (p.148)	Un 1 natural siempre falla; un 6 natural siempre impacta	OK	rules.js:4517-4518	
+c3-174	Roll To Wound (p.148)	Tabla de heridas y 1 natural falla	OK	woundNeed 1535; 1692	
+c3-175	Make Armour Saves (p.148)	Salvaciones de armadura igual que en disparo	OK	woundAndSave0 rules.js:1709	
+c3-176	Remove Casualties (p.149)	Bajas de la fila trasera; heridas a modelos de la fila de combate	OK	applyWounds rules.js:1480	
+c3-177	Excess Casualties (p.149)	Bajas en exceso reducen los ataques de apoyo	OK	rules.js:3965	
+TOTAL OK=119 PARCIAL=45 AUSENTE=10 NA=3

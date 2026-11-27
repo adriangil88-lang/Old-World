@@ -1,0 +1,8 @@
+// v839 — Objetos de dispersión (se ejecuta tryDispel con dados fijados)
+import { T, N, R, DATA, ok, eq, cur, diceAll, dice, put, msgs } from '../lib3.mjs';
+import { dispel, wlvl, FILE } from './_it2.mjs';
+const { ITEMS } = DATA;
+const TT = (key, desc, fn) => T('v839-it-' + key, FILE, `${ITEMS[key].name}: ${desc}`, fn);
+const base = (u) => 18 + 3 * (wlvl(u) - 1);
+for (const [k, plus] of [['okl_cookbook', 3], ['idol_mork', 3], ['prayer_icon', 3]]) TT(k, `+${plus}" al alcance de dispersión`, () => { const c = dispel(null, { like: k, q: [6, 5], d: 0 }); const b = base(c.t); const far = (key) => dispel(key, { like: k, q: [6, 5], total: 11, ud: b + plus - 0.5 }).r, out = (key) => dispel(key, { like: k, q: [6, 5], total: 11, ud: b + 1 }).r; eq(out(null), false, 'control: fuera de alcance no dispersa'); ok(out(k), `con el objeto (+${plus}"): a ${b + 1}" dispersa`); eq(far(k), true, 'dentro del alcance ampliado'); const g = dispel(k, { q: [6, 5], total: 11, ud: b + plus + 1 }).r; eq(g, false, 'más allá del alcance ampliado no'); });
+TT('vcl_skullstaff', '+3" al alcance de dispersión y +1 a disipar', () => { const c = dispel(null, { like: 'vcl_skullstaff', q: [3, 3], total: 7 + wlvl(dispel(null, { like: 'vcl_skullstaff' }).t) }); const w = dispel('vcl_skullstaff', { q: [3, 3], total: 6 + Math.ceil(wlvl(dispel('vcl_skullstaff').t) / 2) + 0 }); const L = Math.ceil(wlvl(w.t) / 2); const t0 = 6 + L; eq(dispel(null, { like: 'vcl_skullstaff', q: [3, 3], total: t0 }).r, false, 'control: 6+Nivel/2 no supera 6+Nivel/2'); eq(dispel('vcl_skullstaff', { q: [3, 3], total: t0 }).r, true, 'con +1 supera'); });

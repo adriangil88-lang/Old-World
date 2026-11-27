@@ -1,0 +1,1004 @@
+                Warhammer: The Old World
+                FAQ & Errata – Version 1.5.2
+This document collects amendments to the rules contained within the Warhammer: the Old World rulebook and presents our
+responses to players’ frequently asked questions. As this document is revised regularly, it has a version number; where a version
+number has a letter, e.g. 1.1a, this means it has had a local amendment, only in one language, to clarify a translation issue. When
+this document is revised in full, the version number will be incremented.
+
+Errata
+Below you will find errata to the Warhammer: the Old World rulebook and its associated Arcane Journals. When this document
+is revised, updated entries will be highlighted in [blue], while entirely new additions will be highlighted in [magenta].
+
+Designers’ Note: Errata marked with an asterisk (*) have been corrected in a later printing of the publication and may not apply.
+
+
+Page 101                                                                 Page 110
+Combat Result Bonus: Change the entry as follows:                        Wizardly Dispel: Change the second paragraph, after the
+‘Whilst in Combat Order, a Close Order formation with a                  bullet points, as follows:
+Unit Strength of 10 or more may claim a bonus of +1 combat               ‘Wizards that are fleeing or that are not on the battlefield
+result point (see page 151).’                                            cannot be nominated. Wizards that are engaged in combat
+                                                                         can only be nominated to dispel spells that target them or
+Page 107                                                                 their unit.’
+Magical Vortex: Change the second paragraph as follows:
+‘Some Magical Vortexes move at the start of each turn, often             Dispel Roll & Dispel Result: Change the first sentence of the
+by scattering. Should a Magical Vortex end such a move over a            second paragraph as follows:
+unit, move it by the smallest amount possible, in any direction,         ‘If you are attempting a Wizardly dispel, the Dispel roll is
+so that it can be placed on the battlefield, not touching the            modified by adding the Wizard’s Level of Wizardry divided by
+bases of any models.’                                                    2 (rounding fractions up) to give a ‘dispel result’.’’
+
+Page 108                                                                 Page 111
+Casting Spells: Change the first sentence of the second                  Dispelling Remains in Play Spells: Change the second
+paragraph, after the bullet points, as follows:                          sentence of the first paragraph as follows:
+‘A Wizard can attempt to cast a number of spells equal to their          ‘To do so, you may attempt either a Fated dispel or a Wizardly
+Level of Wizardry per turn, but may only attempt to cast each            dispel (provided the Wizard making the attempt is within
+spell once per turn.’                                                    Dispel range of the Wizard that cast the spell or, in the case of
+                                                                         a Magical Vortex, within range of the template representing
+Casting Roll, Casting Result & Casting Value: Change the                 the spell).’
+second paragraph as follows:
+‘The casting Wizard’s Level of Wizardry is then divided by 2             Page 141
+(rounding fractions up) and added to this roll to give a ‘casting        Ward Saves: Change the entry as follows:
+result’. For example, if a Level 2 Wizard makes a Casting roll           ‘Representing magical protection of some sort, Ward saves
+of 1 and 6, the total casting result would be 8 (1 + 6 = 7 for the       are made in the same manner as armour saves; by rolling a D6
+Casting roll, plus 1 for the Level of Wizardry divided by 2).’           and comparing the result to the ‘Warding value’. A Ward save’s
+                                                                         Warding value is always given in either the description of the
+Page 109                                                                 item or spell that grants it, or shown after the name of a special
+8-9, Barely Controlled Power: Change the last sentence                   rule. Rules that affect armour values do not affect Warding
+as follows:                                                              values unless stated otherwise.’
+‘However, the Wizard cannot attempt to cast any more spells
+for the remainder of the current turn.’
+
+
+
+
+                                                                     1
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Page 145                                                                Page 170
+The Fighting Rank: Change the entry as follows:                         Fly (X): Change the first paragraph of the rule as follows:
+‘When two opposing units are engaged in combat, any row                 ‘Except when following up or pursuing, a model with this
+of models (be it a rank or file) in which one or more is in base        special rule can choose to move by flying through the air,
+contact with the enemy is a ‘fighting rank’. Any model that is          rather than moving across the ground as normal. When a
+within a fighting rank and within a number of inches equal              model flies it uses a special ‘Fly Movement’ characteristic,
+to its Movement of the enemy unit can fight. This represents            shown in brackets after the name of this special rule (shown
+models closing in upon the foe.’                                        here as ‘X’). Models that choose to move by flying:’
+
+Supporting Attacks: Change the entry as follows:                        Frenzy: Change the first paragraph of the rule as follows:
+‘Models whose weapons allow them to make a ‘supporting                  ‘During a turn in which it made a charge move, or during the
+attack’ can do so if they are in the rank or file directly behind       turn after it made a follow up move, a Frenzied model has a +1
+the fighting rank of their unit, and within a number of inches          modifier to its Attacks characteristic. This modifier does not
+equal to their Movement of the enemy unit. However,                     apply to the model’s mount (in the case of a cavalry model), to
+supporting attacks cannot be made to a unit’s flank or rear, or         the beasts that draw it (in the case of a chariot), or to its rider
+by a model that is itself in a fighting rank.’                          (in the case of a monster).’
+
+Page 146                                                                Page 172
+Charging Units: Change the second sentence of the first                 Impact Hits (X): Change the second sentence of ‘Resolving
+paragraph as follows:                                                   Impact Hits’ as follows:
+‘To represent this, models gain a modifier to their Initiative          ‘Impact Hits are resolved against the charged unit when the
+characteristic during the Combat phase of a turn in which               combat is chosen during Step 1.1 of the Choose Combat
+they charged (to a maximum of 10):’                                     & Fight sub-phase, before issuing challenges. They hit
+                                                                        automatically and use the unmodified Strength of the model
+Page 161                                                                making them.’
+Heavy Casualties: Change the first paragraph as follows:
+‘If, during any single phase other than the Combat phase,               Impetuous: Change the rule as follows:
+a unit loses more than a quarter (25%) of the models it                 ‘If during the Declare Charges & Charge Reactions sub-phase
+contained at the start of that phase, it must make a Panic test.’       of its turn, a unit that includes one or more Impetuous models
+                                                                        is able to declare a charge, it must make a Leadership test. If
+Page 167                                                                this test is failed, the unit must declare a charge. If this test is
+Chariot Runners: Change the first sentence of the rule                  passed, the unit may act as normal.’
+as follows:
+‘Friendly models whose troop type is ‘chariot’ can draw a line          Large Target: Change the rule as follows:
+of sight over or through models with this special rule and can          ‘Large Targets do not benefit from partial or full cover. In
+move through friendly units if they are in Skirmish formation           addition, a unit can draw a line of sight to a Large Target over
+and if the majority of models have this special rule.’                  or through another unit, and vice versa, provided that unit is
+                                                                        not also a Large Target. Finally, a unit that shoots at a Large
+Page 168                                                                Target can shoot with one additional rank. For example, a
+Evasive: Change the first sentence of the rule as follows:              unit armed with crossbows can shoot with its first two ranks
+‘Once per turn, when a unit in which the majority of the                when shooting at a Large Target, or with its first three if also
+models have this special rule is declared the target during             standing on a hill.’
+the enemy Shooting phase, that unit may choose to Fall Back
+in Good Order, fleeing directly away from the enemy unit                Page 173
+shooting at it.’                                                        Monster Handlers: Change the third sentence of the second
+                                                                        paragraph of the rule as follows:
+Page 169                                                                ‘On a roll of 1-4 the monster loses a Wound, but on a roll of 5+
+Fire & Flee: Change the first paragraph of the rule as follows:         one of the handlers is removed instead.’
+‘If the majority of the models in a unit armed with missile
+weapons have this special rule, the unit may declare that it will       Page 175
+‘Fire & Flee’ as a charge reaction:’                                    Poisoned Attacks: Change the first sentence of the rule
+                                                                        as follows:
+                                                                        ‘If a model with Poisoned Attacks rolls a natural 6 when
+                                                                        making a roll To Hit, it may apply a +2 modifier to that hit’s
+                                                                        roll To Wound.’
+
+
+
+                                                                    2
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Page 176                                                                  Swiftstride: Change the rule as follows:
+Random Movement: Change the third sentence of the first                   ‘A unit which consists entirely of models with this special rule
+paragraph of the rule as follows:                                         increases its maximum possible charge range by 3" and, before
+‘When a model with this special rule moves, roll the dice to              making a Charge, Flee or Pursuit roll, may choose to apply a
+determine its maximum movement.’                                          +D6 modifier to the result.’
+
+Regeneration (X+): Change the rule as follows:                            Page 180
+‘Immediately after a Wound is lost, but before models with                Unstable: Add the following to the end of the first paragraph:
+zero Wounds remaining are removed from play, a model with                 ‘These Wounds cannot be recovered by a Regeneration save.’
+this special rule may make a ‘Regeneration save’ roll by rolling
+a D6 and comparing the result to its ‘Regeneration value’,                Vanguard: Add the following to the end of the
+shown in brackets after the name of this special rule (shown              second paragraph:
+here as ‘X+’). If the Regeneration save roll equals or exceeds            ‘Units that make a Vanguard move cannot declare a charge
+the model’s Regeneration value, the lost Wound is recovered,              during their first turn.’
+but is still counted for the purposes of calculating the
+combat result. Rules that affect armour values do not affect              Warband: Change the second sentence of the rule as follows:
+Regeneration values unless stated otherwise.’                             ‘However, a Warband cannot use this modifier to its
+                                                                          Leadership should it ever choose to make a Restraint test or, if
+Page 177                                                                  it is Impetuous, when testing to see if it must declare a charge
+Reserve Move: Change the first sentence of the rule                       or may act as normal.’
+as follows:
+‘Unless it charged, marched or fled during the Movement                   Page 183
+phase, a unit in which the majority of the models have this               Quick Turn: Change the entry as follows:
+special rule may make a Reserve move at the end of the                    ‘Unless it marched, a unit that is in Open Order formation
+Shooting phase of its turn, after all shooting has been resolved.’        may pivot about its centre to change its facing by up to 90°
+                                                                          after moving during the Remaining Moves sub-phase.’
+Stomp Attacks (X): Change the second sentence of ‘Resolving
+Stomp Attacks’ as follows:                                                Page 185
+‘Stomp Attacks are attacks made in combat that must be made               Skirmishers in Combat: Change the second paragraph
+last, after all other attacks have been made, including attacks           as follows:
+made at Initiative 1. They hit automatically and use the                  ‘Skirmishers will maintain this close formation until the
+unmodified Strength of the model making them.’                            combat is over (i.e., until they are not engaged with any enemy
+                                                                          at the end of a Combat phase), at which point the models must
+Page 178                                                                  separate, moving the smallest amount possible to once again
+Stupidity: Change the first paragraph and the bullet points               adopt Skirmish formation.’
+as follows:
+‘Unless it is fleeing or engaged in combat, a unit with this              Page 186
+special rule must test for Stupidity by making a Leadership test          Skirmishers & Charging: Change the first sentence of the
+during the Start of Turn sub-phase of each of its turns. If this          first paragraph as follows:
+test is failed, the unit succumbs to Stupidity until its next Start       ‘A unit of Skirmishers may charge an enemy unit that is
+of Turn sub-phase. A unit that has succumbed to Stupidity:                visible to more than half (50%) of its models when charges
+                                                                          are declared.’
+•   Cannot move (except to flee).
+•   Cannot shoot or cast spells.                                          Add the following to the end of the second paragraph:
+•   Cannot attempt a Wizardly dispel.                                     ‘If any Skirmishers are unable to form up, the unit is
+•   Must ‘Hold’ if charged by an enemy.’                                  considered to have lost its coherency, as described on page 184.’
+
+
+
+
+                                                                      3
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Page 190                                                                 Page 211
+Regular Infantry Rules: Change the entry as follows:                     Challenges & Mounts: Delete the second sentence, then add
+‘Press of Battle: In the heat of battle, orderly ranks become            the following note:
+a swirling melee. Except during a turn in which it charged,              ‘Note that, if either participant is slain before their rival or a mount
+the fighting rank of a unit that has this rule and is arrayed in         can make an attack, those attacks are lost.’
+combat order is not one, but two ranks deep. In other words,
+models that are directly behind and in base contact with                 Pages 212 & 214
+models in the unit’s actual fighting rank are also considered to         Flail: Change the weapon profile as follows:
+be within its fighting rank.’
+                                                                                                R     S         AP   Special Rules
+‘Massed Infantry: Numbers alone can sometimes overcome                   Flail                Combat S+2        -2   Armour Bane (1),
+the foe. When determining combat results, if one side has a                                                          Requires Two Hands
+higher Unit Strength than the other and includes one or more             Notes: A flail’s Strength modifier and Armour Bane (1) special
+units with this rule, that side may claim a bonus of +1 combat           rule apply only against enemy models the wielder charged this turn.
+result point.’
+                                                                         Page 213
+‘Parry: With sword and shield, warriors attempt to deflect               More Than One Combat Weapon: Change the first bullet
+enemy attacks. Whilst engaged in close combat, a model                   point as follows, then delete the fourth bullet point:
+with this rule that is equipped with and chooses to use a                • ‘If a unit that is engaged in combat is equipped with two or
+hand weapon and shield improves its armour value by 1, to a                 more combat weapons, you must choose which weapon it
+maximum of 3+.’                                                             will fight with when its combat is chosen during Step 1.1 of
+                                                                            each and every Choose & Fight Combat sub-phase.’
+Heavy Infantry Rules: Add the following:
+‘Press of Battle: See Regular Infantry entry, above.’                    Page 214
+                                                                         Halberd: Change the weapon profile as follows:
+‘Massed Infantry: See Regular Infantry entry, above.’                                            R    S     AP Special Rules
+                                                                         Halberd             Combat S+1 -1 (-2) Armour Bane (1),
+‘Parry: See Regular Infantry entry, above.’                                                                         Requires Two Hands
+                                                                         Notes: A halberd has an AP of -2 against enemy models the
+Page 197                                                                 wielder charged this turn.
+Weapon of War: Change the first sentence of the second
+paragraph, as follows:                                                   Morning Star: Change the weapon profile as follows:
+‘However, a war machine can freely pivot about its centre                                         R       S    AP Special Rules
+immediately before shooting (the better to face the enemy)               Morning star         Combat S+1 -1 Armour Bane (1)
+and may make a follow up move as normal.’                                Notes: A morning star’s Strength modifier and Armour Bane (1)
+                                                                         special rule apply only against enemy models the wielder charged
+Page 209                                                                 this turn.
+Enemy Shooting: Change the first paragraph as follows:
+‘A character that has joined a unit of models of the same troop          Page 215
+type as them (i.e., infantry or cavalry), cannot be targeted by          Lance: Change the weapon’s Notes as follows:
+enemy shooting unless:’                                                  ‘Notes: Models whose troop type is ‘cavalry’ or ‘monster’ only. A
+                                                                         lance can only be used during a turn in which the wielder charged,
+Change the first sentence of the second paragraph, after the             and its Strength and Armour Piercing modifiers apply only against
+bullet points, as follows:                                               enemy models the wielder charged that turn.’
+‘If there are fewer than five rank and file models of the same
+troop type as the character in the unit, the controlling player
+must first allocate hits to the unit until one hit has been
+allocated to each model it contains.’
+
+“Look Out, Sir!”: Change the first sentence as follows:
+‘If a character is hit by a shooting attack, and if there are five
+or more rank and file models of the same troop type as the
+character in the unit, the character can make a “Look Out,
+Sir!” roll.’
+
+
+
+
+                                                                     4
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Page 220                                                                Page 323
+Maximum Armour Value: Change the entry as follows:                      Steed of Shadows: Change the spell’s Casting Value to ‘8+’.
+‘Regardless of the armour it wears or the equipment it carries,
+there is a limit to how well protected a model can be, with             Daemonic Vessel: Change the spell’s Casting Value to ‘9+’.
+larger models proving much harder to encase in armour than
+their smaller counterparts. To represent this, models whose             Vortex of Chaos: Change the third, fourth and fifth sentences
+troop type is:                                                          of the spell’s effect as follows:
+                                                                        ‘Whilst in play, the template is treated as difficult terrain. The
+• ‘Infantry’ or ‘cavalry’ can never have an armour value                template scatters D6" during every Start of Turn sub-phase
+  better than 2+.                                                       (see page 95). Any unit (friend or foe) that moves through
+• ‘Chariot’, ‘monster’ or ‘war machine’ can never have an               the template, or that the template moves over, suffers D6+1
+  armour value better than 3+.                                          Strength 3 hits, each with an AP of -.’
+
+Any bonuses, regardless of their source, that would improve a           Page 325
+model’s armour further have no effect.’                                 Infernal Gateway: Change the spell’s Casting Value to ‘9+’.
+
+Page 227                                                                Page 327
+5. Crunch: Change the second bullet point as follows:                   Flaming Sword: Change the spell’s Casting Value to ‘7+’.
+‘If the path of the cannonball meets a hill, impassable terrain
+or a high linear obstacle, it stops immediately. No further             Summon Elemental Spirit: Change the third, fourth and fifth
+models are hit.’                                                        sentences of the spell’s effect as follows:
+                                                                        ‘Whilst in play, the template is treated as difficult terrain over
+Page 270                                                                which no line of sight can be drawn. The template scatters
+Woodland Boundaries: Change the second paragraph                        D6" during every Start of Turn sub-phase (see page 95). Any
+as follows:                                                             enemy unit that moves through the template, or that the
+‘Regardless of the position of any individual trees within the          template moves over, suffers D3+3 Strength 4 hits, each with
+terrain feature, any model or unit counts as being behind               an AP of -1.’
+partial cover as long as over half of the model, or over half of
+the models within the unit, is within the woods (i.e., within the       Earthen Ramparts: Change the spell’s Casting Value to ‘9+’.
+terrain feature’s clearly defined edge).’
+                                                                        Travel Mystical Pathway: Change the first sentence of the
+Page 286                                                                spell’s effect as follows:
+Dead or Fled: Change the third bullet point as follows:                 ‘If the target friendly unit is not fleeing and has not already
+• ‘Each enemy unit that has been reduced to 25% of its                  moved during this Movement phase, you may immediately
+  starting Unit Strength or less at the end of the battle or, if        remove it from the battlefield and replace it anywhere
+  its Unit Strength is equal to its starting Wounds, to 25% of          completely within 12" of its original location, but not within 6"
+  its starting Wounds or less at the end of the battle, is worth        of any enemy models.’
+  a number of Victory Points equal to 50% of its points cost
+  (rounding fractions up).’                                             Page 329
+                                                                        Shield of Saphery: Change the spell’s Casting Value to ‘8+’.
+Page 321
+Pillar of Fire: Change the third, fourth and fifth sentences of         Page 331
+the spell’s effect as follows:                                          Confounding Convocation: Change the spell’s Casting Value
+‘Whilst in play, the template is treated as difficult terrain.          to ‘8+’.
+The template scatters D6" during every Start of Turn sub-
+phase (see page 95). Any enemy unit that moves through                  Miasmic Mirage: Change the spell’s Casting Value to ‘10+’.
+the template, or that the template moves over, suffers D3+3
+Strength 3 hits, each with an AP of -2.’
+
+Arcane Urgency: Change the spell’s Casting Value to ‘9+’.
+
+Curse of Cowardly Flight: Change the spell’s Casting Value
+to ‘8+’.
+
+
+
+
+                                                                    5
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Page 333                                                                 Page 342
+Deathly Cabal: Change the spell’s Casting Value to ‘8+’.                 Ruby Ring of Ruin: Change the Points to ‘35’ and change the
+                                                                         rule as follows:
+Spiritual Vortex: Change the spell’s Casting Value to ‘10+’ and          ‘The wielder of the Ruby Ring of Ruin can cast the Fireball
+change the fourth sentence of its effect as follows:                     spell from the Lore of Battle Magic (as described on page 321)
+‘Whilst within 8" of one or more Spiritual Vortexes, enemy               as a Bound spell, with a Power Level of 1.’
+units suffer a -1 modifier to their Leadership characteristic
+(to a minimum of 2) and cannot use their General’s Inspiring             Page 344 (& Page 1 Of The Quick Reference Sheet)
+Presence special rule.’                                                  Casting a Spell: Change the first paragraph as follows:
+                                                                         ‘To cast a spell, roll 2D6, then divide the casting Wizard’s Level
+Curse of Years: Change the spell’s Casting Value to ‘9+’.                of Wizardry by 2 (rounding fractions up) and add the result to
+                                                                         the Casting roll:’
+Page 334
+Fist of Gork (or Mork): Change the spell’s Casting Value to              Dispelling a Spell: Change the second sentence of the first
+‘8+’.                                                                    paragraph as follows:
+                                                                         ‘To dispel a spell, roll 2D6 (if attempting a Wizardly dispel,
+Page 335                                                                 divide the dispelling Wizard’s Level of Wizardry by 2 and add
+’Ere We Go!: Change the spell’s Casting Value to ‘8+’.                   the result to the Dispel roll):’
+
+Foot of Gork (Or Mork): Change the third, fourth and fifth               Change the first bullet point as follows:
+sentences of the spell’s effect as follows:                              • If the result exceeds the Casting result, the spell is dispelled.
+‘Whilst in play, the template is treated as difficult terrain. The
+template scatters 2D6" during every Start of Turn sub-phase              Warhammer: The Old World
+(see page 95). Any unit (friend or foe) that moves through               Matched Play Guide
+the template, or that the template moves over, suffers D3+3
+Strength 5 hits, each with an AP of -1.’                                 Page 28
+                                                                         Baggage Trains: Change the second sentence of the second
+Page 338                                                                 paragraph as follows:
+Ogre Blade: Change the Points to ‘75’.                                   ‘Baggage trains are treated as impassable terrain for the
+                                                                         purposes of movement, but are ignored for the purposes of
+Page 339                                                                 line of sight.’
+Berserker Blade: Change the weapon profile as follows:
+                       R       S     AP Special Rules                    Arcane Journal The War Of Settra’s Fury
+Berserker Blade Combat S+1            -     Extra Attacks (+1),
+                                            Impetuous,                   Battle March
+                                            Magical Attacks              Page 20
+Notes: The wielder of the Berserker Blade is Impetuous.                  Close Encounter Deployment Map: Change the length of
+                                                                         each short edge to 15".
+Page 340                                                                 Opposed Flanks Deployment Map: Change the distance
+Bedazzling Helm: Add the following to the start of the rule:             between deployment zones to 18".
+‘Models whose troop type is ‘infantry’ or ‘cavalry’ only.’
+
+
+
+
+                                                                     6
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Frequently Asked Questions
+Below you will find our answers to frequently asked questions. Where possible, answers are given immediately, followed by
+further explanations. When this document is revised, updated entries will be highlighted in [blue], while entirely new additions
+will be highlighted in [magenta].
+
+General Principles                                                         Q: If some of my opponent’s attacks cause multiple Wounds to
+Q: If a specific natural roll triggers an effect, is that effect           be lost per unsaved wound they cause, in what order are those
+still triggered if the dice is re-rolled and the re-roll gives a           unsaved wounds applied to my unit?
+different result?                                                          A: Apply unsaved wounds to a unit one at a time and one model
+A: No. When you re-roll a dice the previous roll is discarded. This        at a time. When a model is reduced to zero Wounds on its profile,
+includes any effects that roll may have triggered.                         it is removed from play as a casualty (as described on page 102).
+                                                                           If a model loses more Wounds than it has on its profile, the excess
+Q: If I mark the position of a unit then proceed to move it                wounds are lost – they do not spill over onto other models in the
+before putting it back where it was and moving it again, does              same unit.
+this count as a take-back?
+A: Yes, absolutely.                                                        With this in mind, apply unsaved wounds that cause models to lose
+                                                                           all of their remaining Wounds first (Killing Blows and Monster
+Q: What happens if a Hit is rolled on the Scatter dice for an              Slaying Blows, for example), then unsaved wounds that cause
+object that moves in a random direction, do I use the small                multiple Wounds to be lost (Multiple Wounds (X), for example),
+arrow on the Hit icon to determine the direction?                          then, finally, unsaved wounds that cause a single Wound to be lost.
+A: Essentially, objects that move in a random direction scatter, as
+described on page 95. Such objects only move in the direction shown        Q: If a unit with the Press of Battle rule has two fighting ranks,
+by the small arrow on the Hit icon if the rules tell you they do so.       can I remove casualties from the second rank?
+Otherwise, the object does not move.                                       A: No. Models in the first fighting rank, the rank in base contact
+                                                                           with the enemy, fall first as casualties.
+Q: What happens if a scatter roll causes any part of an object
+to cross beyond the edge of the battlefield?                               Q: If a unit contains models of two different troop types, how
+A: The object is removed from play.                                        do I determine its maximum rank bonus?
+                                                                           A: In such cases, the troop type of the majority of the models
+Q: If a model is required to make a Leadership test using its              determines the unit’s maximum rank bonus.
+own Leadership characteristic, can it use the Leadership of a
+different model, the General for example, instead?                         Q: How does a Close Order unit of just one model act, is it still
+A: No. When the rules state a model must make a Leadership test            a Close Order formation, or does it act like a Skirmisher?
+using its own Leadership, it must use its own Leadership.                  A: A Close Order unit always acts as such, even if it only contains a
+                                                                           single model.
+Q: Some single use special rules and magic items require a
+Leadership test to use. Do they count as having been used even             Q: Does a unit count as being obscured when some of the
+if this test is failed?                                                    models within it are behind others?
+A: Yes.                                                                    A: No. A unit cannot be obscured from the enemy by itself.
+
+Q: Is there a maximum beyond which characteristics cannot                  Q: Can different saves be combined together to improve their
+be modified?                                                               save value? For example, if a model has two Ward saves, can
+A: Unless a rule specifies a maximum, no.                                  they be combined to give a single Ward save with a better
+                                                                           Warding value?
+Q: Can a unit arrayed in Close Order or Open Order                          A: No, values given as a target number cannot be combined to
+formation be one model wide?                                               lower the target number. If a model has two or more Ward saves, as
+A: Yes.                                                                    per the example, simply use the best.
+
+
+
+
+                                                                       7
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Magic                                                                          Q: Can a Wizard with a physical attribute that ‘counts as’ a
+Q: How many spells can a Wizard attempt to cast during                         type of armour (such as a Treeman Ancient’s arboreal armour)
+a single phase? For example, if a Wizard knows a Magical                       make Casting or Dispel rolls?
+Vortex and a Magic Missile, can they attempt to cast both                      A: Yes. Whilst such attributes are as protective as a suit of armour,
+during the same Shooting phase                                                 such models do not wear armour.
+A: A Wizard can only cast a number of spells up to their Level of
+Wizardry per turn, but can attempt to cast multiple spells during              Q: Does a Wizard that has joined a unit need to be in base
+a single phase. In other words, should a Level 2 Wizard know two               contact with an enemy model to cast an Assailment spell, or
+Magic Missiles and one Magical Vortex (three spells), they can only            do they only need to be within the fighting rank?
+cast two of them per turn, but may cast both during the same phase.            A: They only need to be within the fighting rank.
+
+Q: Casting the same Enchantment or Hex on a unit more than                     Q: If a Wizard declines a challenge and retires from combat,
+once has no further effect, but what about spells with a range of              does their unit lose the benefits of any range ‘Self ’ spells that
+‘Self ’ that affect all units within a certain distance of the caster?         Wizard has cast?
+A: Unless stated otherwise, such spells are not cumulative and                 A: Yes.
+casting them multiple times will have no further effect.
+                                                                               Q: If a unit with the Fly (X) special rule moves over a magical
+Q: If a Wizard has a magic item or special rule that allows                    vortex that counts as dangerous terrain, is it affected by it?
+them to re-roll a failed Casting roll, can they re-roll a natural              A: Yes. Magical vortexes are considered tall enough to affect even
+double 1 and avoid a Miscast?                                                  models that are flying high above the battlefield.
+A: No. A roll of a natural double 1 isn’t merely a failed Casting roll,
+it is a Miscast, as described on page 109.                                     Movement
+                                                                               Q: What constitutes a ‘move’?
+Q: If a spell has two Casting Values, do I have to say which I’m               A: Quite simply, if you touch a model or unit and change its
+attempting to cast the spell at before making my Casting roll?                 position in any way, it has moved. There are some exceptions to
+A: No, your casting result determines the ‘strength’ of the spell. In          this, a war machine that pivots does not count as having moved, for
+other words, the higher your casting result, the more power the spell          example, but in the vast majority of cases, the term ‘move’ follows
+will have and the greater its effect will be.                                  the broadest definition; if a model or unit shifts its position or
+                                                                               changes its location, it has moved.
+Q: If a Remains in Play spell with two Casting Values is cast at
+the higher value, which is used when trying to dispel it during                Q: What is the furthest a model can move?
+the Conjuration sub-phase?                                                     A: No model can move more than twice its Movement
+A: As stated on page 111, in order to dispel a Remains in Play spell           characteristic or, when movement is determined by a dice roll
+during your Conjuration sub-phase, you must beat the minimum                   (such as when a unit charges or flees), further than the distance
+casting value given in the spell’s description. This is the case even if       rolled. There are, of course, exceptions to this, the most obvious
+the spell was cast at the higher of two given casting values.                  being when a unit in Marching Column marches at triple its
+                                                                               Movement characteristic, when models are moved by the effect of
+Q: How many Remains in Play spells can I attempt to dispel                     a spell, when a unit is obliged to continue its move rather than end
+during my Conjuration sub-phase?                                               up ‘on top’ of another unit, and obligatory moves (such as when a
+A: As many as you wish, or, perhaps more accurately, as many as                charging unit wheels to align with the enemy, or when a unit pivots
+your opponent has in play and as many as you are able.                         before fleeing).
+
+Q: What happens to a Remains in Play spell that is already in                  Note that when a unit wheels, those at its rear do not really follow
+effect if the Wizard that cast it attempts to cast it again?                   a long, curving path, as it might appear when moving a large block
+A: It ends immediately.                                                        of models on the table. In reality, those models would take a more
+                                                                               direct route, following the path of the front rank and resuming their
+Q: Can a model wearing armour or carrying a shield cast a                      formation behind it. Accordingly, we do not measure the distance
+Bound spell?                                                                   moved by models in the rear ranks of a wheeling unit.
+A: Yes.
+                                                                               Note also that, when a unit is permitted a free manoeuvre before or
+Q: Can a Wizard attempt to dispel a Bound spell by                             after moving, this is free in that it does not count towards the move
+attempting a Wizardly dispel?                                                  itself, but the limitation that no model can move more than twice
+A: If the Wizard is within range of the model casting the Bound                its Movement characteristic applies within the manoeuvre.
+spell and not otherwise prevented from attempting a Wizardly
+dispel, yes. As stated on page 109, you may attempt to dispel a
+Bound spell as usual.
+
+
+                                                                           8
+                  Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: Can a unit that rallies and reforms during the Rally Fleeing              Q: If a Drilled unit in Marching Column has to declare a
+Units sub-phase move during the Movement phase?                              charge due to being Frenzied or Impetuous, can it choose not
+A: Yes.                                                                      to use Drilled to redress the ranks and adopt combat order?
+                                                                             A: If it is able to redress the ranks (i.e., if there is space for it to do
+Q: Can a unit move whilst locked in combat?                                  so), no. A unit that is obliged to charge must endeavour to make
+A: No.                                                                       use of any special rules it has in order to charge. The unit just really
+                                                                             wants to charge, and it’ll play this game without you if it has to!
+Q: Is a unit’s maximum possible charge range the maximum
+distance from an enemy unit at which it can declare a charge,                Q: If I want to charge an enemy unit that is a Large Target
+or the maximum distance it can move when making a                            with a unit of mine that is in its front arc (for example) but
+charge move?                                                                 cannot because the enemy unit is already engaged in its front
+A: It is the maximum distance from an enemy unit at which it can             arc, can I instead charge its flank?
+declare a charge.                                                            A: No. Sometimes a charge isn’t possible.
+
+Q: When a unit performs a manoeuvre, can its front edge pass                 Q: If a single model unit straddles two arcs of an enemy unit
+through another unit?                                                        it wishes to charge, is it always considered to be in the arc that
+A: No. The only exception to this is when a unit pivots.                     gives the least advantage?
+                                                                             A: No, this is only the case when you cannot determine which arc
+Q: When a unit wheels, is it acceptable for a rear corner to                 of an enemy unit a charging unit is within. If it is clear that the
+pass through another unit?                                                   majority of a charging unit is within one particular arc, even if that
+A: Yes, provided the unit does not end its movement ‘on top’ of              unit consists of only one model, it will charge into that arc.
+another unit or within 1" of an enemy unit.
+                                                                             Q: If a unit charges an enemy that is defending a low linear
+Q: If a unit will have to wheel before or during a charge,                   obstacle, can it stop on top of the obstacle?
+do I have to allow for that when declaring and measuring                     A: No. As stated on page 270, the charging unit moves into base
+the charge?                                                                  contact with the obstacle.
+A: Yes. Wheeling during a charge is part of the charge move. The
+free wheel to align once contact is made is free.                            Q: When a unit redirects a charge, can it charge a unit that lies
+                                                                             beyond its maximum possible charge range?
+Q: Does a unit that has to declare a charge due to being                     A: No.
+Frenzied or Impetuous have to do so if a friendly unit of
+Skirmishers lies between it and a potential charge target,                   Q: When a unit enters the battle as reinforcements, is there a
+obstructing its movement?                                                    limit to how far onto the battlefield models can be placed?
+A: If there is a chance of the Skirmishers moving so that they are           A: Yes. The unit is considered to have moved onto the battlefield.
+no longer an obstruction (if they declare a charge, for example), yes.       Therefore, no model can be placed more than twice its Movement
+Otherwise, no.                                                               characteristic from the edge of the battlefield its unit enters from.
+
+Q: Although it cannot make a charge move, a unit in                          Q: Can a Wizard cast a Conveyance spell during a turn in
+Marching Column can declare a charge. Why is this?                           which they charged?
+A: There are several reasons. Firstly, a Drilled unit that declares a        A: No.
+charge whilst in Marching Column can freely redress its ranks to
+adopt Combat Order after determining its charge range, but before
+moving, thus allowing it to make a charge move.
+
+Secondly, units that are obliged to declare a charge in certain
+circumstances (those that are Frenzied or Impetuous, for example)
+must do so even whilst in Marching Column. If they cannot make
+the charge move, they don’t move at all and the charge is failed.
+This prevents Marching Column being used to avoid declaring
+compulsory charges.
+
+Alternatively, there might be a psychological advantage to declaring
+a charge with a Marching Column. For example, the unit might
+cause Terror, or the charge target might already be fleeing. Of
+course, it isn’t easy to set up situations where such tactics can be
+used and therein lies the challenge.
+
+
+                                                                         9
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Shooting                                                                           Q: Models in a fighting rank cannot fight if they are killed
+Q: Can a model that chooses to Stand & Shoot (or Fire &                            before they have a chance to fight. But can models in a second
+Flee) as a charge reaction attempt to cast a Magic Missile or                      fighting rank (in the case of units within the Press of Battle
+Magical Vortex?                                                                    rule) fight if the model in front is slain, and can a model make
+A: No. As stated on page 143, models that know such spells can                     a supporting attack if the model(s) in the fighting ranks(s) in
+attempt to cast them when chosen during the active player’s                        front of it are slain?
+Shooting phase. Perhaps obviously, this includes Bound spells.                     A: Yes. Unless they have been killed, models that are in a fighting
+                                                                                   rank or that are able to make supporting attacks can do so as
+Q: Can a model use a Breath weapon after marching?                                 normal. In other words, casualties inflicted reduce, firstly, the
+A: No. A model cannot shoot during the Shooting phase if it                        number of models in the fighting rank(s) that are able to fight
+marched during the preceding Movement phase and, although they                     (starting with the first fighting rank) and, secondly, the number of
+work differently to most missile weapons, Breath weapons are a type                models in the ‘supporting rank’ that are able to fight.
+of missile weapon.
+                                                                                   Q: How many attacks can a model with a split profile make
+Q: Models cannot cast Magic Missiles or Magical Vortexes                           if it is in the fighting rank but not in base contact with
+after marching, but does this include Bound spells?                                the enemy?
+A: Yes.                                                                            A: A model with a split profile consists of not one model, but
+                                                                                   several, all sharing the same base. Therefore, each model on that
+Q: Can a unit that is partially on a hill shoot in two ranks?                      base could make a single attack. In the case of a cavalry model, for
+A: No. To claim the benefits of being on a hill, a unit must be                    example, this would be one attack from the rider and one from
+entirely on the hill.                                                              their mount.
+
+Q: Can a unit on a hill draw a line of sight across and shoot                      Q: My unit charges an enemy unit that is defending a low
+over another unit on the same hill?                                                linear obstacle, making base contact with the obstacle
+A: A unit that is closer to the top of a hill (i.e., the centre of the hill        rather than the unit. Can my unit make Impact Hits or
+or the edge of the battlefield) can draw a line of sight across and                Stomp Attacks?
+shoot over one that is closer to the bottom. Units cannot draw a line              A: No. Models must be in base contact with the enemy to make
+of sight across or shoot over units that are closer to the top of a hill           Impact Hits or Stomp Attacks.
+than they are.
+                                                                                   Q: Can a Close Order unit of just one model claim the Close
+Q: Some chariots are equipped with large scale missile                             Order combat result bonus?
+weapons such as bolt throwers. Who shoots such weapons; the                        A: Yes, provided it has a high enough Unit Strength (as per the
+crew, the beasts that draw the chariot, or the chariot itself ?                    errata on page 1). A unit of just one model is still a unit.
+A: Missile weapons mounted on chariots (or howdahs) are shot by
+the crew, using their Ballistic Skill.                                             Q: What happens to a unit that Gives Ground whilst within 2"
+                                                                                   of the edge of the battlefield?
+Combat                                                                             A: Should any part of a unit cross beyond the edge of the battlefield
+Q: Models that are in base contact with different enemy units                      whilst it is Giving Ground, the entire unit is removed from play and
+can choose which to attack. When is this decision made, at the                     counts as having been destroyed.
+start of the combat or when the model’s turn to fight comes?
+A: When the model’s turn to fight comes.                                           Q: What happens to a unit that cannot Give Ground due to
+                                                                                   the presence of another unit?
+Q: If a unit’s fighting rank is engaged with two enemy units,                      A: The unit’s movement stops immediately, as if it
+one of which is a lone character engaged in a challenge, can                       were surrounded.
+models within the unit’s fighting rank ignore the character
+even if they are closer to it than to the other enemy unit, or are                 Q: What happens if a unit that wishes to make a pursuit or
+their attacks lost?                                                                overrun move cannot move due to the presence of other units?
+A: Models not engaged in a challenge cannot direct their attacks                   A: It may happen that it is simply impossible for a pursuing or
+against models that are. In other words, any models that would                     overrunning unit to move without it ending up ‘on top’ of another
+normally have to direct their attacks against the character are free to            unit. In such cases, the unit does not move, but is considered to have
+direct them instead against the other unit their unit is engaged with.             made a pursuit or overrun move.
+
+Q: When a model fights, must it make all of its attacks, or can
+it choose to make fewer?
+A: If a model is able to fight, it must make all of its attacks.
+
+
+
+                                                                              10
+                  Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: If a unit completely destroys its enemy in combat                         The Psychology of War
+and makes an overrun move, can it attempt to reform                          Q: Are units required to make Panic tests due to the actions of
+after moving?                                                                friendly models? For example, if a Wizard miscasts and rolls a
+A: Unless it pursued into a fresh enemy, yes. A unit that overruns           2-4 on the Miscast table, causing a Dimensional Cascade and
+makes a normal pursuit move and, since its enemy has already been            inflicting sufficient casualties on a friendly unit to cause it to
+wiped out, it may attempt to reform as if it had run down its foe, as        Panic, must that unit make a Panic test?
+described on page 129.                                                       A: Yes (that example sounds to us like something that really would
+                                                                             cause panic amongst the ranks!).
+Q: On page 157 it states that units that pursue and catch an
+enemy that Fell Back in Good Order count as having charged                   Q: Units must make a Panic test when a nearby friendly unit
+during the next turn, but what exactly does this mean?                       with a Unit Strength of 5 or more is destroyed. When is Unit
+A: Exactly what it says – the pursuing unit counts as having charged         Strength counted – from the start of the turn, the start of the
+its enemy during the next turn of the game, when the combat is               phase, or the point at which the unit is destroyed?
+fought, even though the unit will not actually have moved during             A: From the start of the phase during which the unit was destroyed.
+that turn. This means rules and weapons that can only be used by             For example, if a friendly unit with a Unit Strength of 10 is destroyed
+charging models can be used, that Initiative modifiers for charging          by enemy shooting during a single Shooting phase, it causes panic in
+are granted (based on the distance the unit pursued), and so forth.          nearby friendly units. Players are not expected to remember the Unit
+                                                                             Strength of every unit from turn to turn or phase to phase, but should
+Challenges                                                                   keep track of Unit Strength during each phase.
+Q: If a Wizard engaged in a challenge knows and uses an
+Assailment spell that can hit multiple enemy models (such                    Universal Special Rules
+as Assailment spells that use a template), are multiple enemy                Q: Can you choose not to roll for the arrival of Ambushers
+models hit, or is it only the other participant in the challenge             during your Start of Turn sub-phase?
+that can be hit?                                                             A: No. Unless the unit itself or the scenario being played has a
+A: When an Assailment spell is cast in a challenge, it can only hit          special rule that changes the way in which Ambushers arrive, you
+the other participant in the challenge.                                      must roll for their arrival during each of your turns, from round
+                                                                             two onwards. However, any special rules that affect the arrival of
+Q: If one participant in a challenge causes Impact Hits or                   Ambushers which take effect after the Start of Turn sub-phase but
+makes Stomp Attacks, where are they directed?                                before the Compulsory Moves sub-phase may be used as normal,
+A: Impact Hits are resolved prior to issuing challenges. Stomp               regardless of the result of the Ambushers roll.
+Attacks may be directed against the other participant in
+the challenge.                                                               Q: Does the Armour Bane (X) special rule apply to spells cast
+                                                                             by a model with the rule, such as Assailment spells, Magic
+Q: If one participant in a challenge is killed, can other models             Missiles or Magical Vortexes?
+engaged in the same combat direct their Attacks against the                  A: No.
+survivor during the same Combat phase when it is their turn
+to fight?                                                                    Q: If a model has Armour Bane (X) listed amongst its special
+A: No. Even if one participant in a challenge has been slain, the            rules (i.e., if the model has the special rule itself rather than
+challenge is considered to be ongoing until the end of the current           a weapon it carries having it), does it apply to Impact Hits or
+Combat phase.                                                                Stomp Attacks?
+                                                                             A: Yes.
+Q: Is Overkill counted by or against a champion in a challenge,
+or does it only count for characters?                                        Q: Some mounted models have the Counter Charge special
+A: Overkill counts in all challenges, whether the participants are           rule but others do not, even though they have the same type of
+characters or champions.                                                     mount. Is this intentional?
+                                                                             A: Yes. Counter Charge is a rule that represents the skill and
+Q: Two characters are engaged in a challenge whilst their                    ferocity of the rider, not their mount. In other words, not every
+units battle around them. At the end of the round, the losing                rider is willing or able to perform a counter charge, regardless of
+unit might Fall Back in Good Order or Give Ground. If their                  their mount.
+enemy pursues or follows up, does the challenge continue?
+A: Yes. As stated on page 211, if both participants in a                     Q: When a unit Counter Charges, it rolls D3+1 to determine
+challenge survive the round and if the combat continues, the                 how far it moves. Is this roll counted as a Charge roll?
+challenge continues.                                                         A: No.
+
+
+
+
+                                                                        11
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: If a unit charged by two or more enemy units Counter                     Q: If a model with a split profile has the Impact Hits (X)
+Charges one of them, it may end its movement presenting                     special rule, do all parts of the model cause Impact Hits?
+a different arc to the other charging unit(s). Do those units               A: No. Impact Hits are only made by a mount, not by its rider(s).
+resolve their charges against those arcs?                                   In the case of a chariot, Impact Hits are made by the chariot itself,
+A: Yes. When a unit Counter Charges, it risks exposing its flanks or        not by the beasts that draw it. If a rider has their own Impact Hits
+rear to the enemy, such are the perils of bravado.                          (X) special rule, these are made separately by the rider.
+
+Q: If a unit whose troop type is ‘infantry’ that has been joined            Q: Impact Hits and Stomp Attacks cannot be directed against
+by a character whose troop type is ‘cavalry’ charges an enemy               a character that has joined a unit unless that unit has a Unit
+unit with the Counter Charge special rule, can that unit                    Strength of five or less. Does this limitation also apply to
+Counter Charge?                                                             unit champions?
+A: No. A unit’s troop type doesn’t change when joined by                    A: Yes. Whilst unit champions are not characters, they function
+a character.                                                                like characters in many ways, and this is one. Impact Hits and
+                                                                            Stomp Attacks are indiscriminate, and targeting specific models,
+Q: How far does a model with the Random Movement special                    like unit champions, is not possible unless there are fewer than five
+rule move when making a Counter Charge?                                     rank and file models in the unit.
+A: As stated in the Counter Charge special rule, a model that
+makes a Counter Charge moves D3+1".                                         Q: If a unit with Frenzy or Impetuous has two movement
+                                                                            characteristics (for example, if it can also Fly), does it have to
+Q: Can a Drilled unit redress the ranks before Giving Ground?               use the greater when determining if it must declare a charge?
+A: Yes. A unit that Gives Ground is not a fleeing unit.                     A: If it is able to use the greater, then yes, it must (tactically, you
+                                                                            might not want it to, but a Frenzied Lord of Chaos on a mighty
+Note that, as mentioned previously, should any part of a unit               Dragon doesn’t care about your tactics!).
+cross beyond the edge of the battlefield whilst it is Giving Ground,
+the entire unit is removed from play and counts as having been              Q: If a unit that is subject to Frenzy becomes subject to Frenzy
+destroyed. It is intentional that a Drilled unit might be able to           again, does it get +2 Attacks?
+avoid this fate.                                                            A: No. A unit is either Frenzied or it isn’t, multiple instances of
+                                                                            Frenzy are not cumulative.
+Q: Can an Evasive unit use that special rule whilst engaged
+in combat?                                                                  Q: ‘War beasts’ and ‘swarms’ Fear models with the Flaming
+A: No.                                                                      Attacks special rule. Do ‘war beasts’ and ‘swarms’ that have the
+                                                                            Immune to Psychology special rule Fear models that have the
+Q: Do effects that modify a model’s Movement characteristic                 Flaming Attacks special rule?
+also modify how far a model with the Fly (X) special rule                   A: Yes. Even though models that cause Fear are normally immune to
+can fly?                                                                    it, the rule that Swarms and War beasts Fear models with Flaming
+A: Yes. If a model has the Fly (X) special rule, the number given in        Attacks is an exception called out in those troop types’ unique rules.
+brackets is essentially a second Movement characteristic. Any effect
+that modifies one will modify both.                                         Q: If some models in a unit cause Fear but others do not, do
+                                                                            I use the Unit Strength of the whole unit or just that of the
+Q: Can a model with two versions of the Fly (X) special rule                models that cause Fear to determine if an enemy unit has a
+combine both and fly further?                                               lower Unit Strength?
+A: No. A model that has more than one version of the Fly (X)                A: Count only the Unit Strength of the models that cause Fear.
+special rule essentially has two Movement characteristics it can use
+when flying. Of these, you may use the best.                                Q: Units with the Motley Crew special rule use the armour
+                                                                            value of the ‘majority’ of models. What if there is an even
+Q: If a unit with the Fly (X) special rule is engaged in combat,            number of different armour values?
+can it use its ‘Fly Movement’ characteristic when determining               A: In such cases, use the better armour value (not including the
+which models are close enough to models within the enemy                    armour value of any characters or champions that have purchased
+unit to fight or make supporting attacks?                                   magic items or unique upgrades to improve their armour).
+A: No. Models with the Fly (X) special rule only fly whilst moving.
+In other words, such models are considered to have landed on the            Q: What happens if a unit with the Move through Cover
+ground whilst the fighting takes place, and must use their given            special rule is joined by a character without it?
+Movement characteristic to determine if they are close enough to            A: Units move at the speed of their slowest model. Therefore, whilst
+the enemy to fight.                                                         the unit would suffer no penalty for moving through difficult or
+                                                                            dangerous terrain, the character would, potentially reducing how
+                                                                            far the entire unit can move.
+
+
+                                                                       12
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: What happens if a weapon is subject to both the Ponderous                Q: Are Wounds lost as a result of a model with Timmm-
+and Quick Shot special rules?                                               berrr! falling on a unit counted towards the enemy’s combat
+A: The rules effectively cancel one another out, meaning the                result score?
+weapon would suffer a -1 To Hit modifier for Moving and Shooting.           A: Yes.
+
+Q: Can a unit with the Random Movement special rule move                    Q: If a character without the Vanguard special rule joins a
+around or past an enemy unit, out of one arc and into another,              unit with it during deployment, can the character make a
+before making contact with that unit?                                       Vanguard move with the unit?
+A: No. Whilst units that move randomly do not declare charges, if           A: No. What’s more, if the unit is formed, it will not be able to
+you wish to move one into contact with an enemy unit, it must fulfil        make a Vanguard move, the presence of a character without the
+the same criteria as any other charging unit during its movement,           Vanguard special rule within its ranks prevents it. However, if the
+as detailed on page 126.                                                    unit is in Skirmish formation, it can make its Vanguard move as
+                                                                            normal, leaving the character behind.
+Q: How far does a unit with the Random Movement special
+rule move when Giving Ground?                                               Q: Can a character without the Veteran special rule that has
+A: All units move 2" when Giving Ground.                                    joined a unit with the Veteran special rule benefit from it
+                                                                            when attempting to use a special rule that requires them to
+Q: Can a unit that deploys using the Scouts special rule make a             make a Leadership test (Rallying Cry, for example)?
+Vanguard move?                                                              A: No. When a character attempts to use a special rule that
+A: No.                                                                      requires them to make a Leadership test, they must use their own
+                                                                            Leadership characteristic and, unless specifically stated otherwise,
+Q: Are units that deploy using the Scouts special rule counted              cannot use any additional special rules they themselves do not have.
+when determining which player finished deploying their
+army first?                                                                 Unusual Formations
+A: Yes.                                                                     Q: Some attacks allow a specific model within a unit to be
+                                                                            targeted. Can such an attack be used to break the coherency
+Q: If a model with a split profile has the Stomp Attacks (X)                of a unit of Skirmishers and cause other models to be removed
+special rule, do all parts of the model make Stomp Attacks?                 as well?
+A: No. Stomp attacks are only made by a mount, not by its rider(s).         A: No. As stated on page 184, you cannot remove a model from
+In the case of a chariot, Stomp Attacks are made by the beasts that         a unit of Skirmishers if doing so would cause the unit to lose
+draw it or, if there are no beasts, by the chariot itself.                  coherency. However, if an attack targets a specific model (such as a
+                                                                            champion or a character), that model must be removed if the attack
+Q: When a unit that does not have the Stupidity special rule is             reduces it to zero Wounds. In such cases, simply replace the removed
+joined by a character that does, the unit becomes subject to the            model with another model belonging to the same unit, one that
+special rule. What happens if the character leaves the unit?                could be removed as a casualty, in order to maintain unit coherency.
+A: The unit ceases to be subject to Stupidity the moment the
+character leaves the unit.                                                  Q: How do I determine the centre of a unit of Skirmishers?
+                                                                            A: The centre is the point that is equally distant from the models
+Q: Swiftstride enables a model to move further during a                     at the extremities of the group. However, when considering blast
+charge move than its maximum possible charge range. Why                     templates, the purpose of placing a blast template over the centre of
+is this?                                                                    a unit is to ensure a significant number of models are underneath
+A: Because models with this special rule delight in running down            it. In the case of a unit of Skirmishers, this is not always possible.
+cowards who flee before a charge!                                           Therefore, you may place the central hole of a blast template over
+                                                                            the model closest to the centre of a unit of Skirmishers.
+Q: Do models that cause Terror cause it in models that
+cause Fear?                                                                 Q: Sometimes, when a unit of Skirmishers charges or is
+A: No. Models that cause Terror cause Fear in models with the Fear          charged, some of the models cannot move far enough to form
+special rule, even though such models are normally immune to Fear.          up with the rest of the unit. What happens to those models?
+                                                                            A: The unit loses coherency, as described on page 184. This
+Q: If the winning side of a combat includes one or                          means models belonging to the unit must be removed from play as
+more models that cause Terror, do models on the losing                      casualties until the unit becomes coherent.
+side that cause Fear or Terror suffer the -1 modifier to
+their Leadership?
+A: No. Because models that cause Fear or Terror aren’t terrified by
+Terror causing enemies, they do not suffer the effects of Terror.
+
+
+
+                                                                       13
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: How does a unit of Skirmishers form up when charged by                     think of the missing crew model’s profile(s) as a way of representing
+two or more different enemy units from different directions?                  that the beasts pulling a character’s chariot are bound to be bigger,
+A: The Skirmishers should form up against the first charging unit             stronger and better trained than normal.
+to move into contact with them. The remaining enemy units then
+charge the formed Skirmishers. If any units are unable to complete            Q: A character mounted on a ridden monster or a chariot
+their charge moves, their charges are failed.                                 can choose to use their own or their mount’s armour value,
+                                                                              whichever is better. If the character wears magic armour but I
+Q: Do Skirmishers have flank or rear arcs whilst engaged                      choose to use the mount’s armour value, can I still claim other
+in combat?                                                                    benefits conferred by the magic armour?
+A: No.                                                                        A: No. You must use a magic item fully or not at all.
+
+Characters                                                                    Q: If I have a character with an armour value of 6+ mounted
+Q: Can my Battle Standard Bearer have a higher Leadership                     on a chariot with an armour value of 4+, for example, am I
+than my General?                                                              obliged to use the chariot’s armour value?
+A: No. As stated on page 203, the General is the character with the           A: No, you choose whichever armour value is better. However,
+highest Leadership. If this means not upgrading the character with            allowing for magical armour and other special rules, ‘better’ is
+the highest Leadership in your army to be your Battle Standard                somewhat subjective. Obviously an armour value of 4+ is better
+Bearer so that they can be your General, so be it.                            than one of 6+ but there is often more to deciding which armour
+                                                                              to use than just the armour value it offers, many types of magic
+Q: Can my army include a character that has a higher                          armour confer additional bonuses that make them better. Basically,
+Leadership than my General if that character has a special                    when the rules say ‘choose’, they are giving you a choice.
+rule (Loner, for example) that prevents them from being
+the General?                                                                  Q: If a character mounted on a ridden monster or chariot
+A: Yes.                                                                       carries a shield, does that improve the mount’s armour value?
+                                                                              A: No, a shield is carried by the character, not the mount.
+Q: If my army includes a Mercenary character, can I make
+them my General?                                                              Q: Does the presence in a unit of a character whose base takes
+A: No. An army’s General must be one of the characters listed in              up the space of two or more models in two or more ranks
+the ‘characters’ section of the army composition list you are using.          reduce that unit’s rank bonus?
+                                                                              A: No.
+Q: If a unit that is subject to any Leadership modifiers uses the
+General’s Inspiring Presence rule (or any other rule that allows              Q: A Clumsy unit cannot be joined by a character that is not
+a unit to use the Leadership of a nearby character), does the                 also Clumsy, but can a Clumsy character join a unit that is
+unit ignore those modifiers?                                                  not Clumsy?
+A: No, the modifier will still apply. For example, if a unit loses            A: Yes.
+a round of combat to a Terror causing enemy, the -1 modifier
+to Leadership caused by Terror applies to whichever Leadership                Q: Does a unit that is joined by a character of a different troop
+characteristic the unit makes its Break test against, be that its own         type gain the rules associated with the character’s troop type?
+or that of a nearby character.                                                A: No.
+
+Q: If my Battle Standard Bearer refuses a challenge and retires               Q: Can a character who is within the fighting rank of their
+from combat, can other units still benefit from their “Hold                   unit but not in base contact with the enemy move through the
+Your Ground” special rule?                                                    ranks so that they are?
+A: Not whilst that character’s unit is still engaged with the model           A: No. Characters can move through the ranks into the fighting
+that issued the challenge. A battle standard is somewhat less                 rank, but cannot move within the fighting rank.
+inspirational whilst being used as a blanket to hide beneath.
+                                                                              Q: Can a character be placed amongst a unit’s
+Q: When a character takes a chariot as a mount, do they                       command group?
+replace one of the crew?                                                      A: Yes.
+A: No. The points you pay for a chariot include its crew, whether
+that chariot is included in your army on its own or as a mount
+for a character. However, in reality it might prove difficult to fit a
+character and the full complement of crew into the chariot model
+itself. If so, it is perfectly acceptable to remove one or more of the
+crew models to make space for the character. In such cases, we can
+
+
+
+                                                                         14
+                  Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: If there is no space for a character in the front rank                     Q: Cannon do not directly target enemy models; they target
+of a unit with the Press of Battle rule, can they join the                    a point on the ground. How does this work with Targeting
+second rank?                                                                  Lone characters? Can a cannon be fired in such a way as to
+A: No, characters must be placed in the front rank. If this is not            hit a Lone character that would normally be protected from
+possible, they retire to the rear.                                            shooting by their proximity to a friendly unit?
+                                                                              A: The purpose of the Targeting Lone Characters rule is to protect
+Q: Can characters displace command group models into the                      characters from enemy shooting, even from shooting that does
+second rank of a unit with the Press of Battle rule?                          not follow the usual rules (though it does not protect them from
+A: No, command group models must always be in the front rank of               templates). Therefore, and in the spirit of this rule, unless they are
+their unit.                                                                   the closest target to the cannon, an enemy character that is within
+                                                                              3" of a friendly unit that contains five or more models of the same
+Q: If a character is in the back rank of a unit due to there not              troop type cannot be struck by a cannonball, even if their base lies
+being enough space for them in the front rank, do they confer                 directly under the path of the bouncing cannonball. However, if a
+any bonuses onto the unit?                                                    Lone character’s base lies directly underneath the strike point of a
+A: Unless they have a special rule stating otherwise, no.                     cannonball, they are hit.
+
+Q: If a Warband character (as described on page 180) joins                    Q: Some magic weapons or special rules allow specific models
+a Warband with a Rank Bonus of one or more, does the                          within a unit to be targeted. Do such attacks ignore the “Look
+modifier to their Leadership characteristic increase their                    Out, Sir!” rule?
+Command range?                                                                A: No.
+A: Yes.
+                                                                              Q: If a named character is equipped with a mundane weapon
+Q: If a Warband character joins a unit that isn’t a                           such as a lance or cavalry spear and a magic weapon, can they
+Warband, does that unit’s Rank Bonus modify their                             choose to use the lance or cavalry spear, or must they use their
+Leadership characteristic?                                                    magic weapon?
+A: No.                                                                        A: They must use their magic weapon. However, some named
+                                                                              characters will carry a ‘back-up’ weapon which they can use should
+Q: My unit wishes to shoot at an enemy lone character.                        their magic weapon be destroyed.
+However, an enemy unit that is more than 3" away from
+that character presents a closer target. Can I shoot at the                   Weapons Of War
+lone character?                                                               Q: Do special rules conferred by a model’s weapon apply to
+A: Yes. The rule that a lone character cannot be shot at unless they          attacks made by that model’s mount?
+are the closest target only extends to units they are within 3" of. If        A: No. Any rules conferred by a weapon, be it magical or mundane,
+a unit is more than 3" from the character, it does not protect them,          apply only to attacks made with that weapon. This can include,
+regardless of how close it is to the enemy.                                   but is not limited to, rules unique to a specific type of weapon, special
+                                                                              rules that apply to a particular weapon, or special rules that apply to
+Q: Can a character that has joined a unit of models of a                      a magic weapon. For example, if a Wizard is armed with the Sword
+different troop type be targeted by enemy shooting? For                       of Swiftness, attacks made with that weapon have the Strikes First
+example, if a character whose troop type is ‘light chariot’ joins             special rule, but the Wizard cannot claim that wielding the weapon
+a unit of ‘regular infantry’, can they be targeted?                           allows them to cast Assailment spells at Initiative 10.
+A: Yes. What’s more, they don’t get a “Look Out, Sir!” save either.
+                                                                              To give another example, if a model has a special rule unique to its
+Q: If a character joins a unit that carries a magic standard, do              faction that grants additional rules to a hand weapon (the crew of
+its effects extend to the character?                                          an Orc Boar Chariot have the Choppas special rule, for example),
+A: Yes. When a character joins a unit they become part of that                that rule applies only to actual hand weapons carried by riders or
+unit, so magic standards that affect the unit affect them as well.            chariot crew, not to weapons belonging to mounts or draft animals
+                                                                              that ‘count as’ hand weapons.
+
+
+
+
+                                                                         15
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: Some monsters have weapons with notes that state                           Battlefield Terrain
+they must make, or may choose to make, one attack, or one                     Q: To defend a low linear obstacle, a unit must move its front
+additional attack, with that weapon in combat. Can they make                  rank into base contact with it. Are Skirmishers able to do this,
+more than one attack with such weapons?                                       or does their lack of ranks prevent it?
+A: No. If it is noted on a weapon’s profile that the model may or             A: Skirmishers can defend a low linear obstacle. To do so, simply
+must make a specific number of attacks with that weapon, normal               move as many Skirmishers as possible into base contact with
+attacks or otherwise, that’s how many attacks it makes with                   the feature.
+that weapon.
+                                                                              Warhammer Armies
+Q: Can a model armed with two hand weapons choose to fight                    Q: Do army special rules extend to any mercenaries I include?
+with just one hand weapon?                                                    A: Unless stated otherwise, no.
+A: Yes. As noted on page 213, unless stated otherwise, all models
+are assumed to be equipped with a hand weapon. A model with                   Q: If my opponent and I have agreed to play a 2,000 points
+two has, by definition, two and may choose to fight with just one,            game but my army is not exactly 2,000 points (it’s 1,997 points,
+foregoing the Extra Attacks (+1) special rule in favour of some               for example), can I take two of something limited to 0-1 per
+other benefit.                                                                1,000 points by the army composition list I’m using?
+                                                                              A: Yes. Such limitations are based on the size of the game you are
+Q: Can a missile weapon be used in combat?                                    playing rather than the exact points value of your army.
+A: No.
+                                                                              Q: Does an allied contingent have to abide by the restrictions
+War Machines                                                                  given in the army composition list it is drawn from?
+Q: If the Wounds characteristic of a war machine and its crew                 A: Yes. An allied contingent is a small army within a large army,
+are different, which do I use to determine Unit Strength?                     made using a Grand Army or Army of Infamy composition list.
+A: In such cases, use the Wounds characteristic of the crew.                  Within a 2,000 points army, for example, an allied contingent of
+                                                                              500 points would have to spend at least 125 points on Core units,
+Q: Can a cannon target a point on the ground if woods or a                    could spend no more than 250 points on characters, and would be
+hill lies between it and that point?                                          unable to include any units limited to 0-1 per 1,000 points.
+A: No, a cannon cannot shoot over woods or hills, even if it is on a
+hill. However, a stone thrower can if it chooses to fire indirectly.          Q: Do the points I spend on Core units within an allied
+                                                                              contingent count towards the minimum percentage of Core
+Q: Can a cannon target a point on the ground if another unit                  units overall?
+lies between it and that point?                                               A: No.
+A: Not unless that cannon is on a hill and the unit is not. However,
+as above, a stone thrower can if it chooses to fire indirectly.               Q: Does a spell cast on a Regimental Unit affect its
+                                                                              Detachments, or vice versa?
+Q: Can a cannon be shot in such a way as to hit an enemy unit                 A: No, spells that affect a unit only affect the unit they are cast on.
+that is engaged in combat with a friendly unit?
+A: No. Page 143 of the rulebook makes it clear that, except in rare           Warhammer Battles
+cases, units cannot shoot enemy units that are engaged in combat.             Q: The rulebook lists the minimum size of battlefield as 30" x
+In the case of cannon, this means the target point cannot be placed           44" for games of up to 1,000 points, 44" x 60" for 1,001 to 3,000
+in such a way as to risk the cannonball hitting a friendly unit, or an        points and 44" x 90" for games of 3,001 points or above. Do we
+enemy unit engaged in combat with a friendly unit.                            have to use these sizes?
+                                                                              A: No. These are the minimum recommended sizes. The normal
+Q: Can a war machine shoot using the Ballistic Skill of a                     size battlefield for a game of between 2,000 and 3,000 points is
+character that has joined it?                                                 48" x 72" (4' x 6') and players are encouraged to use this. The
+A: No. Because a war machine and its crew are treated as a single             minimum sizes are based on the folding card battlefields Games
+model, you must use the crew’s BS.                                            Workshop produces. These are ideal when space is an issue or for
+                                                                              smaller games. For example, we prefer a 44" x 60" battlefield for
+Q: Some war machines can have additional models attached to                   a game of 1,000 or 1,500 points, rather than the more traditional
+them, such as the Orc Bully. If the war machine is destroyed,                 48" x 48" battlefield. We find the smaller, rectangular shape
+are any attached models also destroyed?                                       more pleasing.
+A: Yes.
+                                                                              Q: When deploying armies, must units be placed completely
+                                                                              within their deployment zone?
+                                                                              A: Yes.
+
+
+
+                                                                         16
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Lores Of Magic                                                                Magic Items
+Q: If the spell Arcane Urgency is used to move a unit with                    Q: Bearing two or more Obsidian Lodestones gives better
+Random Movement, can the unit move into contact with an                       Magic Resistance, but does an Obsidian Lodestone improve
+enemy unit?                                                                   Magic Resistance granted by a different source?
+A: No. Whilst a unit with Random Movement can move into base                  A: No.
+contact with an enemy unit during the Compulsory Moves sub-
+phase, Arcane Urgency causes units to move when the spell is cast,            Q: Does a magic standard that affects a unit’s weapons (the
+during the Remaining Moves sub-phase.                                         Razor Standard, for example) also make those weapons
+                                                                              magical, giving them the Magical Attacks special rule?
+Q: If a unit upon which Earthen Ramparts has been cast                        A: Not unless the description of the magic standard in question
+is obliged to declare a charge (if the unit is Frenzied or                    states that the weapons of a unit carrying it gain the Magical
+Impetuous, for example), must it do so? If so, can it make a                  Attacks special rule. Generally speaking, purchasing a magic item
+charge move?                                                                  doesn’t conjure up additional bonuses from the æther.
+A: Earthen Ramparts does not prevent a unit from declaring a
+charge, it prevents it from charging. In other words, yes the unit            Q: Can the wearer of the Wizarding Hat cast spells whilst
+must declare a charge if obliged to do so. However, because the unit          wearing armour?
+cannot charge, it does not move at all and the charge is failed.              A: Yes. The wearer of the Wizarding Hat is not actually a Wizard
+                                                                              – their magical powers are granted by a haunted hat which is not
+Q: Can a unit upon which Earthen Ramparts has been cast                       affected by any armour the model may wear.
+make a Counter Charge charge reaction?
+A: No.                                                                        Q: Can the wearer of the Wizarding Hat also wear a magic
+                                                                              helmet, such as the Bedazzling Helm?
+Q: If a unit charges an enemy unit upon which Earthen                         A: Yes, because one is an enchanted item, the other is a type of
+Ramparts has been cast, must it follow all the rules for                      magic armour, but we hope anyone equipping a model in such a
+charging an enemy unit behind a defended low linear obstacle,                 way would make the effort to depict it wearing two hats!
+even though there is no such physical terrain between the
+two units?                                                                    Q: If a Wizard wears the Wizarding hat, does it increase their
+A: Yes. A unit upon which Earthen Ramparts has been cast counts               Level of Wizardry?
+as being behind a defended low linear obstacle when charged. Think            A: No. As stated in the item’s description, the wearer of the
+of the spell’s effect as representing a magically manifested obstacle,        Wizarding Hat is a Level 1 Wizard and knows one randomly
+rather than a physical terrain feature.                                       generated spell. This is clearly a huge detriment to a powerful
+                                                                              Wizard, but might be a boon to any character that is not a Wizard.
+Q: Can the spell Spectral Doppelganger from the Lore of
+Illusion be used with a magic weapon that allows the wielder                  Q: Do potions affect a model’s mount?
+to make only a single attack?                                                 A: No.
+A: No. Weapons limited to a single attack can only inflict a
+single hit.                                                                   Q: If the Scroll of Transmogrification is successfully used
+                                                                              against a Wizard mounted on a ridden monster (a Dragon, for
+Q: How does the Spectral Doppelganger spell interact with                     example), what happens to the mount?
+weapons that have either the Strike First or Strike Last                      A: The Wizard is transmogrified, but not their mount. In the
+special rule?                                                                 example given, you would be left with a Frog riding a Dragon.
+A: The spell is cast at the Wizard’s Initiative, meaning attacks
+generated by the spell are made at the Wizard’s Initiative. However,          Q: What happens if a Scroll of Transmogrification is used on
+if the casting Wizard wishes to use a weapon with the Strike Last             a Bound spell?
+special rule, those attacks are made at Initiative 1.                         A: After testing against the item’s Power Level (in place of its Level
+                                                                              of Wizardry), it may be turned into an inanimate frog, rendering
+                                                                              it useless until it turns back. During each Start of Turn sub-phase,
+                                                                              you may roll a D6 for each transmogrified item in your army to see
+                                                                              if it returns to normal, as described on page 343.
+
+                                                                              Q: Can a Wizard with a Lore Familiar choose one of their
+                                                                              faction’s signature spells instead of the signature spell of their
+                                                                              chosen lore?
+                                                                              A: No.
+
+
+
+
+                                                                         17
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: How many spells does a Wizard with an Arcane Familiar                  Warhammer: The Old World
+know? For example, does a Level 3 Wizard know three spells                Matched Play Guide
+from two Lores (two from one and one from the other), or six
+spells, three from each Lore?                                             Q: If a unit is limited to, for example, 0-3 per specific type of
+A: An Arcane Familiar does not increase the number of spells a            character, or 0-3 per 1,000 points, how many such units can I
+Wizard knows, it simply allows them to know spells from two Lores.        field in a 2,000 points army at an event using Combined Arms
+Thus a Level 3 Wizard would know three spells from two Lores.             army composition?
+                                                                          A: You can field up to three per character in the first example,
+Q: Some models can be found in one faction’s army list, but               and up to six in total in the second example. Combined Arms
+can be included in an army made using a composition list                  composition rules only restrict units with no other restriction on
+belonging to a different faction (Dragon Ogre Shaggoths, or               them. If a unit has any form of restriction, that takes precedence.
+units that can be included as Mercenaries, for example). What
+lists of magic items do such models have access to?                       Note that 1+, for example, is a restriction.
+A: Models can purchase magic items from the list of common
+magic items in the Warhammer: the Old World rulebook, or from             Q: Can a unit control more than one object on the battlefield?
+their own faction’s list of magic items. A Dragon Ogre Shaggoth,          For example, can a unit control a special feature, a battlefield
+for example, can purchase items from the common or Beastmen               objective, and a secondary objective such as a baggage train, all
+Brayherds magic item lists.                                               at the same time?
+                                                                          A: No. If a unit is in a position to control two or more such objects,
+                                                                          you must choose one for it to control.
+
+
+
+
+                                                                     18
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+

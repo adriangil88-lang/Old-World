@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+core_4.tsv	C4-141	PARCIAL	Veterano repite Ld en panico/miedo/rally/contencion/estupidez (rules.js:3789,4944,6461,6533) pero no en chequeos de reglas/objetos: autoridad 5630, Galrauch 6174, Doblar sonoro 7468, objetos 7643/7691
+aj_beasts2.tsv	aj_beasts2-085	CONFIRMA	data.js:3761 bm_primalhounds (variante de bm_hounds tt warBeasts base 25x50): min 10, M7 WS4 BS0 S3 T3 I3 A1 Ld5, mano por defecto
+faq_libros.tsv	Q11	CONFIRMA	"rules.js:6979 joinCheck exige cd.cat===""char""; dw_doomseeker es cat inf (data.js:1378), no puede unirse a Slayers"
+core_4.tsv	C4-057	PARCIAL	rules.js:3763-3764: defendido = muro a <= d/2+1 del centro del objetivo y segmento cruza; no se exige fila frontal en contacto con el obstaculo ni eleccion de defender; Volar exento OK
+aj_empire2.tsv	aj_empire2-124	CONFIRMA	data.js:4115 ord_sun da sunCR a Gran Maestre/Maestre/Circulo Interior (spec=true); rules.js:5660 +1 si chargeOK, una sola vez (co_sun)
+aj_dwarfs2.tsv	aj_dwarfs2-027	CONFIRMA	data.js:3426 lista royal permite dw_runesmith (y dw_runelord/dw_anvil) segun la composicion de la fuente
+aj_beasts2.tsv	aj_beasts2-117	CONFIRMA	"rules.js:2153 herdCtl: US>=5, no huyendo, <=6"", mas cercana controla, empate = null (disputada). Distancia aproximada con hypot menos w/2"
+leg_skaven.tsv	leg_skaven-165	CONFIRMA	data.js:1762 sk_greyseer_bell: draggedAlong, large, magRes3, scurryMasses, stubborn, terror, impact, mountAtk ab:2 (Armour Bane 2 solo ratogros), wardNMu 5 (Bendiciones); toll rules.js:7449
+leg_ogres.tsv	leg_ogres-175	PARCIAL	data.js:2101 maw kb; rules.js:5467 el ataque con la mandibula es aleatorio (prob 1/A por impacto, tope 1 por modelo) en vez de exactamente uno de sus ataques cada turno
+faq_libros.tsv	RQ22	CONFIRMA	data.js:811 bm_herdstone min 1 max 1 por ejercito (comp special/core)
+aj_orcs2.tsv	aj_orcs2-033	CONFIRMA	"rules.js:2066 Horda Troll (lists===""trollh""): repite salvacion de Regeneracion fallida si el ataque no es magico"
+cathay.tsv	cathay_aj-069	CONFIRMA	"rules.js:3257 (Panico) y 6532 (Reagrupar): amigos a 12"" de baliza no huyendo repiten el chequeo fallado"
+leg_vampires.tsv	leg_vampires-127	PARCIAL	data.js:1915 vc_bloodknights: mountAtk {a1,S4,ap0} sin HA3 ni I2 de la Pesadilla; el motor usa HA5/I4 del jinete (no hay mountWS/mountI en rules.js); M7 A1 F4 OK
+leg_lizardmen.tsv	leg_lizardmen-145	CONFIRMA	data.js:1749 lm_troglodon: melee ap2 + poisoned; aliento F3 FP-1 breath alwaysW 5 (5+ siempre hiere)
+faq_libros.tsv	C13	CONFIRMA	data.js:2534 ct_icon cost 45 (errata Cathay)
+faq_core_2.tsv	F2-058	PARCIAL	rules.js:3873 bloquea lanzar a todo Mago con armadura/escudo magico, tambien hechizos ligados (ej. armadura con boundSpell empaj_twice); FAQ: puede lanzar Ligados. Exime solo chaosArmour
+core_7.tsv	core_7-055	CONFIRMA	rules.js:2559 linkedArmy stage 3: D6 1-2 (D3 min US5 / D6 min US10) o 3+ Ld-1; destruidas 1 dispersa, 2+ mitad; main.js:358 perdedor usa B.orig; avisa por toast
+aj_beasts2.tsv	aj_beasts2-054	CONFIRMA	data.js:3206 LIST_IB wild:25 (objetos magicos) y data.js:3333 mutaciones 50+25 en wild
+aj_chaos2.tsv	aj_chaos2-121	CONFIRMA	rules.js:1758 sv-2 (min 2) y rules.js:1966 T+1 con fx wfFlesh; eleccion del jugador via wfPref (rules.js:5825) y log
+leg_lizardmen.tsv	leg_lizardmen-020	CONFIRMA	data.js:1677 lm_slann tt monCreature baseW/D 50, A1, arma de mano por defecto, nivel 4
+faq_libros.tsv	F09	CONFIRMA	rules.js:3972-3974 runeLore 3/2/1: alcance 24/21/18 y mod +3/+2/+1 directos; Yunque, Señor, Herrero (data.js:1372,1375,1394)
+aj_empire2.tsv	aj_empire2-025	CONFIRMA	data.js:3674 opcion gl +5/+5/+15/+10 con vanguard+veteran solo Nuln; data.js:4725 limite 0-1 por 1.000 pts
+aj_bretonnia.tsv	aj_bretonnia-101	PARCIAL	rules.js:1657 ldOf(rule=true) solo en Caldero (7484) y objetos 7643; Grito de reagrupamiento (rallyingCry 6582, ejemplo de la fuente) usa rallyTest sin -2 de Brionne
+core_8.tsv	core_8-049	PARCIAL	rules.js:4417/4803 Sol Malvado da FP+1 en rango de mando; falta repetir 1 naturales para impactar (ninguna comprobacion de fx evilsun en la tirada de impactos 5410-5418 ni en disparo)
+aj_empire2.tsv	aj_empire2-085	CONFIRMA	rules.js:3513 ogreCharge: ap de Impactos + rankBonus(u)
+core_2.tsv	C2-078	PARCIAL	rules.js:2598 coverMod aproxima con 5 puntos del frente y solo bosque/muros/unidades; hidden*2>N total, no es la vision real modelo a modelo ni cubre otro terreno
+core_8.tsv	core_8-025	CONFIRMA	"data.js:2394 tempest vx size3 still danger; rules.js:4322 terreno peligroso, 2280/7096 efecto a 6"" (abierto difícil, difícil peligroso)"
+leg_vampires.tsv	leg_vampires-029	CONFIRMA	"data.js:4337-4339 VCV: armadura ligera +3 / pesada +6 grupo ""a"" (una sola), escudo +2"
+cathay.tsv	cathay_aj-108	PARCIAL	data.js:2551 svb+svCharged OK, tope 2+ OK, pero rules.js:1976 aplica +2 solo si !ranged: no cuenta contra disparos en el mismo turno de la carga
+core_6.tsv	core6-050	CONFIRMA	rules.js:2306 colina bloquea LDV si ninguno esta en la colina y el segmento la cruza (inRect con centros)
+aj_orcs2.tsv	aj_orcs2-067	CONFIRMA	data.js:842 troll_hag ranged breath S3 FP-2 panicHit; rules.js:3072 skullPanic si hay heridas sin salvar y 3081 prueba de panico
+aj_bretonnia.tsv	aj_bretonnia-091	CONFIRMA	rules.js:1993 dragonhide + flaming => ward 3+ (br_cecil data.js:897)
+cathay.tsv	cathay_aj-101	CONFIRMA	data.js:3510 variantes _ogre: M+1 y addSr stubborn
+core_2.tsv	C2-053	CONFIRMA	rules.js:1629 rankBonus cuenta filas 2.. con >= minRank modelos hasta maxRank; TROOP data.js:30-43 coincide con tabla core
+aj_dwarfs2.tsv	aj_dwarfs2-016	CONFIRMA	rules.js:245 khazid first:0 (atacante jugador 0) aplicado en rules.js:1161
+leg_ogres.tsv	leg_ogres-168	CONFIRMA	"rules.js:5755 giantAttack: D6 1 cabezazo D3+1, 2 panzazo plantilla 3"", 3-4 D6+1 ataques F+1 FP-2, 5 F+4 FP-4 HM D6, 6 D6+1 impactos sin armadura; Agarrar y... por eleccion"
+faq_core_1.tsv	FQ1-014	PARCIAL	"rules.js:4756-4761 alcance M del enemigo desde fila de apoyo OK, pero el ataque de apoyo generico (4777) no excluye flanco/retaguardia enemigos; solo 4782 (empuje) comprueba sideOf(e,u)===""front"""
+leg_ogres.tsv	leg_ogres-166	CONFIRMA	rules.js:5774 r===6 -> D6+1 impactos de F sin armadura (ward/regen permitidos)
+aj_tk2.tsv	aj_tk2-064	CONFIRMA	data.js:4443 tk_nekaph sr dryDust, flammable, sworn, heraldDespair, indom2, killingBlow, undead, regen 5+, settraChamp
+core_4.tsv	C4-140	PARCIAL	"rules.js:2625 vanguardMoves mueve automaticamente en linea recta hasta M a todas las unidades (humano sin eleccion ni maniobras; la regla dice ""may"" y permite maniobrar); sin cargar 1er turno OK (3409"
+aj_wood2.tsv	aj_wood2-031	CONFIRMA	rules.js:640 preyOpts personaje/monstruo enemigo, 730-734 modal tras despliegue, 2934/4873 repetir 1s, 6900 +100 PV muerto/huido/huyendo
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-193	CONFIRMA	rules.js:2863 rocketPref auto/demo/inc elegible por el jugador (main.js:1263, rules.js:7410); auto: incendiarios si objetivo >=8 modelos, con log
+battlemarch_quickref.tsv	battlemarch-189	CONFIRMA	data.js:2502 bm_renown; rules.js:5678 un uso, +1 resolucion, activado por el jugador (renownOn, main.js:1312)
+battlemarch_quickref.tsv	quickref-003	CONFIRMA	rules.js:4600 perfect = doble 6 natural: se lanza sin importar el valor (4602) y tryDispel devuelve false (3971)
+leg_darkelves.tsv	leg_darkelves-047	CONFIRMA	data.js:5969-5970 BMO: escudo +2, armadura pesada +3 en lugar de ligera (Gran Maestro de Bestias)
+faq_libros.tsv	C16	CONFIRMA	data.js:2537 ct_maw cost 50 (errata Cathay)
+aj_highelves.tsv	aj_highelves-131	PARCIAL	data.js:2893 + rules.js:5416 repite 6 naturales contra toda la unidad si CUALQUIER miembro lleva el Escudo Dorado, no solo contra ataques dirigidos al portador (5100 duelo OK)
+faq_libros.tsv	F31	CONFIRMA	rules.js:5661 u.lance && usOf(u)>=5 => +1 al resultado de combate (una vez)
+leg_daemons.tsv	leg_daemons-159	CONFIRMA	data.js:5887 dm_herald_tzeentch nivel 1 (+30/+60 niveles 2/3); data.js:5140 lores = battle, daemonology, dark, elementalism, illusion (los de la fuente)
+leg_lizardmen.tsv	leg_lizardmen-085	CONFIRMA	"data.js:2471 CMD lm_kroxigor [7,null,null] = campeon +7 (la nota ""+10"" esta obsoleta)"

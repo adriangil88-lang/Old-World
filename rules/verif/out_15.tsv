@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+leg_vampires.tsv	leg_vampires-121	CONFIRMA	data.js vc_spirithosts M6 WS3 BS0 S3 T3 W4 I1 A4 Ld4, 49 pts, swarm 40x40, 3-6: coincide con la fuente
+leg_ogres.tsv	leg_ogres-013	CONFIRMA	data.js:4956 avisa si ok_gorgers >3 (0-3 Gorgers); ok_gorgers comp rare
+core_5.tsv	C5-036	CONFIRMA	rules.js:2410 carros exentos del arco frontal al disparar (salvo tankCannon/cannonade); rules.js:3865 hechizos desde carro con has(u,chariot): 360 grados
+aj_dwarfs2.tsv	aj_dwarfs2-138	CONFIRMA	rules.js:6000 hitRunOn: retirada en buen orden en vez de seguir/perseguir; boton main.js:1275 y alternativa de IA ai.js:359; eleccion del jugador
+faq_core_3.tsv	56	CONFIRMA	rules.js:3176 assailWounds de Timmm-berrr suman al resultado (rules.js:5670); FAQ Core: Yes
+leg_daemons.tsv	leg_daemons-156	CONFIRMA	data.js dm_lordchange: flaming, flyer (FLYX 9), indom2, large, stompN D3 (fuente D3, no D3+1), swiftstride, terror; lores incluyen daemonology
+aj_empire2.tsv	aj_empire2-072	CONFIRMA	data.js:3650 CMD.teutogen=[8,7,7] (campeon +8, portaestandarte +7, musico +7); estandarte magico 50 por bannerBudget
+leg_skaven.tsv	leg_skaven-150	CONFIRMA	data.js:3233 CHAMP_IB sk_gutter 25 (Assassin de Gutter Runners); champEligible/champIssues validan
+aj_wood2.tsv	aj_wood2-095	CONFIRMA	data.js CMD we_guardians=[6,5,5]; CHAMP_IB we_guardians 50; bannerBudget por defecto 50
+aj_beasts2.tsv	aj_beasts2-063	CONFIRMA	"rules.js:1880 leerIssue (>8"" de enemigos), 7865 leerPlace solo al desplegar, 3854 lanza desde el marcador con vision 360; se retira al caer Kralmaw (models>0)"
+cathay.tsv	cathay_aj-103	CONFIRMA	data.js:2546 ct_monkey S10 AP-4 mw D3 twoH slow cat w; coste 75 respaldado por cathay_notes.md (texto de la fuente ilegible en el coste)
+aj_bretonnia.tsv	aj_bretonnia-121	CONFIRMA	data.js:5993 opcion bt +25 requiere Monje del Grial (data.js:4727), da Tozudo; aplicada a Yeoman Guard (fuente) y Hombres de Armas
+faq_libros.tsv	RQ07	PARCIAL	rules.js:2878 mueve D3 completo, pero rumbo limitado a auto/char/8 rumbos de 45 grados fijados de antemano (diverPref); no es libre ni se decide al disparar
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-158	CONFIRMA	data.js:2191 cd_ironDaemon: closeOrder, fear, immunePsy, impact D6+1, large, stompN D3+1, unbreakable, grindWheels, lumberDest
+battlemarch_quickref.tsv	battlemarch-017	CONFIRMA	rules.js:501 clashDuel: ambos caen -> rollOff (l.528 s.first); perdedor muere (applyWounds a la unidad origen); nominacion manual en clashStep
+leg_daemons.tsv	leg_daemons-200	CONFIRMA	data.js:1978 dm_prince ib:100 (Dones demoniacos hasta 100)
+dawn_renegade_sc.tsv	renegade_web-093	CONFIRMA	data.js imp_ogres: 29 pts, M6 WS3 BS3 S4 T4 W3 I2 A3 Ld7, min 3, monInf 40x40, champBS (Capitan BS4, A4 por campeon), CMD champ +7
+aj_bretonnia.tsv	aj_bretonnia-103	NO_VERIFICABLE	Las fuentes solo nombran el Lore of the Lady (aj_bretonnia.txt:1345,1369); la lista de hechizos no esta en el texto. Existe lore lady (data.js:2423) con 4 hechizos sin contraste
+aj_wood2.tsv	aj_wood2-030	CONFIRMA	data.js:3461 variante _sk (+10 por unidad, furiousCharge+impetuous) en Glade Riders/Warhawks/Packs, solo owh; limite 0-1 por 1.000 en data.js:4849
+faq_libros.tsv	C24	CONFIRMA	rules.js:6201/6203 Baliza celestial: +1 (amiga) o -1 (enemiga) una sola vez con some(), no acumulable
+aj_chaos2.tsv	aj_chaos2-054	CONFIRMA	data.js:3581 heralds allow incluye woc_aspiring y woc_ex_sorc sin limite por 1.000
+cathay.tsv	faq_cathay-021	CONFIRMA	rules.js:2708/2798 fx thund se reemplaza (filter + push): -1 M una sola vez y sin Zancada (mvOf, rules.js:3662)
+core_3.tsv	c3-108	CONFIRMA	rules.js:7057 terrainDisrupted: diffFrac>=0.25 o a caballo de obstaculo bajo -> Alterada; exime Escaramuza/Orden abierta/volador (coherente con Core)
+cathay.tsv	cathay_aj-100	CONFIRMA	data.js:3510 variantes _ogre (+35, M+1, Tozudo, +8 bombas) como mejora de maquina; errata FAQ Cathay (miembro de dotacion); rules.js:2452/8122 disparar dos veces o repetir dado
+core_2.tsv	C2-125	CONFIRMA	rules.js:4477-4482 rama de hechizo ligado: sin dobles 1 (miscast) ni invocacion perfecta; tryDispel con boundPL sin riesgo de superado
+leg_daemons.tsv	leg_daemons-189	CONFIRMA	data.js:3482 dm_burningchariot: arm heavy Sv4, base 50x100, wizard level 1, Fly 9, impact D6+1
+aj_beasts2.tsv	aj_beasts2-142	CONFIRMA	data.js:2848 bmaj_beast 40 pts; rules.js:3663 suma d3 a la carga y +3 maxPossible
+aj_tk2.tsv	aj_tk2-092	CONFIRMA	data.js:4394 variante _cc: caballeros 13 (+1) y arqueros 12 (+1) con counterCharge, sin limite por 1.000
+aj_beasts2.tsv	aj_beasts2-093	CONFIRMA	data.js bm_warherd: regInf 25x25, min 20 con mixRear Ungors min 10 y minFront 10; Gors T4, Ungors T3 con escudo (Sv6), perfiles de la fuente
+aj_bretonnia.tsv	aj_bretonnia-078	CONFIRMA	rules.js:6192 gkBack+1 y wounds=max(1,W-gkBack); rules.js:6197 resta gkBack a la tirada de despertar; auto ronda 5 solo si nunca desperto
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-047	CONFIRMA	data.js cd_seneschal M3 WS5 BS4 S4 T5 W2 I2 A3 Ld9, 60 pts
+dawn_renegade_sc.tsv	cathay_dawn-094	CONFIRMA	data.js:3556 jadefleet rare:0.25; ct_lanterns/ct_sentinel comp rare
+aj_bretonnia.tsv	aj_bretonnia-072	CONFIRMA	data.js:899 br_green_knight arm heavy + avOpt shield+barding (Sv3), Hoja Dolorosa en randA 4+D6/meleeChoice sb2 ap1 ab1 mw2
+leg_vampires.tsv	leg_vampires-211	PARCIAL	data.js:3076 + rules.js:5550: test R -> fx frost = Golpea Ultimo (I1 solo en melee, rules.js:4676); no anula I en otros chequeos ni si hay Golpea Primero; afecta a la unidad entera
+leg_vampires.tsv	leg_vampires-171	CONFIRMA	data.js vc_corpsecart wizard level 1 lore necro
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-057	CONFIRMA	data.js cd_castellan/cd_seneschal sr: blackshard, ensorcelled, rally, resolute, stubborn; Grito de reagrupamiento rules.js:6585/7296
+dawn_renegade_sc.tsv	cathay_dawn-063	CONFIRMA	data.js:4563 ALLY_SCN.timely: principal Imperio Gran Ejercito General Capitan (max 40%=1000) + aliado Flota de Jade (60%=1500); dos listas
+aj_empire2.tsv	aj_empire2-090	CONFIRMA	data.js:3646 road_wardens deriva de outriders (M8, CMD [6,null,6]: Capitan +6, musico +6, sin portaestandarte)
+leg_skaven.tsv	leg_skaven-051	CONFIRMA	data.js sk_assassin M6 WS8 BS7 S4 T4 W2 I8 A3 Ld7, 90 pts
+leg_ogres.tsv	leg_ogres-129	CONFIRMA	data.js:4857 0-1 unidad por 1.000 pts con estandarte magico en bulls/maneaters/mournfang; bannerBudget 50
+cathay.tsv	cathay_aj-036	CONFIRMA	data.js:4358 CTS: hoja celestial +6, lanza +4, pistola de fuego de dragon +4, armadura pesada +4; costes respaldados por cathay_notes.md (coste ilegible en la fuente)
+core_5.tsv	C5-041	CONFIRMA	rules.js:6994 joinCheck rechaza LUMB (heavyChar, monCreature, behemoth) como personaje o unidad
+leg_darkelves.tsv	leg_darkelves-073	CONFIRMA	data.js de_dreadlord_steed 144 = 130+14; de_master_steed 84 = 70+14
+aj_bretonnia.tsv	aj_bretonnia-089	CONFIRMA	rules.js:1963 dragonhide: AP -2 vs no magicas (min 0), sin KB ni MW (1 herida); 1993 salvacion 3+ vs flamigero
+core_8.tsv	core_8-087	CONFIRMA	rules.js:988 banner solo si e.std; main.js:707 personajes sin estandarte mágico salvo Portaestandarte de Batalla (itemIssues bsb)
+aj_wood2.tsv	aj_wood2-071	CONFIRMA	data.js:722 we_orion melee sb1 ap2 mw D3 magica; ranged2 S6 FP-2 D3 Atravesar
+cathay.tsv	cathay_aj-128	CONFIRMA	rules.js:6240 y windPick 7617: Yin da +1 HA o +1 Ld (eleccion del jugador, mismo modificador); fx mwWS/mwLd a unidades con willDragons
+faq_libros.tsv	F18	CONFIRMA	rules.js:2410 rg.tankCannon sigue exigiendo arco frontal en un carro (steam_tank tankCannon:true)
+aj_highelves.tsv	aj_highelves-139	CONFIRMA	data.js:2901 heaj_fury 25 pts boundSpell hammerhand boundPL 1 segun errata FAQ FoF HER p.48 (libro decia 2)
+core_7.tsv	core_7-023	CONFIRMA	main.js:371 TREE coincide con el arbol del Core (Encuentro->Flanco/Batalla abierta->Mando y control/Paso/Punto de ruptura->resultados); main.js:354 avance

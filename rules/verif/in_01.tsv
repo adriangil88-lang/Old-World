@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+aj_chaos2.tsv	aj_chaos2-110	aj_chaos2.txt L1249-1252	Berserkers: Headtaker +8, estandarte +6, músico +6, Emboscadores +1	OK	data.js:2471 CMD; 5404	
+aj_empire2.tsv	aj_empire2-035	aj_empire2.txt:928-933	Caballeros Órdenes AoI: Portaestandarte de batalla: un Maestre de Capítulo +25 pts con estandarte mágico sin límite	OK	data.js:armyIssues knights, CMD.emp_chaptermaster	PEB solo Maestre de Capitulo (+25), estandarte sin limite
+aj_bretonnia.tsv	aj_bretonnia-145	aj_bretonnia.txt L1569-1571	Averia 2-3: la dotacion pierde una Herida y no dispara	OK	rules.js:2293	
+aj_beasts2.tsv	aj_beasts2-006	aj_beasts2.txt:545-564	Zonas de despliegue (atacante 18 pulg de fondo, 6 de margen; defensor zona central 18 pulg a 9 del borde)	OK	rules.js:196 z:[R_(6,30,66,48),R_(18,9,54,27)]	Medidas coinciden con el mapa
+aj_tk2.tsv	aj_tk2-056	aj_tk2.txt L1017-1018	Apophas: perfil: M4 HA4 HP3 F4 R3 H4 I1 A5 L8; 130 pts	OK	data.js:4199 tk_apophas	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-217	leg_chaosdwarfs.txt:811-812	Hellbound: si ya tiene Fear, gana Terror	OK	data.js:5303 addSr terror delSr fear (Iron Daemon)	
+aj_bretonnia.tsv	aj_bretonnia-056	aj_bretonnia.txt L989	0-1 unidad de Peregrinos de Batalla puede tomarse como Basica	OK	data.js catsOf (crusade: 0-1 Peregrinos pasa a Basica)	br_pilgrims no figura como core en Cruzada ni tiene limite 0-1
+core_2.tsv	C2-138	Magic: Outclassed in the Art	Doble 1 natural en dispersión de Mago: tabla de pifias adaptada (lanzar->dispersar, invocación perfecta->liberación)	OK	rules.js tryDispel	8-9/10-12 dispersan el hechizo
+faq_libros.tsv	R29	RH AJ Beastmen p.45 Strangleroot	Valor 8+	OK	data.js SPELLS.strangleroot cv8	
+core_2.tsv	C2-118	Magic: Miscast Table 2-4	"Plantilla de 5"" sobre el Mago, cada modelo (amigo o enemigo) con riesgo de un impacto F10 FP -4"	OK	rules.js miscast1 blastCount	Por modelo
+aj_bretonnia.tsv	aj_bretonnia-139	aj_bretonnia.txt L1514-1519	Bandidos: magia de estandarte (no existe en el libro)	OK	data.js br_brigands bnMax 0	Sin estandarte magico
+leg_ogres.tsv	leg_ogres-094	leg_ogres.txt:372	Trampeador Gnoblar: M4 HA2 HP3 F2 R3 H1 I3 A1 L5, 5 pts	OK	data.js:2074	
+core_8.tsv	core_8-042	Nigromancia p.333 l.10687	"Maldicion de los Anos: Hex 10+ (FAQ 9+), 15"", -1 M, HA y R (min 1) hasta tu proximo inicio; cancela otros Hex"	OK	rules.js:applySpell0 cyears (HEX_ALL)	Cancela otros Hex
+aj_dwarfs2.tsv	aj_dwarfs2-051	aj_dwarfs2.txt L738	Expedicionaria: 0-1 Goblin-hewer por 1.000 pts	OK	data.js:3436	
+faq_libros.tsv	Q27	FoF FAQ Bretonnia	Lanza: modelos en contacto = primera fila dentro de M pulgadas	OK	rules.js:4526 (modelos en contacto con Lanza <= M)	
+leg_darkelves.tsv	leg_darkelves-174	leg_darkelves.txt:707-708	Equipo: Aurigas con manos, lanzas y ballestas; Gélidos garras y dientes	OK	data.js:5271-5273	
+aj_dwarfs2.tsv	aj_dwarfs2-013	aj_dwarfs2.txt L472-474	Alternativa: cualquier par de ejércitos de 3.000 pts cada uno	OK	rules.js:190	Puntos y listas libres
+core_3.tsv	c3-155	Unusual Attacks (p.143)	Impactos en Estrategia/Movimiento usan las subfases 3 y 4 del disparo	OK	rules.js:3092-3099 (woundAndSave + applyWounds)	
+faq_core_3.tsv	12	FAQ Core p.10 Combate	Si no puede ceder terreno por otra unidad, el movimiento se detiene como si estuviera rodeada	OK	rules.js:4942, 3650-3656 (pushAwayStep rompe en colisión)	Se detiene al chocar; no se modela «rodeada» explícitamente pero el efecto es el mismo
+core_2.tsv	C2-015	General Principles: Dice rolling (target number)	Tirada «N+»: éxito con N o más	OK	rules.js:1541 hitRoll; passPanic0 y otros comparan r >= N	
+leg_darkelves.tsv	leg_darkelves-058	leg_darkelves.txt:203-206	Elegir uno solo de los dones	OK	data.js:5192 group:k	
+core_4.tsv	C4-073	Reglas especiales p.164	Armour Bane (X): 6 natural al herir mejora AP en X	OK	rules.js:1703 (myAp = ap + (r===6?ab:0))	
+cathay.tsv	cathay_aj-040	cathay_aj.txt 1577-1585	Maestro/Guardian de la Puerta: infanteria pesada (personaje), 25x25, mano+armadura pesada+escudo	OK	data.js:2187,2193 arm heavy avOpt shield	
+battlemarch_quickref.tsv	battlemarch-042	battlemarch.txt L1161-1163	¡Mantened firmes!: defensores que controlan un edificio repiten Pánicos fallidos	OK	rules.js:2714-2716 bldCtl	
+leg_skaven.tsv	leg_skaven-192	leg_skaven.txt:757	Hell Pit Abomination: 3D6 3/1/6/5/6/4/D6+1/8, 210 pts	OK	data.js:1832	
+leg_skaven.tsv	leg_skaven-014	leg_skaven.txt:66-70	Rare: Doomwheel o Cañón de Rayo (0-1 por 1.000) si hay Ingeniero Brujo	OK	data.js:armyIssues sk	Límites separados Doomwheel / Cañón de Rayo
+faq_core_4.tsv	FC4-32	p16 dcha / Mercenarios	Reglas especiales de ejército no se extienden a mercenarios	OK	rules.js u.allyList=merc	Los mercenarios no reciben reglas de la lista
+aj_chaos2.tsv	aj_chaos2-120	aj_chaos2.txt L1314	Protuberancias: Ataques Extra (+1)	OK	rules.js:4166	
+core_4.tsv	C4-063	Pánico p.160	Bajas graves >25% en una fase distinta de Combate causan Pánico (FAQ: modelos al inicio de la fase)	OK	rules.js:2709-2716 (panicFromLosses)	Exenta máquinas
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-095	leg_chaosdwarfs.txt:252-253	Ironsworn: Blackshard, Close Order, Drilled, Ensorcelled, Quell Panic, Regimental Unit, Resolute, Shieldwall, Stubborn, 	OK	data.js:2157 sr	Todas en sr
+core_6.tsv	core6-069	Dark Ruins / Victory Points	+100 PV al controlar	OK	rules.js:3311 (darkBld/darkAura/darkImm), 341 (SFEAT_CORE), 6728 (+100 PV), garrisonOpts	Dark Ruins no implementado
+leg_daemons.tsv	leg_daemons-083	leg_daemons.txt L348-350	Plagueflail: F+2 primera ronda, PA-3, Heridas multiples D3	OK	data.js:5322	
+leg_vampires.tsv	leg_vampires-021	leg_vampires.txt:75-81	Aliados: hasta 25% en un contingente de Reyes Funerarios de Khemri	OK	data.js ALLY_TABLE/allyArmyIssues; rules.js createGame allyInfo	Contingente Reyes Funerarios hasta 25 %
+core_6.tsv	core6-060	Arcane Monolith	Locus of Power: Mago controlador repite un 1 natural en una tirada de lanzamiento	OK	rules.js:4036	El controlador repite un 1 natural al lanzar
+leg_darkelves.tsv	leg_darkelves-233	leg_darkelves.txt:1063-1069	Capa de Dragón Marino: +1 armadura (máx 2+) contra disparos no mágicos	OK	rules.js:1655	
+aj_orcs2.tsv	aj_orcs2-082	aj_orcs2.txt:1182-1186	Carro Orco Negro: montura de personaje: Warboss o Bigboss Orco Negro sobre Carro por +130 pts	OK	data.js:3498 (black_warboss_chariot / black_bigboss_chariot)	Montura de personaje +130 (solo Nómada, FAQ RH); suma Heridas y Ataques, armadura la mejor de las dos
+aj_orcs2.tsv	aj_orcs2-070	aj_orcs2.txt:1103-1106	Ogros: tipo y equipo: Infantería monstruosa 40x40, unidad 3+, armas de mano y armadura ligera	OK	data.js:845 (min 3, max 60)	Sin máximo en el texto: se permite hasta 60
+leg_ogres.tsv	leg_ogres-104	leg_ogres.txt:412-414	Capitán +7, portaestandarte +7, Bramador +7	OK	data.js:2459	
+leg_lizardmen.tsv	leg_lizardmen-144	leg_lizardmen.txt:672-675	Primeval Roar: una vez por partida en Mando, test de Ld; Furious Charge a Lizardmen a 7	OK	rules.js:roarUse + accion roar; ai.js optionGroups pr; main.js boton	Decision del jugador / IA aprendida
+core_6.tsv	core6-027	Black Powder Misfire Table	1 destruida y retirada; 2-4 pierde una Herida, no dispara este turno ni hasta fin de la ronda siguiente; 5-6 no dispara este turno	OK	rules.js:2058-2067	
+faq_core_4.tsv	FC4-33	p16 dcha / Límites 0-1	Límites 0-1 por 1.000 pts según tamaño de partida, no puntos exactos	OK	data.js:4297,4328,4367	Usa floor(limit/1000)
+faq_core_4.tsv	FC4-47	p17 dcha / Sombrero de Mago	Se pueden lanzar hechizos con armadura	OK	data.js:2621	No existe restricción de armadura al lanzar
+dawn_renegade_sc.tsv	cathay_dawn-075	cathay_dawn.txt:853-858	Asalto a Leonen: el defensor despliega todo su ejército y después el atacante	OK	data.js:5964 SCN_REQ/scnIssues; rules.js:335 scnPost	Despliegue simultáneo; no se impone el orden
+aj_orcs2.tsv	aj_orcs2-041	aj_orcs2.txt:894-896	Kiknik: All Sneaky Like ±1 a llegada: Aplicar +1 o -1 a la tirada de llegada del mob con Emboscadores en reserva	OK	rules.js:~5458 (sneakyMod), main.js panel, ai.js optionGroups	Pref sneakyMod +1/0/-1 elegida por el jugador; la IA la aprende; se anuncia en el registro
+leg_skaven.tsv	leg_skaven-080	leg_skaven.txt:289	Fangleader objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+core_4.tsv	C4-084	Reglas especiales p.168	Caballería rápida: giro rápido aunque marchase (orden abierto)	OK	rules.js:1897	FAQ pide Remaining Moves; no verificado
+faq_libros.tsv	R21	RH AJ O&G p.45 Foetid Whirlpool	"Terreno difícil; D6"" cada Inicio de turno; D3+3 impactos F4 FP-3"	OK	data.js SPELLS.foetid_whirl.vx, rules.js:5352-5385	
+aj_chaos2.tsv	aj_chaos2-063	aj_chaos2.txt L924-930	Heraldos: PEB Campeón Exaltado o Aspirante +25 con estandarte mágico sin límite	OK	data.js:2471	
+dawn_renegade_sc.tsv	renegade_web-049	renegade_web.txt:115-118	Caballeros Libres: 18 pts, M-/HA4 HP3 F3 R3 H1 I3 A1 Ld8; Comandante A2; caballería pesada 30x60; mínimo 5	OK	data.js:5603-5608 FK rc_freeblades	
+leg_vampires.tsv	leg_vampires-184	leg_vampires.txt:860-861	Garras F -2; Aliento pestilente F2 PA -3; escamas armadura completa	OK	data.js:1844 mountAtk, ranged; 5094 mountSv 4	

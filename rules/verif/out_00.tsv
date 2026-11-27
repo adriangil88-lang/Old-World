@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+aj_highelves.tsv	aj_highelves-004	PARCIAL	rules.js:250 SCENARIOS.chalons solo da mapa/reglas; la recreacion historica (2.500 pts, Chracia con Korhil+Guerreros Sombrios vs Brayherds con Chaman) no se ofrece ni preconfigura (sin 'sides')
+core_2.tsv	C2-127	PARCIAL	rules.js:3877 solo cuenta hechizos con SPELLS[k].bound; objetos con boundSpell sobre hechizos normales (oaken_shield, hammerhand, fireball, call_wild) no cuentan: varios ligados/fase posibles
+aj_dwarfs2.tsv	aj_dwarfs2-018	CONFIRMA	rules.js:677-690 ambIssue limita 6 unidades/3 personajes; pref scnAmb (rules.js:7380) y boton main.js:1282 para humano; IA aiPick por unidad; pasan a reserva como Emboscadores gratis
+aj_empire2.tsv	aj_empire2-037	CONFIRMA	data.js:4721 (armyIssues): General debe ser GM/CM con Orden; todo CM y unidad empire_knights/inner_circle/demigryph de la misma Orden que el General
+aj_tk2.tsv	aj_tk2-094	CONFIRMA	data.js:4397 opts=[] equipo fijo; ppm 12/13(cc)=fuente 12 +1 Contracarga; CMD heredado 6/6/6 (champ/std/mus +6) y estandarte 50 por bnMax; mixRear 5+5
+aj_empire2.tsv	aj_empire2-042	PARCIAL	data.js:5097 exige teutogen <= nº emp_ulric y se aplica tambien a knights_wolf (no esta condicionado a la lista): 'cualquier numero de Guardia Teutogena' (data.js:3608) queda bloqueado sin Sacerdotes.
+aj_empire2.tsv	aj_empire2-143	CONFIRMA	data.js:2866 empaj_morr 25 pts grant fear; rules.js:161 has0 terror si banner empaj_morr y D(u).sr incluye fear (solo Miedo base, aproximacion menor)
+faq_core_2.tsv	F2-059	CONFIRMA	rules.js:3970-3977 tryDispel(boundPL) admite Magos con dispersion normal; ligado sin riesgo de Superado en el Arte (rules.js:4004 !bound); llamado desde rules.js:4480
+leg_skaven.tsv	leg_skaven-072	CONFIRMA	data.js:1795 sk_stormvermin M5 WS4 BS3 S3 T3 W1 I5 A1 Ld5, ppm 10, min 10, regInf = fuente leg_skaven.txt:271-275
+core_2.tsv	C2-057	CONFIRMA	rules.js:5663 co+=1 por unidad con closeOrder, no skirmish, files>=ranks y usOf>=10; se suma por unidad (acumulable)
+aj_orcs2.tsv	aj_orcs2-052	CONFIRMA	"rules.js:4575 has syphon: +1 al lanzar si unidad amiga /troll/ no huyendo con US>=6 a <=3""; (regex /troll/ incluye troll_hag, detalle menor)"
+aj_orcs2.tsv	aj_orcs2-063	CONFIRMA	rules.js:5705-5712 motherlyAttack r 3-4: 1 impacto auto, dmg D3+1, noArmour noRegen (Ward permitido); objetivo = unidad elegida (u.focus); opt-out noMother
+dawn_renegade_sc.tsv	renegade_web-074	CONFIRMA	data.js:962 br_brigands sr horde, impetuous, levies, motley, openOrder, warband; rc_brigands (data.js:6259) lo hereda
+leg_skaven.tsv	leg_skaven-027	PARCIAL	data.js:1754/1757 sr scurry, verminValour, warband OK, pero Valor verminoso (rules.js:4983, main.js:1280) exige u.models>=10 en vez de Fuerza de Unidad 10+ y solo se activa al preparar desafios
+core_3.tsv	c3-080	CONFIRMA	"rules.js:7991-8008 test Ld con enemigo a 8"" (rules.js:2298 nearEnemy8 sin huyendo); si falla mueve como mucho M y u.marched=true (rules.js:8022)"
+aj_empire2.tsv	aj_empire2-107	CONFIRMA	"data.js:4512 war_wagon trabuco 12"" F3 FP-1 shots D3 ms noPen volley; rules.js:2916,2925,2975 noPen anula largo alcance, multiple y stand&shoot"
+leg_skaven.tsv	leg_skaven-216	PARCIAL	data.js:3056 skl_warparmour sv5 (armadura pesada) pero sin exencion: rules.js:3873/3969 wizArmoured bloquea lanzar/disipar a un Mago con cualquier armadura (sv) -> si penaliza
+core_3.tsv	c3-088	CONFIRMA	rules.js:2260 rama inPlace (pivotar en sitio) solo valida posicion final con checkPlacement, sin pasos intermedios: ignora unidades/terreno durante el giro
+aj_wood2.tsv	aj_wood2-118	CONFIRMA	data.js:3157 k_hound +20 rr1Hit; rules.js:4916 rr1Hit cubre u y joinedLive(u) (personaje y unidad) para 1 naturales al impactar
+aj_empire2.tsv	aj_empire2-043	CONFIRMA	data.js:4436 harald M7 WS7 BS3 S4 T4 W3 I6 A4 Ld9, 185 pts, 30x60, montado/barda; tt 'char' con mount (convencion del motor para caballeria pesada nombrada)
+aj_tk2.tsv	aj_tk2-028	CONFIRMA	data.js:3588 mortuary: scorpion >= per (chk), swarm/necroserpent/ushabti promovidos a Basica 0-1, colosos 0-1 a Especial; tk_chariot special; especial 50% generico (data.js:4868)
+aj_bretonnia.tsv	aj_bretonnia-161	CONFIRMA	data.js:3175+5451 flamestrike 15 pts, list exiles, single, boundPL 3, boundSpell wand_fireball (SPELLS bound:3, 2D6 F4 flamigero); rules.js:4474 consume al usar; duplicado eliminado
+dawn_renegade_sc.tsv	sc_tower-008	CONFIRMA	data.js:4834 comp 'st' (escenario seize limit 500, data.js:6291): Rara/Mercenaria > 25% del limite (=125 pts) da error
+aj_highelves.tsv	aj_highelves-024	CONFIRMA	data.js:3548-3550 chracia comp he_eagle:'rare' (rare 0.33) y data.js:5053 max 2*per Grandes Aguilas; la nota 'cuenta como Especial' esta obsoleta
+dawn_renegade_sc.tsv	sc_shores-015	PARCIAL	"rules.js:6690 centerController(...core=true) filtra por D(u).comp==='core' (comp base), no por la categoria Basica real de la lista (Sea Guard/Wolves of the Sea); resto OK (US10, 6"", empate, +50/+100."
+leg_vampires.tsv	leg_vampires-148	CONFIRMA	data.js:1899 vc_direwolves warBeasts 25x50 min5 max20 M9 WS3 BS0 S3 T3 W1 I3 A1 Ld3 8 pts; CMD Lobo Maldito 6
+aj_orcs2.tsv	aj_orcs2-051	CONFIRMA	"rules.js:2351-2354 loneProtected: Ogdruz con mob de Trolls (no char) a <=3"" no es objetivo salvo el mas cercano; usado en disparo (2392) y hechizos (3865)"
+aj_wood2.tsv	aj_wood2-083	CONFIRMA	data.js:754-755 we_warden M5 WS7 BS4 S4 T3 W3 I6 A4 Ld9, 125 pts, ib 75, 25x25 = fuente aj_wood2.txt:1162-1170 (data.js:746 de la referencia es obsoleta)
+aj_orcs2.tsv	aj_orcs2-028	CONFIRMA	data.js:4681 trollh: trolls Especiales salvo per+hags Basicos; OR_TROLL_C wolf_chariot special; data.js:4912 0-1 boar_riders y 0-1 orc_boar_chariot por 1.000; spider/wolf riders core
+core_2.tsv	C2-040	CONFIRMA	data.js:3430 unitCost suma coste del modelo+mejoras; rules.js:1167 armyPoints suma todas las unidades
+battlemarch_quickref.tsv	battlemarch-178	CONFIRMA	data.js:2492-2511 bm_* cost de la fuente, star en los 4 con asterisco; data.js:4715 y main.js:703 restringen a comp 'bm'; hooks presentes en rules.js
+aj_beasts2.tsv	aj_beasts2-114	CONFIRMA	data.js:3594/3597 y lista grand: bm_herdstone permitido; Especial por defecto (Core solo en Sangre Minotauro, donde la propia lista lo dice); max 1 (data.js:4644)
+leg_vampires.tsv	leg_vampires-150	CONFIRMA	rules.js:4844 has slavering && u.chargeOK: F+1 (max 10) el turno que carga
+faq_core_1.tsv	FQ1-023	CONFIRMA	rules.js:4746 frenzy +1 A si chargeOK o fupPrev (turno tras seguimiento); aplica solo al perfil del modelo (a), no a mountAtk/bestias
+battlemarch_quickref.tsv	quickref-004	CONFIRMA	"rules.js:4587-4592 doble 1: fallo + miscast(); tabla rules.js:3935-3966 (2-4 F10 FP-4 5"", 5-6 F6 FP-2 3"", 7 F4 FP-1, 8-9 lanza, 10-12 invocacion perfecta) y noMore; ligados sin pifia"
+aj_chaos2.tsv	aj_chaos2-178	PARCIAL	data.js:2833 sceptre +1 lanzar/disipar OK; pero rules.js:4014 aplica el impacto al disipar antes de resolver y sin destroy si muere, y los lanzamientos ligados (rules.js:4477) no suman +1 ni activan .
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-179	CONFIRMA	data.js:2132/2135/3790 mountAtk S de montura, ap 1, flame:true (pezunas); cuernos F+1 FP-3 aproximados (rules.js:5457, azar 1/a) pero no son parte de esta fila
+leg_darkelves.tsv	leg_darkelves-088	CONFIRMA	data.js:2472 CMD de_warriors [5,5,5] y de_crossbows [5,5,5]: Lordling/portaestandarte/musico +5 por unidad
+faq_core_3.tsv	15	CONFIRMA	rules.js:6037 pursuitCharges {d: distancia perseguida} y rules.js:6055 chargeOK/chargeDist=pc.d al turno siguiente; bonos de carga segun distancia
+core_8.tsv	core_8-089	PARCIAL	data.js:2657 fly_carpet onFoot (rules.js:123 Vuelo 8 y Zancada, rules.js:6990 no se une); restriccion 'solo infanteria regular/pesada' aproximada con onFoot (admite otros tipos a pie)
+dawn_renegade_sc.tsv	renegade_web-043	CONFIRMA	data.js:6226 rc_vsellswords 5 pts, WS4, veteran, bnMax 50, plate +4, drilled +1, CMD [7,5,5], min5; perfil Ld5 A1 coincide con fuente
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-099	CONFIRMA	data.js:2146 cd_guard heavyInf 25x25 min10 max99 (sin tope real), arm heavy, Ld9 S4 T4 WS4 11 pts; la nota de 'maximo 40' esta obsoleta
+aj_orcs2.tsv	aj_orcs2-019	CONFIRMA	data.js:603 wolf_riders_amb ppm 11 (=10+1) con sr ambush, list nomad, comp core; opcion de cualquier mob (variante separada)
+leg_skaven.tsv	leg_skaven-040	CONFIRMA	data.js:1771 sk_engineer char regInf M5 WS3 BS3 S3 T3 W2 I4 A2 Ld5, 35 pts, 25x25, melee ap1 (arma de mano)
+leg_vampires.tsv	leg_vampires-034	CONFIRMA	data.js:1862 vc_thrall ib 50; data.js:3209 vpBudget thrall 50; data.js:4335 VCV w1 Mago nivel 1 +30
+aj_dwarfs2.tsv	aj_dwarfs2-092	CONFIRMA	data.js:4440 burlok ranged range10 s3 ap2 ab1 hitD3; rules.js:2997 cada impacto -> D3 impactos
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-010	CONFIRMA	data.js:2149 cd_hobgoblins comp 'core' (Hobgoblin Cutthroats en Basicas)
+leg_darkelves.tsv	leg_darkelves-053	CONFIRMA	data.js:1615 de_deathhag M5 WS6 BS6 S4 T3 W2 I7 A3 Ld8, 70 pts, 25x25, dos armas de mano
+core_3.tsv	c3-070	CONFIRMA	"rules.js:3730-3745 vira para esquivar si puede; si no, accHalt (pref del jugador, main.js:1324) detiene a 1"" sin fallar, o sigue: aniquila huidos / redirige a no huidos"
+dawn_renegade_sc.tsv	cathay_dawn-090	CONFIRMA	data.js:3556-3558 jadefleet: Miao Ying 1, Shugengan Señor (ct_shugengan)/Magistrado 0-1 por 1.000, gatemaster/keeper/strategist sin tope; chk rules; personajes 50% generico

@@ -1,0 +1,72 @@
+71
+br_bowmen_stakes|Peasant Bowmen@fof.txt:3702|stakes(?)
+br_questing|Questing Knight@fof.txt:3850|stubborn
+br_grail|Grail Knight@fof.txt:3898|magical,immunePsy,stubborn
+we_spellweaver|Spellweaver@fof.txt:4697|athelLoren(?)
+we_ancient|Treeman Ancient@fof.txt:4831|athelLoren(?)
+we_ancient_amb|Treeman Ancient@fof.txt:4831|athelLoren(?)
+we_branchwraith|Branchwraith@fof.txt:4876|athelLoren(?)
+we_wardancers|Wardancer@fof.txt:5155|loec
+we_warhawks_sk|Warhawk Rider@fof.txt:5435|furiousCharge,impetuous
+we_treeman_amb|Treeman@fof.txt:5568|ambush
+he_swordmasters|Swordmaster@fof.txt:6437|magical
+he_phoenix|Phoenix Guard@fof.txt:6485|magical
+wolf_riders_snk|Wolf Rider@rh.txt:1265|ambush
+wolf_riders_hp|Wolf Rider@rh.txt:1265|horde
+woc_marauders|Chaos Marauder@rh.txt:2551|horde
+woc_marauders_famb|Chaos Marauder@rh.txt:2551|horde,ambush
+trolls|Chaos Troll@rh.txt:2698|trollVomit(?)
+woc_trolls|Chaos Troll@rh.txt:2698|motley
+woc_hellcannon|Hellcannon@rh.txt:3249|bombard(?),moveOrFire(?)
+cd_hellcannon|Hellcannon@rh.txt:3249|bombard(?),moveOrFire(?)
+bm_shaggoth|Shaggoth@rh.txt:4415|quickening(?)
+bm_cygor|Cygor@rh.txt:4564|bombard(?)
+tk_warriors_ph|Skeleton Warrior@rh.txt:5634|phalanx(?)
+bm_kralmaw|Kralmaw, the@aj_beasts2.txt:1005|grisly(?)
+bm_ghorros|Ghorros Warhoof@aj_beasts2.txt:1109|unicornSkull(?)
+bm_gor|Gor@aj_beasts2.txt:1262|openOrder,skirmish
+bm_gor_aw|Gor@aj_beasts2.txt:1262|openOrder,skirmish
+dw_thorgrim|Thorgrim Ulleksson@aj_dwarfs2.txt:856|grudgestone(?),skaldour(?)
+dw_ungrim|Ungrim Ironfist@aj_dwarfs2.txt:940|monsterSlayer(?)
+dw_sapper|Engineer Sapper@aj_dwarfs2.txt:1072|hostileTerrain(?)
+dw_doomseeker|Doomseeker@aj_dwarfs2.txt:1116|skirmish
+emp_harald|Harald Gemunsen@aj_empire2.txt:1036|panther1(?),reaverBM(?),pantherOnly(?)
+emp_hans|General Hans@aj_empire2.txt:1124|griffonHelm(?),juicioMW(?)
+teutogen|Teutogen Guard@aj_empire2.txt:1221|wolfHammer(?)
+gob_kiknik|Kiknik Toofsnatcha@aj_orcs2.txt:878|itRun,trophyRack(?)
+troll_hag|Troll Hag@aj_orcs2.txt:1007|trollVomit(?)
+tk_settra|Settra the Imperishable@aj_tk2.txt:873|chariot(?),khopesh,reserveMove,swiftstride,settraGreat(?),noKneel(?),sunBlade(?),crownNeh(?)
+tk_apophas|Prince Apophas@aj_tk2.txt:1020|scarabPrince(?),reaper(?),unstable,immunePsy,unbreakable
+tk_nekaph|Nekaph,@aj_tk2.txt:1108|settraChamp
+tk_warriors_ph|Skeleton Warrior@aj_tk2.txt:1472|closeOrder,phalanx(?),regimental
+tk_warriors|Skeleton Warrior@aj_tk2.txt:1472|closeOrder,regimental
+br_green_knight|The Green Knight@aj_bretonnia.txt:1074|ambush
+br_cecil|Sir Cecil Gastonne@aj_bretonnia.txt:1236|dragonhide(?),monsterSlayer(?),stubborn,veteran
+he_korhil|Korhil Lionmane@aj_highelves.txt:1084|chayal(?),pelt(?)
+he_ishaya|Ishaya Vess@aj_highelves.txt:1181|mathIre(?)
+cd_prophet|Sorcerer-Prophet@leg_chaosdwarfs.txt:96|sorcCurse(?)
+dm_herald_khorne|Herald of Khorne@leg_daemons.txt:138|indom1,cleave
+dm_bloodletters|Bloodletter@leg_daemons.txt:177|cleave
+dm_herald_nurgle|Herald of Nurgle@leg_daemons.txt:356|indom1
+dm_keeper|Keeper of Secrets@leg_daemons.txt:491|indom2
+dm_herald_slaanesh|Herald of Slaanesh@leg_daemons.txt:521|indom1
+dm_herald_tzeentch|Herald of Tzeentch@leg_daemons.txt:730|indom1
+dm_prince|Daemon Prince@leg_daemons.txt:941|indom2
+lm_temple|Temple Guard@leg_lizardmen.txt:241|tgGuardians(?)
+ok_firebelly|Firebelly@leg_ogres.txt:218|volcano(?)
+sk_stormvermin|Stormvermin@leg_skaven.txt:276|wtParent(?)
+sk_clanrats|Clanrat@leg_skaven.txt:300|wtParent(?)
+sk_jezzail|Jezzail Team@leg_skaven.txt:404|moveOrFire(?),pavise(?)
+vc_necromancer|Master Necromancer@leg_vampires.txt:187|immunePsy,nehek(?),unbreakable
+vc_banshee|Tomb Banshee@leg_vampires.txt:332|immunePsy,unbreakable
+tk_guard_ph|Grave Guard@leg_vampires.txt:389|fear,immunePsy,unbreakable,unstable,khopesh,phalanx(?),regimental
+tk_guard_hb|Grave Guard@leg_vampires.txt:389|fear,immunePsy,unbreakable,unstable,regimental
+tk_warriors_sp|Skeleton Warrior@leg_vampires.txt:427|immunePsy,unbreakable,unstable,regimental
+vc_skeletons|Skeleton Warrior@leg_vampires.txt:427|immunePsy,unbreakable,unstable
+vc_zombies|Zombie@leg_vampires.txt:448|immunePsy,unbreakable,unstable
+vc_ghouls|Crypt Ghoul@leg_vampires.txt:466|immunePsy,unbreakable,unstable
+vc_horrors|Crypt Horror@leg_vampires.txt:484|immunePsy,unbreakable,unstable
+vc_vargheists|Vargheist@leg_vampires.txt:516|immunePsy,unbreakable,unstable
+vc_hexwraith|Hexwraith@leg_vampires.txt:664|fear,immunePsy,unbreakable,unstable
+vc_terrorgheist|Terrorgheist@leg_vampires.txt:889|immunePsy,unbreakable,unstable
+vc_varghulf|Varghulf@leg_vampires.txt:955|immunePsy,unbreakable,unstable

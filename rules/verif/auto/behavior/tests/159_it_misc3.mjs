@@ -1,0 +1,27 @@
+// v839 — Objetos con popup propio en movimiento, disparo y lanzamiento
+import { T, N, R, DATA, ok, eq, cur, put, game, U, dice, diceAll, msgs, asks, by, join, engage, shotOf } from '../lib3.mjs';
+import { FILE, ctotAsk, mkCast, hexSpell } from './_it2.mjs';
+import { carrierOf } from './_items.mjs';
+const { ITEMS, UNITS } = DATA;
+const TT = (key, desc, fn) => T('v839-it-' + key, FILE, `${ITEMS[key].name}: ${desc}`, fn);
+const F2 = (t) => (UNITS[t].faction === 'merc' ? 'empire' : UNITS[t].faction);
+const ans = (m) => (n) => { for (const [k, v] of Object.entries(m)) if (n.title.includes(k)) return v; return undefined; };
+TT('silver_horn', 'solo personajes con Zancada veloz: el portador (y su unidad) puede repetir el D6 de Zancada veloz (se pregunta en el momento)', () => {
+  const ct = carrierOf(ITEMS.silver_horn); const mk = (withIt) => { const s = game([{ type: ct, models: 1, items: withIt ? ['silver_horn'] : [] }], [{ type: 'orc_boyz', models: 10 }], { f: [F2(ct), 'orcs'], phase: 'move' }); const u = put(U(s, ct, 0), 36, 40); cur(s); return { s, u }; };
+  const a = mk(true); dice(2, 6); const r = asks(a.s, (c) => { cur(c); return R.swiftD6(c, by(c, a.u), [], 'mover'); }, [0, 1], ans({ 'Cuerno': 'y' })); ok(r.needs.some((n) => n.title.includes('Cuerno de Plata')), 'se pregunta'); eq(r.r, 6, 'repite el 2 y obtiene 6');
+  const b = mk(true); dice(2, 6); eq(asks(b.s, (c) => { cur(c); return R.swiftD6(c, by(c, b.u), [], 'mover'); }, [0, 1], ans({ 'Cuerno': 'n' })).r, 2, 'si rehúsa conserva el 2'); const c = mk(false); dice(2, 6); eq(asks(c.s, (cc) => { cur(cc); return R.swiftD6(cc, by(cc, c.u), [], 'mover'); }, [0, 1]).r, 2, 'control sin Cuerno: no se ofrece');
+});
+TT('bm_glass', 'si tu General lo lleva, suma +1 a la tirada para elegir quién juega primero; si ambos lo llevan, una tirada enfrentada decide cuál es el auténtico', () => {
+  const mk = (a, b) => { const s = game([{ type: 'bm_beastlord', models: 1, items: a ? ['bm_glass'] : [] }], [{ type: 'bm_beastlord', models: 1, items: b ? ['bm_glass'] : [] }], { f: ['bm', 'bm'], phase: 'deploy' }); for (const u of s.units) { u.general = true; } cur(s); return s; };
+  const s1 = mk(true, false); eq(R.glassMod(s1, 0), 1, 'mi General lo lleva: +1'); eq(R.glassMod(s1, 1), 0, 'el rival: 0'); const s0 = mk(false, false); eq(R.glassMod(s0, 0), 0, 'nadie: 0');
+  const s2 = mk(true, true); diceAll(1); dice(6, 1); const m0 = R.glassMod(s2, 0), m1 = R.glassMod(s2, 1); eq(m0 + m1, 1, 'ambos: solo uno es auténtico'); eq(m0, 1, 'gana la tirada enfrentada (6 > 1)');
+});
+TT('bm_wyrd', 'un solo uso: justo antes de una tirada de lanzamiento o de dispersión puede aplicar +1 a esa tirada (popup)', () => { const HI = { spell: 'storm_fury' }; const y = ctotAsk('bm_wyrd', [2, 3, 3, 3, 3], HI, { 'Fragmento': 'y' }), n = ctotAsk('bm_wyrd', [2, 3, 3, 3, 3], HI, { 'Fragmento': 'n' }); ok(y.asked.includes('Fragmento de Piedra Bruja'), 'se pregunta en el momento'); eq(y.tot - n.tot, 1, 'suma +1'); ok(y.w.used?.wyrd && !n.w.used?.wyrd, 'se gasta solo si se usa'); });
+TT('okl_sickle', 'tras lanzar suma D3 al resultado (sin percance ni invocación perfecta) a costa de una Herida de un modelo amigo a 3" (popup)', () => {
+  const HI = { spell: 'storm_fury' }; const mk = (extra) => ctotAsk('okl_sickle', [4, 4, 3, 3, 3], { ...HI, setup: (s, w) => { const g = s.units.find((x) => x.owner === 0 && x !== w) || null; if (!g) { const f = U(s, 'state_troops', 1); } } }, extra);
+  const s0 = game([{ type: 'empire_mage', models: 1, items: ['okl_sickle'] }, { type: 'state_troops', models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: ['empire', 'orcs'], phase: 'shoot', active: 0 }); const w = put(U(s0, 'empire_mage', 0), 36, 40), fr = put(U(s0, 'state_troops', 0), 36, 43), t = put(U(s0, 'orc_boyz', 1), 36, 22, Math.PI / 2); w.spells = ['storm_fury']; w.casted = []; cur(s0);
+  const run = (a) => { dice(4, 4, 3, 3, 3); diceAll(1); return asks(s0, (c) => { cur(c); return R.apply(c, { t: 'cast', id: w.id, spell: 'storm_fury', target: t.id }); }, [0, 1], (n) => (n.title.includes('Hoz') ? a : undefined)); };
+  const y = run(fr.id); ok(y.needs.some((n) => n.title.includes('Hoz de Grut')), 'se pregunta'); ok(/Hoz de Grut/.test(msgs(y.r.events || [])), 'usa la Hoz: ' + msgs(y.r.events || []).slice(0, 200)); ok(by(y.s, fr).wounds < fr.wounds, 'el modelo amigo pierde una Herida');
+  const n = run('none'); ok(!/Hoz de Grut/.test(msgs(n.r.events || [])), 'si rehúsa no la usa');
+});
+TT('ring_ruin', 'objeto hechizado: el portador puede lanzar Bola de Fuego como hechizo atado con Nivel de Poder 1', () => { const ct = 'empire_captain'; const s = game([{ type: ct, models: 1, items: ['ring_ruin'] }], [{ type: 'orc_boyz', models: 10 }], { f: ['empire', 'orcs'], phase: 'shoot', active: 0 }); const c = put(U(s, ct, 0), 36, 40), t = put(U(s, 'orc_boyz', 1), 36, 30, Math.PI / 2); cur(s); ok(R.spellKeys(c).includes('ring_fireball'), 'conoce Bola de Fuego (ring_fireball)'); diceAll(6); const r = R.apply(s, { t: 'cast', id: c.id, spell: 'ring_fireball', target: t.id }); ok(r.ok !== false, 'lanza: ' + msgs(r.events || []).slice(0, 160)); const sp = DATA.SPELLS.ring_fireball; ok(sp && /bola de fuego/i.test(sp.name), 'es Bola de Fuego'); const c2 = game([{ type: ct, models: 1 }], [{ type: 'orc_boyz', models: 10 }], { f: ['empire', 'orcs'], phase: 'strategy' }); ok(!R.spellKeys(U(c2, ct, 0)).includes('ring_fireball'), 'control: sin el anillo no'); });

@@ -1,0 +1,1716 @@
+                                                                        CONTENTS
+The Empire of Man ......................................................................3        General Hans von Löwenhacke................................................36
+A Thousand States .......................................................................5       Harbingers of Doom ..................................................................38
+The Growing Shadow.................................................................13            Teutogen Guard ..........................................................................39
+ The Battle of Stirhügel Hills..............................................................18   Imperial Ogres ............................................................................40
+The City-state of Nuln...............................................................26          Empire Road Wardens...............................................................41
+ Empire of Man 3 City-state of Nuln..............................................28              Empire War Wagons...................................................................42
+The Knightly Orders of the Empire.........................................30                     Knightly Orders of the Empire.................................................44
+ Empire of Man 3 Knightly Order ...................................................32            Empire of Man Magic Items.....................................................46
+Harald Gemunsen,
+Grand Master of the Knights Panther....................................34
+
+
+
+
+               Warhammer: the Old World Arcane Journal 3 Empire of Man © Copyright Games Workshop Limited 2024.
+    Warhammer: the Old World, Citadel, Forge World, Games Workshop, GW, Warhammer, the 8winged-hammer9 Warhammer
+     logo, and all associated logos, illustrations, images, names, creatures, races, vehicles, locations, weapons, characters, and the
+                                                               ®
+    distinctive likenesses thereof, are either or TM, and/or © Games Workshop Limited, variably registered around the world.
+                                                            All Rights Reserved.
+
+         No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means
+             electronic, mechanical, photocopying, recording or otherwise, without the prior permission of the publishers.
+
+                               This is a work of fiction. All the characters and events portrayed in this book are fictional,
+                                          and any resemblance to real people or incidents is purely coincidental.
+
+                British Cataloguing-in-Publication Data. A catalogue record for this book is available from the British Library.
+
+                                                                 Pictures used for illustrative purposes only.
+
+                            ISBN: 978-1-83779-136-1                                                                      Product Code: 60632702001
+             Empire of Man
+
+
+
+
+<THOUGH    ALL THE WORLD          SHOULD       FALL, WE SOLDIERS
+  OF THE   EMPIRE     WOULD       STAND      DEFIANT   STILL!=
+                    - General Hans von Löwenhacke
+The Empire of Man
+                                 THE EMPIRE OF MAN
+T  he Empire is a vast and prosperous, if troubled, land. Since the time of Sigmar, when a hero who would become a god
+   unified the twelve tribes of Men that dwelt between the Worlds Edge Mountains and the shores of the Sea of Claws, the
+Empire has stood defiant in the face of the encroaching darkness.
+
+Sigmar9s Legacy                                                      Death Of A Tyrant
+Though it has been more than two thousand years since                Boris had become Emperor because the Elector Counts, the
+Sigmar left his people to govern themselves, venturing into the      hereditary rulers of the Empire9s most powerful provinces,
+east and passing first into legend, then into divinity, the empire   believed him as good and noble as his late father, the Emperor
+he founded still persists. Since then, the nation has survived       Ludwig II. In truth, Boris was quickly revealed to be a ruthless
+threats unimagined in the form of rampaging Orc hordes,              despot who held onto power through brutality. Upon his
+invading armies of Chaos-worshipping barbarians, legions of          death, the Electors met to choose his successor. Yet so great
+undead and worse. It has endured plague and famine, flood            was the turmoil wrought by Boris and so unexpected had his
+and drought, its people prospering in times of plenty and            turn from affable young man to bloody-handed tyrant been
+persisting through their sense of unity and belief in their          that they stood frozen by the fear of repeating such a grave
+patron god9s dream of empire in times of need.                       error of judgement. Thus did the nation remain leaderless.
+
+At least, that is what the priests of Sigmar9s Cult tell their       Though they would reconvene within a score of years to
+congregations, and that is what Imperial ambassadors to              elect Count Mandred von Zeldt of Middenheim as Emperor,
+foreign lands tell their counterparts. In truth, the Empire          his untimely death was to reignite simmering tensions as
+has long been a nation divided, its unity torn asunder by            the Empire divided into self-governing provinces. Those
+the pettiness of counts and countesses who yearn for ever            tensions erupted into open war when Grand Duchess Otillia
+greater power, its strength squandered in battles fought along       of Talabecland declared herself Empress. This state of affairs
+borders that should not even exist, let alone be threatened by       was eventually resolved by dividing the Empire in two, with
+a neighbour.                                                         two Emperors, each ruling their own league of allied states
+                                                                     and provinces, and cooperating with their rivals in the spirit of
+For more than a thousand years now, since the time of the oft        Sigmar9s Empire.
+remembered but seldom lamented Emperor Boris Hohenback,
+the Empire has suffered a great decline. Boris was the last          Unfortunately, the relative peace was to be shattered when
+of the line of Drakwald emperors, and in his cruel reign             the Elector Count of Middenland declared himself Emperor
+corruption and infighting became rife whilst the population          and demanded recognition. Rather than bring unity to the
+suffered, growing impoverished and mean of spirit, and falling       sundered nation, this proclamation marked the beginning
+victim to regular outbreaks of plague.                               of the Age of Three Emperors, weakening the Empire and
+                                                                     dividing the states and provinces still further.
+    Anarchy & Confusion                                                Unity Amidst Disorder
+    With the Count of Middenland9s declaration of himself              With all semblance of unity cast aside in favour of outrage,
+    as Emperor, the hostility between the states and provinces         and with the many states and provinces of the Empire thrown
+    constituting the Empire increased, leading to a period of          into renewed turmoil, new threats quickly arose. From within
+    unease that would last four hundred years. In this time,           Sylvania, evil forces emerged, hungry for conquest. At the head
+    political power shifted regularly as alliances were forged and     of the province9s armies were the counts von Carstein, twisted
+    betrayed, only to be reforged anew. Over time, such shifting       and evil Vampires all. For more than a century, these foul
+    allegiances caused the provinces themselves to fracture, with      creatures led their hosts of shambling revenants in campaigns
+    whole portions of some states splitting away and declaring         to topple the rulers of the anarchic Empire. Yet their plans
+    themselves part of a neighbouring state.                           were eventually thwarted, for, when most hard-pressed by
+                                                                       a common enemy, the rival Elector Counts did set aside
+    Throughout this time, borders were drawn and redrawn               their differences and fight as one in defiance of the armies of
+    through conflict and bloodshed, leaving the common folk of         the night.
+    the Empire in disarray. Farmers taking their goods to market
+    would discover a town they had visited for decades now stood       At the battle of Hel Fenn, Templars and Warrior Priests of the
+    on the other side of an impassable border, its burgomeisters       Cults of Sigmar, Ulric and Morr joined the armies of Stirland,
+    having declared independence or sworn fealty to a rival.           Osterland and Talabecland to defeat the Vampires once and
+    Merchants would find the trade routes of centuries suddenly        for all. Though the battle took a heavy toll upon the soldiers
+    closed, diverted or, worse, subject to heavy tolls. Worst of       that fought it, with few escaping the accursed swamp alive,
+    all, such petty politicking left the great nation vulnerable to    the defeat of an enemy that had only recently threatened
+    invaders, the fracturing of provinces leading to an increasing     to overwhelm the Empire carried powerful lessons that few
+    number of ever smaller standing armies, reluctant to ally with     amongst the rulers of the shattered nation could overlook. The
+    rivals against common foes.                                        Empire needed unity. It needed an Emperor.
+
+    In the year 1979 of the Imperial Calendar, a year that will        Unfortunately, or unsurprisingly, depending upon one9s view
+    live long in infamy and regret, an attempt was made to             of the nobility, this realisation did not lead to the reunification
+    reunify the fractured nation that was destined only to make        of the Empire under a single strong leader. Instead, the calls
+    matters worse. Having manoeuvred herself into a favourable         for unity only empowered the bickering Elector Counts to
+    position, and supported by fully half of the Elector Counts, the   redouble hostilities with their neighbours as their demands
+    Countess of Marienburg was declared Empress. The outrage           that they be recognised as Emperor by their peers went
+    that erupted from this singular act ended all pretence of unity    unheeded. Thus stands the Empire today, riven by the actions
+    within the troubled nation, and the Empire sank into anarchy.      of its rulers, but stubbornly unified by the spirit of its people
+                                                                       and the endeavours of its more pragmatic institutions.
+
+
+
+
+4                        The Empire Of Man
+A Thousand States
+                                  A THOUSAND STATES
+T   hough several defined regions exist within the Empire, each ruled by a claimant to the Imperial throne, the Empire
+    remains a divided nation. Its once powerful provinces have crumbled over long years of strife and turmoil into
+innumerable smaller states and counties.
+
+The Grand Provinces                                                  Of Electors & Interlopers
+The largest unified regions within the Empire 3 the Barony of        With an ever-evolving political landscape and frequent
+Westerland, the Grand County of Osterlund, the Principality          border skirmishes fostering a continued state of dissolution
+of Reikland and the Grand Duchy of Talabec 3 each draw               and turmoil, the difficulty of electing a single Emperor to
+together, in whole or in part, several of the traditional seats of   unify the shattered nation has only increased, for even the
+the Electoral College. Westerland, for example, has grown to         Electoral College has fallen victim to division and confusion.
+cover great tracts of land formerly part of Middenland and           By tradition, the Electoral College consists of twelve Elector
+much of Nordland. Osterlund encompasses Hochland, much               Counts, each the ruler of a province of the Empire founded
+of Ostland and the larger portion of Middenland. Reikland is         within the borders of the ancestral lands of one of the
+the smallest of these power blocs, its borders having expanded       twelve tribes that swore their allegiance to Sigmar. To these
+little, though its heritage as the ancestral realm of Sigmar and     hereditary Electors have been added Ar-Ulric, the head of the
+his people, the Unberogens, cements the province9s power             Cult of Ulric, and the Grand Theogonist, the head of the Cult
+and significance. By contrast, the Grand Duchy of Talabec            of Sigmar.
+is a vast league of loosely allied states, such as Talabecland
+itself, Stirland, parts of Ostermark and the remnants of             Where difficulties arise is that, since IC 1979, many claimants
+accursed Sylvania.                                                   to the Imperial throne have seen fit to elevate their cronies
+                                                                     to the rank of Elector. In the Reikland, for example, the two
+Alongside these are the free states of the Empire9s south:           Arch Lectors of the Cult of Sigmar, the chief lieutenants of
+Averland, Wissenland and Sudenland. Rich and fertile                 the Grand Theogonist, are counted amongst the Electors. In
+provinces all, they maintain good relations with the wider           Talabecland, the Elder of the Halfling Moot is acknowledged
+Empire, for their pragmatic counts prefer to trade their rich        as having a vote in the Electoral College, whilst in Marienburg
+bounties in exchange for coin and military aid in their defence      the High Priest of Manann is recognised as a legitimate
+when needed, rather than throw their whole-bodied support            Elector, to name but a few.
+behind any one of the feuding Electors to their north.
+                                                                     Obviously such appointments make it easy for a pretender
+In addition to these large and bombastic provinces, several          to the throne to claim they hold the support of a majority
+independent city-states have emerged within the Empire.              of Electors, especially when they refuse to acknowledge the
+The most significant of these, great cities such as Nuln and         legitimacy of Electors appointed by rivals. In truth, meetings of
+Averheim, are joined by innumerable small towns whose                the various Electoral Colleges have led to war and bloodshed
+burgomeisters have chosen to secede from the provinces they          on several occasions, with the armies of rivals mobilising to
+occupy and govern themselves as they please.                         disrupt the meeting of illegitimate Electors on many occasions.
+
+
+
+
+                                                                                        A Thousand States                                5
+THE EMPIRE
+ OF MAN
+Of Rivers, Mountains & Forests                                      Yet despite their dangers, these forests are scattered with
+                                                                    lonely pockets of civilisation, walled towns and villages
+The Empire is a land of diverse geography. Much of its              where the gates are locked and barred every night and the
+northern mass is mountainous and rugged, or hidden beneath          surrounding woods regarded with dread. Connecting the
+huge primordial forests. From these come the wood and raw           villages and towns are perilous, rutted roads, with high-walled
+materials needed to fuel its great and industrious cities. To       coaching inns spread along their length.
+the south, the lands unfold into endless expanses of rich and
+fertile farmlands, fields of green and gold that easily sustain     The Towering Mountains
+the vast populations of the sprawling metropoles.                   The great mountains that border the Empire both protect
+                                                                    the nation from invaders and harbour some of its most
+The Mighty Rivers                                                   dangerous foes. To the east, the grimly forbidding peaks of the
+Great waterways flow through the Empire from sources high           Worlds Edge Mountains rise to scrape the very sky with their
+in the Worlds Edge Mountains, connecting the bustling cities        immensity. In ancient times, this was the realm of the Dwarfs,
+of the nation and making safe travel through the wild forests       but few of their grand holds remain now, and the mountains
+possible. Thundering watercourses, such as the rivers Aver and      are overrun with Orcs, Trolls and worse things.
+Stir, flow from the slopes of the mountains, quickly becoming
+major routes that run through deep and wooded valleys as            To the west, the shadow-haunted crags of the Grey Mountains
+they cut through the lowlands.                                      divide the Empire from Bretonnia. Whispered tales are told of
+                                                                    shambling corpses and wandering spirits that haunt the high
+The River Talabec, named for the god Taal, Lord of Beasts,          passes, and macabre storytellers delight in telling of the bleak
+begins where its two tributaries 3 the Upper and Lower              and forbidding ruins that cling to the mountain peaks.
+Talabec rivers 3 merge in dark pine forests. From here to its
+convergence with the River Reik, the river is wide and fast         The Bustling Cities
+flowing, and deep enough to allow ocean going vessels to
+travel far inland.                                                  The Empire is home to the largest cities of Men in the known
+                                                                    world, great edifices of humanity that rise from the dark
+The Upper Reik begins near Black Fire Pass, swelling as it          forests. Of these, the mightiest are the capitals of the four
+flows northwards and is joined by other great rivers. At Nuln       grand provinces.
+it becomes the Reik proper, from where it runs all the way to
+Marienburg and beyond to the Sea of Claws. Connected as it          Middenheim
+is to so many other great rivers, the Reik is of vital importance   Vast and impregnable, Middenheim is a teeming mass of
+to the Empire and the source of much of its wealth.                 humanity that stands atop the Ulricsberg, a sheer-sided
+                                                                    pinnacle of rock that rears from the surrounding forest like
+The Forests Of The Empire                                           the broken fang of a great wolf. Four wide highways built on
+Beneath the darkened boughs of the tangled forests that cover       towering viaducts climb from the forest floor, providing the
+much of the Empire lurk dreadful creatures and forgotten            main access to the city. Wooden drawbridges, that can be
+secrets. In the north, the Forest of Shadows is thick with          raised to isolate the city in times of war, connect the gates to
+raiders, bandits and roving warbands of Chaos worshippers.          these highways.
+West of the Middle Mountains, the Drakwald Forest is the
+ realm of Beastmen and Minotaurs, while to the south and            Middenheim is known as the City of the White Wolf, the
+   east the Great Forest is haunted by the restless dead. To        symbol of its patron deity, the god Ulric. The Temple of Ulric
+     the south and west, the Reikwald Forest shelters tribes        stands within the walls of Middenheim, making it the centre
+       of Orcs and Goblins as they rampage down from the            of his cult throughout the Old World.
+          Grey Mountains.
+Talabheim                                                           Altdorf
+Nestled deep in the Great Forest, Talabheim is sometimes            A bustling city, home to traders and fortune seekers from all
+known as the Eye of the Forest. The city is built within a huge     across the Old World, Altdorf stands astride the confluence
+crater many miles across, whose outer edge forms a natural          of the rivers Reik and Talabec. The city is famed for the
+wall that has been strengthened and fortified with many tall        numerous bridges that traverse these waterways, many of
+gun towers.                                                         which are steam-powered wonders of the modern age that
+                                                                    raise and lower in ingenious ways, allowing tall ships to travel
+The River Talabec flows around the outside of the crater, its       far inland.
+traffic entering the city through the fortified port of Talagaad.
+From here, a narrow road climbs the ridge of the crater and         The city is also renowned as a seat of learning second only
+enters the city via a tunnel carved through the rock of the         to Nuln. Within the fog-shrouded avenues of the university
+city9s defences. This tunnel is the only entrance to the city and   district, seekers of knowledge from many lands come to
+a massive, fortified gateway at its end makes Talabheim one of      learn from the foremost sages of the Old World. By contrast,
+the most defensible cities in the Empire.                           pious visitors and pilgrims flock to the heart of the temple
+                                                                    district where stands the temple of Sigmar, a towering
+Marienburg                                                          edifice that dominates the city skyline as much as
+At the mouth of the River Reik stands Marienburg, the               the worship of Sigmar dominates the lives of
+world9s marketplace 3 the largest, richest and most corrupt         the population.
+city port in the Old World. Here, everything is for sale and
+nothing is without a price. It is a strange city to the eyes of a
+traveller, for many of its buildings rise from the repurposed
+hulls of vessels that once sailed the oceans, no small number
+of which still bear their masts and rigging, their superstitious
+builders afraid to offend Manann by defacing craft that once
+travelled his realm.
+
+It is a cosmopolitan city, but rife with vice and intrigue, its
+ruling burgomeisters endlessly politicking for greater wealth
+and power and its denizens always seeking advancement. As
+a result, Marienburg is home to many clandestine societies,
+strange cults and secretive guilds, with some whispering the
+city even houses hidden schools of Wizardry.
+                         UNIFORMS                         OF THE EMPIRE
+                                     Grand County of Osterlund
+
+
+
+
+                         Guided by the heraldic colours of the county9s capital, many of Osterlund9s
+                           regiments are dressed in the dark blue and white of Middenland. The
+                            warriors of this northern province cloak themselves in heavy furs to
+                           protect against the frigid weather, the most elite of which wear white
+                          wolf pelts in honour of Ulric. The devotion to Ulric is clearer still in the
+                         heraldry of Osterlund9s regiments, as most have adopted the rampant wolf
+                                     of the god of winter upon their shields and banners.
+
+
+
+
+                                        Grand Duchy of Talabec
+
+
+
+
+                          Dressed in the state colours of yellow and red, the soldiers of Talabecland
+                              are a sight to behold when arrayed for battle. This bright display is
+                            not shared by Talabheim itself however, as the region9s capital adorns
+                            its warriors in a livery of red and white. Talabecland is renowned for
+                             its experienced woodsmen and expert archers, who often wear dark
+                         overcoats of brown or black to combat the weather and aid them in staying
+                           hidden whilst tracking their quarry 3 be that a prized buck or a herd of
+                                                          vile Beastmen.
+
+
+
+10   The Empire Of Man
+                Principality of Reikland
+
+
+
+
+ Dressed predominantly in white, with splashes of red and black, Reikland
+   has always boasted a well-equipped army of professional soldiers. The
+ state9s banner bears an eagle in homage to Myrmidia, the goddess of war,
+ but in recent years it has begun to incorporate an ever increasing number
+of sigils associated with Sigmar 3 a sign of the ever-growing influence of the
+Cult of Sigmar. It is no surprise that the Cult9s presence is most heavily felt
+             in Reikland, for it is the birthplace of Sigmar himself.
+
+
+
+
+                 Barony of Westerland
+
+
+
+
+    With the city of Marienburg being amongst the wealthiest in the Old
+    World and the capital of Westerland, it comes as no surprise that its
+ soldiers are dressed in often showy and over-the-top uniforms of yellow,
+   red and blue. Not only is Marienburg wealthy, it is also a cosmopolitan
+city. This has led to the arms and armour of the forces of Westerland often
+   being of a superior craftsmanship to some of the other provinces, their
+smiths having worked alongside both their Elven and Dwarfen neighbours.
+
+
+
+
+                                                         The Empire Of Man        11
+     REGIMENTS OF
+      THE EMPIRE
+     The Carroburg Greatswords
+
+
+
+
+                       The Carroburg Greatswords first earned their
+                     reputation during the Siege of Carroburg in 1865.
+                        After holding the breach for a day against an
+                     army from Middenland, the Reiklanders changed
+                       their white uniforms to red in order to honour
+                                the blood-drenched victors.
+
+
+
+
+                                                           The Scions
+                                                            Of Ulric
+
+
+
+
+                                      The Scions of Ulric is a renowned regiment of Pistoliers, boasting
+                                      members from highborn families from every corner of the Grand
+                                 County of Osterlund. Each year, aspiring young men and women present
+                                   themselves at the regimental barracks in Middenheim, hoping to prove
+                                 themselves worthy of serving in Ulric9s name and knowing that those who
+                                  earn renown amongst the Pistoliers are assured of a welcome into one of
+                                                   Osterlund9s illustrious knightly orders.
+
+
+
+12       The Empire Of Man
+The Growing Shadow
+                             THE GROWING SHADOW
+F   rom the dark corners of the Empire9s many forests, the shadow of Chaos creeps closer towards civilised lands as hordes
+    of Beastmen amass around monolithic herdstones. The free city-state of Nuln has long relied upon experienced patrols
+to safeguard the highways, byways and rivers that transport its precious exports to the other provinces of the Empire. Alas,
+in recent times, even they have been able to do little to halt the ever increasing number of savage attacks.
+
+The City Of Industry                                                  Highway Guardians
+Nuln has long stood independent right within the heart of the         As for the culprits of the raids, the evidence pointed in only
+Empire, its position as a titan of industry granting it significant   one direction 3 Beastmen. Ruffians and bandits would not
+influence in the tumultuous political landscape. States and           abandon precious cargo by the side of the road, and Orcs and
+provinces from Middenland to Marienburg rely upon steady              Goblins would not waste time making off with the corpses of
+shipments of artillery and firearms to ensure they are armed          those they had slain. It was not until a grizzled group of Nuln9s
+for war, no matter whom their foes happen to be. It is vital          Road Wardens returned to the city that these suspicions were
+for rulers and elected statesmen of any standing, particularly        confirmed and fears heightened, for the heads of a score of
+those who believe themselves worthy of being Emperor, to              Beastmen soiled the saddlebags of the grim-faced cavalry.
+have strong diplomatic relations with the free city-state, or         With the confirmation that the Children of Chaos were
+they might suddenly find themselves without the necessary             venturing so close to the city, panic soon began to spread, but
+tools of war.                                                         the man commanding Nuln9s armies remained calm, for he
+                                                                      was a veteran of battling against the Brayherds.
+These relationships are just as important to Nuln however,
+for the city-state is reliant upon its trading partners to secure     During his time amongst the armies of Middenland,
+vittles for its population and fuel for its forges. Quotas must       General Hans von Löwenhacke had led the annual purge of
+be met and shipments of arms must be delivered on time if             the Drakwald Forest on a number of occasions, becoming
+Nuln is to maintain strong ties with its trade partners and           extremely familiar with the savage creatures and their crude
+ensure that wealth continues to flow into the city. This trade        tactics. He was swift to issue a statement to the people of
+fell under threat in the spring of 2280 however, as many              Nuln, calming their nerves with determined and confident
+caravans destined for Talabecland were ransacked as they              assurances of victory. Even as his words echoed from the
+passed through the Stirhügel Hills in the County of Stirland,         lips of heralds across the soot-covered streets, his captains
+with carts and their contents seemingly tossed into the air and       were marshalling Nuln9s forces in order to strike back at the
+dashed against the earth by monstrous hands, leaving no sign          Beastmen and put an end to the threat they posed to the city9s
+of those charged with guarding the convoys.                           trade routes.
+
+
+
+
+                                                                                       The Growing Shadow                                 13
+                   Muster At The Reik                              The Stirland Crossing
+                   As the army of Nuln began to marshal            Stretching between the large metropolitan
+                   on the northern banks of the River Reik,        cities of the Empire are vast swathes of
+                   many from within the city gathered atop         untamed wilderness, and as the army of
+                   the walls to observe the spectacle. Serried     Nuln began its march towards the Stirhügel
+                   ranks of halberdiers stood ready to march,      Hills, they swiftly left behind the comforts
+                   flanked by detachments of handgunners           of their stone houses and walled cities.
+                   and bands of experienced archers. Great         With mounted scouts advancing to the
+                   cannon, mortars and other, more eccentric       fore and experienced huntsmen covering
+                   war machines were loaded atop horse-            the flanks of his forces, von Löwenhacke
+                   drawn carts, ready for hasty deployment         had taken every measure to ensure that the
+                   once battlelines had been drawn. Road           Beastmen would not catch him unaware.
+                   Wardens and Outriders set off along             The cavalry themselves, however, would
+                   the road to Flensburg, riding ahead of          need to keep their wits about them if they
+                   the main force in search of Beastmen            were to avoid falling foul to the very danger
+                   ambushes. Lastly, lumbering into position       they had been sent to quash.
+                   alongside the regiments of infantry was
+                   the venerable Steam Tank, Deliverance 3 a       As the Outriders and Road Wardens
+                   mechanised fortress of rumbling metal and       ventured further into the tree-covered
+                   hissing steam.                                  hills, the Beastmen launched their first
+                                                                   attack. Primitive horns echoed from the
+                   As this great force amassed at the banks of     treeline on either side of the road, the
+                   the Reik in preparation for their journey       mournful tones answered by the feral
+                   northwards, General von Löwenhacke              braying of Beastmen as they hurtled from
+                   surveyed the assembled warriors from the        the gloom of the forest towards the Nuln
+                   walls of Nuln with pride. Within a matter       cavalry. The Road Wardens and Outriders
+                   of days the force had prepared itself for the   reacted quickly to the attack, spurring
+                   campaign and stood ready to march into          their horses onwards, unleashing a storm
+                   the County of Stirland and the Stirhügel        of crossbow bolts and handgun fire into the
+                   Hills. While crossing state boundaries with     approaching horde, giving the Beastmen
+                   a force such as this would usually result       little opportunity to close the distance.
+                   in some kind of political retaliation, the      Having swiftly suffered heavy casualties,
+                   general knew full well that the rulers of his   the Children of Chaos sounded the retreat
+                   city cared little for the opinions of their     and fled northwards towards the cover of
+                   neighbours when it came to the subject of       the Great Forest. Having lost few of their
+                   proactively defending their borders and         number in the encounter, messengers
+                   interests. Similarly, he knew that those who    returned to the main force to report the
+                   ruled the lands that bordered the powerful      skirmish and its outcome, whilst the rest
+                   city-state were generally content to let        gave chase in an effort to establish where
+                   Nuln flex its military might when it chose      the Beastmen might be amassing.
+                   to do so against mutual foes.
+
+
+
+
+14   The Growing Shadow
+Reckless Pursuit                                A Grim Message
+Upon hearing that his scouts had ranged         Von Löwenhacke was soon enlightened as
+far ahead of the column in pursuit of the       to the fate of his missing cavalry, for in a
+Beastmen that had attacked them, General        large clearing at the bottom of a steep slope,
+von Löwenhacke immediately ordered the          a grotesque sight awaited him. The scouts
+marching column to redouble its already         had indeed been drawn into the clutches
+brisk pace in an effort to catch up to his      of a larger Beastmen force, the butchered
+overextended cavalry. More than once had        and mutilated bodies of horse and rider
+he witnessed a herd of Beastmen feign a         alike lay as testimony to the savage cruelty
+disordered retreat in order to draw their       of the Children of Chaos. Many of the
+unwitting prey further into the depths          corpses had been hung from stakes as if the
+of the forest and the jaws of a trap and,       clearing were an unholy abattoir of human
+though he respected the cavalry9s desire        flesh, the grass stained black and crimson
+to press their advantage over the foe, he       with blood and offal that dripped from the
+feared for their chances if they were to find   still warm bodies. Fear gripped the hearts
+themselves alone in the forest.                 of all present and some visibly battled
+                                                to maintain their composure, but none
+Upon reaching the site of the initial battle,   took flight and the assembled warriors
+the trail left by the fleeing Beastmen and      quickly steeled themselves, advancing into
+their zealous pursuers was not difficult to     the clearing with their weapons held at
+find nor follow. A wide swathe of broken        the ready.
+undergrowth, littered with shattered
+crossbow bolts and the bodies of fleeing        No sooner had the Empire soldiers
+Beastmen cut down where they stood,             picked their way down the slope, than
+clearly marked out the route ahead.             the guttural sounds of Beastmen began
+                                                to echo through the woods on all sides.
+General von Löwenhacke and his                  General von Löwenhacke quickly barked
+Greatswords pressed close behind the            at his warriors to form a tight formation,
+army9s huntsmen as they picked their way        with the elite Greatswords forming a ring
+through the undergrowth, the veteran            of plate armour around the archers who
+warriors eager to lend their support to         stood ready to loose their arrows upon
+those who had ridden in pursuit of the          the general9s command. Slowly, the shapes
+Beastmen 3 the rest of Nuln9s forces            of Beastmen emerged from the gloom
+advancing more slowly as they cleared an        at the edge of the clearing, holding their
+easier route for the horse-drawn artillery      position as they glared with hateful eyes
+and the grinding wheels of Deliverance.         towards the soldiers arrayed before them.
+As time passed and von Löwenhacke9s             Von Löwenhacke quickly realised it was
+vanguard edged ever further down the            not just Gors and Ungors amongst the
+trail in pursuit of their quarry, the feeling   warherd, as trees cracked and splintered
+of concern in the general9s heart only grew     and the monstrous form of a Ghorgon
+3 for the further into the forest the Road      pushed its way into the clearing, unleashing
+Wardens and Outriders rode without              a roar of such primal fury that the cold
+the support of their comrades, the more         chill of terror shot down the spines of the
+uncertain their fate became.                    Empire soldiers.
+
+
+
+
+                                                                                            The Growing Shadow   15
+     Smoke & Shot                                                   Creeping Corruption
+     As General Hans von Löwenhacke prepared to speak the           Following a restless night, General von Löwenhacke knew that
+     rousing words he believed would likely be his last, a boom     driving the Beastmen back into the depths of the forest was
+     echoed from the hillside and the roar of the Ghorgon became    simply not enough to defeat them 3 every last one had to be
+     a gurgled wail of agony as its lower jaw was blown away        hunted down and eradicated for their threat to be diminished.
+     in a spray of gore and shattered bone. Glancing back atop      As the army resumed its advance, the forest around them
+     the slope, the general was greeted with the sight of smoke     began to grow sickly and corrupted, the vegetation becoming
+     rising from Deliverance9s cannon. As the venerable war         diseased and vile, blackened with mould and heavy with
+     machine lurched down the hill, a score of gun crews hastily    necrotic slime, whilst the trees began to look more akin to
+     unlimbered their artillery pieces and prepared to rain the     melted candles than sturdy timber. The local wildlife had not
+     wrath of Sigmar himself upon the Beastmen 3 the artillery      been spared from the Beastmen9s foul influence either, with
+     train of Nuln had arrived, and not a moment too soon. With     many creatures showing signs of mutation, sporting additional
+     their mighty ally laid low, warhorns blared throughout the     limbs or bony protrusions that had burst forth from beneath
+     rabble of Beastmen and barks of anger rose in reply as they    their flesh.
+     surged forwards towards the Empire troops.
+                                                                    Being no stranger to the corrupting presence of Beastmen, von
+     The Beastmen had taken no more than a handful of steps         Löwenhacke was sure that a herdstone must lay nearby for
+     before the artillery battery opened fire, sending rockets,     such sickness to have gripped the forest and poisoned the soil.
+     cannonballs and mortar shot towards the oncoming warherd.      Should the unholy monument to the Ruinous Powers be left
+     In the opening moments of battle, scores of Beastmen fell      standing, it would act as a signal fire to Beastmen warherds
+     and more turned tail and fled, disappearing into the forest    across the Empire to descend upon the very heart of Sigmar9s
+     with no wish to face Nuln9s wrath. A few of the wilder, more   fractured nation. With little choice but to topple the herdstone
+     courageous Children of Chaos desperately hurled themselves     themselves, General von Löwenhacke ordered the soldiers of
+     towards the Nuln vanguard in the clearing, but the skill of    Nuln into a tight marching formation and plunged once more
+     the huntsmen and the Greatswords at the general9s side saw     into the densely packed trees. With nothing but the dark, ever-
+     them swiftly dispatched. With the Beastmen having once         shifting shadows of the forest on all sides, the warriors of Nuln
+     more withdrawn further into the forest, von Löwenhacke         knew there would be no retreat from here 3 they would see
+     was in no mood to give chase yet again, instead ordering his   the Beastmen slaughtered, their carcasses burned upon great
+     soldiers to make camp nearby and honour their dead.            pyres and their obscene monuments toppled, or they would
+                                                                    die in the attempt.
+
+
+
+16                        The Growing Shadow
+                 THE BATTLE OF STIRHÜGEL
+      The Battle of Stirhügel Hills
+                                                                                                      HILLS
+     T   he sounds of battle echoed throughout the forest as the soldiers of Nuln met the Beastmen under the shadowed
+         boughs. General von Löwenhacke hefted his great maul and barked orders to those around him to prepare to advance.
+     The clearing ahead thrummed so strongly with unnatural power that even he, a man with no magical talent, could feel its
+     presence. Finding the unholy icon was merely the first step however, and destroying it as an army of Beastmen descended
+     upon his forces would be another feat entirely&
+
+     Historical Recreation                                           The Defender
+                                                                     The defender should write a single 2,500 points muster list
+     The battle amongst the trees on the lowlands of the Stirhügel   using the City-state of Nuln Army of Infamy composition list
+     Hills was fought between the brave army of Nuln under the       (see page 28). The General of this army must be General Hans
+     command of General Hans von Löwenhacke and a ravenous           von Löwenhacke (see page 37).
+     horde of Beastmen. To represent this, the players should
+     write two muster lists (one for the attacker and one for the    Alternatively, this scenario may be played with any two armies
+     defender) as follows:                                           of the players9 choosing.
+
+     The Attacker                                                    Set-up
+     The attacker should write a single 2,500 points muster list     Place terrain as described in the Warhammer: the Old World
+     using the Beastmen Brayherds Grand Army composition list        rulebook. In addition, place a large stone monolith as shown
+     found in Ravening Hordes.                                       on the map below to represent the Herdstone:
+
+                                                                     The Herdstone: A special feature measuring up to 6" at
+                                                                     its widest point. The Herdstone counts as both an Arcane
+                                                                     Monolith and a Monument of Glory.
+
+                                                                     Deployment
+                                                                     Once terrain has been placed, the battlefield is divided into six
+                                                                     equally sized zones, as shown on the map below.
+
+                                                                     The attacker places a single, non-character unit so that it is
+                                                                     completely within one of the zones. The defender then deploys
+                                                                     a single, non-character unit within one of the remaining
+                                                                     unoccupied zones. The players continue to alternate in this
+                                                                     fashion until each has deployed three non-character units and
+                                                                     there is a single unit within each zone.
+
+                                                                     Following the same sequence, each player may then deploy
+                                                                     a single character with one of their deployed units. All
+                                                                     remaining units and characters are held in reserve (as follows).
+
+
+
+
+                                                                     Herdstone
+
+
+
+
+18                   The Battle Of Stirhügel Hills
+First Turn                                                          Victory!
+In this scenario, the attacker will automatically take the          Once the battle has ended, use Victory Points to determine
+first turn.                                                         which player is the winner, as described in the Warhammer: the
+                                                                    Old World rulebook. The player who controls the Herdstone
+Game Length                                                         at the end of the battle wins a bonus of 150 Victory Points
+The battle will last for six rounds or until one side concedes.     (in addition to any bonus controlling the special feature may
+                                                                    normally give).
+Scenario Special Rules
+Reinforcements: Reserves are not deployed at the start of
+the battle. Instead they can enter play during the Compulsory         <The enemy thinks that their great numbers and foul
+Moves sub-phase of any turn 3 including the first 3 of their          sorceries will win them the day, but it matters not! For
+controlling player9s choosing. When they arrive, reserves will        Nuln9s great guns are restless beasts and whilst they roar,
+enter the battlefield from any point on the battlefield edge that     our enemies shall find no quarter!=
+is completely within one of the zones (chosen at random) in
+which their controlling player deployed a unit at the start of                                      General Hans von Löwenhacke
+the battle. Roll a D3 to randomly determine which of the
+three zones reserves arrive within.
+
+
+
+
+                                                                                       The Battle Of Stirhügel Hills                 19
+     A unit of Empire State Troops from the city of Middenheim in the Grand County of Osterlund.
+
+
+
+
+     Thundering ahead of the mighty Knights Panther and between the serried ranks of State Troops,
+                    the armoured bulk of an Empire War Wagon leads the charge.
+
+
+22         The Empire Of Man
+                       A unit of Empire Archers, armed with warbows.
+
+
+
+
+Belching thick smoke into the soot-blackened skies, the imposing form of a Steam Tank joins the
+         muster of the army of Nuln, ready to lend its might to the defence of the city.
+
+
+                                                                  The Empire Of Man               23
+       Harald Gemunsen,                 General Hans
+Grand Master of the Knights Panther.   von Löwenhacke.
+ A Chapter Master of the      A Chapter Master of the        A Chapter Master of the
+Knights of the White Wolf.   Knights of the Blazing Sun.   Order of the Knights Panther.
+     The City-state of Nuln
+                                             THE CITY-STATE OF NULN
+                                      Of all the Empire9s great cities, Nuln stands apart in terms of size and significance.
+                                      Famous for its halls of academia and its ferocious industry, Nuln has grown rich as the
+                                      home of vast forges, and it has grown powerful through the importance of the city9s
+                                      gunnery school to the rival states and provinces of a divided Empire.
+
+                                      City Of Forges                                  Armies of State
+                                      The great city of Nuln has been many            Nuln protects its borders by maintaining
+                                      things in its long centuries: the home          a large standing army of state troops.
+                                      of Emperors and the seat of Electors,           Armed with their signature halberds or
+                                      the capital of Reikland, the property of        handguns, regiments of these black-clad
+                                      Talabecland and the pride of Wissenland.        soldiers stand guard upon the city9s walls
+                                      At times, as now, it has even been a            and gates or patrol its streets to maintain
+                                      sovereign state unto itself. The city9s         order. But these regiments are not confined
+                                      importance stems from its prime location        to patrolling the soot-blackened environs
+                                      at the confluence of two mighty rivers:         of their city, for they habitually accompany
+                                      the Reik and the Aver, waterways that           Nuln9s wagon trains and fleets of barges,
+                                      feed the Empire, flowing from the Worlds        ensuring the fruits of the city9s industry
+                                      Edge Mountains to the distant sea port          reach its clients and allies intact, and
+                                      of Marienburg.                                  that the supplies the city needs to survive
+                                                                                      continue to flow in the other direction.
+                                      So situated, Nuln has become a vast centre
+                                      for trade and industry, and its output has      Alongside its regiments of state troops,
+                                      made it the industrial heart of the Empire.     Nuln employs large corps of Outriders and
+                                      To this economic success can be added           Road Wardens. These veteran cavalrymen
+                                      the lure of the city9s innumerable halls of     aggressively patrol the roadways of both the
+                                      academia. Scholars of all stripes are drawn     Reikland and Talabecland for many miles
+                                      to Nuln to study and share ideas, giving        around Nuln in their efforts to safeguard
+                                      rise to dozens of schools, colleges and guild   travellers and ensure trade continues
+                                      houses. Thus, within the great walls of the     to flow. Such aggressive enforcement of
+                                      city, students of the sciences, the arts, and   order by a military rival might be thought
+                                      even of magic gather, lending the power of      enough to antagonise Nuln9s neighbours,
+                                      their learning to the fires of industry.        but so great is the city9s influence that
+                                                                                      its neighbours maintain they welcome
+                                      Today, Nuln stands between Reikland             the black-clad riders on their highways
+                                      and Talabecland as a free state within the      and byways.
+                                      divided Empire, maintaining its autonomy
+                                      through diplomacy and its importance.           Yet by far the defining feature of Nuln9s
+                                      Though there is not one amongst the rival       armies is the sheer number of artillery
+                                      claimants of the Imperial throne who            pieces the city deploys for war. Great
+                                      would not rule Nuln as their own, each          Cannon and mortars are a mainstay of the
+                                      observes the city9s independence, preferring    famed gunnery school, supported by more
+                                      to trade with its rulers for the weapons of     modern weapons such as volley guns and
+                                      its forges than to risk alienating a powerful   rocket batteries. With these weapons, the
+                                      friend by threatening its sovereignty.          armies of Nuln pound their enemies into
+                                                                                      submission, earning the city a fearsome
+                                                                                      reputation and securing its survival in a
+                                                                                      hostile world.
+
+
+
+
+26                      City-State Of Nuln
+                             THE COLOURS OF NULN
+                                             Whether through ancient design, or a more practical need to hide the soot
+                                             from fighting alongside so much artillery, the soldiers of Nuln are dressed
+                                             predominantly in black 3 with brighter colours used to differentiate between
+                                             the various regiments. Their banners and shields usually depict a golden lion
+                                             holding the scales of judgement, but can also feature gilded cannon and the
+                                             famous bridge of Nuln.
+
+                                             Boasting the finest engineers from across the Empire, the weapons of Nuln are
+                                             easily identifiable by their superior quality and craftsmanship.
+
+
+
+
+Slick firing mechanisms, well-sanded and polished wooden stocks and precisely crafted scopes make the difference
+between a run of the mill firearm and a genuine masterwork from Nuln.
+
+
+
+
+                                            The Artillery
+Much like when regiments adopt fearsome names and infamous reputations, so do the
+cannon and mortars of the Empire9s artillery detachments. Many battles have been
+won before they could really begin thanks to the devastating firepower of these great
+engines of war, pounding the enemy lines with blasts of shrapnel, storms of rockets
+and wall-shattering cannonballs. Some of these weapons earn their reputation
+from years of service, whilst others claim a title after felling a particularly
+foul monster or even thanks to a humorous act between battles.
+
+
+
+
+                Ol9 Smoky
+   During the Battle of the Reikwald
+   Forest, a cannon crew from Nuln
+   kept up such a high rate of fire that
+   the barrel of the cannon glowed red-
+   hot and smoke rose from it in great
+   plumes. At the battle9s end, there
+   was so much residual heat in the
+   metal barrel that the crew used it
+   to grill rashers of bacon to celebrate
+   their victory 3 earning the gun its
+   new moniker.
+
+
+
+
+                                                                                            City-State Of Nuln               27
+                                       EMPIRE OF MAN
+         Empire of Man 3 City-state of Nuln
+
+                                     CITY-STATE OF NULN
+     T     his Army of Infamy composition list is designed to be used with the Empire of Man army list found in Forces of Fantasy,
+           and alongside the 8Forming Units9 and 8Warhammer Armies9 sections of the Warhammer: the Old World rulebook.
+
+
+
+
+     If you wish to field a City-state of Nuln army in your games of Warhammer: the Old World, you may write your muster list
+     using the Army of Infamy composition list below instead of the Grand Army composition list found in Forces of Fantasy. Over the
+     following pages you will find new profiles and rules for certain models in your army, representing units unique to a City-state of
+     Nuln army:
+
+     Army of Infamy Composition List
+     Characters                                                         Mercenaries
+     Up to 50% of your army9s points value may be spent on:             Up to 25% of your army9s points value may be spent on
+                                                                        mercenaries, including:
+     " 0-1 General of the Empire or Lector of Sigmar per
+       1,000 points                                                     " Imperial Ogres and Imperial Dwarfs*
+     " Captains of the Empire, Master Mages, Witch Hunters,             " 0-2 Doomseekers per 1,000 points*
+       Priests of Sigmar and Empire Engineers
+     " 0-1 War Altar of Sigmar (taken as a mount for a Lector           Note that mercenary units are subject to the 8Misbehaving
+       of Sigmar)                                                       Mercenaries9 rules, as described on page 279 of the
+                                                                        Warhammer: the Old World rulebook. *See Arcane Journal 3
+     Core                                                               Dwarfen Mountain Holds.
+     At least 25% of your army9s points value must be spent on:
+
+     " 1+ regiment of Nuln State Troops or Nuln Veteran State
+       Troops (see opposite)                                              Battle Standard Bearer
+     " 0-1 unit of Outriders per 1,000 points                             A single Captain of the Empire or Empire Engineer in
+     " Free Company Militia and Empire Archers                            your army may be upgraded to be your Battle Standard
+                                                                          Bearer for +25 points. In addition to their usual
+     Special                                                              allowance of points to spend on magic items, a Battle
+     Up to 50% of your army9s points value may be spent on:               Standard Bearer can purchase a single magic standard
+                                                                          with no points limit.
+     " Empire Greatswords, Pistoliers, Outriders, Empire Knights
+       and War Wagons                                                     Magic Items
+     " 0-3 war machines chosen from the following list per                Any models that have the option to purchase magic items
+       1,000 points:                                                      may purchase Common or Empire of Man magic items.
+       - Great Cannon
+       - Mortar
+
+     Rare
+     Up to 25% of your army9s points value may be spent on:
+
+     " Empire Road Wardens
+     " 0-2 war machines chosen from the following
+       list per 1,000 points:
+       - Helblaster Volley Gun
+       - Helstorm Rocket Battery
+       - 0-1 Empire Steam Tank per 1,000 points
+
+
+
+
+28                         City-State Of Nuln
+           CITY-STATE OF NULN SPECIAL RULES
+O    n this page, you will find a full description for each of the army special rules that apply to an army built using the City-
+     state of Nuln Army of Infamy composition list. These are in addition to any special rules that may normally apply to
+an army made using the Empire of Man army list as found in Forces of Fantasy.
+
+Big Guns Know No Fear                                                                            Handgun Drill
+Even the most fearsome of foes is quickly diminished in the presence                             The expert handgunners of Nuln practice firing in multiple ranks.
+of Nuln9s untiring artillery.
+                                                                                                 Once per game, each detachment of State Missile Troops in a
+Empire Engineers in a City-state of Nuln army (and any unit                                      City-state of Nuln army can fire with one additional rank.
+they have joined) gain the Immune to Psychology special
+rule whilst there is a friendly war machine within their                                         Nuln State Troops
+Command range.                                                                                   The City-state of Nuln boasts a large standing army, well-equipped
+                                                                                                 with halberds and handguns.
+Entrenched Position
+Nuln9s engineers like to see their war machines well protected by                                Regiments of Nuln State Troops and Nuln Veteran State
+earthen ramparts.                                                                                troops are made as follows, using the profiles for State Troops
+                                                                                                 and Veteran State Troops in the Empire of Man army list (see
+During deployment, you may 8Entrench9 a single non-                                              page 57 of Forces of Fantasy), accompanied by detachments of
+character model whose troop type is 8war machine9 for each                                       State Missile Troops (see page 58 of Forces of Fantasy):
+Empire Engineer your army includes. An Entrenched war
+machine is considered to be behind partial cover and to be                                       " A regiment of Nuln State Troops consists of a regimental
+defending a low linear obstacle. Should the war machine move                                       unit of State Troops, accompanied by 1-2 detachments of
+for any reason (including making a Vanguard move), it is no                                        State Missile Troops and/or Swordsmen.
+longer Entrenched.                                                                               " A regiment of Nuln Veteran State Troops consists of a
+                                                                                                   regimental unit of Veteran State Troops, accompanied
+Gun Limbers                                                                                        by 1-2 detachments of State Missile Troops and/
+Veteran gun crews can deploy their weapons from horse-drawn                                        or Swordsmen.
+limbers with tremendous speed.                                                                   " Each unit of State Troops or Veteran State Troops must be
+                                                                                                   equipped with halberds.
+" 0-1 war machine per 1,000 points, chosen from the                                              " Each detachment of State Missile Troops must be equipped
+  following list, may be given the Vanguard and Veteran                                            with handguns.
+  special rules:                                                                                 " A detachment of Swordsmen consists of State Troops
+  - Great Cannon.............................................................+5 points             equipped with hand weapons and shields.
+  - Mortar...........................................................................+5 points   " Unlike regular detachments, detachments in a regiment of
+  - Helblaster Volley Gun ...........................................+15 points                    Nuln State Troops may upgrade one model to a Sergeant
+  - Helstorm Rocket Battery......................................+10 points                        (champion) for free.
+
+                                                                                                 Veteran Outriders
+                                                                                                 Nuln employs many veteran Outriders, accustomed to firing their
+                                                                                                 weapons from the back of a galloping horse, to guard its borders.
+
+                                                                                                 Missile weapons wielded by Outriders included in a City-state
+                                                                                                 of Nuln army are not subject to the Ponderous special rule.
+
+
+
+
+                                                                                                                           City-State Of Nuln                         29
+     The Knightly Orders of the Empire            THE KNIGHTLY ORDERS
+                                                     OF THE EMPIRE
+                                         Since their inceptions, often centuries ago, the Knightly Orders have served and
+                                         protected the people of the Empire. Operating predominantly as independent forces
+                                         that seldom pledge their allegiance to the squabbling lords of the Empire, the Knightly
+                                         Orders are free to act in the best interests of those under their protection without the
+                                         hindrance of unwanted oversight and political bureaucracy.
+
+                                         Nobility Of War                                 Companies Of Honour
+                                         To become a member of a Knightly Order          Those who ascend to the ranks of an
+                                         is not without sacrifice, for a noble must      Order9s inner circle are amongst the finest
+                                         forsake all of the duties and privileges        warriors in the Empire, but their duties
+                                         granted by their station before partaking       are not tied solely to the battlefield and
+                                         in a rigorous rite of initiation. No matter     preparations for war. Not every Order is
+                                         which of the many knightly societies a          the same however, and these additional
+                                         noble chooses to join, they will be subjected   roles vary dramatically from each one
+                                         to an intense regimen of training before        to the next depending upon their core
+                                         they can be considered a full member of         tenets and values. The Orders who serve
+                                         the Order. Only after countless hours           at the behest of various priests are often
+                                         spent honing their discipline on the parade     expected to enforce the divine will of the
+                                         ground, endless sessions of sparring and        gods, the Knights of Morr and the Knights
+                                         hundreds of rounds of jousting will an          of the Fiery Heart being amongst the most
+                                         initiate be invited to swear their oaths of     infamous of these religious Orders.
+                                         allegiance and duty to their comrades-
+                                         in-arms, thus becoming a fully fledged          The members of the Knights Panther9s
+                                         member of their Order.                          inner circle are expected to hone their
+                                                                                         diplomatic skills, allowing them to serve as
+                                         Having earned their spurs, a knight will        intermediaries between the warring nobles
+                                         seek honour and glory upon the battlefield.     of the Empire during times of strife. The
+                                         Through valorous deeds and steadfast            templars of the White Wolf have served as
+                                         duty they will rise through the ranks and       the personal guard of the High Priests of
+                                         forge a lasting legacy for themselves in        Ulric since their founding and are seldom
+                                         their Order9s records. Those who have           seen far from their side both on and off the
+                                         earned renown on the battlefield time and       battlefield. The highest ranking members of
+                                         time again will eventually find themselves      the Knights of the Blazing Sun are expected
+                                         joining the ranks of the Order9s veteran        to document and preserve the military
+                                         warriors and inner circle. These heroic         history of the Old World and the many
+                                         warriors are exemplars of their Order and       forms of combat that are practised there.
+                                         have accomplished daring feats of arms
+                                         upon the battlefield, slaying otherworldly      However, it matters not if they serve as
+                                         foes that many have only heard of in            diplomats, bodyguards or scholars off the
+                                         terrifying stories or witnessed in their        battlefield, one would struggle to find
+                                         darkest nightmares.                             more gifted warriors anywhere beyond
+                                                                                         the inner chambers of a Knightly Order
+                                                                                         chapter house.
+
+
+
+
+30                     The Knightly Orders
+           THE KNIGHTLY ORDERS
+                                                  Knights Of The Blazing Sun
+                                                The Knights of the Blazing Sun are dedicated students
+                                                of war, and honour Myrmidia, the goddess of warfare,
+                                                as their patron. They bear gold and black armour with a
+                                                variety of stylised sun symbols engraved upon their shields
+                                                and sewn into their banners.
+
+
+
+
+                           The Knights Panther
+The Knights Panther are a secular order of warriors dedicated to protecting the
+Empire and serving those who dwell within it.
+
+
+
+
+                                                   Adorned in distinctive blue and yellow barding, and
+                                                   draped in the furs of exotic hunting cats, the knights are
+                                                   a rousing sight for embattled soldiers of the Empire 3 for
+                                                   wherever their panther heraldry flies, the enemies of
+                                                   Sigmar9s realm are doomed to fall to their keen lances
+                                                   and razor-sharp swords.
+
+
+
+
+                                                The shields carried into battle by the Knights Panther are
+                                                almost exclusively adorned with the Order9s namesake
+                                                on clear display. Some chapters have a panther standing
+                                                rampant upon their shields, whilst others adopt the more
+                                                modest look of just the head of the exotic beast instead, but
+                                                all feature the Order9s maxim 3 Honour & Panther.
+
+
+
+                                                                        The Knightly Orders                     31
+                                         EMPIRE OF MAN
+                                         KNIGHTLY ORDER
+      Empire of Man 3 Knightly Order
+
+
+
+
+     T   his Army of Infamy composition list is designed to be used with the Empire of Man army list found in Forces of Fantasy,
+         and alongside the 8Forming Units9 and 8Warhammer Armies9 sections of the Warhammer: the Old World rulebook.
+
+
+
+
+     If you wish to field a Knightly Order army in your games of Warhammer: the Old World, you may write your muster list using the
+     Army of Infamy composition list below instead of the Grand Army composition list found in Forces of Fantasy. Over the following
+     pages you will find new profiles and rules for certain models in your army, representing units unique to a Knightly Order army:
+
+     Army of Infamy Composition List
+     Characters                                                        Special
+     Up to 50% of your army9s points value may be spent on:            Up to 50% of your army9s points value may be spent on:
+
+     " 0-1 Grand Master                                                " Inner Circle Knights and Demigryph Knights
+     " 1+ Chapter Master                                               " 0-1 unit of Empire State Troops or State Missile Troops per
+     " 0-1 Lector of Sigmar or High Priest of Ulric per                  1,000 points
+       1,000 points
+     " Witch Hunters, Priests of Sigmar and Priests of Ulric           Rare
+     " 0-1 War Altar of Sigmar (taken as a mount for a Lector          Up to 25% of your army9s points value may be spent on:
+       of Sigmar)
+                                                                       " Pistoliers
+     Core
+     At least 25% of your army9s points value must be spent on:
+                                                                       Battle Standard Bearer
+     " 0-1 unit of Inner Circle Knights may be taken as a              A single Chapter Master in your army may be upgraded to
+       Core choice                                                     be your Battle Standard Bearer for +25 points. In addition
+     " 1+ unit of Empire Knights per 1,000 points                      to their usual allowance of points to spend on magic items,
+     " Empire Archers                                                  a Battle Standard Bearer can purchase a single magic
+                                                                       standard with no points limit.
+
+                                                                       Magic Items
+                                                                       Any models that have the option to purchase magic items
+                                                                       may purchase Common or Empire of Man magic items.
+
+
+
+
+32                       The Knightly Orders
+             KNIGHTLY ORDER SPECIAL RULES
+O    n this page you will find additional rules that apply to the composition of armies belonging to the different Knightly
+     Orders of the Empire.
+
+The Knightly Orders                                                 Knights Of The Blazing Sun
+                                                                    Templars of Myrmidia, the Knights of the Blazing Sun are
+Though they share many traits, the Knightly Orders of the Empire    sophisticated warriors, famed for their mastery of war.
+differ wildly in organisation and beliefs.
+                                                                    An army of the Knights of the Blazing Sun may include 0-2
+The General of a Knightly Order Army of Infamy must be a            Master Mages as Character choices per 1,000 points, and 0-1
+Grand Master or a Chapter Master who must belong to one             Great Cannon or Mortar as a Special choice per 1,000 points.
+of the Knightly Orders, as described on page 44. Every other        However, your army cannot include any Lectors of Sigmar or
+Chapter Master and every unit of Empire Knights, Inner              High Priests of Ulric.
+Circle Knights or Demigryph Knights must belong to the same
+Knightly Order as your General. Additional units may be             Knights Of Morr
+allowed or restricted, depending upon which Knightly Order          The grim visaged Knights of Morr protect the living and guard the
+your army belongs to:                                               gardens of the dead against the predations of evil forces.
+
+Knights Panther                                                     An army of the Knights of Morr may include Wizard Lords
+The Knights Panther work tirelessly to unify the divided lands of   and Master Mages as Character choices. However, your army
+the Empire and rid the Old World of evil doers.                     cannot include any Lectors of Sigmar, Priests of Sigmar, High
+                                                                    Priests of Ulric or Priests of Ulric.
+An army of the Knights Panther may include 0-1 unit of
+Empire Knights or Inner Circle Knights belonging to the             Knights Of The Fiery Heart
+Order of the White Wolf as a Mercenary choice. This unit is         The Templars of the Cult of Sigmar are zealous warriors and
+not subject to the 8Misbehaving Mercenaries9 rules.                 fanatical in their defence of the empire their patron founded.
+
+Knights Of The White Wolf                                           An army of the Knights of the Fiery Heart may include any
+Devotees of Ulric, the Knights of the White Wolf are ferocious      number of units of Flagellants as Rare choices. However,
+warriors who fight to defend the lands of Man.                      your army cannot include any High Priests of Ulric or Priests
+                                                                    of Ulric.
+An army of the Knights of the White Wolf may include any
+number of units of Teutogen Guard as Special choices, and
+0-1 unit of Free Company Militia as a Core choice per 1,000
+points. However, your army cannot include any Lectors of
+Sigmar, Priests of Sigmar or Witch Hunters.
+
+
+
+
+                                                                                             The Knightly Orders                        33
+             HARALD GEMUNSEN
+     Harald Gemunsen, Grand Master of the Knights Panther
+
+     GRAND MASTER OF THE KNIGHTS PANTHER
+     I t is the duty of the Knights Panther to protect the Empire, untroubled by political bias. Across the land, chapter houses
+       garrison whole rosters of knights and their retainers, who stand ready to answer the call to war against those who would
+     threaten the Empire, but only one has the power to call the entire order to war 3 Harald Gemunsen, the Grand Master of
+     the Knights Panther.
+
+     Born within the Grand County of Osterlund to the Graf of           In the years that followed, Gemunsen led his brethren to
+     Grimminhagen, Harald Gemunsen joined first the Pistol              many victories and fought alongside an ever increasing circle
+     Corps of Middenheim, then the Order of the Knights Panther         of allies, forging bonds of camaraderie that extended far across
+     at a young age. Gemunsen rose quickly through the ranks,           the turbulent Empire. To the grim and taciturn Knights of
+     from initiate, to sworn knight, to preceptor in but a few short    Morr, he became a trusted defender of Morr9s realm and
+     years, earning the respect of his peers and commanders all         hunter of the shambling dead. To the ferocious Knights of the
+     the while. With his skill-at-arms and eloquent leadership          White Wolf, he became a paragon of the unity that should
+     frequently noted by his superiors, Gemunsen became one of          exist between the cults of Sigmar and Ulric, even earning the
+     the youngest to ever be inducted into the Order9s inner circle.    respect of Ar-Ulric, the high priest of the god of wolves and
+                                                                        winter. To the Knights of the Fiery Heart, he became a devout
+     In the spring of IC2265, Gemunsen joined his Chapter               son of Sigmar and protector of his realm.
+     Master, Otto van Walden, to accompany the Count of
+     Middenheim himself and lead the Knights Panther to the             Perhaps more importantly, Gemunsen9s campaigning far and
+     town of Delberz. Here, a great mustering was underway, for         wide won him many political allies throughout the divided
+     the count had decreed that the armies of Middenland would          Empire. In Middenheim, he regularly led his brethren in
+     venture into the Drakwald Forest to root out the insidious         their duties as guards of honour for Count Sigismund. In the
+     Beastmen warherds that gathered there.                             Reikland, he debated theology with Prince Wilhelm I and the
+                                                                        Grand Theogonist. In Talabecland, he hunted in the forests
+     The fighting itself went well and the count9s forces won many      beside Ludwig XIII. In Marienburg, he drank wine with the
+     victories over the beasts of the forest, though van Walden         Sea Empress, Elspeth Magritta VI herself.
+     would not live to see the campaign9s end. When the old knight
+     was slain by a Ghorgon under the shadow of a great herdstone,      Thus, when the Grand Master Einricsson of the Knights
+     Gemunsen9s rallying cry rang out, galvanising the spirits of his   Panther fell at the battle of the Midden Moors and the
+     comrades in the face of fear. For his heroism, Gemunsen was        Chapter Masters of the order gathered at the temple of
+     rewarded with elevation to Chapter Master in van Walden9s          Sigmar in Altdorf to elect his successor, Gemunsen was the
+     place and given command of the prestigious chapter house of        unanimous choice. Since then, he has led his brethren to
+     the Knights Panther in Middenheim.                                 glory and stands proudly as a unifying influence amidst the
+                                                                        turbulent water of Imperial politics.
+
+
+
+
+34                         Harald Gemunsen
+Harald Gemunsen, Grand Master Of The Knights Panther
+                                                                                                                Character
+Harald Gemunsen is a Grand Master. He may be included in any Empire of Man army
+made using any army composition list that includes this option. He must be fielded as
+presented here.
+
+                             M     WS     BS      S     T     W      I      A     Ld    Points
+Harald Gemunsen              -      7      3      4     4     3      6      4      9     185
+Barded Warhorse              7      3      -      3     -     -      3      1      -      -
+
+Troop Type:  Heavy cavalry (named character)
+Base Size:   30 x 60 mm
+Unit Size:   1
+Equipment:
+" Harald Gemunsen: Hand weapon, Beast Reaver and full plate armour
+" Barded Warhorse: Iron-shod hooves (counts as hand weapon) and barding
+
+Special Rules: Counter Charge, First Charge, Grand Master of the Knights Panther,
+               Hatred (Warriors of Chaos, Beastmen Brayherds & Daemonic models),                         Harald Gemunsen
+               Immune to Psychology, Magic Resistance (-1), Master of Battle,                            Grand Master of the
+               Rallying Cry, Skilled Duellist, Stubborn, Swiftstride, Veteran                            Knights Panther
+
+Grand Master Of The Knights Panther                                                                      <We swore an oath to
+Through years of exemplary service, unflinching courage and skill-at-arms, Gemunsen has earned           almighty Ulric and
+the title of Grand Master of the Knights Panther.                                                        indomitable Sigmar that
+                                                                                                         none who bear the marks
+Harald Gemunsen belongs to the Order of the Knights Panther, therefore he may re-roll a                  of Chaos should live while
+single dice that rolls a natural 1 when making a Charge roll, before discarding any dice that            there is breath in our
+are required to be discarded. In addition, Harald may only join a unit that belongs to the               lungs, and I for one still
+Order of the Knights Panther.                                                                            draw breath!=
+
+Skilled Duellist                                                                                                     Harald Gemunsen,
+Hiding behind bodyguards rarely protects those who seek to avoid the keen edge of Gemunsen9s axe.              before the toppling of the
+                                                                                                                  Drakwald herdstones
+Should Harald Gemunsen slay an enemy in a challenge during a turn in which he charged,
+he may immediately issue a second challenge. If this challenge is accepted, it is fought
+immediately, meaning Harald (but not his mount) may fight two challenges during a single
+round of combat.
+
+                       R     S          AP  Special Rules
+Beast Reaver         Combat S+1         -1  Armour Bane (1), Killing Blow,
+                                            Magical Attacks
+Notes: When making attacks against Beastmen Brayherds, Harald Gemunsen may re-roll any
+failed rolls To Wound.
+
+
+
+
+                                                                                                    Harald Gemunsen                         35
+               GENERAL HANS VON LÖWENHACKE
+     General Hans von Löwenhacke
+
+     T  he son of an officer in the state armies of Talabecland, Hans von Löwenhacke was destined to serve the Empire, and he
+        has long done so with distinction. With the ever-shifting political affiliations of those he serves, Hans has fought for
+     almost every major power within the nation, and has earned a reputation as a pragmatic and skilful commander.
+
+     As soon as his voice was loud enough to carry across a parade     No sooner than his regiments arrived at the rear of the
+     ground, Hans was given a junior commission and sent to serve      column, the sound of horns erupted from the forest and
+     in the grand army of Talabec where he was thrust into the         Beastmen burst from the gloom, rushing towards the hastily
+     command of a cluster of regiments. Leadership and tactical        prepared rearguard. With Hans9 timely intervention, many of
+     acumen came naturally to the young captain, and Hans swiftly      the beasts were cut down by handgun fire before they could
+     earned the respect of the soldiers he commanded, proving to       reach the bristling spear points of his state troops. Alerted to
+     his superiors that he could read the push and pull of battle as   the ambush, and with the artillery spared from a grisly fate,
+     well as officers far longer in the tooth.                         the rest of the force quickly redressed its ranks, turning to face
+                                                                       the threat of the charging mutants.
+     Together, Hans and his troops served with distinction in a
+     number of campaigns, including the Grand Duchy of Talabec9s       Though Hans has commanded armies for several city-states
+     war with the Goblins of the Red Eyez tribe. The young captain     and provinces, he has done so without questioning his duty, for
+     led his warriors deep into the Goblin ranks, taking the fight     the affairs of princes and the shifting of alliances are not the
+     directly to the Warboss at the head of the tribe. Together,       concern of a humble soldier. Yet since his secondment to the
+     Hans9 soldiers bested the Warboss and his bodyguard in            armies of Nuln under an agreement between Talabecland and
+     combat and sent the foul creatures fleeing from the field.        the powerful city-state in the face of the Reikland9s aggressive
+                                                                       military expansion, Hans has returned to fight for the city
+     When called to serve under the banner of Middenland in one        many times, even adopting the lion of Nuln into his armour
+     of their annual purges of the Drakwald Forest, Hans feared        and heraldry.
+     that the advancing army was leaving itself vulnerable to
+     encirclement by their foe and, though he voiced his concerns,     Having campaigned with soldiers from every corner of the
+     the other commanders frustrated him with their reluctance         Empire, Hans is a well-known figure throughout the fractured
+     to disrupt their formations. To the annoyance of his fellow       nation and held in high regard by many. As the list of the
+     officers, Hans redeployed his company from the midst of the       Empire9s enemies continues to grow, there will be greater
+     marching column to shield the camp followers and artillery        need for commanders like Hans who are willing to defend the
+     bringing up the rear of the advancing army.                       people of the Empire, regardless of the turmoil that divides
+                                                                       its rulers.
+
+
+
+
+36                  General Hans von Löwenhacke
+General Hans Von Löwenhacke
+                                                                                                              Character
+General Hans von Löwenhacke is a General of the Empire. He may be included in any
+Empire of Man army made using any army composition list that includes this option. He
+must be fielded as presented here.
+
+                              M     WS      BS     S      T     W       I     A     Ld     Points
+General Hans                  4      6       5     4      4     3       4     4      9      190
+von Löwenhacke
+
+Troop Type:       Regular infantry (named character)
+Base Size:        25 x 25 mm
+Unit Size:        1
+Equipment:        Hand weapon, full plate armour, Judgement and the Griffon Helm
+Special Rules:    <Hold the Line!=, Mercenary Commander, Rallying Cry,
+                  Strategic Mastery, Stubborn
+
+Mercenary Commander
+Hans has fought alongside and earned the respect of mercenary companies across the Old World,          General Hans von
+any of whom would answer his call to battle.                                                           Löwenhacke
+
+If Hans is the army9s General, friendly units with the Mercenaries special rule may benefit            <Fighting for one9s homeland
+from his Inspiring Presence rule and may be joined by him. In addition, friendly Mercenary             is an honourable endeavour,
+units are not subject to the 8Misbehaving Mercenaries9 rules.                                          but it is hard to know who
+                                                                                                       you9re fighting for when
+Strategic Mastery                                                                                      your home lay in Osterlund
+Hans has honed his craft on countless battlefields across the Old World against all manner of foes,    at breakfast, belonged to
+making him amongst the Empire9s foremost commanders.                                                   Talabheim at lunchtime
+                                                                                                       and allied with the Reikland
+In scenarios where players roll off to determine who takes the first turn, you may apply a             by teatime!=
++1 or -1 modifier to the result of your roll.
+                                                                                                       General Hans von Löwenhacke
+The Griffon Helm
+Crafted for him after a crushing victory against the Orcs of the Bloody Tusk tribe on the borders of
+Reikland, the Griffon Helm has shielded Hans from many a mortal blow.
+
+The Griffon Helm gives Hans a 5+ Ward save against any wound suffered and makes him
+immune to the Killing Blow special rule. If Hans would be struck a Killing Blow, he is
+permitted an armour and Regeneration save as normal. If the wound is unsaved, he loses a
+single Wound.
+
+                        R     S          AP       Special Rules
+Judgement             Combat S+2         -2       Magical Attacks, Multiple Wounds (2),
+                                                  Requires Two Hands
+
+
+
+
+                                                                                             General Hans von Löwenhacke              37
+                                     Harbingers Of Doom
+            Character                Harbingers of Doom
+                                                                                     M        WS          BS          S         T         W           I         A         Ld        Points
+                                     Harbinger of Doom                               4         5           2          4         4         2           4         3          8         65
+
+                                     Troop Type:                  Regular infantry (character)
+                                     Base Size:                   25 x 25 mm
+                                     Unit Size:                   1
+                                     Equipment:                   Hand weapon
+
+                                     Options:
+                                     " May take one of the following:
+                                       - Flail ...........................................................................................................................................+3 points
+                                       - Great weapon........................................................................................................................+4 points
+                                     " May purchase magic items up to a total of ........................................................................50 points
+
+                                     Special Rules: Feel No Pain (see page 61 of Forces of Fantasy), Furious Charge,
+                                                    Immune to Psychology, Impetuous, Hatred (all enemies),
+     Preachers of                                   Prayer of the Damned, Unbreakable, Zealot
+     the Apocalypse
+     There are many within the       Prayer Of The Damned
+     Empire who have suffered        Driven even further into despair by the doom-laden words of the Prayer of the Damned, Flagellant
+     such terrible hardships as      warbands shrug off even the most grievous of wounds.
+     to make them wonder if the
+     very world in which they        During the Command sub-phase of their turn, this character may attempt to chant the
+     live is doomed. These poor      Prayer of the Damned by making a Leadership test (using their own Leadership). If this
+     souls flock like moths to a     test is passed, until your next Start of Turn sub-phase, this character and any unit they
+     flame to hear the despairing    have joined gains:
+     prognostications of lunatic
+     doomsayers. In their            " A 6+ Ward save against any wounds suffered.
+     hopelessness many latch         " A 5+ Ward save against any wounds suffered that were caused in combat by an enemy
+     on to the words of these          with the Fear or Terror special rules.
+     penniless zealots, finding in
+     their rants about lost hope     Zealot
+     and the end of the world        Flagellant warbands welcome those fanatics who preach of the imminent apocalypse into
+     affirmation of their fears.     their midst.
+     Followed by their deluded
+     bands of Flagellants, these     A character with this special rule can only join a unit with the Fanatical Zeal special rule.
+     preachers of doom roam the
+     Empire at will, spreading
+     their gospel of desolation           Preachers Of Doom
+     before them. Whilst most             Any Empire of Man army that includes one or more units of Flagellants may include
+     simply ignore them or pelt           0-1 Harbinger of Doom as a Character choice.
+     them with rubbish to drive
+     them away, their words of
+     despair squirm into the
+     hearts and minds of some.
+
+
+
+
+38                        Empire Of Man
+Teutogen Guard
+                                                                                                                                         Infantry
+                                     M      WS       BS       S       T       W        I       A      Ld       Points
+Teutogen Guard                       4       4        3       3       4       1        3       1       8        13
+First Knight                         4       5        3       3       4       1        3       2       8        +8
+Teutogen Guard
+Troop Type:    Heavy infantry
+Base Size:     25 x 25 mm
+Unit Size:     5+
+Equipment:     Hand weapons, wolf hammers and full plate armour
+
+Options:
+" Any unit may:
+  - Upgrade one model to a First Knight (champion) ..................................+8 points per unit
+  - Upgrade one model to a standard bearer...................................................+7 points per unit
+  - Upgrade one model to a musician ................................................................+7 points per unit
+  - Purchase a magic standard worth up to........................................................................50 points
+" 0-1 unit may have the Guardians of the Temple special rule ..................+1 point per model
+                                                                                                                                Teutogen Guard
+Special Rules: Blessings of Ulric, Close Order, Drilled, Guardians of the Temple,                                               The Teutogen Guard are
+               Stubborn, Veteran                                                                                                the personal bodyguard of
+                                                                                                                                Ar-Ulric in their role as
+Blessings Of Ulric                                                                                                              high priest of the Cult of
+Members of the Teutogen Guard are fierce devotees of Ulric and carry wards blessed by his priests.                              Ulric. Named after the great
+                                                                                                                                Teutogen tribe that fought
+A model with this special rule has a 6+ Ward save against any wounds suffered that were                                         beside Sigmar, the Teutogen
+caused by an attack that has the Flaming Attacks special rule.                                                                  Guard are selected from
+                                                                                                                                the ranks of the Knights
+Guardians Of The Temple                                                                                                         of the White Wolf by the
+Those members of the Teutogen Guard selected to guard the innermost sanctums of the Temple of                                   Grand Master and Ar-
+Ulric are counted amongst the most ferocious warriors in all the Old World.                                                     Ulric themself. Inductees
+                                                                                                                                are often members of the
+When engaged in combat, a model with this special rule may re-roll any rolls To Hit of a                                        Order9s inner circle, although
+natural 1.                                                                                                                      the selection process takes
+                                                                                                                                account only of merit, not
+                          R       S      AP       Special Rules                                                                 rank, and ordinary brethren
+Wolf hammer           Combat S+1          -2      Requires Two Hands                                                            are just as likely to be chosen.
+Notes: If the wielder of a wolf hammer uses it during a turn in which they made a charge move of                                Being selected to join the
+3" or more, they have a +2 modifier to their Strength characteristic, rather than the usual +1.                                 Teutogen Guard is one
+                                                                                                                                of the highest accolades a
+                                                                                                                                Knight of the White Wolf
+   Guardians Of The Wolf Priests                                                                                                can receive, and the warrior9s
+   Any army made using the Empire of Man Grand Army composition list may include                                                already fearsome resolve is
+   0-1 unit of Teutogen Guard as a Special choice per Warrior Priest of Ulric it includes.                                      strengthened still further by
+                                                                                                                                the weight of the honour and
+                                                                                                                                duty they bear.
+
+
+
+
+                                                                                                                             Empire Of Man                         39
+                                      Imperial Ogres
+              Infantry                Imperial Ogres
+                                                                                M         WS      BS         S        T        W         I        A        Ld       Points
+                                      Imperial Ogre                             6          3       3         4        4        3         2        3         7        31
+                                      Ogre Captain                              6          3       4         4        4        3         2        4         7        +7
+
+                                      Troop Type:              Monstrous infantry
+                                      Base Size:               40 x 40 mm
+                                      Unit Size:               3+
+                                      Equipment:               Hand weapons and light armour
+
+                                      Options:
+                                      " Any model in the unit may take one of the following:
+                                        - Great weapon...................................................................................................+4 points per model
+                                        - Morning star ....................................................................................................+2 points per model
+                                        - Light cannon ....................................................................................................+8 points per model
+                                        - Ogre pistol.........................................................................................................+5 points per model
+                                      " Any unit may:
+     Imperial Ogres                     - Upgrade one model to an Ogre Captain (champion) ............................+7 points per unit
+     Ogres are, by nature,              - Replace light armour with heavy armour..............................................+3 points per model
+     curious creatures, filled with
+     wanderlust and driven to         Special Rules: Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries,
+     travel vast distances. Quite                    Motley Crew, Ogre Charge
+     why this is none can be
+     sure, but as a result, Ogres     Ogre Charge
+     have settled in many distant     Ogres barge into combat using their great lumbering mass as a weapon, harnessing their
+     lands, not least of which is     tremendous momentum to crush anything they collide with.
+     the Empire. In recent years,
+     Ogres have become an ever        The Armour Piercing characteristic of any Impact Hits caused by a model with this special
+     more common sight in             rule is improved by the current Rank Bonus of its unit.
+     the towns and cities of the
+     Empire, attracted by the                                   R         S      AP       Special Rules
+     promise of coin in return        Light cannon             18"        4      -1       Armour Bane (2)
+     for serving in the armies        Notes: If the roll To Hit is successful when firing a light cannon, it causes D3 hits to the target
+     of the rival provinces.          enemy unit, rather than the usual one.
+     Ogres are large, strong and
+     unintelligent creatures,                                            R            S        AP          Special Rules
+     well suited to following         Ogre pistol                       24"           4        -1          Armour Bane (1), Quick Shot
+     orders, making them ideal
+     mercenary soldiers, so
+     rarely are they turned away.         Dogs Of War
+     These mercenaries settle             0-1 unit of Imperial Ogres may be taken as Mercenaries in any of the following Grand
+     in quickly, spending their           Army composition lists:
+     gold on the fashions of the
+     Empire and investing in              " Dwarfen Mountain Holds
+     well-crafted weapons and             " Empire of Man
+     modern firearms.
+                                          Note that mercenary units are subject to the 8Misbehaving Mercenaries9 rules, as described on
+                                          page 279 of the Warhammer: the Old World rulebook.
+
+
+
+
+40                        Empire Of Man
+Empire Road Wardens
+                                                                                                                                                                   Cavalry
+                                            M        WS         BS         S         T        W          I        A        Ld        Points
+Road Warden                                 -         3          4         3         3        1          3        1         7         18
+Captain                                     -         3          5         3         3        1          3        1         7         +6
+Warhorse                                    8         3          -         3         -        -          3        1         -          -
+Empire Road Wardens
+Troop Type:   Light cavalry
+Base Size:    30 x 60 mm
+Unit Size:    4+
+Equipment:
+" Road Wardens: Hand weapons, crossbows and heavy armour
+" Warhorses: Iron-shod hooves (counts as hand weapons)
+
+Options:
+" The entire unit may replace crossbows with braces of pistols.................+1 point per model
+" Any unit may:
+  - Upgrade one model to a Captain (champion) ..........................................+6 points per unit
+  - Upgrade one model to a musician ................................................................+6 points per unit                                   Road Wardens
+  - Have the Feigned Flight special rule ........................................................+2 points per model                                     The highways and byways
+" A Captain may replace their crossbow with:                                                                                                             of the Empire are dangerous
+  - Brace of pistols .....................................................................................................................+2 points      to traverse, passing as they
+  - Repeater pistol......................................................................................................................+2 points       do through dense forests
+" Any unit may replace the Vanguard special rule with:                                                                                                   or across lonely moors,
+  - Ambushers..........................................................................................................+1 point per model                replete with roving herds of
+  - Scouts....................................................................................................................+1 point per model         bloodthirsty Beastmen and
+                                                                                                                                                         bands of ruthless brigands.
+Special Rules: Fast Cavalry, Fire & Flee, Open Order, Skirmishers, Swiftstride, Vanguard                                                                 Moreover, despite the sheer
+                                                                                                                                                         number of travellers that
+                                                                                                                                                         pass through the gates of the
+   Guardians Of The Imperial Highways                                                                                                                    Empire9s towns and cities
+   Any army made using the Empire of Man Grand Army composition list may include                                                                         every hour of every day, the
+   0-1 unit of Road Wardens as a Special choice per 1,000 points.                                                                                        size of the nation and the
+                                                                                                                                                         sheer number of roads that
+   Representing This Unit In Your Games                                                                                                                  criss-cross it ensure travel is
+   Road Wardens can be made using Empire Outriders armed with crossbows taken                                                                            a lonely affair. In an effort to
+   from Empire State Missile Troops, or with pistols.                                                                                                    combat the dangers of travel
+                                                                                                                                                         the provinces of the Empire
+                                                                                                                                                         employ Road Wardens,
+                                                                                                                                                         skilled riders tasked with
+                                                                                                                                                         bringing some measure of
+                                                                                                                                                         security to the lonely roads
+                                                                                                                                                         they patrol. Well-armed
+                                                                                                                                                         and expert marksmen all,
+                                                                                                                                                         Road Wardens quickly
+                                                                                                                                                         become hardened fighters,
+                                                                                                                                                         expert at hunting down their
+                                                                                                                                                         elusive enemies.
+
+
+
+
+                                                                                                                                                      Empire Of Man                         41
+                                       Empire War Wagons
+              Chariot                  Empire War Wagons
+                                                                     M    WS     BS      S     T      W      I     A     Ld     Points
+                                       War Wagon                     -     -      -      5     5      6      -     -      -      140
+                                       War Wagon Crew (x6)           -     3      3      3     -      -      3     1      8       -
+                                       Barded Warhorse (x2)          7     3      -      3     -      -      3     1      -       -
+
+                                       Troop Type:   Heavy chariot
+                                       Base Size:    60 x 100 mm
+                                       Unit Size:    1
+                                       Armour Value: 3+
+                                       Equipment:
+                                       " War Wagon Crew: Hand weapons and assorted weapons (see opposite)
+                                       " Barded Warhorses: Iron-shod hooves (counts as hand weapons)
+
+                                       Special Rules: Close Order, Crushing Weight, Impact Hits (D6+1, War Wagon only),
+                                                      Large Target, Stable Firing Platform, Stomp Attacks (D3+1)
+
+     Engines of War                    Crushing Weight
+     A War Wagon is essentially        Enemies unfortunate enough to fall beneath the tremendous weight of a War Wagon9s metal-
+     a very large and extremely        bound wheels are crushed into the dirt.
+     heavy chariot that allows its
+     crew to advance into battle       Stomp Attacks made by a War Wagon have an Armour Piercing characteristic of -1. In
+     behind the protection of tall     addition, and unlike other chariots, this model treats low linear obstacles as dangerous
+     walls, relatively safe from       terrain rather than as impassable terrain.
+     the weapons of the enemy.
+     Though these horse-drawn,         Stable Firing Platform
+     armoured constructs have          Atop the slow moving bulk of a War Wagon, the crew can shoot in all directions, taking careful
+     recently become popular in        aim behind its heavily armoured flanks before each shot.
+     the armies of the Empire,
+     they are by no means a new        To reflect the stability of a War Wagon, any missile weapons carried by the crew can be
+     invention and, in truth, it       used in the Shooting phase even if the War Wagon marched this turn.
+     would be quite impossible
+     for any scholar to state with
+     certainty when the first War
+     Wagon rolled into battle.
+     Their recent resurgence
+     in popularity is clearly a
+     response to the surprise
+     deployment and successful
+     use in battle of a fleet of War
+     Wagons by the armies of
+     Nuln, with rival city-states
+     and provinces being quick to
+     follow suit.
+
+
+
+
+42                         Empire Of Man
+Assorted Weapons
+The crew of a War Wagon carry a wide variety of weapons, representing the craftsmanship of                                                                Chariot
+Nuln9s master gunsmiths and the ingenuity of the many engineers that graduate each year from the
+Empire9s numerous colleges.
+
+In addition to their hand weapons, each member of a War Wagon9s crew is armed
+differently with each carrying one of the following six unique weapons:
+
+" Blunderbuss                                                             " Ball & chain
+" Long rifle                                                              " Hooked halberd
+" Repeating rifle                                                         " Man-catcher
+
+During the Shooting phase, each member of the crew equipped with a missile weapon may
+shoot with that weapon. During the Combat phase, each member of the crew may choose
+to use either their unique weapon, or their hand weapon. In both cases, the controlling
+player must roll different batches of dice for the different weapons, making it clear to their
+opponent which crew member9s attacks they represent and where they are being directed.
+
+                          R       S      AP        Special Rules                                                                                 War Wagons
+Blunderbuss              12"      3       -1       Multiple Shots (D3), Volley Fire                                                              War Wagons can vary
+Notes: A model armed with a blunderbuss suffers no negative modifiers for firing at long range,                                                  greatly in size, with some
+for using the Multiple Shots (D3) special rule, or whilst making a Stand & Shoot charge reaction.                                                examples being several
+                                                                                                                                                 stories high, pulled by huge
+                         R     S       AP       Special Rules                                                                                    teams of draft horses and
+Long rifle              36"    4        -1      Armour Bane (1), Cumbersome                                                                      crewed by dozens of soldiers
+Notes: A model armed with a long rifle can target a specific model within its target unit, such as a                                             and sharpshooters. Indeed,
+champion or a character.                                                                                                                         it is not unknown for the
+                                                                                                                                                 concept of a War Wagon
+                                   R            S         AP           Special Rules                                                             to be married with the
+Repeating rifle                   24"           4         -1           Armour Bane (1), Multiple Shots (3)                                       technological wonder that
+                                                                                                                                                 is the Steam Tank, or to be
+                                R     S                   AP           Special Rules                                                             built from the hulls of vast
+Ball & chain                  Combat S+3                  -2           Armour Bane (1), Requires Two Hands,                                      ocean-going craft. But such
+                                                                       Strikes Last                                                              gargantuan constructions
+                                                                                                                                                 are problematic and
+                                R     S                   AP           Special Rules                                                             temperamental. Thus the
+Hooked halberd                Combat S+1                  -2           Armour Bane (2), Requires Two Hands                                       rival armies of the Empire9s
+                                                                                                                                                 many warring provinces
+                                R               S         AP           Special Rules                                                             prefer to field more humble
+Man-catcher                   Combat            S         -1           Killing Blow, Requires Two Hands                                          constructions, crewed by a
+                                                                                                                                                 handful of soldiers. These
+                                                                                                                                                 heavily armoured vehicles
+  Engines Of Destruction                                                                                                                         provide a safe and secure
+  Any army made using the Empire of Man Grand Army composition list may include                                                                  platform from which teams
+  0-1 War Wagon as a Rare choice per 1,000 points.                                                                                               of gunners can unleash
+                                                                                                                                                 devastating volleys of shot,
+  Character Mount: A War Wagon may be included in your army as a character9s                                                                     whilst their weight crushes
+  mount, as follows. If so, its points are added to that of its rider.                                                                           the enemy beneath iron-
+                                                                                                                                                 rimmed wheels.
+  An Empire Engineer may be mounted on a:
+  " War Wagon ..................................................................................................................+140 points
+
+
+
+
+                                                                                                                                              Empire Of Man                     43
+                   KNIGHTLY ORDERS OF THE EMPIRE
+     Knightly Orders of the Empire
+
+     I  t is common practice amongst the Empire9s young nobles, especially those younger sons and daughters not destined to
+        inherit their family9s estates, to join a Knightly Order. Some of these orders, such as the sinister Black Guard of Morr or
+     the fanatical Knights of the Fiery Heart, are affiliated with one of the Empire9s many cults and restrict their membership
+     accordingly. Others are entirely secular organisations that accept any supplicant of noble birth.
+
+     To represent this, you may choose one of the following Knightly Orders to include in your Empire of Man army. 0-1 Grand
+     Master or Chapter Master, and 0-1 unit of Empire Knights, Inner Circle Knights or Demigryph Knights in your army may be
+     upgraded to belong to your chosen Knightly Order.
+
+     Note that, if your army is made using the Knightly Order Army of Infamy composition list (as described on page 32), this 0-1 limit does not
+     apply. Instead, every unit that can belong to a Knightly Order must belong to the same Knightly Order as the army9s General.
+
+     Note also that any special rules granted by these upgrades do not apply to the models9 mounts.
+
+     Admittance To The Order
+     A Grand Master or Chapter Master may belong to one of the                                          A unit of Empire Knights, Inner Circle Knights or Demigryph
+     following Knightly Orders:                                                                         Knights may belong to one of the following Knightly Orders:
+
+     "   Knights Panther..............................................................+10 points        "   Knights Panther..........................................+2 points per model
+     "   White Wolf ......................................................................+15 points    "   White Wolf ..................................................+3 points per model
+     "   Blazing Sun.......................................................................+10 points   "   Blazing Sun...................................................+2 points per model
+     "   Knights of Morr .............................................................+15 points        "   Knights of Morr .........................................+3 points per model
+     "   Fiery Heart.......................................................................+15 points   "   Fiery Heart...................................................+3 points per model
+
+
+
+
+44                                      Empire Of Man
+Order Of The Knights Panther                                          Order Of The Knights Of Morr
+Dedicated to the eradication of Chaos and its corrupt followers,      Clad in jet-black armour, these dour warriors strive to protect the
+these gallant warriors are amongst the most powerful of the           living from the ever-present threat of the undead.
+Knightly Orders.
+                                                                      Models belonging to the Order of the Knights of Morr:
+Models belonging to the Order of the Knights Panther:                 " Gain the Hatred (Undead models) special rule.
+" Must be armed with lances (note that models able to                 " Have a 6+ Ward save against any wounds suffered that
+  purchase magic weapons may do so as normal).                          were caused by a non-magical enemy attack.
+" May re-roll a single dice that rolls a natural 1 when making
+  a Charge roll, before discarding any dice that are required         In addition, a Grand Master, Chapter Master or unit of Inner
+  to be discarded.                                                    Circle Knights belonging to the Order of the Knights of Morr:
+" Gain the Hatred (Warriors of Chaos, Beastmen Brayherds              " Gains the Fear and Magical Attacks special rules.
+  & Daemonic models) special rule.
+                                                                      Order Of The Fiery Heart
+In addition, a Grand Master, Chapter Master or unit of Inner
+Circle Knights belonging to the Order of the Knights Panther:         These fanatical knights work closely with the Cult of Sigmar,
+" Gains the Magic Resistance (-1) special rule.                       earning a reputation as the shield of the Sigmarite faithful.
+
+Order Of The White Wolf                                               Models belonging to the Order of the Fiery Heart:
+                                                                      " Can only be joined by a Grand Master or Chapter Master
+The Knights of the White Wolf swing their infamous wolf hammers         belonging to the Order of the Fiery Heart, a Lector of
+with primal savagery, shattering shields and skulls with each blow.     Sigmar or a Priest of Sigmar.
+                                                                      " Gain the Hatred (enemy Wizards, Orcs & Goblins)
+Models belonging to the Order of the White Wolf:                        special rule.
+" Must be equipped with either great weapons or halberds,             " Have +1 Initiative during the first round of any combat.
+  which they may replace with wolf hammers (see page 39)
+  for free (note that models able to purchase magic weapons           In addition, a Grand Master, Chapter Master or unit of Inner
+  may do so as normal).                                               Circle Knights belonging to the Order of the Fiery Heart:
+" Gain the Furious Charge special rule.                               " May re-roll any rolls To Hit or To Wound of a natural 1
+                                                                         made during the Combat phase.
+In addition, a Grand Master, Chapter Master or unit of Inner
+Circle Knights belonging to the Order of the White Wolf:
+" Has a 5+ Ward save against any wounds suffered that
+   were caused by an attack that has the Flaming Attacks
+   special rule.
+
+Order of the Blazing Sun
+The Knights of the Blazing Sun are vigilant students of war who
+strive for perfection on the battlefield.
+
+Models belonging to the Order of the Blazing Sun:
+" Gain the Evasive and Flaming attacks special rule.
+
+In addition, a Grand Master, Chapter Master or unit of Inner
+Circle Knights belonging to the Order of the Blazing Sun:
+" May claim an additional bonus of +1 combat result point
+   when calculating its combat result during a turn in which it
+   charges. This bonus is not cumulative.
+
+
+
+
+                                                                                                  Empire Of Man                             45
+           Magic Items
+                                                                 EMPIRE OF MAN
+                                       Empire of Man Magic Items
+                                                                  MAGIC ITEMS
+                                       The following pages expand upon the Empire of Man magic items found in Forces of
+                                       Fantasy. These magic items are unique to Empire of Man armies and can be purchased
+                                       in exactly the same way as Common magic items, as described in the Warhammer: the
+                                       Old World rulebook.
+
+                                       Extremely Common Magic Items: Any magic item marked with an asterisk (*) is
+                                       considered to be extremely common, as described in the Warhammer: the Old World rulebook.
+
+                                       Magic Weapons
+                                       Hammer Of Righteousness .........................................................................50 Points
+                                       This mighty hammer not only crushes flesh and bone but shatters evil with each swing.
+
+     Heirlooms of the Empire                                         R         S      AP     Special Rules
+     Within the annals of the          Hammer of                Combat S+2            -2     Magical Attacks, Requires Two Hands,
+     fractured Empire there are        Righteousness                                         Strikes Last
+     tales of many famous relics       Notes: Models hit by the Hammer of Righteousness must make a Leadership test for each
+     and weapons wielded by            hit suffered. If the test is failed, the hit wounds automatically and no Armour save is allowed
+     great heroes throughout the       (Regeneration and Ward saves may be taken as normal). If the test is passed, rolls To Wound and
+     years. Though some of these       Armour saves are made as normal.
+     renowned instruments of
+     war and enchanted gewgaws         Pearl Daggers ................................................................................................... 35 Points
+     have been lost over the           Forged from burnished steel that glitters in the sunlight, the wielder of these lightweight daggers
+     centuries, many have been         strikes with deadly speed and precision.
+     kept by the noble households
+     of the Empire9s social elite as                                R            S        AP
+                                                                                       Special Rules
+     treasured heirlooms. So too       Pearl Daggers              Combat         S        -1
+                                                                                       Extra Attacks (D3), Magical Attacks,
+     have the gallant Knightly                                                         Requires Two Hands.
+     Orders, whose chapter houses      Notes: The wielder of the Pearl Daggers may re-roll any failed rolls To Hit during the Combat
+     can be found throughout the       phase.
+     fractured provinces of the
+     Empire, kept magical trophies     Blade Of Silvered Steel .................................................................................30 Points
+     from their victories across       Those who wield this blessed weapon will hunt the dead and the damned with unmatched zeal.
+     the Old World and beyond.
+     Their armouries are filled                                R         S     AP       Special Rules
+     with exotic weapons from          Blade of            Combat S+1          -1       Hatred (Undead models), Magical Attacks
+     the Border Princes and other       Silvered Steel
+     neighbouring lands, banners       Notes: The Blade of Silvered Steel may only be taken by a model in a Knightly Order Army of
+     spun from threads captured        Infamy. Undead models cannot make Armour or Regeneration saves against a wound caused by
+     in Araby and trinkets             this weapon.
+     crafted from the hides of
+     unknown creatures.                Von Trickschotte9s Wondrous Arquebus                                                                       25 Points
+                                       This huge weapon shoots large calibre rounds capable of shattering a Troll9s skull with a single shot.
+
+                                                                  R       S   AP       Special Rules
+                                       Von Trickschotte9s        36"      5    -2      Armour Bane (1), Multiple Wounds (D3)
+                                       Wondrous Arquebus
+                                       Notes: Von Trickschotte9s Wondrous Arquebus may only be taken by a model in a
+                                       City-state of Nuln Army of Infamy. The wielder of this weapon does not suffer the usual -1
+                                       modifier for shooting at long range.
+
+
+
+
+46                   Heirlooms Of The Empire
+Magic Armour                                                           Talismans
+Shield Of The Gorgon.......................................40 Points   Witch Hunter9s Ward*......................................20 Points
+This burnished shield harnesses the petrifying power of the            The hunters of witches have long carried blessed trinkets to shield
+monstrous gorgons that inhabit the deserts of Araby.                   them from the evils they stalk.
+
+The Shield of the Gorgon is a shield that may only be taken            A model that bears a Witch Hunter9s Ward has the Magic
+by a model in a Knightly Order Army of Infamy. In addition,            Resistance (-2) special rule. In addition, once per game, the
+whilst in base contact with the bearer, enemy models suffer a -1       bearer of a Witch Hunter9s Ward can re-roll a single failed
+modifier to their Attacks characteristic (to a minimum of 1).          Armour Save roll.
+
+Twice-Blessed Armour .....................................25 Points    Slayer9s Hourglass..............................................10 Points
+Enchanted with magic and blessed by righteous hands, this armour       As the sand tumbles through the hourglass, the decapitating strikes
+stands as an example of what a unified Empire can achieve.             and snapping jaws of monstrous beasts become sluggish and slow.
+
+The Twice-blessed Armour is a suit of full plate armour. In            Enemy models whose troop type is 8monster9 suffer a -1
+addition, the wearer may cast the Hammerhand spell from the            modifier to their Weapon Skill characteristic whilst in base
+Lore of Battle Magic (see page 320 of the Warhammer: the Old           contact with the bearer of the Slayer9s Hourglass.
+World rulebook) as a Bound spell with a Power Level of 2.
+                                                                       Magic Standards
+                                                                       Banner Of The Knights Panther ...................80 Points
+                                                                       The honour of bearing the heirloom banner of the Knights Panther
+                                                                       into battle is known to only a few courageous individuals.
+
+                                                                       Battle Standard Bearer belonging to the Order of the Knights
+                                                                       Panther only. A unit carrying the Banner of the Knights
+                                                                       Panther gains the Unbreakable special rule.
+
+                                                                       Tapestry Of Sigmar9s Triumph.......................40 Points
+                                                                       Depicting Sigmar9s heroic victories, this standard inspires others to
+                                                                       meet the enemies of the Empire with weapons in-hand.
+
+                                                                       A unit carrying the Tapestry of Sigmar9s Triumph may re-roll
+                                                                       any rolls To Wound of a natural 1 during the first round of
+                                                                       a combat.
+
+                                                                       Icon Of Morr ......................................................25 Points
+                                                                       The spine-chilling influence of the god of death can be felt most
+                                                                       keenly around this macabre totem.
+
+                                                                       A unit carrying the Icon of Morr gains the Fear special rule.
+                                                                       If they already have the Fear special rule, they instead gain the
+                                                                       Terror special rule.
+
+                                                                       The Banner Of The Free State Of Nuln.......20 Points
+                                                                       The City-state of Nuln has no stake in the War of the Three
+                                                                       Emperors, instead taking pride in the prosperity of their great city.
+
+                                                                       The Banner of the Free State of Nuln may only be taken by a
+                                                                       model in a City-state of Nuln Army of Infamy. A unit carrying
+                                                                       the Banner of the Free State of Nuln gains the Stubborn
+                                                                       special rule.
+
+
+
+
+                                                                                                Heirlooms Of The Empire                               47
+     Enchanted Items                                                                 Arcane Items
+     Squintsoffen9s Marvellous Magnifier*..........35 Points                         Twin-Tailed Wand .............................................40 Points
+     Popularised by its namesake, this pocket-sized spyglass allows the              Though its origin is unknown, this impractical wand allows its
+     bearer to more easily target distant enemies on the battlefield.                bearer to unleash a torrent of magical force.
+
+     A Squintsoffen9s Marvellous Magnifier may only be taken by                      Once per turn, the bearer of the Twin-tailed Wand may
+     models in a City-state of Nuln Army of Infamy. The bearer of                    attempt to cast one of their spells a second time. However,
+     a Magnifier and any unit they have joined does not suffer the                   should they miscast a spell, the bearer is overwhelmed by the
+     usual -1 To Hit modifier when shooting at Long Range.                           Winds of Magic and, instead of rolling on the Miscast table,
+                                                                                     suffers D3 wounds with no armour or Regeneration saves
+     Ring Of Fortune.................................................20 Points       permitted (Ward saves can be attempted as normal).
+     Though soldiers are encouraged not to be superstitious or carry
+     lucky charms, even experienced commanders know not to                           Tome Of Midnight ............................................30 Points
+     tempt fate.                                                                     As Wizards are often left to pursue their own paths to power, many
+                                                                                     end up perusing texts unfit for mortal minds.
+     Single use. The bearer of the Ring of Fortune can re-roll any
+     failed rolls To Wound made during the Combat phase.                             The bearer of the Tome of Midnight may apply a +1 modifier
+                                                                                     to any of their Casting rolls when attempting to cast spells
+     Ring Of Taal .......................................................20 Points   from the Lore of Daemonology, Dark Magic or Necromancy.
+     By evoking the name of Taal, the primordial god of the wilderness,              In addition, they know one more spell (chosen in the usual
+     the wearer shields themselves in nature9s grasp.                                way) than is normal for their Level of Wizardry. However, the
+                                                                                     bearer can only cast a number of spells equal to their Level of
+     Single use. The bearer of the Ring of Taal may cast the Oaken                   Wizardry per turn and is subject to the Loner special rule.
+     Shield spell from the Lore of Battle Magic (see page 321 of the
+     Warhammer: the Old World rulebook) as a Bound spell with a                      Crystal Ball .........................................................20 Points
+     Power Level of 3.                                                               Wizards who serve at court often rely upon reading portents and
+                                                                                     divining the future in order to best advise their masters.
+
+                                                                                     Once per turn, you may make your opponent re-roll a single
+                                                                                     roll To Hit or To Wound made against a friendly character
+                                                                                     model that is within the Command range of the bearer of the
+                                                                                     Crystal Ball.
+
+
+
+
+48                        Heirlooms Of The Empire
+

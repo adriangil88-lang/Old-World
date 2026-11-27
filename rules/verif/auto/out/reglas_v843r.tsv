@@ -1,0 +1,449 @@
+clave	regla	fuente	estado
+blessings	Bendiciones de la Dama	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+lanceForm	Formación en lanza	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+tusker	Carga de colmillos	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+quell	Reprimir impetuosidad	faq_rh.txt «Quell Impetuosity: Change the rule»	verificada
+levies	Levas	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+shieldwall	Muro de escudos	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ravenousHunger	Hambre voraz	new/leg_ogres.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+vanguard	Vanguardia	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+peasantry	Campesinado	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+finestHorses	Los mejores corceles	—	sin fuente local (no localizada por nombre)
+questingVow	Juramento de búsqueda	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+grailVow	Juramento del Grial	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+exileVow	Voto del Exiliado	—	sin fuente local (no localizada por nombre)
+crusadeVow	Voto del Cruzado	—	sin fuente local (no localizada por nombre)
+knightVow	Juramento del caballero	—	sin fuente local (no localizada por nombre)
+flyer	Vuelo (10)	new/cathay_aj.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+skirmish	Escaramuzadores	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+harmony	Armonía de piedra y acero	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+willDragons	Voluntad de los Dragones	—	sin fuente local (no localizada por nombre)
+grandStrategist	Gran estratega	new/cathay_aj.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+defStance	Posición defensiva	—	sin fuente local (no localizada por nombre)
+detachment	Destacamento	core.txt «Detachment» + «Regimental Units & Detachments» (p.282-283)	verificada
+regimental	Unidad regimental	core.txt p.282-283	verificada
+cataphract	Catafractos cathayanos	new/cathay_aj.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+masteryWinds	Maestría de los vientos elementales	—	sin fuente local (no localizada por nombre)
+masteryStorm	Maestría de los vientos de tormenta	—	sin fuente local (no localizada por nombre)
+disdain	Desdén de los Dragones	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+wrathStorm	Ira de la Tormenta	—	sin fuente local (no localizada por nombre)
+beacon	Baliza celestial	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+eyeDragon	Ojo del Dragón	—	sin fuente local (no localizada por nombre)
+disengage	Desenganche	new/cathay_aj.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+implacDef	Defensa implacable	—	sin fuente local (no localizada por nombre)
+implacable	Implacable	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+timmberr	¡Timmm-berrr!	—	sin fuente local (no localizada por nombre)
+thunderous	Impacto atronador	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+closeOrder	Orden cerrado	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+fear	Causa Miedo	—	sin fuente local (no localizada por nombre)
+terror	Causa Terror	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+frenzy	Frenesí	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+backstab	Puñalada trapera	new/aj_orcs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+blazingBody	Cuerpo ardiente	new/leg_chaosdwarfs.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+wailing	Lamento	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+bornFire	Nacido del fuego	—	sin fuente local (no localizada por nombre)
+sorcCurse	Maldición del Hechicero	—	sin fuente local (no localizada por nombre)
+infernalEng	Ingeniero Infernal	new/leg_chaosdwarfs.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+blackshard	Armadura de Escudo Negro	new/leg_chaosdwarfs.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+stampede	Estampida	new/aj_beasts2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+nehek	Invocación de Nehek	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+blessingChaos	Bendiciones del Caos	—	sin fuente local (no localizada por nombre)
+gorefeast	Banquete de sangre	new/leg_daemons.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+totemBlood	Tótem del derramamiento	—	sin fuente local (no localizada por nombre)
+khaineBless	Bendiciones de Khaine	—	sin fuente local (no localizada por nombre)
+soporific	Almizcle soporífero	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+imperviousDef	Defensa impenetrable	new/leg_lizardmen.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+lumberDest	Destrucción desmedida	—	sin fuente local (no localizada por nombre)
+grindWheels	Ruedas trituradoras	—	sin fuente local (no localizada por nombre)
+primRoar	Rugido primigenio	—	sin fuente local (no localizada por nombre)
+commandVoice	Voz de mando	—	sin fuente local (no localizada por nombre)
+precisionStrikes	Ataques de precisión	new/aj_highelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+abyssalCloak	Capa abisal	new/aj_highelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+enfeeblingCold	Frío debilitante	new/aj_highelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+skirmScreen	Pantalla de escaramuzadores	—	sin fuente local (no localizada por nombre)
+arcVassal	Vasallo arcano	—	sin fuente local (no localizada por nombre)
+beastHandlers	Cuidadores de bestias	new/aj_wood2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+tgGuardians	Guardianes	—	sin fuente local (no localizada por nombre)
+hidden	Oculto	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+goadBeast	Aguijonear a la bestia	new/leg_darkelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+abyssalHowl	Aullido abisal	new/leg_darkelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+monsterHandlers	Cuidadores de monstruos	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+newlyDead	Los recién muertos	new/leg_vampires.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+slavering	Carga babeante	new/aj_beasts2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+accursedW	Armas malditas	new/aj_tk2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+spectralReapers	Segadores Espectrales	new/leg_vampires.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+martialPride	Orgullo marcial	new/leg_vampires.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+boundSpirits	Espíritus ligados	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+bullCharge	Carga de toro	new/leg_ogres.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+largelyInsig	Largamente insignificante	new/leg_ogres.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+trapsSnares	Trampas y lazos	—	sin fuente local (no localizada por nombre)
+verminValour	Valor vermino	—	sin fuente local (no localizada por nombre)
+eshinInf	Infiltración Eshin	new/leg_skaven.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+cloudFlies	Nube de moscas	—	sin fuente local (no localizada por nombre)
+greatCenser	Gran Incensario	new/leg_skaven.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+scurryMasses	Masas apresuradas	—	sin fuente local (no localizada por nombre)
+extraRank	Luchar en fila extra	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+safeHarm	A salvo del daño	—	sin fuente local (no localizada por nombre)
+warpSpawned	Engendro de la disformidad	—	sin fuente local (no localizada por nombre)
+fightMe	¡Lucha conmigo!	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+attentionSeeker	Buscador de atención	new/leg_daemons.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+scintSorcery	Hechicería centelleante	—	sin fuente local (no localizada por nombre)
+slashAtk	Ataque de cuchillas	—	sin fuente local (no localizada por nombre)
+randomAtk	Ataques aleatorios	—	sin fuente local (no localizada por nombre)
+daemonicCharge	Carga daemónica	new/leg_daemons.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+obsSent	Centinela de obsidiana	—	sin fuente local (no localizada por nombre)
+graniteSent	Centinela de granito	new/cathay_aj.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+warpSent	Centinela de piedra bruja	—	sin fuente local (no localizada por nombre)
+miasma	Miasma hechicero	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+slimeTrail	Rastro de baba	new/leg_daemons.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+numbChill	Frío entumecedor	—	sin fuente local (no localizada por nombre)
+mournfangCharge	Carga de Colmillotriste	new/leg_ogres.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+stoneSkeleton	Esqueleto de piedra	new/leg_ogres.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+thunderCharge	Carga atronadora	—	sin fuente local (no localizada por nombre)
+quellPanic	Reprimir pánico	new/leg_chaosdwarfs.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ensorcelled	Armas hechizadas	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+covenCursed	Aquelarre maldito	—	sin fuente local (no localizada por nombre)
+darkRunes	Runas oscuras	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+aquatic	Acuático	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+cauldron	Caldero de Carnicero	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+volcano	Bendición del Dios Volcán	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+warpedForm	Forma deformada	new/faq_rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+cagedFury	Furia enjaulada	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+hunger	La Sed	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+incorpCoach	Carruaje espectral	—	sin fuente local (no localizada por nombre)
+hellbound	Ligado al infierno	new/leg_chaosdwarfs.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+toadRage	Furia del sapo	new/leg_lizardmen.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+furiousCharge	Carga furiosa	core.txt «Furious Charge»	verificada
+blackLotus	Loto Negro	new/leg_darkelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+poisonManbane	Perdición del Hombre	—	sin fuente local (no localizada por nombre)
+cryOfWar	Grito de Guerra	new/leg_darkelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+witchbrew	Brebaje de Bruja	new/leg_darkelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+hatred	Odio	core.txt «Hatred (X)»	verificada
+immunePsy	Inmune a psicología	core.txt «Immune To Psychology»	CORREGIDA (mayoría, solo Miedo/Pánico/Terror)
+impetuous	Impetuosos	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+stubborn	Tozudos	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+bestialFury	Furia bestial	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+crushBulk	Mole aplastante	—	sin fuente local (no localizada por nombre)
+unbreakable	Inquebrantables	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+strikeLast	Golpea el último	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+swiftstride	Zancada veloz	core.txt «Swiftstride» + faq_core.txt (Swiftstride: Change the rule)	CORREGIDA (cita de página y «antes de la tirada, puede elegir»)
+reserveMove	Movimiento de reserva	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+fastCav	Caballería rápida	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+firstCharge	Primera carga	core.txt «First Charge» + «Disrupted Units» (p.151)	verificada
+counterCharge	Contracarga	core.txt «Counter Charge» (Core p.169)	CORREGIDA (faltaban: todos los modelos, distancia < M, pivote, una por turno)
+waaagh	¡Waaagh!	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+fearElves	Miedo a los Elfos	new/faq_rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ignorePanic	Ignora el pánico	rh.txt p.~1995 «Ignore Panic»	CORREGIDA (faltaban 6" y huida a través)
+ignoreGobPanic	Ignora el pánico goblin	—	sin fuente local (no localizada por nombre)
+holdLine	«¡Mantened la línea!»	—	sin fuente local (no localizada por nombre)
+regen	Regeneración (5+)	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+stupidity	Estupidez	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+warband	Banda de guerra	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+horde	Horda	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+coldBlooded	Sangre fría	new/leg_lizardmen.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+murderous	Asesino	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+eternalHatred	Odio eterno	new/leg_darkelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+seaCloak	Capa de Dragón Marino	—	sin fuente local (no localizada por nombre)
+hekarti	Bendición de Hekarti	new/leg_darkelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+darkVit	Vitalidad oscura	new/leg_skaven.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+wteam	Equipo de armas	—	sin fuente local (no localizada por nombre)
+wtParent	Equipo de armas adjunto	—	sin fuente local (no localizada por nombre)
+scurry	Escabullirse	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+choppas	Hachas	rh.txt «Choppas»	verificada
+pavise	Pavés	new/leg_skaven.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+abominable	Ataques abominables	new/leg_skaven.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+tooHorrible	Demasiado horrible para morir	new/leg_skaven.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+danceDeath	Danza de la muerte	—	sin fuente local (no localizada por nombre)
+brazenWheels	Ruedas de bronce	new/leg_daemons.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+reliquary	Relicario maldito	new/leg_vampires.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+tome	Tomo blasfemo	—	sin fuente local (no localizada por nombre)
+tintin	Tintinabulación deformada	new/leg_vampires.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+engineGods	Motor de los Dioses	—	sin fuente local (no localizada por nombre)
+arkSotek	Arca de Sotek	—	sin fuente local (no localizada por nombre)
+infested	Infestado	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+carrionFeeders	Carroñeros	new/leg_vampires.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+balefire	Brasero de fuego maligno	new/leg_vampires.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+moveOrFire	Mover o disparar	—	sin fuente local (no localizada por nombre)
+quickShot	Disparo rápido	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+draggedAlong	Arrastrado	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ponderous	Pesado	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+volley	Fuego de volea	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+magRes2	Resistencia mágica (−2)	—	sin fuente local (no localizada por nombre)
+ctFort	Rasgo caótico: Fortaleza antinatural	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ctDark	Rasgo caótico: Corazones oscuros	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ctLong	Rasgo caótico: Zancadas largas	—	sin fuente local (no localizada por nombre)
+ctRefl	Rasgo caótico: Reflejos mejorados	—	sin fuente local (no localizada por nombre)
+ctHung	Rasgo caótico: Hambre de batalla	—	sin fuente local (no localizada por nombre)
+ctWill	Rasgo caótico: Voluntad descarada	new/faq_core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ctProp	Rasgo caótico: Presciencia profética	—	sin fuente local (no localizada por nombre)
+magRes	Resistencia mágica (−1)	—	sin fuente local (no localizada por nombre)
+large	Objetivo grande	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+impact	Impactos de carga	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+killingBlow	Golpe mortal	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ward5	Salvación especial 5+	—	sin fuente local (no localizada por nombre)
+rally	Grito de reagrupamiento	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+cannon	Fuego de cañón	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+elvenRef	Reflejos élficos	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+strikeFirst	Ataca primero	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+evasive	Evasivos	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ignoresCover	Ignora la cobertura	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+feigned	Fuga fingida	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+loner	Solitario	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+mtCover	Moverse entre la maleza	—	sin fuente local (no localizada por nombre)
+martial	Maestría marcial	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+fireFlee	Disparar y huir	—	sin fuente local (no localizada por nombre)
+flammable	Inflamable	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+indisHunger	Hambre indiscriminada	—	sin fuente local (no localizada por nombre)
+motherly	Amor maternal	new/faq_rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+slimy	Zancas viscosas	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+timber	¡Timmm-berrr!	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+treeWhack	Golpe de árbol	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+treeSpirit	Espíritu arbóreo	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+loec	Danzas de Loec	—	sin fuente local (no localizada por nombre)
+guardians	Guardianes del Bosque	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+asrai	Arco asrai	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+stomp	Pisotón	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+magical	Ataques mágicos	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+undead	No muertos de Nehekhara	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+indom1	Indómito (1)	—	sin fuente local (no localizada por nombre)
+indom2	Indómito (2)	—	sin fuente local (no localizada por nombre)
+khopesh	Khopesh	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+cleave	Golpe hendiente	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+asaph	Flechas de Asaph	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+myWill	Hágase mi voluntad	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+arise	¡Levantaos!	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+hierophant	Hierofante	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+rampant	Mutación desenfrenada	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+unstable	Inestable	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ogreCharge	Carga ogra	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+primalFury	Furia primigenia	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+bloodRage	Rabia de sangre	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+bloodGreed	Avidez de sangre	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+markUndivided	Marca del Caos Indiviso	—	sin fuente local (no localizada por nombre)
+foeRender	Desgarrador de enemigos	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+bullgors	Toro-gors	—	sin fuente local (no localizada por nombre)
+bestialCharge	Carga bestial	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+gaze	Mirada de los Dioses	—	sin fuente local (no localizada por nombre)
+drunken	Borrachos	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+grisly	Tótem Macabro	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+braystaff	Bastón de los brayes	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+bombard	Bombardeo	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+pureHeart	Puro de Corazón	—	sin fuente local (no localizada por nombre)
+immovable	Objeto inamovible	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+magRes3	Resistencia mágica (−3)	—	sin fuente local (no localizada por nombre)
+bombRun	Bombardeo	—	sin fuente local (no localizada por nombre)
+bonegrinder	Ataques de Gigante Triturador	new/aj_orcs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+giant	Ataques de gigante	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+dryDust	Secos como el polvo	—	sin fuente local (no localizada por nombre)
+taskmaster	Capataz eterno	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+arrowKurnous	La Flecha de Kurnous	—	sin fuente local (no localizada por nombre)
+beguile	Aura cautivadora	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+hawkEye	Arquero ojo de halcón	—	sin fuente local (no localizada por nombre)
+athelLoren	Lore de Athel Loren	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+boldest	El más audaz de los audaces	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+skaryn	Skaryn el Ladrón de Ojos	new/aj_wood2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+cloakIsha	Capa de Isha	—	sin fuente local (no localizada por nombre)
+hornHunt	Cuerno de la Cacería Salvaje	—	sin fuente local (no localizada por nombre)
+coven	Aquelarre del Bosque Profundo	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+runPack	Correr con la manada	—	sin fuente local (no localizada por nombre)
+razorTusks	Colmillos afilados	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+parry	Parada	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+courageBeyond	Coraje sin par	new/aj_wood2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+openOrder	Orden abierto	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+poisoned	Ataques envenenados	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+naval	Disciplina naval	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+cloudDust	Nube de polvo	—	sin fuente local (no localizada por nombre)
+steadfastDisc	Disciplina firme	new/aj_tk2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+chariotRun	Corredores de carro	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+phalanx	Falange nehekharita	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+stormCall	Llamada de la Tormenta	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+quickening	Tormenta vivificante	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ghostsight	Vista fantasmal	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+soulEater	Devoraalmas	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+bigUns	Big 'Uns	—	sin fuente local (no localizada por nombre)
+bigStabbas	Grandes Pinchos	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+warpaint	Pintura de guerra	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+netters	Lanzadores de redes	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+skulkers	Merodeadores Rastreros	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+randMove	Movimiento aleatorio	—	sin fuente local (no localizada por nombre)
+stakes	Estacas defensivas	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+steamPower	Potencia de vapor y Temperamental	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+sworn	Protector jurado	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+trophyRack	Percha de Trofeos	new/aj_orcs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+trollCalla	Llamador de Trolls	new/aj_orcs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+syphon	Fuerza absorbida	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+dragonhide	Capa de piel de dragón	new/aj_bretonnia.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+monsterSlayer	Matamonstruos	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+wyrmSlayer	Matador de sierpes	new/aj_bretonnia.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ethereal	Etéreo	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+untutored	Arcanista sin formación	new/aj_bretonnia.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+covenant	Pacto de poder	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+unboundSpirits	Espíritus desatados	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+curse	Maldición de la Necrópolis	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+hatredHE	Odio (Altos Elfos)	—	sin fuente local (no localizada por nombre)
+hatredDwarfs	Odio (Enanos)	—	sin fuente local (no localizada por nombre)
+squigsWild	Garrapatos descontrolados	—	sin fuente local (no localizada por nombre)
+trollVomit	Vómito de troll	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+masterBattle	Maestro de batalla	—	sin fuente local (no localizada por nombre)
+witchHunt	No permitirás...	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+prayerSigmar	Plegarias de Sigmar	—	sin fuente local (no localizada por nombre)
+prayerUlric	Plegarias de Ulric	—	sin fuente local (no localizada por nombre)
+holyFervour	Fervor sagrado	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+witchBane	Perdición de brujos	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+soot	Nubes de hollín y humo	—	sin fuente local (no localizada por nombre)
+feelNoPain	No sienten dolor	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+innerCircle	Círculo Interior	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+noMarch	Potencia de vapor	—	sin fuente local (no localizada por nombre)
+peasantDuty	Deber del campesino	—	sin fuente local (no localizada por nombre)
+wilful	Bestia obstinada	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+blizzard	Aura de ventisca	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+wakeFire	Estela de fuego	—	sin fuente local (no localizada por nombre)
+ashes	De las cenizas	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+flaming	Ataques flamígeros	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+madAura	Aura enloquecedora	—	sin fuente local (no localizada por nombre)
+bileBlood	Sangre de bilis	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+stonyStare	Mirada pétrea	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+chariot	Carro	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+hatredOrcs	Odio (Orcos y Goblins)	—	sin fuente local (no localizada por nombre)
+resolute	Resolutos	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+gromrilArm	Armadura de gromril	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+gromrilW	Armas de gromril	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ancestralGrudge	Rencor ancestral	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+bloodFrenzy	Frenesí de sangre	new/leg_lizardmen.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+dwarfCrafted	Hecho por enanos	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+itRun	Golpear y huir	new/aj_empire2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+dispersedFormation	Formación dispersa	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+extendedFormation	Formación extendida	new/aj_dwarfs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+forgefire	Fuego de forja	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+deathblow	Último golpe	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+slayer	Matador	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+slayerDaemons	Matademonios	—	sin fuente local (no localizada por nombre)
+slayerDragons	Matadragones	—	sin fuente local (no localizada por nombre)
+artilleryMaster	Maestro artillero	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+overseer	Capataz inmortal	new/aj_tk2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+stoneShaper	Escultor de piedra	new/faq_rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+hostileTerrain	Terreno hostil	new/faq_rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+digIn	¡Atrincheraos!	new/aj_dwarfs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+entrench	Atrincheramiento	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+standBack	«¡Atrás, jefe!»	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+valour	Valor de los Eones	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+venerable	Venerables	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+veteran	Veteranos	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+royalGuard	Guardia real	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+stoic	Defensores estoicos	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+runesProt	Runas de protección	—	sin fuente local (no localizada por nombre)
+runesWard	Runas de resguardo	—	sin fuente local (no localizada por nombre)
+scouts	Exploradores	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ambush	Emboscadores	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+dropRocks	Lluvia de rocas	new/leg_lizardmen.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+diveBomb	Bombardeo en picado	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+breath	Arma de aliento	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+blessUlric	Bendiciones de Ulric	—	sin fuente local (no localizada por nombre)
+guardTemple	Guardianes del Templo	—	sin fuente local (no localizada por nombre)
+hatredChaos	Odio (Caos)	—	sin fuente local (no localizada por nombre)
+hatredUndead	Odio (No muertos)	—	sin fuente local (no localizada por nombre)
+hatredHeart	Odio (Magos y Piel Verde)	—	sin fuente local (no localizada por nombre)
+panther1	Orden Pantera: carga	—	sin fuente local (no localizada por nombre)
+pantherOnly	Solo Caballeros Pantera	new/aj_empire2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+reaverBM	Destructor de Bestias	—	sin fuente local (no localizada por nombre)
+griffonHelm	Yelmo de Grifo	new/aj_empire2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+juicioMW	Juicio	—	sin fuente local (no localizada por nombre)
+wardNM6	Orden de Morr	—	sin fuente local (no localizada por nombre)
+wardFlame5	Orden del Lobo Blanco	—	sin fuente local (no localizada por nombre)
+heartInit	Orden del Corazón Ardiente	—	sin fuente local (no localizada por nombre)
+heartOnly	Orden del Corazón Ardiente	new/aj_empire2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+rr1HitC	Orden del Corazón Ardiente	—	sin fuente local (no localizada por nombre)
+rr1WoundC	Orden del Corazón Ardiente	—	sin fuente local (no localizada por nombre)
+sunCR	Orden del Sol Ardiente	—	sin fuente local (no localizada por nombre)
+prayerDamned	Plegaria de los Condenados	—	sin fuente local (no localizada por nombre)
+fanatZeal	Celo Fanático	—	sin fuente local (no localizada por nombre)
+terrorsBelow	Terrores de las profundidades	new/faq_rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+zealot	Fanático	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+whirlDeath	Torbellino de muerte	—	sin fuente local (no localizada por nombre)
+accArch	Arqueros consumados	—	sin fuente local (no localizada por nombre)
+mightyConst	Constitución poderosa	new/aj_highelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+chayal	Chayal	new/aj_highelves.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+pelt	Piel de Charandis	—	sin fuente local (no localizada por nombre)
+champChrace	Campeones de Chrace	—	sin fuente local (no localizada por nombre)
+leaderPack	Líder de la manada	—	sin fuente local (no localizada por nombre)
+motley	Variopinto	no hay definición de «Motley Crew» en las fuentes locales (solo aparece en listas)	sin fuente local
+wolfHammer	Martillo de lobo	new/aj_empire2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+marksmen	Francotiradores expedicionarios	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ancFury	Furia ancestral	—	sin fuente local (no localizada por nombre)
+relentless	Guerreros implacables	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+mercCmd	Comandante mercenario	—	sin fuente local (no localizada por nombre)
+stratMastery	Maestría estratégica	—	sin fuente local (no localizada por nombre)
+skilledDuel	Duelista experto	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+grudgelore	Saber de los Rencores	new/aj_dwarfs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+grudgestone	La Piedra del Rencor	new/aj_dwarfs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+skaldour	Armadura de Skaldour	new/aj_dwarfs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+firstFray	Primero a la refriega	—	sin fuente local (no localizada por nombre)
+slayerKing	Rey de la Fortaleza Matadora	new/aj_dwarfs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+prepPos	Posiciones preparadas	—	sin fuente local (no localizada por nombre)
+rangeFind	Óptica telemétrica	new/aj_dwarfs2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+chainmaker	Forjadora de Cadenas	new/aj_beasts2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+cmdCaptain	Comandante y Capitán	—	sin fuente local (no localizada por nombre)
+peerless	Incursora sin igual	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+scarabPrince	Príncipe Escarabajo	new/aj_tk2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+reaper	Segador de Usirian	rh.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+settraGreat	Settra el Grande	—	sin fuente local (no localizada por nombre)
+noKneel	¡Settra no se arrodilla!	—	sin fuente local (no localizada por nombre)
+heraldDespair	Heraldo de la Desesperación	—	sin fuente local (no localizada por nombre)
+settraChamp	Campeón de Settra	—	sin fuente local (no localizada por nombre)
+fatherBeasts	Padre de Bestias	—	sin fuente local (no localizada por nombre)
+indom3	Indómito (3)	—	sin fuente local (no localizada por nombre)
+futureSight	Visión del futuro	new/aj_beasts2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+unicornSkull	Cráneo del Señor Unicornio	—	sin fuente local (no localizada por nombre)
+galrSpirit	Espíritu de Galrauch	—	sin fuente local (no localizada por nombre)
+twoHeaded	Dragón bicéfalo	—	sin fuente local (no localizada por nombre)
+breathChange	Aliento del Cambio	—	sin fuente local (no localizada por nombre)
+cursedGods	Maldecido por los dioses	—	sin fuente local (no localizada por nombre)
+crown	Corona de astas	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+endlessMalice	Malicia sin fin	new/aj_beasts2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+explosiveDemise	Final explosivo	new/aj_chaos2.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+fireChaos	Fuego y Caos	—	sin fuente local (no localizada por nombre)
+warpAura	Aura de fuego del Caos	—	sin fuente local (no localizada por nombre)
+crushWeight	Peso aplastante	—	sin fuente local (no localizada por nombre)
+stableFP	Plataforma de tiro estable	—	sin fuente local (no localizada por nombre)
+lookOut	Gnoblar vigía	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+howdah	Howdah	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+nobleDisdain	Desdén noble	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+feintDodge	Finta y esquiva	—	sin fuente local (no localizada por nombre)
+tileanStoic	Estoicismo tileano	—	sin fuente local (no localizada por nombre)
+phalanxM	Falange	—	sin fuente local (no localizada por nombre)
+symbolMight	Símbolo de poder	—	sin fuente local (no localizada por nombre)
+kerSplat	¡Ker-splat!	—	sin fuente local (no localizada por nombre)
+foeRenderR	Desgarrador de enemigos (solo Razorgor)	—	sin fuente local (no localizada por nombre)
+daBoyz	Da Boyz	rh.txt «Da Boyz»	verificada (la excepción del Waaagh! Nómada: sin fuente local textual)
+countBanner	Estandarte del Conde	—	sin fuente local (no localizada por nombre)
+wightBanner	Estandarte Tumulario	new/leg_vampires.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+align_khorne	Daemon de Khorne	—	sin fuente local (no localizada por nombre)
+align_nurgle	Daemon de Nurgle	—	sin fuente local (no localizada por nombre)
+align_slaanesh	Daemon de Slaanesh	—	sin fuente local (no localizada por nombre)
+align_tzeentch	Daemon de Tzeentch	—	sin fuente local (no localizada por nombre)
+ladyAura	Aura de la Dama	—	sin fuente local (no localizada por nombre)
+ladyShield	Escudo de la Dama	—	sin fuente local (no localizada por nombre)
+arcBacklash	Contragolpe arcano	—	sin fuente local (no localizada por nombre)
+chaliceBr	Cáliz de Brionne	—	sin fuente local (no localizada por nombre)
+staffElem	Báculo de los Elementos	—	sin fuente local (no localizada por nombre)
+drilled	Disciplinados	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ithilmarW	Armas de ithilmar	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+ithilmarArm	Armadura de ithilmar	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+lileath	Bendición de Lileath	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+dragonArm	Armadura de dragón	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+blessAsur	Bendiciones de Asuryan	—	sin fuente local (no localizada por nombre)
+lionCloak	Capa de león	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+mathIre	Ira de Mathlann	—	sin fuente local (no localizada por nombre)
+deflect	Desviar disparos	fof.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+witness	Testigos del destino	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+xAtkW	Muchas cabezas	—	sin fuente local (no localizada por nombre)
+chaosArmour	Armadura del Caos	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+daemonic	Daemoníaco	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+handler	Cuidador	core.txt (nombre localizado en inglés)	fuente localizada, texto NO comparado
+sunBlade	Hoja Bendita de Ptra	—	sin fuente local (no localizada por nombre)
+crownNeh	Corona de Nehekhara	—	sin fuente local (no localizada por nombre)
+noPursue	No persigue	—	sin fuente local (no localizada por nombre)
+fleeSafe	Huir a lugar seguro	—	sin fuente local (no localizada por nombre)
+nonCombatant	No combatiente	—	sin fuente local (no localizada por nombre)
+ladyLore	Lore de la Dama	—	sin fuente local (no localizada por nombre)
+necroUndead	No muertos necrománticos	—	sin fuente local (no localizada por nombre)

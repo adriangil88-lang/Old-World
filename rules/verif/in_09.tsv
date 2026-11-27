@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+aj_beasts2.tsv	aj_beasts2-053	aj_beasts2.txt:924-926	Roaming Warbands: 0-1 Manada de Gors/Ungors/Centigors por 1.000 con US 10 o menos con Emboscadores gratis	OK	data.js:opts ambf + armyIssues	Emboscadores gratis 0-1 Manada Gors/Ungors/Centigors por 1.000 pts con FU<=10
+core_2.tsv	C2-137	Magic: Unbinding	6 dobles naturales al dispersar (cualquier tipo) dispersa y termina el hechizo; no vale contra invocación perfecta	OK	rules.js:3308 (x===6&&y===6); 3323; 3250	
+leg_ogres.tsv	leg_ogres-119	leg_ogres.txt:469	Colmillo de Sable: M8 HA4 HP0 F4 R4 H2 I4 A2 L6, 17 pts	OK	data.js:2077	
+aj_highelves.tsv	aj_highelves-108	aj_highelves.txt:1485-1487	Leñadores: capitán, portaestandarte, músico +7 pts cada uno	OK	data.js:he_woodsmen (sin bnMax)	Costes correctos; bnMax 25 permite estandarte mágico que el texto no otorga
+leg_darkelves.tsv	leg_darkelves-136	leg_darkelves.txt:525-526	Arpía 5/3/0/3/3/1/5/2/6, 11 pts	OK	data.js:1653	
+aj_tk2.tsv	aj_tk2-086	aj_tk2.txt L1237	Ushabti Venerables: opción Antiguo +7: Un modelo Venerable Ancient por +7 pts	OK	data.js:3567 CMD.tk_vushabti=[7,null,null]	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-032	leg_chaosdwarfs.txt:112	Blood of Hashut +20 por vial (cualquier numero)	OK	data.js:~4827 VI v1..v10	Hasta 10 viales (sin tope en el texto)
+dawn_renegade_sc.tsv	sc_shores-006	sc_shores.txt:21-25	"Marcadores del mapa; no a 3"" de un rasgo ni a caballo de un obstáculo lineal bajo (se aparta el terreno lo mínimo)"	OK	data.js:5964 SCN_REQ; rules.js:335 scnPost	"Posiciones del mapa correctas; no se aparta el terreno ni se comprueba el margen de 3"""
+aj_orcs2.tsv	aj_orcs2-002	aj_orcs2.txt:456-486	Escenario Winter's Teeth: listas: Atacante 2.500 pts Nómada con Kiknik general; defensor 1.000 enanos (Ingeniero general	OK	data.js:6297 (SCN_REQ.winter), data.js:4562 (ALLY_SCN.winter), rules.js:886	Atacante Nómada 2.500 con Kiknik de General; defensor Guarnición enana (Gran Ejército, Ingeniero General, se marca General al crear la partida) + escolta imperial (contingente aliado, 1.000+1.500); alternativa «cualquier ejército» vía free
+battlemarch_quickref.tsv	quickref-061	quickref.txt L188-190	Herir y salvar en combate igual que en disparo	OK	rules.js woundAndSave	
+aj_highelves.tsv	aj_highelves-030	aj_highelves.txt:797-800	Guerreros de Chrace: Lanceros/Arqueros con Capa de León +10 pts por unidad	OK	data.js:3382-3388 (extraCost 10)	
+core_2.tsv	C2-136	Magic: Dispel Result	Se dispersa si el resultado supera al de lanzamiento; igual o menos falla	OK	rules.js:3308 (> total); 3323 (x+y > total)	
+faq_core_4.tsv	FC4-36	p16 dcha / Unidad regimental	Hechizo sobre unidad regimental no afecta a sus destacamentos ni viceversa	OK	rules.js:3510 (add(t,...))	Los efectos se añaden solo a la unidad objetivo
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-236	leg_chaosdwarfs.txt:920-921	Darkforged 3 Life Bane: Multiple Wounds (D3)	OK	data.js:4752 dk3	
+leg_darkelves.tsv	leg_darkelves-226	leg_darkelves.txt:1023-1025	Tomo de Furion 15: un hechizo más	OK	data.js:2977; rules.js:797	
+battlemarch_quickref.tsv	battlemarch-145	battlemarch.txt L2292-2298	Terreno 5 Hierbas curativas: al descubrir y cada Inicio de turno un modelo dentro recupera una Herida	OK	rules.js:355-358, 5244	
+aj_highelves.tsv	aj_highelves-014	aj_highelves.txt:758-761	Personajes hasta 50%: 0-1 Príncipe o Archimago por 1.000 pts	OK	data.js:3412	
+leg_darkelves.tsv	leg_darkelves-149	leg_darkelves.txt:575-576	Ballestas de repetición +2; escudos +1 por modelo	OK	data.js:3758-3759	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-173	leg_chaosdwarfs.txt:497-498	Great Taurus M6 HA5 F5 (+4 H) I3 A3, +120 pts	OK	data.js cd_*_taurus Ld de jinete (10/9)	Costes 205/315 ok; Ld 8/9 en vez del jinete 9/10; mountAtk ap1 flame
+leg_daemons.tsv	leg_daemons-133	leg_daemons.txt L581-584	Buscador: HA4 HP3 F3 R3 H1 I5 A1 Ld7, 21 pts; Corcel M9 HA3 I5 A1	OK	data.js:1999	M10 en vez de 9 | restos menores no modelados
+dawn_renegade_sc.tsv	renegade_web-025	renegade_web.txt:52-54	El Proscrito y Renegado: 0-1 unidad de Jinetes a Sueldo con Emboscadores por +1 por modelo por personaje con ese Origen	OK	data.js:5617 no; data.js:4459 chk	
+core_7.tsv	core_7-004	core_rulebook.txt 9230-9231	"Mapa Mountain Pass: zonas A y B en los extremos cortos con 12"" a cada lado de la linea central"	OK	rules.js:180 (gisoreux z: 0-24 y 48-72)	"Geometria 24"" de fondo y 24"" libres coherente con el mapa; la desc en rules.js:180 dice '12"" de separacion' (texto confuso, no afecta al motor). Profundidad exacta de zona no legible en el texto extraido"
+leg_daemons.tsv	leg_daemons-214	leg_daemons.txt L1036	Garra de hierro: F, PA-3, Golpe letal	OK	data.js:2029 melee ap3 killingBlow	
+aj_dwarfs2.tsv	aj_dwarfs2-023	aj_dwarfs2.txt L503-510	+50 PV por unidad con al menos 50% de sus modelos en su zona (defensor) o en la del defensor (atacante), sin huidas	OK	rules.js scoreVP khazid (modelPts dentro de la zona, >=50%)	
+leg_daemons.tsv	leg_daemons-054	leg_daemons.txt L201-202	Sabuesos: garras y colmillos y pieles callosas (armadura ligera)	OK	data.js:1990	Sin armadura ligera
+faq_libros.tsv	Q35	FoF FAQ High Elves	Martial Prowess no da apoyo a armas sin Fight in Extra Rank	OK	rules.js:3958	
+aj_highelves.tsv	aj_highelves-053	aj_highelves.txt:1093-1096	Korhil reglas: Reflejos élficos, Carga furiosa*, Constitución poderosa, Moverse a cubierto*, Tozudo, Valor de las Eras	OK	data.js:1503	
+battlemarch_quickref.tsv	quickref-073	quickref.txt L235-238	Contenerse y reformar: chequeo de Ld; si lo pasa se queda y reforma gratis; si no debe seguir o perseguir	OK	rules.js pref restrain; ai.js	
+faq_libros.tsv	C27	Cathay FAQ Mastery of Elemental Winds	Una vez por turno y por ejército	OK	rules.js:3778 (s.mwK por turno y propietario)	
+leg_daemons.tsv	leg_daemons-028	leg_daemons.txt L112	Sanguinario: Dones Demoniacos hasta 100 pts	OK	data.js:1958 ib 100	
+leg_darkelves.tsv	leg_darkelves-048	leg_darkelves.txt:173-175	Debe ir montado: Carro Azote o Mantícora	OK	data.js:5352,3343-3344 (de_beastmaster retirado de ARMIES)	
+core_4.tsv	C4-019	Quién gana p.153	Combate empatado: unidades siguen trabadas hasta el siguiente turno	OK	rules.js:4891 (sc[0]===sc[1] continue)	Desempate de músico aparte (4857)
+faq_core_3.tsv	40	FAQ Core p.13 Reglas Universales	Unidad que despliega con Exploradores no puede hacer movimiento de Vanguardia	OK	rules.js:2347 (vanguardMoves: !u.scouted)	La unidad desplegada con Exploradores no hace Vanguardia
+aj_orcs2.tsv	aj_orcs2-005	aj_orcs2.txt:505-508	"Late Snows: Infantería y Goods Carts no marchan salvo en el camino central de 6"""	OK	rules.js:~2230 (Nieves tardías)	"Solo tropa «infantería» (regular, pesada, enjambre, personaje a pie; no infantería monstruosa) y carros de mercancías; deben estar en el camino (±3"") al salir y al llegar"
+leg_daemons.tsv	leg_daemons-204	leg_daemons.txt L983	Furia del Caos: M4 HA3 HP0 F4 R3 H1 I4 A1 Ld5, 12 pts	OK	data.js:2008 (M8 es Volar)	
+faq_core_3.tsv	38	FAQ Core p.13 Reglas Universales	Movimiento aleatorio: no rodea a un enemigo ni cambia de arco antes de contactar; cumple criterios de carga	OK	rules.js:5490-5506 (doCharge/chargeTargets o línea recta con checkPlacement)	
+core_5.tsv	C5-079	p.203 General	Un personaje Loner no puede ser General	OK	data.js:4584	armyIssues: Loner no puede ser el General
+leg_darkelves.tsv	leg_darkelves-236	leg_darkelves.txt:1085-1095	"Horror Negro: Vórtice VL 9+, 18"", plantilla 5"", terreno peligroso, mueve 2D6"", D6 tests de F, pierde 1 Herida por fallo"	OK	data.js:4912; rules.js:5559	
+dawn_renegade_sc.tsv	renegade_web-038	renegade_web.txt:82-84	Mago Proscrito (45 pts): M4 HA3 HP3 F3 R3 H2 I3 A1 Ld7, Mago nivel 1, mano; Saber a elegir entre seis	OK	data.js:899-901 br_outcast; data.js:5576 rc_wizard	
+leg_vampires.tsv	leg_vampires-195	leg_vampires.txt:935-940	Garras F PA-2; Cola venenosa Ataques envenenados, Golpe Primero, un ataque por turno	OK	data.js:5091 tail:true	
+aj_wood2.tsv	aj_wood2-097	aj_wood2.txt:1236-1240	Martial Prowess: ataques de apoyo por flancos y retaguardia	OK	rules.js:4098; data.js:229	
+battlemarch_quickref.tsv	battlemarch-159	battlemarch.txt L2396-2418	Mercenario errante: perfil, infantería regular, base 25x25, 10 modelos, equipo y reglas (Mercenarios, Escaramuzadores)	OK	data.js UNITS verificado	
+aj_empire2.tsv	aj_empire2-082	aj_empire2.txt:1275,1285	Ogros Imperiales: equipo armas de mano y armadura ligera; mayor armadura pesada +3	OK	data.js:3513-3514	
+core_3.tsv	c3-027	"Movement 1"" Rule (p.116)"	"Ninguna unidad (salvo trabadas) acaba a 1"" o menos de un enemigo"	OK	checkPlacement rules.js:1830-1840 (enemyGap 1), previewMove 1937	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-243	leg_chaosdwarfs.txt:909-911	Blunderbuss: 20+ modelos de la misma unidad repiten 1 naturales para herir	OK	rules.js:2452	
+aj_orcs2.tsv	aj_orcs2-058	aj_orcs2.txt:1019-1021	Bruja Troll: opciones: Nivel 2 por +35; objetos mágicos hasta 50 pts	OK	data.js:3679, ib 50	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-046	leg_chaosdwarfs.txt:144	Perfil Infernal Castellan M3 HA6 HP4 F5 R5 H3 I3 A4 L10, 125 pts	OK	data.js:2109 cd_castellan	
+aj_chaos2.tsv	aj_chaos2-162	aj_chaos2.txt L1583-1590	Objetos mágicos de Guerreros del Caos comprables como Comunes; asterisco = extremadamente comunes	OK	data.js:2788-2805 wocaj_	Sin objetos marcados con asterisco en esta página
+core_4.tsv	C4-018	Quién gana p.153	Gana el bando con más puntos; el perdedor hace Prueba de Ruptura	OK	rules.js:4892-4910	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-251	leg_chaosdwarfs.txt:737-745	Mask of the Furnace 40: +1 armadura (max 2+), compatible; Ward 3+ vs flamigero	OK	data.js:2906	

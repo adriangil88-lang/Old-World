@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+faq_core_3.tsv	58	FAQ Core p.13 Reglas Universales	Personaje sin Veterano no se beneficia en chequeos propios de Liderazgo (Grito de reagrupamiento)	OK	rules.js rallyTest	El chequeo lo hace la unidad nominada (texto del Core), sin Veterano del anfitrión
+aj_tk2.tsv	aj_tk2-006	aj_tk2.txt L529-532	Escenario Zandri: primer turno: El atacante juega siempre el primer turno	OK	rules.js:195 first:0	
+dawn_renegade_sc.tsv	renegade_web-014	renegade_web.txt:30-32	Regla Mercenarios: no pueden usar la Presencia inspiradora del General	OK	rules.js:1424	
+leg_vampires.tsv	leg_vampires-123	leg_vampires.txt:552-553	Reglas: Espíritus Ligados, Etéreo, Ataques mágicos, No muerto, Orden Abierto, Regen 6+, Mov. Reserva	OK	data.js:1899	
+aj_tk2.tsv	aj_tk2-118	aj_tk2.txt L1443-1449	Objetos TK: Báculo del Despertar (50): Solo Sumo Sacerdote; con Arise sobre infantería/caballería +D3 Heridas	OK	data.js tkaj_awakening mcOnly hpOnly; rules.js ~5572 infantería/caballería	
+dawn_renegade_sc.tsv	cathay_dawn-036	cathay_dawn.txt:384-400	Tabla Wasteland 8: Pantano (terreno difícil)	OK	dawn.js genDawn/buildLinear + rules.js createGame (tmode waste/shadow)	
+aj_chaos2.tsv	aj_chaos2-015	aj_chaos2.txt L570-571	Juicio de los Dioses: personajes del defensor pueden repetir el D6 de la Mirada	OK	rules.js:71 gazeRoll gazeRR; rules.js pref gazeRR; main.js botón; ai.js optionGroups gr	El jugador fija con qué resultado repite el D6 (umbral 0-5); la IA lo aprende
+core_3.tsv	c3-077	Marching (p.123)	Marcha: dobla M, solo rueda, no dispara después	OK	previewMove rules.js:1881, 1903; shootCheck1 2031	
+core_8.tsv	core_8-096	Objetos encantados p.340 l.11105	Pociones: el jugador decide si y cuando beberlas	OK	main.js drink (manualReloc); ai.js optionGroups dr	El jugador humano decide cuando beber; la IA por autoaprendizaje
+leg_daemons.tsv	leg_daemons-070	leg_daemons.txt L296-302	Ruedas de laton: Pisoteo PA-3 salvo behemots	OK	rules.js:4722	
+leg_ogres.tsv	leg_ogres-163	leg_ogres.txt:696-700	"2 Panzazo: plantilla 3"", impacto de F con FP-2 a todo modelo bajo ella (amigo o enemigo)"	OK	rules.js:giantAttack	"Plantilla 3"" centrada en la unidad, afecta a amigos y enemigos"
+leg_skaven.tsv	leg_skaven-047	leg_skaven.txt:170	Ingeniero objetos mágicos hasta 50	OK	data.js:sk_engineer ib:50	
+leg_daemons.tsv	leg_daemons-045	leg_daemons.txt L168-169	Pezunas de laton: F, PA-2	OK	data.js:1934 mountAtk ap 2	
+leg_lizardmen.tsv	leg_lizardmen-141	leg_lizardmen.txt:651-657	Troglodon: monstrous creature 50x100, armadura pesada, Skink Oracle arma de mano	OK	data.js:1742	
+leg_daemons.tsv	leg_daemons-130	leg_daemons.txt L566,1453-1459	Piercing claws: F, PA-1, Perforante 2, Ataques extra (1), dos manos	OK	data.js:1979	Falta PA-1
+core_2.tsv	C2-071	Removing Casualties: Single Rank Units	Una sola fila pierde bajas por ambos extremos por igual	OK	geom.js:8-22 (la unidad conserva el centro al reducirse)	Implícito
+core_8.tsv	core_8-094	Objetos encantados p.340 l.11134	Pocion de Temeridad* 5: Inmune a la psicologia hasta fin de turno	OK	data.js:3155	
+aj_tk2.tsv	aj_tk2-091	aj_tk2.txt L1267-1269	Caballería Cohortes: opciones +6 campeón/estandarte/músico: Cada +6 por unidad	OK	data.js:3333 CMD [6,6,6]	
+dawn_renegade_sc.tsv	renegade_web-041	renegade_web.txt:91-94	Mercenarios Veteranos: 5 pts, M4 HA4 HP3 F3 R3 H1 I3 A1 Ld5; Oficial A2 Ld6; infantería regular; 25x25; mínimo 5	OK	data.js:5589-5592 rc_vsellswords; CMD [7,5,5]	
+aj_highelves.tsv	aj_highelves-061	aj_highelves.txt:1178-1184	Ishaya perfil M5 HA7 HP7 F4 R3 H3 I7 A3 L9, 170 pts; infantería regular; equipo con escudo y arco de guerra	OK	data.js:1522-1524 (Sv 4)	
+cathay.tsv	cathay_aj-013	cathay_aj.txt 1142-1177	Aliados 25% (contingente de listas Grand Army o Armies of Infamy) y Aliados cathayanos para otros	OK	data.js ALLY_TABLE.ct / ALLY_AOI / allyOptions (infraestructura de aliados de otro agente)	Cathay admite Enanos, Imperio, Alto Elfo de confianza y Bretonia/Elfos Silvanos Sospechosos + AoI propio; y viceversa. Coincide con el texto.
+aj_empire2.tsv	aj_empire2-139	aj_empire2.txt:1624-1631	Amuleto del Cazador de Brujas*: 20 pts, Resistencia mágica (-2), una repetición de salvación de armadura por partida	OK	data.js:2833; rules.js:1725	
+leg_vampires.tsv	leg_vampires-154	leg_vampires.txt:664-669	Caballería ligera, 30x60, 5-10, armas de mano y a dos manos	OK	data.js:5300 vc_hexwraith melee GWP (armas a dos manos)	
+leg_skaven.tsv	leg_skaven-112	leg_skaven.txt:430-434	Globadiers: unidad 2-10, Scurry, Skirmishers, Warband	OK	data.js:1793	
+leg_daemons.tsv	leg_daemons-035	leg_daemons.txt L127-129	Gran hacha: F+2, PA-3, Perforante 2, Cazamonstruos, dos manos, golpea ultimo	OK	data.js:5314	
+leg_skaven.tsv	leg_skaven-018	leg_skaven.txt:88-93	Portaestandarte: un Jefe +25 pts, estandarte mágico sin límite	OK	data.js:2462 (sk_chieftain [null,25,null])	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-206	leg_chaosdwarfs.txt:637-641	Slow Reload: si disparo el turno anterior, 1-2 en D6 no dispara; +1 con Ogre Loader	OK	rules.js:2204-2205	
+faq_core_1.tsv	FQ1-026	Errata p.172 Impetuous	En Declarar cargas, si puede cargar hace chequeo de Liderazgo; si falla debe declarar carga, si pasa actúa normal	OK	rules.js:5509-5517	Resuelto al inicio del movimiento, no en subfase explícita
+aj_wood2.tsv	aj_wood2-019	aj_wood2.txt:736-737	OWH Especiales: 0-1 Hermanas de la Espina por 1.000 pts	OK	data.js:4654	
+core_2.tsv	C2-097	Magic: Magical Vortex	No requiere objetivo; plantilla redonda colocada sin tocar peanas y con el agujero central dentro del alcance	OK	rules.js vortexClear	Colocado sin tocar peanas
+aj_bretonnia.tsv	aj_bretonnia-096	aj_bretonnia.txt L1336-1338	Equipo: arma de mano, Caliz de Brionne, Baculo de los Elementos; Ariandir cascos y cuerno (arma de mano)	OK	data.js:896 mountAtk	
+core_4.tsv	C4-118	Reglas especiales p.175	Disparo rápido: sin -1 mover y disparar; Plantar cara a cualquier distancia	OK	rules.js:2402, 2992	
+aj_bretonnia.tsv	aj_bretonnia-027	aj_bretonnia.txt L797-802	Duque y Profetisa no disponibles en Exiliados; Elisse solo en listas con Profetisa	OK	data.js:BR_EXILES (sin br_elisse)	Elisse retirada de Exiliados (sin Profetisa); Duque/Profetisa excluidos
+leg_ogres.tsv	leg_ogres-116	leg_ogres.txt:455-458	Exploradores +3 / Vanguardia +2 por modelo, 0-1 unidad por 1.000 pts	OK	data.js:3847-3849	
+core_5.tsv	C5-144	p.215 Thrusting Spear	Fight in Extra Rank; sin apoyo si cargo; +1 I si es cargado por el frente	OK	rules.js:3958,3905	melee.thrust
+faq_core_1.tsv	FQ1-052	Errata p.190 Regular/Heavy Infantry Massed Infantry	Mayor Fuerza de Unidad e incluye infantería con la regla: +1 punto de resultado de combate	OK	rules.js:4731-4732	
+aj_orcs2.tsv	aj_orcs2-114	aj_orcs2.txt:1515-1523	Da Hag's Brew: 25 pts; solo Chamanes; conoce hechizos de Magia Troll	OK	data.js:3078, rules.js:769	
+leg_darkelves.tsv	leg_darkelves-173	leg_darkelves.txt:702-705	Carro pesado, 50x100, unidad 1, armadura 4+	OK	data.js:5270 Sv:4	
+faq_libros.tsv	C09	Cathay p.35 Sky Lantern Bombs	Contra una sola unidad enemiga que no esté trabada	OK	main.js:1190 (selección de objetivo de Bombas de linterna)	El jugador elige objetivo
+leg_skaven.tsv	leg_skaven-179	leg_skaven.txt:687-689	Furnace: Dragged Along, Fear, Frenzy, Great Censer, Impact Hits (D3+1), Large Target, Magic Res (-1), Poisoned, Scurryin	OK	data.js:sk_plaguepriest_furnace sr	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-155	leg_chaosdwarfs.txt:420-421	Equipo: Steam Cannonade, tripulacion con armas de mano	OK	data.js:2184 ranged cannonade	
+leg_vampires.tsv	leg_vampires-039	leg_vampires.txt:159-164	General Vampire Counts debe ser Mago; si solo 1 Mago, debe ser General	OK	data.js:4710-4712 armyIssues: General Mago; un solo Mago = General	
+dawn_renegade_sc.tsv	renegade_web-008	renegade_web.txt:15-17	Objetos mágicos: cualquier modelo que pueda llevarlos puede tomar objetos Comunes; reglas enlazadas	OK	data.js:3221 itemFacOk	
+core_2.tsv	C2-041	Other Model Information: Base Size	Cada modelo en peana cuadrada o rectangular con las dimensiones del libro	OK	data.js:374-377 (baseW/baseD en mm)	
+leg_vampires.tsv	leg_vampires-222	leg_vampires.txt:1097-1104	"Bastón Calavera 50: +3"" alcance de disipación y +1 a disipar"	OK	data.js:3062	
+aj_empire2.tsv	aj_empire2-099	aj_empire2.txt:1375-1380	Carro de Guerra: perfil Carro F5 R5 H6; tripulación HA3 HP3 F3 I3 A1 L8; caballos M7 A1; 140 pts	OK	data.js:war_wagon stompS 5	Perfil agregado equivalente (F5 del carro en Impactos y Pisoton)
+battlemarch_quickref.tsv	battlemarch-193	battlemarch.txt L2918-2924	Mapa de la Espesura (10): repetir el D6 de la tabla de Terreno salvaje	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+aj_dwarfs2.tsv	aj_dwarfs2-101	aj_dwarfs2.txt L1113-1114	Doomseeker: M3 HA5 HP0 F5 R4 H2 I3 A2D3 L10, 50 pts	OK	data.js:1370 (randA 2D3)	
+cathay.tsv	cathay_aj-038	cathay_aj.txt 1480-1490	Shugengan Lord: nivel 3 +30, nivel 4 +60, objetos 100; General: nivel 2 +30, objetos 50	OK	data.js:4123 CTS [[3,30],[4,60]] / [[2,30]]; ib 100/50	
+leg_skaven.tsv	leg_skaven-030	leg_skaven.txt:123-127	Vidente Gris: infantería (personaje), peana 25x25, equipo arma de mano	OK	data.js:1751 arm none	

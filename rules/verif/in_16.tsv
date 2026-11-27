@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+core_8.tsv	core_8-084	Estandartes magicos p.339 l.11084	Estandarte Rampante 30: repetir la tirada de carga	OK	data.js:2552; rules.js:3017	Repite solo si la distancia supera lo necesario (decision automatica del motor)
+faq_core_3.tsv	42	FAQ Core p.13 Reglas Universales	Pisotones (X) con perfil dividido: solo la montura (en carro, las bestias o el carro)	OK	rules.js:4577, 4757 (usa S de la montura), data stompN	Resuelto por datos a nivel de unidad
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-092	leg_chaosdwarfs.txt:248	Overseer: Pistol +3	OK	data.js opts op (campeon, cnt:1)	Solo campeon (chk)
+leg_darkelves.tsv	leg_darkelves-037	leg_darkelves.txt:155-156	Reglas: Reflejos Élficos, Odio eterno, Odio, Bendición de Hekarti, Lore de Naggaroth, Asesina	OK	data.js:1598 sr; rules.js:3924	
+leg_ogres.tsv	leg_ogres-141	leg_ogres.txt:585-589	"Catapulta: 12-48"" F3(4) Bombardeo Engorroso Heridas múltiples (2) solo al central, plantilla 5"""	OK	data.js:5229	
+aj_highelves.tsv	aj_highelves-059	aj_highelves.txt:1118-1119	Chayal: repite impactos de 1 natural en la fase de Combate	OK	rules.js:4379, 4658	
+core_7.tsv	core_7-041	core_rulebook.txt 9757-9762	Surprise Encounter, Set-up: terreno p.268; mesa dividida en seis zonas del mismo tamano	OK	rules.js:SCENARIOS.surprise (stir:true) y stirInit	Mesa en seis zonas
+aj_tk2.tsv	aj_tk2-015	aj_tk2.txt L644-654	Hueste Real: Básicas mínimo 33%: 1+ Carros Esqueleto; 0-1 Guardia de la Tumba o Carros de la Guardia como Básica; Arquer	OK	data.js:3445 core:0.33, promote; L3447 chk; L4158-4160	Guerreros y Jinetes sueltos retirados de la lista
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-230	leg_chaosdwarfs.txt:889-903	Blood of Hashut: un solo uso por vial; un ataque en lugar de atacar, tirada de impacto, D6 impactos	OK	rules.js:4483-4492	
+leg_vampires.tsv	leg_vampires-230	leg_vampires.txt:1141-1153	Indomable (X): reduce Heridas del Inestable en X; no acumulativo (usa el mayor)	OK	rules.js:5080	
+aj_beasts2.tsv	aj_beasts2-058	aj_beasts2.txt:1005-1008	Infanteria regular (personaje con nombre), 30x30, unidad 1; equipo mano y Totem Macabro (Baston de los brayes)	OK	data.js:4201	
+leg_darkelves.tsv	leg_darkelves-092	leg_darkelves.txt:365	0-1 unidad por 1.000 pts: estandarte mágico hasta 50	OK	data.js armyIssues de (veteranos o estandarte mágico 0-1 por 1.000)	Veteranos y estandarte mágico cuentan para la misma unidad 0-1 por 1.000 pts
+aj_chaos2.tsv	aj_chaos2-055	aj_chaos2.txt L919-923	Heraldos: Básicas >=33%: 1+ Caballeros del Caos, Jinetes y Perros	OK	data.js:3441 core:0.33; 3444 chk	
+battlemarch_quickref.tsv	battlemarch-144	battlemarch.txt L2313-2318	Terreno 4 Magia persistente: Resistencia a la magia (1) dentro del elemento	OK	rules.js:1488 (tt.wild===4 +1)	
+core_7.tsv	core_7-009	core_rulebook.txt 9256-9261	Bottleneck: los bordes largos son terreno infranqueable (nadie entra ni sale, tampoco huyendo ni desde reserva)	OK	rules.js:~3100 y ~3130 (s.block long con excepcion has flyer/ethereal)	Etereos y Volar exentos del borde infranqueable; los que huyen se detienen
+leg_ogres.tsv	leg_ogres-056	leg_ogres.txt:215	Panzafuego: M6 HA3 HP2 F4 R5 H4 I2 A3 L7, 110 pts	OK	data.js:2066	
+faq_libros.tsv	RQ09	RH FAQ O&G	Glowy Green Amulet en lugar del dispel; sin dispel adicional aunque explote	OK	rules.js:4372-4379 (glowyBoom => sin dispersión de Mago)	
+leg_daemons.tsv	leg_daemons-061	leg_daemons.txt L233-234	Machacasangre: Piel blindada (1), Orden cerrado, Impactos (2), Impetuoso, RM (-1), Zancada	OK	data.js:1993 avOpt hide	Impactos (2) por modelo y resto OK; falta Piel blindada (1)
+cathay.tsv	cathay_aj-120	cathay_aj.txt 2760-2766	Feng Shi Bo erudito* 15: un hechizo mas sin subir nivel; objeto comun (*)	OK	data.js ct_fengshi_l star:true	
+core_4.tsv	C4-049	Oddball combate p.158	Unidad que ya no puede contactar con ningún enemigo sale del combate al final del turno	OK	rules.js:1300-1303 (engagedWith por distancia)	Implícito por distancia
+leg_daemons.tsv	leg_daemons-143	leg_daemons.txt L634-641	Hellflayer: carro ligero, 100x60, armadura 5+, unidad 1, piercing claws	OK	data.js:5646 (bloque v620) dm_hellflayer 100x60, claws ab2 ap1 extra3, slots	Peana 60x100 (texto 100x60); tripulacion sin PA-1/Perforante 2
+aj_bretonnia.tsv	aj_bretonnia-164	aj_bretonnia.txt L1678-1686	Estandarte del Caballero Celoso 25: la unidad gana Vanguardia; solo Exiliados	OK	data.js brsaj_zealous list exiles	Efecto OK; sin list:'exiles'
+faq_core_3.tsv	68	FAQ Core p.14 Personajes	Armadura mágica: usarla por completo o nada (al elegir la de la montura)	OK	rules.js:armPick; ai.js optionGroups ap+id; main.js	Elección del jugador
+aj_wood2.tsv	aj_wood2-091	aj_wood2.txt:1212-1230	Guardianes perfil M5 HA5 HP4 F3 R3 H1 I4 A2 L9; Watchmaster A3	OK	data.js:749; champion genérico	
+battlemarch_quickref.tsv	battlemarch-125	battlemarch.txt L2062-2064	Carro que escapa del campo: +25 PV a su dueño	OK	rules.js:5890 (escaped)	
+aj_chaos2.tsv	aj_chaos2-018	aj_chaos2.txt L588-589	Hollum VP: atacante +50 PV por personaje vivo y sin huir	OK	rules.js:5926	
+core_5.tsv	C5-054	p.197 War Machines	Weapon of War: -1 al resultado de la tirada de huida (minimo 1)	OK	rules.js:2742	dist = max(1, dist-1)
+battlemarch_quickref.tsv	battlemarch-083	battlemarch.txt L1573-1585	Despliegues alternativos: invertir Cercano, Flancos, Encuentro y Flanqueo; D6 para decidir	OK	rules.js:643-646 rev (0/1/2=D6)	
+aj_empire2.tsv	aj_empire2-111	aj_empire2.txt:1459	Carro de Guerra: alabarda de gancho F+1 FP-2 Perforante (2) dos manos	OK	data.js:4273 (slots 2)	
+leg_ogres.tsv	leg_ogres-172	leg_ogres.txt:761-762	Exploradores +3 / Vanguardia +3	OK	data.js:5235	
+cathay.tsv	cathay_notes-012	cathay_notes.md perfil Grand Cannon	130 pts; maquina R6 H3; dotacion 3 M4 HA3 HP3 F3 R3 H1 I3 A1 Ld7	OK	data.js:2236	
+leg_lizardmen.tsv	leg_lizardmen-093	leg_lizardmen.txt:376-382	Salamander Pack: 25x25 handlers, 50x75 Salamanders, 3+/1+, al menos 3 handlers por Salamander, pesada	OK	data.js:1730 (handR minPer 3 maxPer 6; max 3 anadido)	Tope de handlers 6 y de manadas 3 no estan en el texto
+aj_orcs2.tsv	aj_orcs2-107	aj_orcs2.txt:1450-1456	Spiteful Shield: 20 pts; escudo; enemigo con 1 natural al impactar o herir sufre impacto F4	OK	data.js:3072, rules.js:1722 (WOUND1)	
+faq_core_3.tsv	18	FAQ Core p.11 Desafíos	Pisotones pueden dirigirse al otro participante del desafío	OK	rules.js:4577, 4757 (woundAndSave alloc) tras setupDuels	Se reparten como cualquier pisotón a la unidad; no se bloquea al participante
+dawn_renegade_sc.tsv	cathay_dawn-046	cathay_dawn.txt:481-500	Tabla Shadowland: Piedras erguidas (difícil, sin línea de visión a través)	OK	dawn.js genDawn/buildLinear + rules.js createGame (tmode waste/shadow)	
+aj_chaos2.tsv	aj_chaos2-179	aj_chaos2.txt L1693-1703	Grimorio de Ogvold 50: conoce los 7 hechizos; lanza solo tantos como su Nivel	OK	data.js:2805; rules.js:807,3287	
+aj_bretonnia.tsv	aj_bretonnia-125	aj_bretonnia.txt L1474-1476	Arma de asta: una mano F, Lucha en filas extra; dos manos F+1, FP-1, Requiere ambas manos	OK	data.js:4765; rules.js:4496-4506	
+core_2.tsv	C2-027	Model Profiles	Perfil de nueve características M, HA, HP, F, R, H, I, A, L	OK	data.js:374-377 u() (campos M,WS,BS,S,T,W,I,A,Ld)	
+faq_core_4.tsv	FC4-07	p14 dcha / Tipo de tropa	La unidad no gana las reglas del tipo de tropa del personaje	OK	rules.js:141 (JOIN_PASS); D(u).tt	Solo pasan a la unidad las reglas listadas en JOIN_PASS; el tipo de tropa es el del anfitrión
+aj_empire2.tsv	aj_empire2-102	aj_empire2.txt:1395-1396	Carro de Guerra: Peso aplastante: Pisotones con FP-1	OK	rules.js:stomp AP crushWeight	Pisoton con PA -1
+core_5.tsv	C5-098	p.207 Characters & Units	La unidad no puede mover tras unirse el personaje en Remaining Moves (cuenta como movida si ya movio)	OK	rules.js:6497	La unidad no puede mover tras unirse un personaje en Movimientos restantes (previewMove)
+leg_daemons.tsv	leg_daemons-157	leg_daemons.txt L728	Heraldo de Tzeentch: M4 HA3 HP4 F3 R3 H2 I3 A2 Ld8, 90 pts	OK	data.js:1949	
+aj_bretonnia.tsv	aj_bretonnia-119	aj_bretonnia.txt L1450-1453	Guardian +6, Monje +7, portaestandarte +6, musico +6	OK	data.js:2469; 5378	
+core_3.tsv	c3-049	Charge Range (p.121)	Si no alcanza, carga fallida	OK	rules.js:3036-3037, 3109	
+leg_vampires.tsv	leg_vampires-142	leg_vampires.txt:625-628	Campeón +6, portaestandarte +6, músico +6	OK	data.js: CMD vc_blackknights [6,6,6]	
+battlemarch_quickref.tsv	battlemarch-034	battlemarch.txt L1060-1075	Sturdham: dos tesoros a colocar según el mapa	OK	"rules.js:620 (a 7,5"" de los bordes cortos)"	Posición medida del mapa, no legible en el texto
+faq_libros.tsv	F08	FoF p.25 Trollhammer Torpedo	Fuerza 5 y sustituir Dwarf Crafted por Cumbersome	OK	data.js:3503 (s:5, cumbersome)	
+aj_wood2.tsv	aj_wood2-126	aj_wood2.txt:1461-1495	Lore of the Wilds: Magos pueden elegirlo entre sus Lores	OK	data.js:2417 wilds; rules.js:769	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-186	leg_chaosdwarfs.txt:543-545	Lammasu: Armour Bane (2), Close Order, Fly (9), Furious Charge, Large Target, Magic Resistance (-3), Miasma, Stomp D3, S	OK	data.js:3595 addSr, mountAtk ab:2	
+dawn_renegade_sc.tsv	cathay_dawn-106	cathay_dawn.txt:1136-1150	Globos de guerra: una vez por partida, una Linterna en reserva repite el dado de llegada	OK	rules.js ~5640 pref noBalloonRR; main.js panel; ai.js optionGroups bw	El jugador decide si repite la llegada; la IA lo aprende

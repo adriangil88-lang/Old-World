@@ -1,0 +1,11 @@
+AJEM-001	AJ Empire	Harald Gemunsen (185 pts) perfil y montura	OK	data.js emp_harald	Perfil comprobado v797
+AJEM-002	AJ Empire	General Hans von Lowenhacke (190 pts) perfil, Maestria estrategica	OK	data.js emp_hans	Perfil v797; reglas v-previas
+AJEM-003	AJ Empire	Heraldo del Apocalipsis (65 pts) perfil M4 WS5 BS2 S4 T4 W2 I4 A3 Ld8	OK	data.js emp_harbinger	v797
+AJEM-004	AJ Empire	Guardia Teutogena (13 pts, Primer Caballero +8), Bendiciones de Ulric, Martillo de lobo, sin Guardians por FAQ	OK	data.js teutogen	v640 + v797
+AJEM-005	AJ Empire	Guardacaminos (18 pts, Capitan +6, 0-1/1000, Vanguardia)	OK	data.js road_wardens	v797
+AJEM-006	AJ Empire	Ogros Imperiales: coste 29 pts (datos web jul-2026) frente a 31 del AJ	OK	data.js imp_ogres	Decision documentada VERIFICACION L433/L574: prevalece el dato mas reciente
+AJEM-007	AJ Empire	Carros de Guerra del Imperio (140 pts)	OK	data.js war_wagon	v797: perfil S5 T5 W6, 140 pts, tripulacion x6, Impacto D6+1, Pisoton D3+1, Peso aplastante y Plataforma estable presentes
+AJEM-010	AJ Empire	Lista Nuln (porcentajes, Ogros mercenarios, Caballeros como Especial, Guardacaminos Raro)	OK	INF.nuln	Verificado en composicion
+AJEM-011	AJ Empire	Lista Ordenes de Caballeria (Knightly Orders): composicion y reglas	OK	INF.knightly	v797: Ordenes (+10/+15 personaje; +2/+3 por modelo) y limite 0-1 / todas en la lista Orden de Caballeria, presentes
+AJEM-020	AJ Empire	Escenario Battle of Stirhugel Hills	OK	rules.js SCN stirhugel	Verificado
+AJEM-030	AJ Empire	Objetos magicos del Imperio AJ (pag. 46)	OK	data.js items	v797: costes de los 21 objetos de p.46 coinciden (Martillo 50, Dagas 35, Acero 30, Arcabuz 25, Gorgona 40, Amuleto 20, Doble 25, Reloj 10, Pantera 80, Sigmar 40, Morr 25, Nuln 20, Lupa 35, Varita 40, Medianoche 30, Bola 20)

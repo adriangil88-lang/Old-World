@@ -1,0 +1,108 @@
+id	fuente	resumen	estado	codigo	nota
+core_8-001	Daemonologia p.322 l.10224	"La Invocacion: Proyectil 9+, 18"", 2D6 impactos F4 FP-1"	OK	data.js:2400 dm_summoning	Coste, alcance, impactos, F y FP coinciden
+core_8-002	Daemonologia p.323 l.10233	"Corcel de Sombras: Conveyance 9+ (FAQ 8+), 15"", solo infanteria no huida ni movida; Volar (12) hasta tu proximo inicio de turno"	OK	data.js:2401 dm_steed (cv 8); rules.js:3141,3587	CV 8 por FAQ; filtro cat inf, sin huir, sin mover; efecto daemfly
+core_8-003	Daemonologia p.323 l.10246	"Oscuridad Creciente: Hex 9+, 12"", -2 I (min 1), -2 Ld (min 2), sin Presencia Inspiradora; puede apuntar a unidad trabada"	OK	data.js:2402; rules.js:1417,1420,3617,3897	engagedOk presente
+core_8-004	Daemonologia p.323 l.10261	Familiares Demoniacos: Asalto 8+, 2D6 impactos F2 sin salvacion de armadura (Ward y Regeneracion permitidas)	OK	data.js:2403 dm_familiars	noArmour sin noRegen
+core_8-005	Daemonologia p.323 l.10238	Recipiente Demoniaco: Enchantment 10+ (FAQ 9+), Propio; lanzador, montura y unidad +1 F y A (max 10) y +1 FP de sus armas hasta fin de turno	OK	data.js:2404; rules.js:3618,3936,3959	v756: dves aplica +1 F/A/PA al jinete y unidad (rules.js:5008/4971/5030), a la montura (mS/mAp/dvM, 5138-5141) y +1 PA a armas de disparo (rangedOf, 1753); CV 9 por FAQ
+core_8-006	Daemonologia p.323 l.10252	"Vortice del Caos: 8+, 15"", plantilla 3"" permanece; FAQ: terreno dificil, se mueve D6"" cada Inicio de turno, D6+1 impactos F3 FP- a cualquier unidad amiga o enemiga"	OK	data.js:2405 vx{all,diff}; rules.js:3560,5357	Conforme a FAQ
+core_8-007	Daemonologia p.323 l.10263	"Vigor Demoniaco: Enchantment 9+, 15"", +1 M, R, I (max 10) hasta fin de turno"	OK	data.js:2406; rules.js:1470,1637,3898	Reverificado v737: M máx 10 (dvig)
+core_8-008	Magia Oscura p.324 l.10310	"Rayo Fatidico (Doombolt): 8+, 24"", plantilla 3"" sobre el centro de la unidad; cada modelo bajo ella arriesga ser impactado (p.95): impacto F3 FP-2"	OK	rules.js:tplPlan/tplExtras (blast3 sin desvio); data.js dk_doombolt	"Plantilla 3"" real centrada, impacto por modelo (p.95), tambien otras unidades enemigas bajo ella"
+core_8-009	Magia Oscura p.325 l.10322	"Palabra de Dolor: Hex 10+, 18"", -1 F y R (min 1) hasta tu proximo inicio; puede apuntar a trabada"	OK	data.js:2393; rules.js:3616,3959,1637	
+core_8-010	Magia Oscura p.325 l.10339	Torrente de Corrupcion: Asalto 8+, plantilla de llama; todo modelo (amigo o enemigo) bajo ella arriesga impacto F3 FP-1	OK	rules.js:tplPlan flame + flameHits; tplExtras (all:true)	Plantilla de llama real; golpea amigos y enemigos bajo ella
+core_8-011	Magia Oscura p.325 l.10349	"Puerta Infernal: Conveyance 10+ (FAQ 9+), 12"", solo personajes amigos (incluso trabados), recolocar a 12"" y a mas de 6"" de enemigos; permite abandonar combate"	OK	data.js:2395; rules.js:3142,3570,3588	Con manualReloc el jugador elige destino; si no, el motor elige
+core_8-012	Magia Oscura p.325 l.10326	"Fantasmagoria: Vortice 9+, 12"", plantilla 3"" inmovil, terreno peligroso; enemigos que acaben movimiento a 12"" hacen Panico (huyen directamente lejos); si pasan son Impetuosos mientras esten a 12"""	OK	data.js:2396; rules.js:149,3643,6697	VERIF v771: phantasmNear mide desde el borde de la plantilla y de la peana; Impetuoso solo a quien superó el Pánico (phantTag) mientras siga a 12"; pánico a quien acaba el movimiento a 12"
+core_8-013	Magia Oscura p.325 l.10344	"Sed de Batalla: Enchantment 9+, 12"", Frenesi y Odio (todos los enemigos) hasta fin de turno"	OK	data.js:2397; rules.js:147,3620	
+core_8-014	Magia Oscura p.325 l.10355	Devoraalmas: Asalto 7+, un modelo enemigo trabado sufre 1 impacto F3 Heridas multiples (3) sin salvacion de armadura	OK	data.js:2398 dk_soul_eater	dmg 3, noArmour
+core_8-015	Elementalismo p.326 l.10405	"Llamada de la Tormenta: Hex 7+, 12"", -1 M e I (min 1) hasta tu proximo inicio; cancela otros Hex previos sobre el objetivo"	OK	rules.js:applySpell0 effect storm (HEX_ALL)	Reverificado v737: HEX_ALL incluye rust/morkCurse/brainz
+core_8-016	Elementalismo p.326 l.10417	Espada Flamigera: Asalto 8+ (FAQ 7+), D6+1 impactos F3 FP-, Ataques flamigeros	OK	data.js:2326	
+core_8-017	Elementalismo p.326 l.10429	"Plaga de Oxido: Hex 9+, 21"", -2 al valor de armadura hasta tu proximo inicio; puede apuntar a trabada"	OK	data.js:2327; rules.js:1457,3509	
+core_8-018	Elementalismo p.326 l.10440	"Invocar Espiritu Elemental: Vortice 9+, 15"", 3"", FAQ: terreno dificil sin linea de vision, D6"" cada Inicio, D3+3 impactos F4 FP-1 a unidad enemiga"	OK	data.js:2342; rules.js:3560,5357	vx diff,nolos; solo enemigos
+core_8-019	Elementalismo p.327 l.10424	"Murallas de Tierra: Enchantment 10+ (FAQ 9+), 15"", Ward 5+ hasta tu proximo inicio, cuenta como obstaculo lineal bajo defendido si es cargada; no puede marchar ni cargar"	OK	data.js:2328; rules.js:1885,2822,3065,3510	
+core_8-020	Elementalismo p.327 l.10430	"Rafaga de Viento: Proyectil 8+, 15"", D3+3 impactos F5 FP-1 y la unidad debe Ceder terreno"	OK	data.js:2330 push:2; rules.js:3416	"Ceder terreno se resuelve como retroceso de 2"" (pushAwayStep) y no si esta trabada"
+core_8-021	Elementalismo p.327 l.10442	"Senda Mistica: Conveyance 10+, 9"", unidad amiga no huida ni movida; recolocar completamente a 12"" y a mas de 6"" de enemigos; no puede volver a mover"	OK	data.js:2329; rules.js:3139,3565,3575,6081	Con manualReloc el jugador elige destino; sin ello el motor mueve hacia delante
+core_8-022	Alta Magia p.328 l.10494	"Drenar Magia (firma): Hex 9+, Propio, permanece; Magos enemigos a 24"" del lanzador suben +2 el VL de sus hechizos"	OK	data.js:drain_magic type hex self:true; rules.js spellTargets/castCheck	Ahora es Hex Propio
+core_8-023	Alta Magia p.328 l.10506	Caminar entre Mundos: Conveyance 10+, Propio; lanzador y unidad ganan Etereo y Movimiento de reserva hasta tu proximo inicio	OK	rules.js:applySpell0 pathways walk_worlds (fx ethW); has0 ethereal	Etereo + Movimiento de reserva al lanzador y su unidad
+core_8-024	Alta Magia p.328 l.10517	"Convocatoria Ignea: Proyectil 10+, 18"", plantilla 5"" que se desvia D3+1"", F4 FP-2 flamigero a modelos bajo ella (p.95)"	OK	rules.js:tplPlan blast5 + tplExtras	"Plantilla 5"" desviada D3+1, p.95, otras unidades enemigas"
+core_8-025	Alta Magia p.328 l.10535	"Tempestad: plantilla 3"" inmovil, terreno peligroso"	OK	data.js:2382 vx{danger,still}; rules.js:3560	
+core_8-026	Alta Magia p.328 l.10543	"Tempestad: mientras esten a 6"", los enemigos tratan terreno abierto como dificil y terreno dificil como peligroso"	OK	rules.js:2046 (feats tempest), 6478	Reverificado v737: Tempestad: difícil->peligroso en todo elemento
+core_8-027	Alta Magia p.329 l.10513	Deshacer Corporeo: Asalto 8+, D3 impactos F5 sin armadura ni Regeneracion (Ward si)	OK	data.js:2383	
+core_8-028	Alta Magia p.329 l.10520	"Furia de Khaine: Enchantment 9+, 12"", Ataques extra (+1) hasta fin de turno; puede apuntar a trabada"	OK	data.js:2384; rules.js:3628,4026	
+core_8-029	Alta Magia p.329 l.10530	"Escudo de Saphery: Enchantment 9+ (FAQ 8+), 18"", Ward 5+ hasta fin de turno; cancela otros Enchantment previos del objetivo"	OK	rules.js:applySpell0 shieldS (ENCH_ALL)	Cancela otros Encantamientos
+core_8-030	Ilusion p.330 l.10583	Manto Reluciente (firma): Enchantment 8+, Propio; -1 para impactar al lanzador y su unidad hasta tu proximo inicio; cancela otros Enchantment previos	OK	rules.js:applySpell0 robe (ENCH_ALL)	Cancela otros Encantamientos del lanzador y su unidad
+core_8-031	Ilusion p.330 l.10595	"Navaja Mental: Proyectil 7+, 15"", test de Ld: pasa D3 F3 FP-, falla D3+3 F4 FP-3"	OK	data.js:2347; rules.js:3406	
+core_8-032	Ilusion p.330 l.10607	"Dragon Reluciente: Conveyance 8+, 12"", personaje amigo no huido ni movido gana Volar (10) hasta fin de turno"	OK	data.js:2343; rules.js:3140,3531	
+core_8-033	Ilusion p.330 l.10619	"Columna de Cristal: Vortice 10+, 9"", plantilla 5"" inmovil, impasable y sin linea de vision"	OK	data.js:2344 column	No se ha seguido la rama column en detalle; efecto declarado en data
+core_8-034	Ilusion p.330 l.10598	"Convocacion Confusa: Hex 9+ (FAQ 8+), 9"", permanece, la unidad objetivo queda sujeta a Estupidez"	OK	data.js:2345; rules.js:3532	
+core_8-035	Ilusion p.330 l.10611	Doble Espectral: Asalto 9+, 2D6 impactos resueltos con las caracteristicas y reglas especiales del lanzador y sus armas	OK	rules.js:hitsFn doppel (attackProfile del lanzador)	2D6 impactos directos con F/FP/reglas del arma del lanzador
+core_8-036	Ilusion p.331 l.10618	"Espejismo Miasmatico: Hex 11+ (FAQ 10+), 15"", -2 M (min 1), no marchar ni cargar; cancela otros Hex"	OK	rules.js:applySpell0 mirage (HEX_ALL)	Cancela todos los Hex
+core_8-037	Nigromancia p.332 l.10671	"Los Moradores de Abajo (firma): Asalto 7+, plantilla 3"" sobre unidad trabada, se desvia D3+1"", F3 FP- a modelos bajo ella (p.95)"	OK	data.js:dwellers hitsFn blast3s; rules.js tplPlan	"Plantilla 3"" desviada D3+1, p.95"
+core_8-038	Nigromancia p.332 l.10687	Cabala Mortal: Enchantment 10+ (FAQ 8+), Propio; Ward 6+ contra ataques enemigos no magicos	OK	data.js:2358; rules.js:1673,3615	
+core_8-039	Nigromancia p.332 l.10699	Cabala Mortal: los afectados ganan Miedo (Terror si ya lo tenian)	OK	rules.js:has0 terror (cabal)	Terror si ya tenia Miedo
+core_8-040	Nigromancia p.332 l.10708	"Espiritus Inquietos: Proyectil 8+, 15"", 3D6 impactos F2 sin armadura"	OK	data.js:2359	
+core_8-041	Nigromancia p.333 l.10714	"Vortice Espiritual: 11+ (FAQ 10+), 12"", plantilla 5"" inmovil terreno peligroso; enemigos a 8"" -1 Ld (min 2) y sin Presencia Inspiradora"	OK	data.js:2360; rules.js:1403,1417	
+core_8-042	Nigromancia p.333 l.10687	"Maldicion de los Anos: Hex 10+ (FAQ 9+), 15"", -1 M, HA y R (min 1) hasta tu proximo inicio; cancela otros Hex"	OK	rules.js:applySpell0 cyears (HEX_ALL)	Cancela otros Hex
+core_8-043	Nigromancia p.333 l.10700	"Corcel Espectral: Conveyance 9+, 12"", permanece, solo personaje de infanteria; gana Etereo y Volar (10)"	OK	data.js:spectral_steed effect steed; rules.js applySpell0/spellTargets/has0/mvOf	Permanece en juego (rip), Etereo y Volar (10), solo personaje de infanteria
+core_8-044	Nigromancia p.333 l.10713	"Sanguijuela Espiritual: Hex 8+, 18"", hasta fin de este turno -2 Ld (min 2) y sin Presencia Inspiradora; puede apuntar a trabada"	OK	rules.js:applySpell0 leech endTurn:true; ldOf; gen (Presencia Inspiradora)	Hasta fin de este turno, sin Presencia Inspiradora
+core_8-045	Waaagh! p.334 l.10768	"Puno de Gork (o Mork) (firma): Asalto 9+ (FAQ 8+), plantilla 5"" se desvia D3""+1, cualquier modelo amigo o enemigo bajo ella F4 FP-1"	OK	"rules.js:tplPlan fist (plantilla 5"", desvio D3+1, all:true)"	Impacta a modelos amigos y enemigos bajo la plantilla
+core_8-046	Waaagh! p.334 l.10783	"Mirada Vengativa: Proyectil 8+, 21"", 1 impacto F7 Heridas multiples (D3) sin armadura; puede apuntar a unidad trabada"	OK	data.js:glare engagedOk:true	Puede apuntar a unidad trabada
+core_8-047	Waaagh! p.334 l.10796	"Mano de Mork (o Gork): Conveyance 7+, 18"", personaje amigo (incluso trabado) recolocado a 2D6"" sin acercarse a 3"" de enemigos; doble 1 pierde 1 Herida; permite abandonar combate"	OK	data.js:hand_gork + waaagh pool; rules.js spellTargets conv hand	Hechizo ya implementado
+core_8-048	Waaagh! p.334 l.10814	"Luna Mala: Hex 10+, 15"", -D3 HA e I (min 1) hasta fin de turno"	OK	data.js:2287; rules.js:3514,3894,3977	
+core_8-049	Waaagh! p.335 l.10796	Sol Malvado: Enchantment 9+, Propio; unidades amigas en rango de mando repiten 1 naturales para impactar y +1 FP hasta tu proximo inicio	OK	rules.js:applySpell0 evilsun/charge (commandRange)	Reverificado v737: Sol Malvado repite 1 naturales
+core_8-050	Waaagh! p.335 l.10795	"Alla Vamos!: Enchantment 9+ (FAQ 8+), Propio; unidades en rango de mando +3"" de carga maxima y +D3 a la tirada de carga"	OK	rules.js:applySpell0 evilsun/charge (commandRange)	Radio = rango de mando
+core_8-051	Waaagh! p.335 l.10809	"Pie de Gork (o Mork): Vortice 8+, 15"", 5"", FAQ: terreno dificil, 2D6"" cada Inicio, D3+3 F5 FP-1 a cualquier unidad"	OK	data.js:2290 vx{all,dist 2D6}; rules.js:5357	
+core_8-052	Objetos magicos p.336 l.10867	Unicidad: solo uno de cada objeto, un objeto por categoria, excepto asterisco y personajes con nombre	OK	data.js:3177-3229 (validacion de ejercito)	Reglas de lista; no se revisaron todos los casos
+core_8-053	Objetos magicos p.336 l.10867	Objeto de un solo uso: una vez por partida	OK	rules.js:itemUsed/used.*	
+core_8-054	Armas magicas p.336 l.10907	No se combina con arma de mano adicional; no se puede dejar de lado; con varias armas elegir la usada en el combate (paso 1.1) y mantenerla; igual con proyectiles	OK	rules.js:wpnFilter (attackProfile0); pref wpnPick; main.js panel; ai.js optionGroups wp	Solo una arma magica por modelo; la elige el jugador y se mantiene durante el combate
+core_8-055	Armas magicas p.337 l.10920	Hoja de Ogro: 75 pts (FAQ); F+2, FP-2, Perforante (1), Heridas multiples (D3), Ataques magicos	OK	data.js:2521	
+core_8-056	Armas magicas p.337 l.10927	Espada de Batalla 60: F+1, FP-1, Perforante (1), Ataques extra (+1)	OK	data.js:2522	
+core_8-057	Armas magicas p.337 l.10934	Hojas del Duelista 55: F, FP-1, Ataques extra (+2), Requiere dos manos	OK	data.js:duellist twoH:true	Requiere dos manos
+core_8-058	Armas magicas p.337 l.10941	Espada Mataconsuelos del Dragon 50: Ataques magicos, Cazamonstruos	OK	data.js:2531 slay; rules.js:3986	
+core_8-059	Armas magicas p.337 l.10948	Hacha del Verdugo 45: F+1, FP-1, Golpe mortal, Requiere dos manos	OK	data.js:headsman twoH:true	Requiere dos manos
+core_8-060	Armas magicas p.337 l.10954	Hacha Comehechizos 35: F, FP-1, Resistencia a la magia (-2)	OK	data.js:2532 mr:2	
+core_8-061	Armas magicas p.337 l.10960	Espada Gigante 30: F+1, Perforante (2), Heridas multiples (2)	OK	data.js:2525	
+core_8-062	Armas magicas p.337 l.10968	Espada de Rapidez 25: Golpea primero	OK	data.js:2526; rules.js:3877	
+core_8-063	Armas magicas p.337 l.10975	Hoja Berserker 20 (FAQ): F+1, Ataques extra (+1), Impetuoso, Ataques magicos	OK	data.js:2527	
+core_8-064	Armas magicas p.337 l.10981	Espada de Poder* 20: F+1, FP-1	OK	data.js:2528	
+core_8-065	Armas magicas p.337 l.10987	Hoja Mordiente 15: FP-2, Perforante (1)	OK	data.js:2529	
+core_8-066	Armas magicas p.337 l.10993	Espada de Precision* 15: +1 para impactar en la fase de Combate	OK	data.js:2530	
+core_8-067	Armas magicas p.337 l.11002	Hoja Ardiente* 5: Ataques flamigeros	OK	data.js:2537	
+core_8-068	Armadura magica p.338 l.11010	Escudo Hechicero*: escudo y Ward 5+ contra heridas de Proyectil magico, Vortice o Asalto; 25 pts	OK	data.js:spellshield (Escudo Antihechizos*, wardMagic 5)	Es el objeto del libro p.338 (Spellshield)
+core_8-069	Armadura magica p.338 l.11017	Armadura de Hierro Meteorico 20: armadura 5+ que no puede mejorarse ni empeorarse	OK	data.js:2543 fixedSv	
+core_8-070	Armadura magica p.338 l.11025	Escudo Encantado* 10: escudo y Ward 6+ contra ataques no magicos	OK	data.js:2544; rules.js:1650	
+core_8-071	Armadura magica p.338 l.11033	Escudo Hechizado* 5: escudo y Ward 5+ contra una sola herida una vez; despues escudo ordinario	OK	data.js:2545; rules.js:1723	
+core_8-072	Armadura magica p.338 l.11023	Armadura del Destino 70: armadura pesada y Ward 4+	OK	data.js:2538	
+core_8-073	Armadura magica p.338 l.11030	Yelmo Deslumbrante 60: +1 armadura (max 2+), enemigos -1 para impactar; FAQ: solo infanteria o caballeria	OK	data.js:2539 infCavOnly; rules.js:4481	
+core_8-074	Armadura magica p.338 l.11040	Armadura de Acero Plateado 40: armadura 3+ no mejorable	OK	data.js:2540	
+core_8-075	Armadura magica p.338 l.11048	Escamas Relucientes 35: armadura ligera, una vez por turno el rival repite un impacto contra el portador	OK	data.js:2541; rules.js:2175	
+core_8-076	Armadura magica p.338 l.11056	Escudo del Guerrero Verdadero 30: escudo y Ward 5+ contra heridas de la fase de Disparo	OK	data.js:2542 wardShoot; rules.js:1650	
+core_8-077	Talismanes p.339 l.11069	Piedra del Alba 35: repite un 1 natural de salvacion de armadura	OK	data.js:2546; rules.js:1651	Reverificado v737: Piedra del Alba usa rr1arm (solo armadura)
+core_8-078	Talismanes p.339 l.11075	Talisman de Proteccion 30: Ward 5+	OK	data.js:2547	
+core_8-079	Talismanes p.339 l.11082	Moneda del Pagador* 25: un solo uso, repetir impactos fallados en la fase de Combate	OK	data.js:paymaster; rules.js:5269 (paymK)	Objeto y logica ya existentes
+core_8-080	Talismanes p.339 l.11090	Piedra de Obsidiana* 20: hasta tres, Resistencia a la magia (-1/-2/-3)	OK	data.js:2548; rules.js:1478 mrItems	Se acumula por suma; limite de tres no verificado en validacion
+core_8-081	Talismanes p.339 l.11098	Piedra de la Suerte* 15: un solo uso, repetir una salvacion de armadura fallada	OK	data.js:2549; rules.js:1713	v754 reverificado: Piedra de la Suerte: uso opcional (lkHold, botón) con anuncio al repetir la salvación fallida
+core_8-082	Estandartes magicos p.339 l.11070	Estandarte de Férrea Determinacion 50: Obstinado	OK	data.js:2550; rules.js:147	
+core_8-083	Estandartes magicos p.339 l.11077	Estandarte Afilado 40: Perforante (2)	OK	data.js:2551; rules.js:4035	
+core_8-084	Estandartes magicos p.339 l.11084	Estandarte Rampante 30: repetir la tirada de carga	OK	data.js:2552; rules.js:3017	Repite solo si la distancia supera lo necesario (decision automatica del motor)
+core_8-085	Estandartes magicos p.339 l.11091	Estandarte Llameante 25: Ataques flamigeros	OK	data.js:2553; rules.js:3985	
+core_8-086	Estandartes magicos p.339 l.11098	Estandarte de Guerra 25: +1 punto de resolucion de combate	OK	data.js:2554 cr:1	
+core_8-087	Estandartes magicos p.339 l.11066	Solo el Portaestandarte de Batalla puede llevar un estandarte magico; la unidad debe tener portaestandarte	OK	data.js:3257-3258 validacion	
+core_8-088	Objetos encantados p.340 l.11117	Sombrero de Mago 45: Mago nivel 1, un hechizo aleatorio de un Saber a elegir; sujeto a Estupidez	OK	data.js:2621; rules.js:114,122	
+core_8-089	Objetos encantados p.340 l.11127	Alfombra Voladora 40: solo infanteria regular o pesada; Volar (8) y Zancada Rapida; no puede unirse a una unidad	OK	data.js:2622; rules.js:123	v756: data.js regHv excluye escaramuzadores, enjambres y bestias de guerra (solo regular/pesada)
+core_8-090	Objetos encantados p.340 l.11136	Pocion de Curacion* 35: un solo uso, en la subfase de Mando recupera D3 Heridas	OK	data.js:3156; rules.js:5434,5438	
+core_8-091	Objetos encantados p.340 l.11105	Pocion de Fuerza* 25: +D3 F hasta fin de turno (max 10)	OK	data.js:3152; rules.js:3959	
+core_8-092	Objetos encantados p.340 l.11116	Pocion de Dureza* 20: +D3 R hasta fin de turno (max 10)	OK	data.js:3153; rules.js:1637	v751 reverificado: Poción de Dureza: +D3 R hasta el final del turno (fx endTurn)
+core_8-093	Objetos encantados p.340 l.11125	Pocion de Velocidad* 10: +D3 I hasta fin de turno (max 10)	OK	data.js:3154; rules.js:3894	
+core_8-094	Objetos encantados p.340 l.11134	Pocion de Temeridad* 5: Inmune a la psicologia hasta fin de turno	OK	data.js:3155	Reverificado v737: potP en has0 immunePsy
+core_8-095	Objetos encantados p.340 l.11114	Una sola pocion por modelo y fase de Mando	OK	rules.js:5427-5441 (break tras la primera)	
+core_8-096	Objetos encantados p.340 l.11105	Pociones: el jugador decide si y cuando beberlas	OK	main.js drink (manualReloc); ai.js optionGroups dr	El jugador humano decide cuando beber; la IA por autoaprendizaje
+core_8-097	Objetos encantados p.340 l.11144	Anillo Rubi de la Ruina 30 (FAQ 35): Bola de Fuego ligada, Nivel de Poder 1	OK	data.js:3159 cost 35; data.js:2272 ring_fireball bound:1	
+core_8-098	Objetos arcanos p.341 l.11159	Pergamino de Retroalimentacion 60: un solo uso en lugar de disipar; el hechizo se lanza y el Mago pierde 1 Herida por cada 4+ de 2D6	OK	data.js:3158; rules.js:3276	Uso decidido por heuristica (total>=9), no por el jugador
+core_8-099	Objetos arcanos p.341 l.11168	Pergamino de Transmogrificacion* 50: en lugar de disipar; tirada <= Nivel del Mago o se convierte en rana; 4+ al inicio para volver	OK	data.js:3160; rules.js:3270,5166	Uso por heuristica (total>=10)
+core_8-100	Objetos arcanos p.341 l.11176	Transmogrificado: no lanza ni disipa, sin equipo, caracteristicas a 1 salvo Heridas	OK	rules.js:1447,4077,3171	
+core_8-101	Objetos arcanos p.341 l.11186	Varita de Azabache 45: +1 a tiradas de Lanzamiento o Disipacion; se destruye con doble natural	OK	rules.js:dBonus (i.jet) en tryDispel	Bonus tambien al dispersar
+core_8-102	Objetos arcanos p.341 l.11198	Familiar de Saber 30: elige los hechizos (incluida la firma)	OK	data.js:2535; rules.js:769	
+core_8-103	Objetos arcanos p.341 l.11172	Familiar Arcano 15: hechizos de dos Saberes; se puede cambiar un hechizo por la firma	OK	data.js:2536; rules.js:775	
+core_8-104	Objetos arcanos p.341 l.11184	Vara de Toma de Tierra 5: un solo uso, repite la tirada de la tabla de Desastre	OK	data.js:2533; rules.js:3226	
+core_8-105	Objetos arcanos p.341 l.11157	Pergamino de Poder* 20: un solo uso, tirada de lanzamiento con un D6 extra descartando el menor; doble 1 en dos dados = Desastre	OK	data.js:3157; rules.js:3697,56	v754 reverificado: Pergamino de Poder: el jugador lo declara antes de lanzar (pwOn); D6 extra descartando el menor
+core_8-106	Objetos arcanos p.341 l.11166	Pergamino de Dispersion* 20: un solo uso, tirada de disipacion con D6 extra; doble 1 en dos dados = Superado	OK	data.js:3161; rules.js:3290	v754 reverificado: Pergamino de Dispersión: el jugador lo declara antes (dsOn); D6 extra descartando el menor
+TOTAL OK=106 PARCIAL=0 AUSENTE=0 NA=0

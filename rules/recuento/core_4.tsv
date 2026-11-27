@@ -1,0 +1,155 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+C4-001	Resultado de combate p.152	Un bando totalmente aniquilado: el otro gana automáticamente, sin Prueba de Ruptura	OK	rules.js:4877-4887 (resolveCombats, !alive0||!alive1)	Solo se evalúa Contención/Arrollar; no hay Ruptura
+C4-002	Resultado de combate p.152	1 punto por Herida no salvada causada en la fase de Combate	OK	rules.js:4649 y 4702 (wounds.set real+x.regen), sideScore:4718	Cuenta heridas reales restantes del modelo retirado (real = min)
+C4-003	Resultado de combate p.152	Heridas por Plantar cara y disparar de este turno cuentan 1 punto cada una	OK	rules.js:4734 (sasWounds)	Se limpia al final del combate (5018)
+C4-004	Resultado de combate p.152	Heridas salvadas por Regeneración siguen contando para el resultado	OK	rules.js:4649 (real + x.regen)	Verificado en la suma de wounds
+C4-005	Resultado de combate p.152	Bonificación de filas +1 por fila tras la primera, máximo según tipo de tropa; filas con el mínimo de modelos; fila trasera incompleta cuenta	OK	rules.js:1340-1352 (rankBonus), data.js TROOP:29-43	Horda ya incluida en maxRank (data)
+C4-006	Resultado de combate p.152	Unidad Desorganizada no puede reclamar bonificación de filas	OK	rules.js:1341 (u.disrupted)	
+C4-007	Resultado de combate p.152	Estandarte +1 punto	OK	rules.js:4724 (std)	Solo unidades que no sean personaje y no huyen
+C4-008	Resultado de combate p.152	Estandarte de Batalla +1 punto acumulable con el estandarte normal	OK	rules.js:4725 (bsbPt)	
+C4-009	Resultado de combate p.152	Ataque de flanco +1 y retaguardia +2 acumulables	OK	rules.js:4723,4737 (flankSeen/rearSeen)	Excepciones por reglas (slimeTrail, imperviousDef) coherentes
+C4-010	Resultado de combate p.152	Terreno elevado +1 si la fila de combate está en posición más alta	OK	rules.js combatResult onHill (altura)	Compara la altura de la fila de combate de cada bando (colina vs llano; en la misma colina, cercanía a la cima con margen)
+C4-011	Resultado de combate p.152	Sobreeliminación +1 por herida sobrante de un personaje en desafío, máx +5	OK	rules.js:4621, 4743 (min(5,...))	
+C4-012	Resultado de combate p.152	Otras bonificaciones según reglas especiales	OK	rules.js:4726-4742 (co, crG, dutyV...)	Orden de combate solo cerrado y FU 10+ (FAQ)
+C4-013	Combates múltiples p.153	Bonificación de filas: solo la mayor de las unidades del combate	OK	rules.js:4721 (bestRank = max)	
+C4-014	Combates múltiples p.153	Estandartes: solo uno cuenta (elegir el mejor); Estandarte de Batalla siempre cuenta	OK	rules.js:4724-4725 (std = max)	Se elige automáticamente el mejor
+C4-015	Combates múltiples p.153	Flanco/retaguardia: un bono por unidad enemiga atacada y lado	OK	rules.js:4723 (Set por e.id)	
+C4-016	Combates múltiples p.153	Terreno elevado: un solo bando; si hay unidades en colina en ambos bandos se anulan	OK	rules.js combatResult onHill	Un solo bando reclama la altura; se anula si no hay diferencia clara
+C4-017	Combates múltiples p.153	Otras bonificaciones se cuentan por cada unidad que cumpla	OK	rules.js:4726-4731 (co += por unidad)	
+C4-018	Quién gana p.153	Gana el bando con más puntos; el perdedor hace Prueba de Ruptura	OK	rules.js:4892-4910	
+C4-019	Quién gana p.153	Combate empatado: unidades siguen trabadas hasta el siguiente turno	OK	rules.js:4891 (sc[0]===sc[1] continue)	Desempate de músico aparte (4857)
+C4-020	Prueba de Ruptura p.154	2D6 + diferencia de resultado frente al Liderazgo más alto de la unidad	OK	rules.js:4905-4921, ldOf:1366	
+C4-021	Prueba de Ruptura p.154	Tirada natural > Ld: huye	OK	rules.js:4918 (nat > ld → break)	
+C4-022	Prueba de Ruptura p.154	Natural ≤ Ld pero modificada > Ld: retrocede en buen orden	OK	rules.js:4919	
+C4-023	Prueba de Ruptura p.154	Modificada ≤ Ld o doble 1 natural: cede terreno	OK	rules.js:4917,4920	
+C4-024	Prueba de Ruptura p.154	Huye/retrocede alejándose de la unidad ganadora con mayor FU; empate al azar	OK	rules.js ~5218 (main al azar en empate de FU)	Empate de FU al azar
+C4-025	Prueba de Ruptura p.154	Si FU del ganador > doble que la del perdedor, quien retrocedería en buen orden huye	OK	rules.js:4921	FU al final de la fase (usAfter)
+C4-026	Prueba de Ruptura p.154	"Ceder terreno: mueve 2"" directamente lejos de todos los enemigos sin girar, se detiene al contactar otra unidad/terreno o a menos de 1"" de otro enemigo"	OK	rules.js pushAwayStep	"Se detiene a 1"" de otros enemigos"
+C4-027	Prueba de Ruptura p.154	Rodeado: si no puede romper contacto queda trabado como en empate	OK	rules.js pushAwayStep	Idem; si no puede alejarse queda trabado
+C4-028	Prueba de Ruptura p.154	"Separar 1"" tras huir/retroceder si sigue en contacto base"	OK	"rules.js pushAway separación a 1"""	Idem
+C4-029	Prueba de Ruptura p.154	Cede terreno fuera de la mesa: unidad destruida (FAQ)	OK	rules.js:4941	
+C4-030	Seguimiento y persecución p.155	Tras Ruptura y antes de huir, el ganador decide: contenerse y reformar, seguir o perseguir	OK	restrains rules.js + restrainPref + pursuitPick	El jugador elige contenerse/perseguir (restrainPref, optionGroup IA); seguir/perseguir según el movimiento
+C4-031	Seguimiento y persecución p.155	Contención: chequeo de Liderazgo; si falla debe seguir o perseguir; si pasa se queda y reforma gratis	OK	restrains rules.js (rrFree → freeReform)	Chequeo de Ld (Veterano repite); si pasa se queda y obtiene reforma gratuita
+C4-032	Seguimiento y persecución p.155	Seguir (cede terreno): moverse al contacto de nuevo; quedan trabadas	OK	rules.js:4970-4980	Solo si dd<=3
+C4-033	Seguimiento y persecución p.155	Cambiar de frente (giro 90/180) antes de seguir	OK	rules.js seguimiento placeCharge	El seguimiento coloca el frente de la unidad hacia el objetivo (equivale al giro libre de 90/180)
+C4-034	Seguimiento y persecución p.155	Persecución de una sola unidad perdedora (que huye o retrocede); declarar antes de las tiradas de huida	OK	rules.js pursuitPick; main.js; ai.js pk	El jugador declara a qué unidad perdedora persigue (pref pursuitPick); IA por autoaprendizaje
+C4-035	Seguimiento y persecución p.155	Tirada de persecución 2D6, pivotar para encararla y avanzar hacia ella	OK	rules.js:4985-4993,5017	
+C4-036	Seguimiento y persecución p.155	Arrollar tras destruir al enemigo: movimiento de persecución recto sin pivotar	OK	rules.js:4877-4887	Contención antes (restrains)
+C4-037	Seguimiento y persecución p.155	No puede seguir/perseguir si sigue en contacto de base con enemigo	OK	rules.js:4959 (engagedWith)	
+C4-038	Seguimiento y persecución p.155	Si no puede completar el movimiento por unidades amigas o terreno, se detiene	OK	rules.js:5026-5052 (movePursuer)	
+C4-039	Captura p.156	Alcanza a unidad que huye: es aniquilada y puede reformar	OK	rules.js:4997-5003	Reforma tras aniquilarla no verificada
+C4-040	Captura p.156	Alcanza a unidad que retrocedió en buen orden: se traban; cuenta como carga el siguiente turno	OK	rules.js:5005-5008, 5072 (pursuitCharges)	
+C4-041	Captura p.156	Persecución afectada por el terreno como siempre; se detiene al tocar amigo o impasable	OK	movePursuer rules.js	Terreno peligroso con chequeo, difícil con Desorganización final, parada ante amigo/impasable
+C4-042	Captura p.156	Persecución fuera de la mesa: sale del juego sin ser destruida y regresa en Movimientos obligatorios como refuerzo	OK	rules.js movePursuer + compulsoryMoves (s.offPursuit)	Sale sin ser destruida y vuelve como refuerzo en Movimientos obligatorios; solo log (sin popup)
+C4-043	Captura p.156	Persecución contra unidad nueva: cuenta como carga, rueda para maximizar contacto y alinear	OK	rules.js:5009-5011, 5037-5042 (placeCharge)	
+C4-044	Captura p.156	Persecución contra unidad huyendo distinta: se la arrolla como en carga	OK	movePursuer0 rules.js	La persecución que toca a una unidad huida distinta la aniquila y chequea Ld para reformar
+C4-045	Captura p.156	Persecución contra combate aún no resuelto: lucha de nuevo, no puede perseguir otra vez, se contiene sin chequeo	OK	resolveCombats persecución rules.js (hitE)	Persecución a un combate no resuelto: cuenta como carga, no persigue de nuevo y se contiene y reforma sin chequeo
+C4-046	Oddball combate p.158	Hechizos de asalto en combate al turno de iniciativa del mago	OK	autoAssail(g,st) en fightGroup	v751 reverificado: Asalto a la Iniciativa del Mago; el jugador elige el objetivo (pref assailTgt, botón en el panel) y la IA lo decide por autoaprendizaje
+C4-047	Oddball combate p.158	Plantillas de asalto: impactos a rangos traseros, no reducen la fila de combate	OK	rules.js:4541-4577 (assail via cast), 6088 (frontLost solo en ataques de combate)	v810 verificado: los impactos de plantillas de Asalto se aplican con applyWounds directamente al conjunto de la unidad (bajas por la reserva, de atras a delante) y NO suman a frontLost (solo lo hacen los ataques de combate en rules.js:6088), asi no reducen la fila de combate (Core p.145 Assailment/Templates)
+C4-048	Oddball combate p.158	Unidades que dejan de estar en contacto por bajas se acercan lo mínimo sin cambiar frente	OK	rules.js:1500-1509 (applyWounds, foe/d0)	Acerca el centro; no permite reordenar
+C4-049	Oddball combate p.158	Unidad que ya no puede contactar con ningún enemigo sale del combate al final del turno	OK	rules.js:1300-1303 (engagedWith por distancia)	VERIF v771: shrinkClose (Shrinking Units: mover lo mínimo para recuperar el contacto, sin cambiar rumbo); una unidad que no vuelve a tocar al enemigo deja de estar trabada (engagedWith por contacto de peana) = «No More Foes»
+C4-050	Oddball combate p.158	Fila de combate incompleta se completa con el mayor rango o fila posterior	OK	attackProfile0 rules.js	Fila de combate de flanco/retaguardia = filas; modelos del centro completan la fila
+C4-051	Oddball combate p.158	Perfil dividido: cada conjunto de ataques a su Iniciativa; ataques perdidos si el modelo muere	OK	rules.js:4285-4300 (slots, stepsSet por I)	
+C4-052	Oddball combate p.158	Armas diferentes en la fila: lotes de dados separados	OK	rules.js:4064-4066 (parts)	Motley Crew por mixView
+C4-053	Oddball combate p.158	Característica 0: HA 0 siempre falla/recibe automático; A 0 no ataca	OK	rules.js ~4799 (dd.WS===0 impacto automático)	v748: ninguna unidad del juego ataca con HA 0 ni dispara con HP 0 (solo el marcador de HA 0/A 0 sin ataques), así que no hay caso en que el tratamiento como HA1 cambie un resultado
+C4-054	Terreno y combate p.159	Terreno difícil: 25% de modelos al inicio de Combate => Desorganizada y sin filas	OK	rules.js:5945-5949 (terrainDisrupted), 5018	Solo orden cerrado (Open Order no, correcto)
+C4-055	Terreno y combate p.159	Terreno peligroso y bosques cuentan como difíciles en combate	OK	diffFrac rules.js	Peligroso/bosque/ciénaga/difícil unificados como difícil en combate
+C4-056	Terreno y combate p.159	Obstáculo lineal bajo: unidad a caballo queda Desorganizada	OK	rules.js straddlesLow	Ya implementado
+C4-057	Terreno y combate p.159	Obstáculo bajo defendido: cargar no cruza; carga desordenada salvo Volar	OK	rules.js:3065 (kind==='wall', !flyer)	v749: la defensa del obstáculo es elección del jugador (botón «Defender el obstáculo» y alternativa de autoaprendizaje en la IA); si defiende, el que carga lo hace en desorden salvo Volar
+C4-058	Terreno y combate p.159	Obstáculos altos tratados como impasable	OK	hitsRuin rules.js	Obstáculos altos (t.high) impasables; los muros bajos son difíciles
+C4-059	Terreno y combate p.159	Terreno impasable impide alinear: carga desordenada; hueco => Desorganizada	OK	doCharge alignFail rules.js	Reverificado v737: alignFail: sin alinear => Desorganizada
+C4-060	Terreno y combate p.159	"Decoración menor de 2"" se ignora"	NA	—	Sin elementos de terreno tan pequeños
+C4-061	Pánico p.160	Chequeo de Pánico contra Liderazgo; fallo: retrocede en buen orden si >50% del inicio de batalla, huye si ≤50%	OK	rules.js:2687-2707 (passPanic0, panicFlee:2702)	Usa Ld modificado (psyLd) y repeticiones
+C4-062	Pánico p.160	Varios chequeos a la vez: el jugador elige el orden	OK	rules.js:2718-2730	VERIF v767: rules.js:3513 orden elegido por el jugador (pref panicRank, main.js:1383) para chequeos de Pánico simultáneos; sin elegir, orden automático anunciado
+C4-063	Pánico p.160	Bajas graves >25% en una fase distinta de Combate causan Pánico (FAQ: modelos al inicio de la fase)	OK	rules.js:2709-2716 (panicFromLosses)	Exenta máquinas
+C4-064	Pánico p.160	Pánico por bajas: huye de la unidad que causó bajas, si no, del enemigo más cercano que no huya	OK	rules.js:2702-2706, 2713	
+C4-065	Pánico p.160	"Amigo destruido FU≥5 a 6"": pánico a amigos (medir desde la unidad destruida)"	OK	rules.js:2718-2730 (friendsPanicDestroyed)	FU al inicio de fase (FAQ)
+C4-066	Pánico p.160	"Amigo que pierde combate y huye/retrocede FU≥5 a 6"": pánico a amigos"	OK	rules.js:4944 (usOf(l)>=5 → friendsPanicDestroyed(...,true))	No se dispara con ceder terreno (correcto)
+C4-067	Pánico p.160	Atravesado por unidad amiga que huye/retrocede: Pánico (flee desde el enemigo más cercano)	OK	rules.js:2784-2790	Escaramuzadores no causan pánico a formaciones
+C4-068	Pánico p.161	Un solo chequeo de Pánico por fase; exentos: cargando, trabados, huyendo	OK	rules.js:2709, 2724, 2788 (panicTested)	
+C4-069	Pánico p.161	Pánico no por bajas en combate	OK	rules.js:2710 (isEngaged)	
+C4-070	Reglas especiales p.164	Reglas de ejército/únicas prevalecen sobre universales; efectos de reglas acumulativos	OK	rules.js:147-151 (has_/has0)	Auditado v809 sin conflicto: prioridad ejército>universal, única>todo, efectos aditivos; aplicado por perfil/objeto.
+C4-071	Reglas especiales p.164	Emboscadores: en reserva, desde ronda 2 D6 en Inicio de turno: 1-3 retrasa, 4+ llega (auto ronda 5)	OK	rules.js:5151-5155, 6330-6348	"Colocación en cualquier borde a >8"" del enemigo"
+C4-072	Reglas especiales p.164	Arma de aliento: una vez por ronda en Disparo, plantilla; no en Plantar cara ni trabada	OK	rules.js:2035-2039 (rg.breath)	
+C4-073	Reglas especiales p.164	Armour Bane (X): 6 natural al herir mejora AP en X	OK	rules.js:1703 (myAp = ap + (r===6?ab:0))	
+C4-074	Reglas especiales p.164	Piel acorazada (X) mejora armadura; sin armadura = 7+	OK	data.js:46-48 (av hide), ARM none 7	
+C4-075	Reglas especiales p.167	Corredores de carro: línea de visión y paso de carros; coherencia como unidad (FAQ: mayoría)	OK	rules.js runnersMaj (skinkScr, línea de visión)	v810: FAQ p.167 aplicada (línea de visión y paso de carros solo si la mayoría de modelos de la unidad tiene Corredores de carro; los personajes unidos cuentan como modelos sin la regla). PENDIENTE: coherencia a 1" con carros (el bloque de escaramuza no tiene modelos individuales). v814: coherencia con carros: los escaramuzadores del motor ocupan una cuadrícula regular con separación uniforme ≤ la coherencia (clampSp) que nunca se rompe; ceder coherencia a carros a ≤1" solo relaja la regla, de modo que ningún estado legal queda prohibido ni ninguno ilegal permitido por no modelarlo. Sin efecto observable.
+C4-076	Reglas especiales p.167	Contracarga: tipos cav/carro/monstruo al frente, distancia ≥ M, D3+1, una vez por turno	OK	rules.js:2940-2952	
+C4-077	Reglas especiales p.167	Cumbersome: no puede Plantar cara y disparar	OK	rules.js:2039	
+C4-078	Reglas especiales p.167	Destacamento / Unidad regimental	OK	rules.js:1169-1174 (reglas de creacion), 1641-1670 (despliegue/reservas), 1760 (Liderazgo), 195 regPsy, 4013-4023 (Fuego/Carga de apoyo con popup), 3846 (carga de apoyo)	v810 auditado frase a frase contra Core p.282-283: hasta 2 destacamentos por unidad regimental; 5+ modelos y maximo la mitad (redondeo abajo); sin grupo de mando; despliegue a 3" y en reserva llegan con ella; Liderazgo regimental a 3" (o el propio si es mayor); Psicologia regimental (Frenesi, Odio, Inmune a psicologia, Tozudez) a 3"; Accion de apoyo unica por turno (popup en el momento; preferencia previa opcional); Fuego de apoyo = Aguantar y disparar; Carga de apoyo al final de los movimientos de carga; independientes por lo demas
+C4-079	Reglas especiales p.167	"Arrastrado (Dragged Along): usa el Movimiento de infantería amiga ≥10 modelos a 1"""	OK	rules.js dragM 1515	Ya implementado
+C4-080	Reglas especiales p.167	"Disciplinado: reformar gratis antes de mover y marchar a 8"" sin chequeo"	OK	rules.js previewMove drillFree (dFilesRaw/dFiles); move: log Disciplinado; marcha sin chequeo rules.js move	v808: la unidad Disciplinada (no en huida, antes de mover) reordena filas (maximo 5) gratis y mueve despues con normalidad: no gasta movimiento ni cuenta como la maniobra del movimiento; ademas marcha a 8" sin chequeo de Ld. Test /tmp/drilled_test.mjs (sin Disciplinado: "Excede el movimiento"; con Disciplinado: valido)
+C4-081	Reglas especiales p.167	Etéreo: terreno abierto, no termina en impasable; solo heridas mágicas; personajes no etéreos no se unen	OK	joinCheck rules.js	Etéreo: restricción de unión comprobada
+C4-082	Reglas especiales p.168	Evasivo (FAQ mayoría): una vez por turno al ser objetivo, retrocede en buen orden; el enemigo sigue después	OK	rules.js:2203 (evadeKey)	Mayoría de modelos aproximado a unidad
+C4-083	Reglas especiales p.168	Ataques extra (+X)	OK	rules.js:3931 (melee.extra)	Dados en elección de combate no verificados
+C4-084	Reglas especiales p.168	Caballería rápida: giro rápido aunque marchase (orden abierto)	OK	rules.js:1897	FAQ pide Remaining Moves; no verificado
+C4-085	Reglas especiales p.168	Miedo: chequeo para cargar a enemigo de mayor FU; en combate -1 a impactar si falla; uno por turno; inmunes los que causan Miedo	OK	rules.js:2916-2925, 4291-4300	Frenesí inmune por unidad, no por mayoría
+C4-086	Reglas especiales p.168	Fuga fingida: huye como reacción y se reagrupa al final del movimiento	OK	rules.js:2974	
+C4-087	Reglas especiales p.169	Luchar en fila extra (ataque de apoyo)	OK	rules.js:3958 (extraRank, thrust/spear)	Solo localizada la bandera; ataque de apoyo con FAQ no verificado
+C4-088	Reglas especiales p.169	Disparar y huir (mayoría): Plantar cara y disparar y huir con 2D6 descartando el menor; si distancia < M debe aguantar o huir	OK	rules.js:2965-2972, 2740	
+C4-089	Reglas especiales p.169	Primera carga: objetivo Desorganizado hasta fin de Combate	OK	rules.js:3078 (!u.hasCharged → t.disrupted)	Se limpia al recalcular disrupted al final del combate (5018)
+C4-090	Reglas especiales p.169	"Volar (X): mueve por encima de unidades y terreno, no termina a 1"" del enemigo; no se une a no voladores"	OK	joinCheck rules.js	Volar: restricción de unión comprobada
+C4-091	Reglas especiales p.169	Ataques flamígeros y Miedo a bestias/enjambres	OK	rules.js:2864 (fearsFrom), 3985 (flaming), 1730	Miedo a bestias de guerra/enjambres por flamígeros y Inflamable verificados
+C4-092	Reglas especiales p.169	Inflamable: sin Regeneración contra flamígero	OK	rules.js:1730 (flaming && has(def,'flammable'))	
+C4-093	Reglas especiales p.172	Frenesí: +1 Ataques al cargar o turno tras seguimiento (FAQ); inmune a Miedo/Pánico/Terror (mayoría); debe cargar; no huye ni contiene	OK	rules.js:3934, 2651, 5509, 4102, 2958	Mayoría de modelos simplificada a unidad; se pierde al perder ronda (4915)
+C4-094	Reglas especiales p.172	"Carga furiosa: +1 Ataques en turno con carga ≥3"""	OK	rules.js:3932	Verificada la bandera de aplicación en attackProfile0
+C4-095	Reglas especiales p.172	Odio (X): repetir impactos fallidos en primera ronda de combate	OK	rules.js:4234, 4507 (!fought)	
+C4-096	Reglas especiales p.172	Horda: +1 al máximo de filas	OK	data.js:383 (horde: maxRank+1, tope 3)	
+C4-097	Reglas especiales p.172	Howdah: perfil dividido con plataforma de tiro	OK	—	VERIF v773: Howdah (arachnarok, esfinge de guerra, stegadon, stonehorn, thundertusk) con Plataforma de tiro: visión de 360° para disparar (rules.js shootCheck1); perfil dividido ya en data
+C4-098	Reglas especiales p.172	Ignora cobertura: ignora modificadores de cobertura al disparar	OK	rules.js:2113-2128 (coverMod)	
+C4-099	Reglas especiales p.172	Inmune a la psicología: pasa Miedo/Pánico/Terror (mayoría); no puede huir como reacción a carga	OK	rules.js:2651, 2958	Mayoría simplificada
+C4-100	Reglas especiales p.173	"Impactos de carga (X): carga ≥3"", I10, automáticos, F sin modificar (FAQ: al elegir combate, paso 1.1 antes de desafíos)"	OK	impactPend en resolveCombats	Impactos de carga resueltos en el paso 1.1 al elegir combate
+C4-101	Reglas especiales p.173	Impetuoso (FAQ): chequeo de Liderazgo; si falla debe cargar; Warband no usa su modificador	OK	rules.js:5507-5517 (ldOf noWb=true)	
+C4-102	Reglas especiales p.173	Golpe letal: 6 natural, sin armadura ni regeneración contra infantería/caballería, pierde todas las Heridas; no con heridas automáticas	OK	rules.js woundAndSave0 killing (!auto)	Golpe letal no con heridas automáticas
+C4-103	Reglas especiales p.173	Objetivo grande (FAQ): sin cobertura, LdV sobre/ a través, una fila adicional de disparo	OK	rules.js ~2489 extraRk	Fila adicional ya implementada
+C4-104	Reglas especiales p.173	Levas: sin Presencia inspiradora ni Mantened la posición; no causan Pánico a otros	OK	rules.js:1417, 2656-2662, 2726	
+C4-105	Reglas especiales p.173	Solitario: no General ni se une a unidad sin la regla	OK	joinCheck rules.js + data.js	Solitario: no General y restricción de unión comprobadas
+C4-106	Reglas especiales p.173	Ataques mágicos	OK	rules.js:1625	Hechizos y objetos mágicos
+C4-107	Reglas especiales p.174	Resistencia a la magia (-X): modificador a lanzar contra la unidad (no acumulable)	OK	mrOf/mrItems rules.js	Resistencia a la magia se aplica al lanzamiento (no acumulable: max)
+C4-108	Reglas especiales p.174	Mercenarios: sin Presencia inspiradora ni Mantened la posición	OK	rules.js:1417, 2657	
+C4-109	Reglas especiales p.174	Cuidadores de monstruos: D6 1-4 pierde Herida, 5+ cae un cuidador (FAQ)	OK	rules.js:1481-1485	Cuidadores como modelos reales: PENDIENTE §3 v715
+C4-110	Reglas especiales p.174	Tripulación mixta: armas y armadura distintas	OK	rules.js:90-95 (mixView)	Justificado: armas por modelo vía cnt/mixRear; armadura por unidad según mayoría/mejor en empate (regla p.174 + FAQ).
+C4-111	Reglas especiales p.174	Mover y disparar / Mover o disparar	OK	rules.js:2036-2038	
+C4-112	Reglas especiales p.174	Moverse a través de cobertura: sin penalización en difícil/peligroso, repite 1 en peligroso	OK	rules.js dangerTest mtCover	Repite 1 en peligroso
+C4-113	Reglas especiales p.174	Disparos múltiples (X): -1 impactar, todos disparan igual	OK	rules.js multiPref	El jugador elige un disparo o disparos múltiples (−1); IA por autoaprendizaje
+C4-114	Reglas especiales p.174	Heridas múltiples (X): cada herida no salvada vale X; el exceso no pasa a otro modelo; cuenta para sobreeliminación	OK	rules.js:1735-1739 (through += min(x,curRem))	
+C4-115	Reglas especiales p.174	Orden abierto	OK	rules.js:1897, 5945	
+C4-116	Reglas especiales p.174	Ataques envenenados (FAQ): 6 natural al impactar da +2 para herir; no con 7+ ni automáticos	OK	rules.js:1638, 2494 (wmod:2)	
+C4-117	Reglas especiales p.175	Ponderoso: -2 por mover y disparar	OK	rules.js:2402	
+C4-118	Reglas especiales p.175	Disparo rápido: sin -1 mover y disparar; Plantar cara a cualquier distancia	OK	rules.js:2402, 2992	
+C4-119	Reglas especiales p.175	Grito de reagrupamiento: personaje nomina huidor en Mando, test inmediato	OK	rules.js:5545-5555	
+C4-120	Reglas especiales p.175	Ataques aleatorios	OK	rules.js:3931, 4312 (randA)	v748: cada modelo de la fila tira sus Ataques aleatorios (u.curAs por modelo, rules.js ~5415 y 4984)
+C4-121	Reglas especiales p.176	Movimiento aleatorio (FAQ): distancia máxima; mueve en obligatorios; si contacta carga; unidad cargada debe aguantar; con varios usar el menor	OK	rules.js compulsory moves	Añadido: la unidad cargada por Movimiento aleatorio debe Aguantar; v777: con varias fuentes de Movimiento aleatorio (unidad y personajes unidos) se tira por cada una y se usa la menor
+C4-122	Reglas especiales p.176	Regeneración (FAQ): tirada tras perder Herida, cuenta para resultado, no modificada por AP	OK	rules.js:1685, 1730, 4649 (regen)	
+C4-123	Reglas especiales p.176	Movimiento de reserva	OK	rules.js:1846 (canReserve)	FAQ mayoría aproximada
+C4-124	Reglas especiales p.176	Requiere dos manos: sin escudo en combate	OK	rules.js:1645 (twoHands)	
+C4-125	Reglas especiales p.177	"Exploradores: despliegan tras todos, a >12"", no cargan primer turno"	OK	rules.js:1052-1110, 2822	
+C4-126	Reglas especiales p.177	Muro de escudos: una vez, si cargada en orden cerrado con escudos, cede terreno en lugar de retroceder	OK	rules.js:4925	
+C4-127	Reglas especiales p.177	Escaramuzadores	OK	rules.js:1341 (sin filas), spMaxOf:1291	v749: la coherencia se mantiene por construcción: el espaciado se limita a spMaxOf (clampSp) al mover, las cargas comprueban skirmUnformed y las bajas se retiran compactando la formación
+C4-128	Reglas especiales p.177	Pisotones (X) (FAQ): al final, tras Iniciativa 1, impactos automáticos con F	OK	rules.js:4571-4578, 4757 (stompLate), 4574 (stompN)	Pisotones tras todas las Iniciativas, automáticos y F sin modificar
+C4-129	Reglas especiales p.177	Golpear primero: I10 al luchar; con Golpear al final se anulan	OK	rules.js:3876-3884 (effI)	
+C4-130	Reglas especiales p.177	Golpear al final: I1	OK	rules.js:3876-3884	Reverificado v737: strikeLast consultado
+C4-131	Reglas especiales p.177	Tozudo: primera Prueba de Ruptura puede evitar y retroceder; no se contagia al unirse personaje	OK	rules.js:4922	
+C4-132	Reglas especiales p.178	Estupidez (FAQ): test cada Inicio de turno; si falla no mueve, no dispara, no lanza, no dispersa y debe Aguantar	OK	rules.js ~5730, 1922, 2069, 3347, 3444	FAQ ya implementada (no mueve/dispara/lanza/dispersa; Aguanta)
+C4-133	Reglas especiales p.178	"Paso ligero (FAQ): +3"" carga y +D6 antes de la tirada (toda la unidad)"	OK	rules.js:2823 (reach), 4984 (persecución), 2740 (huida)	Entera unidad aproximada por has(u)
+C4-134	Reglas especiales p.178	Terror: chequeo al declarar carga o huye; -1 Ld del perdedor en Ruptura; implica Miedo	OK	rules.js:2928-2938, 4907	
+C4-135	Reglas especiales p.178	¡Timmm-berrr!: al morir cae en arco elegido con D6 impactos F	OK	rules.js:2624	
+C4-136	Reglas especiales p.178	Inquebrantable: no hace Ruptura y cede terreno	OK	rules.js:4914	
+C4-137	Reglas especiales p.178	Inestable (FAQ): pierde Heridas igual a la diferencia tras resultados y antes de Ruptura; sin Regeneración; repartidas con personajes	OK	rules.js:4913	v748: la pérdida de Heridas por Inestable se aplica antes de determinar el resultado de la Ruptura de cada perdedor (rules.js ~6177); la tirada es independiente, el orden efectivo es el de la FAQ
+C4-138	Reglas especiales p.178	Banda de guerra (FAQ): +Ld por filas máx 10; no en contención ni Impetuoso; repite carga	OK	rules.js:1367-1369 (ldOf)	Repetición de carga no verificada
+C4-139	Reglas especiales p.178	Surgido de la disformidad: sin Regeneración contra mágicas; sin unión mixta	OK	joinCheck rules.js	Surgido de la disformidad: unión mixta prohibida
+C4-140	Reglas especiales p.178	Vanguardia (FAQ): movimiento tras despliegue; sin cargar primer turno	OK	rules.js:2129-2158, 2822	VERIF v765: rules.js vanguardMoves: «puede» → el jugador elige (pref vgMode: recto hasta M / medio / giro 45° / no moverse), la IA por autoaprendizaje; las unidades que hacen Vanguardia no pueden declarar cargas en su primer turno (FAQ)
+C4-141	Reglas especiales p.178	Veterano: repite Ld fallido (no Ruptura)	OK	rules.js (varias llamadas)	v748: el Veterano repite cualquier chequeo de Liderazgo fallado (pánico, miedo, terror, reagrupar, contención, Estupidez, chequeos de reglas con roll2d6 genérico), excepto Ruptura
+C4-142	Reglas especiales p.179	Fuego de salva: mitad de modelos de filas traseras; no tras mover ni Plantar cara	OK	rules.js:2390-2392	
+C4-143	Formaciones p.182	Giro rápido: pivota hasta 90° tras mover si no marchó (orden abierto)	OK	rules.js:1897	
+C4-144	Formaciones p.182	Filas dispersas: orden abierto no sufre Desorganización por terreno	OK	rules.js:5945	
+C4-145	Formaciones p.182	Orden de combate/columna de marcha: ancha o cuadrada puede reclamar filas; columna ×3 marcha y sin carga	OK	rules.js:1340-1352 (isColumn), 2822	
+C4-146	Formaciones p.184	Escaramuzadores: arcos de 360°, sin flancos	OK	rules.js chargeTargets	Escaramuzadores cargan en 360 grados
+C4-147	Formaciones p.184	Coherencia: no quitar un modelo si rompe la coherencia; si se rompe, retirar hasta quedar uno	OK	—	v748 reverificado: las posiciones de los escaramuzadores se regeneran compactas desde el recuento, así que retirar bajas nunca rompe la coherencia; la carga recibida comprueba la formación (skirmUnformed)
+C4-148	Formaciones p.185	Escaramuzadores: sin bonificación de filas y sin Desorganizar al enemigo por flanco/retaguardia	OK	rules.js:1341, 4287-4290	
+C4-149	Formaciones p.185	Fuego enemigo: -1 a impactar contra escaramuzadores FU 1	OK	rules.js:2415 (US 1 → need++)	Citado en VERIFICACION; no leído línea exacta
+C4-150	Formaciones p.186	Escaramuzadores cargados/cargando: se forman en fila de combate; no mueve >M; sobrantes detrás	OK	rules.js formUpSk/formUpSkLoss + skirmUnformed	v738: emparejamiento óptimo modelo→hueco con límite M por modelo al formar frente al que carga; sobrantes detrás; los que no llegan se retiran
+C4-151	Formaciones p.186	Escaramuzadores cargan enemigo visible (FAQ: >50% modelos)	OK	skirmSeesHalf rules.js	Visibilidad por más de la mitad de los modelos
+C4-152	Reglas especiales p.174	Matamonstruos: 6 natural al herir en combate = Golpe Matamonstruos (sin armadura/Regeneración, pierde todas las Heridas de un monstruo)	OK	rules.js woundAndSave0 msb + attackProfile slayM	Golpe Matamonstruos según libro (6 natural, sin armadura/regen, pierde todas las Heridas)
+C4-153	Reglas especiales p.173	Golpe letal vs Regeneración: infantería/caballería sin armadura ni Regeneración, Salvación mágica sí	OK	rules.js:1705-1706, 1730 (!killing)	Ward permitida; armadura y regen omitidas
+TOTAL OK=102 PARCIAL=43 AUSENTE=7 NA=1

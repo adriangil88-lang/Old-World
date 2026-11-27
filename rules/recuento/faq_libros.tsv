@@ -1,0 +1,200 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+C01	Cathay p.30 Cathayan Warhorse	Borrar 'First Charge' de reglas especiales	OK	data.js:2187,2193,2230 (sr de ct_gatekeeper_horse, ct_gatemaster_horse, ct_lancers sin firstCharge)	Zancada y Contracarga conservadas
+C02	Cathay p.34 Sky Lantern	Resistencia 4	OK	data.js:2239 (T:4)	
+C03	Cathay p.34 Commander	Borrar 'champion' del perfil del Comandante	OK	data.js:2239 (la Linterna no define campeón)	Comprobado solo en datos
+C04	Cathay p.34 Special Rules	Quitar Unbreakable y añadir Flammable	OK	data.js:2241 sr incluye flammable y no unbreakable; efecto en rules.js:1730	
+C05	Cathay p.34 Disengage	Si pierde un asalto y Cede terreno, PUEDE retroceder en buen orden	OK	rules.js:5500 (noDisLose), ai.js optionGroups dl	Opcional del jugador (pref noDisLose); IA por autoaprendizaje
+C06	Cathay p.34 Disengage	"Los enemigos siguen 2"" directamente hacia él pero no pueden perseguirlo"	OK	rules.js:4964 (pushAwayStep 2, sin persecución)	
+C07	Cathay p.34 Disengage	Si gana y elige contenerse y reformar, puede retroceder en buen orden en vez de quedarse	OK	rules.js:4547 (disWinOn), ai.js optionGroups dw	Opcional del jugador (pref disWinOn); IA por autoaprendizaje
+C08	Cathay p.35 Sky Lantern Bombs	Una vez por partida, ataque Bombing Run	OK	rules.js:2557-2559 (used.sky)	
+C09	Cathay p.35 Sky Lantern Bombs	Contra una sola unidad enemiga que no esté trabada	OK	main.js:1190 (selección de objetivo de Bombas de linterna)	v777: revisado rules.js:3318 y main.js:1362: el filtro ya no excluye unidades en huida; solo enemigas, no trabadas, a ≤6"; el jugador elige objetivo (bombPick)
+C10	Cathay p.41 Ogre Loader	Borrar (Character) del tipo de tropa	OK	data.js:3365-3368 (variante de máquina, no personaje)	
+C11	Cathay p.41 Mercenary Crew	Cargador ogro es tripulante adicional como mejora de máquina; se despliega con la máquina	OK	data.js:3365-3368, rules.js:2059,6677	Modelado como variante +35 pts, no como modelo separado
+C12	Cathay p.43 Standard of Wei-Jin	Puntos 60	OK	data.js:2500	
+C13	Cathay p.43 Icon of Heavenly Fury	Puntos 45	OK	data.js:2501	
+C14	Cathay p.43 Icon of Heavenly Fury	Subfase de Mando, no trabado, chequeo de Ld propio sin modificar; hasta tu siguiente Inicio de turno los enemigos no usan Volar (X)	OK	rules.js:6298-6302, limpieza en rules.js:5178	
+C15	Cathay p.43 Dragon's Eye Banner	Con 4+ el controlador del Mago debe elegir otro objetivo	OK	rules.js:6686-6689 (deye:4)	
+C16	Cathay p.44 Maw Shard	Puntos 50	OK	data.js:2504	
+C17	Cathay p.44 Alchemist's Mask	Hechizo ligado Plaga de Óxido, Nivel de Poder 1	OK	data.js:2505, rules.js:3687-3693	
+C18	Cathay p.47 Lore of Yin	El mago puede descartar uno de sus hechizos generados al azar	OK	rules.js:793-803 (yy)	
+C19	Cathay p.48 Cathayan Lance	Solo modelos de tropa caballería, monstruo o carro	OK	data.js:5133 (solo montados)	
+C20	Cathay p.48 Cathayan Lance	Modificadores de F y FP solo contra modelos a los que cargó ese turno	OK	rules.js:3968-3969 (chgE)	Usa perfil genérico de lanza (F+2, FP-2, Penetración 1), no un perfil propio cathayano
+C21	Cathay p.48 Dragon Fire Bombs	Fuerza 3	OK	data.js:2486	
+C22	Cathay p.48 Ring of Jet	Hechizo ligado Espíritus Inquietos, Nivel de Poder 1	OK	data.js:2506, rules.js:3687-3693	
+C23	Cathay p.48 Seal of Xing Po	Puntos 35	OK	data.js:2512	
+C24	Cathay FAQ Heavenly Beacon	El modificador +1/-1 a la llegada de Emboscadores no es acumulativo	OK	rules.js:5157 (una sola comprobación live())	
+C25	Cathay FAQ Heavenly Beacon	Se puede aplicar +1 o -1 a la tirada de llegada	OK	rules.js:~5900 (Baliza celestial +1 propia y -1 al rival, no acumulable)	+1 propio y -1 al rival, solo cuando cambia el resultado
+C26	Cathay FAQ Grand Cannon	Impacto atronador no acumulativo (no -2 M)	OK	rules.js:2213-2216 (el fx thund se sustituye)	
+C27	Cathay FAQ Mastery of Elemental Winds	Una vez por turno y por ejército	OK	rules.js:3778 (s.mwK por turno y propietario)	
+F01	FoF p.15 Strike the Runes	Hechizos ligados del Yunque con Nivel de Poder 2	OK	data.js:2349-2352 (bound:2)	
+F02	FoF p.15 Rune of Oath & Steel	Valor de lanzamiento 8+/11+	OK	data.js:2350, rules.js:3625,1460	11+ da +1 armadura
+F03	FoF p.15 Rune of Oath & Steel	Con resultado 8+ la unidad puede repetir las Salvaciones por armadura falladas	OK	rules.js:1716 (fx oathS)	
+F04	FoF p.15 Rune of Hearth & Home	Valor de lanzamiento 8+	OK	data.js:2351	
+F05	FoF p.22 Rangers	Tamaño de unidad 5-20	OK	data.js:1431 (min 5, max 20)	
+F06	FoF p.23 Hammerers	Añadir Armadura de gromril	OK	data.js:1405 (gromrilArm)	
+F07	FoF p.24 Runes of Protection	Salvación especial 6+ contra heridas de ataques no mágicos	OK	rules.js:1652 (runesProt)	
+F08	FoF p.25 Trollhammer Torpedo	Fuerza 5 y sustituir Dwarf Crafted por Cumbersome	OK	data.js:3503 (s:5, cumbersome)	
+F09	FoF p.39 Rune Lore	"Los modelos con Rune Lore pueden disipar como Mago; Runelord 21"" +2, Runesmith 18"" +1"	OK	rules.js:3252-3257, data.js:1361,1364	
+F10	FoF p.39 Rune Lore	"Anvil of Doom: alcance de disipación 24"" y +3"	OK	rules.js:3733 (tryDispel: runeLore, +3/+2/+1 directo)	"Yunque: 24"" y +3"
+F11	FoF p.48 General of the Empire	Liderazgo 10	OK	data.js:405	
+F12	FoF p.48 Captain of the Empire	Liderazgo 9	OK	data.js:426	
+F13	FoF p.52-53 Lector/Priest Sigmar, High Priest/Priest Ulric	Ld 9/8/9/8	OK	data.js:467-476	
+F14	FoF p.54 Clouds of Soot & Smoke	"Si no va montado cuenta como tras cobertura completa a 3"" de una máquina de guerra amiga"	OK	rules.js:2404	
+F15	FoF p.57 Empire State Troops	Añadir Horde a Tropas Estatales y Veteranas	OK	data.js:3738-3739 (horde en Tropas Estatales)	
+F16	FoF p.60 Greatsword / Count's Champion	Fuerza 4	OK	data.js:449	Campeón comparte la F de la unidad
+F17	FoF p.61 Flagellant & Prophet of Doom	Resistencia 4	OK	data.js:495	
+F18	FoF p.69 Steam Cannon	No tiene LdV de 360°: solo dispara al arco frontal del Tanque	OK	rules.js:2045	
+F19	FoF p.70 Imperial Griffon	Borrar Two Heads	OK	data.js:461 (sin twoHeads)	
+F20	FoF p.76 Laurels of Victory	Cada herida no salvada del portador (no de la montura) vale 2 puntos de resultado	OK	rules.js rd	Heridas del jinete exactas (rd)
+F21	FoF p.76 Wizard's Staff	Añadir 0-1 por Mago	OK	data.js:3306 (0-1 por modelo)	Validación en armyIssues
+F22	FoF p.90 Royal Pegasus	+70 puntos y tipo Criatura monstruosa	OK	data.js br_baron_pegasus (170, monCreature), br_duke_rpeg 245	
+F23	FoF p.92 Polearm	Dos perfiles elegibles en Paso 1.1 (mano simple Lucha en fila extra / dos manos F+1 FP-1); sin ataque de apoyo si cargó	OK	data.js:4972 (opción pa: perfil elegible) y rules.js:4380	Alabarda de asta con dos perfiles elegibles, sin apoyo si cargó
+F24	FoF p.94 Battle Pilgrims	Puntos 6; tamaño 5-30 Peregrinos/0-1 Reliquias del Grial	OK	data.js br_pilgrims_rel + rules.js (createGame, unitPts)	Texto FoF p.94 ya disponible: Reliquia cuenta como 6 modelos (6 Heridas, última en caer), 5-30 Peregrinos, 6 pts (FAQ), +65. Posición central de la Reliquia no se distingue (modelos W1 equivalentes)
+F25	FoF p.96 Questing Knights	Tamaño de unidad 3+	OK	data.js br_questing (min 3)	
+F26	FoF p.98 Pegasus Knights	Puntos 59 y sin Formación en Lanza	OK	data.js br_pegasus (59, sr sin lanceForm)	
+F27	FoF p.102 Knightly Virtues	Cada Virtud solo una vez por ejército	OK	data.js:4603	
+F28	FoF p.102 Knightly Virtues	La Virtud no afecta a la montura	OK	data.js:3131-3135 (prof/grant sobre jinete fusionado)	v811: añadidos perfiles propios de montura (HA3 F3 I3 A1; fuente tow.whfb.app, transcripción del libro) a Duque/Barón/Paladín de Bretonia, Doncella/Profetisa/Sargento a caballo (Corcel bretoniano y Corcel), Jefe de Guerra Orco en jabalí (Jabalí de guerra M7 HA3 F3 I3 A1) y Señor del Claro a caballo (Corcel élfico M9 HA3 F3 I4 A1); el jinete conserva su A. Antes pendiente: Carnicero/Maestro Matarife con Caldero, Rey Ghoul en Terrorgheist, Motor Mortis, Taur'ruk, Centigor, demonios mayores (sin perfil separado jinete/montura en las fuentes del repo). v814: Rey Ghoul en Terrorgheist (jinete A5 + Terrorgheist HA3 F5 I3: 3 garras FP −1 Perf. 1 envenenadas + 1 ataque de Fauces rancias FP −2 Perf. 1 Heridas múltiples 2 no envenenado, opcional) y Nigromante/Acólito en Motor Mortis (jinete + 3 Banshees HA3 F3 I3 + Horda espectral D6 ataques HA3 F3 I1) con perfil propio por ranuras. Carnicero con Caldero (opción, no montura), Taur'ruk, Centigores y demonios mayores son modelos únicos (un solo perfil en el libro): no hay división jinete/montura que aplicar. CERRADO.
+F29	FoF p.106 Falcon-horn of Fredemund	Un solo uso; Subfase de Mando, no trabado, chequeo de Ld propio sin modificar	OK	rules.js:6236 (falconUse; pref falconOn; ai optionGroups falcon)	Elección del jugador, Ld propio sin modificar, un solo uso
+F30	FoF p.109 Burning Gaze	Valor de lanzamiento 9+	OK	data.js SPELLS.burning_gaze cv 9	
+F31	FoF p.110 Lance formation	+1 al resultado con Fuerza de Unidad 5+	OK	rules.js:5242 (co_lance exige usOf(u) >= 5)	
+F32	FoF p.124 Treeman Ancient	Conoce hechizos de UNO de los Saberes listados	OK	data.js:633-635 (lores), rules.js:765	
+F33	FoF p.128-129 Glade Guard/Eternal Guard	Puntos 10 y 12	OK	data.js we_glade_guard 10, we_eternal 12	
+F34	FoF p.133 Dryad	Movimiento 6 y Armour Bane (1)	OK	data.js we_dryads (M6, melee.ab 1)	
+F35	FoF p.133 Nymph	Movimiento 6 y Armour Bane (1)	OK	data.js:653,5889 (Dríadas M6 y Perforante 1)	La Ninfa es el modelo de mando de las Dríadas
+F36	FoF p.134 Glade Riders	Puntos 17 y tamaño 4+	OK	data.js we_glade_riders	
+F37	FoF p.135 Sisters of the Thorn	Puntos 22	OK	data.js we_sisters	
+F38	FoF p.135 Daughters of Eternity	Salvación especial 4+ contra cualquier herida	OK	data.js we_sisters ward:4	Aplicado como ward general (no se comprobó la excepción mágica)
+F39	FoF p.135 Deepwood Coven	Un hechizo aleatorio de Battle/Elementalism y descartarlo opcionalmente por la firma del Saber elegido	OK	rules.js covenAlt/covenPick	Elección tras ver el hechizo (botón + IA)
+F40	FoF p.136 Wild Riders	Puntos 26	OK	data.js we_wild_riders	
+F41	FoF p.145 Woodland Ambush	"Bosque adicional entre 3"" y 9"" tras colocar terreno"	OK	rules.js:656, 6427 (forestPlace)	
+F42	FoF p.146 Forest Walker / Flock of Doom	Valor de lanzamiento 9+ y 8+	OK	data.js SPELLS.forest_walker cv9, flock_doom cv8	
+F43	FoF p.163 White Lions of Chrace	Añadir Furious Charge	OK	data.js he_whitelions (furiousCharge)	
+F44	FoF p.179 Elven Honours	El Honor no afecta a la montura	OK	data.js:3252	v811: añadidos perfiles propios de montura (HA3 F3 I3 A1; fuente tow.whfb.app, transcripción del libro) a Duque/Barón/Paladín de Bretonia, Doncella/Profetisa/Sargento a caballo (Corcel bretoniano y Corcel), Jefe de Guerra Orco en jabalí (Jabalí de guerra M7 HA3 F3 I3 A1) y Señor del Claro a caballo (Corcel élfico M9 HA3 F3 I4 A1); el jinete conserva su A. Antes pendiente: Carnicero/Maestro Matarife con Caldero, Rey Ghoul en Terrorgheist, Motor Mortis, Taur'ruk, Centigor, demonios mayores (sin perfil separado jinete/montura en las fuentes del repo). v814: Rey Ghoul en Terrorgheist (jinete A5 + Terrorgheist HA3 F5 I3: 3 garras FP −1 Perf. 1 envenenadas + 1 ataque de Fauces rancias FP −2 Perf. 1 Heridas múltiples 2 no envenenado, opcional) y Nigromante/Acólito en Motor Mortis (jinete + 3 Banshees HA3 F3 I3 + Horda espectral D6 ataques HA3 F3 I1) con perfil propio por ranuras. Carnicero con Caldero (opción, no montura), Taur'ruk, Centigores y demonios mayores son modelos únicos (un solo perfil en el libro): no hay división jinete/montura que aplicar. CERRADO.
+F45	FoF p.186 Hand of Khaine	Valor de lanzamiento 7+	OK	data.js SPELLS.hand_khaine cv7	
+F46	FoF AJ Dwarfen Holds p.37 Axe of Dargo	F+2	OK	data.js:4189 (Ungrim melee sb 2)	
+F47	FoF AJ Dwarfen Holds p.40 Dwarf Engineer Sappers	Añadir Hostile Terrain	OK	data.js dw_sapper sr hostileTerrain, rules.js:6604	
+F48	FoF AJ Dwarfen Holds p.41 Doom Seekers	Quitar (Character), añadir Skirmishers	OK	data.js dw_doomseeker (skirmish, no char)	
+F49	FoF AJ Dwarfen Holds p.46 Goblin Hewers	Tripulación H2 A2 y base 50x75	OK	data.js dw_hewer (W2 A2 50x75)	
+F50	FoF AJ Empire p.37 Hans von Löwenhacke	Liderazgo 10	OK	data.js:4187	
+F51	FoF AJ Empire p.39 Teutogen Guard	Borrar Guardians of the Temple	OK	data.js teutogen sr sin guardians	
+F52	FoF AJ Empire p.46 Von Trickschotte's Arquebus	Añadir Magical Attacks	OK	rules.js:1435 (ARQUEBUS magical:true)	
+F53	FoF AJ Bretonnia p.37 Guardian of the Sacred Sites	No incluye vórtices mágicos, campo abierto, colinas ni construcciones	OK	rules.js:1773	
+F54	FoF AJ Bretonnia p.42 Warhorse	Base 25x50 (min), 30x60 (max)	NA	data.js empire_knights baseW 30 baseD 60	Rango de modelado físico (25x50–30x60): el motor usa 30x60, dentro del rango permitido; no afecta a reglas.
+F55	FoF AJ Wood Elf p.34 Orion	Borrar Fear	OK	data.js we_orion (sr sin fear; terror)	
+F56	FoF AJ Wood Elf p.34 Spectral Hounds	Mientras queden Sabuesos Orion no puede ser blanco de disparos enemigos	OK	rules.js:2023	
+F57	FoF AJ Wood Elf p.37 Araloth	Puntos 150	OK	data.js we_araloth	
+F58	FoF AJ Wood Elf p.45 Fury of Athel Loren / Durthu's Wrath	Valor de lanzamiento 9+	OK	data.js SPELLS.durthu_wrath cv9, durthu_rage cv9	
+F59	FoF AJ Wood Elf p.45 Spiteful Torrent	"Terreno difícil; se desplaza D6"" en cada Inicio de turno; 3D6 impactos F2 FP-1"	OK	rules.js:5352-5385, data.js:2305	
+F60	FoF AJ High Elf p.29 Warriors of the Wilderness	"Bosque adicional 3""-9"""	OK	rules.js:656, 6427	
+F61	FoF AJ High Elf p.48 Ring of Fury	Hechizo ligado Hammerhand NP1	OK	data.js:2867	
+F62	FoF AJ Renegade Crowns p.38,41 Warhorse	Tipo de tropa caballería ligera/pesada; Resistencia '-'	OK	data.js br_*_war12 / br_sergeant_mtd (v811)	v811: Corcel de la AJ (M8 HA3 F3 I3 A1, caballería ligera, Caballería rápida, Zancada veloz; R/H del jinete) como perfil propio de montura (mountAtk) en Doncella/Profetisa/Sargento a caballo; el jinete conserva su A.
+F63	FoF AJ Renegade Crowns p.43 Feint & Dodge	Una vez por partida el enemigo repite sus impactos exitosos	OK	rules.js:4229, 4499 (feintUsed)	Finta y Esquiva ya es opcional (noFeint, botón y autoaprendizaje)
+Q01	FoF FAQ Dwarfs	Runas de armadura en Anvil of Doom solo benefician a la tripulación	NA	data.js:1383 (el Yunque no admite runas)	
+Q02	FoF FAQ Dwarfs	Campeón de Royal Clan/Hammerers no pone runas de arma en hacha/martillo de gromril	OK	data.js champEligible	Campeón con gran hacha de gromril sin runas de arma; Martilladores sin objetos de campeón
+Q03	FoF FAQ Dwarfs	Impactos de Deathblow se benefician de Slayer	OK	rules.js:5163 (Último golpe con Slayer wnd 4)	
+Q04	FoF FAQ Dwarfs	Músico/portaestandarte Giant Slayer recogido por Giant Slayers o Troll Slayer	OK	data.js dw_slayers_g (mixRear) + fightMe	Matagigantes (FoF) como unidad mixta: delante Matagigantes, detrás Matatrolls; Lucha conmigo = desafíos. Portaestandarte/músico como Matagigante no distinguido (mismo coste)
+Q05	FoF FAQ Dwarfs	Master Rune of Hesitation actúa si la unidad persigue y alcanza a quien retrocedió en buen orden	OK	rules.js:4318 (hesit) + pursuitCharges con chargeSide	La persecución alcanzada cuenta como carga de frente/flanco según sideOf
+Q06	FoF FAQ Dwarfs	Con Hesitation el enemigo no puede usar Press of Battle	OK	rules.js:3910, 3950 (hesitNow)	
+Q07	FoF FAQ Dwarfs	Con Hesitation el enemigo conserva el bonus de Iniciativa por cargar	OK	rules.js:3903 (chargeOK real)	
+Q08	FoF FAQ DMH	Unidad 'Dug In' no pierde el estado al ser cargada	OK	rules.js:6597 (solo se pierde al mover)	
+Q09	FoF FAQ DMH	Unidad 'Dug In' no lo pierde por desafío con modelo que se mueve por las filas	OK	rules.js:6597	
+Q10	FoF FAQ DMH	Runas del arma de Doomseeker se aplican a Impact Hits	OK	rules.js chargeImpacts whirlDeath	VERIF v764: rules.js chargeImpacts whirlDeath copia S, FP, Perforante, flamígero, mágico, MW, repetir, wnd (Skalf/Matadragones), noArm y noWard
+Q11	FoF FAQ DMH	Doomseeker no puede unirse a Slayers	OK	rules.js:5885 (joinCheck solo cat char)	
+Q12	FoF FAQ DMH	Goblin Hewer Whirling Death suma un único D3, no uno por fila	OK	rules.js:2692 (un único D3)	
+Q13	FoF FAQ Empire	El cañón de vapor puede disparar metralla	OK	data.js:5524 (grape para todo cañón con cannon:true, Tanque de vapor incluido)	
+Q14	FoF FAQ Empire	Ingeniero Comandante y cañón de vapor disparan el mismo turno	OK	data.js steam_tank.opts (crewWpn) + rules.js crewWpnSel/pigeonBomb	VERIF v764: el Comandante (HP4) con rifle largo +10 / bombas de paloma +20 / pistola de repetición +8 dispara su arma el mismo turno que el cañón; un solo ataque de disparo por fase (elige el jugador: pref crewW; IA: auto)
+Q15	FoF FAQ Empire	Steam Power no se puede usar antes de cargar	OK	rules.js:1629 (mvC: la Potencia de vapor no suma al alcance de carga)	
+Q16	FoF FAQ Empire	Heridas de la montura de portador de Laurels no valen 2	OK	rules.js rd	Heridas de la montura no valen 2
+Q17	FoF FAQ Empire	Aguantar y disparar con Laurels no vale 2	OK	rules.js:4650 (solo combate)	
+Q18	FoF FAQ Empire	Griffon Standard da +2 de Rank Bonus por fila extra	OK	rules.js:4721, data.js:2574	
+Q19	FoF FAQ Empire AJ	Segundo desafío de Harald se resuelve al instante, ambos luchan, monturas no	OK	rules.js:4676-4680	Segundo desafío resuelto al instante; la montura no lucha
+Q20	FoF FAQ Empire AJ	Road Wardens pistolas para toda la unidad incluye al capitán	OK	data.js (road_wardens, road_wardens_p)	
+Q21	FoF FAQ Bretonnia	Contingente aliado de Bretonia no reza	NA	sin contingentes aliados	
+Q22	FoF FAQ Bretonnia	Shield of the Lady: no puede retirarse tras aceptar desafío	OK	n/a	No existe en el motor ninguna regla que permita al personaje retirarse tras emitir/aceptar un desafío
+Q23	FoF FAQ Bretonnia	Unidad con Estacas puede sufrir Impact Hits y Stomp	OK	rules.js:3065-3074 (sin exención)	
+Q24	FoF FAQ Bretonnia	Lanza bloqueada en flanco: rodear o parar/redirigir	OK	rules.js accHalt	Ya estaba: detener o redirigir (accHalt)
+Q25	FoF FAQ Bretonnia	Lanzavirotes contra Lanza: impactos por filas totales; flanco por fila más ancha	OK	rules.js:2854 (Atraviesa: filas totales de la Lanza)	VERIF v764: rules.js:3255 contra Lanza: filas totales de frente y fila/columna más ancha de flanco
+Q26	FoF FAQ Bretonnia	Colocar personaje de peana distinta en Lanza	NA	decisión del jugador	
+Q27	FoF FAQ Bretonnia	Lanza: modelos en contacto = primera fila dentro de M pulgadas	OK	rules.js:4526 (modelos en contacto con Lanza <= M)	
+Q28	FoF FAQ Bretonnia	Contracarga no embota la Lanza	OK	rules.js:3089 (ccKey)	
+Q29	FoF FAQ Bretonnia	Finest Warhorses no repite el D6 de Swiftstride	OK	rules.js:3014, 3022	
+Q30	FoF FAQ Wood Elves	Hawk-eyed Archer solo con arco asrai, no con hechizos ligados	OK	rules.js:2027, 2501	
+Q31	FoF FAQ Wood Elves	Contingente aliado Wood Elf no coloca bosque	NA	sin contingentes aliados	
+Q32	FoF FAQ Wood Elves	Bow of Loren con Enchanted Arrow: solo un disparo con flecha encantada	OK	rules.js bowEnch	Un solo disparo con flecha encantada
+Q33	FoF FAQ Wood Elves	Noble Wild Rider con armadura ligera puede llevar yelmo mágico	NA	composición de ejército	
+Q34	FoF FAQ High Elves	Mago con Warden of Saphery no compra armadura mágica	OK	data.js:3250	
+Q35	FoF FAQ High Elves	Martial Prowess no da apoyo a armas sin Fight in Extra Rank	OK	rules.js:3958	
+Q36	FoF FAQ High Elves	Korhil o Chracian Chieftain pueden unirse a White Lions	OK	rules.js:5918, data.js:1496 (general:true)	
+Q37	FoF FAQ Renegade Crowns	Aliados en partidas dobles	NA	sin partidas dobles	
+R01	RH p.20 Gigantic Spider	Añadir Move through Cover	OK	data.js arachnarok (mtCover)	
+R02	RH p.25 Night Goblins	Fanáticos: 0-1 por cada 10 Goblins, máximo 3, +25 pts cada uno	OK	data.js:4487 (armyIssues: 0-1 Fanático por cada 10 Goblins, máx. 3)	
+R03	RH p.26 Release the Fanatics	Salvo huyendo o en Columna, puede soltar uno o más Fanáticos en cualquier Inicio de turno	OK	rules.js:5845-5857 (fanRel, announce)	El jugador elige cuántos Fanáticos suelta en cualquier subfase de Inicio de turno
+R04	RH p.28 Troll Mobs	Cualquier modelo puede tomar una de las opciones	OK	data.js trolls/river_trolls/stone_trolls/woc_trolls opts	RH Troll Mobs/Chaos Trolls: toda la unidad puede tomar armas de mano adicionales (+3) o a dos manos (+4); sin Variopinto
+R05	RH p.28,65 Troll Mobs/Chaos Trolls	Añadir Motley Crew	OK	data.js trolls, river_trolls, stone_trolls, woc_trolls (motley)	
+R06	RH p.42 Porko's Pigstikka	F y FP solo el turno en que carga	OK	rules.js:4020	
+R07	RH p.44 Eadbuttin' At	0-1 por modelo	OK	data.js:3306 (0-1 por modelo)	
+R08	RH p.46 Quell Impetuosity	"Unidad impetuosa a 6"" puede repetir el chequeo de Ld"	OK	rules.js:5514	v752: Reprimir Impetuosidad es opcional (pref noQuell, botón en el panel, IA por autoaprendizaje)
+R09	RH p.59 Character Mounts	Quitar restricción Daemonic Mount; Manticora y Dragón solo Exalted Champions y Chaos Lords	OK	data.js woc_exalted_manticore/dragon/daemon	v738: Campeón Exaltado puede montar Mantícora y Dragón del Caos; Montura Demoníaca (+35) para Señor, Exaltado, Aspirante, Señor Hechicero y Hechicero Exaltado
+R10	RH p.59 Chaos Steed	Añadir Counter Charge	OK	data.js	Ambos personajes en corcel tienen Contracarga
+R11	RH p.66 Chaos Spawn	Movimiento 2D6+1	OK	data.js:1236 randM '2D6+1'	
+R12	RH p.67 Chaos Knights	Añadir Counter Charge	OK	data.js woc_knights, woc_knights_l	
+R13	RH p.74 Chaos Dragon	Añadir Impetuous	OK	data.js woc_lord_dragon	
+R14	RH p.76 Hellcannon	Base 100x150 (Cañón), 25x25 (Manejadores)	OK	data.js woc_hellcannon baseW 100 baseD 150	
+R15	RH p.77 Gifts of Chaos	Cada Don solo una vez por ejército y no afecta a la montura	OK	data.js:4603 (una vez), mont fusionada	v811: añadidos perfiles propios de montura (HA3 F3 I3 A1; fuente tow.whfb.app, transcripción del libro) a Duque/Barón/Paladín de Bretonia, Doncella/Profetisa/Sargento a caballo (Corcel bretoniano y Corcel), Jefe de Guerra Orco en jabalí (Jabalí de guerra M7 HA3 F3 I3 A1) y Señor del Claro a caballo (Corcel élfico M9 HA3 F3 I4 A1); el jinete conserva su A. Antes pendiente: Carnicero/Maestro Matarife con Caldero, Rey Ghoul en Terrorgheist, Motor Mortis, Taur'ruk, Centigor, demonios mayores (sin perfil separado jinete/montura en las fuentes del repo). v814: Rey Ghoul en Terrorgheist (jinete A5 + Terrorgheist HA3 F5 I3: 3 garras FP −1 Perf. 1 envenenadas + 1 ataque de Fauces rancias FP −2 Perf. 1 Heridas múltiples 2 no envenenado, opcional) y Nigromante/Acólito en Motor Mortis (jinete + 3 Banshees HA3 F3 I3 + Horda espectral D6 ataques HA3 F3 I1) con perfil propio por ranuras. Carnicero con Caldero (opción, no montura), Taur'ruk, Centigores y demonios mayores son modelos únicos (un solo perfil en el libro): no hay división jinete/montura que aplicar. CERRADO.
+R16	RH p.77 Diabolic Splendour / Enchanting Aura	Solo infantería o caballería	OK	data.js:2744-2745, main.js:611	Filtro en constructor
+R17	RH p.80 Infernal Puppet	"Si no huye ni está trabado puede usarlo cuando un Mago enemigo a 15"" lance"	OK	rules.js:3711	
+R18	RH p.99-101 Minotaurs, Centigors, Dragon Ogres	Puntos 44, 17, 59	OK	data.js bm_minotaurs, bm_centigors, bm_dragon_ogres	
+R19	RH AJ O&G p.35 Da Skull Smasha	Elegir el Kiknik en el Paso 1.1	OK	rules.js/main.js: pref smasha (ai optionGroups sm)	
+R20	RH AJ O&G p.40 Badlands Ogre Bulls	Campeón Crusher cuesta +7	OK	data.js CMD.orc_ogre_bulls	+7
+R21	RH AJ O&G p.45 Foetid Whirlpool	"Terreno difícil; D6"" cada Inicio de turno; D3+3 impactos F4 FP-3"	OK	data.js SPELLS.foetid_whirl.vx, rules.js:5352-5385	v751 reverificado: FAQ RH: terreno difícil, D6" por Inicio de turno, D3+3 impactos F4 FP −3 (data.js foetid_whirl vx.ap 3)
+R22	RH AJ O&G p.45 Torrent of Filth / Rapid Regeneration	Valor 7+ y 8+	OK	data.js SPELLS.torrent_filth cv7, rapid_regen cv8	v751 reverificado: FAQ RH: Torrente de Inmundicia 7+ y Regeneración Rápida 8+ (data.js)
+R23	RH AJ O&G p.46 Da Akrit Axe	F solo contra modelos a los que cargó	OK	rules.js:4436 (chargedIds)	
+R24	RH AJ WoC p.35 Storm's Wrath	F solo contra enemigos cargados	OK	rules.js:4436 (chargedIds)	v751 reverificado: v751 FAQ AJ Caos: Tormenta Furiosa, el modificador de Fuerza solo vale contra los enemigos a los que cargó este turno (melee.chargedS)
+R25	RH AJ WoC p.38-39 Marauder Chieftain / Berserkers	Base 30x30	OK	data.js woc_chieftain, woc_berserkers	
+R26	RH AJ WoC p.40 Skin Wolves	Base 50x50, Skin Wolf Jarl (Champion), añadir Fear	OK	data.js woc_skinwolves	Base 50x50, Miedo, Jarl +7
+R27	RH AJ WoC p.44 Warpfire Dragons	Añadir Close Order	OK	data.js woc_warpfire (closeOrder)	
+R28	RH AJ Beastmen p.32 Dark Coven	+1 a Casting o Dispel con otro Mago amigo en rango de mando	OK	rules.js:3786 (dBonus covenMates)	
+R29	RH AJ Beastmen p.45 Strangleroot	Valor 8+	OK	data.js SPELLS.strangleroot cv8	v751 reverificado: FAQ RH: Raíz Estranguladora 8+ (data.js strangleroot cv 8)
+R30	RH AJ Beastmen p.47 Banner of the Warped Moon	Un solo uso	OK	data.js:2812 (single:true)	v751 reverificado: FAQ RH: Estandarte de la Luna Distorsionada «Un solo uso» (single:true)
+R31	RH AJ TK p.35 Sepulchral Animus	Una vez por turno, unidad nominada pierde 1 Herida, +1 al lanzamiento	OK	rules.js:3669-3746	
+R32	RH AJ TK p.41 Flail of Conquered Kings	F solo contra enemigos cargados	OK	rules.js:4436 (chargedIds)	
+R33	RH AJ TK p.42 Stone Shaper	Mejora la Regeneración en 1 hasta el final del turno	OK	rules.js:5402-5404, 1686	v751 reverificado: FAQ: el efecto dura hasta el final del turno (fx endTurn se retira en rules.js al cerrar el turno)
+R34	RH AJ TK p.45 Tomb Guard Chariots	Puntos 49	OK	data.js tk_guardchariot	
+R35	RH p.47,117,155 Brain Bursta / Mork's Curse / Viletide / Usekhp	Valores 9+, 7+, 9+, 9+	OK	data.js SPELLS (cv 9,7,9,9)	
+R36	RH p.141 Skeleton Chariots	Puntos 41 y armadura 4+	OK	data.js tk_chariot (41, Sv 4)	
+R37	RH p.149 Casket of Souls	Hechizos ligados con Nivel de Poder 2	OK	data.js:2354 (bound 2), tk_casket	
+R38	RH p.150 Flail of Skulls	F solo contra enemigos cargados	OK	rules.js:4436 (chargedIds)	
+R39	RH p.151 Armour of the Ages	Solo infantería, caballería o carro	OK	data.js:2755, 3201, main.js:611	
+R40	AJ Westerland p.39 Chaos Marauders (sustituye RH p.62)	Perfil, peana 30x30, arma a dos manos +2/mayal +1, escudos +1, Cultos +1, Cabecilla +7, Emboscadores/Escaramuzadores/Orden abierto 0-1 por 1.000	OK	data.js woc_marauders opts (CULT_OPTS)	Verificado frente al AJ (v783)
+R41	AJ Westerland p.39 Marauder Horsemen (sustituye RH p.69)	Lanza de caballería/arrojadiza/mayal, hachas arrojadizas +1, Cultos +1, Emboscadores/Escaramuzadores 0-1 por 1.000	OK	data.js woc_horsemen opts (CULT_OPTS)	Verificado frente al AJ (v783)
+RQ01	RH FAQ O&G	"Fanáticos pueden soltarse con la unidad trabada si caben a 3"""	OK	rules.js:5109-5113 (sin exclusión de trabada)	
+RQ02	RH FAQ O&G	Fanático que contacta una unidad continúa en línea recta y golpea las unidades que cruza	OK	rules.js:5054-5062	
+RQ03	RH FAQ O&G	Fanáticos no puntúan PV por separado (incluidos en la unidad)	OK	data.js:3672 (coste en la unidad), rules.js:5062	
+RQ04	RH FAQ O&G	Fanático contra estacas defensivas se detiene y es retirado	OK	rules.js:5794 (fanaticMove: stakeU)	El Fanático se detiene y muere al tocar estacas defensivas
+RQ05	RH FAQ O&G	Fanático que acaba a rango de mando de Hostile Terrain hace Terreno peligroso	OK	rules.js:5794 (fanaticMove: hostileTerrain)	
+RQ06	RH FAQ O&G	Big 'Uns: monturas se benefician; Impact Hits con F sin modificar	OK	rules.js mS bigUns	Montura con +1 F y Perforante
+RQ07	RH FAQ O&G	"Doom Diver puede mover la plantilla D3"" para alcanzar a un personaje cercano"	OK	rules.js diverPref; main.js; ai.js	v795/v800: la plantilla mueve el D3 completo; el jugador elige en el momento (popup) entre 16 rumbos de 22,5 grados, hacia un personaje enemigo cercano o el que mas impactos logre
+RQ08	RH FAQ O&G	Goblins temen a los Elfos; Fear de Elfos no es Terror	OK	rules.js:2864	
+RQ09	RH FAQ O&G	Glowy Green Amulet en lugar del dispel; sin dispel adicional aunque explote	OK	rules.js:4372-4379 (glowyBoom => sin dispersión de Mago)	VERIF v765: rules.js:4904-4913 el Amuleto sustituye a la dispersión de Mago aunque explote; el jugador decide usarlo o no (pref noGlowy, main.js:1327)
+RQ10	RH FAQ O&G AJ	Ogdruz con Lore Familiar elige de ambos Saberes	OK	data.js orc_ogdruz lores elementalism, troll	
+RQ11	RH FAQ O&G AJ	Boar Boys Core solo con General Orc Warboss; Black Orc Boss/chariot en Nomadic Waaagh	OK	data.js:4452-4456 (nomad: Jinetes de Jabalí básicos solo con General Jefe de Guerra orco)	VERIF v765: data.js:4690-4693 Jinetes de Jabalí Básica solo con General Jefe de Guerra Orco; data.js:4919 un Jefe Orco Negro por Carro de Jabalíes (sea cual sea su montura)
+RQ12	RH FAQ O&G AJ	Troll Hag no puede ser General en Grand Army, sí en Troll Horde	OK	data.js:3314-3320 (OR_TROLL)	Comprobado en lista de Troll Horde
+RQ13	RH FAQ O&G AJ	Troll Hag con arma mágica no la usa en Motherly Love	OK	rules.js motherlyAttack	Sin objetos del arma
+RQ14	RH FAQ O&G AJ	Idol of Gork no aumenta el aura de hechizos Self	OK	rules.js:3598 (buzgob solo si sp.range > 0)	No aumenta el aura de los hechizos Self
+RQ15	RH FAQ WoC	Infernal Puppet funciona contra hechizo ligado	OK	rules.js:3711	
+RQ16	RH FAQ WoC	Marca del jinete no se extiende al carro	OK	rules.js (mark por unidad fusionada)	Marca por unidad fusionada; falta opción de pagar la marca del carro v815: opción «Marca del carro igual a la del jinete (+10)» (chm) para Señor/Exaltado/Aspirante en Carro del Caos con Marca distinta de la Indivisa; sin ella el carro conserva la Marca Indivisa: los ataques de la montura no son Flamígeros por la Marca de Tzeentch (Frenesí, +1 I, RM y 6 repetidos de Nurgle son reglas del modelo-jinete). Validador: chm exige Marca ≠ Indivisa.
+RQ17	RH FAQ WoC AJ	Warrior's Duel sin campeones de 1 Herida: tirada normal	OK	rules.js:507	
+RQ18	RH FAQ WoC AJ	Warrior's Duel sin estandartes mágicos de la unidad	OK	rules.js clashDuel	Sin estandarte ni unidad
+RQ19	RH FAQ WoC AJ	Personaje unido a Skin Wolves no es transfigurado	OK	rules.js	fx por unidad: el personaje no se transfigura
+RQ20	RH FAQ Beastmen	Hagtree Fetish no repite heridas de hechizos ligados	OK	rules.js:3411	
+RQ21	RH FAQ Beastmen	Blood Greed: un solo D6 al perseguir solo si está Frenético	OK	rules.js:4986	
+RQ22	RH FAQ Beastmen AJ	0-1 Piedra de las Manadas por ejército	OK	data.js:802 (max 1)	
+RQ23	RH FAQ Beastmen AJ	Dark Coven con Plague Chalice: ambos resultados	OK	rules.js:4351 (doble natural + Cáliz + aquelarre: ambos resultados)	
+RQ24	RH FAQ Beastmen AJ	Daemon Heart no aumenta el alcance de dispersión	OK	rules.js:3255 (dHeart solo en dMod)	
+RQ25	RH FAQ TK	Necrosphinx decapitating strike: un ataque adicional	OK	data.js tk_necrosphinx slots (xFix)	Golpe decapitador (RH p.~): 1 ataque extra F+5, FP −4, Golpe letal, Golpear el último; Matamonstruos no modelado en la ranura
+RQ26	RH FAQ TK	Light of Protection no acumulable	OK	rules.js:3614, 1674	
+RQ27	RH FAQ TK	Casket of Souls puede mover con Reserve Move fuera de Remaining Moves	OK	rules.js previewMove	Inamovible solo bloquea Movimientos restantes
+RQ28	RH FAQ TK	Resucitar modelos en Skirmishers en coherencia	OK	rules.js (invocación)	Modelo agregado: siempre coherente
+RQ29	RH FAQ TK AJ	Terrors Below usa la FU de la unidad que lo usa	OK	rules.js:5210-5212 (usOf(res))	
+RQ30	RH FAQ TK AJ	Escudos de la tripulación no mejoran AV de Tomb Guard chariots	OK	data.js tk_guardchariot Sv fijo	
+TOTAL OK=126 PARCIAL=47 AUSENTE=19 NA=6

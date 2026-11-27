@@ -1,0 +1,11 @@
+AJCH-001	AJ Chaos	Frydaal el Cadenero: perfil, Ira de la Tormenta (F+2 solo 1a ronda), Ataques adicionales (D3)	OK	data.js; rules.js flailFirst/extraD3	v646
+AJCH-002	AJ Chaos	Galrauch, el Gran Dragon: perfil, armadura, Aliento del Cambio, Espiritu de Galrauch	OK	data.js	v646 (M10 = Vuelo 10 segun convencion del motor)
+AJCH-003	AJ Chaos	Capitana, Comandante, Asaltante sin igual; listas Lobos del Mar y Heraldos de la Oscuridad (Hueste Montada, Corceles, Sombra, Favor de los Dioses, Duelo, Asaltantes del Mar)	OK	INF.seawolves/heralds	v646
+AJCH-004	AJ Chaos	Lobos de Piel: sin Miedo, Forma deformada elegida por el jugador (wfPref), efectos	OK	data.js; rules.js	v647/v648
+AJCH-005	AJ Chaos	Jefe de Tribu Marauder: Armadura del Caos 6+, opciones, variante montada	OK	data.js	v647
+AJCH-006	AJ Chaos	Berserkers de la Tribu (Guerreros implacables, Frenesi) y Huscarls (Instruidos +2, 0-1/1000)	OK	data.js	v647/v648
+AJCH-007	AJ Chaos	Carro de Elegidos / Chosen Chaos Chariots	OK	data.js	v648
+AJCH-008	AJ Chaos	Engendro Gigante del Caos: Fauces rechinantes (1 ataque/turno, FP-2, recupera 1 Herida por Herida causada)	OK	data.js melee.maw.heal	Implementado: el arma "Golpea al final" se resuelve en el último paso de Iniciativa (melee.maw con slot propio).
+AJCH-009	AJ Chaos	Dragon Warpfire: perfil, Fuego y Caos, Aura, Final explosivo, Rafaga	OK	data.js	v649
+AJCH-010	AJ Chaos	Artefactos de los Poderes Ruinosos: Daga del Panteon Oscuro (lanzar y disipar), Guadana, Hoja, Latigo, Cota, Escamas, Talismanes, Estandartes, Colgante, Barda, Tomo, Vara, Cetro, Grimorio	OK	data.js items	v650
+AJCH-020	AJ Chaos	Escenario The Ruins of Hollum (Saga del Cadenero)	OK	rules.js SCN	verificado en sesiones previas

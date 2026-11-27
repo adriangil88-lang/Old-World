@@ -1,0 +1,1045 @@
+                          SKAVEN
+                         Legacy Army List
+                    For Use With Warhammer: The Old World Rules
+This document allows you to play a Skaven Army from the Warhammer Fantasy Battles range in games using the
+      rules from Warhammer: The Old World. To use the contents of this document, you will need a copy
+                                 of the Warhammer: The Old World rulebook.
+
+            The rules contained within this document allow players the opportunity to try out the
+             Warhammer: The Old World rules using models they may have in their collection.
+         They are not intended for use in matched play events and will not be updated in line with any
+                              future Warhammer: the Old World publications.
+                                                      Skaven
+T   he Skaven are a malevolent race of ratmen that lair in darksome tunnels far beneath the Warhammer world. When
+    they march to war, they do so as a multitudinous horde with a staggering amount of troops at their disposal, from
+rank after rank of warriors to packs of war beasts. Specialist troops march alongside large blocks of infantry, and towering
+over these scurrying hordes are the devilish war machines of this wickedly clever race, each an insane blend of magic
+and technology.
+
+This document contains the following information:                    CONTENTS
+Grand Army Composition List: The default army                        Skaven Legacy Army List	�����������������������������������������������������������2
+composition list for the Skaven.                                      Grand Army Composition List	���������������������������������������������������������2
+                                                                      Magic Items.............................................................................................20
+Profiles: Every model available to the Skaven has a profile.          Special Rules............................................................................................23
+Here, you will find that model’s characteristics, its equipment,      Lore of the Horned Rat	���������������������������������������������������������������������24
+its points value, details of any special rules unique to it
+and more.
+
+Magic Items: As well as the Common magic items detailed
+in the Warhammer: the Old World rulebook, this army list
+includes a number of magic items unique to the Skaven.
+
+Special Rules: This section covers rules unique to the Skaven.
+
+The Lore of…: Unique spells used in conjunction with
+the Lores of Magic found in the Warhammer: the Old
+World rulebook.
+
+
+
+
+   © Copyright Games Workshop Limited 2024. Warhammer: the Old World, Citadel, Forge World, Games Workshop, GW,
+   Warhammer, the ‘winged-hammer’ Warhammer logo, and all associated logos, illustrations, images, names, creatures, races,
+         vehicles, locations, weapons, characters, and the distinctive likenesses thereof, are either ® or TM, and/or ©
+                                Games Workshop Limited, variably registered around the world.
+                                                      All Rights Reserved.
+
+                                        Permission to download/print for personal use only.
+
+                  This is a work of fiction. All the characters and events portrayed in this download are fictional,
+                               and any resemblance to real people or incidents is purely coincidental.
+                     Skaven Legacy Army List
+T   his page details the Grand Army composition list for the Skaven. This is the default army composition list for this
+    faction. Using this army composition list to write your muster list will give you the widest variety of units to choose
+from and create a broad and balanced force.
+
+This army list is intended for use alongside the ‘Forming Units’ and ‘Warhammer Armies’ sections of the Warhammer: the Old
+World rulebook. Over the following pages you will find profiles and rules for each of the models in your army. These pages give
+you all of the information that you need to shape your collection of models into the units which will in turn form a force ready
+for battle.
+
+Grand Army Composition List
+Characters                                                         Rare
+Up to 50% of your army’s points value may be spent on:             Up to 25% of your army’s points value may be spent on:
+
+• 0-1 Skaven Warlord or Grey Seer per 1,000 points                 • 0-1 Hell Pit Abomination per 1,000 points
+• 0-1 Clan Skryre Warlock Engineer,                                • If your army includes one or more Clan Skryre Warlock
+  Clan Eshin Master Assassin or                                      Engineers, 0-1 of the following may be taken per
+  Clan Pestilens Plague Priest per 1,000 points                      1,000 points:
+• Skaven Chieftains                                                  - Doomwheel
+                                                                     - Warp Lightning Cannon
+Core                                                               • If your army includes one or more Clan Pestilens Plague
+At least 25% of your army’s points value must be spent on:           Priests, 0-1 of the following may be taken per 1,000 points:
+                                                                     - Plagueclaw Catapult
+• 0-1 unit of Stormvermin per 1,000 points                           - Unit of Plague Censer Bearers
+• 1+ unit of Clanrats per 1,000 points
+• Nightrunners, Giant Rats and Rat Swarms                          Mercenaries
+                                                                   Up to 20% of your army’s points value may be spent
+Special                                                            on mercenaries.
+Up to 50% of your army’s points value may be spent on:
+                                                                   Allies
+• Gutter Runners                                                   Up to 25% of your army’s points value may be spent on a single
+• 0-2 units of Rat Ogres per 1,000 points                          allied contingent drawn from one of the following Grand
+• 0-1 unit of Plague Monks per                                     Army composition lists:
+  Clan Pestilens Plague Priest taken
+• 0-1 unit of Warplock Jezzails per                                • Warriors of Chaos (Uneasy)
+  Clan Skryre Warlock Engineer taken
+• 0-1 unit of Poisoned Wind Globadiers per
+  Clan Skryre Warlock Engineer taken                                  Battle Standard Bearer
+                                                                      A single Skaven Chieftain in your army may be upgraded
+                                                                      to be your Battle Standard Bearer for +25 points. In
+                                                                      addition to their usual allowance of points to spend on
+                                                                      magic items, a Battle Standard Bearer can purchase a
+                                                                      single magic standard with no points limit.
+Commanders Of The Warlord Clans
+                                                                                                                                                                    Character
+                                              M        WS         BS          S         T         W          I         A        Ld         Points
+Skaven Warlord                                5         6          4          4         4         3          7         4         7           90
+Skaven Chieftain                              5         5          4          4         4         2          6         3         6           45             Skaven Warlords
+                                                                                                                                                            To hold the title of Warlord
+Troop Type:                 Regular infantry (character)                                                                                                    is to rule. Skaven do not
+Base Size:                  25 x 25 mm                                                                                                                      earn their rank through
+Unit Size:                  1                                                                                                                               experience, noble birth or
+Equipment:                  Hand weapon and light armour                                                                                                    respect as other races do.
+                                                                                                                                                            Instead, they sneak, cheat and
+Options:                                                                                                                                                    murder their way to the top
+• May take one of the following:                                                                                                                            – only the most devious and
+  - Additional hand weapon................................................................................................... +3 points                     cunning can hope to rule in
+  - Great weapon......................................................................................................................... +4 points         the undercities. Any Skaven
+  - Halberd.................................................................................................................................... +3 points   Warlord or Chieftain worth
+• May take a shield........................................................................................................................ +2 points       their fur knows that any one
+• May replace light armour with heavy armour................................................................. +3 points                                     of their underlings may one
+• A Skaven Warlord may purchase magic items up to a total of................................. 100 points                                                    day challenge them for the
+• A Skaven Chieftain may purchase magic items up to a total of..................................50 points                                                   right to lead, so even the most
+                                                                                                                                                            powerful and proven leaders
+Special Rules: Scurry Away, Verminous Valour, Warband, Warpstone Weapons                                                                                    possess an unhealthy level of
+                                                                                                                                                            paranoia when it comes to
+                                                                                                                                                            trust and betrayal.
+Grey Seers
+                                                                                                                                                            Grey Seers
+                                              M        WS         BS          S         T         W          I         A        Ld         Points           Marked for greater purpose
+Grey Seer                                     5         3          3          3         4         3          5         2         7          185             at birth by their rare white
+                                                                                                                                                            fur, Grey Seers are different
+Troop Type:                 Regular infantry (character)                                                                                                    from other Skaven thanks to
+Base Size:                  25 x 25 mm                                                                                                                      the small nub-like growths
+Unit Size:                  1                                                                                                                               on the tops of their heads.
+Equipment:                  Hand weapon and                                                                                                                 Should the Grey Seer live
+                            D3 Warpstone Tokens (see page 22, roll before armies are deployed)                                                              long enough, these will
+                                                                                                                                                            eventually become fully
+Magic: A Grey Seer is a Level 3 Wizard. Every Grey Seer knows spells from one of the                                                                        formed horns that command
+following Lores of Magic:                                                                                                                                   fear and subjugation in
+• Battle Magic                                                                                                                                              other Skaven. Even the most
+• Daemonology                                                                                                                                               powerful of Skaven Warlords
+• Dark Magic                                                                                                                                                will confer with a Grey
+• Elementalism                                                                                                                                              Seer before enacting their
+• Illusion                                                                                                                                                  nefarious plans.
+
+Options:
+• May be a level 4 Wizard.........................................................................................................+30 points
+• May be mounted on a Screaming Bell............................................................................. See page 15
+• May purchase magic items up to a total of...................................................................... 100 points
+
+Special Rules: Lore of the Horned Rat, Magical Attacks, Magic Resistance (-1),
+               Scurry Away, Verminous Valour, Warband, Warpstone Weapons*
+
+*Note that this special rule does not apply to this model’s mount (should they have one).
+Clan Skryre Warlock Engineers
+                                                                                                                                                           Character
+                                            M       WS        BS         S         T        W          I        A        Ld        Points
+Warlock Engineer                            5        3         3         3         3        2          4        2         5          35
+                                                                                                                                                   Clan Skryre
+Troop Type:               Regular infantry (character)                                                                                             The notorious Warlock
+Base Size:                25 x 25 mm                                                                                                               Engineers of Clan Skryre
+Unit Size:                1                                                                                                                        are the crazed inventors and
+Equipment:                Hand weapon and                                                                                                          artificers of Skaven society,
+                          D3 Warpstone Tokens (see page 22, roll before armies are deployed)                                                       blending the arcane with the
+                                                                                                                                                   mechanical in an insane and
+Magic: A Warlock Engineer may be a Wizard (see below). A Warlock Engineer that is a                                                                mind-boggling mix. For the
+Wizard knows spells from one of the following Lores of Magic:                                                                                      other races of the world, it
+                                                                                                                                                   can be difficult to discern
+• Battle Magic                                                                                                                                     where the science stops and
+• Elementalism                                                                                                                                     the magic begins, but that
+                                                                                                                                                   naivety has never stopped the
+Options:                                                                                                                                           Warlock Engineers – for they
+• May be a:                                                                                                                                        truly see science and magic as
+  - Level 1 Wizard....................................................................................................................+40 points   one. These sorcerer-inventors
+  - Level 2 Wizard....................................................................................................................+70 points   often go to war carrying their
+• May take one of the following:                                                                                                                   newest and most devastating
+  - Warplock musket (see below).......................................................................................... +9 points                contraptions, whirring,
+  - Warplock pistol (see below).............................................................................................. +6 points            hissing and clanking onto the
+• May purchase magic items up to a total of.........................................................................50 points                      field as they unleash blasts of
+                                                                                                                                                   warp lightning, warpfire and
+Special Rules: Lore of the Horned Rat, Magical Attacks, Scurry Away,                                                                               noxious gas.
+               Verminous Valour, Warband, Warpstone Weapons
+
+                          R       S      AP       Special Rules
+Warplock musket          24"      5      -2       Magical Attacks, Ponderous
+Notes: If the wielder of a warplock musket rolls a natural 1 when making a roll To Hit when
+shooting this weapon, immediately roll another D6. On a roll of 1, the wielder loses a single Wound.
+
+                          R       S      AP         Special Rules
+Warplock pistol          12"      4       -2        Magical Attacks, Quick Shot
+Notes: If the wielder of a warplock pistol rolls a natural 1 when making a roll To Hit when
+shooting this weapon, immediately roll another D6. On a roll of 1, the wielder loses a single Wound.
+Clan Eshin Master Assassins
+                                                                                                                                        Character
+                                      M      WS       BS        S       T       W        I       A       Ld      Points
+Master Assassin                       6       8        7        4       4       2        8       3        7        90
+                                                                                                                                Master Assassins of
+Troop Type:            Regular infantry (character)                                                                             Clan Eshin
+Base Size:             25 x 25 mm                                                                                               Skaven Master Assassins
+Unit Size:             1                                                                                                        are the skilful warriors and
+Equipment:             Two hand weapons and throwing weapons                                                                    elite killers in the shadowy
+                                                                                                                                Clan Eshin. Those few who
+Options:                                                                                                                        know of the existence of the
+• May purchase magic items up to a total of.........................................................................50 points   black-clad Master Assassins
+                                                                                                                                fear them above almost
+Special Rules: Ambushers, Eshin Infiltration, Evasive, Feigned Flight, Fire & Flee,                                             anything else; for once you
+               Hidden, Move through Cover, Poisoned Attacks, Scurry Away,                                                       have been marked for death
+               Verminous Valour, Warpstone Weapons                                                                              by the Shadow Clan, it is only
+                                                                                                                                a matter of time before they
+Eshin Infiltration                                                                                                              find you. Sabotage, arson
+Seldom will a Clan Eshin Master Assassin reveal their presence unless a hidden army of Gutter                                   and poisoning all contribute
+Runners lurks close by.                                                                                                         to a Master Assassin’s fatal
+                                                                                                                                bag of tricks, and these skills
+When a friendly unit of Gutter Runners with the Ambushers special rule arrives from                                             are relied upon by Skaven
+reserve, it can be placed on the battlefield anywhere completely within 12" of a revealed                                       Warlords to ensure their
+Master Assassin, but not within 6" of any enemy models (rather than entering the battle as                                      position of power is secure.
+reinforcements). The unit cannot charge during this turn and counts as having moved for                                         None rely upon the Master
+the purposes of shooting, but can otherwise act as normal.                                                                      Assassins as heavily as the
+                                                                                                                                Grey Seers, who regularly call
+Note that this character cannot use this special rule whilst it remains hidden.                                                 upon Clan Eshin’s services
+                                                                                                                                to ensure the nefarious will
+Hidden                                                                                                                          of the Great Horned Rat is
+Clan Eshin Master Assassins hide amongst the teeming hordes of Skaven infantry, ready to strike                                 carried out.
+at the unsuspecting enemy.
+
+Master Assassins are not placed on the battlefield at the start of the game. Instead, they
+are ‘hidden’ within a friendly Skaven unit whose troop type is ‘infantry’ and that has a Unit
+Strength of ten or more. Make a note of which unit each Master Assassin is hiding within.
+A hidden Master Assassin may be revealed during any Start of Turn sub-phase or at the
+start of any Combat phase. Position the revealed Master Assassin as you would a character
+that has joined the unit.
+
+If a unit in which a Master Assassin is hiding is destroyed or flees the battlefield before
+the Master Assassin is revealed, the Master Assassin is removed as a casualty. A Master
+Assassin cannot be your army General.
+Clan Pestilens Plague Priests
+                                                                                                                                                          Character
+                                            M       WS        BS         S         T        W          I        A        Ld        Points
+Plague Priest                               5        5         3         4         5        2          5        3         6          60
+                                                                                                                                                   Plague Priests of
+Troop Type:               Regular infantry (character)                                                                                             Clan Pestilens
+Base Size:                25 x 25 mm                                                                                                               Plague Priests are the most
+Unit Size:                1                                                                                                                        degenerate ratmen of Clan
+Equipment:                Hand weapon                                                                                                              Pestilens, leading their foul
+                                                                                                                                                   kin in the creation of new and
+Magic: A Plague Priest may be a Wizard (see below). A Plague Priest that is a Wizard                                                               virulent infections – forever
+knows spells from one of the following Lores of Magic:                                                                                             searching for the ultimate
+• Battle Magic                                                                                                                                     contagion that will bring
+• Daemonology                                                                                                                                      the world to its knees. It is
+• Dark Magic                                                                                                                                       these fanatical individuals
+                                                                                                                                                   that encourage and foster
+Options:                                                                                                                                           the frenzied zealotry of the
+• May be a:                                                                                                                                        Plague Monks, teaching
+  - Level 1 Wizard....................................................................................................................+30 points   them dark litanies of hate
+  - Level 2 Wizard....................................................................................................................+60 points   and sickness. Plague Priests
+• May take one of the following:                                                                                                                   claim that the Horned Rat,
+  - Additional hand weapon................................................................................................... +3 points            Harbinger of Disease, is the
+  - Plague censer (see below)................................................................................................... +6 points         one who grants them arcane
+• May be mounted on a Plague Furnace............................................................................ See page 16                       powers on their disgusting
+• May purchase magic items up to a total of.........................................................................50 points                      mission. Whether their
+                                                                                                                                                   sorcerous might comes from
+Special Rules: Cloud of Flies, Frenzy, Lore of the Horned Rat, Magical Attacks,                                                                    some foul divine presence, or
+               Scurry Away, Verminous Valour, Warband, Warpstone Weapons*                                                                          from many hours studying
+                                                                                                                                                   the foetid Book of Woe, there
+*Note that this special rule does not apply to this model’s mount (should they have one).                                                          is no denying the grim
+                                                                                                                                                   effectiveness of the Plague
+Cloud of Flies                                                                                                                                     Priests’ noxious magic.
+Swarms of fat flies surround the Plague Priests of Clan Pestilens, blinding and choking
+their enemies.
+
+Any enemy model that directs its attacks against this character during the Combat phase
+suffers a -1 modifier to its rolls To Hit.
+
+                         R       S      AP       Special Rules
+Plague censer         Combat S+2        -1       Poisoned Attacks, Requires Two Hands
+Notes: A plague censer’s Strength modifier applies only during the first round of combat. In
+addition, during the Combat phase, a model armed with a plague censer may re-roll any rolls To
+Wound of a natural 1.
+Stormvermin
+                                                                                                                                                             Infantry
+                                            M       WS         BS         S        T         W         I         A        Ld        Points
+Stormvermin                                 5        4          3         3        3         1         5         1         5          10
+Fangleader                                  5        4          3         3        3         1         5         2         6         +8             Stormvermin
+                                                                                                                                                    It is easy to tell Stormvermin
+Troop Type:               Regular infantry                                                                                                          apart from their kin, for
+Base Size:                25 x 25 mm                                                                                                                they often stand a full head
+Unit Size:                10+                                                                                                                       and shoulders taller than
+Equipment:                Hand weapons, halberds and heavy armour                                                                                   their scrawny litter-mates,
+                                                                                                                                                    with powerful muscles and
+Options:                                                                                                                                            silky-smooth pelts of dark
+• The entire unit may take shields........................................................................+1 point per model                        brown and black. Serving
+• Any unit may:                                                                                                                                     alongside their Warlord or
+  - Upgrade one model to a Fangleader (champion)..................................... +8 points per unit                                            Chieftain, Stormvermin
+  - Upgrade one model to a standard bearer.................................................... +6 points per unit                                   form the vanguard of most
+  - Upgrade one model to a musician................................................................. +6 points per unit                             Skaven forces where they
+  - Purchase a magic standard worth up to.........................................................................50 points                         can quickly take the fight to
+  - Have one attached weapon team...................................................................................See page 8                      the enemy with their saw-
+  - A Fangleader may purchase magic items up to a total of........................................25 points                                         bladed halberds.
+
+Special Rules: Close Order, Horde, Scurry Away, Warband, Warpstone Weapons                                                                          Clanrats
+                                                                                                                                                    Most Skaven are Clanrats,
+                                                                                                                                                    members of the vast horde of
+Clanrats                                                                                                                                            feral ratmen that belong to
+                                                                                                                                                    one of the thousands of clans
+                                            M       WS         BS         S        T         W         I         A        Ld        Points          scattered throughout the
+Clanrat                                     5        3          3         3        3         1         4         1         4          4             Under-Empire. Whilst a lone
+Clawleader                                  5        3          3         3        3         1         4         2         5         +7             Clanrat lacks the courage
+                                                                                                                                                    to cause any real threat,
+Troop Type:               Regular infantry                                                                                                          when they band together
+Base Size:                25 x 25 mm                                                                                                                in great numbers they will
+Unit Size:                20-40                                                                                                                     eagerly throw themselves
+Equipment:                Hand weapons and light armour                                                                                             towards the enemy with
+                                                                                                                                                    animalistic ferocity.
+Options:
+• The entire unit may take any of the following:
+  - Thrusting spears................................................................................................+1 point per model
+  - Shields....................................................................................................................+1 point per model
+• Any unit may:
+  - Upgrade one model to a Clawleader (champion)..................................... +7 points per unit
+  - Upgrade one model to a standard bearer.................................................... +5 points per unit
+  - Upgrade one model to a musician................................................................. +5 points per unit
+  - Have one weapon team.....................................................................................................See page 8
+
+Special Rules: Close Order, Horde, Scurry Away, Warband
+Weapon Teams
+                                                                                                                                                    Infantry
+                                         M       WS        BS        S        T        W         I        A       Ld       Points
+Weapon Team Crew                         5        3         3        3        3        2         3        2        4         15
+                                                                                                                                           Clan Skryre
+Troop Type:              Regular infantry                                                                                                  Clan Skryre specialises in the
+Base Size:               25 x 50 mm                                                                                                        insane blending of sorcery
+Unit Size:               1                                                                                                                 and arcane technology. Its
+Equipment:               Hand weapons and light armour                                                                                     inventive members build
+                                                                                                                                           infernal devices capable of
+Options:                                                                                                                                   fiendish destruction and
+• A weapon team must take one of the following:                                                                                            manipulate the Winds of
+  - Doom-flayer....................................................................................................+40 points per model    Magic to cast spells and
+  - Poisoned Wind Mortar...............................................................................+55 points per model                intertwine enchantments
+  - Ratling Gun.....................................................................................................+50 points per model   into mechanical form. From
+  - Warpfire Thrower.........................................................................................+60 points per model          their warpforges under the
+  - Warp Grinder.................................................................................................+30 points per model      mythical city of Skavenblight,
+                                                                                                                                           Clan Skryre has produced
+Special Rules: Loner, Open Order, Scurry Away                                                                                              untold weaponry and risen
+                                                                                                                                           to become arguably the most
+                                                                                                                                           influential of all clans. By
+   Weapon Team Special Rules                                                                                                               selling their weird arsenal of
+   Deploying Weapon Teams: A Weapon Team must be deployed at the same time                                                                 devastation to the Warlord
+   as its ‘parent’ unit (the unit it was bought as an upgrade for), and must be deployed                                                   clans, Clan Skryre has grown
+   within 3" of that unit.                                                                                                                 wealthier than any other
+                                                                                                                                           clan. None dare offend Clan
+   Weapon Team Leadership: Whilst within 3" of its parent unit, a Weapon Team                                                              Skryre for fear of ending up at
+   gains a positive (+) modifier to its Leadership characteristic equal to the parent unit’s                                               the wrong end of any number
+   current Rank Bonus, up to a maximum of Leadership 10.                                                                                   of weapons that could melt,
+                                                                                                                                           blast, desiccate, or otherwise
+   Targeting Weapon Teams: If it is within 3" of its parent unit, and if that unit contains                                                cause grievous death.
+   five or more models (and is not itself fleeing), a Weapon Team cannot be targeted by
+   enemy shooting or by enemy spells, unless the Weapon Team is the closest target.
+Doom-Flayer
+A Doom-flayer is a motorised ball of whirling blades which, when propelled at speed into                        Infantry
+the ranks of the enemy, is capable of wreaking horrific damage upon even the most heavily
+armoured warriors.
+                                                                                                       Weapon Teams
+                        R         S      AP    Special Rules                                           The industrious and
+Doom-flayer           Combat      4      -1    Counter Charge, Extra Attacks (D6),                     innovative Clan Skryre is
+                                               Impact Hits (D6+1)                                      responsible for all manner
+Notes: Impact Hits caused by this weapon have an Armour Piercing characteristic of -2.                 of wild and dangerous
+                                                                                                       battlefield inventions,
+Poisoned Wind Mortar                                                                                   including the various weapon
+This muzzle-loaded weapon lobs the infamous Poisoned Wind globes of Clan Skryre a much                 teams that accompany the
+greater distance than the feeble arms of any mere Skaven could.                                        Skaven hordes into battle.
+                                                                                                       From bullet-spitting cannons
+                        R        S      AP      Special Rules                                          to motorised whirling
+Poisoned              6-24" 2 (4)        -      Bombardment, Cumbersome,                               blades, each of these devices
+Wind mortar                                     Move or Shoot, Poisoned Wind                           has just as much chance
+Notes: This weapon shoots like a stone thrower, using the ‘Bombardment’ special rule, a 3" blast       of annihilating those who
+template and the Black Powder Misfire table.                                                           operate them as they do of
+                                                                                                       slaying their intended targets!
+Ratling Gun
+A relatively modern invention, the multi-barrelled Ratling Gun spews a tremendous amount of
+lead shot, capable of quickly reducing enemy ranks to a bloody pulp and a red mist.
+
+                         R        S      AP     Special Rules
+Ratling Gun             18"       4      -1     Armour Bane (1), Multi-Barrelled,
+                                                Quick Shot
+Notes: This weapon shoots like an organ gun, using the ‘Multi-Barrelled’ special rule and the
+Black Powder Misfire table.
+
+Warpfire Thrower
+A Warpfire Thrower unleashes a hellish torrent of powdered warpstone and highly flammable
+chemicals that can turn an entire formation into a twitching pile of steaming goo.
+
+                         R        S      AP       Special Rules
+Warpfire Thrower         6"       4      -1       Column of Fire, Cumbersome,
+                                                  Flaming Attacks
+Notes: This weapon shoots like a fire thrower, using the ‘Column of Fire’ special rule and the Black
+Powder Misfire table. Any unit that suffers one or more unsaved wounds from this weapon must
+make a Panic test as if it had taken heavy casualties.
+
+Warp Grinder
+A Warp Grinder is a powerful tunnelling device, capable of rapidly boring through the earth and
+leaving a wide tunnel in its wake, through which the Skaven scurry to ambush their enemies.
+
+                        R         S      AP  Special Rules
+Warp Grinder          Combat      5      -3  (Ambushers), Killing Blow,
+                                             Requires Two Hands
+Notes: If a Weapon Team is equipped with a Warp Grinder, both it and its parent unit gain the
+Ambushers special rule.
+Warplock Jezzails
+                                                                                                              Infantry
+                               M       WS    BS     S      T     W          I   A   Ld     Points
+Jezzail Team                   5        3     3     3      3     2          3   2    5       19
+                                                                                                     Warplock Jezzails
+Troop Type:        Regular infantry                                                                  Named after their famous
+Base Size:         25 x 50 mm                                                                        long-barreled warplock rifles,
+Unit Size:         3+                                                                                Jezzails are a two-rat team
+Equipment:         Hand weapons, warplock jezzails (see below) and pavise                            made up of a gunner and
+Special Rules:     Open Order, Scurry Away, Warband                                                  a loader. The gunner fires
+                                                                                                     a great warpstone-infused
+Pavise                                                                                               rifle, whilst the loader feeds
+A pavise is a large, heavy shield, anchored to the ground by iron spikes.                            rounds into the weapon and
+                                                                                                     shields them both with a
+A pavise gives its wielder a 4+ armour value against attacks made by enemy models that lie           large pavise. The rounds are
+within the wielder’s front arc. However, a pavise offers no protection to its wielder against        launched at such high speeds
+attacks made by enemy models that lie within the wielder’s flank or rear arcs.                       that they can punch through
+                                                                                                     a breastplate and the body
+                          R        S        AP     Special Rules                                     within it before coming to
+Warplock jezzail         36"       6        -3     Cumbersome, Magical Attacks,                      a stop.
+                                                   Move or Shoot
+Notes: If the wielder of a warplock jezzail rolls a natural 1 when making a roll To Hit when         Poisoned Wind
+shooting this weapon, immediately roll another D6. On a roll of 1, the wielder is removed from       Globadiers
+play as a casualty.                                                                                  Though the Engineers of
+                                                                                                     Clan Skryre have attempted
+                                                                                                     many different methods for
+Poisoned Wind Globadiers                                                                             delivering their infamous
+                                                                                                     poison gas, none have
+                               M       WS    BS     S      T     W          I   A   Ld     Points    proved as effective as the
+Globadiers                     5        3     3     3      3     1          4   1    5       10      Globadiers. These specially
+                                                                                                     trained warriors hurl glass
+Troop Type:        Regular infantry                                                                  orbs filled with the deadly
+Base Size:         25 x 25 mm                                                                        warpstone gas into the ranks
+Unit Size:         2-10                                                                              of their foes.
+Equipment:         Hand weapons, Poisoned Wind globes (see below) and light armour
+Special Rules:     Scurry Away, Skirmishers, Warband
+
+                          R         S       AP      Special Rules
+Poisoned Wind             9"        2        -      Move & Shoot, Poisoned Wind, Quick Shot
+globes
+Notes: If the roll To Hit is successful, a Poisoned Wind globe causes D3 hits to the target enemy
+unit, rather than the usual one. However, if a natural 1 is rolled when making a roll To Hit with
+this weapon, immediately roll another D6. On a roll of 1, D3 hits are caused on the shooting unit.
+Rat Swarms
+                                                                                                                                                                            Infantry
+                                                M          WS        BS           S         T         W           I         A         Ld         Points
+Rat Swarms                                      6           2         0           2         2         5           4         5          4           36
+                                                                                                                                                                   Rat Swarms
+Troop Type:                  Swarms                                                                                                                                Common rats swarm all
+Base Size:                   40 x 40 mm                                                                                                                            about the Skaven. Some are
+Unit Size:                   3+                                                                                                                                    used by the Grey Seers to spy
+Equipment:                   Claws and fangs (counts as hand weapons)                                                                                              upon their enemies, others
+Special Rules:               Immune to Psychology, Loner, Skirmishers, Unbreakable, Vanguard                                                                       are ‘blessed’ with contagion
+                                                                                                                                                                   by Clan Pestilens, whilst
+                                                                                                                                                                   others swarm towards the
+Packmasters & Master Moulders                                                                                                                                      Skaven’s enemies as a great,
+                                                                                                                                                                   chittering mass.
+                                                M          WS        BS           S         T         W           I         A         Ld         Points
+Packmaster                                      6           3         3           3         3         1           4         1          6          +5               Clan Moulder
+Master Moulder                                  6           3         3           3         3         1           4         2          7          +7               Clan Moulder rose to
+                                                                                                                                                                   infamy by mastering the art
+Troop Type:                  Regular infantry                                                                                                                      of breeding, mutating, and
+Base Size:                   25 x 25 mm                                                                                                                            surgically creating monstrous
+Unit Size:                   (see Rat Ogre & Giant Rat profiles)                                                                                                   fighting beasts. Quite how
+Equipment:                   Hand weapons and light armour                                                                                                         they stitch together disparate
+                                                                                                                                                                   parts of mutated creatures is
+Options:                                                                                                                                                           unknown, for they jealously
+• Any Packmaster in the unit must take one of the following:                                                                                                       guard their methods. But it is
+  - Whip................................................................................................................................................... Free   no secret that Clan Moulder
+  - Things-catcher (see below)............................................................................................... +5 points                            is one of the wealthiest
+• A Master Moulder may purchase magic items up to a total of...................................25 points                                                           clans, or that a portion of
+                                                                                                                                                                   any Warlord clan’s military
+Special Rules: Close Order, Horde, Leader of the Pack, Motley Crew,                                                                                                strength was birthed in Hell
+               Scurry Away, Warband                                                                                                                                Pit, the loathsome stronghold
+                                                                                                                                                                   of the Master Moulders.
+Leader Of The Pack
+Though they often prefer to hide from the enemy, the Packmasters of Clan Moulder take to the
+battlefield to drive their bestial charges forward towards the foe.
+
+Models with this special rule can only be taken as part of a unit of Rat Ogres, or a unit
+of Giant Rats. Models with this special rule (including command group models) must be
+positioned at the rear of their unit, making up its rear rank(s). Any Rat Ogres or Giant Rats
+the unit contains must always occupy the front rank(s) of the unit, pushing past any models
+with this special rule to get there if necessary (such as when the unit turns).
+
+Note that a Master Moulder may issue and accept challenges even if they are not within the
+fighting rank.
+
+                                     R                 S          AP            Special Rules
+Things-catcher                     Combat              S          -1            Fight in Extra Rank, Killing Blow,
+                                                                                Requires Two Hands
+Rat Ogres
+                                                                                                                        Infantry
+                                 M     WS      BS      S      T      W       I      A     Ld      Points
+Rat Ogre                         6      4       1      5      4      3       4      3      5        48
+                                                                                                               Rat Ogres
+Troop Type:         Monstrous infantry                                                                         A nightmarish blend of
+Base Size:          50 x 50 mm                                                                                 Ogre and Skaven, Rat Ogres
+Unit Size:          3+                                                                                         are created by Master
+Equipment:          Hand weapons and mutated hides (counts as heavy armour)                                    Moulders using abominable
+                                                                                                               crossbreeding and arcane-
+Options:                                                                                                       enhanced surgery. In battle,
+• Any unit may:                                                                                                they are driven towards the
+  - Include one Packmaster for every two Rat Ogres........................................... +5 points each   enemy by their creators,
+  - Upgrade one Packmaster to a Master Moulder (champion)................................ +7 points            where the beasts will set
+                                                                                                               about the enemy with
+Special Rules: Armour Bane (2), Close Order, Fear, Frenzy, Horde, Safe from Harm,                              frenzied abandon; their thirst
+               Scurry Away, Warband                                                                            for violence and desperate,
+                                                                                                               insatiable hunger sees them
+Safe From Harm                                                                                                 rip apart any who stand in
+Rat Ogres are big, tough creatures and their Packmasters will instinctively shelter behind their               their path before feasting on
+enduring bulk.                                                                                                 whatever remains.
+
+When an enemy unit shoots at a unit of Rat Ogres that also contains one or more                                Giant Rats
+Packmasters, the enemy player must roll a D6 for each successful roll To Hit before making                     Additional heads, extra
+any rolls To Wound. On a roll of 1-4, the hit is inflicted upon a Rat Ogre. In combat, enemy                   clawed limbs, spines, bone-
+models must allocate their attacks against a model they are in base contact with (or against                   spikes and even tusk-like
+the closest model if they are within the fighting rank but not in base contact) before rolling                 incisors are all commonplace
+To Hit.                                                                                                        mutations upon the walking
+                                                                                                               abominations for which Clan
+                                                                                                               Moulder is renowned. In
+Giant Rats                                                                                                     battle, these mutant Giant
+                                                                                                               Rats will rip, tear and gnaw
+                                 M     WS      BS      S      T      W       I      A     Ld      Points       at any enemy within reach
+Giant Rat                        6      2       0      2      3      1       4      1      3        3          – leaving little but cracked
+                                                                                                               skulls and chewed bones in
+Troop Type:         War beasts                                                                                 their wake.
+Base Size:          25 x 25 mm
+Unit Size:          10-30
+Equipment:          Claws and teeth (counts as hand weapons)
+
+Options:
+• Any unit may:
+  - Include one Packmaster for every three Giant Rats...................................... +5 points each
+  - Upgrade one Packmaster to a Master Moulder (champion)................................ +7 points
+
+Special Rules: Close Order, Fight in Extra Rank, Horde, Scurry Away, Warband
+Night Runners
+                                                                                                                                                              Infantry
+                                            M        WS        BS          S        T        W          I        A        Ld         Points
+Night Runner                                6         3         3          3        3        1          5        1         5           7
+Nightleader                                 6         3         3          3        3        1          5        2         5          +6             Night Runners
+                                                                                                                                                     Trained in the art of lightning
+Troop Type:                Regular infantry                                                                                                          strikes and ambushes, Night
+Base Size:                 25 x 25 mm                                                                                                                Runners are the footsoldiers
+Unit Size:                 10+                                                                                                                       of Clan Eshin. They use
+Equipment:                 Hand weapons                                                                                                              darkened alleyways and
+                                                                                                                                                     unprotected sewers to
+Options:                                                                                                                                             sneak into position before
+• The entire unit may take additional hand weapons.................................. +2 points per model                                             hammering the enemy with
+• The entire unit may take one of the following:                                                                                                     razor-sharp throwing stars
+  - Slings.................................................................................................................... +2 points per model   and shards of rock launched
+  - Throwing weapons...........................................................................................+1 point per model                    from slings.
+• Any unit may upgrade one model to a Nightleader (champion).............. +6 points per unit
+                                                                                                                                                     Gutter Runners
+Special Rules: Evasive, Fire & Flee, Scurry Away, Skirmishers                                                                                        Any Night Runners who
+                                                                                                                                                     prove particularly skilled at
+                                                                                                                                                     more clandestine battlefield
+Gutter Runners                                                                                                                                       missions, and survive such
+                                                                                                                                                     perilous work, will earn
+                                            M        WS        BS          S        T        W          I        A        Ld         Points          themselves the title of Gutter
+Gutter Runner                               6         4         4          3        3        1          5        1         7           14            Runner. These promising
+Assassin                                    6         4         4          3        3        1          5        2         7          +7             recruits are taken away to
+                                                                                                                                                     learn the mysterious fighting
+Troop Type:                Regular infantry                                                                                                          style of the Clan Eshin
+Base Size:                 25 x 25 mm                                                                                                                Master Assassins. Any who
+Unit Size:                 5+                                                                                                                        survive the gruelling training
+Equipment:                 Two hand weapons                                                                                                          are formed into units of
+                                                                                                                                                     fearsome infiltrators, skilled
+Options:                                                                                                                                             in the art of night raids, arson
+• The entire unit may take one of the following:                                                                                                     attacks and generally sowing
+  - Slings.................................................................................................................... +2 points per model   chaos and disorder.
+  - Throwing weapons...........................................................................................+1 point per model
+• Any unit may:
+  - Upgrade one model to an Assassin (champion)........................................ +7 points per unit
+  - Have the Ambushers special rule.................................................................+1 point per model
+  - Have the Poisoned Attacks special rule................................................... +2 points per model
+• An Assassin may purchase magic items up to a total of.................................................25 points
+
+Special Rules: Evasive, Feigned Flight, Fire & Flee, Move through Cover, Scouts,
+               Scurry Away, Skirmishers
+Plague Monks
+                                                                                                                                   Infantry
+                                    M      WS       BS       S      T       W        I      A       Ld      Points
+Plague Monk                         5       3        3       3      4       1        3      1        5        7
+Plague Deacon                       5       3        3       3      4       1        3      2        5       +6           Plague Monks
+                                                                                                                          The zealous Plague Monks
+Troop Type:           Regular infantry                                                                                    of Clan Pestilens will stop
+Base Size:            25 x 25 mm                                                                                          at nothing to ensure the
+Unit Size:            10+                                                                                                 denizens of the Old World
+Equipment:            Hand weapons                                                                                        and beyond receive the gifts
+                                                                                                                          of disease and pestilence.
+Options:                                                                                                                  These hideous Skaven are
+• The entire unit may take additional hand weapons.................................. +2 points per model                  instantly recognisable by
+• Any unit may:                                                                                                           their foetid robes and the
+  - Upgrade one model to a Plague Deacon (champion).............................. +6 points per unit                      soiled bandages that barely
+  - Upgrade one model to a standard bearer.................................................... +6 points per unit         cover the weeping sores, bony
+  - Upgrade one model to a musician................................................................. +6 points per unit   growths and seeping blisters
+• A Plague Deacon may purchase magic items up to a total of.......................................25 points               that mark their bodies.
+• 0-1 unit per 1,000 points may purchase a magic standard worth up to....................50 points
+                                                                                                                          Plague Censer Bearers
+Special Rules: Close Order, Frenzy, Horde, Scurry Away, Warband                                                           Only the most fanatical
+                                                                                                                          Plague Monks are given the
+                                                                                                                          honour of carrying a dreaded
+Plague Censer Bearers                                                                                                     plague censer. Filled with a
+                                                                                                                          foul concoction of disease
+                                    M      WS       BS       S      T       W        I      A       Ld      Points        and warpstone, the heads of
+Censer Bearer                       5       3        3       3      4       1        3      1        5        13          these spiked flails emit a toxic
+                                                                                                                          green fog that chokes and
+Troop Type:           Regular infantry                                                                                    infects all who inhale it.
+Base Size:            25 x 25 mm
+Unit Size:            2-10
+Equipment:            Hand weapons and plague censers (see below)
+Special Rules:        Frenzy, Scurry Away, Skirmishers, Stubborn, Warband
+
+                         R       S      AP       Special Rules
+Plague censer         Combat S+2        -1       Poisoned Attacks, Requires Two Hands
+Notes: A plague censer’s Strength modifier applies only during the first round of combat. In
+addition, during the Combat phase, a model armed with a plague censer may re-roll any rolls To
+Wound of a natural 1.
+Screaming Bell
+                                                                                                              Chariot
+                              M     WS     BS      S     T      W      I      A     Ld     Points
+Screaming Bell                2      -      -      5     6      5      -      -      -      +185
+Rat Ogre Crew (x1)            -      3      0      5     -      -      4      3      5        -     Screaming Bells
+                                                                                                    Of all the strange
+Troop Type:   Heavy chariot                                                                         contraptions that the Skaven
+Base Size:    60 x 100 mm                                                                           use in war, the Screaming
+Unit Size:    1                                                                                     Bell is perhaps the most
+Armour Value: 4+                                                                                    notorious. A large wheeled
+Equipment:                                                                                          carriage supports the vast
+• Rat Ogre Crew: Hand weapon                                                                        weight of the ruinous war
+                                                                                                    machine as it is pushed into
+Special Rules: Armour Bane (2, Rat Ogre only), Blessings of the Horned Rat,                         battle by a teeming horde
+               Dragged Along, Impact Hits (D6+1), Large Target, Magic Resistance (-3),              of Skaven. From atop these
+               Scurrying Masses, Stubborn, Terror, Tolling the Bell                                 unholy altars, Grey Seers
+                                                                                                    channel their power in
+Blessings Of The Horned Rat                                                                         order to enact the will of the
+The Horned Rat protects its favoured followers, warding them against the weapons of                 Great Horned Rat – their
+their enemies.                                                                                      chittering incantations
+                                                                                                    periodically drowned out
+This model has a 5+ Ward save against any wounds suffered that were caused by a non-                by the thunderous, mind
+magical enemy attack.                                                                               splitting tolling of the unholy
+                                                                                                    bell. As the noise reaches its
+Tolling The Bell                                                                                    crescendo, the Skaven who
+The tolling of a Screaming Bell declares the Horned Rat’s supremacy and fills the foe with dread.   hear it seem to fight even
+                                                                                                    more fiercely than before and
+A Screaming Bell may be rung during the Command sub-phase of your turn. Roll on the                 show no sign of their usually
+table below to determine the effect this has:                                                       cowardly nature.
+
+Tolling The Bell Table
+  2D6  Result
+   2   Magical Backlash: Every unit (friend or foe) that is within this model’s
+       Command range suffers D3 Strength 4 hits, each with an AP of -2.
+  3-4 Dissonant Peal: Until your next Start of Turn sub-phase, all enemy units within
+       18" of this model suffer a -1 modifier to their Leadership characteristic (to a
+       minimum of 2).
+  5-6 Wall of Unholy Sound: Until your next Start of Turn sub-phase, all friendly
+       Skaven units within 18" of this model gain the Fear special rule.
+   7   Resonant Power: Until the end of this turn, all friendly Skaven Wizards within
+       this model’s Command range may apply a +1 modifier to any Casting roll
+       they make.
+  8-9 Emboldening Clamour: Until your next Start of Turn sub-phase, all friendly
+       Skaven units within 18" of this model gain the Immune to Psychology special rule.
+ 10-11 Rapturous Ringing: Until your next Start of Turn sub-phase, all friendly Skaven
+       units within 18" of this model gain the Extra Attacks (1) special rule.
+  12 Sonorous Knell: Any enemy unit that is within 18" of this model, including units
+       that are fleeing or that are engaged in combat, must make a Leadership test. If this
+       test is failed, the unit suffers D6 Strength 4 hits, with no armour or Regeneration
+       saves permitted (Ward saves can be attempted as normal).
+
+
+  Character Mount: A Screaming Bell may only be included in your army as a
+  character’s mount. Its points are added to that of its rider.
+Plague Furnace
+                                                                                                             Chariot
+                              M     WS     BS      S     T     W       I     A     Ld     Points
+Plague Furnace                2      -      -      5     6     5       -     -      -      +170
+Plague Monk Crew (x3)         -      3      0      3     -     -       3     2      5        -      Plague Furnaces
+                                                                                                    Inspired by the Screaming
+Troop Type:   Heavy chariot                                                                         Bells of the Grey Seers, Plague
+Base Size:    60 x 100 mm                                                                           Furnaces are disease-ridden
+Unit Size:    1                                                                                     altars to the Great Horned
+Armour Value: 4+                                                                                    Rat and filthy pulpits from
+Equipment:                                                                                          which the Plague Priests
+• Plague Furnace: Billowing Death (see below)                                                       conduct their foul sermons.
+• Plague Monk Crew: Hand weapons                                                                    Hauled into battle by the
+                                                                                                    chanting minions of Clan
+Special Rules: Dragged Along, Fear, Frenzy, Great Censer, Impact Hits (D3+1),                       Pestilens, the creaking
+               Large Target, Magic Resistance (-1), Poisoned Attacks, Scurrying Masses,             structure lumbers towards
+               Stomp Attacks (D3+1)                                                                 the enemy as a great censer
+                                                                                                    filled with poisonous
+Great Censer                                                                                        warpstone gas swings
+As the Plague Furnace crashes into the enemy ranks, the rusty chains holding the great censer are   ominously back and forth.
+loosed with devastating effect.                                                                     The deadly fumes that radiate
+                                                                                                    from this unholy wrecking
+Stomp Attacks made by a Plague Furnace represent the Great Censer being let loose                   ball weaken and enfeeble
+to swing into the enemy with devastating effect. Any Stomp Attacks made by a Plague                 those who inhale the foul
+Furnace have an Armour Piercing characteristic of -2.                                               mixture, making them easy
+                                                                                                    prey for the fanatical Plague
+In addition, whilst within 3" of one or more models with this special rule, the noxious             Monks who accompany the
+fumes billowing from the Great Censer cause enemy units to suffer a -1 modifier to their            infernal device.
+Toughness characteristic (to a minimum of 1).
+
+                          R          S      AP      Special Rules
+ Billowing Death         N/A         2     N/A Breath Weapon, Magical Attacks
+Notes: When making a roll To Wound for this weapon, a roll of a natural 6 is always a success,
+even if the target’s Toughness is so high that the weapon would not normally be able to wound
+it. In addition, no armour save is permitted against wounds caused by this weapon (Ward and
+Regeneration saves can be attempted as normal).
+
+
+  Character Mount: A Plague Furnace may only be included in your army as a
+  character’s mount. Its points are added to that of its rider.
+Doomwheel
+                                                                                                           Chariot
+                             M WS         BS     S      T     W      I     A Ld         Points
+Doomwheel                   3D6 -          -     5      5     4      -     -  -          145
+Warlock (x1)                 -  3          3     3      -     -      3     1  7           -       Doomwheels
+Rats                         -  2          0     2      -     -      4    2D6 5           -       There are few devices that
+                                                                                                  capture the mind-bending
+Troop Type:   Heavy chariot                                                                       insanity of the Warlock
+Base Size:    50 x 100 mm                                                                         Engineers as well as the
+Unit Size:    1                                                                                   Doomwheel. This odd-
+Armour Value: 5+                                                                                  looking war machine is
+Equipment:                                                                                        a crazed blend of science
+• Warlock:    Hand weapon                                                                         and sorcery, both simple
+• Rats:       Claws and fangs (counts as a hand weapon)                                           and complex in design.
+                                                                                                  Rats scampering inside
+Special Rules: Close Order, Crushing Bulk, Immune to Psychology, Impact Hits (D3+1),              the enormous wheel act
+               Large Target, Random Attacks (Rats only), Random Movement,                         as the primary source of
+               Stomp Attacks (2), Zzzzap!                                                         locomotion, which in turn
+                                                                                                  powers the warpstone
+Crushing Bulk                                                                                     generator which, if everything
+The erratic movements and crushing weight of a Doomwheel combine to wreak havoc upon the          goes to plan (which it seldom
+ordered ranks of the enemy.                                                                       does) will shoot lethal bolts
+                                                                                                  of warp lightning at anything
+Any Stomp Attacks made by a Doom Wheel have an Armour Piercing characteristic of                  in the vicinity. Should the
+-1. In addition, an enemy unit that suffers Impact Hits from this model must immediately          devastating bolts of lightning
+make a Leadership test. If this test is failed, the unit becomes Disrupted until the end of the   fail to slay the foe, then the
+current Combat phase.                                                                             grinding iron-shod wheel is
+                                                                                                  likely to crush any survivors
+Zzzzap!                                                                                           who fail to dive for cover.
+As hordes of rats scamper in treadmills to propel a Doomwheel, warpstone generators spark into
+life, unleashing lethal bolts of warp lightning across the battlefield.
+
+At the end of every Shooting phase, after all shooting has been resolved, place up to three
+small (3") blast templates so that their central hole is within 6" of this model. Once placed,
+each template will scatter D6". Any model (friend or foe) whose base lies underneath a
+template’s final position risks being hit and suffering a single hit, the Strength of which is
+determined by rolling an Artillery dice. Each hit has an AP of -2.
+
+If a ‘Misfire’ is rolled when rolling to determine the Strength of a template, this model
+suffers the brunt of the warp lightning bolt. The template is removed and any models hit by
+it are left unharmed, but this model loses a single Wound.
+Hell Pit Abomination
+                                                                                                               Monster
+                              M WS          BS      S     T     W       I    A Ld           Points
+Hell Pit Abomination         3D6 3           1      6     5     6       4   D6+1 8           210
+                                                                                                      Hell Pit Abominations
+Troop Type:       Behemoth                                                                            Clan Moulder is famous
+Base Size:        60 x 100 mm                                                                         for its monstrous, surgically
+Unit Size:        1                                                                                   enhanced beasts – but
+Equipment:        Warpstone claws (see below)                                                         none are as fearsome
+Special Rules:    Abominable Attacks, Close Order, Immune to Psychology, Large Target,                and devastating as the
+                  Magic Resistance (-1), Random Attacks, Random Movement,                             creatures known as Hell Pit
+                  Regeneration (5+), Stomp Attacks (D3+1), Terror, Timmm-berrr!,                      Abominations. Using the
+                  Too Horrible to Die, Unbreakable                                                    gargantuan Blindwyrm as
+                                                                                                      a starting point, the Master
+Abominable Attacks                                                                                    Moulders of the Clan use
+A Hell Pit Abomination drags its grotesque bulk across the battlefield, feeding hungrily upon those   parts grafted from Rat Ogres
+enemies not crushed beneath its bulk.                                                                 to further enhance the beast’s
+                                                                                                      killing power. This results
+Instead of attacking normally during the Combat phase, a Hell Pit Abomination may                     in a living mountain of
+choose to make one of the following Abominable Attacks:                                               misshapen flesh that slithers
+                                                                                                      and shambles after its prey,
+• Feed: Nominate a single enemy model in base contact with the Hell Pit Abomination to                rearing up to a towering
+  be the target of this attack. If that model is hit, it suffers D3 automatic wounds with no          height before slamming its
+  armour save permitted (Ward and Regeneration saves can be attempted as normal).                     colossal bodyweight into
+• Avalanche of Flesh: Place a small (3") blast template so that its central hole is directly          anyone foolish enough to
+  over the centre of the target unit. Any model (friend or foe, but not including this                stand their ground. Vast
+  model) whose base lies underneath the template risks being hit and suffering a single hit,          boulder-sized fists smash
+  using the Strength characteristic of this model, with an AP of -2.                                  their foes to a pulp and send
+                                                                                                      Men flying, whilst hungry
+Too Horrible To Die                                                                                   jaws ravenously snap and
+Even in the grips of its death throes, a Hell Pit Abomination writhes with dark vitality.             chomp as it tries desperately
+                                                                                                      to devour all within reach.
+The first time a Hell Pit Abomination loses its last Wound, roll a D6 before removing the
+model from play:
+
+• On a roll of 1-3, the beast wheezes its last breath and is removed from play.
+• On a roll of 4 or 5, the great corpse shudders and a swarm of rats bursts forth. Place a
+  Rat Swarm of one model within 3" of this model, then remove this model from play.
+• On a roll of 6, the Hell Pit Abomination jolts and shudders with unnatural vitality
+  before rising anew. This model immediately recovers D3 Wounds.
+
+                        R          S      AP      Special Rules
+Warpstone claws       Combat       S      -1      Armour Bane (1), Magical Attacks
+Warp Lightning Cannon
+                                                                                                            War Machine
+                               M     WS      BS     S      T      W      I      A     Ld     Points
+Warp Lightning Cannon          -      -       -     -      6      4      -      -      -      110
+Engineer & Crew                5      3       3     3      3      3      3      3      6       -       Warp Lightning Cannon
+                                                                                                       An arcane contraption
+Troop Type:        War machine                                                                         of devastating power, the
+Base Size:         50 x 100 mm                                                                         Warp Lightning Cannon
+Unit Size:         1                                                                                   was created by the Warlock
+Equipment:         Warp Lightning Cannon (see below), hand weapons and light armour                    Engineers to annihilate
+Special Rules:     Skirmishers                                                                         anyone unfortunate enough
+                                                                                                       to be standing in front of
+                           R       S       AP     Special Rules                                        the infernal device. Powered
+Warp Lightning            8D6"     *       -3     Cumbersome, Lightning Strike,                        by an enormous hunk of
+cannon                                            Move or Shoot                                        warpstone, the weapon emits
+Notes: This weapon does not use its crew’s Ballistic Skill. Instead, it shoots using the ‘Lightning    a crackling ball of warp
+Strike’ special rule. This weapon uses the Warp Lightning Misfire table.                               energy that travels down
+                                                                                                       the rune-etched barrel to
+Warp Lightning Special Rules                                                                           enhance its destructive power
+Lightning Strike: When shooting with this weapon, draw a straight line, 8D6" in length,                as it rolls towards its target.
+from the model’s base edge. Any model (friend or foe) whose base falls under this line suffers
+a hit, the Strength of which is determined by rolling an Artillery dice. If a ‘Misfire’ is rolled      Plagueclaw Catapults
+when rolling to determine the Strength of this weapon, something has gone horribly wrong.              Those splashed by the semi-
+Roll immediately on the Warp Lightning Misfire table to determine exactly what.                        congealed liquids unleashed
+                                                                                                       from a Plagueclaw Catapult
+Warp Lightning Misfire Table                                                                           often find themselves
+   D6     Result                                                                                       quickly succumbing to the
+    1     Meltdown: The machine and its crew explode in a spectacular green fireball. The              toxic fumes or accidentally
+          model fails to shoot this turn. Instead, it is destroyed and immediately removed             ingesting the rotten payload
+          from play.                                                                                   – and they are the lucky
+   2-4    Energy Overload: Unfathomable energies spin the war machine around before it                 ones! For those who don’t
+          unleashes a potent blast of warp lightning. The Warp Lightning Cannon shoots                 fall swiftly, a far slower and
+          with a Strength of 6 in a random direction, determined by rolling a Scatter dice.            more painful death awaits, as
+   5-6    Fzzzt: With a high-pitched screech, followed by a descending, whirring noise, the            their flesh blisters and erupts
+          energy dissipates harmlessly. The model fails to shoot this turn.                            with boils and pustules as a
+                                                                                                       fatal fever begins to take hold,
+                                                                                                       from which few recover.
+Plagueclaw Catapult
+                               M     WS      BS     S      T      W      I     A Ld          Points
+Plagueclaw Catapult            -      -       -     -      6      4      -     -   -          110
+Plague Monk Crew               5      3       3     3      4      3      2    D3+3 6           -
+
+Troop Type:        War machine
+Base Size:         50 x 100 mm
+Unit Size:         1
+Equipment:         Plagueclaw Catapult (see below), hand weapons and light armour
+Special Rules:     Random Attacks, Skirmishers, Stubborn
+
+                            R        S       AP       Special Rules
+Plagueclaw catapult 12-72" 2 (4) -3                   Bombardment, Cumbersome, Move or Shoot
+Notes: This weapon shoots like a stone thrower, using the ‘Bombardment’ special rule, a 5" blast
+template and the Stone Thrower Misfire table. When making a roll To Wound for this weapon,
+a roll of a natural 6 is always a success, even if the target’s Toughness is so high that the weapon
+would not normally be able to wound it.
+                                 Skaven                                                                                            Magic Items
+                                Magic Items
+The pages that follow detail magic items unique to Skaven armies. These can be                                               Tools of Supremacy
+purchased by models within a Skaven army in exactly the same way as Common magic                                             From jagged blades that
+items, as described in the Warhammer: the Old World rulebook.                                                                weep corrosive poisons, upon
+                                                                                                                             whose pitted surfaces are
+Extremely Common Magic Items: Any magic item marked with an asterisk (*)                                                     scratched foul runes in the
+is considered to be extremely common, as described in the Warhammer: the Old                                                 tongue of the Great Horned
+World rulebook.                                                                                                              Rat, to warpstone-powered
+                                                                                                                             engines that belch toxic
+Magic Weapons                                                                                                                black smoke as they gather
+                                                                                                                             and harness the Winds of
+The Fellblade..................................................................................................100 points    Magic, Skaven magic items
+This most terrible of weapons was forged to slay Nagash himself. No foe can stand before it and                              are destructive artefacts.
+even the wielder must eventually succumb to its baleful effects.                                                             Indeed, when it comes to
+                                                                                                                             the creation of powerful and
+                           R         S    AP        Special Rules                                                            unique artefacts, the Skaven
+The Fellblade          Combat S+3 N/A Magical Attacks, Multiple Wounds (D3)                                                  seem driven by a desire to
+Notes: Characters whose Troop Type is ‘infantry’ only. No armour, Ward or Regeneration saves                                 create ever more outrageously
+are permitted against wounds caused by this weapon. However, during the Command sub-phase of                                 destructive and deadly
+their turn, the wielder of the Fellblade must roll a D3. On a roll of 1, they lose a single Wound.                           weapons and devices, with
+                                                                                                                             little thought ever given to
+Weeping Blade..................................................................................................50 points     the dangers such items might
+This weapon weeps a venom so corrosive it can melt through armour with ease to deeply pierce and                             pose. In fact, so dangerous are
+poison the flesh beneath.                                                                                                    these corrupted treasures that
+                                                                                                                             they invariably pose as much
+                            R             S       AP         Special Rules                                                   risk to those that wield them
+Weeping Blade             Combat          S       -2         Magical Attacks, Multiple Wounds (D3),                          as they do to the enemies of
+                                                             Poisoned Attacks                                                the Skaven.
+
+Blade Of Nurglitch..........................................................................................35 points
+Blessed by the Plaguelord of Clan Pestilens, even a scratch from this filth-encrusted weapon can
+turn into instant infection.
+
+                         R        S    AP        Special Rules
+Blade of Nurglitch Combat S+1           -        Magical Attacks
+Notes: Any enemy model that suffers one or more unsaved wounds from the Blade of Nurglitch
+must immediately make a Toughness test. If this test is failed, they suffer a -1 modifier to their
+Toughness characteristic (to a minimum of 1) for the remainder of the game.
+
+Death Globe*.....................................................................................................25 points
+Warlock Engineers often carry much improved and far more deadly versions of the globes wielded
+by Poisoned Wind Globadiers.
+
+                          R        S      AP        Special Rules
+Death Globe               9"     N/A N/A Magical Attacks, Move & Shoot
+Notes: Single use. A model armed with a Death Globe must target a specific model within its
+target unit, such as a champion or a character. Make a roll To Hit as normal. If successful, centre
+a small (3") blast template over the target model. Any model whose base lies underneath the
+template must make an Initiative test. If this test is failed, they lose a single Wound.
+Magic Armour                                                                  Magic Standards
+Warpstone Armour*.......................................... 25 points         Storm Banner...................................................... 65 points
+Cunningly wrought of warpstone-infused iron, this heavy suit of               This ancient banner possesses the power to wrack the sky with
+armour protects without stifling the Winds of Magic.                          storms and tear the heavens apart with its fury.
+
+The Warpstone Armour is a suit of heavy armour which may                      Single use. A unit carrying the Storm Banner may activate it
+be purchased and worn by a Wizard, even if they do not have                   during the Command sub-phase of their turn. Until your next
+the option to be equipped with armour, a shield or barding,                   Start of Turn sub-phase, enemy units cannot use the Fly (X)
+without penalty.                                                              special rule and all enemy shooting suffers an additional -1 To
+                                                                              Hit modifier.
+Cautious Shield...................................................20 points
+This large, magical shield emphasises an already prominent trait of           Grand Banner Of Superiority.......................... 50 points
+Skaven nature.                                                                This ragged shroud, emblazoned with clan signs, proclaims the
+                                                                              superiority of the Warlord Clans.
+The Cautious Shield is a shield. In addition, its bearer may
+choose to wield it with two hands when their combat is chosen                 When calculating its combat result, a unit carrying the Grand
+during Step 1.1 of any Choose & Fight Combat sub-phase.                       Banner of Superiority may claim an additional bonus of +D3
+If they do, until the end of this Combat phase it improves its                combat result points.
+armour value by 3, but their Attacks characteristic is reduced
+to 0.                                                                         Dwarf Hide Banner............................................40 points
+                                                                              Made from the tanned hides and shorn beards of vanquished
+Talismans                                                                     Dwarfs, this banner fills the Skaven with the courage to face their
+                                                                              ancient enemies.
+Shadow Magnet...................................................40 points
+Warpstone-contaminated veins of ore can absorb light and cast an              A unit carrying the Dwarf Hide Banner gains the Hatred
+aura of deep, shadowy darkness.                                               (Dwarfs) and Stubborn special rules.
+
+Any enemy model that targets the bearer of the Shadow                         Banner Of Verminous Scurrying.................... 35 points
+Magnet or any unit they have joined during the Shooting                       A great, skittering urgency fills those that scurry beneath this
+phase suffers an additional -1 To Hit modifier.                               tattered banner.
+
+Warpstone Amulet............................................. 35 points       A unit carrying the Banner of Verminous Scurrying gains the
+The Warpstone Amulet radiates disharmony and confusion, so that               Swiftstride special rule.
+anyone who attacks its bearer becomes dazed and bewildered.
+
+The Warpstone Amulet gives its bearer a 4+ Ward save
+against any wounds suffered that were caused by a non-
+magical enemy attack.
+Enchanted Items                                                                        Arcane Items
+Brass Orb.............................................................. 50 points      Warp Condenser................................................. 50 points
+This fist-sized orb of whirling cogs is capable of opening a crack into                This rune-inscribed power pack is covered with copper coil wiring,
+the twisting Realm of Chaos.                                                           flywheels, and enchanted mechanisms to draw extra energy from
+                                                                                       the fickle Winds of Magic.
+Single use. Instead of attacking normally during the Combat
+phase, the bearer of the Brass Orb can toss it at a specific                           The bearer of the Warp Condenser increases their Dispel
+model within a unit they are engaged in combat with, such                              range by 3". Additionally, when attempting to cast a Magic
+as a champion or a character. Make a single roll To Hit. If                            Missile spell, the bearer of the Warp Condenser gains a +1
+successful, the target model must make an Initiative test. If                          modifier to their Casting roll. Finally, should they miscast a
+this test is failed, the target model is removed from play as                          spell, the bearer of the Warp Condenser can re-roll the result
+a casualty.                                                                            rolled on the Miscast table.
+
+Skalm..................................................................... 35 points   Storm Daemon.................................................... 30 points
+This rare healing balm is smeared on wounds and is even rumoured                       Created by the Warlock Engineers of Clan Skryre, this warpstone-
+to prolong a Skaven’s life.                                                            powered device crackles with barely contained power.
+
+Single use. During the Command sub-phase of their turn, the                            This model can cast the following Bound spell, with a Power
+bearer of Skalm can use it. The model immediately recovers a                           Level of 1:
+single lost Wound and, until your next Start of Turn sub-
+phase, has a +1 modifier to their Toughness characteristic.                            Type: Magic Missile
+                                                                                       Casting Value: 8+
+Skavenbrew*.........................................................20 points          Range: 18"
+Brewed from warpstone and blood, Skavenbrew drives humble                              Effect: The target enemy unit suffers D3+1 Strength 5 hits,
+Skaven into a fighting frenzy.                                                         each with an AP of -2.
+
+Single use. Skaven Warlords and Skaven Chieftains only.                                Warpstone Tokens*............................................ 15 points
+During the Command sub-phase of their turn, if they are not                            Pieces of refined warpstone are consumed by power-hungry
+engaged in combat, this character may attempt to distribute                            Skaven Wizards.
+Skavenbrew to a unit they have joined by making a Leadership
+test (using their own Leadership). If this test is passed, until                       A Wizard may purchase up to three Warpstone Tokens, each
+your next Start of Turn sub-phase this character and any unit                          of which is single use. Before making a Casting roll, a Wizard
+they have joined gains the Frenzy special rule.                                        may choose to consume a single Warpstone Token. For each
+                                                                                       Token consumed, they may roll an additional D3 and add its
+                                                                                       result to their Casting roll. However, for each natural 1 that is
+                                                                                       rolled, the Wizard loses a single Wound.
+                              Skaven Special Rules
+A   game of Warhammer: the Old World is packed with fantastic creatures and skilled warriors with abilities so incredible
+    and varied that the basic rules cannot possibly cover them all. For such circumstances we have special rules –
+ uncommon rules to govern uncommon circumstances.
+
+On this page you will find a full description for each of the army special rules used by models drawn from the Skaven army list:
+
+Poisoned Wind                                                       Verminous Valour
+Poisoned Wind is one of the most infamous weapons of the Skaven,    Notorious cowards, Skaven leaders often prefer to lead from
+who first deployed it during bitter tunnel fighting against the     the back.
+Dwarfs of the Worlds Edge Mountains.
+                                                                    Unless they are engaged in a challenge, a character with this
+When a model using a weapon with this special rule makes            special rule that has joined a unit that has a Unit Strength of
+a roll To Wound, a roll of 6+ is always a success, even if          10 or more may voluntarily ‘retire’ to the rear of the unit at
+the target’s Toughness is so high that the weapon would             any time, moving through the ranks and taking up a position
+not normally be able to wound it. Finally, no armour save           away from the combat. Should they do so, they are no longer
+is permitted against wounds caused by a weapon with this            within the fighting rank and cannot make any attacks or have
+special rule (Ward and Regeneration saves can be attempted          attacks directed against them. However, the unit may still use
+as normal).                                                         this character’s Leadership.
+
+Note that models wielding weapons that have this special rule are   Warpstone Weapons
+immune to this special rule.                                        Skaven often use the highly unstable properties of warpstone to
+                                                                    create devilishly deadly weapons.
+Scurry Away
+Wherever possible, Skaven prefer to run from danger rather than     A hand weapon carried by a model with this special rule has
+face it head-on.                                                    the Magical Attacks special rule and an Armour Piercing
+                                                                    characteristic of -1.
+Models with this special rule have a +1 modifier to the result
+of any Flee roll they make.                                         Note that this special rule only applies to a single, ordinary hand
+                                                                    weapon. If the model is using two hand weapons or any other sort
+Scurrying Masses                                                    of weapon, this special rule ceases to apply.
+Although not brave by nature, Skaven find courage and discipline
+in large numbers.
+
+Whilst within 3" of a friendly unit, this model gains a positive
+(+) modifier to its Leadership characteristic equal to that
+unit’s current Rank Bonus, up to a maximum of Leadership 10.
+                       Lore Of The Horned Rat
+S   kaven believe all magic originates from the same source, their powerful and fickle god – the Horned Rat. In truth, the
+    potent and destructive magic of the Skaven relies upon the manipulation of the Winds of Magic, without which even
+the most devout and cunning Skaven would be unable to weave the simplest spell.
+
+A Wizard with the ‘Lore of the Horned Rat’ special rule may discard one of their randomly generated spells as normal. When
+they do so, they may select instead either the signature spell of their chosen Lore of Magic, or one of the spells listed below.
+
+
+  Skitterleap                                                         Warp Lightning
+  With a puff of smoke and a loud pop of inrushing air, the Skaven    The Skaven Wizard points a fleshy paw, from which bolts of
+  Wizard disappears, only to reappear elsewhere on the battlefield.   greenish-black lightning arc outwards.
+
+  Type: Conveyance                                                    Type: Magic Missile
+  Casting Value: 8+                                                   Casting Value: 10+
+  Range: 18"                                                          Range: 18"
+  Effect: This spell can only target friendly characters whose        Effect: The target enemy unit suffers D3+1 Strength 5 hits,
+  Troop Type is ‘infantry’, but may target characters engaged         each with an AP of -3.
+  in combat. You may immediately remove the target friendly
+  character from the battlefield and replace it anywhere              Cloud Of Corruption
+  completely within 24" of its original location, but not within
+  6" of any enemy models. The target cannot move again                With a flourish of their palsied paws, the Skaven Wizard
+  during this Movement phase.                                         summons forth a stinking cloud of foul contagion.
+  Note that this spell allows a character to leave combat.
+                                                                      Type: Magical Vortex
+                                                                      Casting Value: 10+
+                                                                      Range: 9"
+                                                                      Effect: Remains in play. Place a small (3") blast template so
+                                                                      that its central hole is within 9" of the caster. Whilst in play,
+                                                                      the template is treated as dangerous terrain over which no
+                                                                      line of sight can be drawn. Whilst within 3" of one or more
+                                                                      of these templates, enemy units suffer a -1 modifier to their
+                                                                      Toughness characteristic (to a minimum of one).
+

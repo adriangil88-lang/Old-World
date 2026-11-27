@@ -1,0 +1,14 @@
+13
+br_questing|Questing Knight@fof.txt:3850|mín libro 5+ / datos 3
+orc_giant|Giant@leg_ogres.txt:673|base libro 50x50 / datos 50x75
+bm_giant|Giant@leg_ogres.txt:673|base libro 50x50 / datos 50x75
+woc_marauders|Chaos Marauder@rh.txt:2551|base libro 25x25 / datos 30x30
+orc_giant|Chaos Giant@rh.txt:4612|base libro 50x50 / datos 50x75
+bm_giant|Chaos Giant@rh.txt:4612|base libro 50x50 / datos 50x75
+bm_gor|Gor@aj_beasts2.txt:1262|mín libro 10+/10+* / datos 5
+bm_gor_aw|Gor@aj_beasts2.txt:1262|mín libro 10+/10+* / datos 5
+orc_bonegrinder|Bonegrinder Giant@aj_orcs2.txt:1202|base libro 50x100 / datos 100x150
+tk_warriors_ph|Skeleton Warrior@aj_tk2.txt:1472|mín libro 2D6+3 / datos 10
+tk_warriors|Skeleton Warrior@aj_tk2.txt:1472|mín libro 2D6+3 / datos 10
+tk_guard_ph|Grave Guard@leg_vampires.txt:389|mín libro 10+ / datos 5
+tk_guard_hb|Grave Guard@leg_vampires.txt:389|mín libro 10+ / datos 5

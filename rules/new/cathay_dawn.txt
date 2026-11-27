@@ -1,0 +1,1388 @@
+99 f- OI
+
+9252.9) 9 /o>
+
+Oe \ KD M991 RS foe
+
+?,
+f.
+
+[Ree SE Sop) RIS
+
+¢ ¢ /
+j A Me d
+r abs : 1 <6 ger ft
+
+ARCANE JOURNAL®
+
+DAWN OF THE STORM DRAGON
+
+le] CAKE 2 BOAO SN RTO O25 /O\ 2 | RES TOD
+
+TOS RIA \0) PRIN V/s
+
+SETS sf Boe VS xX > <\
+
+[a]
+
+oo (ences
+
+[a
+
+MA |] eens | TCS AOSD | orem | | - 5 --3
+
+(a) me Je
+
+WAR IN WESTERLAND
+
+city of Marienburg is vast and crowded, its name known by all that hear it and recognised as the largest and
+
+. Cae port in the entire world. But it is a city that sits upon the edge of a desolate landscape, for to the north, east
+and west of Marienburg stretch great expanses of salt-tainted marshes, desolate moorlands and wind-blasted sand dunes
+
+known as the Wasteland.
+
+The Wasteland
+
+The Coming Of Chaos
+
+Marienburg itself sits upon the fertile banks of the River
+Reik, surrounded by innumerable small towns and villages.
+The land that surrounds the banks of the Reik and the city
+
+of Marienburg itself is populated by merchants, farmers and
+fishermen in great numbers, all working to harvest the natural
+abundance of the Reik and the rich farmland through which
+
+it flows in order to feed the vast population of the city and fuel
+its endless hunger for trade.
+
+Directly north of Marienburg, on the eastern shores of the
+Manaansport Sea, lie the Cursed Marshes, a dark and desolate
+region of saltwater swamps in which sinister things are said to
+lurk. These trackless swamps give way to wind-blasted sand
+dunes that stretch far inland, bereft of civilisation but for
+
+the coastal driftwood hamlets of the fishermen who ply the
+waves of Manaansport. Less than a day's ride inland from the
+coast, the dunes meet the Tumble Downs, an endless expanse
+of mist-shrouded moors and treacherous bogs, named for its
+rolling hills and sunken wetlands.
+
+Yet far to the north, where the Tumble Downs meet the Sea
+of Claws, and to the east, where the Wasteland meets the
+Laurelorn Forest, life returns. Under storm-laden skies, many
+small harbour towns thrive upon the coast. Places such as.
+Hollum and Aarnau reap the bounty of the sea, their harvest
+feeding the towns that cluster along the North Road, the
+well-worn highway that intersects the Middenheim Road at
+Wouduin Tollstation on the edge of the Drakwald Forest, and
+which, eventually, connects the distant corners of Westerland
+to mighty Marienburg.
+
+When the wolfships of Frydaal the Chainmaker first landed
+upon the docks of Hollum, bringing death and destruction to
+the people that dwelt there, it was no doubt the barrenness
+of the lands beyond the town’s meagre palisade walls that
+prevented her warriors from marauding further inland.
+
+For several summers, the Chainmaker's warriors contented
+themselves with raiding along the northernmost coast of
+
+the Wasteland, sowing destruction and reaping despair, and
+raising foul monuments to their dark and twisted gods.
+
+With the ruins of Hollum firmly under her control, the
+Chainmaker turned her attention to the larger town of
+Aarnau. Despite its size and defences, Aarnau quickly fell to
+the marauding Norscans, the town’s demise gifting Frydaal
+easy access to the River Aarnau and the North Road. From
+there, the Chainmaker’s forces quickly dispersed through the
+northern reaches of the Wasteland, besieging and destroying
+any town they encountered and raising great monuments to
+the Ruinous Powers throughout the Tumble Downs.
+
+As the destruction they wrought grew, and as the obscene
+idols they raised attracted the winds of dark magic, the barren
+landscape became ever more corrupted and inhospitable.
+With each passing season, the plight of the denizens of the
+Wasteland deepened and the grip of Chaos upon the Old World
+grew. Gradually, the barren landscape came to resemble the
+accursed Shadowlands, the skies darkening with great storms
+of unnatural vigour and the land itself warping at the touch of
+cold winds carrying the taint of corruption and mutation.
+
+oa Pah Ties ge
+Battles In The Wasteland
+
+It was into this blighted landscape that the armies of Miao Ying, the Storm Dragon, marched in the year 2278 of the Imperial
+Calendar. This was a momentous occasion, for it is rare that the armies of the Empire and Grand Cathay fight shoulder
+to shoulder. Yet, for those that fought under the banners of the Storm Dragon and the Empress of Coin, thoughts of such”
+significance were not at the forefront of their minds. The soldiers of ‘Westerland were fighting a brutal and protracted war against
+an invading enemy, one whose very presence was gradually warping and twisting the Wasteland, whilst the soldiers of Grand
+Cathay were fighting in unfamiliar lands beside unfamiliar allies.
+
+Random Terrain Generation
+
+*
+
+Scattered Terrain Placement
+
+On the following pages you will find two different ‘terrain
+generators’ These are tables that can be used to randomly
+generate terrain for your battlefield, thus removing any
+personal bias that may creep in when choosing terrain.
+
+The Size Of Things
+
+Each terrain feature generated by rolling on a terrain
+generator should measure between 2" and 8" at its widest
+point. Should a feature be rolled a second time, you may
+either place a second feature of the same type and size, or you
+may replace the first feature with a larger version, measuring
+between 8" and 12" at its widest point.
+
+In the case of linear terrain features (see page 24), should more
+be generated, each additional feature is added to the first,
+increasing its length.
+
+Similarly, in the case of buildings (see page 25), should more
+be generated, you may either place additional buildings, each
+measuring up to 6” along its longest side, or you may replace an
+existing feature with a larger building, measuring between 6”
+and 12" along its longest side.
+
+When armies march to war in the wilds of the Wasteland, the
+battlefield is seldom carefully scouted and the terrain rarely
+well-suited to the movement of ranked formations. The rules
+
+that follow are intended to represent this. These rules offer
+
+an alternative to the rules given for ‘Placing Terrain’ in the + zd
+Warhammer: the Old World rulebook: ae:
+
+1 Determine how many terrain features to set up, based on
+the size of your battlefield. oA
+
+2 From the terrain available, the players may either:
+
+a. Choose a number of features, up to the maximum
+number of features needed. ” bE
+
+b. Use the terrain generation tables that follow to
+randomly generate a number of features, up to the _
+maximum number of features needed.
+
+3 Once the terrain has been chosen, the winner of a roll-off
+sets up the battlefield, placing the chosen terrain features as
+they see fit.
+
+4. Withall of the terrain placed, the loser of the roll-off
+chooses D3 terrain features and rolls 2D6 and a Scatter
+dice for each:
+
+-  Ifan arrow is rolled on the Scatter dice, the terrain
+feature moves a number of inches equal to the roll of
+the 2D6 in the direction the arrow points, stopping
+should it touch another terrain feature or the edge of
+the battlefield.
+
+- Ifa ‘Hit! is rolled on the Scatter dice, the terrain feature —
+does not move.
+
+€
+
+Terrain features can be placed anywhere on the battlefield,
+but not within 12" of its centre. The only exceptions to this are
+
+terrain features specified by the scenario and special features
+which, once placed, do not scatter.
+
+Should the players agree, or should the scenario require it, _
+
+battlefield decorations can be placed in the same manner.
+&
+Linear Terrain Features
+
+Linear terrain includes such things as streams and rivers, chasms, ravines and even roads. Unlike low and high linear obstacles,
+which rise up from the battlefield, linear terrain features are best described as ‘cutting into’ the battlefield, thus presenting
+obstacles to movement and hazards to life and limb due to either their width, their crashing waters, their hazardous footing or
+
+their (potentially limitless) depth.
+
+“How Long Is A River?”
+
+Every linear terrain feature is divided into sections, each
+measuring 12" long and up to 4” wide in the case of a ‘narrow’
+feature, or between 4" and 8" wide in the case of a ‘wide’
+feature. Each section is equal to one terrain feature for the
+purposes of determining how many terrain features should
+be placed on the battlefield. Each section may include a single
+bend of up to 90°, or a single fork or junction.
+
+‘The maximum length of a linear terrain feature depends upon
+what it represents and the size of the battlefield:
+
++ Anespecially hazardous linear terrain feature, one that
+counts as dangerous or impassable terrain, such as a fast
+flowing river or deep chasm, may not be longer than
+half the length of the longest edge of the battlefield. For
+example, a battlefield that measures 48" x 72" may include
+an especially hazardous linear terrain feature measuring up
+to 36" in length.
+
++ An easily traversed linear terrain feature, one that counts
+as open ground or difficult terrain, such as a narrow stream
+or a well-maintained road, may be any length, twisting
+and turning across the battlefield and around other terrain
+as required.
+
+Placing Linear Terrain Features
+
+Linear terrain features are placed as described in the
+
+Warhammer: the Old World rulebook. A linear terrain feature
+__ must be placed with one end touching the edge of the
+battlefield. The other end must:
+
+» + Touch a different edge of the battlefield.
+
++ Meet another terrain feature, where the linear terrain
+feature will end (for example, a stream may end where it
+meets a pond),
+
++ Taper toa point, where the linear terrain feature will end.
+
+Bridges & Fords
+
+Streams, rivers, chasms, ravines and gullies can be crossed by
+bridges. Rivers and streams can also be crossed by fords. You
+may include a single bridge or ford measuring up to 3" wide per
+12’ linear terrain feature. On longer linear terrain features, these
+can be combined together to make wider bridges and fords.
+
+A bridge counts as open ground. A ford counts as
+difficult terrain.
+
+Fast-Flowing Water
+
+A river that touches two table edges may be ‘fast-flowing, in
+which case you will need to randomly determine the direction
+it flows. Should a unit have a quarter (25%) or more of its
+models within a fast flowing river during its Start of Turn sub-
+phase, it must make a Strength test. If this test is failed, the
+unit slides D3" along the river in the direction it flows.
+
+Well-Maintained Roads
+
+Marching troops can move quickly along a ‘well-maintained’
+road. A unit that begins and ends a march move with half
+(50%) or more of its models upon the same well-maintained
+road, and that does not leave that road whilst moving, may
+move an additional D3".
+
+Buildings
+
+Buildings offer shelter and protection to soldiers and civilians alike and allow the safe storage of vital goods. Thus, in times of war,
+securing buildings in order to defend or destroy them is key to victory. But battles in the Old World seldom take place in ata ‘at cad
+environments, Large regiments prefer battling across open ground to skulking within buildings. :
+
+Accordingly, buildings in games of Warhammer: the Old World are usually treated as impassable terrain. However, should the
+players agree, buildings that measure at least 4” at their widest point may be designated as ‘occupiable! 2
+
+Occupiable Buildings
+
+Such a building can be occupied by a unit whose troop type is
+‘infantry; with a Unit Strength of 20 or less. A unit may occupy
+a building by moving into base contact with it during the
+Remaining Moves sub-phase of its Movement phase. Once
+the unit's movement is complete, remove it from the table and
+make a note that it now occupies the building.
+
+All measurements to or from a unit that occupies a building
+are made to or from the building itself. A unit that occupies a
+building has a 360° vision arc and can draw a line of sight over
+or through other models.
+
+Leaving a Building: Unless it is fleeing, a unit can leave
+
+a building during the Remaining Moves sub-phase of its
+Movement phase, by making a follow up move, or by pursuing
+an enemy. Simply place the unit back on the table so that at
+least one model is in base contact with the building. The unit's
+movement then ends, Whilst a unit occupies a building, it
+cannot declare a charge,
+
+Flee! A unit that flees whilst occupying a building does not
+move. The unit counts as fleeing and must rally as normal, but
+will hide behind the safety of the walls,
+
+‘
+Buildings & Shooting
+
+Shooting from a Building: Some buildings have upper-
+storey windows or flat rooftops, making them advantageous —
+to missile troops. To represent this, up to half (50%) of the
+models occupying a building can shoot (and cast spells).
+
+Shooting at a Building: Any model that can draw a line of
+
+sight to an occupied building can target the unit that occupies rae Rie
+it. However, the unit is considered to be behind full cover.
+
+‘Templates: Should an occupied building be hit bya template, ~ a
+every model within it risks being hit. However, due to the Nae
+protection offered by the walls, they are hit on a D6 roll of 5+, é
+
+rather than the usual 4+. y:
+
+“Incoming”: Should an occupied building be hitby acannon,
+the unit within it suffers D3 Strength 4 hits, each with an AP
+of -1, as stones and shrapnel explode from the structure. The
+cannonball then stops immediately. ‘i
+
+Buildings & Combat
+
+Assaulting a Building: When an enemy unit charges a unit
+within a building, it charges the building itself rather than
+the model(s) within it. Whilst engaged in combat, both units
+are considered to be in Skirmish formation (regardless of
+their actual formation). However, due to the close confines ¥4
+of the tower, only five models from either unit can join the ha
+fighting rank.
+
+cia
+
+Nowhere to Run: A unit that occupies a building will not
+Give Ground or Fall Back in Good Order. Instead, the unit é
+holds its ground and the combat continues.
+
+Should a unit occupying a building Break and flee from
+combat, it will find itself trapped within the walls, unable
+to escape quickly. Such units are completely destroyed and
+removed from play. In such cases, a unit belonging to the _
+winning side may choose to take occupancy of the building.
+
+Beek rte
+
+WASTELAND TERRAIN GENERATOR
+
+jis terrain generator represents the barren wilderness that stretches from the walls of Marienburg to the shores of the
+Sea of Claws. It is a windswept and inhospitable place supposedly home to tribes of Orcs, Goblins, Trolls and worse,
+and only sparsely inhabited by the civilised folk of the Empire.
+
+In this wilderness, the landscape varies greatly. Shifting dunes dominate the coast of the Manaansport Sea, giving way inland to
+saltwater bogs and mist-shrouded moors. When armies march into the Wasteland, they do so with caution lest they be brought to
+battle in unfavourable terrain. Tales are told amongst the ranks of Westerland’s armies of whole regiments drowning in the salty
+
+waters of hidden bogs, or becoming lost upon the endless moors when sudden fog rolls in from the sea.
+
+Wasteland Terrain Generator
+
+2D6 Result
+
+2 Shallow Stream: A shallow stream meanders _ 7 Saltwater Bog: In the Wasteland, solid ground can
+through the battlefield. A shallow stream is a narrow quickly become a bottomless mire. A saltwater bog
+linear terrain feature that counts as difficult terrain. counts as dangerous terrain. However, any model
+Eyery 12" section must include either a 3" section of that begins its movement within, passes through, or
+rocky rapids (dangerous terrain) or a ford. ends its movement within a saltwater bog will suffer
+
+3 Track: A track is a narrow linear terrain feature. a mishap on a roll of 1-2 (rather than the usual 1).
+‘Tracks are likely to be heavily rutted and full of 8 Fen: A fenis an area of reed-filled wetland, dead
+potholes. Whilst most of their length counts as a trees and stagnant pools of water. A fen counts as
+well-maintained road, every 12" section of a track difficult terrain.
+
+° must also include a 3" section of difficult terrain. 9 Scrubland: An area of rocky and uneven ground on
+
+ue 4 — Woods: The Tumble Downs are littered with which grows tangled scrub, thorn bushes and stunted
+windswept woodlands. Woods may count as either trees, Scrubland is a type of wood and may be classed
+difficult or dangerous terrain. as either difficult or dangerous terrain.
+
+5 Hill: The many low hills of the Tumble Downs are 10 Standing Ruins: The Wasteland is scattered with
+what gives the region its name. A hill may feature the ruins of the past. Standing ruins are an area of
+one rock-strewn slope, which counts as either difficult terrain within an enclosure measuring no
+difficult or dangerous terrain. more than 12" along its longest side. At least two
+
+6 Marsh; Areas of wetland dominated by tall grasses edges of the enclosure must be bordered by a low
+
+‘ can be found throughout the Wasteland, wherever linear obstacle.
+
+rivers, streams and lakes meet dry ground. A marsh 11 Fishing Village: A fishing village consists of a single
+
+counts as difficult terrain. building measuring between no more than 6" along
+its longest side and an enclosure measuring no
+more than 9" along its longest side. At least three
+edges of the enclosure must be bordered by a low
+linear obstacle.
+
+u 12 Sand Dune: Sand dunes are gently sloping hills
+
+of wind-blown sand that can rise to great heights.
+Because they consist entirely of deep and shifting
+sand, a sand dune counts as difficult terrain.
+SHADOWLANDS TERRAIN GENERATOR _
+
+his terrain generator represents the windswept northern reaches of the Wasteland, where gales blow from the Sea of
+Claws and cold rain pelts the barren earth. Here, the folk of Westerland live precarious lives, constantly battling the _
+harsh elements and ever watchful for the bloodstained sails of Norscan raiders upon the storm-tossed horizon. ‘
+
+The land upon the shores of the Sea of Claws is cold and uncaring at the best of times, but with the arrival of the Chainmaker it
+has become far worse. Great monoliths dot the landscape, raised in praise of the Ruinous Powers. These crude menhirs attract
+the winds of dark magic, which twists and warps the landscape, causing the northern reaches of Sigmar's Empire to resemble the
+trackless wilderness of the far north, creating a shadowland in which the influence of Chaos grows with each passing day.
+
+Shadowland Terrain Generator
+
+2D6
+2
+
+Result
+
+Road: A road is a linear terrain feature that can
+
+be either narrow or wide. If the road is wide, it
+
+is well-maintained. If the road is narrow, it is
+
+likely to be poorly maintained, heavily rutted
+
+and full of potholes. Every 12" section of a poorly
+maintained narrow road must include a 3" section of
+difficult terrain.
+
+Dense Woods: Darksome forests border the
+northern edges of the Wasteland. Dense woods
+count as dangerous terrain. However, any model that
+begins its movement within, passes through, or ends
+its movement within dense woodland will suffer a
+mishap on a roll of 1-2 (rather than the usual 1).
+Hill: Along the shores of the Sea of Claws, barren
+
+hills rise, their slopes scoured by gales. A hill may
+feature one rock-strewn slope, which counts as either
+difficult or dangerous terrain.
+
+Ravine: A treacherous ravine cuts through the
+
+landscape. A ravine is a linear terrain feature that
+can be either narrow or wide. A narrow ravine
+counts as difficult terrain. A wide ravine counts as
+dangerous terrain.
+
+Standing Stones: Huge slabs of crudely dressed
+stone rise from the cold earth. An area of standing
+stones counts as difficult terrain, over which no line
+of sight can be drawn.
+
+Scrubland: An area of uneven ground on which
+grows tangled scrub and stunted trees. Scrubland is a
+type of wood and may be classed as either difficult or
+dangerous terrain.
+
+Wy
+YY)
+
+Win
+*, \\
+
+10
+
+cou
+
+pba
+
+Rocky Ground: Patches of rocky ground break the
+earth, tripping and slowing the progress of formed
+troops. Rocky ground counts as either difficult or
+dangerous terrain.
+
+Haunted Ruins: Fallen debris lies thick upon the
+site of an abandoned dwelling, bordered by the
+remnants of once mighty walls. Haunted ruins
+consist of a single building measuring up to 6” along
+its longest side and an enclosure measuring no
+more than 12" along its longest side. At least two
+edges of the enclosure must be bordered by a low
+
+&
+ke
+
+linear obstacle. ; die :
+Shardlands: The tortured land shifts and cracks
+
+underfoot, revealing lava flows beneath. Shardlands
+
+count as dangerous terrain. However, any model that
+begins its movement within, passes through, or ends
+
+its movement within shardlands will suffer a mishap
+ona roll of 1-3 (rather than the usual 1). 1
+Chasm: A deep chasm cuts through the landscape.
+
+‘A chasm is a wide and impassable linear terrain
+
+feature. Every 12" section must include a bridge. :
+Bottomless Pit: A seemingly bottomless pit ¢
+opens within the landscape. A bottomless pit is an
+impassable terrain feature measuring between 3" and
+6" at its widest point.
+
+MULTI-PLAYER GAMES
+
+uughout the history of the World of Legend, historic allies have stood side by side against world-ending calamities,
+jing to sacrifice themselves to ensure the other can endure. Even old foes have been forced to put aside petty grudges
+and join forces to ensure their mutual survival against a larger threat. When it comes to narrative gameplay, di
+
+ing
+
+your forces between a number of players can be a fantastic way to both reflect the diverse nature of the battles of the Old
+‘World, as well as to involve your friends and members of your gaming group in your battles ~ especially in larger games or
+
+scenarios with allied forces.
+
+Multi-player Games
+
+Alliances
+
+Though the rules in Multi-player games will be mostly the
+same as they are when playing one-on-one, there are a few
+considerations. Below are the key changes from the standard
+rules for use in Multi-player games:
+
+Army Composition
+Ifa Scenario asks players to write multiple muster lists for the
+attacker and/or defender, the muster list containing the largest
+points allowance will be considered the primary force - any
+other forces on the same side are secondary forces. Equally,
+players are free to discuss amongst themselves as to which
+force should be considered the Primary Force if they feel one
+suits the narrative better than another.
+
+If there is only one muster list being controlled by multiple
+players, simply divide the army up into roughly even portions
+to ensure each player has a number of different units to
+
+command for the battle.
+
+In Multi-player games, players should treat any force on the
+same side as them as if it were an Allied Contingent, using
+the special rules outlined on page 280 of the Warhammer: the
+Old World rulebook. When determining the type of alliance
+between the two contingents, most alliances will be Trusted
+allies. However, sometimes a scenario calls for an alliance to
+be treated as ‘Uneasy’ or even ‘Suspicious’ In such cases, it
+will be detailed in the Scenario special rules, and will follow
+the rules outlined on page 281 of the Warhammer: the Old
+World rulebook.
+
+‘The King Is Dead
+
+When scoring “The King is Dead’ in Multi-player games where
+there is a Primary and Secondary force, if the enemy General
+of the Primary force has been slain, has fled off the battlefield
+or is fleeing when the game ends, you win a bonus of 100
+Victory Points. If the General of a Secondary Force is slain,
+has fled off the battlefield or is fleeing when the game ends,
+you win a bonus of 50 Victory Points.
+
+Trophies Of War
+When scoring “Trophies of War’ in Multi-player games where
+there is a Primary and Secondary force, you win a bonus of 50
+Victory Points for every enemy standard claimed as a trophy,
+as described on page 286 of the Warhammer: the Old World
+rulebook, Additionally, if the enemy Battle Standard Bearer
+in the Primary force has been slain, has fled off the battlefield
+or is fleeing when the game ends, you win an additional bonus
+of 50 Victory Points. Lastly, if the enemy Battle Standard
+Bearer in the Secondary force has been slain, has fled off
+
+the battlefield or is fleeing when the game ends, you win an
+additional bonus of 25 Victory Points.
+
+STORM IN THE WASTELAND
+
+the accursed realm carved out by the Chainmaker.
+
+Linked Battles In Westerland
+
+ith the arrival of Miao Ying and her forces in Westerland, the armies of Marienburg received a much needed boost in
+orale. Quickly, allied forces spread out into the Wasteland, advancing towards the benighted ruins of Hollum and
+
+Expanding The Narrative
+
+Rarely are conflicts in the Old World settled by one-off battles
+ora single skirmish. Quite the contrary, in fact, for it can take
+a series of brutal battles over the course of many months, if
+not years, to bring an end to a tyrant or topple an empire.
+
+Over the following pages you will find three linked scenarios
+that capture the flurry of activity that erupted in the Wasteland
+upon Miao Ying’s arrival in Marienburg. By playing through
+these in order, you can recreate the early stages of an ongoing
+conflict that was to rock the Empire for decades to come.
+
+Forging Your Own Narrative
+
+A series of linked scenarios is one of the most simple types of
+campaign that two or more players can enjoy. The idea being
+that the outcome of one battle directly affects the events of
+the next, making for unique games that tell an exciting and
+unfolding story.
+
+In this spirit, the three linked scenarios that follow represent
+a series of historical battles that took place between the forces
+of Frydaal the Chainmaker and the allied armies of Grand
+Cathay and Marienburg, but they can just as easily be played
+with any army you so wish. Perhaps Miao Ying felt honour-
+bound to travel to the Empire in response to the threat posed
+by Settra the Imperishable rather than a champion of Chaos.
+Maybe it was the noble knights of Bretonnia who rode to the
+aid of the beleaguered forces of Empress Magritta to vanquish
+the Norscans rather than the legions from Grand Cathay.
+There are plenty of options to explore.
+
+Ifa three-game campaign is a little short, it can be expanded
+by taking inspiration from the suggestions given for ‘campaign
+trees’ (see page 300 of the Warhammer: the Old World rulebook)
+and adding additional ‘secondary’ battles between each of the
+‘primary’ linked scenarios that follow. These might represent
+tense skirmishes fought as armies march across the Wasteland,
+or vicious battles fought over strategically important locations.
+This allows players to command alternative armies, or armies
+of differing sizes, and even allows more players to participate.
+
+To do this, the players simply choose two or more secondary
+scenarios (be they Pitched Battle scenarios from the
+Warhammer: the Old World rulebook, or matched play scenarios
+from the Matched Play Guide) and play these between each of
+the primary scenarios, using the Wasteland and Shadowlands
+terrain generators on pages 26 and 27 as appropriate.
+
+Which secondary scenario is played between each primary
+scenario can vary depending upon the outcome of the preceding
+primary scenario. For example, after playing the first of the
+three primary scenarios, A Timely Arrival, the players might
+play the Open Battle scenario if the attacker was victorious,
+
+or the Flank Attack scenario if the defender won. Next, they
+play the third battle in the campaign using the second primary
+scenario, Assault on Leonen. After this, the players might play
+either the Break Point scenario if the attacker wins the day at
+Leonen, or the Command & Control scenario if the defender
+stands victorious. Finally, after four games, the players will)
+
+battle for glory by playing the final primary scenario, the
+
+Reclamation of Hollum, completing their campaign.
+
+A TIMELY ARRIVAL
+
+¢ Empire garrison stationed in the town of Oostwold were caught off guard by the early arrival of the Chainmaker’s
+
+Qe Ill-equipped to hold off more than scouting parties and patrols, the captain in command of the garrison
+
+prepared his warriors for a glorious stand in an effort to delay the servants of the Ruinous Powers on their journey south.
+Fortunately, Miao Ying had wasted little time in Marienburg and marched her army swiftly northwards to bolster Empress
+Magritta’s forces. Help was close at hand, but would the army of Grand Cathay arrive in time to do more than bury
+
+the dead?
+
+First Battle
+Whilst this scenario is the first of three linked battles, it can be
+played as a standalone scenario.
+
+Army Selection
+If playing this game as the first of three linked battles, the
+players should consider how the rewards for winning or losing
+
+will affect their armies going forwards in the next two scenarios.
+
+Though players are not required to keep the same army for
+each game, as the forces commanded by the Storm Dragon
+and the Chainmaker are vast and able to sustain through
+the attrition of war, players may wish to keep the core of
+their armies similar for each game. Doing so helps weave the
+narrative of the campaign.
+
+‘The Attacker
+
+The attacker should write a single 2,500 points muster list
+using either the Warriors of Chaos Grand Army composition
+list or the Wolves of the Sea Army of Infamy composition list
+(see Arcane Journal ~ Warriors of Chaos).
+
+‘The Defender
+
+The defender should write two muster lists, one representing
+the Empire garrison, the other representing the relief force
+made up of soldiers from Grand Cathay.
+
+The Garrison: The defender should write a 1,000
+
+point muster list using the Empire of Man Grand Army
+composition list from Forces of Fantasy. The general of this
+force must be a Captain of the Empire.
+
+The Relief Force: The defender should write a 1,500 point
+muster list using the Jade Fleet Army of Infamy composition
+list (see page 44).
+
+Alternatively, this scenario may be played with any two armies
+of the players’ choosing.
+
+Set-up
+This battle takes place at an Empire encampment on the
+
+outskirts of the town-of Oostwold in the Wasteland. The
+
+battlefield can be set up as shown opposite, or by using the
+
+Wasteland t ator (see page 26). The defender’s
+
+rain gen
+
+deployment zone A should have some battlefield decoration
+
+entil
+
+repre the tents and rough defensive measures of the
+
+Empire encampment
+
+Deployment
+‘The defender deploys the Garrison anywhere within the
+
+defender’s deployment zone A, as shown on the map opposite
+
+The attacker then deploys their entire army anywhere within
+
+the attacker's deployment zone, as shown on the map opposite.
+The defender then deploys the relief force anywhere within
+
+defender’s deployment zone B.
+
+First Turn
+In this scenario, the attacker will automatically take the
+first turn.
+
+Game Length
+
+The battle will last for six rounds or until one side concedes.
+
+Victory!
+Once the battle ha
+
+nded, use Victory Points to determine
+
+which player is the winner, as described in the Warhammer: the
+
+Old World rulebook. I
+
+addition, at the end of the game:
+
++ The attacking player wins a bonus 100 Victory Points for
+
+each character in the defender’s army that has been slain.
++ The defending player wins a bonus 100 Victory Points for
+each character in the Garrison army that is still alive at
+
+the end of the game.
+
+A Timely Arrival 3
+
+ASSAULT ON LEONEN
+
+ws of small, yet bloody, skirmishes followed the first meeting between the armies from Grand Cathay and the
+Chainmaker. Though the devotees of the Ruinous Powers had been foiled on the outskirts of Oostwold, they in turn
+had blunted the advance of the Cathayan and Empire forces, making them pay in blood for each mile. These small-scale
+battles continued for many weeks, until the combined forces of Miao Ying and Empress Magritta reached the fortified
+town of Leonen. Though the preliminary bombardment from the Cathayan artillery shattered the town's defences, the
+Chainmaker’s forces quickly rallied to face the new threat. Victory for Miao Ying would mark the turning point in driving
+back the Chainmaker’s invasion, but defeat would herald the beginning of the end for the people of Westerland.
+
+Second Battle
+Whilst this scenario is the second of three linked battles, it can
+be played as a standalone scenario.
+
+Boons Of Victory
+If playing this game as the second of three linked battles, the
+winner of the previous battle will receive a boon:
+
++ Ifthe attacker won the previous battle, once per game, each
+character in the defender’s army may re-roll the D6 when
+rolling on the Gaze of the Gods table.
+
++ Ifthe defender won the previous battle, once per game,
+each unit in the attacker's army whose troop type is ‘war
+machine’ may re-roll an Artillery dice.
+
+‘The Attacker
+
+The attacker should write a single 3,000 points muster list
+using the Jade Fleet Army of Infamy composition list (see page
+44). The General of this army must be Miao Ying, the Storm
+Dragon (see Arcane Journal - Armies of Grand Cathay).
+
+The Defender
+
+The defender should write a single 3,000 points muster list
+using either the Warriors of Chaos Grand Army composition
+list or the Wolves of the Sea Army of Infamy Composition List
+(see Arcane Journal ~ Warriors of Chaos). The General of this
+army must be Frydaal the Chainmaker (see Arcane Journal -
+Warriors of Chaos).
+
+Alternatively, this scenario may be played with any two armies
+
+of the players’ choosing.
+
+Set-up
+This battle takes place in the ruined remains of the town
+of Leonen. The battlefield can be set up as shown opposite,
+or by using the Wasteland terrain generator (see page 26).
+The defender’s deployment zone should also contain a
+number of ruined houses to represent what little remained
+standing following the preliminary bombardment from the
+Cathayan artil
+
+Deployment
+
+‘The defender deploys their army anywhere in the defender’s
+deployment zone, as shown on the map opposite. Once
+complete, the attacker deploys their entire army within the
+
+attacker's deployment zone, as shown on the map opposite.
+
+First Turn
+In this scenario, the attacker will automatically take the
+first turn.
+
+Game Length
+
+The battle will last for six rounds or until one side concedes.
+
+Scenario Special Rules
+“The Gods Watch On!”
+the defender's force who slays an opponent in a challenge must
+of the Gods table.
+
+A Character or Unit Champion in
+
+lon the
+
+immediately
+
+The Might of Grand Cathay
+unit with the War Machine Unit type in the attacker's force
+
+efore the game begins, each
+may shoot as if it were the Shooting phase of their turn,
+
+Victory!
+Once the battle has ended, use Victory Points to determi)
+
+which player is the winner, as described in the Warhammer: the
+
+Old World rulebook. In addition,
+
+t the end of the game:
+
++ The attacking player wins a bonus 50 Victory Points for
+
+each of their units wholly within the defending player's
+
+deployment zone with a unit strength of 10 or more.
++ The defending player wins a bonus 50 Victory Points
+for each unit with the War Machine Unit Type that has
+
+been slain.
+
+RECLAMATION OF HOLLUM
+
+aving driven the Chainmaker and her forces back to the coastline in a bloody campaign, Miao Ying knew that one final
+
+battle could see the followers of the Ruinous Powers banished from the shores of the Empire. However, the Chaos
+Champion had retreated to the town of Hollum, her fortified outpost and the site of her forsaken monument. The Storm
+Dragon was unsure what power lay within the great icon, but she knew that the Dark Gods would be paying close attention
+to their favoured champion, and the Chainmaker’s warriors would fight that much harder in the knowledge that the gaze of
+
+the gods was fixed firmly upon them.
+
+Third Battle
+Whilst this scenario is the third and final of three linked
+battles, it can be played as a standalone scenario.
+
+Boons Of Victory
+If playing this game as the third of three linked battles, the
+winner of the previous battle will receive a boon:
+
+If the attacker won the previous battle, 0-3 units in their army
+may have the Vanguard special rule at no additional cost.
+Additionally, 0-3 units in their army may have the Stubborn
+special rule at no additional points cost.
+
+If the defender won the previous battle, they may write an
+additional 500 point muster list using the Warriors of Chaos
+Grand Army composition list or Wolves of the Sea Army of
+Infamy composition list (see Arcane Journal ~ Warriors of Chaos).
+Every unit in this muster list has the Ambushers special rule at
+no additional cost and must begin the game in reserve.
+
+Haunted Ruins
+
+‘The Attacker
+
+The attacker should write a single 3,500 point muster list
+using the Jade Fleet Army of Infamy composition list
+(see page 44). The General of this army must be Miao
+Ying, the Storm Dragon (see Arcane Journal — Armies of
+Grand Cathay).
+
+‘The Defender
+
+The defender should write a single 3,500 point muster list
+using either the Warriors of Chaos Grand Army composition
+list or the Wolves of the Sea Army of Infamy Composition List
+(see Arcane Journal — Warriors of Chaos). The General of this
+army must be Frydaal the Chainmaker (see Arcane Journal -
+Warriors of Chaos).
+
+Alternatively, this scenario may be played with any two armies
+of the players’ choosing.
+
+ie
+
+Feydaal’s Monument
+
+Shardlands
+
+Set-up
+
+This battle takes place in the northernmost reaches of the
+Wasteland, a region heavily afflicted by the corruption of
+Chaos. The battlefield can be set up as shown opposite, or
+by using the Shadowland terrain generator (see page 27). In
+addition, place a large stone monolith as shown on the map
+
+opposite to represent Fryd:
+
+s monument:
+
++ Frydaal’s Monument: A special feature measuring up to 6”
+at its widest point. Frydaal’s Monument counts as both an
+arcane monolith and a monument of glory.
+
+Deployment
+‘The defender deploys th
+
+my within the defender’s
+
+deployment zone, as shown on the map opposite. Once
+
+complete, the attacker deploys their entire army within the
+
+attacker's deployment zone.
+
+First Turn
+In this scenario, the attacker will automatically take the
+first turn.
+
+Game Length
+
+The battle will last for six rounds or until one side concedes.
+
+Scenario Special Rules
+Judgement of the Gods: Characters in the defender’s army
+may re-roll the Dé when rolling on the Gaze of the Gods table.
+
+‘The Storm Dragon's Triumph: Whenever Miao Ying slays
+
+an enemy Character (but not unit Champions) in combat, she
+
+may regain a single Wound lost earlier in the battle.
+
+Victory!
+
+Once the battle has ended, use Victory Points to determine
+which player is the winner, as described in the Warhammer: the
+Old World rulebook. In addition, at the end of the game:
+
++ The attacking player wins a bonus 50 Victory Points for
+each character in their army that is alive and not fleeing,
++ The defending pla
+each character in the attackers army that was slain in
+
+er wins a bonus 50 Victory Points for
+
+a challenge.
+
+Mage GRAND CATHAY
+a JADE FLEET
+
+Old World rulebook.
+
+Army of Infamy composition list is designed to be used with the Grand Cathay army list found in Arcane Journal -
+ies of Grand Cathay, and alongside the ‘Forming Units’ and ‘Warhammer Armies’ sections of the Warhammer: the
+
+‘ ride Brn din GY) dnd Bends
+
+If you wish to field a Jade Fleet army in your games of Warhammer: the Old World, you may write your muster list using the Army
+of Infamy composition list below instead of the Grand Army composition list found in Arcane Journal ~ Armies of Grand Cathay.
+Over the following pages you will find new profiles and rules for certain models in your army, representing units unique to a Jade
+
+Fleet army: _
+
+Army of Infamy Composition List
+
+Characters
+Up to 50% of your army’s points value may be spent on:
+
++ Miao Ying, the Storm Dragon
++ 0-1 Shugengan Lord or Lord Magistrate per 1,000 points
++ Shugengan, Gate Masters, Gate Keepers and Strategists
+
+Core
+At least 25% of your army's points value must be spent on:
+
++ Jade Warriors
+
++ 0-Lunit of Jade Lancers per 1,000 points may be taken as a
+Core choice
+\
+
+Special
+
+Up to 50% of your army's points value may be spent on:
+
+x + Jade Lancers
+
+1,000 points:
+- Fire Rain Rocket Batteries
+~~ Cathayan Grand Cannon
+
+Rare
+Up to 25% of your army's points value may be spent on:
+
++ Sky Lanterns and Cathayan Sentinels
+
+Mercenaries
+
+Up to 33% of your army's points value may be spent on
+mercenaries drawn from the Empire of Man army list in Forces
+of Fantasy:
+
++ 0-1 Captain of the Empire, Master Mage, Priest of Sigmar
+or Priest of Ulric per 1,000 points
+
++ State Troops, State Missile Troops, Free Company Militia
+and Empire Archers
+
++ 0-1 unit of Pistoliers or Outriders per 1,000 points
+
+Note that mercenary units within a Jade Fleet army are not subject
+to the ‘Misbehaving Mercenaries’ rules.
+
+Battle Standard Bearer
+
+A single Gate Keeper in your army may be upgraded
+to be your Battle Standard Bearer for +25 points. In
+addition to their usual allowance of points to spend on
+magic items, a Battle Standard Bearer can purchase a
+single magic standard with no points limit.
+
+Magic Items
+‘Any models that have the option to purchase magic items
+may purchase Common ot Empire Of Grand Cathay
+
+magic items.
+
+JADE FLEET SPECIAL RULES
+
+fi) in this page youwill find a full description for each of the army special rules that apply to an army built using the Jade
+Fleet Army of Infamy composition list. These are in addition to any special rules that may normally apply to an army
+made using the Grand Cathay army list as found in Arcane Journal ~ Armies of Grand Cathay.
+
+Cathayan Black Powder
+Though the production of Cathayan black powder is a closely
+guarded secret, they freely share their stockpiles with mercenary
+
+units and their allies when marching to war.
+
+The first time any unit in a Jade Fleet army that is armed with
+a handgun, a pistol, a brace of pistols, a repeater handgun, or
+
+a repeater pistol shoots, the range of that weapon is increased
+by 3"
+
+Mercenary Handgun Drill
+Many mercenary units have fought all across the warring states
+of the Empire, learning the tricks of the trade from elite soldiers in
+
+other mercenary bands and from within various standing armies.
+
+Once per game, each unit or detachment of State Missile
+Troops in a Jade Fleet army can fire with one additional rank.
+
+Unity & Harmony
+
+The soldiers of Grand Cathay are renowned for their devotion to
+the protection of their homeland, but will fight and die,beside their
+allies to ensure their towns and villages are kept free from danger.
+
+Any unit of Jade Warriors or Jade Lancers within 3" of a
+friendly Mercenary unit may re-roll To Hit rolls of 1 during
+the Combat phase.
+
+War Balloons
+
+As well as tracking the movements of enemy forces, the Sky Lanterns
+of Grand Cathay can descend upon their foes from any direction to
+unleash a torrent of Crane gun fire and gunpowder bombs.
+
+0-1 Sky Lantern per 1,000 points may have the Ambushers
+special rule for +15 points. In addition, once per game a Sky
+Lantern that is held in reserve may re-roll the dice when
+rolling to determine if it arrives this turn as reinforcements or
+
+is delayed.
+
+Treasures of Grand Cathay
+For thousands of years, the
+people of Grand Cathay
+have pursued the arts of
+civilisation. Inspired by
+
+the vision of Xen Yang, the
+Celestial Dragon, skilled
+
+| artisans, architects, scholars
+
+and mages have endeavoured
+to create wonders worthy
+
+of their Emperor's approval.
+From the towering heights
+of the Great Bastion to the
+sprawling civic buildings
+
+and grand palaces of Wei-
+jin, the wonders of Cathay
+are undeniable, But the
+artifice and ingenuity of the
+Cathayans is not limited
+
+to the raising of buildings.
+Amongst Cathay’s greatest
+treasures are the enchanted
+weapons and mystical
+artefacts carried to war on
+distant battlefields by great
+heroes. Such treasures are the
+envy of Cathay’sallies and
+enemies alike.
+
+4
+
+{
+
+GRAND CATHAY
+MAGIC ITEMS
+
+The following pages expand upon the Grand Cathay magic items found in Arcane
+Journal ~ Armies of Grand Cathay. These magic items are unique to Grand Cathay
+armies and can be purchased in exactly the same way as Common magic items, as
+described in the Warhammer: the Old World rulebook.
+
+Extremely Common Magic Items: Any magic item marked with an asterisk (*) is considered
+to be extremely common, as described in the Warhammer: the Old World rulebook.
+
+Magic Weapons
+
+The Sword Of Reason. a
+This great blade is sometimes wielded by Yuan Bo when his
+Celestial Dragon's will upon the unruly.
+
+.. 65 Points
+duties require him to enforce the
+
+R —S_AP_ Special Rules
+The Sword Combat $+2  -2 _ Killing Blow, Magical Attacks,
+of Reason Requires Two Hands
+
+Notes: The wielder of the Sword of Reason strikes a Killing Blow if they roll a natural 5 or 6 when
+making a roll To Wound, rather than the usual 6.
+
+The Brazen Blade... 50 Points
+Crafted in the forges of Nan-Gau, this unusual weapon carves deep wounds that no magic can heal.
+
+R= S_AP_ Special Rules
+The Brazen Blade Combat S+1 -1 Magical Attacks, Multiple Wounds (2)
+Notes: Enemy models are not permitted a Ward or Regeneration save against an attack made
+with this weapon if the wielder rolls a natural 6 when making a roll To Wound.
+
+‘The Wrath Of Xen Yang... swuneun 45 Points
+Supposedly once wielded by the Celestial Dragon himself. this long and elegant spear burns with
+Dragon-fire.
+
+R S_AP_ Special Rules
+The Wrathof Combat $+1 -1 Armour Bane (1), Flaming Attacks,
+Xen Yang Magical Attacks
+
+Notes: Enemy models cannot make Regeneration saves against a wound caused by this weapon.
+
+‘The Sword Of Nan-Gai
+This shimmering blade strikes with a life
+that serve the Ruinous Powers.
+
+.35 Points
+
+of its own, seeking any weakness in the armour of those
+
+RS _ AP __ Special Rules
+TheSwordof Combat S$  -3 Hatred (Warriors of Chaos),
+Nan-Gau Magical Attacks
+Magic Armour
+
+Jade Armour Of Beich:
+Crafted in secret in the city of Beichai, this jade armour glows from
+within with unwholesome power,
+
+The Jade Armour of Beichai is a suit of full plate armour, In
+addition, the wearer of the Jade Armour has a 5+ Ward save
+against any wounds suffered and gains the Magic Resistance
+(-2) special rule.
+
+Talismans
+
+The Mantle Of Heaven... 3
+Woven from silk harvested from the slopes of Kunlan, the wearer of
+these robes is filled with a measure of the Celestial Dragon’ essence.
+
+Models whose troop type is ‘infantry’ or ‘cavalry’ only. May be
+worn with other armour. The wearer of the Mantle of Heaven
+improves their armour value by 2 (to a maximum of 2+)
+against non-magical shooting attacks.
+
+Magic Standards
+
+Sigil Of Smoke & Powder... 35 Points
+Clouds of gunpowder smoke hang about the bearer of this
+blackened sigil, obscuring them from the enemy's sight.
+
+Any enemy model that targets this character or any unit they
+have joined during the Shooting phase suffers an additional
+-1 To Hit modifier.
+
+Vermilion Quills" .. 25 Points
+Great heroes of Grand Cathay are awarded tokens of favour in the
+form of a Vermilion warbird’ tail feather, tokens which are said to
+bless the bearer with unrivalled fortune.
+
+0-1 per model. Single Use. The bearer of a Vermilion Quill
+(but not their mount) can re-roll any failed rolls To Hit and/
+or To Wound made during the Combat phase.
+
+Banner Of The Dragon’s Wrath ... ..45 Points
+Those that march to war beneath the Banner of the Dragon's
+Wrath descend upon the foe with the fury of Li Dao, the
+
+Fire Dragon.
+
+A unit carrying the Banner of the Dragon's Wrath gains the
+Flaming Attacks and Impact Hits (1) special rules.
+
+‘The Jade Banner... ..40 Points
+Carved from purest jade by Cathay’ finest artificers, this ancient
+banner fills the heart of a Jade Warrior with pride.
+
+When calculating its combat result, a unit carrying the
+Grand Banner of Superiority may claim an additional bonus of
++2 combat result points.
+
+The Shroud Of Shiyama... 25 Points
+The spectral presence of Shiyama, the Spirit Dragon, lingers about
+those that fight beneath this silken standard crafted in her memory.
+
+‘A unit carrying the Shroud of Shiyama gains the Fear special
+rule, If they already have the Fear special rule, they instead
+gain the Terror special rule.
+
+‘The Banner Of Xen Wun..... 15 Points
+Enemies often falter before this ashen banner, touched by the
+spirits of Xen Wun.
+
+Enemy units that wish to declare a Stand & Shoot or Fire &
+Flee charge reaction against a unit carrying the Banner of Xen
+Wun must first make a Leadership test. If this test is passed,
+they may declare a Stand & Shoot or Fire & Flee charge
+reaction. If this test is failed, they must Hold instead.
+
+Enchanted Items
+
+Ring Of Jet’.
+
+Carved from purest jet quarried from the banks of the Dragon River, the Ring of Jet is infused with
+
+the power of Shiyama, allowing its wielder to summon ancestral spirits.
+
+0-1 per model. The wielder of the Ring of Jet can cast the Unquiet Spirits spell from the
+page 333 of the Warhammer: the Old World rulebook) as a Bound
+Spell, with a Power Level of 2
+
+Lore of Necromancy (s
+
+Golden Lion..... 25 Points
+
+Jade Lions are revered in Cathay for their bravery, and golden amulets carved into their likeness
+
+inspire great courage.
+
+The bearer of the Golden Lion and their unit may re-roll any failed Fear, Panic, Rally or
+Terror test.
+
+20 Points
+s contain the fury of the
+
+‘The Fires Of Nan-Gau*
+Cunningly crafted by the artificers of Nan-Gau, thes
+
+arthenware j
+
+city’s forges, ready to be unleashed upon Cathay’s enemies.
+
+0-1 per model. Single Use. The Fires of Nan-Gau is a breath weapon with the
+following profile
+
+R . SAP __ Special Rules
+The Fires N/A 4  -2__ Breath Weapon, Flaming Attacks,
+of Nan-Gau Magical Attacks
+
+Arcane Items
+
+Clockwork Compass. 50 Points
+This finely wrought clockwork mechanism emulates the properties of the Wu Xing compass in
+Wei-jin. When correctly used, it can temporarily still the Winds of Magic.
+
+Single use. The bearer may use this item instead of making a Wizardly dispel attempt. If
+
+they do so, the spell is automatically dispelled with no Dispel roll required. In addition,
+all ‘Remains in Play’ spells currently in play are dispelled, including spells cast by
+friendly Wizards,
+
+Seal Of Xing Po’ ..25 Points
+The bearer of a Seal of Xing Po has studied the elemental winds for decades, mastering the
+Winds of Yin or Yang.
+
+0-1 per model. If you wish, the bearer of a Seal of Xing Po may discard two of their
+randomly generated spells (rather than the usual one) and instead select two signature
+spells from either the Lore of Yang or the Lore of Yin (determined by which of those two
+special rules they have).
+
+Scrolls Of Wei-j .10 Points
+Those fortunate enough to study the Elemental Winds in the heart of the Celestial City learn
+many arcane secrets. Such scholars carry with them many scrolls, heavy with knowledge.
+
+The bearer of the Scrolls of Wei-jin knows one more spell (chosen in the usual way) than is
+normal for their Level of Wizardry. However, they can only cast a number of spells equal to
+their Level of Wizardry per turn.
+

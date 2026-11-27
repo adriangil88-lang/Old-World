@@ -1,0 +1,132 @@
+Alma oscura                                   M1 B0 OK | /Forsaken
+Asklander Chief - Jarl                        M1 B0 OK | /Sorcerer Lord on Daemonic Mount
+Asklander Chief - Jarl                        M5 B0 OK | /Exalted Sorcerer on Daemonic Mount
+Aspiring Champion                             M2 B0 OK | 
+Aspiring Champion BSB                         M2 B0 OK | 
+Aspiring Champion on Chaos Chariot            M4 B0 OK | 
+Aspiring Champion on Gorebeast Chariot        M4 B0 OK | 
+Aspiring Champion on Steed                    M2 B0 OK | 
+Champion                                      M1 B0 OK | /Forsaken CH
+Chaos Chariot                                 M5 B0 OK | 
+Chaos Giant                                   M2 B0 FALTA [('M', '78DBE1B8', 'X', 'X')] | 
+Chaos Giant                                   M3 B0 FALTA [('M', '79CF3B54', 'X', 'X'), ('M', 'EB6AF295', 'X', 'X')] | 
+Chaos Giant                                   M2 B0 FALTA [('M', '5E916C73', 'X', 'X')] | 
+Chaos Giant                                   M2 B0 OK | 
+Chaos Giants                                  M2 B0 OK | 
+Chaos Giants                                  M2 B0 OK | 
+Chaos Giants                                  M2 B0 OK | 
+Chaos Knights                                 M2 B0 OK | 
+Chaos Knights CH                              M3 B0 OK | 
+Chaos Knights MU                              M3 B0 OK | 
+Chaos Knights ST                              M3 B0 FALTA [('M', 'DE3D26D0', 'A', 'X')] | 
+Chaos Knights ST                              M3 B0 FALTA [('M', 'DE3D26D0', 'A', 'X')] | 
+Chaos Lord                                    M2 B0 OK | 
+Chaos Lord on Chaos Chariot                   M4 B0 OK | 
+Chaos Lord on Chaos Dragon                    M2 B0 OK | 
+Chaos Lord on Chaos Steed                     M2 B0 OK | 
+Chaos Lord on Chaos Steed                     M2 B0 OK | 
+Chaos Lord on Daemonic Mount                  M2 B0 OK | 
+Chaos Lord on Gorebeast Chariot               M4 B0 OK | 
+Chaos Lord on Manticore                       M2 B0 OK | 
+Chaos Marauders                               M2 B0 OK | 
+Chaos Marauders                               M2 B0 OK | 
+Chaos Marauders CH                            M3 B0 OK | 
+Chaos Marauders MU                            M3 B0 OK | 
+Chaos Marauders ST                            M3 B0 FALTA [('M', 'DE3D26D0', 'A', 'X')] | 
+Chaos Ogre                                    M2 B0 OK | 
+Chaos Ogre                                    M2 B0 OK | 
+Chaos Ogre                                    M2 B0 OK | 
+Chaos Ogre CH                                 M3 B0 OK | 
+Chaos Ogre MU                                 M3 B0 OK | 
+Chaos Ogre ST                                 M3 B0 FALTA [('M', 'DE3D26D0', 'A', 'X')] | 
+Chaos Spawn                                   M2 B0 OK | 
+Chaos Trolls                                  M2 B0 OK | 
+Chaos Trolls                                  M2 B0 OK | 
+Chaos Trolls                                  M2 B0 OK | 
+Chaos Warhounds                               M2 B0 OK | 
+Chaos Warhounds                               M2 B0 OK | 
+Chaos Warriors CH                             M3 B0 OK | 
+Chaos Warriors MU                             M3 B0 OK | 
+Chaos Warriors ST                             M3 B0 FALTA [('M', 'DE3D26D0', 'A', 'X')] | 
+Chimera                                       M2 B0 OK | 
+Chimera                                       M1 B0 OK | /Chimera
+Chosen Chaos Knights                          M2 B0 OK | 
+Chosen Chaos Knights CH                       M3 B0 OK | 
+Chosen Chaos Knights MU                       M3 B0 OK | 
+Chosen Chaos Knights MU                       M3 B0 OK | 
+Chosen Chaos Warriors                         M2 B0 OK | 
+Chosen Chaos Warriors                         M2 B0 OK | 
+Chosen Chaos Warriors CH                      M3 B0 OK | 
+Chosen Chaos Warriors MU                      M3 B0 OK | 
+Chosen Chaos Warriors ST                      M3 B0 FALTA [('M', 'DE3D26D0', 'A', 'X')] | 
+Chosen Chariot                                M4 B0 OK | /Chaos Chariot
+Crew                                          M2 B0 OK | 
+Crew                                          M2 B0 OK | 
+Crew                                          M2 B0 OK | 
+Daemon Prince                                 M2 B0 OK | 
+Daemon Prince                                 M2 B0 OK | 
+Daemon Prince                                 M4 B0 OK | 
+Darksoul                                      M1 B0 OK | /Forsaken
+Darksoul                                      M1 B0 OK | /Forsaken ST
+Darksoul                                      M1 B0 OK | /Forsaken MU
+Dragon Ogre                                   M2 B0 OK | 
+Dragon Ogre CH                                M3 B0 OK | 
+Dragon Ogre Shaggoth                          M2 B0 OK | 
+Exalted Champion                              M2 B0 OK | 
+Exalted Champion  on Gorebeast Chariot        M4 B0 OK | 
+Exalted Champion on Chaos Chariot             M4 B0 OK | 
+Exalted Champion on Chaos Steed               M2 B0 OK | 
+Exalted Champion on Daemonic Mount            M1 B0 OK | 
+Exalted Sorcerer                              M2 B0 OK | 
+Exalted Sorcerer on Chaos Chariot             M5 B0 OK | 
+Exalted Sorcerer on Daemonic Mount            M6 B0 OK | 
+Exalted Sorcerer on Steed                     M2 B0 OK | 
+Forsaken                                      M2 B0 OK | 
+Forsaken                                      M2 B0 OK | 
+Forsaken                                      M2 B0 OK | 
+Forsaken                                      M2 B0 OK | 
+Forsaken CH                                   M3 B0 OK | 
+Forsaken MU                                   M3 B0 OK | 
+Forsaken ST                                   M3 B0 FALTA [('M', 'DE3D26D0', 'A', 'X')] | 
+Giant Chaos Spawn                             M2 B0 OK | 
+Giant Chaos Spawn                             M1 B0 OK | /Giant Chaos Spawn
+Gorebeast Chariot                             M4 B0 OK | 
+Harbinger                                     M3 B0 OK | /Daemon Prince
+Harp                                          M1 B0 OK | /Forsaken MU
+Hellcannon                                    M2 B0 OK | 
+Hellhound                                     M1 B0 OK | /Chaos Warhounds
+Hellhound                                     M1 B0 OK | /Chaos Warhounds
+Hellhound RnF                                 M1 B0 OK | /Chaos Warhounds
+Hellhound RnF                                 M1 B0 OK | /Chaos Warhounds
+Hoher Bestienmeister                          M2 B0 FALTA [('M', '08486991', 'X', 'X')] | 
+Hoher Bestienmeister                          M1 B0 FALTA [('M', '08486991', 'X', 'X')] | /Hoher Bestienmeister
+Hoher Bestienmeister auf Geisselkufen-Streitw M2 B0 OK | 
+Infernal Ironsworn                            M2 B0 OK | 
+Infernal Ironsworn Champion                   M3 B0 OK | 
+Infernal Ironsworn Musician                   M3 B0 OK | 
+Infernal Ironsworn Musician                   M3 B0 OK | 
+Infernal Ironsworn Standard                   M3 B0 OK | 
+Line of Sight 25x25                           M1 B0 FALTA [('M', '4375CB2C', 'X', 'X')] | /Exalted Sorcerer
+Line of Sight 50x100                          M1 B0 FALTA [('M', '4723A774', 'X', 'X')] | /Chaos Chariot
+Line of Sight 50x50                           M1 B0 FALTA [('M', '4375CB2C', 'X', 'X')] | /Sorcerer Lord on Daemonic Mount
+Lord of Nurgle                                M1 B0 OK | /Sorcerer Lord on Gorebeast Chariot
+Marauder Horsemen                             M2 B0 OK | 
+Marauder Horsemen                             M2 B0 OK | 
+Marauder Horsemen CH                          M3 B0 OK | 
+Marauder Horsemen MU                          M3 B0 OK | 
+Marauder Horsemen ST                          M3 B0 FALTA [('M', 'DE3D26D0', 'A', 'X')] | 
+Schlächterschwestern                          M2 B0 OK | tienmeister auf Geisselkufen-Streitwagen
+Sorcerer                                      M1 B0 OK | /Exalted Sorcerer
+Sorcerer Lord                                 M2 B0 OK | 
+Sorcerer Lord                                 M2 B0 OK | 
+Sorcerer Lord on Chaos Chariot                M5 B0 OK | 
+Sorcerer Lord on Chaos Dragon                 M2 B0 OK | 
+Sorcerer Lord on Chaos Steed                  M2 B0 OK | 
+Sorcerer Lord on Daemonic Mount               M6 B0 OK | 
+Sorcerer Lord on Gorebeast Chariot            M4 B0 OK | 
+Sorcerer Lord on Manticore                    M2 B0 OK | 
+Stammesführer                                 M1 B0 OK | /Warhound Handler
+Standarte                                     M1 B0 FALTA [('M', 'DE3D26D0', 'A', 'X')] | /Forsaken ST
+Standarte                                     M1 B0 OK | /Infernal Ironsworn Standard
+Warhound Handler                              M2 B0 OK | 
+dice                                          M1 B0 OK | /Models of Warrior of Chaos

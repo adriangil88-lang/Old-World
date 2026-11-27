@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+core_7.tsv	core_7-061	CONFIRMA	rules.js:6964 laststand: defensor vivo ->RV; cae/se rinde ronda>=6 ->MV defensor; rondas 3-5 MV atacante; 1-2 RV atacante (ronda 5 no explicita en fuente, razonable)
+faq_libros.tsv	Q02	CONFIRMA	data.js:3252 champEligible excluye runas de arma 'w' para dw_royalwarriors_ga; Martilladores no estan en CHAMP_IB (sin objetos de campeon)
+aj_empire2.tsv	aj_empire2-049	PARCIAL	rules.js:5588-5606 segundo desafio tras matar cargando OK, pero la aceptacion se decide automatica (heuristica duelPower) sin respetar la politica/eleccion del humano ni popup
+core_4.tsv	C4-046	PARCIAL	rules.js:4635 autoAssail lanza a la Iniciativa del Mago (activo primero) pero automatico: u.assailTgt nunca se asigna, el humano no elige objetivo ni puede no lanzar
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-263	CONFIRMA	data.js:2940 cdl_shroud grant hatredDwarfs; rules.js:4918 hatredDwarfs solo contra faction dw (nota del TSV obsoleta)
+core_5.tsv	C5-059	CONFIRMA	rules.js:1919 rf=models-mix: u.models incluye mando; solo se excluyen modelos de tipo mixto, no campeon/estandarte/musico
+core_6.tsv	core6-097	PARCIAL	rules.js:13 tableFor: 72x48 std; min 44x30 (<=1000) y 60x44; falta el tramo 3.001+ pts que exige 44x90 (el motor da 60x44)
+leg_vampires.tsv	leg_vampires-234	PARCIAL	rules.js:559 necroHeal: solo reserva de Heridas (personajes y luego tropa); no resucita campeon, portaestandarte ni musico en orden, ni coloca en fila frontal/trasera
+core_4.tsv	C4-120	PARCIAL	rules.js:5193 un unico rollExpr por unidad (u.curA) para todos los modelos; la regla exige tirar por cada modelo de la fila (afecta Gors Deformes D3 multimodelo)
+cathay.tsv	cathay_aj-084	CONFIRMA	"rules.js:4540 obsSent: chequeo Ld a 12"" por intento de lanzar, -3 si falla / -1 si pasa; magRes2 (-2) en data.js:2268"
+aj_chaos2.tsv	aj_chaos2-168	CONFIRMA	data.js:2822 wocaj_scalemail list wolves, sv 5 (pesada), grant strikeFirst; lista validada en data.js:4716
+aj_dwarfs2.tsv	aj_dwarfs2-094	CONFIRMA	data.js:3726 dw_sapper variante de engineer: 70 pts, 3/4/5/4/4/2/2/2/9, 25x25, tt char (inf. pesada personaje), arma de mano y armadura pesada
+leg_vampires.tsv	leg_vampires-145	CONFIRMA	data.js:1901 vc_blackknights sr cleave, closeOrder, firstCharge, regen, swiftstride (+undead); campeon Hell Knight por unidad
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-172	CONFIRMA	data.js:3790 cd_prophet_bale: T6 (5+1), H7 (3+4), ppm 355=195+160; solo el Profeta puede montarlo segun la fuente
+core_3.tsv	c3-013	CONFIRMA	rules.js:6656-6706 endPlayerTurn: active alterna first/otro y s.turn++ al terminar el segundo jugador (ronda = dos turnos)
+core_8.tsv	core_8-068	CONFIRMA	data.js:2578 spellshield: cat a, svb 1 (escudo), wardMagic 5, 25 pts; rules.js:1997 aplica a spellDmg (proyectil, vortice, asalto)
+leg_ogres.tsv	leg_ogres-069	CONFIRMA	data.js:2115 ok_thundertusk sr closeOrder, firstCharge, impact, large, numbChill, stomp, swiftstride, terror; impact D3, stompN 3; colmillos AP-1 Bane(2)
+aj_tk2.tsv	aj_tk2-044	PARCIAL	data.js:4459 wizard nivel1 lore necro OK, pero nehLore rules.js:1036 reemplaza al azar su unico hechizo (la firma de Nigromancia) sin eleccion del jugador: nunca conoce Nigromancia
+aj_empire2.tsv	aj_empire2-006	CONFIRMA	rules.js:249 stirhugel first:0 (atacante=jugador 0), sin tirada en RO; rules.js:1161 s.first=SC.first
+leg_daemons.tsv	leg_daemons-078	CONFIRMA	data.js:5874-5875 dm_gud base nivel 1; opciones w2 +30, w3 +60, w4 +90 (grupo exclusivo m)
+aj_empire2.tsv	aj_empire2-105	CONFIRMA	data.js:4511 war_wagon: ranged multi trabuco/rifle largo/repeticion y slots bola y cadena/alabarda/atrapahombres; rules.js:4893,7424 eleccion arma unica o mano por tripulante
+faq_core_4.tsv	FC4-18c	CONFIRMA	rules.js:2350 loneProtected devuelve false con tmplWpn (breath, fireCol, indirect, blast, bombard); 2392 lo pasa; bala de canon aparte (2813) segun FAQ
+aj_orcs2.tsv	aj_orcs2-088	CONFIRMA	rules.js:5743 kind ebutt: tabla 5-6 de 'cosas mas grandes' correcta; 1 impacto, dmg D3+1, noArmour, noRegen, auto; Ward permitida
+aj_wood2.tsv	aj_wood2-113	PARCIAL	rules.js:2024 cleaveT excluye personajes montados (!dd.mount) aunque su tipo es caballeria ligera/pesada (la fuente los incluye); herida automatica ya excluida (!auto)
+dawn_renegade_sc.tsv	sc_waystones-006	CONFIRMA	rules.js:1305 ALT_RULE waystones ['whole','def'] + 1154 altWant: defensor despliega todo el ejercito y luego el atacante (nota TSV obsoleta); first:1 defensor
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-198	PARCIAL	data.js:2180 cd_mortar M3 HA3 HP3 F3 I2 A3 Ld9 OK (Ld ya 9); pero dotacion R4/H3 no modelada: la unidad usa T7 H4 de la maquina
+aj_wood2.tsv	aj_wood2-128	CONFIRMA	data.js:2315 durthu_wrath missile cv10 range 18 hits D3+1 s6 ap2 dmg 2 (HM(2))
+aj_chaos2.tsv	aj_chaos2-175	PARCIAL	rules.js:5316 Colgante: se usa AUTOMATICAMENTE si impactos estimados >= 0.7*A (sin eleccion ni aviso al humano); n de impactos aproximado por anchura de peana, no por contactos reales
+cathay.tsv	cathay_aj-126	CONFIRMA	rules.js:6236-6241 viento d6 1-3 Yang/4+ Yin; 7617 windPick el jugador elige M/I (Yang) o HA/Ld; applyWindMod 1645 aplica a todas las unidades con willDragons
+core_8.tsv	core_8-019	CONFIRMA	"data.js:2340 earthen_ramparts cv9 (FAQ) 15"" ward 5+, no march/charge; rules.js:4270,3763-3764 obstaculo bajo defendido al ser cargada; 3575 sin Contracarga"
+leg_vampires.tsv	leg_vampires-106	CONFIRMA	data.js:2469 CMD vc_horrors campeon 7 pts; campeon +1 A (rules.js:5356) => A4 en el Haunter
+aj_highelves.tsv	aj_highelves-008	CONFIRMA	rules.js:250 chalons first:0, atacante = jugador 0 (zona inferior), sin tirada en RO
+core_7.tsv	core_7-068	CONFIRMA	rules.js:1013-1017 pool propio por Mago (splice sin repetir, firma excluida); distintos Magos pueden coincidir
+battlemarch_quickref.tsv	battlemarch-037	CONFIRMA	rules.js:6823 axe stur: US de modelos con peana completamente dentro del cercado (modelsWithin), sin huir; mayor US +50 PV, empate nadie
+cathay.tsv	cathay_notes-003	CONFIRMA	data.js:2201 ct_gatemaster M4 HA7 HP4 F4 R4 H3 I4 A3 Ld9, ppm 80, arm heavy+escudo, harmony+willDragons
+leg_darkelves.tsv	leg_darkelves-010	CONFIRMA	data.js:5033 max 2*per entre de_scourge y de_coldchariot (comp special); per=floor de pts/1000
+core_3.tsv	c3-026	CONFIRMA	rules.js:6596 rallyFleeing marca pendFlee; 6600 compulsoryMoves tras cargas: huye 2D6 (+D6 Zancada)
+dawn_renegade_sc.tsv	renegade_web-089	CONFIRMA	data.js:3684-3689 base 8 pts; gw+2, lanza+1, ballesta+2, arcabuz+3, escudo+1, pesada+1; mando 5/5/5 (coste mando total 15 verificado)
+faq_core_4.tsv	FC4-43	CONFIRMA	rules.js:4157 doppel: si item dual.oneAttack y P.atk===1 -> 1 impacto (solo la Maza de Helsturm tiene oneAttack en data.js:2653)
+leg_ogres.tsv	leg_ogres-158	CONFIRMA	data.js:2103-2105 ok_giants M6 HA3 HP1 F6 R6 H6 I2 (override 5783) A5 Ld10 200 pts, behemoth, armadura ligera
+aj_chaos2.tsv	aj_chaos2-090	CONFIRMA	rules.js:2730 galrMode elegido por el jugador (fire/fumes/change), un solo modo por turno; main.js:1294 boton; ai.js:328
+aj_highelves.tsv	aj_highelves-037	CONFIRMA	data.js:3552-3553 garrison core 0.33 minimo; he_seaguard_g/dr y he_ship comp core; datos.js:4866 'al menos' el 33%
+dawn_renegade_sc.tsv	cathay_dawn-069	CONFIRMA	rules.js:6860-6863 timely: atacante +100 por personaje del defensor muerto; defensor +100 por personaje force===0 (Guarnicion) vivo
+leg_lizardmen.tsv	leg_lizardmen-110	PARCIAL	data.js:1728 monCav 40x40 min 3 armadura ligera jabalinas OK, pero max:8 inventado: la fuente dice tamano 3+ sin maximo
+leg_daemons.tsv	leg_daemons-057	PARCIAL	data.js:2001 M7 HA5 F4 R4 H3 65 pts OK (M ya 7), pero el Juggernaut no tiene mountAtk (F5 I2 A2, AP-2 pezunas): sus ataques no existen
+leg_daemons.tsv	leg_daemons-030	CONFIRMA	data.js (dm_bloodthirster): daemonicCharge, furiousCharge, impetuous, indom2 (Favor Infernal 2), large, magRes2, terror, flyer, impact D3
+aj_chaos2.tsv	aj_chaos2-155	PARCIAL	"rules.js:3135 explosiveDemise D6 impactos F5 PA-2 a 6"" OK, pero a diferencia de otros bloques no llama destroy()/panico a las unidades que mueren por la explosion, y sin aviso al humano"
+leg_vampires.tsv	leg_vampires-185	CONFIRMA	rules.js:4689 effI: -1 I (min 1) a enemigos trabados con carrionFeeders; data.js:5573 y variantes del Nigromante Maestro lo heredan
+leg_skaven.tsv	leg_skaven-097	CONFIRMA	sk_ratlinggun/warpfire/windmortar/warpgrinder/doomflayer sr incluyen wteam, loner, openOrder, scurry (verificado via import de data.js)
+aj_chaos2.tsv	aj_chaos2-016	CONFIRMA	rules.js:7729 Hollum: Emboscadores del atacante (owner 0) entran por ambushPos bottom (borde sur); si no caben falla y siguen en reserva para reintentar

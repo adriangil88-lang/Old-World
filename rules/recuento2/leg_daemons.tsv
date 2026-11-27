@@ -1,0 +1,289 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+leg_daemons-001	leg_daemons.txt L1-52	Portada, indice, aviso legal y nota de uso no competitivo	NA	-	
+leg_daemons-002	leg_daemons.txt L54-62	Introduccion a la lista Grand Army del Legacy	NA	-	
+leg_daemons-003	leg_daemons.txt L65	Personajes: hasta 50% de los puntos	OK	data.js:3315 (composicion generica Core)	
+leg_daemons-004	leg_daemons.txt L67	0-1 Gran Demonio (Khorne, Nurgle, Slaanesh o Tzeentch)	OK	data.js:4520	
+leg_daemons-005	leg_daemons.txt L68-70	0-1 Heraldo por unidad de la misma Alineacion Demoniaca	OK	data.js:4523-4524	Compara heraldos <= unidades por dios; Principe sin alineacion no cuenta
+leg_daemons-006	leg_daemons.txt L71	0-1 Principe Demonio por cada 1.000 puntos	OK	data.js:4521	
+leg_daemons-007	leg_daemons.txt L74	Basicas: al menos 25% de los puntos	OK	data.js:3315	
+leg_daemons-008	leg_daemons.txt L77	General Khorne: Sanguinarios y Sabuesos de Carne son Basicas	OK	data.js:4321-4326	
+leg_daemons-009	leg_daemons.txt L79	General Nurgle: Portadores de la Plaga y Nurglings son Basicas	OK	data.js:4324	
+leg_daemons-010	leg_daemons.txt L81	General Slaanesh: Demonetas y Buscadores son Basicas	OK	data.js:4324	
+leg_daemons-011	leg_daemons.txt L83	General Tzeentch: Horrores Rosados, Azules y de Azufre son Basicas	OK	data.js:4324	
+leg_daemons-012	leg_daemons.txt L65-84	La alineacion del General se toma del personaje alineado mas caro, no del General elegido	OK	data.js:4469 generalOf+dmAlign	Un Principe Demonio alineado como General no cambia categorias; General real no se consulta
+leg_daemons-013	leg_daemons.txt L85	Furias del Caos siempre Basicas	OK	data.js:2008 (comp core)	
+leg_daemons-014	leg_daemons.txt L65-69	Especiales: hasta 50% (Sanguinarios, Sabuesos, Portadores, Nurglings, Demonetas, Buscadores, Horrores)	OK	data.js:1973-2026 comp special	
+leg_daemons-015	leg_daemons.txt L71-72	General Khorne: Machacasangre pasan a Especiales	OK	data.js:4324	
+leg_daemons-016	leg_daemons.txt L73-74	General Nurgle: Bestias de Nurgle y Zanganos de la Plaga pasan a Especiales	OK	data.js:4324	
+leg_daemons-017	leg_daemons.txt L75-76	General Slaanesh: Engendros, Hellflayers y Carros Buscadores pasan a Especiales	OK	data.js:4324	
+leg_daemons-018	leg_daemons.txt L77-78	General Tzeentch: Lanzallamas y Chillones pasan a Especiales	OK	data.js:4324	
+leg_daemons-019	leg_daemons.txt L81-85	Raras: hasta 25% (Machacasangre, Bestias, Zanganos, Engendros, Hellflayers, Carros Buscadores, Lanzallamas, Chillones...	OK	data.js:1993-2029 comp rare	
+leg_daemons-020	leg_daemons.txt L84	Carro Ardiente de Tzeentch es Raro	OK	data.js:5733 comp rare; dm_burning fuera de ARMIES	Ambas entradas figuran como comp char, no Raro
+leg_daemons-021	leg_daemons.txt L86	0-1 Canon de Calaveras de Khorne por cada 1.000 puntos	OK	data.js:4522	
+leg_daemons-022	leg_daemons.txt L89-96	Estandarte: un Heraldo puede ser Foco Demoniaco por +25 puntos	OK	data.js:5646 (bloque v620) opcion locus +25	No hay opcion Foco Demoniaco ni coste +25
+leg_daemons-023	leg_daemons.txt L94-96	Foco Demoniaco puede comprar un Icono Demoniaco sin limite de puntos	OK	data.js:3312 icono solo Foco, sin limite de puntos	No vinculado a Heraldo ni a Foco; cualquier BSB puede
+leg_daemons-024	leg_daemons.txt L97-103	Sanguinario: M8 HA10 HP5 F6 R6 H6 I7 A6 Ld9, 355 pts	OK	data.js:1958 (+15 Latigo incluido en ppm 370; M10 es Volar)	
+leg_daemons-025	leg_daemons.txt L102-104	Sanguinario: Behemot (personaje), peana 50x50 a 100x150, unidad 1	OK	data.js:1958 tt behemoth, baseW 60 baseD 100	
+leg_daemons-026	leg_daemons.txt L105	Sanguinario: arma de mano y armadura pesada	OK	data.js:1958	Falta la armadura pesada (Sv 7)
+leg_daemons-027	leg_daemons.txt L108-111	Sanguinario: obligatorio azote de sangre +25, gran hacha +35 o latigo +15	OK	data.js:5312-5316	Latigo por defecto incluido en coste base
+leg_daemons-028	leg_daemons.txt L112	Sanguinario: Dones Demoniacos hasta 100 pts	OK	data.js:1958 ib 100	
+leg_daemons-029	leg_daemons.txt L114	Sanguinario: Demoniaco, Carga Demoniaca, Demonio de Khorne, Volar (10)	OK	data.js:1958 sr	
+leg_daemons-030	leg_daemons.txt L114-116	Sanguinario: Carga furiosa, Impetuoso, Favor Infernal (2), Resistencia a la magia (-2), Terror, Objetivo grande	OK	data.js:1958 sr	
+leg_daemons-031	leg_daemons.txt L114-116	Sanguinario: Impactos (D3) con F6 (F del modelo)	OK	data.js:1958	Impactos con F5 en vez de F6
+leg_daemons-032	leg_daemons.txt L114-116	Sanguinario: no tiene Pisoteo en la lista	OK	data.js:1958	Motor le anade Pisoteo (D3+1) que el texto no da
+leg_daemons-033	leg_daemons.txt L118-121	Carga Demoniaca: Impactos con PA -2	OK	data.js:1958 impact ap 2 + daemonicCharge; rules.js:4622	
+leg_daemons-034	leg_daemons.txt L124-125	Azote de sangre: F+2 solo primera ronda, PA-2, Perforante 1, Heridas multiples D3	PARCIAL	data.js:5313 melee sb2 ap2 ab1 mw D3 flailFirst	VERIF v732: data.js:5871/rules.js:4833: flailFirst exige u.chargeOK; la regla da F+2 en la primera ronda aunque lo carguen; si el Sanguinario es cargado pierde el bono
+leg_daemons-035	leg_daemons.txt L127-129	Gran hacha: F+2, PA-3, Perforante 2, Cazamonstruos, dos manos, golpea ultimo	OK	data.js:5314	
+leg_daemons-036	leg_daemons.txt L131-132	Latigo de Khorne: F, PA-2, Perforante 1, golpea primero	OK	data.js:5312	
+leg_daemons-037	leg_daemons.txt L133-136	Heraldo de Khorne: M5 HA7 HP4 F5 R4 H2 I6 A3 Ld8, 80 pts	OK	data.js:1931	
+leg_daemons-038	leg_daemons.txt L138-141	Heraldo de Khorne: infanteria pesada (personaje), peana 30x30	OK	data.js:1931	Peana 25x25 en vez de 30x30
+leg_daemons-039	leg_daemons.txt L141	Heraldo de Khorne: Hellblade y piel callosa (armadura ligera)	OK	data.js:1931	Hellblade OK (F-1, Golpe cortante); falta armadura ligera
+leg_daemons-040	leg_daemons.txt L144-146	Heraldo de Khorne: montura Juggernaut +50 o Trono de Sangre	OK	data.js:1934 (130), data.js:3336 (240)	
+leg_daemons-041	leg_daemons.txt L147	Heraldo de Khorne: Dones hasta 50 pts	OK	data.js:1931 ib 50	
+leg_daemons-042	leg_daemons.txt L149-150	Heraldo de Khorne: Carga furiosa* (no montura), Impetuoso, Favor Infernal (1), RM (-1)	PARCIAL	data.js:1931	VERIF v732: data.js:1939 correcto a pie (furiousCharge, impetuous, indom1, magRes) pero en Juggernaut/Trono (slots rest en data.js:5569) el +1 Ataque de Carga furiosa (rules.js:4744) cae en la montura, que no deb
+leg_daemons-043	leg_daemons.txt L155-166	Juggernaut: M7 HA4 F5 R+1 H+1 I2 A2; Impactos (2); Primera carga; Zancada	OK	data.js dm_herald_khorne_jug slots (jinete HA7 I6 / montura HA4 I2)	HA6 I5 del conjunto difiere de jinete HA7 I6 y montura HA4 I2
+leg_daemons-044	leg_daemons.txt L164-165	Juggernaut: piel de laton (barding) y Piel blindada (1)	OK	data.js:1934 avOpt barding+hide	Barding via Sv4; falta Piel blindada (1)
+leg_daemons-045	leg_daemons.txt L168-169	Pezunas de laton: F, PA-2	OK	data.js:1934 mountAtk ap 2	
+leg_daemons-046	leg_daemons.txt L173-174	Sanguinario: M5 HA5 HP3 F4 R3 H1 I4 A1 Ld7, 14 pts; Sangrador A2 +7	OK	data.js:1973; CMD dm_bloodletters 7	
+leg_daemons-047	leg_daemons.txt L177-179	Sanguinarios: infanteria pesada, peana 30x30, unidad 8+	OK	data.js:1973	Minimo 10 (no 8), max 40 inventado, peana 25
+leg_daemons-048	leg_daemons.txt L180	Sanguinarios: Hellblades y pieles callosas (armadura ligera)	OK	data.js:1973	Hellblade OK; falta armadura ligera
+leg_daemons-049	leg_daemons.txt L183-186	Sanguinarios: campeon, portaestandarte, musico +7 por unidad	OK	data.js:2458 CMD [7,7,7]	
+leg_daemons-050	leg_daemons.txt L187	Sanguinarios: Icono Demoniaco hasta 50 pts	OK	data.js:3179 bannerBudget 50	
+leg_daemons-051	leg_daemons.txt L189-190	Sanguinarios: Orden cerrado, Demoniaco, Demonios de Khorne, Impetuoso, RM (-1)	OK	data.js:1973	
+leg_daemons-052	leg_daemons.txt L195-197	Sabueso de Carne: M8 HA5 HP0 F4 R4 H2 I4 A2 Ld7, 32 pts	OK	data.js:1990	
+leg_daemons-053	leg_daemons.txt L198-200	Sabuesos: caballeria pesada, 30x60, unidad 5+	OK	data.js:1990	Max 15 inventado; peana 25x50
+leg_daemons-054	leg_daemons.txt L201-202	Sabuesos: garras y colmillos y pieles callosas (armadura ligera)	OK	data.js:1990	Sin armadura ligera
+leg_daemons-055	leg_daemons.txt L205-207	Sabuesos: 0-1 unidad por 1.000 con Emboscadores +3 o Vanguardia +2	OK	data.js:3868 opts amb 3 / vg 2	
+leg_daemons-056	leg_daemons.txt L209-210	Sabuesos: Perforante 1, Orden cerrado, Contracarga, Impetuoso, RM (-2)	OK	data.js:1990	
+leg_daemons-057	leg_daemons.txt L213-217	Machacasangre: perfil Sanguinario R4 H3, Juggernaut M7 F5 I2 A2, 65 pts	PARCIAL	data.js:1993	VERIF v732: data.js:2001 M7 HA5 F4 R4 H3 65 pts OK (M ya 7), pero el Juggernaut no tiene mountAtk (F5 I2 A2, AP-2 pezunas): sus ataques no existen | M8 en vez de 7 (Juggernaut); resto OK
+leg_daemons-058	leg_daemons.txt L218-220	Machacasangre: caballeria monstruosa, 50x75, unidad 3+	OK	data.js:1993	Tipo caballeria pesada; max 9 inventado; peana 40x60
+leg_daemons-059	leg_daemons.txt L222-224	Machacasangre: Hellblades, piel callosa (ligera), Juggernaut barding, pezunas PA-2	PARCIAL	data.js:1993 (Hellblade/pezuñas no separados)	VERIF v732: data.js:2001 dm_bloodcrushers: sin Hellblades ni pezuñas PA-2 como armas; solo piel ligera+barding+hide, impactos | Sin Hellblade (PA-1, Golpe cortante) ni pezunas PA-2; barding no | restos menores no modelados
+leg_daemons-060	leg_daemons.txt L227-231	Machacasangre: Sangrador +7, estandarte +7, musico +7, Icono 50	OK	data.js:2460 CMD [7,7,7]	
+leg_daemons-061	leg_daemons.txt L233-234	Machacasangre: Piel blindada (1), Orden cerrado, Impactos (2), Impetuoso, RM (-1), Zancada	OK	data.js:1993 avOpt hide	Impactos (2) por modelo y resto OK; falta Piel blindada (1)
+leg_daemons-062	leg_daemons.txt L245-246	Trono de Sangre: M7 HA5 F5 R5 H4 I2 A3, +160; tripulacion 2 Sanguinarios	PARCIAL	data.js:3336,5085 (A8 W6 T5)	VERIF v732: data.js:3463/5567: Trono M7 R5 H4 +160 base 50x100 ok, pero tripulacion de 2 Sanguinarios simplificada: mountAtk a5 F5 para todos (tripulante F4 I4 distintos) y sin HP/Ld propios
+leg_daemons-063	leg_daemons.txt L248-252	Trono de Sangre: carro pesado, 50x100, armadura 4+, solo montura de personaje	OK	data.js:3336 arm heavy	
+leg_daemons-064	leg_daemons.txt L257-258	Trono: Orden cerrado, Primera carga, Impactos (D6+1), Impetuoso	OK	data.js:3336 addSr	
+leg_daemons-065	leg_daemons.txt L260-265	Banquete de sangre: 6 en D6 por herida de Impacto recupera Herida	OK	rules.js:2942	
+leg_daemons-066	leg_daemons.txt L267-273	Totem del derramamiento: Demonios de Khorne a mando que cargaron repiten 1 al impactar	OK	rules.js:4623	
+leg_daemons-067	leg_daemons.txt L281-283	Canon de Calaveras: M7 HA5 F5 R5 H4 I2 A3, 185 pts, 2 Sanguinarios	OK	data.js:2017 (A3+mountAtk a2)	
+leg_daemons-068	leg_daemons.txt L284-291	Canon de Calaveras: carro pesado 50x100 armadura 4+, unidad 1	PARCIAL	data.js:2017 Sv4	VERIF v732: Base 50x100, Sv4 y unidad 1 ok, pero data.js dm_skullcannon usa cat mach/tt war en vez de Carro pesado: no marcha ni declara carga (rules.js:2234,3411), sin impactos FP-2 de carro pesado
+leg_daemons-069	leg_daemons.txt L293-294	Canon: Ruedas de laton, Orden cerrado, Primera carga, Impactos (D3+1), Impetuoso, Pisoteo (D3)	OK	data.js:2017	
+leg_daemons-070	leg_daemons.txt L296-302	Ruedas de laton: Pisoteo PA-3 salvo behemots	PARCIAL	rules.js:4722	VERIF v732: rules.js:5485 brazenWheels FP-3 ok, pero el Pisoton se omite por completo contra monstruos/behemot (!isMonster(e)) en vez de resolverse sin la FP-3
+leg_daemons-071	leg_daemons.txt L305-307	"Bala maciza: 36"", F8, PA-2, Perforante 2, Cannon Fire, Cumbersome, Heridas multiples D3"	OK	data.js:2017 ranged	
+leg_daemons-072	leg_daemons.txt L307	Metralla: F4 PA-1 Arma de aliento	OK	data.js:2017 ranged2	
+leg_daemons-073	leg_daemons.txt L308-311	Canon de Khorne: Avería resta 1 Herida en vez de tabla	OK	rules.js:2278,2297	
+leg_daemons-074	leg_daemons.txt L314-316	Gran Inmundo: M5 HA6 HP3 F6 R7 H7 I4 A5 Ld9, 330 pts	OK	data.js:1961	
+leg_daemons-075	leg_daemons.txt L317-319	Gran Inmundo: Behemot (personaje), peana 50x50 a 150x100	OK	data.js:1961 baseW 60 baseD 100	Peana max 60x100 vs 150x100 (cosmetico)
+leg_daemons-076	leg_daemons.txt L322-327	Gran Inmundo: Mago nivel 1; Saberes Batalla, Daemonologia, Oscura	OK	data.js:1961,4680	
+leg_daemons-077	leg_daemons.txt L329-332	Gran Inmundo: arma de mano adic +6, Bilesword +10, Plagueflail +25	OK	data.js:5318-5322	
+leg_daemons-078	leg_daemons.txt L333-336	Gran Inmundo: nivel 2 +30, 3 +60, 4 +90	OK	data.js:5318	
+leg_daemons-079	leg_daemons.txt L337	Gran Inmundo: Dones hasta 100 pts	OK	data.js:1961 ib 100	
+leg_daemons-080	leg_daemons.txt L339-341	Gran Inmundo: Demoniaco, Favor (2), Terror, Objetivo grande, Veneno, Regeneracion (5+), Pisoteo (D3+1)	OK	data.js:1961	
+leg_daemons-081	leg_daemons.txt L339-341	Gran Inmundo: Lore of Daemons: descartar hechizo y elegir firma o hechizo de alineacion	PARCIAL	rules.js:~955 legSp (main.js boton Hechizo Legacy) elegido por el jugador; al azar solo si no elige	VERIF v732: rules.js:1033 descarta siempre el ULTIMO hechizo generado y, si el jugador no elige (legSp), sustituye al azar; no puede declinar ni elegir cual descartar | El motor sustituye al azar; el jugador no elige
+leg_daemons-082	leg_daemons.txt L343-346	Bilesword: F, PA-2, Perforante 1, golpea ultimo, sin Regeneracion	OK	data.js:5321	
+leg_daemons-083	leg_daemons.txt L348-350	Plagueflail: F+2 primera ronda, PA-3, Heridas multiples D3	PARCIAL	data.js:5322	VERIF v732: data.js:5878 mayal pf sb2 ap3 mw D3 flailFirst; rules.js:4833 quita el +2 F si !u.chargeOK, asi el portador cargado no tiene F+2 en la primera ronda como exige la regla.
+leg_daemons-084	leg_daemons.txt L353-354	Heraldo de Nurgle: M4 HA5 HP5 F5 R5 H2 I4 A3 Ld8, 95 pts	OK	data.js:1937	
+leg_daemons-085	leg_daemons.txt L356-359	Heraldo de Nurgle: infanteria regular, 30x30, equipo Plaguesword	OK	data.js:1937	Peana 25 en vez de 30; Plaguesword OK (Perforante 1, sin Regen)
+leg_daemons-086	leg_daemons.txt L361-365	Heraldo de Nurgle: mago opcional, Saberes Batalla/Daemonologia/Oscura	OK	data.js:5333-5334, 4680	
+leg_daemons-087	leg_daemons.txt L368	"Heraldo de Nurgle: Death's heads +10 (12"", F+1, PA-1, Mover y disparar, Heridas multiples D3)"	OK	data.js:5380 opcion dh	No hay opcion ni arma
+leg_daemons-088	leg_daemons.txt L369-371	Heraldo de Nurgle: nivel 1 +30, nivel 2 +60	OK	data.js:5334	
+leg_daemons-089	leg_daemons.txt L372	Heraldo de Nurgle: Palanquin de Nurgle +40	OK	data.js:1940 (135)	
+leg_daemons-090	leg_daemons.txt L373	Heraldo de Nurgle: Dones hasta 50 pts	OK	data.js:1937 ib 50	
+leg_daemons-091	leg_daemons.txt L375-376	Heraldo de Nurgle: Demoniaco, Favor (1), Lore of Daemons, Veneno, Regeneracion (6+)	OK	data.js:1937	
+leg_daemons-092	leg_daemons.txt L381-383	Palanquin: M4 HA3 F3 +4 Heridas I3 A D6+1	OK	data.js:5646 (bloque v620) (Palanquin sin mago de serie, ppm 135, opts w1/w2/dh)	Heraldo trae Mago nivel 1 gratis (el texto no); no hay opcion de nivel
+leg_daemons-093	leg_daemons.txt L385-389	Palanquin: caballeria monstruosa 50x50, Ataques aleatorios, Veneno	OK	data.js:1940	Peana 40x40; sin randomAtk explicito (randA OK)
+leg_daemons-094	leg_daemons.txt L393-394	Portador de la Plaga: M4 HA3 HP3 F4 R4 H1 I2 A1 Ld7, 13 pts; +6 Plagueridden	OK	data.js:1976; CMD dm_plaguebearers 6	
+leg_daemons-095	leg_daemons.txt L396-399	Portadores: infanteria regular 30x30, unidad 7+, Plagueswords	OK	data.js:1976	Minimo 10 (no 7); max inventado; peana 25
+leg_daemons-096	leg_daemons.txt L402-406	Portadores: Plagueridden, portaestandarte, musico +6, Icono hasta 50	OK	data.js:2460 CMD, 3179	
+leg_daemons-097	leg_daemons.txt L408-409	Portadores: Orden cerrado, Demoniaco, Veneno, Regeneracion (6+)	OK	data.js:1976	
+leg_daemons-098	leg_daemons.txt L415	Bestia de Nurgle: M5 HA3 HP0 F4 R5 H4 I2 A D6+1 Ld7, 62 pts	OK	data.js:2011 randA D6+1	
+leg_daemons-099	leg_daemons.txt L417-420	Bestias: infanteria monstruosa 50x75, unidad 2+, manos y tentaculos	OK	data.js:2011	Max 6 inventado; peana 50x50
+leg_daemons-100	leg_daemons.txt L420	Tentaculos: F, PA-1, Perforante 1	OK	data.js:2011	Falta PA-1
+leg_daemons-101	leg_daemons.txt L421-423	Bestias: Buscador de atencion, Orden cerrado, Impetuoso, Favor (1), Solitario, Veneno, Ataques aleatorios, Regeneraci...	OK	data.js:2011	
+leg_daemons-102	leg_daemons.txt L425-429	Buscador de atencion: cada modelo da y acepta desafios	OK	rules.js:4266	
+leg_daemons-103	leg_daemons.txt L431-436	Rastro de baba: enemigos sin puntos de resolucion por flanco o retaguardia	OK	rules.js:4868	
+leg_daemons-104	leg_daemons.txt L442-445	Nurglings: M4 HA2 HP0 F2 R3 H7 I2 A D3+1 Ld5, 45 pts	OK	data.js:1985	
+leg_daemons-105	leg_daemons.txt L446-450	Nurglings: Enjambres 40x40, unidad 3+, Veneno, Solitario, Ataques aleatorios, Regeneracion (6+), Escaramuza	OK	data.js:1985	Max 6 inventado
+leg_daemons-106	leg_daemons.txt L456-458	Zanganos de la Plaga: Portador R5 H3 I2 A1, Mosca de la Plaga F5 I2 A3, 63 pts	OK	data.js:1996 mountAtk A3 F5 Mosca separada	Ataques de la Mosca (A3 F5) no modelados por separado
+leg_daemons-107	leg_daemons.txt L460-462	Zanganos: caballeria monstruosa 50x75, unidad 3+	OK	data.js:1996	Tipo infanteria monstruosa; max 6 inventado
+leg_daemons-108	leg_daemons.txt L464-465	Zanganos: Plaguesword y Death's heads; garras de mosca	OK	data.js dm_plaguedrones ranged Death heads	Sin Death's heads
+leg_daemons-109	leg_daemons.txt L468-472	Zanganos: Plagueridden +7, estandarte +7, musico +7, Icono 50	OK	data.js:2460 CMD [7,7,7]	
+leg_daemons-110	leg_daemons.txt L473-475	Zanganos: Probóscide +2 pts (+1 I solo Moscas), Aguijon venenoso +2	OK	data.js:3871 opts pb/vs	
+leg_daemons-111	leg_daemons.txt L477-478	Zanganos: Perforante (2, Mosca), Demoniaco, Volar (9), Veneno, Regen (6+), Escaramuza, Zancada	OK	data.js dm_plaguedrones mountAtk ab2 solo Mosca; rules.js mountFrac	Perforante 2 se aplica a toda la unidad, no solo a la Mosca
+leg_daemons-112	leg_daemons.txt L483-485	Aguijon venenoso: F, PA-1, Perforante 1; un ataque por turno	PARCIAL	rules.js:5235 mountAtk.sting + data.js opt vs	VERIF v732: data.js:5930 sting: rules.js:5458 reparte el aguijón con prob. 1/a por impacto (no exactamente 1 ataque por modelo/turno); F5 FP-1 Perforante 1 sí. | Efecto no verificado en motor (solo coste)
+leg_daemons-113	leg_daemons.txt L488-489	Guardian de Secretos: M8 HA7 HP6 F6 R6 H6 I7 A6 Ld9, 330 pts	OK	data.js:1964	
+leg_daemons-114	leg_daemons.txt L491-494	Guardian: Behemot (personaje), 50x50 a 100x150, garras empaladoras	OK	data.js:1964	
+leg_daemons-115	leg_daemons.txt L496-500	Guardian: Mago nivel 1; Saberes Daemonologia, Oscura, Ilusion	OK	data.js:5323-5324, 4682	
+leg_daemons-116	leg_daemons.txt L503-507	Guardian: nivel 2 +30, 3 +60, 4 +90; Dones hasta 100	OK	data.js:5324	
+leg_daemons-117	leg_daemons.txt L509-510	Guardian: Demoniaco, Favor (2), Objetivo grande, Lore of Daemons, Zancada, Terror	OK	data.js:1964	
+leg_daemons-118	leg_daemons.txt L509-510	Guardian: Pisoteo (D3)	OK	data.js:1964	Motor usa D3+1 en vez de D3
+leg_daemons-119	leg_daemons.txt L512-513	Garras empaladoras: F, PA-2, Golpe letal, golpea primero	OK	data.js:5323	
+leg_daemons-120	leg_daemons.txt L519	Heraldo de Slaanesh: M6 HA6 HP4 F4 R3 H2 I6 A3 Ld8, 85 pts	OK	data.js:1943	
+leg_daemons-121	leg_daemons.txt L521-524	Heraldo de Slaanesh: infanteria regular 25x25, piercing claws	OK	data.js:5348	Falta Ataques extra (1) y dos manos
+leg_daemons-122	leg_daemons.txt L526-535	Heraldo de Slaanesh: nivel 1 +30 y nivel 2 +60; Saberes Daemonologia/Oscura/Ilusion	OK	data.js:4962-4964 (w1/w2)	
+leg_daemons-123	leg_daemons.txt L536-539	Heraldo de Slaanesh: Corcel +16, Carro Buscador, Carro Buscador Exaltado	OK	data.js:3337	Falta montar en Carro Buscador normal (solo Corcel y Exaltado)
+leg_daemons-124	leg_daemons.txt L540	Heraldo de Slaanesh: Dones hasta 50 pts	OK	data.js:1943 ib 50	
+leg_daemons-125	leg_daemons.txt L542	Heraldo de Slaanesh: Demoniaco, Favor (1), Lore of Daemons	OK	data.js:1943	
+leg_daemons-126	leg_daemons.txt L548	Corcel de Slaanesh: M9 HA3 F3 I5 A1, +16	OK	data.js:1946	M10 en vez de 9; I7 en vez de 5/6 | restos menores no modelados
+leg_daemons-127	leg_daemons.txt L550-556	Corcel: caballeria ligera 30x60, Perforante 1 (corcel), Contracarga, Caballeria rapida, Veneno (corcel), Zancada	OK	data.js:5646 (bloque v620) slots STEED	Perforante y Veneno no limitados al corcel
+leg_daemons-128	leg_daemons.txt L559-561	Demoneta: M5 HA4 HP3 F3 R3 H1 I5 A1 Ld7, 11 pts; Seductora A2 +6	OK	data.js:1979; CMD 6	
+leg_daemons-129	leg_daemons.txt L563-566	Demonetas: infanteria regular 25x25, unidad 6+, piercing claws	OK	data.js:1979	Minimo 10 (no 6); max inventado
+leg_daemons-130	leg_daemons.txt L566,1453-1459	Piercing claws: F, PA-1, Perforante 2, Ataques extra (1), dos manos	PARCIAL	data.js:1979	VERIF v732: Garras perforantes (ab2 ap1 extra1 twoHands) ok en Demonetas/Buscadores/Heraldo (data.js:5927,5963) pero Engendros de Slaanesh data.js:5921 melee {ab:2,ap:1} sin extra:1 ni twoHands | Falta PA-1
+leg_daemons-131	leg_daemons.txt L569-573	Demonetas: Seductora, estandarte, musico +6, Icono 50	OK	data.js:2460	
+leg_daemons-132	leg_daemons.txt L575	Demonetas: Orden cerrado, Demoniaco, Demonios de Slaanesh	OK	data.js:1979	
+leg_daemons-133	leg_daemons.txt L581-584	Buscador: HA4 HP3 F3 R3 H1 I5 A1 Ld7, 21 pts; Corcel M9 HA3 I5 A1	PARCIAL	data.js:1999	VERIF v732: data.js dm_seekers: jinete M9 HA4 HP3 F3 R3 H1 I5 A1 Ld7 21 pts OK; falta el Corcel (HA3 A1, Ataques envenenados solo el corcel): sin mountAtk y poisoned aplicado a toda la unidad | M10 en vez de 9 | restos menores no modelados
+leg_daemons-134	leg_daemons.txt L585-590	Buscadores: caballeria ligera 30x60, unidad 5+, garras y corcel	OK	data.js:1999	Sin piercing claws (ab2 PA-1 extra); max 15 inventado
+leg_daemons-135	leg_daemons.txt L594-597	Buscadores: Heartseeker, estandarte, musico +6, Icono 50	OK	data.js:2460	
+leg_daemons-136	leg_daemons.txt L599-601	Buscadores: Perforante 1 (corcel), Contracarga, Caballeria rapida, Orden abierto, Veneno (corcel), Escaramuza, Zancada	OK	data.js:5646 (bloque v620) slots STEED	Perforante/Veneno a toda la unidad
+leg_daemons-137	leg_daemons.txt L605	Engendro de Slaanesh: M8 HA4 HP0 F4 R4 H3 I6 A3 Ld7, 66 pts	OK	data.js:2014	
+leg_daemons-138	leg_daemons.txt L607-611	Engendros: caballeria monstruosa 50x75, unidad 3+, piercing claws y cola venenosa	OK	data.js:2014 (tipo/unidad; sin cola)	Tipo infanteria monstruosa; unidad 1-3 en vez de 3+; sin garras ni cola | restos menores no modelados
+leg_daemons-139	leg_daemons.txt L611	Engendros: Orden cerrado, Demoniaco, Almizcle soporifero, Zancada	OK	data.js:2014	
+leg_daemons-140	leg_daemons.txt L613-619	Almizcle soporifero: enemigos trabados sin Golpear primero; los demas Golpean ultimo	OK	rules.js:4010	
+leg_daemons-141	leg_daemons.txt L622-623	Cola venenosa: F, Veneno, golpea primero; un ataque por turno	OK	data.js:5646 (bloque v620) dm_fiends mountAtk.tail	Sin arma de cola
+leg_daemons-142	leg_daemons.txt L629-632	Hellflayer: R4 H4; Seductora exaltada HA5 HP3 F3 I5 A2; 2 Demonetas; 2 Corceles, 145 pts	OK	data.js:2020 (A6)	
+leg_daemons-143	leg_daemons.txt L634-641	Hellflayer: carro ligero, 100x60, armadura 5+, unidad 1, piercing claws	PARCIAL	data.js:5646 (bloque v620) dm_hellflayer 100x60, claws ab2 ap1 extra3, slots	VERIF v732: data.js:2028 dm_hellflayer tt heavyChar (Carro pesado) en vez de Light Chariot (lightChar); base 100x60 via data.js:5927 y armadura 5+ ok | Peana 60x100 (texto 100x60); tripulacion sin PA-1/Perforante 2
+leg_daemons-144	leg_daemons.txt L643-645	Hellflayer: Perforante 1 (corcel), Orden cerrado, Contracarga, Primera carga, Impactos (2D6+1), Veneno (corcel), Zancada	OK	data.js:2020	
+leg_daemons-145	leg_daemons.txt L649-651	Carro Buscador: R4 H4, 2 Demonetas, 2 Corceles, 100 pts	OK	data.js:2026	
+leg_daemons-146	leg_daemons.txt L653-656	Carro Buscador: carro ligero, 50x100, unidad 1-3, armadura 5+	OK	data.js:2026	Unidad 1-3 en vez de 1
+leg_daemons-147	leg_daemons.txt L661-663	Carro Buscador: Perforante 1 corceles, Contracarga, Primera carga, Impactos (D3+1), Orden abierto, Veneno corceles, Z...	OK	data.js:2026	
+leg_daemons-148	leg_daemons.txt L666-667	Carro Buscador como montura de personaje (puntos sumados al jinete)	OK	data.js:3337 dm_herald_slaanesh_chariot	No hay variante de Heraldo en Carro Buscador normal
+leg_daemons-149	leg_daemons.txt L674-676	Carro Buscador Exaltado: R4 H6, 3 Demonetas, 4 Corceles, +185	OK	data.js:3337,5086 (A10 W8)	
+leg_daemons-150	leg_daemons.txt L678-688	Exaltado: carro pesado 100x150, armadura 4+, Primera carga, Impactos (D6+1), solo montura	OK	data.js:3337	
+leg_daemons-151	leg_daemons.txt L696	Senor del Cambio: M6 HA6 HP6 F6 R6 H6 I6 A4 Ld9, 310 pts	OK	data.js:1967	
+leg_daemons-152	leg_daemons.txt L698-701	Senor del Cambio: Behemot (personaje), arma de mano y baston (gran arma)	OK	data.js:5360	Baston como gran arma (F+2, PA-2, dos manos, golpea ultimo) no modelado
+leg_daemons-153	leg_daemons.txt L703-709	Senor del Cambio: Mago nivel 2; Saberes Batalla/Daemonologia/Oscura/Elementalismo/Ilusion	OK	data.js:5326, 4681	
+leg_daemons-154	leg_daemons.txt L712	"Senor del Cambio: Tzeentchian Wand +20 (18"", F4, PA-1, Disparos multiples D3+1, Disparo rapido, flamigera)"	OK	data.js:5367 opcion wand +20	No es opcion; la lleva el Heraldo en su lugar
+leg_daemons-155	leg_daemons.txt L713-716	Senor del Cambio: nivel 3 +30, nivel 4 +60; Dones hasta 100	OK	data.js:5327	
+leg_daemons-156	leg_daemons.txt L718-720	Senor del Cambio: Ataques flamigeros, Volar (9), Favor (2), Objetivo grande, Lore of Daemons, Pisoteo (D3), Zancada, ...	OK	data.js:1967	Pisoteo D3+1 en vez de D3; resto OK
+leg_daemons-157	leg_daemons.txt L728	Heraldo de Tzeentch: M4 HA3 HP4 F3 R3 H2 I3 A2 Ld8, 90 pts	OK	data.js:1949	
+leg_daemons-158	leg_daemons.txt L730-733	"Heraldo de Tzeentch: 30x30, arma de mano y llamas de Tzeentch (18"", F3, PA-, flamigeras, Disparos mult 2, Disparo rap..."	OK	data.js:1949,5370	Lleva las estadisticas de la Varita (F4 PA-1 D3+1) en vez de llamas F3; peana 25
+leg_daemons-159	leg_daemons.txt L735-741	Heraldo de Tzeentch: Mago nivel 1; todos los Saberes de Tzeentch	OK	data.js:5329, 4681	
+leg_daemons-160	leg_daemons.txt L744-746	Heraldo de Tzeentch: nivel 2 +30, nivel 3 +60	OK	data.js:5331	
+leg_daemons-161	leg_daemons.txt L747-750	Heraldo de Tzeentch: Disco +20, Carro de Tzeentch, Carro Ardiente	PARCIAL	data.js:1955 (+90 => 180)	VERIF v732: Disco +20 OK (110). Carro de Tzeentch: dm_herald_tzeentch_chariot 180 pts con perfil reconstruido (T5 W5) y nombre Carro Ardiente; Carro Ardiente como montura del Heraldo ausente (solo unidad 190). | Carro de Tzeentch (+90) cuesta 200 en total y su perfil difiere; ver filas de carro
+leg_daemons-162	leg_daemons.txt L751	Heraldo de Tzeentch: Dones hasta 50 pts	OK	data.js:1949 ib 50	
+leg_daemons-163	leg_daemons.txt L753	Heraldo de Tzeentch: Demoniaco, Demonio de Tzeentch, Favor (1), Lore of Daemons	OK	data.js:1949	
+leg_daemons-164	leg_daemons.txt L758-764	Disco: M1 HA3 F4 I4 A3 sin Heridas, caballeria ligera, Volar (10), Zancada	OK	data.js:1952	Disco con +1 Herida y A1 F3 en vez de A3 F4 I4
+leg_daemons-165	leg_daemons.txt L766-769	Horror Rosado: M4 HA3 HP3 F3 R3 H1 I3 A1 Ld7, 12 pts; Iridescente A2 +6	OK	data.js:1982; CMD 6	
+leg_daemons-166	leg_daemons.txt L771-774	Horrores Rosados: infanteria regular 30x30, unidad 9+	OK	data.js:1982	Minimo 10 (no 9); max inventado
+leg_daemons-167	leg_daemons.txt L774	"Horrores Rosados: llamas de Tzeentch (18"", F3, flamigeras, Disparos multiples 2, Disparo rapido)"	OK	data.js:1982	Falta Disparo rapido
+leg_daemons-168	leg_daemons.txt L777-781	Horrores Rosados: campeon, estandarte, musico +6, Icono 50	OK	data.js:2460	
+leg_daemons-169	leg_daemons.txt L783-784	Horrores Rosados: Orden cerrado, Demoniaco, Demonios de Tzeentch	OK	data.js:1982	
+leg_daemons-170	leg_daemons.txt L785-793	Hechiceria centelleante: hechizo de alineacion ligado, elegido antes del despliegue, NP = bonus de filas	OK	rules.js:762, 3824	Elige entre firma y pool dm_tzeentch
+leg_daemons-171	leg_daemons.txt L798-799	Horror Azul: M4 HA2 HP3 F3 R3 H1 I3 A1 Ld7, 9 pts	OK	data.js:1987	
+leg_daemons-172	leg_daemons.txt L801-804	Horrores Azules: infanteria regular 25x25, unidad 9+	OK	data.js:1987	Minimo 5 (no 9); max inventado
+leg_daemons-173	leg_daemons.txt L806-808	Horrores Azules: Horror Ectoplasmico (campeon) +6	OK	data.js:5646 (bloque v620) CMD.dm_bluehorrors [6,..]	No hay campeon
+leg_daemons-174	leg_daemons.txt L810	Horrores Azules: Demoniaco, Demonios de Tzeentch, Mover a traves de cobertura, Orden abierto	OK	data.js:1987	
+leg_daemons-175	leg_daemons.txt L804	Horrores Azules: llamas de Tzeentch	OK	data.js:1987	Falta Disparo rapido
+leg_daemons-176	leg_daemons.txt L814-816	Lanzallamas: M6 HA2 HP4 F4 R4 H2 I4 A2 Ld7, 40 pts	OK	data.js:2005	
+leg_daemons-177	leg_daemons.txt L814-816	Pirocastor +7 (HP5) y Lanzallamas Exaltado +40 (H3)	OK	data.js:5646 (bloque v620) CMD.dm_flamers [7,..]	Sin campeon ni Exaltado
+leg_daemons-178	leg_daemons.txt L818-821	Lanzallamas: infanteria regular 30x30, unidad 3-6	OK	data.js:2005	Unidad 2-5 en vez de 3-6
+leg_daemons-179	leg_daemons.txt L823-836	Lanzallamas Exaltado: Mago nivel 1 +opciones nivel 2 +30, 3 +60, Dones 50	OK	data.js:5646 (bloque v620) opts ex/ex2/ex3 (Lanzallamas Exaltado)	Sin Lanzallamas Exaltado de unidad
+leg_daemons-180	leg_daemons.txt L838-841	Lanzallamas: Demoniaco, Ataques flamigeros, Escaramuza, Mover a traves de cobertura	OK	data.js:2005	
+leg_daemons-181	leg_daemons.txt L844-845	"Warpflame: 18"", F4, PA-1, Ataques flamigeros, Mover y disparar, Disparos multiples D3, Disparo rapido"	OK	"data.js dm_flamers.ranged 18"" F4 FP-1 D3 flamigera"	"Alcance 8"" aliento sin PA-1/Disparos D3 (motor usa aliento)"
+leg_daemons-182	leg_daemons.txt L850	Horrores de Azufre: M5 HA2 HP2 F2 R3 H6 I2 A4 Ld5, 38 pts	OK	data.js:2023	
+leg_daemons-183	leg_daemons.txt L852-856	Horrores de Azufre: Enjambres 40x40, unidad 2+, Ataques flamigeros, Solitarios, Escaramuza	OK	data.js:2023	Max 6 inventado
+leg_daemons-184	leg_daemons.txt L860-861	Chillon: M1 HA3 HP0 F4 R4 H2 I4 A2 Ld7, 44 pts	OK	data.js:2002	
+leg_daemons-185	leg_daemons.txt L862-866	Chillones: bestias de guerra 40x60, unidad 3+, Volar (9), Solitario, Escaramuza, Mordisco de lamprea	OK	data.js:2002; rules.js:4157 mwMon	Tipo infanteria monstruosa; max 6; mordisco sin Heridas multiples vs monstruos
+leg_daemons-186	leg_daemons.txt L869-876	Ataque cortante: D3 impactos F4 PA- por modelo que sobrevuela una unidad no trabada	OK	rules.js:7592 slashAtk cada turno (ya no una vez por partida), D3 F4 por modelo	Se aplica via vuelo de picado generico; condiciones no verificadas al detalle
+leg_daemons-187	leg_daemons.txt L882-886	Carro de Tzeentch: R4 H4, 2 Chillones, +90, Volar (9), Impactos (D6+1), solo montura	OK	data.js:1955	Impactos D6 en vez de D6+1; T5 W5 y coste distintos; sin Ataque cortante
+leg_daemons-188	leg_daemons.txt L901-905	Carro Ardiente: R4 H4, Lanzallamas Exaltado, 3 Horrores Azules, 2 Chillones, 190 pts	OK	data.js:3403 dm_burningchariot A9 W4 warpflame	Perfil reconstruido; dm_burningchariot duplicado con W4
+leg_daemons-189	leg_daemons.txt L907-914	Carro Ardiente: carro pesado 4+, 50x100, Lanzallamas Exaltado nivel 1	OK	data.js:5246 wizard lvl1	
+leg_daemons-190	leg_daemons.txt L916-927	Carro Ardiente: Saberes Daemonologia/Oscura/Elementalismo/Ilusion; nivel 2 +30, 3 +60; Dones 50	OK	data.js DM map legacyLore + opts w2/w3	Niveles solo en dm_burningchariot, no en dm_burning
+leg_daemons-191	leg_daemons.txt L929-931	Carro Ardiente: Orden cerrado, Volar (9), Impactos (D6+1), Lore of Daemons, Ataque cortante	OK	data.js DM map legacyLore; rules slashAtk	Ataque cortante dudoso; Lore of Daemons sin legacyLore
+leg_daemons-192	leg_daemons.txt L934-935	"Warpflame del Carro: 18"", F4 PA-1, flamigera, Mover y disparar, Disparos D3, Disparo rapido"	OK	data.js:5248 ranged	
+leg_daemons-193	leg_daemons.txt L939	Principe Demonio: M6 HA7 HP5 F6 R5 H4 I7 A5 Ld9, 210 pts	OK	data.js:1970 (M9 es Volar, gM6)	
+leg_daemons-194	leg_daemons.txt L941-944	Principe: infanteria monstruosa (personaje), 50x50, arma de mano, arma ensorcelada y armadura ligera	OK	data.js:1970, 5347	
+leg_daemons-195	leg_daemons.txt L946-949	Principe: Saberes Batalla, Daemonologia, Oscura	OK	data.js:4700	
+leg_daemons-196	leg_daemons.txt L953	Principe: armadura pesada +6	OK	data.js:4703	
+leg_daemons-197	leg_daemons.txt L954	Principe: Volar (9) +30	OK	data.js:4704	
+leg_daemons-198	leg_daemons.txt L955-959	Principe: Demonio de Khorne/Nurgle/Slaanesh/Tzeentch +10	OK	data.js:4705	
+leg_daemons-199	leg_daemons.txt L960-964	Principe: no Khorne puede ser Mago nivel 1 +25, 2 +50, 3 +75, 4 +100	OK	data.js:4705	
+leg_daemons-200	leg_daemons.txt L965	Principe: Dones hasta 100 pts	OK	data.js:1970 ib 100	
+leg_daemons-201	leg_daemons.txt L967	Principe: Armadura del Caos, Demoniaco, Favor (2), Lore of Daemons	OK	data.js:5646 (bloque v620) Principe legacyLore por alineacion	Sin hechizos de alineacion (dm_prince fuera de DM map)
+leg_daemons-202	leg_daemons.txt L969-975	Armadura del Caos: salvacion 4+ contra heridas; mago sin penalizacion de armadura	OK	rules.js:3648 chaosArmour exime de la penalizacion de armadura; sr chaosArmour	Ward 4+ OK; mago con armadura sin penalizacion no modelado
+leg_daemons-203	leg_daemons.txt L977-978	Arma ensorcelada: F, PA-1	OK	data.js:5347	
+leg_daemons-204	leg_daemons.txt L983	Furia del Caos: M4 HA3 HP0 F4 R3 H1 I4 A1 Ld5, 12 pts	OK	data.js:2008 (M8 es Volar)	
+leg_daemons-205	leg_daemons.txt L985-988	Furias: infanteria regular 30x30, unidad 5+, garras demoniacas	OK	data.js:2008	Minimo 3 (no 5); max 8 inventado; tipo distinto; garras sin PA-1
+leg_daemons-206	leg_daemons.txt L991-995	Furias: alineacion Khorne/Nurgle/Slaanesh/Tzeentch +2 pts por modelo	OK	data.js:5646 (bloque v620) opts kh/nu/sl/tz +2 por modelo	Sin opciones de alineacion
+leg_daemons-207	leg_daemons.txt L997	Furias: Demoniaco, Volar (8), Carga furiosa, Escaramuza, Zancada, Vanguardia	OK	data.js:2008	
+leg_daemons-208	leg_daemons.txt L1000	Garras demoniacas: F, PA-1	OK	data.js:2008	Sin PA-1
+leg_daemons-209	leg_daemons.txt L1014	Moledor de Almas: M8 HA3 HP3 F6 R6 H6 I3 A4 Ld7, 255 pts	OK	data.js:2029	
+leg_daemons-210	leg_daemons.txt L1016-1020	Moledor: Behemot 150x100, mano, garra, cañon cosechador, carne demoniaca (pesada)	OK	data.js:2029 arm heavy	
+leg_daemons-211	leg_daemons.txt L1023-1027	Moledor: alineacion Khorne/Nurgle/Slaanesh/Tzeentch +10	OK	data.js:5646 (bloque v620) opts kh/nu/sl/tz +10	Sin opcion de alineacion
+leg_daemons-212	leg_daemons.txt L1028-1030	Moledor: Torrente maligno +25 o Mirada de disformidad +30	OK	data.js:5241-5243	
+leg_daemons-213	leg_daemons.txt L1032-1033	Moledor: Orden cerrado, Demoniaco, Carga furiosa, Objetivo grande, Movimiento de reserva, Pisoteo (D6+1), Terror	OK	data.js:2029	
+leg_daemons-214	leg_daemons.txt L1036	Garra de hierro: F, PA-3, Golpe letal	OK	data.js:2029 melee ap3 killingBlow	
+leg_daemons-215	leg_daemons.txt L1039-1042	"Cañon cosechador: 12"", F4, PA-1, Cumbersome, metralla; Avería quita 1 Herida"	OK	data.js:2029 ranged grape	
+leg_daemons-216	leg_daemons.txt L1045-1048	"Torrente maligno: 12"", F5, PA-1, Columna de fuego, Cumbersome"	OK	data.js:5242	
+leg_daemons-217	leg_daemons.txt L1051-1052	"Mirada de disformidad: 48"", F6, PA-3, Cumbersome, Heridas multiples (2), Through & Through"	OK	data.js:5243	
+leg_daemons-218	leg_daemons.txt L1054-1058	Dones/Iconos: solo Demonios; no pueden comprar objetos Comunes	OK	data.js itemFacOk: Demonios no usan objetos Comunes	Objetos sin fac (Comunes) estan permitidos
+leg_daemons-219	leg_daemons.txt L1058	Dones Demoniacos no afectan a la montura	OK	Dones solo al jinete: mountAtk propio no recibe prof/Dones (rules.js mS=mountAtk.S)	No verificado como regla de montura
+leg_daemons-220	leg_daemons.txt L1060-1063	Iconos: requieren portaestandarte; solo el Foco lleva Icono entre personajes	OK	data.js:3312 solo el Foco lleva Icono entre personajes	Sin Foco; personajes BSB genericos
+leg_daemons-221	leg_daemons.txt L1065-1067	Cada Don/Icono una vez por ejercito salvo los extremadamente comunes (*)	OK	data.js army validation: una vez por ejercito (salvo *)	Comprobado por unidad; no por ejercito (no verificado)
+leg_daemons-222	leg_daemons.txt L1069-1073	Restricciones de alineacion de Dones/Iconos de Khorne/Nurgle/Slaanesh/Tzeentch	OK	data.js dmAlign + itemIssues (ITEMS.align)	Solo texto; el motor no impide objetos de otro dios
+leg_daemons-223	leg_daemons.txt L1075-1083	Aether Blade 55: sin salvacion de armadura vs heridas de su arma de mano	OK	data.js:2920	
+leg_daemons-224	leg_daemons.txt L1085-1089	Many Arms* 55: +1 Ataque	OK	data.js:2924	
+leg_daemons-225	leg_daemons.txt L1092-1098	Winged Horror 45: Heraldos de infanteria regular ganan Volar (8) y Zancada	OK	data.js:5646 (bloque v620) dml_winged onlyT solo infanteria regular	Heraldo de Khorne es infanteria pesada, no deberia poder
+leg_daemons-226	leg_daemons.txt L1100-1106	Daemonic Robes 35: no herido con 2 natural	OK	data.js:2926; rules.js:1650	
+leg_daemons-227	leg_daemons.txt L1111-1117	Spell Eater 50: disipa como Mago nivel 2	OK	data.js:2927; rules.js:3369	
+leg_daemons-228	leg_daemons.txt L1119-1124	Armour of Khorne 40: armadura pesada y salvacion 5+	OK	data.js:2928	
+leg_daemons-229	leg_daemons.txt L1126-1132	Axe of Khorne* 35: F+1, PA-1, Golpe letal, ataques magicos, dos manos	OK	data.js:5646 (bloque v620) dml_axeK.twoHands	Falta marcar dos manos
+leg_daemons-230	leg_daemons.txt L1134-1138	Might of Khorne 25: +1 F	OK	data.js:2930	
+leg_daemons-231	leg_daemons.txt L1140-1146	Collar of Khorne* 25: +1 Resistencia a la magia	OK	data.js:2931	
+leg_daemons-232	leg_daemons.txt L1111-1116	Skull Totem 50: unidad (no montura) gana Carga furiosa	OK	data.js:2932	
+leg_daemons-233	leg_daemons.txt L1119-1125	Great Standard of Sundering 45: magos enemigos con linea de vision a el -1 a lanzar	OK	rules.js:4321 auraCast.los (linea de vision)	"Radio 18"" en vez de linea de vision"
+leg_daemons-234	leg_daemons.txt L1127-1132	Icon of Endless War 30: repite tirada de carga	OK	data.js:2934; rules.js:3074	
+leg_daemons-235	leg_daemons.txt L1151-1163	Nurgling Infestation 45: GUO, D6 ataques extra I2 HA2 F2, enjambre D3 al morir	OK	data.js:2935; rules.js:2602,4543	
+leg_daemons-236	leg_daemons.txt L1165-1172	Sloppity Bilepiper 35: +1 M a unidades de Nurgle en alcance de mando	OK	data.js:2936; rules.js:1482	
+leg_daemons-237	leg_daemons.txt L1174-1181	Spoilpox Scrivener 30: repetir 1 para impactar a unidades de Nurgle en mando	OK	data.js:2937; rules.js:1484	
+leg_daemons-238	leg_daemons.txt L1183-1189	Stream of Contagion* 25: aliento F3 PA-2 ataques magicos	OK	data.js:2938	
+leg_daemons-239	leg_daemons.txt L1191-1196	Trappings of Nurgle 30: armadura 4+ que no se puede mejorar	OK	data.js itemIssues noImprove (sin otra armadura magica)	Validador: no admite otra armadura magica; escudos/barding de personaje no modelados como mejora
+leg_daemons-240	leg_daemons.txt L1155-1158	Icon of Eternal Virulence 50: +1 resolucion por herida de Veneno (max +3)	OK	data.js:2940; rules.js:4869	
+leg_daemons-241	leg_daemons.txt L1164-1165	Standard of Seeping Decay 35: repetir 1 naturales para herir en combate	OK	rules.js:4729 decayRR	Solo texto, sin efecto en rules.js
+leg_daemons-242	leg_daemons.txt L1167-1173	Rotten Icon 10: enemigos sin bonus por retaguardia	OK	rules.js noRear (solo retaguardia)	Tambien anula el bonus por flanco
+leg_daemons-243	leg_daemons.txt L1201-1210	Infernal Enrapturess 50: +1 lanzar a magos de Slaanesh amigos, -1 a enemigos en mando	OK	data.js:2943; rules.js:3851	
+leg_daemons-244	leg_daemons.txt L1212-1218	Allure of Slaanesh 35: test Ld enemigo antes de impactar; si falla solo 6	OK	data.js:2944; rules.js:4371,4632	
+leg_daemons-245	leg_daemons.txt L1220-1229	Siren Song 30: un uso, test de Ld del enemigo o debe declarar carga	OK	data.js:2945; rules.js:5602	
+leg_daemons-246	leg_daemons.txt L1231-1238	Soporific Musk* 30	OK	data.js:2946	
+leg_daemons-247	leg_daemons.txt L1240-1245	Enrapturing Gaze* 20: enemigos trabados sin Presencia Inspiradora	OK	data.js:2947; rules.js:1424	
+leg_daemons-248	leg_daemons.txt L1201-1207	Banner of Acquiescence 55: una unidad enemiga -D3 HA e I	OK	data.js:2948; rules.js:4509-4514	
+leg_daemons-249	leg_daemons.txt L1209-1214	Rapturous Standard 35: cargas al frente desordenadas	OK	data.js:2949; rules.js:3180	
+leg_daemons-250	leg_daemons.txt L1220-1224	Siren Standard 25: huida como reaccion exige test de Ld o aguantar	OK	data.js:2950; rules.js:3016	
+leg_daemons-251	leg_daemons.txt L1250-1260	Staff of Change 65: F, PA-1, flamigera, magica; R test o pierde todas las Heridas	PARCIAL	data.js:2951	VERIF v732: data.js:2979 F/FP-1/flamigera ok, pero rules.js:5548 hace UN chequeo de R por lote de heridas y applyWounds(x.e, x.e.wounds) quita todas las Heridas de la unidad, no solo las del modelo herido
+leg_daemons-252	leg_daemons.txt L1262-1268	Will of Tzeentch 55: una vez por ronda repite cualquier D6	PARCIAL	data.js dml_willT luckR; rules.js luckTry (impactar/herir/salvar a eleccion del jugador)	Repite impactar/herir/salvacion (a eleccion del jugador); no cubre tiradas de lanzamiento, carga ni dispersion
+leg_daemons-253	leg_daemons.txt L1270-1275	Power Vortex 35: magos enemigos en alcance de disipacion -1 a lanzar	OK	data.js:2953	
+leg_daemons-254	leg_daemons.txt L1277-1282	Iridescent Corona* 30: -1 adicional a impactar en disparos	OK	data.js:2954; rules.js:2432	
+leg_daemons-255	leg_daemons.txt L1284-1291	Twin Heads 20: un hechizo mas sin subir nivel	OK	data.js:2955; rules.js:797	
+leg_daemons-256	leg_daemons.txt L1254-1257	"Banner of Discord 60: unidad RM (-3); amigos a 6"" RM (-1)"	OK	"rules.js:1723 mrAura 6"""	"Solo RM (-3) a la unidad; falta aura de 6"""
+leg_daemons-257	leg_daemons.txt L1259-1265	Banner of Change 45: 3D6 impactos F2 PA- a una unidad enemiga trabada	OK	data.js:2957; rules.js:4512	
+leg_daemons-258	leg_daemons.txt L1267-1273	Icon of Sorcery* 35: Horrores Rosados lanzan ligados con NP doble de bonus de filas	OK	data.js:2958; rules.js:3824	
+leg_daemons-259	leg_daemons.txt L1076-1083	Banner of Unholy Victory 60: +D3 resolucion	OK	data.js:2921; rules.js:5025	
+leg_daemons-260	leg_daemons.txt L1090-1094	Totem of Eternal War 45 (Foco): -D3 heridas extra de Inestabilidad en alcance de mando	OK	rules.js daemonicInstability: Totem D3 en alcance de mando	"Radio 12"" en vez de alcance de mando; sin restriccion a Foco"
+leg_daemons-261	leg_daemons.txt L1097-1105	Standard of Chaotic Glory 30 (Foco): +1 Ld a Demonios en alcance de mando (max 10)	OK	rules.js:~1562 ldAura con commandRange	"Radio 12"" en vez de alcance de mando; sin Foco"
+leg_daemons-262	leg_daemons.txt L1300-1313	Golpe hendiente: 6 natural al herir sin armadura ni Regeneracion vs infanteria, caballeria ligera/pesada, bestias de ...	OK	rules.js:1700,1716	
+leg_daemons-263	leg_daemons.txt L1316-1323	Demoniaco: salvacion especial 5+ contra heridas de ataques enemigos no magicos	OK	data.js wardNMu 5 (no magicos ni hechizos)	La 5+ se aplica tambien contra ataques magicos
+leg_daemons-264	leg_daemons.txt L1323-1330	Demoniaco: Inestabilidad, Miedo, Inmune a psicologia, Ataques magicos, Inquebrantable, Engendro de la disformidad	PARCIAL	data.js sr warpSpawned en todos los Demonios	"VERIF v732: data.js:5948 anade warpSpawned y existen unstable/fear/immunePsy/unbreakable, pero dm_skullcannon, hellflayer, seekerchariot, tzeentch_chariot y burningchariot no tienen ""magical"" (Ataques magicos) | Sin 'warpSpawned' en ningun Demonio; resto OK"
+leg_daemons-265	leg_daemons.txt L1332-1333	Personaje Demoniaco no se une a unidades no Demoniacas ni al reves	OK	rules.js join: Demoniaco/no Demoniaco y warpSpawned	Solo se comprueba Demonio contra Demonio de otro dios
+leg_daemons-266	leg_daemons.txt L1304-1313	Inestabilidad Demoniaca: test de Ld con +1 por punto de derrota; si falla pierde tantas Heridas como el fallo	OK	rules.js:194 daemonicInstability	El motor resta heridas = diferencia de resolucion, sin test de Ld (regla antigua)
+leg_daemons-267	leg_daemons.txt L1311-1314	Inestabilidad: con personajes asignar una Herida a cada modelo y repartir el resto	OK	rules.js:194 reparto unidad/personajes	applyWounds sin reparto especifico entre unidad y personajes
+leg_daemons-268	leg_daemons.txt L1317-1318	Inestabilidad: fallo con doble 6 natural elimina la unidad	OK	rules.js:194 doble 6 elimina	No existe eliminacion por doble 6
+leg_daemons-269	leg_daemons.txt L1304-1305	Inestabilidad se resuelve antes de Ceder terreno	OK	rules.js:5080	
+leg_daemons-270	leg_daemons.txt L1320-1332	"Foco Demoniaco: -1 Heridas de Inestabilidad en 12"" y doble 6 no elimina"	OK	rules.js locusFor (-1 heridas, sin eliminacion)	Solo hay Totem D3; sin regla de Foco
+leg_daemons-271	leg_daemons.txt L1334-1344	Favor Infernal (X): reduce Heridas por Inestabilidad en X; no acumulativo, se usa el mayor	OK	rules.js:5080 (indom1-3)	
+leg_daemons-272	leg_daemons.txt L1346-1357	Alineacion Demoniaca: una sola, toda la unidad igual, personajes solo con la misma o ninguna	OK	data.js opts alineacion + rules join	Unidades no mezclan; el Principe elige alineacion; personaje sin alineacion se une a cualquiera
+leg_daemons-273	leg_daemons.txt L1365-1368	Demonios de Khorne: Odio (Slaanesh) y +1 F al cargar (no montura)	OK	rules.js:4099, 4225	
+leg_daemons-274	leg_daemons.txt L1370-1378	Demonios de Nurgle: Odio (Tzeentch); enemigos repiten 6 naturales al impactar	OK	rules.js:4657, 4225	
+leg_daemons-275	leg_daemons.txt L1365-1369	"Demonios de Slaanesh: Odio (Khorne), +1"" alcance max de carga, +1 a tirada de Carga o Persecucion"	OK	rules.js alignOf (Slaanesh +1 carga/persecucion; odio Khorne)	Carga y persecucion OK; Odio por ALIGN_FOE; +1 alcance max OK
+leg_daemons-276	leg_daemons.txt L1376-1382	Demonios de Tzeentch: Odio (Nurgle) y +1 a lanzar sin anular doble 1	OK	rules.js:3907	
+leg_daemons-277	leg_daemons.txt L1388-1390	Lore of Daemons: descartar hechizo aleatorio y elegir firma del Saber o hechizo de alineacion	OK	rules.js:~955 legSp elegido por el jugador (idem 081)	Sustitucion aleatoria; no elige el jugador
+leg_daemons-278	leg_daemons.txt L1393-1407	"Plague Wind: CV 7+, 12"", vortice pequeno 3"", terreno peligroso, D6"", -1 R (salvo Nurgle)"	OK	data.js:4903; rules.js:5545	
+leg_daemons-279	leg_daemons.txt L1409-1420	"Cacophonic Hymn: CV 10+, 12"", expiran encantamientos y Estupidez mientras este en juego"	OK	data.js:4900; rules.js:3552	
+leg_daemons-280	leg_daemons.txt L1397-1402	"Pink Fire: CV 8+, 18"", D3+3 impactos F3 PA- flamigeros"	OK	data.js:4902	
+leg_daemons-281	leg_daemons.txt L1404-1425	"Gift of Mutation: CV 8+/12+, 12"", -D3 a una/dos de HA, F, R elegidas por el lanzador"	OK	rules.js:4013 mutPref (main.js panel, ai.js optionGroups)	El motor elige automaticamente las caracteristicas mas altas
+leg_daemons-282	leg_daemons.txt L1425-1428	Armeria Demoniaca: texto de ambientacion	NA	-	
+leg_daemons-283	leg_daemons.txt L1431-1435	Hellblade: F, PA-1, Golpe cortante	OK	data.js:5337; rules.js:1700	
+leg_daemons-284	leg_daemons.txt L1438-1444	Plaguesword: F, PA-, Perforante 1, sin Regeneracion	OK	data.js:5336	
+leg_daemons-285	leg_daemons.txt L1446-1451	"Death's heads: 12"", F+1, PA-1, Mover y disparar, Heridas multiples D3"	OK	data.js:1996,5380	No hay arma arrojadiza para Portadores de la Plaga ni Zanganos
+leg_daemons-286	leg_daemons.txt L1453-1459	Piercing claws: F, PA-1, Perforante 2, Ataques extra (1), dos manos	PARCIAL	data.js:1979,5348,1999	VERIF v732: data.js:1988/2008 garras solo en Demonetas y Buscadores; Heraldo de Slaanesh y Engendros (que la tienen en fuente) sin garras; carros sin ellas | Demonetas sin PA-1; Heraldo sin Extra ni dos manos; Buscadores/Engendros sin garras
+leg_daemons-287	leg_daemons.txt L1461-1467	"Flames of Tzeentch: 18"", F3, PA-, flamigeras, Disparos multiples 2, Disparo rapido"	OK	data.js:1982,1987,5370	Falta Disparo rapido; el Heraldo usa estadisticas de Varita
+leg_daemons-288	leg_daemons.txt L1469-1476	Lamprey's bite: F, PA-1, Heridas multiples D3 solo contra monstruos	OK	data.js:2002; rules.js:4157	Chillones sin arma de mordisco

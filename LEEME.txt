@@ -1,0 +1,825 @@
+EL VIEJO MUNDO · BATALLA  (app web instalable)
+==============================================
+
+Cómo usarlo
+-----------
+1. Sube esta carpeta tal cual a cualquier alojamiento web con HTTPS
+   (GitHub Pages, Netlify "arrastrar y soltar", Cloudflare Pages…).
+   Para probar en el PC: en esta carpeta, `python3 -m http.server 8000` y abre http://localhost:8000
+2. Abre la dirección en el móvil y elige "Añadir a pantalla de inicio"
+   (Chrome: menú ⋮ → Instalar app · Safari: Compartir → Añadir a pantalla de inicio).
+   Después funciona sin conexión.
+3. viejo-mundo-single.html es la misma app en un solo archivo, para abrirla directamente (sin instalar).
+
+Modos
+-----
+- Contra la IA: Fácil / Medio / Difícil. La IA se entrena por autojuego (train.mjs) y sigue aprendiendo
+  de cada partida en tu dispositivo (se guarda en el navegador; "Reiniciar aprendizaje local" en el menú).
+- Dos jugadores en el mismo dispositivo (con pantalla de relevo).
+- Por turnos con código: cada uno en su móvil; al terminar el turno se copia/pega un código corto.
+
+Reentrenar la IA (opcional, requiere Node 18+)
+----------------------------------------------
+  node train.mjs 24 10      # 24 generaciones, 10 partidas por candidato; escribe weights.json
+
+Reglas y datos
+--------------
+Ejércitos (17 facciones): Imperio, Orcos y Goblins, Bretonia, Elfos Silvanos, Reyes Funerarios, Guerreros del Caos,
+Hombres Bestia, Altos Elfos, Catay, Enanos, y los de Legends: Enanos del Caos, Ogros, Demonios, Condes Vampiro,
+Skaven, Hombres Lagarto y Elfos Oscuros. Perfiles, puntos y reglas proceden de los libros oficiales aportados
+(Core Rulebook, Forces of Fantasy, Ravening Hordes, Arcane Journals, Legends, FAQs, Catay y escenarios SC).
+Las especificaciones extraídas están en rules/spec_*.md; el registro de auditoría en rules/AUDITORIA.md.
+
+Implementado según el libro: fases y turnos, cargas (también por lotes), disparo (modificadores, repeticiones,
+línea de visión, fuego indirecto, plantillas, máquinas de guerra), combate, rupturas, persecución y arrollar,
+pánico, desafíos, músicos, campeones y estandartes con coste por unidad (tabla CMD verificada contra los libros),
+formaciones (escaramuza, lanza, columna, formación extendida), destacamentos y regimientos, equipos de armas Skaven
+adjuntos a su unidad matriz, cobertura y huida ante cargas, terreno, reservas y emboscadores, magia con todos los
+lores de cada ejército, objetos mágicos, escenarios y objetivos del libro.
+
+Equipo y opciones: cada unidad parte del equipo base del libro y las opciones (armas, armaduras, escudos, Juramentos,
+magia, Sangre de Hashut, Arma Darkforged, alineamientos del Príncipe Demonio, etc.) se eligen y pagan en el editor
+(sistema opts). Los equipos de armas Skaven se adjuntan con el botón «Destacamento» (uno por unidad matriz).
+
+Limitaciones conocidas (según rules/AUDITORIA.md):
+- Sangre de Hashut: el libro no limita los viales; el editor admite 1-5. El motor usa un vial si el personaje tiene
+  ≤3 Ataques y un enemigo con armadura 4+ o mejor.
+- La reacción de huir ante una carga es automática; la IA decide por el jugador solo donde el libro no da elección.
+Dos armas de proyectil (fireglaive/trabuco + pistola/bombas de nafta) y dos armas de combate (gran arma + fireglaive):
+el modelo dispara una sola arma por fase (botones Arma 1 / Arma 2 / Auto al elegir objetivo) y elige su arma de combate
+al empezar el combate, manteniéndola mientras siga trabado con el mismo enemigo. Celo Fanático (Flagelantes: solo
+Lector/Sacerdote de Sigmar; el Heraldo solo con Flagelantes) y Variopinto (Ogros Imperiales: armas por modelo con
+lotes de dados propios, armadura de la mayoría) están implementados según el libro.
+Menores (bajo impacto, ver rules/PLAN_PENDIENTE.md): selector del Aquelarre maldito (se elige automáticamente), marcadores de mina en 3D.
+Miniaturas 3D reales (mod de TTS) solo donde el archivo aportado traía la malla; el resto usa figuras genéricas.
+
+
+HISTORIAL DE VERSIONES (cronológico). Los avisos «pendiente», «simplificado» o «no implementado» de las entradas antiguas reflejan el estado de ESA versión: los resolvió una versión posterior (auditorías v303-v494, ver rules/AUDITORIA.md, rules/PLAN_PENDIENTE.md y rules/TODO_SIN_APROX.md). El estado vigente es el de «Reglas y datos» y «Limitaciones conocidas» más arriba.
+v52: Torrente de Duendes ahora es un vórtice (plantilla 3"): se mueve D6" aleatorio al inicio del turno del lanzador, 3D6 impactos F2 AP-1 a enemigos tocados; dura 6 turnos o hasta que muera el lanzador. Pendiente/simplificado: Senderos Ocultos (Hidden Pathways), reglas detalladas de maniobra, Golpe Mortal (ninguna unidad lo usa), objetos mágicos, Waaagh! automático, mallas 3D ausentes en el origen (Imperio/Orcos/Treeman).
+
+v53: Senderos Ocultos (Lore of Athel Loren): la unidad amiga a 12" gana Movimiento de Reserva (botón en fase de disparo, sin marchar/cargar/huir) y giro rápido gratuito hasta tu siguiente turno. Regla Movimiento de Reserva (reserveMove) disponible para unidades.
+v53: Golpe Mortal en combate (6 natural al herir vs infantería/caballería: sin armadura ni regeneración, elimina las heridas restantes del modelo).
+v53: Objetos mágicos comunes del Core Rulebook (botón ✦ en el editor de ejército): armas, armaduras, talismanes, pergaminos y estandartes mágicos, con presupuesto por personaje (General/Mago nv3: 100, Barón 75, resto 50) y límites del libro (un objeto no común por categoría, los marcados * se repiten, máx. 3 Piedras de Obsidiana, estandartes ≤50 pts). Implementados con efecto: Hoja de Ogro, Espada de Batalla, Hojas del Duelista, Hacha del Verdugo, Espada Gigante, Rapidez, Berserker (simplificado a F+1/+1A), Poder, Mordiente, Precisión, Ardiente; Armadura del Destino, Yelmo Deslumbrante, Acero Plateado, Escamas Relucientes (sin repetición), Escudo del Guerrero Verdadero, Hierro Meteórico, Escudo Encantado, Escudo Hechizado; Piedra del Alba, Talismán de Protección, Obsidiana, Piedra de la Suerte; Pergamino de Poder y de Dispersión; estandartes Férrea Determinación, Afilado, Rampante, Llameante y de Guerra.
+v53: ¡Waaagh! ahora afecta solo al personaje, su montura y la unidad de Orcos (no Goblins) a la que se ha unido; se invoca automáticamente (una vez, con enemigos a ≤24"). No implementados: pociones, Anillo Rubí, Sombrero, Alfombra, Familiares, Varita de Azabache, objetos exclusivos de cada ejército, Espada Mata-dragones/Spelleater. Los ejércitos recomendados no llevan objetos.
+Los objetos de un personaje unido sólo protegen (salvaciones especiales) a la unidad cuando ésta es la que recibe la herida de forma directa; las heridas repartidas a personajes unidos usan su perfil base.
+v54: Pociones (Fuerza, Dureza, Velocidad, Temeridad, Curación): se beben automáticamente al inicio del turno si hay enemigos a ≤14" (Curación si hay heridas).
+v55: Maniobras según el libro (una por movimiento): virar (girar de ala, coste del borde exterior), girar 90°/180° en el sitio (¼ / ½ del Movimiento), marcha atrás y de lado (mitad del Movimiento), reordenar filas (mitad, ±5 modelos) y reformar (todo el movimiento, giro ≤180°); la marcha solo permite virar. Senderos Ocultos anula el coste del giro. Pendiente: columna de marcha (triple M), objetos exclusivos de cada ejército.
+v56: Columna de marcha (más modelos por columna que por fila): sin bonificación de filas, no puede cargar y triplica M al marchar. Objetos exclusivos por ejército: Elfos Silvanos (Lanza del Crepúsculo, Hojas de Loec, Yelmo de la Cacería, Manto de Railarian, Tejido Hechizante, Piedra Espectral, estandartes del Bosque Salvaje y de la Reina Eterna), Imperio (Colmillo Rúnico, Espada de la Justicia, Armaduras de la Fortuna y de Tarnus, Capa Blanca, Amuleto de Jade), Bretonia (Espada de los Héroes, Lanza de Duramen, Lucero de Fracasse, Coraza Dorada, Gran Yelmo de Gromril, Relicario de Sirienne, Estandarte de la Errancia) y Orcos (Choppiest Choppa, Pigstikka, Hacha del Último Gran Waaagh, Pantalones de Troll, Armadura de Mork, estandartes de Butchery y Raggedy). Sin implementar: objetos con efectos de disparo/hechizos específicos (arcos, flechas, Mazo de Helsturm, Espada de la Búsqueda, Cuerno, Familiares, Varitas, Pigeon Bombs y demás armamento especial), Estandartes Imperial/Grifo/Pendón.
+v57: Maza de Helsturm y Espada de la Búsqueda (dos perfiles, se elige el más adecuado frente al enemigo).
+
+v58 (auditoría de reglas, bloque 1): Inflamable (solo las unidades con la regla pierden Regeneración ante ataques flamígeros: Trolls y espíritus arbóreos), Golpe de árbol (Parientes, Hombre Árbol, Anciano), ¡Timmm-berrr! (caída sobre un arco), Espíritu arbóreo (solo se une a espíritus arbóreos), hechizos de la Lore de Athel Loren Bandada de la Perdición y Caminante del Bosque (se añaden al repertorio de los magos silvanos).
+Auditoría pendiente (marcado como simplificado/ausente): Cantar de los Árboles (vórtice-bosque), Emboscada del Bosque (bosque extra), flechas encantadas, Maestría marcial, Guardianes del Bosque, Danzas de Loec, Moverse entre la maleza (terreno difícil), Impactos de carga (Impact Hits) y resto de reglas de ejército por revisar contra el libro.
+
+v59 (auditoría, bloque 2): Terreno difícil/peligroso según el libro (−1 al Movimiento si el movimiento toca bosque/pantano; Alterada si ≥25% de la unidad acaba dentro; pantano peligroso: test por modelo, 1 = herida; Moverse entre la maleza sin penalización y repite 1s), Impactos de carga (Jabalí de los Orcos: Hit 'em Fast), Maestría marcial (ataques de apoyo a flanco/retaguardia), Guardianes del Bosque Salvaje (+1 Ataque y Heridas múltiples (2) contra Miedo/Terror), Danzas de Loec (elegidas automáticamente cada combate), Emboscada del Bosque (bosque extra de 8-12" para Elfos Silvanos), Canto de los Árboles (bosque temporal, terreno peligroso para el enemigo), flechas encantadas (editor ✦ en unidades con arco asrai: puntas arcanas, hagbane [envenenado aproximado], fuego de luna, esquirlas veloces, flechas certeras) y Disparar y huir (tirada de huida con un D6, el mayor).
+Pendiente de auditoría: reglas de ejército restantes de Bretonia/Imperio/Orcos línea a línea, Veterano, Solitario, Ataques/Movimiento aleatorios, Emboscadores, Formación de escaramuza detallada, Reserva de movimiento nativa para unidades que la tengan.
+v60: Ignores Cover (señor/capitán del Claro, con Fire & Flee) y Talismanic Tattoos (ward 6+) en Jinetes Salvajes. Veteran/Shieldwall/Feigned Flight etc. sin unidades en el juego o pendientes.
+v61: Fuga fingida (Feigned Flight) en Jinetes de Halcón: se reagrupan solos tras huir de una carga.
+v62: Solitario (Loner) en Bailarines de Guerra: no admiten personajes. Pendientes sin unidades en el juego: Scouts, Vanguard, Parry, Witch Bane, Skulking Menace, Quell Impetuosity, Veteran, Shieldwall.
+v63: objetos silvanos: Arco de Loren (disparos = Ataques), Maldición de Asyendi (repite un fallo; si falla, impacto F3 al portador), Locus de Merciw (F no modificada por armas), Estandarte de la Víspera de Verano (Ignora cobertura). Pendientes silvanos: Hail of Doom, Wailing Arrow, Banner of Hunter King (Vanguard), Deepwood Sphere, Oaken Stave, Wand of Wych Elm.
+v64: Libro de Ashur, Familiar, Bastón del mago, Varita de Olmo, Bastón de Roble, Esfera del Bosque Profundo, Estandartes del Deber/Pendón Reluciente/Grifo, Cuerno de Plata (huida). Pendientes: Laurels (puntos por herida del portador), Dragon Bow, Imperial Banner, Shroud of Iron, Hail of Doom/Wailing, Banner of Hunter King (Vanguard).
+v65: Arco del Dragón (solo comandantes; da disparo 36" F6 PA-2 HM2 mágico, rangedOf()). Pendientes: Laureles, Estandarte Imperial, Manto de Hierro, Hail of Doom/Wailing, objetos de Bretonia y Orcos.
+v66: Bretonia: Estandarte Valeroso, Châlons, Astas de la Gran Cacería, Sacramento, Espejo de Plata. Orcos: Waaagh! Banner, Bastón de Buzgob, Ídolo de Mork, Amuleto Verde, Estandarte de Guff. Pendientes: Laureles, Estandarte Imperial, Manto de Hierro, Hail of Doom/Wailing, Falcon-horn, Gauntlet, Prayer Icon, Mantle Elena (sin veneno en el juego), Conqueror's Tapestry, Wollopa, 'Eadbuttin, Collar de Zorga, Big Boss 'At, Fungus Wine, Glittering Wotnots.
+v67: Icono de Oración de Quenelles, 'Eadbuttin' 'At (impacto PA-2), Big Boss 'At (Inquebrantable por test de Ld). Pendientes: Laureles, Estandarte Imperial, Manto de Hierro, Hail of Doom/Wailing, Falcon-horn, Gauntlet (no hay retos), Conqueror's Tapestry, Wollopa, Collar de Zorga, Fungus Wine, Glittering Wotnots.
+v68: Estandarte Imperial (3D6 descarta el mayor en Miedo/Pánico/Terror a 12"). Pendientes: Laureles, Manto de Hierro, Hail of Doom/Wailing, Falcon-horn, Conqueror's Tapestry, Wollopa, Collar de Zorga, Fungus Wine, Glittering Wotnots.
+v69: Cuerno de Halcón de Fredemund (test de Ld en mando: enemigos sin Volar hasta tu turno), Collar de Zorga (-1 impactar a bestias de carga).
+Objetos NO modelados (decisión documentada, requieren mecánicas ausentes): Laureles de Victoria (puntos de resolución por herida del portador: no se atribuyen heridas a modelos concretos de la unidad), Manto de Hierro (plantillas no mágicas), Hail of Doom / Wailing Arrow (flechas de un solo uso con plantilla/pánico), Conqueror's Tapestry (no hay Puntos de Victoria por estandartes capturados), Wollopa (arma de perfil único con Goblin Boss, no hay Boss Goblin), Glittering Wotnots (reflejar hechizos), Fungus Wine (solo Night Goblin characters), Gauntlet del Duelo (retos obligatorios), Manto de Elena (no hay Ataques Envenenados en el juego), Banner del Rey Cazador (Vanguard), Arco de Loren etc. ya hechos.
+v70: Levies (sin Presencia Inspiradora; no provocan Pánico a unidades sin Levies), Peasantry (usa Ld de modelos con Voto a 6"), Shieldwall (una vez, cede terreno si fue cargada), Vanguard (movimiento tras el despliegue, alternando) aplicados a Hombres de Armas, Arqueros, Escuderos, Peregrinos.
+v71: Reprimir Impetuosidad (Orcos Negros y Jefe Orco Negro: unidades a 6" ignoran Impetuoso), Jinetes del Claro como Escaramuzadores según el libro. Pendientes: Tusker Charge (solo ataques del jabalí), Mob Rule (los magos no se unen a unidades), Da Boyz (composición de ejército), Drilled/Detachment/Regimental (composición/despliegue).
+v72: Horda (+1 rango máximo de bonificación), Caballeros Pegaso como Escaramuzadores con Carga furiosa. Pendientes: Tusker Charge, Dispersed Formation (coherencia 2"), Living Saints, Aura/Shield of the Lady (magos no se unen), Mob Rule.
+v73: Carga de colmillos (Tusker Charge): ataques del jabalí F+1 PA-1 al cargar, repartidos por Ataques de la montura.
+Auditoría de reglas comunes (Terror, Counter Charge, First Charge, Stomp, Fast Cavalry, Hatred, Impact, Unbreakable...) frente a core.txt: implementadas en rules.js sin diferencias detectadas. Sin trabajo viable pendiente salvo lo listado como no modelado más arriba (Dispersed Formation, Living Saints, Mob Rule, Laureles, plantillas, Scouts, Parry, Veteran...), 3D que faltan en las fuentes y re-medición de equilibrio.
+
+v74 - Auditoría independiente (8 revisores, sección por sección) + correcciones:
+ Grito de reagrupamiento (Mando), Requiere dos manos (sin escudo en combate), Golpe Mortal (personajes, anula regeneración),
+ límite de heridas múltiples, mejor salvación mágica, lista de personajes unidos, rango en escaramuza, Fuerza de Horda,
+ Ataque Superior/flanco/retaguardia, Golpear al final, pase de pánico con Estandarte Imperial, control de mando por ejército.
+ Pendientes (ver AUDITORIA): carga con LoS/arco ±, huida y terreno peligroso, heridas a personajes unidos, Portaestandarte,
+ hechizos/lores de Elfos Silvanos, límites de composición, escenarios, objetos comunes, monturas/lanza.
+v75 - Heridas a personajes unidos: en disparo solo si quedan <5 soldados; en combate solo por desafío/ataques dirigidos.
+v76 - Declarar carga exige línea de visión al objetivo (terreno y unidades intermedias bloquean).
+v77 - Unidades en huida hacen tests de Terreno Peligroso (pantano/temporal) al cruzarlo.
+v78 - Espíritu arbóreo: sus unidades solo usan el Liderazgo de personajes con la misma regla dentro de su alcance de mando (no el del General).
+v79 - Constructor: valida mínimo/máximo de modelos por unidad; preset Imperio 1500 corregido.
+v80 - Portaestandarte de Batalla (Capitán del Imperio +25, Paladín de Bretonia 0, Capitán del Claro +25; botón ⚑ en personajes):
+ +1 resolución de combate aunque haya otro estandarte, "Mantened la posición" (repetir Pánico, Reagrupar y tirada de Ruptura dentro del alcance de mando),
+ estandarte mágico sin límite de 50 pts, solo uno por ejército. Limitación: los efectos de un estandarte mágico llevado por un personaje unido, salvo +CR, no se propagan a la unidad.
+ Orcos: no hay Jefe de Banda (Bigboss) en el catálogo, por tanto sin Portaestandarte.
+v81 - Magos Silvanos (Spellsinger/Spellweaver/Branchwraith/Ancient): Lore por defecto Magia de Batalla (según el libro); Lore de los Salvajes como opción seleccionable en el constructor (botón del mago).
+v82 - Nuevos personajes orcos: Bigboss Orco (55), Orco Negro (75) y Goblin (35), con Portaestandarte de Batalla (+25). Sin 3D propio (usan modelo de personaje genérico).
+v83 - Objetos comunes nuevos: Espada Mataconsuelos del Dragón (repite heridas contra infantería monstruosa), Hacha Comehechizos (Res. magia −2, −1 AP), Vara de Toma de Tierra (repite Desastre mágico). Siguen sin: Sombrero de Mago, Alfombra Voladora, Anillo Rubí, Pergamino Retroalimentación, Varita de Chorro, Familiares.
+v84 - Objetos arcanos: Varita de Azabache (+1 lanzar/dispersar, se rompe con doble), Familiar de Saber (elige hechizos), Familiar Arcano (segundo Lore: Salvajes/Waaagh!/Dama/Batalla según facción). Pendientes: Sombrero de Mago, Alfombra Voladora, Anillo Rubí, Pergamino de Retroalimentación, Transmogrificación.
+v85 - Perfil dividido de caballería con lanza: solo el jinete usa la lanza (F+2, −2 AP, Perforación); el ataque de la montura usa F base sin lanza (caballería de unidades, A≥2).
+v86 - Pánico: huye de enemigo más cercano (no del amigo destruido), un solo test por fase, 'atravesado por amigos en huida' (Fled Through).
+v87 - Colinas: +1 resolución de combate al bando en terreno elevado (se anula si ambos), y fila adicional al disparar desde la colina.
+v88 - Escaramuzadores: disparan en cualquier dirección, los modelos bloquean línea de visión, y los disparos contra ellos (US 1) sufren −1 para impactar.
+v89 - Jinetes de Halcón: las garras del halcón (2 ataques) usan F4 y −2 AP; el jinete conserva su lanza/arma.
+v90 - Orden abierto: 'Rangos dispersos' (no se Altera por terreno difícil/peligroso). Prueba de estrés: 64 partidas IA sin errores.
+v91 - Giro rápido (orden abierto): tras mover (sin marchar), pivota hasta 90° sin coste.
+v92 - Caballería Rápida: giro rápido también al marchar (unidad y personajes unidos con la regla).
+v93 - Nuevos modelos 3D desde los 11 .7z recién subidos: Maestro Mago y Señor de la Magia (Imperio), Arqueros y Peregrinos de Bretonia (ya con malla real). Descartados por defectuosos: Duque/Barón/Paladín (malla plana), y las mallas de 51 vértices (General/Capitán del Imperio, Chamanes orcos, Hechicera Rama, Anciano y Hombre Árbol).
+ Siguen SIN malla: Imperio (tropas estatales, caballeros, general, capitán), Orcos (jefes de guerra, hordas, trols sí), Cañón sí, Lanzapiedras, Señor Silvano a caballo. Causa: en la caché del mod esos .obj son archivos de 0 bytes; hay que volver a abrir esos modelos en TTS para que se descarguen y volver a comprimir la carpeta Models.
+ tools/export_models.py ahora ignora mallas vacías, elige la mejor variante por apodo y admite alternativas (FB).
+v94 - Frenzy: una unidad frenética no puede elegir huir como reacción a la carga.
+v95: Pisotón a Iniciativa 1 (tras los demás pasos), behemoth PA -2 y no pisa monstruos.
+v95b: revisados 3 .7z nuevos (modelos Imperio general/capitán siguen defectuosos: se mantienen los procedurales).
+v96: al perder filas en combate el bloque conserva el borde de contacto (no se separa del enemigo). Heridas múltiples: exceso ya se pierde (verificado).
+v97: Pergamino de Retroalimentación (usa en vez de dispersar; 2D6, 4+ = herida al lanzador). Pendiente: Anillo Rubí, Sombrero de Mago, Alfombra Voladora, Transmogrificación.
+v98: Anillo Rubí de la Ruina (hechizo ligado Bola de Fuego PL2, sin desastre ni invocación perfecta; un ligado por fase; lo puede llevar cualquier personaje). Probado con partida concreta.
+v99: Persecución elegible por unidad (Automática / Contenerse / Perseguir) en el panel; acción 'restrain'.
+v99b: revisados 14 .7z más; mallas de Imperio/orcos/Rock Lobber/Glade Lord a caballo siguen vacías en la caché de TTS (sin cambios en modelos).
+v100: Lanzavirotes: Through & Through (1 impacto por fila/columna según flanco, −1 F por impacto tras el primero). Probado.
+v101: Pergamino de Transmogrificación (rana: sin magia/equipo, características a 1, vuelve con 4+ al inicio de turno). Probado el uso; la IA lo usa con lanzamiento >=10.
+v102: Cañón disparando al flanco: impactos limitados por columnas y medidos por ancho de peana (no por filas).
+v103: Escenario 'The Drakwald Forest Incident' (Encuentro): 1 en 1D6 por unidad queda en reserva; entra como refuerzo desde turno 2 por el borde largo (retaguardia al borde, mira al centro, cuenta como movida, no marcha); +1 al primer turno para quien termine de desplegar antes. IA y panel de reservas. No implementado: Columnas de marcha de las reservas. Pendiente: Pine Crags (flanqueo).
+
+== Pendiente tras v103 (no implementado) ==
+- Pine Crags (Flank Attack): el mapa del libro es ambiguo en el texto extraído (zonas 18"/12"/18"); requiere confirmar el diagrama.
+- Reservas del escenario Drakwald: no entran en Columnas de Marcha.
+- Linajes Elementalism / Illusion / High Magic (ningún ejército actual los usa por defecto).
+- Objetos: Sombrero de Mago (Mago nivel 1 en no-mago), Alfombra Voladora (Fly 8).
+- Dotación de máquinas (R de la dotación), Open Order completo, reglas menores de personaje solitario.
+- Mallas 3D vacías en la caché de TTS: caballeros del Imperio, warbosses orcos, Rock Lobber, Glade Lord a caballo, Duque/Barón/Paladín.
+v104: Lores Elementalismo (Llamada de la Tormenta, Espada Flamígera, Plaga de Óxido, Murallas de Tierra, Ráfaga de Viento) e Ilusionismo (Manto Reluciente, Navaja Mental, Espejismo Miasmático), elegibles para magos de Imperio, Bretonia (Damas) y Orcos (botón de Lore). Sin implementar: Invocar Espíritu Elemental, Senda Mística, Dragón Reluciente, Columna de Cristal, Convocatoria Confusa, Doble Espectral.
+v105: Doble Espectral (Ilusionismo): asalto 2D6 ataques con HA y F del lanzador. Probado en combate.
+v106: Senda Mística (Elementalismo): unidad amiga sin mover avanza hasta 12" a más de 6" de enemigos; cuenta como movida. Probado.
+v107: Grafismos nuevos: efectos por hechizo (haz y partículas de color propios para Elementalismo/Ilusionismo y Bola de Fuego), anillo de llegada y polvo en refuerzos, polvo de pisotón, chispas rojas/verdes de Retroalimentación y Transmogrificación, estela de Senda Mística; iconos de estado sobre la unidad (⛈ tormenta, 🔩 óxido, ⛰ murallas, ✨ manto, 🌫 espejismo, 🐸 rana).
+
+v108: nuevas figuras 3D procedurales para unidades sin malla: caballeros imperiales/bretonianos con caparazón y cimera, generales y señores con estandarte, ciervo con astas (Señor Elfo en montura), Treeman/Ancestro/Treekin con copa y brazos de rama, dríadas con cabellera de hojas, orcos con casco de cuernos, caudillos con gran espada, uniformes distintos en tropas estatales. (Artefacto sin publicar.)
+
+v109: Revisados de nuevo todos los comprimidos. Hallazgo: 488 paquetes Unity (.unity3d) que antes no se leían. Nuevo lector propio (tools/ufs.py, usf.py, export_scenery.py: UnityFS+LZ4/LZMA, SerializedFile con typetree, Mesh, Texture2D DXT1/DXT5, jerarquía de Transform). Contienen escenografía del mod, no las miniaturas que faltaban (las únicas unidades en paquetes son de otros ejércitos; Dríadas ya tenía malla). Integrada en 3D (app/js/scenery.js, 15 modelos con textura): robles/olmos/frondosos y arbustos en bosques, rocas en colinas, plantas y árbol de pantano, ruinas (base de piedra, obelisco roto, casa en ruinas). Varios paquetes referenciados están vacíos (0 bytes) en la caché, igual que los .obj de las unidades.
+
+v110: Revisión a fondo de los comprimidos por unidad (todas las piezas de cada miniatura). Error corregido: muchas entradas 'con malla' solo traían peana (3 KB) o estandarte; la figura real estaba vacía. Nuevas miniaturas REALES: Treeman, Ancestro y Espectro de Rama (paquetes Unity), Duque/Barón/Paladín a caballo, General del Imperio a caballo, Weirdnob y Weirdboy (Maniak Weirdnob), Bigboss goblin (Stabba), Jinetes de lobo, Señor Silvano a caballo (malla de Jinete del Claro) y Caballeros del Imperio (malla de Capitán a caballo, sustituto). Siguen SIN figura en el mod (archivo vacío o ausente): tropas estatales (alabardas/lanzas/espadas), arcabuceros, ballesteros, espadones, general/capitán a pie, Warboss/Bigboss orcos y orcos negros, orcos, orcos arqueros, goblins, goblins nocturnos, jinetes de jabalí, lanzapiedras.
+
+v111: Sombrero de Mago (45 pts, personajes sin magia): el portador es Mago de nivel 1 con un hechizo al azar del Lore elegido (botón de Lore en el editor) y queda sujeto a Estupidez. Alfombra Voladora (40 pts, solo a pie): Vuelo (8) y Zancada Rápida; no puede unirse a unidades (tampoco en el despliegue automático). Perfil efectivo por objeto vía D(u). Probado (hechizo lanzado, unión rechazada).
+
+v112: Matched Play Guide pasado por OCR (rules/matched.txt; antes estaba vacío por ser un escaneo, con páginas giradas). Añadido: escenario 3 Drawn Battlelines (tirada 1D6 por jugador; con un 1, ambos dejan en reserva su unidad de infantería/caballería de menor coste, que entra como refuerzo desde el turno 2). Puntos estratégicos (2)/(3)/(4) con la colocación del libro y control solo por unidades Básicas (también en King of the Hill). Objetivo secundario Elemento especial (monumento infranqueable central sin visión; control al inicio de cada turno con tabla D6: RM −3 / Odio / Inquebrantable; +200 PV al final). Cada escenario usa por defecto el secundario obligatorio del libro (Close Quarters: Puntos (2), Drawn Battlelines: Puntos (3), Encirclement: Puntos (4), A Chance Encounter: Elemento especial). Limitación: un solo objetivo secundario a la vez.
+Revisión de comprimidos (libros/unidades): los PDF del mod (Seizes of Tower, Toppling of the Waystones, Upon Shrouded Shores, Matched Play Guide, Rulebook, Arcane Journals...) son solo enlaces; no hay ningún .pdf en la caché subida. Las descripciones de las figuras son fichas en alemán (atributos, equipo y reglas) sin coste en puntos; ya coinciden con los libros oficiales usados.
+
+v113: Objetivos secretos del Matched Play Guide (los 12: Asesinato, Duelo de reyes, Cazador de bestias, Dominio mágico, Calmar los vientos, Azote de magos, Mantener la línea, Cortar la retirada, Colores capturados, Potencia de fuego abrumadora, ¡Fuego de artillería!, Cazarrecompensas). Se elige en el menú; la IA elige uno viable para su ejército; ambos se revelan y puntúan al final. Reglas del reglamento que faltaban: Trofeos de guerra (+50 PV por estandarte de unidad destruida en combate o alcanzada al huir; +50 si el Portaestandarte de batalla enemigo muere o huye) y Superado en el Arte (doble 1 natural al dispersar: el Mago tira en la tabla de Disfunción). Cazador de bestias no es alcanzable con estos cuatro ejércitos (no tienen tipo monstruo).
+
+v114: Duración de la partida del Matched Play Guide: 6 rondas (por defecto), Aleatoria (desde el final de la ronda 5, 1D6 + ronda ≥ 10 termina) y Punto de ruptura (25 % redondeando abajo de la Fuerza de Unidad inicial, contando reservas; +500 PV; si ambos se rompen, como mucho victoria ajustada; tope de 12 rondas por seguridad). Antes el punto de ruptura se aplicaba siempre; ahora solo en ese modo (Odo Todmeyer lo usa por defecto). Composición de ejército: Guerra abierta, Gran Refriega (25 % por unidad, límite de Magos de nivel 3/4) y Armas Combinadas (0-3 personajes, 0-4 Básicas, 0-3 Especiales, 0-2 Singulares).
+
+v115: Hechizos que faltaban del reglamento: Invocar Espíritu Elemental (Elementalismo: vórtice de 3" que permanece, se mueve D6" al azar cada inicio de turno, terreno peligroso sin línea de visión, D3+3 impactos F4 FP−1), Dragón Reluciente (Ilusionismo: personaje amigo con Vuelo 10 este turno), Columna de Cristal (Ilusionismo: plantilla de 5" infranqueable y sin visión, colocada a ≤9" entre el lanzador y el objetivo) y Convocación Confusa (Ilusionismo: el objetivo queda sujeto a Estupidez mientras dure). Los efectos que Permanecen en juego terminan si muere el lanzador.
+Fichas de los nuevos ejércitos extraídas de los libros: rules/spec_beastmen.md, spec_chaos.md, spec_tombkings.md (Ravening Hordes) y spec_dwarfs.md, spec_highelves.md (Forces of Fantasy). Menú preparado para más ejércitos. Libros Legacy (Elfos Oscuros, Hombres Lagarto, Skaven, Condes Vampiro, Reyes Ogros, Enanos del Caos, Demonios) y Arcane Journals: el mod solo guarda enlaces; hace falta la carpeta Mods/PDF de TTS.
+
+v116: NUEVO EJÉRCITO Hombres Bestia (Ravening Hordes, rules/spec_beastmen.md). Unidades: Señor de las Bestias, Wargor (PEB), Gran Chamán Bray (N3), Chamán Bray (N1), Toro de la Perdición, Gorebull, Gors (escudos / dos armas), Ungors (escudos / arcos cortos), Perros del Caos, Bestigors, Minotauros (armas de mano / a dos manos), Centigors, Arpías, Ogros Dragón, Ghorgon. Reglas: Furia primigenia (chequeo al elegir el combate, repite 1 al impactar), Rabia de sangre (doble natural → Frenesí), Avidez de sangre (+2 A con Frenesí), Marca del Caos Indiviso (repite Miedo/Pánico/Terror), Desgarrador de enemigos, Toro-gors (impactos de carga FP−1, por modelo), Carga bestial, Mirada de los Dioses (botón en la fase de estrategia; la IA también la usa), Borrachos (Centigors), Ataques envenenados (genérico). Lore de las Bestias (Marea Vil, Involucionar, Manto de Ghorok; sustituye un hechizo de Elementalismo). Objetos: Corazón Oscuro, Cuerno de la Primera Bestia, Piel del Joven Oscuro y estandartes de la Indignación, Tótem Vitriólico y Perdición del Hombre. Miniaturas reales: Señor de las Bestias, Wargor, Gran Chamán, Toro de la Perdición, Ogros Dragón, Ghorgon; el resto con figuras procedurales con cuernos.
+Pendiente Hombres Bestia: carros (Tuskgor/Razorgor), Razorgors, Shaggoth, Jabberslythe, Cockatrice, Cygor, Gigante, Mutaciones del Caos, Emboscadores, Lores de Demonología y Magia Oscura, Engullir del Ghorgon, resto de objetos.
+
+v117: NUEVO EJÉRCITO Guerreros del Caos (Ravening Hordes, rules/spec_chaos.md). Unidades: Señor del Caos (a pie / en corcel), Campeón Exaltado, Campeón Aspirante (PEB), Señor Hechicero (N3), Hechicero Exaltado (N1), Príncipe Demonio, Guerreros del Caos (escudos / alabardas / armas a dos manos), Bárbaros (escudos / armas a dos manos), Desamparados, Caballeros del Caos (con y sin lanzas), Jinetes Bárbaros, Perros del Caos, Elegidos, Caballeros Elegidos, Ogros del Caos, Trolls del Caos y Ogros Dragón (lista de Hombres Bestia). Marcas del Caos elegibles en el editor con su coste (Indivisa: repite Miedo/Pánico/Terror; Khorne: Frenesí; Nurgle: el atacante repite los 6 al impactar; Slaanesh: +1 I en la primera ronda e inmune al pánico; Tzeentch: ataques flamígeros y RM −1; los Hechiceros no pueden tener la de Khorne). Reglas: Armadura del Caos (salvación especial), Armas hechizadas (FP −1 y mágicas con arma de mano sencilla), Mirada de los Dioses, Mutación desenfrenada y Ataques D3 (Desamparados), Inestable, Carga de ogro. Lore del Caos (Vientos del Caos, Fuego Azul, Aquiescencia, Abundancia Carnosa) según la marca del hechicero. Miniaturas reales del mod para casi todas las unidades.
+Pendiente Guerreros del Caos: Dones del Caos, objetos propios, carros, Quimera, Cañón Infernal, Mantícora/Dragón, Gigante, Shaggoth, vómito de troll, Daemonología y Magia Oscura.
+
+v118: NUEVO EJÉRCITO Reyes Funerarios (Ravening Hordes, rules/spec_tombkings.md). Unidades: Rey Funerario, Príncipe Funerario, Heraldo Real (PEB: Estandarte del Rey reduce Inestable en D3), Sumo Sacerdote (N3) y Sacerdote Funerario (N1), Guerreros Esqueleto (escudos / lanzas), Arqueros Esqueleto, Jinetes Esqueleto, Arqueros a caballo, Guardia de la Tumba (escudos / alabardas), Ushabti (hojas rituales / grandes arcos), Caballeros de la Necrópolis, Carroñeros. Reglas: No muertos de Nehekhara (Miedo, Inmunes, Inquebrantables, Inestables, no marchan; solo se unen entre No muertos), Indómito (1/2), Khopesh, Golpe hendiente, Flechas de Asaph, regeneración, Hágase mi voluntad (automático), ¡Levantaos! (los sacerdotes resucitan Heridas y modelos), Hierofante (si muere: sin Regeneración y desmoronamiento por chequeo de Liderazgo). Lore de Nehekhara (Hojas Malditas de Djaf, Desecación de Usekhp, Viento del Desierto de Khsar). Miniatura real: Guerreros Esqueleto (los demás paquetes del mod están vacíos o sin textura).
+Pendiente Reyes Funerarios: carros, Esfinge de guerra, Escorpión, Coloso, Necroesfinge, Catapulta de Cráneos, Ataúd de Almas, Necrotecto, Enjambres, Escaramuzadores, Acechadores, Maldición de la Necrópolis, Seco como el polvo, Nigromancia, objetos.
+
+v119 — Enanos (Forces of Fantasy, Dwarfen Mountain Holds)
+- Nuevo ejército: Rey, Thane (Portaestandarte de batalla), Señor de las Runas, Herrero Rúnico, Matademonios, Matadragones, Ingeniero; Guerreros (escudo / armas a dos manos), Ballesteros, Atronadores, Barbaslargas, Martilladores, Rompehierros, Matatrolls (y con dos hachas), Mineros, Girocóptero, Lanzavirotes, Lanzapiedras, Cañón, Montaraces, Dracohierros, Cañón Órgano y Cañón Lanzallamas. Listas 500/1000/1500 validadas.
+- Reglas: Odio (Orcos y Goblins), Resolutos, Armadura y Armas de gromril, Rencor ancestral, Hecho por enanos, Fuego de forja, Último golpe, Matador/Matademonios/Matadragones, Defensores estoicos, Venerables, Veteranos, Runas de protección/resguardo, Maestro artillero, Atrincheramiento, "¡Atrás, jefe!", Exploradores, Emboscadores (reservas, 4+ desde la ronda 2), Bombardeo en picado, arma de aliento y Columna de fuego (plantilla de llama), Multicañón; Saber rúnico (dispersan como Mago de nivel 1/2).
+- Runas (p.33-39): 47 runas de arma, armadura, talismán, estandarte e ingeniería; Regla de Tres, de la Forma, del Orgullo, de los Celos y de Duplicación (*). Los Enanos no pueden usar objetos del Core. Límites por entrada.
+- Arreglos generales: Inmune a Heridas múltiples (p.ej. Relicario de Sirienne) ahora funciona en personajes; los Magos unidos a una unidad ya pueden dispersar.
+- Figuras 3D: mallas reales del mod para Guerreros, Ballesteros, Atronadores, Dracohierros, Mineros, Montaraces, Barbaslargas, Rey, Thane, Herrero Rúnico, Matadores, Girocóptero, Lanzapiedras y Cañón Órgano; el resto, figuras enanas procedurales.
+- Pendiente Enanos: Yunque del Destino, Girobombardero, Escoltas de escudo/Piedra de juramento, opciones de equipo por modelo (pistolas, torpedo, bombas), Runa Maestra de Calma y de Vuelo, Runa Maestra de Inmolación, varias runas por estandarte, runas de campeón.
+
+v120 — Altos Elfos (Forces of Fantasy, High Elf Realms)
+- Nuevo ejército: Príncipe (a pie y en corcel élfico con lanza), Noble (Portaestandarte de batalla), Archimago, Mago, Doncella de la Reina Eterna; Lanceros, Arqueros, Guardia del Mar de Lothern, Jinetes de Ellyrion (lanzas o arcos cortos), Yelmos Plateados, Leones Blancos, Maestros de la Espada, Guardia del Fénix, Guerreros Sombríos, Príncipes Dragón, Hermanas de Avelorn, Gran Águila y Lanzavirotes Garra de Águila (virote o ráfaga D3+3). Listas 500/1000/1500 validadas y límites 0-1/0-2 por 1.000 pts.
+- Reglas: Valor de las eras, Armas de ithilmar, Reflejos élficos, Destreza marcial, Capa de león, Desviar disparos, Testigos del destino, Bendiciones de Asuryan, Armadura de dragón, Golpe hendiente, Bendición de Lileath, Flechas de Isha.
+- Magia: Lore de Alta Magia completo (Drenar Magia, Caminar entre Mundos, Convocatoria Ígnea, Tempestad, Deshacer Corpóreo, Furia de Khaine, Escudo de Saphery) y Lore de Saphery (Mano de Khaine, Coraje de Aenarion, Deshacer de Vaul).
+- 16 objetos mágicos de los Altos Elfos (Espada Blanca, Hoja del Oro Saltarín, Perdición del Enemigo, Armadura de Caledor, Yelmo Dragón, Capa del Maestro del Saber, Amuleto de Ópalo, Capa de Barbas, Semilla del Renacimiento, Piedra Nula, Sello de Asuryan, Varita Plateada y cuatro estandartes).
+- Mallas reales del mod: Archimago, Lanceros, Arqueros, Leones Blancos, Guardia del Fénix, Guerreros Sombríos, Hermanas, Jinetes de Ellyrion, Príncipes Dragón, Gran Águila y Lanzavirotes (las del Príncipe, Noble, Doncella, Maestros de la Espada y Yelmos Plateados del mod son solo peanas o estandartes: figura procedural).
+- Pendiente Altos Elfos: Honores élficos, monturas monstruosas (Grifo, Dragones, Fénix), Mago Dragón, carros (Tiranoc, León, Skycutter), Fénix como unidad, Disciplina naval, Hoja de cazador (Arco del Segador), Cristal Anuliano, Cuerno de Isha, destacamentos.
+
+v121 — Carros (Core p.194-195)
+- Nuevos tipos de tropa: Carro ligero (3 por fila, rango +1, FU 3) y Carro pesado (FU 5). Perfil dividido (tripulación y bestias con sus propios ataques; impactos de carga con la F del carro), Ruedas herradas (el terreno difícil es peligroso y un 1 cuesta D3 Heridas), Plataforma de tiro (disparo en 360°), Ruedas que arrollan (no se unen personajes), Hojas de las ruedas en carros pesados (impactos FP −2).
+- Carros añadidos: Carro de Tiranoc (1-4) y Carro de Leones de Chrace (Altos Elfos), Carros Esqueleto (Reyes Funerarios), Carro del Caos y Carro de Bestia Sangrienta (Guerreros del Caos, con Marcas), Carro de Tuskgors y de Razorgor (Hombres Bestia).
+- Los impactos de carga con varios modelos se tiran por separado para cada modelo.
+- Malla real del mod para el Carro de Bestia Sangrienta; el resto de carros del mod solo tienen peana o lanzas, así que usan figura procedural (caja, ruedas, bestias de tiro y tripulación).
+- Pendiente: carros como montura de personaje; Carros de jabalíes y de lobos (Orcos y Goblins).
+
+v122 — Monstruos y monturas monstruosas (Core p.198-204)
+- Tipos de tropa Criatura monstruosa y Behemot (Fuerza de unidad = Heridas iniciales). Monstruos montados: perfil dividido (impactos contra la HA del jinete, la montura ataca con su F y FP), R y H mejoradas por la montura, la mejor armadura, no se unen a unidades. Pisotón con su número propio (D3, D6, D3+2...) y Pisotón atronador de los behemots (FP −2, nunca contra monstruos).
+- Altos Elfos: Príncipe en Grifo, Príncipe en Dragón Lunar, Archimago en Dragón Lunar, Mago Dragón (Dragón Solar), Fénix Flamígero (Estela de fuego, De las cenizas) y Fénix Corazón Helado (Aura de ventisca). Límites 0-1 por 1.000 pts.
+- Guerreros del Caos: Señor del Caos en Mantícora (Bestia obstinada) o en Dragón del Caos (aliento mágico), Señor Hechicero en Mantícora, Quimera.
+- Reyes Funerarios: Esfinge de Guerra (0-2/1.000), Escorpión de la Tumba (0-3/1.000), Coloso Necrolito, Necroesfinge.
+- Hombres Bestia: Shaggoth Ogro Dragón, Jabberslythe (Aura enloquecedora, Sangre de bilis, lengua), Cocatriz (Mirada petrificante contra la Iniciativa, Mirada pétrea), Cygor (lanza rocas; la Avería le cuesta una Herida).
+- Mallas reales del mod: Dragón (también para el Dragón Lunar y el Dragón del Caos), Fénix Flamígero y Corazón Helado, Mantícora, Quimera, Shaggoth y Cygor; los demás monstruos usan figura procedural.
+- Pendiente: Gigante del Caos (tabla de ataques de gigante), Llamada de la tormenta del Shaggoth, Devoralmas del Cygor, Quickening, Cola venenosa, Hálito de vapores del Dragón del Caos, Dragones Solar/Estelar como montura de Príncipe, Esfinge como montura.
+
+v123 — Honores élficos y personajes en carro
+- Honores élficos (FoF p.179-180) en el editor de objetos de Príncipes, Nobles, Archimagos y Magos (uno por personaje, no cuentan para el límite de objetos mágicos): Maestro del Saber (Mago de nivel 1 con hechizo al azar, Lileath, Saphery; solo Señores a pie), Ungido de Asuryan, Sangre de Caledor (+1 HA, Armadura de dragón, Impetuoso; solo montado), Cazador de Chrace, Guardián de Saphery, Puro de Corazón (Liderazgo en su alcance de mando, inmune a Pánico) y Guardia del Mar.
+- Personajes en carro (Core p.205: Heridas del personaje + carro, impactos de carga del carro): Príncipe en Carro de Tiranoc, Rey Funerario en Carro Esqueleto, Señor del Caos en Carro del Caos, Señor de las Bestias en Carro de Tuskgors.
+- Pendiente: Acechador de las Sombras (incompatible con la armadura pesada de los perfiles actuales), restricciones de unión de los Honores (Leones Blancos, Maestros de la Espada, Príncipes Dragón, Guerreros Sombríos), Disciplina naval.
+
+v124 — Yunque del Destino, Girobombardero, Escoltas de escudo, Piedra de juramento, Gigante del Caos
+- Enanos: Yunque del Destino (Golpear las runas: Runa de Juramento y Acero, de Hogar y Patria y de Ira y Ruina como hechizos ligados de Nivel de poder 3; dispersa como Mago de nivel 3; Escudo ancestral 5+; Resistencia mágica (−3); Objeto inamovible). Girobombardero con la tabla de Bombardeo. Rey con Escoltas de escudo (+3 Heridas, 3 ataques F4). Piedra de juramento (+15) para Rey, Thane y Herreros rúnicos: inmune a Pánico y sin huida como reacción.
+- Resistencia mágica (−3) generalizada.
+- Hombres Bestia: Gigante del Caos con Ataques de gigante (cabezazo, panzazo, gran barrido, garrotazo, saltar) y Agarrar y… contra infantería, Pisotón D6.
+- Mallas reales del mod: Yunque del Destino, Girobombardero y Rey con Escoltas de escudo.
+- Pendiente Enanos: Runa de Prisa y Urgencia (movimiento extra tras mover: no aplicable con la magia en la fase de estrategia), Runas Maestras de Calma, Vuelo e Inmolación, opciones de equipo por modelo.
+
+v125 — Objetos propios, Mutaciones y Dones del Caos
+- Hombres Bestia: Garrote Primigenio, Hacha de los Hombres, Mangelder, Placa Ennegrecida, Runa de la Verdadera Bestia, Piel de Hombre, Tótem del Óxido; las 9 Mutaciones del Caos (hasta 50 pts, fuera del límite de objetos, cada una una vez por ejército).
+- Guerreros del Caos: Espada Demoníaca, Espada Rúnica, Maza de la Inmundicia, Espada Robahechizos, Armadura de los Condenados, Armadura Carmesí de Dargan, Corona de la Conquista Eterna, Collar de Bronce, Estandarte de la Furia, Tótem de la Perdición, Estandarte Calcinado, Colgante de la Condenación, Yelmo de los Muchos Ojos, Cráneo de Katam, Familiar de hechizos; 8 Dones del Caos (hasta 50 pts, una vez por ejército).
+- Reyes Funerarios: Destructor de Eternidades, Cayado y Mayal del Resplandor (Monarcas), Mayal de Calaveras, Báculo Serpiente (Sacerdotes), Armadura de las Eras, Escudo de Ptra, Icono del Ojo Sagrado, Estandarte Espejismo, Icono del Gobierno (carros), Máscara Mortuoria de Kharnutt.
+- Pendiente (efectos con temporización especial): Lanza del Cazador, Piedra del Rencor, Cáliz de la Plaga, Fetiche del Árbol Bruja, Daga Dentada, Majestad oscura, Favor de los Dioses, Estandarte de los Dioses, Infernal Puppet, Corona de Reyes, Collar de Shapesh, Estandarte de la Palabra Maldita (texto no disponible en los libros subidos), Kanopi de Enkhil, Vasija Hierática, Broche del Escarabajo; efectos secundarios de Espada Robahechizos, Maza de la Inmundicia, Hacha de los Hombres y Mangelder.
+
+v126 — Reyes Funerarios completos
+- Nuevas unidades: Necrotecto (Capataz eterno: +1 Ataque y Odio), Escaramuzadores Esqueleto, Enjambres de la Tumba (nuevo tipo de tropa Enjambre, FU 3), Acechadores Sepulcrales, Catapulta de Calaveras Gritonas (flamígera y mágica; Pánico al recibir heridas), Ataúd de las Almas (hechizos ligados Luz de la Muerte y Luz de la Protección, Pacto de poder, Espíritus desatados, inamovible). Límites 0-2 catapultas y 0-1 Ataúd por 1.000 pts.
+- Reglas: Secos como el polvo (herida extra con 4+ por fuego), Maldición de la Necrópolis (Reyes, Príncipes y Sacerdotes).
+- Lore de Nigromancia (Core p.332-333) para los Sacerdotes funerarios: Moradores de Abajo, Cábala Mortal, Espíritus Inquietos, Vórtice Espiritual, Maldición de los Años, Corcel Espectral, Sanguijuela Espiritual.
+- Malla real del mod: Enjambres de la Tumba.
+- Pendiente: Desde Debajo de las Arenas (invocar Emboscadores), Falange de Nehekhara, Mirada petrificante de los Acechadores, Protector juramentado, Estandarte del Rey, Hierofante (selección manual), Necroserpiente/Dragón Óseo como monturas.
+
+v127 — Orcos y Goblins (Ravening Hordes)
+- Nuevos personajes: Jefe de Guerra Goblin, Jefe de Guerra y Gran Jefe Goblin Nocturno (Odio a los Enanos), Chamanes Goblin de nivel 3 y 1 (Lore de Mork: Maldición de Mork, Picor Molesto), Jefe de Guerra Orco en Wyvern. Los Chamanes Orcos usan el Lore de Gork (Revientasesos, Mirada de Gork).
+- Nuevas unidades: Snotlings, Jinetes de Araña, Manada de Garrapatos (Garrapatos descontrolados al huir), Saltagarrapatos, Trolls de Río y de Piedra, Carro de Jabalíes Orco, Carros de Lobos Goblin, Carro Bomba Snotling, Araña Arachnarok, Garrapato Destrozón (ataques aleatorios D6), Gigante (Ataques de gigante / Agarrar y…), Catapulta de Goblins Voladores (corrige el desvío D3").
+- Vómito de troll para todos los trolls. Límites de composición: 0-1 Jefe de Guerra/Weirdnob, 0-2 Lanzavirotes, 0-1 Lanzapiedras y 0-1 Catapulta por 1.000 pts; garrapatos según los jefes goblin nocturnos.
+- Mallas reales del mod: Trolls de Río (también para los de Piedra) y Garrapatos.
+- Pendiente: Fanáticos y Merodeadores ocultos, Redes, Movimiento aleatorio (Saltagarrapatos, Carro Bomba, Destrozón), Pintura de guerra, Grandotes, Big Stabbas, Bully orco, Troll Hag y Lore de la Magia Troll (Arcane Journal), objetos mágicos propios de Orcos y Goblins.
+
+v128 — Fanáticos, Bruja Troll, Magia Troll y objetos del Arcane Journal
+- Goblins Nocturnos con 2 Fanáticos (+50): al inicio del turno, si hay enemigos a 8", los Fanáticos salen y giran 2D6" (D6 impactos F5 FP −3 a cada unidad que atraviesan, amiga o enemiga); en los turnos siguientes se mueven 2D6" al azar y se estrellan con un doble, contra terreno o el borde. Se dibujan en 2D y 3D.
+- Bruja Troll (Arcane Journal): Maga de nivel 1 con Magia de Batalla o Magia Troll; Lore de la Magia Troll (Gran Listeza, Bilis Ácida, Sesos de Troll, Remolino Fétido, Torrente de Inmundicia, Regeneración Rápida). Los Lores pueden restringirse por personaje.
+- 16 objetos del Arcane Journal de Orcos y Goblins (Hacha Más Grande, Machacador de Martog, Da Akrit Axe, Hoja del Apuñalaespaldas, Armadura Dead 'Ard, Escudo Rencoroso, Buscamagos Brillante, Efigie de Mork, Collar de Dientes, Percha de Trofeos, Sombrero de Orco Pensador, Bastón de Baduumm, Ídolo de Gork y tres estandartes).
+- Pendiente: Merodeadores ocultos, Redes, Pintura de guerra, Grandotes, Big Stabbas, Bully, movimiento aleatorio, Ejércitos de Infamia (Waaagh! Nómada, Horda Troll), personajes con nombre.
+
+v129 — Imperio y Bretonia ampliados
+- Imperio: Gran Maestre y Maestre de Capítulo (Maestro de batalla), General en Grifo, Cazador de Brujas (La Bruja), Lector y Sacerdote de Sigmar (Plegarias: Martillo de Sigmar, Escudo de la Fe, Fuego del Alma), Sacerdote de Ulric (Ira del Invierno, Frío Invernal), Lector en Altar de Guerra (Fervor sagrado, Perdición de brujos, Terror), Ingeniero (Maestro de balística, Nubes de hollín); Tropas Estatales Veteranas, Milicia de la Compañía Libre, Arqueros, Flagelantes (No sienten dolor, mayales), Pistoleros, Batidores, Círculo Interior, Caballeros Demigrifo, Tanque de Vapor (cañón de vapor, no marcha), Mortero (plantilla de 5"), Helblaster (tres dados de artillería) y Helstorm (D3 cohetes). Límites de composición del libro.
+- Bretonia: Duque en Hipogrifo, Barón en Pegaso Real, Sargento de Armas (Deber del campesino), Caballeros del Reino a pie, Jinetes Terratenientes; 8 Virtudes caballerescas (una de cada por ejército, fuera del límite de objetos).
+- Mallas reales del mod: General en Grifo, Caballeros del Reino a pie, Arqueros e Ingeniero.
+- Pendiente: Escudo de la Fe por elección, Batalla de Aullido, Potencia de vapor / Temperamental del Tanque, Pegaso/Demigrifo como montura de personaje, Reliquia del Grial, estacas y braseros de los Arqueros campesinos, Bombarda de los Príncipes Fronterizos, resto de Virtudes.
+
+v130 — Elfos Silvanos ampliados (Forces of Fantasy + Arcane Journal; resumen en rules/spec_woodelves.md)
+- Personajes: Señor del Claro en Gran Ciervo, en Dragón Forestal (aliento soporífero sin salvación por armadura) y en Gran Águila; Capitán en Gran Ciervo y en Halcón de Guerra; Tejedor y Cantor de Hechizos en Unicornio (Aura cautivadora); Danzante de las Sombras (Lanza de Loec, o mago de nivel 1 con Hojas del Embaucador); Acechador del Sendero; Araloth (Skaryn el Ladrón de Ojos, El más audaz) y Orión (Capa de Isha, Cuerno de la Cacería Salvaje; sus dos Sabuesos se suman a su perfil).
+- Unidades: Exploradores del Bosque Profundo, Vigías del Sendero (una unidad por Acechador), Hermanas de la Espina (especial 4+, jabalinas envenenadas) y Gran Águila (0-3 por 1.000).
+- La Flecha de Kurnous (Señores y Capitanes) antes del primer turno. Arco asrai con la Fuerza del portador. Hombres Árbol: raíces estranguladoras D6+1 disparos. Dríadas Tozudas.
+- Magia: los magos eligen Batalla, Elementalismo, Alta Magia o Ilusionismo (Anciano: Batalla o Elementalismo; Hechicera Rama: además Ilusionismo) y cambian un hechizo por uno de Athel Loren. Lore de los Salvajes solo con el Colgante de Duramen.
+- Duendes del Bosque (7, presupuesto aparte: 50 personajes, 100 Anciano, 50 Hombre Árbol, 25 Ninfa/Anciano de los Parientes; uno de cada por ejército). Linajes (8; uno por Noble o Mago, con sus restricciones).
+- Objetos del Arcane Journal: Ira de Vaul, Segadora de Daith, Hojas de Llama Eterna, Manto del Renacer, Favor de Ariel, Favor de Orión, Estandarte del Rey Cazador, Estandarte de la Primavera, Flecha de la Fatalidad, Flecha Gemebunda, Flechas de Plaga, Corona de Astas, Orbe del Solsticio, Sello de la Reina Maga y Colgante de Duramen.
+- Límites del libro: 0-1 Señor o Tejedor y 0-1 Anciano por 1.000 pts, Guardia del Claro obligatoria, 0-2 Parientes del Árbol y 0-3 Grandes Águilas por 1.000.
+- Mallas reales del mod: Señor en Dragón Forestal, Señor y Capitán en Gran Ciervo, Gran Águila, Vigías, Acechador, Danzante de las Sombras y Hermanas de la Espina.
+- Pendiente: Aquelarre de las Hermanas (hechizo atado), Ojo de halcón contra personajes dentro de unidades, Manadas de Bestias, Guardián y Guardianes de Talsyn, Ejércitos de Infamia (Cacería Salvaje de Orión, Hueste de Talsyn), Estandarte del Frío Matinal, Piedra Lunar, Capa de Hojas, Exploradores como básicas.
+
+v131 — Elfos Silvanos: Ejércitos de Infamia, Manadas de Bestias y Talsyn
+- Selector de lista en el editor del ejército: Gran Ejército, Cacería Salvaje de Orión u Hueste de Talsyn (cambia qué unidades hay, su categoría y los límites; Talsyn admite 33 % de Raras). Se guarda y viaja con la partida.
+- Cacería Salvaje: Digno de Kurnous (se elige como presa el personaje o monstruo enemigo más caro; repetir los 1 para impactar en combate contra él y +100 PV si muere o huye).
+- Hueste de Talsyn: Enemigos ancestrales (Odio a los Hombres Bestia), En sintonía con la naturaleza (Lore de los Salvajes para magos, Ancianos y Hechiceras Rama), Protectores del Bosque Antiguo (en un elemento especial repiten los 1 al impactar y herir).
+- Nuevas unidades: Guardián de Talsyn y Guardianes de Talsyn (Parada: +1 armadura en combate con escudo; Coraje sin par), Manadas de Bestias (Sabuesos, Felinos, Jabalíes y Osos de Loren; los Cuidadores se pagan aparte: uno por cada 3 bestias o por oso).
+- Aquelarre de las Hermanas de la Espina: Bola de Fuego como hechizo atado (Nivel de Poder 0/1/2 según Doncella y estandarte).
+- Ojo de halcón: el Acechador dispara a un personaje dentro de una unidad.
+- Exploradores del Bosque Profundo como básicas (0-1 por 1.000; uno en Talsyn).
+- Capa de Hojas Arremolinadas (Vuelo 10, no se une a unidades).
+- Pendiente: los Cuidadores no combaten por separado (solo se pagan), Espíritu de Kurnous y Jefes del Rey Cazador (mejoras de pago), Bosque Despertado (Emboscadores), repetición de 1 al disparar contra la presa, Estandarte del Frío Matinal y Piedra Lunar.
+
+v132 — Enanos y Altos Elfos: lo que faltaba
+- Enanos: Runa Maestra del Vuelo (el arma se lanza a 12"), Runa Maestra de la Calma (hechizo atado al inicio del turno: +2 al lanzamiento de los magos enemigos a 18"/36"), Runa del Miedo (estandarte) y Runa Maestra de Inmolación (solo cañones: estalla al caer en combate).
+- Altos Elfos: Príncipe y Archimago en Dragón Estelar, Noble y Mago en Gran Águila, Noble en Grifo, Cortacielos de Lothern (con o sin lanzavirotes ojo de águila). Honor Acechador Sombrío.
+- Restricciones de unión del libro: Leones Blancos (General o Cazador de Chrace), Maestros de la Espada (Guardián de Saphery o Maestro del Saber), Guerreros Sombríos (Acechador Sombrío) y Príncipes Dragón (General o Sangre de Caledor).
+- Disciplina naval (Guardia del Mar y Honor Guardia del Mar): aguantan y disparan aunque el enemigo cargue desde muy cerca. Guardia del Mar a 11 pts como en el libro.
+- Mallas reales del mod: Dragón Estelar (Príncipe y Archimago) y Cortacielos.
+- Pendiente: Runa de Prisa y Urgencia del Yunque (se lanza tras mover; el motor resuelve los hechizos en la fase de estrategia), dispersión de la Runa de la Calma, Dragón Solar con Sangre de Caledor, reorganización gratuita tras la Disciplina naval.
+
+v133 — Reyes Funerarios y monstruos: lo que faltaba
+- Reyes Funerarios: Rey y Sumo Sacerdote en Dragón de Hueso Necrolito (Vuelo 9, aliento de desecación F3 FP −2 mágico, Heridas múltiples 2, Nube de polvo: −1 para dispararle). Mirada petrificante de los Acechadores Sepulcrales (18", F2 contra la Iniciativa, sin armadura, Heridas múltiples D3). Falange nehekharita (Guerreros y Guardia de la Tumba, 0-1 por 1.000: con escudos no ceden terreno salvo que el enemigo los doble en FU). Enjambres y Acechadores con Emboscadores, y Desde las arenas: los Sacerdotes Funerarios los invocan con un chequeo de Liderazgo a 12" (no a 6" del enemigo).
+- Altos Elfos: Príncipe y Noble de Caledor en Dragón Solar (Sangre de Caledor incluida). Aliento del Dragón Estelar corregido a F4.
+- Shaggoth: Llamada de la Tormenta (hechizo atado, incluso trabado). Shaggoth y Ogros Dragón: Tormenta vivificante (especial 5+ contra proyectiles mágicos; +1 I y +1 A si la tormenta los alcanza).
+- Cygor: Vista fantasmal (repite fallos al impactar contra magos, objetos mágicos, especiales y regeneración) y Devoraalmas (Desastre para magos cercanos que pierden los nervios y fallan).
+- Dragón del Caos: Dragón bicéfalo, elige Fuego Oscuro (F4 FP −1) o Humos de Contagio (F2 sin armadura) según el blanco.
+- Pendiente: Protector jurado del Heraldo, mallas de Dragón de Hueso y Dragón Solar con jinete (no están en los archivos subidos), dispersar la Llamada de la Tormenta.
+
+v134 — Orcos y Goblins, y Bretonia: lo que faltaba
+- Movimiento aleatorio (Core p.176) para Saltadores Garrapato (3D6), Carros de Bombeo (2D6) y Garrapato Triturador (3D6): se mueven solos al empezar la fase de movimiento hacia el enemigo y, si llegan, cuentan como carga; no marchan ni declaran cargas.
+- Nuevas opciones orcas: Orcos y Jinetes de Jabalí Grandotes (Big 'Uns: +1 F y Perforante 1 en combate), Orcos Frenéticos con Pintura de guerra y Grandes Pinchos (Impactos de carga D3), Goblins con Merodeadores Rastreros (aparecen en su primer combate), Goblins Nocturnos con Redes (−1 F al enemigo; con un 1, a ellos). Los Goblins Nocturnos odian a los Enanos.
+- Ejércitos de Infamia orcos en el selector de lista: ¡Waaagh! Nómada (solo personajes montados, lobos y jabalíes; Golpéalos rápido: los Jinetes de Jabalí ganan Impactos de carga) y Horda Troll (33 % de básicas, Trolls como básicas, Regeneración mejorada contra heridas no mágicas, ¡Oi! ¡Por aquí! y Lengua Troll).
+- Bretonia: Virtudes de Audacia, Deber, Noble Desdén y Disciplina; Arqueros Campesinos con braseros (flechas flamígeras) o con estacas (carga desordenada y terreno peligroso para la caballería); Peregrinos con Reliquia del Grial (cuentan como estandarte y músico; Inmunes a psicología e Inquebrantables cerca de un Voto del Grial).
+- Pendiente: Matón orco para máquinas, personajes con nombre orcos, Cazadores astutos (Emboscadores de los lobos), Virtudes de Confianza y Empatía (no hay desafíos en el motor), Pegaso y Demigrifo como montura de personaje, Bombarda, Aullido de batalla, Potencia de vapor del Tanque.
+
+v135 — Imperio: Tanque de Vapor, Aullido de batalla y monturas voladoras
+- Tanque de Vapor: Potencia de vapor (suma el mayor de 2D6 a su Movimiento al empezar el movimiento) y Temperamental (con un 1 natural, ¡Bang! pierde una Herida o ¡Phweee! se detiene; con doble 1, ambas; también en la tirada de carga).
+- Sacerdote de Ulric: Aullido de batalla (+D3 a la carga de su unidad y de otra unidad amiga en su alcance de mando), elegido cuando el enemigo está a distancia de carga.
+- Nuevos personajes: General y Capitán del Imperio en Pegaso o en Demigrifo, y Señor de la Magia en Pegaso.
+- Orcos: Jinetes de Lobo Emboscadores (Cazadores astutos, solo en ¡Waaagh! Nómada).
+- Pendiente: desafíos (regla básica del reglamento que el motor aún no tiene; afecta a Confianza, Fastidio de Redecillas y otras reglas), Matón orco, Protector jurado, Virtud de Empatía, personajes con nombre orcos, Bombarda.
+
+v136 — Desafíos (Core p.210-211)
+- Al elegir cada combate, el jugador activo y luego el inactivo pueden lanzar un desafío con un personaje (unido o solo) o un campeón; el rival acepta con uno de los suyos o lo rechaza, y entonces el que desafía elige a un personaje que se retira a la retaguardia (no ataca, no puede ser atacado y no presta su Liderazgo mientras siga trabado con esa unidad). No se puede rechazar si el personaje está solo o es el último modelo.
+- Los duelistas solo se atacan entre sí (también las monturas); la tropa no puede atacar a un duelista. El duelo continúa en turnos siguientes hasta que uno muera. Exceso de muertes: +1 a la resolución por herida sobrante, hasta +5. Un campeón que muere en el desafío se pierde.
+- Panel de la unidad: «Desafíos: Automáticos / Siempre / Nunca» (la IA decide según la fuerza de los duelistas).
+- Usan los desafíos: Virtud de la Confianza (nueva: debe desafiar y repite fallos al impactar en desafío), Fastidio de Redecillas (−1 para impactar solo en desafío), Aspecto del Gato (repite fallos en desafío). Nueva Virtud de la Empatía: los caballeros con voto solo se unen a Campesinos si la tienen.
+- La IA ya no une personajes a unidades que el libro prohíbe (Altos Elfos, Espíritus arbóreos, etc.).
+- Pendiente: Matón orco, Protector jurado, personajes con nombre orcos, Bombarda.
+
+v137 — Matón orco, Protector jurado y personajes con nombre orcos
+- Matón orco (+10 por máquina, botón «Matón» en el editor): las máquinas goblin amigas a 7" usan su Liderazgo 7.
+- Protector jurado del Heraldo Real: los impactos dirigidos a un Monarca a 3" (o en su misma unidad) los recibe el Heraldo (la IA lo hace mientras le quede más de 1 Herida).
+- Kiknik Toofsnatcha (Arcane Journal): Jefe goblin sobre el lobo Chompa, Emboscador, Rompecráneos y Percha de Trofeos (al cargar: Miedo y +1 a la resolución).
+- Ogdruz Swampdigga (Arcane Journal): Weirdnob de nivel 3 (Elementalismo o Magia Troll), Llamador de Trolls, Fuerza absorbida (+1 a lanzar junto a Trolls), Chal de piel de troll (Regeneración 5+).
+- Pendiente: Bombarda y Ejércitos de Infamia de Bretonia (Exiliados, Cruzada), Carro de Jabalíes de Orcos Negros, Ogros de las Tierras Yermas y Gigante Trituradores (mercenarios, el motor aún no tiene esa categoría), elección del Rompecráneos (se usa el martillo), Golpea y huye de Kiknik, Protege al jefe de Ogdruz.
+
+v138 — Reglas básicas del reglamento (primera tanda del análisis rules/gaps_core.md)
+- Guerreros caídos (Core p.147): las bajas que sufre una unidad antes de atacar (por Iniciativa) se descuentan de su fila de combate y luego de los ataques de apoyo.
+- Personajes en combate (Core p.208): la tropa enemiga puede dirigir parte de sus ataques (su proporción de frente) contra un personaje unido; la IA lo hace contra Generales, Portaestandartes, magos o personajes muy heridos. El exceso no pasa a la unidad.
+- Los magos ya pueden unirse a unidades (Core p.207). Lanzan desde el panel de su unidad («Nombre: hechizo»), con alcance y visión desde la unidad; los hechizos que siguen en juego no se pierden por ir unido. La IA también une magos.
+- Terror (Core p.180): solo los que causan Terror son inmunes; quien no puede huir (trabado, frenético) no chequea; tras huir por Terror la carga continúa (puede alcanzar y aniquilar). Los que causan Miedo sí temen a quien causa Terror.
+- Vuelo (Core p.170): los voladores pasan por encima de unidades y terreno y marchan sin chequeo cerca del enemigo.
+- Disparos múltiples (Core p.174): pistolas, pistolas y arcabuces de repetición, raíces estranguladoras y la Garra de Halcón eligen entre X disparos con −1 o uno solo (se elige lo que más impactos espera).
+- Pendiente (ver rules/gaps_core.md): trayectoria y arco de carga, redirigir cargas y cargas múltiples, cobertura por modelos interpuestos, dispersar hechizos que siguen en juego, varios personajes por unidad, Cuidado señor, Fuerza de Unidad con personajes, ataques de apoyo y modelos fuera de contacto, persecución, obstáculos y edificios.
+
+v139 — Reglas básicas: cargas, visión, dispersar hechizos en juego
+- Arco de carga (Core p.120): el objetivo debe estar al menos en parte en los 90° proyectados desde las esquinas del frente (antes, ±81° desde el centro).
+- Movimiento de carga (Core p.122-129): la distancia necesaria es el recorrido real (avance más la rueda para encararse) y el camino debe estar libre de otras unidades y terreno impasable (los voladores pasan por encima); si está bloqueado, la carga falla.
+- Contra una unidad que huye y no se alcanza, el cargador avanza todo su alcance de carga (Core p.130).
+- Visión (Core p.103) con tres líneas hacia el frente del objetivo: basta una libre. Cobertura (Core p.139) también por unidades interpuestas: más de la mitad oculta = completa.
+- Dispersar hechizos que siguen en juego (Core p.110): al inicio de cada turno el jugador activo intenta dispersar los efectos y vórtices enemigos (contra su valor mínimo de lanzamiento).
+- Fuerza de Unidad (Core p.106) incluye a los personajes unidos (Miedo, ruptura por número, control de objetivos).
+- Pendiente (rules/gaps_core.md): redirigir cargas y cargas contra varias unidades, varios personajes por unidad, Cuidado señor, modelos de la fila de combate sin contacto (1 ataque), persecución completa, obstáculos y edificios.
+
+v140 — Reglas básicas: varios personajes por unidad, personajes solitarios, ataques en la fila, persecución
+- Varios personajes pueden unirse a la misma unidad (Core p.207), nunca más que los soldados de su fila de combate (Demasiados personajes). En el panel hay un botón «Separar a…» por cada personaje.
+- Personajes solitarios (Core p.206): no se les puede disparar ni lanzar hechizos a 3" de una unidad amiga de 5+ modelos del mismo tipo (a pie/montado), salvo que sean el blanco más cercano (el Ojo de halcón lo ignora).
+- Fila de combate (Core p.147): los modelos que no tocan al enemigo (por ejemplo contra un monstruo estrecho) hacen 1 solo ataque.
+- Persecución (Core p.157-158): quien alcanza a una unidad que retrocedió en buen orden, o choca con una unidad enemiga nueva al perseguir, queda en contacto y cuenta como carga en el siguiente combate.
+- Pendiente (rules/gaps_core.md): ¡Cuidado, señor! con plantillas, redirigir cargas y cargas contra varias unidades, perseguidores que salen de la mesa, obstáculos y edificios, temporización de tipos de hechizo.
+
+v141 — Reglas básicas: correcciones menores del análisis (rules/gaps_core.md)
+- HP 6 o más (Core p.139): tras fallar, repiten el disparo a 12−HP+.
+- Disparo rápido: puede aguantar y disparar aunque el enemigo cargue desde muy cerca. Mover y disparar: dispara aunque haya marchado.
+- Miedo y Terror ya no pasan de un personaje unido a su unidad (Core p.168/180). Las unidades Inmunes a psicología no huyen como reacción a la carga.
+- Resistencia a la magia: se usa el valor más alto, no la suma (Core p.110).
+- Desastre mágico: con 2-6 el mago ya no queda sin poder lanzar más ese turno; solo los resultados del libro lo impiden.
+- Presencia inspiradora a 18" si el General es Objetivo grande. +1 de Orden de combate solo para Orden cerrado.
+- Al marchar solo se puede avanzar y virar (no ir hacia atrás ni de lado).
+- Hechizos (Core p.108): proyectiles y vórtices se lanzan en la fase de disparo y no si el mago (o su unidad) marchó o cargó; los hechizos sobre sí mismo se pueden lanzar estando trabado.
+- Huida (Core p.134): atravesar unidades enemigas al huir hace perder Heridas (D6 por modelo, 1-3); los escaramuzadores que huyen a través de unidades en formación no causan pánico.
+- Pendiente (rules/gaps_core.md): ¡Cuidado, señor! con plantillas, redirigir cargas y cargas contra varias unidades, muros y edificios, hechizos de traslado en la fase de movimiento, orden completo de la fase de movimiento, emboscadores por cualquier borde, Veterano/Banda en todos los chequeos.
+
+v142 — Reglas básicas: muros, ¡Cuidado, señor!, emboscadas y Veterano
+- Muros bajos (Core p.270-271): nuevo tipo de terreno en el generador aleatorio y en el editor («Muro bajo»). Cruzarlo es terreno difícil, da cobertura a quien está detrás y la carga contra una unidad que lo defiende es desordenada (salvo voladores).
+- ¡Cuidado, señor! (Core p.208): con plantillas (aliento, catapultas, morteros...), cada personaje unido a una unidad de 5+ modelos recibe un impacto con un 1.
+- Emboscadores (Core p.165): pueden entrar por cualquier borde de la mesa, no a 8" del enemigo (la IA también los usa).
+- Veterano (Core p.181): repite cualquier chequeo de Liderazgo fallado salvo el de ruptura (reagrupar, marchar, Terror, además de Pánico y Miedo).
+- Pendiente (rules/gaps_core.md): redirigir cargas y cargas contra varias unidades, edificios ocupables y visión desde colinas, hechizos de traslado en la fase de movimiento, orden completo de la fase de movimiento, Etéreo.
+
+v143 — Reglas básicas: redirigir cargas, posición elevada, fuego contra bestias
+- Redirigir la carga (Core p.130): si el objetivo huye y hay otra unidad enemiga más cercana en el arco frontal y a alcance, el cargador hace un chequeo de Liderazgo y, si lo supera, carga contra ella (que ya no puede aguantar y disparar).
+- Posición elevada (Core p.271): una unidad sobre una colina ve por encima de las unidades que no están en colinas, y se la ve por encima de ellas.
+- Ataques flamígeros (Core p.168): las bestias de guerra y los enjambres temen a quien tiene ataques flamígeros.
+- Pendiente (rules/gaps_core.md): cargas contra varias unidades a la vez, edificios ocupables, hechizos de traslado en la fase de movimiento, orden completo de la fase de movimiento, Etéreo.
+
+v144 — Hechizos de traslado y Runa de Prisa y Urgencia
+- Hechizos de traslado (Core p.108): se resuelven tras las cargas, así que la unidad o el personaje que los recibe ya no puede cargar ese turno (Dragón Reluciente, Corcel Espectral, Senda Mística, Caminante del Bosque).
+- Enanos: Runa de Prisa y Urgencia del Yunque del Destino (hechizo atado, 10+, 24"): la unidad amiga elegida puede volver a mover una vez después de su movimiento.
+- Pendiente: cargas contra varias unidades a la vez, edificios ocupables, Etéreo; por ejércitos: Ejércitos de Infamia de Bretonia y Bombarda, Carro de Jabalíes de Orcos Negros, mercenarios (Ogros de las Tierras Yermas, Gigante Trituradores), mejoras de pago de la Cacería Salvaje.
+
+v145 — Bretonia: Ejércitos de Infamia, Bombarda y Bandidos; Orcos Negros en carro
+- Selector de lista para Bretonia: Exiliados de Bretonia y Cruzada Errante (Arcane Journal), con sus unidades, categorías y porcentajes (Especiales 33 % y Raras 33 % en Exiliados; Básicas 33 % y Raras 33 % en la Cruzada) y sus mínimos.
+- Exiliados: Voto del Exiliado (Tozudos y Veteranos los caballeros con voto); Señores Desterrados: empiezan sin Bendiciones de la Dama y las recuperan al aniquilar a una unidad que huye. Nuevas unidades: Bombarda de los Príncipes Fronterizos (48", F8, FP −3, con su propia tabla de averías) y Bandidos (con dos armas o con trabucos de Disparos múltiples D3).
+- Cruzada Errante: Celo del Cruzado (+1 a la carga y al alcance máximo, Impetuosos), Voto del Cruzado (Veteranos) y Gánate las espuelas (los Caballeros Andantes repiten los 1 al impactar a 6" de un Voto del Grial, Duque o Barón).
+- Orcos: Carro de Jabalíes de Orcos Negros (Arcane Journal).
+- Pendiente: personajes con nombre de Bretonia (Sir Cecil Gastonne y otros), Mago Proscrito, Guardia de Terratenientes, objetos del Arcane Journal de Bretonia; mercenarios (categoría aún sin implementar).
+
+v146 — Bretonia: Arcane Journal (personajes con nombre, Mago Proscrito, Guardia de Terratenientes, objetos)
+- Personajes con nombre: Sir Cecil Gastonne (Barón exiliado: Fin del Pesar, Capa de piel de dragón, Matamonstruos), El Caballero Verde (Etéreo, Terror, especial 5+, Hoja Dolorosa con +D6 Ataques; aparece como Emboscador) y Lady Élisse Duchaard (Profetisa de nivel 3 en unicornio, Aura cautivadora, Elementalismo o Lore de la Dama).
+- Exiliados: Mago Proscrito (nivel 1 o 3; Arcanista sin formación) y Guardia de Terratenientes (lanzas y escudos, Muro de escudos, Veteranos; cuentan para el mínimo con los Arqueros).
+- Objetos: Corazón de lo Salvaje (+1 a lanzar en terreno natural), Diadema del Poder (Cruzada: +1 a proyectiles, vórtices y asaltos), Varita de Golpe de Llama (Exiliados: Bola de Fuego atada de Nivel de Poder 3). Los objetos de una sola lista se comprueban en el editor.
+- Reglas universales nuevas: Etéreo (solo le hieren ataques mágicos y atraviesa terreno y unidades) y Matamonstruos (repite heridas contra monstruos).
+- Pendiente: categoría de Mercenarios (Ogros de las Tierras Yermas, Gigante Trituradores, mercenarios imperiales de Bretonia), regreso del Caballero Verde tras morir, Cáliz de Brionne y Bastón de los Elementos de Lady Élisse.
+
+v147 — Mercenarios (Core p.279)
+- Nueva categoría «Mercenarios»: hasta 20 % de los puntos (25 % en Horda nómada, Hueste de trolls, Exiliados y Cruzada).
+- Regla Mercenarios: sin Ld del general ni repetición del portaestandarte, no admiten personajes; al empezar tiran 1D6 y con 1 en la tabla de Mercenarios díscolos (Estupidez / −1 M e I / llegan como Emboscadores / −1 Ld).
+- Orcos: Ogros de las Tierras Yermas y Gigante Triturahuesos (0-1) como mercenarios.
+- Bretonia: Exiliados puede contratar Compañía Libre y Arqueros imperiales; Cruzada, Caballeros imperiales y del Círculo Interior. El editor muestra la sección de mercenarios.
+
+v148 — Cargas contra varios objetivos y edificios
+- Carga contra varios objetivos (Core p.130): si otra unidad enemiga estorba la posición final, la unidad se desliza por el frente del objetivo hasta encajar y traba también a esa unidad.
+- Edificios (Core p.273-276): nuevo terreno «Edificio» (también en el editor de mesa). La infantería que pueda alcanzarlo en su movimiento puede ocuparlo (botón «Ocupar edificio»): tiene cobertura pesada, ve y dispara en 360°, no tiene flancos ni retaguardia, quien la carga lo hace desordenado (obstáculo defendido), no tiene bonificación por filas y no persigue. Para salir hay que usar «Salir del edificio»; si huye, sale automáticamente. La IA también ocupa y abandona edificios.
+
+v149 — Grafismos de lo añadido últimamente
+- Edificios: casa de entramado 3D (zócalo de piedra, paredes encaladas con vigas, ventanas iluminadas, tejado a dos aguas y chimenea) a la medida del terreno; cuando está ocupada se ve el estandarte del ocupante en el tejado y la etiqueta lleva ⌂.
+- Muros bajos: hiladas de sillares de piedra con remate de musgo, orientados según el muro.
+- Unidades etéreas (p.ej. el Caballero Verde): figura translúcida verdosa con halo.
+- Gigante Triturahuesos más grande que el Gigante orco; los mercenarios llevan ¤ en la etiqueta.
+- Etiquetas de personajes con artículo o título («El Caballero Verde» → Verde, «Lady Élisse» → Élisse).
+
+v150 — Elfos Silvanos, Kiknik y Lady Élisse
+- El Espíritu de Kurnous (Cacería Salvaje de Orión, AJ p.29): Jinetes del Claro, Jinetes de Halcón de Guerra o Manadas con Furia asesina e Impetuosos (+10 pts por unidad; 0-1 por cada 1.000 pts).
+- El Bosque Despierto (Hueste de Talsyn, AJ p.33): Dríadas y Parientes del Árbol Emboscadores (+1 pt/modelo); Hombres Árbol y Ancianos Emboscadores (+10 pts).
+- Kiknik Toofsnatcha: ¡Golpea y huye! (si gana y el enemigo no huye, él y sus Jinetes de Lobo pueden retirarse en buen orden en vez de seguir) y Todos sigilosos (0-1 unidad de Jinetes de Lobo Emboscadores gratis; +1 a la tirada de llegada de sus Jinetes de Lobo emboscados).
+- Lady Élisse: Cáliz de Brionne (−2 Ld a los personajes enemigos dentro de su alcance de mando).
+- Pendiente: Bastón de los Elementos de Lady Élisse (su texto no está en los libros subidos), elección Martillo/Pico del Rompecráneos, Tatuajes talismánicos (Caudillos del Rey Cazador).
+
+v151 — Orden de movimiento y personajes con nombre
+- Fase de movimiento (Core p.116): las cargas se declaran y mueven antes que el resto de movimientos; en cuanto mueves otra unidad (o entra un refuerzo/ocupas un edificio) ya no se pueden declarar cargas ese turno.
+- El Caballero Verde: al morir se desvanece en la bruma y vuelve a reservas con −1 Herida; despierta con 3+ (+1 a la cifra necesaria por cada vez que ha vuelto; automático desde la ronda 5).
+- Kiknik: Rompecráneos con dos perfiles; al empezar su primer combate elige el Pico (F, FP −2, Heridas múltiples 2) contra enemigos de varias Heridas y el Martillo en los demás casos.
+- Elfos Silvanos (Cacería Salvaje): Tatuajes talismánicos para Nobles (+10 pts, especial 6+).
+- Pendiente: mover los movimientos obligatorios (huidas sin reagrupar) después de las cargas.
+
+v152 — Aspecto 3D más cercano al de Tabletop Simulator
+- Iluminación nueva: sol cálido y cielo frío, brillo especular en metales y armaduras, oclusión junto al tablero (las figuras se asientan mejor) y colores algo más vivos.
+- Móvil: al pasar a 3D la cámara se sienta «a la mesa»: más baja, con más perspectiva y más cerca de tu lado del tablero.
+- Etiquetas más pequeñas, detrás de cada unidad y semitransparentes al acercar la cámara (la unidad seleccionada se sigue viendo entera).
+- Fondo de sala en tono cálido.
+- Siguen sin malla real las unidades que no vienen en la caché del mod (sobre todo Imperio, Orcos y Goblins, Reyes Funerarios y Hombres Bestia).
+
+v153 — Movimientos obligatorios y figuras con más detalle
+- Movimientos obligatorios (Core p.116-123): las unidades que no se reagrupan ya no huyen al final de la Estrategia, sino después de las cargas (al empezar el resto de movimientos o al terminar la fase de movimiento).
+- Figuras simplificadas (las que no tienen malla en el mod): faldón del jubón, botas, cuello, hombreras con armadura, hebilla del cinturón, nariz y umbo del escudo.
+
+v154 — Objetos de los Elfos Silvanos y nitidez de texturas
+- Piedra Lunar de los Caminos Ocultos (15): un solo uso, Caminante del Bosque como hechizo atado de Nivel de Poder 3.
+- Estandarte del Frío Matinal (25): la unidad lanza Niebla Arremolinada como hechizo atado de Nivel de Poder 2.
+- Estandarte de la Cacería Salvaje (25, solo Cacería Salvaje): +1 a la resolución y repite la persecución.
+- Tapiz de Talsyn (80, solo PEB de la Hueste de Talsyn): alcance de mando 18" y +1 Ld a las unidades amigas en él.
+- Alcance de mando (Core p.205): el Portaestandarte de batalla tiene 12" (18" si es objetivo grande), como el General.
+- La IA ya usa los hechizos atados de objetos y estandartes aunque la unidad no tenga mago.
+- Texturas con filtrado anisótropo: más nítidas al inclinar la cámara.
+
+v155 — Objetos de Reyes Funerarios y dispersión de hechizos atados
+- Reyes Funerarios (Ravening Hordes): Collar de Shapesh (salva la última Herida con 4+ a cambio de un modelo amigo), Kanopi de Enkhil (dispersa todos los hechizos que permanecen en juego con un chequeo de Ld), Vasija Hierática (¡Levantaos! dos veces) y Broche del Escarabajo (Desde Debajo de las Arenas a 18").
+- Ogdruz: ¡Protejed al jefe! (no se le puede disparar ni lanzar hechizos a 3" de una unidad de Trolls amiga, salvo que sea el objetivo más cercano).
+- La Llamada de la Tormenta y la Runa Maestra de la Calma ya se pueden dispersar.
+
+v156 — Texturas en alta resolución
+- Las 143 texturas originales del mod (miniaturas, escenografía, terrenos y tapete) se incluyen ahora a 1024 px en la carpeta hd/. El juego arranca con las texturas ligeras incrustadas y, en cuanto puede, las sustituye por las de alta resolución (en la app instalable y en el artefacto; al abrir el HTML suelto desde el disco se quedan las ligeras).
+
+v157 — Texturas AVIF de más calidad con el mismo peso
+- Las texturas de alta resolución pasan de JPEG a AVIF: hasta 1536 px (antes 1024) con enfoque suave al reducir los originales grandes, y la carpeta hd/ pesa menos que antes (30 MB frente a 34 MB). Los navegadores sin AVIF (iOS 15 o anterior) se quedan con las texturas ligeras incrustadas.
+- Reyes Funerarios: Corona de Reyes (el Rey levanta D3+1 Heridas de Esqueletos en su alcance de mando con un chequeo de Ld).
+- Guerreros del Caos: Títere Infernal (los magos enemigos a 24" tiran un dado extra y descartan el mayor).
+
+v158 — Arreglo para iPhone y objetos de Hombres Bestia
+- iPhone/móviles: las texturas HD ya no se cargan todas de golpe (agotaban la memoria gráfica de iOS y la vista 3D se quedaba en negro). Ahora se cargan solo las de los modelos que aparecen en pantalla, de dos en dos, como máximo 48 y a 1024 px en móviles. Si aun así el sistema retira el contexto gráfico, el juego se recupera solo y sigue con las texturas ligeras.
+- Hombres Bestia: Piedra del Rencor (−2 a lanzar para todos los magos hasta tu siguiente turno) y Cáliz de la Plaga (cualquier doble es invocación perfecta, a cambio de un impacto de F4).
+
+v159 — Objetos de Hombres Bestia y Guerreros del Caos
+- Hombres Bestia: Fetiche del Árbol Bruja (repite para herir fallidas con proyectiles mágicos) y Daga Dentada (el mago unido sacrifica un modelo de su unidad y suma sus Heridas a la tirada de lanzamiento).
+- Guerreros del Caos: Don Majestad Oscura (−1 Ld a los chequeos de Miedo y Terror enemigos en su alcance de mando) y Estandarte de los Dioses (la unidad ignora los modificadores negativos al Liderazgo).
+
+v160 — Aspecto 3D al nivel de la digitalización de Kill Team
+- Sombras proyectadas de verdad (mapa de sombras desde el sol con filtrado suave): miniaturas, árboles, colinas, torres y edificios proyectan sombra sobre la mesa y entre sí.
+- Mesa de madera maciza bajo el tapete y canto oscuro alrededor, como en Tabletop Simulator.
+- Mallas de alta resolución (hd/m_*.json, hasta ~24.000 triángulos por modelo frente a ~2.600) para 109 miniaturas y elementos de escenografía: se cargan solo para lo que aparece en la mesa (máx. 24 en móviles) y conservan sus texturas.
+- Las piezas que en el mod ya son de pocos polígonos (bosques, colinas) no ganan detalle con esto.
+- Hombres Bestia/Caos v159 incluidos.
+
+v161 — Cámara tipo Tabletop / Kill Team
+- Al pasar a 3D se ve la mesa entera en diagonal, con la cámara baja, sobre el tablero de madera. El botón ⤢ alterna entre «mesa entera» y «acercarse a tu lado».
+- Corregida la profundidad en perspectiva: en vistas oblicuas se veía la madera atravesando el centro del tapete y había cortes raros en los objetos grandes.
+
+v162 — Bosques, colinas y pantanos de alto detalle (hechos a medida)
+- Como las piezas del mod tienen muy pocos polígonos, ahora se generan por procedimiento con mucho más detalle: colinas suaves con relieve, hierba y laderas rocosas según la pendiente; bosques con suelo de hojarasca, árboles frondosos (tronco curvado, ramas y copas de varias masas de hojas), coníferas y arbustos, con texturas de hojas y hierba; pantanos con charca oscura, orilla de barro, juncos y nenúfares.
+- Todo proyecta sombras. Las reglas de terreno no cambian (mismo tamaño y posición).
+
+v163 — Figuras procedurales más redondeadas
+- Las figuras hechas a medida (unidades sin malla en el mod) usan ahora cilindros de 16 lados, esferas de 10x16 y extremidades de 10 lados (antes 6-9): siluetas más suaves y menos «de bloques».
+
+v164 — Vuelve la escenografía del mod, con mejor texturizado
+- A petición: los bosques, colinas y pantanos vuelven a ser las piezas originales del mod (se retiran los procedurales de la v162).
+- Su texturizado mejora: textura de detalle en mosaico (grano fino, grietas y motas) que se combina con la original, relieve de luz a partir de ese detalle, algo más de color y normales suavizadas para que no se vean facetadas. Siguen cargándose las texturas originales en alta resolución.
+
+v165 — Objetos de Caos y Hombres Bestia
+- Favor de los Dioses (Caos): un solo uso, repite el 1 en la tabla de la Mirada de los Dioses.
+- Hacha de los Hombres (Hombres Bestia): si mata a un personaje o campeón enemigo en un desafío, causa Terror el resto de la partida.
+- Mangelder (Hombres Bestia): la unidad enemiga que sufra heridas no salvadas tiene −1 Ld hasta el final del turno.
+
+v166 — Miniaturas reales para los ejércitos que no las tenían
+- Con los JSON de los mods por ejército que subió el usuario (Imperio, Orcos y Goblins, Reyes Funerarios, Hombres Bestia, Guerreros del Caos, Bretonia, Elfos Silvanos, Enanos…) se han localizado las mallas en la caché y extraído 951 texturas más de los .7z ya subidos.
+- 148 unidades que usaban figura hecha a medida tienen ahora su miniatura real del mod (p.ej. todo el Imperio: Tropas Estatales, Espadones, Caballeros, Tanque de Vapor, magos, sacerdotes…; Orcos, Goblins, Orcos Negros, jefes y máquinas; Reyes Funerarios; Hombres Bestia…), con texturas originales (1024 px, AVIF). Se cargan al aparecer en la mesa (carpeta hd/x_*). 6 de ellas aún sin textura.
+
+v167
+- Altos Elfos con miniaturas reales del mod (20 modelos nuevos: príncipes, nobles, magos, Doncella, Lanceros, Guardia del Mar, Yelmos Plateados, Maestros de la Espada, carros, grifos, águilas y dragones).
+- Nuevos modelos reales: Arqueros y Escaramuzadores Esqueleto, Esfinge de Guerra, Campeón Aspirante, Señor del Caos en Dragón, Señor Hechicero en Mantícora, Guerreros Enanos, Martilladores, Rompehierros, Matatrolls.
+- Las miniaturas externas se agrupan por ejército (hd/xp_<ejército>.json) para no superar el límite de archivos.
+- Reglas: Icono de Rakaph (reforma gratuita), Capa de las Dunas (Vuelo 9 y D6 impactos F2 FP−1 al sobrevolar), Báculo de los Elementos de Lady Élisse.
+
+v168
+- Guerreros del Caos: Maza de la Inmundicia (chequeo de Resistencia o −1 R hasta el final del turno) y Espada Robahechizos (el mago herido olvida un hechizo al azar), según Ravening Hordes p.78.
+- Linajes de los Elfos Silvanos: la unidad a la que se une el personaje no puede usar su Liderazgo (Arcane Journal). Virtud del Deber: el General no puede tomarla (validación de la lista).
+- v170: Matador de sierpes (Sir Cecil causa Terror tras abatir un monstruo) y Guardia real de los Enanos (una unidad de Martilladores por Rey o Thane, validación de la lista).
+- v171: Levas (Core): tampoco se benefician de Mantened la posición del Portaestandarte de Batalla. Revisadas Horda e Impactos de carga (coinciden con el libro).
+- v172: Banda de guerra según el Core: el bonus de filas se suma al Liderazgo de la unidad (no al de personajes sin la regla), no se usa en chequeos de contención, y la unidad puede repetir la tirada de carga.
+- v173: Frenesí perdido desactiva todos sus efectos (Miedo/Terror, cargas obligatorias, huida, contención); Inquebrantables: personajes y unidades solo se unen entre iguales (Core).
+- v174: Veteranos repiten también el chequeo de contención fallado (Core). Revisadas Inestables y Vanguardia.
+- v175: Miedo: solo un chequeo por turno (también al cargar); Escaramuzadores de caballería solo admiten personajes de la misma subcategoría (ligera/pesada).
+v176: Ataques envenenados no se usan si se necesita 7+ para impactar (Hatred, Golpe Mortal, Heridas Múltiples, Armour Bane, Pisotón, Aliento, Fuga fingida y Disparar y huir ya coincidían).
+v177: terreno del mod: ruinas A/C/D/E, escombros, túmulos, bosque despertado, santuario, cristal, estrados, bóveda, puestos de mercado, matorral venenoso y aldea (Houses and Ruins); piezas decorativas colocables en el editor. Piezas sin malla en el mod entregado (monumentos, torres, puentes, vallas, ídolos...) no se pueden exportar.
+v178: Desastre mágico (Miscast 2-6): la plantilla de 5"/3" impacta una vez a cada modelo bajo ella (antes D6 impactos por unidad en radio). Magia, Disparo, Huida, Reformar y Refuerzos revisados: coinciden.
+v179: bono de flanco (+1) y retaguardia (+2) una vez por cada unidad enemiga atacada por ese lado (antes un solo bono por combate). Resultado de combate y chequeo de ruptura revisados: coinciden.
+v181: Elfos Oscuros (etapa 1): personajes, básicas, especiales y raras con modelos 3D; reglas reconstruidas (sin libro), lore Magia Oscura.
+v182: Elfos Oscuros: colores de modelos sin textura, tamaño de Hidra/Kharibdyss, color de facción.
+v183: Hombres Lagarto (etapa 1): 25 unidades con modelos 3D reales (xp_lm.json, 5 MB); reglas reconstruidas; sin Carnosaurio (malla ausente).
+v184: Skaven (etapa 1): 23 unidades con modelos 3D (xp_sk.json); reglas reconstruidas; Vidente Gris a pie, Garra-fuego y Maestro de Jaurías sin malla.
+v185: Condes Vampiro (etapa 1): 29 unidades con modelos 3D (xp_vc.json); reglas reconstruidas; sin Murciélagos, Vargheists ni Terrorgheist (sin malla).
+v186: Demonios del Caos (etapa 1): 32 unidades con modelos 3D (xp_dm.json); reglas reconstruidas; sin Carro Ardiente, Sanguinarios de Khorne sin base... (ver unidades sin malla: Sanguinarios usan figura genérica).
+v187: Reino de los Ogros (etapa 1): 29 unidades con modelos 3D (xp_ok.json); reglas reconstruidas; Lore de las Bestias añadido.
+v188: Enanos del Caos (etapa 1): 25 unidades con modelos 3D (xp_cd.json); reglas reconstruidas; Lammasu sin malla.
+v189: Catay (etapa 1): 27 unidades con modelos 3D (xp_ct.json); reglas reconstruidas.
+v190: revisión 3D de los 8 ejércitos nuevos; Linternas Celestes de Catay escaladas por altura.
+v191: texturas: grano/pinceladas/relieve en modelos de color plano, luz de contorno en miniaturas.
+v205: auditoría IA vs IA (289 enfrentamientos, 17 facciones): corregido el bonus de filas (era NaN y los combates no se resolvían bien), nombres de bando 'undefined' en 13 facciones, partidas que no arrancaban por el límite de flanqueo del 33 %, y un movimiento rechazado ya no cuenta como movido.
+v206: ejércitos de 2.000 pts (17 facciones) y tamaño de mesa según el reglamento (Core p.286): normal 48"x72" o reducida (30"x44" hasta 1.000 pts, 44"x60" de 1.001 a 3.000); los escenarios adaptan zonas y terreno; arreglado que el General pudiera unirse a la fuerza de flanqueo.
+v207: escenografía de escenarios según sus textos: Odo Todmeyer solo con bosques (Bosque de las Sombras) y Pine Crags con bosques y terreno rocoso.
+v208 - Verificación del contenido de los .7z: 494 de 543 unidades usan ya modelo real; añadido Flame Cannon enano (único con malla y textura utilizables). Resto sin textura en los zips (Bigboss/Warboss goblin nocturno, Oddgit, Harpías, Bloodletters, Thrall) o sin malla (Arachnarok, jinetes de araña, Squig Hoppers, Dreadlord/Master a pie) — se mantienen procedurales.
+v209 - Verificación a fondo de los zips (cartas del mod leídas de las imágenes): añadidos los 19 hechizos de los Lores Legacy que faltaban (Daemons por Marca, Hashut, Lustria, Naggaroth, No-muerte, Gran Fauce, Rata Cornuda) con sus mecánicas (plantillas de 5", empapado, −1 R, Zombis Resucitados, Salto Escurridizo…), y los hechizos ligados de objetos (Vara de los Condenados, Demonio de la Tormenta, Anillo de Furia, Armadura Doblemente Bendecida, Mano de Polvo, Anillo de Taal) y el Estanque Adivinatorio del Trono del Aquelarre. El Estandarte de Golpe de Llama pasa a un solo uso, como indica su carta. Los magos Legacy usan por defecto el lore de su facción. Sin implementar por falta de unidades/datos: Caldero de Sangre, Motor Solar y Motor de los Dioses (no hay datos de esas unidades en los archivos).
+v210: Revisión de reglas oficiales (Legacy): Heraldo de Slaanesh sin magia por defecto (85 pts; corcel +16) con variantes de Mago nv 1 (+30) y nv 2 (+60); los lores Legacy ya no son el lore por defecto: permiten cambiar un hechizo aleatorio por uno del lore de la facción. Costes oficiales: Demonio de la Tormenta 30 (Mano de Polvo 35, Anillo de Taal 20 y Armadura Doblemente Bendecida 25 coinciden). Vara de los Condenados y Anillo de Furia: sin fuente oficial (coste estimado).
+v211: Interfaz tipo app: botones táctiles de 44 px; botón contextual grande (Cargar/Mover/Marchar/Disparar/Lanzar hechizo) con el motivo cuando una acción no es posible; anillos de alcance de movimiento/marcha y disparo al seleccionar; pulsación larga sobre una unidad abre su ficha; botón ↶ para deshacer el último movimiento (no en modo por códigos); tirada de dados animada tras disparos y combates, números flotantes de bajas/fallos y calavera al destruirse; registro con iconos, agrupado por turno y con filtros (Mío/Rival/Disparo/Combate/Magia/Movimiento); búsqueda de unidades en el constructor de ejércitos.
+v212: Pantalla de título con barra de carga y menú (Continuar, Nueva batalla, Tutorial, Partidas guardadas, Estadísticas, Cómo se juega); 3 ranuras de guardado además del autoguardado (guardar, cargar, sobrescribir, borrar; no disponible en partidas por código); estadísticas (partidas, victorias, racha, por facción, últimas batallas) y 13 logros guardados en el dispositivo; tutorial guiado de 8 pasos (Imperio vs Orcos, 500 pts, IA fácil) que no toca el autoguardado ni cuenta en las estadísticas.
+v213: Tu ejército, Rival y Puntos por ejército pasan a ser desplegables en el menú de partida.
+v214: Tras 'Configurar ejército' se abre una pantalla de constructor a pantalla completa (puntos fijos arriba, 'Mi lista' por categorías con contadores, buscador, alta por categoría) y desde ella se empieza la batalla; en 'Dos jugadores' se configuran los dos ejércitos seguidos.
+v215: Listas conformes a las reglas: nuevos límites de lista para Hombres Bestia y Guerreros del Caos (0-1 por cada 1.000 pts, Gors obligatorios, Elegidos, Señor/Príncipe); Bestigors, Minotauros, Jabberslythe, Cygor, Ghorgon, Longbeards, Rangers y Hermanas de Avelorn cuentan como Básicas/Especiales según el General (listas oficiales); las 15 listas recomendadas que incumplían (límite de puntos, mínimo de Básicas, tropas, General, 0-1) se reparan; el constructor no deja añadir lo que rompe un máximo (avisa del motivo) y no deja empezar con una lista que incumpla; la partida también valida a la IA.
+v216: Ejércitos de Infamia de los Arcane Journals subidos (Imperio, Enanos, Guerreros del Caos, Reyes Funerarios, Hombres Bestia): Nuln, Órdenes de Caballería, Clan Real, Fuerza Expedicionaria, Lobos del Mar, Heraldos de la Oscuridad, Hueste Real Nehekhariana, Culto Mortuorio, Manada de Sangre Minotauro y Manada Salvaje. Implementada la composición (unidades permitidas, categorías, % mínimos/máximos, límites 0-1 por 1.000 pts, mercenarios). NO implementadas todavía: reglas especiales propias de cada lista, unidades nuevas (Skin Wolves, Chaos Spawn, Huscarls, Necroserpientes, Road Wardens, Sapper, Primal Warherd...), órdenes concretas de caballería y Estandarte de Batalla restringido.
+v217: Arcane Journals – unidades y reglas de lista (1ª parte). Imperio: Guardacaminos (ballesta/pistolas), Guardia Teutógena, Heraldo del Apocalipsis, Ogros Imperiales (mercenarios 0-1); Nuln: Las grandes armas no conocen el miedo, Batidores sin Ponderoso, Instrucción con arcabuz. Enanos: Ingeniero Zapador, Francotiradores expedicionarios (Atronadores), Furia ancestral y +25 pts de runas/estandartes (Clan Real). Caos: Jefe de Tribu, Berserkers, Huscarls, Lobos de Piel, Carro de Elegidos, Incursores marinos (Emboscadores), Guerreros implacables; Heraldos: Corceles de la Oscuridad, Hueste Montada, La Sombra Crece. Reyes Funerarios: Ushabti Venerables y Necroserpientes. Bestias: Perros Primigenios, Bandas errantes (Emboscadores), Matanza y Carnicería (Impetuoso), +25 pts de objetos (Manada Salvaje). Pendiente: Entrenchamiento/Gun Limbers, Subterranean Ambush, Duelo de Guerreros, Cohortes mixtas, Hierophant/Arise/Terrors Below, Warherd mixto, Preyton, Chaos Spawn, personajes nombrados, órdenes de caballería.
+v217 (2ª parte): Órdenes de Caballería como listas (Pantera, Sol Ardiente, Morr, Corazón Ardiente, Lobo Blanco) con sus unidades y restricciones; Función sobre forma (Cañón/Órgano/Lanzallamas T−1 sin Mover o disparar) en la Fuerza Expedicionaria; Escaramuzadores Emboscadores gratis en la Hueste Real; Campeones de la matanza (el Frenesí del General se contagia a las unidades en su alcance de mando). Pendiente aún: personajes con nombre, Entrenchamiento/Gun Limbers, Emboscada subterránea, Duelo de Guerreros, Cohortes mixtas, Hierofante/Arise!/Terrores de abajo, Warherd mixto, Preyton, Chaos Spawn.
+
+
+v217 3ª parte — Personajes nombrados de los Diarios Arcanos
+- Nuevos personajes únicos (uno por ejército): Harald Gemunsen, Hans von Löwenhacke, Thorgrim Ulleksson, Ungrim Ironfist, Burlok Damminson, Frydaal, Príncipe Apophas, Nekaph, Settra, Ghorros Warhoof, Kralmaw. Disponibles en el Gran Ejército y en sus listas de Infamia.
+- Con estadísticas, armas y reglas de la ficha; las reglas de despliegue/otras (Posiciones preparadas, Piedra del Rencor, Espíritu Mirón, Cráneo del Unicornio vs mágico, etc.) aparecen como texto, aún sin automatizar.
+
+v218 — Burlok: Posiciones preparadas automatizadas (atrinchera una máquina y una unidad de Ballesteros/Trabucaires al desplegar).
+v218 — Nekaph: Heraldo de la Desesperación (dado extra en Miedo/Terror, descarta el más bajo). Burlok: ¡Atrás, jefe! activo.
+v218 — Clan Real: Saldar cuentas automatizado (se nomina al personaje enemigo más caro tras el despliegue: Odio contra él y +75 PV si muere o huye).
+v218 — Culto Mortuorio: Animus sepulcral automatizado (el Liche Sacerdote, si necesita más resultado, drena 1-3 Heridas de un constructo no muerto en su mando y las suma al lanzamiento).
+v218 — Nuevas criaturas: Engendro Gigante del Caos (WoC y Bestias, 4 maldiciones de dios, Movimiento 3D6 y Ataques D6+1 aleatorios) y Preyton (Bestias; versiones normal, Emboscador y Frenesí). Gran Ejército; 0-1 por 1.000 pts.
+v218 — Dragón Warpfire (Caos; normal, mago 1 y 2; Aura de fuego del Caos, Fuego y Caos, Final explosivo) y Príncipe Escarabajo de Apophas (explosión de escarabajos al morir) automatizados.
+v218 — Carro de Guerra del Imperio (0-1 por 1.000 pts, Singular; Impactos D6+1, Pisotón D3+1, dotación aprox. 6 disparos). Como montura de Ingeniero: pendiente.
+
+v219 — Editor de ejército: al configurar una unidad se muestra al instante el aviso «+N pts → unidad X pts · ejército T/límite» (y configurar algo en una unidad no incluida la añade). Mapa 3D: botones ✥ (mover) y ⤡ (inclinar), excluyentes entre sí; sin ninguno pulsado, arrastrar el fondo no mueve la cámara (pellizcar sigue haciendo zoom/giro).
+
+v461: erratas FAQ 1.5.2 aplicadas a los AJ: hechizos (Furia/Cólera 9+, Remolino Fétido FP−3, Raíz Estranguladora 8+), Anillo de Furia NP1, Luna Distorsionada un solo uso, F+ solo cargando (Da Akrit Axe, Tormenta Furiosa, Mayal de Reyes), Hans Ld10, Ogros (Aplastador +7), Cathay (Wei-Jin 60, Icono 45, Maw 50, Máscara NP1, Ojo del Dragón 4+), Lobos de Piel con Miedo y base 50, Berserkers base 30, Cortagoblins A2, Buscadores escaramuzadores; corregido mkVariant (sr propio).
+v463: Cathay — Lore of Yang/Yin completos (Constelación, Gran Bastión, Poder de Cielo y Tierra; Viento/Espejo/Ancestros), Vientos Yang/Yin con elección de modificador, Maestría de la Tormenta, selector en el editor.
+v464: Cathay objetos — Rey Mono (F10), Ojo del Dragón, Fragmento del Maw, Brújula (disipa RiP), Icono (Ld, sin Volar), Plumas, Fuegos de Nan-Gau, Linterna espiritual, Capa de Po Mei, Sello, Pergaminos, Feng Shi erudito.
+v465: Brayherds AJ — armaduras del Caos (5+), Piel de Sharggu (armadura +2 vs disparo no mágico), Khorgor, Cuchilla de Latón, Cáliz, Cornucopia, Luna Distorsionada, Cuerno de la Cacería, Himno, Corazón de Demonio, Diente Sangriento, Baliza celestial en llegadas.
+v466: Reyes Funerarios y Guerreros del Caos AJ — Phakth, Manto Real, Tapiz, Báculo del Despertar, Kanopo (invoca esqueletos), Tablillas, Conquistador; Látigo, Colgante, Barda, Tomo, Grimorio, Vara, Cetro.
+v467-468: Imperio AJ (arcabuz, Gorgona A-1, Cristal, Cazador de Brujas, Fortuna, Dos Colas, Medianoche, Doblemente Bendecida, Taal), Bretonia AJ (Lanza solo carga, Ungida, Suerte, Wyrm, Varita), Altos Elfos AJ (Dorado, Atrazar +1H, Lothern, Gema, Fragmento, Embaucador, Lanza Estelar).
+v462: Arcane Journals/FAQ: 15 objetos Cathay (Dawn of the Storm Dragon), Anillo de Azabache 30 pts PL1, Piedra lunar 30, Orion (sabuesos/orden abierta), Centigor Chieftain, Warherd/Ravagers aprox., Doomseekers no personaje, Arch Necrotect, Guardianes del Bosque, Ironspike, Ogre Loader, Desde las Brumas, Chracia bosque. Pendiente de publicar.
+v459: revisión de perfiles de los AJ (Araloth se queda en 150 pts por FAQ): Merwyrm A4, Berserkers de la Tribu M5.
+v458: Revisión AJ 1 a 1: Manada Salvaje (Preyton, Engendros del Caos); Lobos del Mar y Heraldos (Engendros, Engendros Gigantes, Dragón Fuego Disforme); Clan Real y Expedición (Carros, mercenarios Buscadores de Fatalidad/Cortagoblins, Girocópteros Exploradores básicos); Nuln (Carros de Guerra, mercenarios, límites); Caballeros Pantera (mercenarios del Lobo Blanco); ¡Waaagh! Nómada (personajes montados en jabalí/lobo, Manadas de caza, mercenarios, Jinetes de Jabalí/Carro Negro básicos, Impacto de montura) y Horda Troll (mercenarios).
+v457: Cathay: Cargador ogro (Tripulación mercenaria, +35 pts: dotación Tozuda y evita el primer fallo de disparo).
+v456: Cathay: Vientos elementales (Yang +1 M / Yin +1 HA al inicio de turno), Guardia Celestial del Dragón (Matriarca suprema); Altos Elfos Guarnición: Honores limitados a Acechador Sombrío / Puro de Corazón / Guardia del Mar.
+v455: Escenarios AJ: escenografía propia (Khazid: pilares de la puerta y terreno de laderas; Zandri: Calzada al oeste y tierras baldías; Winter: camino central de 6" y paso rocoso; Crossroads: bosquecillos en los bordes y tiendas; Prophet: Piedra de las Manadas). Khazid: Atrincherados (el atacante), Terreno Peligroso en su zona y repeticiones de Pánico/Reagrupar en la Puerta. Stirhügel: seis zonas, 3 unidades por bando y reservas por D3 desde el turno 1. Châlons: un Mago a 3" de la Piedra.
+v454: Cathay AJ: costes/valores corregidos (Wei-Jin 40 con −1 Ld a 12", Icono 35, Ojo del Dragón 30 3+, Maw 40, Máscara PL3); Lanceros de Jade Básicos 0-1/1000; Centinela/Linterna como Especial según General.
+v453: Altos Elfos AJ: nueva lista Guarnición de la Guardia Marina (composición, Guardia del Mar Disciplinada, Sombríos y Cortacielos Emboscadores). Pendiente: Desde las Brumas.
+v452: AJ Elfos Silvanos/Bretonia: Furia de Athel Loren (CV 10+), Orgullo del Maestro de Caza, Ganarse las espuelas (estandartes capturados por Caballeros Errantes = 100 PV), Escudo de Púas de Hierro (1 natural al impactar), Clarín del Cruzado (+1 F montura) y Colgante del Grial 2+.
+v451: Reyes Funerarios (Culto Mortuorio): Incantaciones armoniosas (+1 Herida en ¡Levantaos! con otro Sacerdote Liche en alcance de mando) y Terrores de las profundidades (Necroserpientes/Escorpión: chequeos de Iniciativa al emerger de las arenas).
+v450: Favor de los Dioses (Lobos del Mar): tirada en la Mirada de los Dioses al matar a un personaje o campeón en desafío y al capturar un estandarte.
+v449: Terreno hostil del Ingeniero Zapador (enemigos que terminan su movimiento a alcance de mando hacen chequeo de Terreno Peligroso).
+v448: escenario Clash at the Northern Crossroads (Arcane Journal Hombres Bestia): punto de ruptura, nevada intensa (−3" alcance, −1 carga).
+v447: escenarios de Arcane Journal nuevos: Toma de Khazid Vosk (Enanos), Colinas de Stirhügel (Imperio), Châlons (Altos Elfos) y Calzada de Zandri (Reyes Funerarios). Los de Elfos Silvanos, Caos y Bretonia ya estaban (Profeta y Cazador, Hollum, Matorea).
+v446: Linterna Celeste con fusiles de granizo (arma alternativa del libro) con su modelo del mod ct_ironhail, también en versión Globo de guerra.
+v445: figura propia de carro (mercancías y carros enanos); ya no quedan unidades con figura genérica.
+v444: figuras propias para Lady Élisse (a caballo) y Dwarf Engineer/Sapper.
+v443: Tejedor de Tormentas en Unicornio con figura propia (unicornio con cuerno, mago sin sombrero).
+v442: figuras propias: mantícoras y carros de elfos oscuros, Ishaya Vess y Tejedor de Tormentas.
+v441: Carnosaurio procedural (Veteranos Sangrevieja/Cicatrices) y carros enanos con figura de carro (antes usaban Stegadón y Lanzavirotes).
+v440: héroes en carro/montura ya no usan la miniatura a pie agrandada: figuras propias (Caldero de Sangre, Trono de Sangre, Carro Buscador, Santuario, Pegaso); mantícoras oscuras con malla de Mantícora del Caos; la ficha avisa de mallas prestadas.
+v439: la ficha de unidad clasifica bien (original / procedural aproximada / genérica) también para mallas compartidas por alias; __TOW expone newGame (pruebas).
+v438: figuras propias para Necroserpientes, Medusa Sangrienta y Leñadores Chracios (antes compartían malla con unidades distintas).
+v437: fix: carros/mantícora oscuros vuelven a su figura; figuras propias para Terrorgheist, Vargheists (murciélago) y Lobos de Piel (lobo).
+v436: la ficha de unidad distingue miniatura original / figura procedural aproximada / modelo genérico; lista en rules/FIGURAS_PROCEDURALES.md.
+v435: figuras procedurales propias: Arachnarok y jinetes de araña (arañas de 8 patas), Squig Hoppers, Harpías, Barco, Merwyrm (serpiente), manadas silvanas (gatos/jabalíes/osos), Sanguinarios, Thrall, Señor del Terror/Maestro oscuros y Gran Vidente.
+v434: trayectorias de magia con color según el tipo de hechizo (proyectil, maleficio, asalto, vórtice, encantamiento, transporte).
+v433: estandartes 3D propios por unidad (14 del mod: Alabarderos, Lanceros, Espadones, Ballesteros, Arcabuceros, Orcos, Goblins, Jinetes de Lobo, Orcos Negros, etc.) en lugar de 2 genéricos.
+v432: auditoría 3D: Heraldos de Slaanesh (nv1/2), jefes goblin nocturnos y Chamán Oddgit reutilizan la malla de su base (alias de figura).
+v431: marcadores de Mina de la Fuerza Expedicionaria dibujados en 3D (solo visibles para su dueño).
+v430: Sigilo del Capataz (amigos a 9" pierden Levas).
+v429: Aliento de Hashut (arma de aliento de un solo uso F4 FP-2 flamígera mágica).
+v428: Orbe de Latón (acción orb, UI, IA; el portador no ataca ese turno).
+v427: acción useItem en Fase de Mando: Frasco de Demonio (Pánico a enemigos en alcance de mando) y Corazón Infernal (percance con dobles de magos enemigos); UI + IA.
+v426: Daga del Panteón Oscuro (+1 al siguiente lanzamiento por herida).
+v425: El Mazo Negro (+D6 Ataques, 6 = −1 HA permanente), Látigo del Capataz (+1 Ataque).
+v424: Pergamino de Atadura (3D6 al lanzar, un uso).
+v423: Barba del Lammasu: aura 5+ especial vs disparos y R. mágica +1 a amigos a 6".
+v422: Familiar Demoníaco (−1 salv. especial/regen a trabados), Esquirla Infernal (D6 impactos F5 al matar al portador).
+v421: Sigilo de los Siglos (−1 I a 6"), Rompeenemigos (−1 HA/Ataques por chequeo de R).
+v420: Estandarte Sangriento (bmaj_gore): chequeo de Ld para declarar carga contra la unidad.
+v419: Lanza del Terror (solo al cargar), Estandarte Solar de Chotec (sin aguantar y disparar).
+v418: Trampas y lazos (Terreno peligroso al cargar) y Oculto (el Asesino Khainita se esconde en una unidad élfica oscura; botón Revelar; la IA lo revela).
+v417: Panza del Maw (cura 1 Herida por herida no salvada causada en desafío).
+v416: Anillo von Carstein y Colgante del Grial (un solo uso: conservan la última Herida).
+v415: Ataques de precisión (Guardia del Mar unida: +1 FP). Auditoría sr: ensorcelled/khopesh/stampede/coven/royalGuard ya cubiertas por datos.
+v414: reglas de unidad sin lector: Voz de mando (+3"), Carga babeante (+1 F), Frío debilitante (−1 F enemigo), Capa abisal (larga distancia −2).
+v413: Runa de Destierro (los Engendros de la disformidad no hacen salvación especial contra el portador); auditoría de flags de objetos.
+v412: salvación especial contra proyectiles mágicos, vórtices y asaltos (Corona de Jade, Colgante de Azabache) ahora aplicada en el motor.
+v411: Escudo del Estanque Espejo (refleja un impacto F5 al tirador que hiere al portador).
+v410: Martillo de Rectitud (cada impacto: Ld o herida automática sin armadura); build del artefacto con texturas deduplicadas (−2 MB).
+v409: Estandarte del Equilibrio (nadie repite impactos ni heridas en contacto).
+v408: Mirada Cautivadora (los enemigos trabados no usan la Presencia inspiradora).
+v407: Estandarte del Toro (repite heridas fallidas de impactos de carga).
+v406: Hoja del Cabecilla (+1 impactar en desafío); desafíos: Temerario y Parravon también cuentan.
+v405: Icono de la Guerra Sin Fin (repite la tirada de carga).
+v404: Icono Podrido (los enemigos no ganan bonus de flanco/retaguardia).
+v403: objetos que dan un hechizo más (Dos Cabezas, Tomo de Furion, Familiar de Hechizos).
+v402: Estandarte Arrebatador (cargas al frente desordenadas).
+v401: Armadura de Sangre (mejora con cada herida no salvada causada).
+v400: Estandarte de Drakenhof (regeneración +1).
+v399: Corona de los Condenados (Estupidez), Estandarte de los Túmulos (3+ siempre impacta), Piel de Dragón (flamígero, repite 1), Espada de Reyes (Golpe letal 5+).
+v398: Almizcle Soporífero y Piel de Sangre Fría (reglas concedidas).
+v397: Túnicas Demoníacas, Escudo de Ghrond, Estandarte de Har Ganeth, Estandarte de Decadencia Supurante, Bastón del Cambio.
+v396: Báculo de los Eones (−1 armadura permanente al impactado).
+v395: Bastón de Solidez (una vez por partida evita la tabla de percances).
+v394: Hoja de Acero Plateado (Odio y sin armadura/regeneración para No muertos).
+v393: Reliquia del Sol del Desierto (sin Seco/Inflamable), Estandarte de Confianza (sin −1 al disparar como reacción).
+v392: Runa del Intrépido (desafíos obligatorios y repite fallos), Estandarte de la Guerra Honorable (repite impactos la primera ronda contra tiradores).
+v391: Cuchilla de Latón (6 natural para herir: sin salvaciones ni regeneración).
+v390: Tatuaje Runa del Temerario (Frenesí, +1 impactar y enemigos +1 contra él).
+v389: Estandarte de la Bestia (carga), Tapiz del Triunfo de Sigmar (repite 1 para herir en la primera ronda).
+v388: Armadura de las Estrellas (inmune a Golpe letal), Sello de Parravon (3+ siempre impacta).
+v387: Anillo de Furia y Azote de los Cargados (hechizos atados), Escudo de la Gorgona (−1 I enemigos), Estandarte de Resiliencia (+1 R).
+v386: armas con chequeo al herir (Hoja de Nurglitch −1 R permanente, Maza Oscura herida extra, Hoja Gélida golpea último).
+v385: objetos de un solo uso con dispersión automática (Esquirla del Vórtice, Sangre del Sombrío, Cubo de la Oscuridad, Vial de Lammasu).
+v384: Reloj de Arena del Matador (−1 HA a monstruos), Estandarte de Gloria Caótica (+1 Ld a Demonios a 12").
+v383: Objetos de magia: +1/+N a lanzar o disipar, alcance de disipación (Cetro de Poder, Bastón Calavera, Condensador, Varita Tejemaldiciones) y auras anti-magia (Vórtice de Poder, Fragmentación, Amuleto de la Tempestad).
+v382: Objetos: Vanguardia/Movimiento de reserva/Etéreo por objeto, +D3 resolución (Victoria Impía, Superioridad, Matanza), Águila Ascendente, Amuleto de Piedra Bruja.
+v381: Objetos con efecto real: Hacha del Verdugo, Cetro Grabado, Martillo de Hashut (Golpe letal vs Inflamable), Hoja de Tzunki/Espada de la Ruina (sin salvaciones), Hoja Etérea, armas que curan (Antarhak, Bebedor de Sangre, Cuchilla de Sangre); corregido Miasma.
+v380: Ligado al infierno (repite dado de artillería 1/partida, −1 Avería, Miedo), Gran Muralla (terreno peligroso al cargar), Miasma del Lammasu, Espíritu Mirón (Devolver ligado NP 3).
+v379: Armadura del Pájaro Guerrero: Vuelo (9), Contracarga y Zancada; no puede unirse a unidades.
+v378: Cristal de Kunlan: 6 natural en la salvación = impacto F3 flamígero a cada enemigo en contacto.
+v377: Centinelas Cathayanos: obsidiana (chequeo de Ld al lanzar a 12"), granito (inmune a Heridas múltiples), piedra bruja (−1 R a enemigos en contacto), jade (Bola de fuego ligada NP 3).
+v376: Ataques aleatorios reales: Buscadores de Fatalidad (2D3) y Gors Deformes (D3).
+v375: Bestias de Nurgle (62 pts, unidad 2+, M5 F4 R5 H4, Ataques D6+1, Armadura Bane) y Nurglings (enjambre, 45 pts, H7 R3, Ataques D3+1) corregidos al libro.
+v374: Largamente insignificante (sin Pánico a amigos; solo admite personajes con la regla), Los recién muertos (resucitar por encima del tamaño inicial), textos de Espíritus ligados corregidos.
+v373: Orgullo marcial (desafíos), Armas malditas (mágicas), Luchar en fila extra; textos de reglas ya automáticas sin «(a mano)».
+v372: Hechicería centelleante: los Horrores Rosados lanzan Fuego Rosa como hechizo ligado con NP = bonus de filas.
+v371: Infiltración Eshin: Corredores de las Cloacas emboscadores entran a 12" de un Maestro Asesino (IA incluida).
+v370: Valor verminoso: el personaje herido (unidad de 10+) se retira a la retaguardia y sigue aportando su Liderazgo.
+v369: Guardianes del Templo: cualquier modelo puede desafiar/aceptar dentro del Mando de un Slann.
+v368: Buscador de atención (Bestias de Nurgle) puede dar/aceptar desafíos; Guardianes de la Guardia del Templo ya automáticos.
+v367: Escenarios Dawn of the Storm Dragon: Los dioses observan (Leonen), El poder de la Gran Cathay (disparo previo de máquinas), Juicio de los Dioses y Triunfo del Dragón (Hollum).
+v366: Vasallo arcano: el Slann puede lanzar hechizos con alcance/visión desde Skinks/Kroxigor amigos a 12".
+v365: Pantalla de escaramuzadores (Skink Kroxigor): el camino de movimiento puede atravesar Escaramuzadores amigos.
+v364: Motor: Aullido abisal (−1 Ld a 6"), Masas apresuradas (+Bonus de filas al Ld), Nube de moscas (−1 al impactar), Aguijonear a la bestia (+D3 Ataques en Mando), Ataque de cuchillas (como Lluvia de rocas), Bestia obstinada de la Mantícora; los Asesinos Ocultos se unen automáticamente a la mejor unidad de infantería.
+v363: Enanos del Caos (K'daai, Hobgoblins, Khan) y Daemons del Caos revisados: Daemónico (Ataques mágicos), Heraldos, Sanguinario (Carga daemónica, Carga furiosa), Señor del Cambio, Guardián, Bestia de Nurgle (Buscador de atención), Horrores (Hechicería centelleante), Chillones, Moledor de Almas.
+v362: Skaven revisados contra el libro: Valor vermino, Infiltración Eshin, Masas apresuradas, A salvo del daño, Nube de moscas; reglas de cada unidad (Ratas Gigantes bestias de guerra, Ogros Rata, Corredores, Monjes, Portadores...).
+v361: Reinos Ogros revisados contra el libro: Impactos (1)/(2) de Ogros y Carnicero, Carga de Toro, Gnoblars Largamente insignificantes y Trampas y lazos, Colmillotrueno, monturas con Cuernopétreo/Colmillotrueno.
+v360: No-muertos revisados contra el libro de Legends: Muertos Necrománticos (Regeneración 6+/5+, Miedo, Inestable...), Vampiros con Vitalidad oscura/Inflamable, Zombis y Esqueletos con Horda, Lobos Funestos (Carga babeante), Espectros, Vargheists, Terrorgheist; nuevas reglas Los recién muertos, Armas malditas, Orgullo marcial, Espíritus ligados.
+v359: Elfos Oscuros revisados contra el libro: reglas de Señor, Noble, Hechicera, Asesino (Oculto), Corsarios, Sombras, Verdugos, Guardia Negra, Hidra, Kharibdyss; nuevas monturas Mantícora, Pegaso Oscuro y Carro Corredor (Gran Maestro de Bestias).
+v358: Hombres Lagarto revisados contra el libro de Legends: reglas especiales de cada unidad (Kroxigor, Guardia del Templo, Salamandras, Jinetes, Stegadón...), armaduras y Pisotón; nuevas reglas Pantalla de escaramuzadores, Vasallo arcano, Cuidadores y Guardianes (a mano).
+v357: Troglodón: Oráculo Skink (Mago nivel 1, Batalla o Ilusión).
+v356: Troglodón: Mando 8 y Rugido Primigenio (1/partida, Carga Furiosa a Hombres Lagarto a 7"). Auditoría: saberes Naggaroth/No-muerte/Maw/Rata Cornuda/Hashut completos; gaps_core casi todo ya hecho.
+v355: Bestias: Saber de Magia Primigenia (6 hechizos del Arcane Journal: Llamada de lo Salvaje, Bosque Crepuscular, Bandada, Furia de la Bestia, Raíz Estranguladora, Sombra del Bosque) disponible para chamanes bestia.
+v354: Objetos mágicos, dones/iconos demoníacos, disciplinas Slann y poderes vampíricos de los 7 ejércitos Legends (Enanos del Caos, Demonios, Elfos Oscuros, Hombres Lagarto, Ogros, Skaven, Vampiros). ~130 objetos; efectos marcados (a mano) sin lógica en el motor.
+v353: Brebaje de la Bruja (Orcos AJ).
+v352: Runas de armas de ingenieros enanos (Arcane Journal 3).
+v351: Objetos mágicos de los Diarios Arcanos que faltaban: Reyes Funerarios, Caos, Bestias, Imperio, Bretonia (costes corregidos), Altos Elfos y tatuajes rúnicos de Matadores. Efectos automáticos donde el motor lo permite; el resto marcado (a mano).
+v350: Objetos mágicos de Cathay que faltaban (Arcane Journal + erratas): Estandarte de Wei-Jin, Icono de Furia Celestial, Ojo del Dragón, Bastión, Fragmento del Maw, Máscara del Alquimista, Anillo de Azabache, Linterna Espiritual, Feng Shi Bo, Pergaminos, Sello de Xing Po. Efecto automático: Miedo, Terror, Muro de escudos, -1 impactar, hechizos atados; el resto a mano.
+v349: Erratas FAQ Cathay 1.5.1: Linterna Celeste con R4, sin Inquebrantable y con Inflamable.
+v348: Escenarios del Amanecer del Dragón de la Tormenta: Una llegada oportuna, Asalto a Leonen (+50 PV unidades US10+ en zona enemiga / máquinas destruidas) y Recuperación de Hollum (monumento de Frydaal, +50 PV por personaje vivo / muerto en desafío). Contador de personajes muertos en desafío. No implementado: reglas especiales (Los dioses observan, Poder de Cathay, Triunfo del Dragón).
+v347: Altos Elfos del Diario Arcano: Ishaya Vess, Tejedor de Tormentas (+ unicornio), Compañía del Barco y Merwyrm (nuevas reglas Voz de mando, Ataques de precisión, Capa abisal, Frío debilitante).
+v346: Bárbaros del Caos según el perfil actualizado (Razing of Westerland): 6 pts, armadura ligera, Horda (armas a dos manos 7 pts). Culto Caótico: texto de reglas no disponible en los archivos.
+v345: Erratas Ravening Hordes: Caballeros del Caos con Contracarga; Dragón del Caos Impetuoso.
+v344: FAQ FoF: Saber rúnico dispersa con +3/+2/+1 y alcance 24/21/18 (el Nivel/2 solo para Magos); Runa de Vacilación: el enemigo ha cargado, no usa Presión del combate. faq_fof.txt revisado.
+v343: FAQ 1.5.2 (disparo a unidades con <5 modelos y personajes unidos del mismo tipo): primero un impacto por modelo, el resto a los personajes. faq_core.txt revisado completo.
+v342: FAQ 1.5.2: ceder terreno fuera de la mesa destruye la unidad; un personaje sin Vanguardia unido impide el movimiento de Vanguardia (salvo escaramuzadores).
+v341: FAQ 1.5.2: Vanguardia no puede cargar en el primer turno; Alabarda FP −2 contra lo que cargó.
+v340: Erratas FAQ 1.5.2 del libro básico aplicadas: modificador de lanzar/dispersar = Nivel/2 (redondeo arriba); Orden de combate +1 solo con US 10+; Presión del combate (segunda fila lucha, infantería regular/pesada sin lanza que no cargó); Infantería masiva (+1 RC con mayor US); Parada (mano+escudo: armadura +1 hasta 3+).
+v339: ESCENARIOS que faltaban (rules/new/sc_*.txt): Upon Shrouded Shores (marcadores de playa 50 PV / guarnición 100 PV, duración aleatoria desde la ronda 4), Toppling of the Waystones (Conductos arcanos +1 lanzar/−2 disfunción, Niebla densa −1 a impactar, 6 rondas o punto de ruptura, +250 PV por piedra), Seize the Tower (mesa 44x30, 5 rondas, torre +100, General 50, trofeos 25). Indómito (3) aplicado.
+v338: Cathay: Desenganche (Linterna del Cielo): en vez de ceder terreno retrocede en buen orden (FAQ).
+v337: Profeta en Lammasu: Resistencia mágica (-3) y Cerrar filas (libro).
+v336: Demonio de Hierro según libro (F8 R7 H7, 3+, Impactos D6+1, Pisotón D3+1 con FP -2 salvo behemots, Inmune a psicología, Indesmoralizable, no marcha).
+v335: Guardia del Templo: a 3" de un Slann, los impactos de disparo se transfieren con 2+ (libro Hombres Lagarto).
+v334: Skaven: Ratas Clan, Monjes de la Plaga y Ogros Rata con Horda y Banda de guerra (libro).
+v333: Skaven: Campana Aullante Terror + Resistencia mágica (-3); Foso Infernal Inmune a psicología + RM(-1); Horno de la Plaga RM(-1); Vidente Gris RM(-1) corregido.
+v332: Skaven según libro: Armas de piedra bruja (mágicas, PA -1) en señor/jefe/sacerdote, Resistencia mágica del Vidente Gris, Ogros Rata con Miedo, Cerrar filas y Escabullirse.
+v331: Guardia del Templo con Muro de escudos (libro Hombres Lagarto).
+v330: Hombres Lagarto según libro: Escudo Arcano (salvación mágica 5+) y Cerrar filas/Objetivo grande del Slann; Bastiladón con Defensa impenetrable (sin bonos de flanco/retaguardia), Inmune a psicología, Impactos D3, Tozudo.
+v329: Enanos del Caos conforme al libro Legends — Armas hechizadas (mágicas, PA−1) en Guardia/Ironsworn/Senescal/Taruk/Render/Centauros/Quemador de hombres, Reprimir pánico (Ironsworn → unidades con Levas), Quemador de hombres completo.
+v328: Ogros conforme al libro Legends — Yhetis (Frío entumecedor, Loner, Inflamable, sin escaramuza), Colmillos de Sable, Colmillotriste (Carga de Colmillotriste), Gorgers (Frenesí, Regeneración 6+, Garras PA−2), Cuernopétreo (Impactos D6+1, Esqueleto de piedra, Carga atronadora, sin Pisotón), Colmillotrueno (Pisotón 3, Impactos D3), Gigante (Ataques de gigante, Pisotón D6), Lanzachatarra (Impactos D6+1).
+v327: Daemons conforme al libro Legends — Sanguinarios (RM−1, Golpe hendiente, FP−1), Sabuesos (Contracarga, Armour Bane, RM−2, sin Zancada), Machacasangre (2 impactos, RM−1, Zancada), Zánganos, Demonetas (Perforante 2, +1 Ataque, sin Golpear primero/Zancada), Buscadores, Engendros (Almizcle soporífero), Horrores (Llamas 18" ×2), Lanzallamas (18" D3 FP−1), Bestia de Nurgle (Rastro de baba), Furias.
+v326: Daemons — Alineación daemónica: Odio Khorne↔Slaanesh y Nurgle↔Tzeentch, Khorne +1 F al cargar, Slaanesh +1 alcance/tirada de carga y persecución, Nurgle (el enemigo repite los 6 al impactar), Tzeentch +1 a lanzar.
+v325: Daemons — nueva unidad Carro Ardiente de Tzeentch (Vuelo 9, Impactos D6+1, Flamer Exaltado nivel 1).
+v324: Cañón de Calaveras oficial (M7 HA5, Impactos D3+1, Pisotón D3, disparo sólido 36" F8 PA-2 Perforante 2, Heridas múltiples D3). Auditoría de perfiles Legends: los perfiles base coinciden con los libros.
+v323: Elfos Oscuros — nueva unidad Santuario Sangriento (carro pesado con Medusa, Mirada petrificante, Impactos D6+1).
+v322: Elfos Oscuros — Bruja Sanguinaria en Caldero de Sangre (Bendiciones de Khaine, salvación 5+), Señor del Terror y Maestro en Carro de Saurios Fríos.
+v321: Daemons — Heraldo de Khorne en Trono de Sangre (Banquete de sangre, Tótem del derramamiento) y Heraldo de Slaanesh en Carro Buscador Exaltado.
+v320: Hans — Comandante mercenario: sus mercenarios no tiran en Mercenarios díscolos y usan su Presencia inspiradora.
+v319: Motor — Duelista experto (Harald, 2º desafío inmediato), Nekaph/Settra desafían/aceptan siempre y su desafío no se rechaza, Voluntad de los Dragones (repite Pánico), Ira de la Tormenta (Odio), Maestría de los vientos (+1 lanzar), Padre de Bestias (repite Borrachos).
+v318: Apophas — Segador de Usirian (nomina al personaje enemigo más caro: repite impactar/herir y sus impactos son mágicos).
+v317: Catay — Armonía de piedra y acero también repite el chequeo de Contención.
+v316: Catay — Armonía de piedra y acero: repite el chequeo de Ld al redirigir una carga.
+v315: Gors Deformes — Bendiciones del Caos (D6 al elegirse el combate: 1-2 veneno, 3-4 PA −2, 5-6 R+1).
+v314: Settra el Grande — Alcance de mando 18".
+v313: Nekaph — Campeón de Settra: en desafío, Golpe Mortal con 5+ al herir.
+v312: Hans — Maestría estratégica (+1 a la tirada de primer turno, en escenarios con tirada).
+v311: Burlok — Óptica telemétrica: ballesteros/trabucaires/máquinas enanas en su mando sin penalización de largo alcance.
+v310: Buscador de Fatalidad — Primero a la refriega (+D3 a la carga, +3" alcance máx.), PV: muerto 0 / vivo +100% al enemigo al final.
+v309: Vampiros: Invocacion de Nehek tambien en el Acolito Nigromantico y como Poder vampirico Acolito Oscuro (+30, nivel 1 a efectos de Nehek).
+v308: Personajes nombrados: Kralmaw Vision del futuro (especial 4+), Ghorros Craneo del Senor Unicornio (6+ / 5+ vs magico), Frydaal Comandante y Capitan (+1 Ld a Merodeadores/Jinetes/Huscarls/Berserkers en su mando), Ungrim Rey de la Fortaleza Matadora (Martilladores/Matadores unidos: Inmunes a psicologia e Inquebrantables).
+v307: Vampiros: La Sed del Rey Ghoul (6 en D6 tras causar heridas: +1 Herida; persigue con 1 D6); Carruaje Negro Incorporeo (boton en Mando: Eterio, Vuelo 10, sin Impactos hasta tu siguiente turno).
+v306: Guerreros del Caos: Engendros del Caos con Ravening Hordes (M 2D6 y A D6 aleatorios, Perforante 2, Movimiento aleatorio); Canon Infernal: Furia enjaulada + tabla de fallos (estalla / pierde Sirviente / se mueve 3D6).
+v305: Catay: Gran estratega (unidades amigas en su mando usan su Liderazgo, salvo el General), Baliza celestial (repetir Panico/Reagrupar a 12"; al rally se usa el alcance de Kineater 18" por ser Objetivo Grande).
+v304: Catay: Posicion defensiva (Guerreros de Jade repiten 1 de salvacion si no cargaron), Implacable (Centinela: 1/partida no cede terreno y repite carga), Catafractos (el seguimiento cuenta como carga), Impacto atronador del Gran Canon (-1 M y sin Zancada a 2D6 del impacto).
+v303: Lobos de Piel: Forma deformada (Transfiguracion automatica al combatir: Garras agrandadas FP+1/Perforante 2, Protuberancias +1 Ataque, Carne endurecida +1 R y +2 armadura), Regeneracion 5+, Escaramuzadores.
+v302: Aquelarre Oscuro (Dark Coven, Manada Salvaje, con la errata): Chamanes Bestiales +1 a lanzar/dispersar con otro mago amigo (no huyendo ni Estupido) en alcance de mando; doble 1 natural = Disfuncion tambien para esos magos.
+v301: Emboscada subterranea (Fuerza Expedicionaria): marcadores de Mina (2 + 1 por Mineros extra, colocados automaticamente cerca del centro fuera de la zona enemiga); los Mineros entran en reserva a 6" de un marcador (botones Mina n / IA), sin cargar ese turno.
+v300: Mercenarios Enanos Imperiales (Perros de Guerra para Montanas Enanas e Imperio): 5 variantes (mano, 2 manos, lanzas, ballestas, arcabuces), armadura ligera, Resueltos, MR-1, Muro de escudos.
+v299: Thorgrim: Piedra del Rencor colocable (boton fase de Mando): Inquebrantable, inmune a panico, Odio a todos los enemigos, sin mover salvo reformar. (Piedra del Rencor de Hombres Bestia ya estaba hecha.)
+v298: Enanos Clan Real: Guerreros I2 + Armadura de gromril, variante con grandes hachas de gromril (F+2 FP-3, sin Muro de escudos). Lore de Lustria verificado (2 hechizos, ya completo).
+v297: Ogros: Caldero de Carnicero (perfiles oficiales, Impactos D3+1, Ofrenda con boton + IA: Regeneracion 5+ o pierde 1 Herida), Panzafuego: Bendicion del Dios Volcan (4+ vs flamigero), Ataques flamigeros, aliento AP-1.
+v296: Lagartos: Acuatico (sin penalizador de movimiento en pantano) en Kroxigor, Salamandras, Razordones, Troglodon, Jefe y Sacerdotes Skink a pie.
+v295: Brujos de Fuego Maldito corregidos: sin ballesta, Aquelarre maldito (hechizo atado al azar de Magia Oscura/Demonología, Nivel 2/1/0 segun Maestro y Fuerza), Runas Oscuras 5+.
+v294: Ogros Grandes Nombres Kineater (repetir Pánico/Reagrupar en mando), Beastkiller (1 repetición/turno vs Objetivo Grande), Deathcheater (1 vez por partida).
+v293 — Hombres Lagarto: Furia del sapo de los Jinetes de Ripperdáctilo (marca automática sobre la unidad enemiga de más puntos; contra ella +1 Ataque y repiten 1 al impactar, aplicado a toda la unidad).
+v292 — Daemons: Favor infernal (X) en Heraldos y Bestias de Nurgle (1) y en los Daemons Mayores y el Príncipe Daemonio (2): reduce las heridas por Inestabilidad daemónica.
+v291 — Enanos del Caos: opción Ligado al infierno (+30) para Mortero Terremoto, Lanzacohetes Gritamuertes y Cañón de Magma (salv. 6+ contra no mágicos, Terror, ataques mágicos). Falta el Demonio de Hierro.
+v290 — Ogros: Gran Nombre Mountaineater (nunca se le hiere con un 2). Quedan Kineater, Beastkiller y Deathcheater.
+v289 — Condes Vampiro: Invocación de Nehek de los Nigromantes (fase de Mando: chequeo de Liderazgo y una unidad No muerta a 12" recupera/resucita Heridas según su tipo y el nivel); botón en la ficha y uso por la IA. Faltan Nigromantes menores, vampiros con Nehek y los Recién Muertos.
+v288 — Enanos del Caos: Armadura de Escudo Negro (salv. 5+ contra fuego) en Guardia, Juramentados, Centauros, Castellano y hechiceros; Nacido del fuego (3+ contra fuego) en los Taurus; Estampida (impactos PA −2) y Miedo/Impactos D3 en los Centauros Toro.
+v287 — Condes Vampiro: Lamento (Banshee y Terrorgheist): en la fase de Disparo, un enemigo a 8" hace un chequeo de Liderazgo −2 y sufre tantas heridas como el fallo, sin armadura ni Regeneración; botón en la ficha y uso por la IA.
+v286 — Cuerpo ardiente de los Taurus de Hashut (1 impacto F3 flamígero a cada modelo en contacto al inicio del Combate) y Mirada pétrea de la Medusa Sangrienta (Iniciativa o D3 impactos F2 sin armadura).
+v285 — Enanos del Caos: Puñalada trapera (repite los fallos al impactar contra flancos y retaguardias) en las unidades hobgoblin que la tienen.
+v284 — Catay: Miao Ying se transforma entre forma Humana y Dragón en la fase de Mando (botón en su ficha); la primera vez que cae en forma Dragón revierte a Humana con D3 Heridas y ya no puede volver a Dragón. Sin colocar el modelo a 6" ni a 1" de aliados (cambia en el sitio).
+v283 — Enanos: el Carro de Minero explota al caer en combate (4+: D6 impactos F3 FP −1 flamígeros a 3").
+v282 — Enanos del Caos: Profeta Hechicero en Taurus Funesto (+160; figura del Gran Taurus). Sin salvación especial contra fuego.
+v281 — Enanos: el Carro de Bugman da +1 de Movimiento a las unidades enanas a 6" (no huidas ni trabadas).
+v280 — Enanos del Caos: Profeta Hechicero en Lammasu (+95; figura del Gran Taurus). Sin Miasma hechicero ni Resistencia mágica (−3).
+v279 — Enanos: Carros Enanos (de Bugman y de Minero; sin sus efectos de zona/explosión) y Cortagoblins (0-1, ráfaga aproximada). Figuras provisionales del Lanzavirotes.
+v278 — Enanos: Buscador de Fatalidad (0-3, figura de Matademonios; sin bonus de PV al enemigo ni +D3 a la carga).
+v277 — Hombres Lagarto: Lluvia de rocas de los Jinetes de Terradón (una vez por partida, D3 impactos F4 por modelo que sobrevuela a una unidad no trabada). Furia del sapo y Acuático pendientes.
+v276 — Guerreros del Caos: Engendros de Khorne (Golpe mortal), Nurgle (Veneno), Slaanesh (Ataca primero) y Tzeentch (flamígeros y mágicos), como variantes del Engendro del Caos.
+v275 — Ogros: Grandes Nombres con efecto de perfil (Mawseeker +1 R, Giantbreaker +1 F, Longstrider +1 M), elegibles como objeto del personaje. Kineater, Beastkiller, Deathcheater y Mountaineater pendientes.
+v274 — Hombres Lagarto: Veterano Sangrevieja y Veterano Cicatrices montados en Carnosaurio (+170; usan la figura del Stegadón). Pendientes: Piedras que caen, Furia del sapo, Acuático.
+v273 — Condes Vampiro: Rey Ghoul Strigoi (figura del Varghulf; sin La Sed).
+v272 — Guerreros del Caos: Engendros del Caos (sin variantes de dios, M y A aproximados) y Cañón Infernal (0-1; sin tabla de fallos). Figuras provisionales (Engendro de Slaanesh, Cañón de Magma).
+v271 — Enanos: Guerreros del Clan Real (lista Clan Real, básica) y Girocóptero Explorador (Fuerza Expedicionaria; arma aproximada). Pendientes: Doomseekers, Carros, Goblin-Hewers, Veteranos reales, Mercenarios Imperiales.
+v270 — Bestias (Manada Salvaje): Gors Deformes (figura de Gor; ataques aleatorios aproximados a 2, Bendiciones del Caos pendientes). Ungor Ravagers pendientes.
+v269 — Daemons: Hellflayer de Slaanesh y Horrores de Azufre de Tzeentch (figuras del Carro de Buscadores y Horrores Azules). Los demás carros y tronos de Daemons solo existen como montura de personaje.
+v268 — Elfos Oscuros: Brujas Elfas, Jinetes Oscuros y Medusa Sangrienta (usan figuras provisionales: Hermanas, Jinetes de Ellyrion, Hechicera). Sin Horda/Solitario en las Brujas Elfas. Carro de Gélidos y Santuario de la Medusa son solo montura de personaje, pendientes.
+v267 — Skaven: Lanzallamas de Disformidad, Mortero de Viento Envenenado, Perforadora de Disformidad (emboscadora) como máquinas independientes, y Sacerdote de la Plaga en Horno de la Plaga (+170). Los equipos de arma como mejora de unidad aún no están.
+v266 — Condes Vampiro: Carruaje Negro (0-2, usa la figura del Carro de Cadáveres; sin fase incorpórea) y Enjambres de Murciélagos (figura de Murciélagos Funestos). Ghoul King pendiente.
+v265 — Condes Vampiro: nuevas unidades Caballeros de Sangre, Vargheists y Terrorgheist (Vargheists/Terrorgheist usan provisionalmente la figura del Varghulf: el mod no trae miniatura propia). Pendientes: Carruaje Negro, Ghoul King, enjambres de murciélagos.
+v264 — Dinastía de Jade: Globos de guerra (0-1 Linterna Celeste emboscadora, +15 pts, repite una vez por partida la tirada de llegada). Instrucción de arcabuz mercenario: las tropas de misiles del Estado ganan +1 fila una vez por partida.
+v263 — Tapetes nuevos del mod (Old World Setup): Pradera y Tierra con rocas, además de la Piedra rúnica de siempre; se cambia con el botón «Tapete» del menú (se recuerda). Escenografía nueva: seis montones/losas de roca (ruinas y colinas). El Templo de Calaveras no se añade: su textura viene vacía en los archivos. Los demás archivos nuevos son cartas (hechizos, misiones, despliegues) y texturas de miniaturas; el cielo de selva (panorama) no se usa.
+v262 — Flota de Jade: Pólvora cathayana (arcabuceros y pistoleros mercenarios +3" de alcance en su primer disparo). Pendiente: Guerra de globos, Instrucción de arcabuz mercenario; Miao Ying; Rocas/Rabia del Sapo, Daemonic.
+v261 — Flota de Jade (Catay): Unidad y Armonía (Guerreros y Jinetes de Jade a 3" de una unidad mercenaria amiga repiten los 1 naturales para impactar). Pendiente: pólvora cathayana (+3" de alcance al primer disparo), Guerra de globos, Instrucción de arcabuz mercenario; transformación de Miao Ying; Rocas/Rabia del Sapo (Lagartos), Daemonic.
+v260 — Condes Vampiro: Vitalidad oscura en Condes, Esbirros y Nigromantes (pueden marchar aunque sean No muertos, salvo si van unidos a una unidad sin la regla). Pendiente: Rocas y Rabia del Sapo (Lagartos), Daemonic (Demonios); Catay.
+v259 — Elfos Oscuros: Bendición de Hekarti (Hechicera Oscura y Suprema Hechicera: una vez por partida repiten una tirada de lanzamiento fallida). Pendiente: Vitalidad Oscura, Rocas, Rabia del Sapo, Daemonic; Catay.
+v258 — Capa de Dragón Marino (Corsarios Oscuros: armadura +1, máx. 2+, contra disparos no mágicos) y Golpe hendiente (Cleaving Blow) en Guardia de las Tumbas y Caballeros Negros, según los libros Legacy. Pendiente: Brujería de Hekarti, Vitalidad Oscura, Rocas, Rabia del Sapo, Daemonic; Catay.
+v257 — Elfos Oscuros (libro Legacy): reglas Asesino (Murderous: repite las tiradas para herir de 1 natural en combate) y Odio eterno (Odio en todas las rondas contra Altos Elfos) en personajes, Verdugos, Hermanas, Hidra y Guardia Negra según el libro. Pendiente: Brujería de Hekarti, Runas Oscuras, Mirada Pétrea, Aullido Abisal, Capa de Dragón Marino, Aquelarre Maldito; Vampiros, Lagartos y Ogros (resto); Catay.
+v256 — Catay: Centinelas cathayanos con las cuatro variantes del Arcane Journal como unidades separadas: jade (250), obsidiana (255, Resistencia mágica −2), granito (265, armadura +1) y piedra bruja (270, Ataques mágicos); el hechizo ligado del jade y los efectos de proximidad de obsidiana/piedra bruja/granito aún no están. Altos Elfos: Merwyrm, Leones de Guerra e Ishaya Vess NO se añaden porque no hay miniatura en los mods (se añadirán si se aportan los modelos).
+v255 — Altos Elfos (Arcane Journal): Caudillo Chracio en Carro del Caudillo (210), Korhil Melena de León en Carro del Caudillo (280) y Comandante de la Guarnición de la Guardia Marina (90, arco de guerra); disponibles también en la Hueste de Chracia. Usan miniaturas existentes (Noble, Carro de Leones). Pendiente: Merwyrm, Ishaya Vess, reglas Campeones de Chrace/Sendas Ocultas; Catay; reglas Legacy avanzadas.
+v254 — Altos Elfos (Arcane Journal Elves of Ulthuan): nuevas unidades Caudillo Chracio (105), Korhil Melena de León (175, personaje especial), Guardia del León (18) y Leñadores Chracios (12), disponibles en el ejército y en la Hueste de Chracia; usan las miniaturas de Noble/Leones Blancos (no hay miniatura propia). Pendiente: Carro del Caudillo, Guardia Marina Garrison, Mantícora/Merwyrm, Ishaya Vess, reglas Campeones de Chrace/Hidden Trails; Catay; reglas Legacy avanzadas.
+v253 — Enanos del Caos: Resolutos (−1 a huida y persecución) en Castellán, Senescal, Forjademonios, Profeta, Guardia Infernal y Juramentados; Levas en Hobgoblins y Jinetes de Lobo. Demonios: Khorne es Impetuoso (no Frenético) en Sanguinarios, Heraldos, Machacasangre y Sanguinario; Regeneración de Nurgle (6+ Heraldos, Portadores, Nurglings y Zánganos; 5+ Gran Inmundo y Bestia). Pendiente: Daemonic/Favor Infernal, Retaguardia, Estampida, Cuerpo Ardiente, etc.; Elfos Oscuros, Vampiros, Lagartos y Ogros (resto); Altos Elfos AJ; Catay.
+v252 — Reinos Ogros (libro Legacy): Miedo en Tiranos, Matones, Carniceros, Maestros Matarifes, Cazadores, Panzafuego, Toros, Panzahierro, Plomiescupidores, Devoradores y Caballería Colmillotriste; Impactos de carga (1 por modelo en primera fila; 2 en Tirano/Matón/Carnicero/Matarife; D3 Colmillotriste) con Carga de ogro (la PA mejora con el bonus de filas). Pendiente: Cazador/Maestros con sus reglas de linaje, Bendición del Dios Volcán, Escalofrío Entumecedor, Colmillotrueno, etc.; Enanos del Caos, Demonios, Vampiros, Elfos Oscuros, Lagartos (resto); Altos Elfos AJ; Catay.
+v251 — Hombres Lagarto (libro Legacy): nueva regla Sangre fría (chequeos de Miedo, Pánico y Terror con D6 extra descartando el más alto) en todas las unidades; Hojas de Obsidiana (PA -1) en Sangrevieja y Cicatrices; Guerreros Saurios ya no son Tozudos (no lo son en el libro). Pendiente: Acuático, Escudo Arcano, Vasallo Arcano, Rocas, Rabia del Sapo, Frenesí de Sangre, Lore of Lustria y resto de listas Legacy; Altos Elfos AJ; Catay.
+v250 — Condes Vampiro: Indómito (Indomitable) oficial en Condes (2), Esbirros, Nigromantes, Reyes Tumulario, Guardia de las Tumbas, Horrores, Varghulf y Carro de Cadáveres (1): reduce las Heridas perdidas por Inestable. Pendiente: Vitalidad Oscura, Golpe Cercenador, Inflamable, resurrección, Lamento Fúnebre; resto de listas Legacy; Altos Elfos AJ; Catay.
+v249 — Condes Vampiro (libro Legacy): todas las unidades no vivas tienen Regeneración (6+) y Condes, Esbirros, Nigromantes, Reyes Tumulario y Varghulf Regeneración (5+), como en el libro oficial (antes la mayoría no tenía). Pendiente: Indomitable, Vitalidad Oscura, Golpe Cercenador, Inflamable, Resurrección (Los Recién Muertos), Lamento Fúnebre y demás; resto de listas Legacy; Altos Elfos AJ; Catay.
+v248 — Elfos Oscuros: Arpías con Exploradores (como en el libro oficial) en lugar de Vanguardia. Revisión de reglas especiales Legacy de Elfos Oscuros: la mayoría de reglas oficiales (Matador, Odio Eterno, Brujería de Hekarti, Runas Oscuras, Aullido Abisal, Mirada Pétrea…) aún no están en el motor; pendientes junto con Vampiros, Lagartos, Ogros, Enanos del Caos y Demonios.
+v247 — Skaven (libro Legacy oficial): nueva regla Escabullirse (+1 a la tirada de huida) en todas las unidades skaven que la tienen; eliminada la Zancada veloz inventada de Ratas, Vermín, Monjes, Corredores, etc. Pendiente: resto de reglas Legacy (Elfos Oscuros, Vampiros, Lagartos, Ogros, Enanos del Caos, Demonios), Altos Elfos AJ, refinar Catay.
+v246 — Erratas del libro básico (FAQ 1.5.2) aplicadas al motor: Impetuoso = test de Liderazgo (si lo falla debe cargar; si lo pasa actúa normal); tope de armadura 2+ infantería/caballería y 3+ carros/monstruos/máquinas; valores de lanzamiento corregidos (Espada Flamígera 7, Murallas de Tierra 9, Cábala Mortal 8, Vórtice Espiritual 10, Maldición de los Años 9, Puño de Gork 8, ¡Ahí Vamos! 8, Escudo de Saphery 8, Espejismo Miasmático 10, Recipiente Demoníaco 9, Huida Cobarde 8, Convocación Confusa 8, Puerta Infernal 9); Hoja de Ogro 75 pts; Anillo Rubí de la Ruina 35 pts, Nivel de Poder 1. Pendiente: resto de erratas de texto, reglas Legacy, nuevas unidades AJ Altos Elfos, refinar Catay.
+v245 — FAQ y Errata 1.5.2 (parcial, lo numérico): Mando de General 10, Capitán 9, Lector 9, Sacerdote de Sigmar 8; Espadones F4, Flagelantes R4; Guardia del Claro 10, Guardia Eterna 12, Dríadas M6, Jinetes del Claro 17 (mín. 4), Hermanas de la Espina 22, Jinetes Salvajes 26, Araloth 150, Orión sin Miedo; Peregrinos 6, Caballeros Pegaso 59; Minotauros 44, Centigors 17, Ogros Dragón 59, Carros Esqueleto 41; Leones Blancos con Carga furiosa; valores de lanzamiento de Mirada Ardiente, Caminante del Bosque, Bandada de la Perdición, Furia de Athel Loren, Mano de Khaine, Revientasesos, Maldición de Mork, Marea Vil, Usekhp, Torrente de Inmundicia y Regeneración Rápida. Pendiente de aplicar: erratas de texto de reglas del libro básico (rules/new/faq_core.txt) y objetos.
+v244 — Perfiles y puntos oficiales de las listas Legacy aplicados a Elfos Oscuros, Skaven, Condes Vampiro, Hombres Lagarto, Reyes Ogros, Enanos del Caos y Demonios (M/HA/HP/F/R/H/I/A/Ld y puntos de cada unidad; montados: solo puntos; las reglas especiales siguen como estaban, por revisar). Nuevas listas de ejército: Hueste de Chracia (Altos Elfos, Arcane Journal Elves of Ulthuan) y Flota de Jade (Catay, Dawn of the Storm Dragon) con las unidades que ya existen. Pendiente: Chieftain y Woodsmen de Chracia, Lion Guard, War Lions, Merwyrm, Korhil Lionmane, Ishaya Vess, Garrison de la Guardia Marina, FAQ 1.5.2, reglas especiales Legacy. Textos en rules/new/.
+v243 — Gran Catay con el Arcane Journal oficial (Armies of Grand Cathay): perfiles y puntos reales de Maestro/Guardián de la Puerta, Magistrado/Estratega, Shugengan (criatura monstruosa 60×100, vuelo, Armadura celestial 5+), Miao Ying (formas Humana 485 pts y Dragón), Guerreros de Jade (8 pts), Lanceros de Jade (20 pts + caballo), Cañón (48"), Cohetes Lluvia de Fuego, Linterna Celeste (chariot, cañones grulla), Centinela (230 pts). Quitadas las unidades inventadas (campesinos, artilleros, colisionador, etc.). Lores de Yang/Yin (parcial: Constelación, Muralla, Guerreros ancestrales, Furia de la Tormenta) con hechizos de dos niveles; 8 objetos. Pendiente: transformación de Miao Ying en partida, opciones Centinela (jade/obsidiana/granito/piedra bruja), cargador ogro, bombas, Viento Yang/Yin, resto de hechizos y objetos, Flota de Jade. Datos leídos en rules/new/cathay_notes.md. Textos nuevos (Altos Elfos AJ, listas Legacy, FAQ 1.5.2) en rules/new/.
+v242 — Botón 🔍 arreglado: ahora acerca de verdad (la unidad llena el ancho; tope de zoom subido de 60 a 170, también con el pellizco). Más textura en todo: grano de pintura fino en las miniaturas, trama de tela en las banderas y grano/relieve en casas, ruinas, muros, árboles procedurales, mesa de madera y figuras sin modelo. Sin publicar.
+v241 — Imagen más limpia: el tinte de las zonas de despliegue es la mitad de intenso (ya no tapa el tapete con una mancha de color) y viñeta suave en los bordes de la pantalla. Sin publicar.
+v240 — Botón 🔍 «acercar a la unidad»: centra la cámara y hace zoom en la unidad tocada (otra pulsación vuelve a la vista anterior). Texturas HD de las miniaturas recodificadas a más calidad (AVIF q60 en vez de q42, misma resolución 1536: sin más memoria de GPU). Sin publicar.
+v239 — Afinado y relieve con límite automático: donde la textura de la miniatura ya tiene mucho contraste fino (p.ej. Necrófagos) se reducen solos, sin moteado; en el resto todo igual. Tercer paso. Sin publicar.
+v238 — Follaje con bordes de hoja suaves (alpha-to-coverage con MSAA) en vez de recorte dentado. Segundo paso (aparte de las normales de los esqueletos). Sin publicar.
+v237 — Esqueletos y figuras de pocos polígonos con normales suavizadas (menos facetado, misma silueta). Primer paso de dos (el follaje suave va aparte). Sin publicar.
+v236 — Se revierten los cambios de las v234 y v235 (follaje con alpha-to-coverage, normales suavizadas y color de miniaturas), que dejaban la carga colgada en el iPhone; vuelve a ser equivalente a la v233. Sin publicar.
+v235 — Esqueletos y figuras de pocos polígonos con normales suavizadas (menos facetado, misma silueta) y color de las miniaturas algo más vivo. Sin publicar.
+v234 — Follaje con bordes de hoja suaves (alpha-to-coverage con MSAA) en vez de recorte dentado. Sin publicar.
+v233 — Más espacio y más detalle: las mallas HD van ahora en binario comprimido (deflate, deltas por planos; ~28 MB menos) y se han reexportado a hasta 16.000 triángulos por modelo las miniaturas que estaban limitadas a 11.000 (Condes Vampiro, Cathay, Elfos Oscuros, Imperio, Orcos, Hombres Lagarto, Skaven, etc.). Requiere un navegador con DecompressionStream (iOS 16.4+). Sin publicar.
+v232 — Faldón de las colinas sin puntos de tramado (se funde con alpha-to-coverage y MSAA) y banderas sin el grano de cuadrícula. Sin publicar.
+v231 — Peanas y banderas con más textura: la bandeja de la peana es algo más clara y con grano de gravilla/flocado, y las banderas con tejido; sin tocar tamaños. Sin publicar.
+v230 — Figuras centradas en su peana: el cuerpo (no las armas largas) queda en el centro de la base, sin cambiar el tamaño de peanas ni de miniaturas (se respeta el reglamento). Sin publicar.
+v229 — Tapete y hierba más nítidos: grano del tapete más fino y suave (antes se veía "gusanillos"), y afilado + menos desenfoque de mipmap en el tapete y en la vegetación. Sin publicar.
+v228 — Más definición en miniaturas: relieve a partir del brillo de la textura (la luz del sol marca huesos, grabados y tela), sombras levantadas en figuras oscuras con un borde de luz algo más marcado, y grano fino sobre el tapete para que no se vea blando al acercar. Sin publicar.
+v227 — Oclusión ambiental: nueva pasada cenital que oscurece suavemente el contacto de figuras, peanas y escenografía con el tablero (12 muestras con ruido, calidad Alta y básica a menor resolución). Bordes: antialiasing MSAA ya activo en calidad Alta.
+v226 — Calidad gráfica: sombras con el doble de resolución (mapa de 4096 px, bordes más nítidos y suaves) y curva de contraste en S suave en toda la escena para más profundidad.
+v225 — Miniaturas: se suaviza el realce de nitidez (0,7→0,25) y el sesgo de mipmap (−1,3→−0,4) porque con texturas grandes y figuras pequeñas producían grano/ruido en lugar de detalle.
+v224 — Texturas de miniaturas a 1536 px (antes 1024) en calidad Alta, cargadas bajo demanda (hasta 24 a la vez en móvil); más detalle en los grupos de figuras que comparten hoja de textura. Mallas detalladas con tope ~11.000 triángulos para respetar el límite de tamaño.
+v223 — Miniaturas más nítidas con el zoom alejado: sesgo de mipmap −1,3 y filtro de nitidez en la textura de las figuras.
+v222 — Más detalle aún en las miniaturas: tope de las mallas detalladas subido a ~16.000 triángulos (Bestias, Cathay, Enanos, Imperio, Hombres Lagarto, Orcos y Goblins, Skaven, Condes Vampiro y Elfos Silvanos). Antes ~10.000.
+v221 — Miniaturas con más detalle en calidad Alta: mallas detalladas nuevas (hasta ~10.000 triángulos, unas 4× más) para ~230 modelos de todos los ejércitos, generadas desde las mallas originales del mod (mismas texturas y aspecto, solo más geometría). Quedan sin mejorar ~30 modelos cuya malla original no se pudo localizar.
+v220 — Miniaturas más nítidas de lejos en 3D: sesgo de mipmap (−0.9) solo en figuras y filtrado anisotrópico 16×. Las miniaturas ya usaban la malla/texturas de máxima calidad (Alta) en tu iPhone.
+v469: Runas de arma del Ingeniero (Perforar, Llama Estallante, Fuerza Conmocionante, Precisión, Fuego Rápido, Acero Fundido, Encantada, Matar) y tatuajes Batalla Sin Fin / Deshonrado implementados en el motor; Maestría de los Vientos Elementales ya es 1/turno por ejército (FAQ).
+v470: Legends Demonios sin (a mano): Guerra Eterna, Horror Alado (Volar 8), Devorador de Hechizos, Nurglings (ataques I2 + enjambre), Gaitero, Escriba, Torrente de Contagio, Virulencia, Cautivadora, Canto de Sirena, Aquiescencia, Sirena, Voluntad de Tzeentch, Cambio, Hechicería.
+v471: Legends Elfos Oscuros sin (a mano): Tomador de Vidas, Látigo de Agonía (−1 R permanente), Colgante de Khaeleth (5+/4+), Estandarte de Sangre Fría, Huevo de Dragón Negro (R6 + aliento nocivo), Diente de Hidra, Ojo Guía, Bastón Negro, Familiar de Enfoque.
+v472: Legends Hombres Lagarto/Ogros/Enanos del Caos sin (a mano): Báculo del Sol Perdido, Jaguar, Uno Cornudo, Larva Itxi, Manos Ahuecadas, Disciplinas Slann, Mazo del Trueno, Fragmento Brillante, Maw Rúnico, Tótem Caníbal, León de Jade, Laureles, Libro de Cocina, Hoz de Grut, Máscara del Horno, Brazales de Obsidiana.
+v473: Legends Skaven sin (a mano): Hoja Funesta, Globo de la Muerte, Escudo Cauteloso, Estandarte de la Tormenta, Skalm, Skavenbrew, Fichas de Piedra Bruja.
+v474: Vampiros Legends sin '(a mano)': Artes Negras (+1 nivel), Señor de la Noche (cura D6 a Murciélagos/Lobos), Yelmo de Mando (+D3 HA), Cetro de de Noirot (Nehek x2, D6=1 pierde Herida), Estandarte Gemebundo (D6 extra de Miedo). Pendiente: opciones de nivel de mago de Conde/Esbirro (+30/+60) no modeladas.
+v475: Cuidadores reales: Cuidadores de monstruos (Hidra/Kharibdyss: 2 Cuidadores, D6 5+ cae uno, +Ataques F3, perfiles Legends con ranuras de arma, Ataques extra +Heridas, aliento F=Heridas), Cuidadores Skink de Salamandras/Razordones y Maestros de Manada de Ogros Rata (A salvo del daño: D6 5+ por impacto de disparo) con selector y coste; Pantalla de escaramuzadores completa (visión y desplazamiento); Engendro de la disformidad (sin Regeneración contra magia); Brebaje de la Bruja (Saber Troll).
+v476: Carro de Guerra exacto (disparo con armas distintas por lote: trabuco/rifle largo/rifle de repetición; combate con bola y cadena —Golpea al final en su propio lote—, alabarda, atrapahombres; A8 con caballos); Goblin-Hewer, Girocóptero (Golpea y huye), hechizos de Magia Primigenia, Mawseeker, arpón de carro de Elfos Oscuros, Frenesí de sangre del Carnosaurio, Horrores Rosados; Escamas Relucientes (repetir 1 impacto/turno); Desenganche de Catay según FAQ (seguir 2" sin perseguir; retirada tras ganar); Bombas cathayanas (pólvora +5, fuego de dragón +10/+20, fusiles de granizo sin penalizadores, Bombas de Linterna Celeste con tabla de Bombardeo).
+v477: Formación en Lanza (cuña: anchura de la fila mayor, profundidad k filas; bordes atacan, se embota al cargar sin contracarga/desordenada; sin giros en el sitio); Carro de Guerra como montura de Ingeniero imperial; Ogro Cargador de Catay (M+1, bombas); Pánico de «shaden» también tras cargas; Unidades regimentales y destacamentos (Ld compartido, Fuego y Carga de apoyo, despliegue a 3"). Herdstone de Profeta y Cazador revisado (Monolito Arcano + Monumento de Gloria). NO modelado: Formación Extendida (abstracción de bloque); Stirhügel ahora con colocación alternada real (el atacante coloca una unidad no-personaje en una zona libre, luego el defensor, hasta 3 cada uno; después un personaje por bando con una unidad desplegada; el resto a reservas): toca «Elegir» y la zona en el tablero; la IA elige sola.
+v477 (figuras): Hombres Lagarto con las 28 miniaturas originales: añadidos Carnosaurio (Sangrevieja y Cicatrices) y Cuidador Skink en xp_lm.json.
+v478-v490: Hueste Real Nehekhariana; sistema de opciones de unidad (opts) en todos los ejércitos; escaramuza con separación por modelo y Formación Extendida; destacamentos; Piedra de las Manadas; fuego indirecto de Bombardeo; evasión de personaje solitario; cargas por lotes; Lanza.
+v491: Legends revisado contra libros: lores, bases, mínimos y tipos de tropa, costes de mando; Príncipe Demonio con opciones y alineamientos; Enanos del Caos (Mortero Terremoto, Maldición del Hechicero, Deathshrieker, Demonio de Hierro con Cañonada, Ingeniero Infernal, Guardia Infernal, Arma Darkforged, Gran Taurus).
+v492: costes de mando de Arcane Journals/Catay/SC verificados (Guerreros del Clan Real 6/6/6, Ogros de las Tierras Yermas 6/6/6); Sangre de Hashut (viales de 20 pts: D6 impactos que hieren con el valor de armadura, sin salvación de armadura).
+v493-v494: equipos de armas Skaven adjuntos a su unidad matriz (Destacamento: despliegue a 3", Liderazgo + filas, protección de blanco, Perforadora da Emboscadores) y Segadora del Destino; el editor los adjunta solos a una matriz libre.
+
+v494: personajes con dos armas de proyectil/combate; Celo Fanático; Variopinto (Ogros Imperiales con armas por modelo); Ingeniero Infernal repite dispersión.
+- v495: Aparejos de cañón (Nuln) y Terrores de las profundidades como mejora de pago del Escorpión.
+- v496: auditoría contra libros y FAQ (también Urgencia Arcana, Fanáticos, Bombas de dragón, Engendro 2D6+1): perfiles Plaga Garra / Motor Mortis / Cañón de Hierro; erratas del Imperio (Espadones, Flagelantes, Liderazgos); Runas del Yunque; opciones del Ironwarden; Martilladores; Laureles de la Victoria y Mortaja de Hierro; Pegaso Real +70; alabardas de asta con elección de perfil.
+v496: vórtices (Pilar de Fuego, Pie de Gork, Vórtice del Caos) y Vórtice de Espíritus ajustados a FAQ.
+v497: Conveyance no se puede lanzar si el mago cargó ese turno (FAQ Core).
+v498: Reprimir Impetuosidad = repetir test de Liderazgo; Pigstikka de Porko solo carga (FAQ Ravening Hordes).
+v499: Títere Infernal alcance 15" (FAQ Ravening Hordes).
+v500: Mayal de Calaveras (F+3 solo contra enemigos cargados) y Armadura de las Eras (solo infantería/caballería/carro), FAQ Ravening Hordes.
+v501: Trenes de bagaje según el libro y la FAQ: impasables, destrucción al inicio de turno, control US10+ a 6" con más cercana/disputado, sin disparo ni hechizos de alcance al tocarlos, no dentro de terreno. Remolino Fétido: terreno difícil.
+v502: Bosque de Emboscada y de Guerreros del Páramo: el jugador lo coloca y dimensiona en el despliegue (acción forestPlace + botones ◀▶▲▼ ancho/alto).
+v503: alabarda sin apoyo al cargar (FoF), Caballeros Pegaso = caballería monstruosa, regla Torpe (Clumsy) al unir personajes.
+v504: Torrente de Duendes = terreno difícil (FAQ Wood Elf); K'daai: Quemahombres (campeón +7) disponible.
+v505: Orion: Lanza de Kurnous con su perfil a distancia (18", F+1, FP -2, Heridas múltiples D3, Atravesar), elegible al disparar.
+
+v506: variantes bretonianas, reparto de impactos a personajes, Contracarga (unidad entera), Urgencia Arcana según Core.

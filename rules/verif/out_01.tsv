@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+aj_chaos2.tsv	aj_chaos2-110	CONFIRMA	data.js CMD.woc_berserkers=[8,6,6] (champ/std/mus) y opt 'amb' Emboscadores +1 en UNITS.woc_berserkers.opts (data.js:6018-6022); coincide con la fuente.
+aj_empire2.tsv	aj_empire2-035	CONFIRMA	data.js:3727 CMD.emp_chaptermaster std +25; data.js:4785 solo Maestre de Capitulo puede ser PEB en Ordenes; itemIssues(bsb) no aplica limite al estandarte magico (data.js:3387).
+aj_bretonnia.tsv	aj_bretonnia-145	CONFIRMA	rules.js:2766-2771 (no 2293): bombardMis tabla Bombarda: 1 destruida, 2-3 pierde 1 Herida y no dispara, 4-5 no dispara, 6 dispara; coincide con la tabla del AJ.
+aj_beasts2.tsv	aj_beasts2-006	NO_VERIFICABLE	El texto fuente solo trae etiquetas de la figura (6, 18, 12, 9 pulgadas) sin orientacion; no se puede validar z:[R_(6,30,66,48),R_(18,9,54,27)] (rules.js:252), p.ej. los 3 pulg entre zonas.
+aj_tk2.tsv	aj_tk2-056	CONFIRMA	data.js:4442 apophas: M4 HA4 HP3 F4 R3 H4 I1 A5 Ld8, 130 pts; coincide con aj_tk2 L1017.
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-217	CONFIRMA	data.js:5860 opcion hb del Demonio de Hierro: addSr hellbound+terror+magical, delSr fear (base tiene fear, data.js:2193); variantes de maquinas (data.js:3795) no tienen Miedo previo.
+aj_bretonnia.tsv	aj_bretonnia-056	CONFIRMA	data.js:4663 catsOf: list==='crusade' move(['br_pilgrims','br_pilgrims_rel'],'special','core') una sola vez = 0-1 unidad como Basica; la nota del TSV es erronea, el codigo si lo hace.
+core_2.tsv	C2-138	CONFIRMA	rules.js:4009-4017 tryDispel: doble 1 natural de Mago (no ligado) -> miscast(); 8-9/10-12 dispersan y bloquean mas dispersiones (noDispK); 2-7 efectos de la tabla normal sobre el Mago.
+faq_libros.tsv	R29	PARCIAL	data.js:2323 strangleroot tiene cv: 9 (valor original); la errata FAQ RH exige 8+; no hay override en ningun otro sitio.
+core_2.tsv	C2-118	CONFIRMA	rules.js:3915 miscast1 r<=4: plantilla 5in (radio 2.5), S10 FP-4, hitUnit sobre todas las unidades amigas y enemigas con blastCount (riesgo de impacto por modelo, 4+ parcial).
+aj_bretonnia.tsv	aj_bretonnia-139	CONFIRMA	data.js:962 br_brigands bnMax:0 impide estandarte magico; fuente aj_bretonnia solo da +5 portaestandarte y objetos magicos 50 pts al Desperado (CMD [7,5,5]).
+leg_ogres.tsv	leg_ogres-094	CONFIRMA	data.js:2082 ok_trappers: M4 HA2 HP3 F2 R3 H1 I3 A1 Ld5, 5 pts ppm, coincide con leg_ogres L372.
+core_8.tsv	core_8-042	CONFIRMA	data.js:2373 curse_years cv9 (FAQ), hex 15in; rules.js:4401 cancela otros Hex del objetivo (HEX_ALL) y aplica fx cyears: -1 M/HA/R con minimos; caduca al inicio del turno del lanzador (rules.js:6221).
+aj_dwarfs2.tsv	aj_dwarfs2-051	CONFIRMA	data.js:3575 chk Expedicion: n(dw_hewer) > per1k => 'Expedicion: 0-1 Cortagoblins por cada 1.000 pts'.
+faq_libros.tsv	Q27	CONFIRMA	rules.js:4768-4772: contra una Lanza, modelos de la primera fila a <= M pulgadas (D(e).M) del Lanza cuentan en contacto; 2a fila de infanteria sigue como apoyo sin contacto.
+leg_darkelves.tsv	leg_darkelves-174	CONFIRMA	data.js:5827 de_coldchariot: spear:true, ranged ballestas de repeticion (4 disparos), mountAtk garras/dientes de los Gelidos; armas de mano por defecto.
+aj_dwarfs2.tsv	aj_dwarfs2-013	PARCIAL	main.js:48-52,495: 'Cualquier ejercito' (scnFree) permite listas libres pero scnApply no fija 3.000 pts (limite vuelve a 2000, selector solo 500-2000); falta el requisito de 3.000 pts por bando.
+core_3.tsv	c3-155	CONFIRMA	Impactos fuera de Combate usan woundAndSave+applyWounds (heridas y salvaciones) p.ej. rules.js:3092-3110 diveBomb; equivale a subfases 3 y 4 del disparo.
+faq_core_3.tsv	12	CONFIRMA	rules.js:4429 pushAwayStep: avanza de 0.5in en 0.5in y se detiene (break) al chocar con otra unidad/terreno (checkPlacement); usado por Ceder terreno en rules.js:5971.
+core_2.tsv	C2-015	CONFIRMA	rules.js:1855 hitRoll: 1 natural siempre falla; exito si r>=need; woundAndSave usa r<need (rules.js:2037). Convencion N+ correcta.
+leg_darkelves.tsv	leg_darkelves-058	CONFIRMA	data.js:5687-5689 opciones cow/rok/wb con group:'k' (Grito 15, Runa 10, Brebaje 20); exclusion por grupo en main.js:841 y validacion data.js:4725.
+core_4.tsv	C4-073	CONFIRMA	rules.js:2038 myAp = ap + (r===6 ? ab : 0) con r la tirada final para herir; leve desvio: heridas automaticas (auto) fuerzan r=6 (rules.js:2030) y tambien activan Armour Bane.
+cathay.tsv	cathay_aj-040	PARCIAL	data.js:2195-2198: tt:'char' (no heavy infantry) aunque base 25x25, mano+armadura pesada+escudo correctos; tipo de tropa 'infanteria pesada' solo aparece en el blurb.
+battlemarch_quickref.tsv	battlemarch-042	CONFIRMA	rules.js:3250 passPanic: s.axe==='gemel' && u.owner!==s.atk && bldCtl(s,u) repite el Panico fallido (rules.js:3245 bldCtl: controla un edificio).
+leg_skaven.tsv	leg_skaven-192	CONFIRMA	data.js:1839 sk_hellpit: M randM 3D6, HA3 HP1 F6 R5 H6 I4 A randA D6+1 Ld8, 210 pts; coincide con leg_skaven L757.
+leg_skaven.tsv	leg_skaven-014	PARCIAL	data.js:5006-5007 limita Doomwheel y Canon de Rayo por separado (0-1 cada uno por 1.000, con Ingeniero); la fuente dice '0-1 of the following per 1,000' (lectura literal: 0-1 en total entre ambos).
+faq_core_4.tsv	FC4-32	CONFIRMA	rules.js:1061-1062: mercenarios reciben u.allyList='merc' y no heredan reglas de la lista (las comprobaciones usan u.allyList ?? s.lists[owner]).
+aj_chaos2.tsv	aj_chaos2-120	CONFIRMA	rules.js:4743 suma +1 Ataque con fx wfBarb (Protuberancias) a cada modelo; elegible por el jugador (wfPref, rules.js:7595); sin eleccion decide el motor (solo log, sin popup).
+core_4.tsv	C4-063	CONFIRMA	rules.js:3276 panicFromLosses: >25% bajas en la fase, no en combate (isEngaged), un test por fase, maquinas exentas; usa models de inicio de fase (phaseStart).
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-095	CONFIRMA	data.js:2158 cd_ironsworn sr incluye blackshard, closeOrder, drilled, ensorcelled, quellPanic, regimental, resolute, shieldwall, stubborn y veteran (+magical); lista completa.
+core_6.tsv	core6-069	CONFIRMA	rules.js:6938 +100 PV a quien ocupa las Ruinas oscuras al final (x.special&&x.core&&x.dark); Dark Aura implementada en rules.js:3443,3450-3452; la nota 'no implementado' esta obsoleta.
+leg_daemons.tsv	leg_daemons-083	PARCIAL	data.js:5878 mayal pf sb2 ap3 mw D3 flailFirst; rules.js:4833 quita el +2 F si !u.chargeOK, asi el portador cargado no tiene F+2 en la primera ronda como exige la regla.
+leg_vampires.tsv	leg_vampires-021	CONFIRMA	data.js:4544 ALLY_TABLE vc:[AA('tk')] con ALLY_MAX 0.25 (data.js:4540): hasta el 25% en un unico contingente de Reyes Funerarios de Khemri.
+core_6.tsv	core6-060	PARCIAL	rules.js:4484 repite un 1 natural en la tirada de lanzamiento normal si featCtl(monolith)===u; la rama de hechizos ligados/objetos (rules.js:4477-4481) no aplica la repeticion.
+leg_darkelves.tsv	leg_darkelves-233	CONFIRMA	rules.js:1976 svD: -1 a la salvacion si ranged && !magical && has(def,'seaCloak'), con Math.max(2,...) (maximo 2+).
+aj_orcs2.tsv	aj_orcs2-082	CONFIRMA	data.js:3498-3501 black_warboss/bigboss_chariot: +130 pts, lista nomad, suma Heridas/Ataques, Impactos D6+1, tripulacion y jabalies; salvacion con la mejor armadura (Sv 3).
+aj_orcs2.tsv	aj_orcs2-070	CONFIRMA	data.js:845 orc_ogre_bulls: monInf, base 40x40, min 3, arm light, perfil M6 HA3 HP2 F4 R4 H3 I2 A3 Ld7 coincide (max 60 sin tope en fuente).
+leg_ogres.tsv	leg_ogres-104	CONFIRMA	data.js:2467 CMD.ok_maneaters=[7,7,7] (Capitan, portaestandarte, Bramador +7).
+leg_lizardmen.tsv	leg_lizardmen-144	CONFIRMA	rules.js:6549 roarUse (2D6<=Ld propio, una vez por partida, fase estrategia/Mando): Furia de Carga (primR, endTurn) a Hombres Lagarto a 7in; accion del jugador (rules.js:7362, main.js:1250).
+core_6.tsv	core6-027	CONFIRMA	rules.js:2439 misfire: 1 destruida; 2-4 pierde 1 Herida y disabledUntil=turn+1 (no dispara esta ni la siguiente ronda); 5-6 no dispara este turno.
+faq_core_4.tsv	FC4-33	CONFIRMA	data.js:4539 per1k=max(1,floor(limit/1000)) con limit el tamano de partida, usado en los chk de listas (p.ej. data.js:4895,5002).
+faq_core_4.tsv	FC4-47	PARCIAL	rules.js:3960 wizArmoured bloquea lanzar a un Mago con armadura magica; el portador del Sombrero de Mago (D().wizard por rules.js:123) con armadura magica quedaria bloqueado, contra la FAQ.
+dawn_renegade_sc.tsv	cathay_dawn-075	CONFIRMA	rules.js:1154 y ALT_RULE leonen:['whole','def'] (rules.js:1305): despliegue alterno impuesto, el defensor despliega todo el ejercito primero y despues el atacante; la nota del TSV esta obsoleta.
+aj_orcs2.tsv	aj_orcs2-041	PARCIAL	rules.js:6195: +1 por defecto aplicado automaticamente (sneakyMod ?? 1) solo con logE sin popup, y exige Kiknik vivo (m.models>0), no solo en la lista; eleccion +1/0/-1 en main.js:1293.
+leg_skaven.tsv	leg_skaven-080	CONFIRMA	data.js:3220-3241 CHAMP_IB [/^sk_stormvermin$/,25] presupuesto de objetos del Fangleader 25 pts con champEligible/champIssues.
+core_4.tsv	C4-084	CONFIRMA	rules.js:2249: giro rapido libre aunque marche si has(u,'fastCav') y todos los personajes unidos tienen fastCav, no closeOrder y no skirmish; giro hasta 90 grados.
+faq_libros.tsv	R21	PARCIAL	data.js:2386 foetid_whirl: terreno dificil (diff), D6in y D3+3 F4 correcto, pero ap:2 (FP -2) mientras la errata FAQ RH exige FP -3.
+aj_chaos2.tsv	aj_chaos2-063	CONFIRMA	data.js:2479 CMD.woc_exalted/woc_aspiring=[null,25,null] (PEB +25); itemIssues(bsb) sin limite para el estandarte magico (data.js:3387); solo esos dos personajes tienen portaestandarte.
+dawn_renegade_sc.tsv	renegade_web-049	CONFIRMA	data.js:6241-6245 rc_freeblades: 18 pts, HA4 HP3 F3 R3 H1 I3 A1 Ld8, heavyCav 30x60, min 5, caballo con ataque; CMD [6,6,6]; campeon A+1 generico = Comandante A2.
+leg_vampires.tsv	leg_vampires-184	CONFIRMA	data.js:1852,5573,6085 vc_count_dragon: garras mountAtk S6 PA-2, aliento F2 PA-3 (rules ranged s2 ap3), mountSv 4 (armadura completa).

@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+core_2.tsv	C2-061	CONFIRMA	rules.js:2232-2233 limit=mvOf*(isColumn?3:2) al marchar; isColumn (rules.js:1628) = inf/cav no escaramuza con mas filas que columnas
+core_5.tsv	C5-027	CONFIRMA	Una sola reserva de Heridas (u.wounds, W del jinete); applyWounds rules.js:1787 retira el modelo cuando llega a 0
+dawn_renegade_sc.tsv	cathay_dawn-032	CONFIRMA	dawn.js:8 WASTE[4]='woods'; dawn.js:50 bosque con diff o danger+diff segun setup tdd (main.js:545), eleccion global al crear partida, no por elemento
+core_5.tsv	C5-093	PARCIAL	isLone (rules.js:2346) solo da 360 al disparar (2410) y lanzar (3865); no se trata como has('skirmish') en el resto (atravesar, carga, panico, vision de otras unidades)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-189	PARCIAL	Base 50x75 y unidad 1 correctas (data.js cd_rocket baseD 75) pero Sv:7: falta armadura pesada de la dotacion (el libro usa el valor de armadura de la dotacion, core p.222)
+battlemarch_quickref.tsv	battlemarch-175	CONFIRMA	rules.js endPlayerTurn: q.mast si casts>=2 (applySpell0 solo tras no dispersado) o disps>=2 sin miscK; +50 PV rules.js bm_mast
+core_8.tsv	core_8-046	CONFIRMA	data.js glare: CV8 rango 21 F7 noArmour D3 engagedOk; rules.js:3865 permite objetivo trabado; Ward/Regen normales
+core_5.tsv	C5-091	CONFIRMA	rules.js svOf: mountSv vs armadura propia (min) o eleccion armPick own/mount (7267); escudo/objetos solo mejoran la propia, tope 3+ para carro
+aj_empire2.tsv	aj_empire2-148	CONFIRMA	rules.js:3882 una segunda tirada del mismo hechizo/turno (twinK); 3936 percance cambia tabla por D3 heridas sin armadura ni regen (ward normal)
+dawn_renegade_sc.tsv	cathay_dawn-022	CONFIRMA	rules.js:2907 tiradores = floor(modelos/2) en edificio; 3874 lanzadores limitados a floor(modelos/2); redondeo hacia abajo (1 modelo solo no puede disparar) y reparto disparo/hechizo separado
+leg_skaven.tsv	leg_skaven-101	CONFIRMA	data.js sk_doomflayer: counterCharge, randA 2+D6, impact {n:'D6+1',S:4,ap:2}, melee ap1 (FP-1)
+core_8.tsv	core_8-034	CONFIRMA	data.js confound CV8 (FAQ) rango 9 hex rip; rules.js:4293 aplica fx confound y has0 'stupidity' (rules.js:156/161)
+leg_daemons.tsv	leg_daemons-068	PARCIAL	Base 50x100, Sv4 y unidad 1 ok, pero data.js dm_skullcannon usa cat mach/tt war en vez de Carro pesado: no marcha ni declara carga (rules.js:2234,3411), sin impactos FP-2 de carro pesado
+aj_beasts2.tsv	aj_beasts2-127	CONFIRMA	data.js fury_beast CV9 self; rules.js:4206 aplica fx furyB al lanzador y su unidad; usado como extraRank en rules.js:4782 (no en turno de carga)
+core_4.tsv	C4-008	CONFIRMA	rules.js:5658 bsbPt=+1 aparte de std; solo cuenta un BSB por bando (bsbCR); se suma en el retorno 5680
+leg_daemons.tsv	leg_daemons-213	CONFIRMA	data.js dm_soulgrinder sr: closeOrder, furiousCharge, large, reserveMove, stomp (D6+1), terror, daemonico (ward5 no magico, unstable, fear...)
+aj_orcs2.tsv	aj_orcs2-068	CONFIRMA	data.js:4915 lista grand: >1 troll_hag error y exige >=1 unidad de Trolls; comp rare; excluye trollh/nomad que tienen reglas propias
+faq_libros.tsv	F34	CONFIRMA	data.js we_dryads M6; data.js:6152 melee.ab=1 (tambien variante amb); Ninfa es el campeon con el mismo perfil
+leg_daemons.tsv	leg_daemons-215	CONFIRMA	data.js dm_soulgrinder ranged 12 F4 FP-1 cumbersome grape skullMis; rules.js:2751-2757 dado de artilleria = impactos, Averia = pierde 1 Herida
+aj_empire2.tsv	aj_empire2-031	CONFIRMA	data.js:3567 chk knights: lector/Sumo Sacerdote (emp_lector,hulric,altar,ulric) <= per 1000; allow incluye emp_witchhunter y emp_priest sin limite
+leg_lizardmen.tsv	leg_lizardmen-072	CONFIRMA	data.js lm_saurus sr closeOrder, coldBlooded; melee ap:1 (Obsidian Blades FP-1; lanza de empuje ap 0 por opcion ts)
+aj_wood2.tsv	aj_wood2-050	CONFIRMA	rules.js:4918 hatred si lista talsyn, faction wood y enemigo faction bm
+aj_highelves.tsv	aj_highelves-141	PARCIAL	data.js heaj_vortex autoDisp: rules.js:3983-3984 se gasta automaticamente si el lanzamiento >= umbral (scrollThr, def 8), no por eleccion en cada hechizo; disipa fx rip y vortices
+aj_tk2.tsv	aj_tk2-107	PARCIAL	data.js tkaj_conqueror: S+2 ap2 kb slow kbDuel5 conqV ok (rules.js:5107,5537) pero falta twoH:true: no se prohibe escudo (data.js:3356)
+aj_tk2.tsv	aj_tk2-112	PARCIAL	data.js tkaj_serpent grant:['poisoned'] solo da la regla a la unidad portadora (has0 rules.js:161); 'poisoned' no esta en JOIN_PASS, la unidad a la que se une el portador no lo recibe
+core_2.tsv	C2-024	CONFIRMA	rules.js:2508 flameHits L=8, anchura 0.6 a 3.2 (lagrima)
+leg_daemons.tsv	leg_daemons-135	CONFIRMA	data.js CMD dm_seekers [6,6,6]; bnMax por defecto 50 (bannerBudget data.js:3207)
+leg_daemons.tsv	leg_daemons-270	CONFIRMA	"rules.js:196 locusFor (alineacion igual, 12""); 203-217 -1 herida y doble 6 no elimina con foco; opcion data.js:5908 daemonLocus"
+core_8.tsv	core_8-026	PARCIAL	"rules.js:2280 abierto->dificil a 6"" ok; 7096 dificil->peligroso solo para bosque (kind forest); otros elementos dificiles (diff, vallas bajas, etc.) no pasan a peligrosos"
+aj_wood2.tsv	aj_wood2-048	CONFIRMA	data.js CMD we_captain y we_warden [null,25,null]
+leg_skaven.tsv	leg_skaven-137	CONFIRMA	data.js CMD sk_giantrats [7,null,null]
+leg_darkelves.tsv	leg_darkelves-043	CONFIRMA	data.js de_beastmaster WS7 BS7 S4 T3 W3 I5 A3 Ld9 75 pts, armadura ligera (M5 en vez de '-', irrelevante: va montado)
+leg_skaven.tsv	leg_skaven-167	CONFIRMA	data.js sk_greyseer_bell wardNMu:5; rules.js:1978 ward 5+ si !magical && !spellDmg
+aj_chaos2.tsv	aj_chaos2-163	PARCIAL	data.js wocaj_glaive: S+2 ap1 ab1 kb slow ok y lista heralds, pero sin twoH:true (no se impide escudo; data.js:3356)
+leg_vampires.tsv	leg_vampires-049	CONFIRMA	data.js vc_ghoulking M6 WS6 BS3 S5 T5 W3 I7 A5 Ld8, ppm 145
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-123	CONFIRMA	data.js CMD cd_hobgoblins [7,5,5] (Cutthroats)
+aj_empire2.tsv	aj_empire2-081	CONFIRMA	data.js:3681 CMD.imp_ogres=[7,null,null]
+cathay.tsv	cathay_aj-020	PARCIAL	Nivel 4 humana/2 dragon y lores ok, pero rules.js:1015 da tantos hechizos como nivel: desplegada en forma Dragon conoce 2 y no 4 (la fuente dice 4 en ambas formas)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-048	CONFIRMA	data.js cd_castellan/cd_seneschal: cat char tt char, base 25x25, arm heavy, perfiles ok (125/60 pts)
+core_6.tsv	core6-040	CONFIRMA	"rules.js:2285 wall (kind wall bajo) entra en feats: -1 M como terreno dificil; altos (>=2"") impasables rules.js:1621"
+leg_ogres.tsv	leg_ogres-032	CONFIRMA	data.js ok_tyrant/ok_bruiser impact ap:1 con regla bullCharge; las versiones montadas son unidades aparte sin bullCharge
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-151	CONFIRMA	rules.js:3512 has stampede => imp.ap=2 (FP-2)
+aj_dwarfs2.tsv	aj_dwarfs2-117	CONFIRMA	data.js:3723 opciones dr/st/vt +1 pt/modelo con per1000 en dw_royalwarriors
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-212	CONFIRMA	"data.js cd_magma ranged range12 s5 ap1 fireCol flaming cumbersome = core p.229 (12"" F5 FP-1 Columna de fuego)"
+aj_bretonnia.tsv	aj_bretonnia-156	CONFIRMA	data.js brsaj_grail lastStand:2 single needGrail (validado data.js:3346; la nota esta obsoleta); rules.js applyWounds conserva 1 Herida con 2+
+dawn_renegade_sc.tsv	renegade_web-034	CONFIRMA	data.js:6170 CHW: escudo +2, armadura pesada +3 / completa +6 en grupo 'a' (sustituye a la ligera)
+leg_darkelves.tsv	leg_darkelves-160	CONFIRMA	rules.js:1994 darkRunes: ward 5+ si !magical; data.js sr darkRunes en Doomfire Warlock
+dawn_renegade_sc.tsv	renegade_web-064	CONFIRMA	data.js:6241-6244 rc_vfreeblades 22 pts WS4 S4 Ld8 heavyCav 30x60 min5, mando [6,6,6], armadura completa +4
+core_3.tsv	c3-003	CONFIRMA	rules.js:6221 al inicio de turno de p se eliminan los fx con by==p; los rip (sin by) permanecen
+battlemarch_quickref.tsv	battlemarch-023	CONFIRMA	rules.js:7731 u.bmAmb: borde top/bottom elegido por el atacante, enemyGap 4 (7743); s.turn<2 rechazado (7722)

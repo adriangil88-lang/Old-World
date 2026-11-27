@@ -1,0 +1,65 @@
+Astromancer On Foot                           M2 B0 OK | /Models of Grand Cathay
+Astromancer On Foot - Familiar                M2 B0 OK | /Models of Grand Cathay
+Astromancer On Warhorse                       M2 B0 OK | /Models of Grand Cathay
+Cathayan Artillery Crew                       M2 B0 OK | 
+Cathayan Artillery Crew                       M2 B0 OK | 
+Cathayan Artillery Crew                       M2 B0 OK | 
+Cathayan Artillery Crew                       M2 B0 OK | 
+Cathayan Grand Cannon                         M2 B0 OK | 
+Cathayan Sentinel                             M2 B0 OK | /Models of Grand Cathay
+Cathayan Sentinel                             M2 B0 OK | /Models of Grand Cathay
+Champion                                      M1 B0 OK | /25x50
+Crane Gunner Teams                            M2 B0 OK | /Models of Grand Cathay
+Crane Gunner Teams                            M2 B0 OK | /Models of Grand Cathay
+Crane Gunner Teams                            M1 B0 OK | odels of Grand Cathay/Crane Gunner Teams
+Crane Gunner Teams                            M1 B0 OK | odels of Grand Cathay/Crane Gunner Teams
+Fangshi Sage                                  M1 B0 OK | /Lord Magistrate
+Fire Rain Rocket Battery                      M2 B0 OK | 
+Gate Keeper                                   M2 B0 OK | 
+Gate Keeper  on Cathayan Warhorse             M2 B0 OK | 
+Gate Master                                   M2 B0 OK | 
+Gate Master on Cathayan Warhorse              M2 B0 OK | 
+Harp                                          M1 B0 OK | /30x30
+Iron Hail Gunners                             M2 B0 OK | /Models of Grand Cathay
+Iron Hail Gunners                             M2 B0 OK | /Models of Grand Cathay
+Iron Hail Gunners                             M2 B0 OK | /Models of Grand Cathay
+Jade Lancers                                  M2 B0 OK | 
+Jade Lancers CH                               M3 B0 OK | 
+Jade Lancers MU                               M3 B0 OK | 
+Jade Lancers ST                               M3 B0 OK | 
+Jade Warriors                                 M2 B0 OK | 
+Jade Warriors (Spear)                         M2 B0 OK | 
+Jade Warriors CH                              M3 B0 OK | 
+Jade Warriors CH (Spear)                      M3 B0 OK | 
+Jade Warriors MU                              M3 B0 OK | 
+Jade Warriors MU (Spear)                      M3 B0 OK | 
+Jade Warriors ST                              M3 B0 OK | 
+Jade Warriors ST (Spear)                      M3 B0 OK | 
+Jun Shi Strategist                            M1 B0 OK | /Strategist
+Leadbelcher                                   M2 B0 FALTA [('M', '5158B3F5', 'X', 'X')] | 
+Leadbelcher CH                                M3 B0 FALTA [('M', '5158B3F5', 'X', 'X')] | 
+Leadbelcher MU                                M3 B0 FALTA [('M', 'D617143D', 'X', 'X')] | 
+Lord Magistrate                               M2 B0 OK | 
+Lord Magistrate on Sky Lantern                M3 B0 OK | 
+Miao Ying                                     M2 B0 OK | 
+Miao Ying                                     M2 B0 OK | 
+Microdot Collider                             M1 B0 OK | /Gate Keeper
+Ogre Artillery Crew                           M2 B0 OK | 
+Ogre Artillery Crew                           M2 B0 OK | 
+Peasent Soldier                               M1 B0 OK | /Models of Grand Cathay/Peasent Warbow
+Peasent Soldier                               M1 B0 OK | /Models of Grand Cathay/Peasent Warbow
+Peasent Soldiers                              M2 B0 OK | /Models of Grand Cathay
+Peasent Soldiers                              M2 B0 OK | /Models of Grand Cathay
+Peasent Soldiers CH                           M3 B0 OK | /Models of Grand Cathay
+Peasent Soldiers MU                           M3 B0 OK | /Models of Grand Cathay
+Peasent Soldiers ST                           M3 B0 OK | /Models of Grand Cathay
+Peasent Warbow                                M3 B0 OK | /Models of Grand Cathay
+Peasent Warbow                                M2 B0 OK | /Models of Grand Cathay
+Shugengan General                             M2 B0 OK | 
+Shugengan General                             M2 B0 OK | 
+Shugengan Lord                                M2 B0 OK | 
+Shugengan Lord                                M2 B0 OK | 
+Sky Lanterns                                  M3 B0 OK | 
+Standarte                                     M1 B0 OK | /30x30
+Strategist                                    M2 B0 OK | 
+Strategist on Sky Lantern                     M3 B0 OK | 

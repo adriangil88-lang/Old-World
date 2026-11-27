@@ -1,0 +1,168 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+aj_bretonnia-001	aj_bretonnia.txt L1-173	Portada, indice, copyright; El Reino Caballeresco: historia de los Bretonni, Codigo Caballeresco, Votos y reglas de h...	NA		Ambientacion; las 5 reglas de honor no tienen efecto mecanico definido aqui
+aj_bretonnia-002	aj_bretonnia.txt L174-295	El Reino de Bretonia: geografia, bosques, ciudades amuralladas	NA		Ambientacion
+aj_bretonnia-003	aj_bretonnia.txt L296-414	Heraldica y uniformes bretonianos	NA		Ambientacion/miniaturas
+aj_bretonnia-004	aj_bretonnia.txt L415-598	Guerra en los Principes Fronterizos: Batalla de la Ciudadela y relato previo a Matorea	NA		Narrativa
+aj_bretonnia-005	aj_bretonnia.txt L715-781	Nobleza Proscrita: exiliados, limites de la caballerosidad, heraldica de exilio	NA		Ambientacion
+aj_bretonnia-006	aj_bretonnia.txt L895-960	Cruzados Audaces: primera cruzada, cruzadas de errancia, heraldica de cruzada	NA		Ambientacion
+aj_bretonnia-007	aj_bretonnia.txt L1084-1117,1181-1222,1274-1316	Textos de ambientacion del Caballero Verde, Cecil Gastonne y Lady Elisse	NA		Ambientacion
+aj_bretonnia-008	aj_bretonnia.txt L1451-1481,1530-1535,1581-1590	Cajas 'Representing this unit': Hombres de Armas/milicia/canones como Guardia/Bandidos/Bombarda	NA		Consejos de miniaturas
+aj_bretonnia-009	aj_bretonnia.txt L599-627	Matorea: 3 listas (atacante 3.000 Reyes Funerarios; defensor 1.750 Exiliados con Cecil de General + 1.250 Cruzada con...	OK	rules.js:243 SCENARIOS.matorea; data.js:4538 ALLY_SCN.matorea	Escenario con dos listas del defensor (principal + contingente de rescate) ya implementado por el sistema de aliados; listas historicas validadas (Cecil, Duque en Pegaso Real, Elisse)
+aj_bretonnia-010	aj_bretonnia.txt L624-627	Alternativa: el defensor gasta 25%-33% de sus puntos en un contingente aliado como fuerza de rescate	OK	data.js:4538 ALLY_SCN.matorea (min .25, max .33); rules.js:1066	Contingente aliado libre 25-33 % como fuerza de rescate (emboscadores)
+aj_bretonnia-011	aj_bretonnia.txt L647-657	"Colocacion: colina de hasta 16\"" con posicion defendible"	OK	rules.js:837-839 (hill 16x16)	
+aj_bretonnia-012	aj_bretonnia.txt L652-656	"Ladera rocosa de max 8\"" de ancho = terreno peligroso; zona llana de max 8\"" con un borde de defensas de estacas"	OK	rules.js:838-839 (mslope danger, flat 8x8, mw stakes)	
+aj_bretonnia-013	aj_bretonnia.txt L661-664	"Despliegue: defensor su fuerza principal en su zona (12\"", margen 9\""), luego el atacante"	OK	rules.js:189 (z,f)	Zonas R_ definidas en el escenario
+aj_bretonnia-014	aj_bretonnia.txt L666-668	El atacante juega el primer turno automaticamente	OK	rules.js:189 first:0	
+aj_bretonnia-015	aj_bretonnia.txt L670-672	Duracion: seis rondas o hasta que un bando conceda	OK	rules.js (duracion por defecto 6)	Concesion existe en el motor
+aj_bretonnia-016	aj_bretonnia.txt L679-684	Victoria: +250 PV al defensor si ningun atacante esta en la zona llana; +250 al atacante si solo el tiene modelos	OK	rules.js:5892-5895	
+aj_bretonnia-017	aj_bretonnia.txt L648-660	Refuerzos: la fuerza de rescate gana Emboscadores; desde la ronda 2 una sola tirada de D6 para toda la fuerza; entra ...	OK	rules.js:841-843,5325-5334,6531	Una tirada comun por turno (rescueR); borde izquierdo obligatorio
+aj_bretonnia-018	aj_bretonnia.txt L662-664	La fuerza de rescate disfruta de Bendiciones de la Dama sin rezar al inicio	OK	rules.js:155 has_ blessings u.rescue&&matorea; rules.js:~159	La fuerza de rescate (u.rescue) tiene Bendiciones sin rezar ni ganar
+aj_bretonnia-019	aj_bretonnia.txt L666-668	Defensas de estacas cuentan como obstaculo lineal bajo	OK	rules.js:838 (kind wall, stakes:true)	
+aj_bretonnia-020	aj_bretonnia.txt L667-670	Cargar contra enemigo tras estacas (sin Volar): carga desordenada y Alterada	OK	rules.js:3189-3190	
+aj_bretonnia-021	aj_bretonnia.txt L670-672	Caballeria/carros que acaben la carga en contacto con estacas: chequeo de Peligro (Peril)	OK	rules.js:3191	Peril modelado como D6<=3 por modelo, igual que huir a traves del enemigo
+aj_bretonnia-022	aj_bretonnia.txt L791-796	Lista de Infamia Exiliados de Bretonia usable en vez del Gran Ejercito	OK	data.js:3318 LISTS.bret.exiles; BR_EXILES 3321	
+aj_bretonnia-023	aj_bretonnia.txt L797-802	Personajes hasta 50% de los puntos	OK	data.js:4441 (by.char>0.5)	
+aj_bretonnia-024	aj_bretonnia.txt L800	0-1 Baron por cada 1.000 puntos	OK	data.js:4470	Cuenta br_baron* y Cecil
+aj_bretonnia-025	aj_bretonnia.txt L801	0-1 Damisela	OK	data.js:~4550 (regex br_damsel*)	Cuenta tambien las damiselas montadas
+aj_bretonnia-026	aj_bretonnia.txt L802	Paladines y Sargentos de Armas disponibles	OK	data.js:3321 BR_EXILES (br_paladin, br_sergeant)	
+aj_bretonnia-027	aj_bretonnia.txt L797-802	Duque y Profetisa no disponibles en Exiliados; Elisse solo en listas con Profetisa	OK	data.js:BR_EXILES (sin br_elisse)	Elisse retirada de Exiliados (sin Profetisa); Duque/Profetisa excluidos
+aj_bretonnia-028	aj_bretonnia.txt L804-806	Basicas: al menos 25% de los puntos	OK	data.js:4440 (cm 0.25)	
+aj_bretonnia-029	aj_bretonnia.txt L807-808	1+ unidad de Caballeros del Reino a pie y/o montados	OK	data.js:4470	
+aj_bretonnia-030	aj_bretonnia.txt L809	1+ unidad de Guardia de Terratenientes y/o Arqueros Campesinos	OK	data.js:4470	
+aj_bretonnia-031	aj_bretonnia.txt L810	0-1 unidad de Caballeros Errantes por cada 1.000 puntos	OK	data.js:4470; BR_EXILES_C br_errant core	
+aj_bretonnia-032	aj_bretonnia.txt L811	Hombres de Armas y Jinetes Terratenientes como basicas	OK	data.js:908 comp core; BR_EXILES_C br_yeomen core	
+aj_bretonnia-033	aj_bretonnia.txt L813-816	Especiales hasta 33%: Escuderos y Caballeros Pegaso	OK	data.js:4444; BR_EXILES_C	
+aj_bretonnia-034	aj_bretonnia.txt L817	0-1 unidad de Peregrinos de Batalla por cada 1.000 puntos	OK	data.js:~4550 (0-1 Peregrinos por 1.000 pts en Exiliados)	Peregrinos son Especiales pero sin limite 0-1 por 1.000 en Exiliados
+aj_bretonnia-035	aj_bretonnia.txt L797-801	Raras hasta 33%: Caballeros de la Busqueda y Bandidos	OK	data.js:4443; BR_EXILES_C br_questing rare; br_brigands rare	
+aj_bretonnia-036	aj_bretonnia.txt L800-801	0-1 Trabuquete de Campana y 0-1 Bombarda por cada 1.000 puntos	OK	data.js:4470	
+aj_bretonnia-037	aj_bretonnia.txt L804-812	Mercenarios hasta 25%: Milicia de Compania Libre y Arqueros del Imperio; gana Mercenarios/Misbehaving	OK	data.js:3395 MERCS.bret.exiles; 4436; rules.js:815-818	
+aj_bretonnia-038	aj_bretonnia.txt L817-822	Portaestandarte de batalla: un Paladin gratis y un estandarte magico sin limite de puntos	OK	data.js:2469 CMD br_paladin [null,0,null]; 3179 bannerBudget	Lo gestiona la logica generica de BSB
+aj_bretonnia-039	aj_bretonnia.txt L824-827	Objetos magicos: de las listas Comun o Reino de Bretonia	OK	data.js:2585-2616,3137-3154,2846-2861	
+aj_bretonnia-040	aj_bretonnia.txt L846-853	Senores Desterrados: Barones y Paladines no pueden tener el Voto del Grial	OK	data.js: fin del fichero (notList exiles en opcion gv) + armyIssues notList	Validacion en Exiliados
+aj_bretonnia-041	aj_bretonnia.txt L853-862	Pueden cambiar gratis el Voto del Caballero por el del Exiliado: Baron/Paladin, Caballeros del Reino a pie, Errantes,...	OK	data.js: fin del fichero (opciones xv/cv); rules.js has0	Opcion gratuita y elegible por el jugador (Barón/Paladín, a pie, Errantes, Montados, Pegaso); por defecto Voto del Caballero
+aj_bretonnia-042	aj_bretonnia.txt L866-876	Voto del Exiliado: Tozudo y Veterano	OK	rules.js:152 has0	Solo para modelos con knightVow en lista exiles
+aj_bretonnia-043	aj_bretonnia.txt L876-885	"Voto del Exiliado: sin Panico si una unidad amiga Levies/Peasantry es destruida a 6\"" o huye a traves"	OK	rules.js immuneToPanic (exileVow: Levas o Campesinado); data.js br_cecil sr exileVow	Cecil no tiene knightVow y no recibe la inmunidad; origen solo Peasantry, no Levies
+aj_bretonnia-044	aj_bretonnia.txt L871-872	Reclamar la Gloria: el ejercito no puede rezar las Bendiciones de la Dama al inicio	OK	rules.js:489 blessArmy; rules.js:152	
+aj_bretonnia-045	aj_bretonnia.txt L872-877	Una unidad con Bendiciones obtiene Bendiciones al hacer movimiento de arrollamiento o contacto con enemigo huyendo en...	OK	rules.js gainBless (arrollamiento ~5267, carga/persecución contra huida)	Con aviso en el registro
+aj_bretonnia-046	aj_bretonnia.txt L881-885	Un personaje con Bendiciones que mata a un personaje enemigo en desafio da Bendiciones a el y su unidad	OK	rules.js duelo ~4946 (gainBless al matar personaje en desafio: él y su unidad)	No hay asignacion de blessEarned en la resolucion de desafios
+aj_bretonnia-047	aj_bretonnia.txt L887-890	Si se pierden las Bendiciones no se pueden recuperar de esta forma	OK	rules.js:152 (blessLost prioritario)	
+aj_bretonnia-048	aj_bretonnia.txt L971-975	Lista de Infamia Cruzada Errante usable en vez del Gran Ejercito	OK	data.js:3318 LISTS.bret.crusade; BR_CRUSADE 3323	
+aj_bretonnia-049	aj_bretonnia.txt L978-979	Personajes hasta 50%	OK	data.js:4441	
+aj_bretonnia-050	aj_bretonnia.txt L980	0-1 Duque	OK	data.js:4472	Cuenta br_duke*
+aj_bretonnia-051	aj_bretonnia.txt L981	0-1 Baron o Profetisa por cada 1.000 puntos	OK	data.js:~4552 (regex baron|prophetess|cecil|elisse)	No cuenta Cecil (Baron) ni Lady Elisse (Profetisa) en el limite
+aj_bretonnia-052	aj_bretonnia.txt L982	1+ Paladin	PARCIAL	data.js:4472	"VERIF v732: data.js:4897 exige type===""br_paladin""; Paladin a Pegaso/Pegaso real (br_paladin_peg, br_paladin_rpeg) no cuenta para 1+ Paladin"
+aj_bretonnia-053	aj_bretonnia.txt L983	Damiselas y Sargentos de Armas	OK	data.js:3323 BR_CRUSADE	
+aj_bretonnia-054	aj_bretonnia.txt L986	Basicas: al menos 33% de los puntos	OK	data.js:4440 (crusade 0.33)	
+aj_bretonnia-055	aj_bretonnia.txt L987	1+ unidad de Caballeros Errantes por cada 1.000 puntos	OK	data.js:4472	
+aj_bretonnia-056	aj_bretonnia.txt L989	0-1 unidad de Peregrinos de Batalla puede tomarse como Basica	OK	data.js catsOf (crusade: 0-1 Peregrinos pasa a Basica)	br_pilgrims no figura como core en Cruzada ni tiene limite 0-1
+aj_bretonnia-057	aj_bretonnia.txt L990-991	Basicas: Caballeros del Reino a pie, Escuderos y Caballeros del Reino montados	OK	data.js:3324	
+aj_bretonnia-058	aj_bretonnia.txt L994-997	Especiales hasta 50%: Hombres de Armas, Arqueros Campesinos, Peregrinos, Caballeros de la Busqueda y Pegaso	OK	data.js:3324; 4442	
+aj_bretonnia-059	aj_bretonnia.txt L980,982	Raras hasta 33%: Caballeros del Grial y Jinetes Terratenientes; 0-1 Trabuquete	OK	data.js:3324; 4443; 4472	
+aj_bretonnia-060	aj_bretonnia.txt L983-992	Mercenarios hasta 25%: Caballeros del Imperio y Circulo Interior	OK	data.js:3395 MERCS.bret.crusade; 4436	
+aj_bretonnia-061	aj_bretonnia.txt L996-1001	Portaestandarte de batalla (Paladin) y objetos Comunes/Reino	OK	data.js:2469; 3179	
+aj_bretonnia-062	aj_bretonnia.txt L1023-1031	"Fervor del Cruzado: +1\"" al alcance maximo de carga, +1 a la tirada de carga e Impetuoso a las unidades listadas"	OK	rules.js crZeal (has0 impetuous, carga +1 alcance y +1 tirada)	Aplica a todas las unidades/personajes listados, con o sin Voto del Caballero
+aj_bretonnia-063	aj_bretonnia.txt L1029-1037	Pueden cambiar gratis el Voto del Caballero por el del Cruzado (Baron/Paladin, a pie, Peregrinos, Errantes, Montados,...	OK	data.js opciones cv (Voto del Cruzado) + rules.js has0 veteran	Peregrinos/Jinetes/Busqueda/Grial no tienen Voto del Caballero, por lo que no hay cambio
+aj_bretonnia-064	aj_bretonnia.txt L1038-1041	Voto del Cruzado: Veterano	OK	rules.js:152	Para knightVow
+aj_bretonnia-065	aj_bretonnia.txt L1041-1044	"Voto del Cruzado: sin Panico por unidad amiga Peasantry destruida a 6\"" o que huye a traves"	OK	rules.js:2684	
+aj_bretonnia-066	aj_bretonnia.txt L1046-1049	Una unidad con Voto del Cruzado no admite personajes Peasantry y viceversa	OK	rules.js:6048,6052	Aplicado via knightVow
+aj_bretonnia-067	aj_bretonnia.txt L1056-1057	Ganarse las espuelas: estandarte enemigo capturado por Caballeros Errantes vale 100 PV	OK	rules.js:5036,5165,5957	Trofeo +50 extra
+aj_bretonnia-068	aj_bretonnia.txt L1057-1060	"Errantes a 6\"" de un modelo con Voto del Grial o un Lord de Bretonia repiten 1 naturales para impactar"	OK	rules.js (regex br_(duke|baron|prophetess|elisse|cecil))	No cuenta Cecil ni la Profetisa/Elisse como Lord
+aj_bretonnia-069	aj_bretonnia.txt L1070-1071	Caballero Verde: perfil HA7 HP3 F4 R4 H4 I6 A4 L9, 275 pts	OK	data.js:891-894	M8 de la montura
+aj_bretonnia-070	aj_bretonnia.txt L1070-1072	Corcel Sombrio: M8 HA4 F4 I4 A1	PARCIAL	data.js:892 mountAtk {a:1,S:4,ap:0}	HA4/I4 de la montura: el motor no modela HA/I propias de monturas (sistemico)
+aj_bretonnia-071	aj_bretonnia.txt L1074-1076	Tipo de tropa caballeria pesada (personaje con nombre), peana 30x60, tamano 1	OK	data.js br_green_knight	Convencion del motor: personajes con nombre montados usan tt char (igual que Duque/Barón)
+aj_bretonnia-072	aj_bretonnia.txt L1078-1079	Equipo: Hoja Dolorosa, armadura pesada y escudo; montura con barda	OK	data.js br_green_knight (arm heavy + escudo + barda = 3+)	Sin armadura/escudo/barda: salvacion de armadura 7 (ninguna)
+aj_bretonnia-073	aj_bretonnia.txt L1163-1166	Hoja Dolorosa: golpes rapidos F, FP-1, Ataques extra (D6), Magico	OK	data.js:892 (melee ap:1, randA '4+D6', magical)	
+aj_bretonnia-074	aj_bretonnia.txt L1165-1167	Hoja Dolorosa: golpes mortales F+2, FP-1, Perforante (1), Heridas multiples (2), elegir perfil cada ronda	OK	data.js br_green_knight meleeChoice/hidOpts malt; rules.js eachRound (~4527)	Perfil elegido por el jugador cada ronda (boton existente mwpref; IA con autoaprendizaje en ai.js)
+aj_bretonnia-075	aj_bretonnia.txt L1081-1083	Reglas: Inmune a Psicologia, Solitario, Moverse entre la maleza, Grito de reagrupamiento, Terror, Inquebrantable, Ine...	OK	data.js:893	
+aj_bretonnia-076	aj_bretonnia.txt L1126-1129	Caballero Bendito: salvacion especial 5+ contra cualquier herida	OK	data.js:892 ward:5	
+aj_bretonnia-077	aj_bretonnia.txt L1085-1094	Aura de las Hadas: al perder la ultima Herida no muere; puede despertar de nuevo	OK	rules.js:~2646 (sin limite de regresos)	Vuelve a reserva pero deja de volver tras la tercera baja (W-gkBack>1); el libro no limita
+aj_bretonnia-078	aj_bretonnia.txt L1093-1094	Cada vez que cae: -1 a la tirada para despertarle y -1 a Heridas (minimo 1)	OK	rules.js:~5385 (-gkBack a la tirada de despertar; auto ronda 5 solo si nunca despertó)	Heridas min 1
+aj_bretonnia-079	aj_bretonnia.txt L1096-1097	El enemigo solo gana PV por el Caballero Verde si no esta en el campo al final	OK	rules.js scoreVP (reserva al final cuenta; no cuenta en juego)	Si esta en reserva no se cuenta; si esta destruido o por regresar en units cuenta correctamente
+aj_bretonnia-080	aj_bretonnia.txt L1135-1141	Guardian de los Lugares Sagrados: no se despliega; cada inicio de turno propio D6, 1-2 duerme, 3+ despierta; automati...	OK	rules.js:5325-5334 (thrA 3, turno>=5 auto)	Intenta desde la ronda 1
+aj_bretonnia-081	aj_bretonnia.txt L1143-1149	Al despertar se coloca por completo en terreno natural (bosque, dificil o peligroso; no construcciones)	OK	rules.js:1769,1784-1796	Natural = bosque y pantano
+aj_bretonnia-082	aj_bretonnia.txt L1150-1154	En Movimientos restantes, si esta en terreno natural y no trabado, puede reaparecer en otro terreno natural y no move...	OK	rules.js:1770-1782, 6738-6752	
+aj_bretonnia-083	aj_bretonnia.txt L1156-1157	"Al aparecer respeta la regla de 1\"" al enemigo"	OK	rules.js:1792 enemyGap:1	
+aj_bretonnia-084	aj_bretonnia.txt L1067-1068	Puede incluirse en cualquier ejercito de Bretonia con cualquier lista; se juega tal cual	OK	data.js:3321,3323; noItems	
+aj_bretonnia-085	aj_bretonnia.txt L1233-1234	Cecil Gastonne: M4 HA7 HP3 F4 R4 H3 I5 A4 L9, 165 pts	OK	data.js:888-890	
+aj_bretonnia-086	aj_bretonnia.txt L1236-1240	Infanteria regular (personaje con nombre), peana 25x25, armadura pesada y escudo	OK	data.js:888-889 (arm heavy, shield)	
+aj_bretonnia-087	aj_bretonnia.txt L1241	Reglas: Bendiciones de la Dama, Grito de reagrupamiento, El Matador de Sierpes, Voto del Exiliado	OK	data.js br_cecil exileVow	Voto del Exiliado solo como stubborn+veteran; sin inmunidad a panico por Peasantry/Levies
+aj_bretonnia-088	aj_bretonnia.txt L1247-1249	Matador de Sierpes: al matar infanteria/caballeria monstruosa, criatura monstruosa o behemot en combate gana Terror e...	OK	rules.js:4792	
+aj_bretonnia-089	aj_bretonnia.txt L1256-1257	Capa de Piel de Dragon: FP de armas no magicas contra el reducida en 2	OK	rules.js:1644	
+aj_bretonnia-090	aj_bretonnia.txt L1257-1259	Capa: inmune a Golpe Letal y Heridas Multiples; si sufre herida no salvada de ellos pierde una sola Herida	OK	rules.js:1644	
+aj_bretonnia-091	aj_bretonnia.txt L1259-1260	Capa: salvacion especial 3+ contra Ataques Flamigeros	OK	rules.js:1669	
+aj_bretonnia-092	aj_bretonnia.txt L1265-1267	Fin del Pesar: F+1, FP-1, Ataques magicos, Matamonstruos, Heridas multiples (2)	OK	data.js:889 melee {sb:1,ap:1,mw:2}, monsterSlayer, magical	
+aj_bretonnia-093	aj_bretonnia.txt L1229-1231	Cecil como Baron en cualquier lista que incluya Barones; se juega tal cual	OK	data.js:~4552	En Cruzada no cuenta para el limite de Baron/Profetisa por 1.000
+aj_bretonnia-094	aj_bretonnia.txt L1328-1329	Lady Elisse: HA4 HP3 F3 R4 H5 I3 A2 L8, 225 pts; Ariandir M10 HA4 F4 I5 A2	PARCIAL	data.js:895-898	HA4/I5 de Ariandir no modelados (sistemico: monturas sin HA/I propias)
+aj_bretonnia-095	aj_bretonnia.txt L1331-1334	Caballeria monstruosa (personaje con nombre), peana 40x60	OK	data.js br_elisse baseW 40 baseD 60	Convencion char como Duque/Barón
+aj_bretonnia-096	aj_bretonnia.txt L1336-1338	Equipo: arma de mano, Caliz de Brionne, Baculo de los Elementos; Ariandir cascos y cuerno (arma de mano)	OK	data.js:896 mountAtk	
+aj_bretonnia-097	aj_bretonnia.txt L1340-1341	Maga de nivel 3 del Saber del Elementalismo	OK	data.js:897 wizard level 3 elementalism	
+aj_bretonnia-098	aj_bretonnia.txt L1343-1346	Reglas de Fuerza: Armadura natural (1), Perforante (2, solo Ariandir), Ataques magicos, Resistencia magica (-2), Piso...	OK	data.js:896-897 (Sv 6, ab 2, stompN 1, magRes2, beguile)	
+aj_bretonnia-099	aj_bretonnia.txt L1343-1346	Reglas Aura de la Dama y Escudo de la Dama	AUSENTE	data.js:897	Sin texto fuente de Aura de la Dama / Escudo de la Dama en los TXT (reglas FoF no incluidas)
+aj_bretonnia-100	aj_bretonnia.txt L1352-1354	Contragolpe Arcano: +1 a disipar; doble natural (no doble 1) disipa y el lanzador pierde 1 Herida	OK	rules.js:3426-3430	
+aj_bretonnia-101	aj_bretonnia.txt L1359-1361	Caliz de Brionne: personajes enemigos que usen reglas/objetos con chequeo de Liderazgo sufren -2 L (min 2) en alcance...	PARCIAL	rules.js:ldOf(s,u,noWb,rule) ~1633; usos rule=true: Caldero (cauldron), Senor de la Noche/Yelmo de Mando	VERIF v732: rules.js:1657 ldOf(rule=true) solo en Caldero (7484) y objetos 7643; Grito de reagrupamiento (rallyingCry 6582, ejemplo de la fuente) usa rallyTest sin -2 de Brionne | El -2 Ld solo se aplica a chequeos exigidos por reglas/objetos (ldOf con rule=true); ya no a panico/desmoralizacion
+aj_bretonnia-102	aj_bretonnia.txt L1367-1369	Baculo de los Elementos: descarta dos hechizos aleatorios y elige dos firmas de Elementalismo y/o la Dama	OK	rules.js:~982 Baculo de los Elementos	Descarta los dos hechizos generados y conoce las dos firmas (Elementalismo y la Dama); solo hay dos firmas distintas, el Saber elegido fija la primera
+aj_bretonnia-103	aj_bretonnia.txt L1343	Saber de la Dama (Lore of the Lady)	OK	data.js:2296-2301, 2415	
+aj_bretonnia-104	aj_bretonnia.txt L1378	Mago Proscrito: M4 HA3 HP3 F3 R3 H2 I3 A1 L7, 45 pts, nivel 1	OK	data.js:899-901	
+aj_bretonnia-105	aj_bretonnia.txt L1380-1383	Infanteria regular (personaje), peana 25x25, arma de mano	OK	data.js:899	
+aj_bretonnia-106	aj_bretonnia.txt L1385-1392	Saber elegido entre Batalla, Demonologia, Oscura, Elementalismo, Ilusion, Nigromancia	OK	data.js:900 lores	
+aj_bretonnia-107	aj_bretonnia.txt L1395	Opcion: montado en Corcel (+12 pts)	OK	data.js fin del fichero (br_outcast_h, br_outcast2_h, br_outcast3_h)	Solo existe en Coronas Renegadas (rc_wizard*_h); no en Exiliados
+aj_bretonnia-108	aj_bretonnia.txt L1397	Opcion: mago de nivel 2 (+30 pts)	OK	data.js fin del fichero (br_outcast2)	br_outcast/br_outcast3 solo niveles 1 y 3; nivel 2 solo en Renegados (5574)
+aj_bretonnia-109	aj_bretonnia.txt L1398	Opcion: mago de nivel 3 (+60 pts)	OK	data.js:902 (105 pts)	
+aj_bretonnia-110	aj_bretonnia.txt L1399	Objetos magicos hasta 75 puntos	OK	data.js:899 ib:75	
+aj_bretonnia-111	aj_bretonnia.txt L1401	Reglas: Ataques magicos, Resistencia magica (-1), Arcanista sin formacion	OK	data.js:900; rules.js:3340	
+aj_bretonnia-112	aj_bretonnia.txt L1403-1408	Arcanista sin formacion: en la tabla de Disfuncion tira un D6 extra y descarta el mas alto	OK	rules.js:3340	
+aj_bretonnia-113	aj_bretonnia.txt L1413-1420	Corcel: M8 HA3 F3 I3 A1, caballeria ligera, Caballeria rapida y Zancada, peana 25x50	OK	data.js fin del fichero (variantes montadas M8, caballeria rapida, Zancada, peana 25x50)	HA3/I3 de la montura no modelados (sistemico)
+aj_bretonnia-114	aj_bretonnia.txt L1434-1435	Guardia de Terratenientes: M4 HA3 HP3 F3 R3 H1 I3 A1 L6, 5 pts	OK	data.js:905-907	Max 40 en el motor (libro: 10+ sin tope)
+aj_bretonnia-115	aj_bretonnia.txt L1436	Guardian (campeon): A2, +6 pts	OK	data.js:2469 CMD br_yeoman_guard [6,6,6]	Perfil de campeon generico
+aj_bretonnia-116	aj_bretonnia.txt L1437	Monje del Grial: HA3 HP2 F3 R3 I2 A2 L6, +7 pts	PARCIAL	data.js:5378-5380; rules.js:748 (champ2)	HP2/I2 del Monje no modelados
+aj_bretonnia-117	aj_bretonnia.txt L1439-1442	Infanteria regular, peana 25x25, tamano 10+, armas de mano, armadura ligera y escudos	OK	data.js:905-906	
+aj_bretonnia-118	aj_bretonnia.txt L1445-1448	Alabardas (gratis), Armas de asta (+1/modelo) o Lanzas de estocada (gratis), una para toda la unidad	OK	data.js:906 (thrust), 4763-4765 (ha, pa)	Lanza de estocada es el arma por defecto
+aj_bretonnia-119	aj_bretonnia.txt L1450-1453	Guardian +6, Monje +7, portaestandarte +6, musico +6	OK	data.js:2469; 5378	
+aj_bretonnia-120	aj_bretonnia.txt L1454	Estandarte magico de hasta 25 pts	OK	data.js br_yeoman_guard bnMax 25	br_yeoman_guard sin bnMax:25; admite hasta 50
+aj_bretonnia-121	aj_bretonnia.txt L1455	Monje del Grial puede llevar Triptico Bendito (+25 pts)	OK	data.js:5378-5380 (bt)	
+aj_bretonnia-122	aj_bretonnia.txt L1457	Reglas: Orden cerrado, Horda, Peasantry, Muro de escudos, Veterano, Banda de guerra	OK	data.js:906	
+aj_bretonnia-123	aj_bretonnia.txt L1463-1465	Monje del Grial: modelo de grupo de mando con las reglas de campeon (Guardian + Monje = dos campeones)	PARCIAL	rules.js:748 (champ2)	VERIF v732: data.js:5992 opcion gm +7 y rules.js:5357/5517 solo dan +1 Ataque y relevo al caer el primer campeon; el Monje no actua como segundo campeon independiente (desafios) como exige la regla
+aj_bretonnia-124	aj_bretonnia.txt L1471-1472	Triptico Bendito: la unidad gana Tozudo	OK	data.js:5379	
+aj_bretonnia-125	aj_bretonnia.txt L1474-1476	Arma de asta: una mano F, Lucha en filas extra; dos manos F+1, FP-1, Requiere ambas manos	OK	data.js:4765; rules.js:4496-4506	
+aj_bretonnia-126	aj_bretonnia.txt L1477-1479	Perfil de arma de asta se elige al inicio de la primera ronda del combate	PARCIAL	rules.js:4496-4506 (mwLock/mwPref)	VERIF v732: rules.js:5237-5247 el arma (meleeChoice) se elige en cada ronda/subfase (FAQ arma multiple), no solo al inicio de la 1a ronda; mwLock sin efecto (anulado)
+aj_bretonnia-127	aj_bretonnia.txt L1478-1479	Un modelo con arma de asta no hace ataques de apoyo el turno que carga	OK	rules.js:4090 (!u.chargeOK)	
+aj_bretonnia-128	aj_bretonnia.txt L1493-1494	Bandido: M4 HA3 HP3 F3 R3 H1 I3 A1 L6, 4 pts; Desperado A2 L7 +7	OK	data.js:953-955; 2469	
+aj_bretonnia-129	aj_bretonnia.txt L1497-1499	Infanteria regular, peana 25x25, tamano 10+, armas de mano y armadura ligera	OK	data.js:953-954	Max 30
+aj_bretonnia-130	aj_bretonnia.txt L1503-1505	Arma de mano adicional (+2/modelo) o escudo (+1/modelo), elegir una	PARCIAL	data.js:5388-5390	Opciones de arma de mano/escudo por modelo: requiere armaduras y ataques mixtos por modelo (Variopinto abstraido)
+aj_bretonnia-131	aj_bretonnia.txt L1506-1509	Pistola (+2), trabuco (+4) o ballesta (+3) por modelo	OK	data.js opciones ps/bb/cb por modelo (cnt+wrg)	Opciones de unidad entera; la mezcla por modelo se abstrae
+aj_bretonnia-132	aj_bretonnia.txt L1510-1513	Desperado +7, portaestandarte +5, musico +5	OK	data.js:2469 CMD br_brigands [7,5,5]	
+aj_bretonnia-133	aj_bretonnia.txt L1514	El Desperado puede comprar objetos magicos hasta 50 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+aj_bretonnia-134	aj_bretonnia.txt L1515-1517	0-1 unidad por 1.000 pts con Orden cerrado o Escaramuzadores (gratis) en vez de Orden abierto	OK	data.js:5394-5395; 4469	
+aj_bretonnia-135	aj_bretonnia.txt L1518-1520	Escaramuzadores: Emboscadores (+2/modelo) o Exploradores (+1/modelo)	OK	data.js:5396-5397; 4469	
+aj_bretonnia-136	aj_bretonnia.txt L1522	Reglas: Horda, Impetuosos, Levas, Tripulacion abigarrada, Orden abierto, Banda de guerra	PARCIAL	data.js:954 sr; 3488	Tripulacion abigarrada: abstraccion de perfil medio del motor
+aj_bretonnia-137	aj_bretonnia.txt L1525-1527	"Trabuco: 12\"", F3, FP-1, Disparos multiples (D3), Fuego en volea"	OK	data.js:957,5392	
+aj_bretonnia-138	aj_bretonnia.txt L1526-1527	Trabuco: sin modificadores negativos por largo alcance, disparos multiples ni defensa de carga	OK	data.js br_brigands_bb y opcion bb noPen	Falta noPen: se aplican los penalizadores
+aj_bretonnia-139	aj_bretonnia.txt L1514-1519	Bandidos: magia de estandarte (no existe en el libro)	OK	data.js br_brigands bnMax 0	Sin estandarte magico
+aj_bretonnia-140	aj_bretonnia.txt L1547-1549	Bombarda: R7 H3 L7, tripulacion M4 HA3 HP3 F3 R3 H3 I3 A3, 100 pts	OK	data.js br_bombard M4	R7 H3 y 100 pts OK; el perfil de M es 3 en lugar de 4 de la tripulacion
+aj_bretonnia-141	aj_bretonnia.txt L1551-1555	Maquina de guerra, peana 50x50, armas de mano y armadura ligera, reglas Levas y Escaramuzadores	OK	data.js:949-952 (baseW50 baseD50, levies, skirmish)	
+aj_bretonnia-142	aj_bretonnia.txt L1558-1560	"Bombarda: 48\"", F8, FP-3, Perforante (2), Fuego de canon, Voluminoso, Mover o disparar, Heridas multiples (D3+1)"	OK	data.js:951	
+aj_bretonnia-143	aj_bretonnia.txt L1561-1562	Dispara como canon y usa la tabla de averias de la Bombarda	OK	rules.js:2289-2297	
+aj_bretonnia-144	aj_bretonnia.txt L1566	Avería 1: destruida y retirada	OK	rules.js:2292	
+aj_bretonnia-145	aj_bretonnia.txt L1569-1571	Averia 2-3: la dotacion pierde una Herida y no dispara	OK	rules.js:2293	
+aj_bretonnia-146	aj_bretonnia.txt L1572-1573	Averia 4-5: no dispara este turno	OK	rules.js:2294	
+aj_bretonnia-147	aj_bretonnia.txt L1574-1578	Averia 6: dispara como un 2 del dado de Artilleria y no puede disparar la siguiente ronda	OK	rules.js:2295	disabledUntil
+aj_bretonnia-148	aj_bretonnia.txt L1602-1609	Objetos de Bretonia se compran como Comunes; los marcados (*) son Extremadamente Comunes	OK	data.js:2846-2861 (star en brsaj_lucky)	
+aj_bretonnia-149	aj_bretonnia.txt L1612-1624	Lanza del Cruzado 60: F+2, FP-2, Perforante (2), Carga furiosa, Odio (todos), Magica; solo el turno que carga	OK	data.js brsaj_lance (chS/chAp/chAb solo al cargar)	S/ap se suman 2 fijos + 2 de carga (F+4/FP-4 al cargar y F+2 fuera de la carga en vez de arma de mano)
+aj_bretonnia-150	aj_bretonnia.txt L1621-1622	Lanza del Cruzado: solo Cruzada Errante y modelos de caballeria/monstruo	OK	data.js brsaj_lance list crusade + needMount (itemIssues)	Sin restriccion de lista ni de tipo
+aj_bretonnia-151	aj_bretonnia.txt L1626-1635	Hacha de la Frontera 30: F+2, FP-3, Magica, Heridas multiples (2), Requiere dos manos; solo Exiliados	OK	data.js brsaj_axe list exiles twoH; rules.js:~1680 twoH con escudo	Perfil OK; sin list:'exiles' ni flag de dos manos
+aj_bretonnia-152	aj_bretonnia.txt L1637-1643	Espada del Valiente 25: F+2, FP-1, Perforante (1), Inmune a Psicologia, Magica, Requiere dos manos	OK	data.js brsaj_stout twoH	Perfil OK; sin flag de dos manos
+aj_bretonnia-153	aj_bretonnia.txt L1645-1654	Rompeenemigos 20: F+1, Magica; herida no salvada -> chequeo de R, si falla -1 HA y Ataques (min 1) hasta el fin de la...	OK	data.js:2849; rules.js:4783,4071,4218	
+aj_bretonnia-154	aj_bretonnia.txt L1661-1672	Armadura Ungida 45: armadura pesada; con Bendicion inmune a Golpe Letal y H. Multiples (pierde 1 Herida); solo Voto d...	OK	data.js brsaj_anointed needGrail/noMonMount (itemIssues)	Efecto OK; sin restriccion de Voto del Grial ni de tipo
+aj_bretonnia-155	aj_bretonnia.txt L1674-1682	Escudo de Puas de Hierro 20: escudo; 1 natural para impactar o herir al portador causa impacto F3 FP-1; solo Exiliados	OK	data.js brsaj_ironspike list exiles	Efecto OK; sin list:'exiles'
+aj_bretonnia-156	aj_bretonnia.txt L1686-1692	Colgante del Grial 40: un solo uso, al perder la ultima Herida D6 2+ no se pierde; solo Voto del Grial	OK	data.js brsaj_grail needGrail	Efecto OK; sin restriccion de Voto del Grial
+aj_bretonnia-157	aj_bretonnia.txt L1694-1703	Reliquia de la Suerte* 25: una vez por ronda repite un impacto, herida, salvacion o especial fallado; solo Exiliados	OK	"rules.js: resolveShot0 luckTry(u,""hit"") tras el bucle de impactos"	Ahora tambien repite impactar al disparar; el texto fuente (Lucky Heirloom) cubre impactar, herir, salvacion armadura/especial
+aj_bretonnia-158	aj_bretonnia.txt L1710-1713	Sello de Parravon 35: 3+ siempre impacta	OK	data.js:2854; rules.js:4382,4663	
+aj_bretonnia-159	aj_bretonnia.txt L1719-1729	Clarin del Cruzado 25: el turno que carga su montura y las de su unidad +1 F; solo Cruzada Errante, corcel bretoniano	OK	data.js brsaj_clarion list crusade onlyT	Efecto OK; sin restriccion de lista ni de montura
+aj_bretonnia-160	aj_bretonnia.txt L1731-1735	Frasco de Aliento de Wyrm 20: un solo uso, arma de aliento F4 FP-1 Flamigera Magica; solo Exiliados	OK	data.js brsaj_wyrm list exiles	Efecto OK; sin list:'exiles'
+aj_bretonnia-161	aj_bretonnia.txt L1736-1745	Varita de Golpe de Llama 15: un solo uso, Bola de Fuego atada Nivel de Poder 3; solo Exiliados	OK	data.js (brsaj_wand duplicado eliminado; se conserva flamestrike con list exiles y single)	Existen dos entradas (flamestrike sin 'single' y brsaj_wand sin list)
+aj_bretonnia-162	aj_bretonnia.txt L1661-1664	Estandarte de la Gracia de la Dama 75: ignora modificadores negativos a L	OK	data.js:2858; rules.js:1430	
+aj_bretonnia-163	aj_bretonnia.txt L1669-1676	Tapiz del Cruzado 40: la unidad gana Frenesi; solo Cruzada Errante	OK	data.js brsaj_tapestry list crusade	Efecto OK; sin list:'crusade'
+aj_bretonnia-164	aj_bretonnia.txt L1678-1686	Estandarte del Caballero Celoso 25: la unidad gana Vanguardia; solo Exiliados	OK	data.js brsaj_zealous list exiles	Efecto OK; sin list:'exiles'
+aj_bretonnia-165	aj_bretonnia.txt L1688-1697	Estandarte de la Guerra Honorable 25: repite impactos fallados la primera ronda contra enemigos con proyectiles	OK	data.js:2861; rules.js:4224	
+aj_bretonnia-166	aj_bretonnia.txt L1715-1722	Corazon de lo Salvaje 40: +1 a lanzar en terreno natural (bosques, dificil o peligroso)	OK	data.js:3144; rules.js:3917	Natural = bosque/pantano
+aj_bretonnia-167	aj_bretonnia.txt L1724-1734	Diadema del Poder 35: +1 a lanzar Vortice, Proyectil Magico o Asalto; solo Cruzada Errante	OK	data.js:3146; rules.js:3918; 4347	

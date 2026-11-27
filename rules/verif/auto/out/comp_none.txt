@@ -1,0 +1,172 @@
+emp_general_griffon|empire|General del Imperio en Grifo|9,5,5,4,5,7,5,7,10|225
+emp_lector_altar|empire|Lector de Sigmar en Altar de Guerra|7,5,3,4,5,8,5,5,9|245
+great_cannon|empire|Cañón Grande|3,3,3,3,6,3,3,3,7|125
+rock_lobber|orcs|Lanzapiedras Goblin|3,2,3,3,6,4,3,3,4|75
+bolt_throwa|orcs|Lanzavirotes Goblin|3,2,3,3,5,3,3,3,4|45
+we_lord_eagle|wood|Señor del Claro en Gran Águila|10,7,7,4,4,4,6,7,10|195
+we_orion_hounds|wood|Sabuesos de Orión|9,4,0,4,4,1,4,1,6|0
+squig_hoppers|orcs|Saltagarrapatos|10,2,3,3,3,1,3,3,5|12
+orc_boar_chariot|orcs|Carro de Jabalíes Orco|7,3,3,3,5,4,3,4,7|90
+bm_herdstone|bm|Piedra de las Manadas|0,0,0,0,0,1,0,0,0|100
+goods_cart|empire|Carro de mercancías|6,4,4,4,5,3,2,1,9|0
+pump_wagon|orcs|Carro Bomba Snotling|7,2,2,2,4,3,3,6,4|35
+mangler_squig|orcs|Garrapato Destrozón|10,4,0,6,5,4,3,4,4|95
+orc_bonegrinder|orcs|Gigante Triturador|6,3,1,7,6,8,3,1,10|300
+orc_giant|orcs|Gigante|6,3,1,6,6,6,2,1,10|200
+br_duke_hippo|bret|Duque de Bretonia en Hipogrifo|9,7,3,5,5,7,5,10,9|295
+br_baron_pegasus|bret|Barón de Bretonia en Pegaso Real|10,6,3,4,5,4,5,8,9|170
+br_elisse|bret|Lady Élisse Duchaard|10,4,3,3,4,5,3,4,8|225
+br_trebuchet|bret|Trabuquete de Campaña|3,2,2,3,7,3,3,4,6|100
+bm_warped|bm|Gors Deformes|5,4,2,3,4,1,3,2,7|16
+tk_summoned|tk|Guerreros Esqueleto Invocados|4,2,2,3,3,1,2,1,5|0
+he_noble_eagle|he|Noble Alto Elfo en Gran Águila|10,6,6,4,4,3,5,6,9|130
+he_prince_sun|he|Príncipe de Caledor en Dragón Solar|10,8,7,4,5,7,6,8,10|325
+he_noble_sun|he|Noble de Caledor en Dragón Solar|10,7,6,4,5,6,5,7,9|265
+woc_lord_manticore|woc|Señor del Caos en Mantícora|9,7,3,5,6,8,6,9,9|317
+woc_sorc_manticore|woc|Señor Hechicero en Mantícora (nivel 3)|9,5,3,4,5,7,4,7,8|315
+woc_spawn|woc|Engendros del Caos|7,3,0,4,5,3,3,4,10|50
+bm_giant|bm|Gigante del Caos|6,3,1,6,6,6,2,1,10|200
+he_prince_tiranoc|he|Príncipe Alto Elfo en Carro de Tiranoc|9,7,7,4,4,7,6,6,10|210
+tk_king_chariot|tk|Rey Funerario en Carro Esqueleto|8,6,3,5,5,7,4,6,10|197
+woc_lord_chariot|woc|Señor del Caos en Carro del Caos|7,7,3,5,5,8,6,7,9|307
+bm_beastlord_tusk|bm|Señor de las Bestias en Carro de Tuskgors|7,6,3,5,5,7,5,6,8|206
+he_lionchariot|he|Carro de Leones de Chrace|8,5,4,4,4,4,4,6,8|125
+tk_chariot|tk|Carros Esqueleto|8,3,2,3,4,3,2,4,7|41
+bm_tuskchariot|bm|Carro de Tuskgors|7,4,3,4,4,4,4,4,7|85
+bm_razorchariot|bm|Carro de Razorgor|7,4,3,4,5,4,4,6,7|120
+he_chieftain_chariot|he|Caudillo Chracio en Carro del Caudillo|8,6,4,4,4,6,5,8,9|210
+he_korhil_chariot|he|Korhil Melena de León en Carro del Caudillo|8,7,5,4,4,6,6,9,9|280
+he_boltthrower|he|Lanzavirotes Garra de Águila|5,4,4,3,6,2,4,2,8|80
+de_beastmaster|de|Maestro de Bestias|5,7,7,4,3,3,5,3,9|75
+de_boltthrower|de|Segador (lanzavirotes de repetición)|5,4,4,3,6,2,4,2,8|80
+lm_skchief_steg|lm|Jefe Skink en Stegadón|6,4,5,5,6,7,3,12,7|260
+lm_skpriest_ancient|lm|Sacerdote Skink en Stegadón Ancestral (nivel 2)|6,3,3,5,6,7,3,9,6|320
+sk_greyseer_bell|sk|Vidente Gris en Campana Aullante (nivel 3)|2,3,3,3,6,7,5,5,8|370
+sk_warplightning|sk|Cañón de Rayo de Disformidad|5,3,3,3,6,4,3,3,6|110
+sk_plagueclaw|sk|Catapulta de Garra de Plaga|5,3,3,3,6,4,2,3,6|110
+sk_warpgrinder|sk|Perforadora de Disformidad|5,3,3,5,3,2,3,2,4|45
+sk_doomflayer|sk|Segadora del Destino|5,3,3,4,3,2,3,2,4|55
+sk_plaguepriest_furnace|sk|Sacerdote de la Plaga en Horno de la Plaga|2,5,3,4,6,7,5,9,6|230
+sk_doomwheel|sk|Rueda de la Perdición|8,3,4,3,5,4,3,1,7|145
+sk_hellpit|sk|Abominación de la Fosa Infernal|10,3,1,6,5,6,4,5,8|210
+vc_count_coven|vc|Conde Vampiro en Trono del Aquelarre|8,7,5,5,5,8,6,8,8|370
+vc_knightshrouds|vc|Caballero de las Mortajas|6,6,3,4,4,3,5,3,8|110
+vc_knightshrouds_steed|vc|Caballero de las Mortajas en Corcel Etéreo|8,6,3,4,4,3,5,4,8|145
+vc_corpsecart|vc|Carro de Cadáveres|6,3,0,3,4,4,3,1,8|115
+vc_mortis|vc|Motor Mortis|8,3,0,3,5,5,3,3,8|195
+dm_herald_tzeentch_chariot|dm|Heraldo de Tzeentch en Carro Ardiente (nivel 2)|9,3,4,4,5,5,4,6,8|180
+dm_nurglings|dm|Nurglings|4,2,0,2,3,7,2,1,5|45
+dm_beast|dm|Bestia de Nurgle|5,3,0,4,5,4,2,1,7|62
+dm_skullcannon|dm|Cañón de Calaveras de Khorne|7,5,4,5,5,4,2,5,8|185
+ok_tyrant_stone|ok|Tirano en Cuernopétreo|6,5,4,5,6,9,5,9,9|380
+ok_bruiser_stone|ok|Matón en Cuernopétreo|6,4,3,5,6,8,4,8,8|305
+ok_bruiser_thunder|ok|Matón en Colmillotrueno|6,4,3,5,6,8,4,8,8|275
+ok_hunter_stone|ok|Cazador en Cuernopétreo|6,4,5,4,6,8,3,8,8|310
+ok_hunter_thunder|ok|Cazador en Colmillotrueno|6,4,5,4,6,8,3,8,8|280
+ok_giants|ok|Gigante|6,3,1,6,6,6,2,5,10|200
+cd_wolfriders|cd|Jinetes de Lobo Hobgoblin|9,3,3,3,3,1,3,1,6|12
+cd_blunderbuss|cd|Guardia Infernal con Trabuco|3,4,4,3,3,1,2,1,8|16
+cd_hailshot|cd|Juramentados con Fusil de Granizo|3,4,4,3,3,1,2,1,8|18
+cd_manburner|cd|K'daai Quemahombres|5,4,0,5,4,3,3,3,8|70
+cd_taurus|cd|Gran Taurus|9,5,0,5,6,8,3,6,8|250
+cd_rocket|cd|Lanzacohetes Gritamuertes|3,3,3,3,6,3,2,3,9|120
+cd_ironDaemon|cd|Máquina de Guerra Demonio de Hierro|5,4,4,8,7,7,2,3,9|275
+ct_gatekeeper|ct|Guardián de la Puerta|4,6,4,4,4,2,4,2,8|45
+ct_gatekeeper_horse|ct|Guardián de la Puerta a caballo|7,6,4,4,4,2,4,3,8|61
+ct_gatemaster|ct|Maestro de la Puerta|4,7,4,4,4,3,4,3,9|80
+ct_gatemaster_horse|ct|Maestro de la Puerta a caballo|7,7,4,4,4,3,4,4,9|96
+ct_magistrate|ct|Magistrado Señor|4,5,4,3,3,3,4,2,9|65
+ct_magistrate_lantern|ct|Magistrado Señor en Linterna Celeste|8,5,4,3,4,10,4,8,9|200
+ct_strategist|ct|Estratega|4,4,4,3,3,2,3,1,9|40
+ct_strategist_lantern|ct|Estratega en Linterna Celeste|8,4,4,3,4,9,3,7,9|175
+ct_shugengan|ct|Señor Shugengan (nivel 2)|9,6,3,4,5,7,6,7,9|220
+ct_shugengan_gen|ct|General Shugengan (nivel 1)|9,5,3,4,5,6,5,6,8|145
+ct_miaoying|ct|Miao Ying, el Dragón de la Tormenta (forma Dragón)|9,8,3,7,6,7,6,6,10|485
+ct_miaoying_h|ct|Miao Ying, el Dragón de la Tormenta (forma Humana)|4,7,5,4,4,7,7,4,10|485
+ct_jade|ct|Guerreros de Jade (alabardas)|4,4,3,3,3,1,3,1,8|8
+ct_jade_spear|ct|Guerreros de Jade (escudos)|4,4,3,3,3,1,3,1,8|8
+ct_cannon|ct|Gran Cañón Cathayano|4,3,3,3,6,3,3,3,7|130
+ct_rockets|ct|Batería de Cohetes Lluvia de Fuego|4,3,3,3,6,3,3,3,7|130
+ct_lanterns|ct|Linterna Celeste|8,3,4,5,4,7,3,1,8|135
+ct_lanterns_amb|ct|Linterna Celeste (Globo de guerra)|8,3,4,5,4,7,3,1,8|150
+ct_sentinel|ct|Centinela Cathayano (piedra bruja)|6,5,1,6,6,6,3,3,10|270
+dm_herald_khorne_throne|dm|Heraldo de Khorne en Trono de Sangre|7,7,4,5,5,6,6,8,8|240
+dm_herald_slaanesh_chariot|dm|Heraldo de Slaanesh en Carro Buscador|9,6,4,4,4,6,6,7,8|185
+dm_herald_slaanesh_exalted|dm|Heraldo de Slaanesh en Carro Buscador Exaltado|9,6,4,4,4,8,6,10,8|270
+de_deathhag_cauldron|de|Bruja Sanguinaria en Caldero de Sangre|2,6,6,4,5,7,7,5,8|220
+de_dreadlord_chariot|de|Señor Oscuro en Carro de Gélidos|7,7,7,4,5,7,6,10,10|255
+de_master_chariot|de|Noble Oscuro en Carro de Gélidos|7,6,6,4,5,6,5,9,9|195
+de_beastmaster_chariot|de|Gran Maestro de Bestias en Carro Corredor|9,7,7,4,4,7,5,7,9|160
+black_warboss_chariot|orcs|Jefe de Guerra Orco Negro en Carro de Jabalíes|7,7,3,5,5,7,6,8,9|265
+black_bigboss_chariot|orcs|Gran Jefe Orco Negro en Carro de Jabalíes|7,6,3,4,5,6,5,7,8|205
+ct_cannon_ogre|ct|Gran Cañón Cathayano (con Cargador ogro)|5,3,3,3,6,3,3,3,7|165
+ct_cannon_ogre_gp|ct|Gran Cañón Cathayano (con Cargador ogro y bombas de pólvora)|5,3,3,3,6,3,3,3,7|173
+ct_rockets_ogre|ct|Batería de Cohetes Lluvia de Fuego (con Cargador ogro)|5,3,3,3,6,3,3,3,7|165
+ct_rockets_ogre_gp|ct|Batería de Cohetes Lluvia de Fuego (con Cargador ogro y bombas de pólvora)|5,3,3,3,6,3,3,3,7|173
+ct_jade_cdg|ct|Guerreros de Jade (alabardas) (Guardia Celestial del Dragón)|4,5,3,3,3,1,3,1,9|9
+ct_lancers_cdg|ct|Lanceros de Jade (Guardia Celestial del Dragón)|7,5,3,3,3,1,3,2,9|21
+he_skycutter_amb|he|Cortacielos (De las nubes de tormenta: Emboscador)|10,4,4,3,4,4,4,5,8|100
+he_skycutter_bt_amb|he|Cortacielos con Lanzavirotes (De las nubes: Emboscador)|10,4,4,3,4,4,4,5,8|125
+we_dryads_amb|wood|Dríadas (Bosque Despierto: Emboscadores)|6,4,4,3,4,1,4,2,8|14
+we_treekin_amb|wood|Parientes del Árbol (Bosque Despierto: Emboscadores)|5,4,4,4,5,3,3,3,8|52
+imp_ogres|ok|Ogros Imperiales (mercenarios)|6,3,3,4,4,3,2,3,7|29
+we_beastkeeper|wood|Cuidador de Bestias|5,4,4,3,3,1,4,1,8|0
+sk_thingscatcher|sk|Maestro de Manada con Cazacosas|6,3,3,3,3,1,4,1,6|10
+woc_spawn_khorne|woc|Engendros de Khorne|7,3,0,4,5,3,3,4,10|53
+woc_spawn_nurgle|woc|Engendros de Nurgle|7,3,0,4,5,3,3,4,10|52
+woc_spawn_slaanesh|woc|Engendros de Slaanesh|7,3,0,4,5,3,3,4,10|53
+woc_spawn_tzeentch|woc|Engendros de Tzeentch|7,3,0,4,5,3,3,4,10|51
+cd_rocket_hb|cd|Lanzacohetes Gritamuertes (Ligado al infierno)|3,3,3,3,6,3,2,3,9|150
+dw_cannon_ff|dw|Cañón Enano (Función sobre forma)|3,3,3,3,6,3,2,3,9|100
+dw_organ_ff|dw|Cañón Órgano (Función sobre forma)|3,3,3,3,6,3,2,3,9|120
+dw_flame_ff|dw|Cañón Lanzallamas (Función sobre forma)|3,3,3,3,5,3,2,3,9|125
+br_duke_peg|bret|Duque de Bretonia en Pegaso con barda|10,7,3,5,4,5,5,8,9|205
+br_duke_rpeg|bret|Duque de Bretonia en Pegaso Real|10,7,3,5,5,5,5,9,9|245
+br_baron_peg|bret|Barón de Bretonia en Pegaso con barda|10,6,3,4,4,4,5,7,9|130
+br_baron_hippo|bret|Barón de Bretonia en Hipogrifo|9,6,3,4,5,6,5,9,9|220
+br_paladin_foot|bret|Paladín de Bretonia a pie|4,6,3,4,4,2,4,2,8|60
+br_paladin_peg|bret|Paladín de Bretonia en Pegaso con barda|10,6,3,4,4,3,4,6,8|90
+br_paladin_rpeg|bret|Paladín de Bretonia en Pegaso Real|10,6,3,4,5,3,4,7,8|130
+he_garrison_eagle|he|Comandante de Guarnición en Gran Águila|10,6,7,4,4,3,5,6,9|150
+he_garrison_skycutter|he|Comandante de Guarnición en Cortacielos de Lothern|10,6,7,4,4,6,5,8,9|180
+he_garrison_skycutter_amb|he|Comandante de Guarnición en Cortacielos (De las nubes: Emboscador)|10,6,7,4,4,6,5,8,9|190
+woc_lord_cchariot|woc|Señor del Caos en Carro de Elegidos|7,7,3,5,5,8,6,7,9|335
+woc_exalted_cchariot|woc|Campeón Exaltado en Carro de Elegidos|7,6,3,5,5,7,5,6,8|265
+woc_aspiring_cchariot|woc|Campeón Aspirante en Carro de Elegidos|7,5,3,4,5,6,4,5,8|210
+tk_cohort_cav|tk|Cohorte de Caballería Esqueleto|8,2,2,3,3,1,2,2,5|12
+tk_cohort_cav_cc|tk|Cohorte de Caballería Esqueleto (Contracarga)|8,2,2,3,3,1,2,2,5|13
+tk_cohort_ca|tk|Arquero a caballo de la Hueste Real|8,2,3,3,3,1,2,2,5|11
+tk_cohort_ca_cc|tk|Arquero a caballo de la Hueste Real|8,2,3,3,3,1,2,2,5|12
+emp_hans|empire|General Hans von Löwenhacke|4,6,5,4,4,3,4,4,9|190
+woc_gspawn|woc|Engendro Gigante del Caos|3,3,0,6,6,6,3,1,10|145
+woc_gspawnk|woc|Engendro Gigante del Caos de Khorne|3,3,0,6,6,6,3,1,10|165
+woc_gspawnn|woc|Engendro Gigante del Caos de Nurgle|3,3,0,6,6,6,3,1,10|170
+woc_gspawns|woc|Engendro Gigante del Caos de Slaanesh|3,3,0,6,6,6,3,1,10|160
+woc_gspawnt|woc|Engendro Gigante del Caos de Tzeentch|3,3,0,6,6,6,3,1,10|155
+bm_gspawn|bm|Engendro Gigante del Caos|3,3,0,6,6,6,3,1,10|145
+bm_gspawnk|bm|Engendro Gigante del Caos de Khorne|3,3,0,6,6,6,3,1,10|165
+bm_gspawnn|bm|Engendro Gigante del Caos de Nurgle|3,3,0,6,6,6,3,1,10|170
+bm_gspawns|bm|Engendro Gigante del Caos de Slaanesh|3,3,0,6,6,6,3,1,10|160
+bm_gspawnt|bm|Engendro Gigante del Caos de Tzeentch|3,3,0,6,6,6,3,1,10|155
+war_wagon|empire|Carro de Guerra|7,3,3,3,5,6,3,8,8|140
+emp_engineer_wagon|empire|Ingeniero Imperial en Carro de Guerra|7,3,4,3,5,8,3,3,8|193
+ct_lanterns_hail|ct|Linterna Celeste (fusiles de granizo)|8,3,4,5,4,7,3,1,8|135
+ct_lanterns_amb_hail|ct|Linterna Celeste (Globo de guerra, fusiles de granizo)|8,3,4,5,4,7,3,1,8|150
+dm_burning|dm|Carro Ardiente de Tzeentch|9,2,5,4,4,7,4,9,7|190
+de_scourge|de|Carros Azote (Scourgerunner)|9,4,4,4,4,4,4,4,8|85
+de_coldchariot|de|Carro de Gélidos|7,5,4,5,5,4,5,6,9|125
+vc_thrall_coven|vc|Esbirro Vampiro en Trono del Aquelarre|8,6,4,5,5,7,5,7,7|285
+vc_necro_mortis|vc|Nigromante Maestro en Motor Mortis (nivel 3)|8,3,3,3,5,8,3,5,8|325
+vc_acolyte_mortis|vc|Acólito Nigromántico en Motor Mortis (nivel 1)|8,3,3,3,5,7,3,4,7|255
+rc_prince|empire|Príncipe Renegado|4,6,4,4,4,3,5,3,8|75
+rc_prince_h|empire|Príncipe Renegado a caballo|8,6,4,4,4,3,5,4,8|87
+rc_captain|empire|Capitán Renegado|4,5,4,4,4,2,4,2,7|35
+rc_captain_h|empire|Capitán Renegado a caballo|8,5,4,4,4,2,4,3,7|47
+rc_sellswords|empire|Infantería Mercenaria (Sellswords)|4,3,3,3,3,1,3,1,5|4
+rc_vsellswords|empire|Mercenarios Veteranos (Veteran Sellswords)|4,4,3,3,3,1,3,1,5|5
+rc_sellswords_ph|empire|Infantería Mercenaria (Falange)|4,3,3,3,3,1,3,1,5|4
+rc_vsellswords_ph|empire|Mercenarios Veteranos (Falange)|4,4,3,3,3,1,3,1,5|5
+rc_vfreeblades|empire|Caballeros Libres Veteranos|8,4,3,4,3,1,3,2,8|22
+rc_outriders|empire|Jinetes a Sueldo (Hireling Outriders)|8,3,3,3,3,1,3,2,7|11
+rc_mortar|empire|Mortero de los Príncipes Fronterizos|4,3,3,3,7,3,3,3,7|90
+rc_organ|empire|Cañón Órgano de los Príncipes Fronterizos|4,3,3,3,7,3,3,3,7|125

@@ -1,0 +1,266 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+leg_chaosdwarfs-001	leg_chaosdwarfs.txt:13-17	Documento legacy: sin uso en juego igualado; reglas solo con rulebook + Ravening Hordes	NA		Aviso editorial
+leg_chaosdwarfs-002	leg_chaosdwarfs.txt:52-60	Lista Gran Ejercito es la lista por defecto; usa Forming Units y Warhammer Armies	NA		Texto introductorio
+leg_chaosdwarfs-003	leg_chaosdwarfs.txt:62-64	Personajes: hasta 50% de puntos	OK	data.js:4789 (cd:{...} tabla de porcentajes por categoria)	Comprobado el cd:{} de limites; porcentaje generico
+leg_chaosdwarfs-004	leg_chaosdwarfs.txt:65	0-1 Sorcerer-Prophet o Infernal Castellan por 1.000 pts	OK	data.js:4500	
+leg_chaosdwarfs-005	leg_chaosdwarfs.txt:66-67	0-1 Bull Centaur Taur'ruk por unidad de Bull Centaur Renders	OK	data.js:4501	
+leg_chaosdwarfs-006	leg_chaosdwarfs.txt:68	Daemonsmith Sorcerers, Infernal Seneschals y Hobgoblin Khans sin limite	OK	data.js:2443 (ARMIES.cd), sin tope en 4499-4507	
+leg_chaosdwarfs-007	leg_chaosdwarfs.txt:69	0-1 Black Orc Boss (lista Orcs & Goblins)	OK	data.js:~5090 cd_blackboss (clon de black_bigboss)	Jefe Orco Negro disponible en cd, 0-1 (chk)
+leg_chaosdwarfs-008	leg_chaosdwarfs.txt:71-75	Basicas: al menos 25% de puntos	OK	data.js:4789 (cd:{})	Porcentaje generico
+leg_chaosdwarfs-009	leg_chaosdwarfs.txt:75	1+ unidad de Infernal Guard obligatoria	OK	data.js:~4540 validacion cd (al menos 1 cd_guard)	No hay validacion que exija al menos una unidad de Infernal Guard
+leg_chaosdwarfs-010	leg_chaosdwarfs.txt:76	Hobgoblin Cutthroats en Basicas	OK	data.js:2141 cd_hobgoblins comp:core	
+leg_chaosdwarfs-011	leg_chaosdwarfs.txt:77	0-1 Black Orc Mob (lista Orcs & Goblins) en Basicas	OK	data.js:~5090 cd_blackorcs (clon, basica, 0-1)	No hay Black Orc Mob en cd
+leg_chaosdwarfs-012	leg_chaosdwarfs.txt:80-83	Especiales hasta 50%: Ironsworn, Sneaky Gits, K'daai, Bull Centaur Renders	OK	data.js:2169 cd_render, cd_kdaai, cd_ironsworn comp:special; 5279 cd_sneakygits special	
+leg_chaosdwarfs-013	leg_chaosdwarfs.txt:84	0-1 Iron Daemon por 1.000 pts (Especial)	OK	data.js:4504	
+leg_chaosdwarfs-014	leg_chaosdwarfs.txt:85-88	0-1 maquina Deathshrieker o Magma Cannon por 1.000 pts (Especial)	OK	data.js:4505	
+leg_chaosdwarfs-015	leg_chaosdwarfs.txt:89	0-2 Hobgoblin Bolt Throwers por 1.000 pts (Especial)	OK	data.js:4506	
+leg_chaosdwarfs-016	leg_chaosdwarfs.txt:62-70	Raras hasta 25%: 0-1 unidad de Wolf Riders por Khan	OK	data.js:4502; cd_wolfriders comp:rare	
+leg_chaosdwarfs-017	leg_chaosdwarfs.txt:66-71	0-1 maquina Raras por 1.000 pts: Dreadquake Mortar	OK	data.js:4506 (/^cd_mortar/); cd_mortar comp:rare	
+leg_chaosdwarfs-018	leg_chaosdwarfs.txt:70	Hellcannon (lista Warriors of Chaos) como maquina Rara	OK	data.js:~5090 cd_hellcannon (clon, raro; comparte 0-1/1000 con Mortero)	No accesible desde cd
+leg_chaosdwarfs-019	leg_chaosdwarfs.txt:72-74	Mercenarios hasta 20% de puntos	PARCIAL	data.js armyIssues mm (tope 20%)	Tope 20 % aplicado; sin unidades mercenarias en el texto fuente
+leg_chaosdwarfs-020	leg_chaosdwarfs.txt:76-81	Aliados: hasta 25% en un contingente de Warriors of Chaos	OK	data.js ALLY_TABLE/allyArmyIssues; main.js armyEditor	Contingente Warriors of Chaos hasta 25 %
+leg_chaosdwarfs-021	leg_chaosdwarfs.txt:84-89	Portaestandarte de Batalla: un Infernal Seneschal por +25, un estandarte magico sin limite	PARCIAL	data.js:2458 cd_seneschal [null,25,null]; bsb	VERIF v732: data.js:2466 Senescal std 25, pero Castellan/Daemonsmith/Profeta/Khan/Taruk tienen std permitido (cmdAllowed true): no se limita a un Senescal Infernal.
+leg_chaosdwarfs-022	leg_chaosdwarfs.txt:84-89	Battle Standard Bearer: puntos de objetos mas estandarte magico sin limite	OK	data.js:3215 (bsb sin limite de runas; banner aparte de items)	Estandarte BSB fuera del limite de objetos
+leg_chaosdwarfs-023	leg_chaosdwarfs.txt:93	Perfil Sorcerer-Prophet M3 HA5 HP4 F4 R5 H3 I2 A3 L10, 195 pts	OK	data.js:2121 cd_prophet	
+leg_chaosdwarfs-024	leg_chaosdwarfs.txt:94	Perfil Daemonsmith Sorcerer M3 HA4 HP4 F4 R4 H2 I2 A2 L9, 85 pts	OK	data.js:2117 cd_daemonsmith	
+leg_chaosdwarfs-025	leg_chaosdwarfs.txt:96-98	Heavy infantry (character), base 25x25, unidad 1	OK	data.js:2117,2121 baseW/baseD 25; tt char	
+leg_chaosdwarfs-026	leg_chaosdwarfs.txt:100	Sorcerer-Prophet Mago nivel 3; Daemonsmith nivel 1	OK	data.js:2120,2124 wizard level 3 / 1	
+leg_chaosdwarfs-027	leg_chaosdwarfs.txt:100-105	Lores disponibles: Daemonology, Dark Magic, Elementalism	OK	data.js:4696 SET(...)	
+leg_chaosdwarfs-028	leg_chaosdwarfs.txt:100-105	Saber por defecto del hechicero cd	OK	data.js:2122 wizard lore dark + SET lores	Eleccion de Saber via boton Lore
+leg_chaosdwarfs-029	leg_chaosdwarfs.txt:106	Equipo: arma de mano y armadura pesada	OK	data.js:2118 arm heavy	
+leg_chaosdwarfs-030	leg_chaosdwarfs.txt:110	Darkforged weapon +10 (Sorcerer)	OK	data.js:4757-4760 opcion dk +10	
+leg_chaosdwarfs-031	leg_chaosdwarfs.txt:111	Naptha bombs +15 (Sorcerer)	OK	data.js:4744 NB(15)	
+leg_chaosdwarfs-032	leg_chaosdwarfs.txt:112	Blood of Hashut +20 por vial (cualquier numero)	PARCIAL	data.js:~4827 VI v1..v10	VERIF v732: data.js:5206 VI = solo 10 opciones v1..v10 (20 pts por vial); la fuente dice cualquier numero de viales, sin tope | Hasta 10 viales (sin tope en el texto)
+leg_chaosdwarfs-033	leg_chaosdwarfs.txt:113-114	Sorcerer-Prophet puede ser nivel 4 por +30	OK	data.js:4137 WIZUP(...,3,30)	
+leg_chaosdwarfs-034	leg_chaosdwarfs.txt:115	Sorcerer-Prophet objetos hasta 100 pts	OK	data.js:2121 ib:100	
+leg_chaosdwarfs-035	leg_chaosdwarfs.txt:116	Sorcerer-Prophet montado en Bale Taurus o Great Taurus	OK	data.js:2126, ~3604	Ambas monturas
+leg_chaosdwarfs-036	leg_chaosdwarfs.txt:117	Sorcerer-Prophet montado en Lammasu	OK	data.js:3595 cd_prophet_lammasu	Coste 290 = 195+95
+leg_chaosdwarfs-037	leg_chaosdwarfs.txt:119	Daemonsmith nivel 2 por +30	OK	data.js:4138 WIZUP(..., 1, 30)	
+leg_chaosdwarfs-038	leg_chaosdwarfs.txt:120	Daemonsmith objetos hasta 50 pts	OK	data.js:2117 ib:50	
+leg_chaosdwarfs-039	leg_chaosdwarfs.txt:121	Daemonsmith montado en Great Taurus	OK	data.js:2123 cd_daemonsmith_taurus	Coste 205 = 85+120
+leg_chaosdwarfs-040	leg_chaosdwarfs.txt:122	Daemonsmith montado en Lammasu	OK	data.js:~3606 cd_daemonsmith_lammasu	No existe variante cd_daemonsmith_lammasu
+leg_chaosdwarfs-041	leg_chaosdwarfs.txt:124-125	Reglas: Blackshard, Ensorcelled, Infernal Engineer, Lore of Hashut, Resolute, Sorcerer's Curse, Stubborn	OK	data.js:2118,2122 sr	Todas presentes en sr de ambos
+leg_chaosdwarfs-042	leg_chaosdwarfs.txt:131-132	Infernal Engineer: una vez por turno repetir un dado de dispersion o artilleria de maquina en rango de mando	OK	rules.js:2092 (has infernalEng, artK, commandRange)	
+leg_chaosdwarfs-043	leg_chaosdwarfs.txt:131-132	Infernal Engineer: no huyendo ni trabado	OK	rules.js:2092 (!h.fleeing && !isEngaged)	
+leg_chaosdwarfs-044	leg_chaosdwarfs.txt:137-140	Sorcerer's Curse: en percance chequeo de R; si falla pierde 1 Herida y +1 R en vez de tabla	OK	rules.js:3319-3324 (curseT)	
+leg_chaosdwarfs-045	leg_chaosdwarfs.txt:137-140	Sorcerer's Curse: si supera el chequeo tira en la tabla de percances normal	OK	rules.js:3319-3330	
+leg_chaosdwarfs-046	leg_chaosdwarfs.txt:144	Perfil Infernal Castellan M3 HA6 HP4 F5 R5 H3 I3 A4 L10, 125 pts	OK	data.js:2109 cd_castellan	
+leg_chaosdwarfs-047	leg_chaosdwarfs.txt:145	Perfil Infernal Seneschal M3 HA5 HP4 F4 R5 H2 I2 A3 L9, 60 pts	OK	data.js:2113 cd_seneschal	
+leg_chaosdwarfs-048	leg_chaosdwarfs.txt:147-150	Heavy infantry (character), 25x25, unidad 1, arma de mano y armadura pesada	OK	data.js:2109,2113	
+leg_chaosdwarfs-049	leg_chaosdwarfs.txt:154	Castellan/Seneschal: Darkforged weapon +10	OK	data.js:4757 opcion dk	
+leg_chaosdwarfs-050	leg_chaosdwarfs.txt:155	Castellan/Seneschal: Great weapon +4	OK	data.js:4735 CAP gw cost 4	
+leg_chaosdwarfs-051	leg_chaosdwarfs.txt:157	Castellan/Seneschal: Fireglaive +10	OK	data.js FG (sin apCharge; fg:true) + rules.js halberd excluye fg	"Perfil 18"" F4 FP-1 Bane1 ok; melee lleva apCharge:1 (regla de alabarda) que el texto no da"
+leg_chaosdwarfs-052	leg_chaosdwarfs.txt:158	Castellan/Seneschal: Hailshot blunderbuss +10	OK	data.js:4731 HB; rules.js:2452 hail20	
+leg_chaosdwarfs-053	leg_chaosdwarfs.txt:160	Castellan/Seneschal: Pistol +5	OK	data.js:4737 pi cost 5	
+leg_chaosdwarfs-054	leg_chaosdwarfs.txt:161	Castellan/Seneschal: Naptha bombs +10	OK	data.js:4739 NB(10) grupo p	
+leg_chaosdwarfs-055	leg_chaosdwarfs.txt:162	Castellan/Seneschal: shield +2	OK	data.js:4738 sh cost 2	
+leg_chaosdwarfs-056	leg_chaosdwarfs.txt:163-164	Castellan objetos hasta 100; Seneschal hasta 50	OK	data.js:2109 ib:100; 2113 ib:50	
+leg_chaosdwarfs-057	leg_chaosdwarfs.txt:166-167	Reglas Castellan/Seneschal: Blackshard, Ensorcelled, Rallying Cry, Resolute, Stubborn	OK	data.js:2111,2115 sr (rally)	
+leg_chaosdwarfs-058	leg_chaosdwarfs.txt:173	Perfil Taur'ruk M7 HA5 HP2 F5 R5 H4 I4 A4 L9, 145 pts	OK	data.js:2133 cd_taruk	
+leg_chaosdwarfs-059	leg_chaosdwarfs.txt:175-177	Monstrous cavalry (character), 50x75, unidad 1	PARCIAL	data.js:2133 tt:char baseW 50 baseD 75	tt declarado char: cambiarlo a monCav afectaria a reglas de personaje; sin cambio
+leg_chaosdwarfs-060	leg_chaosdwarfs.txt:178	Taur'ruk: arma de mano y armadura pesada	OK	data.js:2135 arm heavy	
+leg_chaosdwarfs-061	leg_chaosdwarfs.txt:182	Taur'ruk: Darkforged +10	OK	data.js:4757	
+leg_chaosdwarfs-062	leg_chaosdwarfs.txt:183	Taur'ruk: arma de mano adicional +3	OK	data.js:4745 hw cost 3	
+leg_chaosdwarfs-063	leg_chaosdwarfs.txt:184	Taur'ruk: Great weapon +4	OK	data.js:4745 gw cost 4	
+leg_chaosdwarfs-064	leg_chaosdwarfs.txt:185	Taur'ruk: escudo +3	OK	data.js:4745 sh cost 3	
+leg_chaosdwarfs-065	leg_chaosdwarfs.txt:186	Taur'ruk objetos hasta 75 pts	OK	data.js cd_taruk ib:75	Engine 50 pts; el texto da 75
+leg_chaosdwarfs-066	leg_chaosdwarfs.txt:188-190	Taur'ruk: Armour Bane (1), Armoured Hide (1), Blackshard, Ensorcelled, Fear, First Charge	OK	data.js:2135 melee ab:1, avOpt hide, sr	
+leg_chaosdwarfs-067	leg_chaosdwarfs.txt:188-190	Taur'ruk: Impact Hits (D3+1), Loner, Stubborn, Swiftstride	OK	data.js:2135 impact D3+1, sr loner stubborn swiftstride	
+leg_chaosdwarfs-068	leg_chaosdwarfs.txt:188-190	Taur'ruk: Stampede (impactos con FP -2)	OK	rules.js:~2945 stampede => impactos FP-2	Regla sin efecto en rules.js (no se aplica FP-2 a los impactos)
+leg_chaosdwarfs-069	leg_chaosdwarfs.txt:194	Perfil Hobgoblin Khan M4 HA5 HP4 F4 R4 H2 I5 A3 L7, 45 pts	OK	data.js:2129 cd_khan	
+leg_chaosdwarfs-070	leg_chaosdwarfs.txt:196-199	Regular infantry (character), 25x25, unidad 1; mano y armas arrojadizas	OK	"data.js:5155-5156 ranged 9"" 2 disparos; arm none"	
+leg_chaosdwarfs-071	leg_chaosdwarfs.txt:203	Khan: arma de mano adicional +3	OK	data.js:5159 ahw cost 3	
+leg_chaosdwarfs-072	leg_chaosdwarfs.txt:204	Khan: Great weapon +4	OK	data.js:5160 gw cost 4	
+leg_chaosdwarfs-073	leg_chaosdwarfs.txt:205	Khan: Cavalry spear +2 si montado	OK	data.js:5161 ln solo mounted	
+leg_chaosdwarfs-074	leg_chaosdwarfs.txt:206	Khan: shortbow en vez de armas arrojadizas +2	OK	data.js:5158 sb cost 2	
+leg_chaosdwarfs-075	leg_chaosdwarfs.txt:208	Khan: shield +2	OK	data.js:5163 sh cost 2	
+leg_chaosdwarfs-076	leg_chaosdwarfs.txt:209	Khan: light armour +3	OK	data.js:5164 la cost 3	
+leg_chaosdwarfs-077	leg_chaosdwarfs.txt:210	Khan: montar Giant Wolf +10	OK	data.js:2132 cd_khan_wolf ppm 55 = 45+10	
+leg_chaosdwarfs-078	leg_chaosdwarfs.txt:211	Khan objetos hasta 50 pts	OK	data.js:2129 ib:50	
+leg_chaosdwarfs-079	leg_chaosdwarfs.txt:213	Reglas Khan: Backstab, Evasive, Levies, Warband	OK	data.js:2130 sr	
+leg_chaosdwarfs-080	leg_chaosdwarfs.txt:219	Perfil Giant Wolf M9 HA3 F3 I3 A1 (+10)	OK	data.js:2133 M9 mountAtk a1 S3	I del jinete 5 prevalece
+leg_chaosdwarfs-081	leg_chaosdwarfs.txt:221-225	Giant Wolf: light cavalry, 25x50; Fast Cavalry, Fire & Flee, Swiftstride	OK	data.js:2133 sr fastCav fireFlee swiftstride baseD 50	
+leg_chaosdwarfs-082	leg_chaosdwarfs.txt:213	Backstab: repetir tiradas para impactar si trabada en flanco/trasera enemigo	OK	rules.js:4224 (has backstab && sideOf)	
+leg_chaosdwarfs-083	leg_chaosdwarfs.txt:824-826	Warband: efecto de la regla	OK	rules.js:1383,3074	Regla definida en Core; usada por cd
+leg_chaosdwarfs-084	leg_chaosdwarfs.txt:229	Perfil Infernal Ironsworn M3 HA5 HP3 F4 R4 H1 I2 A2 L9, 19 pts	OK	data.js:2155 cd_ironsworn	
+leg_chaosdwarfs-085	leg_chaosdwarfs.txt:230	Overseer: A3 y +7 pts	OK	data.js CMD cd_ironsworn	A+1 del campeon (primera fila); Ld del campeon no se modela en el motor
+leg_chaosdwarfs-086	leg_chaosdwarfs.txt:232-235	Heavy infantry, 25x25, unidad 10+, manos y armadura completa	OK	data.js cd_ironsworn max 99	Maximo de 30 impuesto; el texto solo da 10+
+leg_chaosdwarfs-087	leg_chaosdwarfs.txt:239	Ironsworn: great weapons +2 por modelo	OK	data.js:4713 gw cost 2	
+leg_chaosdwarfs-088	leg_chaosdwarfs.txt:240	Ironsworn: halberds +1 por modelo	OK	data.js hb cost 1	Alabarda estandar
+leg_chaosdwarfs-089	leg_chaosdwarfs.txt:241	Ironsworn: shields +1 por modelo	OK	data.js:4715 sh cost 1	
+leg_chaosdwarfs-090	leg_chaosdwarfs.txt:243-245	Ironsworn: Overseer +7, estandarte +7, musico +7	OK	data.js:2458 cd_ironsworn [7,7,7]	
+leg_chaosdwarfs-091	leg_chaosdwarfs.txt:246	Ironsworn: estandarte magico hasta 100	OK	data.js cd_ironsworn bnMax:100	Engine limita a 50 pts; el texto da 100
+leg_chaosdwarfs-092	leg_chaosdwarfs.txt:248	Overseer: Pistol +3	OK	data.js opts op (campeon, cnt:1)	Solo campeon (chk)
+leg_chaosdwarfs-093	leg_chaosdwarfs.txt:249	Overseer: Naptha bombs +6	OK	data.js opts on (campeon, cnt:1)	Solo campeon (chk)
+leg_chaosdwarfs-094	leg_chaosdwarfs.txt:250	Overseer objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_chaosdwarfs-095	leg_chaosdwarfs.txt:252-253	Ironsworn: Blackshard, Close Order, Drilled, Ensorcelled, Quell Panic, Regimental Unit, Resolute, Shieldwall, Stubborn, 	OK	data.js:2157 sr	Todas en sr
+leg_chaosdwarfs-096	leg_chaosdwarfs.txt:259-260	"Quell Panic: unidades amigas con Levies a 6"" repiten un Panic fallido"	OK	rules.js:~2725 quellPanic	"Unidades con Levas a 6"" obtienen un chequeo extra de Panico"
+leg_chaosdwarfs-097	leg_chaosdwarfs.txt:264	Perfil Infernal Guard M3 HA4 HP3 F4 R4 H1 I2 A1 L9, 11 pts	OK	data.js:2139 cd_guard	
+leg_chaosdwarfs-098	leg_chaosdwarfs.txt:265	Deathmask: A2 y +6 pts	OK	data.js CMD cd_guard	A+1; Ld campeon no modelado
+leg_chaosdwarfs-099	leg_chaosdwarfs.txt:267-270	Heavy infantry, 25x25, 10+, manos y armadura pesada	OK	data.js cd_guard max 99	Maximo 40 impuesto; el texto solo da 10+
+leg_chaosdwarfs-100	leg_chaosdwarfs.txt:274	Guard: great weapons +2	OK	data.js:4710 gw cost 2	
+leg_chaosdwarfs-101	leg_chaosdwarfs.txt:275	Guard: fireglaives +4 por modelo	OK	data.js FG fg:true	Mismo apCharge que fireglaive de personajes
+leg_chaosdwarfs-102	leg_chaosdwarfs.txt:276	Guard: hailshot blunderbusses +5 por modelo	OK	data.js:4712 hb cost 5	
+leg_chaosdwarfs-103	leg_chaosdwarfs.txt:277	Guard: shields +1	OK	data.js:4713 sh cost 1	
+leg_chaosdwarfs-104	leg_chaosdwarfs.txt:279-281	Guard: Deathmask +6, estandarte +6, musico +6	OK	data.js:2458 cd_guard [6,6,6]	
+leg_chaosdwarfs-105	leg_chaosdwarfs.txt:282	Guard: estandarte magico hasta 50	OK	data.js:2139 bnMax:50	
+leg_chaosdwarfs-106	leg_chaosdwarfs.txt:284	Deathmask: Pistol +3	OK	data.js opts op	Solo campeon
+leg_chaosdwarfs-107	leg_chaosdwarfs.txt:285	Deathmask: Naptha bombs +6	OK	data.js opts on	Solo campeon
+leg_chaosdwarfs-108	leg_chaosdwarfs.txt:286	Deathmask objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_chaosdwarfs-109	leg_chaosdwarfs.txt:288	0-1 unidad por 1.000 pts: Drilled +1 por modelo	OK	data.js:4715 dr cost 1 per1000	
+leg_chaosdwarfs-110	leg_chaosdwarfs.txt:289	0-1 unidad por 1.000 pts: Blackshard Armour +1 por modelo	OK	data.js:4716 bs cost 1 per1000	
+leg_chaosdwarfs-111	leg_chaosdwarfs.txt:291-292	Guard: Close Order, Detachment, Regimental, Resolute, Shieldwall, Stubborn	OK	data.js:2141 sr	
+leg_chaosdwarfs-112	leg_chaosdwarfs.txt:298	Perfil K'daai Fireborn M6 HA4 HP2 F5 R4 H2 I4 A3 L7, 41 pts	OK	data.js:2171 cd_kdaai	
+leg_chaosdwarfs-113	leg_chaosdwarfs.txt:299	Manburner: A4 L8 +7 pts	OK	data.js CMD cd_kdaai	A+1; Ld+1 del campeon no modelado
+leg_chaosdwarfs-114	leg_chaosdwarfs.txt:301-304	Monstrous infantry, 40x40, 3+, rage y hellfire como armas de mano	OK	data.js cd_kdaai max 99	Maximo 9 impuesto
+leg_chaosdwarfs-115	leg_chaosdwarfs.txt:308	Manburner objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_chaosdwarfs-116	leg_chaosdwarfs.txt:310-312	K'daai: Blazing Body, Close Order, Ensorcelled, Fear, Flaming, Immune Psy, Regeneration (5+), Unbreakable, Unstable, War	OK	data.js:2171 sr regen:5	
+leg_chaosdwarfs-117	leg_chaosdwarfs.txt:822-831	Blazing Body: al inicio de Combate, modelos en contacto sin la regla sufren 1 impacto F3 flamigero (no cuenta para resul	OK	rules.js:~5046	Los impactos no entran en el mapa de heridas del combate: no cuentan
+leg_chaosdwarfs-118	leg_chaosdwarfs.txt:315-317	Perfil Cutthroat M4 HA3 HP3 F3 R3 H1 I3 A1 L4, 3 pts	OK	data.js:2141 cd_hobgoblins	
+leg_chaosdwarfs-119	leg_chaosdwarfs.txt:317	Boss: A2 L5 +7 pts	OK	data.js CMD cd_hobgoblins	A+1; Ld no modelado
+leg_chaosdwarfs-120	leg_chaosdwarfs.txt:319-322	Regular infantry, 25x25, 10+, manos y escudos	OK	data.js cd_hobgoblins max 99	Maximo 40 impuesto
+leg_chaosdwarfs-121	leg_chaosdwarfs.txt:325	Cutthroats: shortbows en vez de escudos gratis	OK	data.js	OK
+leg_chaosdwarfs-122	leg_chaosdwarfs.txt:326	Cutthroats: light armour +1 por modelo	OK	data.js:5292 la cost 1	
+leg_chaosdwarfs-123	leg_chaosdwarfs.txt:328-330	Cutthroats: Boss +7, estandarte +5, musico +5	OK	data.js:2458 [7,5,5]	
+leg_chaosdwarfs-124	leg_chaosdwarfs.txt:332	Cutthroats: Backstab, Close Order, Horde, Levies, Warband	OK	data.js:2142 sr	
+leg_chaosdwarfs-125	leg_chaosdwarfs.txt:338	Perfil Sneaky Git M4 HA4 HP4 F3 R3 H1 I4 A1 L5, 6 pts	OK	data.js:5279 cd_sneakygits	
+leg_chaosdwarfs-126	leg_chaosdwarfs.txt:339	Murder Boss: A2 +6 pts	OK	data.js CMD cd_sneakygits [6,null,6]	Campeon deshabilitado
+leg_chaosdwarfs-127	leg_chaosdwarfs.txt:341-344	Regular infantry, 25x25, 10+, dos armas de mano y arrojadizas	OK	data.js cd_sneakygits max 99	Maximo 30 impuesto; equipo ok
+leg_chaosdwarfs-128	leg_chaosdwarfs.txt:347	Sneaky Gits: light armour +1	OK	data.js:5283	
+leg_chaosdwarfs-129	leg_chaosdwarfs.txt:349	Murder Boss +6 por unidad	OK	data.js CMD cd_sneakygits [6,null,6]	Campeon deshabilitado (null)
+leg_chaosdwarfs-130	leg_chaosdwarfs.txt:350	Sneaky Gits: musico +6	OK	data.js CMD cd_sneakygits [6,null,6]	Musico deshabilitado (null)
+leg_chaosdwarfs-131	leg_chaosdwarfs.txt:352-353	Sneaky Gits: Ambushers, Backstab, Evasive, Levies, Move through Cover, Skirmishers	OK	data.js:5281 sr	
+leg_chaosdwarfs-132	leg_chaosdwarfs.txt:357	Perfil Wolf Rider HA3 HP3 F3 R3 H1 I3 A1 L6, 12 pts	OK	data.js:2144 cd_wolfriders	
+leg_chaosdwarfs-133	leg_chaosdwarfs.txt:358	Boss: HP4 A2 +8 pts	OK	data.js CMD cd_wolfriders [8,6,6]	A+1; HP no modelado
+leg_chaosdwarfs-134	leg_chaosdwarfs.txt:359	Giant Wolf M9 HA3 F3 I3 A1	OK	data.js:2145 M9	
+leg_chaosdwarfs-135	leg_chaosdwarfs.txt:361-366	Light cavalry, 25x50, 5+, manos, armadura ligera y escudos	OK	data.js cd_wolfriders max 99	Maximo 15 impuesto
+leg_chaosdwarfs-136	leg_chaosdwarfs.txt:370	Wolf Riders: cavalry spears gratis	OK	data.js:5295 cs cost 0	
+leg_chaosdwarfs-137	leg_chaosdwarfs.txt:371	Wolf Riders: shortbows +1	OK	data.js:5296 sb cost 1	
+leg_chaosdwarfs-138	leg_chaosdwarfs.txt:373-375	Wolf Riders: Boss +8, estandarte +6, musico +6	OK	data.js:2458 [8,6,6]	
+leg_chaosdwarfs-139	leg_chaosdwarfs.txt:377	0-1 unidad por 1.000: Feigned Flight +2 por modelo	OK	data.js:5297 ff cost 2 per1000	
+leg_chaosdwarfs-140	leg_chaosdwarfs.txt:378	0-1 unidad por 1.000: Reserve Move +1 por modelo	OK	data.js:5298 rm cost 1 per1000	
+leg_chaosdwarfs-141	leg_chaosdwarfs.txt:380-381	Wolf Riders: Backstab, Evasive, Fast Cavalry, Fire & Flee, Levies, Open Order, Skirmishers, Swiftstride	OK	data.js:2146 sr	
+leg_chaosdwarfs-142	leg_chaosdwarfs.txt:387	Perfil Bull Centaur Render M7 HA4 HP2 F4 R5 H3 I3 A2 L8, 56 pts	OK	data.js:2169 cd_render	
+leg_chaosdwarfs-143	leg_chaosdwarfs.txt:388	Ba'hal: A3 +6 pts	OK	data.js CMD cd_render [6,6,6]	Coste ok; perfil campeon generico
+leg_chaosdwarfs-144	leg_chaosdwarfs.txt:390-393	Monstrous cavalry, 50x75, 3+, manos y armadura ligera	OK	data.js cd_render max 99	Maximo 9 impuesto
+leg_chaosdwarfs-145	leg_chaosdwarfs.txt:397	Renders: great weapons +4 por modelo	OK	data.js:5299 gw cost 4	
+leg_chaosdwarfs-146	leg_chaosdwarfs.txt:398	Renders: shields +3 por modelo	OK	data.js:5300 sh cost 3	
+leg_chaosdwarfs-147	leg_chaosdwarfs.txt:400-402	Renders: Ba'hal +6, estandarte +6, musico +6	OK	data.js:2458 cd_render [6,6,6]	
+leg_chaosdwarfs-148	leg_chaosdwarfs.txt:403	Renders: estandarte magico hasta 50	OK	data.js:3179 bnMax por defecto 50	bnMax no definido; valor por defecto no verificado
+leg_chaosdwarfs-149	leg_chaosdwarfs.txt:404	Ba'hal objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_chaosdwarfs-150	leg_chaosdwarfs.txt:406-408	Renders: Armoured Hide (1), Blackshard, Close Order, Ensorcelled, Fear, First Charge, Impact Hits (D3), Loner, Stampede,	OK	data.js cd_render + rules.js stampede	Stampede sin efecto (ver Stampede)
+leg_chaosdwarfs-151	leg_chaosdwarfs.txt:827-832	Stampede: Impact Hits con Armour Piercing -2	OK	rules.js:~2945	Impactos de Taur'ruk/Renders con FP 0
+leg_chaosdwarfs-152	leg_chaosdwarfs.txt:412	Perfil Iron Daemon M5 F8 R7 H7, 275 pts	OK	data.js:2184 cd_ironDaemon	
+leg_chaosdwarfs-153	leg_chaosdwarfs.txt:413	Dotacion 3 Chaos Dwarf Crew HA4 HP4 F3 I2 A1 L9	OK	data.js cd_ironDaemon	Dotacion fusionada (limitacion del motor para maquinas)
+leg_chaosdwarfs-154	leg_chaosdwarfs.txt:415-418	Heavy chariot, 60x100, unidad 1, armadura 3+	OK	data.js:2184 Sv:3 base 60x100	
+leg_chaosdwarfs-155	leg_chaosdwarfs.txt:420-421	Equipo: Steam Cannonade, tripulacion con armas de mano	PARCIAL	data.js:2184 ranged cannonade	VERIF v732: data.js:2192 cd_ironDaemon ranged cannonade ok (rules.js:2965), pero falta Pieza voluminosa (cumbersome): puede responder con Plantar cara (rules.js:2404)
+leg_chaosdwarfs-156	leg_chaosdwarfs.txt:424	Iron Daemon: Hellbound +35	OK	data.js:5303 hb opt +35 (hellbound, terror, magical, -fear)	
+leg_chaosdwarfs-157	leg_chaosdwarfs.txt:425	Iron Daemon: Skullcracker +10 (Impact 2D6+2, Armour Bane 1)	OK	data.js opts sk Rompecraneos	Sin opcion; grep skullcracker: nada
+leg_chaosdwarfs-158	leg_chaosdwarfs.txt:427-429	Iron Daemon: Close Order, Fear, Immune Psychology, Impact D6+1, Large Target, Stomp D3+1, Unbreakable	OK	data.js:2184 sr, impact D6+1, stompN D3+1	
+leg_chaosdwarfs-159	leg_chaosdwarfs.txt:432-440	"Carriage Hauler: hasta 2 maquinas con Steam Carriage a 8"" en arco trasero se mueven con el"	OK	rules.js:6778-6788	
+leg_chaosdwarfs-160	leg_chaosdwarfs.txt:436-441	Carriage Hauler: no cuentan como movidas salvo Lumbering/carga	PARCIAL	rules.js:6778-6788	"Remolcado implementado; efecto de ""no movidas"" no verificado"
+leg_chaosdwarfs-161	leg_chaosdwarfs.txt:446-448	Grinding Wheels: Stomp con FP -2 salvo contra behemoth	OK	rules.js:4722	
+leg_chaosdwarfs-162	leg_chaosdwarfs.txt:450-451	Grinding Wheels: trata obstaculos lineales bajos como terreno abierto	OK	rules.js:~1977 y terrainDisrupted: grindWheels trata muros bajos como abierto	Sin tratamiento especial en terrain/rules
+leg_chaosdwarfs-163	leg_chaosdwarfs.txt:456-459	Lumbering Destruction: no marcha; suma D6 a M; un 1 natural lo inmoviliza ese turno	OK	rules.js lumberRoll/accion lumber + pref lumberOn; boton main.js; ai.js optionGroups lb	Solo impide marchar; no suma D6 ni 1 natural inmoviliza
+leg_chaosdwarfs-164	leg_chaosdwarfs.txt:466-469	"Steam Cannonade: 18"" F5 FP-1 Armour Bane (1), Cumbersome"	OK	data.js:2184 ranged range18 s5 ap1 ab1	
+leg_chaosdwarfs-165	leg_chaosdwarfs.txt:468-469	Steam Cannonade: solo dispara en arco frontal del Iron Daemon	OK	rules.js:~2090 cannonade solo arco frontal	No verificado arco 360 vs frontal para esta arma
+leg_chaosdwarfs-166	leg_chaosdwarfs.txt:471-473	Cannonade: dos dados de artilleria, disparos = suma	OK	rules.js:2466-2472	
+leg_chaosdwarfs-167	leg_chaosdwarfs.txt:475-477	Cannonade: un Misfire = -1 a impactar en todos los disparos del turno	OK	rules.js:2470	
+leg_chaosdwarfs-168	leg_chaosdwarfs.txt:478-479	Cannonade: dos Misfire = sin disparos y pierde una Herida	OK	rules.js:2469	
+leg_chaosdwarfs-169	leg_chaosdwarfs.txt:481-482	Cannonade: tirada para impactar con BS de la dotacion y modificadores	OK	rules.js:2472-2475	
+leg_chaosdwarfs-170	leg_chaosdwarfs.txt:489-490	Skullcracker sustituye Impact D6+1 por 2D6+2 y gana Armour Bane (1)	OK	data.js opts sk	Sin Skullcracker
+leg_chaosdwarfs-171	leg_chaosdwarfs.txt:494	Bale Taurus M6 HA5 F6 (+1 R, +4 H) I3 A4, +160 pts	OK	data.js cd_prophet_bale mountAtk a4 S6 FP-1 horn flame	Costes y stats ok; mountAtk a3 S7 ap3 no refleja hooves S-/FP-1 y horns S+1 FP-3 Strike First
+leg_chaosdwarfs-172	leg_chaosdwarfs.txt:495	Bale Taurus: personaje montado +1 R y +4 H	OK	data.js:3596 T6 W7	
+leg_chaosdwarfs-173	leg_chaosdwarfs.txt:497-498	Great Taurus M6 HA5 F5 (+4 H) I3 A3, +120 pts	OK	data.js cd_*_taurus Ld de jinete (10/9)	Costes 205/315 ok; Ld 8/9 en vez del jinete 9/10; mountAtk ap1 flame
+leg_chaosdwarfs-174	leg_chaosdwarfs.txt:499	Great Taurus: personaje montado +4 H	OK	data.js:2123,2127 W 6 / 7	
+leg_chaosdwarfs-175	leg_chaosdwarfs.txt:501-503	Behemoth, 60x100, unidad 1; pezunas y cuernos	OK	data.js:2123 baseW60 baseD100 tt behemoth	
+leg_chaosdwarfs-176	leg_chaosdwarfs.txt:506-507	Bale Taurus: Blazing Body, Born of Fire, Close Order, Fly (9), Furious Charge, Large Target, Stomp D3+1, Swiftstride, Te	OK	data.js:3596 addSr + FLYX 9	
+leg_chaosdwarfs-177	leg_chaosdwarfs.txt:508-509	Great Taurus: Blazing Body, Born of Fire, Close Order, Fly (9), Furious Charge, Large Target, Stomp D3, Swiftstride, Ter	OK	data.js cd_*_taurus sr closeOrder/furiousCharge/swiftstride	Faltan Close Order, Furious Charge y Swiftstride
+leg_chaosdwarfs-178	leg_chaosdwarfs.txt:515-516	Born of Fire: Ward 3+ contra heridas de ataques con Flaming Attacks	OK	rules.js:1679	
+leg_chaosdwarfs-179	leg_chaosdwarfs.txt:519	Trampling hooves: S de la montura, FP-1, Flaming Attacks	OK	data.js mountAtk ap1 flame	FP ok; horns no separados
+leg_chaosdwarfs-180	leg_chaosdwarfs.txt:522-523	Goring horns: S+1 FP-3 Flaming, Strike First; un ataque por turno con el arma	OK	rules.js:~4747 horn S+1 FP-3 + sfWpn Golpear primero	Un ataque de cuernos modelado; S+1/FP-3/Strike First no verificados
+leg_chaosdwarfs-181	leg_chaosdwarfs.txt:526-527	Taurus/Lammasu solo como montura de personaje; puntos sumados	OK	data.js:2123,2127,3595-3596 mount:true	
+leg_chaosdwarfs-182	leg_chaosdwarfs.txt:531	Lammasu M6 HA4 F5 (+3 H) I2 A2, +95 pts	OK	data.js:3595 cd_prophet_lammasu 290=195+95	
+leg_chaosdwarfs-183	leg_chaosdwarfs.txt:534-537	Monstrous creature, 50x75, unidad 1; garras como mano	OK	data.js:3595 tt monCreature baseW50 baseD75	
+leg_chaosdwarfs-184	leg_chaosdwarfs.txt:540	Lammasu: mace tail +10 (S+1 FP-2, ataque adicional)	OK	data.js opts mt + rules.js mtail	Sin opcion
+leg_chaosdwarfs-185	leg_chaosdwarfs.txt:541	Lammasu: Sorcerous Exhalation +15 (aliento F4 FP-2 magico)	OK	data.js opts ex (aliento F4 FP-2 magico)	Sin opcion
+leg_chaosdwarfs-186	leg_chaosdwarfs.txt:543-545	Lammasu: Armour Bane (2), Close Order, Fly (9), Furious Charge, Large Target, Magic Resistance (-3), Miasma, Stomp D3, S	PARCIAL	data.js:3595 addSr, mountAtk ab:2	VERIF v732: data.js:3792 cd_daemonsmith_lammasu queda con M6 (falta Vuelo 9: no esta en FLYX, a diferencia de cd_prophet_lammasu M9); resto de reglas ok
+leg_chaosdwarfs-187	leg_chaosdwarfs.txt:548-553	Sorcerous Miasma: enemigos con arma magica contra personaje en Lammasu cuentan como arma de mano simple	OK	rules.js:4671 (has e miasma)	
+leg_chaosdwarfs-188	leg_chaosdwarfs.txt:569	Deathshrieker T6 H3, 120 pts; dotacion M3 HA3 HP3 F3 R4 H3 I2 A3 L9	OK	data.js cd_rocket Ld9	Coste/T/H ok; Ld 8 en vez de 9; Sv 7
+leg_chaosdwarfs-189	leg_chaosdwarfs.txt:573-577	War machine, 50x75, unidad 1; equipo cohetes, armas de mano, armadura pesada	PARCIAL	data.js cd_rocket baseD 75	VERIF v732: Base 50x75 y unidad 1 correctas (data.js cd_rocket baseD 75) pero Sv:7: falta armadura pesada de la dotacion (el libro usa el valor de armadura de la dotacion, core p.222) | Base 50x50 en vez de 50x75
+leg_chaosdwarfs-190	leg_chaosdwarfs.txt:580	Deathshrieker: Hellbound +30	OK	data.js:3598-3600 cd_rocket_hb	
+leg_chaosdwarfs-191	leg_chaosdwarfs.txt:581	Deathshrieker: Steam Carriage +10	OK	data.js:5302 sc opt	
+leg_chaosdwarfs-192	leg_chaosdwarfs.txt:583	Deathshrieker: Blackshard, Skirmishers	OK	data.js cd_rocket blackshard	Falta Blackshard
+leg_chaosdwarfs-193	leg_chaosdwarfs.txt:586-587	Cada turno dispara un tipo de cohete (jugador elige)	OK	rules.js rocketPref; main.js; ai.js rk	El motor elige: incendiarios si 8+ modelos, si no demolicion
+leg_chaosdwarfs-194	leg_chaosdwarfs.txt:590-595	"Demolition rockets 12-48"" F3(6) FP-(-3), Armour Bane 1, Bombardment, Cumbersome, Move or Shoot, MW D6 solo modelo bajo e"	OK	data.js:2178 ranged; rules.js:2376	
+leg_chaosdwarfs-195	leg_chaosdwarfs.txt:598-602	"Infernal incendiaries 12-48"" F3(3) plantilla 5"" flamigero; unidad herida hace Panic como por bajas graves"	OK	rules.js:2374,2401 skullPanic	
+leg_chaosdwarfs-196	leg_chaosdwarfs.txt:593-595	Cohetes disparan como piedra con Bombardment y tabla de Misfire de polvora negra	PARCIAL	rules.js:2087	Tabla de Misfire de polvora negra: usa misfire() generico
+leg_chaosdwarfs-197	leg_chaosdwarfs.txt:606	Dreadquake Mortar T7 H4, 165 pts	OK	data.js:2176 cd_mortar	
+leg_chaosdwarfs-198	leg_chaosdwarfs.txt:607	Dotacion CD Crew M3 HA3 HP3 F3 R4 H3 I2 A3 L9	PARCIAL	data.js cd_mortar Ld9	VERIF v732: data.js:2180 cd_mortar M3 HA3 HP3 F3 I2 A3 Ld9 OK (Ld ya 9); pero dotacion R4/H3 no modelada: la unidad usa T7 H4 de la maquina | Ld 8 en vez de 9
+leg_chaosdwarfs-199	leg_chaosdwarfs.txt:608-609	Ogre Loader +20: dotacion +2 H y +2 A	PARCIAL	data.js:5301 ol W6 A5	WS/F/I del Ogro Loader no modelados (solo +2H +2A)
+leg_chaosdwarfs-200	leg_chaosdwarfs.txt:612-615	War machine, base N/A, unidad 1; mortero, armas de mano, armadura pesada	OK	data.js:2176	
+leg_chaosdwarfs-201	leg_chaosdwarfs.txt:619	Dreadquake: Hellbound +30	OK	data.js:3598-3600 cd_mortar_hb	
+leg_chaosdwarfs-202	leg_chaosdwarfs.txt:620	Dreadquake: Steam Carriage +10	OK	data.js:5301 sc opt	
+leg_chaosdwarfs-203	leg_chaosdwarfs.txt:622	Dreadquake: Blackshard, Skirmishers	OK	data.js cd_mortar blackshard	Falta Blackshard
+leg_chaosdwarfs-204	leg_chaosdwarfs.txt:625-627	"Dreadquake 12-72"" F3(6) FP-(-3), Bombardment, Cumbersome, Move or Shoot, MW D6, Quake, Slow Reload; plantilla 5"""	OK	data.js:2176 ranged	
+leg_chaosdwarfs-205	leg_chaosdwarfs.txt:633-635	"Quake: unidades a 2D6"" del agujero central tras dispersion -1 M y sin Swiftstride hasta tu proximo Start of Turn"	OK	rules.js:2394; rules.js:147 swiftstride; mvOf quake	
+leg_chaosdwarfs-206	leg_chaosdwarfs.txt:637-641	Slow Reload: si disparo el turno anterior, 1-2 en D6 no dispara; +1 con Ogre Loader	OK	rules.js:2204-2205	
+leg_chaosdwarfs-207	leg_chaosdwarfs.txt:644-646	Magma Cannon T6 H3, 125 pts; dotacion L9	OK	data.js:2180 cd_magma	
+leg_chaosdwarfs-208	leg_chaosdwarfs.txt:648-651	War machine, 50x100, unidad 1; fire thrower, armas de mano, armadura pesada	OK	data.js:2180 baseW50 baseD100	
+leg_chaosdwarfs-209	leg_chaosdwarfs.txt:654	Magma Cannon: Hellbound +30	OK	data.js:3598-3600 cd_magma_hb	
+leg_chaosdwarfs-210	leg_chaosdwarfs.txt:655	Magma Cannon: Steam Carriage +10	OK	data.js:5302	
+leg_chaosdwarfs-211	leg_chaosdwarfs.txt:657	Magma Cannon: Blackshard, Skirmishers	OK	data.js:2180 sr blackshard skirmish	
+leg_chaosdwarfs-212	leg_chaosdwarfs.txt:651	Fire thrower (perfil no incluido en el texto fuente)	OK	data.js cd_magma	"Perfil verificado en core_rulebook p.229 (12"" F5 FP-1)"
+leg_chaosdwarfs-213	leg_chaosdwarfs.txt:663	Bolt Thrower T4 H3, 45 pts; Hobgoblin Crew M4 HA3 HP3 F3 R3 H2 I3 A2 L6	OK	data.js:2182 cd_bolt	
+leg_chaosdwarfs-214	leg_chaosdwarfs.txt:666-669	War machine, 50x50, unidad 1; bolt thrower, armas de mano, armadura ligera	OK	data.js:2182 baseW50 baseD50	
+leg_chaosdwarfs-215	leg_chaosdwarfs.txt:670	Bolt Thrower: Levies, Skirmishers	OK	data.js:2182 sr levies skirmish	
+leg_chaosdwarfs-216	leg_chaosdwarfs.txt:809-811	Hellbound: Ward 6+ contra heridas de ataque enemigo no magico; gana Fear y Magical Attacks	OK	rules.js:1678; data.js:3598-3600	
+leg_chaosdwarfs-217	leg_chaosdwarfs.txt:811-812	Hellbound: si ya tiene Fear, gana Terror	OK	data.js:5303 addSr terror delSr fear (Iron Daemon)	
+leg_chaosdwarfs-218	leg_chaosdwarfs.txt:813-814	Hellbound: una vez por partida repite un dado de dispersion o de artilleria	PARCIAL	rules.js:2087 hbUsed	Solo repite dado de artilleria; repeticion de dispersion pendiente
+leg_chaosdwarfs-219	leg_chaosdwarfs.txt:815-816	Hellbound: -1 al resultado de la tabla de Misfire	OK	rules.js:2078	
+leg_chaosdwarfs-220	leg_chaosdwarfs.txt:818-825	Resolute: -1 a Flee y Pursuit (minimo 1)	OK	rules.js:2777,5158	
+leg_chaosdwarfs-221	leg_chaosdwarfs.txt:825	Resolute: no se aplica a personajes montados	OK	rules.js:~2777,5157	Resuelto no se aplica a personajes montados
+leg_chaosdwarfs-222	leg_chaosdwarfs.txt:812-817	Blackshard: Ward 5+ contra Flaming Attacks	OK	rules.js:1680	
+leg_chaosdwarfs-223	leg_chaosdwarfs.txt:816-817	Blackshard: un Wizard puede llevar armadura sin penalizacion	OK	data.js sr blackshard en todos los hechiceros cd	El motor no aplica penalizacion por armadura a magos: el beneficio se cumple
+leg_chaosdwarfs-224	leg_chaosdwarfs.txt:838-845	Ensorcelled: una arma de mano no magica gana Magical y FP-1; no aplica a montura ni con dos armas u otra arma	PARCIAL	rules.js:4099 (!twoHands && !extra && !ap)	VERIF v732: rules.js:4783: ensorcelled da PA-1 salvo twoHands/extra/melee.ap; no excluye lanza/estocada, arma magica equipada ni montura (solo sr magical via data)
+leg_chaosdwarfs-225	leg_chaosdwarfs.txt:850-851	Lore of Hashut: descartar un hechizo aleatorio y elegir firma del Saber o hechizo de Hashut	OK	rules.js:~846 + main.js legsp + e.legSp	El jugador elige firma del Saber o hechizo de Hashut; sin eleccion, al azar
+leg_chaosdwarfs-226	leg_chaosdwarfs.txt:854-857	"Curse of Hashut: Magic Missile 9+ 18"", solo personajes enemigos incluso unidos/trabados"	OK	rules.js:~3581 hashutPick; main.js; ai.js hp	El motor elige el personaje (mayor coste); el jugador no decide
+leg_chaosdwarfs-227	leg_chaosdwarfs.txt:870-876	Curse of Hashut: R test; superado D3 F2 FP-; fallado D3+2 F5 sin armadura ni regeneracion (ward si)	OK	rules.js:3498-3500	
+leg_chaosdwarfs-228	leg_chaosdwarfs.txt:859-865	"Storm of Ash: Hex 10+ Self; -1 impactar a enemigos a 9"" del lanzador (6 natural no)"	OK	data.js:4907; rules.js:3576,3795	
+leg_chaosdwarfs-229	leg_chaosdwarfs.txt:872-877	Flames of Hashut: Assailment 9+ combate; D3+1 impactos F4 FP-1 flamigeros	OK	data.js:4906	
+leg_chaosdwarfs-230	leg_chaosdwarfs.txt:889-903	Blood of Hashut: un solo uso por vial; un ataque en lugar de atacar, tirada de impacto, D6 impactos	PARCIAL	rules.js:4483-4492	VERIF v732: rules.js:5223-5233 vial auto por heuristica (solo si armadura enemiga 2+..4+, A<=3, primer enemigo por pts); preferencia auto/unit/model/off, sin elegir objetivo/cuando; sin popup bloqueante
+leg_chaosdwarfs-231	leg_chaosdwarfs.txt:896-902	Blood: herir con valor de armadura del objetivo, sin salvacion de armadura, flamigero y magico	OK	rules.js:4492	
+leg_chaosdwarfs-232	leg_chaosdwarfs.txt:890-893	Blood of Hashut: impactos a unidad o un solo modelo enemigo (a eleccion)	OK	rules.js:~4535 vialPref (unit/model/off); main.js; ai.js vl	Se lanza contra la unidad; no se elige un solo modelo
+leg_chaosdwarfs-233	leg_chaosdwarfs.txt:906-912	Darkforged: arma de mano, compatible con Ensorcelled; tabla D6 tras desplegar	OK	data.js:4750-4761 hidOpts dk1-dk6	
+leg_chaosdwarfs-234	leg_chaosdwarfs.txt:917	Darkforged 1 Infernal Blade: Flaming Attacks	OK	data.js:4750 dk1	
+leg_chaosdwarfs-235	leg_chaosdwarfs.txt:918-919	Darkforged 2 Malignant: Hatred (all enemies)	OK	data.js:4751 dk2	
+leg_chaosdwarfs-236	leg_chaosdwarfs.txt:920-921	Darkforged 3 Life Bane: Multiple Wounds (D3)	OK	data.js:4752 dk3	
+leg_chaosdwarfs-237	leg_chaosdwarfs.txt:922-923	Darkforged 4 Dweomer Leach: Magic Resistance (-1)	OK	data.js:4753 dk4	
+leg_chaosdwarfs-238	leg_chaosdwarfs.txt:925-926	Darkforged 5 Hell-forged: Fuerza S+1	OK	data.js:4754 dk5 sb 1	
+leg_chaosdwarfs-239	leg_chaosdwarfs.txt:927-931	Darkforged 6 Spell-wrought: +1 al casting si Wizard; si no, FP mejora en 1	OK	rules.js:~4195 dkCast no mago: FP+1	Solo el +1 de casteo; la mejora de FP para no magos falta
+leg_chaosdwarfs-240	leg_chaosdwarfs.txt:890-893	"Fireglaive: disparo 18"" F4 FP-1 Armour Bane (1); combate S+1 FP-1 AB1, dos manos"	OK	data.js FG	Perfil ok; apCharge:1 extra no figura en el texto
+leg_chaosdwarfs-241	leg_chaosdwarfs.txt:904-905	"Hailshot blunderbuss 12"" F3 FP-1 Multiple Shots (D3), Volley Fire"	OK	data.js:4731 HB range12 s3 ap1 D3 volley	
+leg_chaosdwarfs-242	leg_chaosdwarfs.txt:906-911	Blunderbuss: sin penalizadores por largo alcance, Multiple Shots ni Stand & Shoot	OK	rules.js:2421,2427 (noPen)	
+leg_chaosdwarfs-243	leg_chaosdwarfs.txt:909-911	Blunderbuss: 20+ modelos de la misma unidad repiten 1 naturales para herir	OK	rules.js:2452	
+leg_chaosdwarfs-244	leg_chaosdwarfs.txt:919-924	"Naptha bomb 6"" F3 FP- Flaming, Ponderous, Quick Shot; D3+1 impactos"	OK	data.js NB sr ponderous	Perfil ok (D3+1 flamigero Quick Shot); Ponderous no verificado
+leg_chaosdwarfs-245	leg_chaosdwarfs.txt:687-693	Black Hammer of Hashut 60: F+2 FP-1 MW (D3) Flaming Magical	OK	data.js:2901 cdl_hashut	
+leg_chaosdwarfs-246	leg_chaosdwarfs.txt:694-695	Black Hammer: Killing Blow contra modelos con Flammable	OK	data.js:2901 kbFlam; rules.js:4138	
+leg_chaosdwarfs-247	leg_chaosdwarfs.txt:697-704	Dark Maul 50: F FP-2 Killing Blow Magical; test de F o pierde Herida adicional	OK	data.js:2902; rules.js:4781	
+leg_chaosdwarfs-248	leg_chaosdwarfs.txt:706-716	Dagger of Malice 35: Frenzy, Hatred (all), Magical	OK	rules.js has1 noFrenzyLoss; data.js cdl_dagger	No verificado que el Frenesi no pueda perderse
+leg_chaosdwarfs-249	leg_chaosdwarfs.txt:718-726	Graven Sceptre 30: F+1 Magical; herir siempre con 4+	OK	data.js:2904 wnd 4	
+leg_chaosdwarfs-250	leg_chaosdwarfs.txt:728-734	Armour of Bazherak 50: armadura completa, Immune Psychology, Magic Resistance (-2)	OK	data.js:2905	
+leg_chaosdwarfs-251	leg_chaosdwarfs.txt:737-745	Mask of the Furnace 40: +1 armadura (max 2+), compatible; Ward 3+ vs flamigero	OK	data.js:2906	
+leg_chaosdwarfs-252	leg_chaosdwarfs.txt:749-754	Mantle of Stone* 30 (muy comun): +1 R, -1 I	OK	data.js:2907	
+leg_chaosdwarfs-253	leg_chaosdwarfs.txt:757-763	Hellshard 20: al perder su ultima Herida en combate, atacante sufre D6 impactos F5 FP-1	OK	data.js:2908; rules.js:4769	
+leg_chaosdwarfs-254	leg_chaosdwarfs.txt:765-773	Daemonic Familiar 30: enemigos trabados reducen en 1 sus Ward/Regeneracion (min 6+)	OK	data.js:2913; rules.js:1697-1699	
+leg_chaosdwarfs-255	leg_chaosdwarfs.txt:775-785	Breath of Hashut 25: un uso, aliento F4 FP-2 Flaming Magical	OK	data.js:2914	
+leg_chaosdwarfs-256	leg_chaosdwarfs.txt:787-795	Obsidian Vambraces 15: +1 F y Magic Resistance (-1); 1 natural para impactar rompe	OK	data.js:2915; rules.js:4376,4540	
+leg_chaosdwarfs-257	leg_chaosdwarfs.txt:765-773	Daemon Flask 50: un uso, Mando, enemigos en rango de mando hacen Panic	OK	data.js:2916; rules.js:6442	
+leg_chaosdwarfs-258	leg_chaosdwarfs.txt:775-784	Vial of Lammasu Blood 40: un uso, disipa automaticamente; no frente a invocacion perfecta	OK	data.js:2917; rules.js:3380	
+leg_chaosdwarfs-259	leg_chaosdwarfs.txt:786-795	Scroll of Binding* 30: un uso, 3D6 al lanzar; doble 1 en dos dados es percance	OK	rules.js:~3990 doble 1 en 2 de 3 dados	Suma un D6 extra; no comprueba doble 1 en cualquier par de los 3 dados
+leg_chaosdwarfs-260	leg_chaosdwarfs.txt:728-738	"Lammasu's Beard 65: Ward 6+, Magic Res (-2); amigos a 6"" Ward 5+ en disparo y MR (-1)"	OK	rules.js:1550 mrOf beardAura	Ward y aura ok; MR(-1) del aura no verificada
+leg_chaosdwarfs-261	leg_chaosdwarfs.txt:740-745	Ashen Banner 30: enemigos que disparan a la unidad -1 impactar	OK	data.js:2910; rules.js:2432	
+leg_chaosdwarfs-262	leg_chaosdwarfs.txt:748-753	"Overseer's Sigil 25: unidades amigas a 9"" pierden Levies"	OK	data.js:2911; rules.js:152	
+leg_chaosdwarfs-263	leg_chaosdwarfs.txt:755-760	Shroud of the Ancestor 10: la unidad gana Hatred (Dwarfs)	OK	data.js cdl_shroud grant hatredDwarfs	Otorga Odio general en vez de solo contra Dwarfs
+leg_chaosdwarfs-264	leg_chaosdwarfs.txt:681-683	Objetos marcados (*) extremadamente comunes: Mantle of Stone y Scroll of Binding	OK	data.js:2907,2918 star	
+leg_chaosdwarfs-265	leg_chaosdwarfs.txt:677-679	Objetos Chaos Dwarf se compran como comunes por modelos cd	OK	data.js:2901-2918 fac cd	

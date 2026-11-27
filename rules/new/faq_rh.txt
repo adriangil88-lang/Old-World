@@ -1,0 +1,381 @@
+                            Ravening HordesTM
+                       FAQ & Errata – Version 1.5.2
+This document collects amendments to the rules contained within Ravening Hordes and associated Arcane Journals, and
+presents our responses to players’ frequently asked questions. As this document is revised regularly, it has a version number;
+where a version number has a letter, e.g. 1.1a, this means it has had a local amendment, only in one language, to clarify a
+translation issue. When this document is revised in full, the version number will be incremented.
+
+Ravening Hordes Errata
+Below you will find errata to Ravening Hordes and its associated Arcane Journals. When this document is revised, updated
+entries will be highlighted in [blue], while entirely new additions will be highlighted in [magenta].
+
+Designers’ Note: Errata marked with an asterisk (*) have been corrected in a later printing of the publication and may not apply.
+
+Page 20                                                                                    Page 47
+Gigantic Spider: Add ‘Move through Cover’ to the list of                                   Brain Bursta: Change the spell’s Casting Value to ‘9+’.
+special rules.
+                                                                                           Mork’s Curse: Change the spell’s Casting Value to ‘7+’.
+Page 25
+Night Goblins Options: Change the option to ‘include 0-3                                   Page 59
+Fanatics’ as follows:                                                                      Character Mounts: Delete the restriction on the second
+• ‘Include 0-1 Fanatic per 10 Night Goblins,                                               bullet point as follows:
+   to a maximum of 3............................................... +25 points each’       • ‘Daemonic Mount’
+
+Page 26                                                                                    Change the restrictions on the fifth and sixth bullet points
+Release the Fanatics!: Change the last sentence of the first                               as follows:
+paragraph of the rule as follows:                                                          • ‘Manticore (Exalted Champions and Chaos Lords only)
+‘Unless it is fleeing or in Marching Column, a concealing unit                             • Chaos Dragon (Exalted Champions and Chaos Lords only)’
+may release one or more of its Fanatics during any Start of
+Turn sub-phase.’                                                                           Chaos Steed: Add ‘Counter Charge’ to the list of special rules.
+
+Page 28                                                                                    Page 65
+Troll Mobs: Change the option to ‘take one of the following’                               Chaos Trolls: Change the option to ‘take one of the following’
+as follows:                                                                                as follows:
+‘Any model in the unit may take one of the following:’                                     ‘Any model in the unit may take one of the following:’
+
+Add ‘Motley Crew’ to the Common Trolls, River Trolls and                                   Add ‘Motley Crew’ to the list of special rules.
+Stone Trolls lists of special rules.
+                                                                                           Page 66
+Page 42                                                                                    Chaos Spawn: Change the Movement characteristic to ‘2D6+1’.
+Porko’s Pigstikka: Change the second sentence of the
+weapon’s Notes as follows:                                                                 Page 67
+‘Notes: This weapon’s Strength and Armour Piercing modifiers                               Chaos Knights: Add ‘Counter Charge’ to the list of
+apply only during a turn in which the wielder charged.’                                    special rules.
+
+Page 44                                                                                    Page 74
+’Eadbuttin’ ’At: Add the following to the start of the rule:                               Chaos Dragon: Add ‘Impetuous’ to the list of special rules.
+‘0-1 per model.’
+                                                                                           Page 76
+Page 46                                                                                    Hellcannon: Change the Base Size as follows:
+Quell Impetuosity: Change the rule as follows:                                             • ‘Base Size: 100 x 150 mm (Hellcannon),
+‘Whilst within 6" of a unit with this special rule, a friendly                               25 x 25 mm (Chaos Dwarf Handlers)’
+Impetuous unit may re-roll a failed Leadership test when testing
+to determine if it must declare a charge or act as normal.’
+
+
+                                                                                       1
+                    Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Page 77                                                              Page 111
+Gifts of Chaos: Change the second paragraph as follows:              Chaos Mutations: Change the second paragraph as follows:
+‘To represent these strange attributes, some characters may          ‘To represent these strange attributes, some models may be
+be given Gifts of Chaos. A Gift does not affect a character’s        given Chaos Mutations. A Mutation does not affect a model’s
+mount (should they have one). Each Gift may only be chosen           mount (should it have one). Each Mutation may only be
+once per army.’                                                      chosen once per army.’
+
+Page 77                                                              Page 117
+Diabolic Splendour: Add the following to the start of                Viletide: Change the spell’s Casting Value to ‘9+’.
+the rule:
+‘Models whose troop type is ‘infantry’ or ‘cavalry’ only.’           Page 141
+                                                                     Skeleton Chariots: Change the Points to ‘41’, then change the
+Enchanting Aura: Add the following to the start of the rule:         Armour Value to ‘4+’.’
+‘Models whose troop type is ‘infantry’ or ‘cavalry’ only.’
+                                                                     Page 149
+Page 80                                                              Vortex of Souls: Change the rule as follows:
+Infernal Puppet: Change the first sentence of the rule               ‘A Casket of Souls can cast the following Bound spells, with a
+as follows:                                                          Power Level of 2:’
+‘Unless the owner of the Infernal Puppet is fleeing or engaged
+in combat, they may use it whenever an enemy Wizard that is          Page 150
+within 15" of them makes a Casting roll.’                            Flail of Skulls: Change the weapon’s Notes as follows:
+                                                                     ‘Notes: The Flail of Skulls Strength modifier applies only against
+Page 99                                                              enemy models the wielder charged this turn.’
+Minotaurs: Change the Points to ‘44’.
+                                                                     Page 151
+Page 100                                                             Armour of the Ages: Add the following to the start of the rule:
+Centigors: Change the Points to ‘17’.                                ‘Models whose troop type is ‘infantry’, ‘cavalry’ or ‘chariot’ only.’
+
+Page 101                                                             Page 155
+Dragon Ogres: Change the Points to ‘59’.                             Usekhp’s Incantation of Desiccation: Change the spell’s
+                                                                     Casting Value to ‘9+’.
+
+
+Arcane Journal Orc & Goblin Tribes Errata
+Page 35                                                              Page 45
+Da Skull Smasha: Change the second sentence of the                   Foetid Whirlpool: Change the third, fourth and fifth
+weapon’s Notes as follows:                                           sentences of the spell’s effect as follows:
+‘You must choose which Kiknik will use when his combat               ‘Whilst in play, the template is treated as difficult terrain. The
+is chosen during Step 1.1 of the Choose & Fight Combat               template scatters D6" during every Start of Turn sub-phase.
+sub-phase.’                                                          Any enemy unit that moves through the template, or that the
+                                                                     template moves over, suffers D3+3 Strength 4 hits, each with
+Page 40                                                              an AP of -3.’
+Badlands Ogre Bulls*: Under ‘Options’, change the cost of
+upgrading one model to a Crusher (champion) to +7 points.            Torrent of Filth: Change the spell’s Casting Value to ‘7+’.
+
+                                                                     Rapid Regeneration: Change the spell’s Casting Value to ‘8+’.
+
+                                                                     Page 46
+                                                                     Da Akrit Axe: Change the second sentence of the weapon’s
+                                                                     Notes as follows:
+                                                                     ‘However, this weapon’s Strength modifier applies only against
+                                                                     enemy models the wielder charged this turn.’
+
+
+
+
+                                                                 2
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Arcane Journal Warriors Of Chaos Errata
+Page 35                                                                  Page 40
+Storm’s Wrath: Change the weapon’s Notes as follows:                     Skin Wolves: Change the Base Size as follows:
+‘Notes: Storm’s Wrath’s Strength modifier applies only against           • ‘Base Size: 50 x 50 mm’
+enemy models the wielder charged this turn.’
+                                                                         Under Options, change ‘Skin Wolf Jarl’ to ‘Skin Wolf Jarl
+Page 38                                                                  (Champion)’ and add ‘Fear’ to the list of special rules.
+Marauder Tribe Chieftain: Change the Base Size as follows:
+• ‘Base Size: 30 x 30 mm’                                                Page 44
+                                                                         Warpfire Dragons: Add ‘Close Order’ to the list of
+Page 39                                                                  special rules.
+Marauder Tribe Berserkers: Change the Base Size as follows:
+• ‘Base Size: 30 x 30 mm’
+
+
+Arcane Journal Beastmen Brayherds Errata
+Page 32                                                                  Page 45
+Dark Coven: Replace the second, third and fourth sentences               Strangleroot: Change the spell’s Casting Value to ‘8+’.
+of the rule as follows:
+‘To do so, when a Bray-Shaman or Great Bray-Shaman makes                 Page 47
+a Casting or Dispel roll, they may apply a +1 modifier to the            Banner of the Warped Moon: Add the following to the start
+roll if one or more friendly Wizards that are not fleeing and            of the rule:
+have not succumbed to Stupidity are within their Command                 ‘Single use.’
+range. However, if they roll a natural double 1, something has
+gone horribly wrong. Roll immediately on the Miscast table
+as normal but apply the result to the Bray-Shaman or Great
+Bray-Shaman that made the attempt and to each friendly
+Wizard within their Command range.’
+
+
+Arcane Journal Tomb Kings Of Khemri Errata
+Page 35                                                                  Page 41
+Sepulchral Animus: Change the rule as follows:                           The Flail of Conquered Kings: Change the weapon’s Notes
+‘Once per turn, before making a Casting roll, any Liche Priest           as follows:
+within a Mortuary Cult army may draw upon the magical                    ‘Notes: The Flail of Conquered Kings’ Strength modifier applies
+animus of any nearby undead constructs. To do so, nominate               only against enemy models the wielder charged this turn.’
+a friendly unit that has the Nehekharan Undead special rule,
+that is within the Liche Priest’s Command range and whose                Page 42
+troop type is ‘swarms’, ‘monstrous infantry’, ‘monstrous cavalry’,       Stone Shaper: Change the last sentence of the rules as follows:
+‘monstrous creature’ or ‘behemoth’. The nominated unit                   ‘Until the end of this turn, the nominated unit improves the
+immediately loses a single Wound. The Liche Priest may then              Regeneration value of its Regeneration save by 1.’
+apply a +1 modifier to their Casting roll.’
+                                                                         Page 45
+                                                                         Tomb Guard Chariots: Change the Points to ‘49’.
+
+
+
+
+                                                                     3
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Ravening Hordes Frequently Asked Questions
+Below you will find our answers to frequently asked questions. Where possible, answers are given immediately, followed by
+further explanations. When this document is revised, updated entries will be highlighted in [blue], while entirely new additions
+will be highlighted in [magenta].
+
+Orc & Goblin Tribes                                                           Q: When shooting a Doom Diver catapult, the template can
+Q: If a unit of Night Goblins that is engaged in combat still                 be moved D3" after scattering. Can I use this to move the
+contains any unreleased Fanatics, can they be released whilst                 template so that it hits an enemy character that is within
+the unit is engaged?                                                          3" of a unit, a character that could not usually be targeted
+A: Provided they can be placed within 3" of their concealing unit             by shooting?
+and not touching the bases of any other models, yes.                          A: Yes. The template must be moved the full distance rolled on the
+                                                                              D3 but, if that allows you to position it to hit an enemy character,
+Q: If a Fanatic moves into contact with a unit that’s engaged                 you may do so. Sneaky Goblin Doom Divers steer their flight in
+in combat, does it hit the unit(s) that unit is engaged with                  an attempt to hit the best possible target, so this is completely
+as well?                                                                      in character.
+A: When a Fanatic moves into contact with another unit, it
+continues in a straight line until it can be placed back on the               Q: All Goblins Fear Elves. If a unit of Elves causes Fear, does
+battlefield. Any units that line passes through are hit. Units the line       this lead them to cause Terror in Goblins?
+does not pass through are not hit.                                            A: No.
+
+Q: How are Victory Points scored for a Night Goblin unit                      Q: Can the Glowy Green Amulet be used by a character that
+that includes one or more Fanatics once its Fanatic(s) have                   isn’t a Wizard?
+been released?                                                                A: Yes. The Glowy Green Amulet is a talisman, meaning any
+A: Fanatics are an upgrade for the unit; their cost is included when          character that can take magic items can take it. However, if
+working out VP for the unit itself. In other words, the death of an           they wish to use it against an enemy spell, they do so instead of a
+individual Fanatic is not worth any VP, but destroying the unit it            Wizardly dispel attempt being made. This means that you cannot
+was concealed within will earn you the VP for the Fanatic as part             also attempt a Wizardly dispel against a spell you use the Glowy
+of the unit’s points cost.                                                    Green Amulet against, even if the Glowy Green Amulet explodes.
+
+Q: What happens to a Fanatic that moves into or through the                   Arcane Journal Orc & Goblin Tribes
+front arc of a unit of Bretonnian Peasant Bowmen equipped                     Q: Ogdruz Swampdigga has a Lore Familiar and knows spells
+with ‘defensive stakes’?                                                      from both the Lore of Elementalism and the Lore of Troll
+A: Nothing good. Defensive stakes function very much like linear              Magic. Can he choose his spells from both lores, or from
+terrain, therefore a Fanatic that moves into contact with a row of            just one?
+defensive stakes, from any direction, comes to a very sudden stop             A: He can choose from both.
+and is removed from play as a casualty.
+                                                                              Q: If I take a Black Orc Warboss as the General of a Nomadic
+Q: What happens to a Fanatic that ends its movement within                    Waaagh!, can I take a unit of Boar Boys as a Core choice?
+the Command range of one or more models with the Hostile                      A: No. A unit of Boar Boys can only be taken as a Core choice if
+Terrain special rule?                                                         your General is an Orc Warboss.
+A: The Fanatic must make a Dangerous Terrain test. Rather than
+creating an area of dangerous terrain, Hostile Terrain represents             Q: In a Nomadic Waaagh!, I can take one Black Orc Boss per
+a model laying traps and creating hazards, causing enemy models               Black Orc Chariot. If I take a Black Orc Boss mounted on a
+to make a dangerous terrain test should they end their movement               chariot, does that count?
+within that area.                                                             A: No. You can take one Black Orc Boss per Black Orc Chariot
+                                                                              taken as a Core or Rare choice. It does not matter what the Boss is
+Q: If I upgrade a unit of Boar Boyz to be Big ’Uns, do their                  mounted on.
+War Boars benefit as well?
+A: Yes.                                                                       Q: Can a Black Orc Boss take a Black Orc Chariot as a mount
+                                                                              in an army made using the Orc and Goblin Tribes Grand
+Note that the Strength characteristic of Big ’Uns is modified whilst          Army composition list?
+they are engaged in combat, and that Impact Hits are made using               A: They cannot. With heavy hearts, we must inform everyone who
+the model’s unmodified Strength characteristic.                               asked that that option is only available in armies made using the
+                                                                              Nomadic Waaagh! Army of Infamy composition list.
+
+
+
+                                                                          4
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: Can a Troll Hag be the General of an Orc and Goblin                     Beastmen Brayherds
+Tribes army made using the Grand Army composition list?                    Q: Can the Hagtree Fetish be used to re-roll rolls To Wound
+A: No. A Troll Hag is a Rare choice in the Orc and Goblin Tribes           caused by a Bound Spell?
+Grand Army composition list. She can, however, be the General of a         A: No. Bound Spells are cast by the item they are bound to, whilst
+Troll Horde.                                                               Arcane Items such as the Hagtree Fetish affect spells cast by their
+                                                                           bearer. Therefore, unless an item specifies it has an effect upon
+Q: If a Troll Hag purchases a magic weapon, are any of its                 Bound Spells, it does not.
+special rules conferred onto Motherly Love attacks?
+A: No. If she attacks normally, she can use her magic weapon. If she       Q: Does a unit with the Blood Greed special rule always
+makes a Motherly Love attack, she does not use her magic weapon.           roll only a single D6 when making a Pursuit roll, or only
+                                                                           whilst Frenzied?
+Q: Can the size of a range ‘self ’ spell’s aura of effect be               A: Only whilst Frenzied.
+increased by the Idol of Gork?
+A: No. The aura of effect of a range ‘self’ spell is not its range.        Arcane Journal Beastmen Brayherds
+                                                                           Q: If a Beastmen Brayherds army includes an allied contingent
+Warriors Of Chaos                                                          of Beastmen, can the army contain two Herdstones, one in the
+Q: Can the Infernal Puppet be used against a Bound spell?                  main force and one in the allied contingent?
+A: Yes.                                                                    A: No. You can only include 0-1 Herdstone per army and, whilst
+                                                                           an allied contingent may be in effect a small army within a larger
+Q: If a character with the Mark of Nurgle (for example) is                 army, in this regard you are ultimately playing with but one army.
+mounted on a chariot with the Mark of Chaos Undivided,
+does the chariot benefit from the character’s Mark, or do I                However, if two players partnered for a doubles game (as defined in
+have to pay the points to give the chariot the Mark of Nurgle              the Matched Play Guide), they could each take a Herdstone.
+for it to gain the same benefits?
+A: If you want a chariot mount to have the same benefits from a            Q: How does the Dark Coven army special rule from the Wild
+Mark of Chaos that its rider has, you have to pay the points to give       Herd Army of Infamy interact with the Plague Chalice?
+the chariot the Mark of Chaos.                                             A: In cases such as this, both outcomes can apply. If a natural
+                                                                           double is rolled, the spell is cast as a perfect invocation and the
+Arcane Journal Warriors Of Chaos                                           caster suffers a hit from the Plague Chalice. However, the caster and
+Q: What happens if I wish to accept a challenge to fight a                 any other members of their coven will then also suffer the effects of a
+Warrior’s Duel but do not have any single Wound champions                  roll on the Miscast table, as per the Dark Coven special rule.
+in my army?
+A: Roll-off to determine who takes the first turn as normal.               Q: Does the Daemon Heart increase its user’s Dispel Range?
+                                                                           A: No.
+Q: When fighting a Warrior’s Duel challenge between two
+unit champions, are such things as magic standards carried by              Tomb Kings Of Khemri
+their units counted?                                                       Q: Can a Necrosphinx make more than one attack each turn
+A: No. A Warrior’s Duel is fought between the two participants             with its Decapitating strike?
+alone, without any support from their units.                               A: No. The decapitating strike profile must be used as noted – to
+                                                                           make one additional attack.
+Q: If a character joins a unit of Skin Wolves, can they be
+transfigured by the Warped Form special rule?                              Q: Are the effects of the Casket of Souls’ Bound spell ‘Light of
+A: No.                                                                     Protection’ cumulative?
+                                                                           A: No.
+
+                                                                           Q: Can a Casket of Souls move at the end of the Shooting
+                                                                           phase of its turn using the Reserve Move special rule (should
+                                                                           it have it)?
+                                                                           A: Yes. Whilst a Casket of Souls is an Immovable Object, this
+                                                                           special rule clearly states that it prevents the model moving during
+                                                                           the Remaining Moves sub-phase. It does not prevent movement
+                                                                           made at other times/during other phases.
+
+                                                                           Q: Is it possible to resurrect models in a unit of Skirmishers?
+                                                                           A: Yes, simply place the resurrected models in coherency (i.e., within
+                                                                           1" of another model) with the rest of the unit.
+
+
+                                                                       5
+                  Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Arcane Journal Tomb Kings Of Khemri                                                                               Q: The crew of Tomb Guard chariots are equipped with
+Q: When a Tomb Scorpion or unit of Necroserpents makes                                                            shields. Does this improve the Armour Value of the model
+use of the Terrors Below special rule, is the number of Initiative                                                from 4+ to 3+?
+tests the enemy unit takes equal to its own Unit Strength, or                                                     A: No. A chariot’s given Armour Value takes into account
+equal to the Unit Strength of the unit using the special rule?                                                    such equipment.
+A: The latter. This special rule represents an emerging unit
+displacing earth and dragging infantry to their doom. How much
+earth the unit can displace is determined by its own Unit Strength,
+not by that of the enemy.
+
+
+Chaos Marauders
+This page updates the profile for Chaos Marauders, found in Ravening Hordes. More detail can be found in Arcane Journal –
+the Razing of Westerland.
+
+                                                            M             WS               BS               S              T              W                I               A             Ld           Points
+Chaos Marauder                                              4             4                3                3              3              1                3               1              6              6
+Marauder Headman                                            4             4                3                3              3              1                3               2              7             +7
+
+Troop Type:                  Regular infantry
+Base Size:                   30 x 30 mm
+Unit Size:                   5+
+Equipment:                   Hand weapons and light armour
+
+Options:
+• The entire unit may take one of the following:
+  - Great weapons���������������������������������������������������������������������������������������������������������������������������������������������������������������������������� +2 points per model
+  - Flails������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������� +1 point per model
+• The entire unit may take shields�������������������������������������������������������������������������������������������������������������������������������������������������� +1 point per model
+• The entire unit may belong to a single Chaotic Cult:
+  - The Cult of the Bloodied Hound������������������������������������������������������������������������������������������������������������������������������������������� +1 point per model
+  - The Cult of the Carrion Crow������������������������������������������������������������������������������������������������������������������������������������������������ +1 point per model
+  - The Cult of the Slithering Serpent���������������������������������������������������������������������������������������������������������������������������������������� +1 point per model
+  - The Cult of the Fell Raptor������������������������������������������������������������������������������������������������������������������������������������������������������ +1 point per model
+• Any unit may:
+  - Upgrade one model to a Marauder Headman (champion)���������������������������������������������������������������������������������������������+7 points per unit
+  - Upgrade one model to a standard bearer�������������������������������������������������������������������������������������������������������������������������������+5 points per unit
+  - Upgrade one model to a musician��������������������������������������������������������������������������������������������������������������������������������������������+5 points per unit
+• A Marauder Headman may purchase magic items up to a total of�����������������������������������������������������������������������������������������������������25 points
+• 0-1 unit per 1,000 points may:
+  - Have the Ambushers special rule������������������������������������������������������������������������������������������������������������������������������������������� +1 point per model
+  - Replace the Close Order special rule with Skirmishers�������������������������������������������������������������������������������������������������������������������������������Free
+  - Replace the Close Order special rule with Open Order������������������������������������������������������������������������������������������������������������������������������Free
+  - Purchase a magic standard worth up to �������������������������������������������������������������������������������������������������������������������������������������������������50 points
+
+Special Rules: Close Order, Horde, Mark of Chaos Undivided, Shieldwall, Warband
+
+
+
+
+                                                                                                              6
+                          Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Marauder Horsemen
+This page updates the profile for Marauder Horsemen, found in Ravening Hordes. More detail can be found in Arcane
+Journal – the Razing of Westerland.
+
+                                                             M              WS               BS               S               T              W                 I              A               Ld          Points
+Marauder Horseman                                            -              4                3                3               3              1                 3              1                6            12
+Marauder Horsemaster                                         -              4                3                3               3              1                 3              2                7            +7
+Warhorse                                                     8              3                 -               3               -              -                 3              1                -             -
+
+Troop Type:    Light cavalry
+Base Size:     30 x 60 mm
+Unit Size:     5+
+Equipment:
+• Marauder Horsemen:���������������������������������������������������������������������������������������������������������������������������Hand weapons, light armour and shields
+• Warhorses:������������������������������������������������������������������������������������������������������������������������������������������Iron-shod hooves (counts as hand weapons)
+
+Options:
+• The entire unit must take one of the following:
+  - Cavalry spears�������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������Free
+  - Throwing spears��������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������Free
+  - Flails������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������� +1 point per model
+• The entire unit may take throwing axes������������������������������������������������������������������������������������������������������������������������������������ +1 point per model
+• The entire unit may belong to a single Chaotic Cult:
+  - The Cult of the Bloodied Hound������������������������������������������������������������������������������������������������������������������������������������������� +1 point per model
+  - The Cult of the Carrion Crow������������������������������������������������������������������������������������������������������������������������������������������������ +1 point per model
+  - The Cult of the Slithering Serpent���������������������������������������������������������������������������������������������������������������������������������������� +1 point per model
+  - The Cult of the Fell Raptor������������������������������������������������������������������������������������������������������������������������������������������������������ +1 point per model
+• Any unit may:
+  - Upgrade one model to a Marauder Horsemaster (champion)���������������������������������������������������������������������������������������+7 points per unit
+  - Upgrade one model to a standard bearer�������������������������������������������������������������������������������������������������������������������������������+5 points per unit
+  - Upgrade one model to a musician��������������������������������������������������������������������������������������������������������������������������������������������+5 points per unit
+• A Marauder Horsemaster may purchase magic items up to a total of�����������������������������������������������������������������������������������������������25 points
+• 0-1 unit per 1,000 points may:
+  - Have the Ambushers special rule������������������������������������������������������������������������������������������������������������������������������������������� +1 point per model
+  - Replace the Open Order special rule with Skirmishers�������������������������������������������������������������������������������������������������������������������������������Free
+  - Purchase a magic standard worth up to �������������������������������������������������������������������������������������������������������������������������������������������������50 points
+
+Special Rules: Fast Cavalry, Fire & Flee, Mark of Chaos Undivided, Open Order, Swiftstride, Warband
+
+
+
+
+                                                                                                                7
+                           Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+

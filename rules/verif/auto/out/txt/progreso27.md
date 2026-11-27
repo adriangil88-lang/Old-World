@@ -1,0 +1,7 @@
+# progreso27 (v843p)
+Ver rules/VERIFICACION.md "## v843p". Archivos nuevos de 5 facciones: 904 de 905 OBJ/JPG/PNG ya los teníamos (misma clave y tamaño); lo nuevo son los 164 JSON de Cathay (conservados en tools/v843p/cathay/json/*.json.xz + indice_json.tsv) y 5 .unity3d (Dríadas = ya teníamos; Cazador de Brujas a caballo sin unidad; Yelmos Plateados = accesorios).
+Hecho: 18 unidades pasan de figura old (2.600 tri) a máxima calidad en el mismo espacio (Caos 11 unidades, Altos Elfos 6, Imperio 1; 9 mallas: woc_forsaken, lord_steed, sorc_lord, ex_sorc, dprince, lord_manticore, gorechariot, he_skycutter, emp_general_griffon); br_prophetess_uni con malla del mod (JSON 2426103195) y br_damsel_uni prestada; poda de 30 texturas huérfanas; artefacto 490 ficheros/213 MB, artifact.html 11.746.167 B, zip 743 MB.
+Tabla por facción (ya teníamos / mejoradas / nuevas / sin fuente): Caos 54/11/0/4+12 prestadas; Altos Elfos 58/6/0/3; Imperio 69/1/0/4; Silvanos 44/0/0/7 (manadas+cuidador sin fuente); Cathay 32/0/0/0 (8 modelos del mod sin unidad en el motor).
+Herramientas: tools/v843p/tools/{ogen,ux,dedupe,dedupe2,prune,showxp,sheetp,match,relaudit,jaud,exw,lst,xs,idx9}.py. Hojas: shots/v843p/hoja_v843p_{a,b}_antes_despues.jpg.
+Tests 1.947/1.947 (179 nuevo, 178 ajustado), pw.js errors [], ask_test OK.
+Pendiente: ver VERIFICACION v843p (sin fuente, sin coincidencia inequívoca, he_skycutter 0,13 in, capturas WebGL).

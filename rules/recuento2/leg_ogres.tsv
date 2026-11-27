@@ -1,0 +1,212 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+leg_ogres-001	leg_ogres.txt:1-52	Portada, contenido, copyright y descripción de ambientación del ejército	NA		
+leg_ogres-002	leg_ogres.txt:67	Personajes: 0-1 Tirano o Maestro Matarife por cada 1.000 pts	OK	data.js:4510	
+leg_ogres-003	leg_ogres.txt:67-68	Personajes hasta 50 % del ejército (Matón, Carnicero, Cazador, Panzafuego)	OK	data.js:4463 (by.char>50%)	
+leg_ogres-004	leg_ogres.txt:71-72	Básicas: al menos 25 % del ejército	OK	data.js:4461	
+leg_ogres-005	leg_ogres.txt:73	Básicas: 1+ unidad de Toros Ogro obligatoria	OK	data.js:~4576 (armyIssues, bloque Ogros)	Comprobación 1+ Toros Ogro
+leg_ogres-006	leg_ogres.txt:74	Básicas: Panzahierro, Gnoblars, Trampeadores y Colmillos de Sable	OK	data.js:2068-2080 (comp core)	
+leg_ogres-007	leg_ogres.txt:77-80	Especiales hasta 50 %: Plomiescupidores y Yhetis	OK	data.js:2082,2089,4464	
+leg_ogres-008	leg_ogres.txt:81	Especiales: 0-1 unidad de Devoradores por cada 1.000 pts	OK	data.js:4511	
+leg_ogres-009	leg_ogres.txt:82	Especiales: 0-1 Caballería Mournfang por cada 1.000 pts	OK	data.js:4512	
+leg_ogres-010	leg_ogres.txt:83-86	Especiales: 0-1 carro pesado (Ironblaster o Scraplauncher) por 1.000 pts	OK	data.js:4513	
+leg_ogres-011	leg_ogres.txt:89-91	Singulares hasta 25 %: 0-1 Jinetes de Colmillotrueno por 1.000 pts	OK	data.js:4514,4465	
+leg_ogres-012	leg_ogres.txt:92	Singulares: 0-1 Jinetes de Cuernopétreo por 1.000 pts	OK	data.js:4515	
+leg_ogres-013	leg_ogres.txt:93	Singulares: 0-3 Gorgers	OK	data.js:4516	
+leg_ogres-014	leg_ogres.txt:94	Singulares: Gigantes sin límite adicional	OK	data.js:2095 (max 1 por unidad, sin tope de unidades)	
+leg_ogres-015	leg_ogres.txt:65-66	Mercenarios hasta 20 % del ejército	PARCIAL	data.js armyIssues mm (tope 20%)	Tope 20 % aplicado; el libro no lista unidades mercenarias: sin catálogo
+leg_ogres-016	leg_ogres.txt:69-73	Aliados: hasta 25 % en un contingente de Orcos y Goblins	OK	data.js:4521 ALLY_TABLE ok:[orcs]	Aliados 25 % de Orcos y Goblins ya soportado por el sistema de contingentes
+leg_ogres-017	leg_ogres.txt:76-81	Portaestandarte de batalla: un Matón por +25 pts; estandarte mágico sin límite	OK	data.js:2459 (ok_bruiser [null,25,null]); bannerBudget	
+leg_ogres-018	leg_ogres.txt:82-87	Bellowers: los músicos ogros son Bramadores (solo ambientación)	NA		
+leg_ogres-019	leg_ogres.txt:98	Tirano: M6 HA6 HP4 F5 R5 H5 I5 A5 L9, 185 pts	OK	data.js:2033	
+leg_ogres-020	leg_ogres.txt:99	Matón: M6 HA5 HP3 F5 R5 H4 I4 A4 L8, 110 pts	OK	data.js:2041	
+leg_ogres-021	leg_ogres.txt:101-103	Tipo de tropa infantería monstruosa (personaje), peana 40x40, 1 modelo	PARCIAL	data.js:2033 (tt 'char')	"tt ""char"" es seudo-tipo del motor usado por 186 unidades; cambiarlo a infantería monstruosa rompe uniones/reglas. Pendiente"
+leg_ogres-022	leg_ogres.txt:104	Equipo del Tirano/Matón: arma de mano y armadura ligera	OK	data.js:2033,2041	
+leg_ogres-023	leg_ogres.txt:107-110	Arma adicional +4 / Puño de hierro +6 / Arma a dos manos +5	OK	data.js:4085-4093 (OKW)	
+leg_ogres-024	leg_ogres.txt:111-113	Pistola ogra +6 / Par de pistolas ogras +12	OK	data.js:4090-4091	
+leg_ogres-025	leg_ogres.txt:114	Armadura pesada en lugar de ligera +3	OK	data.js:4092	
+leg_ogres-026	leg_ogres.txt:115	Montado en Cuernopétreo +195 / Colmillotrueno +165; pierde Impactos (2)	OK	data.js:2035-2047 (380/350/305/275 pts)	
+leg_ogres-027	leg_ogres.txt:116	Un solo Gran Nombre	OK	data.js:2647-2654 (bn_*)	
+leg_ogres-028	leg_ogres.txt:117-118	Objetos mágicos: Tirano 100 pts, Matón 50 pts	OK	data.js:2033 ib:100, 2041 ib:50	
+leg_ogres-029	leg_ogres.txt:120	Reglas: Perforante (1) (no la montura)	OK	data.js:~5246 (bloque v700 Ogros)	Perforante (1) del jinete/ogro (no montura)
+leg_ogres-030	leg_ogres.txt:120	Reglas: Miedo, Impactos (2)	OK	data.js:2033	
+leg_ogres-031	leg_ogres.txt:120	Carga de ogro (Impactos mejoran su FP según Bono de Filas; no la montura)	OK	data.js:~5246 (bloque v700 Ogros)	Montados sin ogreCharge (Impactos de la montura no mejoran con Bono de Filas)
+leg_ogres-032	leg_ogres.txt:126-131	Carga de toro: Impactos del modelo (no montura) con FP -1	OK	data.js:2033 impact ap:1; bullCharge solo a pie	
+leg_ogres-033	leg_ogres.txt:135	Maestro Matarife: M6 HA4 HP3 F4 R5 H5 I3 A4 L8, 230 pts	OK	data.js:2062	
+leg_ogres-034	leg_ogres.txt:136	Carnicero: M6 HA3 HP2 F4 R5 H4 I2 A3 L7, 105 pts	OK	data.js:2058	
+leg_ogres-035	leg_ogres.txt:138-141	Tipo de tropa infantería monstruosa; peana 40x40 (50x100 con Caldero)	PARCIAL	data.js:2058,2060 (tt char / heavyChar)	Igual que 021
+leg_ogres-036	leg_ogres.txt:143-148	Mago nv3 / nv1; Saberes Magia de Batalla, Elementalismo o Ilusión	OK	data.js:~5246 (bloque v700 Ogros)	Saber por defecto Magia de Batalla
+leg_ogres-037	leg_ogres.txt:150	Arma de mano adicional +4 (Carnicero/Matarife)	OK	data.js:~5246 (bloque v700 Ogros)	Opción arma adicional +4
+leg_ogres-038	leg_ogres.txt:151	Caldero de Carnicero +30 pts	OK	data.js:2060,2064 (135/260)	
+leg_ogres-039	leg_ogres.txt:152	Un Gran Nombre	OK	data.js:2647-2654	
+leg_ogres-040	leg_ogres.txt:154	Maestro Matarife: nivel 4 +35; objetos hasta 100	OK	data.js:4139; ib:100	
+leg_ogres-041	leg_ogres.txt:156-158	Carnicero: nivel 2 +35; objetos hasta 50 pts	OK	data.js:~5246 (bloque v700 Ogros)	ib 50
+leg_ogres-042	leg_ogres.txt:160	Reglas: Perforante (1), Miedo, Impactos (2), Ogre Charge	OK	data.js:~5246 (bloque v700 Ogros)	
+leg_ogres-043	leg_ogres.txt:160	Lore of the Great Maw: descarta un hechizo aleatorio por la firma del saber o Rompedientes/Tripas de Troll	OK	data.js:4954 (legacyLore maw); 4943	
+leg_ogres-044	leg_ogres.txt:167-173	Caldero: Impactos (D3+1) en vez de (2)	OK	data.js:~5246 (bloque v700 Ogros)	Caldero Impactos (D3+1)
+leg_ogres-045	leg_ogres.txt:167-173	Ofrenda al Gran Maw: chequeo de L en fase de Mando; Regeneración (5+) hasta tu siguiente inicio; si falla pierde 1 Herid	OK	rules.js:6313-6325	
+leg_ogres-046	leg_ogres.txt:177	Cazador: M6 HA5 HP4 F5 R5 H4 I3 A4 L9, 115 pts	OK	data.js:2049	
+leg_ogres-047	leg_ogres.txt:182	Equipo del Cazador: arma de mano, lanzas arrojadizas grandes y armadura ligera	OK	data.js:2049-2050	
+leg_ogres-048	leg_ogres.txt:210-212	"Lanzas arrojadizas: 12"", F+1, FP -1, Mover y disparar, Disparo rápido"	OK	data.js:2050 (s6 ap1 ms quickShot)	
+leg_ogres-049	leg_ogres.txt:185	Arma de mano adicional +4	OK	data.js:5147	
+leg_ogres-050	leg_ogres.txt:186	"Lanzarrpones +10 (36"" F6 FP-2 Heridas múltiples D3 Ponderoso)"	OK	data.js:5149 / 3400	
+leg_ogres-051	leg_ogres.txt:187	Montado en Cuernopétreo/Colmillotrueno	OK	data.js:2052,2055	
+leg_ogres-052	leg_ogres.txt:188-191	Emboscadores +10 / Exploradores +5 / Vanguardia +3 (solo a pie)	OK	data.js:5150-5152	
+leg_ogres-053	leg_ogres.txt:192-193	Gran Nombre; objetos mágicos hasta 50 pts	OK	data.js:~5246 (bloque v700 Ogros)	ib 50 (Cazador y monturas)
+leg_ogres-054	leg_ogres.txt:195-196	Reglas del Cazador: Perforante (1), Miedo, Impactos (1), Solitario, Mover a través de cobertura, Carga de ogro	OK	data.js:~5246 (bloque v700 Ogros)	
+leg_ogres-055	leg_ogres.txt:202-208	Correr con la manada: el Cazador gana Rapidez de zancada con Colmillos de Sable y estos pierden Impetuosos	OK	rules.js:~106 (D(): Colmillos pierden Impetuosos con Cazador unido)	Swiftstride del Cazador irrelevante: la unidad usa su propio M
+leg_ogres-056	leg_ogres.txt:215	Panzafuego: M6 HA3 HP2 F4 R5 H4 I2 A3 L7, 110 pts	OK	data.js:2066	
+leg_ogres-057	leg_ogres.txt:221	Equipo: arma de mano y aliento flamígero (F4 FP-1 Arma de aliento, Ataques flamígeros)	OK	data.js:2066 ranged breath flaming	
+leg_ogres-058	leg_ogres.txt:223-226	Mago nv1; Saberes Batalla o Elementalismo	OK	data.js:2066, 4690	
+leg_ogres-059	leg_ogres.txt:229	Arma a dos manos +6 pts	OK	data.js:~5246 (bloque v700 Ogros)	Arma a dos manos +6
+leg_ogres-060	leg_ogres.txt:230-231	Nivel 2 +35; objetos hasta 50 pts	OK	data.js:4139; ib:50	
+leg_ogres-061	leg_ogres.txt:233-234	Reglas: Perforante (1), Bendición del Dios Volcán, Miedo, Ataques flamígeros, Impactos (1), Carga de ogro	OK	data.js:~5246 (bloque v700 Ogros)	
+leg_ogres-062	leg_ogres.txt:236-242	Bendición del Dios Volcán: salvación especial 4+ contra heridas de ataques flamígeros	OK	rules.js:1677	
+leg_ogres-063	leg_ogres.txt:248-254	Monturas de personaje: Matón/Tirano/Cazador en Cuernopétreo +195 o Colmillotrueno +165	OK	data.js:2035-2056	
+leg_ogres-064	leg_ogres.txt:258-259	Cuernopétreo (montura): M7 HA3 F6 R+1 H+4 I2 A4	OK	data.js:~5246 (bloque v700 Ogros)	W +4, A del conjunto = jinete+4, I del jinete
+leg_ogres-065	leg_ogres.txt:260-268	Cuernopétreo: Cuernos de piedra F FP-2, Perforante (2), armadura completa	OK	data.js:~5246 (bloque v700 Ogros)	Cuernos FP-2 Perforante (2)
+leg_ogres-066	leg_ogres.txt:265-268	Cuernopétreo: reglas Cerrado, Primera carga, Impactos D6+1, Objetivo grande, Esqueleto de piedra, Zancada, Terror, Carga	OK	data.js:~5246 (bloque v700 Ogros)	Sin Pisotón en Cuernopétreo
+leg_ogres-067	leg_ogres.txt:277-278	Colmillotrueno (montura): M6 HA3 F6 R+1 H+4 I2 A4	OK	data.js:~5246 (bloque v700 Ogros)	A de montura 4, W +4
+leg_ogres-068	leg_ogres.txt:283-289	Colmillotrueno: Colmillos F FP-1 Perforante (2), aliento helado F2 FP-1 Heridas múltiples (D3), armadura pesada	OK	data.js:~5246 (bloque v700 Ogros)	Colmillos Perforante (2); aliento helado F2 FP-1 MW D3 (Cazador: multi)
+leg_ogres-069	leg_ogres.txt:285-286	Colmillotrueno: Cerrado, Primera carga, Impactos D3, Objetivo grande, Frío entumecedor, Pisotón (3), Zancada, Terror	OK	data.js:~5246 (bloque v700 Ogros)	Pisotón (3)
+leg_ogres-070	leg_ogres.txt:295	Ogro: M6 HA3 HP2 F4 R4 H3 I2 A3 L7, 31 pts	OK	data.js:2068	
+leg_ogres-071	leg_ogres.txt:297	Crusher: +6 pts, A4	OK	data.js:2459 (ok_bulls champ 6)	
+leg_ogres-072	leg_ogres.txt:299-301	Infantería monstruosa; peana 40x40; unidades de 3+	OK	data.js:2068 (min 3; max 12 inventado)	
+leg_ogres-073	leg_ogres.txt:302	Equipo: armas de mano y armadura ligera	OK	data.js:2068-2069	
+leg_ogres-074	leg_ogres.txt:305-307	Armas de mano adicionales +3 o Puños de hierro +4 por modelo	OK	data.js:3827-3829	
+leg_ogres-075	leg_ogres.txt:309-311	Crusher +6, portaestandarte +6, Bramador +6 por unidad	OK	data.js:2459	
+leg_ogres-076	leg_ogres.txt:312	Gnoblar vigía en el estandarte +5 pts	OK	data.js:~5246 (bloque v700 Ogros); rules.js:~2610 (Cuidado, señor)	Opción Gnoblar vigía +5 (Toros) y regla lookOut
+leg_ogres-077	leg_ogres.txt:313	Estandarte mágico hasta 50 pts, 0-1 unidad por 1.000 pts	OK	data.js:~4576	Validación 0-1 por 1.000 pts
+leg_ogres-078	leg_ogres.txt:315	Reglas: Perforante (1), Cerrado, Miedo, Impactos (1), Carga de ogro	OK	data.js:~5246 (bloque v700 Ogros)	
+leg_ogres-079	leg_ogres.txt:321	Panzahierro: M6 HA3 HP2 F4 R4 H3 I2 A3 L8, 39 pts; Gutlord +7 A4	OK	data.js:2080	
+leg_ogres-080	leg_ogres.txt:324-327	Infantería monstruosa 40x40, 3+; armas de mano, armas a dos manos y armadura pesada	OK	data.js:2080	
+leg_ogres-081	leg_ogres.txt:331-333	Gutlord +7, portaestandarte +7, Bramador +7	OK	data.js:2459	
+leg_ogres-082	leg_ogres.txt:334	Gutlord: objetos mágicos hasta 25 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_ogres-083	leg_ogres.txt:335	Gnoblar vigía +5 pts (Panzahierro)	OK	data.js:~5246 (bloque v700 Ogros)	Panzahierro: opción lo
+leg_ogres-084	leg_ogres.txt:337	Veteranos +2 pts por modelo	OK	data.js:3830	
+leg_ogres-085	leg_ogres.txt:338	Estandarte mágico hasta 50 pts	OK	data.js:3179	
+leg_ogres-086	leg_ogres.txt:340	Reglas: Cerrado, Miedo, Impactos (1), Carga de ogro	OK	data.js:2080	
+leg_ogres-087	leg_ogres.txt:344	Plomiescupidor: M6 HA3 HP3 F4 R4 H3 I2 A3 L7, 41 pts; Thunderfist +8 HP4 A4	OK	data.js:2082; CMD 2459	
+leg_ogres-088	leg_ogres.txt:349	Unidades de 2+	OK	data.js:~5246 (bloque v700 Ogros)	min 2
+leg_ogres-089	leg_ogres.txt:350	Equipo: armas de mano, cañones de plomo y armadura ligera	OK	data.js:2082	
+leg_ogres-090	leg_ogres.txt:354-356	Thunderfist +8, Bramador +6, Veteranos +2 por modelo	OK	data.js:2459,3831	
+leg_ogres-091	leg_ogres.txt:360-362	"Cañón de plomo, bala maciza: 24"" F5 FP-2 Perforante (1) Engorroso Heridas múltiples (2)"	OK	data.js:~5246 (bloque v700 Ogros)	"Bala maciza 24"" F5 FP-2 Perf(1) Engorroso MW(2)"
+leg_ogres-092	leg_ogres.txt:363-366	"Cañón de plomo, metralla: 18"" F3 Perforante (1), D3 impactos"	OK	data.js:~5246 (bloque v700 Ogros)	"Metralla 18"" F3 Perf(1), D3 impactos (ranged2)"
+leg_ogres-093	leg_ogres.txt:358	Reglas: Cerrado, Miedo, Impactos (1), Carga de ogro	OK	data.js:2082	
+leg_ogres-094	leg_ogres.txt:372	Trampeador Gnoblar: M4 HA2 HP3 F2 R3 H1 I3 A1 L5, 5 pts	OK	data.js:2074	
+leg_ogres-095	leg_ogres.txt:373-375	Infantería regular 25x25, 10+; Snarefinger +5 (HP4)	OK	data.js:2082 ok_trappers champBS	Snarefinger HP4 via champBS (+1 al impactar del campeon)
+leg_ogres-096	leg_ogres.txt:378	Equipo: cosas punzantes (armas de mano y arrojadizas)	OK	data.js:~5246 (bloque v700 Ogros)	"Armas arrojadizas 9"" (Core)"
+leg_ogres-097	leg_ogres.txt:383-384	Reglas: Largamente insignificante, Mover a través de cobertura, Exploradores, Escaramuzadores, Trampas y lazos	OK	data.js:2075	
+leg_ogres-098	leg_ogres.txt:386-391	Trampas y lazos: el enemigo que acaba su carga en contacto hace test de Terreno peligroso	OK	rules.js:2963	
+leg_ogres-099	leg_ogres.txt:395	Devorador: M6 HA4 HP4 F5 R4 H3 I3 A4 L8, 54 pts; Capitán +7 A5	OK	data.js:2084; CMD 2459	
+leg_ogres-100	leg_ogres.txt:398-401	Infantería monstruosa 40x40, 2+; armas de mano y armadura ligera	OK	data.js:2084	
+leg_ogres-101	leg_ogres.txt:404-407	Arma adicional +3 / Puño de hierro +4 / Arma a dos manos +4 por modelo	OK	data.js:3833-3835	
+leg_ogres-102	leg_ogres.txt:408-410	Pistola ogra +6 / Par de pistolas +12 por modelo	OK	data.js:~5246 (bloque v700 Ogros)	Par de pistolas: ataque extra y Disparos múltiples
+leg_ogres-103	leg_ogres.txt:411	Armadura pesada +3 por modelo	OK	data.js:3838	
+leg_ogres-104	leg_ogres.txt:412-414	Capitán +7, portaestandarte +7, Bramador +7	OK	data.js:2459	
+leg_ogres-105	leg_ogres.txt:416	Capitán: objetos mágicos hasta 50 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_ogres-106	leg_ogres.txt:417	Gnoblar vigía +5 pts	OK	data.js:~5246 (bloque v700 Ogros)	Devoradores: opción lo
+leg_ogres-107	leg_ogres.txt:418	Estandarte mágico 50 pts, 0-1 por 1.000 pts	OK	data.js:~4576	
+leg_ogres-108	leg_ogres.txt:419-423	Hasta 2 reglas gratis: Inmune a la psicología, Ataques envenenados, Tozudez, Vanguardia	OK	data.js:~5246 (bloque v700 Ogros); validación ~4576	Opciones gratuitas fi/fp/fs/fv, máx. 2
+leg_ogres-109	leg_ogres.txt:425	Reglas: Perforante (1), Cerrado, Miedo, Impactos (1), Tropa variopinta, Carga de ogro	OK	data.js:~5246 (bloque v700 Ogros)	Perforante (1) y Tropa variopinta
+leg_ogres-110	leg_ogres.txt:431	Gnoblar: M4 HA2 HP3 F2 R3 H1 I3 A1 L5, 2 pts; Groinbiter +5 A2	OK	data.js:~5246 (bloque v700 Ogros)	Groinbiter 5; sin portaestandarte ni músico
+leg_ogres-111	leg_ogres.txt:434-437	Infantería regular 25x25, 20+; cosas punzantes (armas de mano y arrojadizas)	PARCIAL	data.js:~5246 (bloque v700 Ogros)	"VERIF v732: ok_gnoblars regInf 25x25 min 20, armas arrojadizas (9"" S2 MS2 quickShot) OK, pero max:40 (data.js) frente a ""Unit Size 20+"" sin maximo. | Armas arrojadizas"
+leg_ogres-112	leg_ogres.txt:442	Reglas: Cerrado, Horda, Largamente insignificante	OK	data.js:2072	
+leg_ogres-113	leg_ogres.txt:447	Yhetee: M7 HA3 HP0 F5 R4 H3 I4 A3 L7, 46 pts	OK	data.js:2089	
+leg_ogres-114	leg_ogres.txt:447	Greyback (campeón) +7 pts, A4	OK	data.js:~5246 (bloque v700 Ogros)	Greyback +7 (CMD)
+leg_ogres-115	leg_ogres.txt:449-452	Infantería monstruosa 40x40, 3+; armas de escarcha (F FP-1 Perforante (1) Ataques mágicos)	OK	data.js:2089-2090	
+leg_ogres-116	leg_ogres.txt:455-458	Exploradores +3 / Vanguardia +2 por modelo, 0-1 unidad por 1.000 pts	OK	data.js:3847-3849	
+leg_ogres-117	leg_ogres.txt:460-461	Reglas: Piel acorazada (1), Miedo, Inflamable, Solitario, Mover a través de cobertura, Frío entumecedor, Orden abierto, 	OK	data.js:2090	
+leg_ogres-118	leg_ogres.txt:968-975	Frío entumecedor: enemigos en contacto -1 HA e I (mín. 1)	OK	rules.js:4022,4625	
+leg_ogres-119	leg_ogres.txt:469	Colmillo de Sable: M8 HA4 HP0 F4 R4 H2 I4 A2 L6, 17 pts	OK	data.js:2077	
+leg_ogres-120	leg_ogres.txt:471-474	Bestias de guerra 25x50, 2-10; garras y colmillos (armas de mano)	OK	data.js:2077	
+leg_ogres-121	leg_ogres.txt:477-480	Emboscadores +3 / Exploradores +2 / Vanguardia +1 por modelo	OK	data.js:3843-3846	
+leg_ogres-122	leg_ogres.txt:482-483	Reglas: Perforante (1), Miedo, Impetuoso, Solitario, Mover a través de cobertura, Orden abierto, Escaramuzadores, Zancad	OK	data.js:2078	
+leg_ogres-123	leg_ogres.txt:487-488	Ogro: HA3 HP2 F4 R4 H4 I2 A3 L7, 64 pts; Crusher +7 A4; Colmillotriste M8 F5 I2 A3	OK	data.js:2086	
+leg_ogres-124	leg_ogres.txt:491-496	Caballería monstruosa 50x100, 2+; ogro con armas de mano y armadura ligera; colmillos monstruosos F FP-1 Perforante (1)	OK	data.js:2086-2088	
+leg_ogres-125	leg_ogres.txt:499-502	Armas a dos manos +4 o Puños de hierro +4 por modelo	OK	data.js:3840-3841	
+leg_ogres-126	leg_ogres.txt:502	Armadura pesada +3 por modelo (unidad entera)	OK	data.js:3842	
+leg_ogres-127	leg_ogres.txt:504-506	Crusher +7, portaestandarte +7, Bramador +7	OK	data.js:2459	
+leg_ogres-128	leg_ogres.txt:507-509	Crusher: par de pistolas ogras +12; objetos hasta 25 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_ogres-129	leg_ogres.txt:510	Estandarte mágico 50 pts, 0-1 por 1.000 pts	OK	data.js:~4576	
+leg_ogres-130	leg_ogres.txt:512-513	Reglas: Piel acorazada (1), Cerrado, Miedo, Impactos (D3), Carga del Mournfang, Zancada	OK	data.js:2086-2087	
+leg_ogres-131	leg_ogres.txt:959-966	Carga del Mournfang: Impactos con Perforante (1) y FP-1	OK	rules.js:2938	
+leg_ogres-132	leg_ogres.txt:519	Ironblaster: F5 R6 H5 AV4+, 185 pts, carro pesado 60x100	OK	data.js:5218-5220	
+leg_ogres-133	leg_ogres.txt:520-523	Dotación del Ironblaster: Plomiescupidor, Gnoblar Scrapper y Rinox con sus perfiles	PARCIAL	data.js:5217-5220 (aproximación declarada)	Aproximación declarada: una sola HA/F para la dotación (límite del motor)
+leg_ogres-134	leg_ogres.txt:530-533	Equipo: cañón, mano y cosas punzantes de la dotación	OK	data.js:5221	
+leg_ogres-135	leg_ogres.txt:543-546	"Bala maciza: 36"" F10 FP-3 Perforante (2) Fuego de cañón Engorroso Heridas múltiples (D3+1)"	OK	data.js:5221	
+leg_ogres-136	leg_ogres.txt:547-550	Metralla: F4 FP-1 Arma de aliento	OK	data.js:5222	
+leg_ogres-137	leg_ogres.txt:535-536	Reglas: Perforante (2, solo Rinox), Cerrado, Miedo, Primera carga, Impactos (D6+1), Objetivo grande	OK	data.js:5224	
+leg_ogres-138	leg_ogres.txt:552-560	Tabla de averías del Ironblaster (1 destruido; 2-3 no vuelve a disparar; 4-6 no dispara este turno ni la siguiente ronda	OK	rules.js:2070-2076	
+leg_ogres-139	leg_ogres.txt:563	Scraplauncher: F5 R5 H5 AV4+, 140 pts	OK	data.js:5227-5229	
+leg_ogres-140	leg_ogres.txt:565-566	Dotación: 7 Gnoblar Scrappers y 1 Rinox	PARCIAL	data.js:5227-5228 (A10, WS2, S2)	Aproximación declarada: una sola HA/F para la dotación
+leg_ogres-141	leg_ogres.txt:585-589	"Catapulta: 12-48"" F3(4) Bombardeo Engorroso Heridas múltiples (2) solo al central, plantilla 5"""	OK	data.js:5229	
+leg_ogres-142	leg_ogres.txt:591-599	Tabla de averías de la catapulta	OK	rules.js:2070-2076	
+leg_ogres-143	leg_ogres.txt:577-578	Reglas del Scraplauncher: Perforante (2, Rinox), Cerrado, Miedo, Primera carga, Impactos (D6+1), Objetivo grande	OK	data.js:5230	
+leg_ogres-144	leg_ogres.txt:603	Cuernopétreo de jinetes: M7 HA3 F6 R6 H6 I2 A4, 245 pts	OK	data.js:2104-2105	
+leg_ogres-145	leg_ogres.txt:604-605	Jinete y tripulante ogro: HA3 HP3 F4 I2 A3 L7	OK	data.js:5203-5205	
+leg_ogres-146	leg_ogres.txt:607-610	Behemot 100x150, AV4+	OK	data.js:~5246 (bloque v700 Ogros)	Peana 100x150
+leg_ogres-147	leg_ogres.txt:612-614	Equipo: cuernos de piedra, jinete con trampa de cadena, dotación con lanzarrpones	OK	data.js:5205	
+leg_ogres-148	leg_ogres.txt:626-629	"Cuernos F FP-2; trampa de cadena 12"" F+1 Golpe letal"	OK	data.js:5205 (mountAtk ap2 ab2; CHAIN)	
+leg_ogres-149	leg_ogres.txt:618-619	Buitre de sangre +5 / lanzarrpones adicional +8	OK	data.js:5208-5212	
+leg_ogres-150	leg_ogres.txt:621-623	Reglas: Perforante (2), Cerrado, Primera carga, Howdah, Impactos (D6+1), Objetivo grande, Esqueleto de piedra, Zancada, 	OK	data.js:~5246 (bloque v700 Ogros)	Howdah
+leg_ogres-151	leg_ogres.txt:632	"Buitre de sangre: 36"" F4 FP-1 Ignora cobertura, Mover y disparar, Disparo rápido"	PARCIAL	data.js:5204	"VERIF v732: data.js:5698 VULT 36"" F4 FP-1 ms quickShot OK, pero ignoresCover va en el perfil del arma y rules.js:2920 solo consulta has(u,""ignoresCover"") (regla de unidad): no ignora cobertura"
+leg_ogres-152	leg_ogres.txt:950-957	Esqueleto de piedra: -1 Herida perdida por Heridas múltiples (mín. 1)	OK	rules.js:1747	
+leg_ogres-153	leg_ogres.txt:963-964	Carga atronadora: Impactos con FP-2	OK	rules.js:2937	
+leg_ogres-154	leg_ogres.txt:637	Colmillotrueno de jinetes: M6 HA3 F6 R6 H6 I2 A4, 215 pts	OK	data.js:2107-2108	
+leg_ogres-155	leg_ogres.txt:643-647	Behemot 100x150, AV5+; colmillos F FP-1 Perforante (2), aliento helado	OK	data.js:~5246 (bloque v700 Ogros)	Peana 100x150
+leg_ogres-156	leg_ogres.txt:654-655	Reglas: Cerrado, Primera carga, Howdah, Impactos (D3), Objetivo grande, Frío entumecedor, Pisotón (3), Zancada, Terror	OK	data.js:~5246 (bloque v700 Ogros)	Howdah
+leg_ogres-157	leg_ogres.txt:661	Aliento helado: F2 FP-1 Arma de aliento Heridas múltiples (D3)	OK	data.js:5206	
+leg_ogres-158	leg_ogres.txt:670	Gigante: M6 HA3 HP1 F6 R6 H6 I2 A* L10, 200 pts	OK	data.js:~5246 (bloque v700 Ogros)	I 2
+leg_ogres-159	leg_ogres.txt:673-677	Behemot 50x50; porra y piel callosa (armadura ligera)	OK	data.js:2095	
+leg_ogres-160	leg_ogres.txt:677-678	Reglas: Cerrado, Inmune a la psicología, Objetivo grande, Pisotón (D6), Terror, ¡Timmm-berrr!, Inquebrantable	OK	data.js:2095-2096	
+leg_ogres-161	leg_ogres.txt:680-688	Ataques de Gigante: en lugar de atacar el jugador puede elegir un Ataque de Gigante (tirada en tabla D6)	OK	rules.js:giantAttack; main.js/ai.js giantMode	El jugador elige Ataque de Gigante / Agarrar y… (botón del panel; IA por optionGroups); sin elegir: automático
+leg_ogres-162	leg_ogres.txt:691-695	1 Cabezazo: un modelo recibe D3+1 heridas sin armadura ni regeneración	OK	rules.js:4925	
+leg_ogres-163	leg_ogres.txt:696-700	"2 Panzazo: plantilla 3"", impacto de F con FP-2 a todo modelo bajo ella (amigo o enemigo)"	OK	rules.js:giantAttack	"Plantilla 3"" centrada en la unidad, afecta a amigos y enemigos"
+leg_ogres-164	leg_ogres.txt:701-704	3-4 Barrido: A D6+1 aleatorios, F+1, FP-2	OK	rules.js:4927	
+leg_ogres-165	leg_ogres.txt:705-709	5 Garrotazo: un modelo, F+4 FP-4 Heridas múltiples (D6)	OK	rules.js:4928	
+leg_ogres-166	leg_ogres.txt:710-713	6 Saltar: D6+1 impactos de F sin salvación de armadura	OK	rules.js:4929	
+leg_ogres-167	leg_ogres.txt:714-740	Agarrar y…: test de I de la unidad de infantería; baja un modelo; 1-3 se olvida, 4+ repite	OK	rules.js:giantAttack	Elección del jugador; test de I con cFail
+leg_ogres-168	leg_ogres.txt:745-748	Porra del Gigante con perfil variable según el ataque	OK	rules.js:4916-4930	
+leg_ogres-169	leg_ogres.txt:752	Gorger: M6 HA3 HP0 F5 R5 H4 I2 A4 L8, 90 pts	OK	data.js:2092-2093	
+leg_ogres-170	leg_ogres.txt:754-756	Criatura monstruosa 50x50, tamaño de unidad 1	OK	data.js:~5246 (bloque v700 Ogros)	Criatura monstruosa, unidad de 1
+leg_ogres-171	leg_ogres.txt:757-758	Equipo: garras F FP-2, mandíbula distensible (Golpe letal) y piel callosa (armadura ligera)	OK	data.js:2093	
+leg_ogres-172	leg_ogres.txt:761-762	Exploradores +3 / Vanguardia +3	PARCIAL	data.js:5235	VERIF v732: data.js:5730 Exploradores y Vanguardia con group vg (mutuamente excluyentes); el texto los da como dos opciones independientes +3 cada una
+leg_ogres-173	leg_ogres.txt:764-765	Reglas: Emboscadores, Cerrado, Miedo, Frenesí, Hambre voraz, Regeneración (6+), Zancada, Inquebrantable	OK	data.js:2093	
+leg_ogres-174	leg_ogres.txt:767-771	Hambre voraz: puede repetir la tirada de carga	OK	rules.js:3072	
+leg_ogres-175	leg_ogres.txt:777-778	Mandíbula distensible: una de sus ataques cada turno con esta arma (Golpe letal)	PARCIAL	data.js:2093 (maw); rules.js:4708	VERIF v732: data.js:2101 maw kb; rules.js:5467 el ataque con la mandibula es aleatorio (prob 1/A por impacto, tope 1 por modelo) en vez de exactamente uno de sus ataques cada turno
+leg_ogres-176	leg_ogres.txt:787-794	Mawseeker 30: solo infantería; R+1; sufre Estupidez	OK	data.js:~5246 (bloque v700 Ogros)	infOnly
+leg_ogres-177	leg_ogres.txt:795-801	Mountaineater 25: solo infantería; no se hiere con 2	OK	data.js:~5246 (bloque v700 Ogros)	infOnly
+leg_ogres-178	leg_ogres.txt:803-810	Giantbreaker 20: F+1 (no montura); no puede rechazar desafíos ni huir como reacción a carga	OK	data.js:~5246 (bloque v700 Ogros); rules.js:~3114 (noFleeCh), alwaysDuel	No rechaza retos ni huye como reacción
+leg_ogres-179	leg_ogres.txt:787-794	Kineater 15: solo General; repetir Pánico y Reagrupar en alcance de mando	OK	data.js:~5246 (bloque v700 Ogros)	cmdr (solo General/comandante)
+leg_ogres-180	leg_ogres.txt:796-801	Longstrider 10: solo infantería; M+1	OK	data.js:~5246 (bloque v700 Ogros)	infOnly
+leg_ogres-181	leg_ogres.txt:803-809	Beastkiller 5: una vez por turno repetir tirada para herir contra Objetivo grande	OK	data.js:2652; rules.js:1709	
+leg_ogres-182	leg_ogres.txt:811-817	Deathcheater 5: una vez por partida el rival repite una tirada para herir contra el personaje	OK	data.js:2653; rules.js:1710	
+leg_ogres-183	leg_ogres.txt:824-825	Objetos extremadamente comunes marcados con asterisco	OK	data.js:3010,3018-3019 (star)	
+leg_ogres-184	leg_ogres.txt:829-841	"Thundermace 90: F+2 FP-2 Perforante (1) Mágico Dos manos Golpea último; ataque Thunderstrike con plantilla 3"""	OK	rules.js:~4787 (thunderMode)	Golpe de trueno: preferencia del jugador; sin restricciones inventadas
+leg_ogres-185	leg_ogres.txt:843-849	Tenderiser 70: F+2 FP-3 Ataques extra (+1) Mágico Heridas múltiples (D3) Golpea último	OK	data.js:3006	
+leg_ogres-186	leg_ogres.txt:851-856	Skullplucker 45: Golpe letal, Mágico, Golpea primero	OK	data.js:3007	
+leg_ogres-187	leg_ogres.txt:858-865	Bloodcleaver 30: FP-1 Mágico; solo Emisarios; recupera 1 Herida si causa heridas	OK	data.js:~5246 (bloque v700 Ogros)	Solo Carnicero/Maestro Matarife
+leg_ogres-188	leg_ogres.txt:867-873	Gut Maw 45: armadura pesada; recupera 1 Herida por herida no salvada causada en desafío	OK	data.js:3009; rules.js:4776	
+leg_ogres-189	leg_ogres.txt:875-882	Mastodon Armour 40: armadura completa y salvación especial 6+	OK	data.js:3010	
+leg_ogres-190	leg_ogres.txt:885-891	Spangleshard 35: salvación 4+; se destruye con un 1 natural	OK	data.js:3011; rules.js:1736	
+leg_ogres-191	leg_ogres.txt:893-899	Cathayan Jet Pendant 10*: salvación 6+ contra proyectil mágico, vórtice y asalto	OK	data.js:3012; rules.js:1673	
+leg_ogres-192	leg_ogres.txt:901-907	Jade Lion 25: repetir Miedo, Pánico, Reagrupar y Terror fallidos (portador y unidad)	OK	data.js:3017; rules.js:2698	
+leg_ogres-193	leg_ogres.txt:909-914	Daemon-Slayer Scars 20*: Terror	OK	data.js:3018	
+leg_ogres-194	leg_ogres.txt:916-921	Fistful of Laurels 15*: un uso, repetir el 2D6 de un test de Ruptura	OK	data.js:3019; rules.js:5074	
+leg_ogres-195	leg_ogres.txt:867-873	Dragonhide Banner 45: repetir 1 naturales para impactar; Ataques flamígeros	OK	data.js:3013; rules.js:4125,4658	
+leg_ogres-196	leg_ogres.txt:875-882	Rune Maw 40: 3+ el mago enemigo debe elegir otro objetivo	OK	data.js:3014; rules.js:6892	
+leg_ogres-197	leg_ogres.txt:884-890	Cannibal Totem 30: Regeneración (5+); un solo D6 en persecución	OK	data.js:3015; rules.js:5153	
+leg_ogres-198	leg_ogres.txt:892-897	Bull Standard 20: repetir tiradas para herir fallidas de Impactos	OK	rules.js:chargeImpacts (rrw okl_bull)	Ya implementado
+leg_ogres-199	leg_ogres.txt:901-908	"Halfling Cookbook 30: +3"" Mando, Disipación y un hechizo"	OK	data.js:3020; rules.js:3248	
+leg_ogres-200	leg_ogres.txt:910-918	Hellheart 20: un uso; pierde 1 Herida; doble natural enemigo causa percance	OK	data.js:3021; rules.js:6445	
+leg_ogres-201	leg_ogres.txt:920-930	Grut's Sickle 40: +D3 al lanzamiento a costa de una Herida; no causa percance	OK	data.js:3022; rules.js:3874	
+leg_ogres-202	leg_ogres.txt:939-942	Largamente insignificante: no provoca Pánico a unidades amigas	OK	rules.js:2752	
+leg_ogres-203	leg_ogres.txt:942-943	Largamente insignificante: solo la unen personajes con la misma regla	OK	rules.js:6031	
+leg_ogres-204	leg_ogres.txt:948-957	Gnoblar vigía: ¡Cuidado, señor! con 2+ modelos y repetir con 5+	OK	data.js:~5246 (bloque v700 Ogros); rules.js:~2610	Gnoblar vigía: ¡Cuidado, señor! con 2+ y repetición con 5+
+leg_ogres-205	leg_ogres.txt:944-947	Carga de ogro: FP de Impactos mejora con Bono de Filas	OK	rules.js:2936	
+leg_ogres-206	leg_ogres.txt:981-997	"Saber del Gran Maw; Rompedientes: R+1 con 7+, +2 con 10+, alcance 12"", hasta fin de turno"	OK	data.js:4919; rules.js:3594	
+leg_ogres-207	leg_ogres.txt:985-996	"Tripas de Troll: Regeneración (6+) con 8+, (5+) con 11+; alcance 15""; hasta tu siguiente inicio"	OK	data.js:4920; rules.js:3595	
+leg_ogres-208	leg_ogres.txt:1007-1011	"Lanzarrpones: 36"" F6 FP-2 Heridas múltiples (D3) Ponderoso"	OK	data.js:5149	
+leg_ogres-209	leg_ogres.txt:1019-1023	Puño de hierro: ataque extra y armadura +1; no con arma mágica	OK	data.js:~4576 (validación)	Puño de hierro no con arma mágica
+leg_ogres-210	leg_ogres.txt:1031	"Pistola ogra: 24"" F4 FP-1 Perforante (1) Disparo rápido"	OK	data.js:4089	
+leg_ogres-211	leg_ogres.txt:1038-1042	"Par de pistolas: disparo 24"" F4 FP-1 Perforante (1) Disparos múltiples (2) Disparo rápido; en combate Ataques extra (1) "	OK	data.js:~5246 (bloque v700 Ogros)	Maneaters bp con ataque extra

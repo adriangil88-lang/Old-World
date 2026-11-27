@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+core_6.tsv	core6-039	Impassable Terrain	Si por terreno impasable no se puede alinear a la unidad que carga, la carga es desordenada	OK	rules.js:3648 (alignFail: carga desordenada si no puede alinearse)	No implementado
+leg_lizardmen.tsv	leg_lizardmen-067	leg_lizardmen.txt:279	Saurus Warriors: lanzas de empuje +1 pt/modelo	OK	data.js:3818 (ts)	
+aj_bretonnia.tsv	aj_bretonnia-035	aj_bretonnia.txt L797-801	Raras hasta 33%: Caballeros de la Busqueda y Bandidos	OK	data.js:4443; BR_EXILES_C br_questing rare; br_brigands rare	
+leg_lizardmen.tsv	leg_lizardmen-063	leg_lizardmen.txt:257-262	Guardians: impacto de disparo a Slann a 3 pasa con 2+ a Temple Guard (opcional)	OK	rules.js:~2628 !g.noGuard; ai.js optionGroups ng; main.js boton Guardianes	Transferencia opcional por el jugador (pref noGuard); IA por valoracion aprendida
+faq_core_1.tsv	FQ1-082	Errata p.327 Travel Mystical Pathway	Objetivo amigo que no huye y no ha movido en esta fase de Movimiento	OK	rules.js:3139 (spellTargets pathway)	La frase continúa en la línea 261 (fuera de tramo); solo se evalúa la condición visible
+leg_lizardmen.tsv	leg_lizardmen-027	leg_lizardmen.txt:122	Saurus Oldblood M4 HA6 HP0 F5 R5 H3 I3 A5 L8 140 pts	OK	data.js:1672-1673	
+core_6.tsv	core6-011	Indirect Fire	Disparar indirecto sin LDV; Impacto! no cae en el blanco sino que desvía (dado de Artillería - HP de la dotación, mín. 0); flecha normal	OK	rules.js:2366-2370	spotted/indD; Ojo del Dragón extra no-Core. La declaración la deduce el motor (con LDV es directo)
+aj_beasts2.tsv	aj_beasts2-057	aj_beasts2.txt:1001-1003	Perfil Kralmaw: M5 HA3 HP3 F4 R5 H4 I3 A2 Ld8, 245 pts	OK	data.js:4201	
+core_5.tsv	C5-122	p.210 Refusing A Challenge	El retador nomina a uno de los que podian aceptar, que se retira (sin ataques, sin beneficios)	OK	rules.js:4846,7164 (chalRetire); main.js panel; ai.js optionGroups cr*	El motor escoge a quien se retira (mayor duelPower); falta preferencia del retador
+leg_daemons.tsv	leg_daemons-090	leg_daemons.txt L373	Heraldo de Nurgle: Dones hasta 50 pts	OK	data.js:1937 ib 50	
+leg_vampires.tsv	leg_vampires-074	leg_vampires.txt:356-357	Strigoi en Terrorgheist	OK	data.js:5426	
+leg_lizardmen.tsv	leg_lizardmen-087	leg_lizardmen.txt:347-352	Skirmish Screen: ver y mover a traves de Skink Skirmishers amigos, apartarlos si acaba encima	OK	rules.js:1857-1860,1949-1955,1984	
+faq_core_4.tsv	FC4-54	p18 izq / Familiar Arcano	No aumenta el nº de hechizos: Nv 3 conoce 3 de dos Lores	OK	rules.js:~950 (arcfam: reparto n1/n2)	El Familiar Arcano no aumenta el número de hechizos
+faq_core_3.tsv	32	FAQ Core p.12 Reglas Universales	Unidad Disciplinada puede reformar antes de ceder terreno (puede evitar salir de la mesa)	OK	rules.js:Drilled reform antes de ceder terreno	Con announce
+leg_darkelves.tsv	leg_darkelves-032	leg_darkelves.txt:139-145	Lores: Batalla, Demonología, Oscura, Elementalismo, Ilusión	OK	data.js:4686 SET	
+dawn_renegade_sc.tsv	renegade_web-096	renegade_web.txt:246-246	Ogros Imperiales: Perros de Guerra 0-1 unidad como mercenarios	OK	data.js:4437, 4455 chk	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-145	leg_chaosdwarfs.txt:397	Renders: great weapons +4 por modelo	OK	data.js:5299 gw cost 4	
+core_7.tsv	core_7-044	core_rulebook.txt 9757-9761	Surprise Encounter, duracion: 6 rondas o hasta concesion/tiempo	OK	rules.js:SCENARIOS.surprise turns:6	6 rondas
+faq_core_2.tsv	F2-088	FAQ Disparo	Unidad parcialmente en colina no dispara en dos filas (debe estar entera)	OK	rules.js: hillRank (corners enteras)	Usa inRect(u,t) del centro de la unidad, no que este entera
+aj_highelves.tsv	aj_highelves-107	aj_highelves.txt:1483-1484	Leñadores: arcos de guerra +1 pt/modelo; armadura pesada +1 pt/modelo	OK	data.js:3614-3615	
+battlemarch_quickref.tsv	battlemarch-067	battlemarch.txt L1439-1451	Tras colocar terreno y antes de desplegar se tira en la tabla: 1-2 dos tesoros, 3-4 tres, 5-6 un punto estratégico	OK	rules.js:702-723 (r<=2 / <=4 / resto)	
+leg_vampires.tsv	leg_vampires-167	leg_vampires.txt:762-767	Tomo Blasfemo: +1 a lanzar para todos los Magos en alcance; doble tirada de percance	OK	rules.js:3440 miscast (Tomo: doble tirada de percance)	
+core_7.tsv	core_7-057	core_rulebook.txt 9911-9914	Heroic Last Stand, Set-up: terreno p.268, colina grande central con monolito/monumento	OK	"rules.js:SCENARIOS.laststand (feat monolith/monumento + colina 14"")"	Colina central con monolito o monumento (featPick)
+core_5.tsv	C5-160	p.220 No Armour	Sin armadura = 7+ para modificadores; escudo da 6+	OK	data.js:46-48	ARM none 7
+aj_highelves.tsv	aj_highelves-049	aj_highelves.txt:1077-1079	Korhil disponible en cualquier lista con Leones Blancos; debe usarse tal cual	OK	data.js:1502, 2441, 3410	
+faq_libros.tsv	RQ18	RH FAQ WoC AJ	Warrior's Duel sin estandartes mágicos de la unidad	OK	rules.js clashDuel	Sin estandarte ni unidad
+battlemarch_quickref.tsv	battlemarch-086	battlemarch.txt L1609-1626	PV: destruir, hacer huir o reducir unidades enemigas (p.286 del Core)	OK	rules.js:5936-5946 scoreVP	
+leg_vampires.tsv	leg_vampires-161	leg_vampires.txt:722-729	Estanque Adivinatorio: hechizo ligado nivel 2, CV 9+, repite 1s para impactar hasta el siguiente turno	OK	data.js:4932,4968; rules.js:3596	
+dawn_renegade_sc.tsv	sc_tower-016	sc_tower.txt:59-63	Victoria: gana quien tenga más PV (los PV en juego varían por el tamaño del ejército)	OK	rules.js:562 smallVP; rules.js:5940-5960	
+aj_chaos2.tsv	aj_chaos2-066	aj_chaos2.txt L964-971	Corceles de la Oscuridad: caballería/carro repiten 1 naturales en carga, huida y persecución	OK	rules.js:145 stDark -> finestHorses	Según tipo de tropa
+leg_vampires.tsv	leg_vampires-176	leg_vampires.txt:808-816	"Tintinabulación: +1 Herida con 4+ en Nehek a 15""; Inestable -1; acumulativa con Indomable"	OK	rules.js:6367,5080	
+battlemarch_quickref.tsv	quickref-050	quickref.txt L197-201	Quitar bajas: cada herida no salvada quita una Herida; a 0 es baja	OK	rules.js applyWounds (c3-143)	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-255	leg_chaosdwarfs.txt:775-785	Breath of Hashut 25: un uso, aliento F4 FP-2 Flaming Magical	OK	data.js:2914	
+battlemarch_quickref.tsv	quickref-013	quickref.txt L21-24 (tabla)	Disfunción 7 Conjuración Descuidada: el Mago sufre un impacto de F4 FP-1	OK	rules.js:3356-3359 miscast1 (r===7)	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-143	leg_chaosdwarfs.txt:388	Ba'hal: A3 +6 pts	OK	data.js CMD cd_render [6,6,6]	Coste ok; perfil campeon generico
+aj_highelves.tsv	aj_highelves-075	aj_highelves.txt:1265-1271	Comandante de Guarnición perfil M5 HA6 HP7 F4 R3 H2 I5 A3 L9, 90 pts; infantería regular; arma de mano, arco de guerra, 	OK	data.js:1519-1521	
+faq_libros.tsv	RQ15	RH FAQ WoC	Infernal Puppet funciona contra hechizo ligado	OK	rules.js:3711	
+leg_darkelves.tsv	leg_darkelves-223	leg_darkelves.txt:1024-1026	Ojo Guía 25: un uso, repetir impactos fallados en Disparo (portador y unidad)	OK	data.js:2974; rules.js:2479	
+aj_empire2.tsv	aj_empire2-022	aj_empire2.txt:740-742	Nuln AoI: pueden comprarse objetos mágicos Comunes o del Imperio	OK	data.js:2827-2844 (ITEMS fac empire)	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-037	leg_chaosdwarfs.txt:119	Daemonsmith nivel 2 por +30	OK	data.js:4138 WIZUP(..., 1, 30)	
+dawn_renegade_sc.tsv	sc_shores-002	sc_shores.txt:8-14	Listas 2.000 pts: atacante Caos (Gran Ejército o Lobos del Mar), defensor Altos Elfos (Gran Ejército o Guarnición)	OK	data.js:5964 SCN_REQ; rules.js:335 scnPost	El escenario no impone listas ni puntos; las listas existen
+aj_empire2.tsv	aj_empire2-080	aj_empire2.txt:1268-1274	Ogros Imperiales: perfil M6 HA3 HP3 F4 R4 H3 I2 A3 L7, 31 pts, infantería monstruosa 40x40	OK	data.js imp_ogres BS3 ppm31	
+leg_daemons.tsv	leg_daemons-137	leg_daemons.txt L605	Engendro de Slaanesh: M8 HA4 HP0 F4 R4 H3 I6 A3 Ld7, 66 pts	OK	data.js:2014	
+aj_bretonnia.tsv	aj_bretonnia-162	aj_bretonnia.txt L1661-1664	Estandarte de la Gracia de la Dama 75: ignora modificadores negativos a L	OK	data.js:2858; rules.js:1430	
+aj_chaos2.tsv	aj_chaos2-129	aj_chaos2.txt L1367	Huscarls: estandarte mágico hasta 50 pts	OK	data.js:3179 bannerBudget	
+leg_daemons.tsv	leg_daemons-136	leg_daemons.txt L599-601	Buscadores: Perforante 1 (corcel), Contracarga, Caballeria rapida, Orden abierto, Veneno (corcel), Escaramuza, Zancada	OK	data.js:5646 (bloque v620) slots STEED	Perforante/Veneno a toda la unidad
+dawn_renegade_sc.tsv	renegade_web-092	renegade_web.txt:235-235	Enanos Imperiales: Perros de Guerra 0-1 unidad como mercenaria	OK	data.js:4456 chk	
+core_7.tsv	core_7-058	core_rulebook.txt 9915-9925	"Despliegue: ganador de la 2a batalla es el defensor; despliega todo su ejercito en un cuadrado de 18""; el atacante en cualquier punto a mas de 8"" de modelos defensores"	OK	rules.js:SCENARIOS.laststand zf + inZone z.gap=8; ALT_RULE laststand whole/def	"Defensor despliega todo en cuadrado 18""; atacante a mas de 8"" de modelos defensores"
+faq_libros.tsv	Q30	FoF FAQ Wood Elves	Hawk-eyed Archer solo con arco asrai, no con hechizos ligados	OK	rules.js:2027, 2501	
+core_8.tsv	core_8-092	Objetos encantados p.340 l.11116	Pocion de Dureza* 20: +D3 R hasta fin de turno (max 10)	OK	data.js:3153; rules.js:1637	

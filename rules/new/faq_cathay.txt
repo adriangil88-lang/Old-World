@@ -1,0 +1,89 @@
+                   Armies Of Grand Cathay
+                  FAQ & Errata – Version 1.5.1
+This document collects amendments to the rules contained within Arcane Journal: Armies of Grand Cathay and Arcane Journal:
+Dawn of the Storm Dragon, and presents our responses to players’ frequently asked questions. As this document is revised regularly,
+it has a version number; where a version number has a letter, e.g. 1.1a, this means it has had a local amendment, only in one
+language, to clarify a translation issue. When this document is revised in full, the version number will be incremented.
+
+Armies of Grand Cathay Errata
+Below you will find errata to Arcane Journal: Armies of Grand Cathay and Arcane Journal: Dawn of the Storm Dragon. When this
+document is revised, updated entries will be highlighted in [blue], while entirely new additions will be highlighted in [magenta].
+
+Designers’ Note: Errata marked with an asterisk (*) have been corrected in a later printing of the publication and may not apply.
+
+Arcane Journal Armies Of Grand Cathay Errata
+Page 30                                                                 Page 43
+Cathayan Warhorse: Delete ‘First Charge’ from the list of               Standard of Wei-Jin: Change the Points to ‘60’.
+special rules.
+                                                                        Icon of Heavenly Fury: Change the Points to ‘45’, then change
+Page 34                                                                 the second and third sentences of the rule as follows:
+Sky Lantern: Change the Toughness characteristic to ‘4’.                ‘During the Command sub-phase of their turn, if they are not
+                                                                        engaged in combat, the bearer of this banner may attempt to
+Commander: Delete ‘champion’ from the                                   unleash its power by making a Leadership test (using their own
+Commander’s profile.                                                    unmodified Leadership). If this test is passed, until your next
+                                                                        Start of Turn sub-phase enemy units cannot use the Fly (X)
+Special Rules: Delete ‘Unbreakable’, then add ‘Flammable’ to            special rule.’
+the list of special rules.
+                                                                        Dragon’s Eye Banner: Change the second sentence as follows:
+Disengage: Change the rule as follows:                                  ‘On a 4+, the Wizard’s controlling player must choose
+‘Should this model lose a round of combat and Give Ground, it           another target.’
+may choose to Fall Back in Good Order instead. Enemy units
+can follow up as if this model had given ground, moving 2"              Page 44
+directly towards it, but cannot pursue it. In addition, should          Maw Shard: Change the Points to ‘50’.
+it win a round of combat and choose to restrain and reform,
+this model may choose to Fall Back in Good Order rather than            Alchemist’s Mask: Change the rule as follows:
+remaining where it is.’                                                 ‘The wearer of the Alchemist’s Mask can cast the Plague of
+                                                                        Rust spell from the Lore of Elementalism (see page 327 of the
+Page 35                                                                 Warhammer: the Old World rulebook) as a Bound spell, with a
+Sky Lantern Bombs: Change the first sentence of the rule                Power Level of 1.’
+as follows:
+‘Once per game, if this model is equipped with Sky Lantern              Page 47
+bombs, it may perform a ‘Bombing Run’ attack against a single           Lore of Yin: Change the first sentence of the second
+enemy unit that is not engaged in combat.’                              paragraph as follows:
+                                                                        ‘A Wizard with the ‘Lore of Yin’ special rule may discard one
+Page 41                                                                 of their randomly generated spells as normal.’
+Ogre Loader: Delete (Character) from the Troop Type.
+                                                                        Page 48
+Mercenary Crew: Change the first two sentences of the rule              Cathayan Lance: Change the weapon’s Notes as follows:
+as follows:                                                             ‘Notes: Models whose troop type is ‘cavalry’, ‘monster’ or ‘chariot’
+‘An Ogre Loader is an additional crew member that can be                only. A Cathayan lance’s Strength and Armour Piercing modifiers
+taken as an upgrade to accompany a Cathayan war machine.                apply only against enemy models the wielder charged that turn.’
+During deployment, position an Ogre Loader with its war
+machine, as you would any other crew member.’                           Dragon Fire Bombs: Change the Strength characteristic to ‘3’.
+
+
+                                                                    1
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2025.
+Arcane Journal Dawn Of The Storm Dragon Errata
+Page 48
+Ring of Jet: Delete the asterisk (*), then change the rule
+as follows:
+‘The wielder of the Ring of Jet can cast the Unquiet Spirits
+spell from the Lore of Necromancy (see page 333 of the
+Warhammer: the Old World rulebook) as a Bound Spell, with a
+Power Level of 1.’
+
+Seal of Xing Po: Change the Points to ‘35’.
+
+
+Armies Of Grand Cathay Frequently Asked Questions
+Below you will find our answers to frequently asked questions. Where possible, answers are given immediately, followed by
+further explanations. When this document is revised, updated entries will be highlighted in [blue], while entirely new additions
+will be highlighted in [magenta].
+
+Arcane Journal Armies Of Grand Cathay                                  Q: Are the effects of the Grand Cannon’s Thunderous Impact
+Q: Heavenly Beacon allows you to modify the roll by +1                 special rule cumulative? In other words, if a unit is within
+or -1 when rolling to determine if Ambushers arrive. Is                range of two strike points, does it suffer a -2 modifier to its
+this cumulative? In other words, is it +2 or -2 if I have two          Movement characteristic?
+Sky Lanterns?                                                          A: No, it’s not cumulative.
+A: No, it’s not cumulative. You may apply a +1 or -1 modifier if
+you have one or more Sky Lanterns.                                     Q: Mastery of the Elemental Winds can only be used once per
+                                                                       turn, but is this once per Wizard or once per army?
+                                                                       A: Once per army.
+
+
+
+
+                                                                   2
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2025.
+

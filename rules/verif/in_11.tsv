@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+core_5.tsv	C5-055	p.197 FAQ 1.5.2 War Machines	Pivotar libremente sobre su centro justo antes de disparar sin contar como movida	OK	rules.js:2170	shootCheck/resolveShot: pivote libre antes de disparar sin contar como mover
+leg_daemons.tsv	leg_daemons-259	leg_daemons.txt L1076-1083	Banner of Unholy Victory 60: +D3 resolucion	OK	data.js:2921; rules.js:5025	
+dawn_renegade_sc.tsv	renegade_web-067	renegade_web.txt:170-173	Mortero de los Príncipes Fronterizos: 90 pts, R7 H3; dotación M4 HA3 HP3 F3 R3 H3 I3 A3 Ld7; 50x75; mano	OK	data.js:5622 rc_mortar	El arma es la del Mortero imperial; la fuente no da su perfil
+aj_bretonnia.tsv	aj_bretonnia-024	aj_bretonnia.txt L800	0-1 Baron por cada 1.000 puntos	OK	data.js:4470	Cuenta br_baron* y Cecil
+aj_chaos2.tsv	aj_chaos2-076	aj_chaos2.txt L1057-1063	Comandante y Capitán: +1 Ld (máx. 10) a Bárbaros/Jinetes/Huscarls/Berserkers en alcance si no huye	OK	rules.js:1407	
+cathay.tsv	cathay_aj-070	cathay_aj.txt 1990-1995	Baliza celestial: +1/-1 a la llegada de Emboscadores amigos en reserva (no acumulable)	OK	rules.js llegada de emboscadores (~6005): announce Baliza celestial +1 / -1 enemiga	+1 propio y -1 al enemigo se aplican cuando cambian el resultado (elección racional, no acumulable) y se anuncian con popup.
+aj_dwarfs2.tsv	aj_dwarfs2-154	aj_dwarfs2.txt L1387-1388	Whirling Doom: Avería = sin disparos y fallo crítico en la tabla	OK	rules.js:2446, 2076	
+aj_empire2.tsv	aj_empire2-013	aj_empire2.txt:725-726	Nuln AoI: 0-1 Altar de Sigmar como montura de Lector de Sigmar	OK	data.js:3422 (emp_lector_altar)	
+faq_core_4.tsv	FC4-57	p18 dcha / Objetivos	Una unidad solo controla un objeto; si puede controlar varios elige uno	OK	rules.js:ctlObjects/objPick; main.js objpick; ai.js ob+id	Elección del jugador y de la IA
+aj_tk2.tsv	aj_tk2-075	aj_tk2.txt L1197	Cohortes Infantería: Maestro de Armas: I3 A2 L5, +5 pts	OK	data.js:4148 CMD copia [5,5,5]	
+leg_skaven.tsv	leg_skaven-056	leg_skaven.txt:217-219	Hidden: no se coloca; oculto en unidad skaven de infantería con FU 10+	OK	rules.js:createGame Oculto (sk)	Anfitrión skaven infantería regular FU10+; elige el motor el mayor
+aj_highelves.tsv	aj_highelves-084	aj_highelves.txt:1324-1329	Tejedor: Mago nivel 1 con Magia Oscura, Elementalismo o Ilusión	OK	data.js:1527 (lores)	
+leg_lizardmen.tsv	leg_lizardmen-052	leg_lizardmen.txt:189	Oldblood/Scar-Veteran en Carnosaur (pag. 12) +170	OK	data.js:3588-3589 (310=140+170; 260=90+170)	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-146	leg_chaosdwarfs.txt:398	Renders: shields +3 por modelo	OK	data.js:5300 sh cost 3	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-137	leg_chaosdwarfs.txt:371	Wolf Riders: shortbows +1	OK	data.js:5296 sb cost 1	
+leg_skaven.tsv	leg_skaven-019	leg_skaven.txt:97	Señor de la Guerra: perfil 5/6/4/4/4/3/7/4/7, 90 pts	OK	data.js:1745	
+leg_lizardmen.tsv	leg_lizardmen-172	leg_lizardmen.txt:836-849	Arcane Vassal: canalizar hechizo del Slann a 12 a traves de este modelo (no Self)	OK	data.js:111; rules.js:3266	
+leg_darkelves.tsv	leg_darkelves-196	leg_darkelves.txt:845-846	Aliento ardiente F=Heridas restantes, FP -1, Arma de aliento, Ataques flamígeros	OK	data.js:1660 ranged sW	
+aj_empire2.tsv	aj_empire2-098	aj_empire2.txt:1351-1352	Guardacaminos: 0-1 unidad Especial por 1.000 pts en Gran Ejército	OK	data.js:4636	
+aj_chaos2.tsv	aj_chaos2-132	aj_chaos2.txt L1371-1372	Huscarls: Formación cerrada, Contracarga, Carga furiosa, Marca Indivisa, Zancada, Banda de guerra	OK	data.js:3550 sr	
+leg_ogres.tsv	leg_ogres-093	leg_ogres.txt:358	Reglas: Cerrado, Miedo, Impactos (1), Carga de ogro	OK	data.js:2082	
+leg_skaven.tsv	leg_skaven-128	leg_skaven.txt:493	Rat Ogre: perfil 6/4/1/5/4/3/4/3/5, 48 pts	OK	data.js:1796	
+dawn_renegade_sc.tsv	renegade_web-104	renegade_web.txt:258-258	Arcanista sin formación: en una Disfunción tira un D6 extra y se queda con el resultado más bajo	OK	rules.js:3340	
+core_2.tsv	C2-102	Magic: Casting Spells	Traslado en Movimientos restantes de la fase de Movimiento	OK	rules.js castCheck phase move; main.js	Traslado en Movimientos restantes
+aj_bretonnia.tsv	aj_bretonnia-046	aj_bretonnia.txt L881-885	Un personaje con Bendiciones que mata a un personaje enemigo en desafio da Bendiciones a el y su unidad	OK	rules.js duelo ~4946 (gainBless al matar personaje en desafio: él y su unidad)	No hay asignacion de blessEarned en la resolucion de desafios
+leg_skaven.tsv	leg_skaven-107	leg_skaven.txt:404-408	Jezzails: peana 25x50, unidad 3+, Open Order, Scurry, Warband	OK	data.js:sk_jezzail max 100	
+dawn_renegade_sc.tsv	renegade_web-026	renegade_web.txt:57-60	Origen Duelista Errante (20 pts): +2 HA; Finta y esquiva; mano adicional +3; sin armas que golpean último	OK	data.js armyIssues renegade (wd + gw/objeto que golpea último)	Validación: el Duelista Errante no puede llevar armas que golpean último
+dawn_renegade_sc.tsv	renegade_web-059	renegade_web.txt:144-144	Milicia: armas variadas (dos armas de mano y arrojadizas); Líder +7	OK	"data.js:491-493 melee extra, ranged 9""; champ 7"	
+core_8.tsv	core_8-053	Objetos magicos p.336 l.10867	Objeto de un solo uso: una vez por partida	OK	rules.js:itemUsed/used.*	
+faq_core_1.tsv	FQ1-012	Errata p.141 Ward Saves	Salvación especial con valor de Protección; las reglas que afectan a la armadura no afectan al valor de Protección	OK	rules.js:1660-1722 (woundAndSave0: ward independiente de svD y FP)	
+aj_dwarfs2.tsv	aj_dwarfs2-057	aj_dwarfs2.txt L759-763	Expedicionaria Rare (hasta 33%): Gyrobombers, 0-1 unidad de Slayers	OK	data.js:3433-3436	
+aj_bretonnia.tsv	aj_bretonnia-127	aj_bretonnia.txt L1478-1479	Un modelo con arma de asta no hace ataques de apoyo el turno que carga	OK	rules.js:4090 (!u.chargeOK)	
+cathay.tsv	cathay_notes-015	cathay_notes.md perfil Miao Ying Humana	M4 HA7 HP5 F4 R4 H7 I7 A4 Ld10, 485 pts	OK	data.js:2223	
+aj_wood2.tsv	aj_wood2-053	aj_wood2.txt:945-952	Awakened Wood: Dríadas y Parientes Emboscadores +1 pt por modelo	OK	data.js:3392	
+core_8.tsv	core_8-090	Objetos encantados p.340 l.11136	Pocion de Curacion* 35: un solo uso, en la subfase de Mando recupera D3 Heridas	OK	data.js:3156; rules.js:5434,5438	
+core_6.tsv	core6-063	Monument of Glory / Victory Points	+50 PV al controlar al final	OK	rules.js:6361	+50 PV al controlar al final (rasgo Core)
+dawn_renegade_sc.tsv	renegade_web-037	renegade_web.txt:79-79	Capitán: Grito de reagrupamiento, Veterano y Banda de guerra	OK	data.js:5566 sr rally, veteran, warband	
+faq_libros.tsv	C17	Cathay p.44 Alchemist's Mask	Hechizo ligado Plaga de Óxido, Nivel de Poder 1	OK	data.js:2505, rules.js:3687-3693	
+leg_lizardmen.tsv	leg_lizardmen-035	leg_lizardmen.txt:148	Skink Chief M6 HA4 HP5 F4 R3 H2 I6 A3 L6 45 pts	OK	data.js:1684-1685	
+aj_orcs2.tsv	aj_orcs2-113	aj_orcs2.txt:1506-1513	"Idol of Gork: 40 pts; +3"" alcance; una vez por turno repite tirada de lanzar"	OK	data.js:3079, rules.js:3247, 3887	
+leg_skaven.tsv	leg_skaven-098	leg_skaven.txt:338-340	"Despliegue: con su unidad matriz y a 3"""	OK	rules.js:831	
+aj_wood2.tsv	aj_wood2-117	aj_wood2.txt:1369-1377	Alter: unidad unida no puede usar el Liderazgo del personaje	OK	rules.js:1383 noLd	
+faq_libros.tsv	R30	RH AJ Beastmen p.47 Banner of the Warped Moon	Un solo uso	OK	data.js:2812 (single:true)	
+aj_bretonnia.tsv	aj_bretonnia-110	aj_bretonnia.txt L1399	Objetos magicos hasta 75 puntos	OK	data.js:899 ib:75	
+leg_skaven.tsv	leg_skaven-147	leg_skaven.txt:570-571	Gutter Runners: hondas +2 o arrojadizas +1	OK	data.js:3810-3811	
+aj_highelves.tsv	aj_highelves-103	aj_highelves.txt:1438-1439	Guardia del León reglas: Campeones de Chrace, Orden cerrado, Reflejos élficos, Carga furiosa, Capa de león, Tozudo, Vete	OK	data.js:1506	
+core_5.tsv	C5-008	p.192 Light/Heavy/Monstrous Cavalry, War Beasts	Tablas: 5/+1/2, 4/+1/2, 3/+1/3, 5/+1/1	OK	data.js:33-37	
+aj_beasts2.tsv	aj_beasts2-101	aj_beasts2.txt:1289-1291	Minimo 10 Gors y 10 Ungors; Gors siempre en filas delanteras y empujan a los Ungors	OK	data.js:3583 mixRear	
+core_7.tsv	core_7-006	core_rulebook.txt 9239-9240	Despliegue por el metodo de unidades alternas (p.285)	OK	rules.js:1037-1072 (s.alt)	Metodo general de alternar unidades
+battlemarch_quickref.tsv	battlemarch-016	battlemarch.txt L835-846	Clash of Steel: se lucha todos los asaltos necesarios; el vencedor vuelve a su unidad y su dueño juega primero	OK	rules.js:390 clashDuel (bucle hasta caída)	

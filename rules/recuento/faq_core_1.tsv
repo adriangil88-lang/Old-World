@@ -1,0 +1,84 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+FQ1-001	Errata p.101 Combat Result Bonus	Orden de combate, formación cerrada con Fuerza de Unidad 10+: +1 punto de resultado de combate	OK	rules.js:4729 (sideScore)	Condición: closeOrder, no escaramuza, cat inf/cav, files>=ranks, usOf>=10
+FQ1-002	Errata p.107 Magical Vortex	Un vórtice que termina su movimiento sobre una unidad se mueve la mínima distancia posible para no tocar peanas	OK	rules.js: movimiento de vórtices (vortexClear)	vortexClear recoloca la plantilla la distancia mínima
+FQ1-003	Errata p.108 Casting Spells	Un Mago intenta lanzar tantos hechizos por turno como su Nivel de Hechicería	OK	rules.js: castCheck (tope Nivel general)	Tope genérico: hechizos no ligados lanzados >= Nivel
+FQ1-004	Errata p.108 Casting Spells	Cada hechizo solo puede intentarse una vez por turno	OK	rules.js:3169 (castCheck: Ya lanzado este turno)	
+FQ1-005	Errata p.108 Casting Roll/Result	Resultado de lanzamiento = tirada + Nivel/2 redondeando arriba	OK	rules.js:3712, 3756, 3761, 3766	Math.ceil(level/2)
+FQ1-006	Errata p.109 8-9 Barely Controlled Power	El Mago no puede intentar más hechizos el resto del turno	OK	rules.js:3243 (miscast1: u.noMore=true), rules.js:3172	
+FQ1-007	Errata p.110 Wizardly Dispel	Magos que huyen o no están en el campo no pueden ser nominados	OK	rules.js:3254-3257 (tryDispel: pool con !h.fleeing)	Reservas no están en s.units
+FQ1-008	Errata p.110 Wizardly Dispel	Un Mago trabado solo puede ser nominado para dispersar hechizos que le apunten a él o a su unidad	OK	rules.js: tryDispel (DTGT)	Mago trabado puede dispersar hechizos que le apuntan a él o su unidad
+FQ1-009	Errata p.110 Dispel Roll & Result	Resultado de dispersión = tirada + Nivel/2 redondeando arriba	OK	rules.js:3254 (dMod), rules.js:3330	
+FQ1-010	Errata p.111 Dispelling Remains in Play	Intento de dispersar un hechizo que sigue en juego mediante dispersión del destino o de Mago	OK	rules.js:3339-3349 (dispelRip) + tryDispel rules.js:3331-3337	Se resuelve automáticamente en la subfase de Conjuración, sin decisión del jugador
+FQ1-011	Errata p.111 Dispelling Remains in Play	El Mago debe estar dentro del alcance de dispersión del lanzador o, en un vórtice, de la plantilla	OK	rules.js: dispelRipOne + DFROM en tryDispel	Alcance medido desde la plantilla para vórtices
+FQ1-012	Errata p.141 Ward Saves	Salvación especial con valor de Protección; las reglas que afectan a la armadura no afectan al valor de Protección	OK	rules.js:1660-1722 (woundAndSave0: ward independiente de svD y FP)	
+FQ1-013	Errata p.145 The Fighting Rank	Fila o columna con modelos en contacto es fila de combate; combaten los modelos de ella a distancia del Movimiento del enemigo	OK	rules.js: attackProfile0 (reach M del enemigo)	"Solo combaten los modelos de la fila a <= M"" de la unidad enemiga"
+FQ1-014	Errata p.145 Supporting Attacks	"Ataque de apoyo desde la fila/columna detrás de la fila de combate y a distancia M"" del enemigo"	OK	rules.js: attackProfile0 (reach M, supN)	VERIF v771: rules.js:5079 sin ataques de apoyo contra flanco/retaguardia (sideOfS(e,u)==="front", Errata p.145); alcance M (terrestre) del enemigo desde la fila de detrás
+FQ1-015	Errata p.145 Supporting Attacks	No pueden hacerse contra el flanco o retaguardia de una unidad ni desde un modelo que ya está en fila de combate	OK	rules.js: attackProfile0 (ataques de apoyo, sideOf(e,u))	Sin apoyo contra flanco/retaguardia enemigos (Presión del combate no afectada)
+FQ1-016	Errata p.146 Charging Units	Modificador de Iniciativa por cargar con máximo 10	OK	rules.js:3895-3898 (effI)	min(10, i+bonus)
+FQ1-017	Errata p.161 Heavy Casualties	En una fase distinta de Combate, perder más del 25 % de los modelos del inicio de la fase obliga a Pánico	OK	rules.js:2709-2716 (panicFromLosses), phaseStart rules.js:5451	Disparo y magia usan phaseStart; otras vías usan el recuento previo a cada golpe
+FQ1-018	Errata p.167 Chariot Runners	Carros pueden ver por encima/a través de modelos con la regla	OK	rules.js:1971 (rayBlockedByUnits)	
+FQ1-019	Errata p.167 Chariot Runners	Carros pueden mover a través de unidades amigas en escaramuza con la regla	OK	rules.js:1848, 1935, 1941 (skinkScr)	
+FQ1-020	Errata p.168 Evasive	Una vez por turno, objetivo de disparo enemigo: el jugador puede retirarse en buen orden directamente lejos del tirador	OK	rules.js: pref noEvade (shootAt)	Preferencia del jugador; IA en optionGroups (ai.js)
+FQ1-021	Errata p.169 Fire & Flee	La unidad con mayoría con la regla puede declarar Disparar y huir como reacción de carga	OK	rules.js:2958-2968, 2740	Control por react del jugador
+FQ1-022	Errata p.170 Fly (X)	Excepto al seguir o perseguir, puede mover volando con su Movimiento de Vuelo; si no, mueve por el suelo	OK	rules.js:1470 (mvOf usa un único M), data.js:411-462	v797: gM (Movimiento terrestre) definido para todos los voladores que tienen M terrestre en su perfil; los 21 restantes (carros voladores, Mortis Engine, Linternas, Skycutter, Coven Throne) tienen M "-" y solo vuelan, sin movimiento terrestre
+FQ1-023	Errata p.170 Frenzy	+1 Ataque el turno de carga o el siguiente a un movimiento de seguimiento; no afecta a montura/bestias/jinete	OK	rules.js:3934, 4074	
+FQ1-024	Errata p.172 Impact Hits	Se resuelven contra la unidad cargada cuando se elige el combate en el paso 1.1 de Elegir y Combatir, antes de los desafíos	OK	rules.js: impactPend -> chargeImpacts (paso 1.1)	Se resuelven al elegir el combate
+FQ1-025	Errata p.172 Impact Hits	Impactan automáticamente y usan la Fuerza sin modificar del modelo	OK	rules.js:3095-3102	Fuerza fija del perfil impact
+FQ1-026	Errata p.172 Impetuous	En Declarar cargas, si puede cargar hace chequeo de Liderazgo; si falla debe declarar carga, si pasa actúa normal	OK	rules.js:5509-5517	VERIF v764: rules.js impetuousTests (beginMove): chequeo de Ld en Declarar cargas; si falla DEBE declarar carga (elige el jugador; si no, la más cercana al terminar las cargas); Reprimir Impetuosidad repite
+FQ1-027	Errata p.172 Large Target	No se benefician de cobertura parcial ni completa	OK	rules.js:2403, 2121 (coverMod)	
+FQ1-028	Errata p.172 Large Target	Se puede trazar visión por encima/a través de otra unidad (y viceversa) siempre que esa unidad no sea también Objetivo Grande	OK	rules.js: losClear/rayBlockedByUnits onlyLarge	Con objetivo o tirador grande se ve siempre; una unidad intermedia que también es Objetivo Grande no bloquea (debería)
+FQ1-029	Errata p.172 Large Target	La unidad que dispara a un Objetivo Grande dispara con una fila adicional	OK	rules.js: extraRk (hillRank + large)	Sin fila extra por Objetivo Grande
+FQ1-030	Errata p.173 Monster Handlers	Con 1-4 el monstruo pierde la Herida; con 5+ se retira un cuidador	OK	rules.js:1483-1488 (applyWounds)	
+FQ1-031	Errata p.175 Poisoned Attacks	6 natural al impactar da +2 a la tirada para herir	OK	rules.js:1638 (wmod), 4526, 4242, 2494	
+FQ1-032	Errata p.176 Random Movement	Al mover, se tiran dados para determinar el movimiento máximo	OK	rules.js:5490-5505, 3015 (randRoll)	
+FQ1-033	Errata p.176 Regeneration	Tirada de Regeneración justo tras perder una Herida; la Herida recuperada cuenta para el resultado de combate; reglas de armadura no afectan al valor	OK	rules.js:1685-1731 (woundAndSave0), 4701-4703 (regen cuenta en wounds)	
+FQ1-034	Errata p.176 Swiftstride	"Unidad solo con modelos con la regla: +3"" al alcance máximo de carga"	OK	rules.js:3022, 2825, 2979	
+FQ1-035	Errata p.176 Swiftstride	Antes de tirar Carga/Huida/Persecución puede elegir aplicar +D6	OK	rules.js: u.noSwift (pref)	Preferencia del jugador; IA en ai.js
+FQ1-036	Errata p.177 Reserve Move	Salvo que haya cargado, marchado o huido, movimiento de reserva al final de la fase de Disparo	OK	rules.js:1846, 1867	
+FQ1-037	Errata p.177 Stomp Attacks	Se hacen al final, tras todos los ataques incluso Iniciativa 1; impactan automáticamente con Fuerza sin modificar	OK	rules.js:4572-4580, 4698-4709	
+FQ1-038	Errata p.178 Stupidity	Salvo huyendo o trabada, chequeo de Liderazgo en Inicio de turno; si falla, estupidez hasta su siguiente Inicio de turno	OK	rules.js:5443-5449, 5166	
+FQ1-039	Errata p.178 Stupidity	La unidad estúpida no puede mover (salvo huir)	OK	rules.js: previewMove (u.stupid)	El motor la hace avanzar sola hacia delante (regla antigua), contradice «no puede mover»
+FQ1-040	Errata p.178 Stupidity	No puede disparar ni lanzar hechizos	OK	rules.js: shootCheck/castCheck u.stupid	
+FQ1-041	Errata p.178 Stupidity	No puede intentar dispersión de Mago	OK	rules.js: tryDispel !h.stupid	
+FQ1-042	Errata p.178 Stupidity	Debe Mantener la posición si es cargada	OK	rules.js: reacción de carga t.stupid -> hold	
+FQ1-043	Errata p.180 Unstable	Las Heridas por Inestable no pueden recuperarse con Regeneración	OK	rules.js:4913 (applyWounds directo, sin woundAndSave)	
+FQ1-044	Errata p.180 Vanguard	Una unidad que hace Movimiento de Vanguardia no puede declarar carga en su primer turno	OK	rules.js:2144, 2822	
+FQ1-045	Errata p.180 Warband	El Liderazgo con bonus de filas no se usa en Chequeo de Contención	OK	rules.js:4105, 1369	
+FQ1-046	Errata p.180 Warband	No se usa el bonus de Liderazgo para comprobar si Impetuosa debe declarar carga	OK	rules.js:5513 (ldOf noWb)	
+FQ1-047	Errata p.183 Quick Turn	Salvo que haya marchado, en Orden abierto pivota hasta 90° tras mover en Movimientos restantes	OK	rules.js:1897 (free)	Se excluye también escaramuza; no hay subfase distinta
+FQ1-048	Errata p.185 Skirmishers in Combat	Mantienen formación cerrada hasta acabar el combate y luego se separan lo mínimo	OK	rules.js:2886-2896, 5020 (reSpreadSk)	
+FQ1-049	Errata p.186 Skirmishers & Charging	Pueden cargar a enemigo visible para más del 50 % de sus modelos al declarar cargas	OK	rules.js: skirmSeesHalf + chargeTargets	Visión por modelo >50%
+FQ1-050	Errata p.186 Skirmishers & Charging	Si algún escaramuzador no puede formar, la unidad pierde la cohesión (p.184)	OK	rules.js skirmUnformed + doChargeG (placeCharge)	v738: tras la carga, el emparejamiento máximo modelo→hueco con la distancia de carga decide cuántos escaramuzadores no pueden formar; esos se retiran como bajas con aviso
+FQ1-051	Errata p.190 Regular Infantry Press of Battle	Salvo el turno de carga, en orden de combate la fila de combate tiene dos filas de profundidad	OK	rules.js:3949-3950	
+FQ1-052	Errata p.190 Regular/Heavy Infantry Massed Infantry	Mayor Fuerza de Unidad e incluye infantería con la regla: +1 punto de resultado de combate	OK	rules.js:4731-4732	
+FQ1-053	Errata p.190 Regular/Heavy Infantry Parry	Con arma de mano y escudo, armadura +1 con máximo 3+	OK	rules.js:1645 (svD)	
+FQ1-054	Errata p.190 Heavy Infantry	Press of Battle, Massed Infantry y Parry también para infantería pesada	OK	rules.js:3950, 4732, 1645	Listas regInf/heavyInf
+FQ1-055	Errata p.197 Weapon of War	La máquina de guerra puede pivotar sobre su centro inmediatamente antes de disparar	OK	rules.js: shoot (pivot de máquina)	Cualquier giro cuenta como mover
+FQ1-056	Errata p.197 Weapon of War	La máquina de guerra puede hacer movimiento de seguimiento como normal	OK	rules.js: seguimiento de máquinas	
+FQ1-057	Errata p.209 Enemy Shooting	Personaje unido a unidad del mismo tipo de tropa no puede ser objetivo salvo condiciones	OK	rules.js: reparto de impactos (mismo tt)	VERIF v770: rules.js:3286-3287 ¡Cuidado, señor! exige 5+ modelos de tropa del mismo tipo de tropa que el personaje (compara tt); si no, el impacto lo recibe el personaje
+FQ1-058	Errata p.209 Enemy Shooting	Con menos de cinco modelos de tropa del mismo tipo, primero un impacto a cada modelo de la unidad	OK	rules.js: reparto de impactos (mismo tt)	Cuenta rf<5 sin comprobar el mismo tipo de tropa
+FQ1-059	Errata p.209 Look Out Sir	Si hay cinco o más modelos de tropa del mismo tipo, el personaje puede tirar ¡Cuidado, señor!	OK	rules.js: ¡Cuidado, señor! (tt del personaje)	Plantillas/impactos de personajes; sin LoS si el tipo de tropa no coincide
+FQ1-060	Errata p.211 Challenges & Mounts	Si un participante muere antes de que su rival o su montura ataque, esos ataques se pierden	OK	rules.js:4223-4246 (duelSwing), 4126	v761: en desafíos la montura ataca con su propia F, FP, HA e Iniciativa (si el libro la da) tras el paso del jinete; ataques perdidos si un participante muere antes
+FQ1-061	Errata p.212&214 Flail	F+2, FP -2, Perforante (1), a dos manos; F y Perforante solo contra modelos cargados	OK	rules.js:4004-4006, data.js:496, 4041	
+FQ1-062	Errata p.213 More Than One Combat Weapon	Se elige el arma al elegir el combate (paso 1.1) de cada subfase de Elegir y Combatir	OK	rules.js: fightGroup (arma cada ronda), main.js: sin bloqueo	mwpref permitido también en fase de combate
+FQ1-063	Errata p.214 Halberd	F+1, FP -1 (-2 contra modelos cargados), Perforante (1), a dos manos	OK	rules.js: attackProfile (alabarda con chgE)	La línea 3970 aplica FP -2 aunque el objetivo no sea el cargado
+FQ1-064	Errata p.214 Morning Star	F+1, FP -1, Perforante (1); F y Perforante solo contra modelos cargados	OK	rules.js:4006, data.js:3943	
+FQ1-065	Errata p.215 Lance	Caballería o monstruo; solo en turno de carga; F y FP solo contra modelos cargados	OK	rules.js:3968 (chgE)	Restricción de tipo de tropa no comprobada
+FQ1-066	Errata p.220 Maximum Armour Value	Infantería y caballería no mejor que 2+	OK	rules.js:1464 (svOf)	
+FQ1-067	Errata p.220 Maximum Armour Value	Carro, monstruo o máquina no mejor que 3+	OK	rules.js:1588 (tope 3+)	monInf/monCav no son «monstruos» en el sentido de la regla
+FQ1-068	Errata p.227 Crunch	La bala de cañón se detiene ante colina, terreno impasable u obstáculo lineal alto	OK	rules.js: cañón (stopB) hill/ruin/building/impassable/muro alto	Solo la visión (losClear) bloquea disparar
+FQ1-069	Errata p.270 Woodland Boundaries	Más de la mitad del modelo/unidad dentro del bosque cuenta como cobertura parcial	OK	rules.js:2111-2127 (coverMod)	
+FQ1-070	Errata p.286 Dead or Fled	Unidad a 25 % de su Fuerza de Unidad inicial (o 25 % de Heridas si FU = Heridas) al final de la batalla vale 50 % de puntos redondeado arriba	OK	rules.js: scoreVP (US=Heridas -> Heridas)	Solo máquinas y behemots usan Heridas; criaturas, infantería y caballería monstruosas con FU = Heridas usan recuento de modelos
+FQ1-071	Errata p.323 Steed of Shadows	Valor de lanzamiento 8+	OK	data.js:2401	
+FQ1-072	Errata p.323 Daemonic Vessel	Valor de lanzamiento 9+	OK	data.js:2404	
+FQ1-073	Errata p.323 Vortex of Chaos	La plantilla es terreno difícil mientras esté en juego	OK	data.js:2405 (diff), rules.js:1932	
+FQ1-074	Errata p.323 Vortex of Chaos	"La plantilla se mueve D6"" en cada Inicio de turno"	OK	rules.js:5358-5371	Se mueve en el de ambos jugadores
+FQ1-075	Errata p.323 Vortex of Chaos	Unidad (amiga o enemiga) que mueva a través de la plantilla o sobre la que ésta se mueva sufre D6+1 impactos F3 FP -	OK	rules.js: vortexMoveHits	Sólo cuando la plantilla se mueve sobre la unidad; no cuando la unidad mueve a través de la plantilla
+FQ1-076	Errata p.325 Infernal Gateway	Valor de lanzamiento 9+	OK	data.js:2395	
+FQ1-077	Errata p.327 Flaming Sword	Valor de lanzamiento 7+	OK	data.js:2326	
+FQ1-078	Errata p.327 Summon Elemental Spirit	Plantilla terreno difícil sin línea de visión	OK	data.js:2342 (diff, nolos), rules.js:1932, 1956	
+FQ1-079	Errata p.327 Summon Elemental Spirit	"Se mueve D6"" en cada Inicio de turno"	OK	rules.js:5358-5371	
+FQ1-080	Errata p.327 Summon Elemental Spirit	Unidad enemiga que mueva a través o sobre la que se mueva sufre D3+3 impactos F4 FP -1	OK	rules.js: vortexMoveHits	Solo cuando la plantilla se mueve sobre la unidad
+FQ1-081	Errata p.327 Earthen Ramparts	Valor de lanzamiento 9+	OK	data.js:2328	
+FQ1-082	Errata p.327 Travel Mystical Pathway	Objetivo amigo que no huye y no ha movido en esta fase de Movimiento	OK	rules.js:3139 (spellTargets pathway)	Reverificado v737: pathway sin !isEngaged
+TOTAL AUSENTE=1 OK=79 PARCIAL=2

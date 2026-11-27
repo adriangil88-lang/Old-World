@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+leg_darkelves.tsv	leg_darkelves-198	PARCIAL	"Medusa data.js:1657-1659 tiene 40x40, monCreature, armadura ligera y mirada 18"" F2 magica D3, pero falta vsI:true: hiere contra Resistencia, no Iniciativa (si lo tienen data.js:1271,1313)"
+core_8.tsv	core_8-051	CONFIRMA	"data.js:2302 foot_gork vortex cv8 rango15 plantilla 5"" dist 2D6 all D3+3 F5 FP-1 diff; movimiento por turno en rules.js:6404-6440 (amigos y enemigos, ambos Inicios)"
+leg_daemons.tsv	leg_daemons-012	CONFIRMA	data.js:4688 usa generalOf(army) (General marcado o Ld/coste) y dmAlign (incl. opcion de alineacion del Principe) para fijar Basicas/Especiales; la nota/resumen es erronea, el codigo sigue la regla
+core_6.tsv	core6-001	CONFIRMA	"data.js:1458-1460 dw_bolt: 48"" F6 FP-3 dmg 2 through cumbersome, sr moveOrFire; rules.js:2403-2404 Mover o disparar y Torpe (sin reaccion de carga)"
+aj_wood2.tsv	aj_wood2-032	CONFIRMA	rules.js:2934 y 4873/4916 (worthy): repite 1 al impactar disparando y en combate vs presa nominada por el jugador (preyOpts 640: personaje o monCreature/behemoth); +100 PV en rules.js:6900
+cathay.tsv	cathay_aj-085	CONFIRMA	data.js:2272 sr graniteSent; rules.js:1962 dmg=0 en woundAndSave: inmune a Heridas multiples (X), una herida no salvada = 1 herida
+aj_orcs2.tsv	aj_orcs2-078	PARCIAL	data.js:803 black_chariot tiene un solo HA4 (tripulacion): los jabalies (HA3 segun fuente) atacan con HA4; sin wsMount ni HA separada. Resto del perfil/130 pts/impacto F5 correcto
+aj_orcs2.tsv	aj_orcs2-056	CONFIRMA	"data.js:841 troll_hag arm heavy, vomito (rules.js:5480 F3 FP-2 auto, ultimo), aliento de pantano 8"" F3 FP-2 panicHit, tocon=arma de mano; perfil 235 pts correcto"
+aj_highelves.tsv	aj_highelves-011	CONFIRMA	rules.js:6848-6851 (chalons): defensor +100 PV por Mago vivo al final, atacante +100 por Mago defensor muerto
+core_6.tsv	core6-049	CONFIRMA	rules.js:2320-2326 rayBlockedByUnits: onHill exige todas las esquinas en la colina; si A o B en colina se ignoran unidades que no estan en colina
+leg_daemons.tsv	leg_daemons-167	CONFIRMA	"data.js:1991 Horrores Rosados ranged 18"" F3 AP0 shots 2 flaming sr quickShot (la nota ""falta Disparo rapido"" esta obsoleta)"
+core_6.tsv	core6-059	CONFIRMA	"rules.js:1784 mrOf: +1 Resistencia a la Magia a la unidad que controla (herdCtl, proximidad 6"", US>=5, no huye) un rasgo monolith; monolito se controla solo por proximidad"
+battlemarch_quickref.tsv	quickref-033	PARCIAL	Solo huida y retorno fuera de mesa en compulsoryMoves (rules.js:6600). Movimiento aleatorio/impetuosos se hacen en beginMove (rules.js:6490-6510) al inicio, antes de cargas y de la huida
+core_6.tsv	core6-066	PARCIAL	Ruinas oscuras: todos los arcos frontales (rules.js:3538) y Aura oscura (3450); falta carga desordenada por obstaculo defendido: chargeDisordered (rules.js:3763) no considera t.garrison
+aj_wood2.tsv	aj_wood2-098	CONFIRMA	data.js:652,755,758 melee thrust+ap1: ataques de apoyo (no al cargar, rules.js:4782), +1 I vs carga frontal (rules.js:4704), FP-1
+aj_wood2.tsv	aj_wood2-138	CONFIRMA	data.js:3115 hunt_pride cost35 ap2 mwMon2 list owh; rules.js:4812 aplica MW(2) solo si isMonster(e) (monCreature/behemoth/monInf/monCav); arma magica
+aj_highelves.tsv	aj_highelves-122	CONFIRMA	data.js:1545-1547 Merwyrm sr closeOrder, large, stomp (stompN D3+1), terror, abyssalCloak, enfeeblingCold; impact D3 S6
+leg_daemons.tsv	leg_daemons-285	CONFIRMA	"Heraldo de Nurgle opcion dh +10 (data.js:5893): 12"" S+1(6) FP-1 dmg D3 moveShoot; Zanganos data.js:2005 ranged 12"" F5 FP-1 D3 moveShoot (F+1 de portador F4). Nota obsoleta"
+aj_highelves.tsv	aj_highelves-062	CONFIRMA	data.js:1530-1531 he_ishaya sr commandVoice, ithilmarW, mathIre, naval, precisionStrikes, rally, strikeFirst, valour; perfil y 170 pts correctos
+aj_dwarfs2.tsv	aj_dwarfs2-045	CONFIRMA	data.js:3575 expedition chk exige >=1 dw_engineer/dw_sapper; personajes max 50% en data.js:4867; 0-1 Matademonios/Matadragones
+aj_empire2.tsv	aj_empire2-088	CONFIRMA	data.js:3695 imp_ogres en MERCS.empire/dw grand (no en royal/expedition, 3698), 0-1 en 4852; rules.js:1059-1065 aplica Mercenarios discolos
+faq_libros.tsv	Q10	PARCIAL	rules.js:3517 impactos de whirlDeath copian S, FP, Perforante, flamigero, magico, MW y repetir 1/heridas, pero no wnd (Skalf 2+, Matadragones), noArmW (Alaric) ni banish (rules.js:4817-4823)
+leg_ogres.tsv	leg_ogres-152	CONFIRMA	rules.js:2073 stoneSkeleton: dmg>0 reduce heridas perdidas en 1, minimo 1 (no aplica a golpe letal)
+faq_core_1.tsv	FQ1-049	CONFIRMA	rules.js:3397-3416 skirmSeesHalf: LOS por modelo desde su posicion en formacion, exige seen*2>models en chargeTargets
+leg_ogres.tsv	leg_ogres-185	CONFIRMA	data.js:3034 okl_tender cost70 S+2 ap3 mw D3 A+1 slow (golpea ultimo), arma magica
+core_5.tsv	C5-134	CONFIRMA	rules.js:4725-4805 attackProfile: todo modelo ataca con HA, F propia y FP 0 por defecto (arma de mano base)
+aj_orcs2.tsv	aj_orcs2-065	CONFIRMA	"rules.js:5383 y duelos 5090: has(e,""slimy"") suma +1 al valor para impactar de quien ataca al modelo en combate; no afecta a disparo"
+leg_ogres.tsv	leg_ogres-211	CONFIRMA	"data.js:5764-5766 par de pistolas: 24"" F4 FP-1 Perf1 shots2 ms quickShot + melee extra:1 para Tyrant/Bruiser/Maneaters (opciones pb/bp)"
+core_5.tsv	C5-045	PARCIAL	rules.js:5484 if(!isMonster(e)) omite TODO el pisoton contra monstruos (incl. monInf/monCav); la regla solo anula FP-2 y solo contra monCreature/behemoth
+leg_skaven.tsv	leg_skaven-045	CONFIRMA	"data.js:4368 mosquete de disformidad +9: 24"" F5 FP-2 magico ponderous nat1 w1 (rules.js:2999-3001 pierde 1 Herida si 1 y 1)"
+dawn_renegade_sc.tsv	renegade_web-082	PARCIAL	data.js:848-849 orc_bonegrinder pone T6 (como aj_orcs2:1200) pero la fuente citada (renegade_web) dice R7; resto M6 HA3 HP1 F7 H8 I3 Ld10 300 pts behemot, pisoton D6+1 correcto
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-152	CONFIRMA	data.js:2191-2192 cd_ironDaemon M5 F8 R7 H7 275 pts, heavyChar 3+
+aj_wood2.tsv	aj_wood2-142	CONFIRMA	data.js:3120 ariel_favour mr:2 (Res. Magia -2); aplicado en rules.js:4500 via mrItems
+faq_core_4.tsv	FC4-21	PARCIAL	rules.js:5460-5461 anula kb/dmg/wnd/rrw/cleave en montura, pero hereda wo del jinete: magical (cualquier objeto), noArmour/noRegen/noWard, rerollOnes p.rr1 y flaming del arma
+leg_daemons.tsv	leg_daemons-180	CONFIRMA	"data.js:2013-2014 dm_flamers sr flaming, skirmish, mtCover, fear/immunePsy/unbreakable/unstable (Daemonic), ward5; warpflame 18"" corregido en data.js:5913"
+battlemarch_quickref.tsv	battlemarch-084	CONFIRMA	rules.js:491 RO bm_* [0,1] y firstRoll rules.js:628-633: el ganador elige primero/segundo (humano via nomKind first, IA via aiPick)
+cathay.tsv	cathay_notes-019	PARCIAL	rules.js:4796 aplica S+1, FP-1 y spearAb (Perforante 1) solo si cargo (chgE); Armour Bane (1) de la lanza cathayana debe valer siempre (solo S y FP son por carga)
+aj_dwarfs2.tsv	aj_dwarfs2-134	CONFIRMA	data.js:1431-1432 dw_scoutgyro M10 (vuelo) HA4 HP4 F4 R4 H3 I2 A2 Ld9 60 pts; tt monInf en vez de caballeria monstruosa (us:3, base 50)
+aj_wood2.tsv	aj_wood2-069	PARCIAL	"rules.js:7339-7348 horn (una vez, Mando, alcance de mando, endTurn) da hornF pero has1 (rules.js:159) anula Frenesi si frenzyLost: falta ""aunque lo haya perdido antes"""
+aj_highelves.tsv	aj_highelves-050	CONFIRMA	data.js:1510-1511 he_korhil M5 HA7 HP5 F4 R3 H3 I6 A4 Ld9 175 pts arm heavy base 25 unique; reglas chayal, pelt, mightyConst, valour, stubborn, mtCover, furiousCharge
+faq_core_1.tsv	FQ1-077	CONFIRMA	data.js:2338 flaming_sword cv:7
+faq_libros.tsv	F56	CONFIRMA	rules.js:2387 shootCheck: no se puede disparar a Orion mientras queden Sabuesos (hounds>0)
+aj_wood2.tsv	aj_wood2-009	CONFIRMA	"data.js:4867 by.char > limit*0.5 -> ""Personajes: maximo 50 %"" para cualquier lista incl. owh"
+core_6.tsv	core6-035	PARCIAL	rules.js:7075-7120 terrainEffects/dangerTest: tira por cada modelo de la unidad si la unidad toca el elemento (feats por solape de unidad), no solo los modelos que empiezan/atraviesan/acaban en el
+leg_darkelves.tsv	leg_darkelves-107	CONFIRMA	data.js:1637-1641 Guardia de la Torre sr closeOrder, elvenRef, eternalHatred, hatred, immunePsy, martial, stubborn (+extraRank); eternalHatred en rules.js:5410
+cathay.tsv	cathay_aj-008	CONFIRMA	data.js:4932 max 3*per1k Cañones/Cohetes incl. variantes con cargador ogro (ct_cannon_ogre...)
+aj_chaos2.tsv	aj_chaos2-153	CONFIRMA	data.js:4500 Dragon Warpfire ppm 375 +30 nivel 1, +60 nivel 2
+aj_dwarfs2.tsv	aj_dwarfs2-052	CONFIRMA	data.js:3572-3574 expedition core 25%, dw_warriors y dw_thunderers core, dw_cart/dw_cart_miner comp core
+battlemarch_quickref.tsv	quickref-014	CONFIRMA	rules.js:3936-3949 y 4592-4595: 8-9 se lanza, tryDispel contra sp.cv, noMore=true (return 1); 10-12 perfecta (return 2) y noMore
+aj_beasts2.tsv	aj_beasts2-136	PARCIAL	"data.js:2841 bmaj_heavy cost30 sv5 ward5 correcto, pero rules.js:3873/3969 impiden lanzar a un Mago con item cat a sv (sin exencion chaosArmour para este objeto): falta ""Mago sin penalizacion"""

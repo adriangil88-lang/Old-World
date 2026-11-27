@@ -1,0 +1,699 @@
+{
+ "fnC": [
+  "hitRoll",
+  "woundAndSave",
+  "woundAndSave0",
+  "rollPsy",
+  "runAway",
+  "dangerTest",
+  "artDie",
+  "misfire",
+  "ogreMisfire",
+  "lumberRoll",
+  "wildDiscover",
+  "gazeRoll",
+  "chaosMercs"
+ ],
+ "idC": {
+  "fightGroup:24": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:25": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:26": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:27": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:28": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:29": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:30": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:31": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:32": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:33": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:34": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:35": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:36": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "fightGroup:37": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "joinedStrike:1": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "joinedStrike:2": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "joinedStrike:3": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "joinedStrike:4": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "joinedStrike:5": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "duelSwing:1": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "duelSwing:2": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "duelSwing:3": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "duelSwing:4": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "duelSwing:5": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "duelSwing:6": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "duelSwing:7": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "duelSwing:8": "cadena de impactar/herir (ventana ackMelee/ackShoot/ackWound)",
+  "resolveShot0:21": "Habilidad de Proyectiles 6-10: repetición (tabla de impactar a distancia, ackShoot)",
+  "resolveShot0:22": "Habilidad de Proyectiles 6-10: repetición (tabla de impactar a distancia, ackShoot)",
+  "resolveShot0:14": "dado de dispersión (ventana Dado de dispersión)",
+  "resolveShot0:15": "dado de dispersión (ventana Dado de dispersión)",
+  "doCharge:2": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "doCharge:3": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "doCharge:4": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "doCharge:5": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "doCharge:6": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "doCharge:7": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "doCharge:8": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "doCharge:9": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "doCharge:10": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "doCharge:11": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "doCharge:16": "tirada de carga (ventana «Tirada de carga») y sus repeticiones",
+  "resolveCombats:5": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:6": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:7": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:8": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:9": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:25": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:26": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:27": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:28": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:29": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:30": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:31": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:32": "Seguimiento/Persecución (ventanas del movimiento de persecución)",
+  "resolveCombats:12": "Prueba de Rotura y sus repeticiones (ventana ackBreak)",
+  "resolveCombats:13": "Prueba de Rotura y sus repeticiones (ventana ackBreak)",
+  "resolveCombats:14": "Prueba de Rotura y sus repeticiones (ventana ackBreak)",
+  "resolveCombats:15": "Prueba de Rotura y sus repeticiones (ventana ackBreak)",
+  "resolveCombats:16": "Prueba de Rotura y sus repeticiones (ventana ackBreak)",
+  "resolveCombats:17": "Prueba de Rotura y sus repeticiones (ventana ackBreak)",
+  "resolveCombats:18": "Prueba de Rotura y sus repeticiones (ventana ackBreak)",
+  "resolveCombats:19": "Prueba de Rotura y sus repeticiones (ventana ackBreak)",
+  "tryDispel:4": "tirada de dispersión y repeticiones (ventana ackDispel)",
+  "tryDispel:5": "tirada de dispersión y repeticiones (ventana ackDispel)",
+  "tryDispel:6": "tirada de dispersión y repeticiones (ventana ackDispel)",
+  "tryDispel:7": "tirada de dispersión y repeticiones (ventana ackDispel)",
+  "tryDispel:8": "tirada de dispersión y repeticiones (ventana ackDispel)",
+  "tryDispel:9": "tirada de dispersión y repeticiones (ventana ackDispel)",
+  "tryDispel:10": "tirada de dispersión y repeticiones (ventana ackDispel)",
+  "miscast1:4": "tabla de Pifias y repeticiones (ventana Tabla de Pifias)",
+  "miscast1:5": "tabla de Pifias y repeticiones (ventana Tabla de Pifias)",
+  "miscast1:6": "tabla de Pifias y repeticiones (ventana Tabla de Pifias)",
+  "miscast1:7": "tabla de Pifias y repeticiones (ventana Tabla de Pifias)",
+  "miscast1:8": "tabla de Pifias y repeticiones (ventana Tabla de Pifias)",
+  "miscast1:9": "tabla de Pifias y repeticiones (ventana Tabla de Pifias)",
+  "rallyTest:1": "chequeo de Reagrupar y repeticiones (ventana ackLd)",
+  "rallyTest:2": "chequeo de Reagrupar y repeticiones (ventana ackLd)",
+  "rallyTest:3": "chequeo de Reagrupar y repeticiones (ventana ackLd)",
+  "rallyTest:4": "chequeo de Reagrupar y repeticiones (ventana ackLd)",
+  "rallyTest:5": "chequeo de Reagrupar y repeticiones (ventana ackLd)",
+  "rallyTest:6": "chequeo de Reagrupar y repeticiones (ventana ackLd)",
+  "rallyTest:7": "chequeo de Reagrupar y repeticiones (ventana ackLd)",
+  "restrains:1": "chequeo de Contención (ventana ackLd)",
+  "restrains:2": "chequeo de Contención (ventana ackLd)",
+  "doWaaagh:1": "chequeo de ¡Waaagh! (ventana ackLd)",
+  "doCast0:1": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:2": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:3": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:5": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:6": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:7": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:8": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:11": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:12": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:17": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:18": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:19": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:20": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:21": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "doCast0:22": "tirada de lanzamiento y repeticiones/dados extra (ventana ackCast)",
+  "beginStrategy:61": "chequeo de Estupidez (ventana ackLd propia con tabla de Liderazgo)",
+  "firstRoll:1": "ventana propia firstRollAck (v843q: por qué, tabla y modificadores)",
+  "firstRoll:2": "ventana propia firstRollAck (v843q)",
+  "rollOff:1": "v843u: tirada enfrentada con ventana propia (para qué sirve, quién tira, qué gana el ganador; resultado en la misma ventana) en rollOffAck",
+  "rollOff:2": "v843u: segundo dado de la misma tirada enfrentada (ventana única en rollOffAck)"
+ },
+ "idN": {},
+ "lab": {
+  "beginStrategy": "Reglas de inicio de turno (fase de Estrategia)",
+  "applySpell0": "Efecto de hechizo",
+  "resolveCombats": "Resolución del combate (ruptura, persecución y reglas de ronda)",
+  "resolveShot0": "Disparo (reglas de arma y de fuego)",
+  "fightGroup": "Ataques cuerpo a cuerpo (reglas especiales)",
+  "apply0": "Habilidad u objeto activado",
+  "doCast0": "Lanzamiento de hechizo (objetos y modificadores)",
+  "doCharge": "Carga",
+  "destroy": "Efecto al morir la unidad",
+  "createGame": "Preparación de la partida",
+  "tryDispel": "Dispersión (objetos y reglas)",
+  "miscast1": "Pifia de hechizo",
+  "rallyTest": "Reagrupar",
+  "bonegrinderAttack": "Ataques del Moledor de huesos",
+  "giantAttack": "Ataques del Gigante",
+  "applyWounds": "Reglas al perder Heridas",
+  "flyHit": "Ataque en vuelo",
+  "attackProfile0": "Ataques aleatorios",
+  "fanaticMove": "Movimiento de Fanáticos",
+  "chargeImpacts": "Impactos de carga",
+  "motherlyAttack": "Amor maternal",
+  "beginMove": "Inicio del Movimiento",
+  "bastionTest": "Terreno peligroso (bastión)",
+  "swiftD6": "Zancada veloz",
+  "rollOff": "Tirada enfrentada (D6 contra D6)",
+  "firstRoll": "Tirada del primer turno",
+  "restrains": "Reprimir Impetuosidad",
+  "endlessBonus": "Ataques adicionales",
+  "abominableAttack": "Ataques de la Abominación",
+  "compulsoryMoves": "Movimientos obligatorios",
+  "daemonicInstability": "Inestabilidad Demoníaca",
+  "hellRR": "Ligado al infierno",
+  "bldTplHits": "Impactos de plantilla de edificio",
+  "flameHits": "Impactos de aliento",
+  "tplChampSplit": "¡Cuidado, señor! del campeón",
+  "blastCount": "Impactos de proyectil explosivo",
+  "tplPlan": "Plantilla de hechizo",
+  "pigeonBomb": "Bomba de paloma",
+  "doWaaagh": "¡Waaagh!",
+  "pushAway": "Empujón",
+  "despair": "Desesperación",
+  "setupDuels": "Desafíos",
+  "scyChoice": "Segador",
+  "zzzzap": "Zzzzap",
+  "movePursuer0": "Persecución",
+  "impetuousTests": "Impetuosidad",
+  "falconUse": "Halcón",
+  "randomMoves": "Movimiento aleatorio",
+  "endPlayerTurn": "Fin de turno",
+  "vortexMoveHits0": "Vórtice",
+  "woundAndSave0": "Herir y salvar",
+  "hitRoll": "Impactar",
+  "runAway": "Huida",
+  "dangerTest": "Terreno peligroso",
+  "wildDiscover": "Terreno salvaje",
+  "gazeRoll": "Mirada de los Dioses",
+  "chaosMercs": "Mercenarios errantes",
+  "lumberRoll": "Destrucción desmedida",
+  "misfire": "Tabla de Averías",
+  "ogreMisfire": "Averías de máquinas ogras",
+  "artDie": "Dado de Artillería",
+  "rollPsy": "Chequeo psicológico",
+  "woundAndSave": "Herir y salvar"
+ },
+ "desc": {
+  "swiftD6:1": "Zancada veloz: se tira un D6 que se suma a la distancia (Core p.176); con el Cuerno de Plata podrás repetirlo",
+  "compulsoryMoves:1": "Movimiento obligatorio (Core p.123): la unidad avanza 2D6 en línea recta; con Zancada veloz se suma además un D6",
+  "compulsoryMoves:2": "Zancada veloz en el movimiento obligatorio: se suma un D6 a la distancia",
+  "blastCount:1": "Proyectil explosivo: cada modelo bajo la plantilla (o a su alcance) es impactado con 4+ (un D6 por modelo)",
+  "rollOff:1": "Tirada de desempate: 1D6 del jugador 1 contra 1D6 del jugador 2; gana el más alto y se repite si empatan. Sin modificadores.",
+  "rollOff:2": "Tirada de desempate: 1D6 del jugador 2 contra el del jugador 1; gana el más alto y se repite si empatan. Sin modificadores.",
+  "createGame:1": "Clima (Batalla de Bestias): 1D6 en la tabla de clima al inicio de la partida. Si sale 5 (Tormenta de polvo) se tiran además 2D6 para colocar la nube; el resto de caras aplica su efecto a toda la partida.",
+  "createGame:2": "Tormenta de polvo (sale 5 en el clima): 1.ª de 2D6 que miden la distancia a la que la nube se desplaza del centro de la mesa, en dirección al azar.",
+  "createGame:3": "Tormenta de polvo: 2.ª de 2D6; la suma de ambos dados es la distancia en pulgadas desde el centro de la mesa a la que queda la nube.",
+  "createGame:4": "Battle March (tesoros / punto estratégico): 1D6 en la tabla de objetivos de la partida. 1-2: dos tesoros; 3-4: tres tesoros en línea; 5-6: un punto estratégico en el centro.",
+  "createGame:5": "Hito del centro de la mesa: 1D6 en la tabla del hito. 1-2: mágico; 3-4: celo; 5-6: testarudo. Sin modificadores.",
+  "createGame:8": "Mercenarios díscolos (un D6 por unidad mercenaria al crear la partida). 1: Noche de juerga (Estupidez); 2-3: Te dan lo que pagas (−1 M e I); 4-5: El gallo no cantó (llega como Emboscador); 6: Apatía general (−1 Ld). Sin modificadores.",
+  "createGame:10": "Surprise Encounter (Core p.308, «Despliegue»): el PERDEDOR de una tirada enfrentada despliega primero una unidad que no sea personaje completamente dentro de una de las seis zonas; después alternan hasta tener tres unidades no personaje cada uno y una unidad en cada zona. Cada jugador tira 1D6 sin modificadores; el que saca menos pierde y despliega primero; si empatan se repite (Core p.93 «Rolling Off»).",
+  "createGame:11": "Surprise Encounter: el 1D6 del jugador 2 de la misma tirada enfrentada (se avisa una sola vez, con los dos dados).",
+  "applyWounds:2": "Collar de Shapesh: 1D6 cuando el portador va a perder su última Herida. Con 4+ la conserva y otra unidad pierde un modelo en su lugar; con 1-3 no pasa nada.",
+  "bldTplHits:1": "Plantilla sobre un edificio: 1D6 por modelo dentro; cada 5+ es un impacto contra los ocupantes (el impacto va después a herir con la Fuerza de la plantilla). Sin modificadores.",
+  "flameHits:1": "Aliento / plantilla de llamas: 1D6 por modelo bajo la plantilla; con 4+ el modelo recibe el impacto. Sin modificadores salvo que la regla indique lo contrario.",
+  "tplPlan:1": "Plantilla de hechizo que se desvía: 1D3 + 1 pulgadas de desvío desde el punto elegido (Rayo Fatídico no se desvía). La dirección también es al azar. Sin modificadores.",
+  "pigeonBomb:1": "Bomba de paloma (FoF p.77): 1D6 contra el enemigo a 24\". 1: Cerebro de pájaro (plantilla de 3\" sobre el modelo que la soltó, F4 FP −1); 2-3: Vuelve a casa (sin efecto); 4-5: Petardo (1 impacto F5 FP −2 al objetivo); 6: Entrega perfecta (plantilla de 3\" centrada en el objetivo, F4 FP −1).",
+  "resolveShot0:3": "Impacto atronador (cañón): 2D6\" desde el punto de impacto; las unidades dentro pierden 1 M y la Zancada veloz hasta tu siguiente turno. Sin modificadores; el 2D6 es la distancia.",
+  "resolveShot0:6": "Tabla de averías de la Bombarda (AJ Bretonia): 1D6. 1: revienta (la máquina se destruye); 2-3: la pólvora estalla, 1 Herida y no dispara; 4-5: se encasquilla, no dispara; 6: carga doble, dispara pero queda inútil la ronda siguiente.",
+  "resolveShot0:7": "Impacto atronador: 2D6\" medidos desde el punto de impacto de la bala; las unidades dentro (amigas y enemigas) sufren −1 M y pierden Zancada veloz. El 2D6 es el radio.",
+  "resolveShot0:8": "«¡Incoming!» (bala de cañón contra un edificio ocupado): 1D3 impactos F4 FP −1 contra la guarnición; la bala se detiene. Después se tira para herir y salvar con normalidad.",
+  "resolveShot0:9": "Helstorm (Imperio p.74): 1D3 cohetes; cada uno se resuelve con el dado de Artillería y una plantilla de 3\" que se desvía. Con Avería, tabla de Averías después de disparar.",
+  "resolveShot0:10": "Helstorm: dado de dispersión de cada cohete. Con 1-2 el cohete se desvía solo la diferencia entre el dado de Artillería y la HP del tirador (mínimo 0); con 3-6 el valor completo del dado de Artillería.",
+  "resolveShot0:13": "Rayo de disformidad: línea de 8D6\" desde la peana del tirador; todo modelo bajo la línea sufre el impacto. El resultado total de los 8D6 es la longitud.",
+  "resolveShot0:20": "Número de disparos del arma (por tirador): la expresión de dados de la regla del arma; cada disparo se resuelve después contra la HP y el objetivo.",
+  "resolveShot0:32": "Objeto Malévolo: 1D3 impactos F2 (sin modificar) además del disparo, resueltos después contra la R del objetivo (la armadura no cuenta si la regla lo indica).",
+  "resolveShot0:33": "¡Cuidado, señor! (FAQ p.209): 1D6 por impacto sobre una unidad con personaje unido; con un 1 el impacto va al personaje, con 2+ a la unidad. Solo hay tirada con cinco o más modelos de tropa del mismo tipo de tropa que el personaje.",
+  "flyHit:2": "Bombardeo aéreo: la plantilla se desvía 1D6\" desde el objetivo en dirección al azar y alcanza solo a los modelos bajo su posición final (impactos resueltos después contra R y salvación).",
+  "flyHit:3": "Rocas / tajo al sobrevolar: 1D3 impactos F4 sin FP por cada modelo sobrevolado (multiplicado por los ataques de tajo del perfil); se resuelven después contra la R y la armadura del objetivo.",
+  "flyHit:5": "Picado: 1D6 impactos F3 FP −1 por cada modelo sobrevolado; los resultados de 1 se cuentan aparte. Se resuelven después contra la R y la salvación del objetivo.",
+  "destroy:17": "¡Timmm-berrr! (árbol que cae): tirada enfrentada de 1D6, la del dueño del árbol contra la del rival; los empates se repiten. El que gane elige hacia qué arco cae el árbol.",
+  "destroy:18": "¡Timmm-berrr!: 1D6 del rival contra el del dueño del árbol (los empates se repiten). Gana el más alto y elige el arco sobre el que cae.",
+  "destroy:19": "¡Timmm-berrr!: por cada unidad en el arco elegido, 1D6 impactos de la F del árbol con FP −1, resueltos después contra su R y salvación; las heridas cuentan para el resultado del combate.",
+  "despair:1": "Desesperación del Heraldo: se tira un tercer D6 en el chequeo de Liderazgo del enemigo y se descarta el más bajo de los tres dados (cuenta la suma de los dos más altos).",
+  "doCharge:1": "Contracarga: la unidad cargada avanza 1D3 + 1 pulgadas hacia el cargador (sin acercarse a menos de 1\" de él).",
+  "doCharge:12": "Carga con Furia de Primer Choque / Estandarte (Waaagh!, Bestial): se suma 1D3 a la tirada de carga y el máximo posible aumenta en 3.",
+  "miscast1:2": "Manos Ahuecadas de los Ancestrales (Hombres Lagarto): 1D6 en lugar de la tabla de Pifia; con 2+ se coloca una plantilla de 3\" sobre un personaje enemigo (F6 FP −2); con 1 se aplica la Pifia normal.",
+  "applySpell0:1": "Maldición de Hashut: 1D6 contra la Resistencia del personaje enemigo elegido: supera con ≤ R (un 6 siempre falla). Si supera: 1D3 impactos; si falla: 1D3+2 impactos de la maldición.",
+  "applySpell0:2": "Maldición de Hashut (el personaje supera el chequeo de R): 1D3 impactos del hechizo, resueltos contra su R y salvación.",
+  "applySpell0:3": "Maldición de Hashut (el personaje falla el chequeo de R): 1D3+2 impactos del hechizo, resueltos contra su R y salvación.",
+  "applySpell0:4": "Raíz Estranguladora: línea recta de 4D6\" desde la peana del lanzador; 1.er D6 de longitud (la suma de los cuatro es la distancia). Cada modelo enemigo bajo la línea sufre D3 impactos F3 FP −2.",
+  "applySpell0:5": "Raíz Estranguladora: 2.º D6 de la longitud de la línea (la suma de los 4D6 es la distancia en pulgadas).",
+  "applySpell0:6": "Raíz Estranguladora: 3.er D6 de la longitud de la línea (suma de 4D6).",
+  "applySpell0:7": "Raíz Estranguladora: 4.º D6 de la longitud de la línea; la línea completa mide la suma de los cuatro dados.",
+  "applySpell0:8": "Raíz Estranguladora: 1D3 impactos F3 FP −2 por cada modelo enemigo bajo la línea (uno por modelo); se resuelven después contra su R y salvación.",
+  "applySpell0:9": "Mirada Ardiente / Mirada de Gork: línea recta de 5D6\" desde la peana del lanzador; 1.er D6 de la longitud. Todo modelo bajo la línea (Gork: amigo o enemigo) sufre un impacto.",
+  "applySpell0:10": "Mirada Ardiente / Mirada de Gork: 2.º D6 de la longitud (suma de 5D6).",
+  "applySpell0:11": "Mirada Ardiente / Mirada de Gork: 3.er D6 de la longitud (suma de 5D6).",
+  "applySpell0:12": "Mirada Ardiente / Mirada de Gork: 4.º D6 de la longitud (suma de 5D6).",
+  "applySpell0:13": "Mirada Ardiente / Mirada de Gork: 5.º D6; la línea mide la suma de los cinco dados en pulgadas y cada modelo bajo ella recibe un impacto.",
+  "applySpell0:14": "Luz que Mata (el objetivo supera el chequeo de Liderazgo): 1D3 impactos F3 FP −1, tratados como un chequeo superado.",
+  "applySpell0:15": "Luz que Mata (el objetivo falla el chequeo de Liderazgo): 1D6 + 3 impactos F6 que ignoran armadura y regeneración; cada herida no salvada causa 2 Heridas.",
+  "applySpell0:16": "Plantilla de 5\" del hechizo: el centro se desvía 1D3 + 1 pulgadas en dirección aleatoria; se cuentan los modelos bajo la plantilla.",
+  "applySpell0:18": "Puño del hechizo: 6 + 1D6 impactos al objetivo (hasta su número de modelos); se resuelven después contra su R y salvación.",
+  "applySpell0:19": "Mirada del hechizo: línea de 5D6\" desde el lanzador (este es el 1.er D6; la suma de los cinco es el alcance). Si la suma no alcanza al objetivo, 0 impactos; si llega, un impacto por cada fila que cubre.",
+  "applySpell0:20": "Mente del hechizo (el objetivo supera el chequeo de Liderazgo): 1D3 impactos F3 sin FP, tratados contra su R y salvación.",
+  "applySpell0:21": "Mente del hechizo (el objetivo falla el chequeo de Liderazgo): 1D3 + 3 impactos F4 FP −3, tratados contra su R y salvación.",
+  "applySpell0:26": "Número de impactos del hechizo: la expresión de dados del propio hechizo (D3, D6, 2D6…). Se resuelven después contra la R y salvación del objetivo.",
+  "applySpell0:27": "Prueba de Iniciativa del hechizo: 1D6 contra la I del objetivo; supera con ≤ I (un 6 siempre falla) y se libra; si falla sufre 1D3 impactos del hechizo.",
+  "applySpell0:28": "Prueba de Iniciativa fallada: 1D3 impactos del hechizo contra el objetivo, resueltos después contra su R y salvación.",
+  "applySpell0:31": "Mutación: −1D3 (un D3 por característica elegida por el lanzador) a HA, F y/o R del objetivo hasta tu siguiente turno; el número de características depende del resultado del lanzamiento.",
+  "applySpell0:32": "Apoteosis (resultado 10+ / 12+): con 12+ el personaje recupera 1D3+1 Heridas; con 10-11 recupera 1D3 Heridas. Sin tirada con menos de 10.",
+  "applySpell0:33": "Apoteosis (resultado de lanzamiento 10-11): el personaje recupera 1D3 Heridas (sin superar su perfil original).",
+  "applySpell0:34": "Danza Macabra de Vanhal: +1D3 a la característica elegida (M, HA o I) del objetivo hasta tu siguiente turno. 1D3 por característica elegida.",
+  "applySpell0:35": "Alzar a los Muertos: 1.er D3 (de 2D3) de Zombis Resucitados que aparecen a menos de 12\" del lanzador (colocados por el jugador, a más de 1\" de enemigos).",
+  "applySpell0:36": "Alzar a los Muertos: 2.º D3; el número de Zombis es la suma (2D3 en total).",
+  "applySpell0:37": "Luna Mala: 1D3 que fija la magnitud del efecto «Luna Mala» sobre el objetivo hasta que termine el hechizo.",
+  "applySpell0:41": "Picazón: 1D3 que fija la magnitud del efecto «Picazón» sobre el objetivo hasta que termine el hechizo.",
+  "doCast0:13": "Pergamino de Atadura: 1D6 que se suma al total de lanzamiento (el 3.er dado). Si dos de los tres dados son 1, ¡percance! (se trata como doble 1).",
+  "doCast0:15": "Bastón de Baduumm (explosión): 1D6 por cada modelo de la unidad cercana (hasta 12 del portador, hasta 6 de otras); con 4+ el modelo recibe un impacto F6 FP −1, resuelto después contra su R y salvación.",
+  "doCast0:16": "Hoz de Grut: 1D3 que se suma al total de lanzamiento; un modelo amigo a 3\" (el que elijas) pierde 1 Herida.",
+  "attackProfile0:3": "Objeto del portador que carga: 1D3 Ataques adicionales el turno que carga (se tira al calcular el perfil de ataque).",
+  "attackProfile0:4": "Hoja Cacareante: 1D6 de Ataques extra una vez por ronda de combate. Con un 6 natural el portador pierde 1 Herida; el valor se aplica a todos los combates de esa ronda.",
+  "endlessBonus:1": "Ataque adicional por herida (turno de carga, Furia sin fin): 1D6 por Ataque extra contra tu tabla de impactar; un 1 siempre falla, el valor necesario o un 6 impacta.",
+  "endlessBonus:2": "Ataque adicional (regla «repite los impactos fallados»): repetición del D6 que falló (o sacó 1); el nuevo resultado sustituye al primero.",
+  "fightGroup:1": "Redes (Lanzaredes): 1D6 si el jugador decide lanzar. Con 1 se enredan ellos mismos (−1 F); con 2+ el enemigo elegido sufre −1 F hasta el final de la fase.",
+  "fightGroup:4": "Bendición del Caos: 1D6 al elegir el combate. 1-2: Púas venenosas; 3-4: Garras guadaña (PA −2); 5-6: Piel quitinosa (R +1).",
+  "fightGroup:7": "Mutación desenfrenada: 1D6 al elegir el combate. 1-2: Colmillos venenosos; 3-4: Garras afiladas (FP −2); 5-6: Garras decapitadoras (Golpe mortal).",
+  "fightGroup:8": "Furia primigenia: chequeo de Liderazgo (2D6 ≤ Ld; doble 1 supera, doble 6 falla). Si lo supera, la unidad activa Furia primigenia este combate; con dobles y Rabia de sangre, además Frenesí.",
+  "fightGroup:15": "Infestación de Nurglings: 1D6 ataques adicionales (HA 2, F 2, sin FP, a I 2) contra la unidad enemiga de más puntos.",
+  "fightGroup:16": "Infestación de Nurglings: 1D6 por ataque contra la HA del enemigo (tabla de impactar de combate, HA 2 del atacante); un 1 siempre falla, un 6 siempre impacta.",
+  "fightGroup:17": "Ataques de la montura: 1D6 por Ataque contra la HA del enemigo; un 1 falla, un 6 impacta. Con ataque de cola, los 6 se anotan aparte (se hieren con bonificador).",
+  "fightGroup:18": "Espíritu rebelde de Galrauch: 1D3 ataques (máx. los Ataques de su perfil) que el espíritu dirige contra el propio Galrauch; después se tira para impactar.",
+  "fightGroup:19": "Espíritu rebelde: 1D6 por ataque contra la HA propia para impactar; un 1 siempre falla, un 6 siempre impacta.",
+  "fightGroup:20": "Pisotón: número de impactos de Pisotón de la unidad (la expresión del perfil, p. ej. D3, D6); cada impacto se resuelve contra la R del enemigo.",
+  "fightGroup:21": "Pisotón (Objetivo grande): 1D3 impactos de Pisotón F de la unidad contra las unidades en contacto.",
+  "fightGroup:22": "Golpe del árbol: chequeo de Iniciativa del enemigo, 1D6 ≤ su I (un 6 siempre falla). Si falla sufre 1D3 impactos del árbol sin salvación de armadura; si lo supera no recibe nada.",
+  "fightGroup:23": "Golpe del árbol (Iniciativa fallada): 1D3 impactos con la F del ataque, sin salvación de armadura, resueltos después contra la R del enemigo.",
+  "fightGroup:38": "Pisotón (segundo bloque de combate): número de impactos de Pisotón de la unidad (la expresión del perfil, p. ej. D3, D6).",
+  "fightGroup:39": "Pisotón de Objetivo grande: 1D3 impactos de Pisotón F de la unidad contra las unidades en contacto.",
+  "fightGroup:40": "Esquirla Infernal: al morir su portador, quien lo mató sufre 1D6 impactos F5 FP −1, resueltos después contra su R y salvación.",
+  "fightGroup:43": "Maldición de la Necrópolis (tras un chequeo de Liderazgo fallado): el atacante sufre 1D3 impactos F2.",
+  "abominableAttack:1": "Alimentarse: 1D6 para impactar contra la HA del enemigo; un 1 falla, un 6 impacta. Si impacta, D3 Heridas automáticas sin salvación de armadura (salvación especial y Regeneración sí valen).",
+  "abominableAttack:2": "Pisotón de la Abominación: número de impactos (la expresión del perfil, p. ej. D6); FP −2 salvo contra otro monstruo; cada impacto se resuelve contra la R del enemigo.",
+  "motherlyAttack:2": "Cotorrear (resultado 5-6 de la tabla de Amor Maternal): 1D6 + 1 impactos de la F de la madre sin armadura y el enemigo sufre −1 Ld.",
+  "motherlyAttack:3": "Pisotón de la madre: número de impactos (D6 por defecto); FP −2 salvo contra otro monstruo; resueltos contra la R del enemigo.",
+  "bonegrinderAttack:2": "Devorar: 1D6 por cada modelo de la fila de combate enemiga contra su Iniciativa; falla (devorado) con > I o con un 6 natural.",
+  "bonegrinderAttack:4": "Devorar a un personaje unido (si no se libra con ¡Cuidado, señor!): chequeo de Iniciativa 1D6 ≤ I (un 6 falla); si falla, el personaje es devorado.",
+  "bonegrinderAttack:6": "Pisotón del Triturador: número de impactos (D6 por defecto); FP −2 salvo contra otro monstruo; se resuelven contra la R del enemigo.",
+  "giantAttack:3": "Ataque del Gigante: 1D6 en la tabla de ataques. 1: Cabezazo; 2: Panzazo; 3-4: Gran barrido; 5: Garrotazo; 6: Saltar y saltar. Un resultado por combate.",
+  "giantAttack:5": "Saltar y saltar: 1D6 + 1 impactos de la F del Gigante sin salvación de armadura contra la unidad enemiga; luego se tira para herir.",
+  "giantAttack:6": "Pisotón del Gigante: número de impactos (D6 por defecto); FP −2 salvo contra otro monstruo; resueltos contra la R del enemigo.",
+  "zzzzap:1": "Zzzzap de la Rueda de la Perdición: 1D6\" de desvío del rayo desde el punto a 6\" de la Rueda; dirección al azar; la plantilla de 3\" impacta según el dado de Artillería.",
+  "movePursuer0:1": "Evasión (Core p.206): un personaje solitario puede esquivar al perseguidor con un chequeo de Iniciativa, 1D6 ≤ I. Si lo supera, se aparta hasta su M; si no, es alcanzado.",
+  "fanaticMove:1": "Fanático Loco (Skaven/Goblins): 1.er dado de 2D6 que miden la distancia de la carrera (el 2D6 es la distancia en pulgadas); se mueve en línea recta y golpea lo que cruza.",
+  "fanaticMove:2": "Fanático Loco: 2.º D6 de 2D6; la suma de ambos es la distancia que recorre el Fanático antes de detenerse.",
+  "beginStrategy:1": "Tormenta de polvo: la nube se desplaza 1D6\" en dirección al azar al inicio de tu fase; las unidades que toca sufren el efecto de la tormenta.",
+  "beginStrategy:3": "Calor abrasador: 1D6 por unidad. Con armadura pesada/completa o barda sucumbe con 1-2, con el resto solo con 1. Si sucumbe, se tira cuántos modelos y un chequeo de Resistencia por cada uno.",
+  "beginStrategy:4": "Calor abrasador (unidad que sucumbe): 1D3 modelos afectados, cada uno hace después un chequeo de Resistencia.",
+  "beginStrategy:5": "Calor abrasador: chequeo de Resistencia por modelo afectado: 1D6 ≤ R (un 6 siempre falla). Cada modelo que falla pierde 1 Herida.",
+  "beginStrategy:12": "Furia enjaulada: chequeo de Liderazgo del Demonio al inicio de tu turno (2D6 ≤ Ld; doble 1 supera, doble 6 falla). Si falla se tira 1D6 en la tabla de Furia enjaulada.",
+  "beginStrategy:13": "Furia enjaulada (chequeo fallado): 1D6. 1: «¡Liberado al fin!» estalla (3D6\" de radio, 1D6 impactos F5 FP −1 a cada unidad dentro) y el Demonio muere; 2-4: «¡Ñam!» pierde un Sirviente; 5-6: «¡Sangre!» rompe las cadenas y se mueve 3D6\" en movimientos obligatorios.",
+  "beginStrategy:25": "Viento Yin/Yang (Cathay): 1D6 al inicio de tu fase; 1-3 Yang, 4-6 Yin. El viento fija qué hechizos son más fáciles o difíciles este turno.",
+  "beginStrategy:27": "Arenas de Settra: chequeo de Liderazgo del Rey Funerario (2D6 ≤ Ld, doble 1 supera, doble 6 falla) para hacer entrar una unidad de Emboscadores no-muertos.",
+  "beginStrategy:31": "Kanopi: chequeo de Liderazgo del portador (2D6 ≤ Ld, doble 1 supera, doble 6 falla). Si supera, se dispersan todos los hechizos que permanecen en juego (también los amigos).",
+  "beginStrategy:40": "Borrachos (RH p.115): 1D6 al inicio de tu turno por unidad Borracha libre. 1: se tambalea (Movimiento aleatorio D6+2, sin marchar ni cargar); 2-5: sin efecto; 6: pendencieros, Frenesí hasta tu próximo turno.",
+  "beginStrategy:41": "Padre de Bestias: repetición del D6 de Borrachos (si decides repetir, el nuevo resultado sustituye al anterior).",
+  "beginStrategy:42": "Levantaos (Settra): chequeo de Liderazgo de Settra (2D6 ≤ Ld, doble 1 supera) para curar a una unidad de no-muertos cercana; los puntos curados dependen del nivel de mago.",
+  "beginStrategy:46": "Hágase mi voluntad: chequeo de Liderazgo (2D6 ≤ Ld, doble 1 supera). Si lo supera eliges un modificador: +D3 M (si no está cerca de enemigos), +1 HA o +D3 I (si está trabado).",
+  "beginStrategy:50": "Vórtice (dado de dispersión): 1-2 «¡Impacto!»: el vórtice no se mueve; 3-6 «Flecha»: se desvía en dirección al azar la distancia que sale en la tirada siguiente.",
+  "beginStrategy:51": "Vórtice: distancia que recorre el vórtice (expresión de dados de la propia regla del vórtice); dirección al azar; toca a las unidades por las que pasa.",
+  "beginStrategy:52": "Vórtice sin distancia propia: se mueve 1D6\" en dirección al azar y toca a las unidades por las que pasa.",
+  "beginStrategy:61": "Estupidez: chequeo de Liderazgo al inicio de tu turno (2D6 ≤ Ld, con −1 al Ld si ya tenía Estupidez y Noche pesada; doble 1 supera, doble 6 falla). Si falla la unidad no mueve ni dispara este turno.",
+  "falconUse:1": "Cuerno de Halcón: chequeo de Liderazgo del portador (2D6 ≤ Ld sin modificar; doble 1 supera, doble 6 falla). Si lo supera los enemigos no pueden volar este turno; un solo uso aunque falle.",
+  "randomMoves:1": "Movimiento aleatorio: distancia (expresión de dados del perfil, p. ej. 2D6; con personajes unidos se toma la menor). La unidad se mueve esa distancia hacia el enemigo más cercano.",
+  "endPlayerTurn:1": "Duración aleatoria (Matched Play Guide p.18): al acabar la ronda, 1D6 + el número de ronda. Si el total llega a 10 (o a la suma fijada) la batalla termina; si no, sigue.",
+  "apply0:2": "Aguijonear a la bestia: 1D3 Ataques adicionales hasta el final de turno para el monstruo o behemot elegido, dentro del alcance de mando del Aguijoneador.",
+  "apply0:5": "Skaryn (si hiere): 1D3 como valor permanente del efecto «Skaryn» sobre el objetivo; solo se tira si el impacto causó al menos una herida.",
+  "apply0:7": "Poción de Fervor / similares: 1D3 para el efecto de la poción hasta el final del turno (la Poción de Presteza no tira dado: +1).",
+  "apply0:8": "Campana Aullante («el tañido de la campana»): 2D6 en la tabla de la Campana. 2: Retroceso mágico; 3-4: Tañido disonante; 5-6: Muro de sonido impío; 7: Poder resonante; 8-9: Clamor enardecedor; 10-11: Repiqueteo extático; 12: Doblar sonoro.",
+  "apply0:11": "Caldero de Carnicero (ofrenda al Gran Maw): chequeo de Liderazgo del personaje (2D6 ≤ Ld; doble 1 supera, doble 6 falla). Si lo supera, él y su unidad ganan Regeneración (5+); si falla, pierde 1 Herida.",
+  "apply0:12": "Cetro de Noirot: 1D6 por uso; con 1 el portador pierde 1 Herida; con 2+ no ocurre nada.",
+  "apply0:14": "Invocación de Nehek: Heridas/modelos que recupera la unidad según su tipo: infantería regular o pesada: nivel de Mago + 1D3; enjambres, caballería ligera, bestias de guerra: nivel + 1; monstruosa o pesada: nivel; el resto: 1.",
+  "apply0:16": "Transformación (Cathay): al transformarse recupera 1D3 Heridas (sin superar su máximo).",
+  "apply0:17": "Aullido a la noche: 1D6 Heridas que recupera la criatura de la noche elegida (sin exceder el máximo de su unidad).",
+  "apply0:18": "Hágase mi voluntad / Mis dignos campeones: +1D3 de HA hasta tu siguiente inicio de turno para el personaje, su montura y su unidad.",
+  "apply0:19": "Azote a los suyos: +1D3 de Movimiento (máx. 10) hasta tu siguiente inicio de turno para la unidad.",
+  "apply0:23": "Marcha (Core): chequeo de Liderazgo para marchar con enemigos cerca (2D6 ≤ Ld, +1 con Músico, máx. 10; doble 1 supera, doble 6 falla). Si falla se mueve como mucho su M y cuenta como marcha.",
+  "apply0:24": "Marcha (Veterano): repite el chequeo de Liderazgo fallado; el nuevo 2D6 sustituye al primero.",
+  "apply0:27": "Ojo del Dragón / Maw Rúnico: 1D6 contra el umbral del objeto (4+ por defecto). Con el umbral o más el lanzador debe elegir otro objetivo; con menos puede lanzarlo.",
+  "resolveShot0:35": "Campeones de Chrace: una vez por turno repite el D6 de ¡Cuidado, señor! (resolveShot0:33) si ha salido 1 y el impacto iba a recaer en el personaje.",
+  "applySpell0:38": "«los efectos de cualquier otro Maleficio lanzado antes sobre la unidad objetivo expiran de inmediato» (antes solo Luna Mala)"
+ },
+ "fnN": {},
+ "noThr": [
+  "swiftD6:1"
+ ],
+ "tbl": {
+  "createGame:1": [
+   "Clima (Batalla de Bestias)",
+   [
+    [
+     "1",
+     "Aguacero (−1 M, sin Zancada veloz)"
+    ],
+    [
+     "2",
+     "Vendaval (−6\" de alcance a proyectiles de F ≤ 5)"
+    ],
+    [
+     "3",
+     "Calor abrasador"
+    ],
+    [
+     "4",
+     "Rayos"
+    ],
+    [
+     "5",
+     "Remolino de polvo (nube de polvo, se tiran 2D6 más)"
+    ],
+    [
+     "6",
+     "Vientos helados"
+    ]
+   ]
+  ],
+  "createGame:4": [
+   "Tesoros / punto estratégico (Battle March)",
+   [
+    [
+     "1-2",
+     "Dos tesoros (a 7,5\" por encima y debajo del centro)"
+    ],
+    [
+     "3-4",
+     "Tres tesoros en línea (centro y a 11\" a cada lado)"
+    ],
+    [
+     "5-6",
+     "Un punto estratégico en el centro de la mesa"
+    ]
+   ]
+  ],
+  "createGame:5": [
+   "Hito del centro de la mesa",
+   [
+    [
+     "1-2",
+     "Hito mágico"
+    ],
+    [
+     "3-4",
+     "Hito de celo"
+    ],
+    [
+     "5-6",
+     "Hito testarudo"
+    ]
+   ]
+  ],
+  "createGame:8": [
+   "Mercenarios díscolos (Mercenarios)",
+   [
+    [
+     "1",
+     "Noche de juerga: Estupidez (si ya la tenía, +1 a sus chequeos)"
+    ],
+    [
+     "2-3",
+     "Te dan lo que pagas: −1 M e I"
+    ],
+    [
+     "4-5",
+     "El gallo no cantó: llegan como Emboscadores"
+    ],
+    [
+     "6",
+     "Apatía general: −1 Ld"
+    ]
+   ]
+  ],
+  "resolveShot0:6": [
+   "Tabla de averías de la Bombarda (AJ Bretonia p.45)",
+   [
+    [
+     "1",
+     "¡Revienta! La Bombarda se destruye"
+    ],
+    [
+     "2-3",
+     "La pólvora estalla: pierde 1 Herida y no dispara"
+    ],
+    [
+     "4-5",
+     "Se encasquilla: no dispara"
+    ],
+    [
+     "6",
+     "Carga doble: dispara, pero queda inútil la ronda siguiente"
+    ]
+   ]
+  ],
+  "pigeonBomb:1": [
+   "Bomba de paloma (FoF p.77)",
+   [
+    [
+     "1",
+     "Cerebro de pájaro: plantilla de 3\" sobre el modelo que la soltó (F4 FP −1)"
+    ],
+    [
+     "2-3",
+     "Vuelve a casa: sin efecto"
+    ],
+    [
+     "4-5",
+     "Petardo: 1 impacto F5 FP −2 sobre el objetivo"
+    ],
+    [
+     "6",
+     "Entrega perfecta: plantilla de 3\" centrada en el objetivo (F4 FP −1)"
+    ]
+   ]
+  ],
+  "fightGroup:1": [
+   "Redes (Lanzaredes)",
+   [
+    [
+     "1",
+     "Se enredan ellos mismos: −1 F"
+    ],
+    [
+     "2-6",
+     "El enemigo queda enredado: −1 F hasta el final de la fase"
+    ]
+   ]
+  ],
+  "fightGroup:4": [
+   "Bendición del Caos",
+   [
+    [
+     "1-2",
+     "Púas venenosas"
+    ],
+    [
+     "3-4",
+     "Garras guadaña (PA −2)"
+    ],
+    [
+     "5-6",
+     "Piel quitinosa (R +1)"
+    ]
+   ]
+  ],
+  "fightGroup:7": [
+   "Mutación desenfrenada",
+   [
+    [
+     "1-2",
+     "Colmillos venenosos"
+    ],
+    [
+     "3-4",
+     "Garras afiladas (FP −2)"
+    ],
+    [
+     "5-6",
+     "Garras decapitadoras (Golpe mortal)"
+    ]
+   ]
+  ],
+  "giantAttack:3": [
+   "Tabla de ataques del Gigante",
+   [
+    [
+     "1",
+     "Cabezazo: 1 impacto, D3+1 Heridas sin armadura ni Regeneración"
+    ],
+    [
+     "2",
+     "Panzazo: plantilla de 3\" (F del Gigante, FP −2) a todo modelo bajo ella, amigo o enemigo"
+    ],
+    [
+     "3-4",
+     "Gran barrido: D6+1 ataques con HA, F+1 FP −2"
+    ],
+    [
+     "5",
+     "Garrotazo: 1 ataque con F+4 FP −4, D6 Heridas"
+    ],
+    [
+     "6",
+     "Saltar y saltar: D6+1 impactos sin armadura"
+    ]
+   ]
+  ],
+  "beginStrategy:13": [
+   "Furia enjaulada (chequeo fallado)",
+   [
+    [
+     "1",
+     "¡Liberado al fin!: estalla (3D6\", D6 impactos F5 FP −1 por unidad) y el Demonio muere"
+    ],
+    [
+     "2-4",
+     "¡Ñam!: pierde un Sirviente"
+    ],
+    [
+     "5-6",
+     "¡Sangre!: rompe las cadenas y se mueve 3D6\""
+    ]
+   ]
+  ],
+  "beginStrategy:40": [
+   "Borrachos (RH p.115)",
+   [
+    [
+     "1",
+     "Se tambalea: Movimiento aleatorio D6+2, sin marchar ni cargar"
+    ],
+    [
+     "2-5",
+     "Sin efecto"
+    ],
+    [
+     "6",
+     "Pendencieros: Frenesí hasta tu próximo turno"
+    ]
+   ]
+  ],
+  "beginStrategy:50": [
+   "Dado de dispersión del vórtice",
+   [
+    [
+     "1-2",
+     "¡Impacto!: el vórtice no se mueve"
+    ],
+    [
+     "3-6",
+     "Flecha: se desvía la distancia de la tirada siguiente"
+    ]
+   ]
+  ],
+  "beginStrategy:25": [
+   "Viento de Cathay",
+   [
+    [
+     "1-3",
+     "Viento Yang"
+    ],
+    [
+     "4-6",
+     "Viento Yin"
+    ]
+   ]
+  ],
+  "apply0:8": [
+   "Tabla de la Campana Aullante",
+   [
+    [
+     "2",
+     "Retroceso mágico: D3 impactos F4 FP −2 a toda unidad en su alcance de mando"
+    ],
+    [
+     "3-4",
+     "Tañido disonante: enemigos a 18\" −1 Ld"
+    ],
+    [
+     "5-6",
+     "Muro de sonido impío: skaven a 18\" ganan Miedo"
+    ],
+    [
+     "7",
+     "Poder resonante: Magos skaven +1 al lanzar"
+    ],
+    [
+     "8-9",
+     "Clamor enardecedor: skaven a 18\" Inmunes a psicología"
+    ],
+    [
+     "10-11",
+     "Repiqueteo extático: skaven a 18\" +1 Ataque"
+    ],
+    [
+     "12",
+     "Doblar sonoro: enemigos a 18\" chequean Ld o sufren D6 impactos F4"
+    ]
+   ]
+  ],
+  "miscast1:2": [
+   "Manos Ahuecadas de los Ancestrales",
+   [
+    [
+     "1",
+     "Se aplica la tabla de Pifia normal"
+    ],
+    [
+     "2-6",
+     "Plantilla de 3\" sobre un personaje enemigo designado (F6 FP −2)"
+    ]
+   ]
+  ],
+  "endPlayerTurn:1": [
+   "Duración aleatoria (D6 + nº de ronda)",
+   [
+    [
+     "D6 + ronda < 10",
+     "La batalla continúa una ronda más"
+    ],
+    [
+     "D6 + ronda ≥ 10",
+     "La batalla termina (suma fijada por el escenario: 10 por defecto)"
+    ]
+   ]
+  ],
+  "applySpell0:32": [
+   "Apoteosis (según el resultado de lanzamiento)",
+   [
+    [
+     "lanzamiento 12+",
+     "El personaje recupera 1D3 + 1 Heridas"
+    ],
+    [
+     "lanzamiento 10-11",
+     "El personaje recupera 1D3 Heridas"
+    ]
+   ]
+  ],
+  "applySpell0:1": [
+   "Maldición de Hashut: chequeo de Resistencia del personaje",
+   [
+    [
+     "≤ R (1-5)",
+     "Supera: 1D3 impactos del hechizo"
+    ],
+    [
+     "6 o más que su R",
+     "Falla: 1D3 + 2 impactos del hechizo"
+    ]
+   ]
+  ],
+  "applySpell0:27": [
+   "Prueba de Iniciativa del hechizo",
+   [
+    [
+     "≤ I (nunca un 6)",
+     "Se libra: sin impactos"
+    ],
+    [
+     "> I o un 6",
+     "1D3 impactos del hechizo"
+    ]
+   ]
+  ]
+ }
+}

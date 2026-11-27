@@ -1,0 +1,151 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+aj_beasts2-001	aj_beasts2.txt:1-160	Portada, indice, creditos y trasfondo 'The Cloven Ones' (naturaleza, jerarquia de la manada)	NA		Ambientacion
+aj_beasts2-002	aj_beasts2.txt:162-304	Trasfondo 'The Realms of the Beast' y fotos de unidades	NA		Ambientacion
+aj_beasts2-003	aj_beasts2.txt:305-360	'The Dark Tongue': lengua oscura y tabla de runas	NA		Ambientacion
+aj_beasts2-004	aj_beasts2.txt:361-516	Narrativa 'The Depths of Winter' (Isenbuttel, Rosche, Kralmaw)	NA		Historia
+aj_beasts2-005	aj_beasts2.txt:518-540	Escenario Clash at the Northern Crossroads: listas historicas (atacante Wild Herd 2.500 con Kralmaw general; defensor Im	OK	data.js:SCN_REQ.crossroads	Listas impuestas (Manada Salvaje con Kralmaw de General vs Gran Ejército del Imperio, 2.500 pts); alternativa «Cualquier ejército» ya existente
+aj_beasts2-006	aj_beasts2.txt:545-564	Zonas de despliegue (atacante 18 pulg de fondo, 6 de margen; defensor zona central 18 pulg a 9 del borde)	OK	rules.js:196 z:[R_(6,30,66,48),R_(18,9,54,27)]	Medidas coinciden con el mapa
+aj_beasts2-007	aj_beasts2.txt:566-572	Terreno: mesa dispersa con arboledas en bordes y tiendas/hogueras al centro	OK	rules.js:196 terr:'edges', extra ct1-ct3	Decorado orientativo
+aj_beasts2-008	aj_beasts2.txt:573-578	Despliegue: el defensor despliega todo su ejercito primero y despues el atacante	PARCIAL	rules.js:autoDeploy	El motor despliega ambos ejércitos a la vez (sin turnos de colocación); el orden defensor-primero no se modela en ningún escenario
+aj_beasts2-009	aj_beasts2.txt:579-581	El atacante juega automaticamente el primer turno	OK	rules.js:196 first:0	
+aj_beasts2-010	aj_beasts2.txt:583-586	Duracion: sin limite de turnos; termina al alcanzar el punto de ruptura o rendirse	OK	rules.js:196 gend:'break'; rules.js:5788	Tope tecnico de 20 turnos (turns:20)
+aj_beasts2-011	aj_beasts2.txt:566-571	Punto de ruptura = 25% de la Fuerza de Unidad inicial de la lista (personajes incluidos, redondeo abajo)	OK	rules.js:448 initUs; rules.js:5796	
+aj_beasts2-012	aj_beasts2.txt:573-578	Si en la subfase de Inicio de turno la US restante es inferior al punto de ruptura, el ejercito rompe y acaba la partida	OK	rules.js:5793-5799	
+aj_beasts2-013	aj_beasts2.txt:580-583	Unidades que persiguieron fuera de la mesa y unidades en reserva cuentan como en la mesa para el punto de ruptura	OK	rules.js:~5805 (reservas sumadas a la US actual)	La US actual solo suma s.units; las reservas no se cuentan (si en la inicial)
+aj_beasts2-014	aj_beasts2.txt:585-587	Nevada intensa: -3 pulg al alcance de todas las armas de proyectil (incluida magia)	OK	rules.js:~3254 spellTargets (-3 pulg a proyectiles magicos en crossroads)	
+aj_beasts2-015	aj_beasts2.txt:587-589	Nevada intensa: tiradas de carga -1 (minimo 1)	OK	rules.js:3082	
+aj_beasts2-016	aj_beasts2.txt:591-596	Victoria: el ejercito no roto logra victoria aplastante; si ambos rompen a la vez, Puntos de Victoria	OK	rules.js:196, 6017	
+aj_beasts2-017	aj_beasts2.txt:699-709	Lista Minotaur Blood Herd (AoI) usable en lugar del Gran Ejercito de Ravening Hordes	OK	data.js:3453 INF.blood	
+aj_beasts2-018	aj_beasts2.txt:712-713	Personajes: hasta 50% de los puntos	OK	data.js:4440 (by.char > 0.5)	
+aj_beasts2-019	aj_beasts2.txt:715	0-1 Toro de la Perdicion (Doombull) por 1.000 pts	OK	data.js:3456 chk	
+aj_beasts2-020	aj_beasts2.txt:716	0-1 Chaman Bray por 1.000 pts	OK	data.js:3456 chk	
+aj_beasts2-021	aj_beasts2.txt:717	Gorebulls, Wargors y Jefes Centigors como personajes	OK	data.js:3454 allow	
+aj_beasts2-022	aj_beasts2.txt:713-715	Basicas: al menos 33% de los puntos	OK	data.js:3453 core:0.33	
+aj_beasts2-023	aj_beasts2.txt:715	1 Manada de Minotauros por 1.000 pts como Basica	OK	data.js:3453 promote per; chk 3456	Se promueve a Basica y se exige >=1 por 1.000
+aj_beasts2-024	aj_beasts2.txt:716	0-1 Piedra de las Manadas como Basica	OK	data.js:~3454 INF.blood allow+comp core bm_herdstone	
+aj_beasts2-025	aj_beasts2.txt:717	Manadas de Gors, Ungors y Perros del Caos como Basicas	OK	data.js:3454 allow	
+aj_beasts2-026	aj_beasts2.txt:719-724	Especiales hasta 50%: 0-1 Ogros Dragon por 1.000; Arpias, Minotauros, Centigors, Razorgors y Ghorgons	PARCIAL	data.js:3454-3456	Falta texto fuente del perfil de la Manada de Razorgors (RH, no disponible); no implementable
+aj_beasts2-027	aj_beasts2.txt:726-731	Raras hasta 33%: 0-1 Shaggoth por 1.000; Gigantes del Caos	OK	data.js:3453 rare:0.33; 3456	
+aj_beasts2-028	aj_beasts2.txt:731-732	Raras: Ogros del Caos y Trolls del Caos (RH p.64-65)	OK	data.js:3453 extra woc_ogres/woc_trolls	
+aj_beasts2-029	aj_beasts2.txt:735-740	Portaestandarte: un Gorebull o Wargor por +25 pts, mas un estandarte magico sin limite	OK	data.js:~2472 CMD bm_gorebull [null,25,null]	
+aj_beasts2-030	aj_beasts2.txt:742-745	Objetos magicos: Comunes u objetos de Hombres Bestia	OK	data.js:2807-2825 (fac bm)	
+aj_beasts2-031	aj_beasts2.txt:757-761	Bloodshed & Butchery: Doombulls, Gorebulls, Manadas de Minotauros y de Gors ganan Impetuoso	OK	rules.js:144 LG.blood	Solo variantes sin Emboscadores de Gors (las _amb no existen en Blood)
+aj_beasts2-032	aj_beasts2.txt:768-773	Champions of Slaughter: si el General se vuelve Frenetico por Rabia de Sangre, las unidades amigas en su alcance de mand	OK	rules.js:4470	
+aj_beasts2-033	aj_beasts2.txt:762-767	Magics of the Dark Gods: el General debe ser Doombull o Gorebull	OK	data.js:3456 chk	
+aj_beasts2-034	aj_beasts2.txt:763-767	Magics of the Dark Gods: General Mago nivel 1 (+35) o 2 (+65), Saber de Magia de Batalla u Oscura, armadura sin penaliza	OK	data.js:~5145 opts w1/w2 list:blood; validacion data.js:~4358	Opcion solo valida en lista Blood (35/65 pts, Batalla u Oscura); el motor no modela penalizador de armadura para magos
+aj_beasts2-035	aj_beasts2.txt:775-784	Guardians of the Herdstones: Mutaciones del Caos y/o Dones del Caos hasta 50 pts (sustituye la opcion de mutaciones)	OK	data.js:3228 (tope 50); data.js:2723-2731	
+aj_beasts2-036	aj_beasts2.txt:852-861	Lista Wild Herd (AoI) usable en lugar del Gran Ejercito	OK	data.js:3457 INF.wild	
+aj_beasts2-037	aj_beasts2.txt:864-866	Personajes hasta 50%; 0-1 Señor de las Bestias o Gran Chaman Bray por 1.000	OK	data.js:3460 chk	
+aj_beasts2-038	aj_beasts2.txt:866	Wargors, Chamanes Bray y Jefes Centigors como personajes	OK	data.js:3458 allow	
+aj_beasts2-039	aj_beasts2.txt:865-867	Basicas al menos 33%; 1+ Manada Primigenia	OK	data.js:3457 core:0.33; chk 3460	
+aj_beasts2-040	aj_beasts2.txt:868	0-1 Carro de Tuskgors por 1.000 pts como Basica	OK	data.js:3457 promote per	
+aj_beasts2-041	aj_beasts2.txt:869-870	0-1 Manada de Centigors Basica por cada Jefe Centigor	OK	data.js:4306	
+aj_beasts2-042	aj_beasts2.txt:871-872	Basicas: Gors, Ungors, Perros del Caos, Perros Primigenios	OK	data.js:3458	
+aj_beasts2-043	aj_beasts2.txt:872	Basicas: Manadas de Razorgors	AUSENTE		Falta texto fuente del perfil de la Manada de Razorgors (RH, no disponible); no implementable
+aj_beasts2-044	aj_beasts2.txt:874-880	Especiales: 0-1 Ogros Dragon; Gors Deformes, Bestigors, Arpias, Centigors, Carros de Tuskgors y Razorgor; 0-1 Cocatriz o	OK	data.js:3458-3460	
+aj_beasts2-045	aj_beasts2.txt:882-887	Raras hasta 33%: Shaggoths, Jabberslythes, Cygors, Gigantes, Engendros del Caos	OK	data.js:3457 rare:0.33; extra woc_spawn	
+aj_beasts2-046	aj_beasts2.txt:890-895	Portaestandarte: un Wargor por +25 pts y un estandarte magico sin limite	OK	data.js:970; data.js:2472 bm_wargor cmd 25	
+aj_beasts2-047	aj_beasts2.txt:897-900	Objetos magicos Comunes u objetos de Hombres Bestia	OK	data.js:2807-2825	
+aj_beasts2-048	aj_beasts2.txt:917-919	Ancient Sorcery: Chamanes de la Manada Salvaje pueden conocer hechizos del Saber Primigenio	OK	rules.js:doCast lk0 / main.js lore cycle	Saber Primigenio solo en lista wild (o con Diente Sangriento); Kralmaw conserva su propia lista de Saberes
+aj_beasts2-049	aj_beasts2.txt:921-937	Dark Coven: +1 a lanzar o disipar por cada otro Mago amigo en alcance de mando	OK	rules.js:3300-3306, 3909, 3423	Solo Chaman/Gran Chaman Bray en lista wild
+aj_beasts2-050	aj_beasts2.txt:931-937	Dark Coven: cualquier doble natural en esa tirada es Disfuncion que afecta al Chaman y a cada Mago amigo en alcance	OK	rules.js:~3947 (lanzar), ~3427 (disipar), covenMiscast	
+aj_beasts2-051	aj_beasts2.txt:913-915	Roaming Warbands: cualquier numero de Manadas de Gors, Ungors, Primigenias y Centigors pueden tener Emboscadores por +1 	OK	data.js:bm_warherd*.opts amb, bm_centigors amb unl	Emboscadores +1/modelo en Manadas Primigenias y Centigors sin límite en la Manada Salvaje
+aj_beasts2-052	aj_beasts2.txt:920-921	Roaming Warbands: Jefes y Jefes Centigors pueden tener Emboscadores por +10 pts, cualquier numero	OK	data.js:bm_wargor.opts amb unl, bm_centigor_chief.opts amb	Jefes y Jefes Centigor con Emboscadores +10 sin límite en la Manada Salvaje
+aj_beasts2-053	aj_beasts2.txt:924-926	Roaming Warbands: 0-1 Manada de Gors/Ungors/Centigors por 1.000 con US 10 o menos con Emboscadores gratis	OK	data.js:opts ambf + armyIssues	Emboscadores gratis 0-1 Manada Gors/Ungors/Centigors por 1.000 pts con FU<=10
+aj_beasts2-054	aj_beasts2.txt:940-947	Gifts from the Dark Gods: +25 pts adicionales en objetos magicos	OK	data.js:3178 LIST_IB.wild	
+aj_beasts2-055	aj_beasts2.txt:945-947	Gifts from the Dark Gods: +25 pts adicionales en Mutaciones del Caos	OK	data.js:~3228 mgMax 75 en wild	
+aj_beasts2-056	aj_beasts2.txt:997-999	Kralmaw es Gran Chaman Bray, incluible en cualquier lista con la opcion; se juega tal como se presenta	OK	data.js:4201 (listas grand, wild)	
+aj_beasts2-057	aj_beasts2.txt:1001-1003	Perfil Kralmaw: M5 HA3 HP3 F4 R5 H4 I3 A2 Ld8, 245 pts	OK	data.js:4201	
+aj_beasts2-058	aj_beasts2.txt:1005-1008	Infanteria regular (personaje con nombre), 30x30, unidad 1; equipo mano y Totem Macabro (Baston de los brayes)	OK	data.js:4201	
+aj_beasts2-059	aj_beasts2.txt:1010-1013	Mago nivel 4 con Magia Oscura o Primigenia	OK	data.js:4228 lores [dark, primal]	
+aj_beasts2-060	aj_beasts2.txt:1015	Reglas: Lore of Beasts	OK	data.js:4201 beastLore; rules.js:796	
+aj_beasts2-061	aj_beasts2.txt:1015	Reglas: Furia Primigenia, Warband, Mirada de los Dioses, Marca Indivisa	OK	data.js:4201 sr	
+aj_beasts2-062	aj_beasts2.txt:1018-1022	Future Sight: salvacion especial 4+ contra cualquier herida	OK	data.js:4201 ward4; rules.js:1672	
+aj_beasts2-063	aj_beasts2.txt:1027-1030	Leering Spirit: marcador colocado a mas de 8 pulg del enemigo, 360 grados de LdV, inmovil, intocable; se retira si Kralm	OK	rules.js:createGame leerPos, leerPlace, spellTargets _leer; main.js; render.js	"Marcador Espiritu Miron: colocable a mas de 8"" de enemigos, 360 grados, inmovil, desaparece con Kralmaw"
+aj_beasts2-064	aj_beasts2.txt:1031-1033	Leering Spirit: en la Fase de Disparo de cada turno lanza Devolve (Lore of Beasts) como hechizo ligado NP3	OK	rules.js:spellTargets(_leer), canCast	Devolve (NP3 ligado) en Fase de Disparo con alcance y vision medidos desde el marcador
+aj_beasts2-065	aj_beasts2.txt:1043-1044	Grisly Totem: Baston de los brayes; enemigos a 6 pulg de Kralmaw -1 Ld (minimo 2)	OK	data.js:264; rules.js:1431	
+aj_beasts2-066	aj_beasts2.txt:1102-1104	Ghorros Warhoof es Jefe Centigor, incluible en listas con la opcion; se juega tal como se presenta	OK	data.js:4202 (grand, blood, wild)	
+aj_beasts2-067	aj_beasts2.txt:1106-1107	Perfil Ghorros: M8 HA5 HP3 F5 R4 H3 I4 A4 Ld8, 155 pts	OK	data.js:4202	
+aj_beasts2-068	aj_beasts2.txt:1109-1112	Caballeria pesada (personaje con nombre), 30x60, unidad 1; equipo mano, Mansmasher y Craneo del Señor Unicornio	OK	data.js:4202	
+aj_beasts2-069	aj_beasts2.txt:1113	Reglas: Drunken, Gaze, Mark Undivided, Move through Cover, Primal Fury, Swiftstride, Warband	OK	data.js:4202 sr; rules.js:5475	
+aj_beasts2-070	aj_beasts2.txt:1113	Stomp Attacks (D3)	OK	data.js:4228 stompN D3	
+aj_beasts2-071	aj_beasts2.txt:1121-1122	Father of Beasts: Manadas de Centigors amigas en alcance de mando repiten el D6 de la tabla Drunken	PARCIAL	rules.js:5477	VERIF v732: rules.js:6340 repite SIEMPRE el D6 (incluso un 6 bueno, sin eleccion) y se aplica a cualquier unidad Borracha amiga, no solo Manadas de Centigors | Se aplica a cualquier unidad Drunken amiga, no solo Centigors
+aj_beasts2-072	aj_beasts2.txt:1128-1131	Sons of Ghorros: 0-1 Manada de Centigors por +2 pts/modelo, +1 HA y Ld (max 10), Perforante (1)	OK	data.js:~3454 blood allow; data.js:~4508 validacion en todas las listas	
+aj_beasts2-073	aj_beasts2.txt:1137-1139	Skull of the Unicorn Lord: salvacion especial 6+ contra heridas no magicas y 5+ contra magicas	OK	rules.js:1676	
+aj_beasts2-074	aj_beasts2.txt:1141-1144	Mansmasher: F+1 solo en el turno de carga, FP -1, Perforante (1), Ataques Magicos, Heridas Multiples (D3)	OK	data.js:4228 mw D3	
+aj_beasts2-075	aj_beasts2.txt:1152-1154	Perfil Gor Deforme: M5 HA4 HP2 F3 R4 H1 I3 A D3 Ld7, 16 pts; Splice-horn Ld8 +8	OK	data.js:1000-1001; data.js:2472	Ld8 del campeon por regla general de campeon
+aj_beasts2-076	aj_beasts2.txt:1156-1159	Infanteria regular, unidad 5+, base 30x30, equipo armas de mano	OK	data.js:1000	
+aj_beasts2-077	aj_beasts2.txt:1161-1163	Toda la unidad toma armas de mano adicionales (gratis) o escudos (gratis)	OK	data.js:~5139 UNITS.bm_warped.opts ahw	
+aj_beasts2-078	aj_beasts2.txt:1164-1168	Campeon Splice-horn +8, portaestandarte +6, musico +6	OK	data.js:2472 [8,6,6]	
+aj_beasts2-079	aj_beasts2.txt:1169	0-1 unidad con Emboscadores por +1 pt/modelo	OK	data.js:~5139 UNITS.bm_warped.opts amb lim 1	
+aj_beasts2-080	aj_beasts2.txt:1171-1173	Reglas: Piel Blindada (1), Blood Rage, Marca Indivisa, Move through Cover, Open Order, Primal Fury, Ataques Aleatorios, 	OK	data.js:1001; data.js:5478	
+aj_beasts2-081	aj_beasts2.txt:1178-1180	Blessings of Chaos: al elegirse el combate (paso 1.1 Elegir y Luchar) tirar D6 en la tabla	OK	rules.js:fightGroup (Bendiciones del Caos)	D6 al elegirse cada combate (paso 1.1), no al inicio de la fase
+aj_beasts2-082	aj_beasts2.txt:1183-1192	Tabla Blessings: 1-2 Ataques Envenenados; 3-4 FP -2; 5-6 R+1 hasta fin de la fase	OK	rules.js:4981-4985	
+aj_beasts2-083	aj_beasts2.txt:1196-1197	Representacion con kit de Engendro del Caos	NA		Mesa fisica
+aj_beasts2-084	aj_beasts2.txt:1207-1208	Perfil Perro Primigenio: M7 HA4 HP0 F3 R3 H1 I3 A1 Ld5, 6 pts	OK	data.js:3569 (hereda bm_hounds)	
+aj_beasts2-085	aj_beasts2.txt:1210-1213	Bestias de guerra, base 25x50, unidad 10+, garras y colmillos (mano)	OK	data.js:3569; data.js:1003	
+aj_beasts2-086	aj_beasts2.txt:1216-1217	Un Ungor Ravager por cada tres Perros Primigenios por +7 pts	OK	data.js:3569 mixRear perFront 3	
+aj_beasts2-087	aj_beasts2.txt:1218-1220	Piel Blindada (1) +1 pt/modelo; Ataques Envenenados +1 pt/modelo	OK	data.js:3570	
+aj_beasts2-088	aj_beasts2.txt:1222	Reglas: Close Order, Horde, Motley Crew, Move through Cover, Swiftstride, Warband	OK	data.js:3569 addSr	
+aj_beasts2-089	aj_beasts2.txt:1227-1235	Perfil Ungor Ravager M7 HA3 HP3 F3 R3 H1 I3 A1 Ld7, 7 pts; infanteria regular 25x25; manos, lanzas arrojadizas y escudo	OK	data.js:3571	
+aj_beasts2-090	aj_beasts2.txt:1235-1236	Reglas Ravager: Close Order, Horde, Leader of the Pack, MtC, Primal Fury, Swiftstride, Warband	OK	data.js:3571	
+aj_beasts2-091	aj_beasts2.txt:1241-1245	Leader of the Pack: Ravagers ocupan filas traseras y los Perros las delanteras	OK	data.js:3569 mixRear; rules.js:89-92	
+aj_beasts2-092	aj_beasts2.txt:1258-1260	Perfiles Manada Primigenia: Gor 7 pts (A1 Ld6), Ungor 6 pts (HA3 R3 Ld5), Foe-render A2 Ld7 +7	OK	data.js:3583-3584; data.js:988	
+aj_beasts2-093	aj_beasts2.txt:1262-1267	Infanteria regular, tamaño 10+/10+, base 25x25; Gors mano, Ungors mano y escudo	OK	data.js:3583 min 20 minFront 10	
+aj_beasts2-094	aj_beasts2.txt:1270-1275	Gors: armas de mano adicionales o escudos (gratis); Ungors: lanzas de empuje o arrojadizas (gratis)	OK	data.js:3580-3583 (4 variantes)	
+aj_beasts2-095	aj_beasts2.txt:1276-1279	Foe-render +7, portaestandarte +5, musico +5 (un Gor)	OK	data.js:2472 bm_gor [7,5,5]	
+aj_beasts2-096	aj_beasts2.txt:1280	Estandarte magico hasta 50 pts	OK	data.js:3179 bannerBudget	
+aj_beasts2-097	aj_beasts2.txt:1281-1283	Foe-render: sustituir mano o escudo por arma a dos manos (gratis)	OK	data.js:bm_warherd*.opts cgw	Desgarrador: arma a dos manos gratis (opcion cnt, necesita campeon)
+aj_beasts2-098	aj_beasts2.txt:1283	Foe-render: objetos magicos hasta 25 pts	OK	data.js:CHAMP_IB bm_warherd	Presupuesto 25 pts del Desgarrador
+aj_beasts2-099	aj_beasts2.txt:1285-1287	Reglas: Bestial Charge (solo Gors), Blood Rage, Close Order, Horde, Impetuous, Marca Indivisa, Mixed Unit, Move through 	OK	data.js:3583-3584	
+aj_beasts2-100	aj_beasts2.txt:1285-1287	Motley Crew (Variopinto)	OK	data.js:~3595 motley en Manada Primigenia	
+aj_beasts2-101	aj_beasts2.txt:1289-1291	Minimo 10 Gors y 10 Ungors; Gors siempre en filas delanteras y empujan a los Ungors	OK	data.js:3583 mixRear	
+aj_beasts2-102	aj_beasts2.txt:1297-1298	Bestial Charge: +1 F tras carga de 3 pulg o mas (solo Gors)	OK	rules.js:4099	
+aj_beasts2-103	aj_beasts2.txt:1303-1307	Mixed Unit: impactos de disparo repartidos por igual entre Gors y Ungors; en combate se ataca a la fila de combate	OK	rules.js:1623; data.js:3583	
+aj_beasts2-104	aj_beasts2.txt:1315-1316	Perfil Preyton: M6 HA5 HP0 F5 R5 H4 I5 A4 Ld6, 160 pts	OK	data.js:4244	
+aj_beasts2-105	aj_beasts2.txt:1318-1321	Criatura monstruosa, base 75x50, unidad 1; garras y colmillos, astas retorcidas, piel escamosa (armadura pesada)	PARCIAL	data.js:4244 (arm heavy)	VERIF v732: data.js:4487 bm_preyton baseW:50 baseD:75 pero la fuente dice 75 x 50 (W x D; en el mismo motor 50x75 Lammasu = baseW50/baseD75): base invertida; resto correcto
+aj_beasts2-106	aj_beasts2.txt:1326	Opcion Emboscadores +10 pts	OK	data.js:4242 _amb 10	
+aj_beasts2-107	aj_beasts2.txt:1327	Opcion Frenesi +5 pts	OK	data.js:4266 coste frenesi 5	
+aj_beasts2-108	aj_beasts2.txt:1329	Reglas: Close Order, Crown of Antlers, Endless Malice, Fly (10), Impact Hits (D3), Large Target, Terror	OK	data.js:4244; data.js:4767 FLYX	
+aj_beasts2-109	aj_beasts2.txt:1333-1337	Crown of Antlers: Impactos con Perforante (1) y FP -1	OK	data.js:4244 impact S5 ap1 ab1	
+aj_beasts2-110	aj_beasts2.txt:1343-1345	Endless Malice: al ganar y reagrupar (supera Ld), enemigos a 6 pulg hacen Panico	OK	rules.js:4244-4255	Omite unidades trabadas
+aj_beasts2-111	aj_beasts2.txt:1348	Astas retorcidas: combate F, FP -2, Perforante (1)	OK	data.js:4244 melee ap2 ab1	
+aj_beasts2-112	aj_beasts2.txt:1352-1353	Creature of Chaos: 0-1 Preyton por 1.000 como Especial en Gran Ejercito	OK	data.js:4246; data.js:4665	
+aj_beasts2-113	aj_beasts2.txt:1416-1420	Piedra de las Manadas: 0-1 por ejercito, 100 pts, rasgo especial de hasta 6 pulg, impasable, eleccion Especial	OK	data.js:803; rules.js:1805-1822	
+aj_beasts2-114	aj_beasts2.txt:1419	Puede incluirse en cualquier ejercito Hombres Bestia con cualquier lista de composicion	OK	data.js:3454,3461 allow bm_herdstone	
+aj_beasts2-115	aj_beasts2.txt:1422	Un rasgo especial de escenario puede sustituirse por una Piedra de las Manadas si los jugadores acuerdan	OK	rules.js:placeHerdstones herdRepl; main.js sHerd	Ajuste de partida: sustituir el rasgo especial del escenario por la Piedra (se coloca donde indica el escenario)
+aj_beasts2-116	aj_beasts2.txt:1425-1431	Colocacion: tras terreno y tirada de despliegue, fuera de la zona rival y a mas de 6 pulg del centro	OK	rules.js:herdPlace/herdIssue; main.js herdsel	"El jugador coloca la Piedra (fuera de zona rival y a mas de 6"" del centro); la IA conserva la posicion automatica"
+aj_beasts2-117	aj_beasts2.txt:1425-1430	Control: una unidad a 6 pulg, US 5+, no huyendo; la mas cercana manda; empate = disputada	OK	rules.js:1825-1834	
+aj_beasts2-118	aj_beasts2.txt:1433-1436	A Tingle in the Air: la unidad que la controla gana Resistencia a la Magia (-1)	OK	rules.js:1487	
+aj_beasts2-119	aj_beasts2.txt:1438-1443	Bestial Fury: unidades Hombres Bestia amigas a 12 pulg repiten 1 naturales para herir en combate	OK	rules.js:4227	
+aj_beasts2-120	aj_beasts2.txt:1445-1451	Dark Sorcery: Magos Hombres Bestia amigos a 12 pulg +1 a lanzar; Magos enemigos a 12 pulg -1	OK	rules.js:1839 herdCast (+1 solo magos bm)	
+aj_beasts2-121	aj_beasts2.txt:1453-1458	Fearsome Edifice: enemigos a 12 pulg -1 Ld en tests de Miedo, Panico o Terror	OK	rules.js:1438 psyLd	
+aj_beasts2-122	aj_beasts2.txt:1460-1464	Victory Points: quien controle una Piedra al final gana 200 PV	OK	rules.js:5990	
+aj_beasts2-123	aj_beasts2.txt:1507-1520	Primordial Gloom (firma): Vortice, CV 9+, 12 pulg, plantilla 3 fija, terreno peligroso, enemigos a 6 pulg -1 Ld (min 2) 	OK	data.js:2310; rules.js:1411,1942	
+aj_beasts2-124	aj_beasts2.txt:1526-1534	1. Call of the Wild: Conveyance CV 8+, 12 pulg, solo infanteria/caballeria amiga, Reserve Move	OK	data.js:2311; rules.js:3252,3644	
+aj_beasts2-125	aj_beasts2.txt:1537-1551	2. In the Gloaming Wildwood: Hex CV 10+, 15 pulg, permanece; el objetivo teme al ejercito del lanzador (Terror si ya Mie	OK	data.js:2312; rules.js:3563	
+aj_beasts2-126	aj_beasts2.txt:1553-1567	3. Flock of Doom: Assailment CV 8+, plantilla 3 sobre unidad trabada, dispersion D3+1, F3 FP - con Heridas Multiples (2)	OK	data.js:flock_doom_p hitsFn blast3s	"Plantilla 3"" con dispersion D3+1 y modelos bajo ella"
+aj_beasts2-127	aj_beasts2.txt:1530-1534	4. Fury of the Beast: Enchantment CV 9+, Self, lanzador y unidad ganan Fight in Extra Rank	OK	data.js:2314; rules.js:3567	
+aj_beasts2-128	aj_beasts2.txt:1541-1546	5. Strangleroot: Magic Missile CV 9+, 4D6, linea recta de 4D6 desde la peana, D3 impactos F3 FP -2	OK	data.js:2315 cv 9	
+aj_beasts2-129	aj_beasts2.txt:1548-1565	6. 'Neath the Shaden Wodespan: Vortex CV 10+, 15 pulg, plantilla 5 fija, peligroso sin LdV, enemigos a 6 pulg -2 HP, pan	OK	data.js:2316; rules.js:2415, 6804-6857	
+aj_beasts2-130	aj_beasts2.txt:1499-1504	Primal Magic: Saber extra disponible para Magos de caracter salvaje (se elige al escribir la lista)	OK	data.js:2429; data.js:4864	
+aj_beasts2-131	aj_beasts2.txt:1587-1595	El Mazo Negro 80 pts: F+2, FP -3, Ataques Extra (+D6), Magico; un 6 natural da -1 HA el resto de la partida	OK	data.js:2807; rules.js:4127	
+aj_beasts2-132	aj_beasts2.txt:1597-1605	Hachas de Khorgor 40 pts: F+1, FP -2, Ataques Extra (+1), Magico, Dos manos; repite 1 naturales para herir	OK	data.js:2808	
+aj_beasts2-133	aj_beasts2.txt:1607-1614	Cuchilla de Laton 30 pts: F, FP -2, Magica; 6 natural para herir anula armadura, especial y regeneracion	OK	data.js:2809; rules.js:1731,1740	
+aj_beasts2-134	aj_beasts2.txt:1616-1621	Cimitarra de Skultar 25 pts: F, FP -1, Perforante (1), Magica, Heridas Multiples (2)	OK	data.js:2810	
+aj_beasts2-135	aj_beasts2.txt:1629-1639	Armadura Completa del Caos* 40 pts: armadura completa, Magos pueden llevarla, salvacion especial 5+; extremadamente comu	OK	data.js:~2811 star	
+aj_beasts2-136	aj_beasts2.txt:1630-1639	Armadura Pesada del Caos* 30 pts: armadura pesada, Magos pueden llevarla, salvacion especial 5+; extremadamente comun	PARCIAL	data.js:~2812 star	"VERIF v732: data.js:2841 bmaj_heavy cost30 sv5 ward5 correcto, pero rules.js:3873/3969 impiden lanzar a un Mago con item cat a sv (sin exencion chaosArmour para este objeto): falta ""Mago sin penalizacion"""
+aj_beasts2-137	aj_beasts2.txt:1641-1647	Piel de Sharggu 20 pts: armadura +2 (max 2+) contra disparos no magicos, compatible con otra armadura	OK	data.js:2813; rules.js:1655	
+aj_beasts2-138	aj_beasts2.txt:1651-1660	Caliz de la Lluvia Oscura 50 pts: un uso; alcance de proyectiles enemigos a la mitad (redondeo arriba) y maquinas de gue	OK	data.js:2814; rules.js:1452, 6487	
+aj_beasts2-139	aj_beasts2.txt:1662-1669	Cornucopia de la Obesidad 30 pts: enemigos en contacto hacen test de R al elegirse el combate; si fallan pierden 1 Herid	OK	rules.js:baseTouchN + fightGroup	Un chequeo de R por cada modelo enemigo en contacto de peana con el portador (6 natural falla)
+aj_beasts2-140	aj_beasts2.txt:1646-1654	Estandarte Sangriento 50 pts: para cargar a la unidad hay que superar test de Ld o no se mueve (carga fallida)	OK	data.js:2817; rules.js:2965	
+aj_beasts2-141	aj_beasts2.txt:1656-1665	Estandarte de la Luna Distorsionada 45 pts: Fase de Mando sin estar trabado, test de Ld propio; enemigos sin Fly	OK	data.js:~2818 sin single; rules.js:~6494	
+aj_beasts2-142	aj_beasts2.txt:1667-1673	Estandarte de la Bestia 40 pts: carga maxima +3 y +D3 a la tirada de carga	OK	data.js:2819; rules.js:3080	
+aj_beasts2-143	aj_beasts2.txt:1675-1681	Tapiz Sucio 15 pts: Odio (todos los enemigos); todos los modelos enemigos Odian a la unidad	OK	data.js:bmaj_tapestry tapestry; rules.js hatred	Los enemigos tienen Odio contra la unidad portadora
+aj_beasts2-144	aj_beasts2.txt:1687-1695	Cuerno de la Gran Caceria 35 pts: una vez por turno, tras la tirada de llegada de unidad con Emboscadores en reserva, mo	OK	rules.js:llegada de Emboscadores hornPref; main.js; ai.js	El jugador elige +1 propio / -1 rival / no usar; IA por autoaprendizaje
+aj_beasts2-145	aj_beasts2.txt:1697-1702	Azote de los Cargados 25 pts: lanza Call of the Wild como hechizo ligado NP 2	PARCIAL	data.js:2821	VERIF v732: data.js:2850 bmaj_scourge boundSpell call_wild PL2 25 pts OK, pero wiz:true limita el objeto a Magos (data.js:3355) y la fuente (aj_beasts2.txt:1698) no lo exige.
+aj_beasts2-146	aj_beasts2.txt:1706-1711	Himno Cacofonico 15 pts: musicos enemigos a 18 pulg no usan Onwards to Victory!, Steadying Rhythm ni Quick Time	OK	data.js:2822; rules.js:2719	El motor desactiva el musico entero
+aj_beasts2-147	aj_beasts2.txt:1687-1696	Sangre del Sombrio* 35 pts: un uso en lugar de disipar, disipa automaticamente (no invocacion perfecta)	OK	data.js:2823; rules.js:3380	
+aj_beasts2-148	aj_beasts2.txt:1698-1710	Corazon de Demonio 30 pts: al disipar cuenta Nivel de Magia uno mas que el del Mago o PN del ligado	OK	data.js:2824; rules.js:3371	Caso de hechizos ligados no verificado
+aj_beasts2-149	aj_beasts2.txt:1712-1719	Diente Sangriento* 15 pts: puede conocer hechizos del Saber Primigenio ademas de los suyos	OK	rules.js:doCast lk0; main.js lore	Diente Sangriento concede Saber Primigenio fuera de la Manada Salvaje
+aj_beasts2-150	aj_beasts2.txt:1578-1584	Objetos de Hombres Bestia comprables como Comunes; los marcados * son extremadamente comunes	OK	data.js:2807-2825	Armaduras ya marcadas *; resto de objetos sin * segun fuente

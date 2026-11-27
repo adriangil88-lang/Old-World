@@ -1,0 +1,835 @@
+id	peana motor	peana oficial	fuente	acción
+empire_general	25x25	25x25	fof.txt:1803	coincide
+empire_general_h	30x60	30x60	fof.txt:2159 ; fof.txt:2557 ; fof.txt:2603	coincide
+empire_general_peg	40x60	40x60 / 50x75 / 50x50	fof.txt:3941 ; fof.txt:2183 ; fof.txt:2195	coincide
+empire_general_demi	50x75	50x75	fof.txt:2650 ; fof.txt:2651	coincide
+empire_captain_peg	40x60	40x60 / 50x75 / 50x50	fof.txt:3941 ; fof.txt:2183 ; fof.txt:2195	coincide
+empire_captain_demi	50x75	50x75	fof.txt:2650 ; fof.txt:2651	coincide
+empire_lord_peg	40x60	40x60 / 50x75 / 50x50	fof.txt:3941 ; fof.txt:2183 ; fof.txt:2195	coincide
+empire_captain	25x25	25x25	fof.txt:1803	coincide
+empire_mage	25x25	25x25	fof.txt:1849 ; fof.txt:1850	coincide
+empire_lord	25x25	25x25	Wizard Lord@fof.txt:1849	coincide
+state_halberds	25x25	hereda de state_troops (25x25)	legacy.to → state_troops	coincide con la unidad a la que se redirige (variante de equipo/opción)
+state_spears	25x25	25x25	State Missile Trooper@fof.txt:2278	coincide
+state_swords	25x25	hereda de state_troops (25x25)	legacy.to → state_troops	coincide con la unidad a la que se redirige (variante de equipo/opción)
+crossbowmen	25x25	25x25	fof.txt:2278 ; fof.txt:2279	coincide
+handgunners	25x25	25x25	fof.txt:2278 ; fof.txt:2279	coincide
+greatswords	25x25	25x25	Greatsword@fof.txt:2379	coincide
+empire_knights	30x60	30x60	fof.txt:2557 ; fof.txt:2558	coincide
+emp_grandmaster	30x60	30x60	fof.txt:2159 ; fof.txt:2557 ; fof.txt:2603	coincide
+emp_chaptermaster	30x60	30x60	fof.txt:2159 ; fof.txt:2557 ; fof.txt:2603	coincide
+emp_general_griffon	50x50	50x50	fof.txt:2845 (Griffon: 50 x 50 mm)	coincide
+emp_witchhunter	25x25	25x25	fof.txt:1942 ; fof.txt:1943	coincide
+emp_lector	25x25	25x25	Lector of Sigmar@fof.txt:1988	coincide
+emp_priest	25x25	25x25	fof.txt:1988 ; fof.txt:1989	coincide
+emp_ulric	25x25	25x25	fof.txt:2034 ; fof.txt:2035	coincide
+emp_hulric	25x25	25x25	fof.txt:2034 ; fof.txt:2035	coincide
+emp_lector_altar	60x100	60x100	fof.txt:2697 ; fof.txt:2698	coincide
+emp_engineer	25x25	25x25	Empire Engineer@fof.txt:2079	coincide
+state_veterans	25x25	hereda de state_vets (25x25)	legacy.to → state_vets	coincide con la unidad a la que se redirige (variante de equipo/opción)
+free_company	25x25	25x25	fof.txt:2329 ; fof.txt:2330	coincide
+emp_archers	25x25	25x25	Archer@fof.txt:2346	coincide
+flagellants	25x25	25x25	Flagellant@fof.txt:2423	coincide
+pistoliers	30x60	30x60	fof.txt:2513 ; fof.txt:2514	coincide
+outriders	30x60	30x60	Outrider@fof.txt:2513	coincide
+inner_circle	30x60	30x60	fof.txt:2603 ; fof.txt:2604	coincide
+demigryph_knights	50x75	50x75	Demigryph Knight@fof.txt:2650	coincide
+steam_tank	60x100	60x100	fof.txt:2745	coincide
+mortar	50x75	50x75	fof.txt:2903 ; fof.txt:2904	coincide
+helblaster	50x75	50x75	fof.txt:2933 ; fof.txt:2934	coincide
+helstorm	50x75	50x75	fof.txt:2978 ; fof.txt:2979	coincide
+great_cannon	50x75	50x75	fof.txt:2886 ; fof.txt:2887	coincide
+orc_warboss	30x30	30x30	Orc Warboss@rh.txt:404	coincide
+orc_warboss_boar	30x60	30x60	rh.txt:714 ; rh.txt:1173 ; rh.txt:715	coincide
+black_warboss	30x30	30x30	Black Orc Warboss@rh.txt:358	coincide
+orc_bigboss	30x30	30x30	rh.txt:404 ; rh.txt:405	coincide
+black_bigboss	30x30	30x30	rh.txt:358 ; rh.txt:359	coincide
+gob_bigboss	25x25	25x25	rh.txt:496 ; rh.txt:497	coincide
+orc_weirdboy	30x30	30x30	rh.txt:448 ; rh.txt:449	coincide
+orc_weirdnob	30x30	30x30	Orc Weirdnob@rh.txt:448	coincide
+orc_boyz	30x30	30x30	Orc Boy@rh.txt:834	coincide
+orc_twin	30x30	hereda de orc_boyz (30x30)	legacy.to → orc_boyz	coincide con la unidad a la que se redirige (variante de equipo/opción)
+orc_arrers	30x30	30x30	Orc Boy@rh.txt:834	coincide
+black_orcs	30x30	30x30	Black Orc@rh.txt:789	coincide
+goblins	25x25	25x25	Goblin@rh.txt:881	coincide
+orc_bigs	30x30	hereda de orc_boyz (30x30)	legacy.to → orc_boyz	coincide con la unidad a la que se redirige (variante de equipo/opción)
+orc_frenzy	30x30	hereda de orc_boyz (30x30)	legacy.to → orc_boyz	coincide con la unidad a la que se redirige (variante de equipo/opción)
+goblins_sk	25x25	25x25	Goblin@rh.txt:881	coincide
+night_goblins	25x25	hereda de night_gobs (25x25)	legacy.to → night_gobs	coincide con la unidad a la que se redirige (variante de equipo/opción)
+night_goblins_net	25x25	hereda de night_gobs (25x25)	legacy.to → night_gobs	coincide con la unidad a la que se redirige (variante de equipo/opción)
+night_goblins_fan	25x25	hereda de night_gobs (25x25)	legacy.to → night_gobs	coincide con la unidad a la que se redirige (variante de equipo/opción)
+wolf_riders	25x50	25x50	Wolf Rider@rh.txt:1265	coincide
+wolf_riders_amb	25x50	25x50	rh.txt:1265 ; rh.txt:1266	coincide
+boar_boyz	30x60	hereda de boar_riders (30x60)	legacy.to → boar_riders	coincide con la unidad a la que se redirige (variante de equipo/opción)
+boar_bigs	30x60	hereda de boar_riders (30x60)	legacy.to → boar_riders	coincide con la unidad a la que se redirige (variante de equipo/opción)
+trolls	40x40	40x40	Chaos Troll@rh.txt:2698	coincide
+rock_lobber	60x100	60x100	rh.txt:1753 ; rh.txt:1754	coincide
+bolt_throwa	50x50	50x50	rh.txt:1697 ; rh.txt:1698	coincide
+we_lord	25x25	25x25	fof.txt:4651	coincide
+we_lord_h	30x60	30x60 / 50x100	fof.txt:5298 ; fof.txt:5392 ; fof.txt:6286	coincide
+we_captain	25x25	25x25	fof.txt:4651	coincide
+we_spellsinger	25x25	25x25	fof.txt:4697 ; fof.txt:4698	coincide
+we_spellweaver	25x25	25x25	Spellweaver@fof.txt:4697	coincide
+we_branchwraith	30x30	30x30	Branchwraith@fof.txt:4876	coincide
+we_ancient	50x50	50x50 / 50x75	Treeman Ancient@fof.txt:4831	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+we_glade_guard	25x25	25x25	fof.txt:5068 ; fof.txt:5110 ; fof.txt:5027	coincide
+we_eternal	25x25	25x25	fof.txt:5068 ; fof.txt:5069	coincide
+we_dryads	30x30	30x30	Dryad@fof.txt:5248	coincide
+we_glade_riders	30x60	30x60	fof.txt:5298	coincide
+we_rangers	25x25	25x25	Wildwood Ranger@fof.txt:5110	coincide
+we_wardancers	25x25	25x25	Wardancer@fof.txt:5155	coincide
+we_wild_riders	30x60	30x60	fof.txt:5392 ; fof.txt:5393	coincide
+we_warhawks	50x50	50x50	Warhawk Rider@fof.txt:5435	coincide
+we_treekin	50x50	50x50	fof.txt:5268 ; fof.txt:5269	coincide
+we_treeman	50x50	50x50 / 50x75	Treeman@fof.txt:5568	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+we_lord_stag	50x50	50x50	fof.txt:4953	coincide
+we_captain_stag	50x50	50x50	fof.txt:4953	coincide
+we_lord_dragon	60x100	25x25 / 60x100 / 30x60	fof.txt:582 ; fof.txt:6150 ; fof.txt:6715	coincide
+we_lord_eagle	50x50	50x50	fof.txt:5523 ; fof.txt:7042 ; fof.txt:5524	coincide
+we_captain_hawk	50x50	50x50	fof.txt:5435 ; fof.txt:4996 ; fof.txt:5436	coincide
+we_weaver_unicorn	40x60	40x60	fof.txt:4975 (Unicorn: 40 x 60 mm; personaje montado = peana de la montura)	CORREGIDO v843n: 25x25 → 40x60
+we_singer_unicorn	40x60	40x60	fof.txt:4975 (Unicorn: 40 x 60 mm; personaje montado = peana de la montura)	CORREGIDO v843n: 25x25 → 40x60
+we_shadowdancer	25x25	25x25	Shadowdancer@fof.txt:4742	coincide
+we_shadowdancer_w	25x25	25x25	fof.txt:4742 ; fof.txt:4743	coincide
+we_waystalker	25x25	25x25	Waystalker@fof.txt:4788	coincide
+we_araloth	25x25	25x25	aj_wood2.txt:1124 ; aj_wood.txt:2153 ; aj_wood2.txt:1125	coincide
+we_orion	50x50	50x50 / 25x50	Orion,@aj_wood2.txt:964	coincide
+we_scouts	25x25	25x25	fof.txt:5068 ; fof.txt:5110 ; fof.txt:5027	coincide
+we_waywatchers	25x25	25x25	Waywatcher@fof.txt:5203	coincide
+we_sisters	30x60	30x60	fof.txt:5345 ; fof.txt:5346	coincide
+we_eagle	50x50	50x50	Great Eagle@fof.txt:5523 ; Great Eagle@fof.txt:7042	coincide
+we_pack_hounds	25x50	25x50	Deepwood Hound@aj_wood2.txt:1314	coincide
+we_orion_hounds	25x50	25x50	aj_wood2.txt:964 ; aj_wood2.txt:966	coincide
+we_pack_cats	25x50	25x50	aj_wood2.txt:1314 ; aj_westerland.txt:2822 ; aj_wood2.txt:1315	coincide
+we_pack_boars	25x50	25x50	aj_wood2.txt:1314 ; aj_westerland.txt:2822 ; aj_wood2.txt:1315	coincide
+we_pack_bears	25x50	25x50	aj_wood2.txt:1314 ; aj_westerland.txt:2822 ; aj_wood2.txt:1315	coincide
+we_warden	25x25	25x25	Wardens of Talsyn@aj_wood2.txt:1166	coincide
+we_guardians	25x25	25x25	Guardians of Talsyn@aj_wood2.txt:1218	coincide
+gob_warboss	25x25	25x25	Goblin Warboss@rh.txt:496	coincide
+ng_warboss	25x25	25x25	Night Goblin Warboss@rh.txt:588	coincide
+ng_bigboss	25x25	25x25	rh.txt:588 ; rh.txt:589	coincide
+gob_oddnob	25x25	25x25	Goblin Oddnob@rh.txt:542	coincide
+gob_oddgit	25x25	25x25	rh.txt:542 ; rh.txt:638 ; rh.txt:543	coincide
+ng_oddnob	25x25	25x25	Night Goblin Oddnob@rh.txt:638	coincide
+ng_oddgit	25x25	25x25	rh.txt:638 ; rh.txt:639	coincide
+orc_warboss_wyvern	50x100	50x100	rh.txt:1460	coincide
+snotlings	40x40	40x40 / 50x75	rh.txt:946 ; rh.txt:1437	dentro de la horquilla oficial (v843m: peana elegible)
+spider_riders	25x50	25x50	Spider Rider@rh.txt:1220	coincide
+squig_herd	25x25	25x25	rh.txt:1072 ; rh.txt:1073	coincide
+squig_hoppers	25x25	25x25	Squig Hopper@rh.txt:1312	coincide
+river_trolls	40x40	40x40	rh.txt:1126	coincide
+stone_trolls	40x40	40x40	rh.txt:1126	coincide
+black_chariot	50x100	50x100	aj_orcs.txt:1160 ; aj_orcs2.txt:1159 ; aj_orcs.txt:1161	coincide
+orc_boar_chariot	50x100	50x100	aj_orcs.txt:1160 ; aj_orcs2.txt:1159 ; aj_orcs.txt:1161	coincide
+bm_herdstone	6x6	—	aj_beasts.txt (la Herdstone es un marcador/icono, sin perfil ni «Base Size»)	sin dato: marcador de escenografía, no unidad con perfil; 6x6 es una huella interna
+goods_cart	75x50	75x50	aj_orcs.txt:541	coincide
+wolf_chariot	50x100	50x100	rh.txt:1409 ; rh.txt:1410	coincide
+pump_wagon	50x75	50x75 / 50x100	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+arachnarok	100x150	100x150	rh.txt:1507 ; rh.txt:1508	coincide
+mangler_squig	50x75	50x75	Mangler Squig@rh.txt:1558	coincide
+gob_kiknik	25x50	25x50	Kiknik Toofsnatcha@aj_orcs.txt:879 ; Kiknik Toofsnatcha@aj_orcs2.txt:878	coincide
+orc_ogdruz	30x30	30x30	Ogdruz Swampdigga@aj_orcs.txt:961 ; Ogdruz Swampdigga@aj_orcs2.txt:960	coincide
+troll_hag	60x100	60x100	Troll Hag@aj_orcs.txt:1008 ; Troll Hag@aj_orcs2.txt:1007	coincide
+orc_ogre_bulls	40x40	40x40	Imperial Ogre@aj_empire.txt:1268 ; Ogre@aj_orcs.txt:1104	coincide
+orc_bonegrinder	100x150	50x100 / 100x150	Bonegrinder Giant@aj_orcs.txt:1203 ; Bonegrinder Giant@aj_orcs2.txt:1202	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+orc_giant	50x75	50x50 / 50x75	Giant@rh.txt:1605 ; Chaos Giant@rh.txt:4612	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+doom_diver	50x75	50x75	rh.txt:1715 (Doom Diver Catapult «50 x 75 mm (war machine), 25 x 25 mm (crew)»)	coincide (v843o: entrada hallada en el libro local)
+br_duke	30x60	30x60	fof.txt:3528 ; fof.txt:3801 ; fof.txt:3826	coincide
+br_baron	30x60	30x60	fof.txt:3528 ; fof.txt:3801 ; fof.txt:3826	coincide
+br_paladin	30x60	30x60	fof.txt:3528 ; fof.txt:3801 ; fof.txt:3826	coincide
+br_duke_hippo	50x50	40x60 / 50x75 / 50x50	fof.txt:3941 ; fof.txt:2183 ; fof.txt:2195	coincide
+br_baron_pegasus	50x50	50x50 / 40x60	fof.txt:3565 ; fof.txt:3579	coincide
+br_sergeant	25x25	25x25	Sergeant-at-Arms@fof.txt:3462	coincide
+br_realm_foot	25x25	25x25	Knight of the Realm@fof.txt:3603	coincide
+br_yeomen	25x50	25x50	fof.txt:3986 ; fof.txt:3987	coincide
+br_damsel	25x25	25x25	fof.txt:3413 ; fof.txt:3414	coincide
+br_prophetess	25x25	25x25	Prophetess@fof.txt:3413	coincide
+br_cecil	25x25	25x25	Sir Cecil Gastonne@aj_bretonnia.txt:1236	coincide
+br_green_knight	30x60	30x60	The Green Knight@aj_bretonnia.txt:1074	coincide
+br_elisse	40x60	40x60	aj_bretonnia.txt:1332 ; aj_bretonnia.txt:1333	coincide
+br_outcast	25x25	25x25	Outcast Wizard@aj_bretonnia.txt:1380	coincide
+br_outcast3	25x25	25x25	aj_bretonnia.txt:1380 ; aj_bretonnia.txt:1381	coincide
+br_yeoman_guard	25x25	25x25	Yeoman Guard@aj_bretonnia.txt:1439	coincide
+br_men_at_arms	25x25	25x25	Man-at-Arms@fof.txt:3655	coincide
+br_bowmen	25x25	25x25	Peasant Bowmen@fof.txt:3702	coincide
+br_squires	25x25	25x25	Squire@fof.txt:3629	coincide
+br_bowmen_fire	25x25	25x25	Peasant Bowmen@fof.txt:3702	coincide
+br_bowmen_stakes	25x25	25x25	Peasant Bowmen@fof.txt:3702	coincide
+br_pilgrims	25x25	25x25	fof.txt:3752 ; fof.txt:3753	coincide
+br_pilgrims_rel	25x25	25x25	fof.txt:3752 ; fof.txt:3753	coincide
+br_errant	30x60	30x60	Knight Errant@fof.txt:3801	coincide
+br_realm	30x60	30x60	Knight of the Realm@fof.txt:3826	coincide
+br_questing	30x60	30x60	Questing Knight@fof.txt:3850	coincide
+br_grail	30x60	30x60	Grail Knight@fof.txt:3898	coincide
+br_pegasus	40x60	40x60	fof.txt:3941 ; fof.txt:3942	coincide
+br_bombard	50x50	50x50	aj_bretonnia.txt:1551 ; aj_bretonnia.txt:1552	coincide
+br_brigands	25x25	25x25	Brigand@aj_bretonnia.txt:1497	coincide
+br_brigands_bb	25x25	25x25	aj_bretonnia.txt:1497 ; aj_bretonnia.txt:1498	coincide
+br_trebuchet	60x100	60x100	fof.txt:4080 ; fof.txt:4081	coincide
+bm_beastlord	25x25	25x25 / 30x30	Beastlord@rh.txt:3820	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+bm_wargor	25x25	25x25 / 30x30	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+bm_centigor_chief	30x60	30x60	rh.txt:4217 ; rh.txt:4218	coincide
+bm_gbs	25x25	25x25 / 30x30	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+bm_bs	25x25	25x25 / 30x30	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+bm_doombull	50x50	50x50	rh.txt:3918 ; rh.txt:3919	coincide
+bm_gorebull	50x50	50x50	rh.txt:3918 ; rh.txt:3919	coincide
+bm_gor	25x25	25x25	Gor@rh.txt:4068 ; Gor@aj_beasts.txt:1262	coincide
+bm_gor_aw	25x25	25x25	Gor@rh.txt:4068 ; Gor@aj_beasts.txt:1262	coincide
+bm_ungor	25x25	25x25	Ungor@rh.txt:4117	coincide
+bm_ungor_bow	25x25	25x25	Ungor@rh.txt:4117	coincide
+bm_warped	30x30	30x30	Warped Gor@aj_beasts.txt:1156 ; Warped Gor@aj_beasts2.txt:1156	coincide
+bm_hounds	25x50	25x50	rh.txt:2947 ; rh.txt:4313 ; rh.txt:2948	coincide
+bm_bestigor	30x30	30x30	Bestigor@rh.txt:4018	coincide
+bm_minotaurs	50x50	50x50	rh.txt:4167 ; rh.txt:4168	coincide
+bm_minotaurs_gw	50x50	hereda de bm_minotaurs (50x50)	legacy.to → bm_minotaurs	coincide con la unidad a la que se redirige (variante de equipo/opción)
+bm_centigors	30x60	30x60	rh.txt:4217 ; rh.txt:4218	coincide
+bm_harpies	25x25	25x25	leg_darkelves.txt:528 ; leg_darkelves.txt:529	coincide
+bm_dragon_ogres	50x75	50x75	rh.txt:4268 ; rh.txt:4269	coincide
+bm_ghorgon	60x100	60x100	Ghorgon@rh.txt:4718	coincide
+woc_lord	30x30	30x30	Chaos Lord@rh.txt:2259	coincide
+woc_lord_steed	30x60	30x60 / 60x100	rh.txt:2424 ; rh.txt:2802 ; rh.txt:2850	coincide
+woc_exalted	30x30	30x30	rh.txt:2259 ; rh.txt:2260	coincide
+woc_aspiring	30x30	30x30	rh.txt:2259 ; rh.txt:2260	coincide
+woc_sorc_lord	30x30	30x30	Sorcerer Lord@rh.txt:2356	coincide
+woc_ex_sorc	30x30	30x30	rh.txt:2356 ; rh.txt:2357	coincide
+woc_dprince	50x50	50x50	rh.txt:2307 ; rh.txt:2308	coincide
+woc_warriors	30x30	30x30	Chaos Warrior@rh.txt:2455	coincide
+woc_warriors_hb	30x30	hereda de woc_warriors (30x30)	legacy.to → woc_warriors	coincide con la unidad a la que se redirige (variante de equipo/opción)
+woc_warriors_gw	30x30	hereda de woc_warriors (30x30)	legacy.to → woc_warriors	coincide con la unidad a la que se redirige (variante de equipo/opción)
+woc_marauders	30x30	25x25	FAQ RH «Chaos Marauders» 30x30 ; Chaos Marauder@rh.txt:2551	FAQ manda sobre el libro (motor = FAQ)
+woc_marauders_gw	30x30	hereda de woc_marauders (30x30)	legacy.to → woc_marauders	coincide con la unidad a la que se redirige (variante de equipo/opción)
+woc_forsaken	30x30	30x30	Forsaken@rh.txt:2598	coincide
+woc_knights	30x60	30x60	Chaos Knight@rh.txt:2802	coincide
+woc_knights_l	30x60	30x60	rh.txt:2802 ; rh.txt:2803	coincide
+woc_horsemen	30x60	30x60	faq_rh.txt:347	coincide
+woc_hounds	25x50	25x50	rh.txt:2947 ; rh.txt:4313 ; rh.txt:2948	coincide
+woc_chosen	30x30	30x30	Chosen Chaos Warrior@rh.txt:2502	coincide
+woc_chosen_knights	30x60	30x60	Chosen Chaos Knight@rh.txt:2850	coincide
+woc_ogres	40x40	40x40	Chaos Ogre@rh.txt:2649	coincide
+woc_trolls	40x40	40x40	Chaos Troll@rh.txt:2698	coincide
+tk_king_dragon	100x150	100x150	aj_tk.txt:874 (Settra, Carro de los Dioses; el Dragón/Behemoth 100x150): sin bloque propio	coincide
+tk_hpriest_dragon	100x150	100x150	aj_tk.txt:874 (Settra, Carro de los Dioses; el Dragón/Behemoth 100x150): sin bloque propio	coincide
+tk_warriors_ph	25x25	25x25	Skeleton Warrior@rh.txt:5634 ; Skeleton Warrior@aj_tk.txt:1474	coincide
+tk_guard_ph	25x25	25x25	Grave Guard@leg_vampires.txt:389	coincide
+tk_swarm_amb	40x40	40x40	rh.txt:5789 ; rh.txt:5790	coincide
+tk_king	25x25	25x25	Tomb King@rh.txt:5261	coincide
+tk_prince	25x25	25x25	fof.txt:2034 ; rh.txt:5261 ; rh.txt:5367	coincide
+tk_herald	25x25	25x25	Royal Herald@rh.txt:5312	coincide
+tk_hpriest	25x25	25x25	fof.txt:2034 ; rh.txt:5261 ; rh.txt:5367	coincide
+tk_mpriest	25x25	25x25	fof.txt:2034 ; rh.txt:5261 ; rh.txt:5367	coincide
+tk_warriors	25x25	25x25	Skeleton Warrior@rh.txt:5634 ; Skeleton Warrior@aj_tk.txt:1474	coincide
+tk_summoned	25x25	25x25	rh.txt:5634 ; rh.txt:5635	coincide
+tk_warriors_sp	25x25	25x25	Skeleton Warrior@leg_vampires.txt:427	coincide
+tk_archers	25x25	25x25	Skeleton Archer@rh.txt:5685 ; Royal Host Archer@aj_tk.txt:1201	coincide
+tk_horsemen	25x50	25x50	rh.txt:5846 ; rh.txt:5847	coincide
+tk_horse_archers	25x50	25x50	Skeleton Horse Archer@rh.txt:5895	coincide
+tk_guard	25x25	25x25	Tomb Guard@rh.txt:5580	coincide
+tk_guard_hb	25x25	25x25	Grave Guard@leg_vampires.txt:389	coincide
+tk_ushabti	40x40	40x40	Ushabti@rh.txt:5739	coincide
+tk_ushabti_bow	40x40	40x40	Ushabti@rh.txt:5739	coincide
+tk_necroknights	50x100	50x100	rh.txt:5946 ; rh.txt:5947	coincide
+tk_carrion	40x40	40x40	rh.txt:5807 (Carrion «Base Size: 40 x 40 mm»)	coincide (v843o: entrada hallada en el libro local)
+he_prince_griffon	50x50	50x50	fof.txt:2845 ; fof.txt:6856	coincide
+he_prince_moon	60x100	60x100	fof.txt:6150 ; fof.txt:6151 ; fof.txt:6909	coincide
+he_skycutter	60x100	60x100	fof.txt:6812 ; fof.txt:6813	coincide
+he_skycutter_bt	60x100	60x100	fof.txt:6812 ; fof.txt:6813	coincide
+he_prince_star	60x100	60x100	fof.txt:6150 ; fof.txt:6151 ; fof.txt:6909	coincide
+he_archmage_star	60x100	60x100	fof.txt:6150 ; fof.txt:6151 ; fof.txt:6909	coincide
+he_noble_eagle	50x50	50x50	fof.txt:5523 ; fof.txt:7042 ; fof.txt:5524	coincide
+he_mage_eagle	50x50	50x50	fof.txt:5523 ; fof.txt:7042 ; fof.txt:5524	coincide
+he_noble_griffon	50x50	50x50	fof.txt:2845 ; fof.txt:6856	coincide
+he_prince_sun	60x100	60x100	fof.txt:6150 ; fof.txt:6151 ; fof.txt:6909	coincide
+he_noble_sun	60x100	60x100	fof.txt:6150 ; fof.txt:6151 ; fof.txt:6909	coincide
+he_archmage_moon	60x100	60x100	fof.txt:6150 ; fof.txt:6151 ; fof.txt:6909	coincide
+he_dragonmage	60x100	60x100	fof.txt:6150 ; fof.txt:6151 ; fof.txt:6909	coincide
+he_flamespyre	50x100	50x100	Flamespyre Phoenix@fof.txt:6949	coincide
+he_frostheart	50x100	50x100	Frostheart Phoenix@fof.txt:6996	coincide
+woc_lord_manticore	60x100	60x100	rh.txt:3103 ; leg_darkelves.txt:786	coincide
+woc_lord_dragon	60x100	60x100	rh.txt:3152	coincide
+woc_sorc_manticore	60x100	60x100	rh.txt:3103 ; leg_darkelves.txt:786	coincide
+woc_spawn	50x50	50x50	Chaos Spawn@rh.txt:2750	coincide
+woc_hellcannon	100x150	100x150	FAQ RH 100x150 (Hellcannon) ; Hellcannon@rh.txt:3249	FAQ manda sobre el libro (motor = FAQ)
+woc_chimera	60x100	60x100	Chimera@rh.txt:3198	coincide
+woc_galrauch	60x100	60x100	Galrauch,@aj_chaos.txt:1086 ; Galrauch,@aj_chaos2.txt:1094	coincide
+tk_necrotect	25x25	25x25	Necrotect@rh.txt:5475	coincide
+tk_skirmishers	25x25	25x25	rh.txt:5634 ; rh.txt:5635	coincide
+tk_swarm	40x40	40x40	Tomb Swarm@rh.txt:5789	coincide
+tk_stalkers	50x100	50x100	Sepulchral Stalker@rh.txt:5995	coincide
+tk_stalkers_amb	50x100	50x100	rh.txt:5995 ; rh.txt:5996	coincide
+tk_catapult	60x100	60x100	rh.txt:6348 (Screaming Skull Catapult: 60 x 100 mm máquina, 25 x 25 dotación)	CORREGIDO v843n: 25x25 → 60x100
+tk_casket	60x60	N/A	rh.txt:6398 «Base Size: N/A»; tow.whfb.app/army/tomb-kings-of-khemri/reference «N/A» (2026-11-23)	sin dato OFICIAL (N/A): el motor conserva 60x60 como huella de convención
+tk_warsphinx	60x100	60x100	rh.txt:6144 ; rh.txt:6145	coincide
+tk_scorpion	75x50	75x50	Tomb Scorpion@rh.txt:6194	coincide
+tk_colossus	50x50	50x50	Necrolith Colossus@rh.txt:6244	coincide
+tk_necrosphinx	60x100	60x100	Necrosphinx@rh.txt:6299	coincide
+bm_giant	50x75	50x50 / 50x75	Giant@rh.txt:1605 ; Chaos Giant@rh.txt:4612	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+bm_shaggoth	50x75	50x75	Shaggoth@rh.txt:4415	coincide
+bm_jabberslythe	60x100	60x100	Jabberslythe@rh.txt:4462	coincide
+bm_cockatrice	50x50	50x50	Cockatrice@rh.txt:4512	coincide
+bm_cygor	60x100	60x100	Cygor@rh.txt:4564	coincide
+he_prince_tiranoc	50x100	50x100	fof.txt:6762 ; fof.txt:6763	coincide
+tk_king_chariot	50x100	50x100	rh.txt:5560 ; rh.txt:6047 ; rh.txt:5561	coincide
+woc_lord_chariot	60x100	60x100	rh.txt:3002 ; rh.txt:3052 ; rh.txt:3003	coincide
+bm_beastlord_tusk	50x100	50x100	rh.txt:4367 ; rh.txt:4388 ; rh.txt:4368	coincide
+he_tiranoc	50x100	50x100	fof.txt:6762 ; fof.txt:6763	coincide
+he_lionchariot	50x100	50x100	fof.txt:6781 ; fof.txt:6782	coincide
+tk_chariot	50x100	50x100	rh.txt:5560 ; rh.txt:6047 ; rh.txt:5561	coincide
+woc_chariot	60x100	60x100	rh.txt:3002 ; rh.txt:3052 ; rh.txt:3003	coincide
+woc_gorechariot	60x100	60x100	rh.txt:3052 ; rh.txt:3053	coincide
+bm_tuskchariot	50x100	50x100	rh.txt:4367 ; rh.txt:4368	coincide
+bm_razorchariot	50x100	50x100	rh.txt:4388 ; rh.txt:4389	coincide
+dw_king	25x25	25x25	King@fof.txt:354	coincide
+dw_thane	25x25	25x25	fof.txt:354 ; fof.txt:355	coincide
+dw_runelord	25x25	25x25	Runelord@fof.txt:536	coincide
+dw_runesmith	25x25	25x25	fof.txt:536 ; fof.txt:537	coincide
+dw_doomseeker	25x25	25x25	Doomseeker@aj_dwarfs.txt:1116 ; Doomseeker@aj_dwarfs2.txt:1116	coincide
+dw_dslayer	25x25	25x25	fof.txt:582 ; fof.txt:583	coincide
+dw_drslayer	25x25	25x25	fof.txt:582 ; fof.txt:583	coincide
+dw_engineer	25x25	25x25	Engineer@fof.txt:628	coincide
+dw_king_shield	50x50	50x50	fof.txt:416 (Shieldbearers «Base Size: 50 x 50 mm»; «un modelo con Shieldbearers ... ocupa una única peana»)	coincide (v843o: la DUDOSA de v843n enlazaba Dwarf King 25x25; la regla Shieldbearers fija 50x50 para el modelo completo)
+dw_anvil	60x60	N/A	fof.txt:445 «Base Size: N/A»; también «Base not stated in the book» (impriwars.com/en/pages/peanas-the-old-world, 2026)	sin dato OFICIAL (N/A): ni libro ni FAQ fijan peana; el motor conserva 60x60 como huella de convención (necesaria para movimiento, LdV y colisión)
+dw_gyrobomber	50x50	50x50	Gyrobomber@fof.txt:1162	coincide
+dw_warriors	25x25	25x25	Warrior@fof.txt:676 ; Warrior@aj_dwarfs.txt:1214	coincide
+dw_warriors_gw	25x25	hereda de dw_warriors (25x25)	legacy.to → dw_warriors	coincide con la unidad a la que se redirige (variante de equipo/opción)
+dw_quarrellers	25x25	25x25	fof.txt:776	coincide
+dw_thunderers	25x25	25x25	fof.txt:776	coincide
+dw_longbeards	25x25	25x25	Longbeard@fof.txt:724	coincide
+dw_hammerers	25x25	25x25	Hammerer@fof.txt:871	coincide
+dw_ironbreakers	25x25	25x25	Ironbreaker@fof.txt:919	coincide
+dw_slayers	25x25	25x25	Troll Slayer@fof.txt:1069	coincide
+dw_slayers_ahw	25x25	hereda de dw_slayers (25x25)	legacy.to → dw_slayers	coincide con la unidad a la que se redirige (variante de equipo/opción)
+dw_miners	25x25	25x25	Miner@fof.txt:1020	coincide
+dw_scoutgyro	50x50	50x50	aj_dwarfs.txt:1260 ; aj_dwarfs2.txt:1260 ; aj_dwarfs.txt:1261	coincide
+dw_royalwarriors	25x25	25x25	aj_dwarfs.txt:1166 ; aj_dwarfs2.txt:1166 ; aj_dwarfs.txt:1167	coincide
+dw_gyro	50x50	50x50	fof.txt:1162 ; fof.txt:1163	coincide
+dw_rangers	25x25	25x25	Ranger@fof.txt:824	coincide
+dw_irondrakes	25x25	25x25	Irondrake@fof.txt:971	coincide
+dw_cart	50x75	50x75	aj_dwarfs.txt:1308 ; aj_dwarfs2.txt:1308 ; aj_dwarfs.txt:1309	coincide
+dw_cart_miner	50x75	50x75	aj_dwarfs.txt:1308 ; aj_dwarfs2.txt:1308 ; aj_dwarfs.txt:1309	coincide
+dw_hewer	50x75	50x75	FAQ FoF AJ Dwarfen Mountain Holds p.46 «Goblin Hewers»	FAQ manda sobre el libro (motor = FAQ)
+dw_bolt	50x50	50x50 / 50x75	fof.txt:1211 ; fof.txt:7090 ; fof.txt:1229	coincide
+dw_grudge	50x75	50x75	fof.txt:1291 ; fof.txt:1292	coincide
+dw_cannon	50x50	50x50	fof.txt:1261 ; fof.txt:1262	coincide
+dw_organ	50x50	50x50	fof.txt:1278 ; fof.txt:1279	coincide
+dw_flame	50x75	50x75	fof.txt:1291 ; fof.txt:1292	coincide
+he_prince	25x25	25x25	fof.txt:6108 ; fof.txt:6062 ; fof.txt:6109	coincide
+he_prince_h	30x60	30x60	fof.txt:6286 ; fof.txt:6671 ; fof.txt:6715	coincide
+he_noble	25x25	25x25	fof.txt:6108 ; fof.txt:6062 ; fof.txt:6109	coincide
+he_archmage	25x25	25x25	Archmage@fof.txt:6108	coincide
+he_mage	25x25	25x25	fof.txt:6108 ; fof.txt:6062 ; fof.txt:6109	coincide
+he_handmaiden	25x25	25x25	Handmaiden@fof.txt:6196	coincide
+he_spearmen	25x25	25x25 / 60x100 / 50x50	fof.txt:2346 ; fof.txt:6347 ; fof.txt:6812	coincide
+he_archers	25x25	25x25 / 60x100 / 50x50	fof.txt:2346 ; fof.txt:6347 ; fof.txt:6812	coincide
+he_seaguard	25x25	25x25 / 60x100 / 50x50	fof.txt:6347 ; fof.txt:6812 ; fof.txt:7090	coincide
+he_chieftain	25x25	25x25	Chracian Chieftain@aj_highelves.txt:1216	coincide
+he_korhil	25x25	25x25	Korhil Lionmane@aj_highelves.txt:1084	coincide
+he_lionguard	25x25	25x25	aj_highelves.txt:1425 ; aj_highelves.txt:1426	coincide
+he_woodsmen	25x25	25x25	aj_highelves.txt:1476 ; aj_highelves.txt:1477	coincide
+he_chieftain_chariot	50x100	50x100	fof.txt:6781 ; fof.txt:6782	coincide
+he_korhil_chariot	50x100	50x100	fof.txt:6781 ; fof.txt:6782	coincide
+he_garrison	25x25	25x25	Sea Guard Garrison@aj_highelves.txt:1268	coincide
+he_ishaya	25x25	25x25	Ishaya Vess@aj_highelves.txt:1181	coincide
+he_stormweaver	25x25	25x25	aj_highelves.txt:1319 ; aj_highelves.txt:1320	coincide
+he_stormweaver_uni	40x60	40x60	fof.txt:3579 / :4975 (Unicorn: 40 x 60 mm; personaje montado = peana de la montura)	CORREGIDO v843n: 25x25 → 40x60
+he_ship	25x25	25x25	Ship9s Company@aj_highelves.txt:1376	coincide
+he_warlions	30x60	50x100 / 30x60	fof.txt:6781 ; aj_highelves.txt:1527 ; fof.txt:6782	coincide
+he_merwyrm	60x100	60x100	Merwyrm@aj_highelves.txt:1571	coincide
+he_whitelions	25x25	25x25	fof.txt:6393 ; fof.txt:6394	coincide
+he_swordmasters	25x25	25x25	Swordmaster@fof.txt:6437	coincide
+he_phoenix	25x25	25x25	Phoenix Guard@fof.txt:6485	coincide
+he_shadow	25x25	25x25	Shadow Warrior@fof.txt:6529	coincide
+he_sisters	25x25	25x25	Sister of Avelorn@fof.txt:6575	coincide
+he_reavers	30x60	30x60 / 50x100	fof.txt:5298 ; fof.txt:6286 ; fof.txt:6671	coincide
+he_reavers_bow	30x60	hereda de he_reavers (30x60)	legacy.to → he_reavers	coincide con la unidad a la que se redirige (variante de equipo/opción)
+he_silverhelms	30x60	30x60	fof.txt:6671 ; fof.txt:6672	coincide
+he_dragonprinces	30x60	30x60	fof.txt:6715 ; fof.txt:6716	coincide
+he_eagle	50x50	50x50	Great Eagle@fof.txt:5523 ; Great Eagle@fof.txt:7042	coincide
+he_boltthrower	50x50	50x50	fof.txt:7090 ; fof.txt:7091	coincide
+de_dreadlord	25x25	25x25	Dark Elf Dreadlord@leg_darkelves.txt:98	coincide
+de_dreadlord_steed	30x60	30x60 / 50x100	leg_darkelves.txt:307 ; leg_darkelves.txt:540 ; leg_darkelves.txt:567	coincide
+de_dreadlord_cold	30x60	30x60 / 50x100	leg_darkelves.txt:307 ; leg_darkelves.txt:540 ; leg_darkelves.txt:567	coincide
+de_dreadlord_dragon	60x100	60x100	leg_darkelves.txt:754 (Black Dragon «Base Size: 60 x 100 mm»)	coincide (v843o: entrada hallada en el libro local)
+de_master	25x25	25x25	leg_darkelves.txt:98 ; leg_darkelves.txt:133 ; leg_darkelves.txt:99	coincide
+de_master_steed	30x60	30x60 / 50x100	leg_darkelves.txt:307 ; leg_darkelves.txt:540 ; leg_darkelves.txt:567	coincide
+de_master_cold	30x60	30x60 / 50x100	leg_darkelves.txt:307 ; leg_darkelves.txt:540 ; leg_darkelves.txt:567	coincide
+de_sorceress	25x25	25x25	leg_darkelves.txt:98 ; leg_darkelves.txt:133 ; leg_darkelves.txt:99	coincide
+de_supreme	25x25	25x25	Supreme Sorceress@leg_darkelves.txt:133	coincide
+de_supreme_cold	30x60	30x60 / 50x100	leg_darkelves.txt:307 ; leg_darkelves.txt:540 ; leg_darkelves.txt:567	coincide
+de_deathhag	25x25	25x25	leg_darkelves.txt:197 ; leg_darkelves.txt:198	coincide
+de_assassin	25x25	25x25	Khainite Assassin@leg_darkelves.txt:230	coincide
+de_beastmaster	25x25	(as mount)	leg_darkelves.txt:164 «Base Size: (as mount)»; Scourgerunner Chariot 50x100 (leg_darkelves.txt:677); Manticore: peana de la montura	sin dato propio: el libro dice «as mount» (siempre va montado); las variantes montadas ya usan la peana de la montura; la entrada a pie 25x25 es solo huella interna
+de_warriors	25x25	25x25	leg_darkelves.txt:378 ; leg_darkelves.txt:379	coincide
+de_crossbows	25x25	25x25	leg_darkelves.txt:378 ; leg_darkelves.txt:379	coincide
+de_shades	25x25	25x25	Shade@leg_darkelves.txt:459	coincide
+de_corsairs	25x25	25x25	Corsair@leg_darkelves.txt:378	coincide
+de_executioners	25x25	25x25	Executioner@leg_darkelves.txt:432	coincide
+de_blackguard	25x25	25x25	leg_darkelves.txt:403 ; leg_darkelves.txt:404	coincide
+de_sisters	25x25	25x25 / 60x100	leg_darkelves.txt:432 ; leg_darkelves.txt:636 ; leg_darkelves.txt:433	coincide
+de_coldones	30x60	30x60	leg_darkelves.txt:540 ; leg_darkelves.txt:541	coincide
+de_warlocks	30x60	30x60	Doomfire Warlock@leg_darkelves.txt:595	coincide
+de_witchelves	25x25	25x25 / 60x100	leg_darkelves.txt:432 ; leg_darkelves.txt:636 ; leg_darkelves.txt:433	coincide
+de_darkriders	30x60	30x60	leg_darkelves.txt:567 ; leg_darkelves.txt:568	coincide
+de_medusa	40x40	40x40	Bloodwrack Medusa@leg_darkelves.txt:854	coincide
+de_harpies	25x25	25x25	leg_darkelves.txt:528 ; leg_darkelves.txt:529	coincide
+de_boltthrower	50x50	50x50	leg_darkelves.txt:912 ; leg_darkelves.txt:913	coincide
+de_hydra	60x100	60x100 / 25x25	War Hydra@leg_darkelves.txt:824	coincide
+de_kharibdyss	60x100	60x100 / 25x25	Kharibdyss@leg_darkelves.txt:879	coincide
+lm_slann	50x50	50x50	Slann Mage-Priest@leg_lizardmen.txt:93	coincide
+lm_oldblood	30x30	30x30	Saurus Oldblood@leg_lizardmen.txt:125	coincide
+lm_oldblood_cold	30x60	30x60	leg_lizardmen.txt:204 ; leg_lizardmen.txt:425 ; leg_lizardmen.txt:205	coincide
+lm_scar	30x30	30x30	leg_lizardmen.txt:125 ; leg_lizardmen.txt:126	coincide
+lm_scar_cold	30x60	30x60	leg_lizardmen.txt:204 ; leg_lizardmen.txt:425 ; leg_lizardmen.txt:205	coincide
+lm_skchief	25x25	25x25	leg_lizardmen.txt:150 ; leg_lizardmen.txt:151	coincide
+lm_skchief_terra	40x40	40x40	leg_lizardmen.txt:453 ; leg_lizardmen.txt:477 ; leg_lizardmen.txt:218	coincide
+lm_skchief_ripper	40x40	40x40	leg_lizardmen.txt:453 ; leg_lizardmen.txt:477 ; leg_lizardmen.txt:218	coincide
+lm_skchief_steg	60x100	60x100	leg_lizardmen.txt:542 ; leg_lizardmen.txt:543	coincide
+lm_skpriest	25x25	25x25	leg_lizardmen.txt:150 ; leg_lizardmen.txt:151	coincide
+lm_skpriest_ancient	60x100	60x100	leg_lizardmen.txt:542 ; leg_lizardmen.txt:543	coincide
+lm_saurus	30x30	30x30	Saurus Warrior@leg_lizardmen.txt:273	coincide
+lm_skirmishers	25x25	25x25	leg_lizardmen.txt:294 ; leg_lizardmen.txt:318 ; leg_lizardmen.txt:295	coincide
+lm_swarm	40x40	40x40	Jungle Swarms@leg_lizardmen.txt:364	coincide
+lm_temple	30x30	30x30	Temple Guard@leg_lizardmen.txt:241	coincide
+lm_chameleon	25x25	25x25	Chameleon Skink@leg_lizardmen.txt:318	coincide
+lm_coldones	30x60	30x60	leg_lizardmen.txt:204 ; leg_lizardmen.txt:425 ; leg_lizardmen.txt:205	coincide
+lm_terradons	40x40	40x40	Terradon Rider@leg_lizardmen.txt:453	coincide
+lm_ripperdactyls	40x40	40x40	Ripperdactyl Rider@leg_lizardmen.txt:477	coincide
+lm_kroxigor	40x40	40x40	Kroxigor@leg_lizardmen.txt:337	coincide
+lm_salamander	50x75	50x75	leg_lizardmen.txt:376 ; leg_lizardmen.txt:377	coincide
+lm_razordon	50x75	50x75	leg_lizardmen.txt:399 ; leg_lizardmen.txt:400	coincide
+lm_stegadon	60x100	60x100	leg_lizardmen.txt:542 ; leg_lizardmen.txt:543	coincide
+lm_bastiladon	60x100	60x100	leg_lizardmen.txt:596 ; leg_lizardmen.txt:597	coincide
+lm_troglodon	50x100	50x100	Troglodon@leg_lizardmen.txt:651	coincide
+sk_warlord	25x25	25x25	Skaven Warlord@leg_skaven.txt:100	coincide
+sk_chieftain	25x25	25x25	leg_skaven.txt:100 ; leg_skaven.txt:101	coincide
+sk_greyseer	25x25	25x25	leg_skaven.txt:123 ; leg_skaven.txt:124	coincide
+sk_greyseer_bell	60x100	60x100	leg_skaven.txt:625 ; leg_skaven.txt:679 ; leg_skaven.txt:626	coincide
+sk_plaguepriest	25x25	25x25	leg_skaven.txt:232 ; leg_skaven.txt:233	coincide
+sk_assassin	25x25	25x25	Master Assassin@leg_skaven.txt:189	coincide
+sk_engineer	25x25	25x25	Warlock Engineer@leg_skaven.txt:151	coincide
+sk_clanrats	25x25	25x25	Clanrat@leg_skaven.txt:300	coincide
+sk_giantrats	25x25	25x25	leg_skaven.txt:525 ; leg_skaven.txt:526	coincide
+sk_swarms	40x40	40x40	Rat Swarms@leg_skaven.txt:447	coincide
+sk_gutter	25x25	25x25	Gutter Runner@leg_skaven.txt:563	coincide
+sk_nightrunners	25x25	25x25	leg_skaven.txt:542 ; leg_skaven.txt:543	coincide
+sk_plaguemonks	25x25	25x25 / 60x100 / 50x100	leg_skaven.txt:586 ; leg_skaven.txt:679 ; leg_skaven.txt:587	coincide
+sk_censer	25x25	25x25	Censer Bearer@leg_skaven.txt:608	coincide
+sk_stormvermin	25x25	25x25	Stormvermin@leg_skaven.txt:276	coincide
+sk_jezzail	25x50	25x50	Jezzail Team@leg_skaven.txt:404	coincide
+sk_globadiers	25x25	25x25	Globadiers@leg_skaven.txt:430	coincide
+sk_ratogres	50x50	50x50 / 60x100	leg_skaven.txt:495 ; leg_skaven.txt:625 ; leg_skaven.txt:496	coincide
+sk_ratlinggun	25x50	25x50	leg_skaven.txt:321 ; leg_skaven.txt:322	coincide
+sk_warplightning	50x100	50x100	leg_skaven.txt:803 ; leg_skaven.txt:804	coincide
+sk_plagueclaw	50x100	50x100	leg_skaven.txt:839 ; leg_skaven.txt:840	coincide
+sk_warpfire	25x50	25x50	leg_skaven.txt:321 ; leg_skaven.txt:322	coincide
+sk_windmortar	25x50	25x50	leg_skaven.txt:321 ; leg_skaven.txt:322	coincide
+sk_warpgrinder	25x50	25x50	leg_skaven.txt:321 ; leg_skaven.txt:404 ; leg_skaven.txt:322	coincide
+sk_doomflayer	25x50	25x50	leg_skaven.txt:321 ; leg_skaven.txt:404 ; leg_skaven.txt:322	coincide
+sk_plaguepriest_furnace	60x100	60x100	leg_skaven.txt:625 ; leg_skaven.txt:679 ; leg_skaven.txt:626	coincide
+sk_doomwheel	50x100	50x100	leg_skaven.txt:720 ; leg_skaven.txt:721	coincide
+sk_hellpit	60x100	60x100	leg_skaven.txt:760 (Hell Pit Abomination «Base Size: 60 x 100 mm»)	coincide (v843o: entrada hallada en el libro local)
+vc_count	25x25	25x25	Vampire Count@leg_vampires.txt:101	coincide
+vc_ghoulking	25x25	25x25	leg_vampires.txt:236 ; leg_vampires.txt:237	coincide
+vc_count_nightmare	30x60	30x60	leg_vampires.txt:378 ; leg_vampires.txt:569 ; leg_vampires.txt:379	coincide
+vc_count_dragon	100x150	100x150	leg_vampires.txt:858 (Zombie Dragon «Base Size: 100 x 150 mm»); GW Legacy PDF Vampire Counts 24.09 (assets.warhammer-community.com, consultado 2026-11-23)	CORREGIDO v843o: 60x100 → 100x150 (personaje montado = peana de la montura; mismo tamaño que el Terrorgheist del mismo libro)
+vc_count_terror	50x100	50x100	leg_vampires.txt:928 (Abyssal Terror «Base Size: 50 x 100 mm»)	coincide (v843o: entrada hallada en el libro local; la v843n no la enlazó)
+vc_count_coven	50x100	50x100	leg_vampires.txt:697 ; leg_vampires.txt:698	coincide
+vc_thrall	25x25	25x25	leg_vampires.txt:101 ; leg_vampires.txt:187 ; leg_vampires.txt:102	coincide
+vc_thrall_nightmare	30x60	30x60	leg_vampires.txt:378 ; leg_vampires.txt:569 ; leg_vampires.txt:379	coincide
+vc_necromancer	25x25	25x25	Master Necromancer@leg_vampires.txt:187	coincide
+vc_necro_nightmare	30x60	30x60	leg_vampires.txt:378 ; leg_vampires.txt:569 ; leg_vampires.txt:379	coincide
+vc_acolyte	25x25	25x25	leg_vampires.txt:101 ; leg_vampires.txt:187 ; leg_vampires.txt:102	coincide
+vc_wightking	25x25	25x25	leg_vampires.txt:291 ; leg_vampires.txt:292	coincide
+vc_wightlord	25x25	25x25	leg_vampires.txt:291 ; leg_vampires.txt:292	coincide
+vc_wightking_steed	30x60	30x60	leg_vampires.txt:367 ; leg_vampires.txt:614 ; leg_vampires.txt:368	coincide
+vc_wightlord_steed	30x60	30x60	leg_vampires.txt:367 ; leg_vampires.txt:614 ; leg_vampires.txt:368	coincide
+vc_knightshrouds	25x25	25x25	leg_vampires.txt:274 ; leg_vampires.txt:291 ; leg_vampires.txt:332	coincide
+vc_knightshrouds_steed	30x60	30x60	leg_vampires.txt:367 ; leg_vampires.txt:614 ; leg_vampires.txt:368	coincide
+vc_zombies	25x25	25x25	Zombie@leg_vampires.txt:448	coincide
+vc_skeletons	25x25	25x25	Skeleton Archer@rh.txt:5685 ; Skeleton Warrior@leg_vampires.txt:427	coincide
+vc_ghouls	25x25	25x25	Crypt Ghoul@leg_vampires.txt:466	coincide
+vc_direwolves	25x50	25x50	leg_vampires.txt:641 ; leg_vampires.txt:642	coincide
+vc_fellbats	40x40	40x40	leg_vampires.txt:536 ; leg_vampires.txt:537	coincide
+vc_graveguard	25x25	25x25	leg_vampires.txt:389 ; leg_vampires.txt:390	coincide
+vc_blackknights	30x60	30x60	leg_vampires.txt:614 ; leg_vampires.txt:615	coincide
+vc_spirithosts	40x40	40x40	leg_vampires.txt:548 ; leg_vampires.txt:549	coincide
+vc_banshee	25x25	25x25	Tomb Banshee@leg_vampires.txt:332	coincide
+vc_cairnwraith	25x25	25x25	leg_vampires.txt:274 ; leg_vampires.txt:275	coincide
+vc_hexwraith	30x60	30x60	Hexwraith@leg_vampires.txt:664	coincide
+vc_bloodknights	30x60	30x60	leg_vampires.txt:569 ; leg_vampires.txt:570	coincide
+vc_vargheists	40x40	40x40	Vargheist@leg_vampires.txt:516	coincide
+vc_terrorgheist	100x150	100x150	Terrorgheist@leg_vampires.txt:889	coincide
+vc_blackcoach	50x100	50x100	leg_vampires.txt:824 ; leg_vampires.txt:825	coincide
+vc_batswarm	40x40	40x40	leg_vampires.txt:505 ; leg_vampires.txt:506	coincide
+vc_horrors	40x40	40x40	Crypt Horror@leg_vampires.txt:484	coincide
+vc_varghulf	50x50	50x50	Varghulf@leg_vampires.txt:955	coincide
+vc_corpsecart	50x100	50x100	leg_vampires.txt:779 ; leg_vampires.txt:780	coincide
+vc_mortis	50x100	50x100	leg_vampires.txt:741 ; leg_vampires.txt:742	coincide
+dm_herald_khorne	30x30	30x30	Herald of Khorne@leg_daemons.txt:138	coincide
+dm_herald_khorne_jug	50x75	50x75	leg_daemons.txt:162 y :219 (Juggernaut of Khorne: 50 x 75 mm; personaje montado = peana de la montura)	CORREGIDO v843n: 30x60 → 50x75
+dm_herald_nurgle	30x30	30x30	Herald of Nurgle@leg_daemons.txt:356	coincide
+dm_herald_nurgle_pal	50x50	50x50	leg_daemons.txt:386	coincide
+dm_herald_slaanesh	25x25	25x25	Herald of Slaanesh@leg_daemons.txt:521	coincide
+dm_herald_slaanesh_steed	30x60	30x60 / 100x60 / 50x100 / 100x150	leg_daemons.txt:550 ; leg_daemons.txt:585 ; leg_daemons.txt:634	coincide
+dm_herald_tzeentch	30x30	30x30	Herald of Tzeentch@leg_daemons.txt:730	coincide
+dm_herald_tzeentch_disc	50x50	50x50	leg_daemons.txt:761 (Disc of Tzeentch: 50 x 50 mm; personaje montado = peana de la montura)	CORREGIDO v843n: 40x40 → 50x50
+dm_herald_tzeentch_chariot	50x100	50x100	leg_daemons.txt:885 ; leg_daemons.txt:886	coincide
+dm_bloodthirster	60x100	50x50 / 100x150	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+dm_gud	60x100	50x50 / 150x100	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+dm_keeper	60x100	50x50 / 100x150	Keeper of Secrets@leg_daemons.txt:491	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+dm_lordchange	60x100	50x50 / 100x150	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+dm_prince	50x50	50x50	Daemon Prince@leg_daemons.txt:941	coincide
+dm_bloodletters	30x30	30x30	Bloodletter@leg_daemons.txt:177	coincide
+dm_plaguebearers	30x30	30x30	Plaguebearer@leg_daemons.txt:396	coincide
+dm_daemonettes	25x25	25x25	Daemonette@leg_daemons.txt:563	coincide
+dm_pinkhorrors	30x30	30x30	leg_daemons.txt:772 (Pink Horror / Iridescent Horror: 30 x 30 mm)	CORREGIDO v843n: 25x25 → 30x30
+dm_nurglings	40x40	40x40	leg_daemons.txt:852 ; leg_daemons.txt:446 ; leg_daemons.txt:853	coincide
+dm_bluehorrors	25x25	25x25 / 50x100	leg_daemons.txt:801 ; leg_daemons.txt:907 ; leg_daemons.txt:802	coincide
+dm_fleshhounds	30x60	30x60	leg_daemons.txt:198 ; leg_daemons.txt:199	coincide
+dm_bloodcrushers	50x75	50x75	leg_daemons.txt:218 ; leg_daemons.txt:162 ; leg_daemons.txt:219	coincide
+dm_plaguedrones	50x75	50x75	leg_daemons.txt:461 (Plaguebearer/Plagueridden sobre Rot Fly: 50 x 75 mm, caballería monstruosa)	CORREGIDO v843n: 40x40 → 50x75
+dm_seekers	30x60	30x60	Seeker@leg_daemons.txt:585	coincide
+dm_screamers	40x60	40x60	Screamer@leg_daemons.txt:862	coincide
+dm_flamers	30x30	30x30	Flamer@leg_daemons.txt:818	coincide
+dm_furies	30x30	30x30	leg_daemons.txt:985 ; leg_daemons.txt:986	coincide
+dm_beast	50x75	50x75	leg_daemons.txt:607 ; leg_daemons.txt:608	coincide
+dm_fiends	50x75	50x75	Fiend of Slaanesh@leg_daemons.txt:607	coincide
+dm_skullcannon	50x100	50x100	leg_daemons.txt:284 ; leg_daemons.txt:285	coincide
+dm_hellflayer	100x60	100x60	leg_daemons.txt:634 ; leg_daemons.txt:635	coincide
+dm_brimstone	40x40	40x40	Brimstone Horrors@leg_daemons.txt:852	coincide
+dm_seekerchariot	50x100	50x100 / 100x150	leg_daemons.txt:653 ; leg_daemons.txt:678 ; leg_daemons.txt:654	coincide
+dm_soulgrinder	150x100	150x100	leg_daemons.txt:1017 (Soul Grinder: 150 x 100 mm, literal del libro)	CORREGIDO v843n: 100x150 → 150x100
+ok_tyrant	40x40	40x40	Tyrant@leg_ogres.txt:101	coincide
+ok_tyrant_stone	100x150	100x150	leg_ogres.txt:607 ; leg_ogres.txt:640 ; leg_ogres.txt:263	coincide
+ok_tyrant_thunder	100x150	100x150	leg_ogres.txt:607 ; leg_ogres.txt:640 ; leg_ogres.txt:263	coincide
+ok_bruiser	40x40	40x40	leg_ogres.txt:101 ; leg_ogres.txt:102	coincide
+ok_bruiser_stone	100x150	100x150	leg_ogres.txt:607 ; leg_ogres.txt:640 ; leg_ogres.txt:263	coincide
+ok_bruiser_thunder	100x150	100x150	leg_ogres.txt:607 ; leg_ogres.txt:640 ; leg_ogres.txt:263	coincide
+ok_hunter	50x50	50x50	Hunter@leg_ogres.txt:179	corregido 40x40 → 50x50 (leg_ogres.txt:179)
+ok_hunter_stone	100x150	100x150	leg_ogres.txt:607 ; leg_ogres.txt:640 ; leg_ogres.txt:263	coincide
+ok_hunter_thunder	100x150	100x150	leg_ogres.txt:607 ; leg_ogres.txt:640 ; leg_ogres.txt:263	coincide
+ok_butcher	40x40	40x40	leg_ogres.txt:138 ; leg_ogres.txt:139	coincide
+ok_butcher_cauldron	50x100	50x100	leg_ogres.txt:138 («50x100 mm with Butcher’s Cauldron»)	coincide
+ok_slaughtermaster	40x40	40x40 / 50x100	Slaughtermaster@leg_ogres.txt:138	coincide
+ok_slaughter_cauldron	50x100	50x100	leg_ogres.txt:138 («50x100 mm with Butcher’s Cauldron»)	coincide
+ok_firebelly	40x40	40x40	Firebelly@leg_ogres.txt:218	coincide
+ok_bulls	40x40	40x40 / 50x100	leg_ogres.txt:299 ; leg_ogres.txt:491 ; leg_ogres.txt:300	coincide
+ok_gnoblars	25x25	25x25	Gnoblar Fighter@leg_ogres.txt:434	coincide
+ok_trappers	25x25	25x25	Gnoblar Trapper@leg_ogres.txt:375	coincide
+ok_sabretusks	25x50	25x50	Sabretusk@leg_ogres.txt:471	coincide
+ok_ironguts	40x40	40x40	Irongut@leg_ogres.txt:324	coincide
+ok_leadbelchers	40x40	40x40	Leadbelcher@leg_ogres.txt:347	coincide
+ok_maneaters	40x40	40x40	Maneater@leg_ogres.txt:398	coincide
+ok_mournfang	50x100	50x100	leg_ogres.txt:491 ; leg_ogres.txt:492	coincide
+ok_yhetees	40x40	40x40	Yhetee@leg_ogres.txt:449	coincide
+ok_gorgers	50x50	50x50	Gorger@leg_ogres.txt:754	coincide
+ok_giants	50x50	50x50 / 50x75	Giant@rh.txt:1605 ; Chaos Giant@rh.txt:4612	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+ok_ironblaster	60x100	60x100	leg_ogres.txt:525 ; leg_ogres.txt:526	coincide
+ok_scraplauncher	60x100	60x100	leg_ogres.txt:568 ; leg_ogres.txt:569	coincide
+ok_stonehorn	100x150	100x150	leg_ogres.txt:607 ; leg_ogres.txt:263 ; leg_ogres.txt:608	coincide
+ok_thundertusk	100x150	100x150	leg_ogres.txt:640 ; leg_ogres.txt:281 ; leg_ogres.txt:641	coincide
+cd_castellan	25x25	25x25	Infernal Castellan@leg_chaosdwarfs.txt:147	coincide
+cd_seneschal	25x25	25x25	leg_chaosdwarfs.txt:147 ; leg_chaosdwarfs.txt:148	coincide
+cd_daemonsmith	25x25	25x25	leg_chaosdwarfs.txt:96 ; leg_chaosdwarfs.txt:97	coincide
+cd_prophet	25x25	25x25	Sorcerer-Prophet@leg_chaosdwarfs.txt:96	coincide
+cd_daemonsmith_taurus	60x100	60x100	leg_chaosdwarfs.txt:502	coincide
+cd_prophet_taurus	60x100	60x100	leg_chaosdwarfs.txt:502	coincide
+cd_khan	25x25	25x25	Hobgoblin Khan@leg_chaosdwarfs.txt:196	coincide
+cd_khan_wolf	25x50	25x50	leg_chaosdwarfs.txt:221 ; leg_chaosdwarfs.txt:361 ; leg_chaosdwarfs.txt:222	coincide
+cd_taruk	50x75	50x75	leg_chaosdwarfs.txt:175 ; leg_chaosdwarfs.txt:176	coincide
+cd_guard	25x25	25x25	Infernal Guard@leg_chaosdwarfs.txt:267	coincide
+cd_hobgoblins	25x25	25x25	leg_chaosdwarfs.txt:319 ; leg_chaosdwarfs.txt:320	coincide
+cd_wolfriders	25x50	25x50	leg_chaosdwarfs.txt:361 ; leg_chaosdwarfs.txt:362	coincide
+cd_blunderbuss	25x25	25x25	leg_chaosdwarfs.txt:232 ; leg_chaosdwarfs.txt:267 ; leg_chaosdwarfs.txt:233	coincide
+cd_ironsworn	25x25	25x25	Infernal Ironsworn@leg_chaosdwarfs.txt:232	coincide
+cd_hailshot	25x25	25x25	leg_chaosdwarfs.txt:232 ; leg_chaosdwarfs.txt:267 ; leg_chaosdwarfs.txt:233	coincide
+cd_render	50x75	50x75	Bull Centaur Render@leg_chaosdwarfs.txt:390	coincide
+cd_centaurs	50x75	50x75	leg_chaosdwarfs.txt:390 ; leg_chaosdwarfs.txt:391	coincide
+cd_kdaai	40x40	40x40	leg_chaosdwarfs.txt:301 ; leg_chaosdwarfs.txt:302	coincide
+cd_manburner	40x40	40x40	leg_chaosdwarfs.txt:301 ; leg_chaosdwarfs.txt:302	coincide
+cd_taurus	60x100	60x100	leg_chaosdwarfs.txt:502	coincide
+cd_mortar	50x75	N/A	leg_chaosdwarfs.txt:613 «Base Size: N/A»; GW Legacy PDF Chaos Dwarfs (warhammer-community.com/wp-content/uploads/2024/01/lh5Vwam4VMzKMRgg.pdf, © 2024) «Base Size: N/A»; foro chaos-dwarfs.com (2024-02-02, 2025-10-12): comunidad 60x100 o 50x100, no oficial	sin dato OFICIAL (N/A): el motor conserva 50x75 como huella de convención; la comunidad propone 50x100/60x100 (no oficial, no se aplica)
+cd_rocket	50x75	50x75	leg_chaosdwarfs.txt:573 ; leg_chaosdwarfs.txt:574	coincide
+cd_magma	50x100	50x100	leg_chaosdwarfs.txt:648 ; leg_chaosdwarfs.txt:649	coincide
+cd_bolt	50x50	50x50	leg_chaosdwarfs.txt:666 ; leg_chaosdwarfs.txt:667	coincide
+cd_ironDaemon	60x100	60x100	leg_chaosdwarfs.txt:415 ; leg_chaosdwarfs.txt:416	coincide
+ct_gatekeeper	25x25	25x25	cathay_aj.txt:1578 (Gate Master/Gate Keeper)	coincide
+ct_gatekeeper_horse	30x60	30x60	cathay_aj.txt:1612 (Cathayan Warhorse)	coincide
+ct_gatemaster	25x25	25x25	cathay_aj.txt:1578 (Gate Master/Gate Keeper)	coincide
+ct_gatemaster_horse	30x60	30x60	cathay_aj.txt:1612 (Cathayan Warhorse)	coincide
+ct_magistrate	25x25	25x25	cathay_notes.md (Lord Magistrate/Strategist: infantería regular, 25x25 por tipo; el bloque de peana no se leyó del OCR)	coincide
+ct_magistrate_lantern	100x100	100x100	cathay_aj.txt:1919 (Sky Lantern 100 x 100)	coincide
+ct_strategist	25x25	25x25	cathay_notes.md (Lord Magistrate/Strategist: infantería regular, 25x25 por tipo; el bloque de peana no se leyó del OCR)	coincide
+ct_strategist_lantern	100x100	100x100	cathay_aj.txt:1919 (Sky Lantern 100 x 100)	coincide
+ct_shugengan	60x100	60x100	cathay_aj.txt:1448 (Great Spirit Longma)	coincide
+ct_shugengan_gen	60x100	60x100	cathay_aj.txt:1448 (Great Spirit Longma)	coincide
+ct_miaoying	100x150	100x150	cathay_aj.txt:1215 (forma Dragón)	coincide
+ct_miaoying_h	50x50	50x50	cathay_aj.txt:1215 (forma Humana)	coincide
+ct_jade	25x25	25x25	cathay_aj.txt:1768 (Jade Warriors)	coincide
+ct_jade_spear	25x25	25x25	cathay_aj.txt:1768 (Jade Warriors)	coincide
+ct_lancers	30x60	30x60	cathay_aj.txt:1816 (Jade Lancers)	coincide
+ct_cannon	60x100	60x100	cathay_aj.txt:2341 (máquina 60x100; dotación 25x25)	coincide
+ct_rockets	60x100	60x100	cathay_aj.txt:2341 (máquina 60x100; dotación 25x25)	coincide
+ct_lanterns	100x100	100x100	cathay_aj.txt:1919 (Sky Lantern 100 x 100)	coincide
+ct_lanterns_amb	100x100	100x100	cathay_aj.txt:1919 (Sky Lantern 100 x 100)	coincide
+ct_sentinel	100x150	100x150	cathay_aj.txt:2116 (Cathayan Sentinel)	coincide
+ct_sentinel_jade	100x150	100x150	cathay_aj.txt:2116 (Cathayan Sentinel)	coincide
+ct_sentinel_obsidian	100x150	100x150	cathay_aj.txt:2116 (Cathayan Sentinel)	coincide
+ct_sentinel_granite	100x150	100x150	cathay_aj.txt:2116 (Cathayan Sentinel)	coincide
+ct_sentinel_warpstone	100x150	100x150	cathay_aj.txt:2116 (Cathayan Sentinel)	coincide
+we_glade_riders_sk	30x60	30x60	fof.txt:5298	coincide
+we_warhawks_sk	50x50	50x50	Warhawk Rider@fof.txt:5435	coincide
+we_pack_hounds_sk	25x50	25x50	Deepwood Hound@aj_wood2.txt:1314	coincide
+we_pack_cats_sk	25x50	25x50	aj_wood2.txt:1314 ; aj_westerland.txt:2822 ; aj_wood2.txt:1315	coincide
+we_pack_boars_sk	25x50	25x50	aj_wood2.txt:1314 ; aj_westerland.txt:2822 ; aj_wood2.txt:1315	coincide
+we_pack_bears_sk	25x50	25x50	aj_wood2.txt:1314 ; aj_westerland.txt:2822 ; aj_wood2.txt:1315	coincide
+dm_herald_khorne_throne	50x100	50x100	leg_daemons.txt:249 ; leg_daemons.txt:250	coincide
+dm_herald_slaanesh_chariot	50x100	50x100 / 100x150	leg_daemons.txt:653 ; leg_daemons.txt:678 ; leg_daemons.txt:654	coincide
+dm_herald_slaanesh_exalted	100x150	100x150	leg_daemons.txt:678 ; leg_daemons.txt:679	coincide
+de_deathhag_cauldron	60x100	60x100	leg_darkelves.txt:636 ; leg_darkelves.txt:637	coincide
+de_dreadlord_chariot	50x100	50x100	leg_darkelves.txt:676 ; leg_darkelves.txt:677	coincide
+de_master_chariot	50x100	50x100	leg_darkelves.txt:676 ; leg_darkelves.txt:677	coincide
+de_dreadlord_manticore	60x100	60x100	rh.txt:3103 ; leg_darkelves.txt:786	coincide
+de_sorceress_pegasus	40x60	40x60	leg_darkelves.txt:332	coincide
+de_supreme_pegasus	40x60	40x60	leg_darkelves.txt:332	coincide
+de_sorceress_steed	30x60	30x60 / 50x100	leg_darkelves.txt:307 ; leg_darkelves.txt:540 ; leg_darkelves.txt:567	coincide
+de_supreme_steed	30x60	30x60 / 50x100	leg_darkelves.txt:307 ; leg_darkelves.txt:540 ; leg_darkelves.txt:567	coincide
+de_sorceress_cold	30x60	30x60 / 50x100	leg_darkelves.txt:307 ; leg_darkelves.txt:540 ; leg_darkelves.txt:567	coincide
+de_beastmaster_manticore	60x100	60x100	rh.txt:3103 ; leg_darkelves.txt:786	coincide
+de_beastmaster_chariot	50x100	50x100	leg_darkelves.txt:676 ; leg_darkelves.txt:677	coincide
+de_shrine	60x100	60x100	leg_darkelves.txt:723 ; leg_darkelves.txt:724	coincide
+de_supreme_dragon	60x100	60x100	leg_darkelves.txt:754 (Black Dragon «Base Size: 60 x 100 mm»)	coincide (v843o: entrada hallada en el libro local)
+dm_burningchariot	50x100	50x100	leg_daemons.txt:907 ; leg_daemons.txt:908	coincide
+wolf_riders_snk	25x50	25x50	Wolf Rider@rh.txt:1265	coincide
+orc_bigboss_boar	30x60	30x60	rh.txt:714 ; rh.txt:1173 ; rh.txt:715	coincide
+black_warboss_boar	30x60	30x60	rh.txt:714 ; rh.txt:1173 ; rh.txt:715	coincide
+black_bigboss_boar	30x60	30x60	rh.txt:714 ; rh.txt:1173 ; rh.txt:715	coincide
+orc_weirdboy_boar	30x60	30x60	rh.txt:714 ; rh.txt:1173 ; rh.txt:715	coincide
+orc_weirdnob_boar	30x60	30x60	rh.txt:714 ; rh.txt:1173 ; rh.txt:715	coincide
+gob_warboss_spider	50x50	50x50	rh.txt:743 (Gigantic Spider «Base Size: 50 x 50 mm»; rh.txt:696 «A Goblin Warboss or Bigboss may be mounted on a Gigantic Spider»)	coincide (v843o: la DUDOSA de v843n enlazaba la Giant Spider de los Spider Riders 25x50; el libro sí permite Gigantic Spider a Warboss/Bigboss goblin)
+gob_bigboss_spider	50x50	50x50	rh.txt:743 (Gigantic Spider «Base Size: 50 x 50 mm»; rh.txt:696 «A Goblin Warboss or Bigboss may be mounted on a Gigantic Spider»)	coincide (v843o: la DUDOSA de v843n enlazaba la Giant Spider de los Spider Riders 25x50; el libro sí permite Gigantic Spider a Warboss/Bigboss goblin)
+gob_warboss_wolf	25x50	25x50	rh.txt:726 ; rh.txt:1265 ; rh.txt:727	coincide
+gob_warboss_wolf_amb	25x50	25x50	rh.txt:726 ; rh.txt:1265 ; rh.txt:727	coincide
+gob_bigboss_wolf	25x50	25x50	rh.txt:726 ; rh.txt:1265 ; rh.txt:727	coincide
+gob_bigboss_wolf_amb	25x50	25x50	rh.txt:726 ; rh.txt:1265 ; rh.txt:727	coincide
+gob_oddnob_wolf	25x50	25x50	rh.txt:726 ; rh.txt:1265 ; rh.txt:727	coincide
+gob_oddnob_wolf_amb	25x50	25x50	rh.txt:726 ; rh.txt:1265 ; rh.txt:727	coincide
+gob_oddgit_wolf	25x50	25x50	rh.txt:726 ; rh.txt:1265 ; rh.txt:727	coincide
+gob_oddgit_wolf_amb	25x50	25x50	rh.txt:726 ; rh.txt:1265 ; rh.txt:727	coincide
+black_warboss_chariot	50x100	50x100	aj_orcs.txt:1160 ; aj_orcs2.txt:1159 ; aj_orcs.txt:1161	coincide
+black_bigboss_chariot	50x100	50x100	aj_orcs.txt:1160 ; aj_orcs2.txt:1159 ; aj_orcs.txt:1161	coincide
+wolf_riders_hp	25x50	25x50	Wolf Rider@rh.txt:1265	coincide
+wolf_riders_amb_hp	25x50	25x50	rh.txt:1265 ; rh.txt:1266	coincide
+ct_cannon_ogre	60x100	60x100	cathay_aj.txt:2341 (máquina 60x100; dotación 25x25)	coincide
+ct_cannon_ogre_gp	60x100	60x100	cathay_aj.txt:2341 (máquina 60x100; dotación 25x25)	coincide
+ct_rockets_ogre	60x100	60x100	cathay_aj.txt:2341 (máquina 60x100; dotación 25x25)	coincide
+ct_rockets_ogre_gp	60x100	60x100	cathay_aj.txt:2341 (máquina 60x100; dotación 25x25)	coincide
+ct_jade_cdg	25x25	25x25	cathay_aj.txt:1768 (Jade Warriors)	coincide
+ct_lancers_cdg	30x60	30x60	cathay_aj.txt:1816 (Jade Lancers)	coincide
+he_seaguard_g	25x25	25x25 / 60x100 / 50x50	fof.txt:6347 ; fof.txt:6812 ; fof.txt:7090	coincide
+he_seaguard_dr	25x25	25x25 / 60x100 / 50x50	fof.txt:6347 ; fof.txt:6812 ; fof.txt:7090	coincide
+he_spearmen_lc	25x25	25x25 / 60x100 / 50x50	fof.txt:2346 ; fof.txt:6347 ; fof.txt:6812	coincide
+he_spearmen_mc	25x25	25x25 / 60x100 / 50x50	fof.txt:2346 ; fof.txt:6347 ; fof.txt:6812	coincide
+he_spearmen_lcmc	25x25	25x25 / 60x100 / 50x50	fof.txt:2346 ; fof.txt:6347 ; fof.txt:6812	coincide
+he_archers_lc	25x25	25x25 / 60x100 / 50x50	fof.txt:2346 ; fof.txt:6347 ; fof.txt:6812	coincide
+he_archers_mc	25x25	25x25 / 60x100 / 50x50	fof.txt:2346 ; fof.txt:6347 ; fof.txt:6812	coincide
+he_archers_lcmc	25x25	25x25 / 60x100 / 50x50	fof.txt:2346 ; fof.txt:6347 ; fof.txt:6812	coincide
+he_shadow_amb	25x25	25x25	Shadow Warrior@fof.txt:6529	coincide
+he_skycutter_amb	60x100	60x100	fof.txt:6812 ; fof.txt:6813	coincide
+he_skycutter_bt_amb	60x100	60x100	fof.txt:6812 ; fof.txt:6813	coincide
+we_dryads_amb	30x30	30x30	fof.txt:5248 ; fof.txt:5249	coincide
+we_treekin_amb	50x50	50x50	fof.txt:5268 ; fof.txt:5269	coincide
+we_treeman_amb	50x50	50x50 / 50x75	Treeman@fof.txt:5568	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+we_ancient_amb	50x50	50x50 / 50x75	Treeman Ancient@fof.txt:4831	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+road_wardens	30x60	30x60	Road Warden@aj_empire.txt:1323 ; Road Warden@aj_empire2.txt:1327	coincide
+road_wardens_p	30x60	30x60	aj_empire.txt:1323 ; aj_empire2.txt:1327 ; aj_empire.txt:1324	coincide
+teutogen	25x25	25x25	Teutogen Guard@aj_empire.txt:1217 ; Teutogen Guard@aj_empire2.txt:1221	coincide
+emp_harbinger	25x25	25x25	Harbinger of Doom@aj_empire.txt:1164 ; Harbinger of Doom@aj_empire2.txt:1168	coincide
+imp_ogres	40x40	40x40	Imperial Ogre@aj_empire.txt:1268 ; Ogre@aj_orcs.txt:1104	coincide
+dw_impmerc	25x25	25x25	aj_dwarfs.txt:1215 (Imperial Dwarf Mercenaries «Base Size: 25 x 25 mm»)	coincide (v843o: entrada hallada en el libro local)
+dw_impmerc_gw	25x25	hereda de dw_impmerc (25x25)	legacy.to → dw_impmerc	coincide con la unidad a la que se redirige (variante de equipo/opción)
+dw_impmerc_sp	25x25	hereda de dw_impmerc (25x25)	legacy.to → dw_impmerc	coincide con la unidad a la que se redirige (variante de equipo/opción)
+dw_impmerc_xb	25x25	hereda de dw_impmerc (25x25)	legacy.to → dw_impmerc	coincide con la unidad a la que se redirige (variante de equipo/opción)
+dw_impmerc_hg	25x25	hereda de dw_impmerc (25x25)	legacy.to → dw_impmerc	coincide con la unidad a la que se redirige (variante de equipo/opción)
+empire_knights_ww	30x60	30x60	fof.txt:2557 ; fof.txt:2558	coincide
+inner_circle_ww	30x60	30x60	fof.txt:2603 ; fof.txt:2604	coincide
+dw_royalwarriors_ga	25x25	25x25	aj_dwarfs.txt:1166 ; aj_dwarfs2.txt:1166 ; aj_dwarfs.txt:1167	coincide
+dw_sapper	25x25	25x25	Engineer Sapper@aj_dwarfs.txt:1072 ; Engineer Sapper@aj_dwarfs2.txt:1072	coincide
+dw_thunderers_em	25x25	25x25	fof.txt:776	coincide
+woc_chieftain	30x30	25x25	FAQ RH 30x30 ; Marauder Tribe Chieftain@aj_chaos.txt:1175 ; Marauder Tribe Chieftain@aj_chaos2.txt:1183	FAQ manda sobre el libro (motor = FAQ)
+woc_berserkers	30x30	25x25	FAQ RH 30x30 ; Marauder Tribe Berserker@aj_chaos.txt:1229 ; Marauder Tribe Berserker@aj_chaos2.txt:1236	FAQ manda sobre el libro (motor = FAQ)
+woc_chieftain_horse	30x60	30x60	faq_rh.txt:347	coincide
+woc_huscarls	30x60	30x60	Marauder Tribe Huscarl@aj_chaos.txt:1333 ; Marauder Tribe Huscarl@aj_chaos2.txt:1341	coincide
+bm_centigors_sons	30x60	30x60	rh.txt:4217 ; rh.txt:4218	coincide
+woc_skinwolves	50x50	50x50	FAQ RH «Skin Wolves»	FAQ manda sobre el libro (motor = FAQ)
+woc_chosen_chariot	60x100	60x100	rh.txt:3002 ; rh.txt:3052 ; rh.txt:3003	coincide
+woc_marauders_amb	30x30	30x30	faq_rh.txt:305	coincide
+woc_marauders_gw_amb	30x30	30x30	faq_rh.txt:305	coincide
+woc_horsemen_amb	30x60	30x60	faq_rh.txt:347	coincide
+woc_aspiring_amb	30x30	30x30	rh.txt:2259 ; rh.txt:2260	coincide
+woc_marauders_famb	30x30	25x25	FAQ RH 30x30 ; Chaos Marauder@rh.txt:2551	corregido 25x25 → 30x30
+woc_marauders_gw_famb	30x30	30x30	faq_rh.txt:305	coincide
+woc_horsemen_famb	30x60	30x60	faq_rh.txt:347	coincide
+tk_guardchariot	50x100	50x100	rh.txt:5560 ; rh.txt:6047 ; rh.txt:5561	coincide
+tk_archnecro	25x25	25x25	aj_tk.txt:1148 ; aj_tk2.txt:1146 ; aj_tk.txt:1149	coincide
+tk_vushabti	40x40	40x40	aj_tk.txt:1233 ; aj_tk2.txt:1231 ; aj_tk.txt:1234	coincide
+tk_necroserpent	50x100	50x100	rh.txt:5946 ; rh.txt:5947	coincide
+bm_primalhounds	25x50	25x50	rh.txt:2947 ; rh.txt:4313 ; rh.txt:2948	coincide
+bm_ravager	25x25	25x25	Ungor Ravager@aj_beasts.txt:1231 ; Ungor Ravager@aj_beasts2.txt:1231	coincide
+lm_skinkhandler	25x25	25x25	leg_lizardmen.txt:294 ; leg_lizardmen.txt:318 ; leg_lizardmen.txt:295	coincide
+we_beastkeeper	25x25	25x25	aj_wood2.txt:1267 ; aj_westerland.txt:2779 ; aj_wood2.txt:1268	coincide
+sk_packmaster	25x25	25x25	Packmaster@leg_skaven.txt:460	coincide
+sk_thingscatcher	25x25	25x25	leg_skaven.txt:460 ; leg_skaven.txt:461	coincide
+bm_warherd	25x25	25x25 / 30x30	rh.txt:4068 ; rh.txt:4117 ; aj_beasts.txt:1156	coincide
+bm_warherd_u	25x25	25x25 / 30x30	rh.txt:4068 ; rh.txt:4117 ; aj_beasts.txt:1156	coincide
+bm_warherd_shtw	25x25	25x25 / 30x30	rh.txt:4068 ; rh.txt:4117 ; aj_beasts.txt:1156	coincide
+bm_warherd_shtw_u	25x25	25x25 / 30x30	rh.txt:4068 ; rh.txt:4117 ; aj_beasts.txt:1156	coincide
+bm_warherd_awth	25x25	25x25 / 30x30	rh.txt:4068 ; rh.txt:4117 ; aj_beasts.txt:1156	coincide
+bm_warherd_awth_u	25x25	25x25 / 30x30	rh.txt:4068 ; rh.txt:4117 ; aj_beasts.txt:1156	coincide
+bm_warherd_awtw	25x25	25x25 / 30x30	rh.txt:4068 ; rh.txt:4117 ; aj_beasts.txt:1156	coincide
+bm_warherd_awtw_u	25x25	25x25 / 30x30	rh.txt:4068 ; rh.txt:4117 ; aj_beasts.txt:1156	coincide
+lm_oldblood_carno	50x100	50x100	leg_lizardmen.txt:511 (Carnosaur «Base Size: 50 x 100 mm»)	coincide (v843o: entrada hallada en el libro local)
+lm_scar_carno	50x100	50x100	leg_lizardmen.txt:511 (Carnosaur «Base Size: 50 x 100 mm»)	coincide (v843o: entrada hallada en el libro local)
+woc_spawn_khorne	50x50	50x50	rh.txt:2750 ; rh.txt:2751	coincide
+woc_spawn_nurgle	50x50	50x50	rh.txt:2750 ; rh.txt:2751	coincide
+woc_spawn_slaanesh	50x50	50x50	rh.txt:2750 ; rh.txt:2751	coincide
+woc_spawn_tzeentch	50x50	50x50	rh.txt:2750 ; rh.txt:2751	coincide
+cd_prophet_lammasu	50x75	50x75	leg_chaosdwarfs.txt:535	coincide
+cd_prophet_bale	60x100	60x100	leg_chaosdwarfs.txt:502 (Bale Taurus «Base Size: 60 x 100 mm»)	coincide (v843o: entrada hallada en el libro local)
+cd_daemonsmith_lammasu	50x75	50x75	leg_chaosdwarfs.txt:535	coincide
+cd_mortar_hb	50x75	N/A	leg_chaosdwarfs.txt:613 «Base Size: N/A»; GW Legacy PDF Chaos Dwarfs (warhammer-community.com/wp-content/uploads/2024/01/lh5Vwam4VMzKMRgg.pdf, © 2024) «Base Size: N/A»; foro chaos-dwarfs.com (2024-02-02, 2025-10-12): comunidad 60x100 o 50x100, no oficial	sin dato OFICIAL (N/A): el motor conserva 50x75 como huella de convención; la comunidad propone 50x100/60x100 (no oficial, no se aplica)
+cd_rocket_hb	50x75	50x75	leg_chaosdwarfs.txt:573 ; leg_chaosdwarfs.txt:574	coincide
+cd_magma_hb	50x100	50x100	leg_chaosdwarfs.txt:648 ; leg_chaosdwarfs.txt:649	coincide
+bm_gor_amb	25x25	25x25	rh.txt:4068 ; rh.txt:4117 ; rh.txt:4069	coincide
+bm_gor_aw_amb	25x25	25x25	rh.txt:4068 ; rh.txt:4117 ; rh.txt:4069	coincide
+bm_ungor_amb	25x25	25x25	rh.txt:4068 ; rh.txt:4117 ; rh.txt:4069	coincide
+bm_ungor_bow_amb	25x25	25x25	rh.txt:4068 ; rh.txt:4117 ; rh.txt:4069	coincide
+dw_cannon_ff	50x50	50x50	fof.txt:1261 ; fof.txt:1262	coincide
+dw_organ_ff	50x50	50x50	fof.txt:1278 ; fof.txt:1279	coincide
+dw_flame_ff	50x75	50x75	fof.txt:1291 ; fof.txt:1292	coincide
+tk_skirmishers_amb	25x25	25x25	rh.txt:5634 ; rh.txt:5635	coincide
+tk_horse_archers_cr	25x50	25x50	rh.txt:5846 ; rh.txt:5847	coincide
+tk_horse_archers_mo	25x50	25x50	Skeleton Horse Archer@rh.txt:5895	coincide
+dw_slayers_g	25x25	25x25	fof.txt:1069 ; fof.txt:1070	coincide
+state_troops	25x25	25x25	fof.txt:2236 (State Troops: 25 x 25 mm)	coincide
+state_vets	25x25	25x25	State Missile Trooper@fof.txt:2278	coincide
+night_gobs	25x25	25x25	Night Goblin@rh.txt:971	coincide
+boar_riders	30x60	30x60	Boar Boy@rh.txt:1173	coincide
+br_duke_foot	25x25	25x25	Character Duke@fof.txt:3366	coincide
+br_duke_peg	40x60	40x60	fof.txt:3941 ; fof.txt:3553 ; fof.txt:3942	coincide
+br_duke_rpeg	50x50	50x50 / 40x60	fof.txt:3565 ; fof.txt:3579	coincide
+br_baron_foot	25x25	25x25	fof.txt:3366	coincide
+br_baron_peg	40x60	40x60	fof.txt:3941 ; fof.txt:3553 ; fof.txt:3942	coincide
+br_baron_hippo	50x50	40x60 / 50x75 / 50x50	fof.txt:3941 ; fof.txt:2183 ; fof.txt:2195	coincide
+br_paladin_foot	25x25	25x25	fof.txt:3366	coincide
+br_paladin_peg	40x60	40x60	fof.txt:3941 ; fof.txt:3553 ; fof.txt:3942	coincide
+br_paladin_rpeg	50x50	50x50 / 40x60	fof.txt:3565 ; fof.txt:3579	coincide
+br_prophetess_war16	30x60	30x60 / 60x100 / 25x50 / 50x50	fof.txt:2159 ; fof.txt:2171 ; fof.txt:2513	coincide
+br_damsel_war16	30x60	30x60	fof.txt:3528 ; fof.txt:3801 ; fof.txt:3826	coincide
+br_prophetess_war12	25x50	25x50	fof.txt:3540 ; fof.txt:3986 ; fof.txt:3541	coincide
+br_damsel_war12	25x50	25x50	fof.txt:3540 ; fof.txt:3986 ; fof.txt:3541	coincide
+br_prophetess_uni	40x60	40x60	fof.txt:3579 ; fof.txt:4975	coincide
+br_damsel_uni	40x60	40x60	fof.txt:3579 ; fof.txt:4975	coincide
+br_prophetess_rpeg	50x50	50x50 / 40x60	fof.txt:3565 ; fof.txt:3579	coincide
+br_sergeant_mtd	25x50	25x50	fof.txt:3540 ; fof.txt:3986 ; fof.txt:3541	coincide
+he_garrison_eagle	50x50	50x50	fof.txt:5523 ; fof.txt:7042 ; fof.txt:5524	coincide
+he_garrison_griffon	50x50	50x50	fof.txt:2845 ; fof.txt:6856	coincide
+he_garrison_skycutter	60x100	60x100	fof.txt:6812 ; fof.txt:6813	coincide
+he_garrison_skycutter_amb	60x100	60x100	fof.txt:6812 ; fof.txt:6813	coincide
+woc_lord_cchariot	60x100	60x100	rh.txt:3002 ; rh.txt:3052 ; rh.txt:3003	coincide
+woc_exalted_cchariot	60x100	60x100	rh.txt:3002 ; rh.txt:3052 ; rh.txt:3003	coincide
+woc_aspiring_cchariot	60x100	60x100	rh.txt:3002 ; rh.txt:3052 ; rh.txt:3003	coincide
+tk_cohort	25x25	25x25	aj_tk2.txt:1199	coincide
+tk_cohort_ph	25x25	25x25	aj_tk2.txt:1199	coincide
+tk_cohort_a	25x25	25x25	aj_tk2.txt:1199	coincide
+tk_cohort_cav	25x50	25x50	aj_tk2.txt:1257	coincide
+tk_cohort_cav_cc	25x50	25x50	aj_tk2.txt:1257	coincide
+tk_cohort_ca	25x50	25x50	aj_tk2.txt:1257	coincide
+tk_cohort_ca_cc	25x50	25x50	aj_tk2.txt:1257	coincide
+emp_harald	30x60	30x60	Harald Gemunsen@aj_empire.txt:1032 ; Harald Gemunsen@aj_empire2.txt:1036	coincide
+emp_hans	25x25	25x25	General Hans@aj_empire.txt:1120 ; General Hans@aj_empire2.txt:1124	coincide
+dw_thorgrim	25x25	25x25	Thorgrim Ulleksson@aj_dwarfs.txt:856 ; Thorgrim Ulleksson@aj_dwarfs2.txt:856	coincide
+dw_ungrim	25x25	25x25	Ungrim Ironfist@aj_dwarfs.txt:940 ; Ungrim Ironfist@aj_dwarfs2.txt:940	coincide
+dw_burlok	25x25	25x25	Burlok Damminson@aj_dwarfs.txt:1024 ; Burlok Damminson@aj_dwarfs2.txt:1024	coincide
+woc_frydaal	30x30	30x30	Frydaal the Chainmaker@aj_chaos.txt:1034 ; Frydaal the Chainmaker@aj_chaos2.txt:1042	coincide
+tk_apophas	25x25	25x25	Prince Apophas@aj_tk.txt:1022 ; Prince Apophas@aj_tk2.txt:1020	coincide
+tk_nekaph	25x25	25x25	Nekaph,@aj_tk.txt:1110 ; Nekaph,@aj_tk2.txt:1108	coincide
+bm_kralmaw	30x30	30x30 / 25x25	Kralmaw, the@aj_beasts.txt:1005 ; Kralmaw, the@aj_beasts2.txt:1005	coincide
+bm_ghorros	30x60	30x60	Ghorros Warhoof@aj_beasts.txt:1109 ; Ghorros Warhoof@aj_beasts2.txt:1109	coincide
+tk_settra	100x150	100x150	Settra the Imperishable@aj_tk.txt:874 ; Settra the Imperishable@aj_tk2.txt:873	coincide
+woc_gspawn	60x100	60x100	aj_chaos.txt:1429	coincide
+woc_gspawnk	60x100	60x100	aj_chaos.txt:1429	coincide
+woc_gspawnn	60x100	60x100	aj_chaos.txt:1429	coincide
+woc_gspawns	60x100	60x100	aj_chaos.txt:1429	coincide
+woc_gspawnt	60x100	60x100	aj_chaos.txt:1429	coincide
+bm_gspawn	60x100	60x100	aj_chaos.txt:1429	coincide
+bm_gspawnk	60x100	60x100	aj_chaos.txt:1429	coincide
+bm_gspawnn	60x100	60x100	aj_chaos.txt:1429	coincide
+bm_gspawns	60x100	60x100	aj_chaos.txt:1429	coincide
+bm_gspawnt	60x100	60x100	aj_chaos.txt:1429	coincide
+bm_preyton	75x50	75x50	Preyton@aj_beasts.txt:1318 ; Preyton@aj_beasts2.txt:1318	coincide
+bm_preyton_amb	75x50	75x50	aj_beasts.txt:1318 ; aj_beasts2.txt:1318 ; aj_beasts.txt:1319	coincide
+bm_preyton_fr	75x50	75x50	aj_beasts.txt:1318 ; aj_beasts2.txt:1318 ; aj_beasts.txt:1319	coincide
+woc_warpfire	60x100	60x100	aj_chaos.txt:1480	coincide
+woc_warpfire_w1	60x100	60x100	aj_chaos.txt:1480	coincide
+woc_warpfire_w2	60x100	60x100	aj_chaos.txt:1480	coincide
+war_wagon	60x100	60x100	aj_empire.txt:1376 ; aj_empire2.txt:1380 ; aj_empire.txt:1377	coincide
+emp_engineer_wagon	60x100	60x100	aj_empire.txt:1376 ; aj_empire2.txt:1380 ; aj_empire.txt:1377	coincide
+dm_herald_slaanesh_w1	25x25	25x25	leg_daemons.txt:521 ; leg_daemons.txt:522	coincide
+dm_herald_slaanesh_w2	25x25	25x25	leg_daemons.txt:521 ; leg_daemons.txt:522	coincide
+dm_herald_slaanesh_steed_w1	30x60	30x60 / 100x60 / 50x100 / 100x150	leg_daemons.txt:550 ; leg_daemons.txt:585 ; leg_daemons.txt:634	coincide
+dm_herald_slaanesh_steed_w2	30x60	30x60 / 100x60 / 50x100 / 100x150	leg_daemons.txt:550 ; leg_daemons.txt:585 ; leg_daemons.txt:634	coincide
+ct_lanterns_hail	100x100	100x100	cathay_aj.txt:1919 (Sky Lantern 100 x 100)	coincide
+ct_lanterns_amb_hail	100x100	100x100	cathay_aj.txt:1919 (Sky Lantern 100 x 100)	coincide
+cd_blackboss	30x30	30x30 / 50x100	rh.txt:358 ; rh.txt:789 ; aj_orcs.txt:1160	coincide
+cd_blackorcs	30x30	30x30 / 50x100	rh.txt:358 ; rh.txt:789 ; aj_orcs.txt:1160	coincide
+cd_hellcannon	100x150	100x150	FAQ RH 100x150 ; Hellcannon@rh.txt:3249	FAQ manda sobre el libro (motor = FAQ)
+vc_risen	25x25	25x25 / 100x150	leg_vampires.txt:427 ; leg_vampires.txt:448 ; leg_vampires.txt:428	coincide
+dm_burning	50x100	50x100	leg_daemons.txt:907 ; leg_daemons.txt:908	coincide
+de_scourge	50x100	50x100	leg_darkelves.txt:676 ; leg_darkelves.txt:677	coincide
+de_coldchariot	50x100	50x100	leg_darkelves.txt:702 ; leg_darkelves.txt:703	coincide
+cd_sneakygits	25x25	25x25	leg_chaosdwarfs.txt:341 ; leg_chaosdwarfs.txt:342	coincide
+vc_necro_terror	50x100	50x100	leg_vampires.txt:928 (Abyssal Terror «Base Size: 50 x 100 mm»)	coincide (v843o: entrada hallada en el libro local; la v843n no la enlazó)
+vc_necro_dragon	100x150	100x150	leg_vampires.txt:858 (Zombie Dragon «Base Size: 100 x 150 mm»); GW Legacy PDF Vampire Counts 24.09 (assets.warhammer-community.com, consultado 2026-11-23)	CORREGIDO v843o: 60x100 → 100x150 (personaje montado = peana de la montura; mismo tamaño que el Terrorgheist del mismo libro)
+vc_thrall_coven	50x100	50x100	leg_vampires.txt:697 ; leg_vampires.txt:698	coincide
+vc_ghoulking_terror	100x150	100x150	leg_vampires.txt:889 ; leg_vampires.txt:890	coincide
+vc_necro_mortis	50x100	50x100	leg_vampires.txt:741 ; leg_vampires.txt:742	coincide
+vc_acolyte_mortis	50x100	50x100	leg_vampires.txt:741 ; leg_vampires.txt:742	coincide
+vc_acolyte_nightmare	30x60	30x60	leg_vampires.txt:378 ; leg_vampires.txt:569 ; leg_vampires.txt:379	coincide
+rc_prince	25x25	25x25	tow.whfb.app/unit/renegade-prince (AJ The War of Settra's Fury p.38, «Last update: 2025 October 30»)	coincide (v843o: dato web = Arcane Journal)
+rc_prince_h	30x60	30x60	Barded Warhorse «Base Size: 30 x 60 mm» (tow.whfb.app/unit/barded-warhorse: FoF p.55 y AJ War of Settra's Fury p.38, 2025-10-30); rh/fof Warhorse 30x60	coincide (v843o: montura = peana de la montura)
+rc_captain	25x25	25x25	tow.whfb.app/unit/renegade-captain (AJ War of Settra's Fury, 2025-10-30)	coincide (v843o: dato web = Arcane Journal)
+rc_captain_h	30x60	30x60	Barded Warhorse «Base Size: 30 x 60 mm» (tow.whfb.app/unit/barded-warhorse: FoF p.55 y AJ War of Settra's Fury p.38, 2025-10-30); rh/fof Warhorse 30x60	coincide (v843o: montura = peana de la montura)
+rc_wizard1	25x25	25x25	Outcast Wizard@aj_bretonnia.txt:1380	coincide
+rc_wizard1_h	30x60	30x60	tow.whfb.app Outcast Wizard «mounted on a Warhorse» (AJ Bretonnia p.42, 2024-02-23) + Warhorse 30x60 (FoF p.55 / AJ Settra p.38, 2025-10-30)	coincide (v843o: montura = peana de la montura)
+rc_wizard2	25x25	25x25	tow.whfb.app/unit/outcast-wizard (AJ Kingdom of Bretonnia p.42, «Last update: 2024 February 23»)	coincide (v843o: dato web = Arcane Journal)
+rc_wizard2_h	30x60	30x60	tow.whfb.app Outcast Wizard «mounted on a Warhorse» (AJ Bretonnia p.42, 2024-02-23) + Warhorse 30x60 (FoF p.55 / AJ Settra p.38, 2025-10-30)	coincide (v843o: montura = peana de la montura)
+rc_wizard3	25x25	25x25	tow.whfb.app/unit/outcast-wizard (AJ Kingdom of Bretonnia p.42, «Last update: 2024 February 23»)	coincide (v843o: dato web = Arcane Journal)
+rc_wizard3_h	30x60	30x60	tow.whfb.app Outcast Wizard «mounted on a Warhorse» (AJ Bretonnia p.42, 2024-02-23) + Warhorse 30x60 (FoF p.55 / AJ Settra p.38, 2025-10-30)	coincide (v843o: montura = peana de la montura)
+rc_sellswords	25x25	25x25	tow.whfb.app/unit/sellsword-infantry (AJ War of Settra's Fury p.39, 2025-10-30)	coincide (v843o: dato web = Arcane Journal)
+rc_vsellswords	25x25	25x25	tow.whfb.app/unit/veteran-sellswords (AJ War of Settra's Fury p.39, 2025-10-30)	coincide (v843o: dato web = Arcane Journal)
+rc_sellswords_ph	25x25	25x25	tow.whfb.app/unit/sellsword-infantry (AJ War of Settra's Fury p.39, 2025-10-30)	coincide (v843o: dato web = Arcane Journal)
+rc_vsellswords_ph	25x25	25x25	tow.whfb.app/unit/veteran-sellswords (AJ War of Settra's Fury p.39, 2025-10-30)	coincide (v843o: dato web = Arcane Journal)
+rc_freeblades	30x60	30x60	tow.whfb.app/unit/freeblade-knights (AJ War of Settra's Fury p.40, 2025-10-30)	coincide (v843o: dato web = Arcane Journal)
+rc_vfreeblades	30x60	30x60	tow.whfb.app/unit/veteran-freeblades (AJ War of Settra's Fury p.40, 2025-10-30)	coincide (v843o: dato web = Arcane Journal)
+rc_outriders	30x60	30x60	tow.whfb.app/unit/hireling-outriders (AJ War of Settra's Fury p.41, «Last update: 2026 April 13»)	coincide (v843o: dato web = Arcane Journal)
+rc_mortar	50x75	50x75	tow.whfb.app/unit/border-princes-mortar (AJ War of Settra's Fury p.42, 2025-10-30)	coincide (v843o: dato web = Arcane Journal)
+rc_organ	50x50	50x50	tow.whfb.app/unit/border-princes-organ-gun (AJ War of Settra's Fury p.42, 2025-10-30)	coincide (v843o: dato web = Arcane Journal)
+rc_bombard	50x50	50x50	tow.whfb.app/unit/border-princes-bombard (AJ Kingdom of Bretonnia p.45, «Last update: 2024 August 11»)	coincide (v843o: dato web = Arcane Journal)
+rc_brigands	25x25	25x25	Brigand@aj_bretonnia.txt:1497	coincide
+br_outcast2	25x25	25x25	aj_bretonnia.txt:1380 ; aj_bretonnia.txt:1381	coincide
+br_outcast_h	25x50	25x50	fof.txt:3540 ; fof.txt:3986 ; fof.txt:3541	coincide
+br_outcast2_h	25x50	25x50	fof.txt:3540 ; fof.txt:3986 ; fof.txt:3541	coincide
+br_outcast3_h	25x50	25x50	fof.txt:3540 ; fof.txt:3986 ; fof.txt:3541	coincide
+emp_general_igriffon	60x100	60x100	fof.txt:2845 (Imperial Griffon: 60 x 100 mm)	coincide
+woc_exalted_manticore	60x100	60x100	rh.txt:3103 ; leg_darkelves.txt:786	coincide
+woc_exalted_dragon	60x100	60x100	rh.txt:3152	coincide
+woc_lord_daemon	40x60	40x60 / 50x75	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+woc_exalted_daemon	40x60	40x60 / 50x75	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+woc_aspiring_daemon	40x60	40x60 / 50x75	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+woc_sorc_daemon	40x60	40x60 / 50x75	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+woc_exsorc_daemon	40x60	40x60 / 50x75	—	HORQUILLA (v843m): Core «Base Size»: con rango, la peana con la que viene la miniatura es la correcta → el jugador elige min / estándar del motor / max (botón «Peana» en la lista; u.base); por defecto la estándar, dentro de la horquilla
+dm_herald_slaanesh_chariot_w1	50x100	50x100 / 100x150	leg_daemons.txt:653 ; leg_daemons.txt:678 ; leg_daemons.txt:654	coincide
+dm_herald_slaanesh_chariot_w2	50x100	50x100 / 100x150	leg_daemons.txt:653 ; leg_daemons.txt:678 ; leg_daemons.txt:654	coincide
+dm_herald_slaanesh_exalted_w1	100x150	100x150	leg_daemons.txt:678 ; leg_daemons.txt:679	coincide
+dm_herald_slaanesh_exalted_w2	100x150	100x150	leg_daemons.txt:678 ; leg_daemons.txt:679	coincide
+he_noble_tiranoc	50x100	50x100	fof.txt:6762 ; fof.txt:6763	coincide

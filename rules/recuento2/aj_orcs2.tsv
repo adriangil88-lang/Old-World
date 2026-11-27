@@ -1,0 +1,121 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+aj_orcs2-001	aj_orcs2.txt:1-455	Ambientación y crónica (Waaagh!, Badlands, Kiknik): Textos de ambientación, geografía y crónica de Kiknik	NA		Sin efecto mecánico
+aj_orcs2-002	aj_orcs2.txt:456-486	Escenario Winter's Teeth: listas: Atacante 2.500 pts Nómada con Kiknik general; defensor 1.000 enanos (Ingeniero general	OK	data.js:6297 (SCN_REQ.winter), data.js:4562 (ALLY_SCN.winter), rules.js:886	Atacante Nómada 2.500 con Kiknik de General; defensor Guarnición enana (Gran Ejército, Ingeniero General, se marca General al crear la partida) + escolta imperial (contingente aliado, 1.000+1.500); alternativa «cualquier ejército» vía free
+aj_orcs2-003	aj_orcs2.txt:498-521	Escenario Winter's Teeth: despliegue: Defensor despliega 3 carros y ejército; atacante en dos mitades en zonas A y B	OK	rules.js:1305 (ALT_RULE winter whole/def), rules.js:1138	Despliegue: carros, ejército defensor entero y luego el atacante en dos mitades por puntos (zonas A y B). Con zona muy llena un carro puede quedar en reserva (comportamiento previo del motor)
+aj_orcs2-004	aj_orcs2.txt:522-528	Escenario Winter's Teeth: primer turno y duración: Atacante primer turno automático; 6 rondas	OK	rules.js:253 (turns:6, first:0, gend fixed)	Atacante primer turno automático (first:0) y 6 rondas fijas
+aj_orcs2-005	aj_orcs2.txt:505-508	"Late Snows: Infantería y Goods Carts no marchan salvo en el camino central de 6"""	PARCIAL	rules.js:~2230 (Nieves tardías)	"VERIF v732: rules.js:2220 Nieves tardias excluye monInf (infanteria monstruosa); Core: la Infanteria Monstruosa sigue las reglas de Infanteria salvo excepcion, asi que tambien no deberia marchar | Solo tropa «infantería» (regular, pesada, enjambre, personaje a pie; no infantería monstruosa) y carros de mercancías; deben estar en el camino (±3"") al salir y al llegar"
+aj_orcs2-006	aj_orcs2.txt:510-515	Fleeing to Safety: Unidad defensora que toque o cruce el borde este se retira sin ser destruida	OK	rules.js:~8020 (escape borde este)	Cualquier unidad defensora cuya esquina toque o cruce el borde este se retira sin ser destruida; sus personajes unidos también
+aj_orcs2-007	aj_orcs2.txt:522-526	Victory!: bonificación defensor: +100 PV por Goods Cart que escapa y +100 si escapa el Ingeniero	OK	rules.js scoreVP (winter)	+100 por carro escapado y +100 si escapa el Ingeniero Enano (con otros ejércitos, el General del defensor hace su papel)
+aj_orcs2-008	aj_orcs2.txt:527-529	Victory!: bonificación atacante: +100 PV por Goods Cart destruido y +100 si Kiknik mata al Ingeniero	OK	rules.js:5532 (s.winterKik), scoreVP	+100 por carro destruido y +100 solo si Kiknik (sus propias heridas) mata al Ingeniero (o al General del defensor con otros ejércitos)
+aj_orcs2-009	aj_orcs2.txt:535-540	Goods Cart: perfil: Carro F4 R5 H3; dotación enana HA4 HP4 F3 I2 A1 Ld9; poni M6 HA2 F3 I2 A1; carro ligero 75x50	OK	data.js:806 (goods_cart)	
+aj_orcs2-010	aj_orcs2.txt:542-546	Goods Cart: armadura y equipo: Armadura 5+; arma de mano; cascos del poni como arma de mano	OK	data.js:806 (Sv 5)	
+aj_orcs2-011	aj_orcs2.txt:548-549	Goods Cart: reglas especiales: Odio (Orcos y Goblins), Impactos (1), Resistencia mágica (-1), Orden abierto, Resuelto	OK	data.js:806 (sr hatredOrcs impact magRes openOrder resolute)	
+aj_orcs2-012	aj_orcs2.txt:638-645	Nómada: Personajes 50%: Hasta 50% personajes; 0-1 Jefe Negro/Bigboss por Carro Negro; 0-1 Warboss/Weirdnob por 1.000	OK	data.js:4902 (validación Nómada)	0-1 Jefe de Guerra/Gran Jefe Orco Negro por Carro de Jabalíes de Orcos Negros (FAQ RH: da igual la montura) y 0-1 Jefe de Guerra/Chamán Mayor Orco por 1.000 pts (incluye montados en jabalí)
+aj_orcs2-013	aj_orcs2.txt:648-655	Nómada: Básicas ≥25%: Jinetes de Lobo y Carros de Lobos; 0-1 Jinetes de Jabalí si general Jefe Orco; 0-1 Carro Negro si 	OK	data.js:4679 (catsOf nomad)	Carro negro Básico solo si el General es Jefe Orco Negro (generalOf); Jinetes de Jabalí Básicos solo con General Jefe de Guerra Orco (FAQ RH); 0-1 por move()
+aj_orcs2-014	aj_orcs2.txt:656-660	Nómada: Especiales ≤50%: Jinetes de Jabalí, Carros de Jabalíes Orcos y Carros Bomba Snotling	OK	data.js:3319 (OR_NOMAD)	
+aj_orcs2-015	aj_orcs2.txt:662-665	Nómada: Raras ≤25%: Carros de Jabalíes de Orcos Negros y Gigantes	OK	data.js:3319 (black_chariot, orc_giant rare)	
+aj_orcs2-016	aj_orcs2.txt:638-646	Nómada: Mercenarios ≤25%: Hasta 25% en Ogros y 0-1 Gigante Triturador; reglas Misbehaving Mercenaries	OK	rules.js:1041-1050 (Mercenarios díscolos)	Límites 25 % y 0-1 Triturador ya validados; tabla de Mercenarios díscolos implementada en createGame
+aj_orcs2-017	aj_orcs2.txt:650-655	Nómada: Portaestandarte: Un Bigboss (Orco, Negro o Goblin) BSB por +25; estandarte mágico sin límite	OK	data.js:4906 (BSB orcos)	Solo un Gran Jefe (Orco, Orco Negro o Goblin) puede ser Portaestandarte de Batalla (+25, estandarte sin límite)
+aj_orcs2-018	aj_orcs2.txt:657-660	Nómada: Objetos mágicos: Listas Común y Orcos y Goblins	OK	data.js:3060-3083	
+aj_orcs2-019	aj_orcs2.txt:679-681	Cunning Hunters: Jinetes de Lobo Emboscadores: Cualquier mob de Jinetes de Lobo puede tener Emboscadores por +1 pt/model	OK	data.js:595 (wolf_riders_amb ppm 11)	
+aj_orcs2-020	aj_orcs2.txt:681-683	Cunning Hunters: Jefes/Chamanes goblin: Jefes y Chamanes goblin en Lobo Gigante pueden tener Emboscadores por +10 pts	OK	data.js:3363 (extraCost 10)	
+aj_orcs2-021	aj_orcs2.txt:690-695	Hit 'em Fast: Impactos (1) de jabalí: Orcos sobre Jabalí ganan Impactos (1) con F del jabalí y FP-1	OK	rules.js:2935	
+aj_orcs2-022	aj_orcs2.txt:695-697	Hit 'em 'Ard: Vanguardia Jinetes de Jabalí: 0-1 Jinetes de Jabalí por 1.000 pts con Vanguardia por +1 pt/modelo	OK	data.js:3759 (boar_riders opt vg, list nomad, per1000)	
+aj_orcs2-023	aj_orcs2.txt:679-681	Hunting Packs: Jinetes de Lobo cambian Orden abierto y Escaramuzadores por Orden cerrado y Horda	OK	data.js:3504-3505, data.js:3891	Base con Orden abierto y Escaramuzadores (RH); Manadas de caza (_hp) los cambia por Orden cerrado y Horda (excluidas del añadido genérico)
+aj_orcs2-024	aj_orcs2.txt:688-689	On Da Move: Todos los personajes del ejército Nómada deben ir montados	OK	data.js:3319, 3355-3364	
+aj_orcs2-025	aj_orcs2.txt:696-697	Solitary Fighters: Jefes Orcos Negros del Nómada no sujetos a Da Boyz ni Reprimir Impetuosidad	OK	data.js:3397 (variantes black_* sin quell)	Da Boyz no existe como regla en el motor
+aj_orcs2-026	aj_orcs2.txt:757-762	Troll Horde: Personajes 50%: 0-1 Warboss/Weirdnob por 1.000; Bigbosses, Weirdboys, Jefes y Chamanes goblin, Bruja Troll	OK	data.js:3320, 4472	
+aj_orcs2-027	aj_orcs2.txt:765-772	Troll Horde: Básicas ≥33%: 1 mob de Trolls por 1.000; 0-1 adicional por Bruja; Orcos, Goblins, Jinetes Araña y Lobo	OK	data.js:4681 (catsOf trollh)	Básicas: 1 Mob de Trolls por 1.000 pts + 0-1 adicional por Bruja Troll
+aj_orcs2-028	aj_orcs2.txt:774-780	Troll Horde: Especiales ≤50%: Mobs de Trolls y Carros de Lobos; 0-1 Jinetes de Jabalí y 0-1 Carro Jabalí por 1.000	OK	data.js:4681 (catsOf trollh)	Los Mobs de Trolls por encima de las Básicas pasan a Especiales; Carros de Lobos Especiales; 0-1 Jinetes y Carro de Jabalí por 1.000 pts
+aj_orcs2-029	aj_orcs2.txt:758-761	Troll Horde: Raras ≤25%: Gigantes	OK	data.js:3320 (orc_giant rare)	
+aj_orcs2-030	aj_orcs2.txt:763-772	Troll Horde: Mercenarios: Hasta 25% en Ogros y 0-1 Gigante Triturador	OK	data.js:3535, 4436	
+aj_orcs2-031	aj_orcs2.txt:775-780	Troll Horde: Portaestandarte: Un Bigboss (Orco o Goblin) BSB por +25; estandarte mágico sin límite	OK	data.js:4906 (BSB orcos)	Horda Troll: solo Gran Jefe Orco o Goblin; el Gran Jefe Orco Negro ya no está en la lista (el texto no lo incluye)
+aj_orcs2-032	aj_orcs2.txt:782-785	Troll Horde: Objetos mágicos: Listas Común y Orcos y Goblins	OK	data.js:3060-3083	
+aj_orcs2-033	aj_orcs2.txt:803-805	Enhanced Regeneration: Regeneración (X+) repite salvaciones fallidas contra heridas no mágicas	OK	rules.js:1740	
+aj_orcs2-034	aj_orcs2.txt:813-817	Oi! Dis Way!: Mobs de Trolls en mando de Chamán o Bruja usan su Ld si no huye	OK	rules.js:1417	Aplica a cualquier mago; algo más amplio que el texto
+aj_orcs2-035	aj_orcs2.txt:803-806	Troll Tongue: Chamanes Orcos y Goblins pueden conocer hechizos de Magia Troll en Horda Troll	OK	rules.js:769	
+aj_orcs2-036	aj_orcs2.txt:873-878	Kiknik: perfil: M4 HA5 HP3 F4 R4 H3 I5 A4 Ld8 105 pts; Chompa M9 HA3 F4 I3 A2; caballería ligera 25x50	OK	data.js:825	
+aj_orcs2-037	aj_orcs2.txt:880-884	Kiknik: equipo: Percha, Rompecráneos, lanza de caballería, escudo y armadura ligera; Chompa garras	OK	data.js:825 (arm light, avOpt shield)	Lanza de caballería sin verificar
+aj_orcs2-038	aj_orcs2.txt:886-888	Kiknik: reglas especiales: All Sneaky Like, Ambushers, Armour Bane (1 Chompa), Armoured Hide (1), Chariot Runners, Fast 	OK	data.js:826 (sr chariotRun)	
+aj_orcs2-039	aj_orcs2.txt:887	Kiknik: Chariot Runners: Regla Chariot Runners	OK	data.js:826 (sr chariotRun, regla ya existente)	
+aj_orcs2-040	aj_orcs2.txt:893-894	Kiknik: All Sneaky Like Emboscadores gratis: 0-1 mob de Jinetes de Lobo con Emboscadores gratis	OK	data.js:3354, 4433	
+aj_orcs2-041	aj_orcs2.txt:894-896	Kiknik: All Sneaky Like ±1 a llegada: Aplicar +1 o -1 a la tirada de llegada del mob con Emboscadores en reserva	PARCIAL	rules.js:~5458 (sneakyMod), main.js panel, ai.js optionGroups	VERIF v732: rules.js:6195: +1 por defecto aplicado automaticamente (sneakyMod ?? 1) solo con logE sin popup, y exige Kiknik vivo (m.models>0), no solo en la lista; eleccion +1/0/-1 en main.js:1293. | Pref sneakyMod +1/0/-1 elegida por el jugador; la IA la aprende; se anuncia en el registro
+aj_orcs2-042	aj_orcs2.txt:902-903	'It & Run: Si ganan combate pueden elegir Retirarse en buen orden en vez de seguir/perseguir	OK	rules.js:5240 (hitRunOn), ai.js:311, main.js:1114	
+aj_orcs2-043	aj_orcs2.txt:908-909	Da Boss' Trophy Rack: Al cargar, Kiknik y su unidad causan Miedo y +1 a resultado de combate	OK	rules.js:4888, data.js:307	
+aj_orcs2-044	aj_orcs2.txt:911-914	Da Skull Smasha: perfiles: Martillo F+2 FP-1 Perforante 2 mágico; Pico F FP-2 Perforante 2 Heridas múltiples 2	OK	data.js:825 (melee sb2 ap1 ab2)	
+aj_orcs2-045	aj_orcs2.txt:915-916	Da Skull Smasha: elección: El jugador elige perfil al inicio de la primera ronda	OK	rules.js:4253 (u.smasha pref), main.js, ai.js	Jugador elige Martillo/Pico hasta la primera ronda (u.fought); IA por autoaprendizaje; quitado el override automático
+aj_orcs2-046	aj_orcs2.txt:957-958	Ogdruz: perfil: M4 HA4 HP2 F4 R5 H3 I4 A2 Ld8 195 pts	OK	data.js:829	
+aj_orcs2-047	aj_orcs2.txt:960-964	Ogdruz: equipo y tipo: Infantería regular con nombre 30x30; bastón, chal de piel de troll, Familiar de saber	OK	data.js:829	Familiar de saber no verificado
+aj_orcs2-048	aj_orcs2.txt:966-969	Ogdruz: magia: Nivel 3; Elementalismo o Magia Troll	OK	data.js:829	
+aj_orcs2-049	aj_orcs2.txt:971-972	Ogdruz: reglas especiales: Choppas, Da Troll Calla, Ignore Goblin Panic, Protect Da Boss, Syphoned Strength, Warband	OK	data.js:829	
+aj_orcs2-050	aj_orcs2.txt:978-979	Da Troll Calla: Mobs de Trolls amigos en su mando usan su Ld salvo que huya	OK	rules.js:1418	
+aj_orcs2-051	aj_orcs2.txt:984-985	"Protect Da Boss: No puede ser objetivo de disparo/hechizos enemigos a 3"" de mob de Trolls salvo que sea el más cercano"	OK	rules.js:2087 (trollGuard en loneProtected: disparo y hechizos)	
+aj_orcs2-052	aj_orcs2.txt:990-991	"Syphoned Strength: +1 a lanzar si a 3"" de mob de Trolls con US 6+ sin huir"	OK	rules.js:3919	
+aj_orcs2-053	aj_orcs2.txt:996-997	Trollhide Shawl: +1 armadura, Regeneración (5+) e Inflamable	OK	data.js:829	
+aj_orcs2-054	aj_orcs2.txt:1000-1001	Bog-wood Staff: F+2 FP-1 mágico dos manos; recupera una Herida por herida no salvada	OK	rules.js:~4954 (Bastón de madera de pantano: recupera heridas)	
+aj_orcs2-055	aj_orcs2.txt:1005-1008	Bruja Troll: perfil: M5 HA2 HP2 F6 R5 H6 I2 A3 Ld8 235 pts; behemot 60x100	OK	data.js:833	
+aj_orcs2-056	aj_orcs2.txt:1010-1011	Bruja Troll: equipo: Tocón, vómito, aliento de pantano, piel escamosa (armadura pesada)	OK	data.js:833	
+aj_orcs2-057	aj_orcs2.txt:1013-1016	Bruja Troll: magia: Nivel 1; Magia de Batalla o Magia Troll	OK	data.js:833	
+aj_orcs2-058	aj_orcs2.txt:1019-1021	Bruja Troll: opciones: Nivel 2 por +35; objetos mágicos hasta 50 pts	OK	data.js:3679, ib 50	
+aj_orcs2-059	aj_orcs2.txt:1023-1025	Bruja Troll: reglas especiales: Orden cerrado, Inflamable, Inmune Psicología, Hambre Indiscriminada, Gran Blanco, Amor M	OK	data.js:833 sr	
+aj_orcs2-060	aj_orcs2.txt:1031-1042	Indiscriminate Hunger: En Mando, si trabada, elige unidad enemiga: test de I; si falla pierde 1 Herida y la Bruja recupe	OK	rules.js:~5493 (noHunger, focus como objetivo), main.js, ai.js	Opcional y objetivo elegidos por el jugador
+aj_orcs2-061	aj_orcs2.txt:1052-1055	Motherly Love: elección: En vez de atacar puede hacer ataque Amor Maternal contra unidad trabada	OK	rules.js:~4700 (noMother), motherlyAttack usa focus; main.js, ai.js	
+aj_orcs2-062	aj_orcs2.txt:1059-1063	"Motherly Love 1-2 Smother: Plantilla 5"" sobre objetivo; impacto F propia FP-2 a todo modelo bajo ella salvo ella"	OK	"rules.js motherlyAttack (circleFrac 5"", amigos y enemigos)"	
+aj_orcs2-063	aj_orcs2.txt:1064-1067	Motherly Love 3-4 Mother: Un modelo del frente sufre D3+1 Heridas sin armadura ni Regeneración	OK	rules.js:4910	
+aj_orcs2-064	aj_orcs2.txt:1068-1072	Motherly Love 5-6 Mither: D6+1 impactos sin armadura; ward y Regeneración permitidas; -1 Ld hasta fin de turno	OK	rules.js motherlyAttack	Sin armadura; anulación y Regeneración permitidas; -1 Ld
+aj_orcs2-065	aj_orcs2.txt:1076-1080	Slimy Shanks: Enemigo que ataca a este modelo sufre -1 a impactar	OK	rules.js:4368, 4626	
+aj_orcs2-066	aj_orcs2.txt:1083-1086	Troll vomit: F3 FP-2; un ataque adicional automático en contacto, último tras Pisotón	OK	rules.js:~4825 (vómito: 1 impacto automático)	
+aj_orcs2-067	aj_orcs2.txt:1089-1091	Swamp breath: F3 FP-2 Arma de aliento; unidad con heridas sin salvar hace Pánico por bajas graves	OK	data.js:837 (panicHit en aliento)	Alcance 8 = plantilla de llama del Arma de aliento (Core); pánico por heridas sin salvar
+aj_orcs2-068	aj_orcs2.txt:1094-1096	Troll Mother (Gran Ejército): Con una o más mobs de Trolls, 0-1 Bruja Troll como Rara	OK	data.js:~4608 (límite 0-1 y requisito de Trolls en Gran Ejército)	
+aj_orcs2-069	aj_orcs2.txt:1099-1100	Ogros: perfil: Ogro M6 HA3 HP2 F4 R4 H3 I2 A3 Ld7 31 pts; Crusher A4 +7	OK	data.js:837 (M6 WS3 BS2 S4 T4 W3 I2 A3 Ld7 ppm 31)	Crusher A4 no verificado
+aj_orcs2-070	aj_orcs2.txt:1103-1106	Ogros: tipo y equipo: Infantería monstruosa 40x40, unidad 3+, armas de mano y armadura ligera	OK	data.js:845 (min 3, max 60)	Sin máximo en el texto: se permite hasta 60
+aj_orcs2-071	aj_orcs2.txt:1109-1112	Ogros: opciones de arma: Arma adicional +3, a dos manos +4, Puño de hierro +4 por modelo	OK	data.js:3705-3709 (opts cnt por modelo)	Arma adicional +3, a dos manos +4, Puño de hierro +4 por modelo, armadura pesada +4, Crusher +7 (FAQ), estandarte/Bramador +6
+aj_orcs2-072	aj_orcs2.txt:1113-1117	Ogros: opciones de mando: Campeón +6, portaestandarte +6, músico +6, estandarte mágico 50	OK	data.js CMD orc_ogre_bulls [6,6,6]	
+aj_orcs2-073	aj_orcs2.txt:1118	Ogros: armadura pesada: Sustituir armadura ligera por pesada +4 por modelo	OK	data.js:3546 (opt ha +4)	
+aj_orcs2-074	aj_orcs2.txt:1120-1121	Ogros: reglas especiales: Armour Bane (1), Orden cerrado, Miedo, Impactos (1), Mercenarios, Tripulación heterogénea, Ogr	OK	data.js:838 (motley); Mercenarios por comp merc	
+aj_orcs2-075	aj_orcs2.txt:1127-1128	Ogre Charge: FP de Impactos mejora según bonificación de fila actual	OK	rules.js:2936	
+aj_orcs2-076	aj_orcs2.txt:1131-1132	Ironfist: F de combate, Ataque extra (1), dos manos; +1 armadura	OK	data.js:3708, rules.js:1737 (xS)	Puño de hierro: Ataque extra (1) por modelo (xA) y +1 armadura por modelo; Variopinto: armadura de la mayoría, empate = la mejor (FAQ Core)
+aj_orcs2-077	aj_orcs2.txt:1136-1140	Ogros: Dogs of War: Mercenarios en cualquier Gran Ejército con Mercenarios; reglas Misbehaving	OK	data.js:3544-3548 (MERCS orcs/woc/bm grand)	Ogros en Gran Ejército de Orcos y Goblins, Guerreros del Caos y Brayherds, además de Nómada/Horda Troll/Imperio
+aj_orcs2-078	aj_orcs2.txt:1154-1157	Carro Orco Negro: perfil: Carro F5 R5 H4 130 pts; tripulación HA4 HP3 F4 R4 I3 A1 Ld8; jabalíes M7 HA3 F3 I3 A1	PARCIAL	data.js:795	VERIF v732: data.js:803 black_chariot tiene un solo HA4 (tripulacion): los jabalies (HA3 segun fuente) atacan con HA4; sin wsMount ni HA separada. Resto del perfil/130 pts/impacto F5 correcto | Carro F5 solo afecta al perfil del carro (impactos F5 implementados); tripulación HA4 F4 A1 por modelo correcta
+aj_orcs2-079	aj_orcs2.txt:1159-1162	Carro Orco Negro: tipo y armadura: Carro pesado 50x100, unidad 1, armadura 3+	OK	data.js:795	
+aj_orcs2-080	aj_orcs2.txt:1167-1171	Carro Orco Negro: opciones: Arma adicional +1 o a dos manos +2 por tripulante; estandarte +10	OK	data.js:3712 (opts cw_*)	Tripulación (2): cada Orco Negro arma de mano adicional +1 o a dos manos +2 (3 combinaciones, obligatorio, validado); A del carro corregido a 4 (2 tripulantes + 2 jabalíes)
+aj_orcs2-081	aj_orcs2.txt:1173-1174	Carro Orco Negro: reglas especiales: Choppas, Orden cerrado, Primera carga, Carga furiosa (tripulación), Ignorar pánico,	OK	data.js:795	
+aj_orcs2-082	aj_orcs2.txt:1182-1186	Carro Orco Negro: montura de personaje: Warboss o Bigboss Orco Negro sobre Carro por +130 pts	OK	data.js:3498 (black_warboss_chariot / black_bigboss_chariot)	Montura de personaje +130 (solo Nómada, FAQ RH); suma Heridas y Ataques, armadura la mejor de las dos
+aj_orcs2-083	aj_orcs2.txt:1199-1200	Gigante Triturador: perfil: M6 HA3 HP1 F7 R6 H8 I3 A* Ld10 300 pts	OK	data.js:841 (T6)	
+aj_orcs2-084	aj_orcs2.txt:1202-1205	Gigante Triturador: tipo y equipo: Behemot 50x100 mín a 100x150 máx; garrote y piel callosa (armadura ligera)	OK	data.js:840	
+aj_orcs2-085	aj_orcs2.txt:1206-1208	Gigante Triturador: reglas especiales: Ataques de Triturador, Orden cerrado, Inmune Psicología, Gran Blanco, Mercenarios	OK	data.js:841 (sr bonegrinder; Mercenarios por comp merc)	
+aj_orcs2-086	aj_orcs2.txt:1220-1237	Bonegrinder Attacks: tabla por tamaño: Elegir unidad objetivo y tirar D6 según Cosa pequeña/grande/más grande	OK	rules.js bonegrinderAttack	Objetivo elegido por el jugador con focus; tabla por tipo de tropa
+aj_orcs2-087	aj_orcs2.txt:1253-1256	"Crush Underfoot: Plantilla 5""; impacto F propia FP-3 a modelos bajo ella"	OK	rules.js bonegrinderAttack (crush)	
+aj_orcs2-088	aj_orcs2.txt:1258-1260	'Eadbutt: Un impacto con D3+1 Heridas sin armadura ni Regeneración	OK	rules.js bonegrinderAttack (ebutt)	
+aj_orcs2-089	aj_orcs2.txt:1262-1272	Grind its Bones: Test de I de cada modelo del frente; fallo = baja; Look Out Sir	OK	rules.js:5735 (bonegrinderAttack grind)	Chequeo de I de cada modelo del frente; los personajes unidos de la fila hacen ¡Cuidado, señor! (FAQ: 5+ modelos del mismo tipo de tropa) y, si fallan, el chequeo de I
+aj_orcs2-090	aj_orcs2.txt:1274-1276	Mighty Swing: D6+1 impactos con F+1 FP-2	OK	rules.js bonegrinderAttack (swing)	
+aj_orcs2-091	aj_orcs2.txt:1278-1282	Vomit: Plantilla de llama: F5 FP-2 a modelos bajo ella	OK	rules.js bonegrinderAttack (vomit, flameHits con dirT)	
+aj_orcs2-092	aj_orcs2.txt:1284-1287	Wallop: Un ataque F+3 FP-4 Heridas múltiples (2D3)	OK	rules.js bonegrinderAttack (wallop)	
+aj_orcs2-093	aj_orcs2.txt:1291-1299	Gigante Triturador: Dogs of War: 0-1 Mercenario en Orcos y Goblins, Guerreros del Caos y Brayherds	OK	data.js:3548 (MERCS woc/bm grand)	
+aj_orcs2-094	aj_orcs2.txt:1326-1332	Saber de Magia Troll: acceso: Magos con afinidad pueden conocer hechizos del Saber de Magia Troll	OK	data.js:2424, rules.js:769	
+aj_orcs2-095	aj_orcs2.txt:1335-1349	Big Smartz (firma): VL 8+ Encantamiento propio; permanece; repetir Estupidez fallada y repetir inmediato la fallada del 	OK	rules.js:~3749 (repetición inmediata del chequeo)	
+aj_orcs2-096	aj_orcs2.txt:1350-1364	"1. Acidic Bile: Proyectil VL 8+ 18""; plantilla 3"" dispersa D3+1""; F3 FP-2"	OK	"data.js:2376, rules.js (blast3s: dispersión D3+1"")"	
+aj_orcs2-097	aj_orcs2.txt:1366-1377	"2. Troll Brainz: Maleficio VL 9+ 15""; permanece; Estupidez y -1 Ld"	OK	data.js:2376, rules.js:1428	
+aj_orcs2-098	aj_orcs2.txt:1379-1389	"3. Ravenous Recourse: Traslado VL 8+ Self; +2 M a unidades con Estupidez a 12"" hasta fin de turno"	OK	data.js:2378 (type conveyance, conv ravenous), rules.js spellTargets	
+aj_orcs2-099	aj_orcs2.txt:1350-1363	"4. Foetid Whirlpool: Vórtice VL 9+ 18""; plantilla 3"" mueve D6""; D3+3 impactos F4 FP-2"	OK	data.js:2380 (FP -2)	
+aj_orcs2-100	aj_orcs2.txt:1365-1377	5. Torrent of Filth: Asalto VL 8+; plantilla de llama F3 FP-2 a cualquier modelo	OK	data.js:2381 (VL 8+)	
+aj_orcs2-101	aj_orcs2.txt:1379-1388	"6. Rapid Regeneration: Encantamiento VL 9+ 12""; hasta fin de tu próximo Inicio: Inflamable y Regeneración 5+"	OK	data.js:2382 (VL 9+)	
+aj_orcs2-102	aj_orcs2.txt:1402-1408	Bigger, Choppier Axe: 55 pts; F+2 FP-2 Golpe letal mágico dos manos Golpea último	OK	data.js:3065	
+aj_orcs2-103	aj_orcs2.txt:1410-1419	Martog's Best Basha: 50 pts; F+1 FP-2 mágico dos manos; +1 HA e I	OK	data.js:3067	
+aj_orcs2-104	aj_orcs2.txt:1421-1428	Da Akrit Axe: 30 pts; F+1 Perforante 1 mágico; repite impactos; F solo primera ronda	OK	data.js:3068	La FAQ RH (Da Akrit Axe) manda sobre el libro
+aj_orcs2-105	aj_orcs2.txt:1430-1439	Backstabber's Blade: 25 pts*; F+1 FP-1; solo Jefes Goblin; flanco repite herir, retaguardia impactar y herir	OK	data.js:3069 (onlyT jefes goblin)	
+aj_orcs2-106	aj_orcs2.txt:1441-1446	Dead 'Ard Armour: 35 pts; armadura completa +1 R; Jefes Orco/Negros de infantería, caballería o carro	OK	data.js:3071 (onlyT jefes orco/negro no monstruo)	
+aj_orcs2-107	aj_orcs2.txt:1450-1456	Spiteful Shield: 20 pts; escudo; enemigo con 1 natural al impactar o herir sufre impacto F4	PARCIAL	data.js:3072, rules.js:1722 (WOUND1)	VERIF v732: data.js:3099, rules.js:5408/5426 y 2028: 1 natural al impactar/herir contra CUALQUIER modelo de la unidad con el escudo; la regla es solo contra el portador; no cuenta 1s de repeticiones
+aj_orcs2-108	aj_orcs2.txt:1462-1468	Sparkly Wizard Finda: 45 pts; Resistencia mágica (-2) y Odio (Magos enemigos)	OK	data.js (hatredWiz), rules.js P.hatred	
+aj_orcs2-109	aj_orcs2.txt:1470-1476	Effigy of Mork: 35 pts; -1 para impactar al portador	OK	data.js:3073	
+aj_orcs2-110	aj_orcs2.txt:1479-1487	Necklace of Blessed Teef: 50 pts; repite 1 naturales en salvación de armadura, anulación o Regeneración	OK	rules.js:~1750,1769 (rr1save en anulación y Regeneración)	
+aj_orcs2-111	aj_orcs2.txt:1489-1496	"Grisly Trophy Rack: 30 pts; solo Jefes; enemigos a 6"" -1 Ld (mín 2)"	OK	data.js (onlyT jefes)	
+aj_orcs2-112	aj_orcs2.txt:1491-1501	"Staff of Baduumm: 55 pts; +D3 al lanzar; doble 1 o 6 plantilla 5"" F6 FP-1 y se destruye"	OK	data.js:3077, rules.js:3859	
+aj_orcs2-113	aj_orcs2.txt:1506-1513	"Idol of Gork: 40 pts; +3"" alcance; una vez por turno repite tirada de lanzar"	OK	data.js:3079, rules.js:3247, 3887	
+aj_orcs2-114	aj_orcs2.txt:1515-1523	Da Hag's Brew: 25 pts; solo Chamanes; conoce hechizos de Magia Troll	PARCIAL	data.js:3078, rules.js:769	VERIF v732: data.js:3106 aj_hagbrew 25pts solo chamanes ok; rules.js:1010 anade Magia de Trol, pero main.js:836 solo ofrece troll si !d.lores: Goblins/Goblins Nocturnos (con lores) no pueden elegirlo
+aj_orcs2-115	aj_orcs2.txt:1479-1486	Da Thinkin' Orc's 'At: 25 pts; +1 I; ni él ni su unidad sujetos a Impetuoso	OK	data.js:3076	
+aj_orcs2-116	aj_orcs2.txt:1441-1446	Da Angry Ladz Flag: 35 pts; la unidad gana Frenesí	OK	data.js:3080	
+aj_orcs2-117	aj_orcs2.txt:1448-1456	Da Spider Banner: 35 pts; Ataques envenenados; si ya los tiene, hiere auto con 5+	OK	rules.js:4273 (pois5)	
+aj_orcs2-118	aj_orcs2.txt:1458-1466	Da Banner of Da Nomadz: 25 pts; repite 1 naturales en carga, huida y persecución	OK	data.js:3082, rules.js:2772, 5049	
+aj_orcs2-119	aj_orcs2.txt:1468-1475	Banner of the Wildz: 20 pts; la unidad gana Mover a través de cobertura	OK	data.js:3083	
+aj_orcs2-120	aj_orcs2.txt:1397-1399	Objetos extremadamente comunes (*): Objetos con asterisco extremadamente comunes	OK	data.js:3069 (star)	

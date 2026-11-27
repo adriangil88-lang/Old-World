@@ -1,0 +1,116 @@
+Archmage                                      M2 B0 OK | 
+Archmage on Flamespyre Phoenix                M2 B0 OK | 
+Archmage on Frostheart Phoenix                M2 B0 OK | 
+Archmage on Great Eagle                       M2 B0 OK | 
+Archmage on Lion Chariot of Chrace            M2 B0 OK | 
+Archmage on Moon Dragon                       M4 B0 OK | 
+Archmage on Star Dragon                       M4 B0 OK | 
+Archmage on Steed                             M1 B1 OK | 
+Archmage on Sun Dragon                        M4 B0 OK | 
+Champion                                      M1 B0 OK | /25x50
+Crew                                          M2 B0 OK | 
+Crew                                          M2 B0 OK | 
+Dragon Mage on Sun Dragon                     M5 B0 OK | 
+Dragon Princes                                M3 B0 OK | 
+Dragon Princes                                M2 B0 OK | 
+Dragon Princes MU                             M3 B0 OK | 
+Dragon Princes ST                             M3 B0 OK | 
+Eagle Claw Bolt Thrower                       M2 B0 OK | 
+Ellyrian Reavers                              M2 B0 OK | 
+Ellyrian Reavers CH                           M3 B0 OK | 
+Ellyrian Reavers MU                           M3 B0 OK | 
+Ellyrian Reavers ST                           M3 B0 OK | 
+Elven Archers                                 M2 B0 OK | 
+Elven Archers CH                              M3 B0 OK | 
+Elven Archers MU                              M3 B0 OK | 
+Elven Archers ST                              M3 B0 OK | 
+Elven Spearmen                                M2 B0 OK | 
+Elven Spearmen CH                             M3 B0 OK | 
+Elven Spearmen MU                             M3 B0 OK | 
+Elven Spearmen ST                             M3 B0 OK | 
+Flamespyre Phoenix                            M2 B0 OK | 
+Frostheart Phoenix                            M2 B0 OK | 
+Great Eagle                                   M3 B0 OK | 
+Handmaiden of the Everqueen                   M2 B0 OK | 
+Harp                                          M1 B0 OK | /30x30
+Himmelssegler von Lothern                     M1 B0 OK | /Noble Lothern Skycutter
+Himmelssegler von Lothern                     M1 B0 OK | /Noble Lothern Skycutter
+Himmelssegler von Lothern                     M1 B0 OK | /Noble Lothern Skycutter
+Himmelssegler von Lothern                     M1 B0 OK | /Noble Lothern Skycutter
+Himmelssegler von Lothern                     M5 B0 OK | 
+Lion Chariot of Chrace                        M2 B0 OK | 
+Loremaster                                    M2 B0 OK | 
+Lothern Sea Guard                             M2 B0 OK | 
+Lothern Sea Guard                             M1 B0 OK | /Lothern Sea Guard
+Lothern Sea Guard CH                          M3 B0 OK | 
+Lothern Sea Guard CH                          M1 B0 OK | /Lothern Sea Guard CH
+Lothern Sea Guard MU                          M3 B0 OK | 
+Lothern Sea Guard MU                          M1 B0 OK | /Lothern Sea Guard MU
+Lothern Sea Guard ST                          M3 B0 OK | 
+Lothern Sea Guard ST                          M1 B0 OK | /Lothern Sea Guard ST
+Lothern Skycutter                             M2 B0 OK | 
+Mage                                          M2 B0 OK | 
+Mage                                          M2 B0 OK | /Mage on Sun Dragon
+Mage on Flamespyre Phoenix                    M2 B0 OK | 
+Mage on Frostheart Phoenix                    M2 B0 OK | 
+Mage on Great Eagle                           M2 B0 OK | 
+Mage on Lion on Lion Chariot of Chrace        M2 B0 OK | 
+Mage on Lothern Skycutter                     M5 B0 OK | 
+Mage on Steed                                 M1 B1 OK | 
+Mage on Sun Dragon                            M5 B0 OK | 
+Marble Pillar 2                               M2 B0 OK | /Archmage on Sun Dragon
+Marble Pillar 2                               M1 B0 OK | /Mage on Sun Dragon
+Merwyrm                                       M2 B0 OK | 
+Noble                                         M2 B0 OK | 
+Noble                                         M2 B0 OK | 
+Noble                                         M2 B0 OK | 
+Noble                                         M2 B0 OK | 
+Noble                                         M2 B0 OK | 
+Noble Lion Chariot of Chrace                  M2 B0 OK | 
+Noble Lothern Skycutter                       M5 B0 OK | 
+Noble on Frostheart Phoenix                   M2 B0 OK | 
+Noble on Great Eagle                          M2 B0 OK | 
+Noble on Griffon                              M2 B0 OK | 
+Noble on Steed                                M2 B0 OK | 
+Noble on Tiranoc Chariot                      M2 B0 OK | 
+Phoenix Guard                                 M2 B0 OK | 
+Phoenix Guard CH                              M3 B0 OK | 
+Phoenix Guard MU                              M3 B0 OK | 
+Phoenix Guard ST                              M3 B0 OK | 
+Prince                                        M2 B0 OK | 
+Prince                                        M2 B0 OK | 
+Prince                                        M2 B0 OK | 
+Prince                                        M2 B0 OK | 
+Prince                                        M2 B0 OK | 
+Prince Lion Chariot of Chrace                 M2 B0 OK | 
+Prince Star Dragon                            M4 B0 OK | 
+Prince on Elven Steed                         M2 B0 OK | 
+Prince on Flamespyre Phoenix                  M2 B0 OK | 
+Prince on Frostheart Phoenix                  M2 B0 OK | 
+Prince on Great Eagle                         M2 B0 OK | 
+Prince on Griffon                             M2 B0 OK | 
+Prince on Lothern Skycutter                   M5 B0 OK | 
+Prince on Moon Dragon                         M4 B0 OK | 
+Prince on Sun Dragon                          M4 B0 OK | 
+Prince on Tiranoc Chariot                     M2 B0 OK | 
+Shadow Warriors                               M2 B0 OK | 
+Shadow Warriors CH                            M3 B0 OK | 
+Silver Helms                                  M2 B0 OK | 
+Silver Helms (Musician) (Shields)             M0 B1 OK | /Archmage on Steed
+Silver Helms CH                               M3 B0 OK | 
+Silver Helms MU                               M3 B0 OK | 
+Silver Helms ST                               M3 B0 OK | 
+Sisters of Avelorn CH                         M3 B0 OK | 
+Sisters of Avelorn CH                         M2 B0 OK | 
+Standarte                                     M1 B0 OK | /30x30
+Swordmasters                                  M2 B0 OK | 
+Swordmasters CH                               M3 B0 OK | 
+Swordmasters MU                               M3 B0 OK | 
+Swordmasters ST                               M3 B0 OK | 
+Tiranoc Chariot                               M2 B0 OK | 
+White Lions                                   M2 B0 OK | 
+White Lions CH                                M3 B0 OK | 
+White Lions MU                                M3 B0 OK | 
+White Lions Of Chrace                         M1 B0 OK | /White Lions CH
+White Lions ST                                M3 B0 OK | 
+dice                                          M1 B0 OK | /Models of High Elves

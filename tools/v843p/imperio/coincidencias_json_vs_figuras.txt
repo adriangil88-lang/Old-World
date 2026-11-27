@@ -1,0 +1,206 @@
+                                         k1 OK       miss0 --      woc_chieftain_horse 1.257 6D5B58EE SHAPE orc_bigs 0.012 x0.79
+                                         k1 OK       miss0 --      lm_skchief_ripper 1.418 26E5E996 SHAPE old:dw_grudge 0.125 x1.11
+                                         k1 OK       miss0 --      dm_herald_slaanesh_chariot 1.52 1157238A SHAPE emp_witchhunter 0.034 x1.02
+                                         k2 OK       miss0 --      de_medusa 2.066 14B8D5FA|6F921D00 SHAPE ct_peasants_bow 0.193 x0.35
+                                         k3 OK       miss0 --      vc_spirithosts 0.245 429C6158|90755EA7|FDA2BF73 SHAPE vc_spirithosts 0.055 x0.94
+25x25                                    k1 OK       miss0 TENEMOS old:flag_state_halberds 0.0 DE3D26D0 SHAPE old:flag_state_halberds 0.000 x1.00
+25x25                                    k1 OK       miss0 --      cd_seneschal 0.797 3815638E SHAPE sk_assassin 0.330 x3.60
+25x25                                    k1 OK       miss0 --      cd_seneschal 0.71 EBA91391 SHAPE vc_wightking 0.215 x2.60
+25x50                                    k1 OK       miss0 TENEMOS old:flag_wolf_riders 0.0 DE3D26D0 SHAPE old:flag_wolf_riders 0.000 x1.00
+25x50                                    k1 OK       miss0 --      cd_seneschal 0.964 3815638E SHAPE ct_peasants 0.240 x3.80
+25x50                                    k1 OK       miss0 --      cd_seneschal 0.941 EBA91391 SHAPE vc_wightking 0.149 x2.60
+30x30                                    k1 OK       miss0 TENEMOS old:flag_orc_boyz 0.0 DE3D26D0 SHAPE old:flag_orc_boyz 0.000 x1.00
+30x30                                    k1 OK       miss0 --      cd_seneschal 0.831 3815638E SHAPE spider_riders 0.449 x3.70
+30x30                                    k1 OK       miss0 --      cd_seneschal 0.753 EBA91391 SHAPE vc_wightking 0.202 x2.60
+30x60                                    k1 OK       miss0 TENEMOS old:flag_boar_boyz 0.0 DE3D26D0 SHAPE old:flag_wolf_riders 0.000 x1.00
+30x60                                    k1 OK       miss0 --      cd_seneschal 1.031 3815638E SHAPE dm_bloodcrushers 0.337 x3.36
+30x60                                    k1 OK       miss0 --      de_shades 0.978 EBA91391 SHAPE vc_knightshrouds 0.167 x2.59
+40x40                                    k1 OK       miss0 --      old:flag_orc_boyz 0.383 DE3D26D0 SHAPE de_coldones 0.170 x1.89
+40x40                                    k1 OK       miss0 --      de_shades 0.844 3815638E SHAPE dm_keeper 0.559 x4.65
+40x40                                    k1 OK       miss0 --      de_shades 0.856 EBA91391 SHAPE ct_peasants 0.384 x2.70
+40x60                                    k1 OK       miss0 --      old:flag_boar_boyz 0.704 DE3D26D0 SHAPE old:flag_orc_boyz 0.005 x1.00
+40x60                                    k1 OK       miss0 --      de_shades 1.461 3815638E SHAPE ct_peasants 0.444 x3.80
+40x60                                    k1 OK       miss0 --      ok_gnoblars 1.255 EBA91391 SHAPE vc_wightking 0.203 x2.60
+50x100                                   k1 OK       miss0 --      woc_marauders 1.245 DE3D26D0 SHAPE old:flag_wolf_riders 0.022 x1.00
+50x100                                   k1 OK       miss0 --      lm_skinkhandler 2.2 3815638E SHAPE dm_keeper 0.512 x4.65
+50x100                                   k1 OK       miss0 --      emp_archers 1.943 EBA91391 SHAPE sk_assassin 0.323 x2.56
+60x100                                   k1 OK       miss0 --      woc_marauders 1.267 DE3D26D0 SHAPE old:flag_wolf_riders 0.022 x1.00
+60x100                                   k1 OK       miss0 --      lm_skinkhandler 2.183 3815638E SHAPE dm_keeper 0.709 x4.65
+60x100                                   k1 OK       miss0 --      emp_archers 1.943 EBA91391 SHAPE ct_peasants 0.441 x2.70
+Arcane familiar                          k1 OK       miss0 --      de_shades 0.132 885CC87F SHAPE dm_bluehorrors 0.031 x1.10
+Arcane familiar                          k1 OK       miss0 ~       dw_ironbreakers 0.052 6AB86D18 SHAPE sk_censer 0.010 x2.10
+Arcane familiar                          k1 OK       miss0 ~       night_goblins 0.085 39628AFD SHAPE orc_warboss 0.026 x1.73
+Captain of the Empire                    k1 OK       miss0 TENEMOS empire_captain 0.0 6E90B583 SHAPE empire_captain 0.000 x1.00
+Captain of the Empire                    k1 OK       miss0 --      ok_tyrant 0.336 6C009BCD SHAPE lm_skchief 0.030 x0.43
+Captain of the Empire                    k1 OK       miss0 --      orc_ogdruz 0.193 9862CA25 SHAPE emp_ulric 0.042 x1.02
+Captain of the Empire                    k1 OK       miss0 --      orc_weirdboy 0.73 E7B38A82 SHAPE de_harpies 0.061 x0.72
+Captain of the Empire on Demigriffon     k1 OK       miss0 TENEMOS empire_captain_demi 0.0 1D848CC3 SHAPE empire_captain_demi 0.000 x1.00
+Captain of the Empire on Griffon         k1 OK       miss0 TENEMOS old:emp_general_griffon 0.0 12491BFB SHAPE old:emp_general_griffon 0.000 x1.00
+Captain of the Empire on Horse           k1 OK       miss0 --      woc_hounds 0.188 63B4AD98 SHAPE woc_hounds 0.024 x1.01
+Captain of the Empire on Pegasus         k1 OK       miss0 TENEMOS empire_captain_peg 0.0 E024C3F9 SHAPE empire_captain_peg 0.000 x1.00
+Chapter Master on Demigriffon            k1 OK       miss0 --      empire_captain_demi 0.312 9D247817 SHAPE rock_lobber 0.031 x1.36
+Chapter Master on Horse                  k1 OK       miss0 TENEMOS emp_chaptermaster 0.0 5E1924BA SHAPE emp_chaptermaster 0.000 x1.00
+Chapter Master on Pegasus                k1 OK       miss0 TENEMOS empire_captain_peg 0.0 E024C3F9 SHAPE empire_captain_peg 0.000 x1.00
+Commander                                k1 OK       miss0 --      black_bigboss 0.659 AF628EA8 SHAPE dm_gud 0.015 x1.11
+Demigryph Knights                        k1 OK       miss0 TENEMOS demigryph_knights 0.0 6CE5B959 SHAPE demigryph_knights 0.000 x1.00
+Demigryph Knights CH                     k1 OK       miss0 --      sk_hellpit 0.378 342283B5 SHAPE crossbowmen 0.021 x0.49
+Demigryph Knights CH                     k2 OK       miss0 --      dm_herald_tzeentch_disc 1.099 342283B5|EBA91391 SHAPE dm_bloodletters 0.119 x0.71
+Demigryph Knights MU                     k1 OK       miss0 --      demigryph_knights 0.496 E880CFFC SHAPE tk_necroknights 0.046 x1.08
+Demigryph Knights MU                     k2 OK       miss0 --      dm_herald_tzeentch_disc 2.093 3815638E|E880CFFC SHAPE dm_bloodletters 0.120 x0.52
+Demigryph Knights ST                     k1 OK       miss0 ~       demigryph_knights 0.079 6CE5B959 SHAPE demigryph_knights 0.000 x1.00
+Demigryph Knights ST                     k2 OK       miss0 --      tk_king_chariot 1.739 6CE5B959|DE3D26D0 SHAPE dm_bloodletters 0.011 x0.57
+Electoral Cavalry                        k1 OK       miss0 --      ct_jade_spear 0.568 2149F86C SHAPE woc_chieftain_horse 0.026 x1.24
+Empire Archers                           k1 OK       miss0 TENEMOS emp_archers 0.0 905CC49F SHAPE emp_archers 0.000 x1.00
+Empire Archers                           k1 OK       miss0 --      ct_ironhail 0.152 5ECEAA24 SHAPE dm_herald_nurgle 0.031 x1.31
+Empire Archers CH                        k1 OK       miss0 --      lm_scar 0.169 87E80CD7 SHAPE gob_warboss 0.023 x0.82
+Empire Archers CH                        k2 OK       miss0 --      woc_warriors 0.398 87E80CD7|EBA91391 SHAPE cd_manburner 0.137 x1.37
+Empire Archers MU                        k1 OK       miss0 TENEMOS emp_archers 0.015 905CC49F SHAPE emp_archers 0.000 x1.00
+Empire Archers MU                        k2 OK       miss0 --      sk_stormvermin 0.401 3815638E|905CC49F SHAPE dm_herald_tzeentch_disc 0.062 x1.96
+Empire Archers ST                        k1 OK       miss0 --      ct_ironhail 0.151 5ECEAA24 SHAPE dm_herald_nurgle 0.031 x1.31
+Empire Archers ST                        k2 OK       miss0 --      woc_warriors 0.472 5ECEAA24|DE3D26D0 SHAPE dm_bloodletters 0.062 x1.28
+Empire Crewman                           k1 OK       miss0 ~       tk_guard 0.092 83C4640F SHAPE tk_guard 0.027 x0.95
+Empire Crewman                           k1 OK       miss0 --      dm_nurglings 0.118 4351C934 SHAPE old:woc_forsaken 0.012 x1.15
+Empire Crewman                           k1 OK       miss0 ~       vc_acolyte 0.063 627BDF33 SHAPE vc_acolyte 0.012 x1.03
+Empire Crewman                           k1 OK       miss0 ~       dw_ironbreakers 0.079 18348E27 SHAPE we_ancient 0.014 x3.15
+Empire Crewman                           k1 OK       miss0 ~       vc_acolyte 0.072 C3B06616 SHAPE he_archers 0.009 x1.48
+Empire Crewman                           k1 OK       miss0 --      bm_gor 0.237 2D260490 SHAPE ct_astromancer 0.030 x1.05
+Empire Crewman                           k1 OK       miss0 ~       br_pilgrims 0.065 05EDBA9B SHAPE emp_priest 0.034 x1.01
+Empire Engineer                          k1 OK       miss0 TENEMOS emp_engineer 0.0 AE5A3B3A SHAPE emp_engineer 0.000 x1.00
+Empire Greatsword                        k1 OK       miss0 TENEMOS greatswords 0.0 0F5BCDDE SHAPE greatswords 0.000 x1.00
+Empire Greatsword CH                     k1 OK       miss0 --      handgunners 0.243 D5C369E9 SHAPE vc_necro_nightmare 0.040 x1.31
+Empire Greatsword CH                     k2 OK       miss0 --      dm_bloodletters 0.515 D5C369E9|EBA91391 SHAPE dm_bloodletters 0.161 x1.32
+Empire Greatsword MU                     k1 OK       miss0 --      state_halberds 0.103 465E8443 SHAPE de_assassin 0.015 x1.82
+Empire Greatsword MU                     k2 OK       miss0 --      woc_warriors 0.588 3815638E|465E8443 SHAPE woc_warriors 0.037 x1.31
+Empire Greatsword ST                     k1 OK       miss0 --      he_prince 0.18 67BDFB66 SHAPE emp_lector_altar 0.034 x1.91
+Empire Greatsword ST                     k2 OK       miss0 --      ct_peasants_bow 1.49 67BDFB66|DE3D26D0 SHAPE ct_peasants_bow 0.047 x0.70
+Empire Knights                           k1 OK       miss0 TENEMOS inner_circle 0.0 31740B3C SHAPE inner_circle 0.000 x1.00
+Empire Knights CH                        k1 OK       miss0 --      he_prince_h 0.204 995F0B62 SHAPE he_prince_h 0.027 x1.02
+Empire Knights CH                        k2 OK       miss0 --      bm_centigors 1.331 995F0B62|EBA91391 SHAPE dm_bloodletters 0.114 x0.72
+Empire Knights MU                        k1 OK       miss0 --      he_dragonprinces 0.209 EC49FFB6 SHAPE vc_thrall_nightmare 0.020 x0.93
+Empire Knights MU                        k2 OK       miss0 --      cd_manburner 1.028 3815638E|EC49FFB6 SHAPE dm_bloodletters 0.092 x0.85
+Empire Knights ST                        k1 OK       miss0 --      he_silverhelms 0.34 31613D7B SHAPE old:br_realm 0.066 x0.69
+Empire Knights ST                        k2 OK       miss0 --      ct_peasants_bow 2.455 31613D7B|DE3D26D0 SHAPE ct_peasants_bow 0.205 x0.56
+Flagellants                              k1 OK       miss0 TENEMOS flagellants 0.0 1827F037 SHAPE flagellants 0.000 x1.00
+Flagellants                              k1 OK       miss0 --      he_swordmasters 0.131 0DE4F4B5 SHAPE vc_thrall 0.024 x0.84
+Flagellants                              k1 OK       miss0 --      ct_ironhail 0.141 71C65642 SHAPE sk_gutter 0.040 x0.90
+Flagellants CH                           k1 OK       miss0 --      he_swordmasters 0.14 0DE4F4B5 SHAPE vc_thrall 0.024 x0.84
+Flagellants CH                           k2 OK       miss0 --      ct_peasants_bow 0.128 0DE4F4B5|EBA91391 SHAPE ct_peasants_bow 0.064 x1.05
+Flagellants MU                           k1 OK       miss0 --      ct_ironhail 0.174 71C65642 SHAPE sk_gutter 0.040 x0.90
+Flagellants MU                           k2 OK       miss0 --      woc_warriors 0.418 3815638E|71C65642 SHAPE woc_warriors 0.120 x1.19
+Flagellants ST                           k1 OK       miss0 TENEMOS flagellants 0.018 1827F037 SHAPE flagellants 0.000 x1.00
+Flagellants ST                           k2 OK       miss0 --      cd_manburner 0.457 1827F037|DE3D26D0 SHAPE dm_bloodletters 0.124 x1.10
+Free Company Militia                     k1 OK       miss0 TENEMOS free_company 0.0 5F1FBC66 SHAPE free_company 0.000 x1.00
+Free Company Militia                     k1 OK       miss0 --      dm_plaguebearers 0.244 03E52A62 SHAPE doom_diver 0.044 x1.79
+Free Company Militia CH                  k1 OK       miss0 --      de_beastmaster 0.217 0168BF73 SHAPE woc_exalted 0.005 x1.08
+Free Company Militia CH                  k2 OK       miss0 --      cd_manburner 0.353 0168BF73|EBA91391 SHAPE cd_manburner 0.068 x1.10
+General of the Empire                    k1 OK       miss0 TENEMOS empire_general 0.0 90CA20BF SHAPE empire_general 0.000 x1.00
+General of the Empire on Demigriffon     k1 OK       miss0 TENEMOS empire_general_demi 0.0 6ADDA968 SHAPE empire_general_demi 0.000 x1.00
+General of the Empire on Empire Griffon  k1 OK       miss0 TENEMOS emp_general_igriffon 0.0 2A189119 SHAPE emp_general_igriffon 0.000 x1.00
+General of the Empire on Griffon         k1 OK       miss0 TENEMOS old:emp_general_griffon 0.0 12491BFB SHAPE old:emp_general_griffon 0.000 x1.00
+General of the Empire on Horse           k1 OK       miss0 --      vc_direwolves 0.211 6446A88C SHAPE lm_salamander 0.244 x1.46
+General of the Empire on Horse           k1 OK       miss0 --      dm_furies 0.665 6BAE912F SHAPE ok_ironguts 0.005 x0.84
+General of the Empire on Horse           k1 OK       miss0 --      de_boltthrower 0.269 95C06914 SHAPE sk_gutter 0.038 x0.55
+General of the Empire on Horse           k1 OK       miss0 --      tk_herald 0.57 2BE0D7EF SHAPE emp_lector_altar 0.076 x2.21
+General of the Empire on Horse           k1 OK       miss0 TENEMOS empire_general_h 0.0 07944EBA SHAPE empire_general_h 0.000 x1.00
+General of the Empire on Horse           k1 OK       miss0 --      emp_chaptermaster 0.174 884F63DB SHAPE handgunners 0.015 x0.65
+General of the Empire on Pegasus         k1 OK       miss0 TENEMOS empire_captain_peg 0.0 E024C3F9 SHAPE empire_captain_peg 0.000 x1.00
+Gnoblarkieger                            k1 SINMALLA miss1 --      None None None
+Gnoblarkieger                            k1 SINMALLA miss1 --      None None None
+Gnoblarkieger                            k1 SINMALLA miss1 --      None None None
+Gnoblarkieger                            k1 SINMALLA miss1 --      None None None
+Gnoblarkieger                            k1 SINMALLA miss1 --      None None None
+Gnoblarkieger CH                         k1 SINMALLA miss1 --      None None None
+Gnoblarkieger CH                         k2 PARCIAL  miss1 --      sk_stormvermin 1.54 85271639|EBA91391 SHAPE de_medusa 0.398 x8.81
+Gnoblarkieger MU                         k1 SINMALLA miss1 --      None None None
+Gnoblarkieger MU                         k2 PARCIAL  miss1 --      sk_stormvermin 1.423 3815638E|6C0D135A SHAPE we_eagle 0.205 x8.04
+Grand Master on Demigriffon              k1 OK       miss0 --      empire_captain_demi 0.312 9D247817 SHAPE rock_lobber 0.031 x1.36
+Grand Master on Horse                    k1 OK       miss0 TENEMOS emp_chaptermaster 0.0 5E1924BA SHAPE emp_chaptermaster 0.000 x1.00
+Grand Master on Pegasus                  k1 OK       miss0 TENEMOS empire_captain_peg 0.0 E024C3F9 SHAPE empire_captain_peg 0.000 x1.00
+Great Cannon                             k1 OK       miss0 TENEMOS great_cannon 0.0 9280408B SHAPE great_cannon 0.000 x1.00
+Helblaster Volley Gun                    k1 OK       miss0 TENEMOS helblaster 0.0 04C5A9AF SHAPE helblaster 0.000 x1.00
+Helstrom Rocket Battery                  k1 OK       miss0 TENEMOS helstorm 0.0 A5BEFFA8 SHAPE helstorm 0.000 x1.00
+High Priest of Ulric                     k1 OK       miss0 TENEMOS emp_ulric 0.0 9EB6F57E SHAPE emp_ulric 0.000 x1.00
+High Priest of Ulric on Horse            k1 OK       miss0 --      orc_weirdboy_boar 0.193 CD285EB6 SHAPE vc_bloodknights 0.006 x0.84
+Imperial Ogre                            k1 OK       miss0 ~       imp_ogres 0.09 0A4BAEF3 SHAPE imp_ogres 0.000 x1.00
+Imperial Ogre                            k1 OK       miss0 --      vc_zombies 0.303 F4B9D2D7 SHAPE old:emp_general_griffon 0.050 x2.00
+Imperial Ogre                            k1 OK       miss0 --      imp_ogres 0.269 A90BA05B SHAPE br_elisse 0.018 x1.26
+Imperial Ogre                            k1 OK       miss0 --      he_shadow 0.431 4505812A SHAPE emp_priest 0.025 x0.70
+Imperial Ogre                            k1 OK       miss0 --      cd_kdaai 0.213 F87CCAB5 SHAPE vc_hexwraith 0.026 x1.23
+Imperial Ogre                            k1 OK       miss0 --      ct_junshi 0.193 CAE70998 SHAPE mangler_squig 0.004 x1.28
+Imperial Ogre CH                         k1 OK       miss0 --      imp_ogres 0.283 2B0EC929 SHAPE dw_king_shield 0.029 x1.23
+Imperial Ogre CH                         k2 OK       miss0 --      woc_warriors 0.32 2B0EC929|EBA91391 SHAPE vc_count_dragon 0.133 x3.81
+Inner Circle Knights                     k1 OK       miss0 TENEMOS inner_circle 0.0 31740B3C SHAPE inner_circle 0.000 x1.00
+Inner Circle Knights CH                  k1 OK       miss0 --      he_prince_h 0.204 995F0B62 SHAPE he_prince_h 0.027 x1.02
+Inner Circle Knights CH                  k2 OK       miss0 --      bm_centigors 1.331 995F0B62|EBA91391 SHAPE dm_bloodletters 0.114 x0.72
+Inner Circle Knights MU                  k1 OK       miss0 --      he_dragonprinces 0.209 EC49FFB6 SHAPE vc_thrall_nightmare 0.020 x0.93
+Inner Circle Knights MU                  k2 OK       miss0 --      cd_manburner 1.028 3815638E|EC49FFB6 SHAPE dm_bloodletters 0.092 x0.85
+Inner Circle Knights ST                  k1 OK       miss0 --      he_silverhelms 0.34 31613D7B SHAPE old:br_realm 0.066 x0.69
+Inner Circle Knights ST                  k2 OK       miss0 --      ct_peasants_bow 2.455 31613D7B|DE3D26D0 SHAPE ct_peasants_bow 0.205 x0.56
+Lector of Sigmar                         k1 OK       miss0 TENEMOS emp_lector 0.0 CF46324B SHAPE emp_lector 0.000 x1.00
+Lector of Sigmar                         k1 OK       miss0 --      dm_nurglings 0.171 FE826B73 SHAPE he_mage_eagle 0.000 x3.07
+Lector of Sigmar                         k1 OK       miss0 TENEMOS emp_priest 0.0 FD3DDB90 SHAPE emp_priest 0.000 x1.00
+Lector of Sigmar                         k1 OK       miss0 --      handgunners 0.208 2BC157CF SHAPE orc_bonegrinder 0.042 x2.18
+Lector of Sigmar on Horse                k1 OK       miss0 --      empire_general_h 0.272 953BB796 SHAPE he_prince_h 0.029 x1.07
+Lector of Sigmar on War Alter of Sigmar  k1 OK       miss0 TENEMOS emp_lector_altar 0.0 D6329323 SHAPE emp_lector_altar 0.000 x1.00
+Marshal - Warhorse                       k1 OK       miss0 --      ok_leadbelchers 0.927 FAEF50D0 SHAPE tk_stalkers 0.026 x1.68
+Master Mage                              k1 OK       miss0 TENEMOS empire_lord 0.0 A310917D SHAPE empire_lord 0.000 x1.00
+Master Mage                              k1 OK       miss0 --      he_swordmasters 0.168 B09CF424 SHAPE lm_skchief 0.023 x0.68
+Master Mage                              k1 OK       miss0 --      he_phoenix 0.174 2F797936 SHAPE he_whitelions 0.015 x0.98
+Master Mage on Horse                     k1 OK       miss0 --      br_yeomen 0.552 145755BB SHAPE de_coldones 0.016 x1.30
+Master Mage on Pegasus                   k1 OK       miss0 --      empire_captain_peg 0.487 E024C3F9 SHAPE empire_captain_peg 0.001 x0.85
+Missile Troop                            k1 OK       miss0 TENEMOS crossbowmen 0.0 223341D3 SHAPE crossbowmen 0.000 x1.00
+Missile Troop                            k1 OK       miss0 TENEMOS handgunners 0.0 1295BBCB SHAPE handgunners 0.000 x1.00
+Missile Troop CH                         k1 OK       miss0 --      emp_engineer 0.463 0C23BCEC SHAPE vc_direwolves 0.092 x0.78
+Missile Troop CH                         k2 OK       miss0 --      old:br_duke 0.717 0C23BCEC|EBA91391 SHAPE tk_king_chariot 0.076 x1.84
+Missile Troop MU                         k1 OK       miss0 ~       dw_ironbreakers 0.047 21290DF6 SHAPE gob_warboss 0.008 x1.07
+Missile Troop MU                         k2 OK       miss0 --      sk_stormvermin 0.639 21290DF6|3815638E SHAPE vc_count_dragon 0.079 x6.31
+Missile Troop ST                         k1 OK       miss0 --      woc_chieftain_horse 0.435 0D8E4A26 SHAPE sk_plaguepriest 0.037 x1.37
+Missile Troop ST                         k2 OK       miss0 --      ct_peasants_bow 1.257 0D8E4A26|DE3D26D0 SHAPE cd_guard 0.146 x0.61
+Mortar                                   k1 OK       miss0 TENEMOS mortar 0.0 C837232F SHAPE mortar 0.000 x1.00
+Outriders                                k1 OK       miss0 TENEMOS outriders 0.0 9DF1275D SHAPE outriders 0.000 x1.00
+Outriders CH                             k1 OK       miss0 --      empire_general_h 0.235 48AEE23F SHAPE woc_lord_daemon 0.013 x1.16
+Outriders CH                             k2 OK       miss0 --      bm_centigors 0.976 48AEE23F|EBA91391 SHAPE dm_bloodletters 0.069 x0.85
+Outriders MU                             k1 OK       miss0 --      pistoliers 0.189 4FB62A72 SHAPE old:br_questing 0.019 x0.74
+Outriders MU                             k2 OK       miss0 --      dm_herald_tzeentch_disc 1.082 3815638E|4FB62A72 SHAPE dm_bloodletters 0.052 x0.82
+Pegasus Knight                           k1 OK       miss0 --      he_boltthrower 1.419 DC4026B8 SHAPE sk_giantrats 0.789 x0.63
+Pegasus Knight                           k2 OK       miss0 --      empire_general_peg 1.182 BF91ABD2|DC4026B8 SHAPE we_eagle 0.401 x1.73
+Pistoliers                               k1 OK       miss0 TENEMOS pistoliers 0.0 FF3277A9 SHAPE pistoliers 0.000 x1.00
+Pistoliers CH                            k1 OK       miss0 --      empire_general_h 0.235 48AEE23F SHAPE woc_lord_daemon 0.013 x1.16
+Pistoliers CH                            k2 OK       miss0 --      bm_centigors 0.976 48AEE23F|EBA91391 SHAPE dm_bloodletters 0.069 x0.85
+Pistoliers MU                            k1 OK       miss0 --      pistoliers 0.189 4FB62A72 SHAPE old:br_questing 0.019 x0.74
+Pistoliers MU                            k2 OK       miss0 --      dm_herald_tzeentch_disc 1.082 3815638E|4FB62A72 SHAPE dm_bloodletters 0.052 x0.82
+Priest of Sigmar                         k1 OK       miss0 TENEMOS emp_priest 0.0 FD3DDB90 SHAPE emp_priest 0.000 x1.00
+Priest of Sigmar                         k1 OK       miss0 TENEMOS emp_lector 0.0 CF46324B SHAPE emp_lector 0.000 x1.00
+Priest of Sigmar                         k1 OK       miss0 --      dm_nurglings 0.171 FE826B73 SHAPE he_mage_eagle 0.000 x3.07
+Priest of Sigmar                         k1 OK       miss0 --      handgunners 0.208 2BC157CF SHAPE orc_bonegrinder 0.042 x2.18
+Priest of Sigmar on Horse                k1 OK       miss0 --      empire_general_h 0.272 953BB796 SHAPE he_prince_h 0.029 x1.07
+Priest of Ulric                          k1 OK       miss0 TENEMOS emp_ulric 0.0 9EB6F57E SHAPE emp_ulric 0.000 x1.00
+Priest of Ulric on Horse                 k1 OK       miss0 --      orc_weirdboy_boar 0.193 CD285EB6 SHAPE vc_bloodknights 0.006 x0.84
+State Troops                             k1 OK       miss0 TENEMOS state_halberds 0.0 6C2213AF SHAPE state_halberds 0.000 x1.00
+State Troops                             k1 OK       miss0 --      empire_captain 0.32 8BD8C989 SHAPE br_prophetess_war 0.023 x0.97
+State Troops CH                          k1 OK       miss0 --      greatswords 0.252 C060D958 SHAPE empire_lord 0.025 x1.16
+State Troops CH                          k2 OK       miss0 --      cd_manburner 0.39 C060D958|EBA91391 SHAPE cd_guard 0.094 x0.91
+State Troops MU                          k1 OK       miss0 --      sk_globadiers 0.125 E7832250 SHAPE dm_furies 0.009 x2.29
+State Troops MU                          k2 OK       miss0 --      cd_guard 0.536 3815638E|E7832250 SHAPE cd_manburner 0.120 x1.55
+State Troops ST                          k1 OK       miss0 --      br_green_knight 0.366 86F9F480 SHAPE we_wild_riders 0.054 x0.95
+State Troops ST                          k2 OK       miss0 --      dm_bloodletters 0.881 86F9F480|DE3D26D0 SHAPE dm_bloodletters 0.173 x0.75
+Steam Tank                               k1 OK       miss0 TENEMOS steam_tank 0.0 1F21787D SHAPE steam_tank 0.000 x1.00
+Teutogan Guard Warriors                  k1 OK       miss0 TENEMOS teutogen 0.0 9330EB5C SHAPE teutogen 0.000 x1.00
+Teutogan Guard Warriors                  k1 OK       miss0 --      cd_sneakygits 0.125 55416C6D SHAPE empire_lord 0.012 x1.26
+Teutogan Guard Warriors                  k1 OK       miss0 --      ct_jade 0.141 8DF70173 SHAPE ok_firebelly 0.010 x2.56
+Teutogan Guard Warriors CH               k1 OK       miss0 --      we_glade_guard 0.113 6696079B SHAPE we_waystalker 0.012 x1.14
+Teutogan Guard Warriors CH               k2 OK       miss0 --      cd_guard 0.488 6696079B|EBA91391 SHAPE cd_manburner 0.087 x1.33
+Teutogan Guard Warriors MU               k1 OK       miss0 --      crossbowmen 0.143 51734BE4 SHAPE orc_bonegrinder 0.041 x2.31
+Teutogan Guard Warriors MU               k2 OK       miss0 --      woc_warriors 0.389 3815638E|51734BE4 SHAPE woc_warriors 0.125 x1.08
+Teutogan Guard Warriors ST               k1 OK       miss0 --      sk_greyseer 0.312 F33F78DF SHAPE old:dw_warriors_gw 0.038 x0.68
+Teutogan Guard Warriors ST               k2 OK       miss0 --      ct_peasants_bow 0.673 DE3D26D0|F33F78DF SHAPE ct_peasants_bow 0.133 x0.88
+Witch Hunter                             k1 OK       miss0 TENEMOS emp_witchhunter 0.0 D72BF2D9 SHAPE emp_witchhunter 0.000 x1.00
+Witch Hunter on Pegasus                  k1 OK       miss0 TENEMOS empire_captain_peg 0.0 E024C3F9 SHAPE empire_captain_peg 0.000 x1.00
+Wizard - Pegasus                         k1 OK       miss0 --      dm_keeper 1.479 DC4026B8 SHAPE sk_giantrats 0.789 x0.54
+Wizard Lord                              k1 OK       miss0 TENEMOS empire_lord 0.0 A310917D SHAPE empire_lord 0.000 x1.00
+Wizard Lord                              k1 OK       miss0 --      he_swordmasters 0.168 B09CF424 SHAPE lm_skchief 0.023 x0.68
+Wizard Lord                              k1 OK       miss0 --      he_phoenix 0.174 2F797936 SHAPE he_whitelions 0.015 x0.98
+Wizard Lord on Empire Griffon            k1 OK       miss0 --      de_harpies 1.58 70E5031E SHAPE ct_shugengan_gen 0.033 x0.94
+Wizard Lord on Empire Griffon            k2 OK       miss0 --      we_eagle 2.577 273297B5|70E5031E SHAPE empire_general_peg 0.303 x0.70
+Wizard Lord on Horse                     k1 OK       miss0 --      old:br_questing 0.551 145755BB SHAPE de_coldones 0.016 x1.30
+Wizard Lord on Pegasus                   k1 OK       miss0 --      empire_captain_peg 0.487 E024C3F9 SHAPE empire_captain_peg 0.001 x0.85

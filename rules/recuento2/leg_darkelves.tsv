@@ -1,0 +1,239 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+leg_darkelves-001	leg_darkelves.txt:61-72	Personajes hasta 50% de los puntos	OK	data.js:3318 LISTS.de grand; comp:char	
+leg_darkelves-002	leg_darkelves.txt:64-65	0-1 Señor Oscuro o Suprema Hechicera por 1.000 pts	OK	data.js:4568	
+leg_darkelves-003	leg_darkelves.txt:67-68	Nobles, Hechiceras, Maestros de Bestias, Brujas Sanguinarias y Asesinos sin límite salvo %	OK	data.js:1577-1613	
+leg_darkelves-004	leg_darkelves.txt:69-70	0-1 Caldero de Sangre por 1.000 pts (montura de Bruja Sanguinaria)	OK	data.js:4572 de_deathhag_cauldron	
+leg_darkelves-005	leg_darkelves.txt:73-76	Básicas: mínimo 25%: Guerreros, Ballesteros, Corsarios, Jinetes Oscuros	OK	data.js:1616,1619,1625,1646 comp:core	
+leg_darkelves-006	leg_darkelves.txt:77-78	Con Bruja Sanguinaria, 0-1 unidad de Brujas Elfas como Básica	OK	data.js:4328 move(de_witchelves)	
+leg_darkelves-007	leg_darkelves.txt:81-83	Especiales hasta 50%: Verdugos, Brujas Elfas, Sombras, Arpías	OK	data.js:1622,1628,1643,1653 comp:special	
+leg_darkelves-008	leg_darkelves.txt:85-86	0-1 Guardia Negra por Noble Oscuro	OK	data.js:4571	Cuenta Señor y Noble
+leg_darkelves-009	leg_darkelves.txt:87	0-1 Caballeros Gélidos por 1.000 pts	OK	data.js:4570	
+leg_darkelves-010	leg_darkelves.txt:88-89	0-2 Carros Azote o de Gélidos por 1.000 pts (Especial)	OK	data.js:4573,5263,5270	
+leg_darkelves-011	leg_darkelves.txt:90-91	Con General Maestro de Bestias, 0-1 Hidra o Kharibdyss como Especial	OK	data.js compCats deGen	General = marcado o mayor Ld/coste (criterio del motor)
+leg_darkelves-012	leg_darkelves.txt:62-66	Singulares hasta 25%: Hermanas, Santuarios, Hidras, Kharibdyss, Medusas	OK	data.js:1634,1649,1660,1664,3346 comp:rare	
+leg_darkelves-013	leg_darkelves.txt:67	0-1 unidad de Brujos de Fuego Maldito por 1.000 pts	OK	data.js:4569	
+leg_darkelves-014	leg_darkelves.txt:68	0-2 Lanzavirotes Segadores por 1.000 pts	OK	data.js:4574	
+leg_darkelves-015	leg_darkelves.txt:70-72	Mercenarios hasta 20% de los puntos	PARCIAL	data.js:4436	Tope 20% genérico en armyIssues; el texto fuente no lista unidades mercenarias para Elfos Oscuros (MERCS solo tiene bret/empire): sin catálogo que implementar
+leg_darkelves-016	leg_darkelves.txt:74-79	Aliados hasta 25%: un contingente de Guerreros del Caos (Incómodos)	OK	data.js ALLY_TABLE de:[AA(woc,uneasy)]; allyArmyIssues	Sistema de aliados existente: contingente único WoC Incómodo hasta 25%
+leg_darkelves-017	leg_darkelves.txt:82-87	Portaestandarte de Batalla: un Noble +25 pts con estandarte mágico sin límite	OK	data.js:2464 de_master [null,25,null]; ib 50	
+leg_darkelves-018	leg_darkelves.txt:95-96	Perfil Señor Oscuro 5/7/7/4/3/3/6/4/10, 130 pts	OK	data.js:1577	
+leg_darkelves-019	leg_darkelves.txt:96	Perfil Noble Oscuro 5/6/6/4/3/2/5/3/9, 70 pts	OK	data.js:1589	
+leg_darkelves-020	leg_darkelves.txt:98-101	Infantería regular (personaje), peana 25x25, equipo mano y armadura ligera	OK	data.js:1577,1589	
+leg_darkelves-021	leg_darkelves.txt:104-108	Arma adicional +3 / a dos manos +4 / alabarda +3 / lanza +4 (montado)	OK	data.js:4017-4021 DEW	
+leg_darkelves-022	leg_darkelves.txt:109-112	Ballesta de repetición +6 / arco de mano +5 / pareja +10	OK	data.js:4022-4024	
+leg_darkelves-023	leg_darkelves.txt:113-116	Escudo +2; armadura pesada +3; completa +6	OK	data.js:4025-4027	
+leg_darkelves-024	leg_darkelves.txt:118	Capa de Dragón Marino +4	OK	data.js:4028	
+leg_darkelves-025	leg_darkelves.txt:119	Señor Oscuro: objetos mágicos hasta 100 pts	OK	data.js:1577 ib:100	
+leg_darkelves-026	leg_darkelves.txt:120	Noble Oscuro: objetos mágicos hasta 50 pts	OK	data.js:1589 ib:50	
+leg_darkelves-027	leg_darkelves.txt:122-124	Reglas: Odio eterno, Odio (Altos Elfos), Asesino, Golpear primero (no la montura)	PARCIAL	data.js slots nsf (Corcel/Gélido/carros/Caldero); rules.js effI _iPre	Golpear primero ya no se aplica a monturas/dotaciones de corcel, Gélido, carros y Caldero; Dragón Negro y Mantícora (ruta mountAtk) siguen usando la I del jinete
+leg_darkelves-028	leg_darkelves.txt:130	Perfil Suprema Hechicera 5/4/4/3/3/3/5/2/8, 150 pts	OK	data.js:1601	
+leg_darkelves-029	leg_darkelves.txt:131	Perfil Hechicera 5/4/4/3/3/2/4/1/8, 75 pts	OK	data.js:1598	
+leg_darkelves-030	leg_darkelves.txt:136	Equipo: arma de mano	OK	data.js:1598 arm:none	
+leg_darkelves-031	leg_darkelves.txt:138	Suprema Hechicera nivel 3; Hechicera nivel 1	OK	data.js:1598,1601 wizard	
+leg_darkelves-032	leg_darkelves.txt:139-145	Lores: Batalla, Demonología, Oscura, Elementalismo, Ilusión	OK	data.js:4686 SET	
+leg_darkelves-033	leg_darkelves.txt:148-149	Suprema Hechicera puede ser nivel 4 (+30)	OK	data.js:4137 WIZUP base 3 +30	
+leg_darkelves-034	leg_darkelves.txt:150	Suprema Hechicera: objetos mágicos hasta 100 pts	OK	data.js:1601 ib:100	
+leg_darkelves-035	leg_darkelves.txt:152	Hechicera puede ser nivel 2 (+30)	OK	data.js:4138 WIZUP base 1 +30	
+leg_darkelves-036	leg_darkelves.txt:153	Hechicera: objetos mágicos hasta 50 pts	OK	data.js:1598 ib:50	
+leg_darkelves-037	leg_darkelves.txt:155-156	Reglas: Reflejos Élficos, Odio eterno, Odio, Bendición de Hekarti, Lore de Naggaroth, Asesina	PARCIAL	data.js:1598 sr; rules.js:3924	VERIF v732: Odio (Altos Elfos): sr hatred (data.js:1607) da repeticion 1a ronda contra TODO enemigo (rules.js:4918,5410), no solo Altos Elfos; Odio eterno si limitado a he
+leg_darkelves-038	leg_darkelves.txt:147	Opción montada: Hechicera y Suprema en Corcel Oscuro (+14)	OK	data.js de_sorceress_steed/de_supreme_steed	
+leg_darkelves-039	leg_darkelves.txt:290-292	Hechicera en Gélido (+18)	OK	data.js de_sorceress_cold	
+leg_darkelves-040	leg_darkelves.txt:290-292	Suprema Hechicera en Gélido (+18 = 168 pts)	OK	data.js de_supreme_cold ppm168 I5 Ld8	
+leg_darkelves-041	leg_darkelves.txt:292	Hechicera/Suprema en Pegaso Oscuro (+35)	OK	data.js de_*_pegasus tt monCav	
+leg_darkelves-042	leg_darkelves.txt:293	Suprema Hechicera en Dragón Negro	OK	data.js:3348 de_supreme_dragon	
+leg_darkelves-043	leg_darkelves.txt:161	Perfil Gran Maestro de Bestias -/7/7/4/3/3/5/3/9, 75 pts	OK	data.js:1613	
+leg_darkelves-044	leg_darkelves.txt:164-167	Peana según montura; arma de mano, látigo y armadura ligera	PARCIAL	data.js de_beastmaster	Látigo: el texto fuente no da perfil ni efecto (solo aparece en el equipo); no hay nada que implementar
+leg_darkelves-045	leg_darkelves.txt:169	Lanza de caballería +2	OK	data.js:5354 BMO cs	
+leg_darkelves-046	leg_darkelves.txt:170	Ballesta de repetición +6	OK	data.js:5355	
+leg_darkelves-047	leg_darkelves.txt:171-172	Escudo +2; armadura pesada +3	OK	data.js:5356-5357	
+leg_darkelves-048	leg_darkelves.txt:173-175	Debe ir montado: Carro Azote o Mantícora	OK	data.js:5352,3343-3344 (de_beastmaster retirado de ARMIES)	
+leg_darkelves-049	leg_darkelves.txt:176	Capa de Dragón Marino +4	OK	data.js:5358	
+leg_darkelves-050	leg_darkelves.txt:177	Maestro de Bestias: objetos mágicos hasta 75 pts	OK	data.js de_beastmaster ib75	
+leg_darkelves-051	leg_darkelves.txt:179-180	Reglas: Odio eterno, Aguijonear a la bestia, Odio, Asesino, Golpear primero	OK	data.js:1613 sr	
+leg_darkelves-052	leg_darkelves.txt:188-191	Aguijonear a la bestia: en Mando un monstruo a rango de Mando gana +D3 Ataques (máx 10)	OK	rules.js a.t===goad; main.js botón Aguijonear; ai.js grupo gd	El jugador elige el monstruo objetivo (incluida su montura) y el aguijoneo es una acción; la IA lo decide por valoración aprendida
+leg_darkelves-053	leg_darkelves.txt:195	Perfil Bruja Sanguinaria 5/6/6/4/3/2/7/3/8, 70 pts	OK	data.js:1607	
+leg_darkelves-054	leg_darkelves.txt:197-200	Equipo: dos armas de mano	OK	data.js de_deathhag melee extra	
+leg_darkelves-055	leg_darkelves.txt:204	Don Grito de Guerra +15: enemigos en rango de Mando -1 Ld	PARCIAL	data.js:5192; rules.js:1433	"VERIF v732: rules.js:1719 usa 12"" fijos para el -1 Ld de Grito de Guerra; la regla es el alcance de mando de la Bruja (commandRange = su Ld)"
+leg_darkelves-056	leg_darkelves.txt:205	Don Runa de Khaine +10: Ataques extra (+D3)	OK	data.js:5193 randA	
+leg_darkelves-057	leg_darkelves.txt:206	Don Brebaje de Bruja +20: no pierden Frenesí	OK	data.js:5194; rules.js:150	
+leg_darkelves-058	leg_darkelves.txt:203-206	Elegir uno solo de los dones	OK	data.js:5192 group:k	
+leg_darkelves-059	leg_darkelves.txt:207	Montura: Caldero de Sangre	OK	data.js:3338	
+leg_darkelves-060	leg_darkelves.txt:208	Bruja Sanguinaria: objetos mágicos hasta 75 pts	OK	data.js de_deathhag ib75	
+leg_darkelves-061	leg_darkelves.txt:210-211	Reglas: Odio eterno, Frenesí, Odio (todos), Solitaria, Asesina, Ataques envenenados, Golpear primero	OK	data.js:1607 sr	
+leg_darkelves-062	leg_darkelves.txt:228	Perfil Asesino de Khaine 5/8/7/4/3/2/7/3/8, 80 pts	OK	data.js:1610	
+leg_darkelves-063	leg_darkelves.txt:233	Equipo: arma de mano y armas arrojadizas	OK	data.js de_assassin ranged	"Armas arrojadizas: Core 9"", F del usuario, Disparos múltiples (2), Mover y disparar, Disparo rápido"
+leg_darkelves-064	leg_darkelves.txt:237	Arma de mano adicional +3	OK	data.js:5130	
+leg_darkelves-065	leg_darkelves.txt:238	Arco de mano de repetición +5	OK	data.js:5363	
+leg_darkelves-066	leg_darkelves.txt:240	Veneno Loto Negro +5: -1 Ld a personajes enemigos por herida	OK	data.js:5131; rules.js:4710	
+leg_darkelves-067	leg_darkelves.txt:241	Veneno Veneno Oscuro +15: Golpe letal	OK	data.js:5132	
+leg_darkelves-068	leg_darkelves.txt:242	Veneno Perdición del Hombre +15: herir siempre con 4+	OK	data.js:5133; rules.js:4132	
+leg_darkelves-069	leg_darkelves.txt:243	Asesino: objetos mágicos hasta 50 pts	OK	data.js de_assassin ib50	
+leg_darkelves-070	leg_darkelves.txt:245-246	Reglas: Odio eterno, Odio, Oculto, Inmune a psicología, Asesino, Golpear primero	OK	data.js:1610 sr	
+leg_darkelves-071	leg_darkelves.txt:252-257	Oculto: se esconde en unidad élfica oscura de infantería FU 10+ y se revela en Inicio de turno o Combate	OK	rules.js hideCands + pref hideHost; main.js Cambiar anfitrión	El jugador elige la unidad anfitriona en el despliegue (por defecto la mayor); la IA mantiene la mayor
+leg_darkelves-072	leg_darkelves.txt:259-261	Si la unidad anfitriona es destruida o huye del tablero, el Asesino muere; no puede ser General	OK	rules.js hiddenDie (destroy + huida de la mesa + fleeSafeCheck)	El Asesino muere si la anfitriona es destruida o huye del tablero; no puede ser General (sin general:true)
+leg_darkelves-073	leg_darkelves.txt:282-283	Noble/Señor en Corcel Oscuro +14	OK	data.js:1580,1592	
+leg_darkelves-074	leg_darkelves.txt:284	Noble/Señor en Gélido +18	OK	data.js:1583,1595	
+leg_darkelves-075	leg_darkelves.txt:285	Noble/Señor en Carro de Gélidos (+125)	OK	data.js mkVariant *_chariot (renombrado Carro de Gélidos, slots, stupidity)	Nombres corregidos; tripulación (HA5 F4 I5) y Gélidos (HA3 F4 I2, Perforante 1 solo de ellos) como ranuras propias
+leg_darkelves-076	leg_darkelves.txt:286	Señor Oscuro en Dragón Negro	OK	data.js:1586	
+leg_darkelves-077	leg_darkelves.txt:287	Señor Oscuro en Mantícora	OK	data.js:3341	
+leg_darkelves-078	leg_darkelves.txt:305	Perfil Corcel Oscuro M9 HA3 F3 I4 A1	OK	data.js:1580 mountAtk; M9	
+leg_darkelves-079	leg_darkelves.txt:307-311	Corcel Oscuro: caballería ligera, Caballería rápida, Zancada	OK	data.js:1580 sr fastCav,swiftstride	
+leg_darkelves-080	leg_darkelves.txt:316-317	Gélido M7 HA3 F4 I2 A2; +1 R al jinete	OK	data.js:5462-5467	
+leg_darkelves-081	leg_darkelves.txt:319-324	Gélido: Perforante (1), Piel acorazada (1), Miedo, Primera carga, Estupidez, Zancada	OK	data.js:1583 sr; 5465 hide	
+leg_darkelves-082	leg_darkelves.txt:328-329	Pegaso Oscuro M8 HA3 F4 I4 A3; +1 Herida	OK	data.js:3342	
+leg_darkelves-083	leg_darkelves.txt:331-336	Pegaso: caballería monstruosa, Perforante (1), Contracarga, Primera carga, Vuelo (10), Zancada	OK	data.js de_*_pegasus tt monCav	
+leg_darkelves-084	leg_darkelves.txt:341-343	Guerrero Oscuro 5/4/4/3/3/1/4/1/8, 8 pts; Señor menor A2 +5	OK	data.js de_warriors; CMD	Lordling = HA/HP/F etc. del Guerrero con A2 (+1 Ataque de campeón genérico): coincide con el perfil
+leg_darkelves-085	leg_darkelves.txt:345-347	Ballestero Oscuro 11 pts; Señor menor BS5 +5	OK	data.js de_crossbows champBS:true champNoA:true	Lordling BS5, A1
+leg_darkelves-086	leg_darkelves.txt:349-351	Infantería regular, peana 25x25, unidad 10+	OK	data.js:1616,1619 min:10	
+leg_darkelves-087	leg_darkelves.txt:353-354	Equipo: Guerreros mano/ligera/escudos; Ballesteros mano/ballesta de repetición/ligera	OK	data.js:1616,1619	
+leg_darkelves-088	leg_darkelves.txt:358-360	Campeón/portaestandarte/músico +5 por unidad	OK	data.js:2464	
+leg_darkelves-089	leg_darkelves.txt:361	Lanzas de empuje +1 por modelo (Guerreros)	OK	data.js:3745	
+leg_darkelves-090	leg_darkelves.txt:362	Escudos +1 por modelo (Ballesteros)	OK	data.js:3746	
+leg_darkelves-091	leg_darkelves.txt:363-364	0-1 unidad por 1.000 pts: Veteranos +1	OK	data.js:3745-3746 per1000	
+leg_darkelves-092	leg_darkelves.txt:365	0-1 unidad por 1.000 pts: estandarte mágico hasta 50	PARCIAL	data.js armyIssues de (veteranos o estandarte mágico 0-1 por 1.000)	VERIF v732: data.js:5028 cuenta por separado de_warriors y de_crossbows (una unidad de cada por 1.000 pts); el texto da una sola opcion 0-1 por 1.000 para la entrada conjunta; bnMax 50 ok | Veteranos y estandarte mágico cuentan para la misma unidad 0-1 por 1.000 pts
+leg_darkelves-093	leg_darkelves.txt:367	Reglas: Orden cerrado, Reflejos Élficos, Odio, Maestría marcial	OK	data.js:1616,1619 sr	
+leg_darkelves-094	leg_darkelves.txt:375-376	Corsario 5/4/4/3/3/1/4/1/8, 11 pts; Saqueador A2 +6	OK	data.js:1625; CMD 6	
+leg_darkelves-095	leg_darkelves.txt:378-381	Infantería regular, 25x25, unidad 10+, mano y armadura ligera	OK	data.js:1625	
+leg_darkelves-096	leg_darkelves.txt:384-386	Toda la unidad: armas de mano adicionales o arcos de mano de repetición, gratis	OK	data.js:3747 y ranged por defecto	
+leg_darkelves-097	leg_darkelves.txt:388-390	Saqueador/portaestandarte/músico +6	OK	data.js:2464	
+leg_darkelves-098	leg_darkelves.txt:391	Estandarte mágico hasta 50	OK	data.js:1625 bnMax:50	
+leg_darkelves-099	leg_darkelves.txt:393-394	Reglas: Reflejos Élficos, Odio, Atravesar cobertura, Orden abierto, Capa de Dragón Marino	OK	data.js:1625 sr	
+leg_darkelves-100	leg_darkelves.txt:400-401	Guardia Negra 5/5/4/3/3/1/5/1/9, 15 pts; Maestro de Torre A2 +7	OK	data.js:1631; CMD 7	
+leg_darkelves-101	leg_darkelves.txt:403	Troop type infantería regular	OK	data.js de_blackguard tt regInf	
+leg_darkelves-102	leg_darkelves.txt:406	Equipo: armas de mano, alabardas atroces, armadura completa	OK	data.js de_blackguard melee ab1 twoHands	
+leg_darkelves-103	leg_darkelves.txt:410-412	Maestro de Torre/portaestandarte/músico +7	OK	data.js:2464	
+leg_darkelves-104	leg_darkelves.txt:413	Disciplinados +1 por modelo	OK	data.js:3755	
+leg_darkelves-105	leg_darkelves.txt:414	Estandarte mágico hasta 100 pts	OK	data.js de_blackguard bnMax100	
+leg_darkelves-106	leg_darkelves.txt:415	Maestro de Torre: objetos mágicos hasta 50	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_darkelves-107	leg_darkelves.txt:417-418	Reglas: Orden cerrado, Reflejos, Odio eterno, Odio, Inmune a psicología, Maestría marcial, Tozudos	OK	data.js:1631 sr	
+leg_darkelves-108	leg_darkelves.txt:420-425	Alabarda atroz: F+1, FP -1, Perforante (1), Luchar en fila extra, dos manos; sin ataque de apoyo si cargó	OK	data.js de_blackguard melee dread+extraRank; rules.js ~4101/4112	Perforante(1), dos manos, fila extra, sin AP-2 de carga, martial
+leg_darkelves-109	leg_darkelves.txt:429-430	Verdugo 5/5/4/4/3/1/5/1/9, 15 pts; Maestro Draich A2 +6	OK	data.js:1628; CMD 6	
+leg_darkelves-110	leg_darkelves.txt:432-435	Infantería regular, 25x25, 10+, mano, espadones y armadura pesada	OK	data.js:1628	
+leg_darkelves-111	leg_darkelves.txt:439-441	Campeón/portaestandarte/músico +6	OK	data.js:2464	
+leg_darkelves-112	leg_darkelves.txt:442	Disciplinados +2 por modelo	OK	data.js:3756	
+leg_darkelves-113	leg_darkelves.txt:443	Estandarte mágico hasta 50	OK	data.js:1628 bnMax:50	
+leg_darkelves-114	leg_darkelves.txt:444	Maestro Draich: objetos mágicos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_darkelves-115	leg_darkelves.txt:446	Reglas: Orden cerrado, Reflejos, Odio, Asesino, Veterano	OK	data.js:1628 sr	
+leg_darkelves-116	leg_darkelves.txt:448-449	Espadón de Har Ganeth: F+2, FP -1, Golpe hendiente, dos manos	OK	data.js:1628 melee sb2 ap1; rules.js:1700,1716	
+leg_darkelves-117	leg_darkelves.txt:456-457	Sombra 5/5/5/3/3/1/5/1/8, 15 pts; Sombra Sangrienta BS6 +6	OK	data.js de_shades champBS champNoA; rules.js repetición BS6	Sombra Sangrienta BS6 (+1 al primer disparo y repite fallos como HP 6), A1
+leg_darkelves-118	leg_darkelves.txt:459-462	Infantería regular, 25x25, 5+, armas de mano y ballestas de repetición	OK	data.js:1622	
+leg_darkelves-119	leg_darkelves.txt:465-467	Armas de mano adicionales +1 o a dos manos +2 por modelo	OK	data.js:3748-3750	
+leg_darkelves-120	leg_darkelves.txt:468	Armadura ligera +1 por modelo	OK	data.js:3751	
+leg_darkelves-121	leg_darkelves.txt:469	Campeón +6	OK	data.js:2464	
+leg_darkelves-122	leg_darkelves.txt:470	Sombra Sangrienta: objetos mágicos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_darkelves-123	leg_darkelves.txt:471-474	0-1 unidad: Emboscadores / Corredores de carro / Veterano +1	PARCIAL	data.js:3752-3754 lim:1	VERIF v732: data.js:3930-3956 lim:1 es por opcion y por tipo de unidad (hasta 3 unidades distintas, una por opcion); la fuente dice 0-1 unidad para el conjunto
+leg_darkelves-124	leg_darkelves.txt:476-477	Reglas: Reflejos, Evasiva, Odio, Atravesar cobertura, Exploradores, Escaramuzadores	OK	data.js:1622 sr	
+leg_darkelves-125	leg_darkelves.txt:481-482	Bruja Elfa 5/4/4/3/3/1/5/1/8, 11 pts; Hag A2 +7	OK	data.js:1643; CMD 7	
+leg_darkelves-126	leg_darkelves.txt:483-484	Hermana de la Matanza 5/5/4/3/3/1/6/2/9, 17 pts; Hag A3 +7	OK	data.js de_sisters; campeón +1 Ataque	Hag A3 = A2 + 1 de campeón; resto del perfil igual
+leg_darkelves-127	leg_darkelves.txt:488-490	Infantería regular, 25x25, 10+	OK	data.js:1634,1643	
+leg_darkelves-128	leg_darkelves.txt:492	Brujas Elfas: dos armas de mano	OK	data.js de_witchelves melee extra	
+leg_darkelves-129	leg_darkelves.txt:493	Hermanas: armas de mano y látigo y broquel	OK	data.js de_sisters arm:none avOpt shield; melee ap1 ab1 twoHands + extraRank	Látigo y broquel: FP-1, Perforante (1), Luchar en fila extra, Requiere dos manos, +1 armadura
+leg_darkelves-130	leg_darkelves.txt:497-499	Hag/portaestandarte/músico +7 por unidad	OK	data.js CMD de_sisters [7,7,7]	
+leg_darkelves-131	leg_darkelves.txt:500	Estandarte mágico hasta 50	OK	data.js CMD de_sisters	
+leg_darkelves-132	leg_darkelves.txt:503-504	Brujas Elfas: Orden cerrado, Reflejos, Frenesí, Odio, Horda, Solitarias, Asesinas, Ataques envenenados	OK	data.js de_witchelves sr	
+leg_darkelves-133	leg_darkelves.txt:505-506	Hermanas: Danza de la muerte, Reflejos, Odio, Impetuosas, Solitarias, Asesinas, Orden abierto	OK	data.js:1634 sr	
+leg_darkelves-134	leg_darkelves.txt:511-513	Danza de la muerte: carga con éxito, objetivo -1 Rango máximo hasta el fin del Combate	OK	rules.js:3179,1350	
+leg_darkelves-135	leg_darkelves.txt:520	Látigo y broquel mejora armadura en 1	OK	data.js de_sisters avOpt shield:1	Armadura 7+ mejorada en 1 = 6+ (explícito)
+leg_darkelves-136	leg_darkelves.txt:525-526	Arpía 5/3/0/3/3/1/5/2/6, 11 pts	OK	data.js:1653	
+leg_darkelves-137	leg_darkelves.txt:528-531	Infantería regular, 25x25, 5+, garras como mano	OK	data.js:1653	
+leg_darkelves-138	leg_darkelves.txt:532	Reglas: Vuelo (10), Atravesar cobertura, Exploradores, Escaramuzadores, Zancada	OK	data.js:1653; FLYX de_harpies:10	
+leg_darkelves-139	leg_darkelves.txt:530	Arpías sin campeón	OK	data.js CMD de_harpies null	
+leg_darkelves-140	leg_darkelves.txt:535-537	Caballero Gélido -/5/4/4/4/1/5/1/9, 31 pts; Caballero Terrible A2 +7; Gélido M7/3/-/4/-/-/2/2	OK	data.js:1637; 5480-5481	
+leg_darkelves-141	leg_darkelves.txt:540-545	Caballería pesada, 30x60, 5+, lanzas, armadura pesada y escudos	OK	data.js:1637	
+leg_darkelves-142	leg_darkelves.txt:549-552	Campeón/portaestandarte/músico +7	OK	data.js:2464	
+leg_darkelves-143	leg_darkelves.txt:552	Estandarte mágico hasta 50	OK	data.js de_coldones bnMax50	
+leg_darkelves-144	leg_darkelves.txt:553	Armadura completa en vez de pesada +4 por modelo	OK	data.js:3757	
+leg_darkelves-145	leg_darkelves.txt:554	Caballero Terrible: objetos mágicos hasta 50	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_darkelves-146	leg_darkelves.txt:556-558	Reglas: Perforante (1) del Gélido, Piel acorazada (1), Orden cerrado, Reflejos, Miedo, Primera carga, Odio, Estupidez, Z	OK	data.js:1637 sr; mountAtk ab1; hide	
+leg_darkelves-147	leg_darkelves.txt:562-564	Jinete Oscuro -/4/4/3/3/1/4/1/8, 16 pts; Heraldo A2 +6; Corcel M9/3/-/3/-/-/4/1	OK	data.js:1646	
+leg_darkelves-148	leg_darkelves.txt:567-572	Caballería ligera, 30x60, 5+, mano, lanzas de caballería y armadura ligera	OK	data.js:1646	
+leg_darkelves-149	leg_darkelves.txt:575-576	Ballestas de repetición +2; escudos +1 por modelo	OK	data.js:3758-3759	
+leg_darkelves-150	leg_darkelves.txt:578-581	Campeón/portaestandarte/músico +6	OK	data.js:2464	
+leg_darkelves-151	leg_darkelves.txt:582-584	0-1 unidad por 1.000 pts: Disparar y huir o Exploradores +1	PARCIAL	data.js:3760-3761	VERIF v732: data.js:3957-3961 opciones ff y sc con per1000 contadas por separado (data.js:4725): permite 1 unidad con ff y otra con sc por 1.000; la fuente da 0-1 unidad en total
+leg_darkelves-152	leg_darkelves.txt:586-587	Reglas: Reflejos, Caballería rápida, Odio, Orden abierto, Escaramuzadores, Zancada	OK	data.js:1646 sr	
+leg_darkelves-153	leg_darkelves.txt:578-581	Sin estandarte mágico en el texto	OK	data.js de_darkriders sin bnMax	
+leg_darkelves-154	leg_darkelves.txt:591-593	Brujo de Fuego Maldito -/4/4/4/3/1/5/1/8, 22 pts; Maestro A2 +6	OK	data.js CMD de_warlocks [6,null,null]	
+leg_darkelves-155	leg_darkelves.txt:595-599	Caballería ligera, 30x60, 5+, armas de mano	OK	data.js:1640	
+leg_darkelves-156	leg_darkelves.txt:603	Maestro +6	OK	data.js CMD de_warlocks	
+leg_darkelves-157	leg_darkelves.txt:604	Maestro: objetos mágicos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_darkelves-158	leg_darkelves.txt:606-608	Reglas: Aquelarre maldito, Runas oscuras, Reflejos, Caballería rápida, Odio, Orden abierto, Veneno (Brujos y Maestro), Z	PARCIAL	data.js de_warlocks sr poisoned	Veneno aún afecta a todos los ataques de la unidad: el modelo de caballería no separa los ataques del Corcel (el código de reparto jinete/montura de unidades de caballería no distingue armas)
+leg_darkelves-159	leg_darkelves.txt:614-622	Aquelarre maldito: un hechizo elegido de Oscura o Demonología, atado NP 2 / 1 / 0 según Maestro y FU	OK	rules.js:798,3824	
+leg_darkelves-160	leg_darkelves.txt:628-629	Runas oscuras: salvación especial 5+ contra heridas de ataques enemigos no mágicos	OK	rules.js:1670	
+leg_darkelves-161	leg_darkelves.txt:633	Caldero de Sangre M2 F5 R5 H5, +150 pts	OK	data.js:3338; 5081 M:2	
+leg_darkelves-162	leg_darkelves.txt:634	Tripulación 2 Brujas Elfas WS4 BS4 S3 I5 A1 Ld9	OK	data.js de_deathhag_cauldron slots (2 Brujas HA4 F3 I5)	Dotación como ranura propia; sus Heridas siguen siendo las del carro (regla del carro)
+leg_darkelves-163	leg_darkelves.txt:636-641	Carro pesado, 60x100, valor de armadura 4+, tripulación dos armas de mano	OK	data.js:3338,5487	
+leg_darkelves-164	leg_darkelves.txt:643-645	Reglas: Orden cerrado, Arrastrado, Reflejos, Frenesí, Odio, Impactos (D6+1), Gran objetivo, RM (-1), Asesino, Veneno, Te	OK	data.js de_deathhag_cauldron addSr closeOrder/draggedAlong/elvenRef, M2; rules.js dragM	
+leg_darkelves-165	leg_darkelves.txt:650-664	Bendiciones de Khaine: hechizo atado NP2, VL 9+, trabado, elige Carga furiosa / Golpe hendiente / salvación 5+	OK	rules.js a.t===khaine; has0 khaineF/khaineC; main.js; ai.js kb	El jugador elige Carga furiosa / Golpe hendiente / salvación 5+; tirada 2D6+NP2 vs 9+ con dispersión (tryDispel)
+leg_darkelves-166	leg_darkelves.txt:667-668	Solo como montura de personaje; su coste se suma al del jinete	OK	data.js:3338 ppm 220	
+leg_darkelves-167	leg_darkelves.txt:671-673	Carro Azote: F4 R4 H4, 85 pts; tripulación Maestros de Bestias; Corceles	OK	data.js:5263	
+leg_darkelves-168	leg_darkelves.txt:675-679	Carro ligero, 50x100, unidad 1-3, armadura 5+	OK	data.js:5263 min:1 max:3 Sv:5	
+leg_darkelves-169	leg_darkelves.txt:681-683	Equipo: arpón Devastador; tripulación manos, lanzas y ballestas; corceles	OK	data.js:5264-5266	
+leg_darkelves-170	leg_darkelves.txt:685-686	Reglas: Reflejos, Odio, Impactos (D6), Orden abierto, Capa de Dragón Marino, Zancada	PARCIAL	data.js:5266 sr	VERIF v732: data.js:5820-5823 de_scourge: sr hatred generico (rules.js:4918 has(u,hatred)) = Odio contra todos; el libro dice Odio (Altos Elfos) solo
+leg_darkelves-171	leg_darkelves.txt:688-692	"Arpón Devastador 24"", F6, FP -3, Engorroso, Heridas múltiples (D3), Pesado; en vez de una ballesta"	OK	data.js de_scourge ranged2 ponderous	
+leg_darkelves-172	leg_darkelves.txt:698-700	Carro de Gélidos F5 R5 H4, 125 pts; Aurigas WS5 BS4 S4 I5 A1 Ld9; Gélidos M7 WS3 S4 I2 A2	OK	data.js:5270	
+leg_darkelves-173	leg_darkelves.txt:702-705	Carro pesado, 50x100, unidad 1, armadura 4+	OK	data.js:5270 Sv:4	
+leg_darkelves-174	leg_darkelves.txt:707-708	Equipo: Aurigas con manos, lanzas y ballestas; Gélidos garras y dientes	OK	data.js:5271-5273	
+leg_darkelves-175	leg_darkelves.txt:710-711	Reglas: Perforante (1) del Gélido, Orden cerrado, Reflejos, Miedo, Primera carga, Odio, Impactos (D6+1), Estupidez	OK	data.js:5272-5273	
+leg_darkelves-176	leg_darkelves.txt:714-715	Carro como montura de personaje con coste sumado	OK	data.js de_beastmaster_chariot ranged ballestas + ranged2 arpón; slots tripulación	Tripulación con ballestas de repetición y arpón alternativo; lanzas de la tripulación no modeladas por separado
+leg_darkelves-177	leg_darkelves.txt:719-721	Santuario Sangriento M2 F5 R5 H5, 175 pts; Guardianas; Medusa 5/5/4/5/3	PARCIAL	data.js de_shrine A5 slots	A=3+2 y Guardianas como ranura (HA4 F3 I5); las Heridas de la dotación no se modelan por separado
+leg_darkelves-178	leg_darkelves.txt:723-729	Carro pesado, 60x100, 4+, lanzas de caballería y mirada petrificante	OK	data.js:3346	
+leg_darkelves-179	leg_darkelves.txt:731-733	Reglas: Orden cerrado, Arrastrado, Reflejos, Frenesí, Odio, Impactos (D6+1), Gran objetivo, RM, Asesino, Veneno, Mirada 	OK	data.js de_shrine sr closeOrder/draggedAlong, M2; rules.js dragM	
+leg_darkelves-180	leg_darkelves.txt:736-740	Mirada pétrea: al inicio del Combate, chequeo I; si falla D3 impactos F2 sin armadura	OK	rules.js:5000	
+leg_darkelves-181	leg_darkelves.txt:743-746	"Mirada petrificante 18"", F2, Ataques mágicos, Heridas múltiples (D3), herir contra Iniciativa, sin armadura"	OK	data.js:1649 ranged	
+leg_darkelves-182	leg_darkelves.txt:749-751	Dragón Negro M6 WS6 S7 R+3 H+6 I4 A6, +280 pts	OK	data.js:1586,5076	
+leg_darkelves-183	leg_darkelves.txt:753-760	Behemoth, 60x100, escamas = armadura completa, Vuelo (10), Gran objetivo, Pisotón (D6), Zancada, Terror, Orden cerrado, 	OK	data.js:1586 sr; FLYX 10	
+leg_darkelves-184	leg_darkelves.txt:763-767	Garras Mortales F, FP -2; Fauces serradas Perforante (2), Heridas múltiples (2), un ataque por turno	OK	rules.js mountAtk.maw; data.js de_dreadlord_dragon maw:true	Un ataque por turno con Fauces serradas: Perforante (2), Heridas múltiples (2)
+leg_darkelves-185	leg_darkelves.txt:770-774	Aliento nocivo F4: -1 HA, sin salvación de armadura	OK	data.js:1586 ranged noxious	
+leg_darkelves-186	leg_darkelves.txt:782-783	Mantícora M6 WS5 S5 R+1 H+4 I4? A4, +130 pts	OK	data.js:3341; A_MOUNT_FIX 8	
+leg_darkelves-187	leg_darkelves.txt:786-788	Monstruo, 60x100, piel escamosa = armadura pesada	OK	data.js:5087	
+leg_darkelves-188	leg_darkelves.txt:791	Cola venenosa +15: Veneno, Golpear primero, un ataque por turno	OK	rules.js sfWpn/tail (Golpear primero de la cola en I10); data.js opts vt	Verificado: la cola va en su propio lote de Golpear primero con Veneno
+leg_darkelves-189	leg_darkelves.txt:793	Reglas: Orden cerrado, Vuelo (9), Gran objetivo, Pisotón (D3), Zancada, Terror, Bestia obstinada	OK	data.js:3341; FLYX 9	
+leg_darkelves-190	leg_darkelves.txt:797-806	Bestia obstinada: chequeo de Ld sin modificar al inicio del turno; si falla, la montura tiene Frenesí; jinete sin +1 Ata	OK	rules.js wilful (drunkFrenzy noA) + has attack +1	Chequeo con Ld propia sin modificar; la montura gana Frenesí y el jinete NO gana +1 Ataque
+leg_darkelves-191	leg_darkelves.txt:809	Garras mortales de la Mantícora F, FP -2	OK	data.js:3341 mountAtk ap2	
+leg_darkelves-192	leg_darkelves.txt:820-821	Hidra de Guerra 6/4/0/5/5/5/3/2/6, 200 pts; Cuidadores 6/4/-/3/-/-/4/1/8	OK	data.js:1660	
+leg_darkelves-193	leg_darkelves.txt:824-828	Behemoth, 60x100 + 25x25, armadura 5+, garras, fauces y aliento	OK	data.js:1660 arm heavy	
+leg_darkelves-194	leg_darkelves.txt:832-834	Reglas: Orden cerrado, Ataques extra (+Heridas restantes), Inmune a psicología, Gran objetivo, Cuidadores, Regeneración 	OK	data.js:1660 sr	
+leg_darkelves-195	leg_darkelves.txt:836-841	Garras FP -2; Fauces Perforante (1), Heridas múltiples (2) para ataques extra	OK	data.js:1660 slots	
+leg_darkelves-196	leg_darkelves.txt:845-846	Aliento ardiente F=Heridas restantes, FP -1, Arma de aliento, Ataques flamígeros	OK	data.js:1660 ranged sW	
+leg_darkelves-197	leg_darkelves.txt:852	Medusa Sangrienta 7/5/5/4/4/4/5/3/7, 85 pts	OK	data.js:1649	
+leg_darkelves-198	leg_darkelves.txt:854-857	Criatura monstruosa, 40x40, mano, mirada petrificante y armadura ligera	PARCIAL	data.js:1649	"VERIF v732: Medusa data.js:1657-1659 tiene 40x40, monCreature, armadura ligera y mirada 18"" F2 magica D3, pero falta vsI:true: hiere contra Resistencia, no Iniciativa (si lo tienen data.js:1271,1313)"
+leg_darkelves-199	leg_darkelves.txt:858-859	Reglas: Orden cerrado, Reflejos, Miedo, Frenesí, Odio, RM (-1), Asesina, Veneno, Mirada pétrea	OK	data.js:1649 sr	
+leg_darkelves-200	leg_darkelves.txt:876-877	Kharibdyss 6/5/0/7/5/5/3/5/6, 195 pts; Cuidadores	OK	data.js:1664	
+leg_darkelves-201	leg_darkelves.txt:880-886	Behemoth, 60x100 + 25x25, armadura 5+	OK	data.js:1664	
+leg_darkelves-202	leg_darkelves.txt:887-888	Reglas: Aullido abisal, Orden cerrado, Inmune a psicología, Gran objetivo, Cuidadores, Pisotón (D3+1), Terror	OK	data.js:1664 sr; stompN D3+1	
+leg_darkelves-203	leg_darkelves.txt:893-896	"Aullido abisal: enemigos a 6"" -1 Ld (mín 2), no acumulable"	OK	rules.js:1409	
+leg_darkelves-204	leg_darkelves.txt:899-903	Fauces cavernosas FP -2, Perforante (1), Golpe letal (un ataque/turno); Tentáculos FP -2, Veneno	OK	data.js:1664 slots	
+leg_darkelves-205	leg_darkelves.txt:909-910	Segador T6 H2, 80 pts; dotación 5/4/4/3/3/2/4/2/8	PARCIAL	data.js de_boltthrower	Ninguna máquina de guerra del motor modela la dotación con Heridas/Ataques propios; coste y perfil de la máquina correctos
+leg_darkelves-206	leg_darkelves.txt:912-915	Máquina de guerra, 50x50 + 25x25, unidad 1	OK	data.js:1656	
+leg_darkelves-207	leg_darkelves.txt:915	Equipo: lanzavirotes de repetición, armas de mano y armadura ligera	OK	data.js de_boltthrower Sv6	
+leg_darkelves-208	leg_darkelves.txt:916	Reglas: Reflejos, Odio, Escaramuzadores	OK	data.js de_boltthrower sr hatred	
+leg_darkelves-209	leg_darkelves.txt:934-936	Hacha del Verdugo 70: F, FP -2, Golpe letal, Mágica, Golpear último; herir siempre con 2+	OK	data.js:2960	
+leg_darkelves-210	leg_darkelves.txt:942-944	Espada de la Ruina 65: F, Mágica; sin salvación de armadura, especial ni Regeneración	PARCIAL	data.js:2961	VERIF v732: data.js:2989 del_ruin noSaves: rules.js:4823 anula armadura y especial, pero no Regeneracion (falta noRegenW; rules.js:4916 noRegen no usa noSaves)
+leg_darkelves-211	leg_darkelves.txt:950-951	"Tomador de Vidas 35: 24"", F3, FP -1, Perforante (1), Mágica, Disparos múltiples (D3+1), Veneno"	OK	data.js:2962	
+leg_darkelves-212	leg_darkelves.txt:958-961	Látigo de Agonía 30: F+1, FP -1, Mágica, Golpear primero; solo Gran Maestros; -1 R permanente	OK	data.js:2963; rules.js:4787	
+leg_darkelves-213	leg_darkelves.txt:967-969	Escudo de Ghrond 40: escudo y -1 Fuerza a ataques contra el portador	OK	data.js:2964; rules.js:1645	
+leg_darkelves-214	leg_darkelves.txt:975-978	Armadura de Sangre 30: infantería/caballería; 5+ y mejora 1 por herida causada hasta 2+	OK	data.js:2965; rules.js:1462,4774	
+leg_darkelves-215	leg_darkelves.txt:986-990	Colgante de Khaeleth 40: salvación 5+ vs F4-, 4+ vs F5+	OK	data.js:2966; rules.js:1660	
+leg_darkelves-216	leg_darkelves.txt:996-997	Perla de la Desolación Infinita 15: portador y unidad Inmunes a psicología	OK	data.js:2967	
+leg_darkelves-217	leg_darkelves.txt:963-970	Estandarte de Nagarythe 65: Tozudos y +1 resolución de combate	PARCIAL	data.js:2968	VERIF v732: data.js:2996 del_banner_n da Tozudos (grant stubborn) pero sin cr:1: falta el +1 a la resolución de combate (rules.js:5657 usa ITEMS.cr).
+leg_darkelves-218	leg_darkelves.txt:975-978	Estandarte de Matanza 40: +D3 resolución al cargar	OK	data.js:2969; rules.js:5025	
+leg_darkelves-219	leg_darkelves.txt:984-985	Estandarte de Har Ganeth 25: +1 FP de las armas de combate	OK	data.js:2970	
+leg_darkelves-220	leg_darkelves.txt:991-994	Estandarte de Sangre Fría 20: un uso, D6 extra en test de Ld descartando el mayor	OK	data.js:2971; rules.js:2700	
+leg_darkelves-221	leg_darkelves.txt:1003-1007	Huevo de Dragón Negro 35: un uso, R6 y aliento nocivo hasta fin de turno	OK	data.js:2972	
+leg_darkelves-222	leg_darkelves.txt:1013-1018	"Diente de Hidra 30: 9"", F, FP -3, Mágica, Mover y disparar, Disparo rápido; puede apuntar a un modelo"	OK	data.js:2973	
+leg_darkelves-223	leg_darkelves.txt:1024-1026	Ojo Guía 25: un uso, repetir impactos fallados en Disparo (portador y unidad)	PARCIAL	data.js:2974; rules.js:2479	VERIF v732: data.js:3002 del_eye; rules.js:2979 se consume automaticamente en la primera descarga sin que el jugador decida cuando usarlo (uso unico); resto OK (repite fallos, portador y unidad)
+leg_darkelves-224	leg_darkelves.txt:1000-1006	Bastón Negro 55: D6 extra descartando el menor; dos 1 = percance	OK	data.js:2975; rules.js:3839	
+leg_darkelves-225	leg_darkelves.txt:1012-1017	"Familiar de Enfoque 10*: un uso, marcador a 12"" desde donde se mide el hechizo"	OK	data.js:2976; rules.js:3242	
+leg_darkelves-226	leg_darkelves.txt:1023-1025	Tomo de Furion 15: un hechizo más	OK	data.js:2977; rules.js:797	
+leg_darkelves-227	leg_darkelves.txt:1038-1044	Golpe hendiente: 6 natural al herir niega armadura y Regeneración a ciertos tipos de tropa	OK	rules.js:1700,1716	
+leg_darkelves-228	leg_darkelves.txt:1053-1055	Reflejos Élficos: +1 I (máx 10) en la primera ronda; no la montura	PARCIAL	rules.js ~4086	VERIF v732: rules.js:4684 elvenRef +1 I (max 10) si !u.fought, pero el motor usa un unico I del jinete para todo el modelo: no se excluye a la montura | El motor usa la I del jinete en personajes montados; la montura no tiene I propia
+leg_darkelves-229	leg_darkelves.txt:1058-1066	Odio eterno: Odio contra Altos Elfos en todas las rondas; no la montura	OK	rules.js ~4724 eternalHatred solo jinete	
+leg_darkelves-230	leg_darkelves.txt:1038-1039	Bendición de Hekarti: una vez por partida repetir una tirada de lanzamiento fallida	PARCIAL	rules.js:3924	"VERIF v732: rules.js:4580 repite automaticamente el primer lanzamiento fallido (hekDone); el jugador no elige cuando usar la unica repeticion (""may re-roll"")"
+leg_darkelves-231	leg_darkelves.txt:1041-1047	Maestría marcial: ataques de apoyo por flanco y retaguardia	OK	rules.js:4098	Solo con armas de apoyo (lanza/alabarda)
+leg_darkelves-232	leg_darkelves.txt:1049-1061	Asesino: repetir 1 naturales al herir con una sola arma de mano no mágica	OK	rules.js murdOk	Solo una arma de mano no mágica; no montura
+leg_darkelves-233	leg_darkelves.txt:1063-1069	Capa de Dragón Marino: +1 armadura (máx 2+) contra disparos no mágicos	OK	rules.js:1655	
+leg_darkelves-234	leg_darkelves.txt:1075-1076	Lore de Naggaroth: descartar un hechizo aleatorio por la firma del Lore o uno del Lore de Naggaroth	OK	rules.js legAlt + a.t===legPick; main.js legpick; ai.js lg	El jugador elige el hechizo sustituto (e.legSp) y cuál tirada se descarta (o ninguna); la IA lo decide por valoración aprendida
+leg_darkelves-235	leg_darkelves.txt:1084-1094	"Palabra Maldita: Maleficio VL 9+, 12"", -1 HA o HP (elige el lanzador), Maleficio previo expira"	OK	rules.js pref cursePick; main.js cursepick; ai.js cw	El jugador elige −1 HA o −1 HP; sin elegir, el motor toma la característica mayor del objetivo (IA: aprendido)
+leg_darkelves-236	leg_darkelves.txt:1085-1095	"Horror Negro: Vórtice VL 9+, 18"", plantilla 5"", terreno peligroso, mueve 2D6"", D6 tests de F, pierde 1 Herida por fallo"	PARCIAL	data.js:4912; rules.js:5559	"VERIF v732: data.js black_horror y rules.js:6425: VL9+, 18"", 5"", 2D6, D6 chequeos F y 1 Herida OK; plantilla colocada siempre sobre el objetivo (rules.js:4320), sin elegir punto libre a <=18"""
+leg_darkelves-237	leg_darkelves.txt:1-50	Portada, índice, derechos y presentación	NA	-	
+leg_darkelves-238	leg_darkelves.txt:52-60	Texto introductorio de composición de lista	NA	-	

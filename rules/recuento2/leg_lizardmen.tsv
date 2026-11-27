@@ -1,0 +1,181 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+leg_lizardmen-001	leg_lizardmen.txt:61-66	Grand Army: Personajes hasta 50 % de puntos	OK	data.js generico Gran Ejercito (comp 'char')	Comprobacion generica
+leg_lizardmen-002	leg_lizardmen.txt:67	0-1 Slann Mage-Priest	OK	data.js:4557	
+leg_lizardmen-003	leg_lizardmen.txt:69	0-1 Saurus Oldblood o Skink Priest por 1.000 pts	OK	data.js:4558 (regex oldblood o skpriest)	Incluye montados
+leg_lizardmen-004	leg_lizardmen.txt:70	Scar-Veterans y Skink Chiefs sin limite	OK	data.js:1678,1684	
+leg_lizardmen-005	leg_lizardmen.txt:71-73	Core: al menos 25 % de puntos	OK	data.js generico Gran Ejercito	
+leg_lizardmen-006	leg_lizardmen.txt:75	Core: 1+ unidad de Saurus Warriors obligatoria	OK	data.js:~4735 (armyIssues lm: exige lm_saurus)	El validador no exige Saurus Warriors
+leg_lizardmen-007	leg_lizardmen.txt:76	Core: Skink Skirmishers y Jungle Swarms	OK	data.js:1705,1708 comp core	
+leg_lizardmen-008	leg_lizardmen.txt:77	Core: 0-1 unidad de Temple Guard	OK	data.js:4559	
+leg_lizardmen-009	leg_lizardmen.txt:79-82	Special hasta 50 %: Chameleon Skinks, Kroxigor, Cold One Riders	OK	data.js:1714,1717,1726 comp special	
+leg_lizardmen-010	leg_lizardmen.txt:83	0-1 Terradon Riders por Skink Hero	OK	data.js:~4737 regex lm_(skchief|skpriest)	Skink Hero = Jefe o Sacerdote
+leg_lizardmen-011	leg_lizardmen.txt:84	0-1 Ripperdactyl Riders por Skink Hero	OK	data.js:~4738	Skink Hero = Jefe o Sacerdote
+leg_lizardmen-012	leg_lizardmen.txt:85	0-2 Bastiladons por 1.000 pts	OK	data.js:4562	
+leg_lizardmen-013	leg_lizardmen.txt:62-66	Rare hasta 25 %: 0-1 Salamander o Razordon Pack por 1.000 pts	OK	data.js:4563	
+leg_lizardmen-014	leg_lizardmen.txt:66	Rare: 0-1 Stegadon o Troglodon por 1.000 pts	OK	data.js:4564	
+leg_lizardmen-015	leg_lizardmen.txt:68-70	Mercenarios hasta 20 % de puntos	PARCIAL	data.js armyIssues mm (tope 20%)	Tope 20 % aplicado; el libro no lista unidades mercenarias: sin texto fuente no hay catálogo
+leg_lizardmen-016	leg_lizardmen.txt:72-77	Aliados: 25 % de un contingente High Elf Realms	OK	data.js:4521 ALLY_TABLE lm:[he]	Aliados 25 % de Altos Elfos ya soportado
+leg_lizardmen-017	leg_lizardmen.txt:80-87	Battle Standard Bearer +25 (Slann, Scar-Veteran o Skink Chief); estandarte magico sin limite	OK	data.js:~2473 CMD lm_slann/skchief*/scar* [null,25,null]	BSB +25 para Slann, Scar-Veteran y Jefe Skink; estandarte magico sin limite (bsb)
+leg_lizardmen-018	leg_lizardmen.txt:86-87	Slann puede ser BSB y General a la vez	OK	data.js:~2473 CMD lm_slann	Slann con coste BSB y general a la vez
+leg_lizardmen-019	leg_lizardmen.txt:91	Slann Mage-Priest M2 HA2 HP3 F3 R4 H5 I2 A1 L9 285 pts	OK	data.js:1669-1670	
+leg_lizardmen-020	leg_lizardmen.txt:93-96	Slann: monstrous creature 50x50 tamano 1 arma de mano	OK	data.js:1669-1670 (tt monCreature baseW 50)	
+leg_lizardmen-021	leg_lizardmen.txt:98-105	Slann: Mago nivel 4 con Battle, Elementalism, High, Illusion, Necromancy	OK	data.js:1671,4687	
+leg_lizardmen-022	leg_lizardmen.txt:107	Slann: una Disciplina de los Old Ones	PARCIAL	data.js:2997-3003	VERIF v732: data.js:3021-3031 disciplinas cat x: la unica es solo via limite de categoria x (choca con otros objetos x); flag slann:true sin uso, otros magos lm podrian tomarlas.
+leg_lizardmen-023	leg_lizardmen.txt:108	Slann: objetos magicos hasta 100 pts	OK	data.js:1669 (ib 100)	
+leg_lizardmen-024	leg_lizardmen.txt:110-116	Slann: Arcane Shield (salvacion especial 5+)	OK	data.js:1670 (ward 5)	
+leg_lizardmen-025	leg_lizardmen.txt:110	Slann: Cold Blooded, Close Order, Large Target, Fly (8)	OK	data.js:1670, 4767 (FLYX lm_slann 8)	
+leg_lizardmen-026	leg_lizardmen.txt:110	Slann: Lore of Lustria	OK	data.js:4940,4949	
+leg_lizardmen-027	leg_lizardmen.txt:122	Saurus Oldblood M4 HA6 HP0 F5 R5 H3 I3 A5 L8 140 pts	OK	data.js:1672-1673	
+leg_lizardmen-028	leg_lizardmen.txt:123	Saurus Scar-Veteran M4 HA5 HP0 F5 R5 H2 I3 A4 L8 90 pts	OK	data.js:1678-1679	
+leg_lizardmen-029	leg_lizardmen.txt:125-128	Saurus Heroes: heavy infantry 30x30 1 modelo, arma de mano y piel escamosa (armadura pesada)	OK	data.js:1673,1679 (arm heavy)	
+leg_lizardmen-030	leg_lizardmen.txt:131-136	Saurus Heroes: arma adicional +3 / lanza de caballeria +4 / dos manos +4 / alabarda +3 / escudo +2	OK	data.js:4062-4072 (LMW)	Lanza solo montado
+leg_lizardmen-031	leg_lizardmen.txt:138-139	Oldblood objetos 100 pts; Scar-Veteran 50 pts	OK	data.js:1672,1678 (ib)	
+leg_lizardmen-032	leg_lizardmen.txt:141	Saurus Heroes: Cold Blooded, Furious Charge (no montura), Rallying Cry	OK	data.js:1673,1679 (sr)	
+leg_lizardmen-033	leg_lizardmen.txt:141,871-881	Saurus Heroes: Obsidian Blades (AP -1 solo a una arma de mano no magica)	OK	data.js:~4140 LMW ahw/cs patch melee ap:0	Obsidian Blades se pierde con segunda arma de mano o lanza; no afecta a la montura
+leg_lizardmen-034	leg_lizardmen.txt:147	Skink Priest M6 HA2 HP3 F3 R2 H2 I4 A1 L6 60 pts	OK	data.js:1696-1697	
+leg_lizardmen-035	leg_lizardmen.txt:148	Skink Chief M6 HA4 HP5 F4 R3 H2 I6 A3 L6 45 pts	OK	data.js:1684-1685	
+leg_lizardmen-036	leg_lizardmen.txt:150-153	Skink Priest/Chief: regular infantry 25x25 1 modelo; arma de mano y piel curtida (armadura ligera)	OK	data.js:~1708 lm_skpriest arm light	Sacerdote Skink sin armadura ligera (arm none); Jefe correcto
+leg_lizardmen-037	leg_lizardmen.txt:155-159	Skink Priest: nivel 1 con Battle, Elementalism, Illusion	OK	data.js:1698,4688	
+leg_lizardmen-038	leg_lizardmen.txt:162	Skink Priest puede ser nivel 2 +30 pts	OK	data.js:4138 (WIZUP lm_skpriest)	
+leg_lizardmen-039	leg_lizardmen.txt:163-165	Skink Chief: arma adicional +3 / lanza caballeria +4 / cerbatana +4 / jabalinas +3	OK	data.js:~4150 LMS(mounted) lanza de caballeria +4	Jefe Skink montado en Terradon/Ripperdactyl
+leg_lizardmen-040	leg_lizardmen.txt:168	Skink Chief puede tomar escudo +2	OK	data.js:4077 (sh)	
+leg_lizardmen-041	leg_lizardmen.txt:169-171	Skink Priest/Chief: objetos magicos hasta 50 pts	OK	data.js:lm_skchief*/lm_skpriest ib 50	Codigo 25 pts en vez de 50 (montados en Stegadon si 50)
+leg_lizardmen-042	leg_lizardmen.txt:174-175	Skink Priest: Arcane Vassal, Aquatic, Cold Blooded, Lore of Lustria; Chief: Aquatic, Cold Blooded, Poisoned Attacks (no 	OK	data.js:1685,1697	
+leg_lizardmen-043	leg_lizardmen.txt:179-180	"Blowpipe 12"" F3 AP- Multiple Shots (2) Poisoned Attacks"	OK	data.js:4075 (bp), 1715	
+leg_lizardmen-044	leg_lizardmen.txt:187-188	Oldblood/Scar-Veteran en Cold One +18 pts	OK	data.js:1675 (158=140+18), 1681 (108=90+18)	
+leg_lizardmen-045	leg_lizardmen.txt:201-209	Cold One M7 HA3 F4 I2 A2; Armour Bane (1), Armoured Hide (1), Fear, Stupidity, Swiftstride	OK	data.js:lm_oldblood_cold/lm_scar_cold mountAtk a2, A_MOUNT_FIX, avOpt hide 1	Cold One A2 y Piel acorazada (1) en la armadura
+leg_lizardmen-046	leg_lizardmen.txt:195	Skink Chief en Terradon +30 pts	OK	data.js:lm_skchief_terra ppm 75	Coste 110 en vez de 75
+leg_lizardmen-047	leg_lizardmen.txt:211-221	Terradon montura: T+1 H+1, M2 Fly (10), HA3 F4 I2 A1, Armoured Hide (1), Drop Rocks, Fear, Swiftstride	OK	data.js:lm_skchief_terra mountAtk a1 S4 A4, S4 Ld6	Montura sin perfil de ataque propio (A1 F4 HA3 I2); resto OK; piel acorazada via mountSv 5 (5488)
+leg_lizardmen-048	leg_lizardmen.txt:196	Skink Chief en Ripperdactyl +35 pts	OK	data.js:lm_skchief_ripper ppm 80	Coste 120 en vez de 80
+leg_lizardmen-049	leg_lizardmen.txt:223-234	Ripperdactyl montura: T+1 H+1 Fly (9), Cleaving Blow y Furious Charge solo monstruo, Impetuous, Toad Rage, Fear, Swiftst	OK	data.js:lm_skchief_ripper mountAtk a2; mountCleave/mountFC; rules.js:fcM mountFrac, cleave de montura	Cleaving Blow y Furious Charge solo de la montura; I3 de la montura no se modela por separado (Iniciativa unica del jinete) - efecto menor
+leg_lizardmen-050	leg_lizardmen.txt:197	Skink Chief en Stegadon (pag. 13)	OK	data.js:1693 (260=45+215)	
+leg_lizardmen-051	leg_lizardmen.txt:192	Skink Priest en Ancient Stegadon	OK	data.js:lm_skpriest_ancient ppm 320	60 + 230 + 30 (nivel 2) = 320; el codigo cobra 350
+leg_lizardmen-052	leg_lizardmen.txt:189	Oldblood/Scar-Veteran en Carnosaur (pag. 12) +170	OK	data.js:3588-3589 (310=140+170; 260=90+170)	
+leg_lizardmen-053	leg_lizardmen.txt:507-515	Carnosaur: M7 HA3 F7 I4, +1 R +4 H al jinete, Behemoth 50x100, Close Order, Large, Stomp (2), Swiftstride, Terror, armad	OK	data.js:3588-3589 (T6 W7/W6 mountAtk S7 stompN 2)	
+leg_lizardmen-054	leg_lizardmen.txt:517-525	Carnosaur Blood Frenzy: la montura (no el jinete) entra en Frenzy al causar herida no salvada	OK	data.js:lm_scar_carno addSr bloodFrenzy + mwMon	Blood Frenzy de la montura como el Oldblood
+leg_lizardmen-055	leg_lizardmen.txt:527-530	Slashing talons F AP-3 Multiple Wounds (D3) solo vs monstruos	OK	data.js:3588 (mwMon, ap 3)	Scar-Veteran sin mwMon (data.js:3589)
+leg_lizardmen-056	leg_lizardmen.txt:533-534	Carnosaur solo como montura de personaje con sus puntos sumados	OK	data.js:3588-3589	
+leg_lizardmen-057	leg_lizardmen.txt:237-238	Temple Guard M4 HA4 HP0 F4 R4 H1 I1 A2 L8 16 pts; Revered Guardian A3 +7	OK	data.js:1711-1712; CMD data.js:2463	
+leg_lizardmen-058	leg_lizardmen.txt:241-244	Temple Guard: heavy infantry 30x30 10+, armas de mano, alabardas, armadura pesada y escudos	OK	data.js:1711-1712 (max 30 anadido)	Tope max 30 no esta en el texto
+leg_lizardmen-059	leg_lizardmen.txt:247-250	Temple Guard: campeon, portaestandarte y musico +7 cada uno	OK	data.js:2463 (lm_temple [7,7,7])	
+leg_lizardmen-060	leg_lizardmen.txt:251	Temple Guard: estandarte magico hasta 100 pts	OK	data.js:lm_temple bnMax 100	Codigo 50 en vez de 100
+leg_lizardmen-061	leg_lizardmen.txt:252	Revered Guardian: objetos magicos hasta 50 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_lizardmen-062	leg_lizardmen.txt:254-256	Temple Guard: Close Order, Cold Blooded, Obsidian Blades, Shieldwall, Stubborn	OK	data.js:1712	Obsidian en perfil de alabarda
+leg_lizardmen-063	leg_lizardmen.txt:257-262	Guardians: impacto de disparo a Slann a 3 pasa con 2+ a Temple Guard (opcional)	OK	rules.js:~2628 !g.noGuard; ai.js optionGroups ng; main.js boton Guardianes	Transferencia opcional por el jugador (pref noGuard); IA por valoracion aprendida
+leg_lizardmen-064	leg_lizardmen.txt:262-264	Guardians: modelos de Temple Guard en Mando de Slann emiten y aceptan desafios	OK	rules.js:4260 (tgCmd)	
+leg_lizardmen-065	leg_lizardmen.txt:270	Saurus Warrior M4 HA3 HP0 F4 R4 H1 I1 A2 L8 14 pts; Spawn Leader A3 +7	OK	data.js:1702-1703; CMD data.js:2463	
+leg_lizardmen-066	leg_lizardmen.txt:273-276	Saurus Warriors: heavy infantry 30x30 10+ armas de mano, piel escamosa (pesada) y escudos	OK	data.js:1703 (max 40 anadido)	Tope max 40 no esta en el texto
+leg_lizardmen-067	leg_lizardmen.txt:279	Saurus Warriors: lanzas de empuje +1 pt/modelo	OK	data.js:3818 (ts)	
+leg_lizardmen-068	leg_lizardmen.txt:281-283	Saurus Warriors: Spawn Leader, portaestandarte, musico +7 cada uno	OK	data.js:2463 (lm_saurus [7,7,7])	
+leg_lizardmen-069	leg_lizardmen.txt:284	Spawn Leader: objetos magicos hasta 25 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_lizardmen-070	leg_lizardmen.txt:276-286	Saurus Warriors: sin opcion de estandarte magico en el texto	OK	data.js:lm_saurus sin bnMax	Sin estandarte magico
+leg_lizardmen-071	leg_lizardmen.txt:285	Saurus Warriors: 0-1 unidad por 1.000 pts con Shieldwall +1 pt/modelo	OK	data.js:3819 (sw per1000)	
+leg_lizardmen-072	leg_lizardmen.txt:287	Saurus Warriors: Close Order, Cold Blooded, Obsidian Blades	OK	data.js:1703 (melee ap 1)	
+leg_lizardmen-073	leg_lizardmen.txt:290-291	Skink M6 HA2 HP3 F3 R2 H1 I4 A1 L5 5 pts; Patrol Leader HP4 +5	OK	data.js:1705-1706; CMD data.js:2463	
+leg_lizardmen-074	leg_lizardmen.txt:294-297	Skink Skirmishers: regular infantry 25x25, tamano 10+, armas de mano, armadura ligera	OK	data.js:lm_skirmishers min 10	Tamano minimo 5 en vez de 10
+leg_lizardmen-075	leg_lizardmen.txt:300-302	Skirmishers: cerbatanas +1 pt/modelo o jabalinas y escudos gratis	OK	data.js:1706, 3820 (bp)	
+leg_lizardmen-076	leg_lizardmen.txt:303	Skirmishers: Patrol Leader +5 pts por unidad	OK	data.js:2463	
+leg_lizardmen-077	leg_lizardmen.txt:304-306	Skirmishers: 0-1 unidad por 1.000 pts con Scouts +10 o Vanguard +5	OK	data.js:3821-3822 (sc, vg)	
+leg_lizardmen-078	leg_lizardmen.txt:308-309	Skirmishers: Cold Blooded, Move through Cover, Poisoned Attacks (solo jabalinas), Skirmishers	OK	data.js:1706	
+leg_lizardmen-079	leg_lizardmen.txt:315-316	Chameleon Skink M6 HA2 HP4 F3 R2 H1 I4 A1 L6 11 pts; Patrol Leader HP5 +6	OK	data.js:1714-1715; CMD data.js:2463	
+leg_lizardmen-080	leg_lizardmen.txt:318-322	Chameleon Skinks: regular infantry 25x25 5+, armas de mano, cerbatanas, armadura ligera	OK	data.js:1714-1715 (max 10 anadido)	Tope max 10 no esta en el texto
+leg_lizardmen-081	leg_lizardmen.txt:327	Chameleon Skinks: Cold Blooded, Evasive, Move through Cover, Scouts, Skirmishers	OK	data.js:1715	
+leg_lizardmen-082	leg_lizardmen.txt:329-330	"Chameleon blowpipe 12"" F3 Multiple Shots (2) Poisoned Attacks"	OK	data.js:1715 ranged	
+leg_lizardmen-083	leg_lizardmen.txt:333-334	Kroxigor M6 HA3 HP0 F5 R4 H3 I3 A3 L7 49 pts; Ancient A4	OK	data.js:1726-1727	
+leg_lizardmen-084	leg_lizardmen.txt:337-340	Kroxigor: monstrous infantry 40x40 3+, armas a dos manos y piel escamosa (pesada)	OK	data.js:1726-1727 (max 6 anadido)	Tope max 6 no esta en el texto
+leg_lizardmen-085	leg_lizardmen.txt:343	Kroxigor: Ancient (campeon) +7 pts por unidad	OK	data.js:CMD lm_kroxigor 7	Codigo +10 en vez de +7
+leg_lizardmen-086	leg_lizardmen.txt:345	Kroxigor: Aquatic, Close Order, Cold Blooded, Fear	OK	data.js:1727	
+leg_lizardmen-087	leg_lizardmen.txt:347-352	Skirmish Screen: ver y mover a traves de Skink Skirmishers amigos, apartarlos si acaba encima	PARCIAL	rules.js:1857-1860,1949-1955,1984	VERIF v732: LDV a traves de Skinks (rules.js:2324) y mover/apartar (2190-2295, nudgeSkinks) OK, pero la carga (placeCharge/checkPlacement rules.js:3689, sin skinkScr) no atraviesa Skinks amigos
+leg_lizardmen-088	leg_lizardmen.txt:355-357	"Skirmish Screen: Skinks en Skirmish cuentan modelos con la regla a 1"" como parte de la unidad para coherencia"	OK	n/a	El motor no modela coherencia por modelo (las unidades son bloques); Skirmish Screen de linea de vision y movimiento ya existe (rules.js skinkScr)
+leg_lizardmen-089	leg_lizardmen.txt:362	Jungle Swarms M5 HA3 HP0 F2 R2 H5 I1 A5 L5 40 pts	OK	data.js:1708-1709	
+leg_lizardmen-090	leg_lizardmen.txt:364-367	Jungle Swarms: swarms 40x40 3+ armas de mano	OK	data.js:1708-1709	
+leg_lizardmen-091	leg_lizardmen.txt:368	Jungle Swarms: Cold Blooded, Immune to Psychology, Loner, Move through Cover, Poisoned, Skirmishers, Unbreakable, Vangua	OK	data.js:1709	
+leg_lizardmen-092	leg_lizardmen.txt:373	Skink Handler M6 HA2 HP3 F3 R2 H1 I4 A1 L5 5 pts; Salamander M6 HA3 HP3 F5 R4 H3 I4 A2 L4 75 pts	OK	data.js:1729-1730, 3574	
+leg_lizardmen-093	leg_lizardmen.txt:376-382	Salamander Pack: 25x25 handlers, 50x75 Salamanders, 3+/1+, al menos 3 handlers por Salamander, pesada	PARCIAL	data.js:1730 (handR minPer 3 maxPer 6; max 3 anadido)	VERIF v732: data.js:1738 handR minPer 3 pero maxPer 6 por Salamandra y max 3 Salamandras por manada son invenciones; no estan en el texto (solo 3 cuidadores min por Salamandra) | Tope de handlers 6 y de manadas 3 no estan en el texto
+leg_lizardmen-094	leg_lizardmen.txt:384	Salamander Pack: Aquatic, Beast Handlers, Cold Blooded, Fear, Skirmishers	OK	data.js:1730	
+leg_lizardmen-095	leg_lizardmen.txt:390	Salamander fiery breath F4 AP-1 Breath Weapon, Flaming Attacks; wicked claws F AP-2	OK	data.js:1730 (breath flaming s4 ap1; melee ap2)	
+leg_lizardmen-096	leg_lizardmen.txt:864-869	Beast Handlers: disparos enemigos 1-4 a bestia, 5+ a handler	OK	rules.js:1612	
+leg_lizardmen-097	leg_lizardmen.txt:869-870	Beast Handlers: ataques enemigos en combate contra modelo en contacto	OK	rules.js:4342-4362,4536-4542,4760	
+leg_lizardmen-098	leg_lizardmen.txt:395-397	Razordon M6 HA3 HP4 F5 R4 H3 I4 A2 L4 60 pts; Skink Handler 5 pts	OK	data.js:1732-1733	
+leg_lizardmen-099	leg_lizardmen.txt:399-410	Razordon Pack: 3+/1+, 3 handlers por Razordon, pesada, Aquatic, Beast Handlers, Cold Blooded, Fear, Skirmishers	OK	data.js:1733	
+leg_lizardmen-100	leg_lizardmen.txt:413-417	"Razordon wicked claws F AP-2; razor barbs 18"" F4 AP-1 Move and Shoot Multiple Shots (D3) Quick Shot"	OK	data.js:1733	
+leg_lizardmen-101	leg_lizardmen.txt:421-423	Cold One Rider HA4 F4 R4 H1 I2 A2 L8 34 pts; Pack Leader A3 +7; Cold One M7 HA3 F4 I2 A2	OK	data.js:lm_coldones mountAtk a2, A4	Jinete OK; Cold One con 1 ataque en vez de 2
+leg_lizardmen-102	leg_lizardmen.txt:425-430	Cold One Riders: heavy cavalry 30x60 5+, armadura pesada y escudos	OK	data.js:1717-1718 (max 10 anadido)	Tope max 10 no esta en el texto
+leg_lizardmen-103	leg_lizardmen.txt:433	Cold One Riders: lanzas de caballeria +1 pt/modelo	OK	data.js:3823 (cs)	
+leg_lizardmen-104	leg_lizardmen.txt:435-438	Cold One Riders: Pack Leader +7, portaestandarte +7, musico +7, Drilled +2/modelo	OK	data.js:2463, 3824 (dr)	
+leg_lizardmen-105	leg_lizardmen.txt:439	Cold One Riders: estandarte magico hasta 50 pts	OK	data.js:lm_coldones bnMax 50	Codigo 25 en vez de 50
+leg_lizardmen-106	leg_lizardmen.txt:440	Pack Leader: objetos magicos hasta 25 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_lizardmen-107	leg_lizardmen.txt:442-443	Cold One Riders: Armour Bane (1, solo Cold One), Close Order, Cold Blooded, Fear, Obsidian Blades, Stupidity, Swiftstrid	OK	data.js:1718 (mountAtk ab 1; sr)	
+leg_lizardmen-108	leg_lizardmen.txt:442	Cold One Riders: Armoured Hide (1) de la montura	OK	data.js:lm_coldones avOpt hide 1 (Sv 3+ con escudo)	Sin bonus de armadura de la montura
+leg_lizardmen-109	leg_lizardmen.txt:449-451	Terradon Rider HA2 HP3 F3 R3 H2 I4 A1 L5 32 pts; Sky Leader HP4 +6; Terradon M2 HA3 F4 I2 A1	OK	data.js:lm_terradons mountAtk a1 A2	Jinete OK; Terradon sin perfil propio de ataque
+leg_lizardmen-110	leg_lizardmen.txt:453-458	Terradon Riders: monstrous cavalry 40x40 3+, armadura ligera, jabalinas	PARCIAL	data.js:1720-1721 (max 8 anadido)	VERIF v732: data.js:1728 monCav 40x40 min 3 armadura ligera jabalinas OK, pero max:8 inventado: la fuente dice tamano 3+ sin maximo | Tope max 8 no esta en el texto
+leg_lizardmen-111	leg_lizardmen.txt:461	Terradon Riders: bolas de fuego de sanguijuela en vez de jabalinas +1 pt/modelo (R6 F+1 Flaming Move and Shoot Quick Sho	OK	data.js:3825 (fb)	
+leg_lizardmen-112	leg_lizardmen.txt:463	Terradon Riders: Sky Leader +6	OK	data.js:2463	
+leg_lizardmen-113	leg_lizardmen.txt:465-466	Terradon Riders: Cold Blooded, Drop Rocks, Fear, Fly (10), Poisoned (jabalinas), Skirmishers, Swiftstride	OK	data.js:1721	
+leg_lizardmen-114	leg_lizardmen.txt:465	Terradon Riders: Armoured Hide (1)	OK	data.js:lm_terradons avOpt hide 1	Solo montados por personaje usan mountSv 5 (data.js:5488)
+leg_lizardmen-115	leg_lizardmen.txt:473-475	Ripperdactyl Rider HA2 HP3 F3 R3 H2 I4 A1 L5 40 pts; Champion A2 +6; Ripperdactyl M2 HA3 F4 I3 A2	OK	data.js:lm_ripperdactyls mountAtk a2 A3	Jinete OK; Ripperdactyl sin perfil propio (A2 I3)
+leg_lizardmen-116	leg_lizardmen.txt:477-482	Ripperdactyl Riders: monstrous cavalry 40x40 3+, lanzas de caballeria, armadura ligera y escudos	OK	data.js:1724 (max 8 anadido)	Tope max 8 no esta en el texto
+leg_lizardmen-117	leg_lizardmen.txt:485	Ripperdactyl Riders: Ripperdactyl Champion +6	OK	data.js:2463	
+leg_lizardmen-118	leg_lizardmen.txt:487-489	Ripperdactyl Riders: Armoured Hide (1), Cleaving Blow, Cold Blooded, Fear, Fly (9), Furious Charge, Impetuous, Skirmishe	OK	data.js:lm_ripperdactyls avOpt hide 1 mountCleave/mountFC	Sin Armoured Hide (1); Cleaving Blow y Furious Charge no limitados a la montura
+leg_lizardmen-119	leg_lizardmen.txt:496-503	Toad Rage: un marcador por unidad de Ripperdactyl Riders sobre cualquier unidad enemiga tras Scouts; +1 Ataque y repetir	PARCIAL	rules.js:toadPlace/startBattle, toadMk; attackProfile rr1; main.js boton marcador; ai.js decider toad:	VERIF v732: rules.js:6556 toadPlace OK (1 marcador/unidad, elige jugador); pero rr1 al impactar (rules.js:4916 toadNow) vale para todo el perfil, tambien los jinetes skink, que la fuente excluye. | Marcador por unidad de Jinetes (no personajes) sobre cualquier enemigo; lo coloca el jugador (si no elige, se asigna a la de mayor coste y se anuncia) o la IA por valoracion aprendida; +1 Ataque y repetir 1 solo contra la unidad marcada
+leg_lizardmen-120	leg_lizardmen.txt:538	Stegadon M6 HA3 F5 R6 H5 I2 A4 215 pts; Ancient Stegadon HA4 F6 R6 H5 I1 A3 230 pts; Skink Crew x5 HA2 HP3 F3 I4 A1 L6	OK	data.js:1735-1736, 5494-5500 (slots)	
+leg_lizardmen-121	leg_lizardmen.txt:542-548	Stegadon: behemoth 60x100 AV 4+, grandes cuernos y arco gigante; tripulacion con armas de mano y jabalinas	OK	data.js:lm_stegadon arm plate (AV4+), baseW 60	AV 5+ en vez de 4+ y peana 50x100 en vez de 60x100
+leg_lizardmen-122	leg_lizardmen.txt:551-552	Stegadon: cerbatanas gigantes en vez de arco gigante gratis	OK	data.js:3816 (bp)	Skink Chief/Priest en Stegadon sin opcion
+leg_lizardmen-123	leg_lizardmen.txt:551-553	Stegadon montado por personaje: arco gigante/cerbatanas gigantes opcionales	OK	data.js:bloque v611 arco gigante bs3 + cerbatanas	Montaduras de personaje sin arma de proyectiles ni opcion de cerbatanas
+leg_lizardmen-124	leg_lizardmen.txt:556-558	Stegadon: Close Order, Cold Blooded, Immune to Psychology, Impact Hits (D3+1), Large Target, Poisoned (jabalinas), Stomp	OK	data.js:1736, 5498	
+leg_lizardmen-125	leg_lizardmen.txt:556,585-589	Stegadon: Howdah (montura de carro) y puntos del Stegadon sumados al jinete	PARCIAL	data.js:5098-5101,5494-5500	Howdah como regla (montura de carro) no modelada; funcionalmente slots y puntos sumados al jinete
+leg_lizardmen-126	leg_lizardmen.txt:576-579	"Great horns F AP-3; Giant bow 36"" F5 AP-2 Multiple Wounds (D3) Poisoned Attacks"	OK	data.js:1736	
+leg_lizardmen-127	leg_lizardmen.txt:582-583	"Giant blowpipes 18"" F3 AP- Cumbersome Multiple Shots (2D6) Poisoned"	OK	data.js:3816	
+leg_lizardmen-128	leg_lizardmen.txt:554	Ancient Stegadon: Engine of the Gods +25 pts en lugar del arco gigante	OK	data.js:5367	
+leg_lizardmen-129	leg_lizardmen.txt:563-565	Engine of the Gods Arcane Configuration: con 2+ Motores, Magos amigos a 6 suman +1 al lanzar	OK	rules.js:3855	
+leg_lizardmen-130	leg_lizardmen.txt:567-573	"Engine of the Gods Burning Alignment: ligado NP3 8+ 15"" 2D6 F4 AP- flamigero"	OK	data.js:2276	
+leg_lizardmen-131	leg_lizardmen.txt:593	Bastiladon M4 HA3 F4 R5 H4 I1 A3 160 pts; Skink Crew x3 HA2 HP3 F3 I4 A1 L6	OK	data.js:1738-1739	
+leg_lizardmen-132	leg_lizardmen.txt:596-602	Bastiladon: monstrous creature 60x100 AV 3+, Thunderous bludgeon, Ark of Sotek	OK	data.js:lm_bastiladon Sv 3	AV 4+ en vez de 3+
+leg_lizardmen-133	leg_lizardmen.txt:606-607	Bastiladon: Solar Engine +15 pts; cuarto Skink Crew +5 pts	OK	data.js:lm_bastiladon opts c4 (+5, dA 1)	Falta la opcion de cuarto miembro de tripulacion (+5)
+leg_lizardmen-134	leg_lizardmen.txt:609-611	Bastiladon: Close Order, Cold Blooded, Immune, Impact (D3), Large, Poisoned (jabalinas), Stomp (D3+1), Stubborn, Terror	OK	data.js:lm_bastiladon slots tripulacion poisoned	Bastiladon con bludgeon (golpea el ultimo) + 3 Skinks con jabalinas envenenadas
+leg_lizardmen-135	leg_lizardmen.txt:613-617	Impervious Defence: enemigos sin puntos de resultado por flanco o retaguardia	OK	rules.js:4868	
+leg_lizardmen-136	leg_lizardmen.txt:622-626	Ark of Sotek: Slithering Serpents 2D6 F2 a unidades a D6; Spawn of Sotek 4+ cura D3 a un Jungle Swarm a 6	OK	rules.js:5466-5469	
+leg_lizardmen-137	leg_lizardmen.txt:631-632	Solar Radiance: +1 Iniciativa a Cold Blooded amigos a 6 de un Solar Engine	OK	rules.js:4021	
+leg_lizardmen-138	leg_lizardmen.txt:634-640	"Beam of Chotec: ligado NP2 9+ 24"" 3D3 F5 AP-2 flamigero"	OK	data.js:2277	
+leg_lizardmen-139	leg_lizardmen.txt:644	Thunderous bludgeon F AP-3 Strike Last	OK	data.js:1739 (ap 3 last)	
+leg_lizardmen-140	leg_lizardmen.txt:647-649	Troglodon M7 HA3 F5 R5 H5 I2 A3 200 pts; Skink Oracle HA2 HP3 F3 I4 A1 L8	OK	data.js:1741-1742	
+leg_lizardmen-141	leg_lizardmen.txt:651-657	Troglodon: monstrous creature 50x100, armadura pesada, Skink Oracle arma de mano	PARCIAL	data.js:1742	VERIF v732: data.js:1749 lm_troglodon: perfil, 50x100, armadura pesada ok; falta el Skink Oracle como modelo con arma de mano (HA2 F3 I4 A1); sin entrada oracle/slots
+leg_lizardmen-142	leg_lizardmen.txt:659-662	Skink Oracle: nivel 1 con Battle o Illusion	OK	data.js:1743	
+leg_lizardmen-143	leg_lizardmen.txt:664-666	Troglodon: Arcane Vassal, Aquatic, Close Order, Cold Blooded, Immune, Large, Lore of Lustria, Stomp (2), Stubborn, Terro	OK	data.js:1742	
+leg_lizardmen-144	leg_lizardmen.txt:672-675	Primeval Roar: una vez por partida en Mando, test de Ld; Furious Charge a Lizardmen a 7	OK	rules.js:roarUse + accion roar; ai.js optionGroups pr; main.js boton	Decision del jugador / IA aprendida
+leg_lizardmen-145	leg_lizardmen.txt:678-683	Venomous talons F AP-2 Poisoned; Venom spray F3 AP-1 Breath Weapon, 5+ siempre hiere	OK	data.js:1742 (poisoned, alwaysW 5)	
+leg_lizardmen-146	leg_lizardmen.txt:690-694	Higher State of Mind 60 pts: Ethereal	OK	data.js:2997	
+leg_lizardmen-147	leg_lizardmen.txt:690,694	Transcendent Healing 35 pts: Regeneration (5+)	OK	data.js:2998	
+leg_lizardmen-148	leg_lizardmen.txt:696-701	Becalming Cogitation 50 pts: repetir un D6 al disipar una vez por turno, +3 al alcance de dispersion	OK	data.js:2999; rules.js:3421	
+leg_lizardmen-149	leg_lizardmen.txt:696,700-701	Sorcerous Void 30 pts: Magic Resistance (-D3) tirado antes del despliegue	OK	data.js:3000; rules.js:790	
+leg_lizardmen-150	leg_lizardmen.txt:704-713	Wandering Deliberations 40 pts: cuatro hechizos de firma de siete Lores, pudiendo descartar uno por Lustria	OK	rules.js:~857 wanderDrop/wanderLu; main.js wanderBtns	El jugador elige los 4 Saberes y puede descartar una firma por un hechizo de Lustria
+leg_lizardmen-151	leg_lizardmen.txt:703-707	Harrowing Scrutiny 20 pts: Terror	OK	data.js:3002	
+leg_lizardmen-152	leg_lizardmen.txt:709-715	Soul of Stone 10 pts: modificar tabla de percances en -1 (min 2) o +1 (max 12)	OK	rules.js:~3472 soulDir; main.js boton; ai.js optionGroups ss	+1 / -1 / nada a eleccion
+leg_lizardmen-153	leg_lizardmen.txt:728-734	Blade of Revered Tzunki 65 pts: F+1 magica, sin salvaciones de armadura ni especial	OK	data.js:2979	
+leg_lizardmen-154	leg_lizardmen.txt:737-742	Scimitar of the Sun Resplendent 50 pts: AP-1, Extra Attacks (+D3), Flaming, Magical	OK	data.js:2980	
+leg_lizardmen-155	leg_lizardmen.txt:744-752	Staff of the Lost Sun 40 pts: combate F+1 magico dos manos; disparo 12 F4 AP-3 Multiple Shots (3)	OK	data.js:lml_lostsun twoH + itemIssues	No se puede combinar con escudo
+leg_lizardmen-156	leg_lizardmen.txt:754-759	Piranha Blade 35 pts: AP-1 magica Multiple Wounds (2)	OK	data.js:2982	
+leg_lizardmen-157	leg_lizardmen.txt:761-767	Shield of the Mirror Pool 40 pts: escudo; el lanzador sufre F5 AP-2 al herir a portador un Proyectil magico	OK	data.js:2983; rules.js:2556	
+leg_lizardmen-158	leg_lizardmen.txt:769-776	Hide of the Cold Ones 20 pts: +1 armadura (max 2+), Stupidity	OK	data.js:2984	
+leg_lizardmen-159	leg_lizardmen.txt:780-786	Glyph Necklace 45 pts: salvacion especial 5+ y Magic Resistance (-2)	OK	data.js:2985	
+leg_lizardmen-160	leg_lizardmen.txt:788-794	Aura of Quetzl 40 pts: enemigos que atacan al portador en combate -1 al impactar	OK	data.js:2986	
+leg_lizardmen-161	leg_lizardmen.txt:765-769	Sun Standard of Chotec 40 pts: sin Stand and Shoot contra la unidad; -1 al impactar al disparar	OK	data.js:2987; rules.js:3049	
+leg_lizardmen-162	leg_lizardmen.txt:771-776	Skavenpelt Banner 35 pts: Frenzy y Hatred (Skaven)	OK	data.js:2988	
+leg_lizardmen-163	leg_lizardmen.txt:778-783	Totem of Prophecy 30 pts: Fear	OK	data.js:2989	
+leg_lizardmen-164	leg_lizardmen.txt:785-790	Jaguar Standard 20 pts: persecucion con D6 extra descartando el menor	OK	data.js:2990; rules.js:5154	
+leg_lizardmen-165	leg_lizardmen.txt:796-802	Cloak of Feathers 40 pts: solo Skink Heroes de infanteria; Fly (10) y Swiftstride	OK	data.js:lml_feathers onlyT lm_skchief/lm_skpriest, grant swiftstride	Sin restriccion a Heroes Skink y no concede Swiftstride
+leg_lizardmen-166	leg_lizardmen.txt:804-813	Venom of the Firefly Frog 15 pts: Poisoned y Flaming Attacks no magicos, no montura	PARCIAL	data.js:lml_firefly flamingAtk; rules.js:attackProfile flaming (no montura)	VERIF v732: data.js:3020 lml_firefly grant poisoned: rules.js:4916 p.poison (has) aplica tambien a la montura y con arma magica; solo flaming excluye montura (rules.js:5456) | Poisoned (sr del jefe) y Flaming; la montura no recibe Flaming
+leg_lizardmen-167	leg_lizardmen.txt:815-821	Horned One* 10 pts: Saurus Hero en Cold One, pierde Stupidity y M8	OK	data.js:2993; data.js:121	
+leg_lizardmen-168	leg_lizardmen.txt:796-808	Cube of Darkness* 50 pts: un uso, disipa automaticamente y todos los remains in play	OK	data.js:2994; rules.js:3380	
+leg_lizardmen-169	leg_lizardmen.txt:807-815	Itxi Grub* 30 pts: un uso, test R, +3 a lanzar o pierde una Herida	OK	data.js:2995; rules.js:3834	
+leg_lizardmen-170	leg_lizardmen.txt:817-828	Cupped Hands of the Old Ones 55 pts: percance D6 1 tabla / 2+ plantilla 3 F6 AP-2 sobre personaje enemigo	OK	data.js:2996; rules.js:3327	
+leg_lizardmen-171	leg_lizardmen.txt:722-724	Objetos marcados * extremadamente comunes	OK	data.js:2993-2995 (star true)	
+leg_lizardmen-172	leg_lizardmen.txt:836-849	Arcane Vassal: canalizar hechizo del Slann a 12 a traves de este modelo (no Self)	PARCIAL	data.js:111; rules.js:3266	"VERIF v732: rules.js:3860-3862 solo amplia objetivos enemigos a 12"" del vasallo; no limita a una vez por turno ni cubre hechizos a amigos ni efectos medidos desde el vasallo."
+leg_lizardmen-173	leg_lizardmen.txt:852-862	Aquatic: sin penalizacion de Movimiento en rasgos de agua designados	OK	rules.js:2034-2040 aquatic	El unico rasgo de agua del juego es el pantano (cuenta como rasgo de agua designado); no hay estanques/rios
+leg_lizardmen-174	leg_lizardmen.txt:840-849	Cleaving Blow: 6 natural al herir, sin armadura ni regeneracion vs infanteria, caballeria ligera/pesada y war beasts	OK	rules.js:1700,1716	
+leg_lizardmen-175	leg_lizardmen.txt:851-857	Cold Blooded: tirada extra D6 descartando la mayor en Fear, Panic y Terror	OK	rules.js:2701	
+leg_lizardmen-176	leg_lizardmen.txt:863-869	Drop Rocks: una vez por partida al sobrevolar unidad no trabada, D3 impactos F4 por modelo	PARCIAL	rules.js:2574-2600,6817	VERIF v732: rules.js:3088 diveBomb(rocks) D3 F4 PA- por modelo, 1 vez (8050); pero es automatico al sobrevolar: el jugador no elige usarlo ni objetivo, sin aviso popup (solo logE)
+leg_lizardmen-177	leg_lizardmen.txt:871-881	Obsidian Blades: arma de mano no magica con AP-1; se pierde con dos armas o con otra arma o montura	OK	data.js:LMW ahw/cs ap:0	Se pierde con segunda arma o lanza; Guerreros/Jinetes Saurios ya ap 0 con lanzas
+leg_lizardmen-178	leg_lizardmen.txt:887-888	Lore of Lustria: descartar hechizo generado y elegir firma del Lore o hechizo de Lustria	OK	data.js:4940,4949	
+leg_lizardmen-179	leg_lizardmen.txt:891-908	Apotheosis: Enchantment 10+/12+ 24, personaje amigo infanteria/caballeria, cura D3 / D3+1, Fear o Terror	OK	data.js:4909; rules.js:3249,3577	
+leg_lizardmen-180	leg_lizardmen.txt:891-910	Monsoon: Vortex 8+ 15 plantilla 5 peligrosa sin LOS, se mueve D6, unidades empapadas -1 al impactar al disparar, maquina	OK	data.js:4910; rules.js:2229,2418,5558	

@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+aj_dwarfs2.tsv	aj_dwarfs2-048	aj_dwarfs2.txt L733-740	Expedicionaria: mercenarios hasta 25% de los puntos	OK	data.js:4470 (mm 0.25 royal/expedition)	Límite 25%
+leg_daemons.tsv	leg_daemons-034	leg_daemons.txt L124-125	Azote de sangre: F+2 solo primera ronda, PA-2, Perforante 1, Heridas multiples D3	OK	data.js:5313 melee sb2 ap2 ab1 mw D3 flailFirst	
+cathay.tsv	cathay_aj-061	cathay_aj.txt 1905-1925	Linterna Celeste: carro pesado 100x100, AV 4+, unidad 1, 135 pts	OK	data.js:2242 Sv 4 baseW 100 ppm 135	
+core_6.tsv	core6-007	Stone Throwers / Bombardment 1	Elegir unidad enemiga en LDV y entre alcance mín. y máx.; plantilla centrada en el centro de la unidad	OK	rules.js:2043 (minRange/range), 2363	cx,cy = target.x,y
+leg_ogres.tsv	leg_ogres-030	leg_ogres.txt:120	Reglas: Miedo, Impactos (2)	OK	data.js:2033	
+core_3.tsv	c3-025	Insurmountable Losses (p.114)	Menos del 25%: solo reagrupa con doble 1 natural	OK	rules.js:5527	
+leg_vampires.tsv	leg_vampires-189	leg_vampires.txt:894-896	Reglas: Orden Cerrado, Volar (9), Indomable (1), Infestado, Objetivo Grande, No muerto, Regen 5+, Pisotón (D6), Zancada,	OK	data.js:1911	
+cathay.tsv	cathay_aj-052	cathay_aj.txt 1786-1791	0-1 unidad por 1.000: Adiestrados +1/mod, Tozudos +2/mod, estandarte magico 50	OK	data.js armyIssues bloque ct (~4850): Instruidos/Tozudos/estandarte mágico cuentan como una sola unidad por 1.000 pts	0-1 unidad por 1.000 con Instruidos, Tozudos o estandarte mágico (máx. 50 pts, bnMax por defecto 50).
+faq_core_4.tsv	FC4-55	p18 izq / Objetos	Modelos de otra lista: objetos comunes o de su propia facción	OK	data.js:3215 (itemFacOk)	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-166	leg_chaosdwarfs.txt:471-473	Cannonade: dos dados de artilleria, disparos = suma	OK	rules.js:2466-2472	
+leg_ogres.tsv	leg_ogres-190	leg_ogres.txt:885-891	Spangleshard 35: salvación 4+; se destruye con un 1 natural	OK	data.js:3011; rules.js:1736	
+leg_darkelves.tsv	leg_darkelves-105	leg_darkelves.txt:414	Estandarte mágico hasta 100 pts	OK	data.js de_blackguard bnMax100	
+leg_daemons.tsv	leg_daemons-276	leg_daemons.txt L1376-1382	Demonios de Tzeentch: Odio (Nurgle) y +1 a lanzar sin anular doble 1	OK	rules.js:3907	
+core_7.tsv	core_7-053	core_rulebook.txt 9835-9838	Dark Monolith, victoria: +200 PV a quien controle el rasgo especial al final (ademas del bonus normal)	OK	rules.js:SCENARIOS.monolith obj {feat:true,vp:200}; finish()	+200 PV ademas del +50 normal
+cathay.tsv	faq_cathay-012	faq_cathay.txt 82-84	Errata Estandarte del Ojo del Dragon: 4+	OK	data.js:2506 deye 4	
+aj_bretonnia.tsv	aj_bretonnia-011	aj_bretonnia.txt L647-657	"Colocacion: colina de hasta 16\"" con posicion defendible"	OK	rules.js:837-839 (hill 16x16)	
+leg_daemons.tsv	leg_daemons-105	leg_daemons.txt L446-450	Nurglings: Enjambres 40x40, unidad 3+, Veneno, Solitario, Ataques aleatorios, Regeneracion (6+), Escaramuza	OK	data.js:1985	Max 6 inventado
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-104	leg_chaosdwarfs.txt:279-281	Guard: Deathmask +6, estandarte +6, musico +6	OK	data.js:2458 cd_guard [6,6,6]	
+leg_vampires.tsv	leg_vampires-156	leg_vampires.txt:678-687	Segadores Espectrales: sobrevolar unidad no trabada; F4 por modelo, sin armadura, flamígeros y mágicos	OK	rules.js:473 spectralReapers (tras mover en fase de movimiento); pref noReap; ai.js autoaprendizaje	Si sobrevuela varias unidades, el motor elige la de más modelos sobrevolados y lo anuncia en el registro; el jugador puede renunciar con la preferencia
+core_8.tsv	core_8-007	Daemonologia p.323 l.10263	"Vigor Demoniaco: Enchantment 9+, 15"", +1 M, R, I (max 10) hasta fin de turno"	OK	data.js:2406; rules.js:1470,1637,3898	
+leg_daemons.tsv	leg_daemons-062	leg_daemons.txt L245-246	Trono de Sangre: M7 HA5 F5 R5 H4 I2 A3, +160; tripulacion 2 Sanguinarios	OK	data.js:3336,5085 (A8 W6 T5)	
+core_8.tsv	core_8-077	Talismanes p.339 l.11069	Piedra del Alba 35: repite un 1 natural de salvacion de armadura	OK	data.js:2546; rules.js:1651	
+faq_core_2.tsv	F2-034	AJ Settra p.20 Close Encounter	"Cada borde corto mide 15"""	OK	rules.js:209	"Zonas 22""x15"""
+leg_vampires.tsv	leg_vampires-028	leg_vampires.txt:117	Escudo +2	OK	data.js:4098 VCV sh	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-142	leg_chaosdwarfs.txt:387	Perfil Bull Centaur Render M7 HA4 HP2 F4 R5 H3 I3 A2 L8, 56 pts	OK	data.js:2169 cd_render	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-127	leg_chaosdwarfs.txt:341-344	Regular infantry, 25x25, 10+, dos armas de mano y arrojadizas	OK	data.js cd_sneakygits max 99	Maximo 30 impuesto; equipo ok
+battlemarch_quickref.tsv	battlemarch-061	battlemarch.txt L1365-1373	Mínimo dos unidades que no sean personajes (valen máquinas, no enjambres ni bestias de guerra)	OK	data.js:4417-4418	
+leg_darkelves.tsv	leg_darkelves-170	leg_darkelves.txt:685-686	Reglas: Reflejos, Odio, Impactos (D6), Orden abierto, Capa de Dragón Marino, Zancada	OK	data.js:5266 sr	
+leg_daemons.tsv	leg_daemons-190	leg_daemons.txt L916-927	Carro Ardiente: Saberes Daemonologia/Oscura/Elementalismo/Ilusion; nivel 2 +30, 3 +60; Dones 50	OK	data.js DM map legacyLore + opts w2/w3	Niveles solo en dm_burningchariot, no en dm_burning
+faq_core_2.tsv	F2-020	Errata p.335 Pie de Gork	"La plantilla se dispersa 2D6"" en cada subfase de Inicio de turno"	OK	data.js:2290 (dist 2D6); rules.js:5361	
+leg_darkelves.tsv	leg_darkelves-231	leg_darkelves.txt:1041-1047	Maestría marcial: ataques de apoyo por flanco y retaguardia	OK	rules.js:4098	Solo con armas de apoyo (lanza/alabarda)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-224	leg_chaosdwarfs.txt:838-845	Ensorcelled: una arma de mano no magica gana Magical y FP-1; no aplica a montura ni con dos armas u otra arma	OK	rules.js:4099 (!twoHands && !extra && !ap)	
+aj_empire2.tsv	aj_empire2-120	aj_empire2.txt:1524-1526	Orden Pantera: Maestro/Maestre/Círculo Interior ganan Resistencia mágica (-1)	OK	data.js ord_pan magRes (personaje/Círculo Interior)	
+core_5.tsv	C5-099	p.207 Characters & Units	Varios personajes pueden unirse; dos personajes no forman unidad ad hoc	OK	rules.js:5929,5931	Limite por fila de combate y host debe ser inf/cav
+leg_vampires.tsv	leg_vampires-064	leg_vampires.txt:301	Escudo +2	OK	data.js:5136	
+leg_lizardmen.tsv	leg_lizardmen-166	leg_lizardmen.txt:804-813	Venom of the Firefly Frog 15 pts: Poisoned y Flaming Attacks no magicos, no montura	OK	data.js:lml_firefly flamingAtk; rules.js:attackProfile flaming (no montura)	Poisoned (sr del jefe) y Flaming; la montura no recibe Flaming
+faq_core_3.tsv	28	FAQ Core p.11 Reglas Universales	Movimiento de Contracarga D3+1 no cuenta como tirada de carga	OK	rules.js:2943	Tirada propia; no pasa por la tirada de carga
+core_4.tsv	C4-130	Reglas especiales p.177	Golpear al final: I1	OK	rules.js:3876-3884	
+aj_highelves.tsv	aj_highelves-027	aj_highelves.txt:774-776	Objetos mágicos Comunes o de High Elf Realms	OK	data.js:2860-2880 (fac he)	
+core_8.tsv	core_8-043	Nigromancia p.333 l.10700	"Corcel Espectral: Conveyance 9+, 12"", permanece, solo personaje de infanteria; gana Etereo y Volar (10)"	OK	data.js:spectral_steed effect steed; rules.js applySpell0/spellTargets/has0/mvOf	Permanece en juego (rip), Etereo y Volar (10), solo personaje de infanteria
+aj_wood2.tsv	aj_wood2-088	aj_wood2.txt:1170-1175	Guardián reglas: Formación cerrada, Disciplinado, Reflejos, MtC, Golpea Primero, Tozudo, Inmune a psicología	OK	data.js:747	
+leg_skaven.tsv	leg_skaven-174	leg_skaven.txt:663-664	Toll 10-11 Rapturous Ringing	OK	rules.js toll 10-11; attackProfile bellXA	Ataques adicionales (+1)
+leg_lizardmen.tsv	leg_lizardmen-107	leg_lizardmen.txt:442-443	Cold One Riders: Armour Bane (1, solo Cold One), Close Order, Cold Blooded, Fear, Obsidian Blades, Stupidity, Swiftstrid	OK	data.js:1718 (mountAtk ab 1; sr)	
+aj_bretonnia.tsv	aj_bretonnia-052	aj_bretonnia.txt L982	1+ Paladin	OK	data.js:4472	
+faq_libros.tsv	RQ11	RH FAQ O&G AJ	Boar Boys Core solo con General Orc Warboss; Black Orc Boss/chariot en Nomadic Waaagh	OK	data.js:4452-4456 (nomad: Jinetes de Jabalí básicos solo con General Jefe de Guerra orco)	
+aj_beasts2.tsv	aj_beasts2-092	aj_beasts2.txt:1258-1260	Perfiles Manada Primigenia: Gor 7 pts (A1 Ld6), Ungor 6 pts (HA3 R3 Ld5), Foe-render A2 Ld7 +7	OK	data.js:3583-3584; data.js:988	
+leg_daemons.tsv	leg_daemons-017	leg_daemons.txt L75-76	General Slaanesh: Engendros, Hellflayers y Carros Buscadores pasan a Especiales	OK	data.js:4324	
+core_7.tsv	core_7-020	core_rulebook.txt 9361-9362	El bono de 200 PV se suma a cualquier bonus que el rasgo especial de a normalmente al controlarlo	OK	rules.js:SCENARIOS.tower obj {feat:true,vp:200}; finish() (+50 normal core y +200 por herdCtl)	Los +200 PV se suman al bonus normal del rasgo (+50)
+core_5.tsv	C5-163	p.221 Barding	La montura con barda mejora la armadura en 1	OK	data.js:av()	
+leg_darkelves.tsv	leg_darkelves-055	leg_darkelves.txt:204	Don Grito de Guerra +15: enemigos en rango de Mando -1 Ld	OK	data.js:5192; rules.js:1433	

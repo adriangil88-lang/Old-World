@@ -1,0 +1,153 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+aj_empire2-001	aj_empire2.txt:509-518	Escenario Stirhügel: recreación histórica, dos listas de 2.500 pts (Brayherds vs Nuln con Hans)	OK	data.js:SCN_REQ.stirhugel	Atacante Gran Ejército Hombres Bestia vs Nuln con Hans de General, 2.500 pts (o cualquier ejercito)
+aj_empire2-002	aj_empire2.txt:525-527	"Escenario Stirhügel: Herdstone special feature de hasta 6"", cuenta como Monolito Arcano y Monumento de Gloria"	OK	rules.js:193 (feat tf, special:true, 6x6)	
+aj_empire2-003	aj_empire2.txt:530-531	Escenario Stirhügel: tablero dividido en seis zonas iguales	OK	rules.js:933 (STIR_Z 3x2)	
+aj_empire2-004	aj_empire2.txt:533-538	Escenario Stirhügel: despliegue alterno de una unidad no personaje por zona libre hasta tres cada uno	OK	rules.js:936-975 (stirInit/stirAdvance)	
+aj_empire2-005	aj_empire2.txt:540-542	Escenario Stirhügel: despliegue alterno de un personaje con una unidad ya desplegada; el resto en reserva	OK	rules.js:944-990 (fase chars)	
+aj_empire2-006	aj_empire2.txt:553-555	Escenario Stirhügel: el atacante tiene automáticamente el primer turno	OK	rules.js:193 (first:0)	
+aj_empire2-007	aj_empire2.txt:557-558	Escenario Stirhügel: la batalla dura seis rondas o hasta que un bando se rinda	OK	rules.js:193 (turns:6)	
+aj_empire2-008	aj_empire2.txt:561-564	Escenario Stirhügel: Refuerzos entran en Movimientos Obligatorios de cualquier turno incluido el primero	OK	rules.js:1015,1123 (reservas Stirhügel)	Verificado solo por lectura del flujo de reservas
+aj_empire2-009	aj_empire2.txt:564-569	Escenario Stirhügel: reservas entran por borde dentro de una zona donde se desplegó unidad, zona al azar con D3	OK	rules.js:1015 (stirZ del propietario)	
+aj_empire2-010	aj_empire2.txt:556-559	Escenario Stirhügel: quien controla el Herdstone al final gana +150 PV adicionales	OK	rules.js:SCENARIOS.stirhugel obj way + scnFeat	"Control por proximidad estandar (FU5+, 6"") +150 PV y +50 PV normal del rasgo (monolito/monumento)"
+aj_empire2-011	aj_empire2.txt:719-722	Nuln AoI: personajes hasta 50 %; 0-1 General o Lector de Sigmar por 1.000 pts	OK	data.js:3424 (chk) 4442	
+aj_empire2-012	aj_empire2.txt:723-724	Nuln AoI: lista de personajes limitada a Capitán, Maestro Mago, Cazador de Brujas, Sacerdote de Sigmar, Ingeniero y Alta	OK	data.js:INF.nuln.allow	Quitados Sumo Sacerdote de Ulric y Mago Señor; 0-1 Altar de Guerra
+aj_empire2-013	aj_empire2.txt:725-726	Nuln AoI: 0-1 Altar de Sigmar como montura de Lector de Sigmar	OK	data.js:3422 (emp_lector_altar)	
+aj_empire2-014	aj_empire2.txt:729-731	Nuln AoI: Básicas al menos 25 % (1+ regimiento de Tropas Estatales de Nuln o Veteranas)	OK	data.js:3421,3424 (core:.25; chk exige state_troops/state_vets)	
+aj_empire2-015	aj_empire2.txt:732-735	Nuln AoI: 0-1 unidad de Batidores por 1.000 pts como Básica; Milicia Libre y Arqueros Básicos	OK	data.js:3421 (promote outriders special->core 'per'); free_company y emp_archers core	
+aj_empire2-016	aj_empire2.txt:736-740	Nuln AoI: Especiales hasta 50 %: Espadones, Pistoleros, Batidores, Caballeros del Imperio y Carros de Guerra	OK	data.js:INF.nuln.comp	Caballeros del Imperio como Especial
+aj_empire2-017	aj_empire2.txt:741-744	Nuln AoI: 0-3 máquinas (Cañón Grande, Mortero) por 1.000 pts como Especial	OK	data.js:3424 (3*per)	
+aj_empire2-018	aj_empire2.txt:747-754	Nuln AoI: Raras hasta 25 %: Guardacaminos, 0-2 Helblaster/Helstorm por 1.000 y 0-1 Tanque de Vapor por 1.000	OK	data.js:3423-3424	
+aj_empire2-019	aj_empire2.txt:719-727	Nuln AoI: Mercenarios hasta 25 % (Ogros Imperiales, Enanos Imperiales, 0-2 Buscadores de Fatalidad por 1.000)	OK	data.js: tope mercenarios	Nuln admite mercenarios hasta 25 %
+aj_empire2-020	aj_empire2.txt:725-727	Nuln AoI: los mercenarios están sujetos a Mercenarios Díscolos	OK	rules.js:815-830 (misb)	
+aj_empire2-021	aj_empire2.txt:730-738	Nuln AoI: Portaestandarte de Batalla: un Capitán o Ingeniero por +25 pts con un estandarte mágico sin límite	OK	data.js:armyIssues nuln, CMD.emp_engineer	PEB solo Capitan o Ingeniero (+25), estandarte sin limite
+aj_empire2-022	aj_empire2.txt:740-742	Nuln AoI: pueden comprarse objetos mágicos Comunes o del Imperio	OK	data.js:2827-2844 (ITEMS fac empire)	
+aj_empire2-023	aj_empire2.txt:765-772	Nuln: Big Guns Know No Fear (Ingenieros y su unidad Inmunes a Psicología con máquina amiga en rango de mando)	OK	rules.js:143 (nulnGuns), 147	
+aj_empire2-024	aj_empire2.txt:774-784	Nuln: Entrenched Position (atrincherar una máquina por Ingeniero; cobertura parcial y obstáculo lineal bajo)	OK	rules.js:pnTasks entr<p>_<i>	Un Ingeniero = una maquina atrincherada a eleccion del jugador (IA por autoaprendizaje)
+aj_empire2-025	aj_empire2.txt:790-796	Nuln: Gun Limbers (0-1 máquina por 1.000 pts con Vanguardia y Veterano: Cañón +5, Mortero +5, Helblaster +15, Helstorm +	OK	data.js:3512 (opción gl), 4349	
+aj_empire2-026	aj_empire2.txt:765-769	Nuln: Handgun Drill (una vez por partida cada destacamento de Misiles estatales dispara una fila adicional)	OK	rules.js:2892 + data.js armyIssues nuln	Misiles estatales solo existen como destacamentos en Nuln; cada uno dispara una fila extra una vez
+aj_empire2-027	aj_empire2.txt:775-789	Nuln: Nuln State Troops: Tropas Estatales con alabardas, destacamentos de Misiles con arcabuces y/o Espadachines (espada	PARCIAL	data.js:armyIssues nuln	Regimiento validado (alabardas, 1-2 destacamentos arcabuces/espadachines); la lista no tiene variante propia state_swords
+aj_empire2-028	aj_empire2.txt:794-796	Nuln: destacamentos pueden mejorar un modelo a Sargento (campeón) gratis	OK	data.js:opts nsg	Sargento gratis en destacamentos de Nuln
+aj_empire2-029	aj_empire2.txt:798-803	Nuln: Veteran Outriders (sin Pesado en armas de Batidores)	OK	rules.js:2422 (nuln && outriders)	
+aj_empire2-030	aj_empire2.txt:915-918	Caballeros Órdenes AoI: personajes hasta 50 %: 0-1 Gran Maestre, 1+ Maestre de Capítulo	OK	data.js:3426-3428	
+aj_empire2-031	aj_empire2.txt:919-924	Caballeros Órdenes AoI: 0-1 Lector de Sigmar o Sumo Sacerdote de Ulric por 1.000 pts; Cazadores de Brujas, Sacerdotes de	OK	data.js:3426,3428	
+aj_empire2-032	aj_empire2.txt:926-932	Caballeros Órdenes AoI: 0-1 Círculo Interior como Básica; 1+ Caballeros del Imperio por 1.000 pts; Arqueros	OK	data.js:3425,3428	
+aj_empire2-033	aj_empire2.txt:915-920	Caballeros Órdenes AoI: Especiales hasta 50 %: Círculo Interior, Demigrifos, 0-1 Tropas Estatales o Misiles por 1.000 pt	OK	data.js:3426-3428	
+aj_empire2-034	aj_empire2.txt:922-925	Caballeros Órdenes AoI: Raras hasta 25 %: Pistoleros	OK	data.js:3427	
+aj_empire2-035	aj_empire2.txt:928-933	Caballeros Órdenes AoI: Portaestandarte de batalla: un Maestre de Capítulo +25 pts con estandarte mágico sin límite	OK	data.js:armyIssues knights, CMD.emp_chaptermaster	PEB solo Maestre de Capitulo (+25), estandarte sin limite
+aj_empire2-036	aj_empire2.txt:935-937	Caballeros Órdenes AoI: objetos mágicos Comunes o del Imperio	OK	data.js:2827-2844	
+aj_empire2-037	aj_empire2.txt:952-956	Caballeros: el General debe ser Gran Maestre o Maestre de Capítulo de una Orden; toda unidad de caballeros y Maestre de 	OK	data.js:armyIssues ordOf	General debe ser GM/CM de una Orden; todo CM y unidad de la misma Orden
+aj_empire2-038	aj_empire2.txt:965-968	Caballeros Pantera (lista): 0-1 unidad de Caballeros/Círculo Interior de la Orden del Lobo Blanco como Mercenario sin dí	OK	rules.js:mercenarios _ww; data.js	Unidad _ww exenta de Mercenarios discolos y obligada a tener mejora de Orden del Lobo Blanco
+aj_empire2-039	aj_empire2.txt:948-955	Caballeros del Sol Ardiente (lista): 0-2 Maestros Magos por 1.000, 0-1 Cañón Grande o Mortero Especial por 1.000, sin Le	OK	data.js:3463-3465	
+aj_empire2-040	aj_empire2.txt:957-964	Caballeros de Morr (lista): Señores Magos y Maestros Magos, sin Lectores, Sacerdotes de Sigmar ni de Ulric	OK	data.js:3466	
+aj_empire2-041	aj_empire2.txt:966-973	Caballeros del Corazón Ardiente (lista): Flagelantes Raros sin límite; sin Sumos Sacerdotes ni Sacerdotes de Ulric	OK	data.js:3467	
+aj_empire2-042	aj_empire2.txt:970-978	Caballeros del Lobo Blanco (lista): Guardia Teutógena Especial sin límite, 0-1 Milicia Libre Básica por 1.000; sin Lecto	PARCIAL	data.js:3468-3469	VERIF v732: data.js:5097 exige teutogen <= nº emp_ulric y se aplica tambien a knights_wolf (no esta condicionado a la lista): 'cualquier numero de Guardia Teutogena' (data.js:3608) queda bloqueado sin Sacerdotes.
+aj_empire2-043	aj_empire2.txt:1032-1037	Harald Gemunsen: perfil Gran Maestre (M7 HA7 HP3 F4 R4 H3 I6 A4 L9) y 185 pts, caballería pesada, peana 30x60	OK	data.js:4193	
+aj_empire2-044	aj_empire2.txt:1040-1041	Harald: equipo mano, Destructor de Bestias, armadura completa, Corcel acorazado con barda	OK	data.js:4193 (arm plate, barding)	
+aj_empire2-045	aj_empire2.txt:1043-1046	Harald: reglas Contracarga, Primera carga, Inmune a Psicología, Resistencia mágica (-1), Maestro de batalla, Grito de re	OK	data.js:4193 (sr)	
+aj_empire2-046	aj_empire2.txt:1044	Harald: Odio (Guerreros del Caos, Manadas de Bestias y Daemónicos)	OK	data.js:~4218 (sr hatredChaos); rules.js hatred P (hatredChaos)	Odio limitado a woc/bm/dm/daemónicos
+aj_empire2-047	aj_empire2.txt:1052-1054	Harald: Gran Maestre de los Caballeros Pantera: repite un 1 natural en la tirada de carga	OK	rules.js ~3113 (panther1 en tirada de carga)	Repite un único 1 natural de los dados de carga
+aj_empire2-048	aj_empire2.txt:1054-1055	Harald: solo puede unirse a una unidad de la Orden de los Caballeros Pantera	OK	rules.js join check (pantherOnly)	Solo une unidades con opción ord_pan
+aj_empire2-049	aj_empire2.txt:1057-1063	Harald: Duelista habilidoso (si mata en desafío tras cargar, emite segundo desafío inmediato; él pero no su montura comb	PARCIAL	rules.js:4825 (skilledDuel)	VERIF v732: rules.js:5588-5606 segundo desafio tras matar cargando OK, pero la aceptacion se decide automatica (heuristica duelPower) sin respetar la politica/eleccion del humano ni popup
+aj_empire2-050	aj_empire2.txt:1065-1067	Harald: Destructor de Bestias: F+1, FP-1, Perforante (1), Golpe mortal, mágica	OK	data.js harald sr magical	Ataques mágicos añadidos
+aj_empire2-051	aj_empire2.txt:1068-1069	Harald: re-lanza fallos para herir contra Manadas de Bestias	OK	rules.js ~4200 (reaverBM rrw)	Repite fallos para herir contra facción bm
+aj_empire2-052	aj_empire2.txt:1120-1127	Hans: perfil Capitán general (M4 HA6 HP5 F4 R4 H3 I4 A4 L9) 190 pts, infantería regular, peana 25x25	OK	data.js hans Ld 9	
+aj_empire2-053	aj_empire2.txt:1127	Hans: equipo mano, armadura completa, Juicio y Yelmo de Grifo	OK	data.js:4194 (arm plate, ward 5)	
+aj_empire2-054	aj_empire2.txt:1128-1129	Hans: reglas ¡Mantened la línea!, Comandante mercenario, Grito de reunión, Maestría estratégica, Tozudo	OK	data.js:4194 (sr)	Definición de holdLine duplicada (data.js:182 y 4164) con textos distintos
+aj_empire2-055	aj_empire2.txt:1135-1136	Hans: Mercenary Commander: mercenarios usan su Presencia Inspiradora	OK	rules.js:817-818,1424 (hansMerc)	
+aj_empire2-056	aj_empire2.txt:1136-1137	Hans: Mercenary Commander: mercenarios pueden ser unidos por él	OK	rules.js join check (host.hansMerc && emp_hans)	
+aj_empire2-057	aj_empire2.txt:1137-1138	Hans: Mercenary Commander: mercenarios no sufren Mercenarios Díscolos	OK	rules.js:817-818	
+aj_empire2-058	aj_empire2.txt:1140-1144	Hans: Maestría estratégica (+1 o -1 a la tirada de primer turno)	OK	rules.js:460-470 (smOf, hansMod)	
+aj_empire2-059	aj_empire2.txt:1150	Hans: Yelmo de Grifo: salvación especial 5+ contra cualquier herida	OK	data.js:4194 (ward 5)	
+aj_empire2-060	aj_empire2.txt:1150-1153	Hans: Yelmo de Grifo: inmune a Golpe mortal; si lo recibe tiene salvaciones de armadura/regeneración y, si falla, pierde	OK	rules.js woundAndSave (griffonHelm noKB, 1 herida)	Golpe mortal: salvaciones normales y pierde 1 Herida
+aj_empire2-061	aj_empire2.txt:1155-1157	Hans: Juicio F+2, FP-2, mágicas, Heridas múltiples (2), dos manos	OK	data.js hans sr magical/juicioMW; rules.js mw=2	
+aj_empire2-062	aj_empire2.txt:1165-1171	Heraldo del Apocalipsis: perfil M4 HA5 HP2 F4 R4 H2 I4 A3 L8, 65 pts, infantería regular personaje	OK	data.js:3496	
+aj_empire2-063	aj_empire2.txt:1173-1176	Heraldo del Apocalipsis: opciones mayal +3 o arma a dos manos +4	OK	data.js:5168-5172	
+aj_empire2-064	aj_empire2.txt:1177	Heraldo del Apocalipsis: objetos mágicos hasta 50 pts	OK	data.js:3181 (ib por defecto 50)	
+aj_empire2-065	aj_empire2.txt:1179-1181	Heraldo del Apocalipsis: reglas No sienten dolor, Carga furiosa, Inmune a Psicología, Impetuoso, Odio (todos), Inquebran	OK	data.js:3496	
+aj_empire2-066	aj_empire2.txt:1186-1192	Heraldo: Plegaria de los Condenados, chequeo de Ld en Mando; si pasa, él y su unidad Salvación especial 6+	OK	rules.js:5464, 1666 (prayerD)	
+aj_empire2-067	aj_empire2.txt:1193-1194	Heraldo: Plegaria: 5+ contra heridas causadas en combate por enemigos con Miedo o Terror	OK	rules.js woundAndSave (fearAtk, ward 5+)	5+ contra heridas en combate de enemigos con Miedo/Terror
+aj_empire2-068	aj_empire2.txt:1196-1200	Heraldo: Fanático (solo puede unirse a unidad con Celo Fanático)	OK	rules.js:6040	
+aj_empire2-069	aj_empire2.txt:1203-1205	Heraldo: Predicadores del Apocalipsis: 0-1 si hay Flagelantes	OK	data.js:4638	
+aj_empire2-070	aj_empire2.txt:1217-1223	Guardia Teutógena: perfil M4 HA4 HP3 F3 R4 H1 I3 A1 L8, 13 pts, infantería pesada, 5+	OK	data.js:3494 (greatswords variant)	
+aj_empire2-071	aj_empire2.txt:1224	Guardia Teutógena: equipo manos, martillos de lobo, armadura completa	OK	data.js:3494 (arm plate heredado, melee sb1 ap2 twoHands)	
+aj_empire2-072	aj_empire2.txt:1228-1230	Guardia Teutógena: opciones Primer Caballero +8, portaestandarte +7, músico +7	OK	data.js:3495 (CMD teutogen [8,7,7])	
+aj_empire2-073	aj_empire2.txt:1231	Guardia Teutógena: estandarte mágico hasta 50 pts	OK	data.js:3179 (bannerBudget 50)	
+aj_empire2-074	aj_empire2.txt:1232	Guardia Teutógena: 0-1 unidad con Guardianes del Templo +1 pt por modelo	OK	data.js greatswords.opts gt (+1 pt/modelo, lim 1)	
+aj_empire2-075	aj_empire2.txt:1234-1235	Guardia Teutógena: reglas Bendiciones de Ulric, Orden cerrado, Instruidos, Tozudos, Veteranos	OK	data.js:3494 (sr)	
+aj_empire2-076	aj_empire2.txt:1240-1241	Guardia Teutógena: Bendiciones de Ulric (salvación 6+ contra heridas de ataques flamígeros)	OK	rules.js:1665	
+aj_empire2-077	aj_empire2.txt:1247-1248	Guardia Teutógena: Guardianes del Templo (repetir 1 naturales para impactar en combate)	OK	rules.js rr1 impactar (guardTemple)	
+aj_empire2-078	aj_empire2.txt:1250-1253	"Guardia Teutógena: martillo de lobo F+1, FP-2, dos manos; +2 F si cargó 3"" o más"	OK	rules.js:4101 (wolfHammer); data.js:3494	
+aj_empire2-079	aj_empire2.txt:1257-1258	Guardia Teutógena: 0-1 unidad Especial por Sacerdote Guerrero de Ulric en Gran Ejército	OK	data.js:4637	
+aj_empire2-080	aj_empire2.txt:1268-1274	Ogros Imperiales: perfil M6 HA3 HP3 F4 R4 H3 I2 A3 L7, 31 pts, infantería monstruosa 40x40	PARCIAL	data.js imp_ogres BS3 ppm31	VERIF v732: data.js:3653 imp_ogres ppm 29 pero aj_empire2 dice 31 (renegade_web 2026 dice 29); resto perfil M6 WS3 BS3 S4 T4 W3 I2 A3 Ld7, monInf 40x40 OK
+aj_empire2-081	aj_empire2.txt:1284	Ogros Imperiales: Capitán Ogro +7 pts por unidad	OK	data.js:3519 (CMD imp_ogres [7,...])	
+aj_empire2-082	aj_empire2.txt:1275,1285	Ogros Imperiales: equipo armas de mano y armadura ligera; mayor armadura pesada +3	OK	data.js:3513-3514	
+aj_empire2-083	aj_empire2.txt:1278-1282	Ogros Imperiales: arma a dos manos +4, maza +2, cañón ligero +8, pistola ogra +5 por modelo	OK	data.js:3515-3518	
+aj_empire2-084	aj_empire2.txt:1287-1288	Ogros Imperiales: reglas Perforante (1), Orden cerrado, Miedo, Impactos (1), Mercenarios, Variopinto, Carga ogra	OK	data.js imp_ogres melee ab1; sin large	
+aj_empire2-085	aj_empire2.txt:1290-1295	Ogros Imperiales: Carga ogra (PA de los Impactos mejora con el Bono de Fila)	OK	data.js:3470 (ogreCharge) rules.js impact	
+aj_empire2-086	aj_empire2.txt:1298-1300	"Ogros Imperiales: cañón ligero 18"" F4 FP-1 Perforante (2), D3 impactos si impacta"	OK	data.js:3516 (wrg lc)	
+aj_empire2-087	aj_empire2.txt:1302-1303	"Ogros Imperiales: pistola ogra 24"" F4 FP-1 Perforante (1) Disparo rápido"	OK	data.js:3517	
+aj_empire2-088	aj_empire2.txt:1306-1314	Ogros Imperiales: 0-1 unidad como Mercenarios en Montañas Enanas e Imperio, sujeta a Mercenarios Díscolos	OK	data.js:3520,3527,4437	
+aj_empire2-089	aj_empire2.txt:1322-1329	Guardacaminos: perfil Road Warden HA3 HP4 F3 R3 H1 I3 A1 L7, 18 pts, caballería ligera 30x60, 4+	OK	data.js:3491 (variant outriders)	
+aj_empire2-090	aj_empire2.txt:1323-1325	Guardacaminos: Capitán +6 y Warhorse M8	OK	data.js:3493 (CMD [6,null,6]); outriders M8	
+aj_empire2-091	aj_empire2.txt:1331-1332	Guardacaminos: equipo manos, ballestas, armadura pesada; caballo con casco herrado	OK	data.js:3491	
+aj_empire2-092	aj_empire2.txt:1335	Guardacaminos: toda la unidad cambia ballestas por pares de pistolas +1 pt por modelo	OK	data.js:3492 (ppm 19)	
+aj_empire2-093	aj_empire2.txt:1338	Guardacaminos: músico +6	OK	data.js:3493	
+aj_empire2-094	aj_empire2.txt:1339	Guardacaminos: Fuga fingida +2 pts por modelo	OK	data.js:road_wardens.opts ff	Fuga fingida +2/modelo
+aj_empire2-095	aj_empire2.txt:1340-1342	Guardacaminos: Capitán puede cambiar la ballesta por par de pistolas +2 o pistola repetidora +2	OK	data.js:road_wardens.opts cpp/crp	Capitan: pistolas o pistola de repeticion +2
+aj_empire2-096	aj_empire2.txt:1343-1346	Guardacaminos: sustituir Vanguardia por Emboscadores +1 o Exploradores +1 por modelo	OK	data.js:road_wardens.opts amb/sc	Emboscadores o Exploradores +1/modelo en vez de Vanguardia
+aj_empire2-097	aj_empire2.txt:1347	Guardacaminos: reglas Caballería rápida, Disparar y huir, Orden abierto, Escaramuzadores, Zancada rápida, Vanguardia	OK	data.js:504 (heredado de outriders)	
+aj_empire2-098	aj_empire2.txt:1351-1352	Guardacaminos: 0-1 unidad Especial por 1.000 pts en Gran Ejército	OK	data.js:4636	
+aj_empire2-099	aj_empire2.txt:1375-1380	Carro de Guerra: perfil Carro F5 R5 H6; tripulación HA3 HP3 F3 I3 A1 L8; caballos M7 A1; 140 pts	OK	data.js:war_wagon stompS 5	Perfil agregado equivalente (F5 del carro en Impactos y Pisoton)
+aj_empire2-100	aj_empire2.txt:1380-1383	Carro de Guerra: carro pesado, peana 60x100, Armadura 3+, tamaño de unidad 1	OK	data.js:4268 (heavyChar, Sv 3, 60x100)	
+aj_empire2-101	aj_empire2.txt:1388-1389	Carro de Guerra: reglas Orden cerrado, Peso aplastante, Impactos (D6+1 solo el carro), Gran Objetivo, Plataforma de tiro	OK	data.js:4268 (sr, impact D6+1, stompN D3+1)	
+aj_empire2-102	aj_empire2.txt:1395-1396	Carro de Guerra: Peso aplastante: Pisotones con FP-1	OK	rules.js:stomp AP crushWeight	Pisoton con PA -1
+aj_empire2-103	aj_empire2.txt:1396-1397	Carro de Guerra: Peso aplastante: trata obstáculos lineales bajos como terreno peligroso en vez de impasable	OK	rules.js:move wall + dang crushWeight	Obstaculos lineales bajos = terreno peligroso en vez de impasable
+aj_empire2-104	aj_empire2.txt:1399-1404	Carro de Guerra: Plataforma de tiro estable (disparan aunque haya marchado)	OK	rules.js:2048 (stableFP)	
+aj_empire2-105	aj_empire2.txt:1428-1433	Carro de Guerra: armas variadas: seis armas únicas (trabuco, rifle largo, rifle repetidor, bola y cadena, alabarda de ga	OK	data.js:4269-4272 (multi y slots)	
+aj_empire2-106	aj_empire2.txt:1435-1439	Carro de Guerra: en combate cada tripulante elige arma única o de mano, dados separados	OK	rules.js:slots wwSlot, pref wwHand; main.js; ai.js	El jugador elige arma unica o de mano por tripulante de combate
+aj_empire2-107	aj_empire2.txt:1442-1444	"Carro de Guerra: trabuco 12"" F3 FP-1 Disparos múltiples (D3) Fuego de salva; sin penalizadores largo/múltiple/stand&shoo"	OK	data.js:4270 (noPen, volley)	
+aj_empire2-108	aj_empire2.txt:1447-1449	"Carro de Guerra: rifle largo 36"" F4 FP-1 Perforante (1) Voluminoso; elige modelo objetivo"	OK	data.js:4269,4271 (pickModel)	
+aj_empire2-109	aj_empire2.txt:1452	"Carro de Guerra: rifle repetidor 24"" F4 FP-1 Perforante (1) Disparos múltiples (3)"	OK	data.js:4272	
+aj_empire2-110	aj_empire2.txt:1455-1456	Carro de Guerra: bola y cadena F+3 FP-2 Perforante (1) dos manos golpea último	OK	data.js:4273 (slots 1)	
+aj_empire2-111	aj_empire2.txt:1459	Carro de Guerra: alabarda de gancho F+1 FP-2 Perforante (2) dos manos	OK	data.js:4273 (slots 2)	
+aj_empire2-112	aj_empire2.txt:1462	Carro de Guerra: atrapahombres F FP-1 Golpe mortal dos manos	OK	data.js:4273 (slots 3, kb)	
+aj_empire2-113	aj_empire2.txt:1466-1467	Carro de Guerra: 0-1 Carro como Raro por 1.000 pts en Gran Ejército (Especial en Nuln)	OK	data.js:3423,4664	
+aj_empire2-114	aj_empire2.txt:1469-1473	Carro de Guerra: montura de personaje: Ingeniero sobre Carro +140 pts	OK	data.js:4277-4282 (emp_engineer_wagon)	
+aj_empire2-115	aj_empire2.txt:1487-1489	Órdenes de Caballería: elegir una Orden; 0-1 Gran/Maestre de Capítulo y 0-1 unidad de Caballeros pertenecen a ella	OK	data.js ORD opts (ord_*) + armyIssues	0-1 personaje y 0-1 unidad por Orden; en listas knights* todos la del General
+aj_empire2-116	aj_empire2.txt:1491-1494	Órdenes: en el AoI de Caballeros todas las unidades deben ser de la misma Orden que el General; las reglas no afectan a 	PARCIAL	data.js:ORD	Las reglas de la Orden se aplican tambien a la montura; el motor no separa jinete y montura
+aj_empire2-117	aj_empire2.txt:1497-1504	Órdenes: admisión Maestres: Pantera +10, Lobo Blanco +15, Sol +10, Morr +15, Corazón +15	OK	data.js ORD (chr)	Costes +10/+15/+10/+15/+15
+aj_empire2-118	aj_empire2.txt:1497-1504	Órdenes: admisión unidades: Pantera +2, Lobo +3, Sol +2, Morr +3, Corazón +3 por modelo	OK	data.js ORD	Costes por modelo +2/+3/+2/+3/+3
+aj_empire2-119	aj_empire2.txt:1514-1522	Orden Pantera: lanzas obligatorias, repetir un 1 natural en carga, Odio (Caos, Bestias, Daemónicos)	OK	data.js ord_pan	Lanzas: ya portan lanza (personaje exige opción ln)
+aj_empire2-120	aj_empire2.txt:1524-1526	Orden Pantera: Maestro/Maestre/Círculo Interior ganan Resistencia mágica (-1)	OK	data.js ord_pan magRes (personaje/Círculo Interior)	
+aj_empire2-121	aj_empire2.txt:1530-1538	Orden del Lobo Blanco: gran arma o alabarda (cambio gratuito por martillo de lobo) y Carga furiosa	OK	data.js ord_wolf_*	Variantes arma a dos manos/alabarda/martillo de lobo; Carga furiosa
+aj_empire2-122	aj_empire2.txt:1540-1544	Orden del Lobo Blanco: personajes/Círculo Interior con salvación 5+ contra ataques flamígeros	OK	data.js wardFlame5	
+aj_empire2-123	aj_empire2.txt:1549-1551	Orden del Sol Ardiente: Evasiva y Ataques flamígeros	OK	data.js ord_sun	evasive + flaming
+aj_empire2-124	aj_empire2.txt:1553-1557	Orden del Sol Ardiente: +1 punto de resultado de combate al cargar (no acumulativo) para Maestres y Círculo Interior	OK	rules.js CR (sunCR)	
+aj_empire2-125	aj_empire2.txt:1514-1517	Orden de Morr: Odio (No muertos) y salvación 6+ contra ataques no mágicos	OK	data.js ord_morr; rules.js wardNM6	Odio No muertos y 6+ contra no mágicos
+aj_empire2-126	aj_empire2.txt:1519-1521	Orden de Morr: Maestres/Círculo Interior ganan Miedo y Ataques mágicos	OK	data.js ord_morr (fear, magical)	
+aj_empire2-127	aj_empire2.txt:1527-1534	Orden del Corazón Ardiente: solo unirse Maestre de la Orden, Lector o Sacerdote de Sigmar; Odio (Magos enemigos, Orcos y	OK	data.js ord_heart; rules.js join (heartOnly)	
+aj_empire2-128	aj_empire2.txt:1536-1539	Orden del Corazón Ardiente: Maestres/Círculo Interior repiten 1 naturales para impactar y herir en combate	OK	rules.js rr1HitC/rr1WoundC	Impactar y herir 1 naturales; +1 I primera ronda (heartInit)
+aj_empire2-129	aj_empire2.txt:1576-1581	Martillo de Rectitud: 50 pts, F+2, FP-2, mágico, dos manos, golpea último	OK	data.js:2827	
+aj_empire2-130	aj_empire2.txt:1582-1585	Martillo de Rectitud: cada impacto test de Ld; si falla hiere automáticamente sin salvación de armadura	OK	rules.js:4663 (hammerLd)	
+aj_empire2-131	aj_empire2.txt:1587-1597	Dagas de Perla: 35 pts, F, FP-1, mágicas, Ataques extra (D3), dos manos, repite impactos fallidos	OK	data.js:2828; rules.js:4150 (Ad3)	
+aj_empire2-132	aj_empire2.txt:1599-1604	Hoja de Acero Plateado: 30 pts, F+1, FP-1, Odio (No muertos), mágica	OK	data.js:2829; rules.js:4225	
+aj_empire2-133	aj_empire2.txt:1605-1607	Hoja de Acero Plateada: solo en AoI de Órdenes de Caballería; no muertos sin salvación de armadura ni regeneración	OK	data.js item list knights; armyIssues	
+aj_empire2-134	aj_empire2.txt:1609-1617	"Arcabuz de Von Trickschotte: 25 pts, 36"" F5 FP-2 Perforante (1) Heridas múltiples (D3), sin penalizador largo alcance"	OK	data.js:2830; rules.js:1442,2421	
+aj_empire2-135	aj_empire2.txt:1615-1616	Arcabuz de Von Trickschotte: solo AoI de Nuln	OK	data.js item list nuln	
+aj_empire2-136	aj_empire2.txt:1624-1631	Escudo de la Gorgona: 40 pts, escudo; enemigos en contacto con el portador -1 Ataques (mín. 1)	PARCIAL	data.js:2831; rules.js:4163	VERIF v732: data.js:2860 y rules.js:4852: 40 pts, solo list knights; pero el -1 Ataque a modelos en contacto de peana se aproxima con ceil(baseW portador/baseW enemigo)+1 modelos, no cuenta contactos reales
+aj_empire2-137	aj_empire2.txt:1628-1629	Escudo de la Gorgona: solo AoI de Órdenes de Caballería	OK	data.js item list knights	
+aj_empire2-138	aj_empire2.txt:1633-1640	Armadura Doblemente Bendecida: 25 pts, armadura completa, hechizo ligado Mano de Martillo NP2	OK	data.js:2841	
+aj_empire2-139	aj_empire2.txt:1624-1631	Amuleto del Cazador de Brujas*: 20 pts, Resistencia mágica (-2), una repetición de salvación de armadura por partida	OK	data.js:2833; rules.js:1725	
+aj_empire2-140	aj_empire2.txt:1633-1639	Reloj de Arena del Matador: 10 pts, monstruos enemigos en contacto -1 HA	OK	data.js:2834; rules.js:4218	
+aj_empire2-141	aj_empire2.txt:1642-1648	Estandarte de los Caballeros Pantera: 80 pts, solo Portaestandarte de la Orden Pantera, Inquebrantable	OK	armyIssues (empaj_panther requiere ord_pan)	
+aj_empire2-142	aj_empire2.txt:1650-1656	Tapiz del Triunfo de Sigmar: 40 pts, repite 1 naturales para herir en primera ronda	OK	data.js:2836; rules.js:4225	
+aj_empire2-143	aj_empire2.txt:1658-1662	Icono de Morr: 25 pts, Miedo; si ya tiene Miedo, Terror	OK	rules.js has0 terror (empaj_morr)	
+aj_empire2-144	aj_empire2.txt:1666-1673	Estandarte del Estado Libre de Nuln: 20 pts, solo Nuln, Tozudos	OK	data.js item list nuln	
+aj_empire2-145	aj_empire2.txt:1680-1687	Lupa Maravillosa de Squintsoffen*: 35 pts, solo Nuln; portador y unidad sin -1 a larga distancia	OK	data.js item list nuln	
+aj_empire2-146	aj_empire2.txt:1689-1695	Anillo de la Fortuna: 20 pts, un uso, repite fallos para herir en combate	OK	data.js:2840; rules.js:4523	
+aj_empire2-147	aj_empire2.txt:1697-1704	Anillo de Taal: 20 pts, un uso, Escudo de Roble ligado NP3	OK	data.js:2842	
+aj_empire2-148	aj_empire2.txt:1684-1689	Varita de Dos Colas: 40 pts, una vez por turno lanzar un hechizo por segunda vez; percance = D3 heridas sin armadura ni 	OK	data.js:2843; rules.js:3286,3338,3807	
+aj_empire2-149	aj_empire2.txt:1691-1701	Tomo de Medianoche: 30 pts, +1 a lanzar Daemonología/Magia Oscura/Nigromancia, un hechizo más, límite por turno, Solitar	OK	data.js:2844; rules.js:3287,3916	
+aj_empire2-150	aj_empire2.txt:1703-1710	Bola de Cristal: 20 pts, una vez por turno el rival repite un impacto/herida contra personaje amigo en mando del portado	OK	data.js:2832; rules.js:2198	
+aj_empire2-151	aj_empire2.txt:1572-1573	Objetos del Imperio: los marcados con * son extremadamente comunes	OK	data.js:2833,2839 (star:true)	
+aj_empire2-152	aj_empire2.txt:1567-1570	Objetos del Imperio: se compran como objetos Comunes	OK	data.js:2827-2844	

@@ -1,0 +1,841 @@
+id	malla	yaw	fuente	medida_en	nota
+empire_general	x_empire_general	0	M	empire_general	cara del modelo hacia el frente
+empire_general_h	x_empire_general_h	0	M	empire_general_h	cabeza de la montura/monstruo (y jinete) hacia el frente
+empire_general_peg	x_empire_general_peg	0	M	empire_general_peg	cabeza de la montura/monstruo (y jinete) hacia el frente
+empire_general_demi	x_empire_general_demi	0	M	empire_general_demi	cabeza de la montura/monstruo (y jinete) hacia el frente
+empire_captain_peg	x_empire_captain_peg	0	M	empire_captain_peg	cabeza de la montura/monstruo (y jinete) hacia el frente
+empire_captain_demi	x_empire_captain_demi	0	C	convención	convención: demigrifo: perfil ambiguo
+empire_lord_peg	x_empire_lord_peg	0	M	empire_lord_peg	cabeza de la montura/monstruo (y jinete) hacia el frente
+empire_captain	x_empire_captain	0	M	empire_captain	cara del modelo hacia el frente
+empire_mage	x_empire_mage	0	M	empire_mage	cara del modelo hacia el frente
+empire_lord	x_empire_lord	0	M	empire_lord	cara del modelo hacia el frente
+state_halberds	x_state_halberds	0	M	state_halberds	cara del modelo hacia el frente
+state_spears	x_state_spears	0	M	state_spears	cara del modelo hacia el frente
+state_swords	x_state_swords	0	G	state_troops	cara del modelo hacia el frente
+crossbowmen	x_crossbowmen	0	M	crossbowmen	cara del modelo hacia el frente
+handgunners	x_handgunners	0	M	handgunners	cara del modelo hacia el frente
+greatswords	x_greatswords	0	M	greatswords	cara del modelo hacia el frente
+empire_knights	x_empire_knights	0	M	empire_knights	cabeza de la montura/monstruo (y jinete) hacia el frente
+emp_grandmaster	x_emp_grandmaster	0	M	emp_grandmaster	cabeza de la montura/monstruo (y jinete) hacia el frente
+emp_chaptermaster	x_emp_chaptermaster	0	M	emp_chaptermaster	cabeza de la montura/monstruo (y jinete) hacia el frente
+emp_general_griffon	emp_general_griffon	0	C	convención	convención: grifo: perfil ambiguo
+emp_witchhunter	x_emp_witchhunter	0	M	emp_witchhunter	cara del modelo hacia el frente
+emp_lector	x_emp_lector	0	M	emp_lector	cara del modelo hacia el frente
+emp_priest	x_emp_priest	0	M	emp_priest	cara del modelo hacia el frente
+emp_ulric	x_emp_ulric	0	M	emp_ulric	cara del modelo hacia el frente
+emp_hulric	x_emp_ulric	0	G	emp_ulric	cara del modelo hacia el frente
+emp_lector_altar	x_emp_lector_altar	0	C	convención	convención: Altar de Sigmar: la malla no lleva bestias de tiro; con la flecha hacia la cámara se ve el arco abierto, pero no es inequívoco; frente de diseño
+emp_engineer	x_emp_engineer	0	M	emp_engineer	cara del modelo hacia el frente
+state_veterans	x_state_veterans	0	G	state_vets	cara del modelo hacia el frente
+free_company	x_free_company	0	M	free_company	cara del modelo hacia el frente
+emp_archers	x_emp_archers	0	M	emp_archers	cara del modelo hacia el frente
+flagellants	x_flagellants	0	M	flagellants	cara del modelo hacia el frente
+pistoliers	x_pistoliers	0	M	pistoliers	cabeza de la montura/monstruo (y jinete) hacia el frente
+outriders	x_outriders	0	M	outriders	cabeza de la montura/monstruo (y jinete) hacia el frente
+inner_circle	x_inner_circle	0	M	inner_circle	cabeza de la montura/monstruo (y jinete) hacia el frente
+demigryph_knights	x_demigryph_knights	0	M	demigryph_knights	cabeza de la montura/monstruo (y jinete) hacia el frente
+steam_tank	x_steam_tank	0	M	steam_tank	bestias de tiro delante, tripulación detrás
+mortar	x_mortar	0	M	mortar	boca del arma/máquina hacia el frente
+helblaster	x_helblaster	0	C	convención	convención: cañón de salvas: perfil ambiguo
+helstorm	x_helstorm	0	M	helstorm	boca del arma/máquina hacia el frente
+great_cannon	x_great_cannon	0	C	convención	convención: cañón: perfil ambiguo
+orc_warboss	x_orc_warboss	0	M	orc_warboss	cara del modelo hacia el frente
+orc_warboss_boar	x_orc_warboss_boar	0	M	orc_warboss_boar	cabeza de la montura/monstruo (y jinete) hacia el frente
+black_warboss	x_black_warboss	0	M	black_warboss	cara del modelo hacia el frente
+orc_bigboss	x_orc_bigboss	0	M	orc_bigboss	cara del modelo hacia el frente
+black_bigboss	x_black_bigboss	0	G	cd_blackboss	cara del modelo hacia el frente
+gob_bigboss	gob_bigboss	0	M	gob_bigboss	cara del modelo hacia el frente
+orc_weirdboy	x_orc_weirdboy	0	M	orc_weirdboy	cara del modelo hacia el frente
+orc_weirdnob	x_orc_weirdnob	0	M	orc_weirdnob	cara del modelo hacia el frente
+orc_boyz	x_orc_boyz	0	M	orc_boyz	cara del modelo hacia el frente
+orc_twin	x_orc_twin	0	M	orc_twin	cara del modelo hacia el frente
+orc_arrers	x_orc_arrers	0	M	orc_arrers	cara del modelo hacia el frente
+black_orcs	x_black_orcs	0	G	cd_blackorcs	cara del modelo hacia el frente
+goblins	x_goblins	0	M	goblins	cara del modelo hacia el frente
+orc_bigs	x_orc_bigs	0	M	orc_bigs	cara del modelo hacia el frente
+orc_frenzy	x_orc_frenzy	0	M	orc_frenzy	cara del modelo hacia el frente
+goblins_sk	x_goblins_sk	0	M	goblins_sk	cara del modelo hacia el frente
+night_goblins	x_night_goblins	0	G	night_gobs	cara del modelo hacia el frente
+night_goblins_net	x_night_goblins_net	0	M	night_goblins_net	cara del modelo hacia el frente
+night_goblins_fan	x_night_goblins_fan	0	M	night_goblins_fan	cara del modelo hacia el frente
+wolf_riders	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+wolf_riders_amb	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+boar_boyz	x_boar_boyz	0	G	boar_riders	cabeza de la montura/monstruo (y jinete) hacia el frente
+boar_bigs	x_boar_bigs	0	M	boar_bigs	cabeza de la montura/monstruo (y jinete) hacia el frente
+trolls	trolls	0	M	trolls	cabeza de la montura/monstruo (y jinete) hacia el frente
+rock_lobber	x_rock_lobber	0	C	convención	convención: máquina de lanzamiento: frente de diseño
+bolt_throwa	bolt_throwa	0	M	bolt_throwa	boca del arma/máquina hacia el frente
+we_lord	x_we_lord	0	M	we_lord	cara del modelo hacia el frente
+we_lord_h	x_we_lord_h	0	M	we_lord_h	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_captain	x_we_captain	0	M	we_captain	cara del modelo hacia el frente
+we_spellsinger	x_we_spellsinger	0	M	we_spellsinger	cara del modelo hacia el frente
+we_spellweaver	x_we_spellweaver	0	M	we_spellweaver	cara del modelo hacia el frente
+we_branchwraith	x_we_branchwraith	0	M	we_branchwraith	cara del modelo hacia el frente
+we_ancient	x_we_ancient	0	M	we_ancient	cara del modelo hacia el frente
+we_glade_guard	x_we_glade_guard	0	M	we_glade_guard	cara del modelo hacia el frente
+we_eternal	x_we_eternal	0	M	we_eternal	cara del modelo hacia el frente
+we_dryads	x_we_dryads	0	M	we_dryads	cara del modelo hacia el frente
+we_glade_riders	x_we_glade_riders	0	M	we_glade_riders	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_rangers	x_we_rangers	0	M	we_rangers	cara del modelo hacia el frente
+we_wardancers	x_we_wardancers	0	M	we_wardancers	cara del modelo hacia el frente
+we_wild_riders	x_we_wild_riders	0	M	we_wild_riders	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_warhawks	x_we_warhawks	0	M	we_warhawks	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_treekin	x_we_treekin	0	M	we_treekin	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_treeman	x_we_treeman	0	M	we_treeman	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_lord_stag	x_we_lord_stag	0	M	we_lord_stag	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_captain_stag	x_we_captain_stag	0	M	we_captain_stag	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_lord_dragon	x_we_lord_dragon	0	M	we_lord_dragon	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_lord_eagle	x_we_lord_eagle	0	M	we_lord_eagle	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_captain_hawk	x_we_captain_hawk	0	M	we_captain_hawk	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_weaver_unicorn	x_we_weaver_unicorn	0	M	we_weaver_unicorn	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_singer_unicorn	x_we_weaver_unicorn	0	G	we_weaver_unicorn	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_shadowdancer	x_we_shadowdancer	3.1416	M	we_shadowdancer	Bailarina de sombras: con la flecha alejándose se ve de frente (rostro, espadas); con la flecha hacia la cámara se ve la capa -> giro 180°
+we_shadowdancer_w	x_we_shadowdancer	3.1416	G	we_shadowdancer	Bailarina de sombras: con la flecha alejándose se ve de frente (rostro, espadas); con la flecha hacia la cámara se ve la capa -> giro 180°
+we_waystalker	x_we_waystalker	3.1416	M	we_waystalker	Waystalker: con la flecha alejándose se ve de frente (cara bajo la capucha, arco al frente); con la flecha hacia la cámara se ve la espalda y el carcaj -> giro 180°
+we_araloth	x_we_araloth	0	M	we_araloth	cara del modelo hacia el frente
+we_orion	x_we_orion	0	M	we_orion	cara del modelo hacia el frente
+we_scouts	x_we_scouts	0	M	we_scouts	cara del modelo hacia el frente
+we_waywatchers	x_we_waywatchers	0	M	we_waywatchers	cara del modelo hacia el frente
+we_sisters	x_we_sisters	0	M	we_sisters	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_eagle	x_we_eagle	0	M	we_eagle	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_pack_hounds	x_we_pack_hounds	0	C	convención	convención: perfil ambiguo
+we_orion_hounds	x_we_pack_hounds	0	C	convención	convención: perfil ambiguo
+we_pack_cats	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_pack_boars	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_pack_bears	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_warden	x_we_warden	0	M	we_warden	cara del modelo hacia el frente
+we_guardians	x_we_guardians	0	M	we_guardians	cara del modelo hacia el frente
+gob_warboss	x_gob_warboss	0	M	gob_warboss	cara del modelo hacia el frente
+ng_warboss	x_gob_warboss	0	G	gob_warboss	cara del modelo hacia el frente
+ng_bigboss	gob_bigboss	0	G	gob_bigboss	cara del modelo hacia el frente
+gob_oddnob	x_gob_oddnob	0	M	gob_oddnob	cara del modelo hacia el frente
+gob_oddgit	x_gob_oddnob	0	G	gob_oddnob	cara del modelo hacia el frente
+ng_oddnob	x_gob_oddnob	0	G	gob_oddnob	cara del modelo hacia el frente
+ng_oddgit	x_gob_oddnob	0	G	gob_oddnob	cara del modelo hacia el frente
+orc_warboss_wyvern	x_orc_warboss_wyvern	0	M	orc_warboss_wyvern	cabeza de la montura/monstruo (y jinete) hacia el frente
+snotlings	x_snotlings	0	M	snotlings	cara del modelo hacia el frente
+spider_riders	x_spider_riders	0	M	spider_riders	cabeza de la montura/monstruo (y jinete) hacia el frente
+squig_herd	squig_herd	0	M	squig_herd	cara del modelo hacia el frente
+squig_hoppers	x_squig_hoppers	0	M	squig_hoppers	cabeza de la montura/monstruo (y jinete) hacia el frente
+river_trolls	river_trolls	0	M	river_trolls	cabeza de la montura/monstruo (y jinete) hacia el frente
+stone_trolls	river_trolls	0	G	river_trolls	cabeza de la montura/monstruo (y jinete) hacia el frente
+black_chariot	x_black_chariot	0	M	black_chariot	bestias de tiro delante, tripulación detrás
+orc_boar_chariot	x_orc_boar_chariot	0	G	black_warboss_chariot	bestias de tiro delante, tripulación detrás
+bm_herdstone	procedural	0	C	proc	boca del arma/máquina hacia el frente
+goods_cart	procedural	0	C	proc	bestias de tiro delante, tripulación detrás
+wolf_chariot	x_wolf_chariot	0	M	wolf_chariot	bestias de tiro delante, tripulación detrás
+pump_wagon	x_pump_wagon	0	M	pump_wagon	bestias de tiro delante, tripulación detrás
+arachnarok	x_arachnarok	0	M	arachnarok	cabeza de la montura/monstruo (y jinete) hacia el frente
+mangler_squig	x_mangler_squig	0	M	mangler_squig	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_kiknik	x_gob_kiknik	0	M	gob_kiknik	cabeza de la montura/monstruo (y jinete) hacia el frente
+orc_ogdruz	x_orc_ogdruz	0	M	orc_ogdruz	cara del modelo hacia el frente
+troll_hag	x_troll_hag	0	M	troll_hag	cabeza de la montura/monstruo (y jinete) hacia el frente
+orc_ogre_bulls	woc_ogres	3.1416	G	woc_ogres	Ogros del Caos: con la flecha hacia la cámara se ven las espaldas lisas; con la flecha alejándose se ve el vientre y la cara -> giro 180°
+orc_bonegrinder	x_orc_bonegrinder	0	M	orc_bonegrinder	cabeza de la montura/monstruo (y jinete) hacia el frente
+orc_giant	x_orc_giant	0	M	orc_giant	cabeza de la montura/monstruo (y jinete) hacia el frente
+doom_diver	x_doom_diver	0	C	convención	convención: máquina de lanzamiento: frente de diseño
+br_duke	br_duke	0	C	convención	convención: montura acorazada: perfil ambiguo
+br_baron	br_baron	0	M	br_baron	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_paladin	x_br_paladin	0	M	br_paladin	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_duke_hippo	x_br_duke_hippo	0	G	br_baron_hippo	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_baron_pegasus	x_br_baron_pegasus	0	C	convención	convención: perfil ambiguo
+br_sergeant	x_br_sergeant	0	M	br_sergeant	cara del modelo hacia el frente
+br_realm_foot	br_realm_foot	0	G	br_duke_foot	cara del modelo hacia el frente
+br_yeomen	x_br_yeomen	0	M	br_yeomen	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_damsel	br_damsel	0	M	br_damsel	cara del modelo hacia el frente
+br_prophetess	br_prophetess	0	M	br_prophetess	cara del modelo hacia el frente
+br_cecil	x_br_cecil	0	M	br_cecil	cara del modelo hacia el frente
+br_green_knight	x_br_green_knight	0	M	br_green_knight	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_elisse	x_br_elisse	-1.5708	M	br_elisse	Élisse: caballo encabritado con la cabeza a la izquierda (tras YAWFIX +π/2) -> giro 180° adicional
+br_outcast	x_br_outcast	0	M	br_outcast	cara del modelo hacia el frente
+br_outcast3	x_br_outcast3	0	M	br_outcast3	cara del modelo hacia el frente
+br_yeoman_guard	x_br_yeoman_guard	0	M	br_yeoman_guard	cara del modelo hacia el frente
+br_men_at_arms	x_br_men_at_arms	0	G	rc_brigands	cara del modelo hacia el frente
+br_bowmen	x_br_bowmen	0	G	br_brigands_bb	cara del modelo hacia el frente
+br_squires	x_br_squires	0	M	br_squires	cara del modelo hacia el frente
+br_bowmen_fire	x_br_bowmen	0	G	br_brigands_bb	cara del modelo hacia el frente
+br_bowmen_stakes	x_br_bowmen	0	G	br_brigands_bb	cara del modelo hacia el frente
+br_pilgrims	x_br_pilgrims	0	M	br_pilgrims	cara del modelo hacia el frente
+br_pilgrims_rel	x_br_pilgrims	0	G	br_pilgrims	cara del modelo hacia el frente
+br_errant	br_errant	0	M	br_errant	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_realm	br_realm	0	M	br_realm	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_questing	br_questing	0	M	br_questing	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_grail	br_grail	0	M	br_grail	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_pegasus	x_br_pegasus	0	C	convención	convención: perfil ambiguo
+br_bombard	x_great_cannon	0	C	convención	convención: cañón: perfil ambiguo
+br_brigands	x_br_men_at_arms	0	G	rc_brigands	cara del modelo hacia el frente
+br_brigands_bb	x_br_bowmen	0	M	br_brigands_bb	cara del modelo hacia el frente
+br_trebuchet	br_trebuchet	0	C	convención	convención: máquina de lanzamiento: sin boca de arma; frente de diseño
+bm_beastlord	x_bm_beastlord	0	M	bm_beastlord	cara del modelo hacia el frente
+bm_wargor	bm_wargor	3.1416	M	bm_wargor	Wargor: con la flecha alejándose se ve el pecho y el rostro cornudo; con la flecha hacia la cámara se ve la espalda -> giro 180°
+bm_centigor_chief	x_bm_centigor_chief	0	M	bm_centigor_chief	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_gbs	bm_gbs	0	M	bm_gbs	cara del modelo hacia el frente
+bm_bs	x_bm_bs	0	M	bm_bs	cara del modelo hacia el frente
+bm_doombull	bm_doombull	0	M	bm_doombull	cara del modelo hacia el frente
+bm_gorebull	x_bm_gorebull	0	M	bm_gorebull	cara del modelo hacia el frente
+bm_gor	x_bm_gor	0	M	bm_gor	cara del modelo hacia el frente
+bm_gor_aw	x_bm_gor_aw	0	M	bm_gor_aw	cara del modelo hacia el frente
+bm_ungor	x_bm_ungor	0	M	bm_ungor	cara del modelo hacia el frente
+bm_ungor_bow	x_bm_ungor_bow	0	M	bm_ungor_bow	cara del modelo hacia el frente
+bm_warped	x_bm_gor	0	G	bm_gor	cara del modelo hacia el frente
+bm_hounds	x_bm_hounds	0	M	bm_hounds	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_bestigor	x_bm_bestigor	0	M	bm_bestigor	cara del modelo hacia el frente
+bm_minotaurs	x_bm_minotaurs	0	M	bm_minotaurs	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_minotaurs_gw	x_bm_minotaurs_gw	0	M	bm_minotaurs_gw	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_centigors	x_bm_centigors	0	M	bm_centigors	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_harpies	procedural	0	C	proc	cara del modelo hacia el frente
+bm_dragon_ogres	bm_dragon_ogres	0	M	bm_dragon_ogres	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_ghorgon	bm_ghorgon	0	M	bm_ghorgon	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_lord	woc_lord	0	M	woc_lord	cara del modelo hacia el frente
+woc_lord_steed	woc_lord_steed	0	M	woc_lord_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_exalted	x_woc_exalted	3.1416	M	woc_exalted	Exaltado del Caos: con la flecha alejándose se ve el escudo y el rostro; con la flecha hacia la cámara se ven las espaldas -> giro 180°
+woc_aspiring	x_woc_aspiring	0	M	woc_aspiring	cara del modelo hacia el frente
+woc_sorc_lord	woc_sorc_lord	0	M	woc_sorc_lord	cara del modelo hacia el frente
+woc_ex_sorc	woc_ex_sorc	0	M	woc_ex_sorc	cara del modelo hacia el frente
+woc_dprince	woc_dprince	0	M	woc_dprince	cara del modelo hacia el frente
+woc_warriors	x_woc_warriors	0	M	woc_warriors	cara del modelo hacia el frente
+woc_warriors_hb	x_woc_warriors_hb	0	M	woc_warriors_hb	cara del modelo hacia el frente
+woc_warriors_gw	x_woc_warriors_gw	0	M	woc_warriors_gw	cara del modelo hacia el frente
+woc_marauders	x_woc_marauders	0	M	woc_marauders	cara del modelo hacia el frente
+woc_marauders_gw	x_woc_marauders_gw	0	M	woc_marauders_gw	cara del modelo hacia el frente
+woc_forsaken	woc_forsaken	0	M	woc_forsaken	cara del modelo hacia el frente
+woc_knights	x_woc_knights	0	M	woc_knights	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_knights_l	x_woc_knights_l	0	M	woc_knights_l	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_horsemen	x_woc_horsemen	0	M	woc_horsemen	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_hounds	x_woc_hounds	0	M	woc_hounds	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_chosen	x_woc_chosen	0	M	woc_chosen	cara del modelo hacia el frente
+woc_chosen_knights	x_woc_chosen_knights	0	M	woc_chosen_knights	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_ogres	woc_ogres	3.1416	M	woc_ogres	Ogros del Caos: con la flecha hacia la cámara se ven las espaldas lisas; con la flecha alejándose se ve el vientre y la cara -> giro 180°
+woc_trolls	woc_trolls	0	M	woc_trolls	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_king_dragon	x_tk_king_dragon	0	C	convención	convención: perfil ambiguo
+tk_hpriest_dragon	x_tk_hpriest_dragon	0	C	convención	convención: perfil ambiguo
+tk_warriors_ph	tk_warriors	0	G	tk_warriors	cara del modelo hacia el frente
+tk_guard_ph	x_tk_guard_ph	0	M	tk_guard_ph	cara del modelo hacia el frente
+tk_swarm_amb	tk_swarm	0	G	tk_swarm	cara del modelo hacia el frente
+tk_king	x_tk_king	0	M	tk_king	cara del modelo hacia el frente
+tk_prince	x_tk_prince	0	M	tk_prince	cara del modelo hacia el frente
+tk_herald	x_tk_herald	0	M	tk_herald	cara del modelo hacia el frente
+tk_hpriest	x_tk_hpriest	0	M	tk_hpriest	cara del modelo hacia el frente
+tk_mpriest	x_tk_mpriest	0	M	tk_mpriest	cara del modelo hacia el frente
+tk_warriors	tk_warriors	0	M	tk_warriors	cara del modelo hacia el frente
+tk_summoned	tk_warriors	0	G	tk_warriors	cara del modelo hacia el frente
+tk_warriors_sp	tk_warriors	0	G	tk_warriors	cara del modelo hacia el frente
+tk_archers	x_tk_archers	0	M	tk_archers	cara del modelo hacia el frente
+tk_horsemen	x_tk_horsemen	0	M	tk_horsemen	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_horse_archers	x_tk_horse_archers	0	M	tk_horse_archers	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_guard	x_tk_guard	0	M	tk_guard	cara del modelo hacia el frente
+tk_guard_hb	x_tk_guard_hb	0	M	tk_guard_hb	cara del modelo hacia el frente
+tk_ushabti	x_tk_ushabti	0	M	tk_ushabti	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_ushabti_bow	x_tk_ushabti_bow	0	M	tk_ushabti_bow	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_necroknights	x_tk_necroknights	0	C	convención	convención: serpiente: perfil ambiguo
+tk_carrion	x_tk_carrion	0	M	tk_carrion	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_prince_griffon	x_he_prince_griffon	0	M	he_prince_griffon	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_prince_moon	x_he_prince_moon	0	M	he_prince_moon	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_skycutter	he_skycutter	0	M	he_skycutter	bestias de tiro delante, tripulación detrás
+he_skycutter_bt	he_skycutter	0	G	he_skycutter	bestias de tiro delante, tripulación detrás
+he_prince_star	x_he_prince_star	0	M	he_prince_star	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_archmage_star	x_he_archmage_star	0	M	he_archmage_star	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_noble_eagle	x_he_noble_eagle	0	M	he_noble_eagle	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_mage_eagle	x_he_mage_eagle	0	M	he_mage_eagle	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_noble_griffon	x_he_noble_griffon	0	M	he_noble_griffon	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_prince_sun	x_he_prince_sun	0	M	he_prince_sun	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_noble_sun	x_he_noble_sun	0	M	he_noble_sun	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_archmage_moon	x_he_archmage_moon	0	M	he_archmage_moon	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_dragonmage	x_he_dragonmage	0	M	he_dragonmage	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_flamespyre	x_he_flamespyre	0	C	convención	convención: fénix: silueta fina, sin rasgo inequívoco en perfil
+he_frostheart	x_he_frostheart	0	M	he_frostheart	Frostheart Phoenix: pico y cabeza sobre la flecha en las vistas cenitales a135 y a225 (yaw 0)
+woc_lord_manticore	woc_lord_manticore	0	M	woc_lord_manticore	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_lord_dragon	x_woc_lord_dragon	0	G	woc_galrauch	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_sorc_manticore	x_woc_sorc_manticore	0	M	woc_sorc_manticore	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_spawn	x_woc_spawn	0	M	woc_spawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_hellcannon	x_woc_hellcannon	0	M	woc_hellcannon	boca del arma/máquina hacia el frente
+woc_chimera	woc_chimera	0	M	woc_chimera	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_galrauch	x_woc_lord_dragon	0	M	woc_galrauch	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_necrotect	x_tk_necrotect	0	M	tk_necrotect	cara del modelo hacia el frente
+tk_skirmishers	x_tk_skirmishers	0	M	tk_skirmishers	cara del modelo hacia el frente
+tk_swarm	tk_swarm	0	M	tk_swarm	cara del modelo hacia el frente
+tk_stalkers	x_tk_stalkers	0	C	convención	convención: serpiente: capucha de perfil ambiguo
+tk_stalkers_amb	x_tk_stalkers_amb	0	M	tk_stalkers_amb	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_catapult	x_tk_catapult	0	M	tk_catapult	boca del arma/máquina hacia el frente
+tk_casket	x_tk_casket	0	C	convención	convención: Ataúd de las Almas: malla sin eje de frente; frente de diseño
+tk_warsphinx	x_tk_warsphinx	0	C	convención	convención: perfil ambiguo
+tk_scorpion	x_tk_scorpion	3.1416	M	tk_scorpion	Escorpión: aguijón (cola) a la derecha, cabeza a la izquierda -> giro 180°
+tk_colossus	x_tk_colossus	0	M	tk_colossus	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_necrosphinx	x_tk_necrosphinx	0	C	convención	convención: perfil ambiguo
+bm_giant	x_bm_giant	0	M	bm_giant	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_shaggoth	bm_shaggoth	0	M	bm_shaggoth	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_jabberslythe	x_bm_jabberslythe	0	C	convención	convención: perfil ambiguo
+bm_cockatrice	x_bm_cockatrice	0	M	bm_cockatrice	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_cygor	x_bm_cygor	0	C	convención	convención: perfil ambiguo
+he_prince_tiranoc	x_he_prince_tiranoc	0	M	he_prince_tiranoc	bestias de tiro delante, tripulación detrás
+tk_king_chariot	x_tk_king_chariot	3.1416	M	tk_king_chariot	carro del rey: bestias de tiro a la izquierda -> giro 180°
+woc_lord_chariot	x_woc_lord_chariot	3.1416	M	woc_lord_chariot	carro del Caos: bestia de tiro a la izquierda, tripulación a la derecha -> giro 180°
+bm_beastlord_tusk	x_bm_beastlord_tusk	0	M	bm_beastlord_tusk	bestias de tiro delante, tripulación detrás
+he_tiranoc	x_he_tiranoc	0	M	he_tiranoc	bestias de tiro delante, tripulación detrás
+he_lionchariot	x_he_lionchariot	0	G	he_chieftain_chariot	bestias de tiro delante, tripulación detrás
+tk_chariot	x_tk_chariot	3.1416	M	tk_chariot	carro esqueleto: bestias de tiro a la izquierda del eje (captura de perfil) -> giro 180°
+woc_chariot	x_woc_chariot	0	M	woc_chariot	bestias de tiro delante, tripulación detrás
+woc_gorechariot	woc_gorechariot	0	M	woc_gorechariot	gorebestia delante (derecha), tripulación detrás: frente = flecha
+bm_tuskchariot	x_bm_tuskchariot	0	M	bm_tuskchariot	bestias de tiro delante, tripulación detrás
+bm_razorchariot	x_bm_razorchariot	0	M	bm_razorchariot	bestias de tiro delante, tripulación detrás
+dw_king	x_dw_king	0	M	dw_king	cara del modelo hacia el frente
+dw_thane	dw_thane	0	M	dw_thane	cara del modelo hacia el frente
+dw_runelord	x_dw_runelord	0	M	dw_runelord	cara del modelo hacia el frente
+dw_runesmith	dw_runesmith	0	M	dw_runesmith	cara del modelo hacia el frente
+dw_doomseeker	dw_dslayer	0	G	dw_dslayer	cara del modelo hacia el frente
+dw_dslayer	dw_dslayer	0	M	dw_dslayer	cara del modelo hacia el frente
+dw_drslayer	dw_drslayer	0	M	dw_drslayer	cara del modelo hacia el frente
+dw_engineer	x_dw_engineer	0	M	dw_engineer	cara del modelo hacia el frente
+dw_king_shield	x_dw_king_shield	0	M	dw_king_shield	cara del modelo hacia el frente
+dw_anvil	x_dw_anvil	0	M	dw_anvil	boca del arma/máquina hacia el frente
+dw_gyrobomber	dw_gyrobomber	0	M	dw_gyrobomber	cabeza de la montura/monstruo (y jinete) hacia el frente
+dw_warriors	x_dw_warriors	0	M	dw_warriors	cara del modelo hacia el frente
+dw_warriors_gw	dw_warriors_gw	0	M	dw_warriors_gw	cara del modelo hacia el frente
+dw_quarrellers	dw_quarrellers	0	M	dw_quarrellers	cara del modelo hacia el frente
+dw_thunderers	x_dw_thunderers	0	M	dw_thunderers	cara del modelo hacia el frente
+dw_longbeards	dw_longbeards	0	M	dw_longbeards	cara del modelo hacia el frente
+dw_hammerers	x_dw_hammerers	0	M	dw_hammerers	cara del modelo hacia el frente
+dw_ironbreakers	x_dw_ironbreakers	0	M	dw_ironbreakers	cara del modelo hacia el frente
+dw_slayers	x_dw_slayers	0	M	dw_slayers	cara del modelo hacia el frente
+dw_slayers_ahw	dw_drslayer	0	G	dw_drslayer	cara del modelo hacia el frente
+dw_miners	dw_miners	0	M	dw_miners	cara del modelo hacia el frente
+dw_scoutgyro	dw_gyro	0	G	dw_gyro	cabeza de la montura/monstruo (y jinete) hacia el frente
+dw_royalwarriors	dw_longbeards	0	G	dw_longbeards	cara del modelo hacia el frente
+dw_gyro	dw_gyro	0	M	dw_gyro	cabeza de la montura/monstruo (y jinete) hacia el frente
+dw_rangers	x_dw_rangers	0	M	dw_rangers	cara del modelo hacia el frente
+dw_irondrakes	dw_irondrakes	3.1416	M	dw_irondrakes	Drakes de Hierro: con la flecha alejándose se ve de frente (rostros y cañones de drakefire apuntando a la cámara); con la flecha hacia la cámara se ven los tanques de la espalda -> giro 180°
+dw_cart	x_dw_cart	0	M	dw_cart	bestias de tiro delante, tripulación detrás
+dw_cart_miner	procedural	0	C	proc	bestias de tiro delante, tripulación detrás
+dw_hewer	x_dw_bolt	0	G	dw_bolt	boca del arma/máquina hacia el frente
+dw_bolt	x_dw_bolt	0	M	dw_bolt	boca del arma/máquina hacia el frente
+dw_grudge	dw_grudge	0	M	dw_grudge	boca del arma/máquina hacia el frente
+dw_cannon	x_dw_cannon	0	M	dw_cannon	boca del arma/máquina hacia el frente
+dw_organ	dw_organ	0	G	rc_organ	boca del arma/máquina hacia el frente
+dw_flame	x_dw_flame	0	M	dw_flame	boca del arma/máquina hacia el frente
+he_prince	x_he_prince	0	M	he_prince	cara del modelo hacia el frente
+he_prince_h	x_he_prince_h	0	M	he_prince_h	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_noble	x_he_noble	0	M	he_noble	cara del modelo hacia el frente
+he_archmage	x_he_archmage	0	M	he_archmage	cara del modelo hacia el frente
+he_mage	x_he_mage	0	G	he_stormweaver	cara del modelo hacia el frente
+he_handmaiden	x_he_handmaiden	0	M	he_handmaiden	cara del modelo hacia el frente
+he_spearmen	x_he_spearmen	0	M	he_spearmen	cara del modelo hacia el frente
+he_archers	x_he_archers	0	M	he_archers	cara del modelo hacia el frente
+he_seaguard	x_he_seaguard	0	G	he_ship	cara del modelo hacia el frente
+he_chieftain	x_he_noble	0	G	he_noble	cara del modelo hacia el frente
+he_korhil	x_he_noble	0	G	he_noble	cara del modelo hacia el frente
+he_lionguard	x_he_whitelions	0	M	he_lionguard	cara del modelo hacia el frente
+he_woodsmen	x_he_whitelions	0	G	he_lionguard	cara del modelo hacia el frente
+he_chieftain_chariot	x_he_lionchariot	0	M	he_chieftain_chariot	bestias de tiro delante, tripulación detrás
+he_korhil_chariot	x_he_lionchariot	0	G	he_chieftain_chariot	bestias de tiro delante, tripulación detrás
+he_garrison	x_he_noble	0	G	he_noble	cara del modelo hacia el frente
+he_ishaya	procedural	0	C	proc	cara del modelo hacia el frente
+he_stormweaver	x_he_mage	0	M	he_stormweaver	cara del modelo hacia el frente
+he_stormweaver_uni	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_ship	x_he_seaguard	0	M	he_ship	cara del modelo hacia el frente
+he_warlions	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_merwyrm	x_he_merwyrm	0	C	convención	convención: Merwyrm: perfil ambiguo
+he_whitelions	x_he_whitelions	0	G	he_lionguard	cara del modelo hacia el frente
+he_swordmasters	x_he_swordmasters	0	M	he_swordmasters	cara del modelo hacia el frente
+he_phoenix	x_he_phoenix	0	M	he_phoenix	cara del modelo hacia el frente
+he_shadow	x_he_shadow	0	M	he_shadow	cara del modelo hacia el frente
+he_sisters	x_he_sisters	0	M	he_sisters	cara del modelo hacia el frente
+he_reavers	x_he_reavers	0	M	he_reavers	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_reavers_bow	x_he_reavers_bow	0	M	he_reavers_bow	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_silverhelms	x_he_silverhelms	0	M	he_silverhelms	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_dragonprinces	x_he_dragonprinces	0	M	he_dragonprinces	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_eagle	x_he_eagle	0	M	he_eagle	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_boltthrower	x_he_boltthrower	0	M	he_boltthrower	boca del arma/máquina hacia el frente
+de_dreadlord	x_de_dreadlord	0	M	de_dreadlord	cara del modelo hacia el frente
+de_dreadlord_steed	x_de_dreadlord_steed	0	M	de_dreadlord_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_dreadlord_cold	x_de_dreadlord_cold	0	M	de_dreadlord_cold	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_dreadlord_dragon	x_de_dreadlord_dragon	0	M	de_dreadlord_dragon	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_master	x_de_master	0	M	de_master	cara del modelo hacia el frente
+de_master_steed	x_de_master_steed	0	M	de_master_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_master_cold	x_de_master_cold	3.1416	M	de_master_cold	Cold One: cabeza (mandíbulas) a la izquierda, cola a la derecha -> giro 180°
+de_sorceress	x_de_sorceress	0	M	de_sorceress	cara del modelo hacia el frente
+de_supreme	x_de_supreme	0	M	de_supreme	cara del modelo hacia el frente
+de_supreme_cold	x_de_supreme_cold	0	G	de_sorceress_cold	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_deathhag	x_de_deathhag	0	M	de_deathhag	cara del modelo hacia el frente
+de_assassin	x_de_assassin	0	M	de_assassin	cara del modelo hacia el frente
+de_beastmaster	x_de_beastmaster	0	M	de_beastmaster	cara del modelo hacia el frente
+de_warriors	x_de_warriors	0	M	de_warriors	cara del modelo hacia el frente
+de_crossbows	x_de_crossbows	0	M	de_crossbows	cara del modelo hacia el frente
+de_shades	x_de_shades	0	M	de_shades	cara del modelo hacia el frente
+de_corsairs	x_de_corsairs	0	M	de_corsairs	cara del modelo hacia el frente
+de_executioners	x_de_executioners	0	M	de_executioners	cara del modelo hacia el frente
+de_blackguard	x_de_blackguard	0	M	de_blackguard	cara del modelo hacia el frente
+de_sisters	x_de_sisters	0	M	de_sisters	cara del modelo hacia el frente
+de_coldones	x_de_coldones	0	M	de_coldones	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_warlocks	x_de_warlocks	0	M	de_warlocks	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_witchelves	x_de_sisters	0	G	de_sisters	cara del modelo hacia el frente
+de_darkriders	x_he_reavers	0	G	he_reavers	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_medusa	x_de_medusa	0	M	de_medusa	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_harpies	x_de_harpies	0	M	de_harpies	cara del modelo hacia el frente
+de_boltthrower	x_de_boltthrower	0	M	de_boltthrower	boca del arma/máquina hacia el frente
+de_hydra	x_de_hydra	3.1416	M	de_hydra	Hidra: cabezas a la izquierda, manejadores detrás (derecha) -> giro 180°
+de_kharibdyss	x_de_kharibdyss	3.1416	M	de_kharibdyss	Kharibdyss: cabezas a la izquierda, manejadores detrás -> giro 180°
+lm_slann	x_lm_slann	0	M	lm_slann	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_oldblood	x_lm_oldblood	0	M	lm_oldblood	cara del modelo hacia el frente
+lm_oldblood_cold	x_lm_oldblood_cold	0	M	lm_oldblood_cold	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_scar	x_lm_scar	0	M	lm_scar	cara del modelo hacia el frente
+lm_scar_cold	x_lm_scar_cold	0	M	lm_scar_cold	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_skchief	x_lm_skchief	0	M	lm_skchief	cara del modelo hacia el frente
+lm_skchief_terra	x_lm_skchief_terra	0	M	lm_skchief_terra	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_skchief_ripper	x_lm_skchief_ripper	0	M	lm_skchief_ripper	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_skchief_steg	x_lm_skchief_steg	0	M	lm_skchief_steg	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_skpriest	x_lm_skpriest	0	M	lm_skpriest	cara del modelo hacia el frente
+lm_skpriest_ancient	x_lm_skpriest_ancient	0	M	lm_skpriest_ancient	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_saurus	x_lm_saurus	0	M	lm_saurus	cara del modelo hacia el frente
+lm_skirmishers	x_lm_skirmishers	0	M	lm_skirmishers	cara del modelo hacia el frente
+lm_swarm	x_lm_swarm	0	M	lm_swarm	cara del modelo hacia el frente
+lm_temple	x_lm_temple	0	M	lm_temple	cara del modelo hacia el frente
+lm_chameleon	x_lm_chameleon	0	M	lm_chameleon	cara del modelo hacia el frente
+lm_coldones	x_lm_coldones	0	M	lm_coldones	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_terradons	x_lm_terradons	0	M	lm_terradons	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_ripperdactyls	x_lm_ripperdactyls	0	M	lm_ripperdactyls	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_kroxigor	x_lm_kroxigor	0	M	lm_kroxigor	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_salamander	x_lm_salamander	0	C	convención	convención: perfil ambiguo
+lm_razordon	x_lm_razordon	0	M	lm_razordon	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_stegadon	x_lm_stegadon	0	M	lm_stegadon	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_bastiladon	x_lm_bastiladon	0	M	lm_bastiladon	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_troglodon	x_lm_troglodon	3.1416	M	lm_troglodon	Troglodon: cresta/cabeza a la izquierda, cola larga a la derecha -> giro 180°
+sk_warlord	x_sk_warlord	0	M	sk_warlord	cara del modelo hacia el frente
+sk_chieftain	x_sk_chieftain	0	M	sk_chieftain	cara del modelo hacia el frente
+sk_greyseer	x_sk_greyseer	0	M	sk_greyseer	cara del modelo hacia el frente
+sk_greyseer_bell	x_sk_greyseer_bell	0	M	sk_greyseer_bell	bestias de tiro delante, tripulación detrás
+sk_plaguepriest	x_sk_plaguepriest	0	M	sk_plaguepriest	cara del modelo hacia el frente
+sk_assassin	x_sk_assassin	0	M	sk_assassin	cara del modelo hacia el frente
+sk_engineer	x_sk_engineer	0	M	sk_engineer	cara del modelo hacia el frente
+sk_clanrats	x_sk_clanrats	0	M	sk_clanrats	cara del modelo hacia el frente
+sk_giantrats	x_sk_giantrats	0	M	sk_giantrats	cabeza de la montura/monstruo (y jinete) hacia el frente
+sk_swarms	x_sk_swarms	0	M	sk_swarms	cara del modelo hacia el frente
+sk_gutter	x_sk_gutter	0	M	sk_gutter	cara del modelo hacia el frente
+sk_nightrunners	x_sk_nightrunners	0	M	sk_nightrunners	cara del modelo hacia el frente
+sk_plaguemonks	x_sk_plaguemonks	0	M	sk_plaguemonks	cara del modelo hacia el frente
+sk_censer	x_sk_censer	0	M	sk_censer	cara del modelo hacia el frente
+sk_stormvermin	x_sk_stormvermin	0	M	sk_stormvermin	cara del modelo hacia el frente
+sk_jezzail	x_sk_jezzail	0	M	sk_jezzail	cara del modelo hacia el frente
+sk_globadiers	x_sk_globadiers	0	M	sk_globadiers	cara del modelo hacia el frente
+sk_ratogres	x_sk_ratogres	0	M	sk_ratogres	cabeza de la montura/monstruo (y jinete) hacia el frente
+sk_ratlinggun	x_sk_ratlinggun	0	M	sk_ratlinggun	cara del modelo hacia el frente
+sk_warplightning	x_sk_warplightning	0	M	sk_warplightning	boca del arma/máquina hacia el frente
+sk_plagueclaw	x_sk_plagueclaw	0	M	sk_plagueclaw	boca del arma/máquina hacia el frente
+sk_warpfire	x_sk_ratlinggun	0	G	sk_ratlinggun	cara del modelo hacia el frente
+sk_windmortar	x_sk_plagueclaw	0	G	sk_plagueclaw	cara del modelo hacia el frente
+sk_warpgrinder	x_sk_warpgrinder	0	M	sk_warpgrinder	cara del modelo hacia el frente
+sk_doomflayer	x_sk_doomflayer	0	M	sk_doomflayer	cara del modelo hacia el frente
+sk_plaguepriest_furnace	x_sk_greyseer_bell	0	G	sk_greyseer_bell	bestias de tiro delante, tripulación detrás
+sk_doomwheel	x_sk_doomwheel	0	M	sk_doomwheel	bestias de tiro delante, tripulación detrás
+sk_hellpit	x_sk_hellpit	0	M	sk_hellpit	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_count	x_vc_count	0	M	vc_count	cara del modelo hacia el frente
+vc_ghoulking	x_vc_ghoulking	0	M	vc_ghoulking	cara del modelo hacia el frente
+vc_count_nightmare	x_vc_count_nightmare	0	M	vc_count_nightmare	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_count_dragon	x_vc_count_dragon	0	M	vc_count_dragon	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_count_terror	x_vc_count_terror	0	C	convención	convención: Terror: perfil ambiguo
+vc_count_coven	x_vc_count_coven	0	M	vc_count_coven	bestias de tiro delante, tripulación detrás
+vc_thrall	x_vc_thrall	0	M	vc_thrall	cara del modelo hacia el frente
+vc_thrall_nightmare	x_vc_thrall_nightmare	0	M	vc_thrall_nightmare	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_necromancer	x_vc_necromancer	0	M	vc_necromancer	cara del modelo hacia el frente
+vc_necro_nightmare	x_vc_necro_nightmare	0	M	vc_necro_nightmare	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_acolyte	x_vc_acolyte	0	M	vc_acolyte	cara del modelo hacia el frente
+vc_wightking	x_vc_wightking	0	G	vc_wightlord	cara del modelo hacia el frente
+vc_wightlord	x_vc_wightking	0	M	vc_wightlord	cara del modelo hacia el frente
+vc_wightking_steed	x_vc_wightking_steed	0	G	vc_wightlord_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_wightlord_steed	x_vc_wightking_steed	0	M	vc_wightlord_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_knightshrouds	x_vc_knightshrouds	0	M	vc_knightshrouds	cara del modelo hacia el frente
+vc_knightshrouds_steed	x_vc_knightshrouds_steed	0	M	vc_knightshrouds_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_zombies	x_vc_zombies	0	M	vc_zombies	cara del modelo hacia el frente
+vc_skeletons	x_vc_skeletons	0	M	vc_skeletons	cara del modelo hacia el frente
+vc_ghouls	x_vc_ghouls	0	M	vc_ghouls	cara del modelo hacia el frente
+vc_direwolves	x_vc_direwolves	0	M	vc_direwolves	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_fellbats	x_vc_fellbats	0	M	vc_fellbats	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_graveguard	x_vc_graveguard	0	M	vc_graveguard	cara del modelo hacia el frente
+vc_blackknights	x_vc_blackknights	0	M	vc_blackknights	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_spirithosts	x_vc_spirithosts	0	M	vc_spirithosts	cara del modelo hacia el frente
+vc_banshee	x_vc_banshee	0	M	vc_banshee	cara del modelo hacia el frente
+vc_cairnwraith	x_vc_cairnwraith	0	M	vc_cairnwraith	cara del modelo hacia el frente
+vc_hexwraith	x_vc_hexwraith	0	M	vc_hexwraith	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_bloodknights	x_vc_bloodknights	0	M	vc_bloodknights	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_vargheists	x_vc_vargheists	0	M	vc_vargheists	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_terrorgheist	x_vc_terrorgheist	0	C	convención	convención: perfil ambiguo
+vc_blackcoach	x_vc_corpsecart	3.1416	M	vc_blackcoach	Carruaje Negro: pesadillas a la izquierda -> giro 180°
+vc_batswarm	x_vc_batswarm	0	M	vc_batswarm	cara del modelo hacia el frente
+vc_horrors	x_vc_horrors	0	M	vc_horrors	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_varghulf	x_vc_varghulf	0	M	vc_varghulf	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_corpsecart	x_vc_corpsecart	3.1416	G	vc_blackcoach	Carruaje Negro: pesadillas a la izquierda -> giro 180°
+vc_mortis	x_vc_mortis	0	G	vc_necro_mortis	boca del arma/máquina hacia el frente
+dm_herald_khorne	x_dm_herald_khorne	0	M	dm_herald_khorne	cara del modelo hacia el frente
+dm_herald_khorne_jug	x_dm_herald_khorne_jug	0	M	dm_herald_khorne_jug	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_herald_nurgle	x_dm_herald_nurgle	0	M	dm_herald_nurgle	cara del modelo hacia el frente
+dm_herald_nurgle_pal	x_dm_herald_nurgle_pal	0	M	dm_herald_nurgle_pal	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_herald_slaanesh	x_dm_herald_slaanesh	0	M	dm_herald_slaanesh	cara del modelo hacia el frente
+dm_herald_slaanesh_steed	x_dm_herald_slaanesh_steed	0	M	dm_herald_slaanesh_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_herald_tzeentch	x_dm_herald_tzeentch	0	M	dm_herald_tzeentch	cara del modelo hacia el frente
+dm_herald_tzeentch_disc	x_dm_herald_tzeentch_disc	0	M	dm_herald_tzeentch_disc	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_herald_tzeentch_chariot	x_dm_herald_tzeentch_chariot	0	M	dm_herald_tzeentch_chariot	bestias de tiro delante, tripulación detrás
+dm_bloodthirster	x_dm_bloodthirster	0	M	dm_bloodthirster	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_gud	x_dm_gud	0	M	dm_gud	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_keeper	x_dm_keeper	0	C	convención	convención: Keeper of Secrets: malla simétrica de tentáculos, sin rasgo de frente inequívoco ni en vista de perfil ni frontal; frente de diseño = frente de la peana
+dm_lordchange	x_dm_lordchange	0	M	dm_lordchange	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_prince	x_dm_prince	0	M	dm_prince	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_bloodletters	x_dm_bloodletters	0	M	dm_bloodletters	cara del modelo hacia el frente
+dm_plaguebearers	x_dm_plaguebearers	0	M	dm_plaguebearers	cara del modelo hacia el frente
+dm_daemonettes	x_dm_daemonettes	0	M	dm_daemonettes	cara del modelo hacia el frente
+dm_pinkhorrors	x_dm_pinkhorrors	0	M	dm_pinkhorrors	cara del modelo hacia el frente
+dm_nurglings	x_dm_nurglings	0	M	dm_nurglings	cara del modelo hacia el frente
+dm_bluehorrors	x_dm_bluehorrors	0	M	dm_bluehorrors	cara del modelo hacia el frente
+dm_fleshhounds	x_dm_fleshhounds	0	M	dm_fleshhounds	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_bloodcrushers	x_dm_bloodcrushers	1.5708	M	dm_bloodcrushers	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_plaguedrones	x_dm_plaguedrones	0	M	dm_plaguedrones	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_seekers	x_dm_seekers	0	M	dm_seekers	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_screamers	x_dm_screamers	0	M	dm_screamers	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_flamers	x_dm_flamers	0	M	dm_flamers	cara del modelo hacia el frente
+dm_furies	x_dm_furies	0	M	dm_furies	cara del modelo hacia el frente
+dm_beast	x_dm_beast	0	M	dm_beast	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_fiends	x_dm_fiends	0	M	dm_fiends	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_skullcannon	x_dm_skullcannon	0	M	dm_skullcannon	boca del arma/máquina hacia el frente
+dm_hellflayer	x_dm_seekerchariot	0	G	dm_herald_slaanesh_exalted	bestias de tiro delante, tripulación detrás
+dm_brimstone	x_dm_brimstone	0	M	dm_brimstone	cara del modelo hacia el frente
+dm_seekerchariot	x_dm_seekerchariot	0	G	dm_herald_slaanesh_exalted	bestias de tiro delante, tripulación detrás
+dm_soulgrinder	x_dm_soulgrinder	0	M	dm_soulgrinder	cabeza de la montura/monstruo (y jinete) hacia el frente
+ok_tyrant	x_ok_tyrant	0	M	ok_tyrant	cara del modelo hacia el frente
+ok_tyrant_stone	x_ok_tyrant_stone	3.1416	M	ok_tyrant_stone	familia Stonehorn -> giro 180°
+ok_tyrant_thunder	x_ok_tyrant_thunder	3.1416	M	ok_tyrant_thunder	colmillos a la izquierda (misma familia Thundertusk) -> giro 180°
+ok_bruiser	x_ok_tyrant	0	G	ok_tyrant	cara del modelo hacia el frente
+ok_bruiser_stone	x_ok_bruiser_stone	3.1416	M	ok_bruiser_stone	familia Stonehorn -> giro 180°
+ok_bruiser_thunder	x_ok_bruiser_thunder	3.1416	M	ok_bruiser_thunder	colmillos a la izquierda (familia Thundertusk) -> giro 180°
+ok_hunter	x_ok_hunter	0	M	ok_hunter	cara del modelo hacia el frente
+ok_hunter_stone	x_ok_hunter_stone	3.1416	M	ok_hunter_stone	familia Stonehorn -> giro 180°
+ok_hunter_thunder	x_ok_hunter_thunder	3.1416	M	ok_hunter_thunder	colmillos a la izquierda (familia Thundertusk) -> giro 180°
+ok_butcher	x_ok_butcher	0	M	ok_butcher	cara del modelo hacia el frente
+ok_butcher_cauldron	x_ok_butcher_cauldron	0	C	convención	convención: carga el caldero: sin eje inequívoco
+ok_slaughtermaster	x_ok_slaughtermaster	0	M	ok_slaughtermaster	cara del modelo hacia el frente
+ok_slaughter_cauldron	x_ok_slaughter_cauldron	0	C	convención	convención: carga el caldero: sin eje inequívoco
+ok_firebelly	x_ok_firebelly	0	M	ok_firebelly	cara del modelo hacia el frente
+ok_bulls	x_ok_bulls	0	M	ok_bulls	cabeza de la montura/monstruo (y jinete) hacia el frente
+ok_gnoblars	x_ok_gnoblars	0	M	ok_gnoblars	cara del modelo hacia el frente
+ok_trappers	x_ok_trappers	0	M	ok_trappers	cara del modelo hacia el frente
+ok_sabretusks	x_ok_sabretusks	0	M	ok_sabretusks	cabeza de la montura/monstruo (y jinete) hacia el frente
+ok_ironguts	x_ok_ironguts	0	M	ok_ironguts	cabeza de la montura/monstruo (y jinete) hacia el frente
+ok_leadbelchers	x_ok_leadbelchers	3.1416	M	ok_leadbelchers	Leadbelchers: con la flecha hacia la cámara se ven las espaldas (gnoblars en los hombros); con la flecha alejándose se ven de frente con los brazos adelante -> giro 180°
+ok_maneaters	x_ok_maneaters	0	M	ok_maneaters	cabeza de la montura/monstruo (y jinete) hacia el frente
+ok_mournfang	x_ok_mournfang	0	C	convención	convención: perfil ambiguo
+ok_yhetees	x_ok_yhetees	0	M	ok_yhetees	cabeza de la montura/monstruo (y jinete) hacia el frente
+ok_gorgers	x_ok_gorgers	0	M	ok_gorgers	cabeza de la montura/monstruo (y jinete) hacia el frente
+ok_giants	x_ok_giants	0	M	ok_giants	cabeza de la montura/monstruo (y jinete) hacia el frente
+ok_ironblaster	x_ok_ironblaster	3.1416	M	ok_ironblaster	Ironblaster: cabeza del rinox y boca del cañón a la izquierda -> giro 180°
+ok_scraplauncher	x_ok_scraplauncher	0	M	ok_scraplauncher	bestias de tiro delante, tripulación detrás
+ok_stonehorn	x_ok_stonehorn	3.1416	M	ok_stonehorn	Stonehorn: con la flecha alejándose se ve de frente (cara y colmillos hacia la cámara) -> giro 180°
+ok_thundertusk	x_ok_thundertusk	3.1416	M	ok_thundertusk	Thundertusk: colmillos curvados hacia la izquierda -> giro 180°
+cd_castellan	x_cd_castellan	3.1416	M	cd_castellan	Castellano de Chaos Dwarfs: con la flecha alejándose se ve la barba y el rostro; con la flecha hacia la cámara se ve la joroba/espalda -> giro 180°
+cd_seneschal	x_cd_seneschal	0	M	cd_seneschal	cara del modelo hacia el frente
+cd_daemonsmith	x_cd_daemonsmith	0	M	cd_daemonsmith	cara del modelo hacia el frente
+cd_prophet	x_cd_prophet	0	M	cd_prophet	cara del modelo hacia el frente
+cd_daemonsmith_taurus	x_cd_daemonsmith_taurus	0	M	cd_daemonsmith_taurus	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_prophet_taurus	x_cd_prophet_taurus	0	G	cd_daemonsmith_lammasu	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_khan	x_cd_khan	0	M	cd_khan	cara del modelo hacia el frente
+cd_khan_wolf	x_cd_khan_wolf	0	M	cd_khan_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_taruk	x_cd_taruk	0	M	cd_taruk	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_guard	x_cd_guard	0	M	cd_guard	cara del modelo hacia el frente
+cd_hobgoblins	x_cd_hobgoblins	0	M	cd_hobgoblins	cara del modelo hacia el frente
+cd_wolfriders	x_cd_wolfriders	0	C	convención	convención: perfil ambiguo
+cd_blunderbuss	x_cd_blunderbuss	0	M	cd_blunderbuss	cara del modelo hacia el frente
+cd_ironsworn	x_cd_ironsworn	0	M	cd_ironsworn	cara del modelo hacia el frente
+cd_hailshot	x_cd_hailshot	0	M	cd_hailshot	cara del modelo hacia el frente
+cd_render	x_cd_render	0	C	convención	convención: perfil ambiguo
+cd_centaurs	x_cd_centaurs	0	C	convención	convención: perfil ambiguo
+cd_kdaai	x_cd_kdaai	0	M	cd_kdaai	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_manburner	x_cd_manburner	0	M	cd_manburner	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_taurus	x_cd_taurus	0	M	cd_taurus	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_mortar	x_cd_mortar	0	M	cd_mortar	boca del arma/máquina hacia el frente
+cd_rocket	x_cd_rocket	0	M	cd_rocket	boca del arma/máquina hacia el frente
+cd_magma	x_cd_magma	0	M	cd_magma	boca del arma/máquina hacia el frente
+cd_bolt	x_cd_bolt	0	M	cd_bolt	boca del arma/máquina hacia el frente
+cd_ironDaemon	x_cd_ironDaemon	0	M	cd_ironDaemon	bestias de tiro delante, tripulación detrás
+ct_gatekeeper	x_ct_gatekeeper	0	M	ct_gatekeeper	cara del modelo hacia el frente
+ct_gatekeeper_horse	x_ct_gatekeeper_horse	0	M	ct_gatekeeper_horse	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_gatemaster	x_ct_gatemaster	0	G	ct_miaoying_h	cara del modelo hacia el frente
+ct_gatemaster_horse	x_ct_gatemaster_horse	0	M	ct_gatemaster_horse	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_magistrate	x_ct_magistrate	0	M	ct_magistrate	cara del modelo hacia el frente
+ct_magistrate_lantern	x_ct_magistrate_lantern	0	M	ct_magistrate_lantern	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_strategist	x_ct_strategist	0	M	ct_strategist	cara del modelo hacia el frente
+ct_strategist_lantern	x_ct_strategist_lantern	0	M	ct_strategist_lantern	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_shugengan	x_ct_shugengan	0	M	ct_shugengan	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_shugengan_gen	x_ct_shugengan_gen	-1.5708	M	ct_shugengan_gen	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_miaoying	x_ct_miaoying	0	C	convención	convención: forma humana, pose torcida: perfil ambiguo
+ct_miaoying_h	x_ct_gatemaster	0	M	ct_miaoying_h	cara del modelo hacia el frente
+ct_jade	x_ct_jade	0	M	ct_jade	cara del modelo hacia el frente
+ct_jade_spear	x_ct_jade_spear	0	M	ct_jade_spear	cara del modelo hacia el frente
+ct_lancers	x_ct_lancers	0	M	ct_lancers	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_cannon	x_ct_cannon	0	M	ct_cannon	boca del arma/máquina hacia el frente
+ct_rockets	x_ct_rockets	0	M	ct_rockets	boca del arma/máquina hacia el frente
+ct_lanterns	x_ct_lanterns	0	M	ct_lanterns	bestias de tiro delante, tripulación detrás
+ct_lanterns_amb	x_ct_lanterns	0	G	ct_lanterns	bestias de tiro delante, tripulación detrás
+ct_sentinel	x_ct_sentinel	0	G	ct_sentinel_jade	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_sentinel_jade	x_ct_sentinel	0	M	ct_sentinel_jade	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_sentinel_obsidian	x_ct_sentinel	0	G	ct_sentinel_jade	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_sentinel_granite	x_ct_sentinel	0	G	ct_sentinel_jade	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_sentinel_warpstone	x_ct_sentinel	0	G	ct_sentinel_jade	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_glade_riders_sk	x_we_glade_riders	0	G	we_glade_riders	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_warhawks_sk	x_we_warhawks	0	G	we_warhawks	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_pack_hounds_sk	x_we_pack_hounds	0	C	convención	convención: perfil ambiguo
+we_pack_cats_sk	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_pack_boars_sk	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_pack_bears_sk	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_herald_khorne_throne	x_dm_herald_khorne_throne	0	M	dm_herald_khorne_throne	bestias de tiro delante, tripulación detrás
+dm_herald_slaanesh_chariot	x_dm_herald_slaanesh_chariot	0	M	dm_herald_slaanesh_chariot	bestias de tiro delante, tripulación detrás
+dm_herald_slaanesh_exalted	x_dm_seekerchariot	0	M	dm_herald_slaanesh_exalted	bestias de tiro delante, tripulación detrás
+de_deathhag_cauldron	x_de_deathhag_cauldron	0	M	de_deathhag_cauldron	bestias de tiro delante, tripulación detrás
+de_dreadlord_chariot	procedural	0	C	proc	bestias de tiro delante, tripulación detrás
+de_master_chariot	procedural	0	C	proc	bestias de tiro delante, tripulación detrás
+de_dreadlord_manticore	woc_lord_manticore	0	G	woc_lord_manticore	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_sorceress_pegasus	x_de_sorceress_pegasus	0	M	de_sorceress_pegasus	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_supreme_pegasus	x_de_supreme_pegasus	0	M	de_supreme_pegasus	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_sorceress_steed	x_de_dreadlord_steed	0	G	de_dreadlord_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_supreme_steed	x_de_dreadlord_steed	0	G	de_dreadlord_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_sorceress_cold	x_de_supreme_cold	0	M	de_sorceress_cold	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_beastmaster_manticore	woc_lord_manticore	0	G	woc_lord_manticore	cabeza de la montura/monstruo (y jinete) hacia el frente
+de_beastmaster_chariot	x_de_beastmaster_chariot	0	M	de_beastmaster_chariot	bestias de tiro delante, tripulación detrás
+de_shrine	x_de_medusa	0	G	de_medusa	bestias de tiro delante, tripulación detrás
+de_supreme_dragon	x_de_dreadlord_dragon	0	G	de_dreadlord_dragon	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_burningchariot	x_dm_burning	0	M	dm_burningchariot	bestias de tiro delante, tripulación detrás
+wolf_riders_snk	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+orc_bigboss_boar	x_orc_warboss_boar	0	G	orc_warboss_boar	cabeza de la montura/monstruo (y jinete) hacia el frente
+black_warboss_boar	x_orc_warboss_boar	0	G	orc_warboss_boar	cabeza de la montura/monstruo (y jinete) hacia el frente
+black_bigboss_boar	x_orc_warboss_boar	0	G	orc_warboss_boar	cabeza de la montura/monstruo (y jinete) hacia el frente
+orc_weirdboy_boar	x_orc_weirdboy_boar	0	M	orc_weirdboy_boar	cabeza de la montura/monstruo (y jinete) hacia el frente
+orc_weirdnob_boar	x_orc_weirdnob_boar	0	M	orc_weirdnob_boar	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_warboss_spider	x_gob_warboss_spider	0	M	gob_warboss_spider	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_bigboss_spider	x_gob_bigboss_spider	0	M	gob_bigboss_spider	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_warboss_wolf	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_warboss_wolf_amb	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_bigboss_wolf	wolf_riders	0	M	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_bigboss_wolf_amb	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_oddnob_wolf	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_oddnob_wolf_amb	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_oddgit_wolf	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+gob_oddgit_wolf_amb	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+black_warboss_chariot	x_orc_boar_chariot	0	M	black_warboss_chariot	bestias de tiro delante, tripulación detrás
+black_bigboss_chariot	x_orc_boar_chariot	0	G	black_warboss_chariot	bestias de tiro delante, tripulación detrás
+wolf_riders_hp	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+wolf_riders_amb_hp	wolf_riders	0	G	gob_bigboss_wolf	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_cannon_ogre	x_ct_cannon	0	G	ct_cannon	boca del arma/máquina hacia el frente
+ct_cannon_ogre_gp	x_ct_cannon	0	G	ct_cannon	boca del arma/máquina hacia el frente
+ct_rockets_ogre	x_ct_rockets	0	G	ct_rockets	boca del arma/máquina hacia el frente
+ct_rockets_ogre_gp	x_ct_rockets	0	G	ct_rockets	boca del arma/máquina hacia el frente
+ct_jade_cdg	x_ct_jade	0	G	ct_jade	cara del modelo hacia el frente
+ct_lancers_cdg	x_ct_lancers	0	G	ct_lancers	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_seaguard_g	x_he_seaguard	0	G	he_ship	cara del modelo hacia el frente
+he_seaguard_dr	x_he_seaguard	0	G	he_ship	cara del modelo hacia el frente
+he_spearmen_lc	x_he_spearmen	0	G	he_spearmen	cara del modelo hacia el frente
+he_spearmen_mc	x_he_spearmen	0	G	he_spearmen	cara del modelo hacia el frente
+he_spearmen_lcmc	x_he_spearmen	0	G	he_spearmen	cara del modelo hacia el frente
+he_archers_lc	x_he_archers	0	G	he_archers	cara del modelo hacia el frente
+he_archers_mc	x_he_archers	0	G	he_archers	cara del modelo hacia el frente
+he_archers_lcmc	x_he_archers	0	G	he_archers	cara del modelo hacia el frente
+he_shadow_amb	x_he_shadow	0	G	he_shadow	cara del modelo hacia el frente
+he_skycutter_amb	he_skycutter	0	G	he_skycutter	bestias de tiro delante, tripulación detrás
+he_skycutter_bt_amb	he_skycutter	0	G	he_skycutter	bestias de tiro delante, tripulación detrás
+we_dryads_amb	x_we_dryads	0	G	we_dryads	cara del modelo hacia el frente
+we_treekin_amb	x_we_treekin	0	G	we_treekin	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_treeman_amb	x_we_treeman	0	G	we_treeman	cabeza de la montura/monstruo (y jinete) hacia el frente
+we_ancient_amb	x_we_ancient	0	G	we_ancient	cara del modelo hacia el frente
+road_wardens	x_outriders	0	G	outriders	cabeza de la montura/monstruo (y jinete) hacia el frente
+road_wardens_p	x_outriders	0	G	outriders	cabeza de la montura/monstruo (y jinete) hacia el frente
+teutogen	x_teutogen	0	M	teutogen	cara del modelo hacia el frente
+emp_harbinger	x_emp_priest	0	G	emp_priest	cara del modelo hacia el frente
+imp_ogres	x_imp_ogres	0	M	imp_ogres	cabeza de la montura/monstruo (y jinete) hacia el frente
+dw_impmerc	x_dw_warriors	0	G	dw_warriors	cara del modelo hacia el frente
+dw_impmerc_gw	x_dw_warriors	0	G	dw_warriors	cara del modelo hacia el frente
+dw_impmerc_sp	x_dw_warriors	0	G	dw_warriors	cara del modelo hacia el frente
+dw_impmerc_xb	x_dw_warriors	0	G	dw_warriors	cara del modelo hacia el frente
+dw_impmerc_hg	x_dw_warriors	0	G	dw_warriors	cara del modelo hacia el frente
+empire_knights_ww	x_empire_knights	0	G	empire_knights	cabeza de la montura/monstruo (y jinete) hacia el frente
+inner_circle_ww	x_inner_circle	0	G	inner_circle	cabeza de la montura/monstruo (y jinete) hacia el frente
+dw_royalwarriors_ga	dw_longbeards	0	G	dw_longbeards	cara del modelo hacia el frente
+dw_sapper	x_dw_engineer	0	G	dw_engineer	cara del modelo hacia el frente
+dw_thunderers_em	x_dw_thunderers	0	G	dw_thunderers	cara del modelo hacia el frente
+woc_chieftain	x_woc_aspiring	0	G	woc_aspiring	cara del modelo hacia el frente
+woc_berserkers	x_woc_marauders	0	G	woc_marauders	cara del modelo hacia el frente
+woc_chieftain_horse	x_woc_chieftain_horse	0	M	woc_chieftain_horse	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_huscarls	x_woc_horsemen	0	G	woc_horsemen	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_centigors_sons	x_bm_centigors	0	G	bm_centigors	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_skinwolves	woc_trolls	0	G	woc_trolls	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_chosen_chariot	x_woc_chosen_chariot	0	M	woc_chosen_chariot	cabeza del caballo de tiro a la derecha en perfil: frente = flecha
+woc_marauders_amb	x_woc_marauders	0	G	woc_marauders	cara del modelo hacia el frente
+woc_marauders_gw_amb	x_woc_marauders	0	G	woc_marauders	cara del modelo hacia el frente
+woc_horsemen_amb	x_woc_horsemen	0	G	woc_horsemen	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_aspiring_amb	x_woc_aspiring	0	G	woc_aspiring	cara del modelo hacia el frente
+woc_marauders_famb	x_woc_marauders	0	G	woc_marauders	cara del modelo hacia el frente
+woc_marauders_gw_famb	x_woc_marauders	0	G	woc_marauders	cara del modelo hacia el frente
+woc_horsemen_famb	x_woc_horsemen	0	G	woc_horsemen	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_guardchariot	x_tk_chariot	3.1416	G	tk_chariot	carro esqueleto: bestias de tiro a la izquierda del eje (captura de perfil) -> giro 180°
+tk_archnecro	x_tk_necrotect	0	G	tk_necrotect	cara del modelo hacia el frente
+tk_vushabti	x_tk_ushabti	0	G	tk_ushabti	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_necroserpent	x_tk_necroknights	0	C	convención	convención: serpiente: perfil ambiguo
+bm_primalhounds	x_bm_hounds	0	G	bm_hounds	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_hhandler	x_woc_hhandler	0	M	woc_hhandler	cara del modelo hacia el frente
+bm_ravager	x_bm_ungor	0	G	bm_ungor	cara del modelo hacia el frente
+lm_skinkhandler	x_lm_skinkhandler	0	M	lm_skinkhandler	cara del modelo hacia el frente
+we_beastkeeper	procedural	0	C	proc	cara del modelo hacia el frente
+squig_herder	squig_herd	0	G	squig_herd	cara del modelo hacia el frente
+sk_packmaster	x_sk_packmaster	0	M	sk_packmaster	cara del modelo hacia el frente
+sk_thingscatcher	procedural	0	C	proc	cara del modelo hacia el frente
+bm_warherd	x_bm_gor	0	G	bm_gor	cara del modelo hacia el frente
+bm_warherd_u	x_bm_ungor	0	G	bm_ungor	cara del modelo hacia el frente
+bm_warherd_shtw	x_bm_gor	0	G	bm_gor	cara del modelo hacia el frente
+bm_warherd_shtw_u	x_bm_ungor	0	G	bm_ungor	cara del modelo hacia el frente
+bm_warherd_awth	x_bm_gor_aw	0	G	bm_gor_aw	cara del modelo hacia el frente
+bm_warherd_awth_u	x_bm_ungor	0	G	bm_ungor	cara del modelo hacia el frente
+bm_warherd_awtw	x_bm_gor_aw	0	G	bm_gor_aw	cara del modelo hacia el frente
+bm_warherd_awtw_u	x_bm_ungor	0	G	bm_ungor	cara del modelo hacia el frente
+lm_oldblood_carno	x_lm_oldblood_carno	0	M	lm_oldblood_carno	cabeza de la montura/monstruo (y jinete) hacia el frente
+lm_scar_carno	x_lm_scar_carno	2.3562	M	lm_scar_carno	Carnosaurio (Scar-Veteran): la malla está posada a 45° respecto al eje de la peana; con yaw 3π/4 la cabeza queda sobre la flecha en las vistas cenitales a135 y a225 (comprobadas yaw 0, ±π/2, π, 2.0, 2.36, 2.7)
+woc_spawn_khorne	x_woc_spawn	0	G	woc_spawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_spawn_nurgle	x_woc_spawn	0	G	woc_spawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_spawn_slaanesh	x_woc_spawn	0	G	woc_spawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_spawn_tzeentch	x_woc_spawn	0	G	woc_spawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_prophet_lammasu	x_cd_prophet_taurus	0	G	cd_daemonsmith_lammasu	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_prophet_bale	x_cd_prophet_taurus	0	G	cd_daemonsmith_lammasu	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_daemonsmith_lammasu	x_cd_prophet_taurus	0	M	cd_daemonsmith_lammasu	cabeza de la montura/monstruo (y jinete) hacia el frente
+cd_mortar_hb	x_cd_mortar	0	G	cd_mortar	boca del arma/máquina hacia el frente
+cd_rocket_hb	x_cd_rocket	0	G	cd_rocket	boca del arma/máquina hacia el frente
+cd_magma_hb	x_cd_magma	0	G	cd_magma	boca del arma/máquina hacia el frente
+bm_gor_amb	x_bm_gor	0	G	bm_gor	cara del modelo hacia el frente
+bm_gor_aw_amb	x_bm_gor_aw	0	G	bm_gor_aw	cara del modelo hacia el frente
+bm_ungor_amb	x_bm_ungor	0	G	bm_ungor	cara del modelo hacia el frente
+bm_ungor_bow_amb	x_bm_ungor_bow	0	G	bm_ungor_bow	cara del modelo hacia el frente
+dw_cannon_ff	x_dw_cannon	0	G	dw_cannon	boca del arma/máquina hacia el frente
+dw_organ_ff	dw_organ	0	G	rc_organ	boca del arma/máquina hacia el frente
+dw_flame_ff	x_dw_flame	0	G	dw_flame	boca del arma/máquina hacia el frente
+tk_skirmishers_amb	x_tk_skirmishers	0	G	tk_skirmishers	cara del modelo hacia el frente
+tk_horse_archers_cr	x_tk_horse_archers	0	G	tk_horse_archers	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_horse_archers_mo	x_tk_horse_archers	0	G	tk_horse_archers	cabeza de la montura/monstruo (y jinete) hacia el frente
+dw_slayers_g	x_dw_slayers	0	G	dw_slayers	cara del modelo hacia el frente
+state_troops	x_state_swords	0	M	state_troops	cara del modelo hacia el frente
+state_vets	x_state_veterans	0	M	state_vets	cara del modelo hacia el frente
+night_gobs	x_night_goblins	0	M	night_gobs	cara del modelo hacia el frente
+boar_riders	x_boar_boyz	0	M	boar_riders	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_duke_foot	br_realm_foot	0	M	br_duke_foot	cara del modelo hacia el frente
+br_duke_peg	x_br_pegasus	0	C	convención	convención: perfil ambiguo
+br_duke_rpeg	x_br_baron_pegasus	0	C	convención	convención: perfil ambiguo
+br_baron_foot	br_realm_foot	0	G	br_duke_foot	cara del modelo hacia el frente
+br_baron_peg	x_br_pegasus	0	C	convención	convención: perfil ambiguo
+br_baron_hippo	x_br_duke_hippo	0	M	br_baron_hippo	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_paladin_foot	br_realm_foot	0	G	br_duke_foot	cara del modelo hacia el frente
+br_paladin_peg	x_br_pegasus	0	C	convención	convención: perfil ambiguo
+br_paladin_rpeg	x_br_baron_pegasus	0	C	convención	convención: perfil ambiguo
+br_prophetess_war16	x_br_prophetess_war	0	G	br_damsel_war12	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_damsel_war16	x_br_prophetess_war	0	G	br_damsel_war12	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_prophetess_war12	x_br_prophetess_war	0	G	br_damsel_war12	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_damsel_war12	x_br_prophetess_war	0	M	br_damsel_war12	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_prophetess_uni	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_damsel_uni	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_prophetess_rpeg	x_br_baron_pegasus	0	C	convención	convención: perfil ambiguo
+br_sergeant_mtd	br_baron	0	G	br_baron	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_garrison_eagle	x_he_noble_eagle	0	G	he_noble_eagle	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_garrison_griffon	x_he_noble_griffon	0	G	he_noble_griffon	cabeza de la montura/monstruo (y jinete) hacia el frente
+he_garrison_skycutter	he_skycutter	0	G	he_skycutter	bestias de tiro delante, tripulación detrás
+he_garrison_skycutter_amb	he_skycutter	0	G	he_skycutter	bestias de tiro delante, tripulación detrás
+woc_lord_cchariot	x_woc_lord_chariot	3.1416	G	woc_lord_chariot	carro del Caos: bestia de tiro a la izquierda, tripulación a la derecha -> giro 180°
+woc_exalted_cchariot	x_woc_lord_chariot	3.1416	G	woc_lord_chariot	carro del Caos: bestia de tiro a la izquierda, tripulación a la derecha -> giro 180°
+woc_aspiring_cchariot	x_woc_aspiring_cchariot	3.1416	M	woc_aspiring_cchariot	carro (Chosen): bestias a la izquierda -> giro 180°
+tk_cohort	tk_warriors	0	G	tk_warriors	cara del modelo hacia el frente
+tk_cohort_ph	tk_warriors	0	G	tk_warriors	cara del modelo hacia el frente
+tk_cohort_a	x_tk_archers	0	G	tk_archers	cara del modelo hacia el frente
+tk_cohort_cav	x_tk_horsemen	0	G	tk_horsemen	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_cohort_cav_cc	x_tk_horsemen	0	G	tk_horsemen	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_cohort_ca	x_tk_horse_archers	0	G	tk_horse_archers	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_cohort_ca_cc	x_tk_horse_archers	0	G	tk_horse_archers	cabeza de la montura/monstruo (y jinete) hacia el frente
+emp_harald	x_emp_grandmaster	0	G	emp_grandmaster	cabeza de la montura/monstruo (y jinete) hacia el frente
+emp_hans	x_emp_grandmaster	0	G	emp_grandmaster	cara del modelo hacia el frente
+dw_thorgrim	x_dw_king	0	G	dw_king	cara del modelo hacia el frente
+dw_ungrim	x_dw_king	0	G	dw_king	cara del modelo hacia el frente
+dw_burlok	x_dw_king	0	G	dw_king	cara del modelo hacia el frente
+woc_frydaal	woc_lord	0	G	woc_lord	cara del modelo hacia el frente
+tk_apophas	x_tk_king	0	G	tk_king	cara del modelo hacia el frente
+tk_nekaph	x_tk_king	0	G	tk_king	cara del modelo hacia el frente
+bm_kralmaw	bm_gbs	0	G	bm_gbs	cara del modelo hacia el frente
+bm_ghorros	x_bm_ghorros	0	M	bm_ghorros	cabeza de la montura/monstruo (y jinete) hacia el frente
+tk_settra	x_tk_king_chariot	3.1416	G	tk_king_chariot	carro del rey: bestias de tiro a la izquierda -> giro 180°
+woc_gspawn	x_bm_gspawn	0	M	woc_gspawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_gspawnk	x_bm_gspawn	0	G	woc_gspawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_gspawnn	x_bm_gspawn	0	G	woc_gspawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_gspawns	x_bm_gspawn	0	G	woc_gspawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_gspawnt	x_bm_gspawn	0	G	woc_gspawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_gspawn	x_bm_gspawn	0	G	woc_gspawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_gspawnk	x_bm_gspawn	0	G	woc_gspawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_gspawnn	x_bm_gspawn	0	G	woc_gspawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_gspawns	x_bm_gspawn	0	G	woc_gspawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_gspawnt	x_bm_gspawn	0	G	woc_gspawn	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_preyton	x_bm_preyton	0	C	convención	convención: perfil ambiguo
+bm_preyton_amb	x_bm_preyton	0	C	convención	convención: perfil ambiguo
+bm_preyton_fr	x_bm_preyton	0	C	convención	convención: perfil ambiguo
+woc_warpfire	x_woc_lord_dragon	0	G	woc_galrauch	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_warpfire_w1	x_woc_lord_dragon	0	G	woc_galrauch	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_warpfire_w2	x_woc_lord_dragon	0	G	woc_galrauch	cabeza de la montura/monstruo (y jinete) hacia el frente
+war_wagon	x_steam_tank	0	G	steam_tank	bestias de tiro delante, tripulación detrás
+emp_engineer_wagon	x_steam_tank	0	G	steam_tank	bestias de tiro delante, tripulación detrás
+dm_herald_slaanesh_w1	x_dm_herald_slaanesh	0	G	dm_herald_slaanesh	cara del modelo hacia el frente
+dm_herald_slaanesh_w2	x_dm_herald_slaanesh	0	G	dm_herald_slaanesh	cara del modelo hacia el frente
+dm_herald_slaanesh_steed_w1	x_dm_herald_slaanesh_steed	0	G	dm_herald_slaanesh_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_herald_slaanesh_steed_w2	x_dm_herald_slaanesh_steed	0	G	dm_herald_slaanesh_steed	cabeza de la montura/monstruo (y jinete) hacia el frente
+ct_lanterns_hail	x_ct_ironhail	0	M	ct_lanterns_hail	bestias de tiro delante, tripulación detrás
+ct_lanterns_amb_hail	x_ct_ironhail	0	G	ct_lanterns_hail	bestias de tiro delante, tripulación detrás
+cd_blackboss	x_black_bigboss	0	M	cd_blackboss	cara del modelo hacia el frente
+cd_blackorcs	x_black_orcs	0	M	cd_blackorcs	cara del modelo hacia el frente
+cd_hellcannon	x_woc_hellcannon	0	G	woc_hellcannon	boca del arma/máquina hacia el frente
+vc_risen	x_vc_zombies	0	G	vc_zombies	cara del modelo hacia el frente
+dm_burning	x_dm_burning	0	G	dm_burningchariot	bestias de tiro delante, tripulación detrás
+de_scourge	x_de_scourge	0	M	de_scourge	bestias de tiro delante, tripulación detrás
+de_coldchariot	woc_gorechariot	0	G	woc_gorechariot	gorebestia delante (derecha), tripulación detrás: frente = flecha
+cd_sneakygits	x_cd_sneakygits	0	M	cd_sneakygits	cara del modelo hacia el frente
+vc_necro_terror	x_vc_count_terror	0	C	convención	convención: Terror: perfil ambiguo
+vc_necro_dragon	x_vc_count_dragon	0	G	vc_count_dragon	cabeza de la montura/monstruo (y jinete) hacia el frente
+vc_thrall_coven	x_vc_thrall_coven	0	M	vc_thrall_coven	bestias de tiro delante, tripulación detrás
+vc_ghoulking_terror	x_vc_terrorgheist	0	C	convención	convención: perfil ambiguo
+vc_necro_mortis	x_vc_mortis	0	M	vc_necro_mortis	bestias de tiro delante, tripulación detrás
+vc_acolyte_mortis	x_vc_mortis	0	G	vc_necro_mortis	bestias de tiro delante, tripulación detrás
+vc_acolyte_nightmare	x_vc_necro_nightmare	0	G	vc_necro_nightmare	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_wtroll	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+bm_wmerc_hw	procedural	0	C	proc	cara del modelo hacia el frente
+bm_wmerc_sb	procedural	0	C	proc	cara del modelo hacia el frente
+bm_cart	procedural	0	C	proc	bestias de tiro delante, tripulación detrás
+rc_prince	x_empire_captain	0	G	empire_captain	cara del modelo hacia el frente
+rc_prince_h	x_empire_general_h	0	G	empire_general_h	cabeza de la montura/monstruo (y jinete) hacia el frente
+rc_captain	x_empire_captain	0	G	empire_captain	cara del modelo hacia el frente
+rc_captain_h	x_empire_general_h	0	G	empire_general_h	cabeza de la montura/monstruo (y jinete) hacia el frente
+rc_wizard1	x_empire_mage	0	G	empire_mage	cara del modelo hacia el frente
+rc_wizard1_h	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+rc_wizard2	x_empire_mage	0	G	empire_mage	cara del modelo hacia el frente
+rc_wizard2_h	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+rc_wizard3	x_empire_mage	0	G	empire_mage	cara del modelo hacia el frente
+rc_wizard3_h	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+rc_sellswords	x_state_swords	0	G	state_troops	cara del modelo hacia el frente
+rc_vsellswords	x_state_veterans	0	G	state_vets	cara del modelo hacia el frente
+rc_sellswords_ph	x_state_swords	0	G	state_troops	cara del modelo hacia el frente
+rc_vsellswords_ph	x_state_veterans	0	G	state_vets	cara del modelo hacia el frente
+rc_freeblades	x_empire_knights	0	G	empire_knights	cabeza de la montura/monstruo (y jinete) hacia el frente
+rc_vfreeblades	x_empire_knights	0	G	empire_knights	cabeza de la montura/monstruo (y jinete) hacia el frente
+rc_outriders	x_pistoliers	0	G	pistoliers	cabeza de la montura/monstruo (y jinete) hacia el frente
+rc_mortar	x_mortar	0	G	mortar	boca del arma/máquina hacia el frente
+rc_organ	dw_organ	0	M	rc_organ	boca del arma/máquina hacia el frente
+rc_bombard	x_great_cannon	0	C	convención	convención: cañón: perfil ambiguo
+rc_brigands	x_br_men_at_arms	0	M	rc_brigands	cara del modelo hacia el frente
+br_outcast2	x_br_outcast	0	G	br_outcast	cara del modelo hacia el frente
+br_outcast_h	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_outcast2_h	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+br_outcast3_h	procedural	0	C	proc	cabeza de la montura/monstruo (y jinete) hacia el frente
+emp_general_igriffon	x_emp_general_igriffon	0	M	emp_general_igriffon	Grifo imperial: cabeza blanca sobre la flecha en las vistas cenitales a135 y a225 (yaw 0)
+woc_exalted_manticore	woc_lord_manticore	0	G	woc_lord_manticore	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_exalted_dragon	x_woc_lord_dragon	0	G	woc_galrauch	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_lord_daemon	x_woc_lord_daemon	0	M	woc_lord_daemon	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_exalted_daemon	x_woc_exalted_daemon	0	M	woc_exalted_daemon	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_aspiring_daemon	x_woc_aspiring_daemon	0	M	woc_aspiring_daemon	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_sorc_daemon	x_woc_sorc_daemon	0	M	woc_sorc_daemon	cabeza de la montura/monstruo (y jinete) hacia el frente
+woc_exsorc_daemon	x_woc_exsorc_daemon	0	M	woc_exsorc_daemon	cabeza de la montura/monstruo (y jinete) hacia el frente
+dm_herald_slaanesh_chariot_w1	x_dm_herald_slaanesh_chariot	0	G	dm_herald_slaanesh_chariot	bestias de tiro delante, tripulación detrás
+dm_herald_slaanesh_chariot_w2	x_dm_herald_slaanesh_chariot	0	G	dm_herald_slaanesh_chariot	bestias de tiro delante, tripulación detrás
+dm_herald_slaanesh_exalted_w1	x_dm_seekerchariot	0	G	dm_herald_slaanesh_exalted	bestias de tiro delante, tripulación detrás
+dm_herald_slaanesh_exalted_w2	x_dm_seekerchariot	0	G	dm_herald_slaanesh_exalted	bestias de tiro delante, tripulación detrás
+he_noble_tiranoc	x_he_prince_tiranoc	0	G	he_prince_tiranoc	bestias de tiro delante, tripulación detrás

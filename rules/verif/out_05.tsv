@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+aj_orcs2.tsv	aj_orcs2-097	CONFIRMA	data.js SPELLS.troll_brainz cv9 rango15 hex; rules.js:4399 aplica Estupidez(confound)+brainz permanece (rip); rules.js:1714 -1 Ld
+core_8.tsv	core_8-091	CONFIRMA	data.js pot_str potion S 25 pts; rules.js accion drink (fase estrategia, jugador elige) fx potS D3; rules.js:4783 S min(10); caduca fin de turno (rules.js:6221)
+aj_empire2.tsv	aj_empire2-087	CONFIRMA	"data.js:3680 imp_ogres opcion op: 24"" F4 FP-1 ab1 quickShot, 5 pts; Ogros Imperiales merc"
+aj_beasts2.tsv	aj_beasts2-143	CONFIRMA	data.js bmaj_tapestry 15 pts grant hatred + tapestry:true; rules.js:4918 hatred del enemigo si bannersOf(e) tapestry
+leg_daemons.tsv	leg_daemons-117	CONFIRMA	data.js:1972 dm_keeper: large, stomp D3, terror, swiftstride, indom2, unstable, legacyLore (data.js:5427); nivel1 y Golpea primero/Golpe letal en data.js:5880
+dawn_renegade_sc.tsv	sc_shores-005	CONFIRMA	"data.js/rules.js:254 SC.marks (3 marcadores 18/12"" y garnicion) colocados en setup tras terreno (rules.js:372) y apartando terreno 3""; antes del despliegue"
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-008	CONFIRMA	data.js:4866 armyIssues: core minimo 25% por defecto (cm 0.25) para lista grand
+leg_darkelves.tsv	leg_darkelves-230	PARCIAL	"rules.js:4580 repite automaticamente el primer lanzamiento fallido (hekDone); el jugador no elige cuando usar la unica repeticion (""may re-roll"")"
+leg_vampires.tsv	leg_vampires-015	PARCIAL	data.js:4699 catsOf mueve Vargheists y Terrorgheist a Especial si hay cualquier Rey Ghoul (vc_ghoulking) en el ejercito; no exige que sea el General
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-248	CONFIRMA	data.js:2931 cdl_dagger noFrenzyLoss + grant frenzy/hatred; rules.js:159 has1 respeta noFrenzyLoss
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-253	CONFIRMA	data.js:2936 cdl_hellshard; rules.js:5535 al caer a 0 modelos el portador, atacante sufre D6 impactos F5 FP-1 (woundAndSave)
+aj_highelves.tsv	aj_highelves-124	PARCIAL	rules.js:4845 -1 F (min 1) a TODA la unidad enemiga trabada con el Merwyrm, no solo a modelos en contacto de peana
+leg_darkelves.tsv	leg_darkelves-204	CONFIRMA	data.js:1672 de_kharibdyss melee ap2 + slots [n1 ab1 kb, resto poison]; rules.js:4893 hereda FP-2 en ambas armas
+aj_chaos2.tsv	aj_chaos2-139	CONFIRMA	data.js:4476 Engendro Gigante M3D6 HA3 HP0 F6 R6 H6 I3 A 1+D6 Ld10 ppm145, armadura pesada, talons ab2 ap1
+faq_core_2.tsv	F2-061	PARCIAL	rules.js:3853 assail -> engagedWith(unidad): basta que la unidad este trabada; no se comprueba que el mago este en la fila de combate
+core_2.tsv	C2-082	CONFIRMA	data.js:392 us=W para monCreature/behemoth; rules.js:221 usOf maquinas = startModels*W (heridas iniciales)
+core_8.tsv	core_8-004	CONFIRMA	data.js:2415 dm_familiars assail cv8 2D6 F2 noArmour (sin noRegen); rules.js:4164 pasa noArmour, Ward/Regen permitidas
+cathay.tsv	cathay_aj-001	CONFIRMA	data.js:4867 armyIssues: Personajes max 50% (by.char > limit*0.5)
+leg_skaven.tsv	leg_skaven-130	CONFIRMA	data.js:1805 Ogros Rata handR sk_packmaster cost 5 maxPer 0.5 (uno por cada dos)
+cathay.tsv	cathay_aj-076	CONFIRMA	data.js:2210/2216 ct_magistrate_lantern 200=65+135, ct_strategist_lantern 175=40+135 (Sky Lantern 135 en cathay_notes)
+aj_empire2.tsv	aj_empire2-126	CONFIRMA	data.js:4116 ord_morr con spec (Gran Maestre, Maestre, Circulo Interior) addSr fear+magical
+core_3.tsv	c3-086	CONFIRMA	rules.js:2273-2274 reordenar filas cuesta M/2 con |dFiles|<=5, no al marchar; mas de 5 solo reformar
+core_3.tsv	c3-170	PARCIAL	"rules.js:5338-5341 reparte ataques automaticamente proporcional a modelos en contacto, a partes iguales si no hay contacto; sin eleccion del jugador ni ""mas cercana"""
+aj_beasts2.tsv	aj_beasts2-095	CONFIRMA	data.js:2480 CMD bm_gor [7,5,5] (Foe-render/estandarte/musico)
+aj_empire2.tsv	aj_empire2-012	CONFIRMA	data.js:3561 INF.nuln.allow: General, Lector, Capitan, Mago maestro, Cazador de Brujas, Sacerdote Sigmar, Ingeniero; 0-1 Altar (chk)
+faq_libros.tsv	Q25	PARCIAL	rules.js:3030 contra Lanza usa filas totales (OK) pero tambien en flanco; FAQ pide la fila mas ancha (lanza incompleta p.ej. 1,2,3,1: 4 filas vs 3 de ancho)
+aj_bretonnia.tsv	aj_bretonnia-028	CONFIRMA	data.js:4866 core min 25% por defecto para lista exiles (no esta en INF)
+leg_darkelves.tsv	leg_darkelves-025	CONFIRMA	data.js:1585 de_dreadlord ib:100 (objetos magicos 100)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-035	CONFIRMA	data.js:2134 cd_prophet_taurus 315=195+120 (Gran Taurus) y variante cd_prophet_bale 355=195+160 con +1T +4H
+leg_daemons.tsv	leg_daemons-151	CONFIRMA	data.js:1975 dm_lordchange M6 HA6 HP6 F6 R6 H6 I6 A4 Ld9 310 pts
+aj_tk2.tsv	aj_tk2-078	CONFIRMA	data.js:3333/4390 tk_cohort hereda CMD [5,5,5]; unitCost verificado: campeon+estandarte+musico = +15
+leg_darkelves.tsv	leg_darkelves-123	PARCIAL	data.js:3930-3956 lim:1 es por opcion y por tipo de unidad (hasta 3 unidades distintas, una por opcion); la fuente dice 0-1 unidad para el conjunto
+faq_libros.tsv	R22	AUSENTE	data.js:2387-2388 torrent_filth cv 8 y rapid_regen cv 9; la FAQ exige 7+ y 8+, no aplicado
+leg_lizardmen.tsv	leg_lizardmen-061	CONFIRMA	data.js:3235 CHAMP_IB lm_temple 50 (objetos del campeon Guardian Venerado) con champView/duelSwing
+aj_tk2.tsv	aj_tk2-019	CONFIRMA	data.js:3324 itemFacOk: objetos comunes (sin fac) o fac tk
+aj_chaos2.tsv	aj_chaos2-148	PARCIAL	"data.js:4476 maw {ap2 ab2 heal last} OK (golpea ultimo, cura); pero rules.js:5466 la usa siempre sin dejar elegir al jugador (""may choose"")"
+leg_daemons.tsv	leg_daemons-059	PARCIAL	data.js:2001 dm_bloodcrushers: sin Hellblades ni pezuñas PA-2 como armas; solo piel ligera+barding+hide, impactos
+aj_wood2.tsv	aj_wood2-060	CONFIRMA	data.js:720 we_orion: cloakIsha ward5, hornHunt (accion jugador rules.js:7339), ranged Garra de Halcon F, FP-1 D3+1 magico, Lanza Kurnous F+1 FP-2 D3 y perfil a distancia
+faq_core_2.tsv	F2-024	CONFIRMA	data.js:2560 berserker S+1 A+1 grant impetuous; has0 aplica grants de objetos
+faq_core_4.tsv	FC4-51	PARCIAL	rules.js:1966 def.frog fuerza T1 para todo el modelo montado (tambien la montura); rules.js:4910 conserva ataques de montura pero no su Resistencia
+leg_daemons.tsv	leg_daemons-286	PARCIAL	data.js:1988/2008 garras solo en Demonetas y Buscadores; Heraldo de Slaanesh y Engendros (que la tienen en fuente) sin garras; carros sin ellas
+battlemarch_quickref.tsv	battlemarch-045	CONFIRMA	data.js:6272 state_troops 20 champ+std+mus+escudo; unitCost = 135
+aj_chaos2.tsv	aj_chaos2-025	CONFIRMA	data.js:3579 chk wolves: woc_exalted/woc_ex_sorc > per (1 por 1.000)
+faq_libros.tsv	RQ26	CONFIRMA	rules.js:2008/2929 usa some() sobre lightProt: efecto no acumulable; 4392 reemplaza fx
+faq_core_3.tsv	21	CONFIRMA	rules.js:4981 el desafio solo se anula si ya no hay contacto/enemigo; persiste si se cede o sigue
+leg_daemons.tsv	leg_daemons-081	PARCIAL	rules.js:1033 descarta siempre el ULTIMO hechizo generado y, si el jugador no elige (legSp), sustituye al azar; no puede declinar ni elegir cual descartar
+leg_darkelves.tsv	leg_darkelves-221	CONFIRMA	data.js:3000 del_egg uso unico, accion Mando (rules.js:7680) fx eggT T6 hasta fin de turno + aliento nocivo NOXBR (rules.js:1740)
+core_4.tsv	C4-055	CONFIRMA	rules.js:7048 diffFrac incluye forest, swamp, diff, danger como dificil
+aj_empire2.tsv	aj_empire2-068	CONFIRMA	data.js:3651 emp_harbinger sr zealot; rules.js:7004-7005 solo une a unidad con fanatZeal
+aj_orcs2.tsv	aj_orcs2-064	CONFIRMA	rules.js:5705 motherlyAttack 5-6: D6+1 impactos F noArmour (ward/regen permitidos) + mitherK -1 Ld hasta fin de turno (rules.js:1663)

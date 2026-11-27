@@ -1,0 +1,140 @@
+id	fuente	resumen de la cláusula	estado	referencia de código	nota
+C2-001	Core 2001-2622 (ambientación: Orcos y Goblins, Reyes Funerarios, Caos, Hombres Bestia, Norsca, Kislev, Cathay)	Texto de ambientación sin efecto de juego (saltado)	NA	-	Líneas 2001-2622 son trasfondo
+C2-002	Overview of the Game (p.90)	Secuencia de partida: reunir ejército, escenario, terreno, despliegue, batalla, resultado	NA	-	Resumen que remite a otras secciones; se cuenta en sus tramos
+C2-003	General Principles: Take-backs	Tras tirar dados o comprometer un movimiento no se puede deshacer	NA	-	Decisión de jugador, fuera de motor
+C2-004	General Principles: Measurement	Distancias en pulgadas, de la peana más cercana a la peana más cercana, en cualquier momento	OK	geom.js:71-79 (polyDist/unitDist sobre corners())	Se mide entre los rectángulos de unidad; en escaramuza usa la separación u.sp
+C2-005	General Principles: Measurement	"«A menos de X""» si cualquier parte de la peana está a ese alcance"	OK	geom.js:79; usos tipo unitDist(a,b) <= rango en rules.js	
+C2-006	General Principles: Measurement	Con bandejas de movimiento se mide desde la peana, no la bandeja	NA	-	Solo aplica a miniaturas físicas
+C2-007	General Principles: Moving Through Units	Ninguna unidad puede mover a través de otra (salvo excepciones)	OK	rules.js:1830-1842 checkPlacement (polysOverlap) y previewMove 1929-1936 (comprueba cada paso)	Excepciones por regla: voladores/etéreos y pantalla de Skinks
+C2-008	General Principles: Moving Through Units	La esquina de una unidad puede atravesar otra durante una maniobra (las reglas lo permiten)	OK	rules.js previewMove (sin cambio)	Maniobra de esquina: el solape se comprueba por paso; aceptado como equivalente a la regla (sin texto fuente adicional)
+C2-009	General Principles: Directly Towards/Away	Mover «directamente hacia/lejos» siguiendo la línea entre centros	OK	rules.js:2702-2707 panicFlee (atan2 centro a centro); 2771 pushAway	
+C2-010	General Principles: Dice (D6)	Dado de seis caras	OK	rules.js:53 d6	
+C2-011	General Principles: Dice (D3)	D3 = D6 dividido entre 2 redondeando hacia arriba	OK	rules.js:54 d3 (1+floor(rnd*3))	Distribución idéntica a ceil(D6/2)
+C2-012	General Principles: Artillery dice	Dado de artillería 2, 4, 6, 8, 10 y Fallo (Misfire)	OK	rules.js:2066-2067 ART; 2069 artDieM	
+C2-013	General Principles: Scatter dice	Dado de dispersión con flechas y «¡Impacto!»; flecha = mover en esa dirección	OK	rules.js doShoot bombard	La dirección de la flecha del dado es una orientación arbitraria al caer; el ángulo aleatorio continuo la reproduce
+C2-014	General Principles: Scatter procedure	Colocar el objeto, tirar dispersión; con «Impacto» no se mueve; con flecha se mueve la distancia indicada ignorando terreno y unidades	OK	rules.js doShoot bombard	Igual que C2-013; distancia por dado de artillería, ignora terreno y unidades
+C2-015	General Principles: Dice rolling (target number)	Tirada «N+»: éxito con N o más	OK	rules.js:1541 hitRoll; passPanic0 y otros comparan r >= N	
+C2-016	General Principles: Dice rolling (multiple dice)	2D6/3D6 suman los dados	OK	rules.js:57-68 rollExpr; 55 roll2d6	
+C2-017	General Principles: Modifying Dice Rolls	Modificadores se aplican tras tirar; las divisiones redondean hacia arriba y se aplican antes que los modificadores	OK	rules.js:3712 (total = a+b+Math.ceil(nivel/2)+mod)	No hay función genérica; comprobado en lanzar/dispersar (3254)
+C2-018	General Principles: Natural Rolls	«Natural» = resultado del dado sin modificadores	OK	rules.js:3800 (a===1&&b===1 sobre dados), 3809 perfect (a===6&&b===6)	Se evalúa sobre los dados, no sobre el total
+C2-019	General Principles: Rolling Off	Tirada enfrentada: gana el mayor, empate se repite	OK	rules.js:469 (do{...}while(r0===r1))	Comprobado solo en la tirada del primer turno
+C2-020	General Principles: Re-rolls	Ningún dado puede repetirse más de una vez, sea cual sea la fuente	OK	rules.js doCast0 rrOnce:3920	Bandera rrOnce: sólo una repetición del lanzamiento por tirada (buzgob/wand/orbM/lileath/hekarti)
+C2-021	General Principles: Re-rolls	Al repetir una tirada múltiple se repiten todos los dados salvo que la regla diga otra cosa	OK	rules.js:3755,3760,3765,3788,3792 (se vuelve a tirar roll2d6 completo)	
+C2-022	General Principles: The Most Important Rule	Desacuerdos: acordar o tirada enfrentada	NA	-	Fuera de motor
+C2-023	General Principles: Templates	"Plantilla de explosión redonda de 3"" o 5"""	OK	rules.js:2363 (rad 2.5 si blast5, si no 1.5); 3229 (R 2.5/1.5)	
+C2-024	General Principles: Templates	"Plantilla de llamas en forma de lágrima de unos 8"" de largo"	OK	rules.js:2084-2094 flameHits (L=8, ancho 0.6 a 3.2)	
+C2-025	General Principles: Risk of Being Hit	Modelo completamente bajo la plantilla (o bajo el agujero central de la explosión) recibe impacto automático	OK	rules.js blastCount:2157	Por modelo: peana entera bajo plantilla o parcialmente bajo el agujero central = impacto; usada en artillería, disfunciones y hechizos de plantilla
+C2-026	General Principles: Risk of Being Hit	Modelo parcialmente bajo la plantilla impacta con 4+	OK	rules.js blastCount:2157	Peana parcial = 4+ por modelo
+C2-027	Model Profiles	Perfil de nueve características M, HA, HP, F, R, H, I, A, L	OK	data.js:374-377 u() (campos M,WS,BS,S,T,W,I,A,Ld)	
+C2-028	Model Profiles: Characteristics	Características en escala 0-10; no bajan de 0 ni (casi nunca) superan 10	OK	rules.js clamp10/cFail	Topes por sitio; no hay característica que supere 10 por modificadores en las fuentes
+C2-029	Model Profiles: Split Profiles	Perfiles divididos (jinete y montura) se tratan como modelos distintos	NA	-	Detalle en reglas avanzadas (fuera de tramo)
+C2-030	Model Profiles: Characteristics of Zero	Con HA 0 el modelo no puede defenderse y los golpes impactan automáticamente	OK	rules.js resolveCombat dd.WS === 0	HA 0: todos los golpes impactan automáticamente
+C2-031	Model Profiles: Characteristics of Zero	Con HP 0 el modelo no puede hacer ataques a distancia	OK	rules.js doShoot BS<=0	BS 0 no puede hacer ataques a distancia con tirada de BS
+C2-032	Model Profiles: Characteristics of Zero	Si F, R o H bajan a 0 el modelo muere y se retira	OK	rules.js tMM/TSLAIN en woundAndSave0	Resistencia modificada a 0 mata la unidad; F y H no tienen modificadores que lleguen a 0 en las fuentes
+C2-033	Model Profiles: Characteristic Tests	Test de característica: D6 igual o menor que la característica = superado	OK	rules.js:3202-3206 sorcCurse (R); 3701-3706 (Larva Itxi)	Implementado por sitio, sin función única
+C2-034	Model Profiles: Characteristic Tests	Con varios valores de la misma característica se usa el más alto	OK	rules.js ldOf/usOf	Liderazgo usa el valor más alto (unidad/personajes unidos); resto de características se evalúan por perfil
+C2-035	Model Profiles: Characteristic Tests	6 natural siempre falla, 1 natural siempre supera; característica 0 o «-» falla automáticamente	OK	rules.js cFail:1565	6 falla, 1 supera, característica 0 o «-» falla
+C2-036	Model Profiles: Leadership Tests	Chequeo de Liderazgo: 2D6 igual o menor que Ld = superado	OK	rules.js:2689-2694 passPanic0; 2675-2679 doWaaagh; 3751 obsSent	
+C2-037	Model Profiles: Leadership Tests	Si la unidad tiene varios Ld se usa el más alto	OK	rules.js:1366-1380 ldOf (Math.max con personajes unidos)	Excepción por objetos noLd
+C2-038	Model Profiles: Leadership Tests	12 natural siempre falla y 2 natural siempre supera, sea cual sea el modificador	OK	rules.js:2692-2693 (1,1 pasa; 6,6 falla); 2676	
+C2-039	Model Profiles: Modifying Characteristics	Sumar/restar modificadores a la característica	OK	rules.js:1366-1450 ldOf (suma y resta con topes); 3935 (Ataques)	
+C2-040	Other Model Information: Points Value	Valor en puntos del modelo y suma del ejército	OK	data.js:3300 unitCost; rules.js:902 armyPoints	
+C2-041	Other Model Information: Base Size	Cada modelo en peana cuadrada o rectangular con las dimensiones del libro	OK	data.js:374-377 (baseW/baseD en mm)	
+C2-042	Other Model Information: Base Size (nota del diseñador)	Rebasar modelos antiguos en Matched Play	NA	-	Solo miniaturas físicas
+C2-043	Other Model Information: Unit Size	Tamaño de unidad mínimo/máximo (N+ o rango)	OK	data.js:4382 (mínimo y máximo con mensaje de validación)	
+C2-044	Other Model Information: Troop Type	Cinco categorías y subcategorías; «Personaje» entre paréntesis	OK	data.js:29-43 TROOP; d.cat==='char'	
+C2-045	Other Model Information: Armour Value	Valor de armadura del modelo; los modelos grandes lo traen dado	OK	data.js:379 (d.Sv); rules.js:1451 svOf	
+C2-046	Other Model Information: Equipment / Options / Command	Equipo, opciones y modelos de mando (campeón, portaestandarte, músico)	OK	data.js:3300 (champ/std/mus), optList 4341	
+C2-047	Other Model Information: Magic	Linaje(s) de magia y Nivel de Hechicería en el perfil	OK	data.js d.wizard {level, lore}; rules.js:764-771	
+C2-048	Other Model Information: Special Rules / Magic Items / Unique Equipment	Reglas universales, de ejército y únicas; objetos mágicos	OK	data.js sr[]; ITEMS	Cobertura de cada regla se cuenta en sus propios tramos
+C2-049	Forming Units	Un modelo único (personaje, carro, máquina) es una unidad de un modelo	OK	rules.js u.models; data.js min/max=1	
+C2-050	Forming Units: Formation Types	Formación fijada por reglas especiales; con varias se elige en el despliegue y se cambia reformando (p.125)	OK	rules.js reformar; main.js	VERIF v772: las 24 unidades con Orden abierto + Escaramuza eligen formación al desplegar y la cambian reformando en su fase de movimiento (gasta el movimiento; pref formation, panel de la unidad); has(skirmish) false en Orden abierto; IA por autoaprendizaje (ai.js fm+id)
+C2-051	Forming Units: Close Order	Dos o más modelos en contacto de peana, misma dirección, en filas y columnas, mismo número por fila y la trasera con menos	OK	geom.js:8-22 dims (ranks=ceil(models/files))	
+C2-052	Forming Units: Combat Order	Más ancha que profunda o cuadrada = Orden de combate	OK	rules.js:1339 isColumn (ranks > files es columna; resto combate)	Excepción falange del libro de Reyes
+C2-053	Forming Units: Rank Bonus	+1 por fila tras la primera con los modelos mínimos de su tipo, hasta el máximo	OK	rules.js:1340-1351 rankBonus; data.js:30-43	
+C2-054	Forming Units: Rank Bonus	Una fila trasera incompleta cuenta si tiene modelos suficientes	OK	rules.js:1347-1349 (inRank = min(files, models - files*r) >= minRank)	
+C2-055	Forming Units: Rank Bonus	Reglas especiales pueden subir el máximo	OK	data.js:383 (horda +1, tope 3)	
+C2-056	Forming Units: Rank Bonus	El máximo puede reducirse por formación, hechizos o terreno	OK	rules.js rankBonus	Reductores definidos en fuentes: Danza de la muerte, formación (columna/escaramuza/lanza) y Alterada; no hay hechizos de terreno que lo reduzcan
+C2-057	Forming Units: Combat Result Bonus (FAQ p.101)	+1 punto de resultado en Orden de combate, solo Orden cerrado con Fuerza de Unidad 10+; acumulable por unidad (Core p.153)	OK	rules.js resultado de combate co += 1	Quitada la restricción inf/cav: cualquier formación de Orden cerrado con FU 10+ en Orden de combate
+C2-058	Forming Units: Marching Column	Más profunda que ancha = Columna de marcha	OK	rules.js:1339	Solo infantería y caballería (cat inf/cav)
+C2-059	Forming Units: Marching Column	No puede reclamar Bonus de filas	OK	rules.js:1342	
+C2-060	Forming Units: Marching Column	No puede cargar	OK	rules.js:2824 chargeTargets	
+C2-061	Forming Units: Marching Column	Triplica el Movimiento al marchar	OK	rules.js:1881-1882 (mult 3)	
+C2-062	Forming Units: Disrupted Units	Alterada si es trabada por flanco o retaguardia por enemigo con Fuerza de Unidad 5+	OK	rules.js:4299-4306 (usOf(e)>=5, sideOf != front)	El umbral 10 si el objetivo es infantería pesada viene de otra regla (fuera de tramo); sideOf mide desde el centro (ver C2-081)
+C2-063	Forming Units: Disrupted Units	Alterada si acaba el movimiento con un 25% o más de sus modelos en terreno difícil	OK	rules.js diffFrac/terrainDisrupted	Cuenta modelos reales (modelPts) en bosque, pantano, terreno difícil
+C2-064	Forming Units: Disrupted Units	Alterada si acaba a horcajadas de un obstáculo lineal bajo	OK	rules.js straddlesLow	Alterada si acaba a horcajadas de un muro bajo
+C2-065	Forming Units: Disrupted Units	Una unidad Alterada no reclama Bonus de filas	OK	rules.js:1342	
+C2-066	Forming Units: Disrupted Units	Los Escaramuzadores enemigos no causan Alteración	OK	rules.js:4303 (has(e,'skirmish'))	
+C2-067	Removing Casualties	Cada herida no salvada quita 1 H; a 0 H el modelo es baja y se retira	OK	rules.js:1480-1492 applyWounds (wounds, models=ceil(wounds/W))	
+C2-068	Removing Casualties: Multiple Wound Models	Se retiran modelos enteros; las heridas se pierden en un modelo hasta matarlo; no se reparten	OK	rules.js:1490-1491 (models = ceil(wounds/W))	
+C2-069	Removing Casualties: From Units	Bajas desde la fila trasera, por un extremo u otro a elección, manteniendo los modelos adyacentes	OK	geom.js:8-22 (el bloque se recalcula con menos modelos en la fila trasera)	Implícito; no se ofrece elegir el lado
+C2-070	Removing Casualties: Stepping Forward	Un modelo que da un paso al frente no puede atacar en esa fase	OK	rules.js:3940-3941 (rmEff = rankModels - frontLost); 4382, 4654	Solo combate; en disparo no aplica por orden de fases
+C2-071	Removing Casualties: Single Rank Units	Una sola fila pierde bajas por ambos extremos por igual	OK	geom.js:8-22 (la unidad conserva el centro al reducirse)	Implícito
+C2-072	Model & Unit Facing	Arcos frontal, de flanco y trasero desde las esquinas de la peana a 45° (cuatro cuadrantes de 90°)	OK	geom.js sideOf	Flanco/retaguardia por arcos desde las esquinas de la peana (45°)
+C2-073	Model & Unit Facing	La orientación de la unidad viene de la de sus modelos	OK	rules.js u.face único por unidad	
+C2-074	Model & Unit Facing: Vision Arc	Arco de visión de 90° (arco frontal) salvo que se diga otra cosa	OK	rules.js targetInArc	Arco de visión 90° desde esquinas (inFrontArc), sin tolerancia extra
+C2-075	Line of Sight	Visión si hay una línea recta sin interrupciones desde el arco de visión hasta cualquier parte del modelo	OK	rules.js losClear	Se prueba al centro y extremos del frente del objetivo; aproximación del modelo-a-modelo
+C2-076	Line of Sight	Los modelos y unidades siempre bloquean la línea de visión; normalmente solo ven los de la primera fila	OK	rules.js rayBlockedByUnits	Voladores y personajes también bloquean; sólo exenta el enjambre (Insignificante)
+C2-077	Line of Sight	Un modelo siempre ve a sí mismo y a su unidad	OK	rules.js:1963-1966 (excluye a la unidad origen y destino)	
+C2-078	Obscured Line of Sight	Totalmente visible = al descubierto; hasta la mitad oculta = cobertura parcial; más de la mitad = cobertura total	OK	rules.js coverMod + losClear	Cobertura modelo a modelo (hasta 48 posiciones reales de la rejilla): bosque, muros y modelos interpuestos; ruinas/edificios/colinas bloquean la visión (losClear). hidden*2>N = total; FAQ Woodland Boundaries aplicada.
+C2-079	Troop Types at a Glance	Cinco categorías; las subcategorías siguen las reglas de la categoría salvo excepción	OK	data.js:29-43; rules.js d.cat	
+C2-080	Troop Type Table	Modelos por fila, Bonus de filas máximo y Fuerza de Unidad por modelo de cada tipo	OK	data.js:30-43 (14 filas coinciden: 5/+2/1, 4/+2/1, 3/+2/3, enjambre 3, 5/+1/2, 4/+1/2, 3/+1/3, 5/+1/1, 3/+1/3, carro pesado 5)	
+C2-081	Troop Type Table: Unit Strength	FU = modelos actuales por FU por modelo	OK	rules.js:165-170 usOf	Incluye personajes unidos
+C2-082	Troop Type Table: Unit Strength	Monstruos y máquinas: FU igual a las Heridas iniciales	OK	rules.js usOf	Máquinas: heridas iniciales
+C2-083	Magic: Wizards	Todo modelo que lanza hechizos es Mago	OK	castCheck rules.js:3157-3190 (d.wizard)	
+C2-084	Magic: Levels of Wizardry	Niveles 1 a 4	OK	data.js d.wizard.level	
+C2-085	Magic: Lores of Magic	Cada Mago conoce un saber o elige uno de varios al escribir la lista	OK	rules.js:764-765 (e.lore validado frente a lores permitidos)	
+C2-086	Magic: Spells & Spell Generation	Se generan al azar antes del despliegue; con varios Magos en el orden que se prefiera	OK	rules.js:764-801 (en createGame)	Orden irrelevante en el motor
+C2-087	Magic: Spells & Spell Generation	Tirar tantos D6 como Nivel repitiendo duplicados; el resultado indica los hechizos	OK	rules.js ~780 spellAlt; main.js spellpick	Se tira nivel hechizos; el jugador elige en el despliegue
+C2-088	Magic: Spells & Spell Generation	El Mago puede descartar un hechizo generado y elegir en su lugar el de firma (opcional)	OK	rules.js spellAlt; main.js spellpick	El jugador descarta/mantiene la firma en el despliegue
+C2-089	Magic: Spells & Spell Generation	Cada saber tiene siete hechizos: seis numerados y uno de firma	OK	data.js LORES {pool, sig}	
+C2-090	Magic: Spell Categories	Seis categorías: Encantamiento, Maleficio, Traslado, Proyectil mágico, Vórtice, Asalto	OK	data.js SPELLS type enchant/hex/conveyance/missile/vortex/assail	
+C2-091	Magic: Enchantment	Los que requieren objetivo solo apuntan a unidades amigas	OK	rules.js:3135 (enchant -> propio o friendRange)	
+C2-092	Magic: Enchantment / Hex / Conveyance	Lanzar el mismo hechizo varias veces sobre la misma unidad en el turno no tiene efecto adicional	OK	rules.js applySpell castLog	Mismo hechizo sobre la misma unidad en el turno: rechazado en castCheck
+C2-093	Magic: Hex	Los que requieren objetivo solo apuntan a unidades enemigas	OK	rules.js:3155 (alive(s,1-owner))	
+C2-094	Magic: Hex / Enchantment	Bonificaciones y penalizaciones se acumulan sin llevar una característica por encima de 10 ni por debajo de 1	OK	rules.js	Topes por sitio
+C2-095	Magic: Conveyance	Solo apuntan a unidades amigas; una unidad no sufre el mismo Traslado más de una vez por turno	OK	rules.js castCheck castLog	Una vez por unidad y hechizo por turno
+C2-096	Magic: Magic Missiles	Solo contra unidades enemigas con línea de visión del Mago; impactan automáticamente	OK	rules.js:3155 (losClear para missile); 3401-3411 (sin tirada para impactar)	
+C2-097	Magic: Magical Vortex	No requiere objetivo; plantilla redonda colocada sin tocar peanas y con el agujero central dentro del alcance	OK	rules.js vortexClear	VERIF v770: el jugador coloca la plantilla del Vórtice en un punto del mapa (aim) dentro del alcance; se desplaza al hueco libre más cercano si toca peanas (anunciado)
+C2-098	Magic: Magical Vortex (FAQ p.107)	Algunos se mueven al inicio de cada turno, a menudo dispersándose	OK	rules.js inicio de turno vórtice	Movimiento aleatorio D6; sin texto que fije dado de dispersión por vórtice
+C2-099	Magic: Magical Vortex (FAQ p.107)	Si acaba el movimiento sobre una unidad, se desplaza lo mínimo posible para no tocar peanas	OK	rules.js vortexClear tras mover	Se desplaza lo mínimo para no tocar peanas
+C2-100	Magic: Assailment	Solo lo lanza un Mago trabado, contra una unidad enemiga con la que combate; impacta automáticamente	OK	rules.js:3144 (engagedWith); 3166; 3841-3857 autoAssail; 3401	
+C2-101	Magic: Casting Spells	Encantamiento y Maleficio en la subfase de Conjuración de la fase de Estrategia	OK	rules.js:3167 (fase strategy)	No se distingue la subfase
+C2-102	Magic: Casting Spells	Traslado en Movimientos restantes de la fase de Movimiento	OK	rules.js castCheck phase move; main.js	Traslado en Movimientos restantes
+C2-103	Magic: Casting Spells	Proyectil mágico y Vórtice en la fase de Disparo	OK	rules.js:3167 (shoot); main.js:1038-1042	Se lanza con botón propio, no al elegir al Mago para disparar
+C2-104	Magic: Casting Spells	Asalto al luchar el Mago en la fase de Combate	OK	rules.js:3841-3857 autoAssail	v751 reverificado: Lanza todos los hechizos de asalto hasta el nivel del Mago; objetivo elegido por el jugador (assailTgt)
+C2-105	Magic: Casting Spells (FAQ p.108)	Un Mago intenta tantos hechizos por turno como su Nivel, cada hechizo una vez	OK	rules.js castCheck	Tope igual al Nivel
+C2-106	Magic: Casting Spells	Los Magos que huyen no pueden lanzar	OK	rules.js:3173	
+C2-107	Magic: Casting Spells	Trabado solo Asalto o hechizos de alcance «Propio»	OK	rules.js:3174	
+C2-108	Magic: Casting Spells	Declarar hechizo y objetivo	OK	rules.js:6680-6694 case cast	
+C2-109	Magic: Choosing a Target	El objetivo debe estar en el arco de visión del Mago (no requiere línea de visión)	OK	rules.js spellTargets inFrontArc	Objetivo en arco de visión
+C2-110	Magic: Choosing a Target	El objetivo debe estar dentro del alcance del hechizo	OK	rules.js:3155 (unitDist <= sp.range)	
+C2-111	Magic: Choosing a Target	Los hechizos no pueden apuntar a unidades trabadas	OK	rules.js:3155 (!isEngaged salvo engagedOk)	
+C2-112	Magic: Range Self Spells	Alcance «Propio» sin objetivo, con aura medida desde el lanzador; se puede lanzar trabado	OK	rules.js:3135; 3174	
+C2-113	Magic: Casting Roll (FAQ p.108)	Tirada 2D6 más Nivel/2 (redondeado arriba) = resultado de lanzamiento	OK	rules.js:3712 (a+b+Math.ceil(nivel/2))	
+C2-114	Magic: Casting Value	Se lanza si el resultado iguala o supera el valor de lanzamiento; si no, no	OK	rules.js:3811 (total < cvN falla)	
+C2-115	Magic: Magic Resistance (-X)	Modifica la tirada de lanzamiento de hechizos (incluidos ligados) contra unidades enemigas con la regla; no acumulable, vale el mayor	OK	rules.js:3712 y 3694 (resta Math.max(mrOf, mrItems)); 1477 mrOf	Reverificado v737: mrOf/mrItems ya toman el mayor
+C2-116	Magic: Perfect Invocation	6 dobles naturales: se lanza sin importar valor ni modificadores; no se puede dispersar	OK	rules.js:3809, 3811; 3835 y 3250-3251 (perfect devuelve false)	
+C2-117	Magic: Miscast	Doble 1 natural: pifia con independencia del resultado; no se lanza salvo indicación	OK	rules.js:3800-3806; 3193-3199	
+C2-118	Magic: Miscast Table 2-4	"Plantilla de 5"" sobre el Mago, cada modelo (amigo o enemigo) con riesgo de un impacto F10 FP -4"	OK	rules.js miscast1 blastCount	Por modelo
+C2-119	Magic: Miscast Table 5-6	"Plantilla de 3"" sobre el Mago, impacto F6 FP -2"	OK	rules.js miscast1 blastCount	Por modelo
+C2-120	Magic: Miscast Table 7	El Mago sufre un impacto F4 FP -1	OK	rules.js:3238-3241 (woundAndSave 1,4,1)	
+C2-121	Magic: Miscast Table 8-9 (FAQ p.109)	Se lanza (al valor de lanzamiento para la dispersión); el Mago no puede intentar más hechizos este turno	OK	rules.js:3243-3244 (noMore); 3804-3806 tryDispel(sp.cv)	
+C2-122	Magic: Miscast Table 10-12	Se lanza con invocación perfecta	OK	rules.js:3244 (devuelve 2); 3805	
+C2-123	Magic: Miscast Table 10-12	No se pueden intentar más hechizos el resto del turno	OK	rules.js miscast1 noMore	10-12 fija noMore
+C2-124	Magic: Bound Spells	Se lanzan como siempre; el Nivel de Poder se suma a la tirada y sin él no se suma nada	OK	rules.js:3690-3697	
+C2-125	Magic: Bound Spells	Al lanzar un hechizo ligado no hay riesgo de pifia ni invocación perfecta	OK	rules.js:3690-3697 (rama sin dobles)	
+C2-126	Magic: Bound Spells	Se pueden dispersar; los objetos que dispersan funcionan; al dispersar un ligado no hay riesgo de quedar superado en el Arte	OK	rules.js tryDispel !bound	Dispersar ligado no provoca disfunción
+C2-127	Magic: Bound Spells	Un modelo lanza un único hechizo ligado por fase	OK	rules.js:3164	Reverificado v737: boundPh cuenta objetos con boundSpell
+C2-128	Magic: Bound Spells	Poseer un hechizo ligado no convierte en Mago	OK	rules.js:3161 (rama boundIts independiente de d.wizard)	
+C2-129	Magic: Dispel	Se puede intentar dispersar cada hechizo lanzado salvo invocación perfecta	OK	rules.js:3835 y 3250-3251	
+C2-130	Magic: Types of Dispel	Elegir entre dispersión de Mago y dispersión del destino	OK	rules.js dispPref; main.js	Preferencia del jugador (Mago o destino) + autoaprendizaje ai.js dp
+C2-131	Magic: Wizardly Dispel	Nominar a un único Mago dentro del alcance de dispersión	OK	rules.js dispPref first	El jugador nomina el Mago
+C2-132	Magic: Wizardly Dispel	"Alcance 18"" (Niveles 1-2) o 24"" (Niveles 3-4)"	OK	rules.js:3255	
+C2-133	Magic: Wizardly Dispel (FAQ p.110)	No pueden nominarse Magos huyendo o fuera de mesa; trabados solo para hechizos que les apunten a ellos o a su unidad	OK	rules.js tryDispel DTGT	Trabado puede dispersar si el hechizo le apunta a él o a su unidad
+C2-134	Magic: Fated Dispel	Una vez por turno, si no hay Mago disponible o se quiere evitar el riesgo	OK	rules.js tryDispel destino	Se elige con dispPref off
+C2-135	Magic: Dispel Roll (FAQ p.110)	2D6 más Nivel/2 redondeado arriba; destino: nada se suma	OK	rules.js:3254 dMod; 3308; 3320-3323	
+C2-136	Magic: Dispel Result	Se dispersa si el resultado supera al de lanzamiento; igual o menos falla	OK	rules.js:3308 (> total); 3323 (x+y > total)	
+C2-137	Magic: Unbinding	6 dobles naturales al dispersar (cualquier tipo) dispersa y termina el hechizo; no vale contra invocación perfecta	OK	rules.js:3308 (x===6&&y===6); 3323; 3250	
+C2-138	Magic: Outclassed in the Art	Doble 1 natural en dispersión de Mago: tabla de pifias adaptada (lanzar->dispersar, invocación perfecta->liberación)	OK	rules.js tryDispel	8-9/10-12 dispersan el hechizo
+TOTAL OK=88 PARCIAL=36 AUSENTE=7 NA=7

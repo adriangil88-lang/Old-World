@@ -1,0 +1,6 @@
+Assetbundles .unity3d nuevos (adjuntos), analizados con tools/abx.py (export_scenery.extract):
+bfbe57dc (AB 13EE53, Dryads, JSON 2426430616)  : 1 pieza, 13.807 tri, textura 2048; bbox 1,49x2,05x1,16 = x_we_dryads (YA TENIAMOS, identica)
+c9b285a6 (AB 365FBB, Dryads, JSON 2426430616)  : 1 pieza, 13.746 tri, textura 2048; bbox 2,09x2,12x1,40 = segunda escultura de Driada (variante; no se sustituye, sin criterio inequivoco)
+da92a7ad (AB BCF31CF56E7819, 15 MB, Silver Helms (Musician)(Shields), JSON 2425660555): 0 mallas (solo texturas/material secundario)
+ac7695e4 (AB 224907F8, Silver Helms (Musician)(Shields)): 3 piezas (444+521+1368 tri): escudos/accesorio, no una unidad
+035b7167 (AB E09C23A6EDAE91, '[i]Cooper', Witch Hunter on Horse, JSON 2426060468): 1 pieza 72.300 tri, textura 2048: Cazador de Brujas a caballo; el motor no tiene esa unidad (emp_witchhunter solo a pie)

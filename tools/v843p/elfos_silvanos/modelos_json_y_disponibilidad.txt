@@ -1,0 +1,98 @@
+Branchwraiths                                 M2 B0 OK | 
+Champion                                      M1 B0 OK | /Tree Kin CH
+Deepwood Stout                                M2 B0 OK | 
+Deepwood Stout                                M2 B0 OK | 
+Deepwood Stout                                M2 B0 OK | 
+Deepwood Stout CH                             M3 B0 OK | 
+Deepwood Stout MU                             M3 B0 OK | 
+Deepwood Stout ST                             M3 B0 OK | 
+Deepwood Stout ST                             M1 B0 OK | /Deepwood Stout ST
+Dryads                                        M1 B1 OK | 
+Dryads                                        M0 B1 OK | /Dryads
+Dryads                                        M1 B1 OK | 
+Dryads                                        M0 B1 OK | /Dryads
+Dryads                                        M2 B0 OK | 
+Dryads                                        M1 B0 OK | /Dryads
+Dryads CH                                     M3 B0 OK | 
+Dryads CH                                     M1 B0 OK | /Dryads CH
+Eternal Guard                                 M2 B0 OK | 
+Eternal Guard                                 M2 B0 OK | 
+Eternal Guard                                 M2 B0 OK | 
+Eternal Guard CH                              M3 B0 OK | 
+Eternal Guard MU                              M3 B0 OK | 
+Eternal Guard ST                              M3 B0 OK | 
+Glade Captain                                 M2 B0 OK | 
+Glade Captain on Elven Steed                  M2 B0 OK | 
+Glade Captain on Great Stag                   M2 B0 OK | 
+Glade Guard                                   M2 B0 OK | 
+Glade Guard CH                                M3 B0 OK | 
+Glade Guard MU                                M3 B0 OK | 
+Glade Guard ST                                M3 B0 OK | 
+Glade Lord                                    M2 B0 OK | 
+Glade Lord on Elven Steed                     M2 B0 OK | 
+Glade Lord on Forest Dragon                   M3 B0 OK | 
+Glade Lord on Great Eagle                     M2 B0 OK | 
+Glade Lord on Great Stag                      M2 B0 OK | 
+Glade Lord on Warhawk                         M2 B0 OK | 
+Glade Riders                                  M3 B0 OK | 
+Glade Riders                                  M2 B0 OK | 
+Glade Riders MU                               M3 B0 OK | 
+Glade Riders ST                               M3 B0 OK | 
+Gnoblarkieger                                 M2 B0 FALTA [('M', '85271639', 'X', 'X')] | /Wild Rider CH
+Gnoblarkieger                                 M2 B0 FALTA [('M', '6C0D135A', 'X', 'X')] | /Wild Rider CH
+Gnoblarkieger                                 M2 B0 FALTA [('M', '8B09E3E6', 'X', 'X')] | /Wild Rider CH
+Gnoblarkieger                                 M2 B0 FALTA [('M', '4AE1E6FB', 'X', 'X')] | /Wild Rider CH
+Gnoblarkieger                                 M2 B0 FALTA [('M', '33FFA740', 'X', 'X')] | /Wild Rider CH
+Gnoblarkieger CH                              M3 B0 FALTA [('M', '85271639', 'X', 'X')] | /Wild Rider CH
+Gnoblarkieger MU                              M3 B0 FALTA [('M', '6C0D135A', 'X', 'X')] | /Wild Rider CH
+Great Eagle                                   M3 B0 OK | 
+Harp                                          M1 B0 OK | /Wildwood Rangers MU
+Hunting Hound                                 M2 B0 OK | 
+Orion                                         M2 B0 OK | 
+SSchattentänzer                               M1 B0 OK | /Shadowdancer
+Shadowdancer                                  M2 B0 OK | 
+Sisters of the Thorn                          M2 B0 OK | 
+Sisters of the Thorn                          M2 B0 OK | 
+Sisters of the Thorn CH                       M4 B0 OK | 
+Sisters of the Thorn CH                       M1 B0 OK | /Sisters of the Thorn CH
+Sisters of the Thorn MU                       M4 B0 OK | 
+Sisters of the Thorn MU                       M2 B0 OK | /Sisters of the Thorn MU
+Sisters of the Thorn ST                       M3 B0 OK | 
+Spellsinger                                   M2 B0 OK | 
+Spellsinger on Great Eagle                    M2 B0 OK | 
+Spellsinger on Unicorn                        M4 B0 OK | 
+Spellsinger on Warhawk                        M2 B0 OK | 
+SpellsingerSpellsinger on Elven Steed         M2 B0 OK | 
+Spellweaver                                   M2 B0 OK | 
+Spellweaver on Elven Steed                    M2 B0 OK | 
+Spellweaver on Great Eagle                    M2 B0 OK | 
+Spellweaver on Unicorn                        M4 B0 OK | 
+Spellweaver on Warhawk                        M2 B0 OK | 
+Standarte                                     M1 B0 OK | /Wildwood Rangers ST
+Tree Kin                                      M2 B0 OK | 
+Tree Kin                                      M2 B0 OK | 
+Tree Kin CH                                   M3 B0 OK | 
+Treeman                                       M2 B0 OK | 
+Treeman Ancient                               M2 B0 OK | 
+Wardancer                                     M2 B0 OK | 
+Wardancer                                     M3 B0 OK | 
+Wardancer CH                                  M3 B0 OK | 
+Wardancer MU                                  M3 B0 OK | 
+Warhawk Rider                                 M2 B0 OK | 
+Warhawk Rider CH                              M3 B0 OK | 
+Waystalker                                    M2 B0 OK | 
+Waywatcher                                    M2 B0 OK | 
+Waywatcher                                    M2 B0 OK | 
+Waywatcher                                    M2 B0 OK | 
+Waywatcher CH                                 M3 B0 OK | 
+White Dragon                                  M2 B0 OK | /Glade Lord on Forest Dragon
+Wild Rider                                    M2 B0 OK | 
+Wild Rider                                    M2 B0 OK | 
+Wild Rider CH                                 M3 B0 OK | 
+Wild Rider MU                                 M3 B0 OK | 
+Wild Rider ST                                 M4 B0 OK | 
+Wildwood Rangers                              M2 B0 OK | 
+Wildwood Rangers                              M2 B0 OK | 
+Wildwood Rangers CH                           M3 B0 OK | 
+Wildwood Rangers MU                           M4 B0 OK | 
+Wildwood Rangers ST                           M3 B0 OK | 

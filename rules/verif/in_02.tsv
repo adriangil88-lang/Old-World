@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+core_7.tsv	core_7-061	core_rulebook.txt 9915-9922	Victoria por ronda alcanzada: defensor aguanta hasta fin ronda 6 -> mayor; hasta fin ronda 5 -> menor; se rinde/aniquilado antes de fin ronda 3 o 4 -> menor del atacante; antes de fin ronda 1 o 2 -> mayor del atacante	OK	rules.js:finish() bloque laststand	Aguanta ronda 6: mayor (RV); cae en ronda 6: menor del defensor; rondas 3-5: menor del atacante; rondas 1-2: mayor del atacante (la ronda 5 no esta cubierta explicitamente: se trata como menor del atacante)
+faq_libros.tsv	Q02	FoF FAQ Dwarfs	Campeón de Royal Clan/Hammerers no pone runas de arma en hacha/martillo de gromril	OK	data.js champEligible	Campeón con gran hacha de gromril sin runas de arma; Martilladores sin objetos de campeón
+aj_empire2.tsv	aj_empire2-049	aj_empire2.txt:1057-1063	Harald: Duelista habilidoso (si mata en desafío tras cargar, emite segundo desafío inmediato; él pero no su montura comb	OK	rules.js:4825 (skilledDuel)	
+core_4.tsv	C4-046	Oddball combate p.158	Hechizos de asalto en combate al turno de iniciativa del mago	OK	autoAssail(g,st) en fightGroup	Hechizos de asalto en el paso de Iniciativa del Mago, activo primero
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-263	leg_chaosdwarfs.txt:755-760	Shroud of the Ancestor 10: la unidad gana Hatred (Dwarfs)	OK	data.js cdl_shroud grant hatredDwarfs	Otorga Odio general en vez de solo contra Dwarfs
+core_5.tsv	C5-059	p.198 Command Groups	Los modelos del grupo de mando cuentan como tropa (rank and file) salvo indicacion	OK	rules.js:1690	rf = models - mix (el mando cuenta como tropa)
+core_6.tsv	core6-097	Setting Up / Size of Battlefield	"Mesa 48""x72"" estándar; tamaños mínimos por puntos"	OK	rules.js:652 (tsize), TABLE_W/H	
+leg_vampires.tsv	leg_vampires-234	leg_vampires.txt:1171-1200	Resurrección: orden de curación (personajes, multi-herida, campeón, estandarte, músico, resto)	OK	rules.js:466 necroHeal	El motor trata la tropa como reserva de Heridas (personajes unidos primero, luego modelos heridos y resurrección; Recién Muertos hasta tamaño máximo); campeón/estandarte/músico no se modelan como modelos sueltos
+core_4.tsv	C4-120	Reglas especiales p.175	Ataques aleatorios	OK	rules.js:3931, 4312 (randA)	
+cathay.tsv	cathay_aj-084	cathay_aj.txt 2188-2198	"Obsidiana: Resistencia a la magia (-2); magos enemigos a 12"" chequeo de Ld: fallo -3, exito -1 al lanzar"	OK	data.js:2260 magRes2/obsSent; rules.js:3884	
+aj_chaos2.tsv	aj_chaos2-168	aj_chaos2.txt L1649-1656	Escamas de la Serpiente Poderosa 40: armadura pesada, Ataca Primero; solo Lobos	OK	data.js ITEMS wocaj_scalemail list wolves	
+aj_dwarfs2.tsv	aj_dwarfs2-094	aj_dwarfs2.txt L1068-1076	Sapper: heavy infantry (character), 25x25, tamaño 1, arma de mano y armadura pesada	OK	data.js:3542	
+leg_vampires.tsv	leg_vampires-145	leg_vampires.txt:632-633	Reglas: Golpe Cortante (solo Caballeros Negros y Hell Knight), Orden Cerrado, Primera Carga, Regen 6+, Zancada	OK	data.js:1897	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-172	leg_chaosdwarfs.txt:495	Bale Taurus: personaje montado +1 R y +4 H	OK	data.js:3596 T6 W7	
+core_3.tsv	c3-013	Turn Sequence (p.113)	Ronda = un turno por jugador, alternando	OK	endPlayerTurn rules.js:5598-5660	
+core_8.tsv	core_8-068	Armadura magica p.338 l.11010	Escudo Hechicero*: escudo y Ward 5+ contra heridas de Proyectil magico, Vortice o Asalto; 25 pts	OK	data.js:spellshield (Escudo Antihechizos*, wardMagic 5)	Es el objeto del libro p.338 (Spellshield)
+leg_ogres.tsv	leg_ogres-069	leg_ogres.txt:285-286	Colmillotrueno: Cerrado, Primera carga, Impactos D3, Objetivo grande, Frío entumecedor, Pisotón (3), Zancada, Terror	OK	data.js:~5246 (bloque v700 Ogros)	Pisotón (3)
+aj_tk2.tsv	aj_tk2-044	aj_tk2.txt L881-884	Settra: Mago nivel 1 Lore of Necromancy: Mago nivel 1 con hechizos de Nigromancia	OK	data.js tk_settra wizard lore necro + nehLore	
+aj_empire2.tsv	aj_empire2-006	aj_empire2.txt:553-555	Escenario Stirhügel: el atacante tiene automáticamente el primer turno	OK	rules.js:193 (first:0)	
+leg_daemons.tsv	leg_daemons-078	leg_daemons.txt L333-336	Gran Inmundo: nivel 2 +30, 3 +60, 4 +90	OK	data.js:5318	
+aj_empire2.tsv	aj_empire2-105	aj_empire2.txt:1428-1433	Carro de Guerra: armas variadas: seis armas únicas (trabuco, rifle largo, rifle repetidor, bola y cadena, alabarda de ga	OK	data.js:4269-4272 (multi y slots)	
+faq_core_4.tsv	FC4-18c	p15 dcha / Solitarios	La protección de solitario no vale contra plantillas	OK	rules.js:2147-2152 (loneProtected con tmplWpn) y shootCheck1	La protección de solitario no vale contra armas de plantilla (aliento, columna de fuego, piedra/blast)
+aj_orcs2.tsv	aj_orcs2-088	aj_orcs2.txt:1258-1260	'Eadbutt: Un impacto con D3+1 Heridas sin armadura ni Regeneración	OK	rules.js bonegrinderAttack (ebutt)	
+aj_wood2.tsv	aj_wood2-113	aj_wood2.txt:1331-1338	Cleaving Blow: 6 natural al herir sin salvación de armadura/regeneración contra ciertas tropas; no con herida automática	OK	rules.js:1700,1716	
+dawn_renegade_sc.tsv	sc_waystones-006	sc_waystones.txt:56-60	Despliegue: el defensor despliega todo su ejército en su zona y después el atacante	OK	rules.js:6303 proxController; data.js:5964 SCN_REQ	Despliegue simultáneo; no se impone el orden
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-198	leg_chaosdwarfs.txt:607	Dotacion CD Crew M3 HA3 HP3 F3 R4 H3 I2 A3 L9	OK	data.js cd_mortar Ld9	Ld 8 en vez de 9
+aj_wood2.tsv	aj_wood2-128	aj_wood2.txt:1514-1520	"1. Fury of Athel Loren: Proyectil VL 10+, 18"", D3+1 impactos F6 FP-2 HM(2)"	OK	data.js durthu_wrath cv 10	
+aj_chaos2.tsv	aj_chaos2-175	aj_chaos2.txt L1682-1691	Colgante de Cráneo Sangriento 45: infantería; en vez de atacar un impacto F8 FP-1 con Golpe Mortal a cada enemigo en con	OK	data.js:2800; rules.js:4572	
+cathay.tsv	cathay_aj-126	cathay_aj.txt 2855-2858	Vientos de Yang: modelos con Voluntad ganan +1 M o +1 I (todos igual)	OK	rules.js:1361-1364,6425-6433 windPick	
+core_8.tsv	core_8-019	Elementalismo p.327 l.10424	"Murallas de Tierra: Enchantment 10+ (FAQ 9+), 15"", Ward 5+ hasta tu proximo inicio, cuenta como obstaculo lineal bajo defendido si es cargada; no puede marchar ni cargar"	OK	data.js:2328; rules.js:1885,2822,3065,3510	
+leg_vampires.tsv	leg_vampires-106	leg_vampires.txt:482	Crypt Haunter A4 +7	OK	data.js: CMD vc_horrors [7,null,null]	
+aj_highelves.tsv	aj_highelves-008	aj_highelves.txt:621-623	Primer turno: el atacante siempre lo juega	OK	rules.js:194 (first:0)	
+core_7.tsv	core_7-068	core_rulebook.txt 10090-10092	Magos del mismo ejercito pueden conocer los mismos hechizos; un Mago no puede conocer el mismo hechizo dos veces	OK	rules.js:767-772 (pool.splice por Mago)	Cada Mago tiene su propio pool; sin duplicados dentro del mismo Mago
+battlemarch_quickref.tsv	battlemarch-037	battlemarch.txt L1093-1103	Sturdham: +50 PV a quien tenga mayor US de modelos completamente dentro del cercado (sin huir)	OK	rules.js:5880-5884	
+cathay.tsv	cathay_notes-003	cathay_notes.md perfil Gate Master	M4 HA7 HP4 F4 R4 H3 I4 A3 Ld9, 80 pts	OK	data.js:2193	
+leg_darkelves.tsv	leg_darkelves-010	leg_darkelves.txt:88-89	0-2 Carros Azote o de Gélidos por 1.000 pts (Especial)	OK	data.js:4573,5263,5270	
+core_3.tsv	c3-026	Fleeing Units (p.114)	Quien no reagrupa sigue huyendo en Movimientos obligatorios	OK	pendFlee rules.js:5558, compulsoryMoves 5563	
+dawn_renegade_sc.tsv	renegade_web-089	renegade_web.txt:230-232	Enanos Imperiales: dos manos +2, lanzas +1, ballestas +2, arcabuces +3; escudos +1; pesada +1; mando +5	OK	data.js IOPT/IM (~3590)	
+faq_core_4.tsv	FC4-43	p17 izq / Doble Espectral	Con arma mágica de un solo ataque, solo un impacto	OK	rules.js:~3940 (hitsFn doppel)	Con arma de un solo ataque (dual.oneAttack) solo un impacto
+leg_ogres.tsv	leg_ogres-158	leg_ogres.txt:670	Gigante: M6 HA3 HP1 F6 R6 H6 I2 A* L10, 200 pts	OK	data.js:~5246 (bloque v700 Ogros)	I 2
+aj_chaos2.tsv	aj_chaos2-090	aj_chaos2.txt L1151-1156	Dragón Bicéfalo: Fuego Oscuro o Humos en Disparo, no ambos el mismo turno	OK	rules.js pref galrMode; main.js botón; ai.js gb	El jugador elige Fuego Oscuro / Humos / Aliento del Cambio; la IA lo aprende
+aj_highelves.tsv	aj_highelves-037	aj_highelves.txt:940-944	Básicas 33%: Guardia del Mar de Lothern y Compañía del Barco	OK	data.js:3414-3415	
+dawn_renegade_sc.tsv	cathay_dawn-069	cathay_dawn.txt:772-792	Un Arribo Oportuno: defensor +100 PV por cada personaje de la Guarnición vivo al final	OK	rules.js scoreVP (force===0 characters alive)	
+leg_lizardmen.tsv	leg_lizardmen-110	leg_lizardmen.txt:453-458	Terradon Riders: monstrous cavalry 40x40 3+, armadura ligera, jabalinas	OK	data.js:1720-1721 (max 8 anadido)	Tope max 8 no esta en el texto
+leg_daemons.tsv	leg_daemons-057	leg_daemons.txt L213-217	Machacasangre: perfil Sanguinario R4 H3, Juggernaut M7 F5 I2 A2, 65 pts	OK	data.js:1993	M8 en vez de 7 (Juggernaut); resto OK
+leg_daemons.tsv	leg_daemons-030	leg_daemons.txt L114-116	Sanguinario: Carga furiosa, Impetuoso, Favor Infernal (2), Resistencia a la magia (-2), Terror, Objetivo grande	OK	data.js:1958 sr	
+aj_chaos2.tsv	aj_chaos2-155	aj_chaos2.txt L1513-1514	"Final explosivo: al perder última Herida, unidades a 6"" sufren D6 impactos F5 FP-2"	OK	rules.js:2615	
+leg_vampires.tsv	leg_vampires-185	leg_vampires.txt:866-870	Carroñeros: enemigos trabados -1 I	OK	rules.js:4023	
+leg_skaven.tsv	leg_skaven-097	leg_skaven.txt:334	Equipo de armas: Loner, Open Order, Scurry Away	OK	data.js:1799-1824 sr	
+aj_chaos2.tsv	aj_chaos2-016	aj_chaos2.txt L573-578	Refuerzos: Emboscadores del atacante entran por el borde sur; si no caben, siguen en reserva	OK	rules.js reinforce (hollum owner 0 ambushPos bottom)	Atacante: Emboscadores por borde sur; si no caben siguen en reserva (ambushOK persiste) y reintentan

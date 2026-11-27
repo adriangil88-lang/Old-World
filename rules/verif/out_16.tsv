@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+core_8.tsv	core_8-084	CONFIRMA	rules.js:3657 (rampaging): repite 2D6 de carga solo si no alcanza (decision automatica; repetir un exito nunca conviene); data.js:2587
+faq_core_3.tsv	42	CONFIRMA	rules.js:5486 pisoton usa d.stompS||mountAtk.S (montura/bestias), no el jinete; datos por unidad con stompN en la montura
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-092	CONFIRMA	data.js:5188-5190 opcion op +3, per unit, champ:true, ranged W.pistols cnt:1; solo el campeon (Overseer)
+leg_darkelves.tsv	leg_darkelves-037	PARCIAL	Odio (Altos Elfos): sr hatred (data.js:1607) da repeticion 1a ronda contra TODO enemigo (rules.js:4918,5410), no solo Altos Elfos; Odio eterno si limitado a he
+leg_ogres.tsv	leg_ogres-141	CONFIRMA	"data.js:5721-5726 ok_scraplauncher: 12-48"", s3, cs4/cap2 en centro, dmg 2 solo al impacto central (rules.js:2890), bombard, blast5, cumbersome, ogreMis"
+aj_highelves.tsv	aj_highelves-059	PARCIAL	rules.js:5418 repite 1s para todos los ataques de la unidad (has chayal), tambien los de la montura/leones del carro de Korhil; la regla es solo del portador
+core_7.tsv	core_7-041	CONFIRMA	rules.js:247 surprise stir:true; STIR_Z (rules.js:1191) = 6 zonas 24x24 iguales; stirInit/stirPick 3 unidades por bando; chequeo Ld de carga ronda 1 (rules.js:3531)
+aj_tk2.tsv	aj_tk2-015	CONFIRMA	data.js royalhost: core 0.33, chk exige 1+ tk_chariot (Carros) y Rey/Principe, promote Guardia/Carros Guardia a Basica max 1; comps Escaramuzadores/Arqueros a caballo Especial
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-230	PARCIAL	rules.js:5223-5233 vial auto por heuristica (solo si armadura enemiga 2+..4+, A<=3, primer enemigo por pts); preferencia auto/unit/model/off, sin elegir objetivo/cuando; sin popup bloqueante
+leg_vampires.tsv	leg_vampires-230	CONFIRMA	rules.js:5937 y 204: indom = max de sr indom1/2/3 entre unidad y personajes unidos; resta de la perdida por Inestable (no acumulativo)
+aj_beasts2.tsv	aj_beasts2-058	CONFIRMA	"data.js:4444 bm_kralmaw: perfil M5 WS3 BS3 S4 T5 W4 I3 A2 Ld8, 245 pts, nivel 4, base 30x30, grisly (rules.js:1717 Ld-1 a 6"") y braystaff"
+leg_darkelves.tsv	leg_darkelves-092	PARCIAL	data.js:5028 cuenta por separado de_warriors y de_crossbows (una unidad de cada por 1.000 pts); el texto da una sola opcion 0-1 por 1.000 para la entrada conjunta; bnMax 50 ok
+aj_chaos2.tsv	aj_chaos2-055	CONFIRMA	data.js heralds: core 0.33, chk exige Caballeros del Caos, woc_knights/horsemen/hounds comp core, woc_chariot promote 0-1 a Basica
+battlemarch_quickref.tsv	battlemarch-144	CONFIRMA	rules.js:1785 mrItems suma +1 si CUR.wildOn y la unidad esta entera dentro de terreno wild===4
+core_7.tsv	core_7-009	CONFIRMA	gisoreux block:long; rules.js:474 (reservas), 3356-3358 (huida se detiene), 3386; exentos flyer/ethereal
+leg_ogres.tsv	leg_ogres-056	CONFIRMA	data.js:2074 ok_firebelly M6 WS3 BS2 S4 T5 W4 I2 A3 Ld7, 110 pts, base 40x40
+faq_libros.tsv	RQ09	PARCIAL	rules.js:4618-4627: sin dispersion de Mago si el Amuleto explota (ok), pero el Amuleto se usa SIEMPRE y de forma automatica; el jugador no puede elegir dispersar con Mago en su lugar
+leg_daemons.tsv	leg_daemons-061	CONFIRMA	"data.js:2001 dm_bloodcrushers: arm light + avOpt hide:1 barding:1, impact 2 por modelo, impetuous, closeOrder, magRes, swiftstride (la nota ""falta Piel blindada"" esta obsoleta)"
+cathay.tsv	cathay_aj-120	CONFIRMA	data.js:2543 ct_fengshi_l star, wiz, extraSpell; rules.js:1041 anade un hechizo aleatorio mas del lore sin subir Nivel
+core_4.tsv	C4-049	PARCIAL	"Solo implicito: engagedWith (rules.js:1584) por distancia<0.12; no hay ""sale del combate al final del turno"" ni reposicion minima a contacto tras bajas"
+leg_daemons.tsv	leg_daemons-143	PARCIAL	data.js:2028 dm_hellflayer tt heavyChar (Carro pesado) en vez de Light Chariot (lightChar); base 100x60 via data.js:5927 y armadura 5+ ok
+aj_bretonnia.tsv	aj_bretonnia-164	CONFIRMA	data.js:2888 brsaj_zealous list:exiles (validado en data.js:4716) y grant vanguard (has0 grant, vanguardMoves)
+faq_core_3.tsv	68	PARCIAL	"rules.js:1762 armPick own/mount/auto da la eleccion, pero al elegir la montura no se anulan otros beneficios del objeto (p.ej. ward 5+ de armadura magica) como exige ""todo o nada"""
+aj_wood2.tsv	aj_wood2-091	CONFIRMA	data.js:757 we_guardians M5 WS5 BS4 I4 A2 Ld9 (S3 T3 W1 por defecto), 18 pts, campeon A+1=3, 25x25
+battlemarch_quickref.tsv	battlemarch-125	CONFIRMA	rules.js:6829-6833: carro escapado (c.escaped) da +25 PV a su dueno
+aj_chaos2.tsv	aj_chaos2-018	CONFIRMA	rules.js:6870-6872: atacante +50 por personaje vivo (models>0) cuya unidad no huye
+core_5.tsv	C5-054	CONFIRMA	rules.js:3311 si cat mach: dist=max(1,dist-1) en tirada de huida
+battlemarch_quickref.tsv	battlemarch-083	CONFIRMA	rules.js:873-875 rev 1/2 voltea zonas y orientacion en bm_close/opposed/meeting/outflank; 2 = D6 por semilla
+aj_empire2.tsv	aj_empire2-111	CONFIRMA	data.js war_wagon slots: sb1 ap2 ab2 (F+1, FP-2, Perforante 2) wwSlot 1
+leg_ogres.tsv	leg_ogres-172	PARCIAL	data.js:5730 Exploradores y Vanguardia con group vg (mutuamente excluyentes); el texto los da como dos opciones independientes +3 cada una
+cathay.tsv	cathay_notes-012	CONFIRMA	data.js:2244 ct_cannon 130 pts, T6 W3 A3 (3 dotacion), M4 WS3 BS3 S3 I3 Ld7, base 60x100
+leg_lizardmen.tsv	leg_lizardmen-093	PARCIAL	data.js:1738 handR minPer 3 pero maxPer 6 por Salamandra y max 3 Salamandras por manada son invenciones; no estan en el texto (solo 3 cuidadores min por Salamandra)
+aj_orcs2.tsv	aj_orcs2-107	PARCIAL	data.js:3099, rules.js:5408/5426 y 2028: 1 natural al impactar/herir contra CUALQUIER modelo de la unidad con el escudo; la regla es solo contra el portador; no cuenta 1s de repeticiones
+faq_core_3.tsv	18	PARCIAL	rules.js:1918 pisotones (alloc) se reparten con la regla de <5 modelos y se omiten con def.chal; no hay opcion de dirigirlos al otro participante del desafio
+dawn_renegade_sc.tsv	cathay_dawn-046	CONFIRMA	dawn.js:58 stones: diff:true, nolos:true; rules.js:2306 bloquea linea de vision con t.nolos
+aj_chaos2.tsv	aj_chaos2-179	CONFIRMA	data.js:2834 ogvold + rules.js:1051 picks = sig+pool (7); lanzamiento limitado al Nivel por rules.js:3883
+aj_bretonnia.tsv	aj_bretonnia-125	CONFIRMA	data.js:5236-5237 opcion pa: choice sb1 ap1 twoHands vs base lanza (fila extra); elige el jugador (mwPref) o auto, rules.js:5236-5247
+core_2.tsv	C2-027	CONFIRMA	data.js:385-390 u(): M,WS,BS,S,T,W,I,A,Ld (nueve caracteristicas)
+faq_core_4.tsv	FC4-07	CONFIRMA	rules.js:150 JOIN_PASS solo pasa impetuous/frenzy/stupidity/magRes/holdLine/forgefire; el tipo de tropa D(u).tt es el del anfitrion
+aj_empire2.tsv	aj_empire2-102	CONFIRMA	data.js crushWeight; rules.js:5486 suma +1 al FP del pisoton (ap -1) para war_wagon
+core_5.tsv	C5-098	CONFIRMA	rules.js:7120 joinedMove y 2227 bloquea mover; no marca movida si no habia movido
+leg_daemons.tsv	leg_daemons-157	CONFIRMA	data.js:1957 dm_herald_tzeentch M4 WS3 BS4 S3 T3 W2 I3 A2 Ld8, 90 pts, base 30x30; nivel 1 base (5887) y nivel 2 +30
+aj_bretonnia.tsv	aj_bretonnia-119	CONFIRMA	data.js CMD br_yeoman_guard [6,6,6]; Monje del Grial +7 (data.js:5992)
+core_3.tsv	c3-049	CONFIRMA	rules.js:3808-3815 carga fallida: avanza el resultado del dado hacia el objetivo; 3686 excepcion de rueda
+leg_vampires.tsv	leg_vampires-142	CONFIRMA	data.js CMD vc_blackknights [6,6,6] (campeon, portaestandarte, musico)
+battlemarch_quickref.tsv	battlemarch-034	NO_VERIFICABLE	"Posicion de los 2 tesoros solo en el mapa (imagen), no en el texto; el codigo coloca 2 tesoros a 7,5"" de los bordes cortos (rules.js:843) sin poder contrastarlo"
+faq_libros.tsv	F08	CONFIRMA	data.js:3671 torpedo Trollhammer s:5, cumbersome:true, sr:[] (sin dwarfCrafted)
+aj_wood2.tsv	aj_wood2-126	CONFIRMA	main.js:836 y rules.js:1010 anaden wilds al elegir lore para athelLoren en Talsyn o con Colgante de Duramen; data.js:2425 lore completo
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-186	PARCIAL	data.js:3792 cd_daemonsmith_lammasu queda con M6 (falta Vuelo 9: no esta en FLYX, a diferencia de cd_prophet_lammasu M9); resto de reglas ok
+dawn_renegade_sc.tsv	cathay_dawn-106	CONFIRMA	rules.js:6197 una vez (rrUsed) repite la llegada si falla; pref noBalloonRR (main.js:1278) para que el jugador decida; se registra en el log

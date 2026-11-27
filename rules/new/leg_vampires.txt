@@ -1,0 +1,1249 @@
+                      VAMPIRE
+                      COUNTS
+                         Legacy Army List
+                    For Use With Warhammer: The Old World Rules
+This document allows you to play a Vampire Counts Army from the Warhammer Fantasy Battles range in games
+ using the rules from Warhammer: The Old World. To use the contents of this document, you will need a copy
+                                 of the Warhammer: The Old World rulebook.
+
+            The rules contained within this document allow players the opportunity to try out the
+             Warhammer: The Old World rules using models they may have in their collection.
+         They are not intended for use in matched play events and will not be updated in line with any
+                              future Warhammer: the Old World publications.
+                                      Vampire Counts
+F  iends without equal, the Vampire Counts seek to topple the civilisations of the living and supplant them with an
+   Undead empire. Each Vampire is a unique and majestic figure, full of unnatural vitality and driven by ambition. In
+contrast, their minions are mindlessly obedient. Amongst the endless ranks of maggot-ridden corpses and clacking, rust-
+clad Skeletons come hideous and misshapen predators, the skies filling with the rustle of a thousand leathery wings as giant
+bats whirl and screech above the battlefield.
+
+This document contains the following information:                    CONTENTS
+Grand Army Composition List: The default army                        Vampire Counts Legacy Army List ..........................................2
+composition list for the Vampire Counts.                              Grand Army Composition List .........................................................2
+                                                                      Vampiric Powers ...................................................................................23
+Profiles: Every model available to the Vampire Counts has             Magic Items ............................................................................................24
+a profile. Here, you will find that model’s characteristics, its      Special Rules ...........................................................................................27
+equipment, its points value, details of any special rules unique      Lore of Undeath....................................................................................29
+to it and more.
+
+Magic Items: As well as the Common magic items
+detailed in the Warhammer: the Old World rulebook, this
+army list includes a number of magic items unique to the
+Vampire Counts.
+
+Special Rules: This section covers rules unique to the
+Vampire Counts.
+
+The Lore of…: Unique spells used in conjunction with
+the Lores of Magic found in the Warhammer: the Old
+World rulebook.
+
+
+
+
+    © Copyright Games Workshop Limited 2024. Warhammer: the Old World, Citadel, Forge World, Games Workshop, GW,
+    Warhammer, the ‘winged-hammer’ Warhammer logo, and all associated logos, illustrations, images, names, creatures, races,
+          vehicles, locations, weapons, characters, and the distinctive likenesses thereof, are either ® or TM, and/or ©
+                                 Games Workshop Limited, variably registered around the world.
+                                                       All Rights Reserved.
+
+                                        Permission to download/print for personal use only.
+
+                  This is a work of fiction. All the characters and events portrayed in this download are fictional,
+                               and any resemblance to real people or incidents is purely coincidental.
+       Vampire Counts Legacy Army List
+T   his page details the Grand Army composition list for the Vampire Counts. This is the default army composition list
+    for this faction. Using this army composition list to write your muster list will give you the widest variety of units to
+choose from and create a broad and balanced force.
+
+This army list is intended for use alongside the ‘Forming Units’ and ‘Warhammer Armies’ sections of the Warhammer: the Old
+World rulebook. Over the following pages you will find profiles and rules for each of the models in your army. These pages give
+you all of the information that you need to shape your collection of models into the units which will in turn form a force ready
+for battle.
+
+Grand Army Composition List
+Characters                                                         Rare
+Up to 50% of your army’s points value may be spent on:             Up to 25% of your army’s points value may be spent on:
+
+• 1+ Wizard (see page 4)                                           •   0-1 unit of Vargheists per 1,000 points
+• 0-1 Vampire Count, Master Necromancer or                         •   0-2 Black Coaches
+  Strigoi Ghoul King per 1,000 points                              •   0-1 Terrorgheist or Varghulf per 1,000 points
+• 0-1 Wight King or Banshee per 1,000 points                       •   0-1 unit of Blood Knights per 1,000 points
+• Vampire Thralls, Necromantic Acolytes, Wight Lords               •   0-1 unit of Hexwraiths per Cairn Wraith or
+  and Cairn Wraiths                                                    Tomb Banshee taken
+
+Core                                                               Allies
+At least 25% of your army’s points value must be spent on:         Up to 25% of your army’s points value may be spent on a single
+                                                                   allied contingent drawn from one of the following Grand
+• Skeleton Warriors, Zombies, Crypt Ghouls, Bat Swarms             Army composition lists:
+  and Dire Wolves
+• If your army includes one or more Wights, 0-1 unit               • Tomb Kings of Khemri
+  of Grave Guard or Black Knights may be taken as a
+  Core choice
+                                                                       Battle Standard Bearer
+Special                                                                A single Vampire Thrall or Wight Lord in your army
+Up to 50% of your army’s points value may be spent on:                 may be upgraded to be your Battle Standard Bearer for
+                                                                       +25 points. In addition to their usual allowance of points
+• 0-1 unit of Grave Guard or Black Knights per 1,000 points            to spend on magic items, a Battle Standard Bearer can
+• 0-1 unit of Crypt Horrors or Fell Bats per 1,000 points              purchase a single magic standard with no points limit.
+• 0-3 Corpse Carts
+• 0-1 unit of Spirit Hosts per Cairn Wraith or
+  Tomb Banshee taken
+• If your General is a Strigoi Ghoul King, 0-1 unit of
+  Vargheists or 0-1 Terrorgheist may be taken as a
+  Special choice
+Vampires
+                                                                                                                                                                Character
+                                             M        WS         BS         S         T        W          I         A        Ld        Points
+Vampire Count                                6         7          5         5         5        3          6         4         8         160
+Vampire Thrall                               6         6          4         5         4        2          5         3         7          75             Vampires
+                                                                                                                                                        Vampires are the true masters
+Troop Type:                Regular infantry (character)                                                                                                 of Undeath. Despite their
+Base Size:                 25 x 25 mm                                                                                                                   curse, Vampires retain all of
+Unit Size:                 1                                                                                                                            their devious intelligence,
+Equipment:                 Hand weapon                                                                                                                  ambition and desire. This
+                                                                                                                                                        makes them very dangerous
+Magic: A Vampire may be a Wizard (see below). A Vampire that is a Wizard knows spells                                                                   indeed, for they can continue
+from one of the following Lores of Magic:                                                                                                               to grow and learn, spending
+• Dark Magic                                                                                                                                            eternity perfecting their skills
+• Illusion                                                                                                                                              and honing their diabolical
+• Necromancy                                                                                                                                            plans and schemes. A
+                                                                                                                                                        Vampire is ultimately a selfish
+Options:                                                                                                                                                creature, driven by the traits
+• May take one of the following:                                                                                                                        they possessed when mortal.
+  - Additional hand weapon................................................................................................... +3 points
+  - Great weapon........................................................................................................................ +4 points      Vampires have no set
+  - Lance (if appropriately mounted).................................................................................. +4 points                        appearance, but most
+• May take a shield........................................................................................................................ +2 points   can pass as human at a
+• May take one of the following:                                                                                                                        distance. Some are even
+  - Light armour ......................................................................................................................... +3 points    more convincing mimics
+  - Heavy armour ....................................................................................................................... +6 points      of mankind, and hide their
+• May be mounted .......................................................................................................................See page 8      evil nature behind a veneer
+• A Vampire Count may:                                                                                                                                  of aristocratic nobility.
+  - Be a Level 1 Wizard ..........................................................................................................+30 points            Sometimes they are darkly
+  - Be a Level 2 Wizard ..........................................................................................................+60 points            handsome or disturbingly
+  - Purchase magic items up to a total of ......................................................................... 100 points                          beautiful, but only those that
+  - Take Vampiric Powers up to a total of ....................................................................... 100 points                            feed well and regularly can
+• A Vampire Thrall may:                                                                                                                                 maintain the masquerade
+  - Be a Level 1 Wizard ..........................................................................................................+30 points            of the living for any length
+  - Purchase magic items up to a total of ............................................................................50 points                         of time.
+  - Take Vampiric Powers up to a total of ..........................................................................50 points
+
+Special Rules:
+• Vampire Count: Dark Vitality, Flammable, Indomitable (2), Lore of Undeath,
+                  Necromantic Undead, Regeneration (5+)
+• Vampire Thrall: Banner of the Count, Dark Vitality, Flammable, Indomitable (1),
+                  Lore of Undeath, Necromantic Undead, Regeneration (5+)
+Banner Of The Count
+The ensorcelled Battle Standards of the Vampire Counts magnify the invisible forces that give the           Character
+Undead strength.
+
+A Vampire Thrall that has been upgraded to be your Battle Standard Bearer replaces the               Vampires
+“Hold Your Ground” rule given in the Warhammer: the Old World rulebook with the version              For all of their guile and
+given below:                                                                                         glamours, a Vampire is a
+                                                                                                     dead thing, possessed of no
+“Hold Your Ground”: Friendly units within the Battle Standard Bearer’s Command range                 heartbeat and no breath.
+may re-roll any failed Leadership test. In addition, friendly units within the Battle Standard       It is a rotting corpse kept
+Bearer’s Command range reduce the number of Wounds lost due to the Unstable special                  animated by its immortal
+rule by D3.                                                                                          will and Dark Magic. The
+                                                                                                     strain of retaining their
+Note that this is not cumulative with the Indomitable (X) special rule (see page 27). If a unit is   appearance is a drain on a
+affected by both, use the highest value.                                                             Vampire’s energies, and when
+                                                                                                     it is stressed or angered,
+                                                                                                     particularly in the heat of
+  The Death Of A General                                                                             battle, its true face may be
+  The armies of the Vampire Counts are held together by the necromantic magic of their               revealed. Some Vampires
+  generals. It is their will that raises the legions of Undeath from the cold earth and summons      make no attempt to hide
+  unclean creatures from the wilds. Without this magical animus, the Undead fall lifeless to the     their unholy nature. These
+  ground and the creatures of the night return to the dark forests.                                  creatures revel in the
+                                                                                                     crapulence and decay of
+  Every Vampire Counts army is animated and driven onwards by the sorcery of its                     their existence. Their skin
+  General. To represent this, the General of a Vampire Counts army must also be a                    has sloughed off, their fangs
+  Wizard (be they a Vampire, a Necromancer or a Strigoi Ghoul King). If your army                    are prominent and their
+  includes only a single Wizard, that Wizard must be your General, even if they are not              fingernails have become
+  the character with the highest Leadership in your army.                                            curling talons. The scent
+                                                                                                     of grave dust hangs around
+  Should your General be slain, the magical animus of the army starts to dissipate. As               them, mixed with the
+  soon as your General is removed from play as a casualty, all friendly units with the               stench of rotted meat and
+  Necromantic Undead special rule lose the Regeneration (X) special rule.                            stale blood.
+
+  In addition, at the end of the phase in which your General was removed from play as
+  a casualty, and during each of your Start of Turn sub-phases for the remainder of the
+  game, all friendly units with the Necromantic Undead special rule that are currently
+  on the battlefield must make a Leadership test. If this test is failed, the unit loses a
+  number of Wounds equal to the amount by which it failed the test.
+
+  For example, your army’s General is destroyed during your opponent’s Shooting phase.
+  At the end of that phase a unit of Skeleton Warriors (Ld 5) makes a Leadership test
+  and rolls a 7 (failing the test by 2). That unit immediately loses two Wounds. During
+  your next Start of Turn sub-phase, the same unit makes another Leadership test, this
+  time rolling a 6, resulting in the loss of one Wound.
+Necromancers
+                                                                                                                                                             Character
+                                            M        WS        BS          S        T        W          I        A        Ld         Points
+Master Necromancer                          4         3         3          3        4        3          3        2         8          130
+Necromantic Acolyte                         4         3         3          3        3        2          3        1         7           60            Necromancers
+                                                                                                                                                     Those individuals who turn
+Troop Type:                Regular infantry (character)                                                                                              to Necromancy are not
+Base Size:                 25 x 25 mm                                                                                                                necessarily evil to begin with.
+Unit Size:                 1                                                                                                                         Many seek to simply summon
+Equipment:                 Hand weapon                                                                                                               spirits and commune with
+                                                                                                                                                     the dead, whilst others
+Magic: A Master Necromancer is a Level 3 Wizard. A Necromantic Acolyte is a Level 1                                                                  desire knowledge for its own
+Wizard. Every Necromancer knows spells from one of the following Lores of Magic:                                                                     sake, or seek to save their
+• Dark Magic                                                                                                                                         own lives or that of a loved
+• Illusion                                                                                                                                           one. However, even if they
+• Necromancy                                                                                                                                         are not intrinsically bad
+                                                                                                                                                     people, something about
+Options:                                                                                                                                             the unnatural pursuit of
+• May be mounted .......................................................................................................................See page 8   Necromancy invariably turns
+• A Master Necromancer may:                                                                                                                          its practitioners onto a darker
+  - Be a Level 4 Wizard ..........................................................................................................+30 points         path. Perhaps it is the fear
+  - Purchase magic items up to a total of ......................................................................... 100 points                       and mistrust they engender
+• A Necromantic Acolyte may:                                                                                                                         in those around them,
+  - Be a Level 2 Wizard ..........................................................................................................+30 points         or perhaps it is dabbling
+  - Purchase magic items up to a total of ............................................................................50 points                      with the horrors that lurk
+                                                                                                                                                     beyond the veil of death that
+Special Rules: Dark Vitality, Indomitable (1), Invocation of Nehek, Lore of Undeath,                                                                 inevitably warps their minds.
+               Necromantic Undead, Regeneration (5+)                                                                                                 Whatever the reason, for
+                                                                                                                                                     Wizards that take to the path
+Invocation Of Nehek                                                                                                                                  of Necromancy, madness
+The Necromancer intones the dread syllables handed down from Nagash himself, breathing unlife                                                        waits at its end.
+into the lifeless cadavers strewn across the battlefield.
+
+During the Command sub-phase of their turn, if they are not engaged in combat, this
+character may attempt to resurrect the fallen (see page 28) by making a Leadership test
+(using their own Leadership). If this test is passed, a single friendly unit that has the
+Necromantic Undead special rule and is within 12" of this character recovers a number
+of lost Wounds. However, magically repairing great Undead beasts is much harder than
+raising Zombies from the dirt. Therefore, how many Wounds are recovered depends upon
+the unit’s troop type and this character’s Level of Wizardry:
+
+• If the unit’s troop type is ‘regular infantry’ or ‘heavy infantry’, it recovers a number of
+  Wounds equal to this character’s Level of Wizardry +D3.
+• If the unit’s troop type is ‘swarms’, ‘light cavalry’ or ‘war beasts’, it recovers a number of
+  Wounds equal to this character’s Level of Wizardry +1.
+• If the unit’s troop type is ‘monstrous infantry’, ‘heavy cavalry’, ‘monstrous cavalry’
+  or ‘light chariot’, it recovers a number of Wounds equal to this character’s Level
+  of Wizardry.
+• If the unit’s troop type is ‘heavy chariot’, ‘monstrous creature’, ‘behemoth’ or ‘war
+  machine’, it recovers a single Wound.
+Strigoi Ghoul Kings
+                                                                                                                                                                Character
+                                             M        WS         BS         S         T        W          I         A        Ld        Points
+Strigoi Ghoul King                           6         6          3         5         5        3          7         5         8         145             Strigoi
+                                                                                                                                                        The pallid creatures known
+Troop Type:                Regular infantry (character)                                                                                                 as Ghoul Kings are in fact
+Base Size:                 25 x 25 mm                                                                                                                   once-proud Strigoi Vampires
+Unit Size:                 1                                                                                                                            forced into a troglodytic
+Equipment:                 Hand weapon                                                                                                                  existence. Though all Strigoi
+                                                                                                                                                        descend from the same
+Magic: A Strigoi Ghoul King may be a Wizard (see below). A Strigoi Ghoul King that is a                                                                 ancient lineage of Ushoran,
+Wizard knows spells from one of the following Lores of Magic:                                                                                           they have devolved to become
+• Battle Magic                                                                                                                                          something far fouler and
+• Dark Magic                                                                                                                                            more hate-filled. These
+• Necromancy                                                                                                                                            creatures creep through the
+                                                                                                                                                        hidden places of the world,
+Options:                                                                                                                                                surrounded by packs of
+• May be mounted .......................................................................................................................See page 8      flesh-eating Crypt Ghouls.
+• May be a:                                                                                                                                             These scavenging creatures
+• Level 1 Wizard ..........................................................................................................................+30 points   are attracted to the Strigoi,
+• Level 2 Wizard ..........................................................................................................................+60 points   forming grotesque courts
+• May purchase magic items up to a total of ........................................................................75 points                           around them that mimic
+• May take Vampiric Powers up to a total of ........................................................................75 points                           the grandeur of the courts
+                                                                                                                                                        and palaces of the living. By
+Special Rules: Dark Vitality, Flammable, Hatred (all enemies), Indomitable (1),                                                                         cover of night, the Ghoul
+               Lore of Undeath, Necromantic Undead, Poisoned Attacks,                                                                                   Kings lead their followers to
+               Regeneration (5+), the Hunger                                                                                                            war in a desperate attempt to
+                                                                                                                                                        recreate the lost kingdom of
+The Hunger                                                                                                                                              Mourkain and wreak their
+Consumed by the red thirst, a Strigoi Ghoul King will feed hungrily upon the hot blood of their                                                         vengeance upon the living at
+foes, replenishing their own strength and vitality.                                                                                                     the head of a shambling army
+                                                                                                                                                        of Undead.
+At the end of any Combat phase in which this character inflicted one or more unsaved
+wounds, roll a D6. On a roll of 6, this character recovers a single lost Wound. However, so                                                             Cairn Wraiths
+great is this character’s hunger that, whenever they (and any unit they have joined) make a                                                             Cairn Wraiths are hooded,
+Pursuit roll, they roll only a single D6 (rather than the usual 2D6).                                                                                   spectral creatures that dwell
+                                                                                                                                                        in the realms of nightmare,
+                                                                                                                                                        haunting the dreams of Men.
+Cairn Wraiths                                                                                                                                           The icy touch of a Cairn
+                                                                                                                                                        Wraith drains the essence of
+                                             M        WS         BS         S         T        W          I         A        Ld        Points           mortals, its spectral talons
+Cairn Wraith                                 6         4          0         3         3        3          2         2         6          50             reaching into the body of an
+                                                                                                                                                        adversary and closing around
+Troop Type:                Regular infantry (character)                                                                                                 their vital organs, sending
+Base Size:                 25 x 25 mm                                                                                                                   painful chills right through a
+Unit Size:                 1                                                                                                                            mortal’s soul.
+Equipment:                 Spectral scythe (see below)
+Special Rules:             Ethereal, Indomitable (1), Necromantic Undead,
+                           Regeneration (6+), Terror
+
+                         R       S      AP      Special Rules
+Spectral scythe      Combat S          N/A Magical Attacks, Multiple Wounds (D3)
+Notes: No armour save is permitted against wounds caused by this weapon (Ward and
+Regeneration saves can be attempted as normal).
+Wights
+                                                                                                                                                                  Character
+                                              M        WS         BS         S         T        W           I        A         Ld        Points
+Wight King                                    4         5          0         5         5        3           4        3          9          85
+Wight Lord                                    4         4          0         4         5        2           4        2          8          40             Barrow Wights
+                                                                                                                                                          In ages past, the Men of
+Troop Type:                 Regular infantry (character)                                                                                                  the Old World buried their
+Base Size:                  25 x 25 mm                                                                                                                    dead beneath mounds of
+Unit Size:                  1                                                                                                                             earth and stone, together
+Equipment:                  Hand weapon and heavy armour                                                                                                  with their battle gear and
+                                                                                                                                                          worldly wealth. Although
+Options:                                                                                                                                                  their bodies have decayed,
+• May take one of the following:                                                                                                                          Wights are held together by
+• Additional hand weapon ......................................................................................................... +3 points              evil magic so strong that it
+• Great weapon .............................................................................................................................. +4 points   can last for many centuries.
+• Lance (if appropriately mounted) ........................................................................................ +4 points                     They wear ancient armour
+• May take a shield........................................................................................................................ +2 points     of bronze and black iron,
+• May be mounted .......................................................................................................................See page 8        corroded by time and dusty
+• A Wight King may purchase magic items up to a total of ......................................... 100 points                                             with the years. They carry
+• A Wight Lord may purchase magic items up to a total of ............................................50 points                                            iron weapons inlaid with evil
+                                                                                                                                                          runes, an accursed parody of
+Special Rules:                                                                                                                                            once powerful magical blades.
+• Wight King: Indomitable (1), Killing Blow, Necromantic Undead,                                                                                          Some Vampires rule over
+               Regeneration (5+)                                                                                                                          entire regiments of Wights,
+• Wight Lord: Killing Blow, Necromantic Undead, Regeneration (6+), Wight Banner                                                                           warriors who dared challenge
+                                                                                                                                                          them in life and now serve
+Wight Banner                                                                                                                                              them in death. Their ranks
+The enchanted banners of long-dead kings are inscribed with powerful charms.                                                                              are often joined by one of the
+                                                                                                                                                          kings of old, returned from
+A Wight Lord that has been upgraded to be your Battle Standard Bearer replaces the                                                                        his tomb to lead them as a
+“Hold Your Ground” rule given in the Warhammer: the Old World rulebook with the version                                                                   Wight King.
+given below:
+                                                                                                                                                          Tomb Banshees
+“Hold Your Ground”: Friendly units within the Battle Standard Bearer’s Command range                                                                      Banshees are the restless
+may re-roll any failed Leadership test. In addition, friendly units within the Battle Standard                                                            spirits of evil women. Their
+Bearer’s Command range reduce the number of Wounds lost due to the Unstable special                                                                       shades linger in the material
+rule by D3.                                                                                                                                               world, fearing to cross the
+                                                                                                                                                          void to face punishment for
+Note that this is not cumulative with the Indomitable (X) special rule (see page 27). If a unit is                                                        their dark deeds. Banshees
+affected by both, use the highest value.                                                                                                                  howl in bitterness and
+                                                                                                                                                          remembrance of when
+                                                                                                                                                          the pleasures of life were
+Tomb Banshees                                                                                                                                             theirs. Their wail is lethal to
+                                                                                                                                                          mortals and those who do
+                                              M        WS         BS         S         T        W           I        A         Ld        Points           not have a will of iron may
+Tomb Banshee                                  6         3          0         3         3        2           3        1          6          90             die of sheer horror upon
+                                                                                                                                                          hearing it.
+Troop Type:                 Regular infantry (character)
+Base Size:                  25 x 25 mm
+Unit Size:                  1
+Equipment:                  Hand weapon
+Special Rules:              Ethereal, Indomitable (1), Magical Attacks, Necromantic Undead,
+                            Regeneration (6+), Terror, Wailing Dirge
+Character Mounts
+                                                                                                                                                                   Character
+A character that can be mounted may choose a mount from the following list. Some
+mounts are covered in detail on this page. Those that are not have their own dedicated
+entries later in this army list.                                                                                                                           Skeletal Steeds
+                                                                                                                                                           Skeletal steeds display a
+A Vampire Count or Vampire Thrall may be mounted on a:                                                                                                     supernatural discipline
+• Nightmare ..................................................................................................................................+16 points   and instinctively obey the
+• Coven Throne ......................................................................................................................... See page 16       will of their riders. Only
+• Abyssal Terror (Vampire Count only) ........................................................................... See page 22                              occasionally do these Undead
+• Zombie Dragon (Vampire Count only) ......................................................................... See page 20                                 horses twitch their heads
+                                                                                                                                                           as a vestigial memory of life
+A Master Necromancer or Necromantic Acolyte may be mounted on a:                                                                                           surfaces. Even though their
+• Nightmare ..................................................................................................................................+16 points   flesh has long since vanished,
+• Mortis Engine.......................................................................................................................... See page 17      skeletal steeds are as powerful
+• Abyssal Terror (Master Necromancer only) ............................................................... See page 22                                     as they were in life, and they
+• Zombie Dragon (Master Necromancer only) ............................................................. See page 20                                        can crush a foe’s skull with a
+                                                                                                                                                           single kick.
+A Strigoi Ghoul King may be mounted on a:
+• Terrorgheist ............................................................................................................................. See page 21   Nightmares
+                                                                                                                                                           Vampires do not ride to battle
+A Wight King or Wight Lord may be mounted on a:                                                                                                            atop mounts of mortal flesh
+• Skeletal Steed .............................................................................................................................+14 points   and blood, but mounted
+                                                                                                                                                           upon great, unnatural
+Skeletal Steed                                                                                                                                             destriers called Nightmares,
+                                                                                                                                                           dread warhorses brought
+                                              M        WS         BS          S         T        W          I         A        Ld         Points           to life through necromantic
+Skeletal Steed                                7         2          -          3         -        -          2         1         -           14             magic. Though their flesh
+                                                                                                                                                           is withered and their skin
+Troop Type:                 Heavy cavalry                                                                                                                  pocked and rank, these
+Base Size:                  30 x 60 mm                                                                                                                     mighty steeds can easily bite
+Unit Size:                  1                                                                                                                              or kick an enemy soldier
+Equipment:                  Skeletal hooves (counts as a hand weapon) and barding                                                                          to death.
+Special Rules:              First Charge, Necromantic Undead, Swiftstride
+
+
+Nightmare
+                                              M        WS         BS          S         T        W          I         A        Ld         Points
+Nightmare                                     7         3          -          4         -        -          2         1         -           16
+
+Troop Type:                 Heavy cavalry
+Base Size:                  30 x 60 mm
+Unit Size:                  1
+Equipment:                  Iron-shod hooves (counts as a hand weapon) and barding
+Special Rules:              Counter Charge, First Charge, Necromantic Undead, Swiftstride
+Grave Guard
+                                                                                                                                       Infantry
+                                     M       WS       BS       S       T       W        I       A       Ld      Points
+Grave Guard                          4        3        3       4       4       1        3       1        7        11
+Seneschal                            4        3        3       4       4       1        3       2        7       +6            Grave Guard
+                                                                                                                               Grave Guard are ancient
+Troop Type:            Heavy infantry                                                                                          Wights, summoned from
+Base Size:             25 x 25 mm                                                                                              their tombs to guard the
+Unit Size:             10+                                                                                                     haunted keeps of their
+Equipment:             Hand weapons, heavy armour and shields                                                                  necromantic masters.
+                                                                                                                               Although their bodies have
+Options:                                                                                                                       decayed leaving only bones
+• The entire unit may replace shields with great weapons ..........................+1 point per model                          and tattered flesh, Grave
+• Any unit may:                                                                                                                Guard are held together by
+  - Upgrade one model to a Seneschal (champion) ....................................... +6 points per unit                     evil magic so strong that it
+  - Upgrade one model to a standard bearer ................................................... +6 points per unit              has endured for centuries.
+  - Upgrade one model to a musician ................................................................ +6 points per unit        These eerie, silent sentinels
+  - Purchase a magic standard worth up to........................................................................50 points     stand constant vigil on the
+• A Seneschal may purchase magic items up to a total of ................................................25 points              crumbling battlements and at
+• 0-1 unit per 1,000 points may:                                                                                               the iron-bound gates, never
+  - Have the Drilled special rule ...................................................................... +2 points per model   resting, eternally ready to
+  - Have the Implacable Defence special rule ...............................................+1 point per model                 defend their Vampire master.
+                                                                                                                               When a Vampire marches
+Special Rules: Cleaving Blow, Close Order, Indomitable (1), Necromantic Undead,                                                forth, their Grave Guard
+               Regeneration (6+)                                                                                               advances at the vanguard
+                                                                                                                               of the Undead host. They
+Implacable Defence                                                                                                             form a formidable corps of
+Through a combination of stout shields, thick armour plates and natural resilience, the                                        warriors, protected by heavy
+Grave Guard have become well-known amongst the nations of the Old World for their                                              armour, their enchanted
+implacable defence.                                                                                                            blades cutting down the
+                                                                                                                               toughest of enemies.
+A unit with this special rule that is arrayed in a Close Order formation, and that is
+equipped with and chooses to use shields, may choose not to Give Ground should it lose a
+round of combat.
+
+However, if the winning side significantly outnumbers the losing side, it will overwhelm the
+loser. If the Unit Strength of the winning side is more than twice that of the losing side, this
+unit cannot use this special rule and must Give Ground as normal.
+Skeleton Warriors
+                                                                                                                                   Infantry
+                                    M      WS       BS       S      T       W        I      A       Ld      Points
+Skeleton Warrior                    4       2        2       3      3       1        2      1        5        5
+Skeleton Champion                   4       2        2       3      3       1        2      2        5       +5           Skeleton Warriors
+                                                                                                                          The battlefields of the Old
+Troop Type:           Regular infantry                                                                                    World are strewn with the
+Base Size:            25 x 25 mm                                                                                          graves of countless warriors
+Unit Size:            10+                                                                                                 that fell in battle and were
+Equipment:            Hand weapons, light armour and shields                                                              consigned to a hasty resting
+                                                                                                                          place. But even in death there
+Options:                                                                                                                  is no rest for these fallen
+• The entire unit may take thrusting spears .....................................................+1 point per model       warriors, for they can be
+• Any unit may:                                                                                                           summoned back to the world
+  - Upgrade one model to a Skeleton Champion ........................................... +5 points per unit               of the living by black sorcery
+  - Upgrade one model to a standard bearer ................................................... +5 points per unit         and compelled to obey the
+  - Upgrade one model to a musician ................................................................ +5 points per unit   magic of the Necromancer
+• 0-1 unit per 1,000 points may purchase a magic standard worth up to ...................50 points                        that raised them.
+
+Special Rules: Close Order, Horde, Necromantic Undead, Regeneration (6+)                                                  Zombies
+                                                                                                                          Zombies are rotted corpses
+                                                                                                                          brought back from the dead
+Zombies                                                                                                                   by foul Necromancy. Their
+                                                                                                                          necromantic overlords drive
+                                    M      WS       BS       S      T       W        I      A       Ld      Points        them into battle in their
+Zombie                              4       2        0       3      3       1        1      1        2        3           thousands, using them to
+                                                                                                                          exhaust the armies of the
+Troop Type:           Regular infantry                                                                                    living. Zombies are poor
+Base Size:            25 x 25 mm                                                                                          fighters, but they never give
+Unit Size:            20-40                                                                                               up and will push against
+Equipment:            Hand weapons                                                                                        their enemies in a huge
+                                                                                                                          engulfing mass.
+Options:
+• Any unit may:
+  - Upgrade one model to a standard bearer ................................................... +5 points per unit
+  - Upgrade one model to a musician ................................................................ +5 points per unit
+
+Special Rules: Close Order, Horde, Necromantic Undead, Regeneration (6+),
+               the Newly Dead
+Crypt Ghouls
+                                                                                                        Infantry
+                            M       WS    BS    S     T    W      I    A     Ld    Points
+Crypt Ghoul                 5        3     3    3     4    1      3    2      5      9
+Crypt Ghast                 5        3     3    3     4    1      3    3      5     +6         Crypt Ghouls
+                                                                                               Ghouls are stooped and ugly
+Troop Type:       Regular infantry                                                             creatures. Their skin is sallow
+Base Size:        25 x 25 mm                                                                   and filthy, their eyes are
+Unit Size:        10+                                                                          bestial and insane, and their
+Equipment:        Hand weapons                                                                 snarling lips reveal sharp-
+                                                                                               pointed teeth in slavering
+Options:                                                                                       mouths. Dressed only in
+• Any unit may upgrade one model to a Crypt Ghast (champion) ............ +6 points per unit   the rags pulled from their
+                                                                                               victims, Crypt Ghouls carry
+Special Rules: Move through Cover, Necromantic Undead, Open Order,                             in their filthy claws weapons
+               Poisoned Attacks, Regeneration (6+), Reserve Move, Skirmishers                  they have crudely fashioned
+                                                                                               from the remains of their
+                                                                                               unwholesome meals.
+Crypt Horrors
+                                                                                               Crypt Horrors
+                            M       WS    BS    S     T    W      I    A     Ld    Points      The malformed monstrosities
+Crypt Horror                6        3     0    4     5    3      2    3      5      46        known as Crypt Horrors –
+Crypt Haunter               6        3     0    4     5    3      2    4      5     +7         Ghouls that have fed upon
+                                                                                               the blood of a Vampire and
+Troop Type:       Monstrous infantry                                                           grown huge in stature – are,
+Base Size:        40 x 40 mm                                                                   thankfully, a rare sight.
+Unit Size:        3+                                                                           Spoken of in hushed whispers
+Equipment:        Filth-encrusted claws (see below)                                            by night watchmen, grave-
+                                                                                               diggers and other nocturnal
+Options:                                                                                       citizens of the Empire, the
+• Any unit may upgrade one model to a Crypt Haunter (champion) ....... +7 points per unit      few persistent reports of
+                                                                                               these looming and moon-mad
+Special Rules: Indomitable (1), Move through Cover, Necromantic Undead,                        fiends are dismissed as the
+               Open Order, Regeneration (6+), Stomp Attacks (1)                                ravings of superstitious fools.
+
+                       R        S        AP    Special Rules                                   Bat Swarms
+Filth-encrusted      Combat     S        -1    Poisoned Attacks                                When the armies of the
+claws                                                                                          Undead march to war,
+                                                                                               the skies above them are
+                                                                                               obscured by multitudes of
+Bat Swarms                                                                                     bats. Driven by the will of
+                                                                                               Vampires and Necromancers,
+                            M       WS    BS    S     T    W      I    A     Ld    Points      hundreds of these animals
+Bat Swarm                   1        3     0    2     2    5      4    5      3      39        gather in living clouds to blot
+                                                                                               out the light of sun and moon
+Troop Type:       Swarms                                                                       alike, purposefully swathing
+Base Size:        40 x 40 mm                                                                   the battlefield in darkness,
+Unit Size:        3+                                                                           the better to confound and
+Equipment:        Claws and fangs (counts as a hand weapon)                                    demoralise the living.
+Special Rules:    Fly (7), Necromantic Undead, Regeneration (6+), Skirmishers
+Vargheists
+                                                                                                             Infantry
+                             M       WS    BS    S      T     W      I     A     Ld     Points
+Vargheist                    6        4     0    5      4     3      4     3      7       61
+Vargoyle                     6        4     0    5      4     3      4     4      7      +7         Vargheists
+                                                                                                    These towering winged
+Troop Type:       Monstrous infantry                                                                humanoids, each several
+Base Size:        40 x 40 mm                                                                        times the size of a Man are
+Unit Size:        3+                                                                                the darkness in a Vampire’s
+Equipment:        Wicked claws (see below)                                                          soul made manifest. They
+                                                                                                    are curse-born Vampires that
+Options:                                                                                            have devolved into ravening
+• Any unit may upgrade one model to a Vargoyle (champion) .................... +7 points per unit   predators desperate for the
+                                                                                                    taste of blood. They prowl
+Special Rules: Armour Bane (2), Dark Vitality, Flammable, Fly (9), Frenzy,                          the battlefield in packs, ready
+               Indomitable (1), Necromantic Undead, Regeneration (6+), Skirmishers                  to pounce upon the least sign
+                                                                                                    of weakness in the enemy
+                       R         S        AP    Special Rules                                       ranks with crimson claw and
+Wicked claws         Combat      S        -2    -                                                   bloody fang.
+
+                                                                                                    Fell Bats
+Fell Bats                                                                                           With a body as long as an
+                                                                                                    adult human, Fell Bats are
+                             M       WS    BS    S      T     W      I     A     Ld     Points      a fearsome sight. They are
+Fell Bat                     1        3     0    3      3     2      3     2      3       15        darker than midnight and
+                                                                                                    silent as death, even when
+Troop Type:       Monstrous infantry                                                                in full flight. Those who
+Base Size:        40 x 40 mm                                                                        have encountered them, and
+Unit Size:        3+                                                                                lived, tell how they hunt with
+Equipment:        Claws and fangs (counts as a hand weapon)                                         unerring accuracy, swooping
+Special Rules:    Fly (10), Necromantic Undead, Regeneration (6+),                                  down to knock knights from
+                  Skirmishers, Swiftstride                                                          their saddles or pick off lone
+                                                                                                    warriors unawares.
+Spirit Hosts
+                                                                                                    Spirit Hosts
+                             M       WS    BS    S      T     W      I     A     Ld     Points      The unquiet spirits of the
+Spirit Host                  6        3     0    3      3     4      1     4      4       49        dead can often be seen
+                                                                                                    as mournful, swirling
+Troop Type:       Swarms                                                                            mists, broken with wailing
+Base Size:        40 x 40 mm                                                                        faces and grasping hands.
+Unit Size:        3-6                                                                               Their touch draws some
+Equipment:        Hand weapons                                                                      of a victim’s soul into the
+Special Rules:    Bound Spirits, Ethereal, Magical Attacks, Necromantic Undead,                     underworld, dragging them
+                  Open Order, Regeneration (6+), Reserve Move                                       into a coma or stealing their
+                                                                                                    knowledge of who they were.
+Bound Spirits                                                                                       Only a priest of Morr can
+Snatched from Morr’s dark realm by the magic of a Necromancer, the tortured shades of the dead      restore the mind of a person
+are bound to the will of the one that summoned them.                                                who has had their spirit
+                                                                                                    leached by a ghost.
+Unlike other swarms, this unit is not subject to the Undisciplined rule. In other words, this
+unit can use the Inspiring Presence rule of the army’s General and the Hold your Ground
+rule of a Battle Standard.
+Blood Knights
+                                                                                                                                                    Cavalry
+                                         M       WS        BS        S        T        W         I        A       Ld       Points
+Blood Knight                             -        5         3        4        4        1         4        2        7         39
+Kastellan                                -        5         3        4        4        1         4        3        7        +7             Blood Knights
+Nightmare                                7        3         -        4        -        -         2        1        -          -            Many years ago, the people
+                                                                                                                                           of the Old World would have
+Troop Type:   Heavy cavalry                                                                                                                named the Knights of the
+Base Size:    30 x 60 mm                                                                                                                   Blood Dragon amongst the
+Unit Size:    5+                                                                                                                           noblest of warriors defending
+Equipment:                                                                                                                                 their lands. Their great
+• Blood Knights: Hand weapons, lances, heavy armour and shields                                                                            fortress, Blood Keep, guarded
+• Nightmares: Iron-shod hooves (counts as hand weapons) and barding                                                                        the passes to Bretonnia and
+                                                                                                                                           was famed for the valour
+Options:                                                                                                                                   of its defenders. Today, the
+• Any unit may:                                                                                                                            Vampiric remnants of that
+  - Upgrade one model to a Kastellan (champion) ....................................... +7 points per unit                                 once-noble order are amongst
+  - Upgrade one model to a standard bearer ................................................... +7 points per unit                          the most fearsome cavalry in
+  - Upgrade one model to a musician ................................................................ +7 points per unit                    all of the Old World. Blood
+  - Purchase a magic standard worth up to........................................................................50 points                 Knights ride into battle with
+  - Replace heavy armour with full plate armour ..................................... +5 points per model                                  fangs bared through storms
+  - Have the Drilled special rule ...................................................................... +3 points per model               of arrow and shot. Such is
+• A Kastellan may take:                                                                                                                    their honour that they will
+  - Vampiric Powers up to a total of .....................................................................................25 points        refuse no martial challenge,
+  - Magic items up to a total of ..............................................................................................25 points   and will fight at the forefront
+                                                                                                                                           of an Undead army without
+Special Rules: Accursed Weapons, Close Order, Counter Charge, Dark Vitality,                                                               question. It is said that even
+               First Charge, Flammable, Indomitable (1), Martial Pride,                                                                    the fabled Grail Knights of
+               Necromantic Undead, Regeneration (6+), Swiftstride                                                                          Bretonnia cannot match the
+                                                                                                                                           Blood Knights lance for lance
+Accursed Weapons                                                                                                                           upon the field.
+The blades of the Blood Knights are fel weapons inscribed with dark runes, chased with precious
+metals and fashioned in the likenesses of evil beasts.
+
+A hand weapon carried by a model with this special rule has the Magical Attacks special
+rule and an Armour Piercing characteristic of -1.
+
+Martial Pride
+Over time, the Blood Knights have become a macabre parody of the noble knights they once were,
+toying with their foes mercilessly in one-sided duels to the death.
+
+Every model in a unit of Blood Knights can issue and accept challenges in the same manner
+as a character. However, a unit with this special rule cannot refuse a challenge – if a
+challenge is issued and a model belonging to this unit could accept it, a model belonging to
+the unit must accept it.
+Black Knights
+                                                                                                                                                            Cavalry
+                                            M       WS        BS         S         T        W          I        A        Ld        Points
+Black Knight                                -        3         0         4         4        1          3        1         6          24
+Hell Knight                                 -        3         0         4         4        1          3        2         6         +6             Black Knights
+Skeletal Steed                              7        2         -         3         -        -          2        1         -           -            In the times before the
+                                                                                                                                                   Empire, it was common that
+Troop Type:    Heavy cavalry                                                                                                                       only a tribe’s nobility would
+Base Size:     30 x 60 mm                                                                                                                          ride mounted into battle.
+Unit Size:     5+                                                                                                                                  When these knights died
+Equipment:                                                                                                                                         their horses were ritually
+• Black Knights: Hand weapons, heavy armour and shields                                                                                            slaughtered and buried in the
+• Skeletal Steeds: Skeletal hooves (counts as hand weapons)                                                                                        barrows alongside them, to
+                                                                                                                                                   carry them in the afterlife.
+Options:                                                                                                                                           Many centuries later, foul
+• The entire unit may take any of the following:                                                                                                   Necromancers summon the
+  - Lances ................................................................................................................. +2 points per model   enchanted bones of these
+  - Barding ............................................................................................................... +2 points per model    ancient knights and their
+• Any unit may:                                                                                                                                    sorcerous steeds forth to
+  - Upgrade one model to a Hell Knight (champion) ................................... +6 points per unit                                           battle once more.
+  - Upgrade one model to a standard bearer ................................................... +6 points per unit
+  - Upgrade one model to a musician ................................................................ +6 points per unit                            Dire Wolves
+  - Purchase a magic standard worth up to........................................................................50 points                         All across the Old World,
+• A Hell Knight may purchase magic items up to a total of ............................................25 points                                    the corpses of great wolves
+                                                                                                                                                   regularly return from the
+Special Rules: Cleaving Blow (Black Knights & Hell Knight only), Close Order,                                                                      dead and continue the hunt
+               First Charge, Necromantic Undead, Regeneration (6+), Swiftstride                                                                    in unlife. Their fur matted
+                                                                                                                                                   with blood and grime, the
+Dire Wolves                                                                                                                                        smell of decaying flesh clings
+                                                                                                                                                   to these Dire Wolves, whilst
+                                            M       WS        BS         S         T        W          I        A        Ld        Points          maggots writhe in open
+Dire Wolf                                   9        3         0         3         3        1          3        1         3          8             wounds and skin hangs from
+Doom Wolf                                   9        3         0         3         3        1          3        2         3         +6             their bones in ragged flaps.
+
+Troop Type:               War beasts
+Base Size:                25 x 50 mm
+Unit Size:                5-20
+Equipment:                Claws and fangs (counts as hand weapons)
+
+Options:
+• Any unit may upgrade one model to a Doom Wolf (champion).............. +6 points per unit
+
+Special Rules: Necromantic Undead, Open Order, Regeneration (6+), Reserve Move,
+               Slavering Charge, Swiftstride, Vanguard
+
+Slavering Charge
+Fighting as a ferocious pack, charging Dire Wolves quickly overpower their enemies.
+
+During a turn in which it charged, this model has a +1 modifier to its
+Strength characteristic.
+Hexwraiths
+                                                                                                               Cavalry
+                              M     WS     BS      S      T     W      I      A     Ld     Points
+Hexwraith                     -      3      0      3      3     1      2      1      5       31
+Hellwraith                    -      3      0      3      3     1      2      2      5      +6       Hexwraiths
+Spectral Steed                8      2      -      3      -     -      2      1      -        -      The origins of the
+                                                                                                     Hexwraiths are shrouded
+Troop Type:    Light cavalry                                                                         in mystery, but it is said
+Base Size:     30 x 60 mm                                                                            that they were created on
+Unit Size:     5-10                                                                                  Hexensnacht, tearing their
+Equipment:                                                                                           way into the mortal realm
+• Hexwraiths: Hand weapons and great weapons                                                         from the very bowels of the
+• Spectral Steeds: Skeletal hooves (counts as hand weapons)                                          underworld. Their single-
+                                                                                                     minded purpose seems to
+Options:                                                                                             be the pursuit of those evil
+• Any unit may upgrade one model to a Hellwraith (champion) ................ +6 points per unit      souls who have cheated their
+                                                                                                     rightful fate, for a Hexwraith’s
+Special Rules: Ethereal, Flaming Attacks, Fly (8), Magical Attacks,                                  shade-like existence leaves it
+               Necromantic Undead, Open Order, Regeneration (6+),                                    with a hunger that only the
+               Spectral Reapers, Swiftstride, Terror                                                 succour of a damned soul
+                                                                                                     can sate. Once the curse of
+Spectral Reapers                                                                                     the Hexwraiths has been laid
+Galloping above the battlefield upon spectral steeds, Hexwraiths lean low in their saddles to reap   upon their prey, there can
+the souls of the living.                                                                             be no escape – the spectral
+                                                                                                     horsemen can hurtle across
+A unit with this special rule may perform a ‘Spectral Reapers’ attack against a single enemy         rivers and pass through
+unit that is not engaged in combat. To do so, this unit must move (by flying) over the unit          mountainsides on their
+it wishes to attack during the Remaining Moves sub-phase. Once this unit’s movement is               incorporeal steeds without
+complete, the enemy unit suffers a single Strength 4 hit, with no armour save permitted              slowing their headlong
+(Ward and Regeneration saves can be attempted as normal), and with the Flaming Attacks               charge, before cutting the
+and Magical Attacks special rules, for each model in this unit that moved over it.                   souls from their prey and
+                                                                                                     vanishing once more in a
+                                                                                                     single, terrifying instant.
+Coven Throne
+                                                                                                            Chariot
+                        M          WS     BS      S     T      W      I     A     Ld     Points
+Coven Throne            -           -      -      5     5      5      -      -     -      +210
+Pallid Handmaidens (x2) -           5      3      5     -      -      5      2     7        -     Coven Throne
+Spirit Horde            6           3      0      3     -      -      1     D6     -        -     Compensating for a cursed
+                                                                                                  existence with grandeur and
+Troop Type:   Heavy chariot                                                                       luxury is a common theme
+Base Size:    50 x 100 mm                                                                         amongst the Vampire elite. A
+Unit Size:    1                                                                                   true lord or lady of undeath
+Armour Value: 4+                                                                                  refuses to churn through
+Equipment:                                                                                        the mud of a battlefield like
+• Pallid Handmaidens: Hand weapons                                                                a common peasant or be
+• Spirit Horde: Hand weapons and lances                                                           content with the dubious
+                                                                                                  dignity of sitting astride a
+Special Rules: Close Order, Dark Vitality, First Charge, Fly (8), Ghoulish Glamour,               grave-beast. Instead, the
+               Impact Hits (D6+1), Large Target, Necromantic Undead,                              monarchs of the night
+               Random Attacks (Spirit Horde only), Regeneration (6+), Scrying Pool                and their most trusted
+                                                                                                  handmaidens are often borne
+Ghoulish Glamour                                                                                  to war on gilded palanquins
+Mortals quail in awestruck disbelief at the sight of a Vampire coven lounging upon the decayed    known as Coven Thrones,
+luxury of a Coven Throne.                                                                         bone-framed constructs held
+                                                                                                  aloft by departed spirits.
+Enemy units must make a Leadership test before making any rolls To Hit against this               Despite their luxury, these
+model during the Combat phase. If this test is failed, only rolls of a natural 6 will hit.        ostentatious platforms are
+                                                                                                  potent weapons upon the
+                                                                                                  battlefield. The Vampires
+  Scrying Pool                                                                                    themselves move so swiftly as
+                                                                                                  to be virtually invisible to the
+  The Coven Thrones bear great enchanted bowls full of fresh blood, within which the              eye, but their true strength
+  Vampire’s handmaidens can scry the future.                                                      lies in their unity. A coven of
+                                                                                                  Vampires fighting as one is
+  Even if engaged in combat, this model can cast the following Bound spell, with a                as formidable a prospect as
+  Power Level of 2:                                                                               any Dragon.
+
+  Type: Enchantment
+  Casting Value: 9+
+  Range: Self
+  Effect: Until your next Start of Turn sub-phase, this model may re-roll any rolls To
+  Hit of a natural 1.
+
+
+  Character Mount: A Coven Throne may only be included in your army as a
+  character’s mount. Its points are added to that of its rider.
+Mortis Engine
+                                                                                                          Chariot
+                             M     WS     BS     S     T     W      I     A      Ld    Points
+Mortis Engine                -      -      -     5     5     5      -      -      -     +195
+Banshees (x3)                -      3      0     3     -     -      3      1      5       -     Mortis Engines
+Spirit Horde                 6      3      0     3     -     -      1     D6      -       -     Sometimes, the remains of
+                                                                                                a once mighty lord of the
+Troop Type:   Heavy chariot                                                                     Undead are enshrined within
+Base Size:    50 x 100 mm                                                                       a Mortis Engine, a cage of
+Unit Size:    1                                                                                 fused bone, surrounded by
+Armour Value: 4+                                                                                trappings of grandeur and
+Equipment:                                                                                      borne to war by a host of
+• Banshees: Hand weapons                                                                        spirits bound to the infernal
+• Spirit Horde: Hand weapons and lances                                                         device. Though all that
+                                                                                                remains of their evil sovereign
+Special Rules: Accursed Reliquary, Blasphemous Tome, Close Order, Dark Vitality,                may be a wizened skull or
+               First Charge, Fly (8), Impact Hits (D6+1), Large Target,                         a gilded finger bone, these
+               Necromantic Undead, Random Attacks (Spirit Horde only),                          spirits are forced to protect
+               Regeneration (6+), Wailing Dirge                                                 the unhallowed remains for
+                                                                                                the rest of eternity. The evil
+Accursed Reliquary                                                                              soul that clings to the unholy
+Powerful necromantic magic clings to the unhallowed remains enshrined within the heart of a     relic attracts the attentions of
+Mortis Engine, energising nearby Undead.                                                        wailing Banshees, who shriek
+                                                                                                and howl in the air above the
+Whilst within this model’s Command range, friendly units with the Necromantic Undead            grotesque hearse. The Mortis
+special rule gain a +1 modifier to their Movement and Initiative characteristics.               Engines are watched over by
+                                                                                                deathless attendants known
+Blasphemous Tome                                                                                as Corpsemasters, trusted
+Rumoured to have been penned by Nagash himself, the Winds of Magic become nigh                  servants of the Vampire
+uncontrollable in the presence of a Blasphemous Tome.                                           Counts who have proven
+                                                                                                immune to the dire energies
+All Wizards (friend or foe) may apply a +1 modifier to any Casting roll whilst within this      that emanate from the
+model’s Command range. However, if any Wizard miscasts whilst within this model’s               relics within.
+Command range, they must roll twice on the Miscast table and apply both results.
+
+
+  Character Mount: A Mortis Engine may only be included in your army as a
+  character’s mount. Its points are added to that of its rider.
+Corpse Cart
+                                                                                                                                                                       Chariot
+                                               M        WS         BS          S         T         W           I       A Ld                  Points
+Corpse Cart                                    -         -          -          4         4         4           -       -  -                   115
+Corpsemaster (x1)                              -         3          0          3         -         -           3       1  5                    -              Corpse Carts
+The Restless Dead                              4         1          0          3         -         -           1      2D6 -                    -              Corpse Carts act like magnets
+                                                                                                                                                              to Dark Magic, drawing
+Troop Type:    Heavy chariot                                                                                                                                  their power from the land
+Base Size:     50 x 100 mm                                                                                                                                    itself and animating the dead
+Unit Size:     1                                                                                                                                              around them. Sometimes
+Armour Value: 4+                                                                                                                                              a Corpse Cart is hung with
+Equipment:                                                                                                                                                    a great bell, the clapper of
+• Corpsemaster: Hand weapon                                                                                                                                   which is a fel lodestone of
+• The Restless Dead: Hand weapons                                                                                                                             eldritch provenance. When
+                                                                                                                                                              necromantic magic is thick
+Magic: A Corpsemaster is a Level 1 Wizard. Every Corpsemaster knows a spell from the                                                                          in the air, the bell tolls
+Necromancy Lore of Magic.                                                                                                                                     and ripples of Dark Magic
+                                                                                                                                                              emanate from the Corpse
+Options:                                                                                                                                                      Cart. Under the influence of
+• A Corpsemaster may take one of the following:                                                                                                               this ominous knell, the dead
+  - Whip ........................................................................................................................................ +3 points   are drawn back together and
+  - Cavalry spear......................................................................................................................... +3 points          cadavers stagger to their feet.
+• A Corpse Cart must take one of the following:                                                                                                               Other Corpse Carts are lit
+  - Balefire Brazier ...................................................................................................................+10 points            by braziers that burn with
+  - Warped Tintinnabulation ..............................................................................................+15 points                          infernal flames. The smoke
+                                                                                                                                                              from these balefires contains
+Special Rules: Close Order, Dark Vitality, First Charge, Impact Hits (D3+1),                                                                                  particles of warpstone that
+               Indomitable (1), Lore of Undeath, Necromantic Undead,                                                                                          can drive enemy Wizards
+               Random Attacks (The Restless Dead only), Regeneration (6+)                                                                                     temporarily insane.
+
+Balefire Brazier
+The acrid smoke of burning warpstone confounds rival Wizards.
+
+Enemy Wizards that are within 15" of one or more models with this special rule when
+attempting to cast a spell must increase that spell’s casting value by 1.
+
+Warped Tintinnabulation
+When warped bells toll, the dead stir and corpses stagger to their feet.
+
+When a friendly unit that is within 15" of this model recovers a number of lost Wounds
+due to a character using the Invocation of Nehek special rule, roll a D6. On a roll of 4+, the
+unit recovers one additional Wound. In addition, friendly units within 15" of this model
+reduce the number of Wounds lost due to the Unstable special rule by 1.
+
+Note that this is cumulative with the Indomitable (X) special rule (see page 27).
+Black Coach
+                                                                                                              Chariot
+                              M     WS     BS      S     T     W       I     A     Ld     Points
+Black Coach                   -      -      -      5     6     4       -     -      -      205
+Wraith (x1)                   -      3      0      3     -     -       2     2      5       -        Black Coaches
+Nightmares (x2)               8      3      -      4     -     -       2     1      -       -        In ramshackle and garlic-
+                                                                                                     hung taverns, grim tales are
+Troop Type:   Heavy Chariot                                                                          told of the Black Coaches that
+Base Size:    50 x 100 mm                                                                            haunt the mountain passes.
+Unit Size:    1                                                                                      These morbid carriages are
+Armour Value: 3+                                                                                     omens of disaster and death.
+Equipment:                                                                                           They are horrific, unholy
+• Wraith:     Spectral scythe (see below)                                                            things, neither wholly real
+• Nightmares: Iron-shod hooves (counts as hand weapons)                                              nor immaterial. A Black
+                                                                                                     Coach is a herald of famine,
+Special Rules: Close Order, First Charge, Impact Hits (D6+2), Indomitable (1),                       war and murder, the sight of
+               Magical Attacks, Necromantic Undead, Regeneration (6+),                               which can drive a sane man
+               Spectral Coach, Terror                                                                to despair. Many an Imperial
+                                                                                                     road warden or Bretonnian
+Spectral Coach                                                                                       knight has attempted to
+Compelled by the undying spirit of its accursed passenger, a Black Coach shifts constantly between   halt one of these ghastly
+the world of the living and the realm of the dead.                                                   apparitions and died for
+                                                                                                     their trouble.
+A Black Coach is not wholly corporeal. To represent this, a Black Coach may become
+‘Incorporeal’ during the Command sub-phase of its turn, and will remain Incorporeal until            Legend has it that the driver
+your next Start of Turn sub-phase. Whilst Incorporeal, a Black Coach:                                of a Black Coach is a Wraith
+                                                                                                     of some kind, and that grisly
+• Loses the Impact Hits (D6+2) special rule.                                                         Nightmares pull it to war. On
+• Gains the Ethereal and Fly (10) special rules.                                                     the battlefield, a Black Coach
+                                                                                                     grows ever more powerful,
+                         R       S      AP      Special Rules                                        feeding on magics wielded
+Spectral scythe      Combat S          N/A Magical Attacks                                           by mortal and immortal
+Notes: No armour save is permitted against wounds caused by this weapon (Ward and                    sorcerers alike.
+Regeneration saves can be attempted as normal).
+Zombie Dragon
+                                                                                                        Monster
+                           M WS BS           S     T    W       I    A Ld              Points
+Zombie Dragon              6     4     -     6 (+1) (+5) 2           5    -             +215
+Note: A character mounted on a Zombie Dragon has +1 Toughness and +5 Wounds.                    Zombie Dragons
+                                                                                                In death, no creature is
+Troop Type:    Behemoth                                                                         beyond the powers of the
+Base Size:     100 x 150 mm                                                                     Necromancer. From the
+Unit Size:     1                                                                                smallest bat to the mightiest
+Equipment:     Wicked claws (see below), pestilential breath (see below) and                    Manticore, every Man,
+               draconic scales (counts as full plate armour)                                    monster or beast can be
+Special Rules: Carrion Feeders, Close Order, Fly (9), Large Target,                             pulled from death’s embrace
+               Necromantic Undead, Stomp Attacks (D6), Swiftstride, Terror                      and bound to fight once
+                                                                                                more for a new master.
+Carrion Feeders                                                                                 The elder race of Dragons
+The decaying carcass of a Zombie Dragon is wreathed by swarms of buzzing carrion feeders that   is no exception. Those
+crawl greedily across the exposed flesh of its enemies, choking and blinding them.              Vampires gifted in the art
+                                                                                                of Necromancy bind the
+Enemy units engaged in combat with this model suffer a -1 modifier to their                     corpses of the great drakes to
+Initiative characteristic.                                                                      their will, resurrecting them
+                                                                                                as Zombie Dragons. These
+                        R        S     AP      Special Rules                                    once majestic creatures
+Wicked claws          Combat     S     -2      -                                                stagger upright once more
+                                                                                                with a great despairing roar
+                        R        S     AP      Special Rules                                    before stooping to allow
+Pestilential breath    N/A       2     -3      Breath Weapon                                    their new master to ride atop
+                                                                                                their powerful shoulders.
+                                                                                                Wreathed in a fog of rot and
+                                                                                                surrounded by swarms of
+  Character Mount: A Zombie Dragon may only be included in your army as a                       blood-hungry flies, a Zombie
+  character’s mount. Its points are added to that of its rider.                                 Dragon can turn the tide of
+                                                                                                a battle purely by dint of its
+                                                                                                horrific presence.
+Terrorgheist
+                                                                                                               Monster
+                              M       WS    BS     S      T     W      I      A     Ld       Points
+Terrorgheist                  6        3     0     5      6     6      3      4      4        205
+                                                                                                      Terrorgheists
+Troop Type:    Behemoth                                                                               Ghoul Kings bind the mortal
+Base Size:     100 x 150 mm                                                                           remains of Terrorgheists,
+Unit Size:     1                                                                                      titanic bats the size of
+Equipment:     Filth-encrusted talons (see below), rancid maw (see below) and                         Dragons that haunt the
+               calloused hide (counts as light armour)                                                sickly skies of Sylvania, to
+Special Rules: Close Order, Fly (9), Indomitable (1), Infested, Large Target,                         their service. As Dark Magic
+               Necromantic Undead, Regeneration (5+), Stomp Attacks (D6),                             swirls around the monstrous
+               Swiftstride, Terror, Wailing Dirge                                                     remains of the cave-creature,
+                                                                                                      a bond of blood is formed
+Infested                                                                                              between Vampiric master and
+Legend has it that, when slain, Terrorgheists explode into great clouds of multitudinous,             Undead beast.
+swarming bats.
+                                                                                                      Guided by its master’s will,
+When this model loses its last Wound, every unit in base contact with it (friend or foe)              the monstrosity creaks
+suffers D6 Strength 2 hits, each with an AP of -1.                                                    through the clouds above the
+                                                                                                      battlefield on blotch-skinned
+                        R         S        AP     Special Rules                                       pinions, its rotten flesh and
+Filth-encrusted       Combat      S        -1     Armour Bane (1), Poisoned Attacks                   withered organs open to the
+talons                                                                                                night air. Clotted hanks of fur
+                                                                                                      cling in patches to its skeletal
+                        R       S     AP       Special Rules                                          neck, and its skull swings
+Rancid maw           Combat S          -2      Armour Bane (1), Multiple Wounds (2)                   from side to side as it tracks
+Note: In combat, this model must make one of its attacks each turn with this weapon.                  its prey on the plains below.
+
+
+  Character Mount: A Terrorgheist may be included in your army as a character’s
+  mount. If so, its points are added to that of its rider. When taken as a character
+  mount, a Terrorgheist has the following profile:
+
+                            M WS BS S                T     W      I    A Ld                 Points
+  Terrorgheist              6     3      -     5 (+1) (+5) 3           4    -                +185
+  Note: A character mounted on a Terrorgheist has +1 Toughness and +5 Wounds.
+Abyssal Terror
+                                                                                                             Monster
+                            M WS BS             S     T    W      I     A Ld             Points
+Abyssal Terror              6     4      -      5 (+1) (+4) 2           3    -            +120
+Note: A character mounted on an Abyssal Terror has +1 Toughness and +4 Wounds.                       Abyssal Terrors
+                                                                                                     The most warlike Vampires
+Troop Type:    Monstrous creature                                                                    ride to battle on the backs
+Base Size:     50 x 100 mm                                                                           of monstrous, winged,
+Unit Size:     1                                                                                     dread-inspiring mounts,
+Equipment:     Wicked claws (see below), poisonous tail (see below) and                              nightmarish creations of
+               scaly skin (counts as heavy armour)                                                   Dark Magic, bound with
+Special Rules: Close Order, Fly (9), Large Target, Necromantic Undead,                               shadows and given bodies of
+               Stomp Attacks (D3), Swiftstride, Terror                                               writhing blood and flayed
+                                                                                                     skin. The most common
+                       R          S        AP    Special Rules                                       of these winged fiends are
+Wicked claws         Combat       S        -2    -                                                   known as Abyssal Terrors.
+                                                                                                     These fearsome horrors
+                        R       S     AP       Special Rules                                         are borne to war on ragged
+Poisonous tail       Combat S          -       Poisoned Attacks, Strike First                        wings that allow their
+Note: In combat, this model may make one of its attacks each turn with this weapon.                  Undead masters to strike at
+                                                                                                     the heart of the enemy army.
+
+                                                                                                     Varghulf
+  Character Mount: This model may only be included in your army as a character’s                     There are some Vampires
+  mount. Its points are added to that of its rider.                                                  that allow the animalistic
+                                                                                                     hunter within them to
+                                                                                                     consume them completely.
+                                                                                                     These feral predators
+                                                                                                     abandon the trappings of
+Varghulf                                                                                             civilisation in order to run
+                                                                                                     unfettered through the
+                              M       WS    BS    S     T      W      I     A     Ld     Points      forest. Those who revel in
+Varghulf                      8        5     0    5     5      4      4     4      4      140        such behaviour become
+                                                                                                     physically changed beyond
+Troop Type:       Monstrous creature                                                                 recognition by the Vampiric
+Base Size:        50 x 50 mm                                                                         curse. Hence are born the
+Unit Size:        1                                                                                  creatures known to the
+Equipment:        Wicked claws (see below) and calloused hide (counts as light armour)               peasant folk as Varghulfs.
+Special Rules:    Bestial Fury, Close Order, Counter Charge, Dark Vitality, Flammable,
+                  Frenzy, Indomitable (1), Necromantic Undead,
+                  Regeneration (5+), Swiftstride, Terror
+
+Bestial Fury
+In battle, a Varghulf becomes a whirlwind of rage, turning to face the enemies that would surround
+it with supernatural speed.
+
+Enemy units cannot claim any bonus combat result points for being engaged with this
+model’s flank or rear arc.
+
+                       R          S        AP    Special Rules
+Wicked claws         Combat       S        -2    -
+                                               Vampiric Powers
+T  hough they share the curse of undeath, Vampires are unique creatures with myriad abilities and traits. Some dedicate
+   their existence to mastering warfare, whilst others delve into arcane lore, create nations of Undead through political
+manipulation, or willingly succumb to their bestial nature.
+
+To represent their varying attributes, some models may be given Vampiric Powers. A Vampiric Power does not affect a model’s
+mount (should it have one). Each Vampiric Power may only be chosen once per army.
+
+Curse Of The Revenant .................................... 50 points                  Master Of The Black Arts ............................... 30 points
+Through magic, bloodletting or sheer force of will, the strength of                   The Winds of Magic bend easily to the will of this Vampire, so
+this Vampire to survive the centuries is beyond compare.                              matchless is their magical prowess.
+
+This Vampire has a +1 modifier to its Wounds characteristic.                          This Vampiric Power may only be taken by a Vampire Count
+                                                                                      that is a Level 2 Wizard, or by a Vampire Thrall that is a Level
+Beguile ..................................................................40 points   1 Wizard. This Vampire increases their Level of Wizardry
+The Vampire has an entrancing gaze that mesmerises their foes,                        by 1.
+rendering them all but incapable of causing the Vampire harm.
+                                                                                      Supernatural Horror ........................................20 points
+Enemy units must make a Leadership test before making any                             This Vampire is hideous to look upon, having long since forsaken
+rolls To Hit against this Vampire during the Combat phase. If                         the trappings of nobility and beauty and embraced the beast within.
+this test is failed, only rolls of a natural 6 will hit.
+                                                                                      This Vampire gains the Terror special rule.
+Flying Horror ..................................................... 35 points
+The Vampire is able to take to the skies with great, membranous                       Lord Of The Night ............................................. 15 points
+wings, or perhaps can even metamorphose into a monstrous bat.                         The Vampire howls into the cold night, their cry answered by the
+                                                                                      baying of countless dark creatures.
+Models whose troop type is ‘infantry’ only. This Vampire gains
+the Fly (10) rule, but cannot join a unit.                                            During the Command sub-phase of their turn, this Vampire
+                                                                                      may attempt to resurrect fallen creatures of the night by
+Dark Acolyte ....................................................... 30 points        making a Leadership test (using their own Leadership). If this
+Some Vampires have an affinity for necromantic magic beyond that                      test is passed, a single friendly unit of Fell Bats, Bat Swarms
+of their peers, which only increases with age and practice.                           or Dire Wolves that is within 12" of this model recovers D6
+                                                                                      lost Wounds.
+This Vampire gains the Invocation of Nehek special rule (as
+described on page 5). For the purposes of using this special
+rule, this model counts as a Level 1 Wizard.
+                        Vampire Counts                                                                                               Magic Items
+                          Magic Items
+The pages that follow detail magic items unique to Vampire Counts armies. These can                                             Magic Items
+be purchased by models within a Vampire Counts army in exactly the same way as                                                  Just as there are men and
+Common magic items, as described in the Warhammer: the Old World rulebook.                                                      women whose souls resonate
+                                                                                                                                with cruelty even after
+Extremely Common Magic Items: Any magic item marked with an asterisk (*)                                                        death, there are dark and
+is considered to be extremely common, as described in the Warhammer: the Old                                                    unholy treasures in the
+World rulebook.                                                                                                                 world that are saturated with
+                                                                                                                                the energies of evil deeds.
+Magic Weapons                                                                                                                   Many of these artefacts
+                                                                                                                                have spent centuries in
+Frostblade .........................................................................................................60 points   the possession of potent
+This blade of blue ice-steel is bound with such deadly spells that its merest touch will suck the soul                          Necromancers or Vampire
+from its victim’s body.                                                                                                         lords; some are even said to
+                                                                                                                                have been stolen from the
+                          R        S       AP       Special Rules                                                               necropolises of mighty Tomb
+ Frostblade           Combat S              -       Killing Blow, Magical Attacks                                               Kings, or to have belonged
+Notes: Any enemy model that suffers one or more unsaved wounds from the Frostblade must                                         to the Great Necromancer
+immediately make a Toughness test. If this test is failed, they gain the Strike Last special rule and                           Nagash himself. Nations
+must reduce their Initiative characteristic to 1 for the remainder of the game.                                                 have mobilised their armies,
+                                                                                                                                long wars have been fought
+Sword Of Kings ...............................................................................................55 points         and countless lives expended
+This accursed blade of ancient and ageless design thirsts constantly for the souls of its                                       over such nefarious items,
+wielder’s enemies.                                                                                                              for it is rumoured that
+                                                                                                                                some can grant power over
+                        R        S     AP        Special Rules                                                                  death itself.
+Sword of Kings      Combat S+1          -1       Killing Blow, Magical Attacks
+Notes: The wielder of the Sword of Kings strikes a Killing Blow if they roll a natural 5 or 6 when
+making a roll To Wound, rather than the usual 6.
+
+Blood Drinker .................................................................................................45 points
+This long, slender blade greedily drinks the blood of its victims, their life force revitalising
+its master.
+
+                           R        S    AP      Special Rules
+Blood Drinker          Combat S          -1      Magical Attacks
+Notes: If the wielder of Blood Drinker causes one or more unsaved wounds during the Combat
+phase, they recover a single lost Wound.
+
+Dreadlance .......................................................................................................40 points
+Once wielded by an infamous Vampire knight, this lance is uncannily accurate, said to find its
+target even in the dark of night.
+
+                         R         S     AP       Special Rules
+Dreadlance            Combat S+2         -2       Armour Bane (1), Magical Attacks
+Notes: Models whose troop type is ‘cavalry’ or ‘monster’ only. The Dreadlance can only be used
+during a turn in which the wielder charged. In subsequent turns (or if the wielder did not charge)
+the model must use its hand weapon instead. The wielder of the Dreadlance may re-roll any failed
+rolls To Hit made whilst using it.
+Magic Armour                                                               Magic Standards
+The Flayed Hauberk .......................................... 35 points    Banner Of The Barrows ................................... 65 points
+Stitched from the flesh of countless victims, the wearer of the Flayed     Woven from the wind and the cold, the chill of this banner touches
+Hauberk is enshrouded and protected by the souls of the damned.            the hearts of those who stand before it.
+
+The Flayed Hauberk is a suit of heavy armour which may be                  Wight Lord Battle Standard Bearer only. During the Combat
+worn by a Wizard without penalty. In addition, its wearer has              phase, when a unit carrying the Banner of the Barrows makes
+a 6+ Ward save against any wounds suffered.                                a roll To Hit, a roll of 3+ is always a success, regardless of the
+                                                                           target’s Weapon Skill.
+The Accursed Armour ...................................... 30 points
+Some strange flaw renders the wearer of this armour resilient              Drakenhof Banner............................................. 50 points
+beyond measure, yet robs them of dexterity.                                The infamous Count Vlad von Carstein had thrall Necromancers
+                                                                           enchant his household standard to sustain his bodyguard.
+Models whose troop type is ‘infantry’ or ‘cavalry’ only. The
+Accursed Armour is a suit of full plate armour. In addition,               If a unit carrying the Drakenhof Banner has the Regeneration
+its wearer has a +1 modifier to their Toughness characteristic,            (X+) special rule, it improves the armour value of its
+but suffers a -1 modifier to their Weapon Skill and Initiative             Regeneration save by 1.
+characteristics (to a minimum of 1).
+                                                                           The Screaming Banner ..................................... 45 points
+Talismans                                                                  Even the bravest warriors tremble in the presence of a haunted
+                                                                           banner that wails a constant dirge.
+Von Carstein Ring .............................................40 points
+An ancient heirloom of the lords of Sylvania, this ring is known to        When an enemy unit makes a Leadership test due to Fear
+make a Vampire carrying it almost impossible to kill.                      caused by a unit carrying the Screaming Banner, it must roll
+                                                                           an extra D6 and discard the lowest result.
+Vampires only. Single use. When the wearer of the Von
+Carstein Ring loses their last Wound, roll a D6. On a roll of              Standard Of Hellish Vigour ............................40 points
+2+, the Wound is not lost.                                                 The restless essence of the Vampire whose flesh was flayed to craft
+                                                                           this banner invigorates the Undead nearby.
+Crown Of The Damned .................................... 35 points
+The wearer of the Crown of the Damned draws revitalising energies          A unit carrying the Standard of Hellish Vigour gains the
+from the spirits imprisoned within it, but at times their eternal          Reserve Move special rule.
+wailing can become overpowering.
+
+The Crown of the Damned gives its wearer a 4+ Ward save
+against any wounds suffered. However, due to the wailing of
+the spirits trapped within the crown, its wearer is also subject
+to the Stupidity special rule.
+Enchanted Items                                                                Arcane Items
+Helm Of Commandment .................................40 points                 Skull Staff ............................................................ 50 points
+This ancient and corroded helmet can be used to infuse                         The Skull Staff constantly whispers to its bearer, revealing the
+Undead servants with the wearer’s sentience, making them                       secrets of their foes and predicting the ebb and flow of the Winds
+formidable fighters.                                                           of Magic.
+
+Necromancers and Wights only. During the Command sub-                          The bearer of the Skull Staff increases their Dispel range by
+phase of their turn, this character may attempt to enhance                     3" and, when attempting a Wizardly dispel, may apply a +1
+the sentience of those around them by making a Leadership                      modifier to their Dispel roll.
+test (using their own Leadership). If this test is passed, until
+your next Start of Turn sub-phase this character and any unit                  Note that this is a modifier to the result of a roll – it does not
+they have joined gains a +D3 modifier to their Weapon Skill                    negate a roll of a natural double 1.
+characteristic (to a maximum of 10).
+                                                                               Sceptre Of De Noirot ........................................ 35 points
+Hand Of Dust ..................................................... 35 points   The Necromancer de Noirot suffered a terrible demise when he
+The severed hand of the Great Necromancer himself, the mere                    invoked the power of this sceptre and raised more of the Undead
+proximity of this withered appendage can drain all life and vitality           than he could control.
+from mortals, leaving them as desiccated husks.
+                                                                               The bearer of the Sceptre of de Noirot may attempt to
+Necromancers only. This model can cast the following Bound                     resurrect the fallen by using the Invocation of Nehek special
+spell, with a Power Level of 2. Roll a D6 each time the Hand of                rule twice during their Command sub-phase (rather than the
+Dust is used. On a roll of 1, it crumbles to dust and cannot be                usual once). Roll a D6 each time the sceptre is used. On a roll
+used again:                                                                    of 1, the bearer loses a single Wound.
+
+Type: Assailment                                                               Spell Familiar*.................................................... 15 points
+Casting Value: 9+                                                              A spell familiar memorises a spell on its master’s behalf, constantly
+Range: Combat                                                                  rehearsing for its big moment until it is called upon to share its
+Effect: The target enemy unit suffers 2D6 Strength 5 hits,                     arcane knowledge.
+each with an AP of -1.
+                                                                               0-1 per Wizard. The owner of a Spell Familiar knows one
+Cloak Of Mist & Shadows ............................... 30 points              more spell (chosen in the usual way) than is normal for their
+This cloak frees the wearer from the bonds of their physical form,             Level of Wizardry.
+allowing them to move through solid matter like a ghost.
+                                                                               Note that this does not increase the Wizard’s Level.
+Necromancers whose troop type is ‘infantry’ only. The wearer
+of the Cloak of Mist & Shadows gains the Ethereal special rule.
+              Vampire Counts Special Rules
+A   game of Warhammer: the Old World is packed with fantastic creatures and skilled warriors with abilities so incredible
+    and varied that the basic rules cannot possibly cover them all. For such circumstances we have special rules –
+uncommon rules to govern uncommon circumstances.
+
+On the following pages you will find a full description for each of the Army special rules used by models drawn from the Vampire
+Counts army list:
+
+Cleaving Blow                                                      Indomitable (X)
+With a swift and deadly strike, a skilled warrior can cleave       Amongst the ranks of the Vampire Counts armies march creatures
+through armour.                                                    with an indomitable will to hang on to the last vestiges of life, no
+                                                                   matter what.
+If a model with this special rule rolls a natural 6 when making
+a roll To Wound for an attack made in combat, it has struck        A unit with this special rule reduces the number of wounds
+a ‘Cleaving Blow’. Enemy models whose troop type is ‘regular       suffered due to the Unstable special rule by the number shown
+infantry’, ‘heavy infantry’, ‘light cavalry’, ‘heavy cavalry’ or   in brackets (shown here as ‘X’).
+‘war beasts’ are not permitted an armour or Regeneration
+save against a Cleaving Blow (Ward saves can be attempted          Note that this special rule is not cumulative. If two or more models
+as normal).                                                        in a unit have this special rule, use the highest value for the entire
+                                                                   unit. For example, if a character with Indomitable (2) joins a
+Note that if an attack wounds automatically, this special rule     unit with Indomitable (1), the whole unit uses the character’s
+cannot be used.                                                    Indomitable (2) special rule.
+
+Dark Vitality                                                      Necromantic Undead
+Vampires and Necromancers are powerful beings able to exist        The Undead legions of the Vampire Counts march under the
+without the animating will of another.                             command of powerful Necromancers.
+
+Models with this special rule are not subject to the Death of a    Models with this special rule are ‘Undead’. Undead models
+General rule. In addition, unless they have joined a unit that     cannot march (unless they have the Fly (X) special rule and
+does not have this special rule they (and their mounts) can        choose to move by flying). In addition, all Undead models
+march as normal.                                                   have the following universal special rules:
+
+                                                                   •   Fear
+                                                                   •   Immune to Psychology
+                                                                   •   Unbreakable
+                                                                   •   Unstable
+
+                                                                   A character with this special rule cannot join a unit without
+                                                                   this special rule, and vice versa.
+The Newly Dead                                                            Resurrecting The Fallen
+Those that fall in battle may be compelled by necromantic magic to        In a Vampire Counts army, it is possible to heal a unit by
+rise again and fight against their former comrades.                       recovering lost Wounds, and to resurrect fallen warriors.
+                                                                          Wounds recovered in this way follow a strict order:
+When resurrecting the fallen, a unit with this special rule
+can be taken beyond its starting size (but not beyond its                 • First, any characters that have joined the unit
+maximum size).                                                              are healed. A character that has been reduced
+                                                                            to zero Wounds and removed from play cannot
+Wailing Dirge                                                               be resurrected.
+The chilling howl of a restless spirit is an omen of death and despair,   • Second, models with more than one Wound on their
+capable of crippling even the most resilient prey.                          profile are healed.
+                                                                          • Next, the unit champion is resurrected, displacing
+During the Shooting phase of its turn, unless it marched                    rank-and-file models as required, followed by the
+during the preceding Movement phase, a model with this                      standard bearer and musician.
+special rule may make a ‘Wailing Dirge’ attack. A Wailing                 • Finally, rank-and-file models are resurrected.
+Dirge attack may target any enemy unit that is within 8" of
+this model (including units that are engaged in combat) and               Note that, in the case of multiple Wound models, each model
+that this model can draw a line of sight to, or that this model is        must be fully healed, recovering all of its lost Wounds, before
+engaged in combat with.                                                   another can be healed or resurrected.
+
+The target must make a Leadership test with a -2 modifier                 Note also that at least one model must remain in order for a
+to its Leadership characteristic (to a minimum of 2). If this             unit to be healed. In other words, a unit that has been reduced
+test is failed, the target suffers a number of wounds equal to            to zero Wounds and removed from play cannot be resurrected.
+the amount by which it failed the test, with no armour or
+Regeneration saves permitted (Ward saves can be attempted                 Resurrected models are added to the front rank until it
+as normal).                                                               reaches the minimum required to claim a Rank Bonus,
+                                                                          after which additional models can be added to the front
+Note that a Wailing Dirge attack can target an enemy character,           or rear rank. If the unit already has more than one rank,
+regardless of the usual rules for targeting Lone characters.              models can only be added to the rear rank. A unit cannot
+                                                                          be taken beyond its starting size.
+                                     Lore Of Undeath
+M    ystery shrouds the study of Necromancy. To learn this dark art, an aspirant must find a willing tutor and become
+     their apprentice, or acquire forbidden books rich in the secrets of undeath. It is this intrinsic mystery that drives
+Necromancers to become servants of the Vampire Counts, hoping to learn first-hand from the masters of undeath.
+
+A Wizard with the ‘Lore of Undeath’ special rule may discard one of their randomly generated spells as normal. When they do so,
+they may select instead either the signature spell of their chosen Lore of Magic, or one of the spells listed below.
+
+
+  Vanhal’s Danse Macabre                                              Hellish Vigour
+  Filled with magical energy, the Undead jerk forwards on the         The caster invigorates their ghastly warriors, who advance upon
+  attack with tireless and unnatural speed.                           the foe with uncanny vigour.
+
+  Type: Enchantment                                                   Type: Enchantment
+  Casting Value: 8+/12+                                               Casting Value: 7+/10+
+  Range: 12"                                                          Range: Self
+                                                                      Effect: If this spell is cast with a casting result of 7 or more,
+  Effect: If this spell is cast with a casting result of 8 or more,   a single friendly unit that has the Necromantic Undead
+  the target friendly unit gains a +D3 modifier to one of the         special rule and is within the caster’s Command range gains
+  following characteristics (to a maximum of 10). If this             the Reserve Move special rule. If this spell is cast with a
+  spell is cast with a casting result of 12 or more, the target       casting result of 10 or more, every friendly unit that has the
+  friendly unit gains a +D3 modifier to two of the following          Necromantic Undead special rule and is within the caster’s
+  characteristics (to a maximum of 10). This spell lasts until        Command range gains the Reserve Move special rule. This
+  your next Start of Turn sub-phase.                                  spell lasts until the end of this turn.
+
+  • Movement
+  • Weapon Skill
+  • Initiative
+
+  Raise Dead
+  One skilled in the dark arts                                             M     WS      BS     S      T     W       I     A      Ld
+  of Necromancy can awaken               Risen Zombie                      4      2       0     3      3     1       1     1       2
+  mortal remains to reinforce
+  the Undead legions under              Troop Type:        Regular infantry
+  their control.                        Base Size:         25 x 25 mm
+                                        Unit Size:         2D3
+  Type: Enchantment                     Equipment:         Hand weapons
+  Casting Value: 10+                    Special Rules:     Necromantic Undead, Regeneration (6+), Skirmishers, the Newly Dead
+  Range: 12"
+  Effect: Place a unit of               Note that Risen Zombies are not worth any Victory Points.
+  2D3 Risen Zombies on
+  the battlefield anywhere
+  completely within 12" of this
+  model, but not within 1"
+  of any enemy models. This
+  unit cannot declare a charge
+  during the turn in which it
+  was raised:
+

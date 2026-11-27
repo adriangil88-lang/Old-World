@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-227	CONFIRMA	rules.js:4126-4130 curseHashut: test R (6 falla); pasa D3 F2 FP-; falla D3+2 F5 noArmour+noRegen, ward permitida; solo personajes (hashutPick elegible).
+core_2.tsv	C2-090	CONFIRMA	data.js SPELLS: tipos enchant/missile/hex/assail/vortex/conveyance (6 categorias exactas, sin otros tipos).
+core_8.tsv	core_8-066	CONFIRMA	data.js:2563 striking 15 pts hit:1 (+1 impactar), aplicado solo en combate (rules.js:5090/5383 p.hit); estrella 0-1.
+leg_darkelves.tsv	leg_darkelves-200	CONFIRMA	data.js:1672 de_kharibdyss M6 WS5 BS0 S7 T5 W5 I3 A5 Ld6 195 pts, behemoth 60x100, monsterHandlers (2 Cuidadores); coincide con la fuente.
+core_5.tsv	C5-118	PARCIAL	rules.js:4976 setupDuels: un desafio por combate solo si se acepta (return si g.some(duel)); un desafio RECHAZADO no consume el limite y el rival/otra unidad puede emitir otro en el mismo paso 1.1.
+leg_daemons.tsv	leg_daemons-127	CONFIRMA	data.js:5923-5925 STEED slot: poison solo corcel, abX:1 (Perforante 1) apA 0, S3; sr swiftstride/counterCharge/fastCav; 30x60. (Aviso: jinete con 4 Ataques en vez de 3, fuera de fila).
+aj_dwarfs2.tsv	aj_dwarfs2-135	PARCIAL	data.js:1431 dw_scoutgyro tt:monInf (Infanteria monstruosa, maxRank 2) pero la fuente dice Caballeria monstruosa (monCav, maxRank 1); resto (1-2, 50x50, armadura pesada) OK.
+aj_empire2.tsv	aj_empire2-125	CONFIRMA	data.js:4116 ord_morr addSr hatredUndead+wardNM6; rules.js:1989 ward 6+ si !magical; rules.js:4918 hatredUndead vs undead.
+aj_chaos2.tsv	aj_chaos2-071	CONFIRMA	data.js:4441 woc_frydaal tt char (todos los personajes), baseW/D 30, unidad 1, perfil 235 pts y reglas OK.
+leg_ogres.tsv	leg_ogres-091	CONFIRMA	"data.js:5778 ok_leadbelchers ranged 24"" S5 FP-2 ab1 dmg2 cumbersome (no responde a carga rules.js:2404); ranged2 18"" S3 FP- ab1 D3 impactos."
+leg_daemons.tsv	leg_daemons-089	CONFIRMA	Evaluado con node: dm_herald_nurgle ppm 95, dm_herald_nurgle_pal ppm 135 (= +40) tras data.js:5932/6110.
+leg_skaven.tsv	leg_skaven-026	CONFIRMA	data.js:1753 sk_warlord ib:100; data.js:1756 sk_chieftain ib:50; itemIssues valida el presupuesto (data.js:3338).
+aj_chaos2.tsv	aj_chaos2-064	CONFIRMA	data.js:3324 itemFacOk: items comunes (sin fac) + fac woc para unidades woc; lista heralds sin restriccion extra de objetos.
+battlemarch_quickref.tsv	battlemarch-093	CONFIRMA	"data.js:6273 X(dw_thunderers,12,champ) = unitCost 125 (verificado con node); arm heavy, arcabuces 24"" F4; fuente 125 pts."
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-140	CONFIRMA	data.js:5855 opcion rm Movimiento de reserva coste 1/modelo con per1000; Fuga fingida +2 aparte (limite por opcion, texto ambiguo).
+dawn_renegade_sc.tsv	renegade_web-056	CONFIRMA	data.js:6246-6249 rc_outriders ff +2, rm +1, vg +1 per1000; chk data.js:4886 limite compartido ff/rm/vg por 1.000; bnMax 50.
+aj_empire2.tsv	aj_empire2-002	CONFIRMA	rules.js:249 stirhugel feat tf 6x6 special monolith:true monument:true (featCtl monolith/monument usados en rules.js:4484/1784).
+aj_tk2.tsv	aj_tk2-017	CONFIRMA	data.js:3584-3587 royalhost rare 0.25; tk_catapult comp rare; chk n(tk_catapult) > 2*per => error.
+leg_ogres.tsv	leg_ogres-033	CONFIRMA	ok_slaughtermaster (Maestro Matarife) M6 WS4 BS3 S4 T5 W5 I3 A4 Ld8 230 pts verificado con node.
+leg_daemons.tsv	leg_daemons-161	PARCIAL	Disco +20 OK (110). Carro de Tzeentch: dm_herald_tzeentch_chariot 180 pts con perfil reconstruido (T5 W5) y nombre Carro Ardiente; Carro Ardiente como montura del Heraldo ausente (solo unidad 190).
+battlemarch_quickref.tsv	battlemarch-129	CONFIRMA	rules.js:3411 chargeTargets [] ; restrains rules.js:4939 (persecucion/sigue/arrolla); Presencia inspiradora rules.js:1709; Mantened la posicion rules.js:3216 (nonCombatant).
+battlemarch_quickref.tsv	battlemarch-124	CONFIRMA	rules.js:6829-6833 bm_cart: +25 PV si completamente en zona enemiga (zoneHas+inZone) y vivo; tambien +25 vivo/escapado.
+leg_lizardmen.tsv	leg_lizardmen-034	CONFIRMA	data.js:1704 lm_skpriest M6 WS2 BS3 S3 T2 W2 I4 A1 Ld6 60 pts verificado con node.
+aj_highelves.tsv	aj_highelves-066	CONFIRMA	rules.js:5118 mathIre: repite un impacto exitoso por fase (turnKey) contra portador/unida; llamado en rules.js:5101 y 5414; registrado en log.
+leg_daemons.tsv	leg_daemons-100	CONFIRMA	"dm_beast melee {ap:1, ab:1} (FP-1, Perforante 1) verificado con node; la nota ""Falta PA-1"" esta obsoleta."
+core_8.tsv	core_8-015	PARCIAL	rules.js:4267 storm: -1 M/I (min 1) OK, pero solo borra fx de HEX_ALL (rules.js:4188); no incluye rust, morkCurse ni brainz, asi que no expiran todos los Hex previos.
+aj_empire2.tsv	aj_empire2-086	CONFIRMA	"data.js:3678 opcion lc: 18"" S4 FP-1 ab2 (Perforante 2) bombHits D3 (rules.js:3008)."
+core_5.tsv	C5-052	CONFIRMA	rules.js:3411 chargeTargets devuelve [] para cat mach.
+leg_skaven.tsv	leg_skaven-015	PARCIAL	"data.js:5008-5009: Catapulta e Incensarios con limite propio por 1.000 cada uno; el texto ""0-1 de los siguientes por 1.000"" admite compartir un solo cupo entre ambos."
+leg_darkelves.tsv	leg_darkelves-026	CONFIRMA	de_master, de_master_steed/cold/chariot ib:50 (verificado con node); Dreadlord ib 100.
+leg_vampires.tsv	leg_vampires-219	CONFIRMA	data.js:3088 vcl_helm 40 pts onlyT necros/tumularios; rules.js:7639-7650 test Ld propio en Mando, +D3 HA (mwWS) a el y su unidad, max 10 (rules.js:4916).
+dawn_renegade_sc.tsv	renegade_web-018	CONFIRMA	data.js:6184 mm 25 pts dLd:1 + stubborn + tileanStoic; rules.js:157 has() da Tozudo a la unidad unida antes de primera rotura.
+leg_skaven.tsv	leg_skaven-090	AUSENTE	sk_clanrats sin bnMax => bannerBudget por defecto 50 (data.js:3207): Ratas del Clan pueden comprar estandarte magico aunque la fuente (leg_skaven.txt:292-310) no lo concede. Falta bnMax:0.
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-068	CONFIRMA	"rules.js:3512 chargeImpacts: has(stampede) => ap:2 en Impactos; taruk/centauros con sr stampede (data.js:2144,2165,2168). La nota de ""sin efecto"" es obsoleta."
+dawn_renegade_sc.tsv	cathay_dawn-031	CONFIRMA	"dawn.js:8,104 WASTE[3]=track, LIN track estrecho body road + 3"" difiles (rut) por seccion de 12""; buildLinear dawn.js:120; genDawn usado en rules.js:893."
+leg_vampires.tsv	leg_vampires-114	CONFIRMA	CMD vc_vargheists [7,..] campeon +7; Vargheist A3 + campeon +1 A = 4 (rules.js:5360), Ld igual, WS/S/T/I iguales.
+leg_daemons.tsv	leg_daemons-268	CONFIRMA	rules.js:197-217 daemonicInstability: 2D6+derrota vs Ld; doble 6 natural elimina (salvo Foco: pierde heridas); fallo = heridas por margen, anuncio con popup (announce).
+core_3.tsv	c3-005	PARCIAL	rules.js:6402 solo purga fx.rip/vortices con lanzador muerto en beginStrategy (inicio de turno), no al instante: el efecto sigue activo hasta entonces; sin chequeo inmediato.
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-100	CONFIRMA	data.js cd_guard opts gw +2/modelo (verificado con node), fuente +2 por modelo.
+aj_beasts2.tsv	aj_beasts2-023	CONFIRMA	"data.js:3592 blood promote bm_minotaurs a core ""per""; chk 3595 exige >= per Manadas por 1.000; el resto sigue como Especial."
+core_5.tsv	C5-031	CONFIRMA	rules.js:3512 impactos usan impact.S del carro (data.js, coinciden con S de carro p.ej. tk 4, de 4/5); un solo pool de Heridas (W del carro); 0 heridas retira la unidad.
+aj_beasts2.tsv	aj_beasts2-145	PARCIAL	data.js:2850 bmaj_scourge boundSpell call_wild PL2 25 pts OK, pero wiz:true limita el objeto a Magos (data.js:3355) y la fuente (aj_beasts2.txt:1698) no lo exige.
+aj_dwarfs2.tsv	aj_dwarfs2-019	CONFIRMA	rules.js:659 (nomina multiple) y 7920 entrenched=true a atacante; cobertura rules.js:2921, obstaculo bajo 3764; test peligroso al defensor rules.js:8045; announce a humano.
+cathay.tsv	cathay_aj-073	CONFIRMA	"rules.js:3094-3103 diveBomb sky: D6 1 pierde herida, 2 enemigo 1 herida, 3-4 plantilla 5"" desvio D6, 5-6 dos de 3"", F5 FP-2; blastCount (hueco auto, parcial 4+); 1 vez/partida (errata)."
+faq_core_2.tsv	F2-082	PARCIAL	rules.js:3614 reach = mvC+6(+3 swiftstride) pero omite +3 de fx charge que chargeTargets (rules.js:3412) si cuenta: alcance maximo de redireccion menor que el de carga.
+cathay.tsv	faq_cathay-003	CONFIRMA	ct_lanterns* cat char, cmdAllowed champ:false (verificado con node); T4 tambien por errata.
+leg_ogres.tsv	leg_ogres-111	PARCIAL	"ok_gnoblars regInf 25x25 min 20, armas arrojadizas (9"" S2 MS2 quickShot) OK, pero max:40 (data.js) frente a ""Unit Size 20+"" sin maximo."
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-044	CONFIRMA	rules.js:3918-3924 miscast1 sorcCurse: test R (6 falla, 1 pasa); falla pierde 1 Herida y curseT +1 R (rules.js:118) en vez de tabla; pasa tira tabla.
+leg_lizardmen.tsv	leg_lizardmen-119	PARCIAL	rules.js:6556 toadPlace OK (1 marcador/unidad, elige jugador); pero rr1 al impactar (rules.js:4916 toadNow) vale para todo el perfil, tambien los jinetes skink, que la fuente excluye.
+core_3.tsv	c3-090	CONFIRMA	rules.js:3299-3330 runAway: 2D6, pushAway recto, completa y destruye si sale de la mesa (3365 inTable); pivote solo por terreno impasable.

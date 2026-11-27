@@ -1,0 +1,145 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+aj_highelves-001	aj_highelves.txt:1-282	Portada, índice, créditos, ambientación Ulthuan/Asur/Nueva Era/Reino del Señor del Mar	NA		Sin efecto mecánico
+aj_highelves-002	aj_highelves.txt:283-353	Ejércitos de Ulthuan, Guerreros de Asuryan, Ejércitos de Saphery (ambientación)	NA		Sin efecto mecánico
+aj_highelves-003	aj_highelves.txt:354-557	Sombras oscuras de Châlons y crónica de la batalla (narrativa)	NA		Sin efecto mecánico
+aj_highelves-004	aj_highelves.txt:558-572	Recreación histórica: atacante 2.500 pts Hueste Chracia con Korhil general y Guerreros Sombríos; defensor Brayherds con 	PARCIAL	rules.js:201 (SC.chalons)	"VERIF v732: rules.js:250 SCENARIOS.chalons solo da mapa/reglas; la recreacion historica (2.500 pts, Chracia con Korhil+Guerreros Sombrios vs Brayherds con Chaman) no se ofrece ni preconfigura (sin 'sides') | Composición histórica es una recomendación (""alternativamente cualquier ejército""); no se impone"
+aj_highelves-005	aj_highelves.txt:605-608	Atraídos a la batalla: unidades del defensor ganan Impetuoso; si ya lo tienen, -1 al chequeo	OK	rules.js:~5877 (okT, chalons -1 a ya Impetuosos)	Concede Impetuoso; no aplica el modificador -1 a quien ya lo tenía
+aj_highelves-006	aj_highelves.txt:609-611	"Piedra de los Rebaños: rasgo especial hasta 6"" que cuenta como monolito arcano y monumento de gloria"	OK	rules.js:201 feat monolith/monument; featCtl/mrOf/rallyTest/passPanic/doCast0	Monolito: RM(-1) al controlador, Lugar de poder (repite un 1); Monumento: repite Pánico y Reagrupar
+aj_highelves-007	aj_highelves.txt:613-619	"Despliegue: defensor coloca al menos un Mago a 3"" de la Piedra; luego el resto; después el atacante"	OK	rules.js:chalonsIssue ~966	"El humano coloca su Mago (validado a 3"" de la Piedra); el autodespliegue inicial solo es colocación por defecto"
+aj_highelves-008	aj_highelves.txt:621-623	Primer turno: el atacante siempre lo juega	OK	rules.js:194 (first:0)	
+aj_highelves-009	aj_highelves.txt:625-626	Duración: seis rondas o hasta que un bando se rinda	OK	rules.js:194 (turns:6)	
+aj_highelves-010	aj_highelves.txt:613-616	Victoria: quien controle la Piedra al final gana +150 PV	OK	rules.js:194 (obj at end vp 150 rad 6)	
+aj_highelves-011	aj_highelves.txt:618-620	Defensor +100 PV por cada Mago suyo vivo al final	OK	rules.js:5904-5907	
+aj_highelves-012	aj_highelves.txt:621-622	Atacante +100 PV por cada Mago del defensor muerto	OK	rules.js:5904-5907	
+aj_highelves-013	aj_highelves.txt:744-749	Lista Hueste de Chracia usable con High Elf Realms de Forces of Fantasy	OK	data.js:3318, 3409	Lista chracia registrada
+aj_highelves-014	aj_highelves.txt:758-761	Personajes hasta 50%: 0-1 Príncipe o Archimago por 1.000 pts	OK	data.js:3412	
+aj_highelves-015	aj_highelves.txt:761	0-1 Caudillo Chracio o Tejedor de Tormentas por 1.000 pts	OK	data.js:3410-3415 (allow stormweaver, chk)	No hay límite 0-1 para Caudillo y el Tejedor de Tormentas no está en allow de chracia
+aj_highelves-016	aj_highelves.txt:761-762	Nobles Altos Elfos permitidos como personaje	OK	data.js:3410	
+aj_highelves-017	aj_highelves.txt:765-766	Básicas: al menos 33% (Lanceros, Arqueros, Leñadores Chracios)	OK	data.js:3409 (core:0.33), 3410	
+aj_highelves-018	aj_highelves.txt:766-767	Básicas: 0-1 unidad de Leones Blancos de Chrace por 1.000 pts	OK	data.js:3409 (promote per)	
+aj_highelves-019	aj_highelves.txt:772-773	Especiales: Leones Blancos y Carros de Leones de Chrace	OK	data.js:3411 (comp he_lionchariot special)	El Carro de Leones sigue siendo Raro en la lista chracia (no está en comp)
+aj_highelves-020	aj_highelves.txt:773	Especiales: 0-1 unidad de Leones de Guerra por 1.000 pts	OK	data.js:3411, 3412	
+aj_highelves-021	aj_highelves.txt:758-766	Especiales hasta 50% / Raras hasta 33% de los puntos	OK	data.js:3409 (rare:0.33), catsOf 4295	
+aj_highelves-022	aj_highelves.txt:760	Raras: 0-1 unidad de Guardia del León	OK	data.js:3411,3415 (lionguard rare, 0-1)	Guardia del León cuenta como Especial en chracia, sin límite 0-1
+aj_highelves-023	aj_highelves.txt:761-762	Raras: 0-1 unidad de Guerreros Sombríos o Hermanas de Avelorn por 1.000 pts	OK	data.js:3411, 3412	
+aj_highelves-024	aj_highelves.txt:763	Raras: 0-2 Grandes Águilas por 1.000 pts	OK	data.js:3411 (he_eagle rare)	Límite correcto pero el Águila cuenta como Especial, no Rara
+aj_highelves-025	aj_highelves.txt:764	Raras: 0-1 Lanzavirotes Garra de Águila por 1.000 pts	OK	data.js:3411 (he_boltthrower rare)	Límite correcto; categoría no forzada a Rara en chracia
+aj_highelves-026	aj_highelves.txt:767-772	Portaestandarte de Batalla: Noble o Caudillo +25 pts con estandarte mágico sin límite	OK	data.js:2473 (he_chieftain, he_noble [null,25,null])	Generico del motor
+aj_highelves-027	aj_highelves.txt:774-776	Objetos mágicos Comunes o de High Elf Realms	OK	data.js:2860-2880 (fac he)	
+aj_highelves-028	aj_highelves.txt:796-800	Orgullo de Chrace: personajes con Honor Élfico solo uno de Acechador Sombrío, Cazador Chracio, Puro de Corazón	OK	data.js:4588	
+aj_highelves-029	aj_highelves.txt:805-808	Caudillos Chracios se consideran Cazador Chracio para unirse a Leones Blancos	OK	rules.js:~6161 (joinCheck chieftain)	FAQ Arcane Journal HER: Korhil o Caudillo pueden unirse a Leones Blancos
+aj_highelves-030	aj_highelves.txt:797-800	Guerreros de Chrace: Lanceros/Arqueros con Capa de León +10 pts por unidad	OK	data.js:3382-3388 (extraCost 10)	
+aj_highelves-031	aj_highelves.txt:810-826	Sendas ocultas: 0-1 Lanceros/Arqueros por 1.000 pts con Moverse a Cubierto +1 pt/modelo	OK	data.js:3386, 3412	
+aj_highelves-032	aj_highelves.txt:822-826	Sendas ocultas: una vez por partida +1 o -1 a la tirada de llegada de Emboscadores en reserva	OK	rules.js:~5449 (trailsPref), main.js panel, ai.js optionGroups	+1 propio / -1 a Emboscadores rivales una vez por partida; lo arma el jugador (IA por autoaprendizaje)
+aj_highelves-033	aj_highelves.txt:810-821	"Guerreros del Páramo: un área adicional de terreno difícil de 8"" a 12"" tras colocar el terreno"	OK	rules.js:~685	"FAQ 1.5.2 prevalece: bosque 3""-9"" (sustituye el 8""-12"" del libro)"
+aj_highelves-034	aj_highelves.txt:923-925	Lista Guarnición de la Guardia Marina usable con High Elf Realms	OK	data.js:3318, 3413	
+aj_highelves-035	aj_highelves.txt:936-938	Personajes hasta 50%: Comandantes de Guarnición y Tejedores de Tormentas sin límite	OK	data.js:3414	
+aj_highelves-036	aj_highelves.txt:937-938	0-1 Mago Dragón, Noble o Mago Alto Elfo por 1.000 pts	OK	data.js:3416	
+aj_highelves-037	aj_highelves.txt:940-944	Básicas 33%: Guardia del Mar de Lothern y Compañía del Barco	OK	data.js:3414-3415	
+aj_highelves-038	aj_highelves.txt:944	Básicas: 0-1 unidad de Guerreros Sombríos por 1.000 pts	OK	data.js:3416	
+aj_highelves-039	aj_highelves.txt:946-951	Especiales: Cortacielos; 0-2 Grandes Águilas por 1.000; 0-3 Lanzavirotes por 1.000	OK	data.js:3415-3416	
+aj_highelves-040	aj_highelves.txt:953-958	Raras: Corredores de Ellyrion; 0-1 Fénix por 1.000; Merwyrms	OK	data.js:3414-3416	
+aj_highelves-041	aj_highelves.txt:961-967	Portaestandarte de Batalla: Noble o Comandante de Guarnición +25 pts	OK	data.js:2473 (he_garrison)	
+aj_highelves-042	aj_highelves.txt:969-971	Objetos mágicos Comunes o de High Elf Realms	OK	data.js:2860-2880	
+aj_highelves-043	aj_highelves.txt:991-997	Ejércitos del Señor del Mar: Honor solo Acechador Sombrío, Puro de Corazón, Guardia del Mar	OK	data.js:4589	
+aj_highelves-044	aj_highelves.txt:1003-1007	Desde las brumas: tras desplegar, retirar una unidad desplegada y recolocarla en la zona de despliegue	OK	rules.js:preStep mists, mistsOpts; ai.js aiPick; main.js	El jugador elige unidad y posición (cerca/lejos del enemigo) o no usarla; IA por autoaprendizaje
+aj_highelves-045	aj_highelves.txt:1014-1017	Desde las nubes: 0-1 Cortacielos por 1.000 pts, incluidos monturas de personaje, Emboscadores +10 pts/modelo	OK	data.js:he_garrison_skycutter_amb	Variante de Comandante en Cortacielos con Emboscadores +10; cuenta en el 0-1 por 1.000
+aj_highelves-046	aj_highelves.txt:991-993	Exploradores del Viejo Mundo: 0-1 Guerreros Sombríos de Fuerza de Unidad 10 o menos con Emboscadores gratis	OK	data.js:3416 chk, ~4450 (maxUT)	0-1 total y Fuerza de Unidad <=10 validados
+aj_highelves-047	aj_highelves.txt:999-1001	Orgullo de la Flota: Guardia del Mar gana Unidad Regimental	OK	data.js:3380-3381	
+aj_highelves-048	aj_highelves.txt:1002-1004	Orgullo de la Flota: 0-1 unidad de Guardia del Mar por 1.000 pts con Disciplinados gratis	OK	data.js:3381, 3416	
+aj_highelves-049	aj_highelves.txt:1077-1079	Korhil disponible en cualquier lista con Leones Blancos; debe usarse tal cual	OK	data.js:1502, 2441, 3410	
+aj_highelves-050	aj_highelves.txt:1081-1084	Korhil perfil M5 HA7 HP5 F4 R3 H3 I6 A4 L9, 175 pts; infantería pesada; peana 25; tamaño 1	OK	data.js:1502-1503	
+aj_highelves-051	aj_highelves.txt:1084-1085	Korhil equipo: arma de mano, Chayal, Piel de Charandis y armadura pesada	OK	data.js:1503 (Sv 5)	
+aj_highelves-052	aj_highelves.txt:1091	Korhil opción: Carro del Caudillo +105 pts	OK	data.js:he_korhil_chariot	Chayal, Piel, Const. poderosa, Golpe mortal, Regeneración; carro pesado AV 4+; Daña armadura (1) montura
+aj_highelves-053	aj_highelves.txt:1093-1096	Korhil reglas: Reflejos élficos, Carga furiosa*, Constitución poderosa, Moverse a cubierto*, Tozudo, Valor de las Eras	OK	data.js:1503	
+aj_highelves-054	aj_highelves.txt:1102-1104	"Constitución poderosa: +1 F el turno en que carga 3"" o más"	OK	rules.js:4100	
+aj_highelves-055	aj_highelves.txt:1104-1105	Constitución poderosa: inmune a Ataques envenenados (el atacante tira para herir normal)	OK	rules.js:4381, 4661	
+aj_highelves-056	aj_highelves.txt:1112-1113	Piel de Charandis: armadura +1 trabado y +2 (máx 2+) contra disparo no mágico	OK	rules.js:1655	
+aj_highelves-057	aj_highelves.txt:1113	Piel de Charandis: Regeneración (5+)	OK	data.js:1503 (regen:5)	
+aj_highelves-058	aj_highelves.txt:1115-1117	Chayal: Combate F+2, FP -3, Golpe mortal, Requiere dos manos	OK	data.js:1503, rules.js:4125	
+aj_highelves-059	aj_highelves.txt:1118-1119	Chayal: repite impactos de 1 natural en la fase de Combate	PARCIAL	rules.js:4379, 4658	VERIF v732: rules.js:5418 repite 1s para todos los ataques de la unidad (has chayal), tambien los de la montura/leones del carro de Korhil; la regla es solo del portador
+aj_highelves-060	aj_highelves.txt:1174-1176	Ishaya disponible en listas con Guardia del Mar de Lothern; debe usarse tal cual	OK	data.js:3417 allow, chk ishaya	Disponible en Gran Ejército pero falta en allow de la lista Guarnición
+aj_highelves-061	aj_highelves.txt:1178-1184	Ishaya perfil M5 HA7 HP7 F4 R3 H3 I7 A3 L9, 170 pts; infantería regular; equipo con escudo y arco de guerra	OK	data.js:1522-1524 (Sv 4)	
+aj_highelves-062	aj_highelves.txt:1185-1186	Ishaya reglas: Voz de mando, Armas de ithilmar, Disciplina naval, Grito de reagrupamiento, Atacar primero, Ataques de pr	OK	data.js:1523	
+aj_highelves-063	aj_highelves.txt:1192-1193	"Voz de mando: Mando +3"" (12"", 15"" si es General)"	OK	rules.js:5673	
+aj_highelves-064	aj_highelves.txt:1199-1200	Ataques de precisión: Guardia del Mar unida mejora +1 FP de sus armas	OK	rules.js:4157	Solo cuenta he_seaguard*; Compañía del Barco no
+aj_highelves-065	aj_highelves.txt:1203	Ira de Mathlann: Combate F+1, FP -2, Daña armadura (1), Ataques mágicos	OK	data.js:1523 (melee sb1 ap2 ab1 magical)	
+aj_highelves-066	aj_highelves.txt:1204-1205	Ira de Mathlann: el enemigo repite un impacto con éxito contra el portador en Combate	OK	rules.js:mathIre (fightGroup/duelSwing)	Repite un impacto con éxito por fase de Combate; anunciado en el log
+aj_highelves-067	aj_highelves.txt:1213-1219	Caudillo Chracio perfil M5 HA6 HP4 F4 R3 H3 I5 A3 L9, 105 pts; infantería pesada; equipo arma de mano y armadura pesada	OK	data.js:he_chieftain	 Sin escudo (Sv 5+)
+aj_highelves-068	aj_highelves.txt:1222-1224	Caudillo opción: arma de mano adicional +4 o gran hoja chracia +3	OK	data.js:3619-3621	
+aj_highelves-069	aj_highelves.txt:1225	Caudillo opción: Carro del Caudillo +105 pts	OK	data.js:1511 (ppm 210)	
+aj_highelves-070	aj_highelves.txt:1226	Caudillo: objetos mágicos hasta 75 pts	OK	data.js:1499 (ib 75)	
+aj_highelves-071	aj_highelves.txt:1228-1229	Caudillo reglas: Carga furiosa*, Armas de ithilmar, Capa de león, Moverse a cubierto*, Atacar primero*, Tozudo, Valor de	OK	data.js:1500	
+aj_highelves-072	aj_highelves.txt:1236-1244	Carro del Caudillo perfil: M8 F5 R4 H3; auriga HA5 HP4 F4 I4 A1; leones M8 HA5 F4 I4 A2 (x2); carro pesado, peana 50x100	OK	data.js:he_chieftain_chariot	Carro pesado, AV 4+
+aj_highelves-073	aj_highelves.txt:1244-1247	Carro: equipo auriga arma de mano y gran hoja chracia; leones garras y colmillos	OK	data.js:1511-1514	Aproximado: melee gran hoja solo en variante Korhil; comprobado parcialmente
+aj_highelves-074	aj_highelves.txt:1249-1251	Carro reglas: Daña armadura (1, solo leones), Orden cerrado, Reflejos, Miedo, Primera carga, Impactos (D6 solo carro), T	OK	data.js:he_chieftain_chariot mountAtk ab:1	Daña armadura (1) aplicado a los ataques de la montura (el Auriga queda agrupado con los leones)
+aj_highelves-075	aj_highelves.txt:1265-1271	Comandante de Guarnición perfil M5 HA6 HP7 F4 R3 H2 I5 A3 L9, 90 pts; infantería regular; arma de mano, arco de guerra, 	OK	data.js:1519-1521	
+aj_highelves-076	aj_highelves.txt:1274	Comandante: lanza de caballería si va montado +2 pts	OK	data.js:he_garrison_* opts cs	No existe la opción de lanza de caballería
+aj_highelves-077	aj_highelves.txt:1275	Comandante: arco largo en vez de arco de guerra +4 pts	OK	data.js:4010	
+aj_highelves-078	aj_highelves.txt:1276-1277	Comandante: escudo +2; armadura pesada +3	OK	data.js:4010	
+aj_highelves-079	aj_highelves.txt:1278-1281	Comandante montado: Cortacielos +90, Grifo +130, Gran Águila +60	OK	data.js:4011-4015	
+aj_highelves-080	aj_highelves.txt:1282	Comandante: objetos mágicos hasta 75 pts	OK	data.js:1519 (ib 75)	
+aj_highelves-081	aj_highelves.txt:1284-1287	Comandante reglas: Arqueros consumados, Armas de ithilmar, Disciplina naval, Atacar primero*, Valor de las Eras	OK	data.js:1520	
+aj_highelves-082	aj_highelves.txt:1293-1296	Arqueros consumados: Evasiva y Disparar y huir (si no va en Cortacielos) y los concede a Guardia del Mar unida	OK	rules.js:152 (has0)	
+aj_highelves-083	aj_highelves.txt:1317-1322	Tejedor de Tormentas perfil M5 HA4 HP4 F3 R3 H2 I4 A2 L9, 85 pts; infantería regular; arma de mano	OK	data.js:1525-1527	
+aj_highelves-084	aj_highelves.txt:1324-1329	Tejedor: Mago nivel 1 con Magia Oscura, Elementalismo o Ilusión	OK	data.js:1527 (lores)	
+aj_highelves-085	aj_highelves.txt:1331	Tejedor: Unicornio +35 pts	OK	data.js:1528 (ppm 120)	
+aj_highelves-086	aj_highelves.txt:1333-1334	Tejedor: nivel 2 +30 pts; nivel 3 +60 pts	OK	data.js:WIZUP he_stormweaver (w2 +30, w3 +60)	No está en WIZUP; solo existe nivel 1
+aj_highelves-087	aj_highelves.txt:1335	Tejedor: objetos mágicos hasta 75 pts	OK	data.js:1525 (ib 75)	
+aj_highelves-088	aj_highelves.txt:1337	Tejedor reglas: Reflejos élficos, Armas de ithilmar, Saber de Saphery, Valor de las Eras	OK	data.js:1526 (saphery:true)	
+aj_highelves-089	aj_highelves.txt:1343-1351	Unicornio: M10 HA4 F4 I5 A2, +1 Herida, caballería monstruosa, Daña armadura (2), Contracarga, Ataques mágicos, Pisotón 	OK	data.js:he_stormweaver_uni avOpt hide	Falta Piel acorazada (1); resto presente
+aj_highelves-090	aj_highelves.txt:1357-1358	Aura cautivadora: chequeo de Ld antes de impactar; si falla solo impacta con 6	OK	rules.js:4371, 4632	
+aj_highelves-091	aj_highelves.txt:1362-1363	Mago errante: Gran Ejército puede incluir 0-1 Tejedor de Tormentas por 1.000 pts	OK	data.js:~4448 (Mago errante)	No hay validación ni límite del Tejedor en lista Gran Ejército
+aj_highelves-092	aj_highelves.txt:1372-1379	Compañía del Barco perfil M5 HA4 HP4 F3 R3 H1 I4 A1 L8, 9 pts; infantería regular; tamaño 5+; armas de mano y arcos de g	OK	data.js:1531-1533	
+aj_highelves-093	aj_highelves.txt:1382	Compañía: toda la unidad cambia arcos por lanzas de empuje y escudos gratis	OK	data.js:3623	
+aj_highelves-094	aj_highelves.txt:1383-1386	Compañía: campeón Guardiamarina (HP5) o Contramaestre (A2) +5 pts por unidad	OK	data.js:CMD he_ship [5,5,5]	Campeón cuesta 7 (CHAMP_COST) en vez de 5
+aj_highelves-095	aj_highelves.txt:1388-1389	Compañía: portaestandarte +5 pts; músico +5 pts	OK	data.js:CMD he_ship [5,5,5]	Portaestandarte cuesta 10 (STD_COST) en vez de 5; músico 5 correcto
+aj_highelves-096	aj_highelves.txt:1390	Compañía: armadura ligera +1 pt por modelo	OK	data.js:3624	
+aj_highelves-097	aj_highelves.txt:1391-1393	Compañía: 0-1 unidad por 1.000 pts con Escaramuzadores gratis o Veteranos +1 pt por modelo	OK	data.js:3625, 3627	
+aj_highelves-098	aj_highelves.txt:1395-1396	Compañía reglas: Destacamento, Reflejos élficos, Evasiva, Disparar y huir, Orden abierto, Valor de las Eras	OK	data.js:1532	
+aj_highelves-099	aj_highelves.txt:1422-1428	Guardia del León perfil M5 HA6 HP4 F4 R3 H1 I5 A1 L9, 18 pts; Capitán A2 +7; infantería pesada; tamaño 5+; equipo gran h	OK	data.js:1505-1507	Perfil de la gran hoja definido fuera de esta fuente
+aj_highelves-100	aj_highelves.txt:1431-1434	Guardia del León: capitán, portaestandarte, músico +7 pts cada uno	OK	data.js:2473 (he_lionguard [7,7,7])	
+aj_highelves-101	aj_highelves.txt:1435	Guardia del León: estandarte mágico hasta 50 pts	OK	data.js:1506 (bnMax 50)	
+aj_highelves-102	aj_highelves.txt:1436	Capitán de Guardia del León: objetos mágicos hasta 50 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+aj_highelves-103	aj_highelves.txt:1438-1439	Guardia del León reglas: Campeones de Chrace, Orden cerrado, Reflejos élficos, Carga furiosa, Capa de león, Tozudo, Vete	OK	data.js:1506	
+aj_highelves-104	aj_highelves.txt:1445	Campeones de Chrace: cualquier modelo de la unidad acepta desafíos como un personaje	OK	rules.js:4266, 4270	
+aj_highelves-105	aj_highelves.txt:1446-1447	Campeones de Chrace: una vez por turno un personaje unido repite su tirada de Cuidado, señor	OK	rules.js:2548	
+aj_highelves-106	aj_highelves.txt:1473-1479	Leñador Chracio perfil M5 HA4 HP4 F4 R3 H1 I4 A1 L8, 12 pts; Capitán A2 +7; infantería regular; 5+; grandes hojas y arma	OK	data.js:1508-1510	
+aj_highelves-107	aj_highelves.txt:1483-1484	Leñadores: arcos de guerra +1 pt/modelo; armadura pesada +1 pt/modelo	OK	data.js:3614-3615	
+aj_highelves-108	aj_highelves.txt:1485-1487	Leñadores: capitán, portaestandarte, músico +7 pts cada uno	OK	data.js:he_woodsmen (sin bnMax)	Costes correctos; bnMax 25 permite estandarte mágico que el texto no otorga
+aj_highelves-109	aj_highelves.txt:1489	Leñadores: Capa de león +1 pt por modelo	OK	data.js:3616	
+aj_highelves-110	aj_highelves.txt:1490-1492	Leñadores: 0-1 unidad cambia Vanguardia por Exploradores gratis	OK	data.js:opts sc/am lim 1 + chk	Límite aplicado como 0-1 por 1.000 pts en vez de 0-1 total
+aj_highelves-111	aj_highelves.txt:1490-1493	Leñadores: 0-1 unidad cambia Vanguardia por Emboscadores +1 pt por modelo	OK	data.js:opts sc/am lim 1 + chk	Límite 0-1 por 1.000 pts en vez de 0-1 total
+aj_highelves-112	aj_highelves.txt:1494-1495	Leñadores reglas: Reflejos élficos, Moverse a cubierto, Escaramuzadores, Valor de las Eras, Vanguardia	OK	data.js:1509	
+aj_highelves-113	aj_highelves.txt:1524-1531	León de Guerra perfil M8 HA5 HP0 F4 R4 H1 I4 A2 L7, 18 pts; bestias de guerra; tamaño 2-6; garras y colmillos	OK	data.js:1534-1536	
+aj_highelves-114	aj_highelves.txt:1531-1532	León de Guerra reglas: Golpe hendiente, Miedo, Moverse a cubierto, Orden abierto, Zancada veloz, Vanguardia	OK	data.js:1535	
+aj_highelves-115	aj_highelves.txt:1538-1544	Golpe hendiente: 6 natural al herir niega salvación de armadura y Regeneración a infantería, caballería ligera/pesada y 	OK	rules.js:1700, 1716	
+aj_highelves-116	aj_highelves.txt:1555-1559	León de Guerra en Gran Ejército: 0-1 unidad Rara si hay Leones Blancos de Chrace	OK	data.js:4374 chk (>1)	Límite aplicado como 0-1 por 1.000 pts en vez de 0-1
+aj_highelves-117	aj_highelves.txt:1524-1531	León de Guerra: sin campeón, portaestandarte ni músico en el texto	OK	data.js:CMD he_warlions null	El motor permite mejoras de mando que el texto no concede
+aj_highelves-118	aj_highelves.txt:1569-1577	Merwyrm perfil M6 HA6 HP0 F6 R6 H6 I3 A4 L8, 225 pts; engendro; peana 60x100; armadura pesada (escamas)	OK	data.js:1537-1540	
+aj_highelves-119	aj_highelves.txt:1574-1575	Merwyrm garras: Combate F, FP -1, Daña armadura (1)	OK	data.js:1538 (melee ap1 ab1)	
+aj_highelves-120	aj_highelves.txt:1594-1596	Merwyrm cola: Combate F+2, FP -2, Golpea último; debe usarla en una de sus ataques cada turno	OK	data.js:he_merwyrm melee.maw; rules.js maw sb	Cola: F+2, FP -2, Golpea último, un ataque por turno
+aj_highelves-121	aj_highelves.txt:1599-1601	Merwyrm aliento: F2, FP -2, Arma de aliento; el enemigo con herida sin salvar sufre -1 I hasta tu siguiente inicio de tu	OK	rules.js:iDown; data.js he_merwyrm ranged iDown	-1 I hasta el siguiente inicio de turno del Merwyrm
+aj_highelves-122	aj_highelves.txt:1576-1577	Merwyrm reglas: Orden cerrado, Impactos (D3), Gran objetivo, Pisotón (D3+1), Terror	OK	data.js:1538-1539	
+aj_highelves-123	aj_highelves.txt:1582-1583	Capa abisal: -2 a impactar a larga distancia en vez de -1	OK	rules.js:2421	
+aj_highelves-124	aj_highelves.txt:1588-1589	Frío debilitante: en contacto peana con peana los enemigos sufren -1 F (mínimo 1)	PARCIAL	rules.js:4156	VERIF v732: rules.js:4845 -1 F (min 1) a TODA la unidad enemiga trabada con el Merwyrm, no solo a modelos en contacto de peana
+aj_highelves-125	aj_highelves.txt:1605-1606	Merwyrm en Gran Ejército: 0-1 Merwyrm Raro si hay Guardia del Mar de Lothern	OK	data.js:~4448 chk	Sin requisito de Guardia del Mar ni límite 0-1 en Gran Ejército
+aj_highelves-126	aj_highelves.txt:1629-1639	Hacha del Leñador 90 pts: F+3, FP -4, Ataques mágicos, Cazamonstruos, dos manos, Golpea último; solo Hueste de Chracia	OK	data.js:heaj_woodsman list chracia	Perfil correcto; restricción a Hueste de Chracia sin campo list (no se valida)
+aj_highelves-127	aj_highelves.txt:1641-1652	"Arco del Marinero 50 pts: 30"", F5, FP -3, Ataques mágicos, Torpe, Heridas múltiples (D3), Atravesar"	OK	data.js:2878	
+aj_highelves-128	aj_highelves.txt:1654-1662	Lanza Estelar 45 pts: F+3, FP -4, mágica, Atacar primero; solo caballería/monstruo y solo el turno que carga	PARCIAL	data.js:2879, rules.js:4127	"VERIF v732: data.js:2907 heaj_starlance: F+3 FP-4 atacar primero solo al cargar OK, pero sin needMount/restricción: no se valida ""solo caballería o monstruo"" (cf. data.js:3257/3351)"
+aj_highelves-129	aj_highelves.txt:1664-1671	Hoja de Oro Marina 40 pts: F+1, FP -1, mágica, Heridas múltiples (D3); solo Guarnición	OK	data.js:heaj_seagold list garrison	Perfil correcto; restricción de lista no validada (sin campo list)
+aj_highelves-130	aj_highelves.txt:1678-1686	Armadura de las Estrellas 40 pts: armadura pesada, inmune a Golpe mortal (pierde una Herida si no salva)	OK	data.js:2864	Restricción infantería/caballería no verificada
+aj_highelves-131	aj_highelves.txt:1692-1698	Escudo Dorado 30 pts: escudo; el enemigo repite impactos de 6 natural contra el portador	PARCIAL	data.js:2865, rules.js:4378, 4656	VERIF v732: data.js:2893 + rules.js:5416 repite 6 naturales contra toda la unidad si CUALQUIER miembro lleva el Escudo Dorado, no solo contra ataques dirigidos al portador (5100 duelo OK)
+aj_highelves-132	aj_highelves.txt:1703-1711	Diadema de Atrazar 55 pts: +1 Herida y +1 R si infantería o caballería	OK	data.js:2866, rules.js:126	
+aj_highelves-133	aj_highelves.txt:1713-1722	Incienso Sagrado 35 pts: -1 adicional para impactar a personaje y su unidad con disparo	OK	data.js:2867, rules.js:2432	
+aj_highelves-134	aj_highelves.txt:1679-1685	Estandarte de Resiliencia 80 pts: +1 R a la unidad	OK	data.js:2868	
+aj_highelves-135	aj_highelves.txt:1687-1697	Estandarte de Lothern 55 pts: con lanzas de empuje, la mitad de la tercera fila hace ataques de apoyo	OK	data.js:2869, rules.js:4162	
+aj_highelves-136	aj_highelves.txt:1699-1707	Estandarte del Equilibrio 25 pts: en contacto nadie repite impactos ni heridas	OK	data.js:2870, rules.js:4228	
+aj_highelves-137	aj_highelves.txt:1709-1716	Estandarte de Confianza 20 pts: sin -1 al impactar al aguantar y disparar	OK	data.js:2871, rules.js:2427	
+aj_highelves-138	aj_highelves.txt:1729-1735	"Amuleto de la Tempestad 50 pts: a 9"" los Magos enemigos no suman su nivel al lanzar; solo Guarnición"	OK	data.js:heaj_tempest list garrison	Efecto correcto; restricción a Guarnición no validada
+aj_highelves-139	aj_highelves.txt:1737-1742	Anillo de Furia* 25 pts: Martillo de Manos ligado con Nivel de Poder 2	OK	data.js:heaj_fury boundPL 1	La FAQ Arcane Journal HER p.48 fija Nivel de Poder 1 (prevalece sobre el 2 del libro)
+aj_highelves-140	aj_highelves.txt:1744-1750	Gema del Valor* 15 pts: un uso, en chequeo de ruptura tira D6 extra y descarta el mayor; solo Hueste de Chracia	OK	data.js:heaj_courage list chracia	Efecto correcto; restricción de lista no validada
+aj_highelves-141	aj_highelves.txt:1753-1758	Esquirla del Vórtice 50 pts: un uso, disipa automáticamente y disipa todos los hechizos Permanece en juego	PARCIAL	data.js:2875, rules.js:3380-3381	VERIF v732: data.js heaj_vortex autoDisp: rules.js:3983-3984 se gasta automaticamente si el lanzamiento >= umbral (scrollThr, def 8), no por eleccion en cada hechizo; disipa fx rip y vortices | Uso automático decidido por el motor
+aj_highelves-142	aj_highelves.txt:1760-1768	Colgante del Embaucador 40 pts: un uso al disipar, D6 extra descartando el menor; si dispersa el lanzador no lanza más; 	OK	data.js:2876, rules.js:3414-3418	
+aj_highelves-143	aj_highelves.txt:1770-1774	Bastón de Solidez 15 pts: una vez por partida puede no tirar en tabla de percances	OK	data.js:2880, rules.js:3339	Uso automático por el motor
+aj_highelves-144	aj_highelves.txt:1624-1626	Objetos extremadamente comunes (*) marcados y comprables como Comunes	OK	data.js:2873-2874 (star:true)	

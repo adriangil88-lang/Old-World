@@ -1,0 +1,31 @@
+// v838 — Reglas de movimiento, disparo, unión y tipo de tropa (lote 3)
+import { shotOf, moveStart, T, N, R, DATA, game, pair, resolve, asked, msg, ok, eq, dice, diceAll, withSr, withoutSr, join, U, put, cur, msgs, by, all, D, F, FOE, engage, charged, wsl, prof, saveThr, GEOM, strategy, asks } from '../lib3.mjs';
+const shotNeed = (ev) => { const m = / tiros?, (\d)\+/.exec(msgs(ev)); return m ? +m[1] : null; };
+const RS = (k) => `app/js/data.js (regla «${k}»)`;
+const G = (A, B, f, o = {}) => game(A, B, { f, phase: 'strategy', active: 0, ...o });
+T('rule-steamPower', RS('steamPower'), 'Potencia de vapor y Temperamental: no marcha; suma a su Movimiento el mayor de 2D6; con un 1 natural (también al cargar) el jugador elige ¡Bang! (pierde una Herida) o ¡Phweee! (se detiene); con doble 1, ambas', () => {
+  const s0 = game([{ type: 'steam_tank', models: 1 }], [{ type: 'orc_boyz', models: 10 }], { f: ['empire', 'orcs'], phase: 'move' }); const t0 = put(U(s0, 'steam_tank', 0), 36, 40); cur(s0); ok(!R.previewMove(s0, t0.id, { x: 36, y: 30, face: t0.face }, true).ok, 'no puede marchar');
+  const mk = (d) => { const s = game([{ type: 'steam_tank', models: 1 }], [{ type: 'orc_boyz', models: 10 }], { f: ['empire', 'orcs'], phase: 'move', active: 0 }); const u = U(s, 'steam_tank', 0); put(u, 36, 40); dice(d); diceAll(2); return { s, u }; };
+  const a = mk([4, 6]); const oa = moveStart(a.s); ok(by(oa.s, a.u).fx.some((f) => f.k === 'steamP' && f.v === 6), 'suma el mayor (6) a su Movimiento');
+  const b = mk([1, 5]); const ob = moveStart(b.s, { Temperamental: 'bang' }); ok(ob.needs.some((n) => n.title === 'Temperamental'), 'con un 1 se elige en el momento (popup)'); eq(by(ob.s, b.u).wounds, D(b.u).W - 1, '¡Bang!: pierde una Herida'); ok(by(ob.s, b.u).fx.some((f) => f.k === 'steamP'), 'y avanza con la Potencia de vapor');
+  const c = mk([1, 5]); const oc = moveStart(c.s, { Temperamental: 'phweee' }); eq(by(oc.s, c.u).wounds, D(c.u).W, '¡Phweee!: no pierde Herida'); ok(by(oc.s, c.u).moved === true && by(oc.s, c.u).noCharge === true, 'se detiene este turno');
+  const d = mk([1, 1]); const od = moveStart(d.s); eq(by(od.s, d.u).wounds, D(d.u).W - 1, 'doble 1: pierde una Herida'); ok(by(od.s, d.u).moved === true, 'y se detiene (ambas)');
+  // al cargar
+  const ch = (v, ans) => { const s = game([{ type: 'steam_tank', models: 1 }], [{ type: 'orc_boyz', models: 10 }], { f: ['empire', 'orcs'], phase: 'move' }); const a2 = put(U(s, 'steam_tank', 0), 36, 40), t = put(U(s, 'orc_boyz', 1), 36, 32, Math.PI / 2); cur(s); dice([1, 1, ...v]); diceAll(3); return asks(s, (c) => R.apply(c, { t: 'charge', id: U(c, 'steam_tank', 0).id, target: U(c, 'orc_boyz', 1).id }), [0, 1], (n) => (n.title === 'Temperamental' ? ans : undefined)); };
+  const cb = ch([1, 6], 'bang'), cp = ch([1, 6], 'phweee'); ok(cb.needs.some((n) => n.title === 'Temperamental'), 'al cargar con un 1: se pregunta'); ok(/¡Bang! pierde 1 Herida al cargar/.test(msgs(cb.r.events || [])) && !/falla la carga/.test(msgs(cb.r.events || [])), 'Bang: pierde la Herida y la carga sigue: ' + msgs(cb.r.events || []).slice(-200)); ok(/¡Phweee! se detiene al cargar/.test(msgs(cp.r.events || [])), 'Phweee: se detiene: ' + msgs(cp.r.events || []).slice(-200));
+});
+T('rule-noMarch', RS('noMarch'), 'Potencia de vapor (no marcha): no puede marchar', () => {
+  for (const type of ['steam_tank', 'cd_ironDaemon']) { const s = game([{ type, models: 1 }], [{ type: 'orc_boyz', models: 10 }], { f: [F(type), FOE(type)], phase: 'move' }); const u = put(U(s, type, 0), 36, 40); cur(s); const r = R.previewMove(s, u.id, { x: 36, y: 30, face: u.face }, true); ok(!r.ok && /marchar/.test(r.reason), type + ': ' + r.reason); }
+  const s = game([{ type: 'state_troops', models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: ['empire', 'orcs'], phase: 'move' }); const u = put(U(s, 'state_troops', 0), 36, 40); cur(s); ok(R.previewMove(s, u.id, { x: 36, y: 33, face: u.face }, true).ok, 'control: una unidad normal sí marcha');
+});
+T('rule-kerSplat', RS('kerSplat'), '¡Ker-splat!: trata todo el terreno difícil como terreno peligroso', () => {
+  const run = (type, n, strip) => { const f = () => { const s = game([{ type, models: n }], [{ type: 'state_troops', models: 10 }], { f: [F(type), FOE(type)], phase: 'move', terrain: [{ id: 'f1', kind: 'forest', x: 36, y: 36, w: 30, h: 20 }] }); const u = put(U(s, type, 0), 36, 36); cur(s); diceAll(1); const w0 = u.models + u.wounds; const ev = []; R.terrainEffects(s, u, [], ev); return { lost: w0 - (u.models + u.wounds), m: msgs(ev) }; }; return strip ? withoutSr(type, 'kerSplat', f) : f(); };
+  const a = run('mangler_squig', 1, false), b = run('mangler_squig', 1, true), c = run('orc_boyz', 10, false);
+  ok(a.lost > 0 && /terreno peligroso/.test(a.m), '¡Ker-splat!: en terreno difícil hace chequeo de terreno peligroso y con un 1 sufre bajas (' + a.lost + ')'); eq(b.lost, 0, 'sin la regla no hay chequeo (control)'); eq(c.lost, 0, 'una unidad normal solo sufre la penalización de difícil');
+});
+T('rule-large', RS('large'), 'Objetivo grande: no se beneficia de cobertura; se le ve a través de unidades que no son grandes (Core p.157)', () => {
+  const sh = (type, forest, blk) => { const s = game([{ type: 'emp_archers', models: 10 }, { type: 'state_troops', models: 10 }], [{ type, models: type === 'we_treeman' ? 1 : 10 }], { f: ['empire', 'wood'], phase: 'shoot' }); const a = put(U(s, 'emp_archers'), 36, 40), t = put(U(s, type, 1), 36, 20, Math.PI / 2); if (blk) put(U(s, 'state_troops'), 36, 32); else put(U(s, 'state_troops'), 10, 60); if (forest) s.terrain.push({ kind: 'forest', x: 36, y: 20, w: 8, h: 8 }); cur(s); const ev = []; const los = R.losClear(s, a, t); R.resolveShot(s, a, t, ev); return { los, need: shotNeed(ev) }; };
+  const g1 = sh('we_treeman', true, false), g0 = sh('we_treeman', false, false), n1 = sh('we_glade_guard', true, false), n0 = sh('we_glade_guard', false, false);
+  eq(g1.need, g0.need, 'el Hombre Árbol en el bosque no gana cobertura'); ok(n1.need > n0.need, 'control: infantería normal en el bosque sí gana cobertura (' + n0.need + ' → ' + n1.need + ')');
+  ok(sh('we_treeman', false, true).los, 've al objetivo grande a través de infantería'); ok(!sh('we_glade_guard', false, true).los, 'control: no ve a infantería normal tras otra unidad');
+});

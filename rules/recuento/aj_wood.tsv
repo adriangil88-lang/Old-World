@@ -1,0 +1,8 @@
+AJWE-001	AJ Wood Elves	Orion, Rey del Bosque (455 pts): perfil, Sabuesos espectrales (A5+2), reglas	OK	data.js we_orion; rules.js orionHounds	v797: perfil comprobado; A7 = 5 + 2 Sabuesos segun diseno del motor
+AJWE-002	AJ Wood Elves	Araloth, Senor de Talsyn (170 pts): perfil, Skaryn	OK	data.js we_araloth	v797
+AJWE-003	AJ Wood Elves	Guardianes de Talsyn (personaje 125 pts) y Guardianes (18 pts, Vigia +6)	OK	data.js we_warden, we_guardians	v797
+AJWE-004	AJ Wood Elves	Manadas de bestias (Sabuesos +8, Felinos +6, Jabalies +11, Osos), Cuidador 11 pts, Aspectos	OK	data.js we_pack_*	v797 (costes)
+AJWE-005	AJ Wood Elves	Linajes (Glamour Weave +25, Eterno +20, Jinetes Salvajes +20, Exploradores +15)	OK	data.js kindreds	v797
+AJWE-006	AJ Wood Elves	Objetos magicos del AJ (Vaul 55, Daith 40, Orgullo 35, Hojas 25, Manto 40, Ariel 30, Capa 30, Orion 25, Tapiz 80, Estandartes 25/25/20, Corona 35, Piedra 30, Flechas 15, Orbe 35, Colgante 15, Sello 25)	OK	data.js items	v797: costes coinciden
+AJWE-007	AJ Wood Elves	Listas Orion's Wild Hunt y Host of Talsyn; Torrente de Duendes	OK	INF.wildhunt/talsyn	v640/v797
+AJWE-008	AJ Wood Elves	Escenario Corruption of the Laurelorn (+250/+50 PV)	OK	rules.js SCN	verificado

@@ -1,0 +1,1477 @@
+     DAEMONS OF
+       CHAOS
+                        Legacy Army List
+                   For Use With Warhammer: The Old World Rules
+ This document allows you to play a Daemons Of Chaos Army from the Warhammer Fantasy Battles range in
+games using the rules from Warhammer: The Old World. To use the contents of this document, you will need a
+                             copy of the Warhammer: The Old World rulebook.
+
+           The rules contained within this document allow players the opportunity to try out the
+            Warhammer: The Old World rules using models they may have in their collection.
+        They are not intended for use in matched play events and will not be updated in line with any
+                             future Warhammer: the Old World publications.
+                                  Daemons Of Chaos
+T   he Daemons of Chaos are the ultimate enemy of all mortal creatures. From their fortresses and palaces in the Realm
+    of Chaos, they watch the world with envious eyes, waiting with unblinking patience for their chance to strike, to wreak
+destruction and dismay upon the world, and to claim souls in the name of their infernal masters. When that opportunity
+arises, they seize it greedily, spilling forth to rampage and slaughter in the name of the Chaos gods.
+
+This document contains the following information:                    CONTENTS
+Grand Army Composition List: The default army                        Daemons Of Chaos Legacy Army List.....................................2
+composition list for the Daemons of Chaos.                            Grand Army Composition List .........................................................2
+                                                                      Daemons of Khorne ...............................................................................3
+Profiles: Every model available to the Daemons of Chaos has           Daemons of Nurgle.................................................................................9
+a profile. Here, you will find that model’s characteristics, its      Daemons of Slaanesh ..........................................................................13
+equipment, its points value, details of any special rules unique      Daemons of Tzeentch.........................................................................18
+to it and more.                                                       Daemons of Chaos ...............................................................................24
+                                                                      Daemonic Gifts & Icons ....................................................................27
+Magic Items: As well as the Common magic items detailed               Daemons of Chaos Special Rules ................................................... 32
+in the Warhammer: the Old World rulebook, this army list              Lore of Daemons ..................................................................................34
+includes a number of magic items unique to the Daemons                The Daemonic Armoury...................................................................35
+of Chaos.
+
+Special Rules: This section covers rules unique to the
+Daemons of Chaos.
+
+The Lore of…: Unique spells used in conjunction with
+the Lores of Magic found in the Warhammer: the Old
+World rulebook.
+
+
+
+
+   © Copyright Games Workshop Limited 2024. Warhammer: the Old World, Citadel, Forge World, Games Workshop, GW,
+   Warhammer, the ‘winged-hammer’ Warhammer logo, and all associated logos, illustrations, images, names, creatures, races,
+         vehicles, locations, weapons, characters, and the distinctive likenesses thereof, are either ® or TM, and/or ©
+                                Games Workshop Limited, variably registered around the world.
+                                                      All Rights Reserved.
+
+                                        Permission to download/print for personal use only.
+
+                  This is a work of fiction. All the characters and events portrayed in this download are fictional,
+                               and any resemblance to real people or incidents is purely coincidental.
+  Daemons Of Chaos Legacy Army List
+T   his page details the Grand Army composition list for the Daemons of Chaos. This is the default army composition list
+    for this faction. Using this army composition list to write your muster list will give you the widest variety of units to
+choose from and create a broad and balanced force.
+
+This army list is intended for use alongside the ‘Forming Units’ and ‘Warhammer Armies’ sections of the Warhammer: the Old
+World rulebook. Over the following pages you will find profiles and rules for each of the models in your army. These pages give
+you all of the information that you need to shape your collection of models into the units which will in turn form a force ready
+for battle.
+
+Grand Army Composition List
+Characters                                                         Special
+Up to 50% of your army’s points value may be spent on:             Up to 50% of your army’s points value may be spent on:
+
+• 0-1 Greater Daemon (of Khorne, Nurgle, Slaanesh                  • Bloodletters, Flesh Hounds, Plaguebearers, Nurglings,
+  or Tzeentch)                                                       Daemonettes, Seekers, Pink Horrors, Blue Horrors and
+• 0-1 Daemonic Herald of Khorne, Nurgle, Slaanesh or                 Brimstone Horrors
+  Tzeentch per unit with the same Daemonic Alignment               • If your General is a:
+• 0-1 Daemon Prince per 1,000 points                                 - Daemon of Khorne, Bloodcrushers may be taken as
+                                                                         Special choices
+Core                                                                 - Daemon of Nurgle, Beasts of Nurgle and Plague Drones
+At least 25% of your army’s points value must be spent on:               may be taken as Special choices
+                                                                     - Daemon of Slaanesh, Fiends, Hellflayers and Seeker
+• If your General is a:                                                  Chariots may be taken as Special choices
+  - Daemon of Khorne, Bloodletters and Flesh Hounds                  - Daemon of Tzeentch, Flamers and Screamers may be
+      may be taken as Core choices                                       taken as Special choices
+  - Daemon of Nurgle, Plaguebearers and Nurglings may be
+      taken as Core choices                                        Rare
+  - Daemon of Slaanesh, Daemonettes and Seekers may be             Up to 25% of your army’s points value may be spent on:
+      taken as Core choices
+  - Daemon of Tzeentch, Pink Horrors, Blue Horrors and             • Bloodcrushers, Beasts of Nurgle, Plague Drones, Fiends,
+      Brimstone Horrors may be taken as Core choices                 Hellflayers, Seeker Chariots, Flamers, Screamers, Burning
+• Chaos Furies                                                       Chariots and Soul Grinders
+                                                                   • 0-1 Skull Cannon of Khorne per 1,000 points
+
+
+                                                                      Battle Standard Bearer
+                                                                      A single Daemonic Herald in your army may be upgraded
+                                                                      to be your Daemonic Locus for +25 points. A Daemonic
+                                                                      Herald that has been upgraded to be your Daemonic
+                                                                      Locus gains the ‘Daemonic Locus’ special rule (see
+                                                                      page 32). In addition to their usual allowance of points
+                                                                      to spend on Daemonic Gifts, a Daemonic Locus can
+                                                                      purchase a single Daemonic Icon with no points limit.
+Bloodthirster – Greater Daemon Of Khorne
+                                                                                                                                                         Khorne
+                                          M         WS       BS        S         T       W          I        A       Ld        Points
+Bloodthirster                             8         10        5        6         6       6          7        6        9         355
+                                                                                                                                               Bloodthirsters of Khorne
+Troop Type:               Behemoth (character)                                                                                                 Bloodthirsters are not only
+Base Size:                50 x 50 mm (min), 100 x 150 mm (max)                                                                                 the most deadly of Khorne’s
+Unit Size:                1                                                                                                                    Daemons, but perhaps the
+Equipment:                Hand weapon and heavy armour                                                                                         mightiest of all Daemonkind.
+                                                                                                                                               A single such creature is a
+Options:                                                                                                                                       harbinger of bellowing death,
+• Must take one of the following:                                                                                                              destructive beyond measure
+  - Bloodflail (see below) .......................................................................................................+25 points   and lives only for slaughter,
+  - Great axe (see below) .......................................................................................................+35 points    mayhem and the ruination
+  - Lash of Khorne (see below)............................................................................................+15 points           of all it encounters. It is the
+• May purchase Daemonic Gifts up to a total of ............................................................. 100 points                        fury of battle given physical
+                                                                                                                                               form, the unfettered primal
+Special Rules: Daemonic, Daemonic Charge, Daemon of Khorne, Fly (10),                                                                          rage of the world made flesh.
+               Furious Charge, Impact Hits (D3), Impetuous, Infernal Favour (2),                                                               Such should be expected of a
+               Large Target, Magic Resistance (-2), Terror                                                                                     beast whose liege lord is the
+                                                                                                                                               god of bloodletting, slaughter
+Daemonic Charge                                                                                                                                and murder. In one hand,
+Filled with rage and fury, a charging Bloodthirster crushes its foes beneath its brazen hooves.                                                the Bloodthirster carries an
+                                                                                                                                               ensorcelled axe that hungers
+Impact Hits caused by this model have an Armour Piercing characteristic of -2.                                                                 for blood and death; in the
+                                                                                                                                               other, the Daemon wields
+                         R       S       AP      Special Rules                                                                                 a barded lash with which it
+Bloodflail            Combat S+2         -2      Armour Bane (1), Multiple Wounds (D3)                                                         flays the flesh from the bones
+Notes: A Bloodflail’s Strength modifier applies only during the first round of combat.                                                         of its victims.
+
+                                R     S                   AP          Special Rules
+Great axe                     Combat S+2                  -3          Armour Bane (2), Monster Slayer,
+                                                                      Requires Two Hands, Strike Last
+
+                                R               S         AP          Special Rules
+Lash of Khorne                Combat            S         -2          Armour Bane (1), Strike First
+Daemonic Herald Of Khorne
+                                                                                                                                                     Khorne
+                                         M         WS      BS         S        T       W          I       A        Ld       Points
+Herald of Khorne                         5          7       4         5        4       2          6       3         8         80
+                                                                                                                                            Heralds of Khorne
+Troop Type:              Heavy infantry (character)                                                                                         Most feared amongst the vast
+Base Size:               30 x 30 mm                                                                                                         hordes of Bloodletters are
+Unit Size:               1                                                                                                                  the dread Heralds of Khorne.
+Equipment:               Hellblade (see page 35) and calloused hide (counts as light armour)                                                Driven insane by their
+                                                                                                                                            desperate need for slaughter,
+Options:                                                                                                                                    Heralds of Khorne attack
+• May be mounted on a:                                                                                                                      their foes with a wrath that
+  - Juggernaut of Khorne.......................................................................................................+50 points   eclipses even that of other
+  - Blood Throne of Khorne .................................................................................................See page 7      Bloodletters. They hack and
+• May purchase Daemonic Gifts up to a total of ................................................................50 points                    cleave at their foes in bloody
+                                                                                                                                            arcs, seeking to sever heads
+Special Rules: Daemonic, Daemon of Khorne, Furious Charge*, Impetuous,                                                                      and cut off limbs in the name
+               Infernal Favour (1), Magic Resistance (-1)                                                                                   of their blood-hungry god.
+
+*Note that this special rule does not apply to this model's mount (should it have one).                                                     Juggernauts of Khorne
+                                                                                                                                            Juggernauts are massive
+                                                                                                                                            armoured creatures that
+Juggernaut Of Khorne                                                                                                                        are part Daemon, part
+                                                                                                                                            ensorcelled steel and sinew.
+                           M WS BS             S     T     W     I     A Ld Points                                                          Fuelled by a primordial rage
+Juggernaut of Khorne       7      4     -      5 (+1) (+1) 2           2     -     +50                                                      that courses through their
+Note: A character mounted on a Juggernaut of Khorne has +1 Toughness and +1 Wound.                                                          body, Juggernauts thunder
+                                                                                                                                            towards the foe with near
+Troop Type:              Monstrous cavalry                                                                                                  unstoppable momentum,
+Base Size:               50 x 75 mm                                                                                                         kicking up sparks with each
+Unit Size:               1                                                                                                                  step of their iron-shod hooves
+Equipment:               Brass bound hooves (see below) and brazen hide (counts as barding)                                                 as their brass snouts spew
+Special Rules:           Armoured Hide (1), Daemonic, Daemon of Khorne, First Charge,                                                       choking black steam into the
+                         Impact Hits (2), Swiftstride                                                                                       air with every breath.
+
+                                R              S        AP          Special Rules
+Brass bound                   Combat           S        -2          -
+hooves
+Bloodletters Of Khorne
+                                                                                                                                         Khorne
+                                      M      WS       BS        S       T       W        I       A       Ld      Points
+Bloodletter                           5       5        3        4       3       1        4       1        7        14
+Bloodreaper                           5       5        3        4       3       1        4       2        7       +7            Bloodletters of Khorne
+                                                                                                                                Bloodletters form the main
+Troop Type:            Heavy infantry                                                                                           body of the Blood God’s
+Base Size:             30 x 30 mm                                                                                               armies. When loosed into
+Unit Size:             8+                                                                                                       the fray, they sprint from one
+Equipment:             Hellblades (see page 35) and calloused hides (counts as light armour)                                    enemy to another, swinging
+                                                                                                                                their infernal Hellblades in
+Options:                                                                                                                        long, sweeping cuts in order
+• Any unit may:                                                                                                                 to hack their foes limb from
+  - Upgrade one model to a Bloodreaper (champion) .................................. +7 points per unit                         limb. Before a foe’s severed
+  - Upgrade one model to a standard bearer ................................................... +7 points per unit               head has even touched the
+  - Upgrade one model to a musician ................................................................ +7 points per unit         ground, their killer will have
+  - May purchase a Daemonic Icon worth up to .............................................................50 points             dashed off in search of more
+                                                                                                                                skulls to offer in tribute
+Special Rules: Close Order, Daemonic, Daemons of Khorne, Impetuous,                                                             to Khorne.
+               Magic Resistance (-1)
+                                                                                                                                Flesh Hounds of Khorne
+                                                                                                                                Flesh Hounds are rapacious
+Flesh Hounds Of Khorne                                                                                                          wolf-like Daemons, both
+                                                                                                                                reptilian and savagely canine
+                                      M      WS       BS        S       T       W        I       A       Ld      Points         in appearance. They are
+Flesh Hound                           8       5        0        4       4       2        4       2        7        32           Khorne’s blood-hunters,
+                                                                                                                                powerful and swift in equal
+Troop Type:            Heavy cavalry                                                                                            measure. The Flesh Hounds
+Base Size:             30 x 60 mm                                                                                               are valued above all others by
+Unit Size:             5+                                                                                                       the Lord of Skulls, lavished
+Equipment:             Claws and fangs (counts as hand weapons) and                                                             with ornate brass collars to
+                       calloused hides (counts as light armour)                                                                 protect them from the effects
+                                                                                                                                of hostile magic.
+Options:
+• 0-1 unit per 1,000 points may:
+  - The Ambushers special rule ....................................................................... +3 points per model
+  - The Vanguard special rule ........................................................................... +2 points per model
+
+Special Rules: Armour Bane (1), Close Order, Counter Charge, Daemonic,
+               Daemons of Khorne, Impetuous, Magic Resistance (-2)
+Bloodcrushers Of Khorne
+                                                                                                                                   Khorne
+                                    M        WS     BS       S      T       W        I      A       Ld      Points
+Bloodletter                         -         5      3       4      4       3        4      1        7        65
+Bloodreaper                         -         5      3       4      4       3        4      2        7       +7           Bloodcrushers of Khorne
+Juggernaut of Khorne                7         4      -       5      -       -        2      2        -         -          The most favoured of all
+                                                                                                                          Bloodletters are granted
+Troop Type:    Monstrous cavalry                                                                                          the privilege of becoming
+Base Size:     50 x 75 mm                                                                                                 Bloodcrushers. These brass-
+Unit Size:     3+                                                                                                         bound brutes are Khorne’s
+Equipment:                                                                                                                shock cavalry, combining
+• Bloodletters: Hellblades (see page 35) and calloused hides (counts as light armour)                                     the deadly prowess of a
+• Juggernauts of Khorne: Brass bound hooves (see below) and                                                               frenzied Bloodletter and
+               brazen hide (counts as barding)                                                                            the unstoppable crushing
+                                                                                                                          mass of a Juggernaut of
+Options:                                                                                                                  Khorne. When the Lord
+• Any unit may:                                                                                                           of Skulls’ mighty legions
+  - Upgrade one model to a Bloodreaper (champion) .................................. +7 points per unit                   march to war, bellowing
+  - Upgrade one model to a standard bearer ................................................... +7 points per unit         hordes of Bloodcrushers
+  - Upgrade one model to a musician ................................................................ +7 points per unit   stampede across the
+  - May purchase a Daemonic Icon worth up to .............................................................50 points       battlefield, trampling
+                                                                                                                          Khorne’s foes into a bloody
+Special Rules: Armoured Hide (1), Close Order, Daemonic, Daemon of Khorne,                                                smear. As soon as battle
+               Impact Hits (2), Impetuous, Magic Resistance (-1), Swiftstride                                             commences, Bloodcrushers
+                                                                                                                          relentlessly hurl themselves
+                            R            S        AP       Special Rules                                                  at the strongest points of the
+Brass bound               Combat         S        -2       -                                                              enemy’s lines. Here, they hack
+hooves                                                                                                                    and slash their way through
+                                                                                                                          the strongest troops the
+                                                                                                                          foe can muster, honouring
+                                                                                                                          Khorne’s name with savage
+                                                                                                                          joy for each enemy slain.
+Blood Throne Of Khorne
+                                                                                                                Khorne
+                              M     WS     BS      S     T      W      I      A     Ld     Points
+Blood Throne                  7      5      -      5     5      4      2      3      -      +160
+Bloodletter Crew (x2)         -      5      3      4     -      -      4      1      7        -        Blood Thrones of Khorne
+                                                                                                       A Blood Throne of Khorne is
+Troop Type:    Heavy Chariot                                                                           no mere bastion of command
+Base Size:     50 x 100 mm                                                                             as it might be amongst an
+Unit Size:     1                                                                                       army of mortal warriors, it
+Armour Value: 4+                                                                                       is instead a mighty Daemon
+Equipment:                                                                                             Engine of armoured brass and
+• Blood Throne: Brazen wheels and scything blades (counts as a hand weapon)                            bleached skulls. From atop
+• Bloodletter Crew: Hellblades (see page 35)                                                           their macabre chariot, the
+                                                                                                       Heralds of Khorne eagerly
+Special Rules: Close Order, Daemonic, Daemon of Khorne, First Charge, Gorefeast,                       observe the field of battle,
+               Impact Hits (D6+1), Impetuous, Totem of Endless Bloodletting                            hunting for a skull worthy
+                                                                                                       of claiming in the name of
+Gorefeast                                                                                              the Blood God – prowling
+The blood and skulls of the fallen are consumed by a Blood Throne, fed into its infernal workings to   impatiently back and forth
+bring the daemonic engine fresh vigour.                                                                in anticipation of the coming
+                                                                                                       slaughter. Should the Herald
+For each Wound an enemy unit loses as a result of an Impact Hit caused by this model, roll             riding the Blood Throne be
+a D6. For each roll of 6, this model immediately recovers a single lost Wound.                         truly favoured by Khorne,
+                                                                                                       the Throne becomes a locus
+Totem Of Endless Bloodletting                                                                          of the Blood God’s power,
+A Blood Throne is a physical manifestation of the Blood God’s favour. In its presence, Daemons of      bestowing his divine gifts
+Khorne are driven into a raging bloodlust.                                                             upon nearby Daemons,
+                                                                                                       lending his ferocity to their
+Friendly Daemons of Khorne that are within this model’s Command range and that                         blows and driving them into a
+made a Charge move this turn may re-roll any rolls To Hit of a natural 1 made during the               maddened fury.
+Combat phase.
+
+
+  Character Mount: A Blood Throne of Khorne may only be included in your army as
+  a character’s mount. Its points are added to that of its rider.
+Skull Cannon Of Khorne
+                                                                                                                 Khorne
+                               M        WS    BS     S      T     W       I      A     Ld      Points
+Skull Cannon                   7         5     -     5      5     4       2      3      -       185
+Bloodletter Crew (x2)          -         5     3     4      -     -       4      1      7        -      Skull Cannon of Khorne
+                                                                                                        Legend says that the mighty
+Troop Type:    Heavy Chariot                                                                            Skull Cannons were forged by
+Base Size:     50 x 100 mm                                                                              Khorne’s own hand, wrought
+Unit Size:     1                                                                                        into being in the hellish
+Armour Value: 4+                                                                                        furnaces at the foot of his
+Equipment:                                                                                              great throne, beat into shape
+• Skull Cannon: Brazen wheels and scything blades (counts as a hand weapon) and                         upon a massive anvil and
+               cannon of Khorne (see below)                                                             quenched in the blood of the
+• Bloodletter Crew: Hellblades (see page 35)                                                            slain. Fuelled by the burning
+                                                                                                        souls of warriors killed in
+Special Rules: Brazen Wheels, Close Order, Daemonic, Daemon of Khorne,                                  the name of Khorne, these
+               First Charge, Impact Hits (D3+1), Impetuous, Stomp Attacks (D3)                          brass-clad war machines
+                                                                                                        launch flaming skulls across
+Brazen Wheels                                                                                           the battlefield towards the
+The brazen bulk of a Skull Cannon grinds inexorably across the battlefield, its churning wheels,        foe, shattering bones and
+driven by its daemonic engine, crushing all before it.                                                  exploding in a blaze of
+                                                                                                        white-hot flame. It is not
+Stomp Attacks made by a Skull Cannon of Khorne have an Armour Piercing characteristic                   only the powerful artillery
+of -3. However, this rule cannot be used against models whose troop type is ‘behemoth’ –                blasts that make these
+they are simply too large to be caught beneath a Skull Cannon’s wheels.                                 machines so feared, for their
+                                                                                                        churning wheels are not easily
+Cannon of Khorne          R         S        AP     Special Rules                                       slowed, grinding anything
+Solid shot               36"        8        -2     Armour Bane (2), Cannon Fire,                       caught beneath them into a
+                                                    Cumbersome, Multiple Wounds (D3)                    crimson puddle of gore and
+Scatter shot             N/A        4        -1     Breath Weapon                                       splintered bone.
+Notes: A Cannon of Khorne has two profiles, representing its two modes of firing. When firing
+solid shot, this weapon shoots like a cannon, using the ‘Cannon Fire’ special rule. If a ‘Misfire’ is
+rolled on the Artillery dice during step 2, this model loses a single Wound (instead of rolling on a
+Misfire table).
+Great Unclean One – Greater Daemon Of Nurgle
+                                                                                                                                                             Nurgle
+                                            M       WS        BS         S         T        W          I        A        Ld        Points
+Great Unclean One                           5        6         3         6         7        7          4        5         9         330
+                                                                                                                                                   Great Unclean Ones
+Troop Type:               Behemoth (character)                                                                                                     The filth-riddled Daemons
+Base Size:                50 x 50 mm (min), 150 x 100 mm (max)                                                                                     known as Great Unclean
+Unit Size:                1                                                                                                                        Ones, or Plague Lords, are the
+Equipment:                Hand weapon                                                                                                              Greater Daemons of Nurgle.
+                                                                                                                                                   These massive figures tower
+Magic: A Great Unclean One is a Level 1 Wizard. Every Great Unclean One knows spells                                                               above their lesser kin, bloated
+from one of the following Lores of Magic:                                                                                                          with decay, disease and all
+• Battle Magic                                                                                                                                     imaginable kinds of physical
+• Daemonology                                                                                                                                      corruption. When roused to
+• Dark Magic                                                                                                                                       battle, Great Unclean Ones
+                                                                                                                                                   are a truly horrifying sight;
+Options:                                                                                                                                           bellowing with unbridled joy
+• May take one of the following:                                                                                                                   as they set about their foes
+  - Additional hand weapon................................................................................................... +6 points            with massive swords that drip
+  - Bilesword (see below) .......................................................................................................+10 points        with virulent corruption, or
+  - Plagueflail (see below) ......................................................................................................+25 points       swinging monstrous, plague-
+• May be a:                                                                                                                                        ridden flails in devastating
+  - Level 2 Wizard....................................................................................................................+30 points   arcs that crush and maim
+  - Level 3 Wizard....................................................................................................................+60 points   those in their path. If their
+  - Level 4 Wizard....................................................................................................................+90 points   physical onslaught were not
+• May purchase Daemonic Gifts up to a total of ............................................................. 100 points                            enough to contend with, the
+                                                                                                                                                   corpulent Daemons are often
+Special Rules: Daemonic, Daemon of Nurgle, Infernal Favour (2), Large Target,                                                                      incredibly potent magic users,
+               Lore of Daemons, Poisoned Attacks, Regeneration (5+),                                                                               able to summon forth vast
+               Stomp Attacks (D3+1), Terror                                                                                                        torrents of contagion and
+                                                                                                                                                   plague with a simple gesture.
+                       R         S     AP       Special Rules
+Bilesword            Combat S           -2      Armour Bane (1), Strike Last
+Notes: Regeneration saves are not permitted against wounds caused by this weapon (armour and
+Ward saves can be attempted as normal).
+
+                         R       S      AP        Special Rules
+Plagueflail          Combat S+2          -3       Multiple Wounds (D3)
+Notes: A Plagueflail’s Strength modifier applies only during the first round of combat.
+Daemonic Herald Of Nurgle
+                                                                                                                                                             Nurgle
+                                            M       WS        BS         S         T        W          I        A        Ld        Points
+Herald of Nurgle                            4        5         5         5         5        2          4        3         8          95
+                                                                                                                                                   Heralds of Nurgle
+Troop Type:               Regular infantry (character)                                                                                             Nurgle’s rot affects all of his
+Base Size:                30 x 30 mm                                                                                                               ‘children’ differently. The
+Unit Size:                1                                                                                                                        longer a victim endures
+Equipment:                Plaguesword (see page 35)                                                                                                against the rot, the greater
+                                                                                                                                                   in the Plaguelord's standing
+Magic: A Herald of Nurgle may be a Wizard (see below). A Herald of Nurgle that is a                                                                the resulting Daemon shall
+Wizard knows spells from one of the following Lores of Magic:                                                                                      be, and it is from amongst
+• Battle Magic                                                                                                                                     these hardy individuals that
+• Daemonology                                                                                                                                      Nurgle chooses his heralds.
+• Dark Magic                                                                                                                                       These anointed champions
+                                                                                                                                                   march at the head of Nurgle’s
+Options:                                                                                                                                           daemonic legions, standing
+• May take death’s heads (see page 35) ................................................................................+10 points                  as living reminders that even
+• May be a:                                                                                                                                        the strongest and most able
+  - Level 1 Wizard....................................................................................................................+30 points   of folk cannot indefinitely
+  - Level 2 Wizard....................................................................................................................+60 points   defy disease.
+• May be mounted on a Palanquin of Nurgle....................................................................+40 points
+• May purchase Daemonic Gifts up to a total of ................................................................50 points                           Palanquins of Nurgle
+                                                                                                                                                   Oftentimes, a swarm of
+Special Rules: Daemonic, Daemon of Nurgle, Infernal Favour (1), Lore of Daemons,                                                                   Nurglings will carry a Herald
+               Poisoned Attacks, Regeneration (6+)                                                                                                 of Nurgle atop a Palanquin –
+                                                                                                                                                   an ornate throne decorated
+                                                                                                                                                   with rotting finery. Though
+Palanquin Of Nurgle                                                                                                                                slow-moving, Heralds of
+                                                                                                                                                   Nurgle are happy to ride into
+                           M WS BS            S      T    W     I                                             A Ld                 Points          battle atop a Palanquin; for
+Palanquin of Nurgle        4      3     -     3      - (+4) 3                                                D6+1 -                 +40            their lofty perch allows them
+Note: A character mounted on a Palanquin of Nurgle has +4 Wounds.                                                                                  to easily survey the spread of
+                                                                                                                                                   contagion and disease as the
+Troop Type:               Monstrous cavalry                                                                                                        battle unfolds.
+Base Size:                50 x 50 mm
+Unit Size:                1
+Equipment:                Many grasping claws (counts as a hand weapon)
+Special Rules:            Daemonic, Daemon of Nurgle, Poisoned Attacks, Random Attacks
+Plaguebearers Of Nurgle
+                                                                                                                                    Nurgle
+                                    M        WS     BS       S      T       W        I      A       Ld      Points
+Plaguebearer                        4         3      3       4      4       1        2      1        7        13
+Plagueridden                        4         3      3       4      4       1        2      2        7       +6           Tallymen of Nurgle
+                                                                                                                          Plaguebearers are the rank
+Troop Type:           Regular infantry                                                                                    and file of Nurgle’s grotesque
+Base Size:            30 x 30 mm                                                                                          legions, crafted from the
+Unit Size:            7+                                                                                                  souls of mortals slain by
+Equipment:            Plagueswords (see page 35)                                                                          Nurgle’s Rot. Plaguebearers
+                                                                                                                          endeavour to keep track of
+Options:                                                                                                                  the diseases their master
+• Any unit may:                                                                                                           unleashes, an onerous duty
+  - Upgrade one model to a Plagueridden (champion) ................................ +6 points per unit                    that has earned them the
+  - Upgrade one model to a standard bearer ................................................... +6 points per unit         title of Nurgle’s Tallymen. In
+  - Upgrade one model to a musician ................................................................ +6 points per unit   battle, Plaguebearers lash out
+  - May purchase a Daemonic Icon worth up to .............................................................50 points       at the enemy with wicked
+                                                                                                                          blades covered in Nurgle’s
+Special Rules:        Close Order, Daemonic, Daemons of Nurgle, Poisoned Attacks,                                         noxious gift.
+                      Regeneration (6+)
+                                                                                                                          Beasts of Nurgle
+                                                                                                                          A Beast of Nurgle is no less
+Beasts Of Nurgle                                                                                                          deadly than it is morbidly and
+                                                                                                                          irrefutably ugly. Its disgusting
+                                    M        WS     BS       S      T       W        I     A Ld             Points        form is both sticky and
+Beast of Nurgle                     5         3      0       4      5       4        2    D6+1 7              62          slimy, as virulent ooze seeps
+                                                                                                                          from every disgusting pore.
+Troop Type:           Monstrous infantry                                                                                  Yet, despite its appearance,
+Base Size:            50 x 75 mm                                                                                          the Beast is an affectionate
+Unit Size:            2+                                                                                                  creature that behaves like an
+Equipment:            Hand weapons and writhing tentacles (see below)                                                     excitable, oversized puppy,
+Special Rules:        Attention Seeker, Close Order, Daemonic, Daemons of Nurgle,                                         smothering its victims in a
+                      Impetuous, Infernal Favour (1), Loner, Poisoned Attacks,                                            playfully terminal embrace.
+                      Random Attacks, Regeneration (5+), Slime Trail
+
+Attention Seeker
+Beasts of Nurgle bound enthusiastically towards newcomers, lavishing affection upon them.
+
+Every model in a unit of Beasts of Nurgle can issue and accept challenges in the same
+manner as a character.
+
+Slime Trail
+In their wake, Beasts of Nurgle leave prolific trails of thick slime through which those that follow
+slip and slide most precariously.
+
+Enemy units cannot claim any bonus combat result points for being engaged within this
+unit’s flank or rear arc.
+
+                     R                   S        AP       Special Rules
+Writhing tentacles Combat                S        -1       Armour Bane (1)
+Nurglings
+                                                                                                                                           Nurgle
+                                      M      WS        BS       S       T       W         I     A Ld              Points
+Nurglings                             4       2         0       2       3       7         2    D3+1 5               45
+                                                                                                                                 Nurglings
+Troop Type:            Swarms                                                                                                    Within the rotting bowels
+Base Size:             40 x 40 mm                                                                                                of the Great Unclean Ones,
+Unit Size:             3+                                                                                                        tiny malevolent Daemons are
+Equipment:             Hand weapons                                                                                              born of pus and contagion.
+Special Rules:         Daemonic, Daemons of Nurgle, Loner, Poisoned Attacks,                                                     Though the Nurglings usually
+                       Random Attacks, Regeneration (6+), Skirmishers                                                            pass their time swarming
+                                                                                                                                 across the bloated form of
+                                                                                                                                 their sire, on occasion they
+Plague Drones Of Nurgle                                                                                                          will take to the field in great
+                                                                                                                                 chittering swarms, biting
+                                      M      WS        BS       S       T       W         I       A       Ld      Points         and scratching at their foes
+Plaguebearer                          -       3         3       4       5       3         2       1        7        63           with infected teeth and bile-
+Plagueridden                          -       3         3       4       5       3         2       2        7       +7            soaked claws.
+Rot Fly                               1       3         -       5       -       -         2       3        -         -
+                                                                                                                                 Plague Drones
+Troop Type:   Monstrous cavalry                                                                                                  High-ranking Plaguebearers
+Base Size:    50 x 75 mm                                                                                                         are known amongst the
+Unit Size:    3+                                                                                                                 legions of the Ruinous Powers
+Equipment:                                                                                                                       as Plague Drones. As Nurgle’s
+• Plaguebearers: Plagueswords (see page 35) and death’s heads (see page 35)                                                      favourites, these warriors
+• Rot Flies: Filth-encrusted claws (counts as hand weapons)                                                                      have the privilege of riding
+                                                                                                                                 into battle mounted upon
+Options:                                                                                                                         Rot Flies – colossal daemonic
+• Any unit may:                                                                                                                  insects whose foetid
+  - Upgrade one model to a Plagueridden (champion) ................................ +7 points per unit                           appearance is so repugnant
+  - Upgrade one model to a standard bearer ................................................... +7 points per unit                it leaves festering scars upon
+  - Upgrade one model to a musician ................................................................ +7 points per unit          the minds of any mortals who
+  - May purchase a Daemonic Icon worth up to .............................................................50 points              gaze upon them.
+• The entire unit may take any of the following:
+  - Plague Proboscis (+1 Initiative)* ............................................................... +2 points per model
+  - Venom sting (see below)............................................................................... +2 points per model
+
+Special Rules: Armour Bane (2, Rot Fly only), Daemonic, Daemons of Nurgle, Fly (9),
+               Poisoned Attacks, Regeneration (6+), Skirmishers, Swiftstride
+
+*Note that if this unit takes Plague Proboscises, the Initiative modifier applies only to the Rot Flies,
+not to their riders.
+
+                        R       S      AP        Special Rules
+Venom sting         Combat S            -1       Armour Bane (1)
+Note: In combat, a Rot Fly makes one of its attacks each turn with this weapon.
+Keeper Of Secrets – Greater Daemon Of Slaanesh
+                                                                                                                                                            Slaanesh
+                                            M        WS       BS         S         T        W          I        A        Ld        Points
+Keeper of Secrets                           8         7        6         6         6        6          7        6         9         330
+                                                                                                                                                   Keeper of Secrets
+Troop Type:               Behemoth (character)                                                                                                     A Keeper of Secrets is
+Base Size:                50 x 50 mm (min), 100 x 150 mm (max)                                                                                     a despoiler of purity, a
+Unit Size:                1                                                                                                                        corrupter of the faithful and
+Equipment:                Impaling claws (see below)                                                                                               a harbinger of damnation
+                                                                                                                                                   and sin. It draws its power
+Magic: A Keeper of Secrets is a Level 1 Wizard. Every Keeper of Secrets knows spells from                                                          from the corruption of
+one of the following Lores of Magic:                                                                                                               others, feasting upon excess
+• Daemonology                                                                                                                                      as mortals might sup on
+• Dark Magic                                                                                                                                       fine wines and feast upon
+• Illusion                                                                                                                                         exquisite foods. In combat,
+                                                                                                                                                   a Keeper of Secrets is a
+Options:                                                                                                                                           terrifying foe, for it delights
+• May be a:                                                                                                                                        in inflicting as much pain
+  - Level 2 Wizard....................................................................................................................+30 points   as possible upon its victims.
+  - Level 3 Wizard....................................................................................................................+60 points   With a graceful caress of its
+  - Level 4 Wizard....................................................................................................................+90 points   razor-edged claws, it can slash
+• May purchase Daemonic Gifts up to a total of ............................................................. 100 points                            through armour and bone
+                                                                                                                                                   as easily as it parts flesh and
+Special Rules: Daemonic, Daemon of Slaanesh, Infernal Favour (2), Large Target,                                                                    muscle. No other Daemon,
+               Lore of Daemons, Stomp Attacks (D3), Swiftstride, Terror                                                                            and few mortals, can hope
+                                                                                                                                                   to match the fluid grace of a
+                                 R               S         AP           Special Rules                                                              Keeper of Secrets, its clawed-
+Impaling claws                 Combat            S         -2           Killing Blow, Strike First                                                 limbs and deadly weapons
+                                                                                                                                                   moving like a blur as it dances
+                                                                                                                                                   across the battlefield.
+Daemonic Herald Of Slaanesh
+                                                                                                                                                            Slaanesh
+                                            M       WS         BS         S        T         W         I         A        Ld        Points
+Herald of Slaanesh                          6        6          4         4        3         2         6         3         8          85
+                                                                                                                                                    Heralds of Slaanesh
+Troop Type:               Regular infantry (character)                                                                                              When not attending to
+Base Size:                25 x 25 mm                                                                                                                Slaanesh’s whimsical desires
+Unit Size:                1                                                                                                                         or plotting campaigns in
+Equipment:                Piercing claws (see page 35)                                                                                              their name, the chosen
+                                                                                                                                                    favourites of the Dark Prince
+Magic: A Herald of Slaanesh may be a Wizard (see below). A Herald of Slaanesh that is a                                                             are responsible for bringing
+Wizard knows spells from one of the following Lores of Magic:                                                                                       news of courtly intrigue
+• Daemonology                                                                                                                                       and political strife to their
+• Dark Magic                                                                                                                                        perverse god. Furnished
+• Illusion                                                                                                                                          with such knowledge,
+                                                                                                                                                    Slaanesh whispers into the
+Options:                                                                                                                                            easily corruptible minds of
+• May be a:                                                                                                                                         suspicious monarchs and
+  - Level 1 Wizard....................................................................................................................+30 points    jealous warlords.
+  - Level 2 Wizard....................................................................................................................+60 points
+• May be mounted on a:                                                                                                                              Steeds of Slaanesh
+  - Steed of Slaanesh ...............................................................................................................+16 points     These daemonic mounts are
+  - Seeker Chariot .................................................................................................................. See page 17   strange to behold, with long,
+  - Exalted Seeker Chariot .................................................................................................. See page 17           sinuous bodies and skin tones
+• May purchase Daemonic Gifts up to a total of ................................................................50 points                            that range from pastel yellows
+                                                                                                                                                    to pale blues and soft pinks.
+Special Rules: Daemonic, Daemon of Slaanesh, Infernal Favour (1), Lore of Daemons                                                                   Stranger still is the long,
+                                                                                                                                                    whip-like tongue constantly
+                                                                                                                                                    flicking from the beast’s
+Steed Of Slaanesh                                                                                                                                   maw, ensnaring its rider’s
+                                                                                                                                                    opponents and lacing them
+                                            M       WS         BS         S        T         W         I         A        Ld        Points          with a hallucinogenic toxin.
+Steed of Slaanesh                           9        3          -         3        -         -         5         1         -         +16
+
+Troop Type:               Light cavalry
+Base Size:                30 x 60 mm
+Unit Size:                1
+Equipment:                Claws and fangs (counts as a hand weapon)
+Special Rules:            Armour Bane (1, Steed of Slaanesh only), Counter Charge,
+                          Daemonic, Daemon of Slaanesh, Fast Cavalry,
+                          Poisoned Attacks (Steed of Slaanesh only), Swiftstride
+Daemonettes Of Slaanesh
+                                                                                                                                  Slaanesh
+                                    M      WS       BS       S      T       W        I      A       Ld      Points
+Daemonette                          5       4        3       3      3       1        5      1        7        11
+Alluress                            5       4        3       3      3       1        5      2        7       +6           Daemonettes
+                                                                                                                          Shrouded in a hypnotic
+Troop Type:           Regular infantry                                                                                    glamour that conceals the
+Base Size:            25 x 25 mm                                                                                          truth of their repulsive
+Unit Size:            6+                                                                                                  features behind a veil
+Equipment:            Piercing claws (see page 35)                                                                        of beguiling beauty, the
+                                                                                                                          Daemonettes are the most
+Options:                                                                                                                  numerous of Slaanesh’s
+• Any unit may:                                                                                                           servants. Dancing across the
+  - Upgrade one model to an Alluress (champion) ....................................... +6 points per unit                battlefield with otherworldly
+  - Upgrade one model to a standard bearer ................................................... +6 points per unit         speed, Daemonettes carve
+  - Upgrade one model to a musician ................................................................ +6 points per unit   through their foes with claw-
+  - May purchase a Daemonic Icon worth up to .............................................................50 points       like hands, slicing through
+                                                                                                                          both flesh and armour
+Special Rules:            Close Order, Daemonic, Daemons of Slaanesh                                                      with ease.
+
+                                                                                                                          Seekers of Slaanesh
+Seekers Of Slaanesh                                                                                                       Mounted atop swift-moving
+                                                                                                                          steeds, these Daemonettes
+                                    M      WS       BS       S      T       W        I      A       Ld      Points        dart across the battlefield
+Seeker                              -       4        3       3      3       1        5      1        7        21          to launch sudden ambushes
+Heartseeker                         -       4        3       3      3       1        5      2        7       +6           against unsuspecting prey.
+Steed of Slaanesh                   9       3        -       3      -       -        5      1        -         -          How the Seekers choose
+                                                                                                                          their targets is debated
+Troop Type:    Light cavalry                                                                                              greatly amongst mortal
+Base Size:     30 x 60 mm                                                                                                 daemonologists, but however
+Unit Size:     5+                                                                                                         they do so, their quarry is
+Equipment:                                                                                                                doomed to face a painful
+• Seekers: Piercing claws (see page 35)                                                                                   death at the hands of
+• Steeds of Slaanesh: Claws and fangs (counts as hand weapons)                                                            Slaanesh’s hunters.
+
+Options:
+• Any unit may:
+  - Upgrade one model to a Heartseeker (champion) .................................. +6 points per unit
+  - Upgrade one model to a standard bearer ................................................... +6 points per unit
+  - Upgrade one model to a musician ................................................................ +6 points per unit
+  - May purchase a Daemonic Icon worth up to .............................................................50 points
+
+Special Rules: Armour Bane (1, Steed of Slaanesh only), Counter Charge,
+               Daemonic, Daemon of Slaanesh, Fast Cavalry, Open Order,
+               Poisoned Attacks (Steed of Slaanesh only), Skirmishers, Swiftstride
+Fiends Of Slaanesh
+                                                                                                           Slaanesh
+                             M     WS     BS     S     T     W      I     A     Ld     Points
+Fiend of Slaanesh            8      4      0     4     4     3      6     3      7       66
+                                                                                                  Fiends of Slaanesh
+Troop Type:      Monstrous cavalry                                                                There is something deeply
+Base Size:       50 x 75 mm                                                                       disturbing about how the
+Unit Size:       3+                                                                               Fiends of Slaanesh move,
+Equipment:       Piercing claws (see page 35) and venomous tail (see below)                       twitching side to side in
+Special Rules:   Close Order, Daemonic, Daemons of Slaanesh, Soporific Musk, Swiftstride          an erratic dance yet still
+                                                                                                  covering ground as swiftly
+Soporific Musk                                                                                    as any warhorse. Those who
+Fiends of Slaanesh exude a pervasive and oily musk that, when inhaled, numbs the mind and slows   stand close to the Fiends find
+the limbs of all who venture too close.                                                           themselves falling under the
+                                                                                                  beguiling influence of the
+Enemy models engaged in combat with a model with this special rule cannot use the Strike          heady musk that they exude,
+First special rule. Enemy models that do not have the Strike First special rule become            quickly losing the sensation
+subject to the Strike Last special rule instead.                                                  in their muscles and finding
+                                                                                                  their senses dulled to all but
+                        R       S     AP       Special Rules                                      the most intense stimulants.
+Venomous tail        Combat S          -       Poisoned Attacks, Strike First                     Only then will the Fiends
+Note: In combat, this model must make one of its attacks each turn with this weapon.              set about their prey with
+                                                                                                  their massive claws and
+                                                                                                  envenomed tails.
+Hellflayer Of Slaanesh
+                                                                                                  Hellflayers
+                             M     WS     BS     S     T     W      I     A     Ld     Points     These nightmarish chariots
+Hellflayer                   -      -      -     4     4     4      -     -      -      145       are used in battle to carve
+Exalted Alluress             -      5      3     3     -     -      5     2      7       -        bloody swathes through
+Daemonette Crew (x2)         -      4      3     3     -     -      5     1      7       -        the enemy. Such is the
+Steed of Slaanesh (x2)       9      3      -     3     -     -      5     1      -       -        devastation wrought by a
+                                                                                                  Hellflayer, those in command
+Troop Type:    Light Chariot                                                                      of it swiftly descend into
+Base Size:     100 x 60 mm                                                                        an impassioned frenzy of
+Unit Size:     1                                                                                  slaughter and bloodshed,
+Armour Value: 5+                                                                                  overcome by the intoxicating
+Equipment:                                                                                        feeling of sowing sheer terror
+• Exalted Alluress: Piercing claws (see page 35)                                                  and panic in their foe.
+• Daemonette Crew: Piercing claws
+• Steeds of Slaanesh: Claws and fangs (counts as hand weapons)
+
+Special Rules: Armour Bane (1, Steed of Slaanesh only), Close Order, Counter Charge,
+               Daemonic, Daemon of Slaanesh, First Charge, Impact Hits (2D6+1),
+               Poisoned Attacks (Steed of Slaanesh only), Swiftstride
+Seeker Chariot Of Slaanesh
+                                                                                                   Slaanesh
+                          M    WS    BS     S    T    W      I    A     Ld       Points
+Seeker Chariot            -     -     -     4    4    4      -    -      -        100
+Daemonette Crew (x2)      -     4     3     3    -    -      5    1      7         -      Seeker Chariots
+Steed of Slaanesh (x2)    9     3     -     3    -    -      5    1      -         -      As the straining steeds haul
+                                                                                          a Seeker Chariot towards
+Troop Type:    Light Chariot                                                              the enemy at full speed,
+Base Size:     50 x 100 mm                                                                the bladed-wheels let off a
+Unit Size:     1-3                                                                        metallic clatter and the axles
+Armour Value: 5+                                                                          screech in a disharmony akin
+Equipment:                                                                                to the wailing of tormented
+• Daemonette Crew: Piercing claws (see page 35)                                           souls. When the chariot
+• Steeds of Slaanesh: Claws and fangs (counts as hand weapons)                            finally makes contact with
+                                                                                          the foe, the sound of blades
+Special Rules: Armour Bane (1, Steed of Slaanesh only), Counter Charge, Daemonic,         carving through flesh is
+               Daemon of Slaanesh, First Charge, Impact Hits (D3+1), Open Order,          matched only by the excited
+               Poisoned Attacks (Steed of Slaanesh only), Swiftstride                     shrieks and laughter of the
+                                                                                          Daemonettes atop it.
+
+  Character Mount: A Seeker Chariot of Slaanesh may be included in your army as a         Exalted Seeker Chariots
+  character’s mount. If so, its points are added to that of its rider.                    Some Heralds of Slaanesh are
+                                                                                          permitted by their perverse
+                                                                                          master to ride into battle atop
+                                                                                          an Exalted Seeker Chariot,
+Exalted Seeker Chariot Of Slaanesh                                                        a freakish combination of
+                                                                                          both a Seeker Chariot and
+                          M    WS    BS     S    T    W      I    A     Ld       Points   a Hellflayer. From here,
+Exalted Seeker Chariot    -     -     -     4    4    6      -    -      -        +185    the Herald can reach down
+Daemonette Crew (x3)      -     4     3     3    -    -      5    1      7          -     and pluck victims from the
+Steed of Slaanesh (x4)    9     3     -     3    -    -      5    1      -          -     chariot’s razored maw. This is
+                                                                                          no act of kindness, however,
+Troop Type:    Heavy Chariot                                                              for those chosen will soon
+Base Size:     100 x 150 mm                                                               beg and plead to be cast into
+Unit Size:     1                                                                          the whirling blades below,
+Armour Value: 4+                                                                          preferring a sudden and
+Equipment:                                                                                swift death in the chariot’s
+• Daemonette Crew: Piercing claws (see page 35)                                           scything wheels if it would
+• Steeds of Slaanesh: Claws and fangs (counts as hand weapons)                            set them free of the Herald’s
+                                                                                          cruel affections.
+Special Rules: Armour Bane (1, Steed of Slaanesh only), Close Order, Daemonic,
+               Daemon of Slaanesh, First Charge, Impact Hits (D6+1),
+               Poisoned Attacks (Steed of Slaanesh only)
+
+
+  Character Mount: An Exalted Seeker Chariot of Slaanesh may only be included in
+  your army as a character’s mount. Its points are added to that of its rider.
+Lord Of Change – Greater Daemon Of Tzeentch
+                                                                                                                                                           Tzeentch
+                                            M        WS       BS         S         T        W          I        A        Ld        Points
+Lord of Change                              6         6        6         6         6        6          6        4         9         310
+                                                                                                                                                   Lords of Change
+Troop Type:               Behemoth (character)                                                                                                     As might be expected of
+Base Size:                50 x 50 mm (min), 100 x 150 mm (max)                                                                                     a creature that is not only
+Unit Size:                1                                                                                                                        born of pure magic and
+Equipment:                Hand weapon and staff of Tzeentch (counts as great weapon)                                                               chaos, but is also bound to
+                                                                                                                                                   the will of the Master of
+Magic: A Lord of Change is a Level 2 Wizard. Every Lord of Change knows spells from one                                                            Sorcery, a Lord of Change
+of the following Lores of Magic:                                                                                                                   is a potent spell caster. The
+• Battle Magic                                                                                                                                     very Winds of Magic seem
+• Daemonology                                                                                                                                      bound to obey their every
+• Dark Magic                                                                                                                                       command, allowing them to
+• Elementalism                                                                                                                                     summon swirling tempests
+• Illusion                                                                                                                                         of change and mutation,
+                                                                                                                                                   incinerate their foes with
+Options:                                                                                                                                           bolts of multicoloured fire,
+• May take a Tzeentchian Wand (see below) ....................................................................+20 points                           or unravel the minds of
+• May be a:                                                                                                                                        an enemy spellcaster with
+  - Level 3 Wizard....................................................................................................................+30 points   little more than a gesture. In
+  - Level 4 Wizard....................................................................................................................+60 points   addition to their prodigious
+• May purchase Daemonic Gifts up to a total of ............................................................. 100 points                            sorcerous talents, Lords
+                                                                                                                                                   of Change are also shrewd
+Special Rules: Daemonic, Daemon of Tzeentch, Flaming Attacks, Fly (9),                                                                             tacticians, combining their
+               Infernal Favour (2), Large Target, Lore of Daemons,                                                                                 ability to read the future with
+               Stomp Attacks (D3), Swiftstride, Terror                                                                                             their profound knowledge of
+                                                                                                                                                   warfare, earned through the
+                                    R            S         AP           Special Rules                                                              study of countless battles over
+Tzeentchian Wand                   18"           4         -1           Flaming Attacks, Multiple Shots (D3+1),                                    their immortal lifespans.
+                                                                        Quick Shot
+Daemonic Herald Of Tzeentch
+                                                                                                                                                           Tzeentch
+                                            M       WS        BS         S         T        W          I        A        Ld        Points
+Herald of Tzeentch                          4        3         4         3         3        2          3        2         8          90
+                                                                                                                                                   Heralds of Tzeentch
+Troop Type:               Regular infantry (character)                                                                                             When Tzeentch needs a
+Base Size:                30 x 30 mm                                                                                                               servant of greater power,
+Unit Size:                1                                                                                                                        but does not wish to commit
+Equipment:                Hand weapon and flames of Tzeentch (see page 35)                                                                         one of his Lords of Change,
+                                                                                                                                                   he will summon a Herald
+Magic: A Herald of Tzeentch is a Level 1 Wizard. Every Herald of Tzeentch knows spells                                                             to ensure his will is done.
+from one of the following Lores of Magic:                                                                                                          Though similar in appearance
+• Battle Magic                                                                                                                                     to the Horrors that make
+• Daemonology                                                                                                                                      up the bulk of the Great
+• Dark Magic                                                                                                                                       Deceiver’s armies, Heralds are
+• Elementalism                                                                                                                                     far more stable and have a far
+• Illusion                                                                                                                                         superior mastery of magic.
+
+Options:                                                                                                                                           Discs of Tzeentch
+• May be a:                                                                                                                                        Though Screamers are swift
+  - Level 2 Wizard....................................................................................................................+30 points   and agile, their predatory
+  - Level 3 Wizard....................................................................................................................+60 points   instincts and wilful nature
+• May be mounted on a:                                                                                                                             make them dangerous
+  - Disc of Tzeentch ................................................................................................................+20 points    mounts for a would-be rider.
+  - Chariot of Tzeentch ....................................................................................................... See page 22        To combat this, Heralds will
+  - Burning Chariot of Tzeentch ...................................................................................... See page 23                 transmute a Screamer into a
+• May purchase Daemonic Gifts up to a total of ................................................................50 points                           new form, a Disc, making it a
+                                                                                                                                                   far safer mount from which
+Special Rules: Daemonic, Daemon of Tzeentch, Infernal Favour (1), Lore of Daemons                                                                  to bombard Tzeentch’s foes
+                                                                                                                                                   with magic and warpfire.
+
+Disc Of Tzeentch
+                                            M       WS        BS         S         T        W          I        A        Ld        Points
+Disc of Tzeentch                            1        3         -         4         -        -          4        3         -         +20
+
+Troop Type:               Light cavalry
+Base Size:                50 x 50 mm
+Unit Size:                1
+Equipment:                Tentacles (counts as a hand weapon)
+Special Rules:            Daemonic, Daemon of Tzeentch, Fly (10), Swiftstride
+Pink Horrors Of Tzeentch
+                                                                                                                                        Tzeentch
+                                     M       WS       BS       S       T       W        I       A       Ld      Points
+Pink Horror                          4        3        3       3       3       1        3       1        7        12
+Iridescent Horror                    4        3        3       3       3       1        3       2        7       +6            Pink Horrors
+                                                                                                                               Pink Horrors are easily
+Troop Type:            Regular infantry                                                                                        identified by their
+Base Size:             30 x 30 mm                                                                                              luminescent pink skin and
+Unit Size:             9+                                                                                                      their high-pitched squeals
+Equipment:             Hand weapons and flames of Tzeentch (see page 35)                                                       of joy and laughter. There is
+                                                                                                                               nothing that makes a Pink
+Options:                                                                                                                       Horror happier than casting
+• Any unit may:                                                                                                                spells, hurling bolts of eldritch
+  - Upgrade one model to an Iridescent Horror (champion) .................... +6 points per unit                               flame towards the enemy
+  - Upgrade one model to a standard bearer ................................................... +6 points per unit              and howling with delight at
+  - Upgrade one model to a musician ................................................................ +6 points per unit        the destruction they bring.
+  - May purchase a Daemonic Icon worth up to .............................................................50 points            Those who are able to slay
+                                                                                                                               a Pink Horror find that the
+Special Rules: Close Order, Daemonic, Daemons of Tzeentch, Scintillating Sorcery                                               Daemons have one last trick
+                                                                                                                               to play before they depart to
+Scintillating Sorcery                                                                                                          the Realm of Chaos.
+Spellcasting fills Pink Horrors with joy, and they emit especial merriment as eldritch energy
+screeches from their upraised hands.                                                                                           Blue Horrors
+                                                                                                                               When slain, a Pink Horror
+A unit of Pink Horrors knows one of the spells that corresponds to their Daemonic                                              exhales a final lunatic cackle
+Alignment, as listed on page 34 (chosen by their controlling player before armies are                                          before rapidly decomposing
+deployed). The unit may cast this spell as a Bound spell, with a Power Level equal to the                                      into an ectoplasmic blob of
+unit’s current Rank Bonus.                                                                                                     gyrating magic, which swiftly
+                                                                                                                               alters colour and divides
+                                                                                                                               into two Blue Horrors –
+Blue Horrors Of Tzeentch                                                                                                       diminutive replicas of their
+                                                                                                                               parent Daemon. Blue Horrors
+                                     M       WS       BS       S       T       W        I       A       Ld      Points         are sullen and malicious, like
+Blue Horror                          4        2        3       3       3       1        3       1        7        9            evil tempered children, and
+Ectoplasmic Horror                   4        2        3       3       3       1        3       2        7       +6            sneer and grumble their way
+                                                                                                                               through a battle.
+Troop Type:            Regular infantry
+Base Size:             25 x 25 mm
+Unit Size:             9+
+Equipment:             Hand weapons and flames of Tzeentch (see page 35)
+
+Options:
+• Any unit may upgrade one model to an
+  Ectoplasmic Horror (champion) ......................................................................... +6 points per unit
+
+Special Rules: Daemonic, Daemons of Tzeentch, Move through Cover, Open Order
+Flamers Of Tzeentch
+                                                                                                                                                            Tzeentch
+                                            M        WS       BS         S         T        W          I        A        Ld        Points
+Flamer                                      6         2        4         4         4        2          4        2         7          40
+Pyroclaster                                 6         2        5         4         4        2          4        2         7         +7             Flamers Of Tzeentch
+Exalted Flamer                              6         2        5         4         4        3          4        2         7         +40            Flamers are capable of a
+                                                                                                                                                   fair turn of speed, expelling
+Troop Type:               Regular infantry                                                                                                         gaseous ichor through the
+Base Size:                30 x 30 mm                                                                                                               fungoid ‘skirt’ at their base
+Unit Size:                3-6                                                                                                                      to bound and leap across the
+Equipment:                Hand weapons and warpflame (see below)                                                                                   ground with considerable
+                                                                                                                                                   mischievous gusto. A Flamer
+Magic: An Exalted Flamer is a Level 1 Wizard. Every Exalted Flamer knows spells from                                                               uses its blazing limbs to hurl
+one of the following Lores of Magic:                                                                                                               bolts of magical flame at
+• Daemonology                                                                                                                                      the foe. This is not fire in
+• Dark Magic                                                                                                                                       its truest sense, but a roiling
+• Elementalism                                                                                                                                     cloud of chaos energy. It does
+• Illusion                                                                                                                                         not burn, but warps reality.
+                                                                                                                                                   A Flamer’s victim might
+Options:                                                                                                                                           briefly feel invigorated, before
+• Any unit may upgrade one model to a Pyroclaster (champion) ............... +7 points per unit                                                    collapsing into a writhing
+• A Pyroclaster may be upgraded to an Exalted Flamer (champion) .......................+40 points                                                  puddle of flesh.
+• An Exalted Flamer may be a:
+  - Level 2 Wizard....................................................................................................................+30 points   Brimstone Horrors
+  - Level 3 Wizard....................................................................................................................+60 points   Upon the death of a Blue
+• An Exalted Flamer may purchase Daemonic Gifts up to a total of ..........................50 points                                               Horror, flames erupt from
+                                                                                                                                                   the daemonic ichor left in
+Special Rules: Daemonic, Daemons of Tzeentch, Flaming Attacks,                                                                                     its wake – flames that burn
+               Infernal Favour (1, Exalted Flamer only),                                                                                           with the foul stench of
+               Lore of Daemons (Exalted Flamer only),                                                                                              brimstone and dance with
+               Move through Cover, Skirmishers                                                                                                     an unnatural vitality. When
+                                                                                                                                                   the Winds of Magic blow
+                                    R            S         AP           Special Rules                                                              strong across a battlefield,
+Warpflame                          18"           4         -1           Flaming Attacks, Move & Shoot,                                             these flames coalesce into
+                                                                        Multiple Shots (D3), Quick Shot                                            swarming and malevolent
+                                                                                                                                                   Brimstone Horrors.
+
+Brimstone Horrors Of Tzeentch
+                                            M        WS       BS         S         T        W          I        A        Ld        Points
+Brimstone Horrors                           5         2        2         2         3        6          2        4         5          38
+
+Troop Type:               Swarms
+Base Size:                40 x 40 mm
+Unit Size:                2+
+Equipment:                Hand weapons
+Special Rules:            Daemonic, Daemons of Tzeentch, Flaming Attacks, Loner, Skirmishers
+Screamers Of Tzeentch
+                                                                                                            Tzeentch
+                               M     WS     BS      S      T     W       I     A      Ld   Points
+Screamer                       1      3      0      4      4     2       4     2       7     44
+                                                                                                    Screamers
+Troop Type:        War beasts                                                                       Screamers are glimmering
+Base Size:         40 x 60 mm                                                                       sky-sharks that ride upon
+Unit Size:         3+                                                                               the Winds of Magic as a
+Equipment:         Lamprey’s bite (see page 35)                                                     bird glides upon the breeze.
+Special Rules:     Daemonic, Daemons of Tzeentch, Fly (9), Loner, Skirmishers,                      They roam the skies, preying
+                   Slashing Attack                                                                  upon weaker creatures.
+                                                                                                    Once the Screamers catch
+Slashing Attack                                                                                     their doomed prey, it is torn
+Screamers’ slashing blades tear through the foe as they dive close and pass quickly by.             to pieces in an eye-blink,
+                                                                                                    the gossamer shreds of its
+A unit with this special rule may perform a ‘Slashing Attack’ against a single enemy unit           soulstuff offered up as a gift
+that is not engaged in combat. To do so, this unit must move (by flying) over the unit it           to Tzeentch.
+wishes to attack during the Remaining Moves sub-phase. Once this unit’s movement is
+complete, the enemy unit suffers D3 Strength 4 hits, each with an AP of -, for each model           Chariots of Tzeentch
+in this unit that moved over it.                                                                    The Chariots of Tzeentch
+                                                                                                    hurtle across the Realm of
+                                                                                                    Chaos like incandescent
+Chariot Of Tzeentch                                                                                 meteors, bringing the Great
+                                                                                                    Sorcerer’s chosen emissaries
+                               M     WS     BS      S      T     W       I     A      Ld   Points   to every corner of existence.
+Chariot of Tzeentch            -      -      -      4      4     4       -     -       -    +90     It is not uncommon for
+Screamer (x2)                  1      3      -      4      -     -       4     2       -     -      a mischievous Herald of
+                                                                                                    Tzeentch to dream of
+Troop Type:   Heavy Chariot                                                                         purloining such a chariot
+Base Size:    50 x 100 mm                                                                           from its true owner – one
+Unit Size:    1                                                                                     of Tzeentch’s Exalted
+Armour Value: 4+                                                                                    Flamers. With their prize
+Equipment:                                                                                          secured, the Herald is free
+• Screamer: Lamprey’s bite (see page 35)                                                            to swoop and dive across the
+                                                                                                    battlefield, cackling madly
+Special Rules: Close Order, Daemonic, Daemon of Tzeentch, Fly (9), Impact Hits (D6+1),              as they unleash their most
+               Slashing Attack (Screamers only, see above)                                          fearsome sorceries.
+
+
+  Character Mount: A Chariot of Tzeentch may only be included in your army as a
+  character’s mount. Its points are added to that of its rider.
+Burning Chariot Of Tzeentch
+                                                                                                                                                           Tzeentch
+                                            M        WS       BS         S         T        W          I        A        Ld        Points
+Burning Chariot                             -         -        -         4         4        4          -        -         -         190
+of Tzeentch                                                                                                                                        Burning Chariots
+Exalted Flamer                              -         2         5         4         -        -         4        2         7            -           of Tzeentch
+Blue Horror Crew (x3)                       -         2         3         3         -        -         3        1         7            -           As they blaze through the
+Screamer (x2)                               1         3         -         4         -        -         4        2         -            -           heavens of the mortal world,
+                                                                                                                                                   the Burning Chariots of
+Troop Type:   Heavy Chariot                                                                                                                        Tzeentch are commonly
+Base Size:    50 x 100 mm                                                                                                                          mistaken for comets, which
+Unit Size:    1                                                                                                                                    are in turn interpreted as
+Armour Value: 4+                                                                                                                                   omens of great events and
+Equipment:                                                                                                                                         terrible wars. The Exalted
+• Exalted Flamer: Hand weapon and warpflame (see below)                                                                                            Flamers who ride atop the
+• Blue Horror Crew: Hand weapons and flames of Tzeentch (see page 35)                                                                              Burning Chariots are able
+• Screamer: Lamprey’s bite (see page 35)                                                                                                           to channel magical flame
+                                                                                                                                                   to a far greater extent than
+Magic: An Exalted Flamer is a Level 1 Wizard. Every Exalted Flamer knows spells from                                                               their lesser brethren, and can
+one of the following Lores of Magic:                                                                                                               conjure up great billowing
+• Daemonology                                                                                                                                      sheets of warp magic, or hurl
+• Dark Magic                                                                                                                                       bolts of sorcerous change that
+• Elementalism                                                                                                                                     make the very air sizzle with
+• Illusion                                                                                                                                         their passing. For their part,
+                                                                                                                                                   the Discs and Screamers that
+Options:                                                                                                                                           make up the bizarre chariot
+• An Exalted Flamer may be a:                                                                                                                      and the Blue Horrors that
+  - Level 2 Wizard....................................................................................................................+30 points   crew them are drawn to the
+  - Level 3 Wizard....................................................................................................................+60 points   Exalted Flamers, who exude
+• An Exalted Flamer may purchase Daemonic Gifts up to a total of ..........................50 points                                               tasty sorcery from every
+                                                                                                                                                   pore and wrinkle of their
+Special Rules: Close Order, Daemonic, Daemon of Tzeentch, Fly (9),                                                                                 fungoid flesh.
+               Impact Hits (D6+1), Lore of Daemons,
+               Slashing Attack (Screamers only, as described on page 22)
+
+                                    R            S         AP           Special Rules
+Warpflame                          18"           4         -1           Flaming Attacks, Move & Shoot,
+                                                                        Multiple Shots (D3), Quick Shot
+Daemon Princes
+                                                                                                                                                                       Chaos
+                                               M         WS        BS          S         T        W           I         A        Ld         Points
+Daemon Prince                                  6          7         5          6         5        4           7         5         9          210
+                                                                                                                                                             Daemon Princes
+Troop Type:                 Monstrous infantry (character)                                                                                                   Daemonhood is the ultimate
+Base Size:                  50 x 50 mm                                                                                                                       goal for mortals who tread
+Unit Size:                  1                                                                                                                                the path of Chaos. It is the
+Equipment:                  Hand weapon, ensorcelled weapon (see below) and light armour                                                                     reward for dedication to
+                                                                                                                                                             the Chaos gods, bestowing
+Magic: A Daemon Prince that is a Wizard (see below) knows spells from one of the                                                                             immortality, unimaginable
+following Lores of Magic:                                                                                                                                    strength and forbidden
+• Battle Magic                                                                                                                                               power. Many Daemon
+• Daemonology                                                                                                                                                Princes care little that the
+• Dark Magic                                                                                                                                                 battlefield has changed –
+                                                                                                                                                             they continue to rampage
+Options:                                                                                                                                                     and slaughter in their god’s
+• May replace light armour with heavy armour ................................................................ +6 points                                      name just as they did in their
+• May have the Fly (9) special rule........................................................................................+30 points                        previous lives. Others believe
+• May be one of the following                                                                                                                                themselves to have escaped
+  - Daemon of Khorne ...........................................................................................................+10 points                   the role of pawn, and have
+  - Daemon of Nurgle.............................................................................................................+10 points                  their eyes set upon becoming
+  - Daemon of Slaanesh .........................................................................................................+10 points                   master of the Realm of
+  - Daemon of Tzeentch ........................................................................................................+10 points                    Chaos. They do not realise
+• Unless it is a Daemon of Khorne, a Daemon Prince may be a Wizard:                                                                                          that to transcend a level of
+  - Level 1 ....................................................................................................................................+25 points   the Great Game merely binds
+  - Level 2 ....................................................................................................................................+50 points   them ever more tightly into
+  - Level 3 ....................................................................................................................................+75 points   their eternal damnation. The
+  - Level 4 ................................................................................................................................. +100 points    crowns of the gods are not for
+• May purchase Daemonic Gifts up to a total of ............................................................. 100 points                                      mortals to steal.
+
+Special Rules: Chaos Armour, Daemonic, Infernal Favour (2), Lore of Daemons
+
+Chaos Armour
+Chaos armour is the living gift of the gods. As mortal champions progress towards glory, their
+armour becomes ever more heavy and baroque as new plates are added, each new piece obscuring
+more of their humanity.
+
+This model has a 4+ Ward save against any wounds suffered. In addition, a Wizard with
+this special rule may wear armour without penalty.
+
+                                    R                S         AP            Special Rules
+Ensorcelled                       Combat             S         -1            -
+weapon
+Chaos Furies
+                                                                                                                                                Chaos
+                                       M         WS     BS        S        T       W         I       A       Ld       Points
+Chaos Fury                             4          3      0        4        3       1         4       1        5         12
+                                                                                                                                     Furies
+Troop Type:             Regular infantry                                                                                             Furies are yowling shards of
+Base Size:              30 x 30 mm                                                                                                   malevolent energy – Chaos
+Unit Size:              5+                                                                                                           in its purest form. With little
+Equipment:              Daemonic talons (see below)                                                                                  in the way of intelligence,
+                                                                                                                                     Furies are utterly subservient
+Options:                                                                                                                             to the whims of the Dark
+• Any unit may be:                                                                                                                   Gods and shift in aspect and
+  - Daemons of Khorne ...................................................................................... +2 points per model     power as the balance of the
+  - Daemons of Nurgle ........................................................................................ +2 points per model   pantheon alters. They are
+  - Daemons of Slaanesh .................................................................................... +2 points per model     easily subjugated by other
+  - Daemons of Tzeentch ................................................................................... +2 points per model      Daemons, whom they regard
+                                                                                                                                     with a mix of dread and
+Special Rules: Daemonic, Fly (8), Furious Charge, Skirmishers, Swiftstride, Vanguard                                                 awe. Furies swarm at the
+                                                                                                                                     edges of the battle, avoiding
+                              R              S        AP         Special Rules                                                       the thickest fighting if they
+Daemonic talons             Combat           S        -1         -                                                                   can. Only when they sight
+                                                                                                                                     a vulnerable victim do the
+                                                                                                                                     Furies descend, a wailing
+                                                                                                                                     mass from which there
+                                                                                                                                     can be no escape. The only
+                                                                                                                                     true defence against such
+                                                                                                                                     an attack is to stand your
+                                                                                                                                     ground, fending the Daemons
+                                                                                                                                     off until the magic that binds
+                                                                                                                                     them to the mortal plane
+                                                                                                                                     fades away.
+Soul Grinder
+                                                                                                                                                         Chaos
+                                          M         WS      BS         S        T        W         I        A        Ld       Points
+Soul Grinder                              8          3       3         6        6        6         3        4         7        255
+                                                                                                                                              Soul Grinders
+Troop Type:              Behemoth                                                                                                             When a Daemon’s physical
+Base Size:               150 x 100 mm                                                                                                         body is slain, it can surrender
+Unit Size:               1                                                                                                                    its true name to the Forge
+Equipment:               Hand weapon, iron claw (see below), harvester cannon (see below) and                                                 of Souls. The dark bargain
+                         daemonic flesh (counts as heavy armour)                                                                              thus sealed, the Daemon’s
+                                                                                                                                              crippled essence is bound
+Options:                                                                                                                                      to a mighty warpmetal
+• May be a:                                                                                                                                   hulk. Thus is the Daemon
+  - Daemon of Khorne ...........................................................................................................+10 points    reborn as a Soul Grinder.
+  - Daemon of Nurgle.............................................................................................................+10 points   No two Soul Grinders are
+  - Daemon of Slaanesh .........................................................................................................+10 points    exactly the same, but all
+  - Daemon of Tzeentch ........................................................................................................+10 points     are bizarre to look upon.
+• May take one of the following:                                                                                                              The transformation has
+  - Baleful torrent (see below) .............................................................................................+25 points       a tendency to mimic the
+  - Warp gaze (see below) .....................................................................................................+30 points     Daemon’s inner desires and
+                                                                                                                                              then distort them just enough
+Special Rules: Close Order, Daemonic, Furious Charge, Large Target, Reserve Move,                                                             so that even it finds the
+               Stomp Attacks (D6+1), Terror                                                                                                   results loathsome. Yet, the
+                                                                                                                                              change also grants might far
+                                R               S        AP          Special Rules                                                            beyond that which a Daemon
+Iron claw                     Combat            S        -3          Killing Blow                                                             normally enjoys. In exchange
+                                                                                                                                              for such might, a mortal
+                              R        S      AP        Special Rules                                                                         might easily understand why
+Harvester cannon             12"       4       -1       Cumbersome, Needs More Nails                                                          a fatally wounded Daemon
+Notes: This weapon shoots like a cannon firing grape shot, using the ‘Needs More Nails’ special                                               would be willing to surrender
+rule. If a ‘Misfire’ is rolled on the Artillery dice, this model loses a single Wound (instead of rolling                                     its very essence.
+on a Misfire table).
+
+                            R         S       AP      Special Rules
+ Baleful torrent           12"        5       -1      Column of Fire, Cumbersome
+Notes: This weapon shoots like a fire thrower, using the ‘Column of Fire’ special rule. If a
+‘Misfire’ is rolled on the Artillery dice, this model loses a single Wound (instead of rolling on a
+Misfire table).
+
+                                   R            S        AP          Special Rules
+Warp gaze                         48"           6        -3          Cumbersome, Multiple Wounds (2),
+                                                                     Through & Through
+      Daemonic Gifts & Icons                                                                               Magic Items
+The pages that follow detail Daemonic Gifts and Icons – unique magic items which
+can be purchased only by models within a Daemons of Chaos army. These work
+like Common magic items, as described in the Warhammer: the Old World rulebook,                      Gifts of Chaos
+however, models within a Daemons of Chaos army cannot purchase Common magic                          Many are the gifts bestowed
+items. Daemonic Gifts do not affect a model’s mount (should it have one).                            upon them in their
+                                                                                                     Daemonhood, and many
+Some units have the option to carry Daemonic Icons. To do so, the unit must include                  are the weapons and magics
+a standard bearer. The only character that can carry a Daemonic Icon is your army’s                  at their disposal to slay the
+Daemonic Locus who, in addition to their usual allowance of points to spend on Daemonic              enemies of Chaos, to befuddle
+Gifts, can purchase a single Daemonic Icon with no points limit.                                     their minds and terrify their
+                                                                                                     souls. But strange are the gifts
+Extremely Common Gifts & Icons: With the exception of items marked with an asterisk                  of their dark masters, and
+(*), each Daemonic Gift or Icon may only be chosen once per army. Items marked with an               perverse they may appear in
+asterisk are extremely common, as described in the Warhammer: the Old World rulebook.                the eyes of a mere mortal.
+
+Chaotic Gifts                                      Chaotic Icons                                     It is by these gifts that the
+                                                                                                     Heralds of Chaos and the
+The following Daemonic Gifts can be                The following Daemonic Icons can be               Daemon Princes are known.
+purchased by any Daemon, regardless of             purchased by any Daemon, regardless of            By their unique blessings does
+their Daemonic Alignment:                          their Daemonic Alignment:                         each stand as an individual
+                                                                                                     from the next, a mighty
+Æther Blade .......................... 55 points   Banner Of                                         warrior, a potent spellcaster,
+The Daemon’s weapon flickers in and out of         Unholy Victory .................... 60 points     a lord of the daemonic
+reality, slipping through armour and into the      Scenes from a million battles fill the minds of   armies of the Realm of
+soft flesh beneath.                                those that gaze upon this banner.                 Chaos, a god amongst the
+                                                                                                     tribes of the Chaos Wastes
+No armour saves are permitted against              When calculating its combat result, a unit        and a herald of the world’s
+wounds caused by this Daemon’s hand                carrying the Banner of Unholy Victory             coming destruction.
+weapon (Ward and Regeneration saves                may claim an additional bonus of +D3
+can be attempted as normal).                       combat result points.
+
+Many Arms*........................... 55 points    Totem Of Eternal War........ 45 points
+The Daemon has been blessed with a surfeit of      The power of the æther flows from this
+grasping and clawing appendages.                   accursed icon and into the Daemons that
+                                                   march beneath it.
+This model has a +1 modifier to its
+Attacks characteristic.                            Daemonic Locus only. Friendly Daemonic
+                                                   units reduce the number of wounds
+Winged Horror ....................45 points        suffered due to the Daemonic Instability
+Gigantic wings sprout from the Daemon’s back,      special rule by an additional D3 whilst
+allowing it to dive upon the unprepared foe.       within the command range of this model.
+
+Daemonic Heralds whose troop type is               Standard Of
+‘regular infantry’ only. This model gains the      Chaotic Glory ........................30 points
+Fly (8) and Swiftstride special rules.             This banner flickers in and out of existence,
+                                                   creating a tear in reality through which the
+Daemonic Robes...................35 points         power of Chaos flows.
+The Daemon is clad in shimmering robes that
+deflect the fury of incoming blows.                Daemonic Locus only. Friendly Daemonic
+                                                   units gain a +1 modifier to their Leadership
+This model cannot be wounded by a roll To          characteristic whilst within this character’s
+Wound of 2, regardless of the Strength of          command range (to a maximum of 10).
+the attack.
+Gifts Of Khorne                                                                     Icons Of Khorne
+The following Daemonic Gifts can only be purchased by                               The following Daemonic Icons can only be purchased by
+Daemons of Khorne:                                                                  Daemons of Khorne:
+
+Spell Eater ........................................................... 50 points   Skull Totem ......................................................... 50 points
+Like a predator feasting upon the flesh of its prey, the Daemon                     The pole of this banner is thick-set with the captured skulls
+hungrily consumes the magic of its enemies.                                         of Khorne’s victims, each marked with a brass-etched rune
+                                                                                    of slaughter.
+This model may be nominated to attempt a Wizardly Dispel,
+as if it were a Wizard. For the purposes of Wizardly Dispel                         A unit carrying the Skull Totem (but not its mounts) gains the
+attempts, this model counts as a Level 2 Wizard.                                    Furious Charge special rule.
+
+Armour Of Khorne ...........................................40 points               Great Standard Of Sundering......................... 45 points
+Clad in rune-laden armour, the Daemon’s hide is all but immune to                   Runes of warding crowd close about this banner, their power
+the blows of mere mortals.                                                          focussed to deny enemy Wizards access to the Winds of Magic.
+
+The Armour of Khorne is a suit of heavy armour. In addition,                        Any enemy Wizard that can draw a line of sight to the model
+its wearer has a 5+ Ward save against any wounds suffered.                          carrying the Great Standard of Sundering suffers a -1 modifier
+                                                                                    to any Casting roll it makes.
+Axe Of Khorne* ................................................. 35 points
+Screaming with the power of a bound Daemon, this unholy blade                       Icon Of Endless War ......................................... 30 points
+thirsts for the blood of mortals.                                                   This brass standard constantly drips blood, the smell of which drives
+                                                                                    all of Khorne’s followers mad with battle-lust.
+     R            S           AP          Special Rules
+   Combat        S+1          -1          Killing Blow, Magical Attacks,            When a unit carrying the Banner of Rage declares a charge, it
+                                          Requires Two Hands                        may re-roll its Charge roll.
+
+Might Of Khorne ............................................... 25 points
+Blessed by its patron, the Daemon’s massive limbs bulge with
+strength and power.
+
+This model has a +1 modifier to its Strength characteristic.
+
+Collar Of Khorne* ............................................. 25 points
+The dread sigils inscribed upon this brass necklace provide
+protection against the most powerful of magics.
+
+The wearer of a Collar of Khorne improves its Magic Resistance
+by 1. For example, a model with Magic Resistance (-2)
+wearing a Collar of Khorne would have Magic Resistance (-3).
+Gifts Of Nurgle                                                               Icons Of Nurgle
+The following Daemonic Gifts can only be purchased by                         The following Daemonic Icons can only be purchased by
+Daemons of Nurgle:                                                            Daemons of Nurgle:
+
+Nurgling Infestation ......................................... 45 points      Icon Of Eternal Virulence ............................... 50 points
+Multitudinous Nurglings swarm about the Great Unclean One and                 Each drop of blood spilt beneath this dank shroud becomes infected
+nestle within the folds of its skin.                                          with every affliction known to Nurgle.
+
+Great Unclean One only. Whilst engaged in combat, this                        When calculating its combat result, a unit carrying the Icon
+model may make an additional D6 attacks. These attacks are                    of Eternal Virulence may claim an additional bonus of +1
+resolved at Initiative 2, with a Weapon Skill and Strength of                 combat result point (to a maximum of +3) for each unsaved
+2, and with an AP of -. Additionally, when this model loses                   wound caused by a Poisoned Attack.
+its last Wound, place a Nurgling Swarm of D3 models so that
+each model is within 3" of this model before removing this                    Standard Of Seeping Decay ............................. 35 points
+model from play.                                                              A pervasive aura of pestilence surrounds this moth-eaten banner,
+                                                                              sapping the health of all around it.
+Note that these Nurgling Swarms are not worth any Victory Points.
+                                                                              During the Combat phase, a unit carrying the Standard of
+Sloppity Bilepiper .............................................. 35 points   Seeping Decay may re-roll any rolls To Wound of a natural 1.
+The infectious tunes of a Bilepiper fill their companions with
+joyous murrain.                                                               Rotten Icon ......................................................... 10 points
+                                                                              Pus and slime drip constantly from the Rotten Icon, turning the dry
+Daemonic Heralds whose troop type is ‘infantry’ only.                         earth into noisome mud.
+Friendly units with the Daemons of Nurgle special rule that
+begin their movement within this model’s Command range                        Enemy units cannot claim any bonus combat result points
+have a +1 modifier to their Movement characteristic.                          for being engaged with the rear arc of a unit carrying the
+                                                                              Rotten Icon.
+Spoilpox Scrivener ............................................. 30 points
+A Spoilpox Scrivener scrutinises the work of Nurgle’s Daemons as
+they spread and record their master’s blessings.
+
+Daemonic Heralds whose troop type is ‘infantry’ only. Whilst
+within this model’s Command range, friendly units with the
+Daemons of Nurgle special rule may re-roll any rolls To Hit of
+a natural 1.
+
+Stream Of Contagion*....................................... 25 points
+Opening its gullet wide, the Daemon unleashes a stream of noxious
+bile upon its foes.
+
+     R           S         AP          Special Rules
+    N/A          3         -2          Breath Weapon,
+                                       Magical Attacks
+
+Trappings Of Nurgle ......................................... 30 points
+The Daemon is bedecked in rusted armour and rotted robes.
+
+The Trappings of Nurgle is a suit of armour that gives its
+wearer an armour value of 4+ which cannot be improved in
+any way.
+Gifts Of Slaanesh                                                                   Icons Of Slaanesh
+The following Daemonic Gifts can only be purchased by                               The following Daemonic Icons can only be purchased by
+Daemons of Slaanesh:                                                                Daemons of Slaanesh:
+
+Infernal Enrapturess......................................... 50 points             Banner Of Acquiescence .................................. 55 points
+Weaving a discordant melody upon an accursed harp, the Daemon                       Beneath the shadow of this standard, enemies lower their weapons
+enraptures those with the mage-sight.                                               and bear their breasts to the blades of the foe.
+
+Daemonic Heralds whose troop type is ‘infantry’ only. Whilst                        A single enemy unit engaged in combat with the bearer of the
+within this character’s Command range, friendly Daemons                             Banner of Acquiescence suffers a -D3 modifier to its Weapon
+of Slaanesh that are also Wizards (not including this model)                        Skill and Initiative characteristics (to a minimum of 1).
+may apply a +1 modifier to any Casting roll they make. Whilst
+within this character’s Command range, enemy Wizards suffer                         Rapturous Standard.......................................... 35 points
+a -1 modifier to any Casting roll they make.                                        Gripped by a strange euphoria, enemy formations crumble into
+                                                                                    confusion in the presence of this standard.
+Allure Of Slaanesh ............................................ 35 points
+The Daemon is possessed of a peculiarly captivating and                             Any enemy unit that charges the front arc of a unit carrying
+disarming visage.                                                                   the Rapturous Standard makes a disordered charge.
+
+Enemy units must make a Leadership test before making any                           Siren Standard .................................................... 25 points
+rolls To Hit against this model during the Combat phase. If                         A Daemonic Siren is imprisoned in this banner, its seductive song
+this test is failed, only rolls of a natural 6 will hit.                            lulling the senses of all who hear it.
+
+Siren Song ............................................................ 30 points   If an enemy unit charged by a unit carrying the Siren Standard
+The Daemon sings an alluring song, drawing its enemies to                           wishes to Flee (or Fire & Flee) as a charge reaction, it must
+their doom.                                                                         first make a Leadership test. If this test is passed, the unit may
+                                                                                    Flee (or Fire & Flee). However, if this test is failed, the unit
+Single use. At the start of your opponent’s Declare Charges &                       must Hold.
+Charge Reactions sub-phase, nominate a single enemy unit
+that is able to declare a charge against this model (or its unit).
+That enemy unit must make a Leadership test. If this test is
+passed, the unit may act as normal. However, if this test is
+failed, it must declare a charge against this model (or its unit).
+
+Soporific Musk* ................................................. 30 points
+The Daemon exudes a heady and cloying musk that dulls the wits
+of its enemies.
+
+Enemy models engaged in combat with this model cannot use
+the Strike First special rule. Enemy models that do not have
+the Strike First special rule become subject to the Strike Last
+special rule instead.
+
+Enrapturing Gaze*.............................................20 points
+The beguiling gaze of this Daemon holds the attention of all foolish
+enough to meet it.
+
+Enemy models engaged in combat with this model cannot use
+the Inspiring Presence special rule of their General.
+Gifts Of Tzeentch                                                               Icons Of Tzeentch
+The following Daemonic Gifts can only be purchased by                           The following Daemonic Icons can only be purchased by
+Daemons of Tzeentch:                                                            Daemons of Tzeentch:
+
+Staff Of Change .................................................. 65 points    Banner Of Discord ............................................ 60 points
+The mere presence of this staff causes all natural things to cry out in         The air around this warped banner shimmers with the explosive
+pain as it reshapes the world according to the Daemon’s whim.                   unbinding of enemy spells.
+
+    R             S         AP          Special Rules                           A unit carrying the Banner of Discord gains the Magic
+  Combat          S         -1          Flaming Attacks,                        Resistance (-3) special rule. In addition, friendly units
+                                        Magical Attacks                         within 6" of the model carrying this standard gain the Magic
+Notes: Any enemy model that suffers one or more unsaved wounds                  Resistance (-1) special rule.
+from the Staff of Change must immediately make a Toughness
+test. If this test is failed, the wounded model loses all of its                Banner Of Change ............................................. 45 points
+remaining Wounds.                                                               So saturated is this banner with the power of change that it distorts
+                                                                                and mutates everything around it.
+Will Of Tzeentch ............................................... 55 points
+The Daemon perceives the intricate pathways of fate and can tug                 At the start of the Combat phase, a single enemy unit engaged
+upon the strands of destiny should it so desire.                                in combat with this model suffers 3D6 Strength 2 hits, each
+                                                                                with an AP of -.
+Once per round, this model may re-roll a single D6. This may
+be a D6 rolled on its own, as part of a batch of dice, or as part               Icon Of Sorcery* ................................................ 35 points
+of a multiple dice roll.                                                        The runes upon this banner swirl and distort as they magnify the
+                                                                                sorcerous might of the Horrors that caper beneath it.
+Power Vortex ...................................................... 35 points
+The Winds of Magic billow about the Daemon, but remain beyond                   Pink Horrors only. When a unit carrying the Icon of Sorcery
+the reach of its enemies.                                                       casts a Bound spell, it does so with a power level equal to twice
+                                                                                its Rank Bonus.
+Whilst within this Wizard’s dispel range, enemy Wizards
+suffer a -1 modifier to their Casting rolls.
+
+Iridescent Corona*............................................. 30 points
+Glittering multi-coloured fire encases the Daemon’s form,
+confounding the aim of the enemy.
+
+Any enemy model that targets this model during the Shooting
+phase suffers an additional -1 To Hit modifier.
+
+Twin Heads .........................................................20 points
+Possessed of two personalities and two intellects, this two-headed
+Daemon is a master of the Winds of Magic.
+
+This model knows one more spell (chosen in the usual way)
+than is normal for their Level of Wizardry.
+
+Note that this does not increase the Wizard’s Level.
+          Daemons Of Chaos Special Rules
+A  game of Warhammer: the Old World is packed with fantastic creatures and skilled warriors with abilities so incredible
+   and varied that the basic rules cannot possibly cover them all. For such circumstances we have special rules –
+uncommon rules to govern uncommon circumstances.
+
+On the following pages you will find a full description for each of the Army special rules used by models drawn from the
+Daemons of Chaos army list:
+
+Cleaving Blow                                                      Daemonic Instability
+With a swift and deadly strike, a skilled warrior can cleave       When the tide of battle turns, a Daemon’s grasp upon its physical
+through armour.                                                    form becomes ever more tenuous.
+
+If a model with this special rule rolls a natural 6 when making    If a unit with this special rule loses a round of combat, it must
+a roll To Wound for an attack made in combat, it has struck        make a Leadership test (before it Gives Ground) with a +1
+a ‘Cleaving Blow’. Enemy models whose troop type is ‘regular       modifier to the result for every combat result point by which
+infantry’, ‘heavy infantry’, ‘light cavalry’, ‘heavy cavalry’ or   it lost:
+‘war beasts’ are not permitted an armour or Regeneration
+save against a Cleaving Blow (Ward saves can be attempted          • If this test is passed, all is well.
+as normal).                                                        • If this test is failed, the unit loses a number of Wounds
+                                                                     equal to the amount by which it failed the test. If the unit
+Note that if an attack wounds automatically, this special rule       contains any characters, allocate wounds to the unit until
+cannot be used.                                                      each model has been allocated one wound. Any remaining
+                                                                     wounds are divided as equally as possible between the
+Daemonic                                                             character(s) and the unit.
+Daemons are creatures of magic that advance inexorably             • If this test is failed on a roll of a natural double 6, the unit
+into battle, yet fade quickly into nothingness when struck a         is dragged back into the æther. The unit is immediately
+banishing blow.                                                      removed from play.
+
+Models with this special rule are ‘Daemonic’. All Daemonic         Daemonic Locus
+models have a 5+ Ward save against any wounds suffered that        Daemonic Heralds act as loci for the Winds of Magic, infusing
+were caused by a non-magical enemy attack. In addition, all        others of their kind with power.
+Daemonic models have the following universal special rules:
+                                                                   Friendly units with the same Daemonic Alignment as this
+•   Daemonic Instability                                           model reduce the number of wounds suffered due to the
+•   Fear                                                           Daemonic Instability special rule by 1 whilst within 12" of this
+•   Immune to Psychology                                           model. In addition, friendly units with the same Daemonic
+•   Magical Attacks                                                Alignment as this model that roll a natural double 6 when
+•   Unbreakable                                                    making a Leadership test for Daemonic Instability whilst
+•   Warp-spawned                                                   within 12" of this model are not immediately removed from
+                                                                   play. Instead, they lose a number of Wounds equal to the
+A character with this special rule cannot join a unit without      amount by which they failed the test.
+this special rule, and vice versa.
+                                                                   Infernal Favour (X)
+                                                                   Powerful Daemons can maintain their corporeal form long after
+                                                                   lesser Daemons have been banished.
+
+                                                                   A unit with this special rule reduces the number of wounds
+                                                                   suffered due to the Daemonic Instability special rule by the
+                                                                   number shown in brackets (shown here as ‘X’).
+
+                                                                   Note that this special rule is not cumulative. If two or more
+                                                                   models in a unit have this special rule, use the highest value for the
+                                                                   entire unit.
+Daemonic Alignment
+Every Daemon is a splinter of its divine master, a distorted reflection of mortal yearning, a shard of emotion and dark desire given form
+and licence to destroy. Thus does every Daemon reflect something of its master’s presence and personality.
+
+Many models in this army list have the Daemons of Khorne, Daemons of Nurgle, Daemons of Slaanesh or Daemons of
+Tzeentch special rule listed among their special rules. These special rules represent the Daemonic Alignment of that model,
+indicating to which of the Ruinous Powers the Daemon is bound:
+
+• A model cannot have more than one Daemonic Alignment.
+• All models within a unit must have the same Daemonic Alignment.
+• A character with a Daemonic Alignment can only join a unit with the same Daemonic Alignment, or with no
+  Daemonic Alignment.
+• A character with no Daemonic Alignment can join any unit as normal.
+
+
+Daemon(s) Of Khorne                                                   Daemon(s) Of Slaanesh
+The ranks of Khorne’s daemonic hosts are filled with ferocious        Shrouded in hypnotic glamour, the Daemons of Slaanesh surge
+and frenzied fiends, fuelled by a constant hunger to spill blood      across the battlefield on lithe limbs, capering from foe to foe,
+and claim skulls.                                                     claw-hands slicing through flesh and armour.
+
+Daemons of Khorne have the Hatred (Daemons of                         Daemons of Slaanesh have the Hatred (Daemons of
+Slaanesh) special rule. In addition, during a turn in which           Khorne) special rule. In addition, Daemons of Slaanesh
+it made a charge move, a Daemon of Khorne (but not its                increase their maximum possible charge range by 1" and
+mount) gains a +1 modifier to its Strength characteristic.            have a +1 modifier to the result of any Charge or Pursuit
+                                                                      roll they make.
+Daemon(s) Of Nurgle
+Enshrouded in dense clouds of flies, the legions of Nurgle trudge     Daemon(s) Of Tzeentch
+across the battlefield, spreading his multitudinous gifts and         Created from the raw stuff of magic by the Changer of Ways,
+cataloguing their effects upon mortals.                               the Daemons of Tzeentch blur with ever-changing colours and
+                                                                      crawling warpflame.
+Daemons of Nurgle have the Hatred (Daemons of
+Tzeentch) special rule. In addition, any enemy model that             Daemons of Tzeentch have the Hatred (Daemons of
+directs its attacks against a Daemon of Nurgle during the             Nurgle) special rule. In addition, a Daemon of Tzeentch
+Combat phase must re-roll any rolls To Hit of a natural 6.            that is also a Wizard may apply a +1 modifier to any Casting
+                                                                      roll they make.
+
+                                                                      Note that this is a modifier to the result of a roll – it does not
+                                                                      negate a roll of a natural double 1.
+                                      Lore Of Daemons
+A    Daemon’s sorcerous powers – indeed its entire being – are fixed at the moment of creation. Daemons cannot grow,
+     develop or learn as mortals can. Those Daemons steeped in the mysteries of magic were created with that knowledge
+and, though it rarely grows or diminishes, such power is a primal expression of the Dark Gods’ will.
+
+A Wizard with ‘Lore of Daemons’ special rule may discard one of their randomly generated spells as normal. When they do so,
+they may select instead either the signature spell of their chosen Lore of Magic, or one of the spells that corresponds to their
+Daemonic Alignment listed below.
+
+
+  Plague Wind (Daemons Of Nurgle)                                   Pink Fire (Daemons Of Tzeentch)
+  A debilitating cloud of noxious air forms, swirling around the    As the cackling Daemon prances and gestures, pink flames rise
+  battlefield and infecting all it touches.                         from the earth to envelope its enemies.
+
+  Type: Magical Vortex                                              Type: Magic Missile
+  Casting Value: 7+                                                 Casting Value: 8+
+  Range: 12"                                                        Range: 18"
+  Effect: Remains in play. Place a small (3") blast template        Effect: The target enemy unit suffers D3+3 Strength 3
+  so that its central hole is within 12" of the caster. Whilst      hits, each with an AP of - and with the Flaming Attacks
+  in play, the template is treated as dangerous terrain. The        special rule.
+  template moves D6" in a random direction during every
+  Start of Turn sub-phase. Any unit (friend or foe, but             Gift Of Mutation (Daemons Of Tzeentch)
+  not including Daemons of Nurgle) the moving template
+  touches or moves over suffers a -1 modifier to its Toughness      The Daemon cackles maniacally as the warping magic of
+  characteristic for the remainder of the turn.                     Tzeentch flows through its enemies, sending waves of mutation
+                                                                    through their minds and bodies.
+  Cacophonic Hymn (Daemons Of Slaanesh)
+                                                                    Type: Hex
+  The Daemon’s unnatural song peels away the enchantments that      Casting Value: 8+/12+
+  protect its enemies and its perverse melody boggles their wits.   Range: 12"
+                                                                    Effect: If this spell is cast with a casting result of 8 or more,
+  Type: Hex                                                         the target enemy unit suffers a -D3 modifier to one of the
+  Casting Value: 10+                                                following characteristics (to a minimum of 1, chosen by the
+  Range: 12"                                                        casting player). If this spell is cast with a casting result of 12
+  Effect: Remains in play. If this spell is cast, the effects of    or more, the target enemy unit suffers a -D3 modifier to two
+  any enchantment spell previously cast on the target unit          of the following characteristics (to a minimum of 1, chosen
+  immediately expire. In addition, whilst this spell is in play,    by the casting player). This spell lasts until your next Start
+  the target unit becomes subject to the Stupidity special rule.    of Turn sub-phase:
+
+                                                                    • Weapon Skill
+                                                                    • Strength
+                                                                    • Toughness
+     The Daemonic Armoury
+The Daemons of Chaos wield many strange weapons of unnatural design and purpose.
+Forged in the hellish furnaces of the Realm of Chaos, these ætheric weapons are made
+not simply from iron and fire, but blood, souls and the raw stuff of chaos itself.                    “They are wickedness made
+                                                                                                      flesh, cruel licentiousness
+Hellblade                                                                                             given form. Truth will not
+Each life taken by a Hellblade’s wicked edge strengthens its bearer, filling the Daemon with an       save you, for truth has no
+overwhelming need to take more skulls for the throne of Khorne.                                       hold over such aberrations.
+                                                                                                      Courage cannot save you,
+                        R          S      AP       Special Rules                                      for they sup your courage
+Hellblade             Combat       S      -1       Cleaving Blow                                      as readily as your fear. Faith
+                                                                                                      is the only defence you
+Plaguesword                                                                                           can trust.”
+From the pitted edges of these ugly weapons loathsome toxins ooze, infecting the jagged wounds
+they inflict with innumerable maladies.                                                                  –Arch Lector Markad to the
+                                                                                                               Congregation of Ulric
+                       R         S     AP       Special Rules
+Plaguesword          Combat S            -      Armour Bane (1)
+Notes: Regeneration saves are not permitted against wounds caused by this weapon (armour and
+Ward saves can be attempted as normal).
+
+Death’s Heads
+Their openings sealed with coarse thread and their insides filled with pus and viscera, these crude
+grenades wreak terrible damage upon the flesh of their victims.
+
+                          R        S      AP       Special Rules
+Death’s heads            12"      S+1     -1       Move & Shoot, Multiple Wounds (D3)
+
+Piercing Claws
+The Daemons of Slaanesh strike at their foes with wicked claws, slicing through the sturdiest
+armour with ease to sever limbs and claim souls for their thirsting master.
+
+                        R          S      AP       Special Rules
+Piercing claws        Combat       S      -1       Armour Bane (2), Extra Attacks (1),
+                                                   Requires Two Hands
+
+Flames Of Tzeentch
+From the iridescent flesh of their blazing limbs, Horrors and Flamers alike hurl bolts of roiling
+magical flame and writhing chaos energy at the foe.
+
+                          R        S      AP       Special Rules
+Flames of Tzeentch       18"       3       -       Flaming Attacks, Multiple Shots (2),
+                                                   Quick Shot
+
+Lamprey’s Bite
+Screamers flock around creatures larger than them, latching on to their enemy’s flanks with their
+hideous jaws and tearing chunks from their flesh.
+
+                      R      S      AP        Special Rules
+Lamprey’s bite     Combat S          -1       Multiple Wounds (D3)
+Notes: The Multiple Wounds (D3) special rule only applies against enemy models whose troop
+type is ‘monster’.
+

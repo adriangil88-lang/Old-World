@@ -1,0 +1,308 @@
+{
+ "rid": {
+  "x_tk_chariot": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "carro esqueleto: bestias de tiro a la izquierda del eje (captura de perfil) -> giro 180°"
+  },
+  "x_tk_king_chariot": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "carro del rey: bestias de tiro a la izquierda -> giro 180°"
+  },
+  "x_vc_corpsecart": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Carruaje Negro: pesadillas a la izquierda -> giro 180°"
+  },
+  "x_woc_lord_chariot": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "carro del Caos: bestia de tiro a la izquierda, tripulación a la derecha -> giro 180°"
+  },
+  "x_woc_aspiring_cchariot": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "carro (Chosen): bestias a la izquierda -> giro 180°"
+  },
+  "x_de_master_cold": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Cold One: cabeza (mandíbulas) a la izquierda, cola a la derecha -> giro 180°"
+  },
+  "x_de_hydra": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Hidra: cabezas a la izquierda, manejadores detrás (derecha) -> giro 180°"
+  },
+  "x_de_kharibdyss": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Kharibdyss: cabezas a la izquierda, manejadores detrás -> giro 180°"
+  },
+  "x_ok_ironblaster": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Ironblaster: cabeza del rinox y boca del cañón a la izquierda -> giro 180°"
+  },
+  "x_ok_thundertusk": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Thundertusk: colmillos curvados hacia la izquierda -> giro 180°"
+  },
+  "x_ok_tyrant_thunder": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "colmillos a la izquierda (misma familia Thundertusk) -> giro 180°"
+  },
+  "x_ok_bruiser_thunder": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "colmillos a la izquierda (familia Thundertusk) -> giro 180°"
+  },
+  "x_ok_hunter_thunder": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "colmillos a la izquierda (familia Thundertusk) -> giro 180°"
+  },
+  "x_ok_stonehorn": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Stonehorn: con la flecha alejándose se ve de frente (cara y colmillos hacia la cámara) -> giro 180°"
+  },
+  "x_ok_hunter_stone": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "familia Stonehorn -> giro 180°"
+  },
+  "x_ok_bruiser_stone": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "familia Stonehorn -> giro 180°"
+  },
+  "x_ok_tyrant_stone": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "familia Stonehorn -> giro 180°"
+  },
+  "x_lm_scar_carno": {
+   "v": "M",
+   "yaw": 2.356194490192345,
+   "note": "Carnosaurio (Scar-Veteran): la malla está posada a 45° respecto al eje de la peana; con yaw 3π/4 la cabeza queda sobre la flecha en las vistas cenitales a135 y a225 (comprobadas yaw 0, ±π/2, π, 2.0, 2.36, 2.7)"
+  },
+  "x_lm_troglodon": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Troglodon: cresta/cabeza a la izquierda, cola larga a la derecha -> giro 180°"
+  },
+  "x_tk_scorpion": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Escorpión: aguijón (cola) a la derecha, cabeza a la izquierda -> giro 180°"
+  },
+  "x_br_elisse": {
+   "v": "M",
+   "yaw": -1.570796326794897,
+   "note": "Élisse: caballo encabritado con la cabeza a la izquierda (tras YAWFIX +π/2) -> giro 180° adicional"
+  },
+  "x_dm_keeper": {
+   "v": "C",
+   "note": "convención: Keeper of Secrets: malla simétrica de tentáculos, sin rasgo de frente inequívoco ni en vista de perfil ni frontal; frente de diseño = frente de la peana"
+  },
+  "x_emp_lector_altar": {
+   "v": "C",
+   "note": "convención: Altar de Sigmar: la malla no lleva bestias de tiro; con la flecha hacia la cámara se ve el arco abierto, pero no es inequívoco; frente de diseño"
+  },
+  "br_trebuchet": {
+   "v": "C",
+   "note": "convención: máquina de lanzamiento: sin boca de arma; frente de diseño"
+  },
+  "x_doom_diver": {
+   "v": "C",
+   "note": "convención: máquina de lanzamiento: frente de diseño"
+  },
+  "x_rock_lobber": {
+   "v": "C",
+   "note": "convención: máquina de lanzamiento: frente de diseño"
+  },
+  "x_tk_casket": {
+   "v": "C",
+   "note": "convención: Ataúd de las Almas: malla sin eje de frente; frente de diseño"
+  },
+  "x_he_flamespyre": {
+   "v": "C",
+   "note": "convención: fénix: silueta fina, sin rasgo inequívoco en perfil"
+  },
+  "x_he_frostheart": {
+   "v": "M",
+   "yaw": 0,
+   "note": "Frostheart Phoenix: pico y cabeza sobre la flecha en las vistas cenitales a135 y a225 (yaw 0)"
+  },
+  "x_he_merwyrm": {
+   "v": "C",
+   "note": "convención: Merwyrm: perfil ambiguo"
+  },
+  "x_bm_jabberslythe": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_bm_preyton": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_cd_centaurs": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_cd_render": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_cd_wolfriders": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_ct_miaoying": {
+   "v": "C",
+   "note": "convención: forma humana, pose torcida: perfil ambiguo"
+  },
+  "x_ok_mournfang": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_ok_butcher_cauldron": {
+   "v": "C",
+   "note": "convención: carga el caldero: sin eje inequívoco"
+  },
+  "x_ok_slaughter_cauldron": {
+   "v": "C",
+   "note": "convención: carga el caldero: sin eje inequívoco"
+  },
+  "x_tk_necrosphinx": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_tk_warsphinx": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_tk_stalkers": {
+   "v": "C",
+   "note": "convención: serpiente: capucha de perfil ambiguo"
+  },
+  "x_tk_necroknights": {
+   "v": "C",
+   "note": "convención: serpiente: perfil ambiguo"
+  },
+  "x_tk_king_dragon": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_tk_hpriest_dragon": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_vc_count_terror": {
+   "v": "C",
+   "note": "convención: Terror: perfil ambiguo"
+  },
+  "x_vc_terrorgheist": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "br_duke": {
+   "v": "C",
+   "note": "convención: montura acorazada: perfil ambiguo"
+  },
+  "x_br_pegasus": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_br_baron_pegasus": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "emp_general_griffon": {
+   "v": "C",
+   "note": "convención: grifo: perfil ambiguo"
+  },
+  "x_emp_general_igriffon": {
+   "v": "M",
+   "yaw": 0,
+   "note": "Grifo imperial: cabeza blanca sobre la flecha en las vistas cenitales a135 y a225 (yaw 0)"
+  },
+  "x_empire_captain_demi": {
+   "v": "C",
+   "note": "convención: demigrifo: perfil ambiguo"
+  },
+  "x_lm_salamander": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_we_pack_hounds": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "x_great_cannon": {
+   "v": "C",
+   "note": "convención: cañón: perfil ambiguo"
+  },
+  "x_helblaster": {
+   "v": "C",
+   "note": "convención: cañón de salvas: perfil ambiguo"
+  },
+  "x_bm_cygor": {
+   "v": "C",
+   "note": "convención: perfil ambiguo"
+  },
+  "woc_gorechariot": {
+   "v": "M",
+   "note": "gorebestia delante (derecha), tripulación detrás: frente = flecha"
+  },
+  "x_woc_chosen_chariot": {
+   "v": "M",
+   "note": "cabeza del caballo de tiro a la derecha en perfil: frente = flecha"
+  },
+  "x_we_waystalker": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Waystalker: con la flecha alejándose se ve de frente (cara bajo la capucha, arco al frente); con la flecha hacia la cámara se ve la espalda y el carcaj -> giro 180°"
+  },
+  "x_we_shadowdancer": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Bailarina de sombras: con la flecha alejándose se ve de frente (rostro, espadas); con la flecha hacia la cámara se ve la capa -> giro 180°"
+  },
+  "x_woc_exalted": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Exaltado del Caos: con la flecha alejándose se ve el escudo y el rostro; con la flecha hacia la cámara se ven las espaldas -> giro 180°"
+  },
+  "dw_irondrakes": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Drakes de Hierro: con la flecha alejándose se ve de frente (rostros y cañones de drakefire apuntando a la cámara); con la flecha hacia la cámara se ven los tanques de la espalda -> giro 180°"
+  },
+  "x_cd_castellan": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Castellano de Chaos Dwarfs: con la flecha alejándose se ve la barba y el rostro; con la flecha hacia la cámara se ve la joroba/espalda -> giro 180°"
+  },
+  "bm_wargor": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Wargor: con la flecha alejándose se ve el pecho y el rostro cornudo; con la flecha hacia la cámara se ve la espalda -> giro 180°"
+  },
+  "x_ok_leadbelchers": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Leadbelchers: con la flecha hacia la cámara se ven las espaldas (gnoblars en los hombros); con la flecha alejándose se ven de frente con los brazos adelante -> giro 180°"
+  },
+  "woc_ogres": {
+   "v": "M",
+   "yaw": 3.141592653589793,
+   "note": "Ogros del Caos: con la flecha hacia la cámara se ven las espaldas lisas; con la flecha alejándose se ve el vientre y la cara -> giro 180°"
+  }
+ },
+ "unit": {}
+}

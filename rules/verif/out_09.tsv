@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+aj_beasts2.tsv	aj_beasts2-053	CONFIRMA	data.js:4271 opcion ambf gratis (list wild) y armyIssues data.js:4725: max per1k(limit) unidades y US<=10 validados; Gors/Ungors/Centigors
+core_2.tsv	C2-137	CONFIRMA	"rules.js tryDispel: (x===6&&y===6) dispersa (ruta sabia y destino); perfect devuelve false al inicio (tryDispel:""if (perfect) return false"")"
+leg_ogres.tsv	leg_ogres-119	CONFIRMA	data.js ok_sabretusks: M8 HA4 HP0 F4 R4 H2 I4 A2 Ld6 ppm 17 coincide con la fuente
+aj_highelves.tsv	aj_highelves-108	CONFIRMA	data.js CMD.he_woodsmen=[7,7,7]; he_woodsmen sin bnMax, asi que no admite estandarte magico (main.js:705 exige bnMax)
+leg_darkelves.tsv	leg_darkelves-136	CONFIRMA	data.js de_harpies: M5 HA3 HP0 F3 R3 H1 I5 A2 Ld6, 11 pts; coincide
+aj_tk2.tsv	aj_tk2-086	CONFIRMA	data.js CMD.tk_vushabti=CMD.tk_ushabti=[7,null,null]: solo campeon (Venerable Ancient) +7; sin portaestandarte/musico
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-032	PARCIAL	data.js:5206 VI = solo 10 opciones v1..v10 (20 pts por vial); la fuente dice cualquier numero de viales, sin tope
+dawn_renegade_sc.tsv	sc_shores-006	CONFIRMA	"rules.js scnPost (marcadores): margen 3""+radio 40mm y aparta el terreno lo minimo (bucle step 0.25); marks en SCENARIOS.shores (18,24),(54,24),(36,6). La nota ""no se aparta"" esta obsoleta"
+aj_orcs2.tsv	aj_orcs2-002	CONFIRMA	data.js SCN_REQ.winter (2500 nomada, gen gob_kiknik) y ALLY_SCN.winter (1000 enanos Gran Ejercito, Ingeniero General + 1500 Imperio); rules.js:885 marca General; modo libre alternativo
+battlemarch_quickref.tsv	quickref-061	CONFIRMA	rules.js woundAndSave/woundAndSave0 se usa tambien en combate cuerpo a cuerpo (rules.js ~5447) con la misma tabla de herir y salvacion que en disparo
+aj_highelves.tsv	aj_highelves-030	CONFIRMA	data.js:~3524 mkVariant he_spearmen/he_archers _lc y _lcmc con extraCost:10 (por unidad), lista chracia; addSr lionCloak
+core_2.tsv	C2-136	CONFIRMA	rules.js tryDispel: dispersa si x+y+nivel > total (supera) y falla si igual o menor; destino x+y>total
+faq_core_4.tsv	FC4-36	CONFIRMA	rules.js applySpell add(unit,e) (l.4176) solo anade efectos a la unidad objetivo; sin propagacion a destacamentos/regimental (detOf)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-236	CONFIRMA	"data.js ~5215 dk3 patch melee mw:""D3"" (Heridas multiples D3); rules.js attackProfile usa d.melee.mw"
+leg_darkelves.tsv	leg_darkelves-226	CONFIRMA	data.js del_furion extraSpell:true; rules.js:1041 anade un hechizo mas del saber del portador (al azar, equivalente a tirada)
+battlemarch_quickref.tsv	battlemarch-145	PARCIAL	"rules.js wildHeal:459 elige automaticamente la 1a unidad del jugador activo con una esquina en el elemento y herida perdida; sin eleccion de modelo/unidad ni popup; modelo ""dentro"" aprox. por esquinas"
+aj_highelves.tsv	aj_highelves-014	CONFIRMA	"data.js chracia.chk: Principe/Archimago (he_prince*, he_archmage*) > per1k -> error ""0-1 por cada 1.000 pts""; personajes hasta 50% por defecto"
+leg_darkelves.tsv	leg_darkelves-149	CONFIRMA	data.js UNITS.de_darkriders.opts: rc ballestas de repeticion cost 2 y sh escudos cost 1, por modelo
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-173	CONFIRMA	data.js cd_daemonsmith_taurus 205 (85+120) y cd_prophet_taurus 315 (195+120); M6 HA5 F5 I3 A+3 H+4 y Ld 9/10 del jinete coinciden; la nota sobre Ld esta obsoleta
+leg_daemons.tsv	leg_daemons-133	PARCIAL	data.js dm_seekers: jinete M9 HA4 HP3 F3 R3 H1 I5 A1 Ld7 21 pts OK; falta el Corcel (HA3 A1, Ataques envenenados solo el corcel): sin mountAtk y poisoned aplicado a toda la unidad
+dawn_renegade_sc.tsv	renegade_web-025	CONFIRMA	data.js rc_outriders opcion no (+1/modelo, ambush) y armyIssues l.4884: wo(rc_outriders,no) > personajes con origen no -> error
+core_7.tsv	core_7-004	CONFIRMA	"rules.js:236 gisoreux z: R_(0,0,24,48) y R_(48,0,72,48): zonas a 12"" de la linea central; desc ""12 de separacion"" confusa pero geometria correcta"
+leg_daemons.tsv	leg_daemons-214	CONFIRMA	data.js dm_soulgrinder melee ap:3 y sr killingBlow; F del usuario (sin sb); garra de hierro FP-3 Golpe letal
+aj_dwarfs2.tsv	aj_dwarfs2-023	CONFIRMA	rules.js scoreVP khazid (~6839): +50 PV por unidad no huida con >=50% de modelos (modelPts) en zona del defensor (para ambos bandos); +200 por mayor US en la Puerta
+leg_daemons.tsv	leg_daemons-054	CONFIRMA	"data.js dm_fleshhounds arm:""light"" (pieles callosas), melee garras/colmillos; la nota ""sin armadura ligera"" esta obsoleta"
+faq_libros.tsv	Q35	CONFIRMA	rules.js:~4782 martial solo vale con melee.thrust/dread; las armas sin Luchar en fila extra (thrust/spear/extraRank) no obtienen apoyo por martial
+aj_highelves.tsv	aj_highelves-053	CONFIRMA	data.js he_korhil sr: elvenRef, furiousCharge, mightyConst, mtCover, stubborn, valour; variante carro sin furiousCharge ni mtCover (no aplican a la montura)
+battlemarch_quickref.tsv	quickref-073	CONFIRMA	rules.js restrains:4938: chequeo Ld (doble 1 pasa, doble 6 falla), si pasa se queda y rrFree reforma gratis; si no persigue/sigue; eleccion via restrainPref (auto/try/pursue) en panel
+faq_libros.tsv	C27	CONFIRMA	rules.js:4567 s.mwK = turnKey+owner: Maestria de los Vientos una vez por turno y por ejercito
+leg_daemons.tsv	leg_daemons-028	CONFIRMA	data.js dm_bloodthirster ib:100; solo objetos fac dm (Dones) permitidos para dm (itemFacOk)
+leg_darkelves.tsv	leg_darkelves-048	CONFIRMA	data.js:5965 retira de_beastmaster de ARMIES.de; quedan de_beastmaster_manticore/_chariot (mkVariant l.3474-3475) como unicas opciones
+core_4.tsv	C4-019	CONFIRMA	rules.js:5914 if (sc[0]===sc[1]) continue: empate, unidades siguen trabadas; desempate de musico previo (l.5876)
+faq_core_3.tsv	40	CONFIRMA	rules.js vanguardMoves:2614 excluye u.scouted (marcado en despliegue de Exploradores l.1455/7806)
+aj_orcs2.tsv	aj_orcs2-005	PARCIAL	rules.js:2220 Nieves tardias excluye monInf (infanteria monstruosa); Core: la Infanteria Monstruosa sigue las reglas de Infanteria salvo excepcion, asi que tambien no deberia marchar
+leg_daemons.tsv	leg_daemons-204	CONFIRMA	data.js dm_furies: M4 HA3 HP0 F4 R3 H1 I4 A1 Ld5, 12 pts, base 30x30, garras FP-1, vuelo 8
+faq_core_3.tsv	38	CONFIRMA	rules.js:6490-6510 movimiento aleatorio: carga solo si chargeTargets incluye al enemigo mas cercano (doCharge); si no, avance recto con checkPlacement; sin rodear
+core_5.tsv	C5-079	PARCIAL	data.js armyIssues:4840 prohibe Loner como General, pero el bloque se salta con comp bm (Battle March) y lista mortuary; generalOf no excluye loners
+leg_darkelves.tsv	leg_darkelves-236	PARCIAL	"data.js black_horror y rules.js:6425: VL9+, 18"", 5"", 2D6, D6 chequeos F y 1 Herida OK; plantilla colocada siempre sobre el objetivo (rules.js:4320), sin elegir punto libre a <=18"""
+dawn_renegade_sc.tsv	renegade_web-038	CONFIRMA	data.js br_outcast/rc_wizard1: M4 HA3 HP3 F3 R3 H2 I3 A1 Ld7, 45 pts, nivel 1, mano; lores 6 (battle,daemonology,dark,elementalism,illusion,necro) elegibles (main.js:836)
+leg_vampires.tsv	leg_vampires-195	CONFIRMA	data.js:5574 vc_count_terror mountAtk a:3 S5 ap2 tail:true tailAp:0; rules.js:5451 un ataque envenenado (cola) y Golpe primero via sfWpn; Pisoton D3
+aj_wood2.tsv	aj_wood2-097	CONFIRMA	rules.js:4782 martial: apoyo tambien si atacada por flanco/retaguardia (front||martial&&thrust); data.js we_guardians/we_eternal con martial y melee.thrust
+battlemarch_quickref.tsv	battlemarch-159	NO_VERIFICABLE	"Fuente: linea de perfil ilegible (OCR ""4 ie si 3 ... 5 ... 6""); tipo, base, 10 modelos, equipo y reglas coinciden con data.js:6097, pero M4/Ld7 del codigo no se pueden contrastar"
+aj_empire2.tsv	aj_empire2-082	CONFIRMA	data.js imp_ogres: arm light, opcion ha armadura pesada +3 (l.3675). Aviso: ppm 29 en l.3653 vs 31 de la fuente (L1269)
+core_3.tsv	c3-027	CONFIRMA	"rules.js checkPlacement:2172 rechaza posiciones a <1"" de enemigo (unitDist<enemyGap=1) en previewMove y demas movimientos; unidades trabadas exentas"
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-243	CONFIRMA	"data.js HB hail20:true (12"", F3, FP-1, D3 disparos); rules.js:2951 repite 1 naturales al herir si shooters>=20 de la misma unidad"
+aj_orcs2.tsv	aj_orcs2-058	CONFIRMA	data.js troll_hag ib:50 y opts w2 nivel 2 cost 35 (l.3877); lores troll/battle
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-046	CONFIRMA	data.js cd_castellan: M3 HA6 HP4 F5 R5 H3 I3 A4 Ld10, 125 pts
+aj_chaos2.tsv	aj_chaos2-162	CONFIRMA	data.js ITEMS wocaj_* (18 objetos, costes y restricciones de lista de la fuente); sin asteriscos en la fuente; se compran como comunes
+core_4.tsv	C4-018	CONFIRMA	rules.js:5916-5960 gana el mayor sc; el perdedor hace chequeo de ruptura (nat>Ld huye, mod>Ld retrocede, si no cede)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-251	CONFIRMA	data.js cdl_mask cost 40 svb:1 (rules.js:1754 max 2+ via Math.max(2,..)) extraArm, wardFlame:3 (rules.js:1982 solo si flaming)

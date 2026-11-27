@@ -1,0 +1,16 @@
+AJDW-001	AJ Dwarfs	Thorgrim Ulleksson: perfil M3 WS6 BS4 S4 T5 W3 I3 A3 Ld10, 250 pts, reglas, Armadura de Skaldour	OK	data.js dw_thorgrim	Perfil verificado v797 y regla Skaldour v651
+AJDW-002	AJ Dwarfs	Ungrim Ironfist: perfil WS9 T6 I5 A4, 315 pts, Rey de la Fortaleza Matadora	OK	data.js dw_ungrim; INF.royal chk	Perfil v797; privilegios v651
+AJDW-003	AJ Dwarfs	Burlok Damminson: perfil, Pistola de remaches, Martillo de fragua, 85 pts	OK	data.js dw_burlok	v797 + v652
+AJDW-004	AJ Dwarfs	Ingeniero Zapador: perfil 70 pts, Ld 9, Cavar, Terreno hostil, PEB +25	OK	data.js dw_sapper	v652/v797
+AJDW-005	AJ Dwarfs	Buscadores de Fatalidad: 50 pts, 2D3 ataques, runas de arma hasta 50, Primero a la refriega, 0-4/1000 con Ungrim, mercenarios	OK	data.js dw_doomseeker	v652
+AJDW-006	AJ Dwarfs	Guerreros del Clan Real: 10 pts (11 grandes hachas), Veterano +6, Instruidos/Tozudos/Veteranos	OK	data.js dw_royalwarriors	v652
+AJDW-007	AJ Dwarfs	Mercenarios Enanos Imperiales: 8 pts, Veterano +5, armadura ligera base, opciones	OK	data.js dw_imperial*	verificado (nota línea 3733)
+AJDW-008	AJ Dwarfs	Girocópteros Exploradores: 60 pts, Vuelo 10, Impacto D3, clattergun	OK	data.js dw_scoutgyro	v652
+AJDW-009	AJ Dwarfs	Carros Enanos (Bugman/Minero) 65 pts, 0-4 Rare	OK	data.js dw_cart*	v652
+AJDW-010	AJ Dwarfs	Cortagoblins 120 pts, 3 Heridas, tripulación Matadores	OK	data.js dw_hewer	v652
+AJDW-011	AJ Dwarfs	Tatuajes rúnicos (costes y reglas)	OK	data.js tat_*	v652
+AJDW-012	AJ Dwarfs	Runas de arma (Slaying 50, Piercing 40, Bursting Flame 35, Concussive 30, Accuracy 20, Rapid Fire 15, Molten Steel 10, Enchanted 5…)	OK	data.js runas	v652
+AJDW-013	AJ Dwarfs	Clan Real: lista, Saldar cuentas (nominación a elección del jugador)	OK	INF.royal; rules.js grudgeNom	v651
+AJDW-014	AJ Dwarfs	Fuerza Expedicionaria: lista, Emboscada subterránea (colocación manual de Minas)	OK	INF.expedition; rules.js	v652/v672
+AJDW-015	AJ Dwarfs	Furia ancestral: +1 F tras movimiento de seguimiento (solo si vuelve a combatir el mismo turno)	OK	-	Implementado vía fupPrev (F+1 en el combate posterior a seguimiento, análogo a Frenesí según FAQ).
+AJDW-016	AJ Dwarfs	Escenarios Khazid Vosk (Reclamación/Asalto): +50 PV y objetivos	OK	rules.js SCN	verificado en sesiones previas

@@ -1,0 +1,259 @@
+                                      QUICK REFERENCE
+                                                Quick Reference
+
+
+
+
+Turn Summary                                                         Miscast Table
+                                                                       2D6  Result
+Each player’s turn is split into four phases:                          2-4  Dimensional Cascade: The summoned magic
+                                                                            breaks free, creating an ethereal tornado. Centre a 5"
+1. The Strategy Phase                                                       blast template over the Wizard. Every model (friend
+2. The Movement Phase                                                       or foe) whose base lies underneath the template risks
+3. The Shooting Phase                                                       being hit (as described on page 95) and suffering a
+4. The Combat Phase                                                         single Strength 10 hit with an AP of -4.
+                                                                       5-6 Calamitous Detonation: Roiling magic explodes
+                                                                            from the Wizard in a flash of light. Centre a 3" blast
+Casting & Dispelling Spells (page 106)                                      template over the Wizard. Every model (friend or
+                                                                            foe) whose base lies underneath the template risks
+Casting A Spell                                                             being hit (as described on page 95) and suffering a
+To cast a spell, roll 2D6 and add the casting Wizard’s level:               single Strength 6 hit with an AP of -2.
+                                                                        7   Careless Conjuration: The Wizard mispronounces
+• If the result is equal to or higher than the casting value, the           a syllable, causing the spell to backfire, knocking
+  spell is cast.                                                            them to the ground. The Wizard suffers a single
+• If a natural double 6 is rolled, the spell is cast regardless of          Strength 4 hit with an AP of -1.
+  casting value and cannot be dispelled.                               8-9 Barely Controlled Power: The Wizard manages to
+• If a natural double 1 is rolled, the spell is miscast and is not          control the magic, but at the expense of great power.
+  cast. Roll on the Miscast table.                                          The spell is cast (at its casting value, for the purpose
+                                                                            of dispel attempts). However, you cannot attempt
+Dispelling A Spell                                                          to cast any more spells for the remainder of the
+When your opponent casts a spell, you can make a dispel                     current turn.
+attempt. To dispel a spell, roll 2D6 (if attempting a Wizardly        10-12 Power Drain: With a deafening boom, the
+dispel, add the dispelling Wizard’s level):                                 summoned magic is unleashed and an unnatural
+                                                                            calm descends. The spell is cast with a perfect
+• If the result is equal to or higher than the Casting roll, the            invocation. However, you cannot attempt to cast any
+  spell is dispelled.                                                       more spells for the remainder of the current turn.
+• If a natural double 6, the spell is dispelled regardless of the
+  casting result.
+• If a natural double 1 is rolled, the dispel attempt fails. Roll
+  on the Miscast table.
+
+Wizardly Dispel: A Wizard that is not engaged in combat, is
+not fleeing and is within range may be nominated to attempt a
+Wizardly dispel:
+
+• Level 1 and Level 2 Wizards have a Dispel range of 18".
+• Level 3 and Level 4 Wizards have a Dispel range of 24".
+
+Fated Dispel: Once per turn you may attempt a Fated dispel.
+There is no range limit on Fated dispel attempts.
+Strategy Phase
+The Strategy phase is broken up into several sub-phases:
+
+1. Start Of Turn (page 116)
+Resolve any special actions and/or make any tests that need to
+be resolved or made at the start of the turn.
+
+2. Command (page 117)
+Resolve any abilities of characters that are not fleeing that are
+used in the Command sub-phase.
+
+3. Conjuration (page 117)
+Wizards controlled by the active player can cast Enchantment
+or Hex spells.
+
+4. Rally Fleeing Troops (page 117)
+The active player attempts to rally their fleeing units. Any that
+fail continue to flee.
+
+Movement Phase
+The Movement phase is broken up into several sub-phases:
+
+1. Declare Charges
+& Charge Reactions (page 119)
+The active player declares charges, indicating which of their
+units are charging, and which enemy unit is being charged:
+
+• A charging unit must be able to draw a line of sight to the
+  unit it wishes to charge.
+• Units that are in a Marching Column, engaged in combat
+  or fleeing cannot charge.
+
+Charge Reactions: When charged, a unit can declare one of
+several charge reactions:
+
+Hold: The unit stands its ground to receive the charge.
+
+Stand & Shoot: The unit fires its missile weapons at the
+charging unit. If the distance between the units is less than the
+charging unit’s Movement characteristic then this reaction
+cannot be declared.
+
+Flee: The unit flees directly away from the charging unit:
+
+• Pivot the unit about its centre so that it is facing directly
+  away from the centre of the charging unit.
+• After pivoting the unit immediately makes a flee move.
+• If a unit is already fleeing it must declare this reaction (note
+  that a unit cannot make more than one charge reaction in
+  a phase).
+2. Charge Moves (page 121)                                           4. Remaining Moves (page 122)
+To complete a charge:                                                Any remaining units may move during this sub-phase.
+                                                                     Wizards may cast Conveyance spells.
+Determine Charge Range: Roll two D6 and discard the
+lowest, this is the Charge roll. Add the Charge roll to the unit’s   Marching: A marching unit can move up to double its
+Movement characteristic, this is the charge range.                   Movement characteristic (triple, if in a Marching Column)
+                                                                     and may wheel to change direction, but cannot perform any
+Move Charging Unit: If the charge range is sufficient to             other manoeuvres. If a unit wishes to march while within 8" of
+reach the target unit, perform a charge move, as described on        an enemy unit, they must first pass a Leadership test.
+page 126.
+                                                                     Manoeuvres: During its movement, a unit may perform one
+Failed Charges: If the charge distance isn’t sufficient to reach     of the following manoeuvres (note that no model may move
+the target unit, the charging unit moves directly towards the        more than double its Movement characteristic):
+target a distance equal to the Charge roll.
+                                                                     • Wheel: The leading edge of the unit moves forward,
+Charging a Fleeing Enemy: When charging a fleeing enemy:               pivoting around one of its front corners.
+                                                                     • Turn: All models remain in place and turn through 90° or
+• If the charging unit makes contact with the fleeing unit,            180° to face their side or rear. For every 90° it turns, a unit
+  it wheels to align and the fleeing unit is destroyed. The            uses a quarter of its Movement characteristic.
+  charging unit may take a Leadership test to attempt                • Move Backwards: The unit halves its Movement
+  to reform.                                                           characteristic and moves backwards.
+• If the charging unit does not make contact with the fleeing        • Move Sideways: The unit halves its Movement
+  unit, it moves forward its full charge range.                        characteristic and moves sideways.
+                                                                     • Redress the Ranks: The unit uses half of its Movement
+3. Compulsory Moves (page 122)                                         characteristic to add or remove up to five models to or
+All compulsory moves are made during this sub-phase.                   from its front rank.
+                                                                     • Reform: The unit uses its entire Movement characteristic
+                                                                       to pivot about its centre to change its facing, and to
+                                                                       rearrange itself as required to change formation or adopt a
+                                                                       different formation.
+Shooting Phase                                                                     4. Remove Casualties
+                                                                                   & Make Panic Tests (page 142)
+The Shooting phase is broken down into several sub-phases                          Remove Casualties: Unsaved wounds are applied to the unit,
+and is followed in full for each shooting unit, one at a time:                     each causing a model to lose one Wound. When a model has
+                                                                                   been reduced to zero Wounds, it is removed as a casualty.
+1. Choose Unit & Declare Target (page 137)
+A unit is selected to shoot and its target is declared.                            Make Panic Tests: If, during the Shooting phase, a unit loses
+                                                                                   more than a quarter (25%) of the models it contained at the
+2. Roll To Hit (page 138)                                                          beginning of the Shooting phase, it makes a Panic test, as
+To determine if your models hit, roll To Hit using the below                       described on page 160.
+chart based on their Ballistic Skill:
+                                                                                   Misfire Tables
+Ballistic Skill                   1            2        3        4        5        If a ‘Misfire’ is rolled on an Artillery dice when firing a war
+D6 roll To Hit                   6+           5+       4+       3+       2+        machine, you may be required to roll on one of the following
+                                                                                   Misfire tables:
+One or more of the following modifiers may apply to your
+roll(s) To Hit:                                                                    Stone Thrower Misfire Table
+                                                                                      D6     Result
+•              Moving and Shooting                                            -1       1     Destroyed: The weapon cannot take the strain! Bits
+•              Firing at Long Range                                           -1             of wood and metal debris are thrown into the air
+•              Standing and Shooting                                          -1             and the stone tumbles to the ground. The model is
+•              Target Behind Partial Cover                                    -1             destroyed and immediately removed from play.
+•              Target Behind Full Cover                                       -2      2-4    Malfunction: One of the crew has become caught
+                                                                                             in the firing mechanism. This problem can be fixed,
+3. Roll To Wound & Make Armour Saves (page 140)                                              but only by partially dismantling the weapon, the
+Roll To Wound: For each hit, make a roll To Wound, cross-                                    crew member, or both. The crew immediately loses
+referencing the weapon’s Strength with the target’s Toughness                                one Wound, the model fails to shoot this turn and
+on the below chart:                                                                          cannot shoot before the end of the next round.
+                                                                                      5-6    Twang: Something has snapped. This is a rather
+Armour & Ward Saves: For each wound, your opponent can                                       minor mishap, but one that will require plenty of
+make an Armour Save roll, as described on page 141.                                          elbow grease and strong language to repair. The
+                                                                                             model fails to shoot this turn.
+
+                                      To Wound Chart                               Black Powder Misfire Table
+                                      Target’s Toughness                              D6     Result
+                                                                                       1     Destroyed: The weapon explodes with a thunderous
+                         1   2        3   4        5   6    7   8    9   10                  noise, leaving a hole in the ground and a cloud
+                    1    4+ 5+ 6+ 6+ 6+ 6+                  -   -    -   -                   of black smoke hanging in the air. The model is
+                                                                                             destroyed and immediately removed from play.
+                    2    3+ 4+ 5+ 6+ 6+ 6+ 6+                   -    -   -            2-4    Malfunction: The charge misfires, terminally
+                    3    2+ 3+ 4+ 5+ 6+ 6+ 6+ 6+                     -   -                   inconveniencing one of the crew and knocking the
+                                                                                             war machine over. It can be righted, but it will take
+Weapon’s Strength
+
+
+
+
+                    4    2+ 2+ 3+ 4+ 5+ 6+ 6+ 6+ 6+                      -                   time. The crew immediately loses one Wound, the
+                                                                                             model fails to shoot this turn and cannot shoot
+                    5    2+ 2+ 2+ 3+ 4+ 5+ 6+ 6+ 6+ 6+
+                                                                                             before the end of the next round.
+                    6    2+ 2+ 2+ 2+ 3+ 4+ 5+ 6+ 6+ 6+                                5-6    Pffft: The fuse has gone out. As far as mishaps go, it
+                                                                                             is not very serious, but one of the crew will be feeling
+                    7    2+ 2+ 2+ 2+ 2+ 3+ 4+ 5+ 6+ 6+
+                                                                                             rather foolish! The model fails to shoot this turn.
+                    8    2+ 2+ 2+ 2+ 2+ 2+ 3+ 4+ 5+ 6+
+                    9    2+ 2+ 2+ 2+ 2+ 2+ 2+ 3+ 4+ 5+
+                    10   2+ 2+ 2+ 2+ 2+ 2+ 2+ 2+ 3+ 4+
+Combat Phase                                                     1.3. Roll To Wound & Make Armour Saves: For each
+                                                                 successful hit, roll To Wound and make Armour Save rolls as
+The Combat phase is broken up into several sub-phases.           described for Shooting attacks.
+
+1. Choose & Fight Combat (page 145)                              1.4. Remove Casualties: Casualties are removed from the
+This sub-phase is broken down into the following steps:          rear rank of the unit as normal, representing members of the
+                                                                 rear ranks stepping forward to fill gaps left by fallen comrades.
+1.1. Choose Combat & Determine Who Can Fight.                    A model cannot attack during a phase in which it stepped
+                                                                 forward, as described on page 150.
+1.2. Roll To Hit.
+                                                                                                              To Hit Chart
+1.3. Roll To Wound & Make Armour Saves.                                                                   Target’s Weapon Skill
+                                                                                                  1   2   3    4   5    6    7    8   9   10
+1.4. Remove Casualties.
+                                                                                             1    4+ 4+ 5+ 5+ 5+ 5+ 5+ 5+ 5+ 5+
+1.1. Choose Combat & Determine Who Can Fight: The                                            2    3+ 4+ 4+ 4+ 5+ 5+ 5+ 5+ 5+ 5+
+active player chooses which order the combats are resolved in.
+
+
+
+
+                                                                   Attacker’s Weapon Skill
+Each combat must be fully resolved before moving onto the                                    3    2+ 3+ 4+ 4+ 4+ 4+ 5+ 5+ 5+ 5+
+next one. Each combat is resolved in Initiative order. Models
+                                                                                             4    2+ 3+ 3+ 4+ 4+ 4+ 4+ 4+ 5+ 5+
+in a charging unit gain a bonus to their Initiative for the
+remainder of the turn depending on how far they charged:                                     5    2+ 2+ 3+ 3+ 4+ 4+ 4+ 4+ 4+ 4+
+                                                                                             6    2+ 2+ 3+ 3+ 3+ 4+ 4+ 4+ 4+ 4+
+• Charging an Enemy in their Front Arc: +1 Initiative per
+  full 1" moved, to a maximum of +3.                                                         7    2+ 2+ 2+ 3+ 3+ 3+ 4+ 4+ 4+ 4+
+• Charging an Enemy in their Flank or Rear Arc: +1
+  Initiative per full 1" moved, to a maximum of +4.                                          8    2+ 2+ 2+ 3+ 3+ 3+ 3+ 4+ 4+ 4+
+                                                                                             9    2+ 2+ 2+ 2+ 3+ 3+ 3+ 3+ 4+ 4+
+Each model in the fighting rank can attack, though models
+that are not in base contact with the enemy unit may only                                    10   2+ 2+ 2+ 2+ 3+ 3+ 3+ 3+ 3+ 4+
+make one attack regardless of the number of attacks on
+their profile.
+
+1.2. Roll To Hit: Make a roll To Hit for each attacking model,
+cross-referencing their Weapon Skill with that of the model
+they are attacking:
+2. Calculate Combat Result (page 151)                               4. Follow Up & Pursuit (page 156)
+To determine your combat result score, consult the table            Once Break tests have been made, but before any units
+below and calculate how many ‘combat result points’ your            Give Ground or make a Flee roll, the winning unit(s) must
+unit(s) scored:                                                     decide what they will do next: restrain and reform, follow up
+                                                                    or pursue.
+Combat Result Table
+Unsaved wounds inflicted                         1 point each       Restrain & Reform: A unit that wishes to restrain & reform
+Rank Bonus                                     +1 point/rank        makes a Restraint test by testing against its Leadership. If
+Standard                                             +1 point       this test is passed, it remains where it is and may make a free
+Battle Standard                                      +1 point       reform. Otherwise, it must follow up or pursue.
+Flank attack                                         +1 point
+Rear attack                                         +2 points       Follow Up: If the enemy Gives Ground, the winning unit(s)
+High ground                                          +1 point       move forwards to engage it once again. Before following up, a
+Overkill                               +1 point/excess wound        unit may perform a free turn manoeuvre (of 90° or 180°).
+Other bonuses                                   As applicable
+                                                                    Pursuit: If the enemy Falls Back in Good Order or flees, the
+3. Break Test (page 154)                                            winning unit(s) can pursue, as described on page 156.
+Each unit belonging to the losing side must make a Break test
+by rolling 2D6 and applying the difference between the winner       Overrun: If a unit wiped out its enemy, it may overrun by
+and the loser’s combat result scores as a negative modifier.        making a pursuit move directly forwards.
+Compare the result to the unit’s Leadership characteristic:
+
+• If the result of the natural roll is higher than the unit’s
+  Leadership, the unit ‘Breaks’ and flees.
+• If the result of the natural roll is equal to or lower than the
+  unit’s Leadership, but the modified result is higher than the
+  unit’s Leadership, the unit Falls Back in Good Order.
+• If the modified result is equal to or lower than the unit’s
+  Leadership, or if the roll is a natural double 1, the unit
+  Gives Ground.
+

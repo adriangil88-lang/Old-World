@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+core_4.tsv	C4-141	Reglas especiales p.178	Veterano: repite Ld fallido (no Ruptura)	OK	rules.js (varias llamadas)	Veterano repite Ld fallido en Pánico/Miedo/Terror/Contención/Rally/Estupidez/chequeos genéricos
+aj_beasts2.tsv	aj_beasts2-085	aj_beasts2.txt:1210-1213	Bestias de guerra, base 25x50, unidad 10+, garras y colmillos (mano)	OK	data.js:3569; data.js:1003	
+faq_libros.tsv	Q11	FoF FAQ DMH	Doomseeker no puede unirse a Slayers	OK	rules.js:5885 (joinCheck solo cat char)	
+core_4.tsv	C4-057	Terreno y combate p.159	Obstáculo bajo defendido: cargar no cruza; carga desordenada salvo Volar	OK	rules.js:3065 (kind==='wall', !flyer)	
+aj_empire2.tsv	aj_empire2-124	aj_empire2.txt:1553-1557	Orden del Sol Ardiente: +1 punto de resultado de combate al cargar (no acumulativo) para Maestres y Círculo Interior	OK	rules.js CR (sunCR)	
+aj_dwarfs2.tsv	aj_dwarfs2-027	aj_dwarfs2.txt L626	Clan Real: Herreros Rúnicos permitidos	OK	data.js:3430	
+aj_beasts2.tsv	aj_beasts2-117	aj_beasts2.txt:1425-1430	Control: una unidad a 6 pulg, US 5+, no huyendo; la mas cercana manda; empate = disputada	OK	rules.js:1825-1834	
+leg_skaven.tsv	leg_skaven-165	leg_skaven.txt:632-634	Campana: Armour Bane (2, solo Rat Ogre), Dragged Along, Large Target, Magic Resistance (-3), Scurrying Masses, Stubborn,	OK	data.js:sk_greyseer_bell sr draggedAlong; rules.js dragM	Dragged Along añadido
+leg_ogres.tsv	leg_ogres-175	leg_ogres.txt:777-778	Mandíbula distensible: una de sus ataques cada turno con esta arma (Golpe letal)	OK	data.js:2093 (maw); rules.js:4708	
+faq_libros.tsv	RQ22	RH FAQ Beastmen AJ	0-1 Piedra de las Manadas por ejército	OK	data.js:802 (max 1)	
+aj_orcs2.tsv	aj_orcs2-033	aj_orcs2.txt:803-805	Enhanced Regeneration: Regeneración (X+) repite salvaciones fallidas contra heridas no mágicas	OK	rules.js:1740	
+cathay.tsv	cathay_aj-069	cathay_aj.txt 1983-1990	"Baliza celestial: amigos a 12"" repiten chequeo de Reagrupar fallido"	OK	"rules.js ~5733 baliza 12"" fijo"	
+leg_vampires.tsv	leg_vampires-127	leg_vampires.txt:567	Pesadilla M7 HA3 F4 I2 A1	OK	data.js:1907 M7 mountAtk S4	
+leg_lizardmen.tsv	leg_lizardmen-145	leg_lizardmen.txt:678-683	Venomous talons F AP-2 Poisoned; Venom spray F3 AP-1 Breath Weapon, 5+ siempre hiere	OK	data.js:1742 (poisoned, alwaysW 5)	
+faq_libros.tsv	C13	Cathay p.43 Icon of Heavenly Fury	Puntos 45	OK	data.js:2501	
+faq_core_2.tsv	F2-058	FAQ Magia	Un modelo con armadura o escudo puede lanzar un hechizo Ligado	OK	rules.js:3160-3180	castCheck sin restriccion por armadura
+core_7.tsv	core_7-055	core_rulebook.txt 9872-9890	Heroic Last Stand, Army Selection: el perdedor de la 2a batalla usa su lista original; el ganador usa su lista de inicio y tira D6 por cada unidad con bajas o eliminada	OK	rules.js:linkedArmy (stage 3); main.js mLinked	Perdedor de la 2a: lista original de la 1a; ganador: lista con la que empezo la 2a con bajas
+aj_beasts2.tsv	aj_beasts2-054	aj_beasts2.txt:940-947	Gifts from the Dark Gods: +25 pts adicionales en objetos magicos	OK	data.js:3178 LIST_IB.wild	
+aj_chaos2.tsv	aj_chaos2-121	aj_chaos2.txt L1315-1316	Carne endurecida: R+1 y armadura mejora en 2	OK	rules.js:4973 wfFlesh	
+leg_lizardmen.tsv	leg_lizardmen-020	leg_lizardmen.txt:93-96	Slann: monstrous creature 50x50 tamano 1 arma de mano	OK	data.js:1669-1670 (tt monCreature baseW 50)	
+faq_libros.tsv	F09	FoF p.39 Rune Lore	"Los modelos con Rune Lore pueden disipar como Mago; Runelord 21"" +2, Runesmith 18"" +1"	OK	rules.js:3252-3257, data.js:1361,1364	
+aj_empire2.tsv	aj_empire2-025	aj_empire2.txt:790-796	Nuln: Gun Limbers (0-1 máquina por 1.000 pts con Vanguardia y Veterano: Cañón +5, Mortero +5, Helblaster +15, Helstorm +	OK	data.js:3512 (opción gl), 4349	
+aj_bretonnia.tsv	aj_bretonnia-101	aj_bretonnia.txt L1359-1361	Caliz de Brionne: personajes enemigos que usen reglas/objetos con chequeo de Liderazgo sufren -2 L (min 2) en alcance...	OK	rules.js:ldOf(s,u,noWb,rule) ~1633; usos rule=true: Caldero (cauldron), Senor de la Noche/Yelmo de Mando	El -2 Ld solo se aplica a chequeos exigidos por reglas/objetos (ldOf con rule=true); ya no a panico/desmoralizacion
+core_8.tsv	core_8-049	Waaagh! p.335 l.10796	Sol Malvado: Enchantment 9+, Propio; unidades amigas en rango de mando repiten 1 naturales para impactar y +1 FP hasta tu proximo inicio	OK	rules.js:applySpell0 evilsun/charge (commandRange)	Radio = rango de mando
+aj_empire2.tsv	aj_empire2-085	aj_empire2.txt:1290-1295	Ogros Imperiales: Carga ogra (PA de los Impactos mejora con el Bono de Fila)	OK	data.js:3470 (ogreCharge) rules.js impact	
+core_2.tsv	C2-078	Obscured Line of Sight	Totalmente visible = al descubierto; hasta la mitad oculta = cobertura parcial; más de la mitad = cobertura total	OK	rules.js:2113-2127 coverMod (5 puntos; hidden*2>N total)	Efectos de la cobertura se cuentan en Disparo (fuera de tramo)
+core_8.tsv	core_8-025	Alta Magia p.328 l.10535	"Tempestad: plantilla 3"" inmovil, terreno peligroso"	OK	data.js:2382 vx{danger,still}; rules.js:3560	
+leg_vampires.tsv	leg_vampires-029	leg_vampires.txt:118-120	Armadura ligera +3 o pesada +6	OK	data.js:4099-4100	
+cathay.tsv	cathay_aj-108	cathay_aj.txt 2630-2640	Escudo de Nan-Gau 20: escudo; si fue cargado AV +2 (max 2+)	OK	rules.js ~1701 svCharged; data.js ct_nangau	AV +2 al ser cargado (max 2+)
+core_6.tsv	core6-050	Hills / Beyond the Crest	Si una colina está entre dos modelos y ninguno está sobre ella, solo hay LDV si la línea no la cruza	OK	rules.js:1953	kind hill
+aj_orcs2.tsv	aj_orcs2-067	aj_orcs2.txt:1089-1091	Swamp breath: F3 FP-2 Arma de aliento; unidad con heridas sin salvar hace Pánico por bajas graves	OK	data.js:837 (panicHit en aliento)	Alcance 8 = plantilla de llama del Arma de aliento (Core); pánico por heridas sin salvar
+aj_bretonnia.tsv	aj_bretonnia-091	aj_bretonnia.txt L1259-1260	Capa: salvacion especial 3+ contra Ataques Flamigeros	OK	rules.js:1669	
+cathay.tsv	cathay_aj-101	cathay_aj.txt 2471-2474	Tripulacion con Cargador: +1 M y Tozuda	OK	data.js:3371 M+1, addSr stubborn	
+core_2.tsv	C2-053	Forming Units: Rank Bonus	+1 por fila tras la primera con los modelos mínimos de su tipo, hasta el máximo	OK	rules.js:1340-1351 rankBonus; data.js:30-43	
+aj_dwarfs2.tsv	aj_dwarfs2-016	aj_dwarfs2.txt L519-521	Primer turno: el atacante lo toma automáticamente	OK	rules.js:190 (first:0)	
+leg_ogres.tsv	leg_ogres-168	leg_ogres.txt:745-748	Porra del Gigante con perfil variable según el ataque	OK	rules.js:4916-4930	
+faq_core_1.tsv	FQ1-014	Errata p.145 Supporting Attacks	"Ataque de apoyo desde la fila/columna detrás de la fila de combate y a distancia M"" del enemigo"	OK	rules.js: attackProfile0 (reach M, supN)	"Apoyo a <= M"" desde la fila de detrás"
+leg_ogres.tsv	leg_ogres-166	leg_ogres.txt:710-713	6 Saltar: D6+1 impactos de F sin salvación de armadura	OK	rules.js:4929	
+aj_tk2.tsv	aj_tk2-064	aj_tk2.txt L1112-1114	Nekaph: reglas especiales: Seco como Polvo, Inflamable, Heraldo de Desesperación, Indomitable 2, Golpe Letal, Nehekharan	OK	data.js nekaph sr sworn	
+core_4.tsv	C4-140	Reglas especiales p.178	Vanguardia (FAQ): movimiento tras despliegue; sin cargar primer turno	OK	rules.js:2129-2158, 2822	
+aj_wood2.tsv	aj_wood2-031	aj_wood2.txt:768-790	Worthy of Kurnous: tras despliegue se designa un personaje o monstruo enemigo como presa	OK	rules.js preStep/preyOpts + apply0 nomKind prey; ai.js decider kind prey; main.js modal	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-193	leg_chaosdwarfs.txt:586-587	Cada turno dispara un tipo de cohete (jugador elige)	OK	rules.js rocketPref; main.js; ai.js rk	El motor elige: incendiarios si 8+ modelos, si no demolicion
+battlemarch_quickref.tsv	battlemarch-189	battlemarch.txt L2880-2886	Estandarte del Renombre (15): un uso, +1 punto de resolución de combate	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+battlemarch_quickref.tsv	quickref-003	quickref.txt L25-26	Doble 6 natural al lanzar: se lanza sin importar el valor y no puede dispersarse	OK	rules.js:3942 (perfect), tryDispel rules.js:3367	
+leg_darkelves.tsv	leg_darkelves-047	leg_darkelves.txt:171-172	Escudo +2; armadura pesada +3	OK	data.js:5356-5357	
+faq_libros.tsv	C16	Cathay p.44 Maw Shard	Puntos 50	OK	data.js:2504	
+aj_highelves.tsv	aj_highelves-131	aj_highelves.txt:1692-1698	Escudo Dorado 30 pts: escudo; el enemigo repite impactos de 6 natural contra el portador	OK	data.js:2865, rules.js:4378, 4656	
+faq_libros.tsv	F31	FoF p.110 Lance formation	+1 al resultado con Fuerza de Unidad 5+	OK	rules.js:5242 (co_lance exige usOf(u) >= 5)	
+leg_daemons.tsv	leg_daemons-159	leg_daemons.txt L735-741	Heraldo de Tzeentch: Mago nivel 1; todos los Saberes de Tzeentch	OK	data.js:5329, 4681	
+leg_lizardmen.tsv	leg_lizardmen-085	leg_lizardmen.txt:343	Kroxigor: Ancient (campeon) +7 pts por unidad	OK	data.js:CMD lm_kroxigor 7	Codigo +10 en vez de +7

@@ -1,0 +1,111 @@
+dw_hammerers|arm:heavy|Hammerer@fof.txt:871|FALTA en datos: |SOBRA en datos: gromrilArm,magical|reglas libro sin id: 
+dw_irondrakes|arm:plate|Irondrake@fof.txt:971|FALTA en datos: |SOBRA en datos: dwarfCrafted|reglas libro sin id: 
+dw_slayers|arm:none|Troll Slayer@fof.txt:1069|FALTA en datos: |SOBRA en datos: deathblow,hatredOrcs,immunePsy,loner,magRes2,openOrder,resolute,slayer,unbreakable|reglas libro sin id: and foes – means that Slayers
+state_spears|arm:light|State Missile Trooper@fof.txt:2278|FALTA en datos: detachment,regimental|SOBRA en datos: horde|reglas libro sin id: 
+state_vets|arm:light|State Missile Trooper@fof.txt:2278|FALTA en datos: |SOBRA en datos: veteran,horde|reglas libro sin id: 
+br_bowmen_stakes|arm:none|Peasant Bowmen@fof.txt:3702|FALTA en datos: |SOBRA en datos: stakes|reglas libro sin id: 
+br_questing|arm:heavy|Questing Knight@fof.txt:3850|FALTA en datos: |SOBRA en datos: stubborn|reglas libro sin id: 
+br_grail|arm:heavy|Grail Knight@fof.txt:3898|FALTA en datos: |SOBRA en datos: magical,immunePsy,stubborn|reglas libro sin id: Living Saints
+we_spellweaver|arm:undefined|Spellweaver@fof.txt:4697|FALTA en datos: |SOBRA en datos: athelLoren|reglas libro sin id: Lore of Athel Loren
+we_shadowdancer|arm:none|Shadowdancer@fof.txt:4742|FALTA en datos: |SOBRA en datos: killingBlow|reglas libro sin id: Talismanic Tattoos
+we_ancient|arm:plate|Treeman Ancient@fof.txt:4831|FALTA en datos: |SOBRA en datos: athelLoren,fear|reglas libro sin id: Lore of Athel Loren
+we_ancient_amb|arm:plate|Treeman Ancient@fof.txt:4831|FALTA en datos: |SOBRA en datos: athelLoren,fear,ambush|reglas libro sin id: Lore of Athel Loren
+we_branchwraith|arm:light|Branchwraith@fof.txt:4876|FALTA en datos: |SOBRA en datos: athelLoren|reglas libro sin id: Lore of Athel Loren
+we_rangers|arm:light|Wildwood Ranger@fof.txt:5110|FALTA en datos: |SOBRA en datos: guardians,fireFlee|reglas libro sin id: Guardians of the Wildwood
+we_wardancers|arm:none|Wardancer@fof.txt:5155|FALTA en datos: |SOBRA en datos: loec|reglas libro sin id: Dances of Loec;Talismanic Tattoos
+we_dryads|arm:light|Dryad@fof.txt:5248|FALTA en datos: regen|SOBRA en datos: |reglas libro sin id: 
+we_warhawks_sk|arm:none|Warhawk Rider@fof.txt:5435|FALTA en datos: |SOBRA en datos: furiousCharge,impetuous|reglas libro sin id: 
+we_treeman_amb|arm:plate|Treeman@fof.txt:5568|FALTA en datos: |SOBRA en datos: ambush|reglas libro sin id: Armour Bane (1)
+he_handmaiden|arm:light|Handmaiden@fof.txt:6196|FALTA en datos: ithilmarW|SOBRA en datos: |reglas libro sin id: Arrows of Isha
+he_swordmasters|arm:heavy|Swordmaster@fof.txt:6437|FALTA en datos: |SOBRA en datos: magical|reglas libro sin id: Warriors of the White Tower
+he_phoenix|arm:plate|Phoenix Guard@fof.txt:6485|FALTA en datos: |SOBRA en datos: magical|reglas libro sin id: 
+he_shadow_amb|arm:light|Shadow Warrior@fof.txt:6529|FALTA en datos: |SOBRA en datos: ambush|reglas libro sin id: Warriors of Nagarythe
+goblins_sk|arm:none|Goblin@rh.txt:881|FALTA en datos: |SOBRA en datos: skulkers|reglas libro sin id: 
+wolf_riders_snk|arm:none|Wolf Rider@rh.txt:1265|FALTA en datos: |SOBRA en datos: ambush|reglas libro sin id: 
+wolf_riders_hp|arm:none|Wolf Rider@rh.txt:1265|FALTA en datos: openOrder,skirmish|SOBRA en datos: closeOrder,horde|reglas libro sin id: 
+mangler_squig|arm:heavy|Mangler Squig@rh.txt:1558|FALTA en datos: randomAtk|SOBRA en datos: killingBlow|reglas libro sin id: Ker-splat;Spiked Ball & Chains
+woc_marauders|arm:light|Chaos Marauder@rh.txt:2551|FALTA en datos: |SOBRA en datos: horde|reglas libro sin id: 
+woc_marauders_famb|arm:light|Chaos Marauder@rh.txt:2551|FALTA en datos: |SOBRA en datos: horde,ambush|reglas libro sin id: 
+woc_forsaken|arm:heavy|Forsaken@rh.txt:2598|FALTA en datos: randomAtk|SOBRA en datos: |reglas libro sin id: 
+trolls|arm:light|Chaos Troll@rh.txt:2698|FALTA en datos: |SOBRA en datos: trollVomit|reglas libro sin id: Armour Bane (1)
+woc_trolls|arm:light|Chaos Troll@rh.txt:2698|FALTA en datos: |SOBRA en datos: motley|reglas libro sin id: Armour Bane (1)
+woc_spawn|arm:heavy|Chaos Spawn@rh.txt:2750|FALTA en datos: randomAtk|SOBRA en datos: |reglas libro sin id: Armour Bane (2)
+woc_knights|arm:heavy|Chaos Knight@rh.txt:2802|FALTA en datos: |SOBRA en datos: counterCharge|reglas libro sin id: 
+woc_hellcannon|arm:undefined|Hellcannon@rh.txt:3249|FALTA en datos: ensorcelled,monsterHandlers,warpSpawned,magical|SOBRA en datos: bombard,moveOrFire|reglas libro sin id: Armour Bane (1)
+cd_hellcannon|arm:undefined|Hellcannon@rh.txt:3249|FALTA en datos: ensorcelled,monsterHandlers,warpSpawned,magical|SOBRA en datos: bombard,moveOrFire|reglas libro sin id: Armour Bane (1)
+bm_shaggoth|arm:light|Shaggoth@rh.txt:4415|FALTA en datos: |SOBRA en datos: quickening|reglas libro sin id: Armour Bane (2);Armoured Hide (2);The Quickening Storm
+bm_cygor|arm:light|Cygor@rh.txt:4564|FALTA en datos: |SOBRA en datos: bombard|reglas libro sin id: 
+bm_ghorgon|arm:light|Ghorgon@rh.txt:4718|FALTA en datos: |SOBRA en datos: killingBlow|reglas libro sin id: Swallow Whole
+tk_warriors_ph|arm:none|Skeleton Warrior@rh.txt:5634|FALTA en datos: |SOBRA en datos: phalanx|reglas libro sin id: 
+vc_skeletons|arm:light|Skeleton Archer@rh.txt:5685|FALTA en datos: asaph,detachment,openOrder|SOBRA en datos: closeOrder,horde|reglas libro sin id: 
+tk_ushabti|arm:heavy|Ushabti@rh.txt:5739|FALTA en datos: asaph,khopesh|SOBRA en datos: |reglas libro sin id: 
+tk_ushabti_bow|arm:heavy|Ushabti@rh.txt:5739|FALTA en datos: khopesh|SOBRA en datos: |reglas libro sin id: 
+tk_horse_archers_mo|arm:none|Skeleton Horse Archer@rh.txt:5895|FALTA en datos: |SOBRA en datos: chariotRun|reglas libro sin id: 
+tk_scorpion|arm:heavy|Tomb Scorpion@rh.txt:6194|FALTA en datos: |SOBRA en datos: killingBlow|reglas libro sin id: 
+tk_colossus|arm:heavy|Necrolith Colossus@rh.txt:6244|FALTA en datos: |SOBRA en datos: killingBlow|reglas libro sin id: Unstoppable Assault
+tk_necrosphinx|arm:heavy|Necrosphinx@rh.txt:6299|FALTA en datos: |SOBRA en datos: killingBlow|reglas libro sin id: 
+bm_kralmaw|arm:none|Kralmaw, the@aj_beasts2.txt:1005|FALTA en datos: |SOBRA en datos: grisly|reglas libro sin id: Leering Spirit;Lore of Beasts
+bm_ghorros|arm:none|Ghorros Warhoof@aj_beasts2.txt:1109|FALTA en datos: |SOBRA en datos: unicornSkull|reglas libro sin id: The Sons of Ghorros
+bm_warped|arm:none|Warped Gor@aj_beasts2.txt:1156|FALTA en datos: randomAtk|SOBRA en datos: |reglas libro sin id: Armoured Hide (1)
+bm_gor|arm:none|Gor@aj_beasts2.txt:1262|FALTA en datos: closeOrder,impetuous,motley|SOBRA en datos: openOrder,skirmish|reglas libro sin id: Mixed Unit
+bm_gor_aw|arm:none|Gor@aj_beasts2.txt:1262|FALTA en datos: closeOrder,impetuous,motley|SOBRA en datos: openOrder,skirmish|reglas libro sin id: Mixed Unit
+bm_preyton|arm:heavy|Preyton@aj_beasts2.txt:1318|FALTA en datos: impact|SOBRA en datos: |reglas libro sin id: 
+woc_galrauch|arm:undefined|Galrauch,@aj_chaos2.txt:1094|FALTA en datos: |SOBRA en datos: magical|reglas libro sin id: Armoured Hide (1);Mark of Tzeentch
+dw_thorgrim|arm:heavy|Thorgrim Ulleksson@aj_dwarfs2.txt:856|FALTA en datos: |SOBRA en datos: grudgestone,skaldour|reglas libro sin id: 
+dw_ungrim|arm:plate|Ungrim Ironfist@aj_dwarfs2.txt:940|FALTA en datos: |SOBRA en datos: monsterSlayer|reglas libro sin id: 
+dw_sapper|arm:heavy|Engineer Sapper@aj_dwarfs2.txt:1072|FALTA en datos: |SOBRA en datos: hostileTerrain|reglas libro sin id: 
+dw_doomseeker|arm:none|Doomseeker@aj_dwarfs2.txt:1116|FALTA en datos: randomAtk|SOBRA en datos: skirmish|reglas libro sin id: Doomseeker
+emp_harald|arm:plate|Harald Gemunsen@aj_empire2.txt:1036|FALTA en datos: |SOBRA en datos: hatredChaos,killingBlow,magical,panther1,reaverBM,pantherOnly|reglas libro sin id: Grand Master of the Knights Panther;Hatred (Warriors of Chaos, Beastmen Brayherds & Daemonic models)
+emp_hans|arm:plate|General Hans@aj_empire2.txt:1124|FALTA en datos: |SOBRA en datos: magical,griffonHelm,juicioMW|reglas libro sin id: 
+teutogen|arm:plate|Teutogen Guard@aj_empire2.txt:1221|FALTA en datos: |SOBRA en datos: wolfHammer|reglas libro sin id: Guardians of the Temple
+gob_kiknik|arm:light|Kiknik Toofsnatcha@aj_orcs2.txt:878|FALTA en datos: |SOBRA en datos: itRun,magical,trophyRack|reglas libro sin id: All Sneaky Like;Armour Bane (1, Chompa only);Armoured Hide (1);9It & Run
+orc_ogdruz|arm:undefined|Ogdruz Swampdigga@aj_orcs2.txt:960|FALTA en datos: |SOBRA en datos: flammable,magical,regen|reglas libro sin id: Protect Da Boss
+troll_hag|arm:heavy|Troll Hag@aj_orcs2.txt:1007|FALTA en datos: |SOBRA en datos: trollVomit|reglas libro sin id: 
+tk_settra|arm:plate|Settra the Imperishable@aj_tk2.txt:873|FALTA en datos: impact|SOBRA en datos: chariot,khopesh,reserveMove,swiftstride,settraGreat,noKneel,arise,sunBlade,crownNeh|reglas libro sin id: Commander of Legions;Lore of Nehekhara;Settra Does
+tk_apophas|arm:light|Prince Apophas@aj_tk2.txt:1020|FALTA en datos: |SOBRA en datos: undead,regen,scarabPrince,reaper,terror,unstable,fear,immunePsy,unbreakable|reglas libro sin id: Nehekharan
+tk_nekaph|arm:light|Nekaph,@aj_tk2.txt:1108|FALTA en datos: |SOBRA en datos: settraChamp|reglas libro sin id: Settra9s Champion
+tk_warriors_ph|arm:none|Skeleton Warrior@aj_tk2.txt:1472|FALTA en datos: skirmish|SOBRA en datos: closeOrder,phalanx,regimental|reglas libro sin id: 
+tk_warriors|arm:none|Skeleton Warrior@aj_tk2.txt:1472|FALTA en datos: skirmish|SOBRA en datos: closeOrder,regimental|reglas libro sin id: 
+br_green_knight|arm:heavy|The Green Knight@aj_bretonnia.txt:1074|FALTA en datos: |SOBRA en datos: ambush,magical|reglas libro sin id: Aura of the Fay;Blessed Knight;Guardian of the Sacred Sites
+br_cecil|arm:heavy|Sir Cecil Gastonne@aj_bretonnia.txt:1236|FALTA en datos: |SOBRA en datos: dragonhide,magical,monsterSlayer,stubborn,veteran|reglas libro sin id: 
+he_korhil|arm:heavy|Korhil Lionmane@aj_highelves.txt:1084|FALTA en datos: |SOBRA en datos: chayal,killingBlow,pelt|reglas libro sin id: 
+he_ishaya|arm:heavy|Ishaya Vess@aj_highelves.txt:1181|FALTA en datos: |SOBRA en datos: mathIre|reglas libro sin id: 
+he_merwyrm|arm:heavy|Merwyrm@aj_highelves.txt:1571|FALTA en datos: impact|SOBRA en datos: |reglas libro sin id: 
+we_araloth|arm:heavy|Araloth,@aj_wood2.txt:1124|FALTA en datos: |SOBRA en datos: magical|reglas libro sin id: Favour of the Goddess
+cd_prophet|arm:heavy|Sorcerer-Prophet@leg_chaosdwarfs.txt:96|FALTA en datos: |SOBRA en datos: sorcCurse|reglas libro sin id: Lore of Hashut;Sorcerer’s Curse
+cd_ironsworn|arm:plate|Infernal Ironsworn@leg_chaosdwarfs.txt:232|FALTA en datos: |SOBRA en datos: detachment|reglas libro sin id: 
+dm_herald_khorne|arm:light|Herald of Khorne@leg_daemons.txt:138|FALTA en datos: |SOBRA en datos: indom1,cleave|reglas libro sin id: Daemon of Khorne;Infernal Favour (1)
+dm_bloodletters|arm:light|Bloodletter@leg_daemons.txt:177|FALTA en datos: |SOBRA en datos: cleave|reglas libro sin id: Daemons of Khorne
+dm_herald_nurgle|arm:none|Herald of Nurgle@leg_daemons.txt:356|FALTA en datos: regen|SOBRA en datos: indom1|reglas libro sin id: Daemon of Nurgle;Infernal Favour (1);Lore of Daemons
+dm_plaguebearers|arm:none|Plaguebearer@leg_daemons.txt:396|FALTA en datos: regen|SOBRA en datos: |reglas libro sin id: Daemons of Nurgle
+dm_keeper|arm:none|Keeper of Secrets@leg_daemons.txt:491|FALTA en datos: |SOBRA en datos: indom2,strikeFirst,killingBlow|reglas libro sin id: Daemon of Slaanesh;Infernal Favour (2);Lore of Daemons
+dm_herald_slaanesh|arm:none|Herald of Slaanesh@leg_daemons.txt:521|FALTA en datos: |SOBRA en datos: indom1|reglas libro sin id: Daemon of Slaanesh;Infernal Favour (1);Lore of Daemons
+dm_herald_tzeentch|arm:none|Herald of Tzeentch@leg_daemons.txt:730|FALTA en datos: |SOBRA en datos: indom1|reglas libro sin id: Daemon of Tzeentch;Infernal Favour (1);Lore of Daemons
+dm_screamers|arm:none|Screamer@leg_daemons.txt:862|FALTA en datos: |SOBRA en datos: swiftstride|reglas libro sin id: Daemons of Tzeentch
+dm_prince|arm:light|Daemon Prince@leg_daemons.txt:941|FALTA en datos: |SOBRA en datos: indom2|reglas libro sin id: Infernal Favour (2);Lore of Daemons
+de_assassin|arm:none|Khainite Assassin@leg_darkelves.txt:230|FALTA en datos: |SOBRA en datos: hatredHE|reglas libro sin id: Hatred (All Enemies)
+de_executioners|arm:heavy|Executioner@leg_darkelves.txt:432|FALTA en datos: |SOBRA en datos: cleave|reglas libro sin id: 
+lm_temple|arm:heavy|Temple Guard@leg_lizardmen.txt:241|FALTA en datos: guardians|SOBRA en datos: tgGuardians|reglas libro sin id: Obsidian Blades
+lm_terradons|arm:light|Terradon Rider@leg_lizardmen.txt:453|FALTA en datos: poisoned|SOBRA en datos: |reglas libro sin id: Armoured Hide (1)
+lm_troglodon|arm:heavy|Troglodon@leg_lizardmen.txt:651|FALTA en datos: |SOBRA en datos: poisoned|reglas libro sin id: Lore of Lustria
+ok_firebelly|arm:none|Firebelly@leg_ogres.txt:218|FALTA en datos: |SOBRA en datos: volcano|reglas libro sin id: Armour Bane (1);Blessings of the Volcano God
+orc_ogre_bulls|arm:light|Ogre@leg_ogres.txt:299|FALTA en datos: |SOBRA en datos: motley|reglas libro sin id: Armour Bane (1)
+ok_yhetees|arm:none|Yhetee@leg_ogres.txt:449|FALTA en datos: |SOBRA en datos: magical|reglas libro sin id: Armoured Hide (1)
+sk_warlord|arm:light|Skaven Warlord@leg_skaven.txt:100|FALTA en datos: |SOBRA en datos: magical|reglas libro sin id: Warpstone Weapons
+sk_stormvermin|arm:heavy|Stormvermin@leg_skaven.txt:276|FALTA en datos: |SOBRA en datos: wtParent|reglas libro sin id: Warpstone Weapons
+sk_clanrats|arm:light|Clanrat@leg_skaven.txt:300|FALTA en datos: |SOBRA en datos: wtParent|reglas libro sin id: 
+sk_jezzail|arm:none|Jezzail Team@leg_skaven.txt:404|FALTA en datos: |SOBRA en datos: moveOrFire,pavise|reglas libro sin id: 
+sk_censer|arm:none|Censer Bearer@leg_skaven.txt:608|FALTA en datos: |SOBRA en datos: poisoned|reglas libro sin id: 
+vc_necromancer|arm:none|Master Necromancer@leg_vampires.txt:187|FALTA en datos: |SOBRA en datos: fear,immunePsy,nehek,unbreakable,undead,unstable|reglas libro sin id: Invocation of Nehek;Lore of Undeath;Necromantic Undead
+vc_banshee|arm:none|Tomb Banshee@leg_vampires.txt:332|FALTA en datos: |SOBRA en datos: fear,immunePsy,unbreakable,undead,unstable|reglas libro sin id: Necromantic Undead
+tk_guard_ph|arm:light|Grave Guard@leg_vampires.txt:389|FALTA en datos: |SOBRA en datos: undead,fear,immunePsy,unbreakable,unstable,khopesh,phalanx,regimental|reglas libro sin id: Necromantic Undead
+tk_guard_hb|arm:light|Grave Guard@leg_vampires.txt:389|FALTA en datos: |SOBRA en datos: undead,fear,immunePsy,unbreakable,unstable,regimental|reglas libro sin id: Necromantic Undead
+tk_warriors_sp|arm:none|Skeleton Warrior@leg_vampires.txt:427|FALTA en datos: |SOBRA en datos: undead,fear,immunePsy,unbreakable,unstable,regimental|reglas libro sin id: Necromantic Undead
+vc_skeletons|arm:light|Skeleton Warrior@leg_vampires.txt:427|FALTA en datos: |SOBRA en datos: fear,immunePsy,unbreakable,undead,unstable|reglas libro sin id: Necromantic Undead
+vc_zombies|arm:none|Zombie@leg_vampires.txt:448|FALTA en datos: |SOBRA en datos: fear,immunePsy,unbreakable,undead,unstable|reglas libro sin id: Necromantic Undead
+vc_ghouls|arm:none|Crypt Ghoul@leg_vampires.txt:466|FALTA en datos: |SOBRA en datos: fear,immunePsy,unbreakable,undead,unstable|reglas libro sin id: Necromantic Undead
+vc_horrors|arm:none|Crypt Horror@leg_vampires.txt:484|FALTA en datos: |SOBRA en datos: fear,immunePsy,poisoned,unbreakable,undead,unstable|reglas libro sin id: Necromantic Undead
+vc_vargheists|arm:none|Vargheist@leg_vampires.txt:516|FALTA en datos: |SOBRA en datos: fear,immunePsy,unbreakable,undead,unstable|reglas libro sin id: Armour Bane (2);Necromantic Undead
+vc_hexwraith|arm:none|Hexwraith@leg_vampires.txt:664|FALTA en datos: |SOBRA en datos: fear,immunePsy,unbreakable,undead,unstable|reglas libro sin id: Necromantic Undead
+vc_terrorgheist|arm:light|Terrorgheist@leg_vampires.txt:889|FALTA en datos: |SOBRA en datos: fear,immunePsy,poisoned,unbreakable,undead,unstable|reglas libro sin id: Necromantic Undead
+vc_varghulf|arm:light|Varghulf@leg_vampires.txt:955|FALTA en datos: |SOBRA en datos: fear,immunePsy,unbreakable,undead,unstable|reglas libro sin id: Necromantic Undead

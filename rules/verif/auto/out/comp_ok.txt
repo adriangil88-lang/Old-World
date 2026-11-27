@@ -1,0 +1,650 @@
+single|empire_general|General of the Empire@fof.txt:1799 [FAQ FoF p.48]
+single|empire_captain|Captain of the Empire@fof.txt:1800 [FAQ FoF]
+single|empire_mage|Master Mage@fof.txt:1847 ;; Damsel@fof.txt:3411 ;; Necromantic Acolyte@leg_vampires.txt:185
+single|empire_lord|Wizard Lord@fof.txt:1846
+single|state_spears|State Missile Trooper@fof.txt:2275 ;; Archer@fof.txt:2343 ;; Squire@fof.txt:3626
+single|crossbowmen|State Missile Trooper@fof.txt:2275 ;; Archer@fof.txt:2343 ;; Squire@fof.txt:3626
+single|greatswords|Greatsword@fof.txt:2376 [FAQ FoF]
+single|emp_lector|Lector of Sigmar@fof.txt:1985 [FAQ FoF] ;; High Priest of Ulric@fof.txt:2031 [FAQ FoF]
+single|emp_priest|Priest of Sigmar@fof.txt:1986 [FAQ FoF] ;; Priest of Ulric@fof.txt:2032 [FAQ FoF]
+single|emp_ulric|Priest of Sigmar@fof.txt:1986 [FAQ FoF] ;; Priest of Ulric@fof.txt:2032 [FAQ FoF]
+single|emp_hulric|Lector of Sigmar@fof.txt:1985 [FAQ FoF] ;; High Priest of Ulric@fof.txt:2031 [FAQ FoF]
+single|free_company|Militia Fighter@fof.txt:2326
+single|emp_archers|State Missile Trooper@fof.txt:2275 ;; Archer@fof.txt:2343 ;; Squire@fof.txt:3626
+single|flagellants|Flagellant@fof.txt:2420 [FAQ FoF]
+single|orc_warboss|Orc Warboss@rh.txt:401
+single|black_warboss|Black Orc Warboss@rh.txt:355
+single|orc_bigboss|Orc Bigboss@rh.txt:402
+single|black_bigboss|Black Orc Bigboss@rh.txt:356
+single|gob_bigboss|Goblin Bigboss@rh.txt:494
+single|orc_weirdboy|Orc Weirdboy@rh.txt:446
+single|orc_weirdnob|Orc Weirdnob@rh.txt:445
+single|orc_boyz|Orc Boy@rh.txt:831
+single|orc_arrers|Orc Boy@rh.txt:831
+single|black_orcs|Black Orc@rh.txt:786
+single|goblins|Goblin@rh.txt:878
+single|goblins_sk|Goblin@rh.txt:878
+single|trolls|Common Troll@rh.txt:1117 ;; Chaos Troll@rh.txt:2696
+single|we_lord|Glade Lord@fof.txt:4647
+single|we_captain|Glade Captain@fof.txt:4648 ;; Noble@fof.txt:6059 ;; Dark Elf Master@leg_darkelves.txt:96
+single|we_spellsinger|Spellsinger@fof.txt:4695 ;; Mage@fof.txt:6106
+single|we_spellweaver|Spellweaver@fof.txt:4694
+single|we_branchwraith|Branchwraith@fof.txt:4874
+single|we_ancient|Treeman Ancient@fof.txt:4829
+single|we_glade_guard|Infantry Glade Guard@fof.txt:5019 [FAQ FoF] ;; Elven Archer@fof.txt:6299 ;; Elven Archer@fof.txt:6299
+single|we_eternal|Eternal Guard@fof.txt:5065 [FAQ FoF]
+single|we_dryads|Dryad@fof.txt:5245 [FAQ FoF]
+single|we_rangers|Wildwood Ranger@fof.txt:5107
+single|we_wardancers|Wardancer@fof.txt:5152
+single|we_treekin|Tree Kin@fof.txt:5265
+single|we_treeman|Treeman@fof.txt:5566
+single|we_shadowdancer|Shadowdancer@fof.txt:4740
+single|we_waystalker|Waystalker@fof.txt:4786
+single|we_araloth|Araloth,@aj_wood2.txt:1121
+single|we_scouts|Deepwood Scout@fof.txt:5023 ;; Deepwood Scout@fof.txt:5023
+single|we_waywatchers|Waywatcher@fof.txt:5200
+single|we_eagle|Great Eagle@fof.txt:5521 ;; Great Eagle@fof.txt:7040
+single|we_pack_hounds|Deepwood Hound@aj_wood2.txt:1309
+single|we_pack_cats|Forest Cat@aj_wood2.txt:1310
+single|we_pack_boars|Sylvan Boar@aj_wood2.txt:1311
+single|we_pack_bears|Bear of Loren@aj_wood2.txt:1312
+single|we_warden|Wardens of Talsyn@aj_wood2.txt:1164
+single|we_guardians|Guardians of Talsyn@aj_wood2.txt:1215
+single|gob_warboss|Goblin Warboss@rh.txt:493
+single|ng_warboss|Night Goblin Warboss@rh.txt:585
+single|ng_bigboss|Night Goblin Bigboss@rh.txt:586
+single|gob_oddnob|Goblin Oddnob@rh.txt:539
+single|gob_oddgit|Goblin Oddgit@rh.txt:540
+single|ng_oddnob|Night Goblin Oddnob@rh.txt:635
+single|ng_oddgit|Night Goblin Oddgit@rh.txt:636
+single|snotlings|unsuspecting enemy. Snotlings@rh.txt:943
+single|squig_herd|Cave Squig@rh.txt:1070
+single|river_trolls|River Troll@rh.txt:1120 ;; River Troll@rh.txt:1120
+single|stone_trolls|Stone Troll@rh.txt:1123 ;; Stone Troll@rh.txt:1123 ;; Stone Troll@rh.txt:1123
+single|orc_ogdruz|Ogdruz Swampdigga@aj_orcs2.txt:958
+single|troll_hag|Troll Hag@aj_orcs2.txt:1005
+single|orc_ogre_bulls|Ogre@aj_orcs2.txt:1100 ;; Ogre@leg_ogres.txt:296
+single|br_sergeant|Sergeant-at-Arms@fof.txt:3460
+single|br_realm_foot|Knight of the Realm@fof.txt:3600
+single|br_damsel|Master Mage@fof.txt:1847 ;; Damsel@fof.txt:3411 ;; Necromantic Acolyte@leg_vampires.txt:185
+single|br_prophetess|Prophetess@fof.txt:3410
+single|br_cecil|Sir Cecil Gastonne@aj_bretonnia.txt:1234
+single|br_outcast|Outcast Wizard@aj_bretonnia.txt:1378
+single|br_yeoman_guard|Yeoman Guard@aj_bretonnia.txt:1435
+single|br_men_at_arms|Man-at-Arms@fof.txt:3651
+single|br_bowmen|Peasant Bowmen@fof.txt:3699
+single|br_squires|State Missile Trooper@fof.txt:2275 ;; Archer@fof.txt:2343 ;; Squire@fof.txt:3626
+single|br_bowmen_fire|Peasant Bowmen@fof.txt:3699
+single|br_bowmen_stakes|Peasant Bowmen@fof.txt:3699
+single|br_pilgrims|Battle Pilgrims@fof.txt:3749 [FAQ FoF]
+single|br_pilgrims_rel|Battle Pilgrims@fof.txt:3749 [FAQ FoF]
+single|br_brigands|Brigand@aj_bretonnia.txt:1494
+single|bm_beastlord|Beastlord@rh.txt:3817
+single|bm_wargor|Wargor@rh.txt:3818
+single|bm_centigor_chief|Warhoof@rh.txt:3965
+single|bm_gbs|Great Bray-Shaman@rh.txt:3866
+single|bm_bs|Bray-Shaman@rh.txt:3867
+single|bm_gor|Gor@rh.txt:4065 ;; Gor@aj_beasts2.txt:1258
+single|bm_gor_aw|Gor@rh.txt:4065 ;; Gor@aj_beasts2.txt:1258
+single|bm_ungor|Ungor@rh.txt:4114
+single|bm_ungor_bow|Ungor@rh.txt:4114
+single|bm_hounds|Chaos Warhound@rh.txt:2945 ;; Chaos Warhound@rh.txt:4311
+single|bm_bestigor|Bestigor@rh.txt:4015
+single|bm_minotaurs|Minotaur@rh.txt:4164 [FAQ RH]
+single|bm_centigors|Centigor@rh.txt:4214 [FAQ RH]
+single|bm_harpies|field of battle in large herds, Harpy@rh.txt:4140 ;; Harpy@leg_darkelves.txt:526
+single|bm_dragon_ogres|Dragon Ogre@rh.txt:4265 [FAQ RH]
+single|bm_ghorgon|Ghorgon@rh.txt:4716
+single|woc_lord|Chaos Lord@rh.txt:2255
+single|woc_exalted|Exalted Champion@rh.txt:2256
+single|woc_aspiring|Aspiring Champion@rh.txt:2257
+single|woc_sorc_lord|Sorcerer Lord@rh.txt:2353
+single|woc_ex_sorc|Exalted Sorcerer@rh.txt:2354
+single|woc_dprince|Daemon Prince@rh.txt:2305
+single|woc_warriors|Chaos Warrior@rh.txt:2452
+single|woc_marauders|Chaos Marauder@faq_rh.txt:301
+single|woc_hounds|Chaos Warhound@rh.txt:2945 ;; Chaos Warhound@rh.txt:4311
+single|woc_chosen|Chosen Chaos Warrior@rh.txt:2499
+single|woc_ogres|Chaos Ogre@rh.txt:2646
+single|woc_trolls|Common Troll@rh.txt:1117 ;; Chaos Troll@rh.txt:2696
+single|tk_warriors_ph|Skeleton Warrior@rh.txt:5631 ;; Skeleton Warrior@aj_tk2.txt:1470
+single|tk_king|Tomb King@rh.txt:5258
+single|tk_prince|Tomb Prince@rh.txt:5259
+single|tk_herald|Royal Herald@rh.txt:5310
+single|tk_hpriest|High Priest@rh.txt:5364
+single|tk_mpriest|Mortuary Priest@rh.txt:5365
+single|tk_warriors|Skeleton Warrior@rh.txt:5631 ;; Skeleton Warrior@aj_tk2.txt:1470
+single|tk_warriors_sp|Skeleton Archer@rh.txt:5682 ;; Royal Host WarriorCohorts@aj_tk2.txt:1195 ;; Royal Host Archer@aj_tk2.txt:1196 ;; Skeleton Warrior@leg_vampires.txt:424
+single|tk_archers|Skeleton Archer@rh.txt:5682 ;; Royal Host WarriorCohorts@aj_tk2.txt:1195 ;; Royal Host Archer@aj_tk2.txt:1196 ;; Skeleton Warrior@leg_vampires.txt:424
+single|tk_guard|Tomb Guard@rh.txt:5577
+single|tk_ushabti|Ushabti@rh.txt:5736
+single|tk_ushabti_bow|Ushabti@rh.txt:5736
+single|tk_carrion|of the necropolises are Carrion@rh.txt:5804
+single|he_flamespyre|Flamespyre Phoenix@fof.txt:6947
+single|he_frostheart|Frostheart Phoenix@fof.txt:6994 ;; Frostheart Phoenix@fof.txt:6994
+single|woc_hellcannon|Hellcannon@rh.txt:3245
+single|woc_chimera|Chimera@rh.txt:3196
+single|woc_galrauch|Galrauch,@aj_chaos2.txt:1091
+single|tk_necrotect|Necrotect@rh.txt:5473
+single|tk_swarm|Tomb Swarm@rh.txt:5787
+single|tk_stalkers|Sepulchral Stalker@rh.txt:5993
+single|tk_scorpion|Tomb Scorpion@rh.txt:6192
+single|tk_colossus|Necrolith Colossus@rh.txt:6242
+single|tk_necrosphinx|Necrosphinx@rh.txt:6297
+single|bm_shaggoth|Shaggoth@rh.txt:4413
+single|bm_jabberslythe|Jabberslythe@rh.txt:4460
+single|bm_cockatrice|Cockatrice@rh.txt:4510
+single|bm_cygor|Cygor@rh.txt:4562
+single|dw_king|King@fof.txt:351
+single|dw_thane|Thane@fof.txt:352
+single|dw_runelord|Runelord@fof.txt:533
+single|dw_runesmith|Runesmith@fof.txt:534
+single|dw_dslayer|Daemon Slayer@fof.txt:579
+single|dw_drslayer|Dragon Slayer@fof.txt:580
+single|dw_engineer|Engineer@fof.txt:626
+single|dw_gyrobomber|Gyrobomber@fof.txt:1160
+single|dw_warriors|Warrior@fof.txt:673 ;; Warrior@aj_dwarfs2.txt:1211
+single|dw_quarrellers|Quarreller@fof.txt:768
+single|dw_thunderers|Thunderer@fof.txt:772 ;; Thunderer@fof.txt:772
+single|dw_longbeards|Longbeard@fof.txt:721
+single|dw_hammerers|Hammerer@fof.txt:868
+single|dw_ironbreakers|Ironbreaker@fof.txt:916
+single|dw_slayers|Troll Slayer@fof.txt:1066
+single|dw_miners|Miner@fof.txt:1017
+single|dw_scoutgyro|Scout Gyrocopter@aj_dwarfs2.txt:1258
+single|dw_royalwarriors|Royal Clan Warrior@aj_dwarfs2.txt:1163
+single|dw_gyro|Gyrocopter@fof.txt:1112
+single|dw_rangers|Ranger@fof.txt:821
+single|dw_irondrakes|Irondrake@fof.txt:968
+single|he_prince|Prince@fof.txt:6058 ;; Dark Elf Dreadlord@leg_darkelves.txt:95
+single|he_noble|Glade Captain@fof.txt:4648 ;; Noble@fof.txt:6059 ;; Dark Elf Master@leg_darkelves.txt:96
+single|he_archmage|Archmage@fof.txt:6105
+single|he_mage|Spellsinger@fof.txt:4695 ;; Mage@fof.txt:6106
+single|he_handmaiden|Handmaiden@fof.txt:6193
+single|he_spearmen|Elven Spearman@fof.txt:6295 ;; Ship9s Company@aj_highelves.txt:1372
+single|he_archers|Infantry Glade Guard@fof.txt:5019 [FAQ FoF] ;; Elven Archer@fof.txt:6299 ;; Elven Archer@fof.txt:6299
+single|he_seaguard|Sea Guard@fof.txt:6344 ;; Beast Keeper@aj_wood2.txt:1265 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Corsair@leg_darkelves.txt:375
+single|he_chieftain|Chracian Chieftain@aj_highelves.txt:1214
+single|he_korhil|Korhil Lionmane@aj_highelves.txt:1082
+single|he_lionguard|Lion Guard@aj_highelves.txt:1422
+single|he_woodsmen|Chracian Woodsman@aj_highelves.txt:1473
+single|he_garrison|Sea Guard Garrison@aj_highelves.txt:1265
+single|he_ishaya|Ishaya Vess@aj_highelves.txt:1179
+single|he_stormweaver|Storm Weaver@aj_highelves.txt:1317
+single|he_ship|Elven Spearman@fof.txt:6295 ;; Ship9s Company@aj_highelves.txt:1372
+single|he_warlions|War Lion@aj_highelves.txt:1525
+single|he_merwyrm|Merwyrm@aj_highelves.txt:1569
+single|he_whitelions|White Lion@fof.txt:6390
+single|he_swordmasters|Swordmaster@fof.txt:6434
+single|he_phoenix|Phoenix Guard@fof.txt:6482
+single|he_shadow|Shadow Warrior@fof.txt:6526
+single|he_sisters|Sister of Avelorn@fof.txt:6572 ;; Shade@leg_darkelves.txt:456
+single|he_eagle|Great Eagle@fof.txt:5521 ;; Great Eagle@fof.txt:7040
+single|de_dreadlord|Prince@fof.txt:6058 ;; Dark Elf Dreadlord@leg_darkelves.txt:95
+single|de_master|Glade Captain@fof.txt:4648 ;; Noble@fof.txt:6059 ;; Dark Elf Master@leg_darkelves.txt:96
+single|de_sorceress|Sorceress@leg_darkelves.txt:131
+single|de_supreme|Supreme Sorceress@leg_darkelves.txt:130
+single|de_deathhag|Death Hag@leg_darkelves.txt:195
+single|de_assassin|Khainite Assassin@leg_darkelves.txt:228
+single|de_warriors|Dark Elf Warrior@leg_darkelves.txt:342
+single|de_crossbows|Sea Guard@fof.txt:6344 ;; Beast Keeper@aj_wood2.txt:1265 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Corsair@leg_darkelves.txt:375
+single|de_shades|Sister of Avelorn@fof.txt:6572 ;; Shade@leg_darkelves.txt:456
+single|de_corsairs|Sea Guard@fof.txt:6344 ;; Beast Keeper@aj_wood2.txt:1265 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Corsair@leg_darkelves.txt:375
+single|de_executioners|Executioner@leg_darkelves.txt:429
+single|de_blackguard|Black Guard@leg_darkelves.txt:400
+single|de_sisters|Sister of Slaughter@leg_darkelves.txt:485 ;; Sister of Slaughter@leg_darkelves.txt:485
+single|de_witchelves|Witch Elf@leg_darkelves.txt:481
+single|de_medusa|Bloodwrack Medusa@leg_darkelves.txt:852
+single|de_harpies|field of battle in large herds, Harpy@rh.txt:4140 ;; Harpy@leg_darkelves.txt:526
+single|de_hydra|War Hydra@leg_darkelves.txt:821
+single|de_kharibdyss|Kharibdyss@leg_darkelves.txt:876
+single|lm_slann|Slann Mage-Priest@leg_lizardmen.txt:91
+single|lm_oldblood|Saurus Oldblood@leg_lizardmen.txt:122
+single|lm_scar|Saurus Scar-Veteran@leg_lizardmen.txt:123
+single|lm_skchief|Skink Chief@leg_lizardmen.txt:148
+single|lm_skpriest|Skink Priest@leg_lizardmen.txt:147
+single|lm_saurus|Saurus Warrior@leg_lizardmen.txt:270
+single|lm_skirmishers|Skink@leg_lizardmen.txt:291 ;; Skink Handler@leg_lizardmen.txt:373 ;; Skink Handler@leg_lizardmen.txt:396
+single|lm_swarm|Jungle Swarms@leg_lizardmen.txt:362
+single|lm_temple|Temple Guard@leg_lizardmen.txt:238
+single|lm_chameleon|Chameleon Skink@leg_lizardmen.txt:315
+single|lm_kroxigor|Kroxigor@leg_lizardmen.txt:334
+single|lm_salamander|Salamander@leg_lizardmen.txt:374
+single|lm_razordon|Razordon@leg_lizardmen.txt:397
+single|sk_warlord|Skaven Warlord@leg_skaven.txt:97
+single|sk_chieftain|Skaven Chieftain@leg_skaven.txt:98
+single|sk_greyseer|Grey Seer@leg_skaven.txt:121
+single|sk_plaguepriest|Plague Priest@leg_skaven.txt:230
+single|sk_assassin|Master Assassin@leg_skaven.txt:187
+single|sk_engineer|Warlock Engineer@leg_skaven.txt:149
+single|sk_clanrats|Clanrat@leg_skaven.txt:297
+single|sk_giantrats|Giant Rat@leg_skaven.txt:523
+single|sk_swarms|Rat Swarms@leg_skaven.txt:445
+single|sk_gutter|Gutter Runner@leg_skaven.txt:560
+single|sk_nightrunners|Night Runner@leg_skaven.txt:539
+single|sk_plaguemonks|Plague Monk@leg_skaven.txt:583
+single|sk_censer|Censer Bearer@leg_skaven.txt:606
+single|sk_stormvermin|Stormvermin@leg_skaven.txt:273
+single|sk_jezzail|Jezzail Team@leg_skaven.txt:402
+single|sk_globadiers|Globadiers@leg_skaven.txt:428
+single|sk_ratogres|Rat Ogre@leg_skaven.txt:493
+single|vc_count|Vampire Count@leg_vampires.txt:98
+single|vc_ghoulking|Strigoi Ghoul King@leg_vampires.txt:234
+single|vc_thrall|Vampire Thrall@leg_vampires.txt:99
+single|vc_necromancer|Master Necromancer@leg_vampires.txt:184
+single|vc_acolyte|Master Mage@fof.txt:1847 ;; Damsel@fof.txt:3411 ;; Necromantic Acolyte@leg_vampires.txt:185
+single|vc_wightking|Wight King@leg_vampires.txt:288
+single|vc_wightlord|Wight Lord@leg_vampires.txt:289
+single|vc_zombies|Zombie@leg_vampires.txt:446
+single|vc_skeletons|Skeleton Archer@rh.txt:5682 ;; Royal Host WarriorCohorts@aj_tk2.txt:1195 ;; Royal Host Archer@aj_tk2.txt:1196 ;; Skeleton Warrior@leg_vampires.txt:424
+single|vc_ghouls|Crypt Ghoul@leg_vampires.txt:463
+single|vc_direwolves|Dire Wolf@leg_vampires.txt:638
+single|vc_fellbats|Fell Bat@leg_vampires.txt:534
+single|vc_graveguard|Grave Guard@leg_vampires.txt:386
+single|vc_spirithosts|Spirit Host@leg_vampires.txt:546
+single|vc_banshee|Tomb Banshee@leg_vampires.txt:330
+single|vc_cairnwraith|Cairn Wraith@leg_vampires.txt:272
+single|vc_hexwraith|Hexwraith@leg_vampires.txt:660
+single|vc_vargheists|Vargheist@leg_vampires.txt:513
+single|vc_terrorgheist|Terrorgheist@leg_vampires.txt:887
+single|vc_batswarm|Bat Swarm@leg_vampires.txt:503
+single|vc_horrors|Crypt Horror@leg_vampires.txt:481
+single|vc_varghulf|Varghulf@leg_vampires.txt:953
+single|dm_herald_khorne|Herald of Khorne@leg_daemons.txt:136
+single|dm_herald_nurgle|Herald of Nurgle@leg_daemons.txt:354
+single|dm_herald_slaanesh|Herald of Slaanesh@leg_daemons.txt:519
+single|dm_herald_tzeentch|Herald of Tzeentch@leg_daemons.txt:728
+single|dm_gud|Great Unclean One@leg_daemons.txt:315
+single|dm_keeper|Keeper of Secrets@leg_daemons.txt:489
+single|dm_lordchange|Lord of Change@leg_daemons.txt:696
+single|dm_prince|Daemon Prince@leg_daemons.txt:939
+single|dm_bloodletters|Bloodletter@leg_daemons.txt:174
+single|dm_plaguebearers|Plaguebearer@leg_daemons.txt:393
+single|dm_daemonettes|Daemonette@leg_daemons.txt:560
+single|dm_pinkhorrors|Pink Horror@leg_daemons.txt:768
+single|dm_bluehorrors|Blue Horror@leg_daemons.txt:798
+single|dm_fleshhounds|Flesh Hound@leg_daemons.txt:196
+single|dm_screamers|Screamer@leg_daemons.txt:860
+single|dm_flamers|Flamer@leg_daemons.txt:814
+single|dm_furies|Chaos Fury@leg_daemons.txt:983
+single|dm_fiends|Fiend of Slaanesh@leg_daemons.txt:605
+single|dm_brimstone|Brimstone Horrors@leg_daemons.txt:850
+single|dm_soulgrinder|Soul Grinder@leg_daemons.txt:1014
+single|ok_tyrant|Tyrant@leg_ogres.txt:98
+single|ok_bruiser|Bruiser@leg_ogres.txt:99
+single|ok_hunter|Hunter@leg_ogres.txt:177
+single|ok_butcher|Butcher@leg_ogres.txt:136
+single|ok_slaughtermaster|Slaughtermaster@leg_ogres.txt:135
+single|ok_firebelly|Firebelly@leg_ogres.txt:216
+single|ok_bulls|Ogre@aj_orcs2.txt:1100 ;; Ogre@leg_ogres.txt:296
+single|ok_gnoblars|Gnoblar Fighter@leg_ogres.txt:431
+single|ok_trappers|Gnoblar Trapper@leg_ogres.txt:372
+single|ok_sabretusks|Sabretusk@leg_ogres.txt:469
+single|ok_ironguts|Irongut@leg_ogres.txt:321
+single|ok_leadbelchers|Leadbelcher@leg_ogres.txt:344
+single|ok_maneaters|Maneater@leg_ogres.txt:395
+single|ok_yhetees|Yhetee@leg_ogres.txt:446
+single|ok_gorgers|Gorger@leg_ogres.txt:752
+single|cd_castellan|Infernal Castellan@leg_chaosdwarfs.txt:144
+single|cd_seneschal|Infernal Seneschal@leg_chaosdwarfs.txt:145
+single|cd_daemonsmith|Daemonsmith Sorcerer@leg_chaosdwarfs.txt:94
+single|cd_prophet|Sorcerer-Prophet@leg_chaosdwarfs.txt:93
+single|cd_khan|Hobgoblin Khan@leg_chaosdwarfs.txt:194
+single|cd_taruk|Taur’ruk@leg_chaosdwarfs.txt:173
+single|cd_guard|Infernal Guard@leg_chaosdwarfs.txt:264
+single|cd_hobgoblins|Cutthroat@leg_chaosdwarfs.txt:316
+single|cd_ironsworn|Infernal Ironsworn@leg_chaosdwarfs.txt:229
+single|cd_render|Bull Centaur Render@leg_chaosdwarfs.txt:387
+single|cd_kdaai|K’daai Fireborn@leg_chaosdwarfs.txt:298
+single|we_pack_hounds_sk|Deepwood Hound@aj_wood2.txt:1309
+single|we_pack_cats_sk|Forest Cat@aj_wood2.txt:1310
+single|we_pack_boars_sk|Sylvan Boar@aj_wood2.txt:1311
+single|we_pack_bears_sk|Bear of Loren@aj_wood2.txt:1312
+single|he_seaguard_g|Sea Guard@fof.txt:6344 ;; Beast Keeper@aj_wood2.txt:1265 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Corsair@leg_darkelves.txt:375
+single|he_seaguard_dr|Sea Guard@fof.txt:6344 ;; Beast Keeper@aj_wood2.txt:1265 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Corsair@leg_darkelves.txt:375
+single|he_spearmen_lc|Elven Spearman@fof.txt:6295 ;; Ship9s Company@aj_highelves.txt:1372
+single|he_spearmen_mc|Infantry Glade Guard@fof.txt:5019 [FAQ FoF] ;; Elven Archer@fof.txt:6299 ;; Elven Archer@fof.txt:6299
+single|he_spearmen_lcmc|Infantry Glade Guard@fof.txt:5019 [FAQ FoF] ;; Elven Archer@fof.txt:6299 ;; Elven Archer@fof.txt:6299
+single|he_archers_lc|Infantry Glade Guard@fof.txt:5019 [FAQ FoF] ;; Elven Archer@fof.txt:6299 ;; Elven Archer@fof.txt:6299
+single|he_archers_mc|Sea Guard@fof.txt:6344 ;; Beast Keeper@aj_wood2.txt:1265 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Corsair@leg_darkelves.txt:375
+single|he_archers_lcmc|Sea Guard@fof.txt:6344 ;; Beast Keeper@aj_wood2.txt:1265 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Repeater Crossbowman@leg_darkelves.txt:346 ;; Corsair@leg_darkelves.txt:375
+single|he_shadow_amb|Shadow Warrior@fof.txt:6526
+single|we_treeman_amb|Treeman@fof.txt:5566
+single|we_ancient_amb|Treeman Ancient@fof.txt:4829
+single|teutogen|Teutogen Guard@aj_empire2.txt:1218
+single|emp_harbinger|Harbinger of Doom@aj_empire2.txt:1166
+single|dw_impmerc|Warrior@fof.txt:673 ;; Warrior@aj_dwarfs2.txt:1211
+single|dw_impmerc_gw|Royal Clan Warrior@aj_dwarfs2.txt:1163
+single|dw_impmerc_xb|Royal Clan Warrior@aj_dwarfs2.txt:1163
+single|dw_sapper|Engineer Sapper@aj_dwarfs2.txt:1070
+single|woc_chieftain|Marauder Tribe Chieftain@aj_chaos2.txt:1181
+single|woc_berserkers|Marauder Tribe Berserker@aj_chaos2.txt:1233
+single|woc_skinwolves|Skin Wolf@aj_chaos2.txt:1288
+single|woc_marauders_famb|Chaos Marauder@faq_rh.txt:301
+single|tk_archnecro|Arch Necrotect@aj_tk2.txt:1144
+single|tk_vushabti|Venerable Ushabti@aj_tk2.txt:1228
+single|tk_necroserpent|yet have a rider. Most of Necroserpent@aj_tk2.txt:1290
+single|bm_primalhounds|Primal Warhound@aj_beasts2.txt:1208
+single|bm_ravager|Ungor Ravager@aj_beasts2.txt:1229
+single|lm_skinkhandler|Skink@leg_lizardmen.txt:291 ;; Skink Handler@leg_lizardmen.txt:373 ;; Skink Handler@leg_lizardmen.txt:396
+single|sk_packmaster|Packmaster@leg_skaven.txt:457
+single|bm_warherd|Gor@rh.txt:4065 ;; Gor@aj_beasts2.txt:1258
+single|bm_warherd_u|Ungor@aj_beasts2.txt:1259
+single|bm_warherd_shtw|Gor@rh.txt:4065 ;; Gor@aj_beasts2.txt:1258
+single|bm_warherd_shtw_u|Ungor@aj_beasts2.txt:1259
+single|bm_warherd_awth|Gor@rh.txt:4065 ;; Gor@aj_beasts2.txt:1258
+single|bm_warherd_awth_u|Ungor@aj_beasts2.txt:1259
+single|bm_warherd_awtw|Gor@rh.txt:4065 ;; Gor@aj_beasts2.txt:1258
+single|bm_warherd_awtw_u|Ungor@aj_beasts2.txt:1259
+single|bm_ungor_amb|Ungor@aj_beasts2.txt:1259
+single|bm_ungor_bow_amb|Ungor@aj_beasts2.txt:1259
+single|state_troops|State Trooper@fof.txt:2228
+single|state_vets|Veteran State Trooper@fof.txt:2232 ;; Veteran State Trooper@fof.txt:2232
+single|night_gobs|Night Goblin@rh.txt:968
+single|tk_cohort|Skeleton Archer@rh.txt:5682 ;; Royal Host WarriorCohorts@aj_tk2.txt:1195 ;; Royal Host Archer@aj_tk2.txt:1196 ;; Skeleton Warrior@leg_vampires.txt:424
+single|tk_cohort_ph|Skeleton Archer@rh.txt:5682 ;; Royal Host WarriorCohorts@aj_tk2.txt:1195 ;; Royal Host Archer@aj_tk2.txt:1196 ;; Skeleton Warrior@leg_vampires.txt:424
+single|tk_cohort_a|Skeleton Archer@rh.txt:5682 ;; Royal Host WarriorCohorts@aj_tk2.txt:1195 ;; Royal Host Archer@aj_tk2.txt:1196 ;; Skeleton Warrior@leg_vampires.txt:424
+single|dw_thorgrim|Thorgrim Ulleksson@aj_dwarfs2.txt:854
+single|dw_ungrim|Ungrim Ironfist@aj_dwarfs2.txt:938
+single|dw_burlok|Burlok Damminson@aj_dwarfs2.txt:1022
+single|woc_frydaal|Frydaal the Chainmaker@aj_chaos2.txt:1040
+single|tk_apophas|Prince Apophas@aj_tk2.txt:1018
+single|tk_nekaph|Nekaph,@aj_tk2.txt:1105
+single|bm_kralmaw|Kralmaw, the@aj_beasts2.txt:1002
+single|bm_ghorros|Ghorros Warhoof@aj_beasts2.txt:1107
+single|bm_preyton|Preyton@aj_beasts2.txt:1316
+single|woc_warpfire|Warpfire Dragon@aj_chaos2.txt:1485
+single|cd_blackboss|Black Orc Bigboss@rh.txt:356
+single|cd_blackorcs|Black Orc@rh.txt:786
+single|cd_hellcannon|Hellcannon@rh.txt:3245
+single|vc_risen|Zombie@leg_vampires.txt:446
+single|cd_sneakygits|Sneaky Git@leg_chaosdwarfs.txt:338
+single|rc_wizard1|Outcast Wizard@aj_bretonnia.txt:1378
+single|rc_brigands|Brigand@aj_bretonnia.txt:1494
+opt|handgunners|State Missile Trooper@fof.txt:2275 +1 (opciones por modelo) ;; Archer@fof.txt:2343 +1 (opciones por modelo) ;; Squire@fof.txt:3626 +1 (opciones por modelo)
+opt|emp_witchhunter|Witch Hunter@fof.txt:1940 +5 (opciones por modelo)
+opt|emp_engineer|Empire Engineer@fof.txt:2077 +8 (opciones por modelo)
+opt|orc_twin|Orc Boy@rh.txt:831 +1 (opciones por modelo)
+opt|orc_bigs|Orc Boy@rh.txt:831 +2 (opciones por modelo)
+opt|orc_frenzy|Orc Boy@rh.txt:831 +2 (opciones por modelo)
+opt|night_goblins|Night Goblin@rh.txt:968 +1 (opciones por modelo)
+opt|night_goblins_net|Night Goblin@rh.txt:968 +1 (opciones por modelo)
+opt|night_goblins_fan|Night Goblin@rh.txt:968 +1 (opciones por modelo)
+opt|we_shadowdancer_w|Shadowdancer@fof.txt:4740 +35 (opciones por modelo)
+opt|br_outcast3|Outcast Wizard@aj_bretonnia.txt:1378 +60 (opciones por modelo)
+opt|br_brigands_bb|Brigand@aj_bretonnia.txt:1494 +4 (opciones por modelo)
+opt|bm_doombull|Doombull@rh.txt:3915 +3 (opciones por modelo)
+opt|bm_gorebull|Gorebull@rh.txt:3916 +3 (opciones por modelo)
+opt|bm_minotaurs_gw|Minotaur@rh.txt:4164 +7 (opciones por modelo)
+opt|woc_warriors_hb|Chaos Warrior@rh.txt:2452 +1 (opciones por modelo)
+opt|woc_warriors_gw|Chaos Warrior@rh.txt:2452 +2 (opciones por modelo)
+opt|tk_guard_ph|Tomb Guard@rh.txt:5577 +1 (opciones por modelo)
+opt|tk_swarm_amb|Tomb Swarm@rh.txt:5787 +2 (opciones por modelo)
+opt|tk_guard_hb|Tomb Guard@rh.txt:5577 +1 (opciones por modelo)
+opt|tk_stalkers_amb|Sepulchral Stalker@rh.txt:5993 +2 (opciones por modelo)
+opt|dw_warriors_gw|Warrior@fof.txt:673 +1 (opciones por modelo) ;; Warrior@aj_dwarfs2.txt:1211 +1 (opciones por modelo)
+opt|dw_slayers_ahw|Troll Slayer@fof.txt:1066 +1 (opciones por modelo)
+opt|sk_ratlinggun|Weapon Team Crew@leg_skaven.txt:319 +50 (opciones por modelo)
+opt|sk_warpfire|Weapon Team Crew@leg_skaven.txt:319 +60 (opciones por modelo)
+opt|sk_windmortar|Weapon Team Crew@leg_skaven.txt:319 +55 (opciones por modelo)
+opt|dm_bloodthirster|Bloodthirster@leg_daemons.txt:100 +15 (opciones por modelo)
+opt|ok_butcher_cauldron|Butcher@leg_ogres.txt:136 +30 (opciones por modelo)
+opt|ok_slaughter_cauldron|Slaughtermaster@leg_ogres.txt:135 +30 (opciones por modelo)
+opt|dw_impmerc_sp|Warrior@fof.txt:673 +1 (opciones por modelo) ;; Warrior@aj_dwarfs2.txt:1211 +1 (opciones por modelo)
+opt|dw_impmerc_hg|Warrior@fof.txt:673 +3 (opciones por modelo) ;; Royal Clan Warrior@aj_dwarfs2.txt:1163 +1 (opciones por modelo) ;; Warrior@aj_dwarfs2.txt:1211 +3 (opciones por modelo)
+opt|dw_royalwarriors_ga|Royal Clan Warrior@aj_dwarfs2.txt:1163 +1 (opciones por modelo)
+opt|woc_aspiring_amb|Aspiring Champion@rh.txt:2257 +10 (opciones por modelo)
+opt|bm_gor_amb|Gor@rh.txt:4065 +1 (opciones por modelo)
+opt|bm_gor_aw_amb|Gor@rh.txt:4065 +1 (opciones por modelo)
+opt|bm_preyton_amb|Preyton@aj_beasts2.txt:1316 +10 (opciones por modelo)
+opt|bm_preyton_fr|Preyton@aj_beasts2.txt:1316 +5 (opciones por modelo)
+opt|dm_herald_slaanesh_w1|Herald of Slaanesh@leg_daemons.txt:519 +30 (opciones por modelo)
+opt|dm_herald_slaanesh_w2|Herald of Slaanesh@leg_daemons.txt:519 +60 (opciones por modelo)
+opt|rc_wizard2|Outcast Wizard@aj_bretonnia.txt:1378 +30 (opciones por modelo)
+opt|rc_wizard3|Outcast Wizard@aj_bretonnia.txt:1378 +60 (opciones por modelo)
+opt|br_outcast2|Outcast Wizard@aj_bretonnia.txt:1378 +30 (opciones por modelo)
+comp|empire_general_h|General of the Empire@fof.txt:1799 + Barded Warhorse@fof.txt:2157 ;; General of the Empire@fof.txt:1799 + War Boar@rh.txt:712 ;; General of the Empire@fof.txt:1799 + Chaos Steed@rh.txt:2422
+comp|empire_general_peg|General of the Empire@fof.txt:1799 + Pegasus@fof.txt:2179 ;; General of the Empire@fof.txt:1799 + Barded Pegasus@fof.txt:3549
+comp|empire_general_demi|General of the Empire@fof.txt:1799 + Demigryph@fof.txt:2191
+comp|empire_captain_peg|Captain of the Empire@fof.txt:1800 + Pegasus@fof.txt:2179 ;; Captain of the Empire@fof.txt:1800 + Barded Pegasus@fof.txt:3549
+comp|empire_captain_demi|Captain of the Empire@fof.txt:1800 + Demigryph@fof.txt:2191
+comp|empire_lord_peg|Wizard Lord@fof.txt:1846 + Pegasus@fof.txt:2179 ;; Wizard Lord@fof.txt:1846 + Barded Pegasus@fof.txt:3549
+comp|empire_knights|Preceptor@fof.txt:2554 + Barded Warhorse@fof.txt:2157 ;; Preceptor@fof.txt:2554 + War Boar@rh.txt:712 ;; Preceptor@fof.txt:2554 + Chaos Steed@rh.txt:2422
+comp|emp_grandmaster|Grand Master@fof.txt:1895 + Barded Warhorse@fof.txt:2157 ;; Grand Master@fof.txt:1895 + War Boar@rh.txt:712 ;; Grand Master@fof.txt:1895 + Chaos Steed@rh.txt:2422
+comp|emp_chaptermaster|Chapter Master@fof.txt:1896 + Barded Warhorse@fof.txt:2157 ;; Chapter Master@fof.txt:1896 + War Boar@rh.txt:712 ;; Chapter Master@fof.txt:1896 + Chaos Steed@rh.txt:2422
+comp|pistoliers|Squig Herder@rh.txt:1069 + Empire Warhorse@fof.txt:2169 ;; Brigand@aj_bretonnia.txt:1494 + Empire Warhorse@fof.txt:2169 ;; Squig Herder@rh.txt:1069 + Warhorse@fof.txt:3538
+comp|outriders|Sergeant@fof.txt:2276 + Empire Warhorse@fof.txt:2169 ;; Marksman@fof.txt:2344 + Empire Warhorse@fof.txt:2169 ;; Esquire@fof.txt:3627 + Empire Warhorse@fof.txt:2169
+comp|inner_circle|Inner Circle Preceptor@fof.txt:2600 + Cold One@leg_darkelves.txt:316 ;; Inner Circle Preceptor@fof.txt:2600 + Cold One@leg_lizardmen.txt:202
+comp|orc_warboss_boar|Orc Warboss@rh.txt:401 + War Boar@rh.txt:712
+comp|boar_bigs|Orc Boy@rh.txt:831 + Skeletal Steed@leg_vampires.txt:365
+comp|we_lord_h|Glade Lord@fof.txt:4647 + matched by the lesser breeds Elven Steed@fof.txt:4937 ;; Glade Lord@fof.txt:4647 + its rider, and the rider must Elven Steed@fof.txt:6273 ;; Glade Lord@fof.txt:4647 + Dark Steed@leg_darkelves.txt:305
+comp|we_glade_riders|Bosun@aj_highelves.txt:1374 + Giant Wolf@rh.txt:724 ;; Chracian Captain@aj_highelves.txt:1474 + Giant Wolf@rh.txt:724 ;; Herald@leg_darkelves.txt:564 + Giant Wolf@rh.txt:724
+comp|we_wild_riders|Draich Master@leg_darkelves.txt:430 + its rider, and the rider must Elven Steed@fof.txt:6273
+comp|we_lord_stag|Glade Lord@fof.txt:4647 + the Wood Elves revere as Great Stag@fof.txt:4949
+comp|we_captain_stag|Glade Captain@fof.txt:4648 + the Wood Elves revere as Great Stag@fof.txt:4949
+comp|we_lord_dragon|Glade Lord@fof.txt:4647 + Monster Forest Dragon@fof.txt:5475
+comp|we_captain_hawk|Glade Captain@fof.txt:4648 + Warhawk@fof.txt:4992
+comp|we_weaver_unicorn|Spellweaver@fof.txt:4694 + entangled in thorns. Unicorn@fof.txt:3575 ;; Spellweaver@fof.txt:4694 + Unicorn@fof.txt:4971 ;; Spellweaver@fof.txt:4694 + far from Ulthuan. They Unicorn@aj_highelves.txt:1343
+comp|we_singer_unicorn|Spellsinger@fof.txt:4695 + entangled in thorns. Unicorn@fof.txt:3575 ;; Mage@fof.txt:6106 + entangled in thorns. Unicorn@fof.txt:3575 ;; Spellsinger@fof.txt:4695 + Unicorn@fof.txt:4971
+comp|orc_warboss_wyvern|Orc Warboss@rh.txt:401 + Wyvern@rh.txt:1456
+comp|br_duke|Character Duke@fof.txt:3362 + Empire Warhorse@fof.txt:2169 ;; Character Duke@fof.txt:3362 + Bretonnian Warhorse@fof.txt:3526 ;; Character Duke@fof.txt:3362 + Warhorse@fof.txt:3538
+comp|br_baron|Baron@fof.txt:3363 + Empire Warhorse@fof.txt:2169 ;; Baron@fof.txt:3363 + Bretonnian Warhorse@fof.txt:3526 ;; Baron@fof.txt:3363 + Warhorse@fof.txt:3538
+comp|br_paladin|Paladin@fof.txt:3364 + Empire Warhorse@fof.txt:2169 ;; Paladin@fof.txt:3364 + Bretonnian Warhorse@fof.txt:3526 ;; Paladin@fof.txt:3364 + Warhorse@fof.txt:3538
+comp|br_realm|Knight of the Realm@fof.txt:3600 + Empire Warhorse@fof.txt:2169 ;; Knight of the Realm@fof.txt:3600 + Warhorse@fof.txt:3538 ;; Knight of the Realm@fof.txt:3600 + Skeletal Steed@rh.txt:5545
+comp|woc_lord_steed|Chaos Lord@rh.txt:2255 + Chaos Steed@rh.txt:2422 ;; Chaos Lord@rh.txt:2255 + Skeletal Steed@leg_vampires.txt:365
+comp|woc_forsaken|Gouge-horn@rh.txt:4016 + Giant Wolf@rh.txt:724 ;; Gouge-horn@rh.txt:4016 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|woc_knights|Champion@rh.txt:2453 + Barded Warhorse@fof.txt:2157 ;; Champion@rh.txt:2453 + War Boar@rh.txt:712 ;; Champion@rh.txt:2453 + Chaos Steed@rh.txt:2422
+comp|woc_knights_l|Chaos Warrior@rh.txt:2452 + Barded Warhorse@fof.txt:2157 ;; Chaos Warrior@rh.txt:2452 + War Boar@rh.txt:712 ;; Chaos Warrior@rh.txt:2452 + Chaos Steed@rh.txt:2422
+comp|woc_chosen_knights|Chosen Chaos Warrior@rh.txt:2499 + Barded Warhorse@fof.txt:2157 ;; Chosen Chaos Warrior@rh.txt:2499 + War Boar@rh.txt:712 ;; Chosen Chaos Warrior@rh.txt:2499 + Chaos Steed@rh.txt:2422
+comp|tk_king_dragon|Tomb King@rh.txt:5258 + Necrolith Bone Dragon@rh.txt:6092
+comp|tk_hpriest_dragon|High Priest@rh.txt:5364 + Necrolith Bone Dragon@rh.txt:6092
+comp|he_prince_griffon|Prince@fof.txt:6058 + Griffon@fof.txt:6852
+comp|he_prince_moon|Prince@fof.txt:6058 + Moon Dragon@fof.txt:6901 ;; Prince@fof.txt:6058 + Moon Dragon@fof.txt:6901
+comp|he_prince_star|Prince@fof.txt:6058 + Star Dragon@fof.txt:6905 ;; Prince@fof.txt:6058 + Star Dragon@fof.txt:6905 ;; Prince@fof.txt:6058 + Star Dragon@fof.txt:6905
+comp|he_archmage_star|Archmage@fof.txt:6105 + Star Dragon@fof.txt:6905 ;; Archmage@fof.txt:6105 + Star Dragon@fof.txt:6905 ;; Archmage@fof.txt:6105 + Star Dragon@fof.txt:6905
+comp|he_mage_eagle|Herald of Tzeentch@leg_daemons.txt:728 + the Wood Elves revere as Great Stag@fof.txt:4949
+comp|he_noble_griffon|Noble@fof.txt:6059 + Griffon@fof.txt:6852
+comp|he_archmage_moon|Archmage@fof.txt:6105 + Moon Dragon@fof.txt:6901 ;; Archmage@fof.txt:6105 + Moon Dragon@fof.txt:6901
+comp|woc_lord_dragon|Chaos Lord@rh.txt:2255 + Chaos Dragon@rh.txt:3148
+comp|woc_gorechariot|Bruiser@leg_ogres.txt:99 + Chaos Steed@rh.txt:2422 ;; Bruiser@leg_ogres.txt:99 + Nightmare@leg_vampires.txt:376
+comp|dw_doomseeker|Giant Slayer@fof.txt:1067 + Daemonic Mount@rh.txt:2434
+comp|dw_king_shield|King@fof.txt:351 + Shieldbearers@fof.txt:412
+comp|he_prince_h|Prince@fof.txt:6058 + Barded Elven Steed@fof.txt:6284
+comp|he_stormweaver_uni|Storm Weaver@aj_highelves.txt:1317 + entangled in thorns. Unicorn@fof.txt:3575 ;; Storm Weaver@aj_highelves.txt:1317 + Unicorn@fof.txt:4971 ;; Storm Weaver@aj_highelves.txt:1317 + far from Ulthuan. They Unicorn@aj_highelves.txt:1343
+comp|he_reavers|Reaver@leg_darkelves.txt:376 + Giant Wolf@rh.txt:724 ;; Reaver@leg_darkelves.txt:376 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|he_reavers_bow|Bosun@aj_highelves.txt:1374 + Giant Wolf@rh.txt:724 ;; Chracian Captain@aj_highelves.txt:1474 + Giant Wolf@rh.txt:724 ;; Dark Elf Warrior@leg_darkelves.txt:342 + Giant Wolf@rh.txt:724
+comp|he_silverhelms|Witch Elf@leg_darkelves.txt:481 + Empire Warhorse@fof.txt:2169 ;; High Helm@fof.txt:6668 + Bretonnian Warhorse@fof.txt:3526 ;; Hag@leg_darkelves.txt:482 + Bretonnian Warhorse@fof.txt:3526
+comp|he_dragonprinces|Drakemaster@fof.txt:6712 + Pegasus@fof.txt:2179
+comp|de_dreadlord_steed|Dark Elf Dreadlord@leg_darkelves.txt:95 + matched by the lesser breeds Elven Steed@fof.txt:4937 ;; Dark Elf Dreadlord@leg_darkelves.txt:95 + its rider, and the rider must Elven Steed@fof.txt:6273 ;; Dark Elf Dreadlord@leg_darkelves.txt:95 + Dark Steed@leg_darkelves.txt:305
+comp|de_dreadlord_cold|Dark Elf Dreadlord@leg_darkelves.txt:95 + Cold One@leg_darkelves.txt:316
+comp|de_dreadlord_dragon|Dark Elf Dreadlord@leg_darkelves.txt:95 + Monster Forest Dragon@fof.txt:5475 ;; Dark Elf Dreadlord@leg_darkelves.txt:95 + Black Dragon@leg_darkelves.txt:750
+comp|de_master_steed|Dark Elf Master@leg_darkelves.txt:96 + matched by the lesser breeds Elven Steed@fof.txt:4937 ;; Dark Elf Master@leg_darkelves.txt:96 + its rider, and the rider must Elven Steed@fof.txt:6273 ;; Dark Elf Master@leg_darkelves.txt:96 + Dark Steed@leg_darkelves.txt:305
+comp|de_master_cold|Dark Elf Master@leg_darkelves.txt:96 + Cold One@leg_darkelves.txt:316
+comp|de_supreme_cold|Supreme Sorceress@leg_darkelves.txt:130 + Cold One@leg_darkelves.txt:316
+comp|de_coldones|Dread Knight@leg_darkelves.txt:537 + Barded Warhorse@fof.txt:2157 ;; Dread Knight@leg_darkelves.txt:537 + War Boar@rh.txt:712 ;; Dread Knight@leg_darkelves.txt:537 + Chaos Steed@rh.txt:2422
+comp|de_warlocks|Master@leg_darkelves.txt:592 + Steed of Slaanesh@leg_daemons.txt:548
+comp|de_darkriders|Bosun@aj_highelves.txt:1374 + Giant Wolf@rh.txt:724 ;; Reaver@leg_darkelves.txt:376 + Giant Wolf@rh.txt:724 ;; Herald@leg_darkelves.txt:564 + Giant Wolf@rh.txt:724
+comp|lm_oldblood_cold|Saurus Oldblood@leg_lizardmen.txt:122 + Cold One@leg_darkelves.txt:316 ;; Saurus Oldblood@leg_lizardmen.txt:122 + Cold One@leg_lizardmen.txt:202
+comp|lm_scar_cold|Saurus Scar-Veteran@leg_lizardmen.txt:123 + Cold One@leg_darkelves.txt:316 ;; Saurus Scar-Veteran@leg_lizardmen.txt:123 + Cold One@leg_lizardmen.txt:202
+comp|lm_skchief_terra|Skink Chief@leg_lizardmen.txt:148 + Terradon@leg_lizardmen.txt:214
+comp|lm_skchief_ripper|Skink Chief@leg_lizardmen.txt:148 + Ripperdactyl@leg_lizardmen.txt:225
+comp|lm_coldones|Temple Guard@leg_lizardmen.txt:238 + Cold One@leg_darkelves.txt:316 ;; Temple Guard@leg_lizardmen.txt:238 + Cold One@leg_lizardmen.txt:202
+comp|lm_ripperdactyls|Skink@leg_lizardmen.txt:291 + Ripperdactyl@leg_lizardmen.txt:225 ;; Skink Handler@leg_lizardmen.txt:373 + Ripperdactyl@leg_lizardmen.txt:225 ;; Skink Handler@leg_lizardmen.txt:396 + Ripperdactyl@leg_lizardmen.txt:225
+comp|vc_count_nightmare|Vampire Count@leg_vampires.txt:98 + Nightmare@leg_vampires.txt:376
+comp|vc_count_dragon|Vampire Count@leg_vampires.txt:98 + Zombie Dragon@leg_vampires.txt:854
+comp|vc_count_terror|Vampire Count@leg_vampires.txt:98 + Abyssal Terror@leg_vampires.txt:924 ;; Vampire Count@leg_vampires.txt:98 + Abyssal Terror@leg_vampires.txt:924
+comp|vc_thrall_nightmare|Vampire Thrall@leg_vampires.txt:99 + Nightmare@leg_vampires.txt:376
+comp|vc_necro_nightmare|Master Necromancer@leg_vampires.txt:184 + Nightmare@leg_vampires.txt:376
+comp|vc_wightking_steed|Wight King@leg_vampires.txt:288 + Skeletal Steed@leg_vampires.txt:365
+comp|vc_wightlord_steed|Wight Lord@leg_vampires.txt:289 + Skeletal Steed@leg_vampires.txt:365
+comp|vc_blackknights|Hell Knight@leg_vampires.txt:611 + Barded Warhorse@fof.txt:2157 ;; Hell Knight@leg_vampires.txt:611 + War Boar@rh.txt:712 ;; Orc Boy@rh.txt:831 + Chaos Steed@rh.txt:2422
+comp|dm_herald_khorne_jug|Herald of Khorne@leg_daemons.txt:136 + Juggernaut of Khorne@leg_daemons.txt:158
+comp|dm_herald_nurgle_pal|Herald of Nurgle@leg_daemons.txt:354 + Palanquin of Nurgle@leg_daemons.txt:382
+comp|dm_herald_slaanesh_steed|Herald of Slaanesh@leg_daemons.txt:519 + Steed of Slaanesh@leg_daemons.txt:548
+comp|dm_herald_tzeentch_disc|Herald of Tzeentch@leg_daemons.txt:728 + Disc of Tzeentch@leg_daemons.txt:758
+comp|dm_seekers|Daemonette@leg_daemons.txt:560 + Giant Wolf@rh.txt:724 ;; Daemonette@leg_daemons.txt:560 + Giant Wolf@leg_chaosdwarfs.txt:219 ;; Veteran Sergeant@fof.txt:2233 + Steed of Slaanesh@leg_daemons.txt:548
+comp|dm_hellflayer|Desperado@aj_bretonnia.txt:1495 + Griffon@fof.txt:2834
+comp|ok_tyrant_thunder|Tyrant@leg_ogres.txt:98 + Imperial Griffon@fof.txt:2838 ;; Tyrant@leg_ogres.txt:98 + Imperial Griffon@fof.txt:2838 ;; Tyrant@leg_ogres.txt:98 + Bale Taurus@leg_chaosdwarfs.txt:494
+comp|ok_mournfang|Crusher@leg_ogres.txt:488 + Pegasus@fof.txt:2179 ;; Champion@rh.txt:2647 + the Wood Elves revere as Great Stag@fof.txt:4949 ;; Crusher@aj_orcs2.txt:1101 + the Wood Elves revere as Great Stag@fof.txt:4949
+comp|cd_daemonsmith_taurus|Daemonsmith Sorcerer@leg_chaosdwarfs.txt:94 + Great Taurus@leg_chaosdwarfs.txt:498 ;; Daemonsmith Sorcerer@leg_chaosdwarfs.txt:94 + Great Taurus@leg_chaosdwarfs.txt:498
+comp|cd_prophet_taurus|Sorcerer-Prophet@leg_chaosdwarfs.txt:93 + Great Taurus@leg_chaosdwarfs.txt:498 ;; Sorcerer-Prophet@leg_chaosdwarfs.txt:93 + Great Taurus@leg_chaosdwarfs.txt:498
+comp|cd_khan_wolf|Hobgoblin Khan@leg_chaosdwarfs.txt:194 + Giant Wolf@rh.txt:724 ;; Hobgoblin Khan@leg_chaosdwarfs.txt:194 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|cd_centaurs|Bull Centaur Ba’hal@leg_chaosdwarfs.txt:388 + Cold One@leg_darkelves.txt:316 ;; Bull Centaur Ba’hal@leg_chaosdwarfs.txt:388 + Cold One@leg_lizardmen.txt:202
+comp|ct_lancers|Preceptor@fof.txt:2554 + Skeletal Steed@leg_vampires.txt:365
+comp|we_glade_riders_sk|Bosun@aj_highelves.txt:1374 + Giant Wolf@rh.txt:724 ;; Chracian Captain@aj_highelves.txt:1474 + Giant Wolf@rh.txt:724 ;; Herald@leg_darkelves.txt:564 + Giant Wolf@rh.txt:724
+comp|de_dreadlord_manticore|Dark Elf Dreadlord@leg_darkelves.txt:95 + Manticore@leg_darkelves.txt:782
+comp|de_sorceress_pegasus|Sorceress@leg_darkelves.txt:131 + Dark Pegasus@leg_darkelves.txt:328
+comp|de_supreme_pegasus|Supreme Sorceress@leg_darkelves.txt:130 + Dark Pegasus@leg_darkelves.txt:328
+comp|de_sorceress_steed|Sorceress@leg_darkelves.txt:131 + matched by the lesser breeds Elven Steed@fof.txt:4937 ;; Sorceress@leg_darkelves.txt:131 + its rider, and the rider must Elven Steed@fof.txt:6273 ;; Sorceress@leg_darkelves.txt:131 + Dark Steed@leg_darkelves.txt:305
+comp|de_supreme_steed|Supreme Sorceress@leg_darkelves.txt:130 + matched by the lesser breeds Elven Steed@fof.txt:4937 ;; Supreme Sorceress@leg_darkelves.txt:130 + its rider, and the rider must Elven Steed@fof.txt:6273 ;; Supreme Sorceress@leg_darkelves.txt:130 + Dark Steed@leg_darkelves.txt:305
+comp|de_sorceress_cold|Sorceress@leg_darkelves.txt:131 + Cold One@leg_darkelves.txt:316
+comp|de_beastmaster_manticore|High Beastmaster@leg_darkelves.txt:161 + Manticore@leg_darkelves.txt:782
+comp|de_supreme_dragon|Supreme Sorceress@leg_darkelves.txt:130 + Black Dragon@leg_darkelves.txt:750
+comp|orc_bigboss_boar|Orc Bigboss@rh.txt:402 + War Boar@rh.txt:712
+comp|black_warboss_boar|Black Orc Warboss@rh.txt:355 + War Boar@rh.txt:712
+comp|black_bigboss_boar|Black Orc Bigboss@rh.txt:356 + War Boar@rh.txt:712
+comp|orc_weirdboy_boar|Orc Weirdboy@rh.txt:446 + War Boar@rh.txt:712
+comp|orc_weirdnob_boar|Orc Weirdnob@rh.txt:445 + War Boar@rh.txt:712
+comp|gob_warboss_wolf|Goblin Warboss@rh.txt:493 + Giant Wolf@rh.txt:724 ;; Goblin Warboss@rh.txt:493 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|gob_warboss_wolf_amb|Goblin Warboss@rh.txt:493 + Giant Wolf@rh.txt:724 ;; Goblin Warboss@rh.txt:493 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|gob_bigboss_wolf|Goblin Bigboss@rh.txt:494 + Giant Wolf@rh.txt:724 ;; Goblin Bigboss@rh.txt:494 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|gob_bigboss_wolf_amb|Goblin Bigboss@rh.txt:494 + Giant Wolf@rh.txt:724 ;; Goblin Bigboss@rh.txt:494 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|gob_oddnob_wolf|Goblin Oddnob@rh.txt:539 + Giant Wolf@rh.txt:724 ;; Goblin Oddnob@rh.txt:539 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|gob_oddnob_wolf_amb|Goblin Oddnob@rh.txt:539 + Giant Wolf@rh.txt:724 ;; Goblin Oddnob@rh.txt:539 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|gob_oddgit_wolf|Goblin Oddgit@rh.txt:540 + Giant Wolf@rh.txt:724 ;; Goblin Oddgit@rh.txt:540 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|gob_oddgit_wolf_amb|Goblin Oddgit@rh.txt:540 + Giant Wolf@rh.txt:724 ;; Goblin Oddgit@rh.txt:540 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|road_wardens|Sergeant@fof.txt:2276 + Empire Warhorse@fof.txt:2169 ;; Marksman@fof.txt:2344 + Empire Warhorse@fof.txt:2169 ;; Sergeant@fof.txt:2276 + Warhorse@fof.txt:3538
+comp|road_wardens_p|Sergeant@fof.txt:2276 + Empire Warhorse@fof.txt:2169 ;; Marksman@fof.txt:2344 + Empire Warhorse@fof.txt:2169 ;; Esquire@fof.txt:3627 + Empire Warhorse@fof.txt:2169
+comp|empire_knights_ww|Preceptor@fof.txt:2554 + Barded Warhorse@fof.txt:2157 ;; Preceptor@fof.txt:2554 + War Boar@rh.txt:712 ;; Preceptor@fof.txt:2554 + Chaos Steed@rh.txt:2422
+comp|inner_circle_ww|Inner Circle Preceptor@fof.txt:2600 + Cold One@leg_darkelves.txt:316 ;; Inner Circle Preceptor@fof.txt:2600 + Cold One@leg_lizardmen.txt:202
+comp|woc_chieftain_horse|Marauder Tribe Chieftain@aj_chaos2.txt:1181 + Empire Warhorse@fof.txt:2169 ;; Marauder Tribe Chieftain@aj_chaos2.txt:1181 + Warhorse@fof.txt:3538 ;; Marauder Tribe Chieftain@aj_chaos2.txt:1181 + Skeletal Steed@rh.txt:5545
+comp|woc_huscarls|Gorehoof@rh.txt:4215 + Giant Wolf@rh.txt:724 ;; Gorehoof@rh.txt:4215 + Giant Wolf@leg_chaosdwarfs.txt:219
+comp|bm_centigors_sons|Kastellan@leg_vampires.txt:566 + Skeletal Steed@rh.txt:5545
+comp|woc_chosen_chariot|Chosen Chaos Warrior@rh.txt:2499 + Hippogryph@fof.txt:4028
+comp|tk_guardchariot|Chaos Ogre@rh.txt:2646 + Empire Warhorse@fof.txt:2169 ;; Ogre@aj_orcs2.txt:1100 + Empire Warhorse@fof.txt:2169 ;; Ogre@leg_ogres.txt:296 + Empire Warhorse@fof.txt:2169
+comp|lm_oldblood_carno|Saurus Oldblood@leg_lizardmen.txt:122 + Carnosaur@leg_lizardmen.txt:507
+comp|lm_scar_carno|Saurus Scar-Veteran@leg_lizardmen.txt:123 + Carnosaur@leg_lizardmen.txt:507
+comp|cd_prophet_lammasu|Sorcerer-Prophet@leg_chaosdwarfs.txt:93 + Lammasu@leg_chaosdwarfs.txt:531
+comp|cd_prophet_bale|Sorcerer-Prophet@leg_chaosdwarfs.txt:93 + Wyvern@rh.txt:1456
+comp|cd_daemonsmith_lammasu|Daemonsmith Sorcerer@leg_chaosdwarfs.txt:94 + Lammasu@leg_chaosdwarfs.txt:531
+comp|dw_slayers_g|Giant Slayer@fof.txt:1067 + Empire Warhorse@fof.txt:2169 ;; Giant Slayer@fof.txt:1067 + Warhorse@fof.txt:3538 ;; Giant Slayer@fof.txt:1067 + Giant Wolf@rh.txt:724
+comp|br_prophetess_war16|Prophetess@fof.txt:3410 + Bretonnian Warhorse@fof.txt:3526
+comp|br_damsel_war16|Damsel@fof.txt:3411 + Bretonnian Warhorse@fof.txt:3526
+comp|br_prophetess_war12|Prophetess@fof.txt:3410 + Empire Warhorse@fof.txt:2169 ;; Prophetess@fof.txt:3410 + Warhorse@fof.txt:3538 ;; Prophetess@fof.txt:3410 + Skeletal Steed@rh.txt:5545
+comp|br_damsel_war12|Damsel@fof.txt:3411 + Empire Warhorse@fof.txt:2169 ;; Damsel@fof.txt:3411 + Warhorse@fof.txt:3538 ;; Damsel@fof.txt:3411 + Skeletal Steed@rh.txt:5545
+comp|br_prophetess_uni|Prophetess@fof.txt:3410 + entangled in thorns. Unicorn@fof.txt:3575 ;; Prophetess@fof.txt:3410 + Unicorn@fof.txt:4971 ;; Prophetess@fof.txt:3410 + far from Ulthuan. They Unicorn@aj_highelves.txt:1343
+comp|br_damsel_uni|Damsel@fof.txt:3411 + entangled in thorns. Unicorn@fof.txt:3575 ;; Damsel@fof.txt:3411 + Unicorn@fof.txt:4971 ;; Damsel@fof.txt:3411 + far from Ulthuan. They Unicorn@aj_highelves.txt:1343
+comp|br_prophetess_rpeg|Prophetess@fof.txt:3410 + Royal Pegasus@fof.txt:3561
+comp|br_sergeant_mtd|Sergeant-at-Arms@fof.txt:3460 + Empire Warhorse@fof.txt:2169 ;; Sergeant-at-Arms@fof.txt:3460 + Warhorse@fof.txt:3538 ;; Sergeant-at-Arms@fof.txt:3460 + Skeletal Steed@rh.txt:5545
+comp|he_garrison_griffon|Sea Guard Garrison@aj_highelves.txt:1265 + Griffon@fof.txt:6852
+comp|woc_warpfire_w1|Warpfire Dragon@aj_chaos2.txt:1485 + Pegasus@fof.txt:2179 ;; Warpfire Dragon@aj_chaos2.txt:1485 + Barded Pegasus@fof.txt:3549 ;; Warpfire Dragon@aj_chaos2.txt:1485 + Warhawk@fof.txt:4992
+comp|woc_warpfire_w2|Necrosphinx@rh.txt:6297 + Moon Dragon@fof.txt:6901 ;; Necrosphinx@rh.txt:6297 + Moon Dragon@fof.txt:6901
+comp|dm_herald_slaanesh_steed_w1|Herald of Slaanesh@leg_daemons.txt:519 + Steed of Slaanesh@leg_daemons.txt:548
+comp|dm_herald_slaanesh_steed_w2|Herald of Slaanesh@leg_daemons.txt:519 + Steed of Slaanesh@leg_daemons.txt:548
+comp|vc_necro_terror|Master Necromancer@leg_vampires.txt:184 + Abyssal Terror@leg_vampires.txt:924 ;; Master Necromancer@leg_vampires.txt:184 + Abyssal Terror@leg_vampires.txt:924
+comp|vc_necro_dragon|Master Necromancer@leg_vampires.txt:184 + Zombie Dragon@leg_vampires.txt:854
+comp|vc_ghoulking_terror|Strigoi Ghoul King@leg_vampires.txt:234 + Terrorgheist@leg_vampires.txt:919
+comp|vc_acolyte_nightmare|Necromantic Acolyte@leg_vampires.txt:185 + Nightmare@leg_vampires.txt:376
+comp|rc_wizard1_h|Outcast Wizard@aj_bretonnia.txt:1378 + Empire Warhorse@fof.txt:2169 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Warhorse@fof.txt:3538 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Skeletal Steed@rh.txt:5545
+comp|rc_wizard2_h|Outcast Wizard@aj_bretonnia.txt:1378 + Empire Warhorse@fof.txt:2169 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Pegasus@fof.txt:2179 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Warhorse@fof.txt:3538
+comp|rc_wizard3_h|Outcast Wizard@aj_bretonnia.txt:1378 + Empire Warhorse@fof.txt:2169 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Pegasus@fof.txt:2179 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Warhorse@fof.txt:3538
+comp|rc_freeblades|Preceptor@fof.txt:2554 + Empire Warhorse@fof.txt:2169 ;; Preceptor@fof.txt:2554 + Warhorse@fof.txt:3538 ;; Preceptor@fof.txt:2554 + Skeletal Steed@rh.txt:5545
+comp|br_outcast_h|Outcast Wizard@aj_bretonnia.txt:1378 + Empire Warhorse@fof.txt:2169 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Warhorse@fof.txt:3538 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Skeletal Steed@rh.txt:5545
+comp|br_outcast2_h|Outcast Wizard@aj_bretonnia.txt:1378 + Empire Warhorse@fof.txt:2169 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Pegasus@fof.txt:2179 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Warhorse@fof.txt:3538
+comp|br_outcast3_h|Outcast Wizard@aj_bretonnia.txt:1378 + Empire Warhorse@fof.txt:2169 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Pegasus@fof.txt:2179 ;; Outcast Wizard@aj_bretonnia.txt:1378 + Warhorse@fof.txt:3538
+comp|woc_exalted_manticore|Beastlord@rh.txt:3817 + Manticore@rh.txt:3099 ;; Beastlord@rh.txt:3817 + Manticore@leg_darkelves.txt:782
+comp|woc_exalted_dragon|Exalted Champion@rh.txt:2256 + Chaos Dragon@rh.txt:3148
+comp|woc_lord_daemon|Chaos Lord@rh.txt:2255 + Daemonic Mount@rh.txt:2434
+comp|woc_exalted_daemon|Exalted Champion@rh.txt:2256 + Daemonic Mount@rh.txt:2434
+comp|woc_aspiring_daemon|Aspiring Champion@rh.txt:2257 + Daemonic Mount@rh.txt:2434
+comp|woc_sorc_daemon|Sorcerer Lord@rh.txt:2353 + Daemonic Mount@rh.txt:2434
+comp|woc_exsorc_daemon|Exalted Sorcerer@rh.txt:2354 + Daemonic Mount@rh.txt:2434
+mach|state_halberds|State Trooper@fof.txt:2228 (grupo)
+mach|state_swords|State Trooper@fof.txt:2228 (grupo)
+mach|state_veterans|Veteran State Trooper@fof.txt:2232 (grupo)
+mach|demigryph_knights|Demigryph Knight@fof.txt:2646
+mach|steam_tank|Steam Tank@fof.txt:2740 (grupo)
+mach|mortar|Mortar@fof.txt:2900
+mach|helblaster|Helblaster Volley Gun@fof.txt:2930
+mach|helstorm|Helstorm Rocket Battery@fof.txt:2975
+mach|wolf_riders|Wolf Rider@rh.txt:1261
+mach|wolf_riders_amb|Wolf Rider@rh.txt:1261
+mach|boar_boyz|Boar Boy@rh.txt:1169
+mach|we_warhawks|Warhawk Rider@fof.txt:5431
+mach|we_orion|Orion,@aj_wood2.txt:960
+mach|we_sisters|Sister of the Thorn@fof.txt:5341
+mach|spider_riders|Spider Rider@rh.txt:1216
+mach|black_chariot|Chariot@aj_orcs2.txt:1155
+mach|wolf_chariot|Chariot@rh.txt:1405
+mach|arachnarok|Arachnarok Spider@rh.txt:1504
+mach|gob_kiknik|Kiknik Toofsnatcha@aj_orcs2.txt:875
+mach|doom_diver|devastation they can create, Doom Diver Catapult@rh.txt:1711 (grupo)
+mach|br_yeomen|Mounted Yeoman@fof.txt:3982
+mach|br_green_knight|The Green Knight@aj_bretonnia.txt:1071
+mach|br_errant|Knight Errant@fof.txt:3797
+mach|br_questing|Questing Knight@fof.txt:3846
+mach|br_grail|Grail Knight@fof.txt:3894
+mach|br_pegasus|Pegasus Knight@fof.txt:3937
+mach|br_bombard|Bombard@aj_bretonnia.txt:1548
+mach|woc_marauders_gw|Chaos Marauder@faq_rh.txt:301 (grupo)
+mach|woc_horsemen|Marauder Horseman@faq_rh.txt:342 (grupo)
+mach|tk_horsemen|Skeleton Horseman@rh.txt:5842 ;; Skeleton Horse Archer@rh.txt:5891 ;; Royal Host Horse Archer@aj_tk2.txt:1253
+mach|tk_horse_archers|Skeleton Horseman@rh.txt:5842 ;; Skeleton Horse Archer@rh.txt:5891 ;; Royal Host Horse Archer@aj_tk2.txt:1253
+mach|tk_necroknights|Necropolis Knight@rh.txt:5942
+mach|he_skycutter|Skycutter@fof.txt:6808
+mach|he_skycutter_bt|Skycutter@fof.txt:6808
+mach|he_dragonmage|Dragon Mage@fof.txt:6147
+mach|tk_skirmishers|Skeleton Archers continue Skeleton Skirmisher@rh.txt:5704 (grupo)
+mach|tk_catapult|Screaming Skull Catapult@rh.txt:6345
+mach|tk_casket|Casket of Souls@rh.txt:6394
+mach|tk_warsphinx|Khemrian Warsphinx@rh.txt:6141
+mach|he_tiranoc|Tiranoc Chariot@fof.txt:6758
+mach|woc_chariot|Chariot@rh.txt:2998
+mach|dw_anvil|Anvil of Doom@fof.txt:440
+mach|dw_cart|Dwarf Cart@aj_dwarfs2.txt:1304
+mach|dw_cart_miner|Dwarf Cart@aj_dwarfs2.txt:1304
+mach|dw_hewer|Goblin-Hewer@aj_dwarfs2.txt:1355
+mach|dw_bolt|War Machine Bolt Thrower@fof.txt:1208
+mach|dw_grudge|still swear by the Bolt thrower Grudge Thrower@fof.txt:1225 (grupo)
+mach|dw_cannon|Cannon@fof.txt:1258
+mach|dw_organ|Organ Gun@fof.txt:1275
+mach|dw_flame|Flame Cannon@fof.txt:1288
+mach|lm_terradons|Terradon Rider@leg_lizardmen.txt:449
+mach|lm_stegadon|Stegadon@leg_lizardmen.txt:538
+mach|lm_bastiladon|Bastiladon@leg_lizardmen.txt:593
+mach|lm_troglodon|Troglodon@leg_lizardmen.txt:648
+mach|vc_bloodknights|Blood Knight@leg_vampires.txt:565
+mach|vc_blackcoach|Black Coach@leg_vampires.txt:820
+mach|dm_bloodcrushers|Bloodletter@leg_daemons.txt:214
+mach|dm_plaguedrones|Plaguebearer@leg_daemons.txt:456
+mach|dm_seekerchariot|Seeker Chariot@leg_daemons.txt:649
+mach|ok_ironblaster|Ironblaster@leg_ogres.txt:520
+mach|ok_scraplauncher|Scraplauncher@leg_ogres.txt:564
+mach|ok_stonehorn|Stonehorn@leg_ogres.txt:603
+mach|ok_thundertusk|Thundertusk@leg_ogres.txt:636
+mach|cd_mortar|Dreadquake Mortar@leg_chaosdwarfs.txt:606
+mach|cd_magma|Magma Cannon@leg_chaosdwarfs.txt:645
+mach|cd_bolt|Bolt Thrower@leg_chaosdwarfs.txt:663
+mach|we_warhawks_sk|Warhawk Rider@fof.txt:5431
+mach|de_shrine|Bloodwrack Shrine@leg_darkelves.txt:719
+mach|dm_burningchariot|Burning Chariot@leg_daemons.txt:901
+mach|wolf_riders_snk|Wolf Rider@rh.txt:1261
+mach|wolf_riders_hp|Wolf Rider@rh.txt:1261
+mach|wolf_riders_amb_hp|Wolf Rider@rh.txt:1261
+mach|dw_thunderers_em|Thunderer@fof.txt:772 (grupo)
+mach|woc_marauders_amb|Chaos Marauder@faq_rh.txt:301 (grupo)
+mach|woc_marauders_gw_amb|Chaos Marauder@faq_rh.txt:301 (grupo)
+mach|woc_horsemen_amb|Marauder Horseman@faq_rh.txt:342 (grupo)
+mach|woc_marauders_gw_famb|Chaos Marauder@faq_rh.txt:301 (grupo)
+mach|woc_horsemen_famb|Marauder Horseman@faq_rh.txt:342 (grupo)
+mach|cd_mortar_hb|Dreadquake Mortar@leg_chaosdwarfs.txt:606
+mach|cd_magma_hb|Magma Cannon@leg_chaosdwarfs.txt:645
+mach|tk_skirmishers_amb|Skeleton Archers continue Skeleton Skirmisher@rh.txt:5704 (grupo)
+mach|tk_horse_archers_cr|Skeleton Horseman@rh.txt:5842 ;; Skeleton Horse Archer@rh.txt:5891 ;; Royal Host Horse Archer@aj_tk2.txt:1253
+mach|tk_horse_archers_mo|Skeleton Horseman@rh.txt:5842 ;; Skeleton Horse Archer@rh.txt:5891 ;; Royal Host Horse Archer@aj_tk2.txt:1253
+mach|boar_riders|Boar Boy@rh.txt:1169
+mach|br_duke_foot|Character Duke@fof.txt:3362
+mach|br_baron_foot|Baron@fof.txt:3363
+mach|emp_harald|Harald Gemunsen@aj_empire2.txt:1033
+mach|tk_settra|Settra the Imperishable@aj_tk2.txt:869
+mach|rc_bombard|Bombard@aj_bretonnia.txt:1548

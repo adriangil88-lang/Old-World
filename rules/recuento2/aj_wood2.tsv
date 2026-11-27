@@ -1,0 +1,160 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+aj_wood2-001	aj_wood2.txt:540-640	Escenario El Profeta y el Cazador: listas 2.500 pts Orion vs Kralmaw 1.500 + emboscada 2.000	AUSENTE		No hay escenario ni Kralmaw en el motor
+aj_wood2-002	aj_wood2.txt:585-600	"Despliegue Herdstone 6"", monolito Arcano y Monumento de Gloria"	OK	rules.js:1072 SC.herd (monolith+monument)	"Herdstone 6"" como Monolito Arcano y Monumento de Gloria"
+aj_wood2-003	aj_wood2.txt:585-600	Atacante juega primer turno; 6 turnos	OK	rules.js:242 SCENARIOS.prophet first:0	Atacante primer turno; 6 turnos por defecto
+aj_wood2-004	aj_wood2.txt:585-600	Roaming Warherds: ejército emboscador defensor con Emboscadores gratis	OK	rules.js:242 ambush:0.57; rules.js:1074	Fuerza emboscadora del defensor (2.000/3.500) con Emboscadores gratis
+aj_wood2-005	aj_wood2.txt:585-600	Fighting to Safety: tras morir Kralmaw, unidades salen por borde sin ser destruidas	OK	rules.js:6690 kralDead; 6768	Fighting to Safety
+aj_wood2-006	aj_wood2.txt:585-600	Vengeful Wrath: unidades del atacante con Impetuoso	OK	rules.js:155 has_ impetuous prophet owner 0	Vengeful Wrath
+aj_wood2-007	aj_wood2.txt:585-600	Victoria: +250 PV si Orion muere; +50 PV por unidad que escapa	OK	rules.js:6768	+250 PV si Orion muere; +50 PV por unidad escapada
+aj_wood2-008	aj_wood2.txt:711-730	Lista Orion Wild Hunt como Ejército de Infamia alternativo al Gran Ejército	OK	data.js:3318 LISTS.wood.owh; 4292 listAllows	
+aj_wood2-009	aj_wood2.txt:726-731	Personajes hasta 50%	OK	data.js:4448 by.char > 50%	
+aj_wood2-010	aj_wood2.txt:727-729	OWH: 0-1 Señor del Claro por 1.000 pts	OK	data.js:4643	
+aj_wood2-011	aj_wood2.txt:729-731	OWH: 0-1 Danzante de Sombras, Cantor o Acechador por 1.000 pts (combinados)	OK	data.js:4652	
+aj_wood2-012	aj_wood2.txt:731-732	OWH: Capitanes del Claro permitidos	OK	data.js:3327 WE_OWH_NO no los excluye	
+aj_wood2-013	aj_wood2.txt:730-733	OWH: sin Tejedor, Anciano, Hechicera Rama (no listados)	OK	data.js:3328 WE_OWH_NO	
+aj_wood2-014	aj_wood2.txt:726-729	OWH Básicas: mínimo 25%	OK	data.js:4446 cm 0.25	
+aj_wood2-015	aj_wood2.txt:726-729	OWH Básicas: 0-1 unidad de Jinetes Salvajes por 1.000 pts	OK	data.js:3451 WE_OWH wild_riders special; catsOf owh	0-1 unidad de Jinetes Salvajes por 1.000 pts es Basica; el resto cuentan como Especiales
+aj_wood2-016	aj_wood2.txt:728-729	OWH Básicas: Jinetes del Claro	OK	data.js:649 comp core	
+aj_wood2-017	aj_wood2.txt:726-745	OWH Básicas: Guardia del Claro/Eterna/Dríadas no permitidas	OK	data.js:3328	
+aj_wood2-018	aj_wood2.txt:732-738	OWH Especiales hasta 50%	OK	data.js:4449	
+aj_wood2-019	aj_wood2.txt:736-737	OWH Especiales: 0-1 Hermanas de la Espina por 1.000 pts	OK	data.js:4654	
+aj_wood2-020	aj_wood2.txt:738-739	OWH Especiales: Bailarines de Guerra, Jinetes de Halcón y Jaurías	OK	data.js:3327 WE_OWH; unidades base special	
+aj_wood2-021	aj_wood2.txt:738-739	OWH Especiales: Jinetes Salvajes también como Especiales	OK	data.js:3451; data.js catsOf list owh	Jinetes Salvajes tambien como Especiales
+aj_wood2-022	aj_wood2.txt:740-745	OWH Raras hasta 25%	OK	data.js:4443	
+aj_wood2-023	aj_wood2.txt:741-742	OWH Raras: 0-1 Vigías por Acechador	OK	data.js:3327; 4659	
+aj_wood2-024	aj_wood2.txt:743-743	OWH Raras: 0-3 Grandes Águilas por 1.000 pts	OK	data.js:4658	
+aj_wood2-025	aj_wood2.txt:744-744	OWH Raras: Exploradores del Bosque Profundo y Guardabosques	OK	data.js:3327 WE_OWH scouts/rangers rare; 4435 scouts no pasan a Básicos en owh	
+aj_wood2-026	aj_wood2.txt:747-751	OWH PEB: un Capitán del Claro por +25 pts	OK	data.js:2467 we_captain [null,25,null]	
+aj_wood2-027	aj_wood2.txt:747-751	PEB: un estandarte mágico sin límite de puntos	OK	data.js:3179 bannerBudget; 3214	Comprobado solo en datos
+aj_wood2-028	aj_wood2.txt:753-756	Objetos mágicos Comunes o de Elfos Silvanos	OK	data.js:3086-3119	
+aj_wood2-029	aj_wood2.txt:768-772	Chieftains: Nobles OWH pueden tener Tatuajes Talismánicos por +10 pts por modelo	OK	data.js:3145 we_tattoos ward 6 nobleOnly list owh	
+aj_wood2-030	aj_wood2.txt:774-782	Spirit of Kurnous: 0-1 unidad Glade Riders/Warhawks/Packs por 1.000 con Carga Furiosa e Impetuoso +10	OK	data.js:3334 mkVariant _sk; 4434 límite	No se aplica a la montura (no verificado en Jinetes de Halcón)
+aj_wood2-031	aj_wood2.txt:768-790	Worthy of Kurnous: tras despliegue se designa un personaje o monstruo enemigo como presa	OK	rules.js preStep/preyOpts + apply0 nomKind prey; ai.js decider kind prey; main.js modal	
+aj_wood2-032	aj_wood2.txt:768-790	Worthy of Kurnous: repetir 1 naturales al impactar en Disparo o Combate contra la presa	OK	rules.js resolveShot0 rer (worthy)	
+aj_wood2-033	aj_wood2.txt:768-790	Worthy of Kurnous: +100 PV si la presa muere, huye o está huyendo	OK	rules.js:5954	
+aj_wood2-034	aj_wood2.txt:863-874	Lista Host of Talsyn como Ejército de Infamia	OK	data.js:3318 LISTS.wood.talsyn; 4292	
+aj_wood2-035	aj_wood2.txt:877-883	Talsyn Personajes 50%; 0-1 Señor del Claro o Tejedor por 1.000	OK	data.js:4643	
+aj_wood2-036	aj_wood2.txt:879-879	Talsyn: 0-1 Anciano Hombre Árbol por 1.000	OK	data.js:4644	
+aj_wood2-037	aj_wood2.txt:880-880	Talsyn: 0-1 Guardián de Talsyn por 1.000	OK	data.js:4649	
+aj_wood2-038	aj_wood2.txt:881-881	Talsyn: 0-1 Danzante de las Sombras por unidad de Bailarines	OK	data.js:4650	
+aj_wood2-039	aj_wood2.txt:882-884	Talsyn: Capitanes, Cantores y Hechiceras Rama permitidos; sin Acechadores	OK	data.js:3330 WE_TAL_NO incluye waystalker	
+aj_wood2-040	aj_wood2.txt:877-880	Talsyn Básicas 25% mínimo; 1+ unidad de Guardia Eterna	OK	data.js:4647; 4446	
+aj_wood2-041	aj_wood2.txt:878-880	Talsyn Básicas: Dríadas; 0-1 Guardia del Claro por 1.000	OK	data.js:4648	
+aj_wood2-042	aj_wood2.txt:881-883	Talsyn: 0-1 unidad de Exploradores como Básica	OK	data.js:4435 k=1 en talsyn	
+aj_wood2-043	aj_wood2.txt:886-890	Talsyn Especiales hasta 50%: Exploradores, Guardianes, Guardabosques, Hermanas	OK	data.js:4449; 3330	
+aj_wood2-044	aj_wood2.txt:890-891	Talsyn: 0-2 unidades de Parientes del Árbol por 1.000	OK	data.js:4656	
+aj_wood2-045	aj_wood2.txt:892-896	Talsyn Raras hasta 33%: Hombres Árbol y Bailarines de Guerra	OK	data.js:3329 WE_TAL wardancers rare; 4443	
+aj_wood2-046	aj_wood2.txt:897-897	Talsyn: 0-3 Grandes Águilas por 1.000 (Rara)	OK	data.js:4658	
+aj_wood2-047	aj_wood2.txt:898-900	Talsyn: sin Jinetes del Claro/Salvajes/Halcón/Jaurías/Vigías	OK	data.js:3330	
+aj_wood2-048	aj_wood2.txt:900-905	Talsyn PEB: Capitán o Guardián de Talsyn por +25 pts	OK	data.js:2467 we_captain y we_warden [null,25,null]	
+aj_wood2-049	aj_wood2.txt:907-910	Talsyn objetos mágicos Comunes o de Elfos Silvanos	OK	data.js:3086-3119	
+aj_wood2-050	aj_wood2.txt:921-926	Ancient Enemies: todas las unidades con Odio (Hombres Bestia Brayherds)	OK	rules.js:4225 faction bm	Se aplica a unidades de la facción wood
+aj_wood2-051	aj_wood2.txt:928-935	In Tune With Nature: Magos Elfos, Ancianos y Hechiceras Rama pueden conocer Lore of the Wilds	OK	rules.js:769	
+aj_wood2-052	aj_wood2.txt:937-943	Protectors: re-roll 1 naturales al impactar y herir mientras controla un elemento especial	OK	rules.js attackProfile prot (featController)	
+aj_wood2-053	aj_wood2.txt:945-952	Awakened Wood: Dríadas y Parientes Emboscadores +1 pt por modelo	OK	data.js:3392	
+aj_wood2-054	aj_wood2.txt:945-952	Awakened Wood: Hombres Árbol y Ancianos Emboscadores +10 pts	OK	data.js:3393	
+aj_wood2-055	aj_wood2.txt:962-1008	Orion perfil M9 HA8 HP6 F5 R5 H5 I8 A5 L10 455 pts	OK	data.js:712 we_orion	A7 en el motor = 5 de Orion + 2 Sabuesos (unidad sumada)
+aj_wood2-056	aj_wood2.txt:962-1008	Perfil Sabueso de Orion M9 HA4 HP0 F4 R4 H1 I4 A1 L6	OK	data.js:734 we_orion_hounds	Ld 6 no se usa en la unidad (usa la de Orion)
+aj_wood2-057	aj_wood2.txt:962-1008	Orion: tipo de tropa infantería monstruosa (personaje con nombre)	PARCIAL	data.js:712 tt char	Tipo de tropa char, no monstrous infantry | pendiente: requiere cambios estructurales (tipo de tropa/por modelo/opciones); no abordado
+aj_wood2-058	aj_wood2.txt:962-1008	Hounds: bestias de guerra; peana 50x50 y 25x50; tamaño unidad 3	OK	data.js:712,734 baseW/baseD us:3	
+aj_wood2-059	aj_wood2.txt:962-1008	Orion incluible en cualquier lista de Elfos Silvanos; tal como se presenta	OK	data.js:712 noItems, unique	
+aj_wood2-060	aj_wood2.txt:962-1008	Equipo: Capa de Isha, Garra de Halcón, Cuerno, Lanza de Kurnous	OK	data.js:712-724	
+aj_wood2-061	aj_wood2.txt:962-1008	Reglas Orion: Miedo, Frenesí, Inmune a Psicología, Mover a través de cobertura	OK	data.js:712 sr (terror implica miedo)	
+aj_wood2-062	aj_wood2.txt:962-1008	Reglas Orion: Resistencia a la Magia (2), Orden Abierto, Stomp D3+2	OK	data.js:712 magRes2, openOrder, stompN	
+aj_wood2-063	aj_wood2.txt:962-1008	Reglas Orion: Golpea Primero, Terror, Inquebrantable	OK	data.js:712	
+aj_wood2-064	aj_wood2.txt:962-1008	Reglas Sabueso: Miedo, Frenesí, Inmune, Mágicos, MtC, Orden Abierto, Inquebrantable	OK	data.js:734	
+aj_wood2-065	aj_wood2.txt:977-981	Orion y Sabuesos forman una sola unidad que Orion no puede abandonar; Orden Abierto aun con un modelo	OK	rules.js:1520,1586; data.js openOrder	
+aj_wood2-066	aj_wood2.txt:982-989	Spectral Hounds: Sabuesos solo heridos por ataques mágicos	OK	rules.js:1586-1595	
+aj_wood2-067	aj_wood2.txt:1009-1015	Capa de Isha: salvación especial 5+	OK	data.js:714 ward 5	
+aj_wood2-068	aj_wood2.txt:1009-1015	Capa de Isha: cada Inicio de turno 5+ recupera una Herida	OK	rules.js inicio de turno (Capa de Isha)	
+aj_wood2-069	aj_wood2.txt:1016-1022	Cuerno de la Cacería: una vez por partida en Mando, unidades en alcance de mando ganan Frenesí hasta fin de turno	PARCIAL	rules.js apply0 a.t horn; ai.js optionGroups hn; main.js botón	"VERIF v732: rules.js:7339-7348 horn (una vez, Mando, alcance de mando, endTurn) da hornF pero has1 (rules.js:159) anula Frenesi si frenzyLost: falta ""aunque lo haya perdido antes"""
+aj_wood2-070	aj_wood2.txt:1024-1027	"Hawk Talon 30"" F5 FP-1 mágico Disparos múltiples (D3+1)"	OK	data.js:719	
+aj_wood2-071	aj_wood2.txt:1028-1037	Lanza de Kurnous cuerpo a cuerpo F+1 FP-2 mágica Heridas múltiples (D3)	OK	data.js:714 melee sb1 ap2 mw D3	
+aj_wood2-072	aj_wood2.txt:1028-1037	"Lanza de Kurnous a distancia 18"" F+1 FP-2 mágica HM(D3) como lanzavirotes (Atravesar)"	OK	data.js:720 ranged2	
+aj_wood2-073	aj_wood2.txt:1115-1125	Araloth: perfil M5 HA8 HP7 F4 R3 H3 I8 A4 L10	OK	data.js:709	
+aj_wood2-074	aj_wood2.txt:1115-1125	Araloth: coste 170 pts	OK	data.js we_araloth ppm 170	
+aj_wood2-075	aj_wood2.txt:1115-1125	Araloth: Glade Lord; infantería regular; peana 25; unidad 1; incluible en cualquier lista	OK	data.js:4643 cuenta como Señor; noItems	
+aj_wood2-076	aj_wood2.txt:1115-1125	Equipo: armadura pesada, escudo y Lanza de Talsyn	OK	data.js:709 arm heavy avOpt shield	
+aj_wood2-077	aj_wood2.txt:1115-1125	Reglas: Evasiva, Mover a través de cobertura, Grito de reunión, Golpea Primero, Tozudo	OK	data.js:709 sr	
+aj_wood2-078	aj_wood2.txt:1131-1135	Boldest of the Bold: ignora modificadores negativos a su Liderazgo	OK	rules.js:1414,1421,1431,1433	Comprobado en los modificadores listados
+aj_wood2-079	aj_wood2.txt:1137-1140	Favour of the Goddess: salvación especial 5+	OK	data.js:709 ward 5	
+aj_wood2-080	aj_wood2.txt:1142-1150	"Skaryn: en Mando, D6: 1-2 nada; 3+ impacto F4 FP-1 a un modelo enemigo a 18"""	OK	rules.js apply0 a.t skaryn; ai.js optionGroups sk; main.js botón	El jugador elige el objetivo; la IA por valoración aprendida
+aj_wood2-081	aj_wood2.txt:1142-1150	Skaryn: si sufre herida no salvada, HA e I -D3 (mín 1) resto de partida	PARCIAL	rules.js:5441,4033,4218	El efecto se aplica a la unidad entera, no al modelo impactado | pendiente: requiere cambios estructurales (tipo de tropa/por modelo/opciones); no abordado
+aj_wood2-082	aj_wood2.txt:1152-1156	Lanza de Talsyn: F FP-1 Perforante (1), Ataques mágicos	OK	data.js:709 melee ap1 ab1 magical	
+aj_wood2-083	aj_wood2.txt:1162-1175	Guardián de Talsyn perfil M5 HA7 HP4 F4 R3 H3 I6 A4 L9	OK	data.js:746	
+aj_wood2-084	aj_wood2.txt:1162-1175	Guardián: 125 pts; objetos mágicos hasta 75	OK	data.js:746 ppm 125 ib 75	
+aj_wood2-085	aj_wood2.txt:1162-1175	Guardián: equipo mano, lanza asrai y armadura ligera	OK	data.js:746	
+aj_wood2-086	aj_wood2.txt:1166-1170	Guardián: cambiar lanza por arma de mano adicional +3 o a dos manos +4	OK	data.js:5117-5120	
+aj_wood2-087	aj_wood2.txt:1166-1170	Guardián: escudo opcional +2 pts	OK	data.js we_warden.opts sh (+2)	
+aj_wood2-088	aj_wood2.txt:1170-1175	Guardián reglas: Formación cerrada, Disciplinado, Reflejos, MtC, Golpea Primero, Tozudo, Inmune a psicología	OK	data.js:747	
+aj_wood2-089	aj_wood2.txt:1177-1181	Courage Beyond Compare: la unidad de Guardianes a la que se une es Inmune a Psicología	OK	rules.js:152 has0	
+aj_wood2-090	aj_wood2.txt:1183-1186	Parry: armadura +1 con arma de mano o lanza asrai y escudo	OK	rules.js:1655; data.js:285	Con escudo gratis siempre activa
+aj_wood2-091	aj_wood2.txt:1212-1230	Guardianes perfil M5 HA5 HP4 F3 R3 H1 I4 A2 L9; Watchmaster A3	OK	data.js:749; champion genérico	
+aj_wood2-092	aj_wood2.txt:1212-1230	Guardianes coste 18 pts; Watchmaster +6	OK	data.js:749; 2477 [6,5,5]	
+aj_wood2-093	aj_wood2.txt:1212-1230	Guardianes: tamaño 5+; peana 25; infantería regular; equipo mano, lanza asrai, armadura ligera	OK	data.js:749 min 5 max 30	
+aj_wood2-094	aj_wood2.txt:1230-1236	Guardianes: escudos para toda la unidad +1 pt por modelo	OK	data.js we_guardians.opts sh (+1/modelo)	
+aj_wood2-095	aj_wood2.txt:1230-1236	Guardianes: portaestandarte +5, músico +5, estandarte mágico hasta 50, Watchmaster objetos hasta 50	OK	data.js:2477; 3179	
+aj_wood2-096	aj_wood2.txt:1232-1240	Guardianes: Formación cerrada, Disciplinados, Reflejos, MtC, Parry, Tozudos, Veteranos	OK	data.js:750	
+aj_wood2-097	aj_wood2.txt:1236-1240	Martial Prowess: ataques de apoyo por flancos y retaguardia	OK	rules.js:4098; data.js:229	
+aj_wood2-098	aj_wood2.txt:1241-1246	Lanza asrai: Combate F FP-1, Luchar en filas extra	OK	data.js:750 melee thrust ap1	
+aj_wood2-099	aj_wood2.txt:1241-1246	Lanza asrai: sin ataque de apoyo si cargó; +1 I contra carga frontal	OK	rules.js:4098,4037	
+aj_wood2-100	aj_wood2.txt:1262-1275	Cuidador de bestias M5 HA4 HP4 F3 R3 H1 I4 A1 L8 11 pts; armadura ligera	OK	data.js:3575 we_beastkeeper; keeperCost 11	
+aj_wood2-101	aj_wood2.txt:1262-1275	Jaurías: 1-3 bestias por Cuidador; unidad de 1+ Cuidadores	OK	data.js:739-751 handR minPer 1/3 maxPer 1, min 1	1-3 bestias por Cuidador (el jugador elige el numero de Cuidadores con el selector de mezcla)
+aj_wood2-102	aj_wood2.txt:1262-1275	Costes: Sabueso +8, Gato +6, Jabalí +11, Oso +20	OK	data.js:731-744 ppm	
+aj_wood2-103	aj_wood2.txt:1262-1275	Cada Cuidador toma el mismo tipo de bestia (sin mezcla)	OK	data.js:731-744 una unidad por tipo	
+aj_wood2-104	aj_wood2.txt:1262-1275	Reglas Cuidador: Reflejos, Motley Crew, MtC, Run with the Pack, Escaramuzadores	OK	data.js:3745 we_beastkeeper sr	Cuidador con Reflejos de elfo, Motley Crew, Cubierta, Run with the Pack, Escaramuzadores
+aj_wood2-105	aj_wood2.txt:1280-1292	Run with the Pack: sin Indisciplina ni miedo al fuego; M de la mayoría	OK	rules.js:105,2687,2897	
+aj_wood2-106	aj_wood2.txt:1295-1305	Perfil Sabueso Bosque Profundo M9 HA4 F3 R3 H1 I3 A1 L5	OK	data.js we_pack_hounds Ld 5	
+aj_wood2-107	aj_wood2.txt:1295-1305	Perfil Gato del Bosque M7 HA4 F3 R3 H1 I4 A1 L5	OK	data.js we_pack_cats Ld 5	
+aj_wood2-108	aj_wood2.txt:1295-1305	Perfil Jabalí Silvano M6 HA3 F4 R4 H1 I3 A1 L5	OK	data.js we_pack_boars Ld 5	
+aj_wood2-109	aj_wood2.txt:1295-1305	Perfil Oso de Loren M5 HA4 F4 R4 H2 I3 A2 L6	OK	data.js we_pack_bears Ld 6	
+aj_wood2-110	aj_wood2.txt:1306-1312	Tipo bestia de guerra; peana 25x50; ataques garras/colmillos como mano	OK	data.js:731-744	
+aj_wood2-111	aj_wood2.txt:1313-1330	Reglas por bestia: Sabueso Warband; Gato Perforante 1; Jabalí Carga Furiosa; Oso Piel acorazada 1, Miedo	OK	data.js:731-744	
+aj_wood2-112	aj_wood2.txt:1313-1330	Motley Crew en todas las bestias	OK	data.js:739-751 sr motley	Motley Crew anadido a las bestias (regla descriptiva; la mezcla se modela con handR)
+aj_wood2-113	aj_wood2.txt:1331-1338	Cleaving Blow: 6 natural al herir sin salvación de armadura/regeneración contra ciertas tropas; no con herida automática	PARCIAL	rules.js:1700,1716	VERIF v732: rules.js:2024 cleaveT excluye personajes montados (!dd.mount) aunque su tipo es caballeria ligera/pesada (la fuente los incluye); herida automatica ya excluida (!auto)
+aj_wood2-114	aj_wood2.txt:1340-1346	Razor Tusks: FP +1 al cargar	OK	rules.js:4176	
+aj_wood2-115	aj_wood2.txt:1347-1352	Beasts of the Forest: Jaurías como Raras en Gran Ejército, cualquier número	OK	data.js:731 comp rare	
+aj_wood2-116	aj_wood2.txt:1360-1368	Linajes: Nobles/Magos, no a la montura, sin acumular Alter y Noble	OK	data.js:3231,3241-3248	
+aj_wood2-117	aj_wood2.txt:1369-1377	Alter: unidad unida no puede usar el Liderazgo del personaje	OK	rules.js:1383 noLd	
+aj_wood2-118	aj_wood2.txt:1378-1383	Aspect of the Hound +20: re-roll 1 al impactar en combate (personaje y unidad)	OK	data.js:3129	
+aj_wood2-119	aj_wood2.txt:1384-1389	Aspect of the Bear +15: infantería o caballería, F+1 R+1	OK	data.js:3130	
+aj_wood2-120	aj_wood2.txt:1390-1395	Aspect of the Boar +10: FP+1 al cargar e Impactos (1)	OK	data.js:3131	
+aj_wood2-121	aj_wood2.txt:1396-1401	Aspect of the Cat +10: Perforante (1) y re-roll fallos al impactar en desafío	OK	data.js:3132	
+aj_wood2-122	aj_wood2.txt:1417-1423	Glamour Weave +25: solo Magos; salvación 5+ y Tree Spirit	OK	data.js:3133	
+aj_wood2-123	aj_wood2.txt:1424-1432	"Eternal Kindred +20: infantería; re-roll 1 al impactar; re-roll fallos al herir a 6"" de elemento especial"	PARCIAL	data.js:3134; rules.js:4192	"VERIF v732: data.js:3162 k_eternal usa rr1Hit, que rules.js:4916 mapea a P.rrHit y 5410 repite TODO fallo al impactar (no solo 1 naturales). La parte de repetir heridas a 6"" (rules.js:4883) si es correcta"
+aj_wood2-124	aj_wood2.txt:1433-1442	Wild Rider Kindred +20: Noble montado en corcel o ciervo; Contracarga, Frenesí, Carga Furiosa, Tatuajes	OK	data.js:3360 validacion k_wild armadura ligera	Linaje Jinetes Salvajes: prohibe armaduras magicas no ligeras
+aj_wood2-125	aj_wood2.txt:1443-1450	Scout Kindred +15: infantería; Disparo rápido y Exploradores	OK	data.js:3136	
+aj_wood2-126	aj_wood2.txt:1461-1495	Lore of the Wilds: Magos pueden elegirlo entre sus Lores	OK	data.js:2417 wilds; rules.js:769	
+aj_wood2-127	aj_wood2.txt:1497-1512	Swirling Mists (firma): Encantamiento 8+, uno mismo; enemigos repiten 6 naturales al impactar	OK	data.js:2303; rules.js:2441	
+aj_wood2-128	aj_wood2.txt:1514-1520	"1. Fury of Athel Loren: Proyectil VL 10+, 18"", D3+1 impactos F6 FP-2 HM(2)"	OK	data.js durthu_wrath cv 10	
+aj_wood2-129	aj_wood2.txt:1521-1527	"2. Ariel Blessing: Encantamiento 9+, 10"", Regeneración 5+"	OK	data.js:2308	
+aj_wood2-130	aj_wood2.txt:1528-1536	"3. Spiteful Torrent: Vórtice 10+, 15"", plantilla 3"", se mueve D6"" cada Inicio de turno, 3D6 impactos F2 FP-1"	OK	data.js:2309; rules.js:5540-5560	
+aj_wood2-131	aj_wood2.txt:1528-1536	Spiteful Torrent: plantilla terreno peligroso, permanece en juego sin límite	OK	rules.js vórtice spiteful_torrent danger, sin límite de turnos	
+aj_wood2-132	aj_wood2.txt:1537-1543	4. Durthu Wrath: Asalto 10+, test de I a fila de combate, D3 impactos F4 sin armadura	OK	data.js durthu_rage cv 10	
+aj_wood2-133	aj_wood2.txt:1544-1549	"5. Hidden Pathways: Traslado 8+, 12"", Movimiento de Reserva y Giro Rápido"	OK	data.js hidden_paths type conveyance conv pathways; rules.js spellTargets/cast	
+aj_wood2-134	aj_wood2.txt:1550-1557	"6. Sapping Blight: Maleficio 9+, 12"", -D3 F (mín 1), vale en combate, sustituye otro Maleficio"	OK	data.js:2318; rules.js:3641,4122	
+aj_wood2-135	aj_wood2.txt:1514-1557	Orden de los 6 hechizos de la Lore (1 a 6)	OK	data.js SPELLS lore wilds pool orden	
+aj_wood2-136	aj_wood2.txt:1573-1580	"Vaul Wrath 55: arco 32"" F+1 FP-2 flamígero mágico HM(2); una vez Atravesar si no se movió"	OK	data.js:3086; rules.js:2220	
+aj_wood2-137	aj_wood2.txt:1581-1586	Daith Reaper 40: F+1 FP-1 mágica; enemigo repite salvaciones superadas	OK	data.js:3088	
+aj_wood2-138	aj_wood2.txt:1587-1594	Hunt Master Pride 35: FP-2 mágica HM(2) solo contra monstruosos; solo OWH	OK	data.js:3087	
+aj_wood2-139	aj_wood2.txt:1595-1600	Blades of Endless Flame 25: FP-1 Ataques extra (1) flamígero mágico	OK	data.js:3089	
+aj_wood2-140	aj_wood2.txt:1618-1624	Mantle of Rebirth 40: armadura ligera, Regeneración 5+	OK	data.js:3091	
+aj_wood2-141	aj_wood2.txt:1625-1632	Cloak of Tumbling Leaves 30: infantería regular o pesada; armadura ligera, Vuelo (10), Zancada; no puede unirse	OK	data.js:3090; rules.js:123,6030	
+aj_wood2-142	aj_wood2.txt:1618-1622	Ariel Favour 30: Resistencia a la Magia (-2)	OK	data.js:3092	
+aj_wood2-143	aj_wood2.txt:1623-1628	Orion Favour 25: un solo uso, repite fallos al impactar y herir en la fase de combate	OK	rules.js attackProfile orionOn; ai.js optionGroups of; main.js botón	El jugador activa el uso; se gasta en el siguiente combate de la unidad
+aj_wood2-144	aj_wood2.txt:1634-1643	"Tapestry of Talsyn 80: PEB Talsyn; Mando 18"" y +1 Liderazgo (máx 10) a unidades amigas en alcance"	OK	data.js:3097; rules.js:1384	
+aj_wood2-145	aj_wood2.txt:1645-1652	Banner of the Wild Hunt 25: +1 resolución y repite persecuciones; solo OWH	OK	data.js:3096	
+aj_wood2-146	aj_wood2.txt:1653-1662	Standard of Morning Chill 25: Swirling Mists atado PL 2	OK	data.js:3095	
+aj_wood2-147	aj_wood2.txt:1663-1668	Banner of Springtide 20: Disparo rápido	OK	data.js:3098	
+aj_wood2-148	aj_wood2.txt:1675-1680	Crown of Antlers 35: Perforante (1) e Impactos (D3) con FP-2	OK	data.js:3116	
+aj_wood2-149	aj_wood2.txt:1681-1688	Moonstone of Hidden Ways 30: un solo uso, Forest Walker atado PL 3	OK	data.js:3099	
+aj_wood2-150	aj_wood2.txt:1690-1700	Blight-Tipped Arrows* 15: un uso, arco asrai; test de R cada Inicio de turno o herida sin salvaciones	OK	data.js:3115; rules.js:2543,5367	
+aj_wood2-151	aj_wood2.txt:1702-1706	Orb of Midsummer 35: una vez por turno repite tirada de lanzamiento	OK	data.js:3117	
+aj_wood2-152	aj_wood2.txt:1707-1713	Heartwood Pendant* 15: portador conoce Lore of the Wilds	OK	data.js:3119; rules.js:769	
+aj_wood2-153	aj_wood2.txt:1714-1720	Sigil of the Mage Queen 25: un uso, +2 a tirada de lanzamiento	OK	data.js:3118	
+aj_wood2-154	aj_wood2.txt:1572-1578	Objetos élficos: Extremadamente comunes marcados con asterisco	OK	data.js star: true (blight, heartwood)	
+aj_wood2-155	aj_wood2.txt:30-540	Historia y ambientación: Elthin Arvan, Monarcas del Bosque, Corrupción del Laurelorn	NA		
+aj_wood2-156	aj_wood2.txt:640-710	Texto de ambientación y modelos en juego (sin efecto mecánico)	NA		
+aj_wood2-157	aj_wood2.txt:1050-1110	Texto de ambientación de Orion y Araloth (sin efecto mecánico)	NA		
+aj_wood2-158	aj_wood2.txt:1250-1260	Representación de modelos y ambientación de Guardianes/Guardián	NA		
+aj_wood2-159	aj_wood2.txt:1720-1728	Cita final de Orion	NA		

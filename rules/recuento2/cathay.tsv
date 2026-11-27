@@ -1,0 +1,181 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+cathay_aj-001	cathay_aj.txt 1095-1180	Personajes hasta 50% de los puntos	OK	data.js comp char + armyIssues (limites genericos Gran Ejercito)	
+cathay_aj-002	cathay_aj.txt 1103	0-1 Dragon cathayano por 1.000 pts	OK	data.js:4494 (Miao Ying solo una vez)	Unico dragon del libro
+cathay_aj-003	cathay_aj.txt 1105	0-1 Senor Shugengan o Magistrado Senor por 1.000 pts	OK	data.js:4495	Cuenta ct_shugengan y magistrados (no el General Shugengan)
+cathay_aj-004	cathay_aj.txt 1106	Shugengan, Maestros de Puerta, Guardianes de Puerta y Estrategas como personajes	OK	data.js:2187-2226 comp char	
+cathay_aj-005	cathay_aj.txt 1110-1113	Basicas: al menos 25% Guerreros de Jade	OK	data.js:2227,2230 comp core	Limite generico Core
+cathay_aj-006	cathay_aj.txt 1113	0-1 unidad de Lanceros de Jade por 1.000 pts como Basica	OK	data.js:4337 (move special->core por 1.000)	
+cathay_aj-007	cathay_aj.txt 1118-1123	Especiales hasta 50%: Lanceros de Jade	OK	data.js:2233 comp special	
+cathay_aj-008	cathay_aj.txt 1123-1128	0-3 maquinas de guerra (Cohetes, Gran Canon) por 1.000 pts	OK	data.js:4496	Incluye variantes con Cargador ogro
+cathay_aj-009	cathay_aj.txt 1128	Si General es Shugengan (Senor o General): 0-1 Centinela como Especial	OK	data.js catsOf (has ct_shugengan|ct_shugengan_gen)	Senor y General Shugengan habilitan el Centinela
+cathay_aj-010	cathay_aj.txt 1130	Si General es Magistrado/Estratega: 0-1 Linterna Celeste como Especial	OK	data.js catsOf (ct_magistrate*, ct_strategist_gen, ct_strategist_lantern_gen)	Solo con Magistrado/Estratega como General
+cathay_aj-011	cathay_aj.txt 1134-1137	Raras hasta 25%: Linternas Celestes y Centinelas	OK	data.js:2242,2246,2250 comp rare	
+cathay_aj-012	cathay_aj.txt 1138	Mercenarios hasta 20% del ejercito	AUSENTE	data.js mercsFor/MERCS.ct	No hay ninguna unidad mercenaria para Gran Cathay en el texto fuente (solo el porcentaje del 20 %); el límite ya se aplica en armyIssues. Sin lista de mercenarios no se puede implementar más.
+cathay_aj-013	cathay_aj.txt 1142-1177	Aliados 25% (contingente de listas Grand Army o Armies of Infamy) y Aliados cathayanos para otros	OK	data.js ALLY_TABLE.ct / ALLY_AOI / allyOptions (infraestructura de aliados de otro agente)	Cathay admite Enanos, Imperio, Alto Elfo de confianza y Bretonia/Elfos Silvanos Sospechosos + AoI propio; y viceversa. Coincide con el texto.
+cathay_aj-014	cathay_aj.txt 1160-1164	Un Guardian de la Puerta puede ser Portaestandarte de Batalla por +25; estandarte magico sin limite	OK	data.js:2187 bsb, CMD ct_gatekeeper [null,25,null]	
+cathay_aj-015	cathay_aj.txt 1190-1215	Miao Ying: General obligatoria, nombrada, 485 pts, solo en listas que la incluyan	OK	data.js:2219,2223 general:true; data.js:4494	
+cathay_aj-016	cathay_aj.txt 1212	Troop type: Humana heavy infantry (named char); Dragon behemoth (named char)	OK	data.js:2219-2226 tt behemoth / char	
+cathay_aj-017	cathay_aj.txt 1213	Base 50x50 (Humana) y 100x150 (Dragon)	OK	data.js:2219 baseW/baseD, 2223	
+cathay_aj-018	cathay_aj.txt 1215-1235	Equipo Humana: Garras de la Tormenta (S, AP-2?, Perforacion 1, Magicas, Golpear primero) y armadura pesada	OK	data.js ct_miaoying_h melee ap2 ab1 + sr strikeFirst,magical	
+cathay_aj-019	cathay_aj.txt 1216-1220	Equipo Dragon: Garras, Aliento de dragon (S4 AP-1, Arma de aliento, Flamigero) y Escamas draconicas (armadura completa)	OK	data.js ct_miaoying ranged breath 8 S4 AP1 flaming; melee ap2 ab1 strikeFirst magical	
+cathay_aj-020	cathay_aj.txt 1221-1224	Magia: Humana nivel 4, Dragon nivel 2; lanza tantos hechizos como nivel; conoce 4 hechizos de Batalla, Elementalismo o A	PARCIAL	data.js ct_miaoying(_h) lores [battle,elementalism,high]	VERIF v732: Nivel 4 humana/2 dragon y lores ok, pero rules.js:1015 da tantos hechizos como nivel: desplegada en forma Dragon conoce 2 y no 4 (la fuente dice 4 en ambas formas) | Ilusionismo excluido
+cathay_aj-021	cathay_aj.txt 1236-1241	Reglas: Armadura Forjada Celestial (5+), Odio (Guerreros del Caos y Daemonicos), Resistencia a la magia (-1), Obstinado	OK	rules.js ~4251 hatred regex ct_(jade|lancers|miaoying) vs woc/dm	Odio solo contra Caos/Daemonicos
+cathay_aj-022	cathay_aj.txt 1243-1245	Humana: Grito de reunion; Dragon: Volar (9), Objetivo grande, Pisoton (D6), Zancada, Terror	OK	data.js:2219-2226 sr rally/flyer/large/stomp/swiftstride/terror; FLYX ct_miaoying 9	
+cathay_aj-023	cathay_aj.txt 1250-1260	Desden de los Dragones: enemigos en su rango de mando (o trabados con ella) chequeo de Ld para lanzar desafio; +1 Humana	OK	rules.js:4298-4302	
+cathay_aj-024	cathay_aj.txt 1264-1280	Maestria de los Vientos de Tormenta: descarta hasta dos hechizos aleatorios y los sustituye por Yang/Yin/firma o Furia d	OK	rules.js:801-806 masteryStorm nRep 2; data.js:75	
+cathay_aj-025	cathay_aj.txt 1272-1280	"La Furia del Dragon de la Tormenta: Proyectil 10+, 18"", 2D3 impactos F5 AP-3 flamigeros, luego debe Ceder terreno"	OK	data.js:2328 storm_fury (push 2)	"Ceder terreno modelado como retroceso de 2"" (no verificado)"
+cathay_aj-026	cathay_aj.txt 1282-1290	Supremo Matriarcado: Miao Ying debe ser el General; 0-1 Guerreros y 0-1 Lanceros pasan a Guardia Celestial +1pt/modelo: 	OK	data.js:3378 cdg variants; data.js:4492-4493	
+cathay_aj-027	cathay_aj.txt 1292-1296	Ira de la Tormenta: Guerreros y Lanceros de Jade ganan Odio (Guerreros del Caos y Daemonicos) en su ejercito	OK	rules.js:4225 (woc, dm con wrathStorm)	Solo facciones woc y dm; otros modelos daemonicos no cubiertos
+cathay_aj-028	cathay_aj.txt 1300-1306	Garras de la Tormenta: S, AP-2, Perforacion (1), Ataques magicos, Golpear primero	OK	data.js ct_miaoying(_h) melee ap2 ab1, strikeFirst, magical	
+cathay_aj-029	cathay_aj.txt 1308-1310	Aliento de dragon: AP-1, Arma de aliento, flamigero	OK	data.js ct_miaoying ranged breath (flaming, ap1)	
+cathay_aj-030	cathay_aj.txt 1360-1385	Transformacion del Dragon: forma al inicio; Humana sigue reglas de infanteria pesada, Dragon de behemoth; el Dragon no t	OK	data.js noInspire; rules.js ~1424 gen excluye noInspire	Dragon sin Presencia Inspiradora
+cathay_aj-031	cathay_aj.txt 1387-1395	Muerte de un Dragon: heridas compartidas entre perfiles; primera vez a 0 en forma Dragon revierte a Humana con D3 herida	PARCIAL	rules.js:2606-2609	VERIF v732: rules.js:3126 destroy(): revierte a forma Humana con D3 Heridas una vez y noDragon, heridas compartidas OK; pero solo logE (toast), sin announce/popup para el humano
+cathay_aj-032	cathay_aj.txt 1396-1425	"Transformacion en fase de Mando: colocar modelo a 6"", no a 1"" de amigos ni 3"" de enemigos; recupera D3 heridas; no puede"	OK	main.js unitAct transform (modo place trf) + checkGhost/confirmPlace; rules.js transform (a.x,a.y,a.face) y u.trfMv ~2914	"El jugador elige el punto de colocación en el mapa (validado con el motor: <=6"", >1"" amigos, >3"" enemigos); cuenta como movida para disparar (u.trfMv) pero puede mover con normalidad."
+cathay_aj-033	cathay_aj.txt 1445-1450	Senor y General Shugengan: criatura monstruosa (personaje), base 60x100, unidad 1	OK	data.js:2211,2215 tt monCreature baseW 60 baseD 100	
+cathay_aj-034	cathay_aj.txt 1451-1455	Equipo: mano, garras de hierro (S, AP-1, Golpear primero), armadura ligera; Longma corona de cuernos (S, AP-1, Perforaci	PARCIAL	data.js ct_shugengan(_gen) mountAtk ab1	Cuernos con Perforación (1) OK. Golpear primero (garras de hierro del jinete) sigue aplicado a todo el modelo: el motor no separa el arma del jinete de la de la montura para la Iniciativa.
+cathay_aj-035	cathay_aj.txt 1457-1462	Magia: Senor nivel 2, General nivel 1; Lores Batalla, Elementalismo, Ilusion, Alta Magia	OK	data.js:2211 wizard; WIZ_LORES.ct	
+cathay_aj-036	cathay_aj.txt 1464-1470	Opciones: hoja celestial +6 o lanza cathayana +4; pistola de fuego de dragon +4; armadura pesada +4	OK	data.js:4118-4123 CTS	Hoja celestial solo sube F (garras ya dan FP-1 y Golpear primero)
+cathay_aj-037	cathay_aj.txt 1472-1478	Debe elegir Lore of Yang o Lore of Yin	OK	rules.js:800 u.yy; data.js:4863 yyOptions	
+cathay_aj-038	cathay_aj.txt 1480-1490	Shugengan Lord: nivel 3 +30, nivel 4 +60, objetos 100; General: nivel 2 +30, objetos 50	OK	data.js:4123 CTS [[3,30],[4,60]] / [[2,30]]; ib 100/50	
+cathay_aj-039	cathay_aj.txt 1495-1497	Reglas: Piel acorazada (2), Armadura Celestial (5+), Contracarga, Miedo, Volar (9), Impactos (D3+1), Maestria Vientos, Z	OK	data.js ct_shugengan(_gen) impact S5	
+cathay_aj-040	cathay_aj.txt 1577-1585	Maestro/Guardian de la Puerta: infanteria pesada (personaje), 25x25, mano+armadura pesada+escudo	PARCIAL	data.js:2187,2193 arm heavy avOpt shield	VERIF v732: data.js:2195-2198: tt:'char' (no heavy infantry) aunque base 25x25, mano+armadura pesada+escudo correctos; tipo de tropa 'infanteria pesada' solo aparece en el blurb.
+cathay_aj-041	cathay_aj.txt 1585-1592	Opciones: hoja celestial +6 o lanza cathayana (montado); caballo de guerra +16; objetos 100/50	OK	data.js:4115-4117 CTG; _horse variants +16	
+cathay_aj-042	cathay_aj.txt 1597-1603	Armonia de piedra y acero: unidad unida repite Ld fallido al reformar tras arrollar, redirigir carga o Contencion	OK	rules.js:3040,3203,4247	
+cathay_aj-043	cathay_aj.txt 1605-1620	Caballo de guerra cathayano: caballeria pesada 30x60, cascos (mano) y barda; Catafractos, Contracarga, Zancada (sin Prim	OK	data.js:2190,2196 mountAtk, avOpt barding, sr	
+cathay_aj-044	cathay_aj.txt 1622-1640	Lord Magistrado/Estratega: infanteria regular (personaje) 25x25, mano y armadura ligera	OK	data.js:2199,2205 arm light	
+cathay_aj-045	cathay_aj.txt 1641-1648	Opciones: bombas de polvora +5 o de fuego de dragon +10; montado en Linterna Celeste; objetos 100/50	OK	data.js ct_gpbombs/ct_dfbombs onlyT incl. linterna y _gen	
+cathay_aj-046	cathay_aj.txt 1650-1654	Gran Estratega: unidades amigas en rango de mando (salvo el General) usan su Ld mientras no huya	OK	rules.js:1399-1402	
+cathay_aj-047	cathay_aj.txt 1655-1657	Gran Estratega: 1/turno una unidad amiga que gana el combate en rango puede Retirarse en buen orden en vez de seguir/per	OK	rules.js gsFor + pref gsFallOn (~5200 post-combate); ai.js optionGroups gs; main.js boton	Eleccion del jugador, 1/turno por Estratega
+cathay_aj-048	cathay_aj.txt 1760-1770	Guerreros de Jade: infanteria pesada 25x25, tamano 5+, mano y armadura pesada	OK	data.js ct_jade/ct_jade_spear sin max	
+cathay_aj-049	cathay_aj.txt 1772-1775	Toda la unidad: alabardas o escudos (gratis)	OK	data.js:2227,2230 (dos entradas)	
+cathay_aj-050	cathay_aj.txt 1780-1783	Oficial de Jade (campeon), portaestandarte, musico +6 cada uno	OK	data.js:CMD ct_jade [6,6,6]	
+cathay_aj-051	cathay_aj.txt 1784	Oficial de Jade: objetos magicos hasta 25 pts	OK	data.js CHAMP_IB /^ct_jade/ 25 + champIssues (infraestructura de objetos de campeón de otro agente)	Oficial de Jade: objetos hasta 25 pts mediante la infraestructura de campeón.
+cathay_aj-052	cathay_aj.txt 1786-1791	0-1 unidad por 1.000: Adiestrados +1/mod, Tozudos +2/mod, estandarte magico 50	PARCIAL	data.js armyIssues bloque ct (~4850): Instruidos/Tozudos/estandarte mágico cuentan como una sola unidad por 1.000 pts	VERIF v732: data.js:4928/4725: el limite 0-1 por 1.000 se cuenta por tipo (ct_jade y ct_jade_spear por separado) aunque son una misma entrada del libro; costes +1/+2/50 correctos | 0-1 unidad por 1.000 con Instruidos, Tozudos o estandarte mágico (máx. 50 pts, bnMax por defecto 50).
+cathay_aj-053	cathay_aj.txt 1793	Reglas: Orden cerrado, Posicion defensiva, Destacamento, Unidad regimental, Voluntad de los Dragones	OK	data.js ct_jade(_spear) sr regimental	
+cathay_aj-054	cathay_aj.txt 1796-1800	Posicion defensiva: si no cargo (ni cuenta como cargado) repite 1 naturales de salvacion por armadura en combate	OK	rules.js:1661 rr1sv defStance	
+cathay_aj-055	cathay_aj.txt 1808-1826	Lanceros de Jade: caballeria pesada 30x60, tamano 5+, lanzas cathayanas, armadura pesada, escudos; caballos con barda	OK	data.js:2233 lance:true avOpt shield+barding	Max 15 modelos arbitrario
+cathay_aj-056	cathay_aj.txt 1829-1837	Oficial, estandarte, musico +6; estandarte magico hasta 50; oficial con objetos	OK	data.js ct_lancers bnMax 50	Presupuesto de objetos del oficial sigue sin modelar (no hay itemBudget de campeon)
+cathay_aj-057	cathay_aj.txt 1839-1846	0-1 unidad por 1.000: Emboscadores +1, Adiestrados +1, Tozudos +2	OK	data.js:3866	
+cathay_aj-058	cathay_aj.txt 1849	Reglas: Catafractos, Orden cerrado, Contracarga, Horda, Zancada, Voluntad de los Dragones	OK	data.js:2233 sr	
+cathay_aj-059	cathay_aj.txt 1851-1853	Catafractos: unidad con mayoria que hace seguimiento cuenta como cargado el turno siguiente	OK	rules.js:5146 pursuitCharges	
+cathay_aj-060	cathay_aj.txt 3125-3130	Lanza cathayana: F+1, FP-1, Perforacion (1), Combatir en fila extra; solo caballeria/monstruo/carro; mods solo turno de 	OK	data.js ct_lancers/opciones ln: spear:true spearAp1 spearAb1 (rules.js ~4239 chgE)	F+1 FP-1 Perforacion 1 solo contra lo cargado; fila extra via logica de lanza/espada (spear)
+cathay_aj-061	cathay_aj.txt 1905-1925	Linterna Celeste: carro pesado 100x100, AV 4+, unidad 1, 135 pts	OK	data.js:2242 Sv 4 baseW 100 ppm 135	
+cathay_aj-062	cathay_aj.txt 1925-1935	Equipo: artilleros y comandante con manos; crane guns gratis o fusiles de granizo + bombas de polvora, o + fuego de drag	OK	data.js:2242,5047-5052; ct_dfbombs_l	
+cathay_aj-063	cathay_aj.txt 1936	Bombas de Linterna Celeste +15	OK	data.js:2492 cost 15	
+cathay_aj-064	cathay_aj.txt 1950-1952	Reglas: Orden cerrado, Desenganche, Ojo del Dragon, Fuga fingida, Disparar y huir, Volar (8), Baliza, Impactos (D3+1 sol	OK	data.js:2242 sr, impact D3+1	
+cathay_aj-065	cathay_aj.txt 1960-1965	Ojo del Dragon: modelos con Bombardeo disparan usando la linea de vision de la Linterna	OK	rules.js:2386	
+cathay_aj-066	cathay_aj.txt 1968-1975	"Desenganche (errata): tras perder un asalto y Ceder terreno puede Retirarse en buen orden; enemigos siguen 2"" sin perseg"	OK	rules.js:5096,5131 (noDisLose opcional)	
+cathay_aj-067	cathay_aj.txt 1976-1980	Desenganche: si gana y elige contenerse y reformar puede retirarse en buen orden	OK	rules.js:4233-4239 disWin (disWinOn)	Preferencia del jugador
+cathay_aj-068	cathay_aj.txt 1983-1990	"Baliza celestial: amigos a 12"" repiten Panico fallido"	OK	rules.js:2723	
+cathay_aj-069	cathay_aj.txt 1983-1990	"Baliza celestial: amigos a 12"" repiten chequeo de Reagrupar fallido"	OK	"rules.js ~5733 baliza 12"" fijo"	
+cathay_aj-070	cathay_aj.txt 1990-1995	Baliza celestial: +1/-1 a la llegada de Emboscadores amigos en reserva (no acumulable)	PARCIAL	rules.js llegada de emboscadores (~6005): announce Baliza celestial +1 / -1 enemiga	VERIF v732: rules.js:6199-6203: el +1 propio esta bien, pero se aplica tambien -1 a la llegada de Emboscadores ENEMIGOS; la fuente solo habla de unidades amigas. | +1 propio y -1 al enemigo se aplican cuando cambian el resultado (elección racional, no acumulable) y se anuncian con popup.
+cathay_aj-071	cathay_aj.txt 1995-1998	"Baliza celestial: Magistrado/Estratega montado tiene rango de mando 12"""	OK	"rules.js commandRange: lantern montados 12"""	
+cathay_aj-072	cathay_aj.txt 2000-2010	"Bombas de Linterna: una vez por partida, ataque de bombardeo contra una unidad enemiga no trabada, mover a 6"" en Movimie"	OK	rules.js:2574-2590, 6819; bombPick	Objetivo elegible por el jugador (bombPick)
+cathay_aj-073	cathay_aj.txt 2011-2025	"Tabla de bombardeo: 1 pierde 1 herida; 2 enemigo 1 herida; 3-4 plantilla grande 5"" dispersa D6, F5 FP-2; 5-6 dos pequena"	OK	rules.js:2582-2587	Impactos aproximados por area cubierta
+cathay_aj-074	cathay_aj.txt 2030-2034	"Fusil de granizo: 12"", F3, FP-1, Mover y disparar, Disparos multiples (D3), sin penalizadores"	OK	data.js:5047-5050 ranged hail	
+cathay_aj-075	cathay_aj.txt 2036-2038	"Canon grulla: 36"", F6, FP-2, Perforacion (2), Aparatoso"	OK	data.js:2242 ranged range 36 s6 ap2 ab2	
+cathay_aj-076	cathay_aj.txt 2040	Montura de personaje: puntos se suman al jinete	OK	data.js:2202,2208 (200=65+135; 175=40+135)	T4 y ataques de tripulacion via data.js:5103
+cathay_aj-077	cathay_aj.txt 2110-2125	Centinela cathayano: behemoth 100x150, mano + gran hoja + armadura de terracota (pesada)	OK	data.js:2250 tt behemoth, baseW 100 baseD 150, arm heavy	
+cathay_aj-078	cathay_aj.txt 2127-2133	Debe ser Terracota, Jade, Obsidiana, Granito o Piedra bruja	OK	data.js:2250-2270 5 variantes	
+cathay_aj-079	cathay_aj.txt 2137-2139	Reglas: Orden cerrado, Inmune a psicologia, Implacable, Objetivo grande, Pisoton (D3+1), Terror, !Timmm-berrr!, Inquebra	OK	"rules.js ~3148: has(u,""timber"")||has(u,""timmberr"")"	¡Timmm-berrr! de los Centinelas ahora tiene efecto (reutiliza la implementación de timber).
+cathay_aj-080	cathay_aj.txt 2140-2146	Implacable: 1/partida no cede terreno al ser cargado; 1/partida repite tirada de carga	OK	rules.js:3088,5091	
+cathay_aj-081	cathay_aj.txt 2147-2165	Gran hoja: dos perfiles elegibles por ronda (Golpe segador: F FP-2, Perforacion 1, Ataques extra +2D3, Golpear ultimo / 	OK	rules.js isGB/gbDeadly (~4076,4132,4257,4524); main.js/ai.js pref	Perfil elegido por el jugador/IA; +2D3 ataques y golpear ultimo en Golpe segador; Golpe mortal F+1 FP-4 KB MW D3 Matamonstruos
+cathay_aj-082	cathay_aj.txt 2168-2176	Terracota: Regeneracion (6+)	OK	data.js:2250 regen 6	
+cathay_aj-083	cathay_aj.txt 2178-2186	Jade: conoce un hechizo de Batalla o Elementalismo (elegido antes de desplegar) como hechizo ligado nivel de poder 3	OK	rules.js createGame ct_sentinel_jade (e.jsp); main.js botón de hechizo (data-d=jsp)	El jugador elige el hechizo de Batalla o Elementalismo antes del despliegue (por defecto Bola de fuego); ligado NP 3.
+cathay_aj-084	cathay_aj.txt 2188-2198	"Obsidiana: Resistencia a la magia (-2); magos enemigos a 12"" chequeo de Ld: fallo -3, exito -1 al lanzar"	OK	data.js:2260 magRes2/obsSent; rules.js:3884	
+cathay_aj-085	cathay_aj.txt 2200-2208	Granito: inmune a Heridas multiples (X); herida sin salvar = 1 herida	OK	rules.js:1643	
+cathay_aj-086	cathay_aj.txt 2210-2220	Piedra bruja: Ataques magicos; enemigos en contacto de peana -1 Resistencia (min 1)	OK	data.js:2268 magical, warpSent; rules.js:3797	
+cathay_aj-087	cathay_aj.txt 2200-2203	Granito: valor de armadura +1	OK	data.js:2262 arm plate	
+cathay_aj-088	cathay_aj.txt 2103-2107	Centinela: opciones de coste (Terracota gratis, Jade +20, Obsidiana +25, Granito +35, Piedra bruja +40)	OK	data.js:2250-2270 ppm 230/250/255/265/270	
+cathay_aj-089	cathay_aj.txt 2262-2280	Gran Canon: maquina de guerra 60x100, dotacion 3 (25x25), mano y armadura ligera; Escaramuzadores	OK	data.js:2236 baseW 60 baseD 100 sr skirmish	
+cathay_aj-090	cathay_aj.txt 2282-2290	"Canon: 48"", F10, FP-3, Perforacion (3), Fuego de canon, Aparatoso, Mover o disparar, Heridas multiples (D3+1)"	OK	data.js:2236 ranged	
+cathay_aj-091	cathay_aj.txt 2291-2296	El canon no usa la HP de la dotacion; usa Fuego de canon y tabla de Fallo de polvora negra	OK	data.js:2236 cannon:true; rules.js:2077-2090 misfire	
+cathay_aj-092	cathay_aj.txt 2305-2310	"Impacto atronador: hasta tu proximo inicio de turno, unidades a 2D6"" del punto de impacto -1 M y sin Zancada"	OK	rules.js r.cannon branch: thunderous medido desde punto de impacto	
+cathay_aj-093	cathay_aj.txt 2336-2350	Bateria de Cohetes: maquina de guerra, dotacion 3, mano y armadura ligera; Escaramuzadores	OK	data.js:2239	
+cathay_aj-094	cathay_aj.txt 2355-2365	Cada turno dispara UNO de dos cohetes (Bastion o Bateria)	OK	data.js ct_rockets ranged/rangedAlt; rules.js rangedOf0; pref rocketBat	
+cathay_aj-095	cathay_aj.txt 2362-2366	"Cohetes de bastion: 12-48"", F4(5), FP-1(-3), Perforacion 1, Bombardeo, Aparatoso, Mover o disparar, Heridas multiples (D"	OK	"data.js ct_rockets ranged: s4 cs5 ap1 cap3 dmg D6 plantilla 3"""	
+cathay_aj-096	cathay_aj.txt 2370-2380	"Bateria de cohetes: 12-48"", F3(4), FP-1(-1), Perforacion 1, Bombardeo, Aparatoso, Flamigero, Mover o disparar, plantilla"	OK	data.js ct_rockets rangedAlt: blast5 s3 cs4 ap1 flaming wailing	
+cathay_aj-097	cathay_aj.txt 2381-2385	Espiritus gimientes: unidad con herida sin salvar hace chequeo de Panico como por bajas graves	OK	rules.js ~2605 r.wailing -> skullPanic	
+cathay_aj-098	cathay_aj.txt 2430-2440	Cargador ogro: +35 pts, infanteria monstruosa 40x40, mano y armadura ligera; bombas de polvora +8	PARCIAL	data.js:3500 variantes +35/+43	FAQ Cathay: el Cargador ogro es un miembro de dotación adicional (no personaje). Sigue modelado como variante de la máquina (M+1, Tozudo) sin modelo propio con perfil M4 HA3 HP3 F4 R4 H3 I2 A3 Ld8: el motor no admite dotación mixta con perfil distinto.
+cathay_aj-099	cathay_aj.txt 2442-2445	Bastante para todos: si el Cargador lleva bombas de polvora, la dotacion tambien	OK	data.js:3373-3376 _ogre_gp (crew 4)	
+cathay_aj-100	cathay_aj.txt 2462-2470	Tripulacion mercenaria: mejora de maquina, se despliega con ella, no puede dejarla (errata)	OK	data.js:3370-3376	
+cathay_aj-101	cathay_aj.txt 2471-2474	Tripulacion con Cargador: +1 M y Tozuda	OK	data.js:3371 M+1, addSr stubborn	
+cathay_aj-102	cathay_aj.txt 2473-2476	1/partida la maquina dispara dos veces o repite un dado de Artilleria	OK	rules.js artDieM (ogreMode reroll), disparo doble (~7870), pref ogreMode; main.js botón; ai.js optionGroups	Una vez por partida el jugador elige: disparar dos veces o repetir un dado de Artillería (o no usarlo); popup al usarse. La IA lo decide por autoaprendizaje.
+cathay_aj-103	cathay_aj.txt 2570-2578	Sabiduria del Rey Mono 75: F10, FP-4, Magica, Heridas multiples (D3), dos manos, golpear ultimo	OK	data.js ct_monkey twoH:true	Marca de dos manos (no compatible con escudo).
+cathay_aj-104	cathay_aj.txt 2580-2590	Hoja de Jade de la Gran Flota 70: F+2, FP-2, Perforacion 1, Magica, Regeneracion 5+	OK	data.js:2518	
+cathay_aj-105	cathay_aj.txt 2592-2600	Lanza del Espiritu Longma 25: F+1, FP-3, Perforacion 1, Magica; solo caballeria/monstruo/carro; solo el turno de carga	OK	data.js ct_longma chS/chAp + cavMonCh; itemIssues	F+1 y FP-3 solo el turno de carga; Perforación (1) y Mágica siempre; solo caballería/monstruo/carro.
+cathay_aj-106	cathay_aj.txt 2602-2612	Hojas del Sol y la Luna 20: Ataques extra (1), Magicas, dos manos; Golpe letal sufrido: 4+ lo detiene	OK	data.js ct_sunmoon twoH + kbParry:4; rules.js woundAndSave0 (~2038)	Dos manos y parada 4+ del Golpe letal (se descarta sin más efecto).
+cathay_aj-107	cathay_aj.txt 2614-2622	Armadura del Pajaro Guerrero 45: pesada, Contracarga, Volar (9), Zancada; infanteria; no puede unirse	OK	data.js:2521; rules.js:123,6029	
+cathay_aj-108	cathay_aj.txt 2630-2640	Escudo de Nan-Gau 20: escudo; si fue cargado AV +2 (max 2+)	PARCIAL	rules.js ~1701 svCharged; data.js ct_nangau	VERIF v732: data.js:2551 svb+svCharged OK, tope 2+ OK, pero rules.js:1976 aplica +2 solo si !ranged: no cuenta contra disparos en el mismo turno de la carga | AV +2 al ser cargado (max 2+)
+cathay_aj-109	cathay_aj.txt 2650-2658	Cristal de Kunlan 35: salvacion especial 5+; con 6 natural, cada enemigo en contacto recibe 1 impacto F3 FP- flamigero	OK	data.js:2523; rules.js:1737	
+cathay_aj-110	cathay_aj.txt 2660-2665	Corona de Jade 20: salvacion especial 4+ contra Proyectil magico, Vortice y Asalto	OK	data.js:2524; rules.js:1673	
+cathay_aj-111	cathay_aj.txt 2672-2678	"Estandarte de Wei-Jin 60: Miedo; enemigos a 12"" -1 Ld en Miedo, Panico y Terror"	OK	data.js:2504; rules.js:1438	
+cathay_aj-112	cathay_aj.txt 2680-2690	Icono de la Furia Celestial 45: un uso, fase de Mando, no trabado, chequeo de Ld propio; si lo supera enemigos sin Volar	OK	data.js:2505; rules.js:6493	
+cathay_aj-113	cathay_aj.txt 2692-2700	Estandarte del Ojo del Dragon 30: Mago enemigo que lo elige como objetivo, D6 4+ (errata) debe elegir otro; si no hay ot	OK	data.js:2506; rules.js:6892-6895	
+cathay_aj-114	cathay_aj.txt 2702-2708	Estandarte del Bastion 25: Muro de escudos	OK	data.js:2507	
+cathay_aj-115	cathay_aj.txt 2712-2718	"Fragmento del Maw 50: doble natural al lanzar de Mago enemigo a 18"" = fallo"	OK	data.js:2508; rules.js:3931	
+cathay_aj-116	cathay_aj.txt 2720-2726	Mascara del Alquimista 35: Plaga de Oxido como hechizo ligado nivel de poder 1 (errata)	OK	data.js:2509 boundSpell plague_rust PL1	
+cathay_aj-117	cathay_aj.txt 2728-2734	Linterna Espiritual* 25: Terror; repite 1 naturales para herir contra Daemonicos/No muertos; objeto extremadamente comun	OK	data.js ct_spiritlantern star:true	
+cathay_aj-118	cathay_aj.txt 2740-2748	Capa de Po Mei 50: conoce los 3 hechizos de Yin o Yang; solo lanza tantos como su nivel	OK	data.js:2512; rules.js:809	
+cathay_aj-119	cathay_aj.txt 2750-2757	Feng Shi Bo guardian* 35: enemigos que atacan al portador en combate -1 para impactar; objeto comun (*)	OK	data.js ct_fengshi star:true	
+cathay_aj-120	cathay_aj.txt 2760-2766	Feng Shi Bo erudito* 15: un hechizo mas sin subir nivel; objeto comun (*)	OK	data.js ct_fengshi_l star:true	
+cathay_aj-121	cathay_aj.txt 2820-2826	Armadura Forjada Celestial (X+): salvacion especial; el mago puede llevar armadura sin penalizacion	OK	data.js ward fields; sin penalizacion de armadura a magos en el motor	
+cathay_aj-122	cathay_aj.txt 2828-2836	"Maestria de los Vientos Elementales: 1/turno (por ejercito, FAQ) un mago a 6"" de otro con la regla +1 al lanzar (no anul"	OK	rules.js:3911	
+cathay_aj-123	cathay_aj.txt 2838-2846	"Voluntad de los Dragones: repite Panico fallido si unidad amiga destruida a 6"" o atravesada por huida amiga"	PARCIAL	rules.js passPanicW/PANIC_WILL	"VERIF v732: rules.js:3285-3294 friendsPanicDestroyed(...,fleeing=true) en destrucción por persecución/arrollamiento (3754,3786,6095) pasa will=false: sin repetición Voluntad de los Dragones. | Solo por unidad destruida a 6"" o atravesada por huida"
+cathay_aj-124	cathay_aj.txt 2848-2858	Vientos Elementales: al inicio de turno D6: 1-3 Yang, 4+ Yin	OK	rules.js:5356-5362	
+cathay_aj-125	cathay_aj.txt 2850-2856	"Vientos de Yang: magos de Yang +3"" a Disipar y rango de Encantamientos"	OK	rules.js:3241,3372	
+cathay_aj-126	cathay_aj.txt 2855-2858	Vientos de Yang: modelos con Voluntad ganan +1 M o +1 I (todos igual)	OK	rules.js:1361-1364,6425-6433 windPick	
+cathay_aj-127	cathay_aj.txt 2860-2868	"Vientos de Yin: magos de Yin +3"" a Maleficios y Proyectiles magicos"	OK	rules.js:3241 windSp	
+cathay_aj-128	cathay_aj.txt 2866-2870	Vientos de Yin: modelos con Voluntad +1 HA o +1 Ld	OK	rules.js:6428	
+cathay_aj-129	cathay_aj.txt 2881-2886	Lore of Yang/Yin: descarta un hechizo aleatorio y elige de firma o de la lista	OK	rules.js:801-806	
+cathay_aj-130	cathay_aj.txt 2890-2898	"Constelacion del Dragon: Proyectil 7+/11+, 18"", D6+1 F4 FP- ; 11+ 2D6+2 F4 FP-1"	OK	data.js:2322	
+cathay_aj-131	cathay_aj.txt 2900-2915	"La Gran Muralla: Encantamiento 9+, 12"", permanece; salvacion 6+; primera fila enemiga que acaba carga: terreno peligroso"	OK	rules.js bastionTest (~3766), greatBastion en effect (~4139), fx bastion en marcha/carga	Ya no usa el efecto Murallas de tierra: Salvación 6+, no marcha ni carga, y Terreno peligroso para la primera fila de quien acaba una carga en contacto (sin exención de voladores); heridas cuentan para el resultado.
+cathay_aj-132	cathay_aj.txt 2917-2935	Poder del Cielo y la Tierra: 9+/12+, Si mismo; +1 HA y +1 F (max 10) y Flamigeros; 12+ tambien unidades en rango de mand	OK	data.js:2327; yangM	
+cathay_aj-133	cathay_aj.txt 2945-2952	"Espiritus del Viento y la Sombra: Maleficio 10+, 15"", Movimiento aleatorio (D6) hasta tu proximo inicio"	OK	data.js:2324	
+cathay_aj-134	cathay_aj.txt 2955-2965	"Espejo Maldito: Maleficio 9+, 15""; 1 natural al impactar (disparo/combate) = impacto F3 FP-1 contra si misma; unidad tra"	OK	data.js:2325	
+cathay_aj-135	cathay_aj.txt 2970-2985	Guerreros Ancestrales: Asalto 7+/11+; 7+: D3 F2 FP-; 11+: 2D6 F4 FP-1; Perforacion (2)	OK	data.js yin_ancestral hits D3	7+: D3 impactos F2; 11+: 2D6 F4 FP-1; Perforación (2).
+cathay_aj-136	cathay_aj.txt 3135-3140	Hoja celestial: F+1, FP-1, Golpear primero (combate)	PARCIAL	data.js:4112 cb melee sb1 ap1 strikeFirst	VERIF v732: data.js:4354 Gatekeeper/Gatemaster ok (sb1, ap1, strikeFirst) pero data.js:4359 CTS (ct_shugengan y ct_shugengan_gen) da solo melee sb:1: falta FP-1 y Golpear primero
+cathay_aj-137	cathay_aj.txt 3150-3158	"Pistola de fuego de dragon: 12"", F5, FP-1, Flamigero, Disparos multiples (2), Disparo rapido"	OK	data.js:4121	
+cathay_aj-138	cathay_aj.txt 3160-3170	"Bombas de polvora: 9"", F3, FP-, Perforacion 1, Mover y disparar, Disparo rapido; impacto = D3 impactos"	OK	data.js:2489	
+cathay_aj-139	cathay_aj.txt 3172-3185	"Bombas de fuego de dragon: 9"", F3 (errata), FP-1, Perforacion 1, Flamigero, Mover y disparar, Disparo rapido; D3+1 impac"	OK	data.js:2490	
+faq_cathay-001	faq_cathay.txt 30-38	Errata p.30 Caballo cathayano: borrar Primera carga	OK	data.js:2190,2196,2233 (sin firstCharge)	
+faq_cathay-002	faq_cathay.txt 40-42	Errata p.34 Linterna Celeste: Resistencia 4	OK	data.js:2242 T 4	
+faq_cathay-003	faq_cathay.txt 42-44	Errata p.34 Comandante: borrar campeon del perfil	OK	data.js:2242 (sin champion)	
+faq_cathay-004	faq_cathay.txt 45-47	Errata p.34 Linterna: quitar Inquebrantable, anadir Inflamable	OK	data.js:2242 sr flammable; rules.js:1740	
+faq_cathay-005	faq_cathay.txt 48-52	"Errata Desenganche: puede Retirarse en buen orden; enemigos siguen 2"" sin perseguir"	OK	rules.js:5096,5131	
+faq_cathay-006	faq_cathay.txt 52-56	Errata Desenganche: si gana y se contiene y reforma puede retirarse	OK	rules.js:4236-4239	
+faq_cathay-007	faq_cathay.txt 58-62	Errata p.35 Bombas de Linterna: una vez por partida contra una unidad no trabada	OK	rules.js:2576,6819	
+faq_cathay-008	faq_cathay.txt 64-66	Errata p.41 Cargador ogro: quitar (Personaje) del tipo de tropa	OK	data.js:3370 (variante de maquina)	
+faq_cathay-009	faq_cathay.txt 66-70	Errata Tripulacion mercenaria: mejora de maquina, se coloca con su maquina	OK	data.js:3370-3376	
+faq_cathay-010	faq_cathay.txt 72-73	Errata p.43 Estandarte de Wei-Jin 60 pts	OK	data.js:2504	
+faq_cathay-011	faq_cathay.txt 74-80	Errata Icono de la Furia Celestial 45 pts y nuevo texto (Mando, Ld propio sin modificar)	OK	data.js:2505; rules.js:6493	
+faq_cathay-012	faq_cathay.txt 82-84	Errata Estandarte del Ojo del Dragon: 4+	OK	data.js:2506 deye 4	
+faq_cathay-013	faq_cathay.txt 86	Errata p.44 Fragmento del Maw 50 pts	OK	data.js:2508	
+faq_cathay-014	faq_cathay.txt 87-91	Errata Mascara del Alquimista: Plaga de Oxido ligada nivel 1	OK	data.js:2509	
+faq_cathay-015	faq_cathay.txt 92-94	Errata p.47 Lore of Yin: puede descartar un hechizo aleatorio como normal	OK	rules.js:801-806	
+faq_cathay-016	faq_cathay.txt 96-100	Errata p.48 Lanza cathayana: solo caballeria/monstruo/carro; mods solo contra enemigos cargados	OK	data.js ct_lancers y opciones ln (spear)	Solo modelos cargados; troop type: opcion solo montados
+faq_cathay-017	faq_cathay.txt 101	Errata Bombas de fuego de dragon: F3	OK	data.js:2490 s 3	
+faq_cathay-018	faq_cathay.txt 103-107	Errata Anillo de Azabache: Espiritus Inquietos ligado nivel 1	OK	data.js:2510 boundPL 1	
+faq_cathay-019	faq_cathay.txt 109	Errata Sello de Xing Po: 35 pts	OK	data.js:2516 cost 35	
+faq_cathay-020	faq_cathay.txt 118-124	FAQ Baliza celestial: +1/-1 a llegada no acumulable con varias Linternas	OK	rules.js:5331 (un solo +1)	Solo +1 aplicado
+faq_cathay-021	faq_cathay.txt 125-130	FAQ Impacto atronador no es acumulativo	OK	rules.js:2233-2236 (reemplaza fx thund)	
+faq_cathay-022	faq_cathay.txt 131-134	FAQ Maestria de los Vientos Elementales: una vez por turno y por ejercito	OK	rules.js:3911 mwK por owner	
+cathay_notes-001	cathay_notes.md perfil Shugengan Lord	M8 HA6 HP3 F4 R5 H7 I6 A4 Ld9, 220 pts (Longma M8 HA5 F5 I4 A3)	OK	data.js:2211	Longma I4 no separada (usa I6 del Shugengan)
+cathay_notes-002	cathay_notes.md perfil Shugengan General	M8 HA5 HP3 F4 R5 H6 I5 A3 Ld8, 145 pts	OK	data.js:2215	
+cathay_notes-003	cathay_notes.md perfil Gate Master	M4 HA7 HP4 F4 R4 H3 I4 A3 Ld9, 80 pts	OK	data.js:2193	
+cathay_notes-004	cathay_notes.md perfil Gate Keeper	M4 HA6 HP4 F4 R4 H2 I4 A2 Ld8, 45 pts	OK	data.js:2187	
+cathay_notes-005	cathay_notes.md perfil Cathayan Warhorse	M7 HA3 F3 I3 A1; +16 pts	OK	data.js:2190,2196	
+cathay_notes-006	cathay_notes.md perfil Lord Magistrate	M4 HA5 HP4 F3 R3 H3 I4 A2 Ld9, 65 pts	OK	data.js:2199	
+cathay_notes-007	cathay_notes.md perfil Strategist	M4 HA4 HP4 F3 R3 H2 I3 A1 Ld9, 40 pts	OK	data.js:2205	
+cathay_notes-008	cathay_notes.md perfil Jade Warrior	M4 HA4 HP3 F3 R3 H1 I3 A1 Ld8, 8 pts; Officer A2 +6	OK	data.js:2227,2230	
+cathay_notes-009	cathay_notes.md perfil Jade Lancer	M7 HA4 HP3 F3 R3 H1 I3 A1 Ld8, 20 pts; Officer A2 +6	OK	data.js:2233	
+cathay_notes-010	cathay_notes.md perfil Sky Lantern	S5 R4 H7; artilleros HA3 HP4 F3 I3 A1 Ld8; comandante HP5 A2	PARCIAL	data.js:2242	Comandante HP5/A2 no modelado: el motor dispara las 5 tiradas con la HP del artillero (HP4) y 1 Ataque; no admite tripulación con HP/Ataques distintos.
+cathay_notes-011	cathay_notes.md perfil Cathayan Sentinel	M6 HA5 HP1 F6 R6 H6 I3 A3 Ld10, 230 pts	OK	data.js:2250	
+cathay_notes-012	cathay_notes.md perfil Grand Cannon	130 pts; maquina R6 H3; dotacion 3 M4 HA3 HP3 F3 R3 H1 I3 A1 Ld7	OK	data.js:2236	
+cathay_notes-013	cathay_notes.md perfil Fire Rain Rocket Battery	130 pts; maquina R6 H3; dotacion 3	OK	data.js:2239	
+cathay_notes-014	cathay_notes.md perfil Ogre Loader	M4 HA3 HP3 F4 R4 H3 I2 A3 Ld8, +35 pts	PARCIAL	data.js:3500	Perfil propio del Cargador ogro no modelado (ver cathay_aj-098).
+cathay_notes-015	cathay_notes.md perfil Miao Ying Humana	M4 HA7 HP5 F4 R4 H7 I7 A4 Ld10, 485 pts	OK	data.js:2223	
+cathay_notes-016	cathay_notes.md perfil Miao Ying Dragon	M8 HA8 HP3 F7 R6 H7 I6 A6 Ld10	OK	data.js:2219	
+cathay_notes-017	cathay_notes.md notas lista	Sentinel Jade/Obsidiana/Granito/Piedra bruja +20/+25/+35/+40	OK	data.js:2254-2270	
+cathay_notes-018	cathay_notes.md notas lista	Linterna montada: Magistrado/Estratega + Linterna	OK	data.js:2202,2208,5103	
+cathay_notes-019	cathay_notes.md Armeria nota	Notas confirman dados cathay_aj: Cathayan lance S+1 AP-1 AB1 FER	PARCIAL	data.js spear:true spearAp1 spearAb1	VERIF v732: rules.js:4796 aplica S+1, FP-1 y spearAb (Perforante 1) solo si cargo (chgE); Armour Bane (1) de la lanza cathayana debe valer siempre (solo S y FP son por carga)

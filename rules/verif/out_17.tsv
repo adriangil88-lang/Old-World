@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+leg_lizardmen.tsv	leg_lizardmen-149	CONFIRMA	data.js:3028 voidMR solo Slann; rules.js:1034 u.voidR=d3 en createGame antes de desplegar; mrOf (1784) lo aplica, tope 3
+aj_tk2.tsv	aj_tk2-063	CONFIRMA	data.js nekaph: tt char, baseW/D 25, arm light, melee Mayal F+2 PA-2 magica HM2 dos manos (F+2 solo si cargo, rules.js:4836 sbCharge)
+leg_ogres.tsv	leg_ogres-118	CONFIRMA	rules.js:4688 effI -1 I (min 1), rules.js:4916/5382 -1 HA (min 1) vs enemigos con numbChill (unidad o personaje unido)
+leg_skaven.tsv	leg_skaven-028	CONFIRMA	data.js:1753/1756 base melee ap1+magical; SKW opts (4320) quitan magical/ap con 2a arma de mano, a dos manos o alabarda (delSr magical, ap0)
+aj_highelves.tsv	aj_highelves-091	CONFIRMA	"data.js:4761 chk: he_stormweaver* > per1k(limite) en Gran Ejercito (no INF); la nota ""sin validacion"" esta obsoleta"
+leg_daemons.tsv	leg_daemons-181	CONFIRMA	"data.js:5913 override dm_flamers.ranged 18"" F4 FP-1 shots D3 ms flaming quickShot (sustituye al aliento 8"" de data.js:2014)"
+leg_darkelves.tsv	leg_darkelves-228	PARCIAL	rules.js:4684 elvenRef +1 I (max 10) si !u.fought, pero el motor usa un unico I del jinete para todo el modelo: no se excluye a la montura
+aj_bretonnia.tsv	aj_bretonnia-126	PARCIAL	rules.js:5237-5247 el arma (meleeChoice) se elige en cada ronda/subfase (FAQ arma multiple), no solo al inicio de la 1a ronda; mwLock sin efecto (anulado)
+faq_libros.tsv	RQ20	CONFIRMA	rules.js:4164 rrw del Fetiche excluye hechizos ligados (boundIts/extraBound/ring_fireball/scintSpell)
+core_5.tsv	C5-108	CONFIRMA	rules.js:1775 slowM: min M de personajes unidos (mvOf usa slowM); restricciones propias (noMarch etc.) no se propagan, caso casi inexistente
+leg_lizardmen.tsv	leg_lizardmen-173	CONFIRMA	rules.js:2279/2285 swamp y peligroso-pantano sin -M con aquatic; unico rasgo de agua del juego es el pantano
+core_5.tsv	C5-010	CONFIRMA	data.js:392 d.us = d.W para monCreature/behemoth; rules.js:221 usOf = models*us (Heridas iniciales)
+leg_lizardmen.tsv	leg_lizardmen-176	PARCIAL	rules.js:3088 diveBomb(rocks) D3 F4 PA- por modelo, 1 vez (8050); pero es automatico al sobrevolar: el jugador no elige usarlo ni objetivo, sin aviso popup (solo logE)
+aj_highelves.tsv	aj_highelves-136	CONFIRMA	data.js:2898 noRR; rules.js:4924 anula repeticiones de impactar/herir cuando el portador o su enemigo trabado lleva el estandarte
+leg_skaven.tsv	leg_skaven-183	CONFIRMA	Solo existe sk_plaguepriest_furnace (character mount, data.js:1833), sin entrada de unidad independiente; coste sumado al jinete
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-081	CONFIRMA	data.js:2140/2152: M9, lightCav, baseW25 x baseD50, fastCav fireFlee swiftstride, garras/colmillos como arma de mano
+battlemarch_quickref.tsv	quickref-071	CONFIRMA	rules.js:5936-5940: doble 1 natural -> give; nat>Ld break; mod>Ld fall; si no give (cede terreno)
+aj_bretonnia.tsv	aj_bretonnia-105	CONFIRMA	data.js:907 br_outcast: tt char, 25x25, arm none (solo arma de mano), M4 WS3 BS3 S3 T3 W2 I3 A1 Ld7; la ref de linea 899 apunta a otra unidad
+aj_empire2.tsv	aj_empire2-118	CONFIRMA	data.js:4106 ORD: personajes +10/+15/+10/+15/+15; unidades por modelo +2/+3/+2/+3/+3 (Caballeros, Circulo Interior, Demigrifos)
+aj_chaos2.tsv	aj_chaos2-122	CONFIRMA	data.js:3736 woc_huscarls base horsemen M8 WS4 BS3 S3 T4 I3 A1 Ld7, 18 pts, 30x60, campeon CMD 8 (A+1 Ld+1 por defecto), caballo mountAtk S3
+cathay.tsv	cathay_aj-071	CONFIRMA	"rules.js commandRange: regex ^ct_(magistrate|strategist)_lantern -> 12"""
+leg_daemons.tsv	leg_daemons-125	CONFIRMA	data.js:1951 herald slaanesh: unstable/indom1 (Favor 1), fear, immunePsy; I+1 primera ronda (rules.js:4691); sig cacophonic de Slaanesh en LORES dm_slaanesh; magia en variantes _w1/_w2
+battlemarch_quickref.tsv	battlemarch-154	PARCIAL	rules.js:751 chaosCart usa angulo aleatorio continuo desde el centro, no un Dado de Dispersion (flechas/hit); resto correcto (borde, rollOff, announce)
+core_8.tsv	core_8-048	CONFIRMA	data.js:2298 bad_moon hex cv10 rango 15; rules.js:4274 -D3 (d3) HA e I min 1 (4695, 4916, 5382) hasta fin de turno (6669)
+dawn_renegade_sc.tsv	sc_waystones-011	CONFIRMA	"rules.js:2914 nearWay (12"" desde peana al rasgo) -1 impactar en fase de disparo (no al reaccionar); dist. unidad-piedra"
+core_3.tsv	c3-163	CONFIRMA	rules.js:4774 atk = inC*A + (rmEff-inC): en contacto A ataques, sin contacto 1
+cathay.tsv	cathay_aj-105	CONFIRMA	data.js:2548 ct_longma chS1 chAp3 solo carga (rules.js:4812), ab1, cavMonCh restringe tipo (data.js:3348)
+dawn_renegade_sc.tsv	sc_shores-016	CONFIRMA	rules.js:254 marks vp50 x2 (+100 guarnicion); rules.js:6693 centerController al final de cada turno de cualquier jugador
+core_7.tsv	core_7-049	CONFIRMA	rules.js:2559 linkedArmy stage 2: destruidas D6<=2 dispersas, 3+ mitad de modelos con Math.ceil
+leg_vampires.tsv	leg_vampires-163	PARCIAL	data.js:1935 vc_mortis 195 pts T5 W5 A 3+D6 impactos D6+1; pero S3 (no F5 del carro) y la Horda (I1) comparte I3 con banshees: sin perfiles separados
+faq_core_2.tsv	F2-017	CONFIRMA	data.js:2296 fist_gork cv:8
+faq_core_4.tsv	FC4-45	PARCIAL	rules.js:1785 mrItems: max(piedras,otros objetos) pero luego suma featmr/lmkmr/terreno/mrBn: la Piedra mejora otras fuentes de RM
+leg_vampires.tsv	leg_vampires-228	CONFIRMA	data.js:3087 vcl_vigour 40 pts grant reserveMove (has0 admite grant de estandarte); canReserve rules.js:2188
+aj_dwarfs2.tsv	aj_dwarfs2-114	CONFIRMA	data.js CMD dw_royalwarriors y _ga: [6,6,6] campeon/portaestandarte/musico +6 por unidad
+aj_highelves.tsv	aj_highelves-023	CONFIRMA	data.js:3551 chk Chracia: he_shadow o he_sisters > per (por 1.000 pts), 0-1 combinado
+core_2.tsv	C2-108	CONFIRMA	rules.js:8125 case cast: el jugador elige hechizo y objetivo, validados por castCheck
+core_2.tsv	C2-115	PARCIAL	rules.js:1784 mrOf suma fuentes (void+magRes+banderas+herd, tope 3) y 4500 usa max(mrOf,mrItems) con mrItems tambien sumando: regla dice no acumulable, vale el mayor
+core_7.tsv	core_7-056	CONFIRMA	rules.js:2558 stage 3 T={cas:2,dead:1}: D3/D6 modelos con minimo US 5/10, 3+ Ld-1; destruidas 1 dispersa, 2+ mitad (ceil)
+leg_skaven.tsv	leg_skaven-203	PARCIAL	rules.js:2832 rayo 8D6 PA-3 F dado artilleria; pero impactos = min(modelos, filas) en vez de un impacto por cada modelo bajo la linea
+aj_beasts2.tsv	aj_beasts2-105	PARCIAL	data.js:4487 bm_preyton baseW:50 baseD:75 pero la fuente dice 75 x 50 (W x D; en el mismo motor 50x75 Lammasu = baseW50/baseD75): base invertida; resto correcto
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-036	CONFIRMA	data.js:3789 cd_prophet_lammasu: 195+95=290, monCreature, W+3, M6, A+2, nivel 3, rasgos del Lammasu, base 50x75
+core_7.tsv	core_7-066	CONFIRMA	rules.js:1017-1056 tira Nivel hechizos sin repetir y guarda tirada extra; spellPick (7781) permite descartar uno por la firma o conservar todos
+faq_core_2.tsv	F2-078	CONFIRMA	"rules.js:3672 doCharge: Drilled en Columna reforma a Orden de combate si hay espacio antes de mover (log), si no la carga fracasa; la nota ""sin logica"" es obsoleta"
+dawn_renegade_sc.tsv	cathay_dawn-034	CONFIRMA	dawn.js:8 WASTE[6]=marsh; dawn.js:53 marsh ground diff:true (terreno dificil)
+leg_darkelves.tsv	leg_darkelves-210	PARCIAL	data.js:2989 del_ruin noSaves: rules.js:4823 anula armadura y especial, pero no Regeneracion (falta noRegenW; rules.js:4916 noRegen no usa noSaves)
+leg_skaven.tsv	leg_skaven-224	PARCIAL	rules.js:7701 orb: tirada unica para impactar + test de I, pero apunta a la unidad (no a un modelo concreto campeon/personaje); usa I de la unidad
+core_3.tsv	c3-141	CONFIRMA	rules.js:2057 salvacion especial (ward) no usa PA; se tira contra la herida sin modificar
+core_3.tsv	c3-094	CONFIRMA	rules.js:3340-3392 pushAway: amigas se atraviesan (solo pánico por Fled Through) y si acaba encima continua en linea recta hasta despejar
+leg_skaven.tsv	leg_skaven-069	PARCIAL	rules.js:5383 -1 impactar aplicado a todo ataque contra la unidad si esta o un personaje unido tiene cloudFlies; la regla solo afecta a ataques dirigidos al personaje
+aj_tk2.tsv	aj_tk2-050	CONFIRMA	data.js:4459 tk_settra impact 2D3 flaming+magical; rules.js:3519 los aplica a woundAndSave; union a Carros de la Guardia (rules.js:7000)

@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+dawn_renegade_sc.tsv	cathay_dawn-021	CONFIRMA	"rules.js:3301-3325 runAway: u.garrison => no pushAway, cuenta como huyendo (fleeing=true) y se rehace con rally normal; log ""se esconde tras los muros"""
+faq_core_4.tsv	FC4-40	PARCIAL	rules.js:4270 ramparts pone noCharge y chargeTargets (3409-3410) devuelve []: no hay declaracion de carga ni reacciones del enemigo; solo coincide el resultado (no se mueve)
+core_8.tsv	core_8-016	CONFIRMA	data.js:2338 flaming_sword assail cv7 (FAQ 7+), hits D6+1, s3, ap0, flaming:true; coincide con core p.326 y FAQ
+leg_darkelves.tsv	leg_darkelves-011	CONFIRMA	data.js:4694-4695: si el General (marcado o mayor Ld/coste, igual que generalOf) es Maestro de Bestias, move() pasa UNA Hidra/Kharibdyss de rare a special (0-1 en conjunto)
+leg_skaven.tsv	leg_skaven-049	CONFIRMA	"data.js:4368 mu nat1:w1 (24"",F5,FP-2,magico,ponderous); rules.js:2999-3001 por cada 1 natural al impactar tira otro D6 y con 1 pierde una Herida"
+leg_daemons.tsv	leg_daemons-264	PARCIAL	"data.js:5948 anade warpSpawned y existen unstable/fear/immunePsy/unbreakable, pero dm_skullcannon, hellflayer, seekerchariot, tzeentch_chariot y burningchariot no tienen ""magical"" (Ataques magicos)"
+faq_core_4.tsv	FC4-41	CONFIRMA	"rules.js:3575 la reaccion Contracarga exige !fx(t,""ramparts""): unidad con Murallas no puede contracargar"
+core_8.tsv	core_8-080	CONFIRMA	data.js:2583 lodestone mr:1 star; rules.js:1785 mrItems suma min(3,n) (no mejora otras fuentes); data.js:3384 valida maximo 3 piedras
+faq_core_2.tsv	F2-014	PARCIAL	"rules.js:1695,1709 -1 Ld (min 2) y sin Presencia Inspiradora a enemigos a 8"", pero vxNear (1650) mide con circulo max(w,d)/2 en vez del borde real de la peana"
+leg_vampires.tsv	leg_vampires-019	CONFIRMA	data.js:1915 vc_bloodknights comp rare; data.js:4977 valida 0-1 unidad por cada 1.000 pts
+leg_skaven.tsv	leg_skaven-060	CONFIRMA	data.js:1765-1767 sk_plaguepriest tt char, baseW/D 25, sin armadura, arma de mano por defecto; perfil M5 HA5 HP3 F4 R5 H2 I5 A3 Ld6, 60 pts
+core_4.tsv	C4-053	PARCIAL	rules.js:5407 solo cubre defensor con HA 0 (impacto automatico). Atacante con HA 0 se trata como HA1 (clamp10), HP 0 como 6+ (shootBase) y maquinas con A 0 atacan 1 vez (4751 Math.max(1,..))
+leg_lizardmen.tsv	leg_lizardmen-143	CONFIRMA	data.js:1749-1751 Troglodon sr: aquatic, arcVassal, closeOrder, coldBlooded, immunePsy, large, primRoar, stomp(2), stubborn, terror; Lore de Lustria via legacyLore (5421); rugido rules.js:6549
+aj_dwarfs2.tsv	aj_dwarfs2-063	CONFIRMA	data.js:5672 opcion em +10 (per unit) en dw_engineer, heredada por dw_sapper (5675); addSr marksmen; rules.js:2918 sin penalizador por mover y disparar
+aj_wood2.tsv	aj_wood2-063	CONFIRMA	data.js:720-724 we_orion sr incluye strikeFirst, terror y unbreakable (ademas fear via terror, frenzy, immunePsy, magRes2, openOrder, stomp D3+2)
+aj_wood2.tsv	aj_wood2-123	PARCIAL	"data.js:3162 k_eternal usa rr1Hit, que rules.js:4916 mapea a P.rrHit y 5410 repite TODO fallo al impactar (no solo 1 naturales). La parte de repetir heridas a 6"" (rules.js:4883) si es correcta"
+aj_bretonnia.tsv	aj_bretonnia-134	CONFIRMA	data.js:6012-6013 opciones co/skm (gratis, delSr openOrder) y data.js:4894 limita a per1k unidades combinadas con Orden cerrado o Escaramuzadores; amb/sco solo con skm
+aj_orcs2.tsv	aj_orcs2-069	CONFIRMA	data.js:845-846 orc_ogre_bulls M6 HA3 HP2 F4 R4 H3 I2 A3 Ld7 31 pts; CMD (3716) campeon +7 y campeon generico +1 A (rules.js:5360) = A4. (la fuente tambien dice +6 en opciones)
+cathay.tsv	cathay_notes-013	CONFIRMA	data.js:2247-2249 ct_rockets cat mach, ppm130, T6, W3 (dotacion), skirmish, moveOrFire, dos tipos de cohete; cargador ogro +35 (3510)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-138	CONFIRMA	data.js:2466 CMD.cd_wolfriders = [8,6,6] (campeon +8, estandarte +6, musico +6)
+faq_core_3.tsv	47	CONFIRMA	rules.js:3511-3528 chargeImpacts: la montura/carro (D(u).impact) hace sus Impactos y el jinete (impactIt) lo hace aparte con riderPass=true
+aj_highelves.tsv	aj_highelves-083	CONFIRMA	data.js:1533-1535 he_stormweaver M5 HA4 HP4 F3 R3 H2 I4 A2 Ld9, 85 pts, tt char, 25x25, arma de mano, lores dark/elementalism/illusion nivel 1
+leg_daemons.tsv	leg_daemons-228	CONFIRMA	data.js:2956 dml_armourK sv:5 (pesada) y ward:5 contra cualquier herida; rules.js:1749,1753 lo aplican
+leg_skaven.tsv	leg_skaven-197	PARCIAL	rules.js:1805-1810 D6 correcto (1-3 muere, 4-5 enjambre, 6 recupera D3) pero el enjambre se coloca automaticamente (3121 summonUnit) sin eleccion del jugador ni popup; tirada solo en CUR.log
+cathay.tsv	cathay_aj-136	PARCIAL	data.js:4354 Gatekeeper/Gatemaster ok (sb1, ap1, strikeFirst) pero data.js:4359 CTS (ct_shugengan y ct_shugengan_gen) da solo melee sb:1: falta FP-1 y Golpear primero
+battlemarch_quickref.tsv	battlemarch-053	CONFIRMA	data.js:772-774 gob_oddgit mago nivel 1, ppm 60, arma de mano por defecto; muster Drazgog (6271) lo usa por 60 pts
+aj_empire2.tsv	aj_empire2-136	PARCIAL	data.js:2860 y rules.js:4852: 40 pts, solo list knights; pero el -1 Ataque a modelos en contacto de peana se aproxima con ceil(baseW portador/baseW enemigo)+1 modelos, no cuenta contactos reales
+battlemarch_quickref.tsv	battlemarch-011	CONFIRMA	"rules.js:819-824 rio peligroso de 3-6"" con hueco centrado de 8"" (terreno abierto); el ancho se tira al azar (3..6 enteros)"
+leg_daemons.tsv	leg_daemons-251	PARCIAL	data.js:2979 F/FP-1/flamigera ok, pero rules.js:5548 hace UN chequeo de R por lote de heridas y applyWounds(x.e, x.e.wounds) quita todas las Heridas de la unidad, no solo las del modelo herido
+core_8.tsv	core_8-105	PARCIAL	rules.js:4485 roll3Best descarta el menor y doble 1 = [1,1] (correcto), pero el pergamino se gasta siempre en el primer lanzamiento: el jugador no puede decidir cuando usarlo
+aj_chaos2.tsv	aj_chaos2-140	CONFIRMA	data.js:4475-4478 woc/bm_gspawn: tt behemoth (heredado), baseW 60 baseD 100, min/max 1, arm heavy; verificado en carga del modulo
+battlemarch_quickref.tsv	battlemarch-088	CONFIRMA	rules.js:6899-6904 y smallVP (783): en Battle March +25 por estandarte capturado (stdsCaptured) y +25 (bsbVP) si el Portaestandarte enemigo muere, huye o esta huyendo
+aj_beasts2.tsv	aj_beasts2-071	PARCIAL	rules.js:6340 repite SIEMPRE el D6 (incluso un 6 bueno, sin eleccion) y se aplica a cualquier unidad Borracha amiga, no solo Manadas de Centigors
+battlemarch_quickref.tsv	quickref-064	CONFIRMA	rules.js:5635-5680 sideScore: flank = +1 y rear = +2 por cada unidad enemiga atacada por ese lado (una vez por unidad, Core p.153)
+leg_vampires.tsv	leg_vampires-090	CONFIRMA	data.js vc_skeletons: tt regInf, baseW/D 25, min 10, arm light, avOpt shield, sin maximo (max 99)
+leg_daemons.tsv	leg_daemons-076	CONFIRMA	data.js:5874 dm_gud nivel 1 de serie; lores = battle_dm (5135-5139: battle, daemonology, dark); rules.js:1011 cae a lk0[0]=battle
+faq_core_1.tsv	FQ1-067	CONFIRMA	rules.js:1763 svOf: tope 2+ general y 3+ para mach y tt monCreature/behemoth/lightChar/heavyChar; monInf/monCav siguen en 2+ (infanteria/caballeria)
+leg_daemons.tsv	leg_daemons-173	CONFIRMA	data.js:5910 CMD.dm_bluehorrors = [6,null,null]: campeon +6, sin estandarte ni musico como en la fuente
+aj_dwarfs2.tsv	aj_dwarfs2-098	CONFIRMA	data.js:3726 dw_sapper sr: digIn, dwarfCrafted, gromrilArm, hatredOrcs, magRes, resolute, stubborn (+hostileTerrain); rules.js:7488-7499 Atrincheraos con chequeo de Ld propio
+aj_orcs2.tsv	aj_orcs2-011	CONFIRMA	data.js:814-815 goods_cart sr: hatredOrcs, impact (1 F4), magRes, openOrder, resolute, chariot; perfil y base 75x50 correctos
+aj_bretonnia.tsv	aj_bretonnia-123	PARCIAL	data.js:5992 opcion gm +7 y rules.js:5357/5517 solo dan +1 Ataque y relevo al caer el primer campeon; el Monje no actua como segundo campeon independiente (desafios) como exige la regla
+core_3.tsv	c3-132	CONFIRMA	rules.js:1855-1865 hitRoll: need 7 -> 6 y luego 4+, 8 -> 6 y 5+, 9 -> 6 y 6, 10 imposible
+core_8.tsv	core_8-005	PARCIAL	data.js:2416 cv9 ok; rules.js:4396,4748,4783 dan +1 F, +1 A y +1 FP al jinete/unidad en melee, pero no a la montura (mountAtk.S/ap, 4909) ni a armas a distancia
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-254	CONFIRMA	data.js:2941 cdl_familiar famil; rules.js:2021-2023 si defensor trabado con el portador y !ranged, ward y regeneracion +1 (min 6+)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-180	CONFIRMA	rules.js:5292-5303 cuernos: S de montura +1, FP-3, flamigero, golpea primero (I10), un ataque por modelo y se descuenta de los ataques de la montura (5336)
+battlemarch_quickref.tsv	battlemarch-195	CONFIRMA	data.js:2508 bm_scroll_fire (scrollBM, fireball, single); rules.js:4475 lanza Bola de Fuego con normalidad y consume el pergamino; el jugador elige el hechizo
+faq_libros.tsv	F63	PARCIAL	"rules.js:5401-5402/5420 Feint&Dodge se activa solo y siempre en el primer ataque enemigo (sin ""puedes"" de eleccion), con flag feintUsed por unidad y sin popup (solo logE)"
+core_6.tsv	core6-003	CONFIRMA	rules.js:3028-3032 r.through: por columna (dm.files) si sideOf===flank, por fila si no; -1 F por cada impacto posterior
+leg_daemons.tsv	leg_daemons-233	CONFIRMA	data.js:5941 auraCast r999 los:true; rules.js:4505 -1 al lanzar a magos enemigos con linea de vision a la unidad portadora (LOS entre unidades, no modelos)
+core_3.tsv	c3-136	CONFIRMA	rules.js:2044-2050 tirada >= valor+FP, 1 natural siempre falla, valor 7+ o >6 sin salvacion

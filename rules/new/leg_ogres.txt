@@ -1,0 +1,1043 @@
+                OGRE
+              KINGDOMS
+                         Legacy Army List
+                    For Use With Warhammer: The Old World Rules
+This document allows you to play an Ogre Kingdoms Army from the Warhammer Fantasy Battles range in games
+ using the rules from Warhammer: The Old World. To use the contents of this document, you will need a copy
+                                 of the Warhammer: The Old World rulebook.
+
+            The rules contained within this document allow players the opportunity to try out the
+             Warhammer: The Old World rules using models they may have in their collection.
+         They are not intended for use in matched play events and will not be updated in line with any
+                              future Warhammer: the Old World publications.
+                                       Ogre Kingdoms
+A   n Ogre army is a fearsome sight. A sweaty mass of hulking monstrosities with a real appetite for destruction, Ogres are
+    utterly ruthless and enjoy using their massive brawn to dominate others. In battle, they are accompanied by primaeval
+monsters and shaggy, tusked beasts from an ice-ridden age that still prowl the world. Armies of Ogres do not just defeat
+their enemies, they break them, grind them and then consume them in great gory chunks. Then they look for more…
+
+This document contains the following information:                    CONTENTS
+Grand Army Composition List: The default army                        Ogre Kingdoms Legacy Army List	�������������������������������������������2
+composition list for the Ogre Kingdoms.                               Grand Army Composition List	���������������������������������������������������������2
+                                                                      Big Names................................................................................................20
+Profiles: Every model available to the Ogre Kingdoms has              Magic Items.............................................................................................21
+a profile. Here, you will find that model’s characteristics, its      Special Rules............................................................................................24
+equipment, its points value, details of any special rules unique      Lore of the Great Maw	����������������������������������������������������������������������25
+to it and more.                                                       Weapons of the Ogre Kingdoms	���������������������������������������������������� 26
+
+Magic Items: As well as the Common magic items
+detailed in the Warhammer: the Old World rulebook, this
+army list includes a number of magic items unique to the
+Ogre Kingdoms.
+
+Special Rules: This section covers rules unique to the
+Ogre Kingdoms.
+
+The Lore of…: Unique spells used in conjunction with
+the Lores of Magic found in the Warhammer: the Old
+World rulebook.
+
+
+
+
+   © Copyright Games Workshop Limited 2024. Warhammer: the Old World, Citadel, Forge World, Games Workshop, GW,
+   Warhammer, the ‘winged-hammer’ Warhammer logo, and all associated logos, illustrations, images, names, creatures, races,
+         vehicles, locations, weapons, characters, and the distinctive likenesses thereof, are either ® or TM, and/or ©
+                                Games Workshop Limited, variably registered around the world.
+                                                      All Rights Reserved.
+
+                                        Permission to download/print for personal use only.
+
+                  This is a work of fiction. All the characters and events portrayed in this download are fictional,
+                               and any resemblance to real people or incidents is purely coincidental.
+                     Ogre Kingdoms Army List
+T   his page details the Grand Army composition list for the Ogre Kingdoms. This is the default army composition list
+    for this faction. Using this army composition list to write your muster list will give you the widest variety of units to
+choose from and create a broad and balanced force.
+
+This army list is intended for use alongside the ‘Forming Units’ and ‘Warhammer Armies’ sections of the Warhammer: the Old
+World rulebook. Over the following pages you will find profiles and rules for each of the models in your army. These pages give
+you all of the information that you need to shape your collection of models into the units which will in turn form a force ready
+for battle.
+
+Grand Army Composition List
+Characters                                                         Mercenaries
+Up to 50% of your army’s points value may be spent on:             Up to 20% of your army’s points value may be spent
+                                                                   on mercenaries.
+• 0-1 Tyrant or Slaughtermaster per 1,000 points
+• Bruisers, Butchers, Hunters and Firebellies                      Allies
+                                                                   Up to 25% of your army’s points value may be spent on a single
+Core                                                               allied contingent drawn from one of the following Grand
+At least 25% of your army’s points value must be spent on:         Army composition lists:
+
+• 1+ Ogre Bulls                                                    • Orc & Goblin Tribes
+• Ironguts, Gnoblar Fighters, Gnoblar Trappers and
+  Sabretusk Packs
+                                                                      Battle Standard Bearer
+Special                                                               A single Bruiser in your army may be upgraded to be
+Up to 50% of your army’s points value may be spent on:                your Battle Standard Bearer for +25 points. In addition to
+                                                                      their usual allowance of points to spend on magic items,
+•   Leadbelchers and Yhetees                                          a Battle Standard Bearer can purchase a single magic
+•   0-1 unit of Maneaters per 1,000 points                            standard with no points limit.
+•   0-1 unit of Mournfang Cavalry per 1,000 points
+•   0-1 heavy chariot chosen from the following list per              Bellowers & Musicians
+    1,000 points:                                                     Rather than using instruments, most Ogre ‘musicians’
+    - Ironblaster                                                     belong to a special caste known as Bellowers. As their
+    - Gnoblar Scraplauncher                                           name implies, a Bellower’s instrument is their voice and
+                                                                      lungs, with which they can make an incredible noise, even
+Rare                                                                  if only another Ogre would find it musical.
+Up to 25% of your army’s points value may be spent on:
+
+•   0-1 Thundertusk Riders per 1,000 points
+•   0-1 Stonehorn Riders per 1,000 points
+•   0-3 Gorgers
+•   Giants
+Tyrannical Overlords
+                                                                                                                                                              Character
+                                            M        WS         BS         S         T        W          I        A        Ld        Points
+Tyrant                                      6         6          4         5         5        5          5        5         9         185
+Bruiser                                     6         5          3         5         5        4          4        4         8         110             Tyrannical Overlords
+                                                                                                                                                      Ogres call the leaders of
+Troop Type:                Monstrous infantry (character)                                                                                             their tribes Tyrants and it is
+Base Size:                 40 x 40 mm                                                                                                                 obvious why. These hulking
+Unit Size:                 1                                                                                                                          beasts rule their domains
+Equipment:                 Hand weapon and light armour                                                                                               with iron fists – both
+                                                                                                                                                      figuratively and literally.
+Options:                                                                                                                                              Unlike the kingdoms of Men,
+• May take one of the following:                                                                                                                      where ruling titles pass from
+  - Additional hand weapon................................................................................................... +4 points               parent to child, the title of
+  - Ironfist (see page 26)........................................................................................................... +6 points       Tyrant must be earned by
+  - Great weapon......................................................................................................................... +5 points   defeating the existing Tyrant
+• May take one of the following:                                                                                                                      in single combat. The loser of
+  - Ogre pistol (see page 26).................................................................................................... +6 points           these leadership challenges is
+  - Brace of Ogre pistols (see page 26)...............................................................................+12 points                      then devoured by the victor
+• May replace light armour with heavy armour................................................................. +3 points                               in a cannibalistic display of
+• May be mounted*......................................................................................................................See page 7     dominance. Bruisers are a
+• May take a single Big Name................................................................................................ See page 20              Tyrant’s closest cronies and
+• A Tyrant may purchase magic items up to a total of.................................................... 100 points                                   regularly act as enforcers and
+• A Bruiser may purchase magic items up to a total of......................................................50 points                                  disciplinarians. Sometimes,
+                                                                                                                                                      a Bruiser will carry a tribe's
+Special Rules: Armour Bane (1)**, Bull Charge**, Fear, Impact Hits (2), Ogre Charge                                                                   standard into battle, massive
+                                                                                                                                                      banners weighed down
+*Note that if this option is chosen, this model loses the Impact Hits (2) special rule.                                                               with all manner of trophies
+                                                                                                                                                      and tokens of the tribe’s
+**Note that these special rules do not apply to this model’s mount (should it have one).                                                              many victories – which,
+                                                                                                                                                      unsurprisingly, double
+Bull Charge                                                                                                                                           as effective bludgeoning
+The sheer bulk of an Ogre Tyrant or Bruiser is such that the enemy is often crushed by the force of                                                   weapons in the hands of a
+their charge alone.                                                                                                                                   brutish Ogre!
+
+Impact Hits caused by this model (but not its mount) have an Armour Piercing
+characteristic of -1.
+Emissaries Of The Great Maw
+                                                                                                                                                      Character
+                                          M        WS        BS        S         T       W          I        A       Ld        Points
+Slaughtermaster                           6         4         3        4         5       5          3        4        8         230
+Butcher                                   6         3         2        4         5       4          2        3        7         105            Butchers &
+                                                                                                                                               Slaughtermasters
+Troop Type:               Monstrous infantry (character)                                                                                       The grotesque, gore-
+Base Size:                40 x 40 mm (50 x 100 mm with Butcher’s Cauldron)                                                                     splattered creatures known
+Unit Size:                1                                                                                                                    as Butchers are amongst the
+Equipment:                Hand weapon                                                                                                          few Ogres who can harness
+                                                                                                                                               the Winds of Magic, doing
+Magic: A Slaughtermaster is a Level 3 Wizard. A Butcher is a Level 1 Wizard. Every                                                             so by consuming all manner
+Emissary of the Great Maw knows spells from one of the following Lores of Magic:                                                               of unpalatable food. By
+• Battle Magic                                                                                                                                 swallowing down a pile of
+• Elementalism                                                                                                                                 steaming Troll guts, a Butcher
+• Illusion                                                                                                                                     can bestow regenerative
+                                                                                                                                               properties onto the Ogres
+Options:                                                                                                                                       around them. By grinding
+• May take an additional hand weapon.................................................................................. +4 points               chunks of rock with their
+• May take a Butcher’s Cauldron............................................................................................+30 points          teeth they can harden the
+• May take a single Big Name................................................................................................ See page 20       flesh of their companions.
+• A Slaughtermaster may:                                                                                                                       Butchers stand at the centre
+  - Be a Level 4 Wizard...........................................................................................................+35 points   of Ogre society, for their
+  - Purchase magic items up to a total of.......................................................................... 100 points                 connection to the Great
+• A Butcher may:                                                                                                                               Maw makes them akin to the
+  - Be a Level 2 Wizard...........................................................................................................+35 points   priests and prophets of other
+  - Purchase magic items up to a total of.............................................................................50 points                races. The most powerful
+                                                                                                                                               of these shaman-like
+Special Rules: Armour Bane (1), Fear, Impact Hits (2), Lore of the Great Maw,                                                                  figures are given the title of
+               Ogre Charge                                                                                                                     Slaughtermaster, Butchers of
+                                                                                                                                               incredible skill and brutality
+Butcher’s Cauldron                                                                                                                             that have carved chunks from
+Some Emissaries of the Great Maw drag behind them huge cauldrons, used to make offerings to                                                    most of the beings that have
+their ravenous god.                                                                                                                            walked or crawled across the
+                                                                                                                                               Old World.
+This character replaces the Impact Hits (2) special rule with the Impact Hits (D3+1)
+special rule. In addition, during the Command sub-phase of their turn, if they are not
+engaged in combat, a character with a Butcher’s Cauldron may attempt to make an offering
+to the Great Maw by making a Leadership test (using their own Leadership). If this test
+is passed, until your next Start of Turn sub-phase this character and any unit they have
+joined gains the Regeneration (5+) special rule. However, if this test is failed, this character
+immediately loses a single Wound.
+Hunters
+                                                                                                                                                            Character
+                                            M       WS         BS         S        T         W         I         A        Ld        Points
+Hunter                                      6        5          4         5        5         4         3         4         9         115
+                                                                                                                                                    Ogre Hunters
+Troop Type:               Monstrous infantry (character)                                                                                            Fiercely independent
+Base Size:                50 x 50 mm                                                                                                                warriors who have spent
+Unit Size:                1                                                                                                                         years wandering the
+Equipment:                Hand weapon, great throwing spears (see below) and light armour                                                           dangerous Mountains
+                                                                                                                                                    of Mourn, Hunters are
+Options:                                                                                                                                            experts at tracking and
+• May take an additional hand weapon.................................................................................. +4 points                    bringing down the mighty
+• May take a harpoon launcher (see page 26)....................................................................+10 points                           beasts that stalk between
+• May be mounted*......................................................................................................................See page 7   the peaks. Hunters are easy
+• Unless mounted, may have one of the following:                                                                                                    to identify by their unique
+  - The Ambushers special rule...........................................................................................+10 points                 attire, covered in the pelts
+  - The Scouts special rule....................................................................................................... +5 points        of the beasts they have slain
+  - The Vanguard special rule................................................................................................. +3 points            and carrying a vast array of
+• May take a single Big Name................................................................................................ See page 20            weapons: from large throwing
+• May purchase magic items up to a total of.........................................................................50 points                       spears, to traps and clubs.
+                                                                                                                                                    Though they prefer solitude,
+Special Rules: Armour Bane (1)**, Fear, Impact Hits (1), Loner, Move Through Cover**,                                                               Hunters will occasionally
+               Ogre Charge, Running with the Pack                                                                                                   haul an impressive kill back to
+                                                                                                                                                    an Ogre encampment to feast
+*Note that if this option is chosen, this model loses the Impact Hits (1) special rule.                                                             and to share stories of their
+                                                                                                                                                    mighty hunts. Occasionally, a
+**Note that these special rules do not apply to this model’s mount (should it have one).                                                            Hunter will be seen fighting
+                                                                                                                                                    alongside the beasts they
+Running With The Pack                                                                                                                               usually track – hunting
+Many Hunters tame and train Sabretusks, running alongside large packs of the savage felines to                                                      their foes from the back of a
+chase down prey.                                                                                                                                    Stonehorn or Thundertusk,
+                                                                                                                                                    or stalking the enemy in near-
+A Hunter that joins a unit of Sabretusks gains the Swiftstride special rule for as long as                                                          perfect unison with a pack
+they remain with the unit. In addition, for as long as the Hunter remains with the unit, the                                                        of Sabretusks.
+Sabretusks lose the Impetuous special rule.
+
+                                     R           S          AP          Special Rules
+Great throwing                      12"         S+1         -1          Move & Shoot, Quick Shot
+spears
+Firebellies
+                                                                                                                                                       Character
+                                           M        WS       BS         S        T        W         I         A       Ld        Points
+Firebelly                                  6         3        2         4        5        4         2         3        7         110
+                                                                                                                                                Firebellies
+Troop Type:               Monstrous infantry (character)                                                                                        Ogre Firebellies roam the
+Base Size:                40 x 40 mm                                                                                                            land preaching of the Fire
+Unit Size:                1                                                                                                                     Mouth; an Ogre deity revered
+Equipment:                Hand weapon and flaming breath (see below)                                                                            alongside the Great Maw.
+                                                                                                                                                Quick to anger, fire burns
+Magic: A Firebelly is a Level 1 Wizard. Every Firebelly knows spells from one of the                                                            in them in both a literal
+following Lores of Magic:                                                                                                                       and metaphorical sense, for
+• Battle Magic                                                                                                                                  the punishing trials they
+• Elementalism                                                                                                                                  undertake end with them
+                                                                                                                                                consuming lava from the
+Options:                                                                                                                                        Fire Mouth itself. In battle,
+• May take a great weapon.......................................................................................................... +6 points   Firebellies are able to draw
+• May be a Level 2 Wizard........................................................................................................+35 points     upon that inner flame to
+• May purchase magic items up to a total of.........................................................................50 points                   not only protect themselves
+                                                                                                                                                from the flaming attacks of
+Special Rules: Armour Bane (1), Blessings of the Volcano God, Fear, Flaming Attacks,                                                            their foes, but to also bathe
+               Impact Hits (1), Ogre Charge                                                                                                     those foolish enough to stand
+                                                                                                                                                against them in the heat of
+Blessings Of The Volcano God                                                                                                                    a volcano. If that were not
+Every aspiring Firebelly must enter the caldera of the titanic volcano, Fire Mouth, where the heat is                                           dangerous enough, Firebellies
+such that their hair is burnt from their bodies. There they must fill a crucible with roiling lava and                                          are also able to draw upon
+down it in a single draught. Only those with the blessing of the volcano god can survive.                                                       the Winds of Magic to
+                                                                                                                                                bombard their enemies with
+A model with this special rule has a 4+ Ward save against any wounds suffered that were                                                         balls of fire and pillars of
+caused by an attack that has the Flaming Attacks special rule.                                                                                  scorching flame.
+
+                                  R             S         AP          Special Rules
+Flaming breath                   N/A            4         -1          Breath Weapon, Flaming Attacks
+Character Mounts
+                                                                                                                                                                   Character
+A character that can be mounted may choose a mount from the following list. Most
+mounts are covered in detail on the following pages. Those that are not have their own
+dedicated entries later in this army list.                                                                                                                 Stonehorns
+                                                                                                                                                           These living battering rams
+A Tyrant, Bruiser or Hunter may be mounted on a:                                                                                                           embody everything an
+• Stonehorn................................................................................................................................. +195 points   Ogre holds dear. They are
+• Thundertusk............................................................................................................................ +165 points      big, strong and destructive
+                                                                                                                                                           in equal measure, able to
+Stonehorn                                                                                                                                                  shatter stone and metal with
+                                                                                                                                                           a thunderous head-butt.
+                           M WS BS             S    T     W      I   A Ld                                                                 Points           There are many stories of a
+Stonehorn                   7     3     -      6 (+1) (+4) 2         4    -                                                                +195            Stonehorn charging at full
+Notes: A character mounted on a Stonehorn has +1 Toughness and +4 Wounds.                                                                                  speed into a cliffside, only for
+                                                                                                                                                           the very mountain itself to
+Troop Type:                 Behemoth                                                                                                                       give way to the beast’s assault.
+Base Size:                  100 x 150 mm
+Unit Size:                  1                                                                                                                              Thundertusks
+Equipment:                  Horns of stone (see below) and petrified flesh (counts as full plate armour)                                                   Solitary creatures that roam
+Special Rules:              Armour Bane (2, Stonehorn only), Close Order, First Charge,                                                                    the frigid lands to the north,
+                            Impact Hits (D6+1), Large Target, Stone Skeleton, Swiftstride, Terror,                                                         Thundertusks have walked
+                            Thunderous Charge                                                                                                              the Old World since the
+                                                                                                                                                           dawn of time. Needing to
+                                   R                S          AP           Special Rules                                                                  consume vast quantities of
+Horns of stone                   Combat             S          -2           -                                                                              food to sustain their massive
+                                                                                                                                                           bodies, Thundertusks hunt
+                                                                                                                                                           using their icy breath to hurl
+Thundertusk                                                                                                                                                magically-infused icicles that
+                                                                                                                                                           rend and tear the flesh of
+                           M WS BS           S      T    W      I    A Ld                                                                 Points           their prey.
+Thundertusk                 6     3    -     6 (+1) (+4) 2           4      -                                                              +165
+Notes: A character mounted on a Thundertusk has +1 Toughness and +4 Wounds.
+
+Troop Type:    Behemoth
+Base Size:     100 x 150 mm
+Unit Size:     1
+Equipment:     Great tusks (see below), chill breath (see below) and
+               frozen pelt (counts as heavy armour)
+Special Rules: Close Order, First Charge, Impact Hits (D3), Large Target,
+               Numbing Chill, Stomp Attacks (3), Swiftstride, Terror
+
+                                   R                S          AP           Special Rules
+Great tusks                      Combat             S          -1           Armour Bane (2)
+
+                                     R              S          AP           Special Rules
+Chill breath                        N/A             2          -1           Breath Weapon, Multiple Wounds (D3)
+Ogre Bulls
+                                                                                                                                               Infantry
+                                        M      WS        BS        S       T        W        I        A       Ld       Points
+Ogre                                    6       3         2        4       4        3        2        3        7         31
+Crusher                                 6       3         2        4       4        3        2        4        7        +6            Bull Ogres
+                                                                                                                                      Ogres are simple-minded
+Troop Type:             Monstrous infantry                                                                                            creatures, well known
+Base Size:              40 x 40 mm                                                                                                    for their massive size and
+Unit Size:              3+                                                                                                            violent disposition. They
+Equipment:              Hand weapons and light armour                                                                                 are voracious eaters, their
+                                                                                                                                      desperate desire to gorge
+Options:                                                                                                                              themselves on fresh meat
+• The entire unit may take one of the following:                                                                                      eclipsed only by their need
+  - Additional hand weapons............................................................................. +3 points per model          to smash anything that
+  - Ironfists (see page 26).................................................................................... +4 points per model   gets in the way of their
+• Any unit may:                                                                                                                       messy feasting. On the
+  - Upgrade one model to a Crusher (champion)........................................... +6 points per unit                           field of battle, Ogres will
+  - Upgrade one model to a standard bearer.................................................... +6 points per unit                     band together into large
+  - Upgrade one model to a Bellower (musician)............................................ +6 points per unit                         formations, before rushing
+• A standard bearer may have the Look-out Gnoblar special rule............... +5 points per unit                                      headlong at the foe with
+• 0-1 unit per 1,000 points may purchase a magic standard worth up to....................50 points                                    thunderous force, smashing
+                                                                                                                                      into the first few ranks
+Special Rules: Armour Bane (1), Close Order, Fear, Impact Hits (1), Ogre Charge                                                       before laying into their
+                                                                                                                                      victims with crude clubs and
+                                                                                                                                      oversized blades.
+Ironguts
+                                                                                                                                      Ironguts
+                                        M      WS        BS        S       T        W        I        A       Ld       Points         Usually composed of a
+Irongut                                 6       3         2        4       4        3        2        3        8         39           mixture of a Tyrant’s
+Gutlord                                 6       3         2        4       4        3        2        4        8        +7            immediate family and their
+                                                                                                                                      favoured cronies, Ironguts are
+Troop Type:             Monstrous infantry                                                                                            some of the best armed and
+Base Size:              40 x 40 mm                                                                                                    armoured Ogres in a tribe.
+Unit Size:              3+                                                                                                            Carrying monstrous two-
+Equipment:              Hand weapons, great weapons and heavy armour                                                                  handed weapons which range
+                                                                                                                                      from forged steel to stone
+Options:                                                                                                                              clubs, a group of Ironguts
+• Any unit may:                                                                                                                       can smash their way through
+  - Upgrade one model to a Gutlord (champion)........................................... +7 points per unit                           fortified gates as swiftly as
+  - Upgrade one model to a standard bearer.................................................... +7 points per unit                     they would a regiment of
+  - Upgrade one model to a Bellower (musician)............................................ +7 points per unit                         soldiers. Each Irongut wears
+• A Gutlord may purchase magic items up to a total of....................................................25 points                    an ornamental gut-plate and
+• A standard bearer may have the Look-out Gnoblar special rule............... +5 points per unit                                      covers their thick, muscular
+• Any unit may:                                                                                                                       frames in heavy plates of
+  - Have the Veteran special rule...................................................................... +2 points per model           scavenged metal from their
+  - Purchase a magic standard worth up to.........................................................................50 points           many victories over the years.
+
+Special Rules: Close Order, Fear, Impact Hits (1), Ogre Charge
+Leadbelchers
+                                                                                                                             Infantry
+                                  M        WS    BS       S      T      W       I       A      Ld     Points
+Leadbelcher                       6         3     3       4      4      3       2       3       7       41
+Thunderfist                       6         3     4       4      4      3       2       4       7      +8           Leadbelchers
+                                                                                                                    Ogres have learned to
+Troop Type:          Monstrous infantry                                                                             respect the potency of black
+Base Size:           40 x 40 mm                                                                                     powder weapons. Cannons
+Unit Size:           2+                                                                                             in particular encapsulate
+Equipment:           Hand weapons, leadbelcher guns (see below) and light armour                                    everything that an Ogre
+                                                                                                                    admires – they are big, loud
+Options:                                                                                                            and have an unprecedented
+• Any unit may:                                                                                                     ability to turn an enemy
+  - Upgrade one model to a Thunderfist (champion)................................... +8 points per unit             into a bloody pulp. Without
+  - Upgrade one model to a Bellower (musician)............................................ +6 points per unit       the ability to craft cannons
+• Any unit may have the Veteran special rule................................................. +2 points per model   for themselves, Ogres have
+                                                                                                                    been forced to rely on
+Special Rules:           Close Order, Fear, Impact Hits (1), Ogre Charge                                            looting cannons from the
+                                                                                                                    battlefield or trading with
+Leadbelcher gun              R         S        AP   Special Rules                                                  the Empire, Cathay or the
+Solid shot                  24"        5        -2   Armour Bane (1), Cumbersome,                                   Chaos Dwarfs in order
+                                                     Multiple Wounds (2)                                            to acquire them. Called
+Scatter shot              18"        3        -      Armour Bane (1)                                                Leadbelchers by their kin,
+Notes: A Leadbelcher gun has two profiles, representing its two modes of firing. If the roll To Hit                 those Ogres that wield these
+is successful when firing scatter shot, a leadbelcher gun causes D3 hits to the target enemy unit,                  weapons often end up with
+rather than the usual one.                                                                                          faces full of black powder
+                                                                                                                    and shrapnel following an
+                                                                                                                    inevitable malfunction.
+Gnoblar Trappers
+                                                                                                                    Gnoblar Trappers
+                                  M        WS    BS       S      T      W       I       A      Ld     Points        Rather than hunt their prey
+Gnoblar Trapper                   4         2     3       2      3      1       3       1       5       5           like Ogres would, Gnoblars
+Snarefinger                       4         2     4       2      3      1       3       1       5      +5           prefer the art of trapping;
+                                                                                                                    ensnaring their prey in
+Troop Type:          Regular infantry                                                                               serrated man-snappers,
+Base Size:           25 x 25 mm                                                                                     spiked pitfalls and barbed
+Unit Size:           10+                                                                                            nooses. Once their quarry
+Equipment:           Sharp stuff (counts as hand weapons and throwing weapons)                                      is in hand, they ‘play’ with
+                                                                                                                    their prisoner awhile before
+Options:                                                                                                            settling in for a meal or
+• Any unit may upgrade one model to a Snarefinger (champion)............... +5 points per unit                      presenting it to their masters
+                                                                                                                    to enjoy as a snack.
+Special Rules: Largely Insignificant, Move through Cover, Scouts, Skirmishers,
+               Traps & Snares
+
+Traps & Snares
+Endlessly opportunistic, Gnoblar Trappers deploy a wide array of snares and traps wherever they go.
+This habit can prove quite perilous to any enemy or predator that ventures too close.
+
+Any enemy model that ends its charge move in base contact with a model with this special
+rule must make a Dangerous Terrain test.
+Maneaters
+                                                                                                                                                                         Infantry
+                                               M         WS         BS          S         T         W           I         A         Ld         Points
+Maneater                                       6          4          4          5         4         3           3         4          8           54
+Maneater Captain                               6          4          4          5         4         3           3         5          8          +7              Ogre Maneaters
+                                                                                                                                                                Elite bands of mercenary
+Troop Type:                  Monstrous infantry                                                                                                                 Ogres who have travelled
+Base Size:                   40 x 40 mm                                                                                                                         far are known as Maneaters.
+Unit Size:                   2+                                                                                                                                 A common sight in the
+Equipment:                   Hand weapons and light armour                                                                                                      warring lands of the Empire
+                                                                                                                                                                and the Border Princes,
+Options:                                                                                                                                                        these opportunistic soldiers
+• Any model in the unit may take one of the following:                                                                                                          of fortune eagerly fight for
+  - Additional hand weapon.............................................................................. +3 points per model                                    anyone who can offer coin,
+  - Ironfist (see page 26)...................................................................................... +4 points per model                            exotic wargear or exorbitant
+  - Great weapon.................................................................................................... +4 points per model                        volumes of food and ale as
+• Any model in the unit may take one of the following:                                                                                                          payment. Should an Ogre
+  - Ogre pistol (see page 26)............................................................................... +6 points per model                                spend any great length of time
+  - Brace of Ogre pistols (see page 26)..........................................................+12 points per model                                           in one particular region, they
+• Any model in the unit may replace light armour with heavy armour.....+3 points per model                                                                      will adopt the culture and
+• Any unit may:                                                                                                                                                 fighting styles of their new
+  - Upgrade one model to a Maneater Captain (champion)...................... +7 points per unit                                                                 homeland. Those who spend
+  - Upgrade one model to a standard bearer.................................................... +7 points per unit                                               years within the Empire
+  - Upgrade one model to a Bellower (musician)............................................ +7 points per unit                                                   will sport coloured breeches
+• A Maneater Captain may purchase magic items up to a total of................................50 points                                                         or ostentatious feathered
+• A standard bearer may have the Look-out Gnoblar special rule............... +5 points per unit                                                                caps and use handguns as
+• 0-1 unit per 1,000 points may purchase a magic standard worth up to....................50 points                                                              oversized pistols, whilst those
+• Any unit may have 0-2 of the following special rules:                                                                                                         who do battle alongside the
+  - Immune to Psychology................................................................................................................. Free                  Orcs of the Badlands might
+  - Poisoned Attacks............................................................................................................................ Free           sport colourful warpaint or
+  - Stubborn............................................................................................................................................ Free   cover themselves in furs and
+  - Vanguard........................................................................................................................................... Free    take to the battlefield with
+                                                                                                                                                                heavy-bladed axes.
+Special Rules: Close Order, Fear, Impact Hits (1), Motley Crew, Ogre Charge
+                                                                                                                                                                Gnoblars
+                                                                                                                                                                Smaller and more cowardly
+Gnoblar Fighters                                                                                                                                                than their Goblin cousins,
+                                                                                                                                                                Gnoblars willingly act as
+                                               M         WS         BS          S         T         W           I         A         Ld         Points           servants to Ogres in return
+Gnoblar Fighter                                4          2          3          2         3         1           3         1          5           2              for a degree of protection.
+Groinbiter                                     4          2          3          2         3         1           3         2          5          +5              When the Ogre tribe marches
+                                                                                                                                                                to war, Gnoblars will band
+Troop Type:                  Regular infantry                                                                                                                   together in large hordes
+Base Size:                   25 x 25 mm                                                                                                                         to pester the enemy with
+Unit Size:                   20+                                                                                                                                whatever sharp stuff they
+Equipment:                   Sharp stuff (counts as hand weapons and throwing weapons)                                                                          can find.
+
+Options:
+• Any unit may upgrade one model to a Groinbiter (champion)................. +5 points per unit
+
+Special Rules: Close Order, Horde, Largely Insignificant
+Yhetees
+                                                                                                                                             Infantry
+                                       M        WS      BS        S       T       W         I       A       Ld       Points
+Yhetee                                 7         3       0        5       4       3         4       3        7         46
+Greyback                               7         3       0        5       4       3         4       4        7        +7            Yhetees
+                                                                                                                                    These monstrous beasts
+Troop Type:             Monstrous infantry                                                                                          inhabit the tallest peaks of
+Base Size:              40 x 40 mm                                                                                                  mountain ranges across the
+Unit Size:              3+                                                                                                          world and have adapted well
+Equipment:              Grimfrost weapons                                                                                           to their frozen domains,
+                                                                                                                                    sporting thick coats of white
+Options:                                                                                                                            fur and elongated claws
+• Any unit may upgrade one model to a Greyback (champion)................... +7 points per unit                                     that allow them to scale the
+• 0-1 unit per 1,000 points may have one of the following:                                                                          sheerest rock faces. Though
+  - The Scouts special rule.................................................................................. +3 points per model   most Yhetees tear their prey
+  - The Vanguard special rule............................................................................ +2 points per model       limb from limb with these
+                                                                                                                                    claws, some will snatch up
+Special Rules: Armoured Hide (1), Fear, Flammable, Loner, Move through Cover,                                                       crude clubs which they freeze
+               Numbing Chill, Open Order, Swiftstride                                                                               with their ice-cold breath and
+                                                                                                                                    use to bludgeon their foes to a
+                   R                        S        AP         Special Rules                                                       bloody pulp.
+Grimfrost weapon Combat                     S        -1         Armour Bane (1), Magical Attacks
+
+                                                                                                                                              Cavalry
+Sabretusk Packs
+                                       M        WS      BS        S       T       W         I       A       Ld       Points         Sabretusks
+Sabretusk                              8         4       0        4       4       2         4       2        6         17           Thanks to its powerful frame,
+                                                                                                                                    a Sabretusk is able to leap
+Troop Type:             War beasts                                                                                                  upon its prey as it slashes
+Base Size:              25 x 50 mm                                                                                                  and stabs with its elongated
+Unit Size:              2-10                                                                                                        tusks, aiming to maim and
+Equipment:              Claws and fangs (counts as hand weapons)                                                                    incapacitate its quarry. Even
+                                                                                                                                    a solitary Sabretusk can easily
+Options:                                                                                                                            bring down a Man, but an
+• Any unit may have may have one of the following:                                                                                  entire pack of these stealthy
+  - The Ambushers special rule........................................................................ +3 points per model          hunters can bring down
+  - The Scouts special rule.................................................................................. +2 points per model   even the mightiest beasts to
+  - The Vanguard special rule..............................................................................+1 point per model       be found in the Mountains
+                                                                                                                                    of Mourn.
+Special Rules: Armour Bane (1), Fear, Impetuous, Loner, Move Through Cover,
+               Open Order, Skirmishers, Swiftstride
+Mournfang Cavalry
+                                                                                                                                                     Cavalry
+                                         M         WS      BS        S        T        W         I        A       Ld       Points
+Ogre                                     -          3       2        4        4        4         2        3        7         64
+Crusher                                  -          3       2        4        4        4         2        4        7        +7             Mournfang Cavalry
+Mournfang                                8          3       -        5        -        -         2        3        -          -            The taming of a Mournfang
+                                                                                                                                           is a dangerous and often
+Troop Type:  Monstrous cavalry                                                                                                             fatal undertaking, for the
+Base Size:   50 x 100 mm                                                                                                                   notoriously bad-tempered
+Unit Size:   2+                                                                                                                            beasts do not easily submit
+Equipment:                                                                                                                                 to a rider. The best time for
+• Ogre:      Hand weapons and light armour                                                                                                 an Ogre to attempt to break
+• Mournfang: Monstrous tusks (see below)                                                                                                   a Mournfang is whilst it lies
+                                                                                                                                           exhausted from hunting
+Options:                                                                                                                                   and feeding, though even
+• The entire unit may take one of the following:                                                                                           an exhausted Mournfang is
+  - Great weapons.................................................................................................. +4 points per model    capable of throwing a would-
+  - Ironfists (see page 26).................................................................................... +4 points per model        be rider from its back and
+• The entire unit may replace light armour with heavy armour.............. +3 points per model                                             goring them to death. Should
+• Any unit may:                                                                                                                            an Ogre hang on long enough
+  - Upgrade one model to a Crusher (champion)........................................... +7 points per unit                                for the beast to submit, the
+  - Upgrade one model to a standard bearer.................................................... +7 points per unit                          life of a Mournfang rider
+  - Upgrade one model to a Bellower (musician)............................................ +7 points per unit                              awaits them. The goring
+• A Crusher may take:                                                                                                                      tusks and savage nature of
+  - A brace of Ogre pistols (see page 26)...........................................................................+12 points             the Mournfang, combined
+  - Magic items up to a total of...............................................................................................25 points   with the heavy weapons and
+• 0-1 unit per 1,000 points may purchase a magic standard worth up to....................50 points                                         brutality of the Ogre places
+                                                                                                                                           Mournfangs amongst the
+Special Rules: Armoured Hide (1), Close Order, Fear, Impact Hits (D3),                                                                     fiercest shock cavalry ever
+               Mournfang Charge, Swiftstride                                                                                               seen on the battlefields of the
+                                                                                                                                           Old World.
+Weapon                          R              S        AP          Special Rules
+Monstrous tusks               Combat           S        -1          Armour Bane (1)
+Ironblaster
+                                                                                                              Chariot
+                               M       WS    BS     S     T     W       I      A     Ld     Points
+Ironblaster                    -        -     -     5     6     5       -      -      -      185
+Leadbelcher (x1)               -        3     3     4     -     -       2      3      7       -      Ironblasters
+Gnoblar Scrapper (x1)          -        2     3     2     -     -       3      1      5       -      Though rare, the Ogres will
+Rhinox (x1)                    6        3     -     5     -     -       2      3      -       -      occasionally bring to bear
+                                                                                                     the massive bronze cannons
+Troop Type:    Heavy Chariot                                                                         of the ancient Sky-titans,
+Base Size:     60 x 100 mm                                                                           hauling them into battle atop
+Unit Size:     1                                                                                     roughly-hewn sleds drawn by
+Armour Value: 4+                                                                                     foul-smelling Rhinox. These
+Equipment:                                                                                           enormous artillery pieces
+• Ironblaster: Cannon of the Sky-titans (see below)                                                  are packed to the brim with
+• Leadbelcher: Hand weapon                                                                           black powder and cannon
+• Gnoblar Scrapper: Sharp stuff (counts as a hand weapon and throwing weapons)                       balls, which are unleashed
+• Rhinox:      Tusks and horns (counts as a hand weapon)                                             towards the enemy with a
+                                                                                                     thunderous explosion – much
+Special Rules: Armour Bane (2, Rhinox only), Close Order, Fear, First Charge,                        to the delight of any nearby
+               Impact Hits (D6+1), Large Target                                                      Ogres. In order for such a vast
+                                                                                                     machine to fire with some
+Cannon Of The Sky-Titans                                                                             regularity, gangs of Gnoblars
+A cannon of the Sky-titans, despite being wielded crudely by Ogres, is actually a very robust        will assist with the operation
+and sophisticated weapon. It can fire whole clutches of cannonballs at once, allowing it to do a     of these huge field guns,
+tremendous amount of damage, although its range is limited.                                          despite the risk of being shot
+                                                                                                     towards the foe along with
+Cannon of the            R         S        AP    Special Rules                                      the original payload if they do
+Sky-Titans                                                                                           not finish loading the cannon
+Solid shot               36"       10       -3     Armour Bane (2), Cannon Fire,                     swiftly enough!
+                                                   Cumbersome, Multiple Wounds (D3+1)
+Scatter shot              N/A       4        -1    Breath Weapon
+Notes: A Cannon of the Sky-Titans has two profiles, representing its two modes of firing. When
+firing solid shot, this weapon shoots like a cannon, using the ‘Cannon Fire’ special rule. This
+weapon uses the Ironblaster Misfire table.
+
+Ironblaster Misfire Table
+   D6     Result
+    1     Kaboom! Constantly mistreated by the Ogres, the cannon explodes spectacularly.
+          The model is destroyed and immediately removed from play.
+   2-3    Krrack! With a tremendous crack, the cannon splits along its length, rendering it
+          useless. The model cannot shoot with this weapon for the remainder of the game.
+   4-6    Ack! Through its own ineptitude, the Gnoblar Scrapper has become stuck in
+          the mechanism. The model does not shoot this turn and cannot shoot with this
+          weapon during the next round.
+Gnoblar Scraplauncher
+                                                                                                                 Chariot
+                              M     WS      BS     S      T     W       I     A      Ld     Points
+Scraplauncher                 -      -       -     5      5     5       -     -       -      140
+Gnoblar Scrapper (x7)         -      2       3     2      -     -       3     1       5       -         Gnoblar Scraplaunchers
+Rhinox (x1)                   6      3       -     5      -     -       2     3       -       -         The Scraplauncher is a potent
+                                                                                                        war machine that hurls piles
+Troop Type:   Heavy Chariot                                                                             of scavenged weapons soaring
+Base Size:    60 x 100 mm                                                                               towards the foe. Even though
+Unit Size:    1                                                                                         many of these rusted knives
+Armour Value: 4+                                                                                        and broken swords clang off
+Equipment:                                                                                              armour or miss entirely, the
+• Scraplauncher: Scraplauncher catapult (see below)                                                     sheer number of pointed
+• Gnoblar Scrapper: Sharp stuff (counts as hand weapons and throwing weapons)                           projectiles means that some
+• Rhinox:     Tusks and horns (counts as a hand weapon)                                                 will find exposed flesh or gaps
+                                                                                                        in armour. The strange choice
+Special Rules: Armour Bane (2, Rhinox only), Close Order, Fear, First Charge,                           of projectile is partly due to
+               Impact Hits (D6+1), Large Target                                                         the fact that these haphazard
+                                                                                                        war machines are crewed by
+Scraplauncher Catapult                                                                                  Gnoblars, who are too small
+Despite its appearance, a Scraplauncher catapult is a devastating engine of destruction that launches   or, more likely, too lazy to
+bundles of broken weapons and shards of scrap-metal into the tightly packed ranks of the enemy.         haul around large rocks. The
+                                                                                                        other reason is that Ogres
+                         R         S     AP       Special Rules                                         are far too large to make
+Scraplauncher          12-48" 3 (4) - (-2) Bombardment, Cumbersome,                                     use of the puny Man-sized
+catapult                                          Multiple Wounds (2)                                   weapons that are scavenged
+Notes: This weapon shoots like a stone thrower, using the ‘Bombardment’ special rule, a 5" blast        from the battlefield, giving
+template and the Scraplauncher Misfire table. The Multiple Wounds (2) special rule applies only         the Gnoblars a near-endless
+to a single model whose base lies underneath the central hole of the blast template.                    supply of ‘pointy bits’ to
+                                                                                                        launch towards the enemy.
+Scraplauncher Catapult Misfire Table
+   D6     Result
+    1     Kerr-unch! The Scraplauncher comes apart in a shower of metal and wood. The
+          model is destroyed and immediately removed from play.
+   2-3    Snap! With an ear-splitting crack, the arm of the catapult snaps cleanly in two.
+          The model cannot shoot with this weapon for the remainder of the game.
+   4-6    Splang! The Scraplauncher sprays debris in all directions, but mainly straight up.
+          The model does not shoot this turn and cannot shoot with this weapon during
+          the next round.
+Stonehorn Riders
+                                                                                                                                                   Monster
+                                         M         WS      BS        S        T        W         I        A       Ld       Points
+Stonehorn                                7          3       -        6        6        6         2        4        -        245
+Ogre Beast Rider (x1)                    -          3       3        4        -        -         2        3        7         -             Stonehorn Riders
+Ogre Crew (x1)                           -          3       3        4        -        -         2        3        7         -             Ogres who prove themselves
+                                                                                                                                           capable of taming a mighty
+Troop Type:   Behemoth                                                                                                                     Stonehorn are revered and
+Base Size:    100 x 150 mm                                                                                                                 respected by their tribe, for
+Unit Size:    1                                                                                                                            the domestication of such
+Armour Value: 4+                                                                                                                           a wild and unruly beast is a
+Equipment:                                                                                                                                 perilous, and usually fatal,
+• Stonehorn: Horns of stone (see below)                                                                                                    undertaking. Once a bond
+• Ogre Beast Rider: Hand weapon and chaintrap (see below)                                                                                  has been formed between the
+• Ogre Crew: Hand weapon and harpoon launcher (see page 26)                                                                                beast and its crew of riders
+                                                                                                                                           however, a near-unstoppable
+Options:                                                                                                                                   relationship is formed as
+• The Ogre Beast Rider may:                                                                                                                the Stonehorn’s destructive
+  - Replace their chaintrap with a blood vulture (see below)...................................... +5 points                               prowess is given purpose and
+  - Take a harpoon launcher................................................................................................... +8 points   direction by its new masters.
+                                                                                                                                           As the Stonehorn smashes
+Special Rules: Armour Bane (2, Stonehorn only), Close Order, First Charge, Howdah,                                                         into the foe with devastating
+               Impact Hits (D6+1), Large Target, Stone Skeleton, Swiftstride, Terror,                                                      head-butts and tramples the
+               Thunderous Charge                                                                                                           survivors under its hooves,
+                                                                                                                                           the riders fire harpoons from
+                                R              S        AP          Special Rules                                                          their oversized crossbows to
+Horns of stone                Combat           S        -2          -                                                                      skewer those who avoid the
+                                                                                                                                           Stonehorn’s wrath.
+                                  R           S         AP          Special Rules
+Chaintrap                        12"         S+1         -          Killing Blow
+
+                                  R            S        AP          Special Rules
+Blood vulture                    36"           4        -1          Ignores Cover, Move & Shoot, Quick Shot
+Thundertusk Riders
+                                                                                                                                                    Monster
+                                         M         WS      BS        S        T        W         I        A       Ld       Points
+Thundertusk                              6          3       -        6        6        6         2        4        -        215
+Ogre Beast Rider (x1)                    -          3       3        4        -        -         2        3        7         -             Thundertusk Riders
+Ogre Crew (x1)                           -          3       3        4        -        -         2        3        7         -             Thundertusk Riders fight
+                                                                                                                                           differently from most units
+Troop Type:   Behemoth                                                                                                                     that make up the armies
+Base Size:    100 x 150 mm                                                                                                                 of the Ogre Kingdoms,
+Unit Size:    1                                                                                                                            hammering the foe from afar
+Armour Value: 5+                                                                                                                           with powerful blasts of ice
+Equipment:                                                                                                                                 and bolts fired from harpoon
+• Thundertusk: Great tusks (see below) and chill breath (see below)                                                                        launchers. That is not to say
+• Ogre Beast Rider: Hand weapon and chaintrap (see below)                                                                                  the Thundertusk lacks the
+• Ogre Crew: Hand weapon and harpoon launcher (see page 26)                                                                                ability to dish out damage
+                                                                                                                                           once it meets the enemy in
+Options:                                                                                                                                   close quarters, for its massive
+• The Ogre Beast Rider may:                                                                                                                tusks can gore foes the size
+  - Replace their chaintrap with a blood vulture (see below)...................................... +5 points                               of a Giant and sweep aside
+  - Take a harpoon launcher................................................................................................... +8 points   formations of warriors as
+                                                                                                                                           easily as an Ogre might swat
+Special Rules: Close Order, First Charge, Howdah, Impact Hits (D3), Large Target,                                                          a fly. If that were not enough,
+               Numbing Chill, Stomp Attacks (3), Swiftstride, Terror                                                                       the frosty aura that surrounds
+                                                                                                                                           these primordial beasts
+                                R              S        AP          Special Rules                                                          quickly saps the strength of
+Great tusks                   Combat           S        -1          Armour Bane (2)                                                        those brave enough to stand
+                                                                                                                                           their ground against the
+                                 R             S        AP          Special Rules                                                          might of the Thundertusk
+Chill breath                    N/A            2        -1          Breath Weapon, Multiple Wounds (D3)                                    and its riders.
+
+                                  R           S         AP          Special Rules
+Chaintrap                        12"         S+1         -          Killing Blow
+
+                                  R            S        AP          Special Rules
+Blood vulture                    36"           4        -1          Ignores Cover, Move & Shoot, Quick Shot
+Giants
+                                                                                                            Chariot
+                              M     WS     BS      S     T      W      I     A      Ld    Points
+Giant                         6      3      1      6     6      6      2     *      10     200
+                                                                                                   Giants
+Troop Type:       Behemoth                                                                         Ever since they devoured
+Base Size:        50 x 50 mm (min), 50 x 75 mm (max)                                               the Sky-titans during the
+Unit Size:        1                                                                                Big Migration, Ogres have
+Equipment:        Giant’s club (see page 18) and calloused hide (counts as light armour)           harboured a near-compulsive
+Special Rules:    Close Order, *Giant Attacks, Immune to Psychology, Large Target,                 desire to kill and devour any
+                  *Pick Up And…, Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable             Giant they happen across.
+                                                                                                   Some Tyrants are able to
+*Giant Attacks                                                                                     restrain themselves from
+Giants do not attack in the same way as other creatures. They are far too large and fractious to   attacking a Giant on sight
+take orders and much too scatter-brained to have any sort of coherent plan.                        however, and those who
+                                                                                                   do will try to recruit the
+Instead of attacking normally during the Combat phase or making a Pick Up And… attack,             lumbering brute to join their
+a Giant may choose to make a ‘Giant Attack’. To make a Giant Attack, nominate an enemy             tribe in battle, promising
+unit that the Giant is engaged in combat with to be the target of the attack and roll on the       payment in plenty of food
+Giant Attacks table below to determine what the Giant does:                                        and more ale than it can
+                                                                                                   drink. More brash Tyrants
+Giant Attacks Table                                                                                may try to intimidate a
+   D6     Result                                                                                   Giant into joining their tribe,
+    1     ’Eadbutt: The Giant singles out a lone enemy and ’eadbutts them. Nominate                either by challenging the
+          a single model in the fighting rank of an enemy unit the Giant is engaged with           lumbering behemoth to single
+          to be the target of this attack. That model is hit and suffers D3+1 wounds with          combat or by scaring it with
+          no armour or Regeneration saves permitted (Ward saves can be attempted                   fiercely exaggerated tales of
+          as normal).                                                                              the Tyrant and their tribe’s
+    2     Belly Flop: The Giant crashes down bodily upon the enemy. Place a small (3")             past victories against the
+          blast template so that its central hole is directly over the centre of the target        Sky-titans.
+          unit. Any model (friend or foe, but not including this model) whose base lies
+          underneath the template risks being hit and suffering a single hit, using the
+          Strength characteristic of this model, with an AP of -2.
+   3-4    Mighty Swing: The Giant swings its club through the enemy ranks. For this
+          attack, the Giant is subject to the Random Attacks special rule and has an
+          Attacks characteristic of D6+1, and the Giant’s club has a Strength characteristic
+          of S+1 and an AP of -2.
+    5     Thump With Club: The Giant grasps its club two-handed and cracks its enemy
+          on the head. Nominate a single model in the fighting rank of an enemy unit the
+          Giant is engaged with to be the target of this attack. For this attack, the Giant’s
+          club has a Strength characteristic of S+4, an AP of -4 and the Multiple Wounds
+          (D6) special rule.
+    6     Jump Up & Down: The Giant jumps around, kicking and flattening the enemy.
+          For this attack, the Giant does not use its club. Instead, the target unit suffers
+          D6+1 hits, each using the Strength characteristic of this model, with no armour
+          save permitted (Ward and Regeneration saves can be attempted as normal).
+*Pick Up And…
+Sometimes, Giants forget there is a battle raging around them and, when faced with rank upon                         Monster
+rank of bite-sized snacks, will become distracted, reaching down and grabbing enemies by the
+handful. What happens to these unfortunate souls varies; some are thrust into a sack or under the
+Giant’s clothing for later, others are eaten on the spot, and still others are tossed carelessly aside to   The Sky-Titans
+bounce off the scenery. Whatever the case, such unfortunates are rarely seen again.                         A race as old as the
+                                                                                                            mountains, much taller and
+Instead of attacking normally during the Combat phase or making a Giant Attack, a Giant                     more intelligent than the
+that is engaged in combat with one or more units whose troop type is ‘regular infantry’ or                  Giants that lumber across the
+‘heavy infantry’ may choose to make a ‘Pick Up And…’ attack. To make a Pick Up And…                         world today, the Sky-titans
+attack, nominate an enemy unit of regular or heavy infantry that the Giant is engaged in                    were unbothered by the other
+combat with. The unit must immediately make an Initiative test:                                             races, hidden away in their
+                                                                                                            fortresses of carved stone in a
+• If this test is failed, a victim is picked up by the Giant. What happens next does not                    realm above the clouds. This
+  bear thinking about but, whatever it is, a single model belonging to the target unit is                   was until the Big Migration
+  immediately removed from play as a casualty.                                                              drove the Ogres through their
+• If this test is passed, the warriors manage to duck and dodge away from the Giant’s                       mountains, throwing the two
+  grasping hands. No one is picked up and the attack has no effect.                                         sides into a bloody conflict.
+                                                                                                            Though the Sky-titans were
+Next, roll a D6:                                                                                            much larger than the Ogres,
+                                                                                                            they were outnumbered
+• On a roll of 1-3, the Giant forgets what it is doing and makes no further attacks.                        and outmatched by their
+• On a roll of 4+, the Giant attempts to pick up another enemy. The target unit must                        ravenous foes. One by one,
+  make another Initiative test.                                                                             the Sky-titans fell and were
+                                                                                                            devoured, and the Ogres grew
+This continues until the Giant forgets what it is doing and stops making attacks, or until                  stronger with each Sky-titan
+the target unit is destroyed.                                                                               they consumed.
+
+Enemy models removed from play are considered to have been removed from the fighting
+rank of the enemy unit.
+
+                           R        S      AP      Special Rules
+Giant’s club           Combat *             *      *
+Notes: *A Giant’s club may have different characteristics and special rules depending upon what
+they do with it, as described in the Giant Attacks special rule.
+Gorgers
+                                                                                                                                                   Monster
+                                         M        WS       BS        S        T       W         I        A       Ld        Points
+Gorger                                   6         3        0        5        5       4         2        4        8          90
+                                                                                                                                          Ogre Gorgers
+Troop Type:              Monstrous creature                                                                                               Malformed infant Ogres are
+Base Size:               50 x 50 mm                                                                                                       abandoned in the caves of
+Unit Size:               1                                                                                                                the Mountains of Mourn
+Equipment:               Wicked claws (see below), distensible jaw (see below) and                                                        by their tribes. Those that
+                         calloused hide (counts as light armour)                                                                          survive alone in the dark
+                                                                                                                                          become Gorgers, foul and
+Options:                                                                                                                                  barely sentient creatures
+• May have the Scouts special rule........................................................................................... +3 points   driven by ravenous hunger.
+• May have the Vanguard special rule..................................................................................... +3 points       Though they mostly live
+                                                                                                                                          underground, Gorgers will
+Special Rules: Ambushers, Close Order, Fear, Frenzy, Ravenous Hunger,                                                                     be drawn out of their lairs
+               Regeneration (6+), Swiftstride, Unbreakable                                                                                by Ogres when the tribes
+                                                                                                                                          march to war, capturing the
+Ravenous Hunger                                                                                                                           ravenous beasts in iron cages
+When a Gorger latches onto the scent of its prey, it becomes an unstoppable juggernaut intent on                                          to prevent them going on a
+nothing other than feasting on a banquet of flesh and blood.                                                                              killing spree before the battle
+                                                                                                                                          begins. Gorgers hunt their
+When a Gorger declares a charge, it may re-roll its Charge roll.                                                                          prey with elongated claws as
+                                                                                                                                          long and sharp as swords, and
+                               R              S         AP         Special Rules                                                          possess enough strength to
+Wicked claws                 Combat           S         -2         -                                                                      tear the head off a man in a
+                                                                                                                                          single, gruesome snap of their
+                        R       S     AP       Special Rules                                                                              massive toothy maws.
+Distensible jaw      Combat S          -       Killing Blow
+Note: In combat, this model must make one of its attacks each turn with this weapon.
+                                                           Big Names
+S    ome Ogres gain such renown that they literally earn a name for themselves. Whilst many Ogres will be awarded humble
+     or humorous nicknames based upon their achievements, some can earn truly grandiose titles that inspire awe in their kin.
+
+To represent this, some characters drawn from the Ogre Kingdoms army list may be given a Big Name, chosen from those
+detailed on this page. Each Big Name gives the character certain benefits in the form of modified characteristics and additional
+special rules:
+
+Mawseeker............................................................ 30 points   Kineater................................................................ 15 points
+Those tough enough to survive the pilgrimage to the Great Maw                     Having achieved their rank by killing and eating a member of their
+often return with part of themselves eaten away.                                  own family in a pit fight, Kineaters are considered ruthless even by
+                                                                                  their own tribe.
+Models whose troop type is ‘infantry’ only. This character has
+a +1 modifier to their Toughness characteristic. However, this                    Army General only. Unless this character is fleeing, friendly
+character is also subject to the Stupidity special rule.                          models within this character’s Command range may re-roll
+                                                                                  any failed Panic or Rally test.
+Mountaineater..................................................... 25 points
+Those able to scale the tallest peaks ritually consume part of the                Longstrider........................................................... 10 points
+mountain to mark their conquest.                                                  A Longstrider has hunted on the slopes of the mountains for
+                                                                                  decades, and is even capable of running down a sprinting ice elk.
+Models whose troop type is ‘infantry’ only. This character
+cannot be wounded by a roll To Wound of 2, regardless of the                      Models whose troop type is ‘infantry’ only. This character has
+Strength of the attack.                                                           a +1 modifier to their Movement characteristic.
+
+Giantbreaker........................................................20 points     Beastkiller.............................................................. 5 points
+Any Ogre that has defeated a Giant in hand-to-hand combat can                     As a sign of their prowess as a hunter of monsters, a Beastkiller will
+be, justifiably, supremely confident in their abilities.                          adorn their body with trophy horns and tusks.
+
+This character (but not their mount) has a +1 modifier to                         Once per turn, this character may re-roll a single failed roll To
+their Strength characteristic. However, this character cannot                     Wound made against an enemy model with the Large Target
+refuse a challenge and neither they, nor any unit they have                       special rule.
+joined, can Flee as a charge reaction.
+                                                                                  Deathcheater.......................................................... 5 points
+                                                                                  An Ogre that has escaped certain doom is considered blessed by
+                                                                                  the Great Maw. Not surprisingly, Deathcheaters tend to have
+                                                                                  impressive scars.
+
+                                                                                  Once per game, you may make your opponent re-roll a single
+                                                                                  roll To Wound made against this character.
+                          Ogre Kingdoms                                                                                               Magic Items
+                           Magic Items
+The pages that follow detail magic items unique to Ogre Kingdoms armies. These can                                              Plundered Treasures
+be purchased by models within an Ogre Kingdoms army in exactly the same way as                                                  Ogres are drawn to shiny
+Common magic items, as described in the Warhammer: the Old World rulebook.                                                      trinkets and elaborate attire,
+                                                                                                                                driven by a compulsive need
+Extremely Common Magic Items: Any magic item marked with an asterisk (*) is                                                     to possess such items and
+considered to be extremely common, as described in the Warhammer: the Old World rulebook.                                       flaunt them in front of others
+                                                                                                                                to demonstrate their wealth
+Magic Weapons                                                                                                                   and status. Similarly, though
+                                                                                                                                the weapons they craft for
+Thundermace....................................................................................................90 points        themselves are simple and
+Chiselled from a foundation stone taken from the base of a skycastle and bound with meteoric                                    crude, they collect finely
+iron, the weight of a collapsing castle explodes from the head of the Thundermace.                                              made weapons even if their
+                                                                                                                                gigantic and clumsy hands
+                             R     S               AP
+                                                    Special Rules                                                               could never hope to wield
+Thundermace                Combat S+2              -2
+                                                    Armour Bane (1), Magical Attacks,                                           such things. Thus many
+                                                    Requires Two Hands, Strike Last                                             possess enchanted items
+Notes: Rather than attacking normally, the wielder of the Thundermace may choose to make                                        and blessed weapons, most
+a special ‘Thunderstrike’ attack. If they do, make a single roll To Hit. If this is successful, place                           stolen from the corpses
+a small (3") blast template so that its central hole is directly over the centre of the hit unit. Any                           of vanquished enemies,
+enemy model whose base lies underneath the template risks being hit by this weapon.                                             others taken in payment
+                                                                                                                                for mercenary work. Such
+Tenderiser..........................................................................................................70 points   items might be turned into
+The destructive power bound into the twin heads of this massive two-ended club is enough to                                     jewellery or fashioned into
+shatter a boulder with one strike.                                                                                              weapons and armour more
+                                                                                                                                fitting of an Ogre’s physique
+                             R     S               AP         Special Rules                                                     by their new owners, and
+Tenderiser                 Combat S+2              -3         Extra Attacks (+1), Magical Attacks,                              passed around amongst
+                                                              Multiple Wounds (D3), Strike Last                                 Tyrants and Bruisers for
+                                                                                                                                generations to come.
+Skullplucker......................................................................................................45 points
+This heavy, spiked metal gauntlet was once worn by Big Agi Skullplucker, who enjoyed nothing
+more than twisting his enemies’ heads off with this nasty-looking, bloodstained glove.
+
+                             R             S       AP         Special Rules
+Skullplucker               Combat          S        -         Killing Blow, Magical Attacks, Strike First
+
+Bloodcleaver......................................................................................................30 points
+This revolting, gore-encrusted weapon possesses a Vampiric energy, channelling the life force from
+its victims into its wielder.
+
+                         R      S     AP        Special Rules
+Bloodcleaver         Combat S          -1       Magical Attacks
+Notes: Emissaries of the Great Maw only. If the wielder of the Bloodcleaver causes one or more
+unsaved wounds during the Combat phase, they recover a single lost Wound.
+Magic Armour                                                                      Magic Standards
+Gut Maw ..............................................................45 points   Dragonhide Banner............................................ 45 points
+The wearer of this polished gut-plate is reinvigorated by the life                This tattered trophy of a vanquished dragon passes its former
+force of their defeated enemies.                                                  owner’s legendary ferocity onto its bearers.
+
+The Gut Maw is a suit of heavy armour. In addition, for each                      A unit carrying the Dragonhide Banner may re-roll any
+unsaved wound the wearer causes during a Challenge, they                          rolls To Hit of a natural 1. In addition, a unit carrying the
+recover a single lost Wound.                                                      Dragonhide Banner has the Flaming Attacks special rule.
+
+Mastodon Armour.............................................40 points             Rune Maw............................................................40 points
+This massive suit of armour was forged by the Chaos Dwarfs in                     Hung with stolen Dwarfen talismans, the Rune Maw roars its
+exchange for many captives.                                                       anger when it detects magic.
+
+The Mastodon Armour is a suit of full plate armour.                               When an enemy Wizard chooses a unit carrying the Rune
+In addition, its wearer has a 6+ Ward save against any                            Maw as the target of a spell, roll a D6. On a 3+, the Wizard’s
+wounds suffered.                                                                  controlling player must choose another target. If there is no
+                                                                                  other viable target in range, the spell cannot be cast.
+Talismans
+                                                                                  Cannibal Totem.................................................. 30 points
+Spangleshard........................................................ 35 points    The Cannibal Totem protects those who devour the strong in
+This dirt-encrusted and tarnished bauble barely resembles the fine                honour of the Great Maw.
+Elven ornament it once was, but its protective powers still linger.
+                                                                                  A unit carrying the Cannibal Totem gains the Regeneration
+The Spangleshard gives its bearer a 4+ Ward save against                          (5+) special rule, but rolls only a single D6 when making a
+any wounds suffered. However, if a natural 1 is rolled, the                       Pursuit roll (rather than the usual 2D6).
+Spangleshard is destroyed and it cannot be used again.
+                                                                                  Bull Standard......................................................20 points
+Cathayan Jet Pendant*...................................... 10 points             The Bull Standard lends the strength of a charging Rhinox to the
+Finely crafted Cathayan jet pendants are believed to protect against              Ogres that march beneath it.
+all forms of hostile magic.
+                                                                                  A unit carrying the Bull Standard may re-roll any failed rolls
+A Cathayan Jet Pendant gives its bearer a 6+ Ward save                            To Wound when resolving Impact Hits.
+against any wounds suffered that were caused by a Magic
+Missile, a Magical Vortex, or an Assailment spell.
+Enchanted Items                                                                      Arcane Items
+Jade Lion............................................................... 25 points   Halfling Cookbook............................................. 30 points
+Jade Lions are revered in Cathay for their bravery, and amulets                      The culinary secrets contained within the Halfling Cookbook are a
+carved into their likeness inspire great courage.                                    source of great power.
+
+The bearer of the Jade Lion and their unit may re-roll any                           The bearer of the Halfling Cookbook increases their
+failed Fear, Panic, Rally or Terror test.                                            Command range, Dispel range and the range of a single spell
+                                                                                     chosen by their controlling player (not including range ‘self ’
+Daemon-Slayer Scars*........................................20 points                spells) by 3".
+Daemonic beasts are hunted in the Warpstone Desert and bled into
+lead jars. This acidic ichor is used as warpaint, giving the wearer a                Hellheart..............................................................20 points
+truly terrifying appearance.                                                         Biting into the heart of a Chaos Spawn, the Ogre creates a vortex of
+                                                                                     magical anarchy.
+The bearer of Daemon-slayer Scars gains the Terror
+special rule.                                                                        Single use. During the Command sub-phase of their turn, the
+                                                                                     bearer of the Hellheart may consume it. When they do so,
+Fistful Of Laurels*.............................................. 15 points          they immediately lose a single Wound. However, until your
+Symbols of leadership snatched from the corpses of enemy                             next Start of Turn sub-phase, if any enemy Wizard rolls any
+commanders impress Ogres only briefly.                                               natural double when making a Casting roll, the spell is miscast.
+
+Single use. The bearer of a Fistful of Laurels and their unit                        Grut’s Sickle.........................................................40 points
+may re-roll the 2D6 when making a Break test.                                        Swinging the sickle of Grut the Bloodthirsty, a Butcher fuels their
+                                                                                     magic with the blood of their kin.
+
+                                                                                     After making a Casting roll, the bearer of Grut’s Sickle may
+                                                                                     use it to roll an additional D3 and add its result to their
+                                                                                     Casting roll. However, a single friendly model within 3" of the
+                                                                                     bearer immediately loses a single Wound.
+
+                                                                                     Note that the result of this additional D3 cannot cause a miscast or
+                                                                                     a perfect invocation.
+                Ogre Kingdoms Special Rules
+A   game of Warhammer: the Old World is packed with fantastic creatures and skilled warriors with abilities so incredible
+    and varied that the basic rules cannot possibly cover them all. For such circumstances we have special rules –
+ uncommon rules to govern uncommon circumstances.
+
+On this page you will find a full description for each of the Army special rules used by models drawn from the Ogre Kingdoms
+army list:
+
+Largely Insignificant                                                  Ogre Charge
+No matter how many Gnoblars meet violent ends, there always            Ogres barge into combat using their great lumbering mass as a
+seems to be plenty more. Consequently, the usual response to the       weapon, harnessing their tremendous momentum to crush anything
+plight of a Gnoblar is laughter.                                       they collide with.
+
+Units with this special rule never cause friendly units to make        The Armour Piercing characteristic of any Impact Hits
+Panic tests. However, a unit with this special rule cannot be          caused by a model with this special rule (but not its mount)
+joined by a character without this special rule.                       is improved by the current Rank Bonus of its unit (or, in the
+                                                                       case of characters, the current Rank Bonus of any unit they
+Look-Out Gnoblar                                                       have joined).
+Gnoblars are often coerced to climb into makeshift crow’s-nests at
+the top of Ogre banners. From their precarious perch, the Gnoblar is   Stone Skeleton
+expected to give warning to the Ogres below of incoming enemy fire.    A Stonehorn is akin to a living fossil, its massive skeleton having
+                                                                       hardened to rock.
+A champion or character that has joined a unit with this
+special rule may make a “Look Out, Sir!” roll if there are two         This model is less vulnerable to the Multiple Wounds (X)
+or more rank and file models in the unit (rather than the usual        special rule. If it suffers an unsaved wound from an attack with
+five). In addition, you may re-roll a “Look Out, Sir!” roll if         this special rule, reduce the number of Wounds lost by 1, to a
+there are five or more rank and file models in the unit.               minimum of 1.
+
+Mournfang Charge                                                       Thunderous Charge
+Driven by the momentum of the charge, the monstrous tusks              The ground trembles and shakes beneath the thunderous charge of
+of a Mournfang pierce through armour with ease to gore the             a Stonehorn.
+enemy deeply.
+                                                                       Impact Hits caused by this model have an Armour Piercing
+Impact Hits caused by a model with this special rule have              characteristic of -2.
+the Armour Bane (1) special rule and an Armour Piercing
+characteristic of -1.
+
+Numbing Chill
+The Mountains of Mourn are deathly cold, and the terrible chill
+of the high peaks clings eternally to the hide of the creatures that
+dwell there.
+
+Whilst in base contact with this model, enemy models suffer a
+-1 modifier to their Weapon Skill and Initiative characteristics,
+to a minimum of 1.
+                        Lore Of The Great Maw
+E   missaries of the Great Maw suck marrow from cracked bones or stuff huge chunks of raw meat into their mouths to aid
+    their magical abilities. As they do, those around them feel replenished, the gnawing hunger that eternally chews at their
+guts subsiding.
+
+A Wizard with the ‘Lore of the Great Maw’ special rule may discard one of their randomly generated spells as normal. When
+they do so, they may select instead either the signature spell of their chosen Lore of Magic, or one of the spells listed below.
+
+
+  Toothcracker                                                        Trollguts
+  Consuming a chunk of granite, the Butcher bestows the rock’s        Downing the repulsive innards of a Troll, the Butcher grants the
+  resilience upon their brethren.                                     beast’s healing ability onto their companions.
+
+  Type: Enchantment                                                   Type: Enchantment
+  Casting Value: 7+/10+                                               Casting Value: 8+/11+
+  Range: 12"                                                          Range: 15"
+  Effect: If this spell is cast with a casting result of 7 or more,   Effect: If this spell is cast with a casting result of 8 or more,
+  the target friendly unit gains a +1 modifier to its Toughness       the target friendly unit gains the Regeneration (6+) special
+  characteristic (to a maximum of 10). If this spell is cast with     rule. If this spell is cast with a casting result of 11 or more,
+  a casting result of 10 or more, the target friendly unit gains a    the target friendly unit gains the Regeneration (5+) special
+  +2 modifier to its Toughness characteristic (to a maximum           rule. This spell lasts until your next Start of Turn sub-phase.
+  of 10). This spell lasts until the end of this turn.
+                 Weapons Of
+              The Ogre Kingdoms
+Ogres wield a wide array of brutal weapons. Most favour simple but effective clubs                       The Wanderers
+carved from wood or stone and bound in heavy iron bands. Others prefer crude                             Many Ogres feel compelled
+blades, beaten from thick billets of rough iron. But some Ogres use more sophisticated                   to leave the Mountains
+weapons, such as huge crossbows or savage snares and traps. Some even go so far as to                    of Mourn and wander
+purloin black powder weapons from other races.                                                           the world, often hiring
+                                                                                                         themselves out as
+Harpoon Launcher                                                                                         mercenaries and following
+A harpoon launcher is a huge crossbow that fires a long and heavy barbed bolt. Many Ogres attach         the lucrative call of battle.
+long coils of rope to these bolts, tethering prey so that it cannot escape.                              Thus Ogres can be found
+                                                                                                         throughout the Old World,
+                          R        S      AP       Special Rules                                         from the lawless lands of
+Harpoon launcher         36"       6      -2       Multiple Wounds (D3), Ponderous                       the Border Princes to the
+                                                                                                         great cities of the Empire.
+Ironfist                                                                                                 Those who leave their home
+Many Ogres wrap their off-hand and forearm in heavy gauntlets of spiked iron and thick plates            always intend to return one
+of armour. They use these brutal implements both as a weapon and as protection, swinging their           day, although whether they
+mighty fists to clobber their victims and fend off their futile attempts at retaliation.                 survive to do so is another
+                                                                                                         matter. Ogres remaining in
+                         R         S     AP      Special Rules                                           the Mountains of Mourn
+Ironfist              Combat S             -     Extra Attacks (1), Requires Two Hands                   always welcome back such
+Notes: An Ironfist is an additional hand weapon (as described on page 213 of the Warhammer:              travellers, eager to hear
+the Old World rulebook. In addition, a model equipped with an Ironfist improves its armour value         tales of great battles and
+by 1. An Ironfist cannot be used alongside a magic weapon to gain an extra attack, or to improve         exotic lands.
+the wielder’s armour value.
+
+Ogre Pistol
+Ogres often carry large barrelled pistols made by modifying handguns used by Men and Dwarfs to
+fit their massive fists. Although seldom well-maintained, such weapons delight their proud owners
+with the volume of their report.
+
+                          R        S      AP       Special Rules
+Ogre pistol              24"       4      -1       Armour Bane (1), Quick Shot
+
+Brace Of Ogre Pistols
+As with most races that make use of black powder weapons, those Ogres that can carry two pistols
+invariably will. Ogres armed in this way will fire a quick volley of shots into the ranks of the enemy
+before reversing their grip upon the spent weapons and using them as brutal clubs.
+
+Brace of Ogre Pistols R            S      AP       Special Rules
+Ranged               24"           4      -1       Armour Bane (1), Multiple Shots (2),
+                                                   Quick Shot
+Combat              Combat S              -        Extra Attacks (1), Requires Two Hands
+Notes: A brace of Ogre pistols has two profiles, representing how the weapons are used in combat.
+

@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+core_5.tsv	C5-055	CONFIRMA	rules.js:2410-2412 y 2675: la maquina pivota sobre su centro antes de disparar sin marcar movida (FAQ p.197).
+leg_daemons.tsv	leg_daemons-259	CONFIRMA	data.js dml_unholy cost 60 crD3; rules.js:5657/5874 suma d3 a la resolucion de combate.
+dawn_renegade_sc.tsv	renegade_web-067	CONFIRMA	data.js rc_mortar: 90 pts, T7, base 50x75, hereda dotacion del Mortero (M4 HA3 HP3 F3 R3 H3 I3 A3 Ld7), Levas y Escaramuzadores.
+aj_bretonnia.tsv	aj_bretonnia-024	CONFIRMA	data.js armyIssues lista exiles: 0-1 br_baron*/Cecil por 1.000 pts (per1k); la fuente L800 es la lista Exiliados.
+aj_chaos2.tsv	aj_chaos2-076	CONFIRMA	rules.js:1690-1691: Merodeadores/Jinetes/Huscarls/Berserkers a alcance de mando de modelo cmdCaptain no huyendo: Ld+1 max 10.
+cathay.tsv	cathay_aj-070	PARCIAL	rules.js:6199-6203: el +1 propio esta bien, pero se aplica tambien -1 a la llegada de Emboscadores ENEMIGOS; la fuente solo habla de unidades amigas.
+aj_dwarfs2.tsv	aj_dwarfs2-154	CONFIRMA	rules.js:2943-2946: dado artilleria + D3, si sale Averia no dispara y misfire() (misma tabla que Lanzapiedras) en rules.js:2439.
+aj_empire2.tsv	aj_empire2-013	CONFIRMA	data.js emp_lector_altar permitido en nuln allow; chk Nuln: >1 emp_lector_altar -> error (0-1 Altar de Sigmar), cuenta como Lector.
+faq_core_4.tsv	FC4-57	PARCIAL	rules.js:423 ctlObjects solo cubre objetivos Battle March (L.bm); no incluye rasgos especiales (monumento/monolito), objetivo central ni bagaje, que la FAQ cita.
+aj_tk2.tsv	aj_tk2-075	PARCIAL	Coste +5 (CMD por defecto 5) y A2 por campeon generico, pero el Maestro de Armas I3 no se modela: el campeon usa la I2 de la unidad (no hay bonus de I de campeon).
+leg_skaven.tsv	leg_skaven-056	PARCIAL	rules.js:3118 hideCands: anfitrion limitado a tt regInf (no armas de equipo) con FU 10+; la fuente dice tropa tipo infantería (incluye otras infanterias). Eleccion jugador via pref hideHost.
+aj_highelves.tsv	aj_highelves-084	CONFIRMA	data.js he_stormweaver: nivel 1, lores [dark, elementalism, illusion]; main.js:836 permite elegir saber.
+leg_lizardmen.tsv	leg_lizardmen-052	CONFIRMA	data.js lm_oldblood_carno ppm 310 = 140+170 y lm_scar_carno 260 = 90+170; +1 R +4 H (T6 W7/W6).
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-146	CONFIRMA	data.js UNITS.cd_render.opts: sh cost 3 por modelo, grupo w exclusivo con armas a dos manos (+4).
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-137	CONFIRMA	data.js UNITS.cd_wolfriders.opts: sb arcos cortos cost 1 por modelo (lanzas gratis).
+leg_skaven.tsv	leg_skaven-019	CONFIRMA	data.js sk_warlord: M5 HA6 HP4 F4 R4 H3 I7 A4 Ld7, ppm 90.
+leg_lizardmen.tsv	leg_lizardmen-172	PARCIAL	"rules.js:3860-3862 solo amplia objetivos enemigos a 12"" del vasallo; no limita a una vez por turno ni cubre hechizos a amigos ni efectos medidos desde el vasallo."
+leg_darkelves.tsv	leg_darkelves-196	CONFIRMA	data.js hidra ranged breath flaming sW ap 1; rules.js:1743 F = heridas restantes.
+aj_empire2.tsv	aj_empire2-098	CONFIRMA	road_wardens comp special; data.js:5096 error si >per (0-1 por 1.000 pts) salvo lista nuln.
+aj_chaos2.tsv	aj_chaos2-132	CONFIRMA	data.js woc_huscarls sr: closeOrder, counterCharge, furiousCharge, markUndivided, swiftstride, warband.
+leg_ogres.tsv	leg_ogres-093	CONFIRMA	data.js ok_leadbelchers sr closeOrder, fear, impact (1 por modelo F4), ogreCharge.
+leg_skaven.tsv	leg_skaven-128	CONFIRMA	data.js sk_ratogres M6 HA4 HP1 F5 R4 H3 I4 A3 Ld5, 48 pts.
+dawn_renegade_sc.tsv	renegade_web-104	CONFIRMA	rules.js:3938 untutored: 3D6 descartando el mayor (2 menores) en la tabla de percances; data.js sr untutored.
+core_2.tsv	C2-102	CONFIRMA	rules.js:3880 conveyance solo en fase move; main/rules:8130 inicia Movimientos restantes al lanzar.
+aj_bretonnia.tsv	aj_bretonnia-046	CONFIRMA	rules.js:5558 gainBless al matar personaje en desafio: a el y a su unidad (gainBless en rules.js:166, solo Exiliados).
+leg_skaven.tsv	leg_skaven-107	CONFIRMA	data.js sk_jezzail: base 25x50, min 3, sr openOrder, scurry, warband, pavise.
+dawn_renegade_sc.tsv	renegade_web-026	CONFIRMA	data.js opcion wd 20 pts dWS+2 feintDodge; wh +3 mano adicional req wd; armyIssues prohibe gw/objetos slow con wd.
+dawn_renegade_sc.tsv	renegade_web-059	PARCIAL	data.js free_company: arrojadizas con shots 1 y sin ms; el arma arrojadiza del Core es Disparos multiples (2). Resto (Lider +7, perfil, reglas) correcto.
+core_8.tsv	core_8-053	CONFIRMA	rules.js itemUsed/u.used marca cada objeto de un solo uso (paymaster, luckstone, pociones, pergaminos) y bloquea reutilizar.
+faq_core_1.tsv	FQ1-012	CONFIRMA	rules.js:2057-2066 la salvacion especial usa su propio valor (ward) sin aplicar FP ni modificadores de armadura.
+aj_dwarfs2.tsv	aj_dwarfs2-057	CONFIRMA	data.js expedition rare 0.33; dw_gyrobomber/organ/flame/_ff rare; dw_slayers rare con chk 0-1; 0-2 organ/flame por 1.000.
+aj_bretonnia.tsv	aj_bretonnia-127	CONFIRMA	rules.js:4736: si chargeOK, supN=0 para men-at-arms y Guardia de Terratenientes con alabarda (opt pa).
+cathay.tsv	cathay_notes-015	CONFIRMA	data.js ct_miaoying_h M4 HA7 HP5 F4 R4 H7 I7 A4 Ld10, ppm 485.
+aj_wood2.tsv	aj_wood2-053	CONFIRMA	data.js:3531 we_dryads_amb/we_treekin_amb +1 pt por modelo Emboscadores en lista Talsyn (Hombres Arbol +10).
+core_8.tsv	core_8-090	CONFIRMA	data.js pot_heal 35 pts; rules.js:7366-7371 beber en fase de estrategia, un solo uso, recupera D3 heridas.
+core_6.tsv	core6-063	CONFIRMA	rules.js:6937 el controlador de monumento/monolito (herdCtl) gana +50 PV al final.
+dawn_renegade_sc.tsv	renegade_web-037	CONFIRMA	data.js rc_captain CP sr rally, veteran, warband; M4 HA5 HP4 F4 R4 H2 I4 A2 Ld7, 35 pts.
+faq_libros.tsv	C17	CONFIRMA	data.js ct_mask boundSpell plague_rust boundPL 1; rules.js:4473 lanza como hechizo ligado PL1.
+leg_lizardmen.tsv	leg_lizardmen-035	CONFIRMA	data.js lm_skchief M6 HA4 HP5 F4 R3 H2 I6 A3 Ld6, ppm 45.
+aj_orcs2.tsv	aj_orcs2-113	CONFIRMA	"data.js aj_idol_gork 40 pts buzgob; rules.js:3837 +3"" alcance; rules.js:4543 repite tirada una vez por turno."
+leg_skaven.tsv	leg_skaven-098	CONFIRMA	"rules.js:1556 placeDetOne coloca el equipo a <=3"" de la unidad matriz y rules.js:7802 lo exige en despliegue manual."
+aj_wood2.tsv	aj_wood2-117	CONFIRMA	data.js k_hound/k_bear/k_boar/k_cat noLd; rules.js:1667 la unidad no usa el Ld del personaje.
+faq_libros.tsv	R30	AUSENTE	data.js bmaj_warpedmoon sin single:true; rules.js:7691-7693 excluye expresamente este estandarte de marcar uso: se puede activar cada turno.
+aj_bretonnia.tsv	aj_bretonnia-110	CONFIRMA	data.js br_outcast y br_outcast3 ib:75 (objetos magicos hasta 75).
+leg_skaven.tsv	leg_skaven-147	CONFIRMA	data.js UNITS.sk_gutter.opts: hondas +2 / arrojadizas +1, grupo r exclusivo.
+aj_highelves.tsv	aj_highelves-103	CONFIRMA	data.js he_lionguard sr champChrace, closeOrder, elvenRef, furiousCharge, lionCloak, stubborn, veteran.
+core_5.tsv	C5-008	CONFIRMA	data.js TROOP lightCav 5/1/us2, heavyCav 4/1/2, monCav 3/1/3, warBeasts 5/1/1.
+aj_beasts2.tsv	aj_beasts2-101	CONFIRMA	data.js:3777 mixRear Gors (min 10 delante) y Ungors (min 10 detras); armyIssues exige minimos; Gors ocupan filas frontales.
+core_7.tsv	core_7-006	CONFIRMA	rules.js altInit/altDoZone/altStart: ganador de tirada elige zona y primera unidad, despliegue por unidades alternas.
+battlemarch_quickref.tsv	battlemarch-016	CONFIRMA	rules.js:501-516 clashDuel: rondas hasta que cae uno, el perdedor muere, el ganador juega primero; ambos caen -> tirada.

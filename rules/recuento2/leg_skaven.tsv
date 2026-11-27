@@ -1,0 +1,240 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+leg_skaven-001	leg_skaven.txt:52-93	Personajes hasta 50% de puntos	OK	data.js:4441 (validación genérica)	Personajes ≤50 % ya validado en armyIssues
+leg_skaven-002	leg_skaven.txt:65	0-1 Señor de la Guerra o Vidente Gris por 1.000 pts	OK	data.js:4543	
+leg_skaven-003	leg_skaven.txt:66-68	0-1 Ingeniero Brujo/Maestro Asesino/Sacerdote por 1.000 pts	OK	data.js:4544	
+leg_skaven-004	leg_skaven.txt:69	Jefes Skaven sin límite	OK	data.js:1748	
+leg_skaven-005	leg_skaven.txt:72-75	Core: mín. 25% puntos; 0-1 Stormvermin por 1.000; 1+ Clanrats por 1.000	OK	data.js:armyIssues sk	1+ Clanrats por 1.000 añadido; Core ≥25 % genérico
+leg_skaven-006	leg_skaven.txt:75	Core: Corredores Nocturnos, Ratas Gigantes, Enjambres de Ratas	OK	data.js:1769-1778	
+leg_skaven-007	leg_skaven.txt:81	Special: Corredores de las Cloacas (Gutter Runners)	OK	data.js:sk_gutter comp special	
+leg_skaven-008	leg_skaven.txt:82	Special: 0-2 unidades de Ogros Rata por 1.000 pts	OK	data.js:4547	
+leg_skaven-009	leg_skaven.txt:83-84	Special: 0-1 Monjes de la Plaga por Sacerdote de la Plaga	OK	data.js:4549	
+leg_skaven-010	leg_skaven.txt:85-86	Special: 0-1 Jezzails por Ingeniero Brujo	OK	data.js:4550	
+leg_skaven-011	leg_skaven.txt:87-88	Special: 0-1 Globadiers por Ingeniero Brujo	OK	data.js:4551	
+leg_skaven-012	leg_skaven.txt:62-63	Special hasta 50% de puntos	OK	data.js:armyIssues	Especiales ≤50 % genérico
+leg_skaven-013	leg_skaven.txt:65	Rare: 0-1 Abominación de la Fosa Infernal por 1.000 pts	OK	data.js:4548	
+leg_skaven-014	leg_skaven.txt:66-70	Rare: Doomwheel o Cañón de Rayo (0-1 por 1.000) si hay Ingeniero Brujo	PARCIAL	data.js:armyIssues sk	VERIF v732: data.js:5006-5007 limita Doomwheel y Canon de Rayo por separado (0-1 cada uno por 1.000, con Ingeniero); la fuente dice '0-1 of the following per 1,000' (lectura literal: 0-1 en total entre ambos). | Límites separados Doomwheel / Cañón de Rayo
+leg_skaven-015	leg_skaven.txt:71-74	Rare: Catapulta o Incensarios (0-1 por 1.000) si hay Sacerdote	PARCIAL	data.js:armyIssues sk	"VERIF v732: data.js:5008-5009: Catapulta e Incensarios con limite propio por 1.000 cada uno; el texto ""0-1 de los siguientes por 1.000"" admite compartir un solo cupo entre ambos. | Límites separados Catapulta / Incensarios"
+leg_skaven-016	leg_skaven.txt:76-78	Mercenarios hasta 20%	OK	data.js:armyIssues	Mercenarios ≤20 % genérico
+leg_skaven-017	leg_skaven.txt:80-86	Aliados hasta 25%: Guerreros del Caos (Incómodos)	OK	data.js ALLY_TABLE/allyArmyIssues; rules.js createGame allyInfo; main.js armyEditor (EDF ally)	Contingente WoC Incómodo hasta 25 %
+leg_skaven-018	leg_skaven.txt:88-93	Portaestandarte: un Jefe +25 pts, estandarte mágico sin límite	OK	data.js:2462 (sk_chieftain [null,25,null])	
+leg_skaven-019	leg_skaven.txt:97	Señor de la Guerra: perfil 5/6/4/4/4/3/7/4/7, 90 pts	OK	data.js:1745	
+leg_skaven-020	leg_skaven.txt:98	Jefe: perfil 5/5/4/4/4/2/6/3/6, 45 pts	OK	data.js:1748	
+leg_skaven-021	leg_skaven.txt:100-103	Warlord/Chieftain: infantería regular (personaje), peana 25x25, unidad 1	OK	data.js:1745	
+leg_skaven-022	leg_skaven.txt:103	Equipo: arma de mano y armadura ligera	OK	data.js:1746 arm light	
+leg_skaven-023	leg_skaven.txt:106-109	Opciones arma: adicional +3, a dos manos +4, alabarda +3	OK	data.js:4075-4084 SKW	
+leg_skaven-024	leg_skaven.txt:110	Escudo +2	OK	data.js:4075 SKW sh	
+leg_skaven-025	leg_skaven.txt:111	Armadura pesada en vez de ligera +3	OK	data.js:4075 SKW ha	
+leg_skaven-026	leg_skaven.txt:112-113	Objetos mágicos hasta 100 (Señor) / 50 (Jefe)	OK	data.js:1745 ib:100 / 1748 ib:50	
+leg_skaven-027	leg_skaven.txt:115	Warlord/Chieftain: Scurry Away, Verminous Valour, Warband	PARCIAL	data.js:1746 sr	VERIF v732: data.js:1754/1757 sr scurry, verminValour, warband OK, pero Valor verminoso (rules.js:4983, main.js:1280) exige u.models>=10 en vez de Fuerza de Unidad 10+ y solo se activa al preparar desafios
+leg_skaven-028	leg_skaven.txt:115	Warlord/Chieftain: Warpstone Weapons (arma de mano mágica y FP-1 solo si arma de mano ordinaria única)	OK	data.js:SKW opts (delSr magical, ap0)	Warpstone Weapons solo con una arma de mano
+leg_skaven-029	leg_skaven.txt:121	Vidente Gris: perfil 5/3/3/3/4/3/5/2/7, 185 pts	OK	data.js:1751	
+leg_skaven-030	leg_skaven.txt:123-127	Vidente Gris: infantería (personaje), peana 25x25, equipo arma de mano	OK	data.js:1751 arm none	
+leg_skaven-031	leg_skaven.txt:127	Vidente Gris: D3 Fichas de Piedra Bruja al desplegar	OK	rules.js:createGame wsTok	D3 fichas antes del despliegue
+leg_skaven-032	leg_skaven.txt:129-135	Vidente Gris: Mago nivel 3 con lore de Batalla, Daemonología, Magia Oscura, Elementalismo, Ilusión	OK	data.js:4691 SET sk	
+leg_skaven-033	leg_skaven.txt:138	Vidente Gris puede ser nivel 4 +30	OK	data.js:4137 WIZUP	
+leg_skaven-034	leg_skaven.txt:139	Vidente Gris montado en Campana Aullante	OK	data.js:1754	
+leg_skaven-035	leg_skaven.txt:140	Vidente Gris objetos hasta 100	OK	data.js:1751 ib:100	
+leg_skaven-036	leg_skaven.txt:142-143	Vidente Gris: Lore of the Horned Rat, Magical Attacks, Magic Resistance (-1), Scurry, Verminous Valour, Warband	OK	data.js:1753 sr	
+leg_skaven-037	leg_skaven.txt:145	Warpstone Weapons del Vidente no se aplica a su montura	OK	data.js:sk_greyseer_bell wsMount; rules.js mountAtk	Mágico no aplica a montura
+leg_skaven-038	leg_skaven.txt:142-143	Vidente Gris: Warpstone Weapons	OK	data.js:sk_greyseer melee ap1	
+leg_skaven-039	leg_skaven.txt:149	Ingeniero Brujo: perfil 5/3/3/3/3/2/4/2/5, 35 pts	OK	data.js:1763	
+leg_skaven-040	leg_skaven.txt:151-155	Ingeniero Brujo: infantería (personaje), 25x25, equipo arma de mano	OK	data.js:1763	
+leg_skaven-041	leg_skaven.txt:155	Ingeniero Brujo: D3 Fichas de Piedra Bruja al desplegar	OK	rules.js:createGame wsTok	D3 fichas antes del despliegue
+leg_skaven-042	leg_skaven.txt:157-161	Ingeniero Brujo: puede ser Mago con Batalla o Elementalismo	OK	data.js:4693	
+leg_skaven-043	leg_skaven.txt:165	Ingeniero Brujo nivel 1 +40	OK	data.js:4124	
+leg_skaven-044	leg_skaven.txt:166	Ingeniero Brujo nivel 2 +70	OK	data.js:4125	
+leg_skaven-045	leg_skaven.txt:167-168	"Mosquete de disformidad +9: 24"", F5, FP-2, Magical Attacks, Ponderous"	OK	data.js:4126	
+leg_skaven-046	leg_skaven.txt:169	"Pistola de disformidad +6: 12"", F4, FP-2, Magical Attacks, Quick Shot"	OK	data.js:4127	
+leg_skaven-047	leg_skaven.txt:170	Ingeniero objetos mágicos hasta 50	OK	data.js:sk_engineer ib:50	
+leg_skaven-048	leg_skaven.txt:172-173	Ingeniero: Lore of Horned Rat, Magical Attacks, Scurry, Verminous Valour, Warband, Warpstone Weapons	OK	data.js:sk_engineer melee ap1	
+leg_skaven-049	leg_skaven.txt:177-178	Mosquete: con 1 natural al impactar, otra tirada y con 1 pierde una Herida	OK	data.js:sk_engineer opts mu nat1 w1; rules.js nat1 w1	
+leg_skaven-050	leg_skaven.txt:182-183	Pistola: con 1 natural al impactar, otra tirada y con 1 pierde una Herida	OK	data.js:sk_engineer opts pi nat1 w1; rules.js nat1 w1	
+leg_skaven-051	leg_skaven.txt:187	Maestro Asesino: perfil 6/8/7/4/4/2/8/3/7, 90 pts	OK	data.js:1760	
+leg_skaven-052	leg_skaven.txt:189-192	Maestro Asesino: equipo dos armas de mano y armas arrojadizas	OK	"data.js:sk_assassin melee extra, throwing 9"" ms"	
+leg_skaven-053	leg_skaven.txt:195	Maestro Asesino objetos hasta 50	OK	data.js:sk_assassin ib:50	
+leg_skaven-054	leg_skaven.txt:197-199	Asesino: Ambushers, Eshin Infiltration, Evasive, Feigned Flight, Fire & Flee, Hidden, Move through Cover, Poisoned, Scur	OK	data.js:sk_assassin	Con dos armas de mano Warpstone no aplica (correcto)
+leg_skaven-055	leg_skaven.txt:202-211	"Eshin Infiltration: Gutter Runners Ambushers llegan a 12"" de Asesino revelado, >6"" enemigos, no cargan, cuentan como mov"	OK	rules.js:6534-6545	"No puede usarse mientras esté oculto: comprobado ""revelado"""
+leg_skaven-056	leg_skaven.txt:217-219	Hidden: no se coloca; oculto en unidad skaven de infantería con FU 10+	PARCIAL	rules.js:createGame Oculto (sk)	VERIF v732: rules.js:3118 hideCands: anfitrion limitado a tt regInf (no armas de equipo) con FU 10+; la fuente dice tropa tipo infantería (incluye otras infanterias). Eleccion jugador via pref hideHost. | Anfitrión skaven infantería regular FU10+; elige el motor el mayor
+leg_skaven-057	leg_skaven.txt:220-222	Hidden: revelar en Inicio de turno o inicio del Combate	OK	rules.js reveal genérico	
+leg_skaven-058	leg_skaven.txt:224-226	Hidden: si la unidad muere/huye antes, el Asesino es baja; no puede ser General	OK	rules.js:destroy hiddenIn	
+leg_skaven-059	leg_skaven.txt:230	Sacerdote de la Plaga: perfil 5/5/3/4/5/2/5/3/6, 60 pts	OK	data.js:1757	
+leg_skaven-060	leg_skaven.txt:232-235	Sacerdote: infantería (personaje), 25x25, equipo arma de mano	OK	data.js:sk_plaguepriest	Warpstone ap1 con arma única; ahw anula
+leg_skaven-061	leg_skaven.txt:237-241	Sacerdote: puede ser Mago con Batalla, Daemonología o Magia Oscura	OK	data.js:4692	
+leg_skaven-062	leg_skaven.txt:245	Sacerdote nivel 1 +30	OK	data.js:4130	
+leg_skaven-063	leg_skaven.txt:246	Sacerdote nivel 2 +60	OK	data.js:4131	
+leg_skaven-064	leg_skaven.txt:248	Sacerdote: arma de mano adicional +3	OK	data.js:4132	
+leg_skaven-065	leg_skaven.txt:249	Sacerdote: incensario de plaga +6	OK	data.js:sk_plaguepriest opts ce	
+leg_skaven-066	leg_skaven.txt:250	Sacerdote montado en Horno de la Plaga	OK	data.js:1825	
+leg_skaven-067	leg_skaven.txt:251	Sacerdote objetos hasta 50	OK	data.js:1757 ib:50	
+leg_skaven-068	leg_skaven.txt:253-254	Sacerdote: Cloud of Flies, Frenzy, Lore of Horned Rat, Magical Attacks, Scurry, Verminous Valour, Warband, Warpstone Wea	OK	data.js:sk_plaguepriest opts ahw ap0; furnace wsMount	
+leg_skaven-069	leg_skaven.txt:262-263	Cloud of Flies: los enemigos que atacan al personaje en combate sufren -1 para impactar	PARCIAL	rules.js:4626 (cloudFlies)	VERIF v732: rules.js:5383 -1 impactar aplicado a todo ataque contra la unidad si esta o un personaje unido tiene cloudFlies; la regla solo afecta a ataques dirigidos al personaje
+leg_skaven-070	leg_skaven.txt:266-269	Incensario de plaga: F+2 solo primera ronda, FP-1, Poisoned, Two Hands	PARCIAL	data.js:4133 sb:2 ap:1 flailFirst	VERIF v732: data.js:4374/1793 flailFirst: rules.js:4833 quita F+2 si !u.chargeOK, así que el defensor (cargado) no lo recibe en la primera ronda; FP-1, venenoso y repetir 1 para herir OK | rules.js:4144
+leg_skaven-071	leg_skaven.txt:269	Incensario: puede repetir tiradas para herir de 1 natural en el Combate	OK	rules.js P.rr1 melee.rr1; data.js sk_censer / opts ce	
+leg_skaven-072	leg_skaven.txt:273	Stormvermin: perfil 5/4/3/3/3/1/5/1/5, 10 pts	OK	data.js:1787	
+leg_skaven-073	leg_skaven.txt:274	Fangleader: +8 pts, A2 Ld6	OK	data.js:2462 [8,6,6]	
+leg_skaven-074	leg_skaven.txt:276-279	Stormvermin: infantería regular, 25x25, unidad 10+	OK	data.js:sk_stormvermin max 100	
+leg_skaven-075	leg_skaven.txt:279	Stormvermin: armas de mano, alabardas y armadura pesada	OK	data.js:1788	
+leg_skaven-076	leg_skaven.txt:282	Stormvermin escudos +1 por modelo	OK	data.js:3805	
+leg_skaven-077	leg_skaven.txt:284-286	Stormvermin: campeón +8, portaestandarte +6, músico +6	OK	data.js:2462	
+leg_skaven-078	leg_skaven.txt:287	Stormvermin estandarte mágico hasta 50	OK	data.js:1787 bnMax:50	
+leg_skaven-079	leg_skaven.txt:288	Stormvermin: un equipo de armas adjunto	OK	rules.js:831; data.js:4352	
+leg_skaven-080	leg_skaven.txt:289	Fangleader objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_skaven-081	leg_skaven.txt:291	Stormvermin: Close Order, Horde, Scurry, Warband, Warpstone Weapons	OK	data.js:sk_stormvermin	Alabarda: Warpstone no aplica (correcto)
+leg_skaven-082	leg_skaven.txt:297	Clanrat: perfil 5/3/3/3/3/1/4/1/4, 4 pts	OK	data.js:1766	
+leg_skaven-083	leg_skaven.txt:298	Clawleader: +7 pts, A2 Ld5	OK	data.js:2462 [7,5,5]	
+leg_skaven-084	leg_skaven.txt:300-303	Clanrats: infantería regular, 25x25, unidad 20-40, mano y armadura ligera	OK	data.js:1766	
+leg_skaven-085	leg_skaven.txt:307	Clanrats lanzas de empuje +1 por modelo	OK	data.js:3804	
+leg_skaven-086	leg_skaven.txt:308	Clanrats escudos +1 por modelo	OK	data.js:3804	
+leg_skaven-087	leg_skaven.txt:310-312	Clanrats: campeón +7, estandarte +5, músico +5	OK	data.js:2462	
+leg_skaven-088	leg_skaven.txt:313	Clanrats: un equipo de armas	OK	rules.js:831	
+leg_skaven-089	leg_skaven.txt:315	Clanrats: Close Order, Horde, Scurry, Warband	OK	data.js:1767	
+leg_skaven-090	leg_skaven.txt:1766	Clanrats estandarte mágico (no concedido por el texto)	AUSENTE	data.js:sk_clanrats	VERIF v732: sk_clanrats sin bnMax => bannerBudget por defecto 50 (data.js:3207): Ratas del Clan pueden comprar estandarte magico aunque la fuente (leg_skaven.txt:292-310) no lo concede. Falta bnMax:0. | bnMax eliminado
+leg_skaven-091	leg_skaven.txt:318	Weapon Team Crew: perfil 5/3/3/3/3/2/3/2/4, 15 pts (peana 25x50)	OK	data.js:1799-1824	Costes sumados al arma: ratling 65, lanzallamas 75, mortero 70, perforadora 45, segadora 55
+leg_skaven-092	leg_skaven.txt:328	Doom-flayer +40 (total 55)	OK	data.js:1822	
+leg_skaven-093	leg_skaven.txt:329	Poisoned Wind Mortar +55 (total 70)	OK	data.js:1815	
+leg_skaven-094	leg_skaven.txt:330	Ratling Gun +50 (total 65)	OK	data.js:1799	
+leg_skaven-095	leg_skaven.txt:331	Warpfire Thrower +60 (total 75)	OK	data.js:1811	
+leg_skaven-096	leg_skaven.txt:332	Warp Grinder +30 (total 45)	OK	data.js:1819	
+leg_skaven-097	leg_skaven.txt:334	Equipo de armas: Loner, Open Order, Scurry Away	OK	data.js:1799-1824 sr	
+leg_skaven-098	leg_skaven.txt:338-340	"Despliegue: con su unidad matriz y a 3"""	OK	rules.js:831	
+leg_skaven-099	leg_skaven.txt:342-344	"Liderazgo del equipo: + bonus de filas de matriz a 3"" (máx. 10)"	OK	rules.js:1381	
+leg_skaven-100	leg_skaven.txt:346-348	"Equipo a 3"" de matriz con 5+ modelos no puede ser blanco salvo el más cercano"	OK	rules.js:2008	
+leg_skaven-101	leg_skaven.txt:355-357	Doom-flayer: Counter Charge, Extra Attacks (D6), Impact Hits (D6+1) con FP-2	OK	data.js:1822-1824	
+leg_skaven-102	leg_skaven.txt:364-367	"Poisoned Wind Mortar: 6-24"", F2(4), Bombardment, Cumbersome, Move or Shoot, plantilla 3"", tabla Black Powder"	OK	rules.js:2811 bombard -> misfire()	Verificado: Mortero usa dado de artillería y tabla Black Powder Misfire (misfire())
+leg_skaven-103	leg_skaven.txt:374-377	"Ratling Gun: 18"", F4, FP-1, Armour Bane (1), Multi-Barrelled, Quick Shot, tabla Black Powder"	OK	rules.js:organ -> misfire()	Verificado: Ratling (multibarril) usa misfire()
+leg_skaven-104	leg_skaven.txt:384-388	"Warpfire Thrower: 6"", F4, FP-1, Column of Fire, Flaming, panic test por heridas no salvadas"	OK	rules.js:fireCol -> misfire(); panicHit	Verificado: columna de fuego usa misfire()
+leg_skaven-105	leg_skaven.txt:395-397	Warp Grinder: combate F5 FP-3, Killing Blow, Two Hands; matriz y equipo ganan Ambushers	OK	data.js:1819; rules.js:831	
+leg_skaven-106	leg_skaven.txt:402	Jezzail Team: perfil 5/3/3/3/3/2/3/2/5, 19 pts	OK	data.js:1790	
+leg_skaven-107	leg_skaven.txt:404-408	Jezzails: peana 25x50, unidad 3+, Open Order, Scurry, Warband	OK	data.js:sk_jezzail max 100	
+leg_skaven-108	leg_skaven.txt:413-416	Pavise: salvación 4+ contra ataques desde el frente, nada en flanco/retaguardia	OK	rules.js:2242, 4672 (pavise)	
+leg_skaven-109	leg_skaven.txt:418-419	"Warplock jezzail: 36"", F6, FP-3, Cumbersome, Magical, Move or Shoot"	OK	data.js:1791	
+leg_skaven-110	leg_skaven.txt:420-422	Jezzail: con 1 natural al impactar, otra tirada y con 1 el tirador es baja	OK	rules.js:2490-2492	
+leg_skaven-111	leg_skaven.txt:428	Globadier: perfil 5/3/3/3/3/1/4/1/5, 10 pts, armadura ligera	OK	data.js:1793	
+leg_skaven-112	leg_skaven.txt:430-434	Globadiers: unidad 2-10, Scurry, Skirmishers, Warband	OK	data.js:1793	
+leg_skaven-113	leg_skaven.txt:437	"Poisoned Wind globes: 9"", F2, Move & Shoot, Poisoned Wind, Quick Shot"	OK	data.js:sk_globadiers ms:true	
+leg_skaven-114	leg_skaven.txt:439	Globo: un impacto causa D3 impactos al objetivo	OK	data.js:1794 bombHits D3	
+leg_skaven-115	leg_skaven.txt:440-441	Globo: 1 natural y luego 1, D3 impactos al propio tirador	OK	rules.js:2490	
+leg_skaven-116	leg_skaven.txt:426-427	Globadiers: sin campeón en el texto	OK	data.js:CMD sk_globadiers	
+leg_skaven-117	leg_skaven.txt:445	Rat Swarm: perfil 6/2/0/2/2/5/4/5/4, 36 pts	OK	data.js:1772	
+leg_skaven-118	leg_skaven.txt:447-451	Rat Swarms: Swarms, 40x40, unidad 3+, Immune Psy, Loner, Skirmishers, Unbreakable, Vanguard	OK	data.js:sk_swarms max 100	
+leg_skaven-119	leg_skaven.txt:457	Packmaster: perfil 6/3/3/3/3/1/4/1/6, +5 pts	OK	data.js:3576	
+leg_skaven-120	leg_skaven.txt:458	Master Moulder: perfil A2 Ld7, +7 pts	OK	data.js CMD sk_ratogres/giantrats [7]; rules.js handStrike	Maestro Moldeador = campeón +7 (A2 en handStrike); requiere un Maestro (armyIssues). Ld7 no se usa (los Maestros usan el Ld de la unidad)
+leg_skaven-121	leg_skaven.txt:460-464	Packmaster: infantería regular 25x25; hand weapons y armadura ligera	OK	data.js:3576	
+leg_skaven-122	leg_skaven.txt:467-468	Packmaster: látigo gratis o Things-catcher +5	OK	data.js opts tc; rules.js handStrike	Cazacosas +5 por Maestro (opción contada, máx. uno por Maestro); látigo gratis. Reparto proporcional entre Maestros
+leg_skaven-123	leg_skaven.txt:469	Master Moulder objetos hasta 25	PARCIAL		Presupuesto de campeón de unidad ya existe, pero el Master Moulder (Packmaster mejorado de Rat Ogres/Giant Rats) no está modelado como campeón (sk_ratogres sin campeón)
+leg_skaven-124	leg_skaven.txt:471-472	Packmaster: Close Order, Horde, Leader of the Pack, Motley Crew, Scurry, Warband	OK	data.js:sk_packmaster sr	Close Order, Horde, Leader of the Pack, Motley Crew, Scurry, Warband
+leg_skaven-125	leg_skaven.txt:478-482	Leader of the Pack: solo con Ogros Rata/Ratas Gigantes; al fondo de la unidad, los bichos al frente	OK	rules.js:handWin handR.rear	Maestros en filas traseras; bestias siempre delante
+leg_skaven-126	leg_skaven.txt:484-485	Master Moulder puede desafiar sin estar en fila de lucha	PARCIAL	rules.js duelEligible	Sin desafíos del Moldeador: el sistema de desafíos usa el perfil de la unidad (bestias); no hay duelista-cuidador
+leg_skaven-127	leg_skaven.txt:488-489	Things-catcher: Combat, S, FP-1, Fight in Extra Rank, Killing Blow, Two Hands	OK	data.js sk_thingscatcher; rules.js handStrike	FP-1, Golpe letal, a dos manos, luchan desde la segunda fila
+leg_skaven-128	leg_skaven.txt:493	Rat Ogre: perfil 6/4/1/5/4/3/4/3/5, 48 pts	OK	data.js:1796	
+leg_skaven-129	leg_skaven.txt:495-499	Rat Ogres: infantería monstruosa, 50x50, unidad 3+, hand weapons y armadura pesada	OK	data.js:sk_ratogres max 100	
+leg_skaven-130	leg_skaven.txt:502	Rat Ogres: un Packmaster por cada dos Ogros +5 c/u	OK	data.js:1797 maxPer 0.5	
+leg_skaven-131	leg_skaven.txt:503	Rat Ogres: un Packmaster a Master Moulder (campeón) +7	OK	data.js CMD sk_ratogres [7]	Campeón = Maestro Moldeador
+leg_skaven-132	leg_skaven.txt:505-506	Rat Ogres: Armour Bane (2), Close Order, Fear, Frenzy, Horde, Safe from Harm, Scurry, Warband	OK	data.js:1797	
+leg_skaven-133	leg_skaven.txt:512-517	Safe from Harm: disparos 1-4 a Ogro Rata; en combate los ataques a modelo en contacto	OK	data.js:131; rules.js:1612	
+leg_skaven-134	leg_skaven.txt:523	Giant Rat: perfil 6/2/0/2/3/1/4/1/3, 3 pts	OK	data.js:1769	
+leg_skaven-135	leg_skaven.txt:525-535	Giant Rats: War beasts, 25x25, unidad 10-30; Close Order, Fight in Extra Rank, Horde, Scurry, Warband	OK	data.js:1769	
+leg_skaven-136	leg_skaven.txt:532	Ratas Gigantes: un Packmaster por cada tres +5 c/u	OK	data.js:1770 maxPer 1/3	
+leg_skaven-137	leg_skaven.txt:533	Ratas Gigantes: un Packmaster a Master Moulder +7	OK	data.js CMD sk_giantrats [7]	Campeón = Maestro Moldeador
+leg_skaven-138	leg_skaven.txt:539	Night Runner: perfil 6/3/3/3/3/1/5/1/5, 7 pts	OK	data.js:1778	
+leg_skaven-139	leg_skaven.txt:540	Nightleader: +6 pts, A2 Ld5	OK	data.js:CMD sk_nightrunners 6	
+leg_skaven-140	leg_skaven.txt:542-546	Night Runners: infantería regular 25x25, unidad 10+, hand weapons	OK	data.js:sk_nightrunners max 100	
+leg_skaven-141	leg_skaven.txt:548	Night Runners armas adicionales +2	OK	data.js:3806	
+leg_skaven-142	leg_skaven.txt:550-551	Night Runners: hondas +2 o arrojadizas +1	OK	data.js:3807-3808	
+leg_skaven-143	leg_skaven.txt:554	Night Runners: Evasive, Fire & Flee, Scurry, Skirmishers	OK	data.js:1779	
+leg_skaven-144	leg_skaven.txt:560	Gutter Runner: perfil 6/4/4/3/3/1/5/1/7, 14 pts	OK	data.js:1775	
+leg_skaven-145	leg_skaven.txt:561	Assassin (campeón): +7 pts, A2 Ld7	OK	data.js:2462 [7,..]	
+leg_skaven-146	leg_skaven.txt:563-566	Gutter Runners: regular 25x25, unidad 5+, dos armas de mano	OK	data.js:sk_gutter max 100	
+leg_skaven-147	leg_skaven.txt:570-571	Gutter Runners: hondas +2 o arrojadizas +1	OK	data.js:3810-3811	
+leg_skaven-148	leg_skaven.txt:574	Gutter Runners: Ambushers +1 por modelo	OK	data.js:3812	
+leg_skaven-149	leg_skaven.txt:575	Gutter Runners: Poisoned Attacks +2 por modelo	OK	data.js:3813	
+leg_skaven-150	leg_skaven.txt:576	Assassin objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_skaven-151	leg_skaven.txt:578-579	Gutter Runners: Evasive, Feigned Flight, Fire & Flee, Move through Cover, Scouts, Scurry, Skirmishers	OK	data.js:1777	
+leg_skaven-152	leg_skaven.txt:582-583	Plague Monk: perfil 5/3/3/3/4/1/3/1/5, 7 pts	OK	data.js:1781	
+leg_skaven-153	leg_skaven.txt:584	Plague Deacon: +6 pts, A2 Ld5	OK	data.js:2462 [6,6,6]	
+leg_skaven-154	leg_skaven.txt:586-589	Plague Monks: regular 25x25, unidad 10+, hand weapons	OK	data.js:sk_plaguemonks max 100	
+leg_skaven-155	leg_skaven.txt:592	Plague Monks armas adicionales +2	OK	data.js:3814	
+leg_skaven-156	leg_skaven.txt:594-596	Plague Monks: diácono +6, estandarte +6, músico +6	OK	data.js:2462	
+leg_skaven-157	leg_skaven.txt:597	Plague Deacon objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_skaven-158	leg_skaven.txt:598	Plague Monks: 0-1 unidad por 1.000 pts puede comprar estandarte mágico hasta 50	OK	data.js:armyIssues sk	0-1 unidad con estandarte mágico por 1.000
+leg_skaven-159	leg_skaven.txt:600	Plague Monks: Close Order, Frenzy, Horde, Scurry, Warband	OK	data.js:1782	
+leg_skaven-160	leg_skaven.txt:605-612	Censer Bearer: perfil 5/3/3/3/4/1/3/1/5, 13 pts; unidad 2-10; Frenzy, Scurry, Skirmishers, Stubborn, Warband	OK	data.js:1784	
+leg_skaven-161	leg_skaven.txt:614-618	Plague censer (portadores): F+2 solo primera ronda, FP-1, Poisoned, Two Hands, repetir 1 para herir	OK	data.js:sk_censer melee sb2 ap1 rr1 poisoned	
+leg_skaven-162	leg_skaven.txt:622	Screaming Bell: M2 S5 T6 W5 (+185 pts, solo montura)	OK	data.js:sk_greyseer_bell M2	
+leg_skaven-163	leg_skaven.txt:623	Rat Ogre Crew (x1): 3/0/5/-/-/4/3/5	OK	data.js:sk_greyseer_bell mountAtk a3	
+leg_skaven-164	leg_skaven.txt:625-629	Campana: chariot pesado, 60x100, armadura 4+	OK	data.js:sk_greyseer_bell Sv4	
+leg_skaven-165	leg_skaven.txt:632-634	Campana: Armour Bane (2, solo Rat Ogre), Dragged Along, Large Target, Magic Resistance (-3), Scurrying Masses, Stubborn,	OK	data.js:sk_greyseer_bell sr draggedAlong; rules.js dragM	Dragged Along añadido
+leg_skaven-166	leg_skaven.txt:632-634	Campana: Impact Hits (D6+1)	OK	data.js:sk_greyseer_bell impact D6+1	
+leg_skaven-167	leg_skaven.txt:640-641	Blessings of the Horned Rat: salvación especial 5+ contra heridas de ataques enemigos no mágicos	OK	data.js:wardNMu 5; rules.js woundAndSave0	Ward 5+ vs no mágico
+leg_skaven-168	leg_skaven.txt:646-647	Tolling the Bell: tirar 2D6 en Fase de Mando	OK	rules.js:a.t===toll; ai.js optionGroups tb; main.js botón	Opcional (el jugador decide), 2D6 en Mando, anunciado con popup
+leg_skaven-169	leg_skaven.txt:651-652	Toll 2 Magical Backlash	OK	rules.js toll tot==2	D3 impactos F4 FP-2 a toda unidad en alcance de mando (amiga o enemiga)
+leg_skaven-170	leg_skaven.txt:653-655	Toll 3-4 Dissonant Peal	OK	rules.js toll 3-4; ldOf bellLd	"-1 Ld (mín. 2) a enemigos a 18"" hasta tu inicio de turno"
+leg_skaven-171	leg_skaven.txt:656-658	Toll 5-6 Wall of Unholy Sound	OK	rules.js toll 5-6; has_ bellFear	"Miedo a skaven amigos a 18"""
+leg_skaven-172	leg_skaven.txt:659-660	Toll 7 Resonant Power	OK	rules.js toll 7; herdCast bellCast	+1 al lanzar a Magos skaven en alcance de mando, este turno
+leg_skaven-173	leg_skaven.txt:661-662	Toll 8-9 Emboldening Clamour	OK	rules.js toll 8-9; has_ bellIP	"Inmune a psicología a skaven a 18"""
+leg_skaven-174	leg_skaven.txt:663-664	Toll 10-11 Rapturous Ringing	PARCIAL	rules.js toll 10-11; attackProfile bellXA	VERIF v732: rules.js:4857 bellXA suma atk += 1 al total de la unidad; Ataques adicionales (1) es +1 por modelo (a) | Ataques adicionales (+1)
+leg_skaven-175	leg_skaven.txt:665-668	Toll 12 Sonorous Knell	OK	rules.js toll 12	"Ld de enemigos a 18"" (incl. huyendo/trabados); si fallan D6 F4 sin armadura ni Regeneración"
+leg_skaven-176	leg_skaven.txt:671-672	Campana: solo como montura de personaje, puntos sumados al jinete	PARCIAL	data.js:1754 mount:true	VERIF v732: data.js:1762 sk_greyseer_bell cuesta 310 (unitCost) pero fuente: Vidente Gris 185 + Campana +185 = 370; como montura de personaje si, puntos incorrectos.
+leg_skaven-177	leg_skaven.txt:676-677	Plague Furnace: M2 S5 T6 W5 (+170); tripulación 3 Monjes 3/0/3/-/-/3/2/5	PARCIAL	data.js:sk_plaguepriest_furnace	a=6 (3 monjes x A2) y S3 correctos; WS/I de la tripulación (3/3) no se separan del sacerdote: el motor no admite perfiles distintos de WS/I en la montura
+leg_skaven-178	leg_skaven.txt:679-682	Furnace: heavy chariot, 60x100, armadura 4+	OK	data.js:1826 Sv:4	
+leg_skaven-179	leg_skaven.txt:687-689	Furnace: Dragged Along, Fear, Frenzy, Great Censer, Impact Hits (D3+1), Large Target, Magic Res (-1), Poisoned, Scurryin	OK	data.js:sk_plaguepriest_furnace sr	
+leg_skaven-180	leg_skaven.txt:695-697	Great Censer: Stomp Attacks con FP-2	OK	rules.js:stomp greatCenser +2 FP	
+leg_skaven-181	leg_skaven.txt:699-701	"Great Censer: a 3"" enemigos con -1 Resistencia (mín. 1)"	OK	rules.js:woundAndSave0 greatCenser	"-1 R a 3"""
+leg_skaven-182	leg_skaven.txt:704-708	Billowing Death: Breath Weapon F2, tira para herir 6 natural siempre hiere, sin salvación de armadura	OK	data.js:furnace ranged breath alwaysW6 noArmour	
+leg_skaven-183	leg_skaven.txt:711-712	Horno: solo como montura de personaje	OK	data.js:1825	
+leg_skaven-184	leg_skaven.txt:716	Doomwheel: M 3D6, S5 T5 W4, 145 pts	OK	data.js:1828 randM 3D6	
+leg_skaven-185	leg_skaven.txt:717	Warlock x1: 3/3/3/-/-/3/1/7	OK	data.js:sk_doomwheel	Warlock WS3 S3 I3 A1 Ld7
+leg_skaven-186	leg_skaven.txt:718	Rats: WS2, S2, I4, A 2D6, Ld5	OK	data.js:sk_doomwheel randA 1+2D6; mountAtk randX	Ratas: 2D6 Ataques aleatorios por ronda, F2 (WS2/I4 de las ratas no se separan: limitación del motor)
+leg_skaven-187	leg_skaven.txt:720-724	Doomwheel: heavy chariot, 50x100, armadura 5+	OK	data.js:1829 Sv:5	
+leg_skaven-188	leg_skaven.txt:728-730	Doomwheel: Close Order, Crushing Bulk, Immune Psy, Impact (D3+1), Large Target, Random Attacks (Rats), Random Movement, 	OK	data.js:sk_doomwheel; rules.js stompS	Random Attacks (ratas), pisotón con F5 de la rueda
+leg_skaven-189	leg_skaven.txt:736-740	Crushing Bulk: Stomp FP-1; unidad golpeada por Impact hace test de Ld o queda Disrupted	OK	rules.js:2945, 4722	
+leg_skaven-190	leg_skaven.txt:745-749	"Zzzzap!: tras disparo, hasta tres plantillas 3"" a 6"", desvío D6"", F por dado de artillería, FP-2, amigos y enemigos"	OK	rules.js:4937-4955	
+leg_skaven-191	leg_skaven.txt:751-753	Zzzzap misfire: la plantilla se retira y el Doomwheel pierde una Herida	OK	rules.js:4947	
+leg_skaven-192	leg_skaven.txt:757	Hell Pit Abomination: 3D6 3/1/6/5/6/4/D6+1/8, 210 pts	OK	data.js:1832	
+leg_skaven-193	leg_skaven.txt:759-763	Hell Pit: Behemoth, 60x100, unidad 1, garras de piedra bruja	OK	data.js:1832	
+leg_skaven-194	leg_skaven.txt:763-767	Hell Pit: Abominable Attacks, Close Order, Immune Psy, Large Target, Magic Res (-1), Random Attacks, Random Movement, Re	OK	data.js:1832 sr	
+leg_skaven-195	leg_skaven.txt:773-777	Abominable Attack: Feed (un modelo en contacto, D3 heridas automáticas sin armadura)	OK	rules.js:abominableAttack, pref abomMode; ai.js ab; main.js	El jugador elige normal / Alimentarse / Avalancha (IA por autoaprendizaje); tirada de impactar y D3 heridas sin armadura
+leg_skaven-196	leg_skaven.txt:778-781	"Abominable Attack: Avalancha de carne (plantilla 3"", F del modelo, FP-2, amigos y enemigos)"	OK	rules.js:abominableAttack	"Plantilla 3"" centrada en la unidad objetivo: amigos y enemigos, F del modelo FP-2, popup"
+leg_skaven-197	leg_skaven.txt:786-793	"Too Horrible to Die: 1-3 muere, 4-5 enjambre de ratas (1 modelo, a 3""), 6 recupera D3 Heridas"	PARCIAL	rules.js:1509-1514, 2601	VERIF v732: rules.js:1805-1810 D6 correcto (1-3 muere, 4-5 enjambre, 6 recupera D3) pero el enjambre se coloca automaticamente (3121 summonUnit) sin eleccion del jugador ni popup; tirada solo en CUR.log
+leg_skaven-198	leg_skaven.txt:796	Warpstone claws: Armour Bane (1), Magical Attacks, FP-1	OK	data.js:1832 melee ap1 ab1 sr magical	
+leg_skaven-199	leg_skaven.txt:800	Warp Lightning Cannon: T6 W4, 110 pts	OK	data.js:sk_warplightning T6 W4 Ld6	
+leg_skaven-200	leg_skaven.txt:801	Engineer & Crew: 5/3/3/3/3/3/3/3/6	PARCIAL	data.js:1804	Engineer & Crew A3/Ld6 correctos; T/W de la máquina del motor sustituyen a los de la tripulación (diseño del motor de máquinas)
+leg_skaven-201	leg_skaven.txt:803-807	WLC: War machine, 50x100, unidad 1, Skirmishers	OK	data.js:1804	
+leg_skaven-202	leg_skaven.txt:810-813	"WLC: 8D6"", FP-3, Cumbersome, Move or Shoot, Lightning Strike (no usa BS)"	OK	rules.js:2343-2360; data.js:1805	
+leg_skaven-203	leg_skaven.txt:816-818	"Lightning Strike: línea recta 8D6"" desde base, un impacto por modelo bajo la línea, F por dado de artillería"	PARCIAL	rules.js:2344-2353	VERIF v732: rules.js:2832 rayo 8D6 PA-3 F dado artilleria; pero impactos = min(modelos, filas) en vez de un impacto por cada modelo bajo la linea
+leg_skaven-204	leg_skaven.txt:824-826	Misfire D6 1 Meltdown: no dispara y se destruye	OK	rules.js:2358	
+leg_skaven-205	leg_skaven.txt:828-829	Misfire 2-4 Energy Overload: dispara F6 en dirección aleatoria (dado de dispersión)	OK	rules.js:2359	
+leg_skaven-206	leg_skaven.txt:830-831	Misfire 5-6 Fzzzt: no dispara	OK	rules.js:2360	
+leg_skaven-207	leg_skaven.txt:836	Plagueclaw Catapult: T6 W4, 110 pts	OK	data.js:1808	
+leg_skaven-208	leg_skaven.txt:837	Plague Monk Crew: 5/3/3/3/4/3/2/D3+3/6	OK	data.js:sk_plagueclaw randA D3+3, I2, Ld6	Plague Monk Crew: A D3+3
+leg_skaven-209	leg_skaven.txt:839-843	Plagueclaw: War machine, 50x100, Random Attacks, Skirmishers, Stubborn	OK	data.js:sk_plagueclaw randA	Random Attacks (D3+3)
+leg_skaven-210	leg_skaven.txt:846	"Plagueclaw: 12-72"", F2(4), FP-3, Bombardment, Cumbersome, Move or Shoot"	OK	data.js:1809	
+leg_skaven-211	leg_skaven.txt:847-850	"Plagueclaw: plantilla 5"", tabla Stone Thrower Misfire, 6 natural siempre hiere"	OK	data.js:1809 blast5 alwaysW:6	
+leg_skaven-212	leg_skaven.txt:863-871	Fellblade 100: F+3, Magical, Multiple Wounds (D3), solo infantería, sin salvaciones, D3 en Mando 1 pierde Herida	OK	data.js:3024 skl_fell	rules.js:5339
+leg_skaven-213	leg_skaven.txt:873-879	Weeping Blade 50: FP-2, Magical, Multiple Wounds (D3), Poisoned	OK	data.js:3025	
+leg_skaven-214	leg_skaven.txt:881-889	Blade of Nurglitch 35: F+1 Magical; test de R tras herida sin salvar o -1 R permanente	OK	data.js:3026	rules.js:4780
+leg_skaven-215	leg_skaven.txt:891-899	"Death Globe* 25: un uso, 9"", Magical, Move & Shoot; plantilla 3"" test I o pierde Herida"	OK	rules.js:r.globe	"La plantilla de 3"" alcanza a todo modelo (amigo o enemigo) bajo ella; test de I, popup. Elección de modelo concreto dentro de la unidad aproximada por la unidad objetivo"
+leg_skaven-216	leg_skaven.txt:902-905	Warpstone Armour* 25: armadura pesada que puede llevar un Mago sin penalización	PARCIAL	data.js:3028	VERIF v732: data.js:3056 skl_warparmour sv5 (armadura pesada) pero sin exencion: rules.js:3873/3969 wizArmoured bloquea lanzar/disipar a un Mago con cualquier armadura (sv) -> si penaliza
+leg_skaven-217	leg_skaven.txt:911-919	Cautious Shield 20: escudo; a dos manos al elegir combate: +3 armadura, A=0	OK	data.js:3029	rules.js:1463,4219
+leg_skaven-218	leg_skaven.txt:924-930	Shadow Magnet 40: enemigos que disparan al portador o su unidad -1 adicional	OK	data.js:3030	
+leg_skaven-219	leg_skaven.txt:932-937	Warpstone Amulet 35: salvación especial 4+ contra no mágicos	OK	data.js:3031	
+leg_skaven-220	leg_skaven.txt:902-910	Storm Banner 65: un uso, Fase de Mando; enemigos no Vuelan y disparos -1	OK	data.js:3032	
+leg_skaven-221	leg_skaven.txt:913-917	Grand Banner of Superiority 50: +D3 resolución	OK	data.js:3033	
+leg_skaven-222	leg_skaven.txt:920-926	Dwarf Hide Banner 40: Hatred (Dwarfs) y Stubborn	OK	data.js:skl_dwarfhide grant hatredDwarfs, stubborn	Odio (Enanos) y Tozudos
+leg_skaven-223	leg_skaven.txt:928-933	Banner of Verminous Scurrying 35: Swiftstride	OK	data.js:3035	
+leg_skaven-224	leg_skaven.txt:944-950	Brass Orb 50: un uso, en vez de atacar, 1 impacto contra modelo; test I o baja	PARCIAL	rules.js:a.t===orb	VERIF v732: rules.js:7701 orb: tirada unica para impactar + test de I, pero apunta a la unidad (no a un modelo concreto campeon/personaje); usa I de la unidad | Añadida tirada única para impactar (HA) antes del test de I
+leg_skaven-225	leg_skaven.txt:952-958	Skalm 35: un uso; recupera una Herida y +1 R hasta tu inicio	OK	data.js:3037	rules.js:6481
+leg_skaven-226	leg_skaven.txt:965-971	Skavenbrew* 20: solo Señor/Jefe; test de Ld; Frenzy a él y su unidad	OK	data.js:3038	rules.js:6482
+leg_skaven-227	leg_skaven.txt:945-950	"Warp Condenser 50: +3"" disipar, +1 lanzar proyectil, repetir tabla percance"	OK	rules.js:miscast1 condRR; pref condPol; ai cd; main	"+3"" disipar, +1 proyectil, repetir tabla de percances (el jugador elige la política)"
+leg_skaven-228	leg_skaven.txt:952-963	"Storm Daemon 30: hechizo ligado NP1, VL 8+, 18"", D3+1 F5 FP-2"	OK	data.js:4927, 4973	
+leg_skaven-229	leg_skaven.txt:965-974	Warpstone Tokens* 15: hasta tres, +D3 al lanzar, 1 natural pierde Herida	OK	rules.js tokOn pref; main.js; ai.js tk	El jugador decide consumir una ficha por tirada
+leg_skaven-230	leg_skaven.txt:857-859	Objetos extremadamente comunes (*)	OK	data.js:3028 star:true	
+leg_skaven-231	leg_skaven.txt:982-993	Poisoned Wind: 6+ siempre hiere, sin armadura; inmune quien lo porta	OK	rules.js:wopts pwOn; data.js pw:true	6+ para herir siempre hiere y sin salvación de armadura; inmunes quienes lo empuñan
+leg_skaven-232	leg_skaven.txt:998-1003	Scurry Away: +1 al resultado de huida	OK	data.js:195; rules.js:2778	
+leg_skaven-233	leg_skaven.txt:1006-1011	"Scurrying Masses: a 3"" de unidad amiga, + bonus de filas al Ld (máx. 10)"	OK	rules.js:1413	
+leg_skaven-234	leg_skaven.txt:986-993	Verminous Valour: si no hay desafío y unidad FU 10+, se retira al fondo, sin atacar ni ser atacado, la unidad usa su Ld	OK	rules.js:vvOn pref; main.js vvPref; ai.js vv	Retirada a voluntad del jugador
+leg_skaven-235	leg_skaven.txt:995-1004	Warpstone Weapons: arma de mano única: Magical Attacks y FP-1; no se aplica con dos armas	OK	data.js:SKW opts delSr magical	
+leg_skaven-236	leg_skaven.txt:1017-1019	Lore of the Horned Rat: descartar hechizo aleatorio por firma de lore o uno de la lista	OK	data.js:4944-4949 legacyLore	
+leg_skaven-237	leg_skaven.txt:1021-1029	"Skitterleap: Conveyance VL 8+, 18"", personaje infantería amigo, recolocar a 24"", >6"" enemigos, no mover más"	PARCIAL	rules.js:4162	"El motor elige el destino del salto (la regla dice ""en cualquier lugar"" a elección del jugador) y excluye a personajes unidos a unidades; requiere UI de colocación"
+leg_skaven-238	leg_skaven.txt:1021-1030	"Warp Lightning: Magic Missile VL 10+, 18"", D3+1 impactos F5 FP-3"	OK	data.js:4924	
+leg_skaven-239	leg_skaven.txt:1031-1043	"Cloud of Corruption: Vórtice VL 10+, 9"", plantilla 3"", terreno peligroso sin línea de visión, enemigos a 3"" -1 R"	OK	data.js:4922; rules.js:3798	

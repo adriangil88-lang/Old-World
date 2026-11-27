@@ -1,0 +1,12 @@
+{
+ "when": "2026-11-23T18:17:58.440Z",
+ "mutated": 1,
+ "killed": 1,
+ "survived": [],
+ "declarative": [],
+ "rate": 100,
+ "byOp": {
+  "C": 1
+ },
+ "onlyDice": 0
+}

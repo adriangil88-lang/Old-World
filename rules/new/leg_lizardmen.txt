@@ -1,0 +1,911 @@
+         LIZARDMEN
+                         Legacy Army List
+                    For Use With Warhammer: The Old World Rules
+This document allows you to play a Lizardmen Army from the Warhammer Fantasy Battles range in games using
+    the rules from Warhammer: The Old World. To use the contents of this document, you will need a copy
+                                 of the Warhammer: The Old World rulebook.
+
+            The rules contained within this document allow players the opportunity to try out the
+             Warhammer: The Old World rules using models they may have in their collection.
+         They are not intended for use in matched play events and will not be updated in line with any
+                              future Warhammer: the Old World publications.
+                                               Lizardmen
+F  rom the jungle-continent of Lustria, the Lizardmen look outwards and see a world gone awry. As the inheritors of
+   the Old Ones’ legacy, the Lizardmen see it as their sacred duty to fulfil the enigmatic plans of their long lost masters,
+and any who stand in their way can expect no mercy. Heed the drums and the reptilian roars of the jungle and join the
+gathering Lizardmen armies as they march forth for battle.
+
+This document contains the following information:                   CONTENTS
+Grand Army Composition List: The default army                       Lizardmen Legacy Army List	����������������������������������������������������2
+composition list for the Lizardmen.                                  Grand Army Composition List	���������������������������������������������������������2
+                                                                     Disciplines of the Old Ones	�������������������������������������������������������������16
+Profiles: Every model available to the Lizardmen has a profile.      Magic Items.............................................................................................17
+Here, you will find that model’s characteristics, its equipment,     Special Rules............................................................................................20
+its points value, details of any special rules unique to it          Lore of Lustria........................................................................................21
+and more.
+
+Magic Items: As well as the Common magic items detailed
+in the Warhammer: the Old World rulebook, this army list
+includes a number of magic items unique to the Lizardmen.
+
+Special Rules: This section covers rules unique to
+the Lizardmen.
+
+The Lore of…: Unique spells used in conjunction with
+the Lores of Magic found in the Warhammer: the Old
+World rulebook.
+
+
+
+
+    © Copyright Games Workshop Limited 2024. Warhammer: the Old World, Citadel, Forge World, Games Workshop, GW,
+    Warhammer, the ‘winged-hammer’ Warhammer logo, and all associated logos, illustrations, images, names, creatures, races,
+          vehicles, locations, weapons, characters, and the distinctive likenesses thereof, are either ® or TM, and/or ©
+                                 Games Workshop Limited, variably registered around the world.
+                                                       All Rights Reserved.
+
+                                       Permission to download/print for personal use only.
+
+                 This is a work of fiction. All the characters and events portrayed in this download are fictional,
+                              and any resemblance to real people or incidents is purely coincidental.
+                            Lizardmen Army List
+T   his page details the Grand Army composition list for the Lizardmen. This is the default army composition list for this
+    faction. Using this army composition list to write your muster list will give you the widest variety of units to choose
+from and create a broad and balanced force.
+
+This army list is intended for use alongside the ‘Forming Units’ and ‘Warhammer Armies’ sections of the Warhammer: the Old
+World rulebook. Over the following pages you will find profiles and rules for each of the models in your army. These pages give
+you all of the information that you need to shape your collection of models into the units which will in turn form a force ready
+for battle.
+
+Grand Army Composition List
+This is the Grand Army composition list for a                      Rare
+Lizardmen army:                                                    Up to 25% of your army’s points value may be spent on:
+
+Characters                                                         • 0-1 Salamander Pack or Razordon Pack per 1,000 points
+Up to 50% of your army’s points value may be spent on:             • 0-1 Stegadon or Troglodon per 1,000 points
+
+• 0-1 Slann Mage-Priest                                            Mercenaries
+• 0-1 Saurus Oldblood or Skink Priest per 1,000 points             Up to 20% of your army’s points value may be spent
+• Saurus Scar-Veterans and Skink Chiefs                            on mercenaries.
+
+Core                                                               Allies
+At least 25% of your army’s points value must be spent on:         Up to 25% of your army’s points value may be spent on a single
+                                                                   allied contingent drawn from the following Grand Army
+• 1+ unit of Saurus Warriors                                       composition list:
+• Skink Skirmishers and Jungle Swarms
+• 0-1 unit of Temple Guard                                         • High Elf Realms
+
+Special
+Up to 50% of your army’s points value may be spent on:                Battle Standard Bearer
+                                                                      A single Slann Mage-Priest, Saurus Scar-Veteran or Skink
+•   Chameleon Skinks, Kroxigor and Cold One Riders                    Chief in your army may be upgraded to be your Battle
+•   0-1 unit of Terradon Riders per Skink Hero taken                  Standard Bearer for +25 points. In addition to their usual
+•   0-1 unit of Ripperdactyl Riders per Skink Hero taken              allowance of points to spend on magic items, a Battle
+•   0-2 Bastiladons per 1,000 points                                  Standard Bearer can purchase a single magic standard
+                                                                      with no points limit. A Slann Mage-Priest may be both
+                                                                      your army’s Battle Standard Bearer and its General.
+Slann Mage-Priests
+                                                                                                                                                                    Character
+                                              M        WS         BS          S         T         W          I         A        Ld         Points
+Slann Mage-Priest                             2         2          3          3         4         5          2         1         9          285
+                                                                                                                                                            The Slann
+Troop Type:                 Monstrous creature                                                                                                              First amongst the Old Ones’
+Base Size:                  50 x 50 mm                                                                                                                      servants, the Slann are
+Unit Size:                  1                                                                                                                               beings of incredible intellect
+Equipment:                  Hand weapon                                                                                                                     and unparalleled magical
+                                                                                                                                                            ability. Although they are
+Magic: A Slann Mage-Priest is a Level 4 Wizard. Every Slann Mage-Priest knows spells                                                                        not physically menacing,
+from one of the following Lores of Magic:                                                                                                                   the Slann wield magic so
+• Battle Magic                                                                                                                                              powerful they can topple
+• Elementalism                                                                                                                                              cities, wash away their foes
+• High Magic                                                                                                                                                in torrents of flame or even
+• Illusion                                                                                                                                                  terraform the earth itself
+• Necromancy                                                                                                                                                with a simple gesture. Even
+                                                                                                                                                            the mightiest Wizards will
+Options:                                                                                                                                                    find their most potent spells
+• May take a single Discipline of the Old Ones............................................................... See page 16                                   unravelled effortlessly by the
+• May purchase magic items up to a total of...................................................................... 100 points                                Slann, before being scorched,
+                                                                                                                                                            crushed or otherwise laid
+Special Rules: Arcane Shield, Cold Blooded, Close Order, Fly (8), Large Target,                                                                             low by the Mage-Priest’s
+               Lore of Lustria                                                                                                                              own magic. From atop their
+                                                                                                                                                            floating palanquins, the Slann
+Arcane Shield                                                                                                                                               continue to enact the will
+Pure magic shimmers about the Slann, shielding it from the blows of the enemy.                                                                              of the Old Ones and work
+                                                                                                                                                            towards the completion of
+This character has a 5+ Ward save against any wounds suffered.                                                                                              the Great Plan.
+
+                                                                                                                                                            Saurus Heroes
+Saurus Heroes                                                                                                                                               The longer a Saurus lives, the
+                                                                                                                                                            tougher and more ferocious
+                                              M        WS         BS          S         T         W          I         A        Ld         Points           it becomes; their hardened
+Saurus Oldblood                               4         6          0          5         5         3          3         5         8          140             scales grow as hard as iron,
+Saurus Scar-Veteran                           4         5          0          5         5         2          3         4         8           90             lethal protrusions sprout
+                                                                                                                                                            from their bodies and their
+Troop Type:                 Heavy infantry                                                                                                                  corded muscles become so
+Base Size:                  30 x 30 mm                                                                                                                      powerful they can break rock
+Unit Size:                  1                                                                                                                               with their bare hands. It is
+Equipment:                  Hand weapon and scaly skin (counts as heavy armour)                                                                             these experienced warriors
+                                                                                                                                                            who lead the Lizardmen in
+Options:                                                                                                                                                    battle when the Children of
+• May take one of the following:                                                                                                                            the Old Ones are marshalled
+  - Additional hand weapon................................................................................................... +3 points                     for war.
+  - Cavalry spear (if appropriately mounted)................................................................... +4 points
+  - Great weapon......................................................................................................................... +4 points
+  - Halberd.................................................................................................................................... +3 points
+• May take a shield........................................................................................................................ +2 points
+• May be mounted........................................................................................................................See page 5
+• A Saurus Oldblood may purchase magic items up to a total of................................ 100 points
+• A Saurus Scar-Veteran may purchase magic items up to a total of............................50 points
+
+Special Rules: Cold Blooded, Furious Charge*, Obsidian Blades, Rallying Cry
+
+*Note that this special rule does not apply to this model’s mount (should it have one)
+Skink Heroes
+                                                                                                                                                                      Character
+                                               M          WS        BS          S         T         W          I         A         Ld         Points
+Skink Priest                                   6           2         3          3         2         2          4         1          6           60
+Skink Chief                                    6           4         5          4         3         2          6         3          6           45             Skink Heroes
+                                                                                                                                                               On occasion, a Skink
+Troop Type:                  Regular infantry                                                                                                                  spawning will not produce
+Base Size:                   25 x 25 mm                                                                                                                        a horde of the diminutive
+Unit Size:                   1                                                                                                                                 Lizardmen, but will instead
+Equipment:                   Hand weapon and calloused hide (counts as light armour)                                                                           birth just one – a rare
+                                                                                                                                                               occurrence that is said
+Magic: A Skink Priest is a Level 1 Wizard. Every Skink Priest knows spells from one of the                                                                     to mark the individual
+following Lores of Magic:                                                                                                                                      for greatness. Those who
+• Battle Magic                                                                                                                                                 scurry forth that show any
+• Elementalism                                                                                                                                                 proficiency in the arcane will
+• Illusion                                                                                                                                                     be trained as Skink Priests;
+                                                                                                                                                               assistants to the mighty
+Options:                                                                                                                                                       Slann. Whilst they are unable
+• A Skink Priest may be a Level 2 Wizard...........................................................................+30 points                                  to wield the world-bending
+• A Skink Chief may take one of the following:                                                                                                                 arcana of their masters,
+  - Additional hand weapon................................................................................................... +3 points                        the Skink Priests’ mastery
+  - Cavalry spear (if appropriately mounted)................................................................... +4 points                                      of magic is still akin to the
+  - Blowpipe (see below)........................................................................................................... +4 points                  Wizards of the younger races.
+  - Javelins...................................................................................................................................... +3 points   Those who don’t display
+• A Skink Chief may take a shield............................................................................................ +2 points                        magical proficiency will
+• A Skink Priest or Skink Chief may:                                                                                                                           become Skink Chieftains;
+  - Be mounted...........................................................................................................................See page 5            cunning leaders who become
+  - Purchase magic items up to a total of.............................................................................50 points                                responsible for marshalling
+                                                                                                                                                               war parties, organising
+Special Rules:                                                                                                                                                 construction and other such
+• Skink Priest: Arcane Vassal, Aquatic*, Cold Blooded, Lore of Lustria                                                                                         tasks to ensure the wheels
+• Skink Chief: Aquatic*, Cold Blooded, Poisoned Attacks*                                                                                                       of the Great Plan remain
+                                                                                                                                                               in motion.
+*Note that this special rule does not apply to this model’s mount (should it have one).
+
+                                       R              S         AP            Special Rules
+Blowpipe                              12"             3          -            Multiple Shots (2), Poisoned Attacks
+Character Mounts
+                                                                                                                                                                      Character
+A character that can be mounted may choose a mount from the following list. Some
+mounts are covered in detail on this page. Those that are not have their own dedicated
+entries later in this army list.                                                                                                                              Cold Ones
+                                                                                                                                                              Cold Ones emerge from
+A Saurus Oldblood or Scar-Veteran may be mounted on a:                                                                                                        their subterranean lairs to
+• Cold One......................................................................................................................................+18 points    prowl in packs across Lustria,
+• Carnosaur.................................................................................................................................. See page 12     sprinting through the jungle
+                                                                                                                                                              on their strong hind legs as
+A Skink Priest may be mounted on a:                                                                                                                           they slash and bite at any prey
+• Ancient Stegadon.................................................................................................................... See page 13            within reach.
+
+A Skink Chief may be mounted on a:                                                                                                                            Terradons
+• Terradon......................................................................................................................................+30 points    These dangerous predators
+• Ripperdactyl...............................................................................................................................+35 points       hunt with sharp talons and
+• Stegadon..................................................................................................................................... See page 13   elongated beaks filled with
+                                                                                                                                                              needle-like teeth. Intruders
+Cold One                                                                                                                                                      to the jungle quickly learn
+                                                                                                                                                              to fear the ominous shadow
+                                               M        WS         BS          S         T         W           I        A         Ld         Points           of their wide wingspan or to
+Cold One                                       7         3          -          4         -         -           2        2          -          +18             hear their shrill and piercing
+                                                                                                                                                              cries as they swoop overhead.
+Troop Type:                 Heavy cavalry
+Base Size:                  30 x 60 mm                                                                                                                        Ripperdactyls
+Unit Size:                  1                                                                                                                                 Amongst the most aggressive
+Equipment:                  Claws and teeth (counts as a hand weapon)                                                                                         creatures in Lustria,
+Special Rules:              Armour Bane (1, Cold One only), Armoured Hide (1), Fear,                                                                          Ripperdactyls soar above
+                            Stupidity, Swiftstride                                                                                                            the jungle canopy constantly
+                                                                                                                                                              on the hunt for fresh prey.
+Terradon                                                                                                                                                      Although they are vicious
+                                                                                                                                                              killers, there is one foe that
+                           M WS BS            S     T     W     I    A                                                            Ld         Points           always drives these airborne
+Terradon                   2      3     -     4 (+1) (+1) 2          1                                                             -          +30             reptiles into a mindless rage –
+Note: A character mounted on a Terradon has +1 Toughness and +1 Wound.                                                                                        the Lustrian blot toad.
+
+Troop Type:                 Monstrous cavalry
+Base Size:                  40 x 40 mm
+Unit Size:                  1
+Equipment:                  Claws and teeth (counts as a hand weapon)
+Special Rules:              Armoured Hide (1), Drop Rocks, Fear, Fly (10), Swiftstride
+
+Ripperdactyl
+                           M WS BS             S     T    W      I    A Ld                                                                   Points
+Ripperdactyl               2      3     -      4 (+1) (+1) 2          2    -                                                                  +35
+Note: A character mounted on a Ripperdactyl has +1 Toughness and +1 Wound.
+
+Troop Type:                 Monstrous cavalry
+Base Size:                  40 x 40 mm
+Unit Size:                  1
+Equipment:                  Claws and teeth (counts as a hand weapon)
+Special Rules:              Armoured Hide (1), Cleaving Blow (Ripperdactyl only), Fear, Fly (9),
+                            Furious Charge (Ripperdactyl only), Impetuous, Swiftstride,
+                            Toad Rage (see page 11)
+Temple Guard
+                                                                                                                                      Infantry
+                                     M      WS       BS       S       T       W        I       A      Ld       Points
+Temple Guard                         4       4        0       4       4       1        1       2       8         16
+Revered Guardian                     4       4        0       4       4       1        1       3       8        +7           Temple Guard
+                                                                                                                             Temple Guard are a prized
+Troop Type:           Heavy infantry                                                                                         and rare spawning of Saurus
+Base Size:            30 x 30 mm                                                                                             warrior. Created for the sole
+Unit Size:            10+                                                                                                    purpose of protecting the
+Equipment:            Hand weapons, halberds, scaly skin (counts as heavy armour) and shields                                Slann and the temple cities
+                                                                                                                             in which they dwell, Temple
+Options:                                                                                                                     Guard use heavy ornamental
+• Any unit may:                                                                                                              halberds to dispatch anything
+  - Upgrade one model to a Revered Guardian (champion)...................... +7 points per unit                              that might threaten their
+  - Upgrade one model to a standard bearer.................................................... +7 points per unit            charges. These deadly
+  - Upgrade one model to a musician................................................................. +7 points per unit      warriors dedicate themselves
+  - Purchase a magic standard worth up to...................................................................... 100 points   to their task with every fibre
+• A Revered Guardian may purchase magic items up to a total of................................50 points                      of their being, displaying a
+                                                                                                                             single-minded determination
+Special Rules: Close Order, Cold Blooded, Guardians, Obsidian Blades,                                                        that results in either the
+               Shieldwall, Stubborn                                                                                          safeguarding of the Slann or
+                                                                                                                             their own deaths. It has been
+Guardians                                                                                                                    known for Temple Guard
+Temple Guard protect the Mage-Priests with their tough, scaled bodies and interlocking shields.                              to stand sentry for centuries
+                                                                                                                             at a time whilst a Slann
+Should a friendly Slann Mage-Priest model that is within 3" of this unit suffer a hit during                                 meditates, remaining poised
+the Shooting phase, roll a D6. On a roll of 2+, you may choose to transfer that hit and all of                               to neutralise any threat to
+its effects onto this unit. In addition, any model in a unit of Temple Guard that is within                                  the vulnerable Mage-Priest
+the Command range of a Slann Mage-Priest can issue and accept challenges in the same                                         even as dust gathers on their
+manner as a character.                                                                                                       scaled hides.
+
+                                                                                                                             Saurus Warriors
+Saurus Warriors                                                                                                              When the armies of the
+                                                                                                                             Lizardmen are called to war,
+                                     M      WS       BS       S       T       W        I       A      Ld       Points        it is the Saurus who make
+Saurus Warrior                       4       3        0       4       4       1        1       2       8         14          up the hardened core of
+Spawn Leader                         4       3        0       4       4       1        1       3       8        +7           their fighting forces; which
+                                                                                                                             should come as no surprise,
+Troop Type:           Heavy infantry                                                                                         for the Old Ones created
+Base Size:            30 x 30 mm                                                                                             the Saurus for this very
+Unit Size:            10+                                                                                                    purpose. Unarmed, Saurus
+Equipment:            Hand weapons, scaly skin (counts as heavy armour) and shields                                          are extremely dangerous –
+                                                                                                                             their razor-sharp claws can
+Options:                                                                                                                     gouge rock as easily as rend
+• The entire unit may take thrusting spears......................................................+1 point per model          flesh, whilst a blow from
+• Any unit may:                                                                                                              their heavy tails can crush
+  - Upgrade one model to a Spawn Leader (champion)............................... +7 points per unit                         bone and crack armour.
+  - Upgrade one model to a standard bearer.................................................... +7 points per unit            If that were not enough,
+  - Upgrade one model to a musician................................................................. +7 points per unit      their crocodilian jaws are
+• A Spawn Leader may purchase magic items up to a total of........................................25 points                  filled with enormous teeth
+• 0-1 unit per 1,000 points may have the Shieldwall special rule................+1 point per model                           capable of severing limbs and
+                                                                                                                             crushing steel.
+Special Rules: Close Order, Cold Blooded, Obsidian Blades
+Skink Skirmishers
+                                                                                                                                                                  Infantry
+                                             M          WS       BS          S        T         W          I         A        Ld        Points
+Skink                                        6           2        3          3        2         1          4         1         5          5
+Patrol Leader                                6           2        4          3        2         1          4         1         5         +5              Skink Skirmishers
+                                                                                                                                                         Skittish and swift, Skinks
+Troop Type:                Regular infantry                                                                                                              are unique amongst the
+Base Size:                 25 x 25 mm                                                                                                                    otherwise sluggish and
+Unit Size:                 10+                                                                                                                           physically intimidating
+Equipment:                 Hand weapons and calloused hides (counts as light armour)                                                                     Lizardmen. These diminutive
+                                                                                                                                                         creatures were created by
+Options:                                                                                                                                                 the Old Ones to perform
+• The entire unit must take one of the following:                                                                                                        many different roles and,
+  - Blowpipes.............................................................................................................+1 point per model             without them, Lizardman
+  - Javelins and shields......................................................................................................................... Free   society would quickly begin
+• Any unit may upgrade one model to a Patrol Leader (champion)........... +5 points per unit                                                             to collapse. With excellent
+• 0-1 unit per 1,000 points may have one of the following:                                                                                               physical and mental dexterity,
+  - The Scouts special rule....................................................................................+10 points per unit                       Skinks can slip through the
+  - The Vanguard special rule................................................................................ +5 points per unit                         jungle with ease, enabling
+                                                                                                                                                         them to outflank and
+Special Rules: Cold Blooded, Move through Cover, Poisoned Attacks (javelins only),                                                                       surround the enemy with
+               Skirmishers                                                                                                                               little risk of discovery.
+
+                                                                                                                                                         Chameleon Skinks
+Chameleon Skinks                                                                                                                                         With their innate ability to
+                                                                                                                                                         mirror the patterns of their
+                                             M          WS       BS          S        T         W          I         A        Ld        Points           environment, Chameleon
+Chameleon Skink                              6           2        4          3        2         1          4         1         6          11             Skinks are the ultimate
+Patrol Leader                                6           2        5          3        2         1          4         1         6         +6              ambush warriors. Able to
+                                                                                                                                                         sneak within arms length
+Troop Type:                Regular infantry                                                                                                              of the enemy, Chameleon
+Base Size:                 25 x 25 mm                                                                                                                    Skinks will fire a hail of toxic
+Unit Size:                 5+                                                                                                                            blowpipe darts at their targets
+Equipment:                 Hand weapons, blowpipes (see below) and                                                                                       with incredible accuracy,
+                           calloused hides (counts as light armour)                                                                                      before slinking undetected
+                                                                                                                                                         back into the jungle.
+Options:
+• Any unit may upgrade one model to a Patrol Leader (champion)........... +6 points per unit
+
+Special Rules: Cold Blooded, Evasive, Move through Cover, Scouts, Skirmishers
+
+                                      R             S         AP           Special Rules
+Blowpipe                             12"            3          -           Multiple Shots (2), Poisoned Attacks
+Kroxigor
+                                                                                                           Infantry
+                             M     WS     BS     S     T     W      I      A     Ld    Points
+Kroxigor                     6      3      0     5     4     3      3      3      7      49
+Ancient                      6      3      0     5     4     3      3      4      7     +7        Kroxigors
+                                                                                                  Initially created by the
+Troop Type:      Monstrous infantry                                                               Old Ones to aid with the
+Base Size:       40 x 40 mm                                                                       construction of the great
+Unit Size:       3+                                                                               temple cities, Kroxigor are
+Equipment:       Great weapons and scaly skin (counts as heavy armour)                            hulking muscular creatures
+                                                                                                  with an enormous maw
+Options:                                                                                          filled with dagger-like teeth.
+• Any unit may upgrade one model to an Ancient (champion)................... +7 points per unit   During times of war, these
+                                                                                                  brutes are used as destructive
+Special Rules: Aquatic, Close Order, Cold Blooded, Fear, Skirmish Screen                          shock troops as they set about
+                                                                                                  enemy battle lines with huge
+Skirmish Screen                                                                                   clubs, each taller than a man
+In battle, Skinks swarm around the legs of Kroxigor. When the enemy draws near, the Kroxigor      and twice as heavy.
+charge through the Skinks, who instinctively know to get out of their way.
+                                                                                                  Jungle Swarms
+A unit with this special rule can draw a line of sight over or through friendly units of Skink    When threatened by
+Skirmishers and can move through friendly units of Skink Skirmishers that are in Skirmish         invaders, or when amassing a
+formation. If this unit’s move would result in it ending up ‘on top’ of a friendly Skink          force to strike at far-off lands,
+Skirmisher, simply nudge that model aside, by the smallest amount possible, to make space         a Skink Priest will call upon
+for this unit. Whilst in Skirmish formation units of Skink Skirmishers can treat friendly         the jungle’s smaller denizens
+models with this special rule that are within 1" of one or more of the unit’s models as a part    to aid them in the coming
+of the unit for the purposes of unit coherency.                                                   battle, forming a writhing
+                                                                                                  carpet of highly venomous
+                                                                                                  snakes, spiders and insects.
+Jungle Swarms
+                             M     WS     BS     S     T     W      I      A     Ld    Points
+Jungle Swarms                5      3      0     2     2     5      1      5      5      40
+
+Troop Type:      Swarms
+Base Size:       40 x 40 mm
+Unit Size:       3+
+Equipment:       Hand weapons
+Special Rules:   Cold Blooded, Immune to Psychology, Loner, Move through Cover,
+                 Poisoned Attacks, Skirmishers, Unbreakable, Vanguard
+Salamander Packs
+                                                                                                            Infantry
+                              M       WS    BS    S    T     W       I     A     Ld    Points
+Skink Handler                 6        2     3    3    2     1       4     1      5      5
+Salamander                    6        3     3    5    4     3       4     2      4      75        Salamanders
+                                                                                                   Large predatory animals
+Troop Type:  Regular infantry (Skink handlers), War beasts (Salamanders)                           that stalk the swamplands of
+Base Size:   25 x 25 mm (Skink Handlers), 50 x 75 mm (Salamanders)                                 Lustria, Salamanders propel
+Unit Size:   3+/1+*                                                                                themselves around with four
+Equipment:                                                                                         thickly muscled legs and a
+• Skink Handlers: Hand weapons and calloused hides (counts as light armour)                        powerful tail that allows
+• Salamanders: Wicked claws (see below), fiery breath (see below) and                              them to swiftly manoeuvre
+             scaly skin (counts as heavy armour)                                                   on both land and in water.
+                                                                                                   Salamanders hunt by sight
+Special Rules: Aquatic, Beast Handlers, Cold Blooded, Fear, Skirmishers                            and bring down their prey
+                                                                                                   by launching a torrent of
+*When writing your muster list, a Salamander Pack must contain at least three Skink handlers for   highly corrosive venom at
+every one Salamander.                                                                              their target – this venom is
+                                                                                                   so volatile that it ignites upon
+                        R         S        AP    Special Rules                                     contact with flesh, metal
+Fiery breath           N/A        4        -1    Breath Weapon, Flaming Attacks                    or stone and burns their
+                                                                                                   victim alive.
+
+Razordon Packs                                                                                     Razordons
+                                                                                                   Covered from nose to tail
+                              M       WS    BS    S    T     W       I     A     Ld    Points      in great spines of hardened
+Skink Handler                 6        2     3    3    2     1       4     1      5      5         bone, Razordons cast a most
+Razordon                      6        3     4    5    4     3       4     2      4      60        intimidating silhouette. As
+                                                                                                   defensive protection goes,
+Troop Type:  Regular infantry (Skink handlers), War beasts (Razordons)                             being covered in iron-hard
+Base Size:   25 x 25 mm (Skink Handlers), 50 x 75 mm (Razordons)                                   spines is enough to put off
+Unit Size:   3+/1+*                                                                                most of Lustria’s predators,
+Equipment:                                                                                         but a Razordon’s spines are
+• Skink Handlers: Hand weapons and calloused hides (counts as light armour)                        not just for protection. When
+• Razordons: Wicked claws (see below), razor barbs (see below) and                                 angered, a Razordon can
+             scaly skin (counts as heavy armour)                                                   discharge the spines from its
+                                                                                                   body with powerful muscle
+Special Rules: Aquatic, Beast Handlers, Cold Blooded, Fear, Skirmishers                            spasms, showering any
+                                                                                                   would-be assailants in a hail
+*When writing your muster list, a Razordon Pack must contain at least three Skink handlers for     of deadly thorns.
+every one Razordon.
+
+                       R          S        AP    Special Rules
+Wicked claws         Combat       S        -2    -
+
+                         R        S        AP    Special Rules
+Razor barbs             18"       4        -1    Move & Shoot, Multiple Shots (D3),
+                                                 Quick Shot
+Cold One Riders
+                                                                                                                                        Cavalry
+                                      M      WS       BS       S       T       W        I       A       Ld      Points
+Cold One Rider                        -       4        0       4       4       1        2       2        8        34
+Pack Leader                           -       4        0       4       4       1        2       3        8       +7            Cold One Cavalry
+Cold One                              7       3        -       4       -       -        2       2        -         -           Saurus warriors are already
+                                                                                                                               deadly fighters, but when
+Troop Type:  Heavy cavalry                                                                                                     mounted atop a charging
+Base Size:   30 x 60 mm                                                                                                        Cold One they become some
+Unit Size:   5+                                                                                                                of the most fearsome shock
+Equipment:                                                                                                                     cavalry to ever set foot on
+• Cold One Riders: Hand weapons, scaly skin (counts as heavy armour) and shields                                               the battlefield. Those who
+• Cold Ones: Claws and teeth (counts as hand weapons)                                                                          choose to hold against such
+                                                                                                                               a cavalry charge will quickly
+Options:                                                                                                                       find themselves under attack
+• The entire unit may take cavalry spears..........................................................+1 point per model          from not only the snapping
+• Any unit may:                                                                                                                jaws and slashing talons of the
+  - Upgrade one model to a Pack Leader (champion)................................... +7 points per unit                        Cold Ones, but also the keen
+  - Upgrade one model to a standard bearer.................................................... +7 points per unit              thrusts of the Saurus’ long-
+  - Upgrade one model to a musician................................................................. +7 points per unit        bladed spears.
+  - Have the Drilled special rule....................................................................... +2 points per model
+  - Purchase a magic standard worth up to.........................................................................50 points    Terradon Riders
+• A Pack Leader may purchase magic items up to a total of............................................25 points                 These fast moving flyers act
+                                                                                                                               as scouts and messengers
+Special Rules: Armour Bane (1, Cold One only), Armoured Hide (1), Close Order,                                                 during times of war, able
+               Cold Blooded, Fear, Obsidian Blades, Stupidity, Swiftstride                                                     to relocate at a moment’s
+                                                                                                                               notice as they soar above the
+                                                                                                                               jungle canopy. When battle
+Terradon Riders                                                                                                                commences, it is not just
+                                                                                                                               the poison-tipped javelins
+                                     M       WS       BS       S       T       W        I       A       Ld      Points         or scorching fireleech bolas
+Terradon Rider                       -        2        3       3       3       2        4       1        5        32           that the enemy should watch
+Sky Leader                           -        2        4       3       3       2        4       1        5       +6            for, as the Terradons are
+Terradon                             2        3        -       4       -       -        2       1        -         -           notorious for bombarding
+                                                                                                                               their prey with rocks as they
+Troop Type:   Monstrous cavalry                                                                                                swoop overhead, crushing
+Base Size:    40 x 40 mm                                                                                                       armour and skulls alike.
+Unit Size:    3+
+Equipment:
+• Terradon Riders: Hand weapons, calloused hides (counts as light armour) and javelins
+• Terradons: Claws and teeth (counts as hand weapons)
+
+Options:
+• The entire unit may replace javelins with fireleech bolas..........................+1 point per model
+• Any unit may:
+  - Upgrade one model to a Sky Leader (champion)..................................... +6 points per unit
+
+Special Rules: Armoured Hide (1), Cold Blooded, Drop Rocks, Fear, Fly (10),
+               Poisoned Attacks (javelins only), Skirmishers, Swiftstride
+
+                               R          S        AP         Special Rules
+Fireleech bolas                6"        S+1        -         Flaming Attacks, Move & Shoot, Quick Shot
+Ripperdactyl Riders
+                                                                                                              Cavalry
+                              M     WS     BS      S      T     W      I      A     Ld     Points
+Ripperdactyl Rider            -      2      3      3      3     2      4      1      5       40
+Ripperdactyl Champion         -      2      3      3      3     2      4      2      5      +6       Ripperdactyl Riders
+Ripperdactyl                  2      3      -      4      -     -      3      2      -        -      Forgoing the usual javelins
+                                                                                                     and blowpipes, Ripperdactyl
+Troop Type:   Monstrous cavalry                                                                      riders don ceremonial
+Base Size:    40 x 40 mm                                                                             helmets and arm themselves
+Unit Size:    3+                                                                                     with long spears and shields;
+Equipment:                                                                                           a far better combination
+• Ripperdactyl Riders: Cavalry spears, calloused hides (counts as light armour) and shields          of armaments given the
+• Ripperdactyls: Claws and teeth (counts as hand weapons)                                            Ripperdactyl’s inclination
+                                                                                                     towards tearing their prey to
+Options:                                                                                             shreds with sword-like talons.
+• Any unit may upgrade one model to a Ripperdactyl Champion............... +6 points per unit        For reasons unknown, the
+                                                                                                     Ripperdactyl’s favourite food
+Special Rules: Armoured Hide (1), Cleaving Blow (Ripperdactyl only), Cold Blooded,                   is the Lustrian blot toad, an
+               Fear, Fly (9), Furious Charge (Ripperdactyl only), Impetuous, Skirmishers,            odorous creature that drives
+               Swiftstride, Toad Rage                                                                the flying reptiles to be even
+                                                                                                     more bloodthirsty than usual.
+Toad Rage                                                                                            Skinks, being the cunning
+Ripperdactyls are driven into a feeding frenzy by the scent of their favourite food – the Lustrian   creatures that they are, will
+blot toad. Should one of these ugly amphibians seek refuge amongst the ranks of the enemy, flocks    hide blot toads amongst
+of ravenous Ripperdactyls will quickly descend upon them.                                            important targets within the
+                                                                                                     enemy’s ranks, marking them
+Before the game starts, but after Scouts have been deployed, you may place one Lustrian              for a particularly gruesome
+blot toad marker for each unit of Ripperdactyl Riders in your army (counting only units,             death as soon as a pack of
+not including characters mounted on Ripperdactyls). A single blot toad marker can be                 Ripperdactyls catches the
+placed on any enemy unit on the battlefield, this marker remains throughout the battle.              scent of their favourite prey.
+
+When engaged in combat with an enemy unit with a blot toad marker, Ripperdactyls (but
+not their riders) gain the Extra Attacks (1) special rule, and may re-roll any roll To Hit of a
+natural 1.
+Carnosaur
+                                                                                                              Cavalry
+                           M WS BS            S     T    W      I    A Ld                   Points
+Carnosaur                   7     3     0     7 (+1) (+4) 2          4    -                  +170
+Notes: A character mounted on a Carnosaur has +1 Toughness and +4 Wounds.                            Carnosaurs
+                                                                                                     A Carnosaur’s roar is so
+Troop Type:       Behemoth                                                                           greatly feared by the denizens
+Base Size:        50 x 100 mm                                                                        of Lustria, it will silence
+Unit Size:        1                                                                                  the surrounding jungle as
+Equipment:        Slashing talons (see below) and scaly skin (counts as heavy armour)                it echoes through the trees
+Special Rules:    Blood Frenzy, Close Order, Cold Blooded, Large Target, Stomp Attacks (2),          as beasts great and small
+                  Swiftstride, Terror                                                                run and hide in an effort
+                                                                                                     to avoid becoming its next
+Blood Frenzy                                                                                         meal – even Stegadons are
+Carnosaurs are huge, aggressive creatures that become almost impossible to control when they taste   forced to huddle together
+the blood of the enemy.                                                                              and present a wall of pointed
+                                                                                                     horns in the hopes of
+When this model (but not its rider) inflicts an unsaved wound upon an enemy model, it                driving the Carnosaur away.
+becomes subject to the Frenzy special rule. A model with this special rule may become                Once it has tasted blood, a
+Frenzied in this way even if it has lost Frenzy earlier in the game.                                 Carnosaur will enter a state
+                                                                                                     of total bloodlust; biting and
+Note that this model’s rider does not gain a +1 modifier to their Attacks characteristic.            tearing at any living creature
+                                                                                                     it can find. Carnosaur eggs
+                      R      S      AP        Special Rules                                          are highly prized by the
+Slashing talons    Combat S          -3       Multiple Wounds (D3)                                   Lizardmen, as the hatchlings
+Notes: The Multiple Wounds (D3) special rule only applies against enemy models whose troop           can eventually be trained
+type is ‘monster’.                                                                                   to accept a rider and act
+                                                                                                     as mounts for the most
+                                                                                                     venerated Saurus Oldbloods
+  Character Mount: A Carnosaur may only be included in your army as a character’s                    and Scar-Veterans.
+  mount. Its points are added to that of its rider.
+Stegadons
+                                                                                                                                                         Monster
+                                           M        WS       BS         S        T        W         I         A       Ld        Points
+Stegadon                                   6         3        -         5        6        5         2         4        -         215
+Ancient Stegadon                           6         4        -         6        6        5         1         3        -         230            Stegadons
+Skink Crew (x5)                            -         2        3         3        -        -         4         1        6          -             Stegadons are squat creatures
+                                                                                                                                                of immense size and weight,
+Troop Type:   Behemoth                                                                                                                          whose huge heads are covered
+Base Size:    60 x 100 mm                                                                                                                       with crests thicker than any
+Unit Size:    1                                                                                                                                 forged armour, out of which
+Armour Value: 4+                                                                                                                                project enormous horns that
+Equipment:                                                                                                                                      skewer and stab at those
+• Stegadon/Ancient Stegadon: Great horns (see below) and giant bow (see below)                                                                  foolish enough to stand in
+• Skink Crew: Hand weapons and javelins                                                                                                         their path. Since the earliest
+                                                                                                                                                days of their existence,
+Options:                                                                                                                                        the Lizardmen have used
+• A Stegadon may replace its giant bow with giant blowpipes................................................. Free                               Stegadons to clear roadways
+• An Ancient Stegadon may replace its giant bow with:                                                                                           through the jungle, drag huge
+  - Giant blowpipes (see below)....................................................................................................... Free     blocks of masonry to building
+  - Engine of the Gods.............................................................................................................+25 points   sites and other tasks suited
+                                                                                                                                                to such a massive beast of
+Special Rules: Close Order, Cold Blooded, Howdah, Immune to Psychology,                                                                         burden. In war, they carry
+               Impact Hits (D3+1), Large Target, Poisoned Attacks (javelins only),                                                              out devastating shock attacks
+               Stomp Attacks (D3+2), Stubborn, Terror                                                                                           as they trample and gore
+                                                                                                                                                those in their path, as crews
+Engine Of The Gods                                                                                                                              of Skinks hurl javelins and
+An Ancient Stegadon equipped with an Engine of the Gods gains the following special rules:                                                      shoot darts from the safety of
+                                                                                                                                                large howdahs attached to the
+Arcane Configuration: If your army contains two or more Engines of the Gods, friendly                                                           beasts’ backs.
+Wizards may apply a +1 modifier to any Casting roll they make whilst within 6" of an
+Engine of the Gods.                                                                                                                             Ancient Stegadons
+                                                                                                                                                As Stegadons get older, they
+Burning Alignment: This model can cast the following Bound spell, with a Power Level of 3:                                                      grow stronger and more
+                                                                                                                                                resilient. The most revered of
+Type: Magic Missile                                                                                                                             these venerable creatures are
+Casting Value: 8+                                                                                                                               chosen to carry the archaic
+Range: 15"                                                                                                                                      war machine known as the
+Effect: The target enemy unit suffers 2D6 Strength 4 hits, each with an AP of -. This                                                           Engine of the Gods. Though
+Bound spell has the Flaming Attacks special rule.                                                                                               the secrets of these ancient
+                                                                                                                                                machines have been lost to
+                                 R              S         AP          Special Rules                                                             time, when its thrumming
+Great horns                    Combat           S         -3          -                                                                         runes are activated in a
+                                                                                                                                                certain order, lances of light
+                                    R           S         AP          Special Rules                                                             fly from the arcane device,
+Giant bow                          36"          5         -2          Multiple Wounds (D3), Poisoned Attacks                                    sundering the enemies of
+                                                                                                                                                the Lizardmen.
+                                    R           S         AP          Special Rules
+Giant blowpipes                    18"          3          -          Cumbersome, Multiple Shots (2D6),
+                                                                      Poisoned Attacks
+
+   Character Mount: A Stegadon or Ancient Stegadon may be included in your army as
+   a character’s mount. If so, its points are added to that of its rider.
+
+   Note that, because it has the Howdah special rule, a Stegadon or Ancient Stegadon is
+   considered to be a chariot mount, rather than a ridden monster.
+Bastiladon
+                                                                                                                                          Monster
+                                      M        WS      BS       S       T       W         I       A       Ld      Points
+Bastiladon                            4         3       -       4       5       4         1       3        -       160
+Skink Crew (x3)                       -         2       3       3       -       -         4       1        6        -            Bastiladons
+                                                                                                                                 A walking fortress of armour
+Troop Type:   Monstrous creature                                                                                                 plates, the Bastiladon is one
+Base Size:    60 x 100 mm                                                                                                        of the most heavily armoured
+Unit Size:    1                                                                                                                  creatures in Lustria. Covered
+Armour Value: 3+                                                                                                                 in rock-hard leathery skin,
+Equipment:                                                                                                                       even the Bastiladon’s most
+• Bastiladon: Thunderous bludgeon (see below) and Ark of Sotek                                                                   vulnerable areas are all but
+• Skink Crew: Hand weapons and javelins                                                                                          impervious to most weapons,
+                                                                                                                                 and the massive iron-like
+Options:                                                                                                                         plates that cover its back and
+• A Bastiladon may:                                                                                                              head can even thwart the bite
+  - Replace its Ark of Sotek with a Solar Engine...........................................................+15 points            of a Carnosaur. When ridden
+  - Add a fourth Skink crew member.................................................................................. +5 points   to war by Skinks, Bastiladons
+                                                                                                                                 will bear the great weight
+Special Rules: Close Order, Cold Blooded, Immune to Psychology, Impact Hits (D3),                                                of treasured weapons from
+               Impervious Defence, Large Target, Poisoned Attacks (javelins only),                                               deep within the bowels of
+               Stomp Attacks (D3+1), Stubborn, Terror                                                                            the temple cities’ vaults, such
+                                                                                                                                 as a blessed Ark of Sotek or
+Impervious Defence                                                                                                               the destructive might of a
+A Bastiladon is protected by a thick leathery skin, scales and massive iron-like plates.                                         Solar Engine.
+
+Enemy units cannot claim any bonus combat result points for being engaged with this                                              Arks of Sotek
+model’s flank or rear arc.                                                                                                       As the Bastiladon pounds
+                                                                                                                                 towards its enemies, the
+Ark Of Sotek                                                                                                                     Skink crew activate strange
+A Bastiladon equipped with an Ark of Sotek gains the following special rules:                                                    glyphs and rake the coals
+                                                                                                                                 beneath. From out of the
+Slithering Serpents: During the Command sub-phase of its turn, every enemy unit within                                           Ark’s sacred confines pour
+D6" of this model suffers 2D6 Strength 2 hits, each with an AP of -.                                                             forth an endless supply of
+                                                                                                                                 serpents, eager to attack the
+Spawn of Sotek: During the Command sub-phase of its turn, roll a D6. On a roll of 4+, a                                          nearest foe.
+single Jungle Swarm within 6" of this model regains D3 lost Wounds.
+                                                                                                                                 Solar Engine
+Solar Engine                                                                                                                     When activated, a Solar
+A Bastiladon equipped with a Solar Engine gains the following special rules:                                                     Engine radiates invigorating
+                                                                                                                                 rays that, when the attending
+Solar Radiance: Whilst within 6" of one or more Solar Engines, friendly units with the                                           Skink crew intone the correct
+Cold Blooded special rule have a +1 modifier to their Initiative characteristic.                                                 blessings to Chotec, coalesce
+                                                                                                                                 into an intense beam of heat
+Beam of Chotec: This model can cast the following Bound spell, with a Power Level of 2:                                          which burns the foe like the
+                                                                                                                                 rays of the sun itself.
+Type: Magic Missile
+Casting Value: 9+
+Range: 24"
+Effect: The target enemy unit suffers 3D3 Strength 5 hits, each with an AP of -2. This
+Bound spell has the Flaming Attacks special rule.
+
+                             R             S        AP         Special Rules
+Thunderous                 Combat          S        -3         Strike Last
+bludgeon
+Troglodon
+                                                                                                           Monster
+                              M       WS    BS    S     T      W      I     A     Ld     Points
+Troglodon                     7        3     -    5     5      5      2     3      -      200
+Skink Oracle                  -        2     3    3     -      -      4     1      8       -      Troglodons
+                                                                                                  Known as the Pale Death,
+Troop Type:       Monstrous creature                                                              Troglodons are dangerous
+Base Size:        50 x 100 mm                                                                     subterranean creatures that
+Unit Size:        1                                                                               only emerge from their dens
+Equipment:                                                                                        to hunt. Near-blind, they rely
+• Troglodon:  Venomous talons (see below), venom spray (see below) and                            upon a keen sense of smell
+              scaly skin (counts as heavy armour)                                                 and quill-like whiskers to
+• Skink Oracle: Hand weapon                                                                       track movement and hunt
+                                                                                                  their prey, before delivering a
+Magic: A Skink Oracle is a Level 1 Wizard. Every Skink Oracle knows spells from one of            powerful, venom-empowered
+the following Lores of Magic:                                                                     bite. If that wasn’t deadly
+• Battle Magic                                                                                    enough, they can also
+• Illusion                                                                                        spray that same venom in
+                                                                                                  a powerful stream, bathing
+Special Rules: Arcane Vassal, Aquatic, Close Order, Cold Blooded,                                 any would-be attackers in
+               Immune to Psychology, Large Target, Lore of Lustria, Primeval Roar,                the caustic fluid. Whilst
+               Stomp Attacks (2), Stubborn, Terror                                                these twin-tailed beasts are
+                                                                                                  near untamable to most,
+Primeval Roar                                                                                     they will swiftly submit to
+The wailing cry of a Troglodon stirs the savagery within all Lizardmen and proves they have the   Skink Oracles should the
+Old Ones’ favour.                                                                                 diminutive priests need the
+                                                                                                  great beasts’ aid. Mounted
+Once per game, during the Command sub-phase of their turn, this model may attempt to              atop a Troglodon, a Skink
+unleash the primeval savagery of the Lizardmen by making a Leadership test (using its own         Oracle will travel the length
+Leadership). If this test is passed, until the end of that turn all friendly Lizardmen units      and breadth of Lustria in
+within 7" of this model gain the Furious Charge special rule.                                     search of the Old Ones’
+                                                                                                  lost artefacts in the hopes
+                  R               S        AP    Special Rules                                    of divining more of the
+Venomous talons Combat            S        -2    Poisoned Attacks                                 Great Plan.
+
+                            R       S AP     Special Rules
+Venom spray               N/A       3 -1     Breath Weapon
+Notes: When a model using this weapon makes a roll To Wound, a roll of 5+ is always a success,
+regardless of the target’s Toughness.
+                  Disciplines Of The Old Ones
+T    he Slann Mage-Priests possess prodigious knowledge of matters both mundane and metaphysical, and they display an
+     impressive arsenal of arcane abilities and mental attributes.
+
+A Slann Mage-Priest may purchase a single Discipline of the Old Ones.
+
+Higher State Of Mind....................................... 60 points    Transcendent Healing....................................... 35 points
+So deep are the thoughts of the Mage-Priest that its physical body       By force of will alone, the Slann heals the wounds inflicted upon
+becomes a ghostly image as it slips further away from this reality.      its body.
+
+This character gains the Ethereal special rule.                          This character gains the Regeneration (5+) special rule.
+
+Becalming Cogitation........................................ 50 points   Sorcerous Void..................................................... 30 points
+With a belching croak, the Slann smothers the power of                   Closing its eyes and breathing deeply, the Slann Mage-Priest calms
+enemy spells.                                                            the Winds of Magic, causing enemy spells to falter and fail.
+
+Once per turn, the Slann Mage-Priest may re-roll one of the              This character gains the Magic Resistance (-D3) special rule.
+D6 when making a Wizardly dispel attempt. In addition, this              Roll the D3 before armies are deployed.
+character increases their Dispel range by 3".
+                                                                         Harrowing Scrutiny...........................................20 points
+Wandering Deliberations..................................40 points       The unblinking gaze of this Slann Mage-Priest carries a measure of
+The wandering mind of the Slann reflects upon the nature of many         the scrutiny of the Old Ones.
+and varied magical disciplines.
+                                                                         This character gains the Terror special rule.
+Instead of generating spells normally, this character
+knows four signature spells, chosen from the following                   Soul Of Stone....................................................... 10 points
+Lores of Magic: Battle Magic, Daemonology, Dark Magic,                   Both the mind and body of the Slann Mage-Priest is hardened
+Elementalism, High Magic, Illusion and Necromancy. The                   against the ill effects of magic.
+character may discard one of these signature spells in favour of
+a spell from the Lore of Lustria (see page 21).                          When rolling on the Miscast table, this character can modify
+                                                                         the result by -1 (to a minimum of 2), or by +1 (to a maximum
+                                                                         of 12).
+                                Lizardmen                                                                                         Magic Items
+                                Magic Items
+The pages that follow detail magic items unique to Lizardmen armies. These can be                                           Magic Items
+purchased by models within a Lizardmen army in exactly the same way as Common                                               The Old Ones were masters
+magic items, as described in the Warhammer: the Old World rulebook.                                                         of the mystic arts, arcane
+                                                                                                                            engineers who could
+Extremely Common Magic Items: Any magic item marked with an asterisk (*)                                                    manipulate the very fabric
+is considered to be extremely common, as described in the Warhammer: the Old                                                of space and time with but
+World rulebook.                                                                                                             a thought. They created a
+                                                                                                                            great many devices which
+Magic Weapons                                                                                                               they gifted to their subject
+                                                                                                                            races, so that their servants
+Blade Of Revered Tzunki..............................................................................65 points              might wield a portion of the
+Supposedly wielded by the legendary Tzunki, this exquisite weapon hums as it cuts through the air.                          Old Ones’ own powers in the
+                                                                                                                            pursuance of the Great Plan.
+                       R         S     AP      Special Rules
+Blade of            Combat S+1          *      Magical Attacks                                                              When the Great Catastrophe
+Revered Tzunki                                                                                                              struck and the Old Ones
+Notes: *No armour or Ward saves are permitted against wounds caused by the Blade of Revered                                 departed the world, a large
+Tzunki (Regeneration saves can be attempted as normal).                                                                     number of these devices
+                                                                                                                            were lost with them. The
+Scimitar Of The Sun Resplendent...............................................................50 points                     operation of the few artefacts
+As light as a dagger, this curved blade invigorates its wielder with the power of the sun.                                  that survive turned long ago
+                                                                                                                            from science to superstition.
+                            R             S       AP        Special Rules                                                   Indeed, so great has the loss
+Scimitar of the           Combat          S       -1        Extra Attacks (+D3), Flaming Attacks,                           of knowledge been that it
+Sun Resplendent                                             Magical Attacks                                                 is believed there still exist
+                                                                                                                            great repositories of magical
+Staff Of The Lost Sun.....................................................................................40 points         devices that the Lizardmen
+Made of an alien metal, the Staff of the Lost Sun projects beams of hot light from its tip, searing                         have lost all knowledge of.
+the flesh of those caught in the blast.
+
+Staff of the Lost Sun R          S      AP       Special Rules
+Ranged                  12"       4      -3      Magical Attacks, Multiple Shots (3)
+Combat               Combat S+1           -      Magical Attacks, Requires Two Hands
+Notes: The Staff of the Lost Sun has two profiles, representing its use as both a combat and
+missile weapon.
+
+Piranha Blade...................................................................................................35 points
+The blade of this weapon is inlaid with thousands of tiny barbed teeth that rip and tear through
+the flesh of the enemy.
+
+                            R             S       AP        Special Rules
+Piranha blade             Combat          S       -1        Magical Attacks, Multiple Wounds (2)
+Magic Armour                                                                  Magic Standards
+Shield Of The Mirror Pool...............................40 points             Sun Standard Of Chotec...................................40 points
+Hostile enemy magic is absorbed by this ancient shield, and                   Beams of reflected sunlight blind all who look too long upon the Sun
+reflected back upon the caster.                                               Standard of Chotec.
+
+The Shield of the Mirror Pool is a shield. In addition, each                  Enemy units cannot declare a Stand & Shoot charge reaction
+time the bearer loses one or more Wounds to a Magic Missile,                  against a unit carrying the Sun Standard of Chotec. In
+the caster suffers a single Strength 5 hit with an AP of -2.                  addition, any enemy model that targets a unit carrying this
+                                                                              banner during the Shooting phase suffers an additional -1 To
+Hide Of The Cold Ones.....................................20 points           Hit modifier.
+The hide of a Cold One exudes a toxic slime that dulls the
+wearer’s mind.                                                                Skavenpelt Banner.............................................. 35 points
+                                                                              The stench of this ragged Skaven hide fires the blood of those who
+May be worn with other armour. The wearer of the Hide                         venerate Sotek.
+of the Cold Ones improves their armour value by 1 (to a
+maximum of 2+). However, its wearer is also subject to the                    A unit carrying the Skavenpelt Banner gains the Frenzy and
+Stupidity special rule.                                                       Hatred (Skaven) special rules.
+
+Talismans                                                                     Totem Of Prophecy............................................30 Points
+                                                                              Those who look upon this totem witness the truth and learn of their
+Glyph Necklace................................................... 45 points   insignificance in the scheme of the Old Ones.
+This ancient token of protection wards off attacks, causing enemies
+to fumble their blows.                                                        A unit carrying the Totem of Prophecy gains the Fear
+                                                                              special rule.
+The bearer of the Glyph Necklace has a 5+ Ward save against
+any wounds suffered and gains the Magic Resistance (-2)                       Jaguar Standard..................................................20 points
+special rule.                                                                 Those in the shadow of this jungle beast hunt down their enemies
+                                                                              with relentless ferocity.
+Aura Of Quetzl...................................................40 points
+Blessed by Quetzl, this string of beaded shells, feathers and bones           When a unit carrying the Jaguar Standard makes a Pursuit
+exudes a powerful protective aura.                                            roll, it may roll an extra D6 and discard the lowest result.
+
+Any enemy model that directs its attacks against the bearer
+of the Aura of Quetzl during the Combat phase suffers a -1
+modifier to its rolls To Hit.
+Enchanted Items                                                                 Arcane Items
+Cloak Of Feathers...............................................40 points       Cube Of Darkness*............................................. 50 points
+When the wearer of this finely woven cloak extends their arms, the              Through careful contemplation, this small black cube may be
+feathers rise up like powerful wings, lifting them into the air.                opened for a fraction of a second, drawing the Winds of Magic into
+                                                                                its depths.
+Skink Heroes whose troop type is ‘infantry’ only. The wearer
+of the Cloak of Feathers gains the Fly (10) and Swiftstride                     Single use. A Wizard may use this item instead of making a
+special rules.                                                                  dispel attempt. If they do so, the spell is automatically dispelled
+                                                                                with no Dispel roll required. In addition, all ‘remains in play’
+Venom Of The Firefly Frog............................... 15 points              spells currently in play are dispelled, including spells cast by
+Extracted from the rare and deadly firefly frog, even a tiny amount             friendly Wizards.
+of this poison can prove fatal.
+                                                                                Itxi Grub*............................................................. 30 points
+All attacks made during the Combat phase by the bearer of                       The Wizard carries a gourd containing magically charged (and
+the Venom of the Firefly Frog have the Poisoned Attacks and                     delicious) Itxi grubs.
+Flaming Attacks special rules.
+                                                                                Single use. Before making a Casting roll, the bearer may
+Note that this only applies to non-magical weapons and does not                 attempt to consume a single Itxi Grub by making a Toughness
+apply to a model’s mount (should it have one).                                  test. If this test is passed, the bearer may apply a +3 modifier
+                                                                                to the Casting roll. However, if this test is failed, the bearer
+Horned One*........................................................ 10 points   immediately loses a single Wound.
+Horned Ones are a very rare, highly intelligent and preternaturally
+swift sub-species of Cold One.                                                  Cupped Hands Of The Old Ones.................... 55 points
+                                                                                A sphere of glowing light extends around the bearer as the divine
+This magic item may only be taken by a Saurus Hero mounted                      protection of the Old Ones deflects the uncontrolled maelstrom of
+on a Cold One. This character’s mount loses the Stupidity                       the Winds of Magic.
+special rule and has Movement characteristic of 8.
+                                                                                Should the bearer of the Cupped Hands of the Old Ones
+                                                                                miscast a spell, roll a D6. On a roll of 1, the bearer rolls on the
+                                                                                Miscast table as normal. On a roll of 2+, the bearer instead
+                                                                                nominates an enemy character. Centre a 3" blast template over
+                                                                                this character. Every model whose base lies underneath the
+                                                                                template risks being hit and suffering a single Strength 6 hit
+                                                                                with an AP of -2.
+                        Lizardmen Special Rules
+A   game of Warhammer: the Old World is packed with fantastic creatures and skilled warriors with abilities so incredible
+    and varied that the basic rules cannot possibly cover them all. For such circumstances we have special rules –
+ uncommon rules to govern uncommon circumstances.
+
+On this page you will find a full description for each of the army special rules used by models drawn from the Lizardmen army list:
+
+Arcane Vassal                                                          Cleaving Blow
+Slann Mage-Priests are able to view the world and channel              With a swift and deadly strike, a skilled warrior can cleave
+their sorcery through the eyes of their attendant Skink Priests        through armour.
+and Oracles.
+                                                                       If a model with this special rule rolls a natural 6 when making
+Once per turn, unless this model is fleeing or engaged in              a roll To Wound for an attack made in combat, it has struck
+combat, a single friendly Slann Mage-Priest that is within             a ‘Cleaving Blow’. Enemy models whose troop type is ‘regular
+12" of this model may ‘channel’ a spell through this model.            infantry’, ‘heavy infantry’, ‘light cavalry’, ‘heavy cavalry’ or
+If they do, the range, targeting restrictions and all effects of       ‘war beasts’ are not permitted an armour or Regeneration
+the spell are measured from this model, rather than from the           save against a Cleaving Blow (Ward saves can be attempted
+caster. If the spell requires a line of sight, it is determined from   as normal).
+this model.
+                                                                       Note that if an attack wounds automatically, this special rule
+Note that spells with a range of ‘Self’ cannot be channelled in        cannot be used.
+this way.
+                                                                       Cold Blooded
+Aquatic                                                                To other races, the cold blooded Lizardmen seem incapable
+Many of Lustria’s denizens have an affinity for water, moving with     of emotion.
+equal ease through swamp and river as they do over land.
+                                                                       When required to make a Fear, Panic or Terror test, models
+Models with this special rule do not suffer any modifiers              with this special rule may roll an extra D6 and discard the
+to their Movement characteristic when moving through                   highest result.
+any difficult or dangerous terrain feature which has been
+designated a ‘water feature’. This might include shallow               Drop Rocks
+streams or fords, swampy ground, fast flowing rivers, ponds or         Skinks train Terradons to glide over the battlefield clutching great
+lakes, and players should agree prior to the game if any terrain       rocks in their talons.
+is a water feature.
+                                                                       Once per game, a unit with this special rule may perform a
+Beast Handlers                                                         ‘Drop Rocks’ attack against a single enemy unit that is not
+Salamanders and Razordons are wild creatures that are often            engaged in combat. To do so, this unit must move (by flying)
+herded into battle by teams of fearless Skink Handlers.                over the unit it wishes to attack during the Remaining Moves
+                                                                       sub-phase. Once this unit’s movement is complete, the enemy
+When an enemy unit shoots at a Salamander or Razordon                  unit suffers D3 Strength 4 hits, each with an AP of -, for each
+Pack that contains one or more Skink Handlers, the enemy               model in this unit that moved over it.
+player must roll a D6 for each successful roll To Hit before
+making any rolls To Wound. On a roll of 1-4, the hit is                Obsidian Blades
+inflicted upon a Salamander or Razordon. On a roll of 5+,              Lizardmen favour weapons studded with shards of razor sharp
+the hit is inflicted upon a Skink Handler. In combat, enemy            volcanic glass that cut through flesh and armour with ease.
+models must allocate their attacks against a model they are
+in base contact with (or against the closest model if they are         A hand weapon carried by a model with this special rule has
+within the fighting rank but not in base contact) before rolling       an Armour Piercing characteristic of -1.
+To Hit.
+                                                                       Note that this special rule only applies to a single, non-magical
+                                                                       hand weapon and does not apply to a model’s mount (should it
+                                                                       have one). If the model is using two hand weapons or any other sort
+                                                                       of weapon, this special rule ceases to apply.
+                                        Lore Of Lustria
+T    he Slann Mage-Priests are masters of magic able to wield tremendous power with almost contemptuous ease. With
+     this power they are able to alter the environment around them and the fates of their loyal servants, summoning rains
+to wash away their foes, or calling upon the Winds of Magic to heal their champions.
+
+A Wizard with the ‘Lore of Lustria’ special rule may discard one of their randomly generated spells as normal. When they do so,
+they may select instead either the signature spell of their chosen Lore of Magic, or one of the spells listed below.
+
+
+  Apotheosis                                                           Monsoon
+  Waves of pure magic infuse the caster’s ally, healing their wounds   Without warning, an eight-winded storm breaks about the
+  and giving them a palpable aura of power and dread.                  foe. Torrential rain drenches weapons and armour, loosening
+                                                                       bowstrings and soaking black powder.
+  Type: Enchantment
+  Casting Value: 10+/12+                                               Type: Magical Vortex
+  Range: 24"                                                           Casting Value: 8+
+  Effect: This spell can only target friendly characters whose         Range: 15"
+  troop type is ‘infantry’ or ‘cavalry’, but may target characters     Effect: Remains in play. Place a large (5") blast template
+  engaged in combat. If this spell is cast with a casting result of    so that its central hole is within 15" of the caster. Whilst in
+  10 or more, the target friendly model immediately regains            play, the template is treated as dangerous terrain over which
+  D3 lost Wounds. If this spell is cast with a casting result of       no line of sight can be drawn. The template moves D6" in
+  12 or more, the target friendly model immediately regains            a random direction during every Start of Turn sub-phase.
+  D3+1 lost Wounds.                                                    Any enemy unit the moving template touches or moves
+                                                                       over becomes ‘drenched’ for the remainder of the game.
+  In addition, the target friendly character gains the Fear
+  special rule. If they already have the Fear special rule, they       A drenched unit suffers a -1 To Hit modifier during the
+  instead gain the Terror special rule.                                Shooting phase. A drenched model whose troop type is ‘war
+                                                                       machine’ must roll a D6 before shooting. On a roll of 1, the
+                                                                       model fails to shoot this turn.
+

@@ -1,0 +1,26 @@
+// v838 — Reglas de No muertos (Reyes Funerarios / Condes Vampiro) y personajes (lote 6)
+import { T, N, R, DATA, game, pair, ok, eq, dice, diceAll, withSr, withoutSr, join, U, put, cur, msgs, by, all, D, F, FOE, engage, charged, fight, prof, asks, asked } from '../lib3.mjs';
+const RS = (k) => `app/js/data.js (regla «${k}»)`;
+const mv = (type, march, d = 9) => { const s = game([{ type, models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: [F(type), FOE(type)], phase: 'move' }); const u = put(U(s, type, 0), 36, 50); cur(s); return R.previewMove(s, u.id, { x: 36, y: 50 - d, face: u.face }, march); };
+T('rule-undead', RS('undead'), 'No muertos de Nehekhara: no pueden marchar; Miedo, Inmune a la psicología, Inquebrantable e Inestable; un personaje con la regla no puede unirse a una unidad sin ella ni viceversa', () => {
+  const m = mv('tk_warriors_ph', true); ok(!m.ok && /No muertos/.test(m.reason), 'no marchan: ' + m.reason); ok(mv('tk_warriors_ph', false, 3).ok, 'sí mueven normal');
+  const s = game([{ type: 'tk_warriors_ph', models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: ['tk', 'orcs'], phase: 'move' }); const u = U(s, 'tk_warriors_ph', 0); cur(s); for (const k of ['fear', 'immunePsy', 'unbreakable', 'unstable']) ok(R.has(u, k), 'tiene ' + k);
+  const j = game([{ type: 'tk_hpriest', models: 1 }, { type: 'tk_warriors_ph', models: 10 }, { type: 'state_troops', models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: ['tk', 'orcs'], phase: 'move' });
+  const ch = put(U(j, 'tk_hpriest', 0), 36, 40), tk = put(U(j, 'tk_warriors_ph', 0), 36, 44); cur(j); ok(!R.joinCheck(j, ch, tk), 'un Sacerdote se une a No muertos'); const ch2 = game([{ type: 'empire_captain', models: 1 }, { type: 'tk_warriors_ph', models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: ['tk', 'orcs'], phase: 'move' }); put(U(ch2, 'empire_captain', 0), 36, 40); put(U(ch2, 'tk_warriors_ph', 0), 36, 44); cur(ch2); ok(/No muertos/.test(R.joinCheck(ch2, U(ch2, 'empire_captain', 0), U(ch2, 'tk_warriors_ph', 0)) || ''), 'un personaje sin la regla no se une a No muertos');
+});
+T('rule-necroUndead', RS('necroUndead'), 'No muertos necrománticos: no pueden marchar; Miedo, Inmune a la psicología, Inquebrantable e Inestable; personaje/unidad no se mezclan con quien no los tiene', () => {
+  const m = mv('vc_zombies', true); ok(!m.ok && /No muertos/.test(m.reason), 'no marchan: ' + m.reason);
+  const s = game([{ type: 'vc_zombies', models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: ['vc', 'orcs'], phase: 'move' }); const u = U(s, 'vc_zombies', 0); cur(s); for (const k of ['fear', 'immunePsy', 'unbreakable', 'unstable']) ok(R.has(u, k), 'tiene ' + k);
+  const j = game([{ type: 'empire_captain', models: 1 }, { type: 'vc_zombies', models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: ['vc', 'orcs'], phase: 'move' }); put(U(j, 'empire_captain', 0), 36, 40); put(U(j, 'vc_zombies', 0), 36, 44); cur(j); ok(/No muerto/.test(R.joinCheck(j, U(j, 'empire_captain', 0), U(j, 'vc_zombies', 0)) || ''), 'un personaje vivo no se une a No muertos necrománticos');
+});
+T('rule-darkVit', RS('darkVit'), 'Vitalidad oscura: los vampiros y nigromantes no están sujetos a Muerte del General y pueden marchar', () => {
+  const a = mv('vc_count', true); ok(a.ok, 'un Conde Vampiro puede marchar: ' + a.reason); ok(!mv('vc_zombies', true).ok, 'control: los zombis no');
+  const run = (type) => { const s = game([{ type: 'vc_count', models: 1 }, { type, models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: ['vc', 'orcs'], phase: 'strategy', active: 0 }); cur(s); R.hieroInit(s); const u = U(s, type, 0); s.hieroDead[0] = true; s.hieroPend = [0]; diceAll(6); const w0 = u.models + u.wounds; const ev = []; R.hieroPhaseEnd(s, ev); return w0 - (u.models + u.wounds); };
+  eq(run('vc_count'), 0, 'el Conde no se desmorona'); ok(run('vc_zombies') > 0, 'los zombis sí (Muerte del General)');
+});
+T('rule-hierophant', RS('hierophant'), 'Hierofante: el Sacerdote de mayor nivel; si muere, los No muertos pierden la Regeneración y al inicio de cada turno hacen un chequeo de Liderazgo: pierden tantas Heridas como lo fallen', () => {
+  const s = game([{ type: 'tk_hpriest', models: 1 }, { type: 'tk_mpriest', models: 1 }, { type: 'tk_warriors_ph', models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: ['tk', 'orcs'], phase: 'strategy', active: 0 }); cur(s); R.hieroInit(s);
+  eq(s.hiero[0], U(s, 'tk_hpriest', 0).id, 'el Hierofante es el Sacerdote de mayor nivel'); const tk = U(s, 'tk_warriors_ph', 0); const ev = []; U(s, 'tk_hpriest', 0).models = 0; U(s, 'tk_hpriest', 0).wounds = 0; R.hieroSync(s, ev); ok(s.hieroDead[0] === true, 'al caer el Hierofante ' + msgs(ev).slice(0, 80));
+  diceAll(6); const w0 = tk.models + tk.wounds; R.hieroPhaseEnd(s, ev); ok(tk.models + tk.wounds < w0, 'los No muertos pierden tantas Heridas como lo falla el chequeo');
+  const c = game([{ type: 'tk_warriors_ph', models: 10 }], [{ type: 'orc_boyz', models: 10 }], { f: ['tk', 'orcs'], phase: 'strategy', active: 0 }); cur(c); R.hieroInit(c); diceAll(6); const u = U(c, 'tk_warriors_ph', 0); eq(R.woundAndSave(c, u, 4, 4, 0, { noArmour: true }).through, 0, 'con Hierofante: Regeneración 6+ salva con 6'); c.hieroDead[0] = true; eq(R.woundAndSave(c, u, 4, 4, 0, { noArmour: true }).through, 4, 'sin Hierofante pierden la Regeneración');
+});

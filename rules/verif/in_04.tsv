@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+dawn_renegade_sc.tsv	cathay_dawn-021	cathay_dawn.txt:316-320	¡Huida!: unidad que huye ocupando un edificio no se mueve (cuenta como huyendo, se esconde tras los muros)	OK	rules.js:1491-1520,6405 (edificios Dawn: garrison, plantillas, cañón, asalto, rotura)	runAway la saca del edificio y la hace huir
+faq_core_4.tsv	FC4-40	p17 izq / Murallas	Con Murallas: debe declarar la carga si está obligada, pero no se mueve y falla	OK	rules.js:3510; 2822; 5509	noCharge excluye la carga; mismo resultado (no se mueve)
+core_8.tsv	core_8-016	Elementalismo p.326 l.10417	Espada Flamigera: Asalto 8+ (FAQ 7+), D6+1 impactos F3 FP-, Ataques flamigeros	OK	data.js:2326	
+leg_darkelves.tsv	leg_darkelves-011	leg_darkelves.txt:90-91	Con General Maestro de Bestias, 0-1 Hidra o Kharibdyss como Especial	OK	data.js compCats deGen	General = marcado o mayor Ld/coste (criterio del motor)
+leg_skaven.tsv	leg_skaven-049	leg_skaven.txt:177-178	Mosquete: con 1 natural al impactar, otra tirada y con 1 pierde una Herida	OK	data.js:sk_engineer opts mu nat1 w1; rules.js nat1 w1	
+leg_daemons.tsv	leg_daemons-264	leg_daemons.txt L1323-1330	Demoniaco: Inestabilidad, Miedo, Inmune a psicologia, Ataques magicos, Inquebrantable, Engendro de la disformidad	OK	data.js sr warpSpawned en todos los Demonios	Sin 'warpSpawned' en ningun Demonio; resto OK
+faq_core_4.tsv	FC4-41	p17 izq / Murallas	No puede hacer reacción Contracarga	OK	rules.js:2940	
+core_8.tsv	core_8-080	Talismanes p.339 l.11090	Piedra de Obsidiana* 20: hasta tres, Resistencia a la magia (-1/-2/-3)	OK	data.js:2548; rules.js:1478 mrItems	Se acumula por suma; limite de tres no verificado en validacion
+faq_core_2.tsv	F2-014	Errata p.333 Vortice Espiritual	"A 8"" o menos de uno o mas Vortices, los enemigos sufren -1 Ld (minimo 2)"	OK	rules.js:1403; rules.js:1359	vxNear mide desde el borde de la plantilla; solo enemigos del lanzador
+leg_vampires.tsv	leg_vampires-019	leg_vampires.txt:71	Raras: 0-1 unidad de Caballeros de Sangre por 1.000 pts	OK	data.js:4536	
+leg_skaven.tsv	leg_skaven-060	leg_skaven.txt:232-235	Sacerdote: infantería (personaje), 25x25, equipo arma de mano	OK	data.js:sk_plaguepriest	Warpstone ap1 con arma única; ahw anula
+core_4.tsv	C4-053	Oddball combate p.158	Característica 0: HA 0 siempre falla/recibe automático; A 0 no ataca	OK	rules.js ~4799 (dd.WS===0 impacto automático)	Ya implementado
+leg_lizardmen.tsv	leg_lizardmen-143	leg_lizardmen.txt:664-666	Troglodon: Arcane Vassal, Aquatic, Close Order, Cold Blooded, Immune, Large, Lore of Lustria, Stomp (2), Stubborn, Terro	OK	data.js:1742	
+aj_dwarfs2.tsv	aj_dwarfs2-063	aj_dwarfs2.txt L783-784	Cualquier Ingeniero puede mejorarse a Expeditionary Marksman por +10 pts	OK	data.js:5216 (opt em +10 en Ingeniero/Zapador)	
+aj_wood2.tsv	aj_wood2-063	aj_wood2.txt:962-1008	Reglas Orion: Golpea Primero, Terror, Inquebrantable	OK	data.js:712	
+aj_wood2.tsv	aj_wood2-123	aj_wood2.txt:1424-1432	"Eternal Kindred +20: infantería; re-roll 1 al impactar; re-roll fallos al herir a 6"" de elemento especial"	OK	data.js:3134; rules.js:4192	
+aj_bretonnia.tsv	aj_bretonnia-134	aj_bretonnia.txt L1515-1517	0-1 unidad por 1.000 pts con Orden cerrado o Escaramuzadores (gratis) en vez de Orden abierto	OK	data.js:5394-5395; 4469	
+aj_orcs2.tsv	aj_orcs2-069	aj_orcs2.txt:1099-1100	Ogros: perfil: Ogro M6 HA3 HP2 F4 R4 H3 I2 A3 Ld7 31 pts; Crusher A4 +7	OK	data.js:837 (M6 WS3 BS2 S4 T4 W3 I2 A3 Ld7 ppm 31)	Crusher A4 no verificado
+cathay.tsv	cathay_notes-013	cathay_notes.md perfil Fire Rain Rocket Battery	130 pts; maquina R6 H3; dotacion 3	OK	data.js:2239	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-138	leg_chaosdwarfs.txt:373-375	Wolf Riders: Boss +8, estandarte +6, musico +6	OK	data.js:2458 [8,6,6]	
+faq_core_3.tsv	47	FAQ Core p.12 Reglas Universales	Impactos con perfil dividido: solo la montura; en carro el carro; Impactos propios del jinete por separado	OK	rules.js chargeImpacts riderPass	Impactos propios del jinete (objeto) aparte de los de la montura
+aj_highelves.tsv	aj_highelves-083	aj_highelves.txt:1317-1322	Tejedor de Tormentas perfil M5 HA4 HP4 F3 R3 H2 I4 A2 L9, 85 pts; infantería regular; arma de mano	OK	data.js:1525-1527	
+leg_daemons.tsv	leg_daemons-228	leg_daemons.txt L1119-1124	Armour of Khorne 40: armadura pesada y salvacion 5+	OK	data.js:2928	
+leg_skaven.tsv	leg_skaven-197	leg_skaven.txt:786-793	"Too Horrible to Die: 1-3 muere, 4-5 enjambre de ratas (1 modelo, a 3""), 6 recupera D3 Heridas"	OK	rules.js:1509-1514, 2601	
+cathay.tsv	cathay_aj-136	cathay_aj.txt 3135-3140	Hoja celestial: F+1, FP-1, Golpear primero (combate)	OK	data.js:4112 cb melee sb1 ap1 strikeFirst	
+battlemarch_quickref.tsv	battlemarch-053	battlemarch.txt L1281-1284	Drazgog: Chamán Goblin (Oddgit) nivel 1 con arma de mano, 60 pts	OK	data.js:5637	Coste motor = 60
+aj_empire2.tsv	aj_empire2-136	aj_empire2.txt:1624-1631	Escudo de la Gorgona: 40 pts, escudo; enemigos en contacto con el portador -1 Ataques (mín. 1)	OK	data.js:2831; rules.js:4163	
+battlemarch_quickref.tsv	battlemarch-011	battlemarch.txt L800-812	"Weisnicht: puente o vado (terreno abierto) de hasta 8"" en el centro"	OK	"rules.js:596-599 (hueco de 8"" centrado)"	
+leg_daemons.tsv	leg_daemons-251	leg_daemons.txt L1250-1260	Staff of Change 65: F, PA-1, flamigera, magica; R test o pierde todas las Heridas	OK	data.js:2951	
+core_8.tsv	core_8-105	Objetos arcanos p.341 l.11157	Pergamino de Poder* 20: un solo uso, tirada de lanzamiento con un D6 extra descartando el menor; doble 1 en dos dados = Desastre	OK	data.js:3157; rules.js:3697,56	Se usa siempre en el primer lanzamiento (el jugador no decide)
+aj_chaos2.tsv	aj_chaos2-140	aj_chaos2.txt L1436-1440	Engendro Gigante: behemoth, peana 60x100, unidad 1, armadura pesada (escamas)	OK	data.js gspawn baseW 60 baseD 100	
+battlemarch_quickref.tsv	battlemarch-088	battlemarch.txt L1640-1649	Trofeos de guerra: +25 PV por estandarte capturado y +25 si el Portaestandarte de batalla enemigo muere/huye	OK	rules.js:5956,5958	
+aj_beasts2.tsv	aj_beasts2-071	aj_beasts2.txt:1121-1122	Father of Beasts: Manadas de Centigors amigas en alcance de mando repiten el D6 de la tabla Drunken	OK	rules.js:5477	Se aplica a cualquier unidad Drunken amiga, no solo Centigors
+battlemarch_quickref.tsv	quickref-064	quickref.txt L238-239	Resultado: ataque de flanco +1, retaguardia +2	OK	rules.js sideScore (C4-009)	
+leg_vampires.tsv	leg_vampires-090	leg_vampires.txt:427-430	Infantería regular, 25x25, 10+, armas de mano, armadura ligera y escudos	OK	data.js:1887 vc_skeletons sin máximo	
+leg_daemons.tsv	leg_daemons-076	leg_daemons.txt L322-327	Gran Inmundo: Mago nivel 1; Saberes Batalla, Daemonologia, Oscura	OK	data.js:1961,4680	
+faq_core_1.tsv	FQ1-067	Errata p.220 Maximum Armour Value	Carro, monstruo o máquina no mejor que 3+	OK	rules.js:1588 (tope 3+)	monInf/monCav no son «monstruos» en el sentido de la regla
+leg_daemons.tsv	leg_daemons-173	leg_daemons.txt L806-808	Horrores Azules: Horror Ectoplasmico (campeon) +6	OK	data.js:5646 (bloque v620) CMD.dm_bluehorrors [6,..]	No hay campeon
+aj_dwarfs2.tsv	aj_dwarfs2-098	aj_dwarfs2.txt L1086-1087	Sapper: Dig In!, Dwarf Crafted, Gromril Armour, Hatred, MR(-1), Resolute, Stubborn	OK	data.js mkVariant dw_sapper sr explícito (digIn, sin Artillery Master/Stand Back/Entrench)	
+aj_orcs2.tsv	aj_orcs2-011	aj_orcs2.txt:548-549	Goods Cart: reglas especiales: Odio (Orcos y Goblins), Impactos (1), Resistencia mágica (-1), Orden abierto, Resuelto	OK	data.js:806 (sr hatredOrcs impact magRes openOrder resolute)	
+aj_bretonnia.tsv	aj_bretonnia-123	aj_bretonnia.txt L1463-1465	Monje del Grial: modelo de grupo de mando con las reglas de campeon (Guardian + Monje = dos campeones)	OK	rules.js:748 (champ2)	
+core_3.tsv	c3-132	7+ To Hit (p.139)	Con 7+ hay que sacar 6 y repetir 4+/5+/6; 10 imposible	OK	hitRoll rules.js:1547-1553	
+core_8.tsv	core_8-005	Daemonologia p.323 l.10238	Recipiente Demoniaco: Enchantment 10+ (FAQ 9+), Propio; lanzador, montura y unidad +1 F y A (max 10) y +1 FP de sus armas hasta fin de turno	OK	data.js:2404; rules.js:3618,3936,3959	CV 9 por FAQ; F y A verificados; +1 FP de armas no localizado en la linea del efecto (se asume en attackProfile)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-254	leg_chaosdwarfs.txt:765-773	Daemonic Familiar 30: enemigos trabados reducen en 1 sus Ward/Regeneracion (min 6+)	OK	data.js:2913; rules.js:1697-1699	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-180	leg_chaosdwarfs.txt:522-523	Goring horns: S+1 FP-3 Flaming, Strike First; un ataque por turno con el arma	OK	rules.js:~4747 horn S+1 FP-3 + sfWpn Golpear primero	Un ataque de cuernos modelado; S+1/FP-3/Strike First no verificados
+battlemarch_quickref.tsv	battlemarch-195	battlemarch.txt L2934-2940	Pergamino de Convocación Ígnea*: un uso, lanzar Bola de Fuego de Magia de Batalla en lugar de un hechizo	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+faq_libros.tsv	F63	FoF AJ Renegade Crowns p.43 Feint & Dodge	Una vez por partida el enemigo repite sus impactos exitosos	OK	rules.js:4229, 4499 (feintUsed)	Limitado a min(impactos, Ataques del enemigo)
+core_6.tsv	core6-003	Bolt Throwers / Through & Through	Un impacto por columna si el lanzavirotes está en el arco de flanco	OK	rules.js:2497 (sideOf==='flank' ? files)	
+leg_daemons.tsv	leg_daemons-233	leg_daemons.txt L1119-1125	Great Standard of Sundering 45: magos enemigos con linea de vision a el -1 a lanzar	OK	rules.js:4321 auraCast.los (linea de vision)	"Radio 18"" en vez de linea de vision"
+core_3.tsv	c3-136	Armour Save (p.141)	Se salva con tirada igual o mayor al valor de armadura	OK	woundAndSave0 rules.js:1709-1716	

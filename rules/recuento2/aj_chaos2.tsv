@@ -1,0 +1,181 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+aj_chaos2-001	aj_chaos2.txt L1-15	Índice y créditos del libro	NA	-	
+aj_chaos2-002	aj_chaos2.txt L40-182	Los Poderes Ruinosos, Yermos del Caos, Tribus del Norte: ambientación	NA	-	
+aj_chaos2-003	aj_chaos2.txt L183-280	Naciones bárbaras, confederaciones tribales, tribus del Sabueso/Cuervo/Serpiente/Águila	NA	-	Solo trasfondo
+aj_chaos2-004	aj_chaos2.txt L281-351	Hordas del Caos, Marcas del Caos, tribus (ilustraciones y descripción de miniaturas)	NA	-	
+aj_chaos2-005	aj_chaos2.txt L352-516	La Saga de la Forjadora de Cadenas (relato de Hollum/Aarnau/Marienburg)	NA	-	
+aj_chaos2-006	aj_chaos2.txt L517-526	Introducción de Las Ruinas de Hollum	NA	-	
+aj_chaos2-007	aj_chaos2.txt L527-537	Hollum: atacante escribe lista 2.500 pts Gran Ejército Imperio	OK	rules.js:203 hollum	El propio libro permite jugar con cualquier par de ejércitos; las listas históricas son recomendación de muestra (Lobos del Mar y Gran Ejército Imperio disponibles)
+aj_chaos2-008	aj_chaos2.txt L528-534	Hollum: defensor lista 2.500 pts Lobos del Mar, un Emboscador en reserva, general Frydaal	OK	rules.js:203 hollum; data.js frydaal	"Recreación histórica opcional (""alternativamente cualquier par de ejércitos""); Frydaal y Emboscadores disponibles en la lista Lobos"
+aj_chaos2-009	aj_chaos2.txt L534-535	Hollum: alternativamente cualquier par de ejércitos	OK	rules.js:203 (escenario jugable con cualquier lista)	
+aj_chaos2-010	aj_chaos2.txt L538-545	Monumentos a la gloria (ambientación)	NA	-	
+aj_chaos2-011	aj_chaos2.txt L569-576	"Hollum: monumento de Frydaal hasta 6"" = monolito arcano y monumento de gloria"	OK	rules.js:203 feat tf 6x6 + obj 50 PV	Según descripción del escenario
+aj_chaos2-012	aj_chaos2.txt L577-583	"Hollum: despliegue defensor 12"" y luego atacante 12"" (márgenes 6"" del mapa)"	OK	rules.js:203 z	"Zonas 12"" a ancho completo; los 6"" del mapa son cotas del dibujo sin texto de regla asociado (ambiguo: se sigue la zona de 12"")"
+aj_chaos2-013	aj_chaos2.txt L584-587	Hollum: el atacante juega automáticamente el primer turno	OK	rules.js:203 first:0	
+aj_chaos2-014	aj_chaos2.txt L588-589	Hollum: seis rondas o hasta que un bando se rinda	OK	rules.js:203 turns:6	Rendición no modelada (generico)
+aj_chaos2-015	aj_chaos2.txt L570-571	Juicio de los Dioses: personajes del defensor pueden repetir el D6 de la Mirada	OK	rules.js:71 gazeRoll gazeRR; rules.js pref gazeRR; main.js botón; ai.js optionGroups gr	El jugador fija con qué resultado repite el D6 (umbral 0-5); la IA lo aprende
+aj_chaos2-016	aj_chaos2.txt L573-578	Refuerzos: Emboscadores del atacante entran por el borde sur; si no caben, siguen en reserva	OK	rules.js reinforce (hollum owner 0 ambushPos bottom)	Atacante: Emboscadores por borde sur; si no caben siguen en reserva (ambushOK persiste) y reintentan
+aj_chaos2-017	aj_chaos2.txt L585-587	Hollum VP: defensor +50 PV por personaje atacante muerto en desafío	OK	rules.js:5926 chKills	
+aj_chaos2-018	aj_chaos2.txt L588-589	Hollum VP: atacante +50 PV por personaje vivo y sin huir	OK	rules.js:5926	
+aj_chaos2-019	aj_chaos2.txt L590-594	Hollum: PV según libro de reglas	OK	rules.js:5926	
+aj_chaos2-020	aj_chaos2.txt L595-617	Pies de foto de ilustraciones (Dragón Warpfire, Guerreros, Carro, Hellcannon, Galrauch)	NA	-	
+aj_chaos2-021	aj_chaos2.txt L618-705	Lobos del Mar: ambientación y miniaturas	NA	-	
+aj_chaos2-022	aj_chaos2.txt L713-721	Lista de Infamia Lobos del Mar sustituye al Gran Ejército de Ravening Hordes	OK	data.js:3400 LISTS.woc.wolves	
+aj_chaos2-023	aj_chaos2.txt L723-726	Lobos: Personajes hasta 50% de puntos	OK	data.js:3438 wolves (char limit genérico)	
+aj_chaos2-024	aj_chaos2.txt L726	Lobos: 0-1 Señor del Caos, Príncipe Demonio o Señor Hechicero	OK	data.js:3440 chk	
+aj_chaos2-025	aj_chaos2.txt L727	Lobos: 0-1 Campeón Exaltado o Hechicero Exaltado por 1.000 pts	OK	data.js:3440 chk	
+aj_chaos2-026	aj_chaos2.txt L728	Lobos: Campeones Aspirantes y Jefes de Tribu Marauder	OK	data.js:3438 allow	
+aj_chaos2-027	aj_chaos2.txt L730-735	Lobos: Básicas >=25%: Bárbaros, Jinetes, Berserkers y Perros	OK	data.js:3438 core:0.25	
+aj_chaos2-028	aj_chaos2.txt L737-740	Lobos: Especiales <=50%: Guerreros, Carros, Lobos de Piel, Huscarls, Engendros	OK	data.js:3438 comp	
+aj_chaos2-029	aj_chaos2.txt L723-731	Lobos: Raras <=33%: Ogros, Trolls, Ogros Dragón	OK	data.js:3438 rare:0.33	
+aj_chaos2-030	aj_chaos2.txt L727-729	Lobos: 0-1 Engendro Gigante del Caos por 1.000 pts	OK	data.js:3440 chk gspawn	
+aj_chaos2-031	aj_chaos2.txt L729-730	Lobos: 0-1 Shaggoth por unidad de Ogros Dragón	OK	data.js:3440 chk	
+aj_chaos2-032	aj_chaos2.txt L731-732	Lobos: 0-1 Gigante del Caos por 1.000 pts	OK	data.js:3440 chk	
+aj_chaos2-033	aj_chaos2.txt L734-739	Lobos: Mercenarios <=25% Manadas de Gors y Ungors	OK	data.js:3438 merc	
+aj_chaos2-034	aj_chaos2.txt L741-743	Lobos: mercenarios sujetos a Mercenarios Indisciplinados	OK	data.js:4436	Regla genérica
+aj_chaos2-035	aj_chaos2.txt L746-752	Lobos: PEB Aspirante o Jefe de Tribu +25 con un estandarte mágico sin límite	OK	data.js: chk PEB wolves/heralds (armyIssues)	En Lobos solo Aspirante o Jefe de Tribu pueden ser PEB; en Heraldos solo Exaltado o Aspirante
+aj_chaos2-036	aj_chaos2.txt L754-757	Lobos: objetos mágicos Comunes o de Guerreros del Caos	OK	data.js:3221 itemFacOk	
+aj_chaos2-037	aj_chaos2.txt L771-783	Favor de los Dioses: personaje que mata en desafío tira en tabla Mirada de los Dioses	OK	rules.js:4752,4770	
+aj_chaos2-038	aj_chaos2.txt L783-785	Favor de los Dioses: unidad que captura estandarte enemigo tira en la Mirada (esa unidad)	OK	rules.js trophy: gazeRoll al capturar estandarte (combate y persecución); pref noGazeTrophy; main.js; ai.js gt	La unidad que captura tira en la Mirada (a su unidad); opcional: el jugador puede desactivarlo
+aj_chaos2-039	aj_chaos2.txt L786-791	Incursores Marinos (descripción)	NA	-	
+aj_chaos2-040	aj_chaos2.txt L793-795	Incursores: Bárbaros y Jinetes pueden tener Emboscadores por +1 pto/modelo (Bárbaros)	OK	data.js woc_marauders_amb ppm 7 (gw 8)	+1 por modelo
+aj_chaos2-041	aj_chaos2.txt L793-795	Incursores: Jinetes Bárbaros con Emboscadores +1 pto/modelo	OK	data.js:3559 ppm 13	
+aj_chaos2-042	aj_chaos2.txt L796-798	Incursores: Campeones Aspirantes infantería o caballería con Emboscadores +10 pts	PARCIAL	data.js woc_aspiring_amb	Falta texto fuente: el Aspirante montado (corcel del Caos) es de Ravening Hordes, no incluido en /rules/new; solo versión a pie
+aj_chaos2-043	aj_chaos2.txt L774-780	Duelo del Guerrero: en vez de tirada, retar al rival al duelo	OK	rules.js:497,506	
+aj_chaos2-044	aj_chaos2.txt L779-783	Duelo: cada bando elige un campeón de unidad H1 infantería o caballería	OK	rules.js:490 warOpts / clashOpts	
+aj_chaos2-045	aj_chaos2.txt L783-788	Duelo: luchan como desafío rondas necesarias; el ganador da primer turno	OK	rules.js:513 clashDuel	
+aj_chaos2-046	aj_chaos2.txt L788-790	Duelo: si caen ambos campeones, tirada normal	OK	rules.js:511-513	
+aj_chaos2-047	aj_chaos2.txt L792-795	Duelo rechazado: Lobos cuenta como ganador de la tirada	OK	rules.js:506	
+aj_chaos2-048	aj_chaos2.txt L797-804	Duelo: Bretonia que acepta cuenta como rezado; si rechaza pierde Bendición y Voto del Grial	OK	rules.js:417,506 bless	
+aj_chaos2-049	aj_chaos2.txt L810-858	Heraldos de la Oscuridad: ambientación	NA	-	
+aj_chaos2-050	aj_chaos2.txt L866-894	Pies de foto Caballeros del Caos y Guerreros	NA	-	
+aj_chaos2-051	aj_chaos2.txt L902-909	Lista Infamia Heraldos sustituye al Gran Ejército	OK	data.js:3400 LISTS.woc.heralds	
+aj_chaos2-052	aj_chaos2.txt L911-915	Heraldos: Personajes 50%; 0-1 Señor del Caos o Príncipe Demonio	OK	data.js:3444 chk	
+aj_chaos2-053	aj_chaos2.txt L916	Heraldos: 0-1 Campeón Exaltado o Señor Hechicero por 1.000 pts	OK	data.js:3444 chk	
+aj_chaos2-054	aj_chaos2.txt L917	Heraldos: Campeones Aspirantes y Hechiceros Exaltados	OK	data.js:3442 allow	
+aj_chaos2-055	aj_chaos2.txt L919-923	Heraldos: Básicas >=33%: 1+ Caballeros del Caos, Jinetes y Perros	OK	data.js:3441 core:0.33; 3444 chk	
+aj_chaos2-056	aj_chaos2.txt L924	Heraldos: 0-1 Carro del Caos como Básica	OK	data.js:3441 promote	
+aj_chaos2-057	aj_chaos2.txt L926-927	Heraldos: Especial: 0-1 Caballeros Elegidos	OK	data.js:3444 chk	
+aj_chaos2-058	aj_chaos2.txt L930	Heraldos: Especial: 0-1 Carro Elegido por 1.000 pts	OK	data.js:3444 chk	
+aj_chaos2-059	aj_chaos2.txt L931-933	Heraldos: Especial: Engendros, Carros, Quimeras, Ogros Dragón	OK	data.js:3442 allow/comp	
+aj_chaos2-060	aj_chaos2.txt L935-943	Heraldos: Raras <=25%: Gorebeast, Shaggoth, Engendro Gigante 0-1/1000, Gigante 0-1/1000, 0-1 Warpfire	OK	data.js:3441,3444,4290	
+aj_chaos2-061	aj_chaos2.txt L912-918	Heraldos: Mercenarios <=25% Jefes Centigor y Manadas Centigor	OK	data.js INF.heralds.merc bm_centigor_chief	Jefes Centigor y Manadas de Centigor como mercenarios
+aj_chaos2-062	aj_chaos2.txt L946-947	Heraldos: mercenarios sujetos a Mercenarios Indisciplinados	OK	data.js:4436	
+aj_chaos2-063	aj_chaos2.txt L924-930	Heraldos: PEB Campeón Exaltado o Aspirante +25 con estandarte mágico sin límite	OK	data.js:2471	
+aj_chaos2-064	aj_chaos2.txt L932-934	Heraldos: objetos Comunes o de Guerreros del Caos	OK	data.js:3221	
+aj_chaos2-065	aj_chaos2.txt L960-961	Hueste Montada: personajes montados o con Vuelo (X)	OK	data.js chk heralds; woc_*_cchariot mount:true	Los Carros de Elegidos como montura de personaje cumplen Hueste Montada
+aj_chaos2-066	aj_chaos2.txt L964-971	Corceles de la Oscuridad: caballería/carro repiten 1 naturales en carga, huida y persecución	PARCIAL	rules.js:145 stDark -> finestHorses	"VERIF v732: rules.js:154 stDark regex /Cav|lightChar|heavyChar/ incluye Caballeria monstruosa (monCav), que no es ""cavalry""; excluye personajes montados (tt char). Repeticion en carga/huida/persecucion OK | Según tipo de tropa"
+aj_chaos2-067	aj_chaos2.txt L978-984	La Sombra Crece: personajes con Marca no Indivisa exigen unidades no personaje con la misma Marca y viceversa	OK	data.js:4371	
+aj_chaos2-068	aj_chaos2.txt L990-1033	Frydaal: trasfondo	NA	-	
+aj_chaos2-069	aj_chaos2.txt L1035-1037	Frydaal es Campeón Exaltado; cualquier lista que la incluya; se usa tal como se presenta	OK	data.js:4198 listas grand,wolves,heralds	Sin cambios de perfil
+aj_chaos2-070	aj_chaos2.txt L1040	Perfil Frydaal M4 HA6 HP3 F5 R4 H3 I5 A4 L9, 235 pts	OK	data.js:4198	
+aj_chaos2-071	aj_chaos2.txt L1042-1044	Frydaal: infantería pesada (personaje nombrado), peana 30x30, unidad 1	OK	data.js:4198 tt char baseW 30	
+aj_chaos2-072	aj_chaos2.txt L1045	Frydaal: equipo arma de mano, Ira de la Tormenta, armadura completa y escudo	OK	data.js:4198 arm plate shield	
+aj_chaos2-073	aj_chaos2.txt L1046	Frydaal: Emboscadores	OK	data.js:4198 sr ambush	
+aj_chaos2-074	aj_chaos2.txt L1046-1048	Frydaal: Armadura del Caos (5+), Armas Hechizadas, Mirada de los Dioses, Impactos (1), Marca Indivisa, Grito de Reagrupa	OK	data.js:4198	
+aj_chaos2-075	aj_chaos2.txt L1051-1055	Forjadora de Cadenas: estandarte capturado por ella o su unidad vale 100 PV	OK	rules.js:5036,5165 trophyErrant	Se modela como +50 extra
+aj_chaos2-076	aj_chaos2.txt L1057-1063	Comandante y Capitán: +1 Ld (máx. 10) a Bárbaros/Jinetes/Huscarls/Berserkers en alcance si no huye	OK	rules.js:1407	
+aj_chaos2-077	aj_chaos2.txt L1069-1072	Incursora sin igual: 0-1 unidad de Bárbaros/Jinetes con Emboscadores gratis	OK	data.js woc_*_famb + armyIssues	Variantes gratis de Bárbaros/Bárbaros a dos manos/Jinetes con Emboscadores; 0-1 y requiere a Frydaal
+aj_chaos2-078	aj_chaos2.txt L1072-1074	Incursora sin igual: general Frydaal aplica +1/-1 a la tirada de llegada de Emboscadores en reserva	OK	rules.js frydGen/FRYD_RE y llegada; pref frydMod; main.js panel; ai.js fm	El jugador elige +1/-1/nada por unidad en reserva; Frydaal es General si no hay Señor/Príncipe/Galrauch
+aj_chaos2-079	aj_chaos2.txt L1076-1078	Ira de la Tormenta: F+2, FP-1, Ataques Adicionales (D3), Ataques Mágicos, Dos manos	OK	data.js:4198 melee sb2 ap1 extraD3	
+aj_chaos2-080	aj_chaos2.txt L1079	Ira de la Tormenta: modificador de F solo en la primera ronda de combate	OK	data.js:4198 flailFirst	
+aj_chaos2-081	aj_chaos2.txt L1085-1102	Galrauch puede incluirse en cualquier lista de Guerreros del Caos; se usa tal cual	OK	data.js:4772	
+aj_chaos2-082	aj_chaos2.txt L1091	Perfil Galrauch M6 HA6 HP3 F6 R6 H6 I4 A6 L9 465 pts	OK	data.js woc_galrauch M6 + FLYX 10	M6 terrestre, Vuelo 10
+aj_chaos2-083	aj_chaos2.txt L1094-1095	Galrauch: behemoth (nombrado), peana 60x100, unidad 1	OK	data.js:1249	
+aj_chaos2-084	aj_chaos2.txt L1097-1099	Galrauch: garras, Fuego Oscuro, Humos, escamas (cuentan como armadura completa)	OK	data.js:1249 Sv 3 (4+ completa con Piel blindada 1)	
+aj_chaos2-085	aj_chaos2.txt L1101-1102	Galrauch: Mago nivel 4, Magia Oscura	OK	data.js:1250 wizard level 4 dark	
+aj_chaos2-086	aj_chaos2.txt L1104-1106	Galrauch: Piel blindada(1), Formación cerrada, Vuelo(10), Objetivo grande, Marca Tzeentch, Regeneración 5+, Pisotón D6, 	OK	data.js:1249-1251	
+aj_chaos2-087	aj_chaos2.txt L1108-1122	Aliento del Cambio: una vez por partida, plantilla de llama, todo modelo (amigo/enemigo) bajo ella hace chequeo de R y s	OK	rules.js shoot r.boc (galrMode change; plantilla alcanza a amigos y enemigos)	Una vez por partida, elegido por el jugador; chequeo de R por modelo bajo la plantilla en todas las unidades
+aj_chaos2-088	aj_chaos2.txt L1136-1149	Espíritu de Galrauch: chequeo de Ld al inicio de turno; si falla Nivel 1 y 1 hechizo	OK	rules.js:5296,110,3288	
+aj_chaos2-089	aj_chaos2.txt L1143-1149	Espíritu rebelde: Movimiento Aleatorio (2D6) y D3 ataques contra sí mismo cuyas heridas suman al enemigo	OK	rules.js:110,4583	
+aj_chaos2-090	aj_chaos2.txt L1151-1156	Dragón Bicéfalo: Fuego Oscuro o Humos en Disparo, no ambos el mismo turno	OK	rules.js pref galrMode; main.js botón; ai.js gb	El jugador elige Fuego Oscuro / Humos / Aliento del Cambio; la IA lo aprende
+aj_chaos2-091	aj_chaos2.txt L1159	Garras: Combate F, FP-2	OK	data.js:1249 melee ap2	
+aj_chaos2-092	aj_chaos2.txt L1162-1163	Fuego Oscuro del Caos: F4, FP-1, Arma de Aliento, Ataques Flamígeros y Mágicos	OK	data.js:1249 ranged s4 ap1 breath flaming magical	
+aj_chaos2-093	aj_chaos2.txt L1166-1168	Humos de Contagio: F2, Arma de Aliento, Mágicos, sin salvación de armadura (Ward/Regeneración sí)	OK	rules.js:2270 noArmour	
+aj_chaos2-094	aj_chaos2.txt L1177-1208	Jefes de Tribu: texto de ambientación	NA	-	
+aj_chaos2-095	aj_chaos2.txt L1181	Jefe de Tribu Marauder M4 HA5 HP3 F4 R4 H2 I4 A3 L8, 65 pts	OK	data.js:3546 (base woc_aspiring)	
+aj_chaos2-096	aj_chaos2.txt L1183-1186	Jefe: infantería regular (personaje), peana 25x25, arma de mano y armadura ligera	OK	data.js woc_chieftain baseW 25	
+aj_chaos2-097	aj_chaos2.txt L1189-1192	Jefe: mayal +3, a dos manos +4, lanza de caballería (montado) +4 (una)	OK	data.js:4055-4057 WOCC	
+aj_chaos2-098	aj_chaos2.txt L1193-1195	Jefe: hachas arrojadizas +2 o jabalinas +2	OK	data.js:4058-4059 WOCC	
+aj_chaos2-099	aj_chaos2.txt L1196	Jefe: escudo +2	OK	data.js:4060 WOCC	
+aj_chaos2-100	aj_chaos2.txt L1197	Jefe: caballo de guerra +14	OK	data.js:3548 ppm 79	
+aj_chaos2-101	aj_chaos2.txt L1198-1202	Jefe: sustituir Marca Indivisa por Khorne/Nurgle/Slaanesh/Tzeentch +10	OK	data.js:3312 MARK_COST c10	
+aj_chaos2-102	aj_chaos2.txt L1203	Jefe: objetos mágicos hasta 50 pts	OK	data.js:3546 ib 50	
+aj_chaos2-103	aj_chaos2.txt L1205-1206	Jefe: Emboscadores, Armadura del Caos 6+, Mirada, Marca Indivisa, Grito, Banda de guerra	OK	data.js:3546	
+aj_chaos2-104	aj_chaos2.txt L1212-1218	Caballo de guerra: M8 HA3 F3 I3 A1; caballería ligera; Contracarga, Caballería rápida, Zancada; pezuñas arma de mano	OK	data.js woc_chieftain_horse mountAtk {a:1,S:3}	
+aj_chaos2-105	aj_chaos2.txt L1221-1224	Representar al Jefe (miniaturas)	NA	-	
+aj_chaos2-106	aj_chaos2.txt L1230-1233	Berserker M5 HA4 HP3 F3 R4 H1 I3 A1 L7, 8 pts; Headtaker A2 L8 +8	OK	data.js:3547,2471 CMD [8,6,6]	
+aj_chaos2-107	aj_chaos2.txt L1236-1241	Berserkers: infantería regular, peana 25x25, tamaño 5+, mano y armadura ligera	OK	data.js woc_berserkers 25x25 max 99	Sin máximo en el libro (tope técnico 99)
+aj_chaos2-108	aj_chaos2.txt L1244-1246	Berserkers: armas de mano adicionales +1 o mayales +1 por modelo (una)	OK	data.js:5400-5402	
+aj_chaos2-109	aj_chaos2.txt L1247	Berserkers: hachas arrojadizas +1 por modelo	OK	data.js:5403	
+aj_chaos2-110	aj_chaos2.txt L1249-1252	Berserkers: Headtaker +8, estandarte +6, músico +6, Emboscadores +1	OK	data.js:2471 CMD; 5404	
+aj_chaos2-111	aj_chaos2.txt L1254-1255	Berserkers: Frenesí, Marca Indivisa, Mover a través de cobertura, Orden Abierto, Guerreros Implacables, Escaramuzadores,	OK	data.js:3547 sr	
+aj_chaos2-112	aj_chaos2.txt L1257-1262	Guerreros Implacables: salvación especial 6+ contra heridas de ataque enemigo no mágico	OK	rules.js:1668	
+aj_chaos2-113	aj_chaos2.txt L1265-1266	Representar Berserkers (miniaturas)	NA	-	
+aj_chaos2-114	aj_chaos2.txt L1287-1289	Lobo de Piel M7 HA5 HP- F4 R4 H3 I4 A3 L7, 45 pts; Jarl A4 +7	OK	data.js:3552 woc_skinwolves	
+aj_chaos2-115	aj_chaos2.txt L1291-1294	Lobos de Piel: infantería monstruosa, peana 40x40, tamaño 2+	OK	data.js woc_skinwolves 40x40 max 99	
+aj_chaos2-116	aj_chaos2.txt L1295-1297	Lobos de Piel: un modelo a Jarl +7	OK	data.js:3553 CMD [7,null,null]	
+aj_chaos2-117	aj_chaos2.txt L1299-1300	Lobos de Piel: Rabia sangrienta, Marca Indivisa, Orden abierto, Furia primigenia, Regeneración 5+, Escaramuzadores, Zanc	OK	data.js woc_skinwolves sr sin fear	
+aj_chaos2-118	aj_chaos2.txt L1304-1316	Forma Deformada: elegir en Paso 1.1 de Elegir y Combatir una Transfiguración hasta tu siguiente turno	OK	rules.js wfPref/wfClaws..; main.js; ai.js wf	"Elige el jugador (wfPref); ""auto"" es una opción explícita del jugador; la IA lo aprende"
+aj_chaos2-119	aj_chaos2.txt L1312-1313	Garras agrandadas: FP+1 y Perforante (2)	OK	rules.js:4119	
+aj_chaos2-120	aj_chaos2.txt L1314	Protuberancias: Ataques Extra (+1)	OK	rules.js:4166	
+aj_chaos2-121	aj_chaos2.txt L1315-1316	Carne endurecida: R+1 y armadura mejora en 2	OK	rules.js:4973 wfFlesh	
+aj_chaos2-122	aj_chaos2.txt L1336-1339	Huscarl M4 HA4 HP3 F3 R4 H1 I3 A1 L7, 18 pts; First Sword A2 L8 +8; Warhorse M8	OK	data.js:3550	
+aj_chaos2-123	aj_chaos2.txt L1341-1346	Huscarls: caballería ligera, peana 30x60, tamaño 5+, armas y armadura ligera	OK	data.js woc_huscarls max 99	
+aj_chaos2-124	aj_chaos2.txt L1349-1351	Huscarls: lanzas de caballería gratis o mayales +1 (obligatorio uno)	OK	data.js:5405-5406	
+aj_chaos2-125	aj_chaos2.txt L1352-1354	Huscarls: hachas arrojadizas +1 o jabalinas +1	OK	data.js:5407-5408	
+aj_chaos2-126	aj_chaos2.txt L1356-1357	Huscarls: armadura pesada +1; escudos +1	OK	data.js:5409,5412	
+aj_chaos2-127	aj_chaos2.txt L1358-1362	Huscarls: Marcas +2 por modelo	OK	data.js:3311 MARK_COST woc_huscarls 2	
+aj_chaos2-128	aj_chaos2.txt L1364-1366	Huscarls: First Sword +8, estandarte +6, músico +6	OK	data.js:2471	
+aj_chaos2-129	aj_chaos2.txt L1367	Huscarls: estandarte mágico hasta 50 pts	OK	data.js:3179 bannerBudget	
+aj_chaos2-130	aj_chaos2.txt L1368	Huscarls: 0-1 unidad por 1.000 pts Instruidos +2 por modelo	OK	data.js:5411	
+aj_chaos2-131	aj_chaos2.txt L1369	Huscarls: First Sword puede comprar objetos mágicos hasta 25 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+aj_chaos2-132	aj_chaos2.txt L1371-1372	Huscarls: Formación cerrada, Contracarga, Carga furiosa, Marca Indivisa, Zancada, Banda de guerra	OK	data.js:3550 sr	
+aj_chaos2-133	aj_chaos2.txt L1386-1389	Carro Elegido: Carro F5 R5 H4; aurigas HA5 HP3 F4 I4 A2 L9; corceles M7 HA3 F4 I3 A1; 140 pts	OK	data.js:3556 (variante de woc_chariot)	Atributos heredados; A4 total
+aj_chaos2-134	aj_chaos2.txt L1391-1397	Carro Elegido: carro pesado, 60x100, unidad 1, armadura 3+, aurigas con alabardas, corceles pezuñas	OK	data.js:1341,3556	
+aj_chaos2-135	aj_chaos2.txt L1400-1404	Carro Elegido: Marcas +10 pts	OK	data.js MARK_COST woc_chosen_chariot c10	
+aj_chaos2-136	aj_chaos2.txt L1406-1407	Carro Elegido: Formación cerrada, Contracarga, Armas hechizadas, Primera carga, Impactos (D6+1, solo carro), Marca Indiv	OK	data.js:3556 sr	
+aj_chaos2-137	aj_chaos2.txt L1410-1412	Carro Elegido como montura de personaje en Heraldos (puntos del jinete + carro)	OK	data.js woc_lord_cchariot / exalted / aspiring	Variantes en Carro de Elegidos, solo Heraldos
+aj_chaos2-138	aj_chaos2.txt L1414-1415	Señor del Caos, Campeón Exaltado o Aspirante sobre Carro Elegido +140	OK	data.js woc_*_cchariot ppm +140	
+aj_chaos2-139	aj_chaos2.txt L1434	Engendro Gigante M3D6 HA3 HP0 F6 R6 H6 I3 A D6+1 L10, 145 pts	OK	data.js:4276 SPAWN	
+aj_chaos2-140	aj_chaos2.txt L1436-1440	Engendro Gigante: behemoth, peana 60x100, unidad 1, armadura pesada (escamas)	OK	data.js gspawn baseW 60 baseD 100	
+aj_chaos2-141	aj_chaos2.txt L1443-1447	Engendro Gigante de Khorne +20, Nurgle +25, Slaanesh +15, Tzeentch +10	OK	data.js:4274 SPAWN_GODS	
+aj_chaos2-142	aj_chaos2.txt L1449-1451	Engendro Gigante: Perforante(2), Formación cerrada, Primera carga, Inmune Psicología, Objetivo grande, Ataques Aleatorio	OK	data.js:4276	
+aj_chaos2-143	aj_chaos2.txt L1457	Khorne: Impactos (D3) y Golpe Mortal	OK	data.js:4274,4280	
+aj_chaos2-144	aj_chaos2.txt L1458	Nurgle: Ataques Envenenados y Regeneración 5+	OK	data.js:4274,4281	
+aj_chaos2-145	aj_chaos2.txt L1459	Slaanesh: Contracarga y Ataca Primero	OK	data.js:4274	
+aj_chaos2-146	aj_chaos2.txt L1460-1461	Tzeentch: Flamígeros, Mágicos y Resistencia a la Magia (-2)	OK	data.js:4274	
+aj_chaos2-147	aj_chaos2.txt L1464	Garras cortantes: Combate F, FP-1	OK	data.js:4276 melee ap1	
+aj_chaos2-148	aj_chaos2.txt L1467-1470	Fauces rechinantes: FP-2, Golpea último, un ataque por turno, recupera 1 Herida por herida causada	PARCIAL	data.js:4276 maw heal last	"VERIF v732: data.js:4476 maw {ap2 ab2 heal last} OK (golpea ultimo, cura); pero rules.js:5466 la usa siempre sin dejar elegir al jugador (""may choose"")"
+aj_chaos2-149	aj_chaos2.txt L1474-1476	Engendro Gigante: 0-1 por 1.000 pts como Rara en Gran Ejército Guerreros del Caos o Bestiales	OK	data.js:4284 chk,4289	
+aj_chaos2-150	aj_chaos2.txt L1484	Dragón Warpfire M6 HA6 HP0 F6 R6 H6 I3 A5 L8, 375 pts	OK	data.js:4257	
+aj_chaos2-151	aj_chaos2.txt L1487-1490	Dragón Warpfire: behemoth, 60x100, unidad 1, garras, Ráfaga, escamas (armadura completa)	OK	data.js:4257 arm plate	
+aj_chaos2-152	aj_chaos2.txt L1493-1497	Warpfire Mago: Saberes Batalla, Daemonología o Magia Oscura	OK	data.js woc_warpfire lores [battle,daemonology,dark]	El jugador elige Saber
+aj_chaos2-153	aj_chaos2.txt L1500-1502	Warpfire Mago Nivel 1 +30, Nivel 2 +60	OK	data.js:4257 ppm	
+aj_chaos2-154	aj_chaos2.txt L1504-1507	Warpfire: Vuelo(10), Objetivo grande, Ataques Mágicos, Res. Magia(-2), Marca Indivisa, Regeneración 5+, Pisotón D6, Zanc	OK	data.js:4258,4767 FLYX 10	
+aj_chaos2-155	aj_chaos2.txt L1513-1514	"Final explosivo: al perder última Herida, unidades a 6"" sufren D6 impactos F5 FP-2"	PARCIAL	rules.js:2615	"VERIF v732: rules.js:3135 explosiveDemise D6 impactos F5 PA-2 a 6"" OK, pero a diferencia de otros bloques no llama destroy()/panico a las unidades que mueren por la explosion, y sin aviso al humano"
+aj_chaos2-156	aj_chaos2.txt L1520-1521	Fuego y Caos: salvación especial 5+ contra Ataques Mágicos o Flamígeros	OK	rules.js:1657	
+aj_chaos2-157	aj_chaos2.txt L1537	"Aura Warpfire: ningún otro modelo tiene salvación especial a 3"""	OK	rules.js:1659,1732	
+aj_chaos2-158	aj_chaos2.txt L1544-1549	"Ráfaga Warpfire: 6""-24"", F4(8) FP-1(-3), Bombardeo, Voluminosa, Flamígera, Heridas múltiples (D3+1) solo modelo bajo el "	OK	data.js:4258 ranged; rules.js:2398	
+aj_chaos2-159	aj_chaos2.txt L1546-1548	Ráfaga: Avería = pierde 1 Herida en vez de tabla	OK	rules.js:2378 cyclops	
+aj_chaos2-160	aj_chaos2.txt L1553-1554	Warpfire: 0-1 como Raro en Gran Ejército de Guerreros del Caos	OK	data.js:4290,4663	
+aj_chaos2-161	aj_chaos2.txt L1552-1573	Warpfire: ambientación	NA	-	
+aj_chaos2-162	aj_chaos2.txt L1583-1590	Objetos mágicos de Guerreros del Caos comprables como Comunes; asterisco = extremadamente comunes	OK	data.js:2788-2805 wocaj_	Sin objetos marcados con asterisco en esta página
+aj_chaos2-163	aj_chaos2.txt L1593-1604	Guadaña Funesta de Obsidiana 55 pts: F+2, FP-1, Perforación(1), Golpe Mortal, Mágica, Dos manos, Golpea último; solo Her	PARCIAL	data.js ITEMS wocaj_glaive list heralds	VERIF v732: data.js wocaj_glaive: S+2 ap1 ab1 kb slow ok y lista heralds, pero sin twoH:true (no se impide escudo; data.js:3356)
+aj_chaos2-164	aj_chaos2.txt L1606-1614	Daga del Panteón Oscuro 35: FP-2, Mágica; +1 a próximo lanzar/disipar por herida	OK	data.js:2789; rules.js:3846,4773	
+aj_chaos2-165	aj_chaos2.txt L1616-1622	Hoja del Cabecilla 30: F+1, FP-1, Perforación(1), Mágica; +1 impactar en desafío; solo Lobos	OK	data.js ITEMS wocaj_chieftain list wolves	
+aj_chaos2-166	aj_chaos2.txt L1624-1634	Látigo del Capataz 25: FP-1, Ataques Extra(1), Mágico; infantería; Ld en Mando: +D3 M máx.10	OK	data.js:2791; rules.js:6465	
+aj_chaos2-167	aj_chaos2.txt L1640-1645	Cota de Placas Demoníaca 50: armadura completa, +1 R y +1 I, infantería o caballería	OK	data.js:2792	
+aj_chaos2-168	aj_chaos2.txt L1649-1656	Escamas de la Serpiente Poderosa 40: armadura pesada, Ataca Primero; solo Lobos	OK	data.js ITEMS wocaj_scalemail list wolves	
+aj_chaos2-169	aj_chaos2.txt L1660-1666	Talismán del Cuervo Carroñero 45: Regeneración 5+ y Ataques Envenenados	OK	data.js:2794	
+aj_chaos2-170	aj_chaos2.txt L1668-1675	Talismán del Águila Ascendente 35: Resistencia a la Magia(-2), salvación 5+ contra Ataques Mágicos	OK	data.js:2795; rules.js:1674	
+aj_chaos2-171	aj_chaos2.txt L1640-1645	Estandarte de los Poderes Oscuros 50: unidad gana Resistencia a la Magia (-3)	OK	data.js:2796	
+aj_chaos2-172	aj_chaos2.txt L1647-1654	Estandarte del Sabueso Aullador 25: Vanguardia; solo Heraldos	OK	data.js ITEMS wocaj_hound list heralds	
+aj_chaos2-173	aj_chaos2.txt L1656-1663	Emblema del Asaltante Marino 25: Miedo (Terror si ya lo tiene); solo Lobos	OK	data.js wocaj_crest list wolves; rules.js has0 terror	
+aj_chaos2-174	aj_chaos2.txt L1665-1671	Icono de la Oscuridad 20: -1 adicional a impactar a disparos enemigos	OK	data.js:2799; rules.js:2432	
+aj_chaos2-175	aj_chaos2.txt L1682-1691	Colgante de Cráneo Sangriento 45: infantería; en vez de atacar un impacto F8 FP-1 con Golpe Mortal a cada enemigo en con	PARCIAL	data.js:2800; rules.js:4572	VERIF v732: rules.js:5316 Colgante: se usa AUTOMATICAMENTE si impactos estimados >= 0.7*A (sin eleccion ni aviso al humano); n de impactos aproximado por anchura de peana, no por contactos reales
+aj_chaos2-176	aj_chaos2.txt L1692-1699	Vara de los Condenados 40: La Invocación como hechizo atado NP 2	OK	data.js:2803	
+aj_chaos2-177	aj_chaos2.txt L1701-1708	Barda Forjada por Demonios 35: solo caballería de Heraldos; al cargar monturas +1 Ataque	OK	data.js wocaj_barding list heralds	
+aj_chaos2-178	aj_chaos2.txt L1682-1691	Cetro de Poder 55: +1 lanzar/disipar; doble natural -> impacto F10 FP-3	PARCIAL	data.js:2804; rules.js:3410,3813	VERIF v732: data.js:2833 sceptre +1 lanzar/disipar OK; pero rules.js:4014 aplica el impacto al disipar antes de resolver y sin destroy si muere, y los lanzamientos ligados (rules.js:4477) no suman +1 ni activan .
+aj_chaos2-179	aj_chaos2.txt L1693-1703	Grimorio de Ogvold 50: conoce los 7 hechizos; lanza solo tantos como su Nivel	OK	data.js:2805; rules.js:807,3287	
+aj_chaos2-180	aj_chaos2.txt L1705-1714	Tomo de los Dioses Oscuros 35: Marca Indivisa, descarta hechizos y elige del Saber del Caos	OK	data.js:2802; rules.js:808	

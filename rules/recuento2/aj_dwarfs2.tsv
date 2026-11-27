@@ -1,0 +1,177 @@
+id	fuente	resumen	estado	referencia_codigo	nota
+aj_dwarfs2-001	aj_dwarfs2.txt L1-32	Portada, contenidos y copyright	NA		Sin efecto mecánico
+aj_dwarfs2-002	aj_dwarfs2.txt L33-273	Lore: Karaz Ankor, fortalezas, clanes, gremios, colores y runas de los holds	NA		Ambientación
+aj_dwarfs2-003	aj_dwarfs2.txt L274-454	Lore: La recuperación de Khazid Vosk (Burlok, el muster, el viaje, la excavación)	NA		Historia
+aj_dwarfs2-004	aj_dwarfs2.txt L542-557	Pies de foto de miniaturas (Thunderers, Ironbreakers, Ungrim, Runesmith...)	NA		Solo imágenes
+aj_dwarfs2-005	aj_dwarfs2.txt L558-609	Lore Wealth & Tradition: Old Ways, Oaths of Vengeance, riqueza del clan real	NA		Ambientación
+aj_dwarfs2-006	aj_dwarfs2.txt L672-720	Lore Precision Engineering: Shot & Steel, Pursuit of the Lost	NA		Ambientación
+aj_dwarfs2-007	aj_dwarfs2.txt L801-846	Lore de Thorgrim Ulleksson	NA		Ambientación
+aj_dwarfs2-008	aj_dwarfs2.txt L897-930	Lore de Ungrim Ironfist y el clan Drakebeard	NA		Ambientación
+aj_dwarfs2-009	aj_dwarfs2.txt L979-1014	Lore de Burlok Damminson	NA		Ambientación
+aj_dwarfs2-010	aj_dwarfs2.txt L1195-1198	Cómo representar Guerreros del Clan Real con modelos de Martilladores	NA		Consejo de miniaturas
+aj_dwarfs2-011	aj_dwarfs2.txt L1294-1297	Cómo representar Girocópteros Exploradores con modelos de Girocóptero	NA		Consejo de miniaturas
+aj_dwarfs2-012	aj_dwarfs2.txt L461-474	Recreación histórica: atacante 3.000 pts Fuerza Expedicionaria con General Burlok; defensor Orcos y Goblins 3.000	OK	data.js SCN_REQ.khazid; rules.js D() scnGen + createGame (Burlok General del atacante)	"Escenario exige Expedicionaria+Burlok General / Orcos Gran Ejército 3.000 pts (opción ""cualquier ejército"" libre)"
+aj_dwarfs2-013	aj_dwarfs2.txt L472-474	Alternativa: cualquier par de ejércitos de 3.000 pts cada uno	PARCIAL	rules.js:190	VERIF v732: main.js:48-52,495: 'Cualquier ejercito' (scnFree) permite listas libres pero scnApply no fija 3.000 pts (limite vuelve a 2000, selector solo 500-2000); falta el requisito de 3.000 pts por bando. | Puntos y listas libres
+aj_dwarfs2-014	aj_dwarfs2.txt L498-506	Preparación: terreno con bosques/rocas/elevaciones; zona del defensor despejada salvo dos pilares en la entrada	OK	rules.js:190 (terr slopes, extra kp1/kp2 pillar)	
+aj_dwarfs2-015	aj_dwarfs2.txt L484-497	"Zonas de despliegue 12"" con margen lateral 9"" y Puerta 12"" desde el centro del borde"	OK	rules.js:190 (z, gate R_(24,0,48,12))	
+aj_dwarfs2-016	aj_dwarfs2.txt L519-521	Primer turno: el atacante lo toma automáticamente	OK	rules.js:190 (first:0)	
+aj_dwarfs2-017	aj_dwarfs2.txt L523-524	La batalla dura seis rondas (o hasta que un bando se rinda)	OK	rules.js:190 (turns:6)	
+aj_dwarfs2-018	aj_dwarfs2.txt L527-530	The Mountains Are Crawling: 0-6 unidades (0-3 personajes) del defensor con Emboscadores gratis	OK	rules.js khazidAmbush/ambIssue, pref scnAmb; main.js botón; ai.js decider pn:amb<id>	0-6 unidades (0-3 personajes) las marca el jugador en el despliegue; la IA decide unidad a unidad con aiPick
+aj_dwarfs2-019	aj_dwarfs2.txt L531-534	Entrenched Besiegers: el atacante nomina unidades que cuentan como Entrenched	OK	rules.js pnTasks(besieg) + ready; doCharge chargeDisordered/chargeObsK con entrenched	Atacante nomina unidades; Atrincherada = cobertura parcial + obstáculo bajo defendido
+aj_dwarfs2-020	aj_dwarfs2.txt L534-536	Unidades del defensor que terminen su movimiento en la zona del atacante hacen test de Terreno Peligroso	OK	rules.js:6812	La descripción del escenario dice lo contrario pero el código lo aplica
+aj_dwarfs2-021	aj_dwarfs2.txt L538-541	La Puerta: terreno abierto; unidades dentro repiten Pánico y Reagrupar fallidos	OK	rules.js:2705, 2716, 5660	
+aj_dwarfs2-022	aj_dwarfs2.txt L499-502	Victoria por Puntos de Victoria del reglamento	OK	rules.js:5896 (calc VP)	
+aj_dwarfs2-023	aj_dwarfs2.txt L503-510	+50 PV por unidad con al menos 50% de sus modelos en su zona (defensor) o en la del defensor (atacante), sin huidas	OK	rules.js scoreVP khazid (modelPts dentro de la zona, >=50%)	
+aj_dwarfs2-024	aj_dwarfs2.txt L511-513	+200 PV a quien tenga más Fuerza de Unidad dentro de la Puerta (sin modelos huyendo)	OK	rules.js scoreVP khazid (modelos en la Puerta x Fuerza de Unidad)	
+aj_dwarfs2-025	aj_dwarfs2.txt L620-626	Clan Real: personajes hasta 50%; 1+ Rey o Thane	OK	data.js:3429-3432	
+aj_dwarfs2-026	aj_dwarfs2.txt L625	Clan Real: 0-1 Yunque del Destino o Señor de las Runas por 1.000 pts	OK	data.js:3432	
+aj_dwarfs2-027	aj_dwarfs2.txt L626	Clan Real: Herreros Rúnicos permitidos	OK	data.js:3430	
+aj_dwarfs2-028	aj_dwarfs2.txt L628-632	Clan Real Core (mín. 25%): Guerreros del Clan Real, Longbeards, Quarrellers	OK	data.js:3429-3431 (core 0.25, comp dw_longbeards core)	
+aj_dwarfs2-029	aj_dwarfs2.txt L634-641	Clan Real Special (hasta 50%): Hammerers y Dwarf Carts (sin Miner's Carts)	OK	data.js:3430-3431 (dw_cart special; sin dw_cart_miner)	
+aj_dwarfs2-030	aj_dwarfs2.txt L638-641	Clan Real: 0-3 máquinas (Bolt Thrower, Grudge Thrower) por 1.000 pts	OK	data.js:3432	
+aj_dwarfs2-031	aj_dwarfs2.txt L643-646	Clan Real Rare (hasta 25%): Rangers, Ironbreakers, Irondrakes	OK	data.js:3431	
+aj_dwarfs2-032	aj_dwarfs2.txt L621-623	Clan Real: mercenarios hasta 25% de los puntos	OK	data.js:4470 (mm 0.25 royal/expedition)	Límite 25%
+aj_dwarfs2-033	aj_dwarfs2.txt L625	Clan Real: mercenarios Imperial Dwarf Mercenaries	OK	data.js:3522-3529	
+aj_dwarfs2-034	aj_dwarfs2.txt L626	Clan Real: 0-4 Doomseekers	OK	data.js:3432	
+aj_dwarfs2-035	aj_dwarfs2.txt L627	Clan Real: 0-1 Goblin-hewer por 1.000 pts	OK	data.js:3432	
+aj_dwarfs2-036	aj_dwarfs2.txt L630-633	Los mercenarios están sujetos a Misbehaving Mercenaries (Core p.279)	OK	rules.js dwMerc() -> u.merc / Misbehaving Mercenaries	Doomseekers (Grand/Expedición/Clan Real sin Ungrim General) y Cortagoblins (Clan Real/Expedición)
+aj_dwarfs2-037	aj_dwarfs2.txt L635-637	Clan Real: Portaestandarte de Batalla Thane o Runesmith por +25 pts	OK	data.js:3554 (CMD dw_runesmith [null,25,null])	BSB Herrero Rúnico +25
+aj_dwarfs2-038	aj_dwarfs2.txt L638-640	BSB: runas de estandarte sin límite de puntos	OK	data.js:3213-3216 (bsb sin límite)	
+aj_dwarfs2-039	aj_dwarfs2.txt L643-645	Objetos rúnicos como en FoF p.32	OK	data.js:3185-3220 (runeIssues)	
+aj_dwarfs2-040	aj_dwarfs2.txt L653-660	"Ancestral Fury: +1 Fuerza el turno de carga de 3"" o más o tras seguimiento (Clan Real)"	OK	rules.js:4102, 284 (fupPrev)	Seguimiento según FAQ
+aj_dwarfs2-041	aj_dwarfs2.txt L662-666	Riches & Heirlooms: personajes +25 pts de runas	OK	data.js:3178-3180 (LIST_IB royal 25)	
+aj_dwarfs2-042	aj_dwarfs2.txt L666-670	Riches & Heirlooms: unidades con runas de estandarte +25 (excepto Guerreros del Clan Real)	OK	data.js:3179 (bannerBudget); data.js:1427 (bnMax 50 = 75 con bonus)	
+aj_dwarfs2-043	aj_dwarfs2.txt L657-664	Striking a Grudge: tras el despliegue se nomina un personaje enemigo; Odio a ese personaje	OK	rules.js pnTasks(grudge) + ready; nomCands pn; main.js modal	El jugador nomina; la IA con aiPick; popup al humano si la IA nomina
+aj_dwarfs2-044	aj_dwarfs2.txt L662-664	Striking a Grudge: +75 PV si el personaje nominado muere, huyó o huye al final	OK	rules.js:5872	
+aj_dwarfs2-045	aj_dwarfs2.txt L731-737	Fuerza Expedicionaria: personajes hasta 50%; 1+ Ingeniero o Zapador	OK	data.js:3433-3436	
+aj_dwarfs2-046	aj_dwarfs2.txt L736	Expedicionaria: 0-1 Matademonios o Matadragones	OK	data.js:3436	
+aj_dwarfs2-047	aj_dwarfs2.txt L737	Expedicionaria: Thanes y Herreros Rúnicos	OK	data.js:3434	
+aj_dwarfs2-048	aj_dwarfs2.txt L733-740	Expedicionaria: mercenarios hasta 25% de los puntos	OK	data.js:4470 (mm 0.25 royal/expedition)	Límite 25%
+aj_dwarfs2-049	aj_dwarfs2.txt L736	Expedicionaria: mercenarios Imperial Dwarf Mercenaries	OK	data.js:3529	
+aj_dwarfs2-050	aj_dwarfs2.txt L737	Expedicionaria: 0-2 Doomseekers por 1.000 pts	OK	data.js:3436	
+aj_dwarfs2-051	aj_dwarfs2.txt L738	Expedicionaria: 0-1 Goblin-hewer por 1.000 pts	OK	data.js:3436	
+aj_dwarfs2-052	aj_dwarfs2.txt L739-746	Expedicionaria Core (mín. 25%): Warriors, Thunderers y Dwarf Carts	OK	data.js:3434-3435 (dw_cart core)	
+aj_dwarfs2-053	aj_dwarfs2.txt L745	Expedicionaria: 0-1 unidad de Rangers por 1.000 pts como Core	OK	data.js:3433 (promote), 3436	
+aj_dwarfs2-054	aj_dwarfs2.txt L746-747	Expedicionaria: 0-1 Scout Gyrocopters por 1.000 pts como Core	OK	data.js:3433 (promote)	
+aj_dwarfs2-055	aj_dwarfs2.txt L749-757	Expedicionaria Special (hasta 50%): Miners, Scout Gyrocopters, Gyrocopters	OK	data.js:3434	
+aj_dwarfs2-056	aj_dwarfs2.txt L753-757	Expedicionaria: 0-3 máquinas (Bolt Thrower, Grudge Thrower, Cannon) por 1.000 pts	OK	data.js:3436	
+aj_dwarfs2-057	aj_dwarfs2.txt L759-763	Expedicionaria Rare (hasta 33%): Gyrobombers, 0-1 unidad de Slayers	OK	data.js:3433-3436	
+aj_dwarfs2-058	aj_dwarfs2.txt L764-767	Expedicionaria: 0-2 Organ Gun o Flame Cannon por 1.000 pts como Rare	OK	data.js:3436	
+aj_dwarfs2-059	aj_dwarfs2.txt L758-763	Expedicionaria: Portaestandarte de Batalla Thane o Engineer por +25 pts	OK	data.js:3554 (CMD dw_engineer/dw_sapper 25)	BSB Ingeniero/Zapador +25
+aj_dwarfs2-060	aj_dwarfs2.txt L765-767	Expedicionaria: objetos rúnicos como en FoF p.32	OK	data.js:3185-3220	
+aj_dwarfs2-061	aj_dwarfs2.txt L775-782	Expeditionary Marksmen: 0-1 unidad de Thunderers por 1.000 pts por +1 pt/modelo	OK	data.js:3543 (dw_thunderers_em ppm 11); data.js:3436	
+aj_dwarfs2-062	aj_dwarfs2.txt L781-782	Expeditionary Marksmen sin penalizadores a impactar por mover y disparar	OK	rules.js:2422 (has marksmen)	
+aj_dwarfs2-063	aj_dwarfs2.txt L783-784	Cualquier Ingeniero puede mejorarse a Expeditionary Marksman por +10 pts	OK	data.js:5216 (opt em +10 en Ingeniero/Zapador)	
+aj_dwarfs2-064	aj_dwarfs2.txt L789-800	Function Over Form: Cannon, Organ Gun y Flame Cannon con T-1 (mín. 1) y sin Move or Shoot	OK	data.js:3604 (variantes _ff)	
+aj_dwarfs2-065	aj_dwarfs2.txt L777-789	Subterranean Ambush: 2 marcadores de Mina +1 por cada unidad de Miners adicional	OK	rules.js:850-856, 6666-6669	
+aj_dwarfs2-066	aj_dwarfs2.txt L783-789	"Marcadores de Mina: no en zona rival, a 12"" de otra Mina, a 6"" de enemigo, a 3"" de elemento especial/objetivo"	OK	rules.js:1567-1573 (mineIssue)	No comprueba marcadores de objetivo
+aj_dwarfs2-067	aj_dwarfs2.txt L790-794	"Miners en Reserva: a 6"" de una Mina (no a 6"" de enemigo); no cargan ese turno; cuentan como movidos"	OK	rules.js enter (reloc kind mine, r 6, gap 6)	"Humano coloca a <=6"" de la Mina; IA en el marcador; no carga (u.moved/noCharge)"
+aj_dwarfs2-068	aj_dwarfs2.txt L853-854	Thorgrim Ulleksson: M3 HA6 HP4 F4 R5 H3 I3 A3 L10, 250 pts	OK	data.js:4195	
+aj_dwarfs2-069	aj_dwarfs2.txt L849-857	Thorgrim: Thane, heavy infantry (named character), base 25x25, tamaño 1, disponible en DMH	OK	data.js:4195 (lists grand, royal)	
+aj_dwarfs2-070	aj_dwarfs2.txt L861-862	Thorgrim: Gromril Armour, Grudgelore, Hatred (O&G), MR(-1), Rallying Cry, Resolute, Stubborn	OK	data.js:4195 (sr)	
+aj_dwarfs2-071	aj_dwarfs2.txt L868-870	Grudgelore: tras colocar la Grudgestone cambia Hatred (O&G) por Hatred (todos los enemigos), también su unidad	OK	rules.js:4225, 6326-6334	
+aj_dwarfs2-072	aj_dwarfs2.txt L876-880	Grudgestone: Unbreakable y supera Pánico; sin huir como reacción de carga ni mover salvo ceder/seguir/reformar	OK	rules.js lightFlee excluye fx grudgeS; ai.js optionGroups gs	Piedra bloquea Huir como reacción de carga
+aj_dwarfs2-073	aj_dwarfs2.txt L886-888	Armour of Skaldour: armadura pesada y salvación especial 4+ contra Golpe Letal o Heridas Múltiples (X)	OK	data.js:4195; rules.js:1675	
+aj_dwarfs2-074	aj_dwarfs2.txt L893-896	Grudge-settler: F+2, FP-1, Daña armadura (1), Ataques mágicos; runa maestra de Golpear y runa de Parada	OK	data.js thorgrim melee mw D6 + parry; rules.js attackProfile / parry x3	
+aj_dwarfs2-075	aj_dwarfs2.txt L937-938	Ungrim Ironfist: M3 HA9 HP4 F4 R6 H3 I5 A4 L10, 315 pts	OK	data.js:4196	
+aj_dwarfs2-076	aj_dwarfs2.txt L932-943	Ungrim: King, heavy infantry (named character), 25x25, tamaño 1, equipo con armadura ligera	OK	data.js:4196 (arm plate = ligera+Corona)	
+aj_dwarfs2-077	aj_dwarfs2.txt L944-946	Ungrim: Deathblow, Gromril Armour, Hatred (O&G), Immune Psych, MR(-2), Rallying Cry, Resolute, Slayer, Unbreakable	OK	data.js:4196 (sr)	
+aj_dwarfs2-078	aj_dwarfs2.txt L952	King of the Slayer Hold: puede unirse a Hammerers o Slayers aunque no tenga Loner	OK	rules.js joinCheck (excepción slayerKing con Hammerers/Slayers)	
+aj_dwarfs2-079	aj_dwarfs2.txt L953-955	Hammerers unidos a Ungrim ganan Immune to Psychology y Unbreakable	OK	rules.js:152 (has0 slayerKing)	Se aplica también a Slayers
+aj_dwarfs2-080	aj_dwarfs2.txt L955-959	Ungrim General en Clan Real: Slayers de personaje, 0-1 Slayers/1.000 Core, 0-4 Doomseekers/1.000 Special	OK	data.js chk Clan Real con generalOf(army)==Ungrim	
+aj_dwarfs2-081	aj_dwarfs2.txt L961-965	Slayer: tirada de 4+ para herir siempre acierta	OK	rules.js:4130	
+aj_dwarfs2-082	aj_dwarfs2.txt L967-971	Slayer Crown: armadura +2 y salvación especial 5+	OK	data.js:4196 (arm plate, ward 5)	
+aj_dwarfs2-083	aj_dwarfs2.txt L973-978	Axe of Dargo: F+2, FP-3, Ataques mágicos, Monster Slayer	OK	data.js ungrim melee magical:true	
+aj_dwarfs2-084	aj_dwarfs2.txt L1021-1022	Burlok Damminson: M3 HA5 HP5 F4 R4 H2 I2 A3 L10, 85 pts	OK	data.js:4197	
+aj_dwarfs2-085	aj_dwarfs2.txt L1017-1027	Burlok: Engineer, heavy infantry (named character), 25x25, tamaño 1, armadura pesada	OK	data.js:4197 (lists grand, expedition)	
+aj_dwarfs2-086	aj_dwarfs2.txt L1028-1030	Burlok: Dwarf Crafted, Gromril Armour, Hatred, MR(-1), Prepared Positions, Optics, Resolute, Stand Back Chief, Stubborn	OK	data.js:4197 (sr)	
+aj_dwarfs2-087	aj_dwarfs2.txt L1036-1039	Prepared Positions: en el despliegue Entrench una máquina no personaje y una unidad de Quarrellers/Thunderers	OK	rules.js pnTasks(prepM/prepU) + ready; Entrenched = cobertura parcial + obstáculo defendido	Elección del jugador / IA aprendida; popup si la IA atrinchera
+aj_dwarfs2-088	aj_dwarfs2.txt L1045-1048	Range Finding Optics: 1/turno, unidad amiga en alcance de mando repite 1 naturales al impactar o un dado de Artillería	OK	rules.js opticsUse/artDieM/disparo; main.js botón; ai.js optionGroups	Modo elegido por el jugador (repetir 1 / dado de Artillería / no usar), una vez por turno
+aj_dwarfs2-089	aj_dwarfs2.txt L1048-1049	Range Finding Optics: Burlok y su unidad no sufren -1 por largo alcance	OK	rules.js (optic = [u,...joinedLive(u)] con rangeFind)	Solo Burlok y su unidad
+aj_dwarfs2-090	aj_dwarfs2.txt L1054-1055	"Stand Back Chief: no es objetivo de disparos ni hechizos a 3"" de una máquina de guerra amiga"	OK	rules.js:1998, 2039, 3271	
+aj_dwarfs2-091	aj_dwarfs2.txt L1057-1060	Furnace hammer: F por dado de Artillería, FP-2, Ataques flamígeros; Avería = pierde 1 Herida y no ataca	OK	rules.js:4987-4992; data.js:4197	
+aj_dwarfs2-092	aj_dwarfs2.txt L1063-1066	"Rivet gun: 10"", F3, FP-2, Daña armadura (1); al impactar causa D3 impactos"	OK	data.js:4197 (ranged hitD3); rules.js:2488	
+aj_dwarfs2-093	aj_dwarfs2.txt L1070	Engineer Sapper: M3 HA4 HP5 F4 R4 H2 I2 A2 L9, 70 pts	OK	data.js:3542 (ppm 70, Ld 9)	
+aj_dwarfs2-094	aj_dwarfs2.txt L1068-1076	Sapper: heavy infantry (character), 25x25, tamaño 1, arma de mano y armadura pesada	OK	data.js:3542	
+aj_dwarfs2-095	aj_dwarfs2.txt L1079-1080	Sapper: pistola +6 o par de pistolas +10	OK	data.js:5173-5180	
+aj_dwarfs2-096	aj_dwarfs2.txt L1081-1083	Sapper: arma a dos manos +4; arcabuz +8	OK	data.js:5173-5180	
+aj_dwarfs2-097	aj_dwarfs2.txt L1084	Sapper: runas de arma, armadura y talismánicas hasta 50 pts	OK	data.js:3542 (ib 50, runeCats wat)	
+aj_dwarfs2-098	aj_dwarfs2.txt L1086-1087	Sapper: Dig In!, Dwarf Crafted, Gromril Armour, Hatred, MR(-1), Resolute, Stubborn	OK	data.js mkVariant dw_sapper sr explícito (digIn, sin Artillery Master/Stand Back/Entrench)	
+aj_dwarfs2-099	aj_dwarfs2.txt L1089-1100	Dig In!: en el Command sub-phase, test de L; si lo pasa, él y su unidad quedan Entrenched	OK	rules.js a.t digin; main.js botón; ai.js optionGroups di	Test de Ld propio; Atrincherada hasta que se mueva (move/runAway)
+aj_dwarfs2-100	aj_dwarfs2.txt L1102-1108	Hostile Terrain: enemigo que termina movimiento en alcance de mando de estos personajes hace test de Terreno Peligroso	OK	rules.js:5230, 6809; data.js:3542 (errata FoF)	
+aj_dwarfs2-101	aj_dwarfs2.txt L1113-1114	Doomseeker: M3 HA5 HP0 F5 R4 H2 I3 A2D3 L10, 50 pts	OK	data.js:1370 (randA 2D3)	
+aj_dwarfs2-102	aj_dwarfs2.txt L1116-1119	Doomseeker: tamaño 1, base 25x25, whirling blades como arma de mano; no personaje y Skirmishers (errata)	OK	data.js:1370 (cat inf, skirmish)	"Errata FoF prima sobre ""character"""
+aj_dwarfs2-103	aj_dwarfs2.txt L1122	Doomseeker: runas de arma hasta 50 pts	OK	data.js:1370 (ib 50, runeCats wk)	
+aj_dwarfs2-104	aj_dwarfs2.txt L1124-1127	Doomseeker: Deathblow, Gromril Weapons, Hatred, Immune Psych, Impact, Loner, MR(-2), Random Attacks, Unbreakable	OK	data.js:1370 (sr)	
+aj_dwarfs2-105	aj_dwarfs2.txt L1132-1134	Doomseeker: muerto 0 PV; vivo da al enemigo 100% de su coste	OK	rules.js:5938-5947	
+aj_dwarfs2-106	aj_dwarfs2.txt L1139-1140	"First to the Fray: +3"" al alcance máximo de carga y +D3 a la tirada de carga"	OK	rules.js:~3085 (retirado duplicado doomseeker)	Solo se aplica por la regla firstFray
+aj_dwarfs2-107	aj_dwarfs2.txt L1146-1147	Whirlwind of Death: tirada de 4+ para herir siempre acierta	OK	rules.js:4133, 2941	
+aj_dwarfs2-108	aj_dwarfs2.txt L1146	Whirlwind of Death: Impact Hits con el perfil de las whirling blades (incluidas sus runas)	OK	rules.js chargeImpacts whirlDeath usa attackProfile (S, FP, runas, MW)	
+aj_dwarfs2-109	aj_dwarfs2.txt L1152-1156	Dogs of War: 0-3 Doomseekers como mercenarios en Gran Ejército DMH	OK	data.js MERCS.dw.grand + chk 0-3	
+aj_dwarfs2-110	aj_dwarfs2.txt L1152-1156	Dogs of War: 0-3 Doomseekers como mercenarios en Gran Ejército Empire of Man	OK	data.js MERCS.empire.grand + chk 0-3	
+aj_dwarfs2-111	aj_dwarfs2.txt L1163-1164	Royal Clan Warrior M3 HA4 HP3 F3 R4 H1 I2 A1 L9 10 pts; Veteran A2 +6	OK	data.js:1427; data.js:2476 (CMD 6)	
+aj_dwarfs2-112	aj_dwarfs2.txt L1166-1169	RCW: heavy infantry, 25x25, tamaño 5+, manos+escudos+armadura pesada	OK	data.js:1427	
+aj_dwarfs2-113	aj_dwarfs2.txt L1173	RCW: sustituir escudos por gromril great axes +1 pt/modelo	OK	data.js:3540 (dw_royalwarriors_ga ppm 11)	
+aj_dwarfs2-114	aj_dwarfs2.txt L1174-1176	RCW: campeón, portaestandarte y músico +6 pts por unidad	OK	data.js:2476	
+aj_dwarfs2-115	aj_dwarfs2.txt L1177	RCW: runas de estandarte hasta 75 pts	OK	data.js:1427 (bnMax 50) + 3179 (+25 royal)	
+aj_dwarfs2-116	aj_dwarfs2.txt L1178-1180	RCW: Veterano puede comprar runas de arma 25 y talismánicas 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+aj_dwarfs2-117	aj_dwarfs2.txt L1181-1186	RCW: 0-1 unidad por 1.000 pts puede tener Drilled, Stubborn o Veteran +1 pt/modelo	OK	data.js:3539	
+aj_dwarfs2-118	aj_dwarfs2.txt L1188-1189	RCW: Close Order, Gromril Armour, Gromril Weapons, Hatred, MR(-1), Resolute, Shieldwall	OK	data.js:1427 (sr)	
+aj_dwarfs2-119	aj_dwarfs2.txt L1191-1192	Gromril great axe: F+2, FP-3, Requires Two Hands, Strike Last	OK	data.js:3540 (sb2 ap3 twoHands last)	
+aj_dwarfs2-120	aj_dwarfs2.txt L1211-1212	Imperial Dwarf Mercenary: M3 HA4 HP3 F3 R4 H1 I2 A1 L9 8 pts; Veteran A2 +5	OK	data.js:3522; data.js:2476 (CMD dw_warriors 5)	
+aj_dwarfs2-121	aj_dwarfs2.txt L1214-1217	IDM: heavy infantry, 25x25, tamaño 5+, manos y armadura ligera	OK	data.js:3522-3524	
+aj_dwarfs2-122	aj_dwarfs2.txt L1221	IDM: toda la unidad armas a dos manos +2 pts/modelo	OK	data.js:~3533 opt gw (F+2 FP-2 Daña armadura 1)	
+aj_dwarfs2-123	aj_dwarfs2.txt L1222	IDM: lanzas de empuje +1 pt/modelo	OK	data.js:3522 (ppm 9, thrust)	
+aj_dwarfs2-124	aj_dwarfs2.txt L1223	IDM: ballestas +2 pts/modelo	OK	data.js:3522 (ppm 10)	
+aj_dwarfs2-125	aj_dwarfs2.txt L1224	IDM: arcabuces +3 pts/modelo	OK	data.js:3522 (ppm 11)	
+aj_dwarfs2-126	aj_dwarfs2.txt L1226-1228	IDM: campeón, portaestandarte y músico +5 pts por unidad	OK	data.js:2476 (hereda CMD de dw_warriors)	
+aj_dwarfs2-127	aj_dwarfs2.txt L1229	IDM: escudos +1 pt/modelo	OK	data.js opt sh +1 (sin escudo por defecto)	
+aj_dwarfs2-128	aj_dwarfs2.txt L1230	IDM: sustituir armadura ligera por pesada +1 pt/modelo	OK	data.js opt ha +1	
+aj_dwarfs2-129	aj_dwarfs2.txt L1232	IDM: Veterano puede comprar runas de arma hasta 25 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+aj_dwarfs2-130	aj_dwarfs2.txt L1233-1235	IDM: 0-1 unidad por 1.000 pts con Drilled o Veteran +1 pt/modelo	OK	data.js opts dr/vt per1000 +1	
+aj_dwarfs2-131	aj_dwarfs2.txt L1236	IDM: runas de estandarte hasta 50 pts	OK	data.js bnMax 50	
+aj_dwarfs2-132	aj_dwarfs2.txt L1238-1239	IDM: Close Order, Hatred, MR(-1), Resolute, Shieldwall	OK	data.js:1393, 3524	
+aj_dwarfs2-133	aj_dwarfs2.txt L1243-1250	Dogs of War: 0-1 unidad de IDM como mercenaria en Gran Ejército DMH y Empire of Man	OK	data.js:3522-3527; data.js:4456	
+aj_dwarfs2-134	aj_dwarfs2.txt L1258	Scout Gyrocopter: M1 (Fly 10) HA4 HP4 F4 R4 H3 I2 A2 L9, 60 pts	OK	data.js:1423 (M10 como vuelo)	M se representa como el vuelo 10
+aj_dwarfs2-135	aj_dwarfs2.txt L1260-1263	Scout Gyro: monstrous cavalry, 50x50, tamaño 1-2, arma de mano, fuselaje con armadura pesada	PARCIAL	data.js:1423 (tt monInf, max 2, arm heavy)	VERIF v732: data.js:1431 dw_scoutgyro tt:monInf (Infanteria monstruosa, maxRank 2) pero la fuente dice Caballeria monstruosa (monCav, maxRank 1); resto (1-2, 50x50, armadura pesada) OK.
+aj_dwarfs2-136	aj_dwarfs2.txt L1265-1267	Scout Gyro: Extended Formation, Fire & Flee, Fly 10, Hatred, Hit & Run, Impact D3, MR(-1), Skirmishers, Swiftstride	OK	data.js:1423 (sr), rules.js:4767 (FLYX 10)	
+aj_dwarfs2-137	aj_dwarfs2.txt L1273-1274	"Extended Formation: en Skirmish cada modelo a 3"" de otro de la unidad en vez de 1"""	OK	rules.js:1344 (spMaxOf 3)	
+aj_dwarfs2-138	aj_dwarfs2.txt L1282-1283	Hit & Run: tras ganar un combate la unidad puede elegir Retirarse en buen orden en vez de seguir o perseguir	OK	rules.js:~5150 (hitRunOn), main.js botón, ai.js optionGroups	Elección del jugador / IA aprendida
+aj_dwarfs2-139	aj_dwarfs2.txt L1285-1291	"Clattergun: 24"", F4, FP-1, Daña armadura (1), Dwarf Crafted, Move & Shoot, Multiple Shots (D6), Quick Shot"	OK	data.js:1423 (ranged)	
+aj_dwarfs2-140	aj_dwarfs2.txt L1304-1311	Dwarf Cart: F4 R5 H3, 65 pts; light chariot, 50x75, tamaño 1, armadura 5+	OK	data.js dw_cart/dw_cart_miner max 1, files 1; armyIssues Baggage 0-4	Tamaño de unidad 1
+aj_dwarfs2-141	aj_dwarfs2.txt L1304-1307	Dwarf Crew HA4 HP4 F3 I2 A1 L8; Draft Pony M6 HA3 F3 I3 A1	OK	data.js dw_cart slots (tripulación HA4 F3 I2 / poni HA3 F3 I3)	
+aj_dwarfs2-142	aj_dwarfs2.txt L1322-1323	Cart: Hatred, Impact Hits (D3), MR(-1), Open Order, Resolute	OK	data.js:1440 (sr)	
+aj_dwarfs2-143	aj_dwarfs2.txt L1318-1319	Cart: debe elegir Bugman's Cart o Miner's Cart (gratis)	OK	data.js:1440, 1443 (dos tipos)	
+aj_dwarfs2-144	aj_dwarfs2.txt L1330-1335	"Bugman's Cart: unidad enana a 6"" (sin huir/trabada) gana +1 M; no acumulativo"	OK	rules.js:1475, 1479	No beneficia a otro Carro de Bugman
+aj_dwarfs2-145	aj_dwarfs2.txt L1341-1343	"Miner's Cart: unidades a 3"" pueden Stand & Shoot/disparar como si tuvieran Blasting Charges"	PARCIAL	rules.js BLASTC/minerCartNear en rangedOf0	Unidades sin arma de proyectiles: sí; si ya tienen una el motor no deja elegir Cargas de demolición
+aj_dwarfs2-146	aj_dwarfs2.txt L1343-1346	"Miner's Cart: al perder su última Herida en combate, 4+ explota: D6 impactos F3 FP-1 flamígeros a unidades a 3"""	OK	rules.js:2619-2622	
+aj_dwarfs2-147	aj_dwarfs2.txt L1349-1351	Baggage: Gran Ejército DMH puede incluir 0-4 Dwarf Carts como Rare	OK	data.js armyIssues list grand (0-4 carros)	
+aj_dwarfs2-148	aj_dwarfs2.txt L1355-1356	Goblin-hewer T6 H3, 120 pts; tripulación Slayer M3 HA4 HP3 F3 R4 H1 I2 A1 L10 (errata H2 A2)	OK	data.js dw_hewer W3 (A2 tripulación, errata)	
+aj_dwarfs2-149	aj_dwarfs2.txt L1358-1361	Hewer: war machine, bases 50x50 (errata 50x75), tamaño 1	OK	data.js:1446 (baseW 50 baseD 75)	
+aj_dwarfs2-150	aj_dwarfs2.txt L1364	Hewer: runas de ingeniería hasta 50 pts	OK	data.js dw_hewer runeE 50	
+aj_dwarfs2-151	aj_dwarfs2.txt L1366-1367	Hewer: Hatred, Immune to Psychology, MR(-1), Skirmishers, Unbreakable	OK	data.js:1446 (sr)	
+aj_dwarfs2-152	aj_dwarfs2.txt L1371-1373	"Goblin-hewer: 36"", F4, FP-1, Daña armadura (1), Cumbersome, Move or Shoot"	OK	data.js dw_hewer (retirado through)	
+aj_dwarfs2-153	aj_dwarfs2.txt L1377-1386	Whirling Doom: dado de Artillería + D3 de disparos (FAQ: un solo D3)	OK	rules.js:2444-2449	FAQ FoF prevalece sobre por fila/columna
+aj_dwarfs2-154	aj_dwarfs2.txt L1387-1388	Whirling Doom: Avería = sin disparos y fallo crítico en la tabla	OK	rules.js:2446, 2076	
+aj_dwarfs2-155	aj_dwarfs2.txt L1374	Hewer usa la tabla de Avería del Stone Thrower	OK	rules.js:2076-2086	Tabla genérica de fallos
+aj_dwarfs2-156	aj_dwarfs2.txt L1392-1394	Innovative Engineers: DMH con Slayers of Legend puede incluir 0-1 Goblin-hewer por 1.000 pts como Rare	OK	data.js armyIssues grand: Slayers of Legend y 0-1 por 1.000	
+aj_dwarfs2-157	aj_dwarfs2.txt L1410-1416	Tatuajes: Doomseekers hasta 3, Daemon Slayers 2, Dragon Slayers 1; no repetir en un modelo	OK	data.js:1370, 1373, 1376, 3203, 3188-3200	
+aj_dwarfs2-158	aj_dwarfs2.txt L1412-1413	Tatuajes: no dos personajes con la misma combinación de tatuajes	OK	data.js armyIssues combinaciones de tatuajes únicas	
+aj_dwarfs2-159	aj_dwarfs2.txt L1419-1428	Runa del Deshonrado 50 pts: 3+ especial con la última Herida; muerto 0 PV, vivo +100% al enemigo; solo Slayers	OK	data.js:2890, 3204; rules.js:1457, 5937	
+aj_dwarfs2-160	aj_dwarfs2.txt L1430-1437	Runa de Batalla Sin Fin 40 pts: ataque adicional por herida no salvada tras cargar (no adicionales ni Impactos)	OK	data.js:2889; rules.js:4324, 4388	
+aj_dwarfs2-161	aj_dwarfs2.txt L1443-1450	Runa del Temerario 35 pts: Frenzy, +1 impactar en combate; enemigos también +1 al impactarle	OK	data.js:2887; rules.js:4368, 4626	
+aj_dwarfs2-162	aj_dwarfs2.txt L1452-1456	Runa del Rencoroso 30 pts: Hatred (todos los enemigos)	OK	data.js:2888	
+aj_dwarfs2-163	aj_dwarfs2.txt L1410-1415	Runa del Aguante 25 pts: +1 Resistencia	OK	data.js:2882	
+aj_dwarfs2-164	aj_dwarfs2.txt L1417-1423	Runa del Intrépido 15 pts: siempre desafía y acepta; repite impactos fallidos en desafío	OK	data.js:2883; rules.js:4273, 4369	
+aj_dwarfs2-165	aj_dwarfs2.txt L1425-1429	Runa de la Cólera 15 pts: +1 Ataques	OK	data.js:2884	
+aj_dwarfs2-166	aj_dwarfs2.txt L1431-1436	Runa del Guerrero 10 pts: +1 Habilidad de armas	OK	data.js:2885	
+aj_dwarfs2-167	aj_dwarfs2.txt L1438-1441	Runa de Furia Ardiente 5 pts: Ataques flamígeros	OK	data.js:2886	
+aj_dwarfs2-168	aj_dwarfs2.txt L1462-1463	Runas de arma de ingeniero: solo en ballesta o arcabuz; reglas normales de runas de arma	OK	rules.js rwWpn (solo ballesta/arcabuz); data.js runeIssues Zapador	Pistolas excluidas
+aj_dwarfs2-169	aj_dwarfs2.txt L1465-1472	Runa Maestra de Matar 50 pts: contra Behemoth 3+ siempre hiere; Heridas múltiples (D3)	OK	rules.js resolveShot rwSlay alwaysW 3 vs behemot + D3	
+aj_dwarfs2-170	aj_dwarfs2.txt L1475-1488	Runa Maestra de Perforar 40 pts: +1 Fuerza y Atravesar (Through & Through)	OK	data.js:2893; rules.js:2214	
+aj_dwarfs2-171	aj_dwarfs2.txt L1490-1496	Runa Maestra de Llama Estallante 35 pts: impacto exitoso causa 2D3 impactos	OK	data.js:2894; rules.js:2499	
+aj_dwarfs2-172	aj_dwarfs2.txt L1467-1471	Runa de Fuerza Conmocionante 30 pts: la unidad impactada gana Estupidez hasta tu siguiente Start of Turn	OK	data.js:2895; rules.js:2500	
+aj_dwarfs2-173	aj_dwarfs2.txt L1473-1478	Runa de Precisión 20 pts: sin modificadores negativos a impactar	OK	data.js:2896; rules.js:2434	
+aj_dwarfs2-174	aj_dwarfs2.txt L1480-1490	Runa de Fuego Rápido 15 pts: Multiple Shots (2) y Quick Shot	OK	data.js:2897; rules.js:2215	
+aj_dwarfs2-175	aj_dwarfs2.txt L1492-1497	Runa de Acero Fundido 10 pts: Ataques flamígeros	OK	data.js:2898; rules.js:2217	
+aj_dwarfs2-176	aj_dwarfs2.txt L1499-1504	Runa Encantada 5 pts: Ataques mágicos	OK	data.js:2899; rules.js:2218	

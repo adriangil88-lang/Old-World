@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+core_2.tsv	C2-061	Forming Units: Marching Column	Triplica el Movimiento al marchar	OK	rules.js:1881-1882 (mult 3)	
+core_5.tsv	C5-027	p.192 Light Cavalry	Si el jinete llega a 0 Heridas se retira el modelo entero	OK	rules.js:1480-1500	Reserva unica de Heridas (la del jinete)
+dawn_renegade_sc.tsv	cathay_dawn-032	cathay_dawn.txt:373-383	Tabla Wasteland 4: Bosque (difícil o peligroso)	OK	dawn.js genDawn/buildLinear + rules.js createGame (tmode waste/shadow)	
+core_5.tsv	C5-093	p.205 Characters & Formations	Un personaje Lone siempre cuenta como Escaramuza	OK	rules.js:2108	isLone: personaje infanteria/caballeria sin unidad = Escaramuza (360 al disparar y lanzar)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-189	leg_chaosdwarfs.txt:573-577	War machine, 50x75, unidad 1; equipo cohetes, armas de mano, armadura pesada	OK	data.js cd_rocket baseD 75	Base 50x50 en vez de 50x75
+battlemarch_quickref.tsv	battlemarch-175	battlemarch.txt L2706-2715	Secreto Maestría mágica: dos hechizos lanzados sin dispersar, o dos dispersados sin disfunción propia (+50 PV)	OK	rules.js:265, 5749	
+core_8.tsv	core_8-046	Waaagh! p.334 l.10783	"Mirada Vengativa: Proyectil 8+, 21"", 1 impacto F7 Heridas multiples (D3) sin armadura; puede apuntar a unidad trabada"	OK	data.js:glare engagedOk:true	Puede apuntar a unidad trabada
+core_5.tsv	C5-091	p.204 Chariot Mount	Armadura: la mejor entre carro y personaje (escudo no mejora al carro)	OK	rules.js:1461-1463	
+aj_empire2.tsv	aj_empire2-148	aj_empire2.txt:1684-1689	Varita de Dos Colas: 40 pts, una vez por turno lanzar un hechizo por segunda vez; percance = D3 heridas sin armadura ni 	OK	data.js:2843; rules.js:3286,3338,3807	
+dawn_renegade_sc.tsv	cathay_dawn-022	cathay_dawn.txt:321-327	Disparar desde un edificio: hasta la mitad (50%) de los modelos pueden disparar y lanzar hechizos	OK	rules.js:1491-1520,6405 (edificios Dawn: garrison, plantillas, cañón, asalto, rotura)	
+leg_skaven.tsv	leg_skaven-101	leg_skaven.txt:355-357	Doom-flayer: Counter Charge, Extra Attacks (D6), Impact Hits (D6+1) con FP-2	OK	data.js:1822-1824	
+core_8.tsv	core_8-034	Ilusion p.330 l.10598	"Convocacion Confusa: Hex 9+ (FAQ 8+), 9"", permanece, la unidad objetivo queda sujeta a Estupidez"	OK	data.js:2345; rules.js:3532	
+leg_daemons.tsv	leg_daemons-068	leg_daemons.txt L284-291	Canon de Calaveras: carro pesado 50x100 armadura 4+, unidad 1	OK	data.js:2017 Sv4	
+aj_beasts2.tsv	aj_beasts2-127	aj_beasts2.txt:1530-1534	4. Fury of the Beast: Enchantment CV 9+, Self, lanzador y unidad ganan Fight in Extra Rank	OK	data.js:2314; rules.js:3567	
+core_4.tsv	C4-008	Resultado de combate p.152	Estandarte de Batalla +1 punto acumulable con el estandarte normal	OK	rules.js:4725 (bsbPt)	
+leg_daemons.tsv	leg_daemons-213	leg_daemons.txt L1032-1033	Moledor: Orden cerrado, Demoniaco, Carga furiosa, Objetivo grande, Movimiento de reserva, Pisoteo (D6+1), Terror	OK	data.js:2029	
+aj_orcs2.tsv	aj_orcs2-068	aj_orcs2.txt:1094-1096	Troll Mother (Gran Ejército): Con una o más mobs de Trolls, 0-1 Bruja Troll como Rara	OK	data.js:~4608 (límite 0-1 y requisito de Trolls en Gran Ejército)	
+faq_libros.tsv	F34	FoF p.133 Dryad	Movimiento 6 y Armour Bane (1)	OK	data.js we_dryads (M6, melee.ab 1)	
+leg_daemons.tsv	leg_daemons-215	leg_daemons.txt L1039-1042	"Cañon cosechador: 12"", F4, PA-1, Cumbersome, metralla; Avería quita 1 Herida"	OK	data.js:2029 ranged grape	
+aj_empire2.tsv	aj_empire2-031	aj_empire2.txt:919-924	Caballeros Órdenes AoI: 0-1 Lector de Sigmar o Sumo Sacerdote de Ulric por 1.000 pts; Cazadores de Brujas, Sacerdotes de	OK	data.js:3426,3428	
+leg_lizardmen.tsv	leg_lizardmen-072	leg_lizardmen.txt:287	Saurus Warriors: Close Order, Cold Blooded, Obsidian Blades	OK	data.js:1703 (melee ap 1)	
+aj_wood2.tsv	aj_wood2-050	aj_wood2.txt:921-926	Ancient Enemies: todas las unidades con Odio (Hombres Bestia Brayherds)	OK	rules.js:4225 faction bm	Se aplica a unidades de la facción wood
+aj_highelves.tsv	aj_highelves-141	aj_highelves.txt:1753-1758	Esquirla del Vórtice 50 pts: un uso, disipa automáticamente y disipa todos los hechizos Permanece en juego	OK	data.js:2875, rules.js:3380-3381	Uso automático decidido por el motor
+aj_tk2.tsv	aj_tk2-107	aj_tk2.txt L1370-1380	Objetos TK: Hoja del Conquistador (55): F+2 FP-2 Golpe Letal, Mágica, Dos manos, golpea último; Golpe Letal 5+ en desafí	OK	data.js:2771; rules.js:4384,4771	
+aj_tk2.tsv	aj_tk2-112	aj_tk2.txt L1429-1433	Objetos TK: Amuleto de la Serpiente (30): Portador y su unidad: Ataques envenenados	OK	data.js:2776	
+core_2.tsv	C2-024	General Principles: Templates	"Plantilla de llamas en forma de lágrima de unos 8"" de largo"	OK	rules.js:2084-2094 flameHits (L=8, ancho 0.6 a 3.2)	
+leg_daemons.tsv	leg_daemons-135	leg_daemons.txt L594-597	Buscadores: Heartseeker, estandarte, musico +6, Icono 50	OK	data.js:2460	
+leg_daemons.tsv	leg_daemons-270	leg_daemons.txt L1320-1332	"Foco Demoniaco: -1 Heridas de Inestabilidad en 12"" y doble 6 no elimina"	OK	rules.js locusFor (-1 heridas, sin eliminacion)	Solo hay Totem D3; sin regla de Foco
+core_8.tsv	core_8-026	Alta Magia p.328 l.10543	"Tempestad: mientras esten a 6"", los enemigos tratan terreno abierto como dificil y terreno dificil como peligroso"	OK	rules.js:2046 (feats tempest), 6478	"Tempestad: abierto = dificil, dificil = peligroso a 6"""
+aj_wood2.tsv	aj_wood2-048	aj_wood2.txt:900-905	Talsyn PEB: Capitán o Guardián de Talsyn por +25 pts	OK	data.js:2467 we_captain y we_warden [null,25,null]	
+leg_skaven.tsv	leg_skaven-137	leg_skaven.txt:533	Ratas Gigantes: un Packmaster a Master Moulder +7	OK	data.js CMD sk_giantrats [7]	Campeón = Maestro Moldeador
+leg_darkelves.tsv	leg_darkelves-043	leg_darkelves.txt:161	Perfil Gran Maestro de Bestias -/7/7/4/3/3/5/3/9, 75 pts	OK	data.js:1613	
+leg_skaven.tsv	leg_skaven-167	leg_skaven.txt:640-641	Blessings of the Horned Rat: salvación especial 5+ contra heridas de ataques enemigos no mágicos	OK	data.js:wardNMu 5; rules.js woundAndSave0	Ward 5+ vs no mágico
+aj_chaos2.tsv	aj_chaos2-163	aj_chaos2.txt L1593-1604	Guadaña Funesta de Obsidiana 55 pts: F+2, FP-1, Perforación(1), Golpe Mortal, Mágica, Dos manos, Golpea último; solo Her	OK	data.js ITEMS wocaj_glaive list heralds	
+leg_vampires.tsv	leg_vampires-049	leg_vampires.txt:234	Perfil Rey Ghoul Strigoi M6 HA6 HP3 F5 R5 H3 I7 A5 Ld8, 145 pts	OK	data.js:1838	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-123	leg_chaosdwarfs.txt:328-330	Cutthroats: Boss +7, estandarte +5, musico +5	OK	data.js:2458 [7,5,5]	
+aj_empire2.tsv	aj_empire2-081	aj_empire2.txt:1284	Ogros Imperiales: Capitán Ogro +7 pts por unidad	OK	data.js:3519 (CMD imp_ogres [7,...])	
+cathay.tsv	cathay_aj-020	cathay_aj.txt 1221-1224	Magia: Humana nivel 4, Dragon nivel 2; lanza tantos hechizos como nivel; conoce 4 hechizos de Batalla, Elementalismo o A	OK	data.js ct_miaoying(_h) lores [battle,elementalism,high]	Ilusionismo excluido
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-048	leg_chaosdwarfs.txt:147-150	Heavy infantry (character), 25x25, unidad 1, arma de mano y armadura pesada	OK	data.js:2109,2113	
+core_6.tsv	core6-040	Low Linear Obstacles	Para el movimiento cuentan como terreno difícil	OK	rules.js:1932 (kind wall), 3016	
+leg_ogres.tsv	leg_ogres-032	leg_ogres.txt:126-131	Carga de toro: Impactos del modelo (no montura) con FP -1	OK	data.js:2033 impact ap:1; bullCharge solo a pie	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-151	leg_chaosdwarfs.txt:827-832	Stampede: Impact Hits con Armour Piercing -2	OK	rules.js:~2945	Impactos de Taur'ruk/Renders con FP 0
+aj_dwarfs2.tsv	aj_dwarfs2-117	aj_dwarfs2.txt L1181-1186	RCW: 0-1 unidad por 1.000 pts puede tener Drilled, Stubborn o Veteran +1 pt/modelo	OK	data.js:3539	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-212	leg_chaosdwarfs.txt:651	Fire thrower (perfil no incluido en el texto fuente)	OK	data.js cd_magma	"Perfil verificado en core_rulebook p.229 (12"" F5 FP-1)"
+aj_bretonnia.tsv	aj_bretonnia-156	aj_bretonnia.txt L1686-1692	Colgante del Grial 40: un solo uso, al perder la ultima Herida D6 2+ no se pierde; solo Voto del Grial	OK	data.js brsaj_grail needGrail	Efecto OK; sin restriccion de Voto del Grial
+dawn_renegade_sc.tsv	renegade_web-034	renegade_web.txt:76-77	Capitán: escudo +2; armadura pesada +3 o completa +6 en vez de la ligera	OK	data.js:5542-5544 CHW	
+leg_darkelves.tsv	leg_darkelves-160	leg_darkelves.txt:628-629	Runas oscuras: salvación especial 5+ contra heridas de ataques enemigos no mágicos	OK	rules.js:1670	
+dawn_renegade_sc.tsv	renegade_web-064	renegade_web.txt:158-162	Libres Veteranos: 22 pts, HA4 HP3 F4 R3 H1 I3 A1 Ld8; Comandante A2; caballería pesada; mínimo 5	OK	data.js:5609 rc_vfreeblades (F4)	
+core_3.tsv	c3-003	Spell Duration (p.111)	Otros duran hasta el siguiente Inicio de turno del lanzador	OK	rules.js:5169 (u.fx filtra f.by !== p al empezar su turno)	
+battlemarch_quickref.tsv	battlemarch-023	battlemarch.txt L902-913	"¡Es una emboscada!: desde la 2ª ronda las reservas entran por cualquier borde largo, a más de 4"" de enemigos"	OK	rules.js:6522-6543 (turn>=2, borde top/bottom, enemyGap 4)	

@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+core_2.tsv	C2-043	Other Model Information: Unit Size	Tamaño de unidad mínimo/máximo (N+ o rango)	OK	data.js:4382 (mínimo y máximo con mensaje de validación)	
+leg_darkelves.tsv	leg_darkelves-042	leg_darkelves.txt:293	Suprema Hechicera en Dragón Negro	OK	data.js:3348 de_supreme_dragon	
+leg_lizardmen.tsv	leg_lizardmen-132	leg_lizardmen.txt:596-602	Bastiladon: monstrous creature 60x100 AV 3+, Thunderous bludgeon, Ark of Sotek	OK	data.js:lm_bastiladon Sv 3	AV 4+ en vez de 3+
+aj_wood2.tsv	aj_wood2-024	aj_wood2.txt:743-743	OWH Raras: 0-3 Grandes Águilas por 1.000 pts	OK	data.js:4658	
+aj_dwarfs2.tsv	aj_dwarfs2-121	aj_dwarfs2.txt L1214-1217	IDM: heavy infantry, 25x25, tamaño 5+, manos y armadura ligera	OK	data.js:3522-3524	
+aj_beasts2.tsv	aj_beasts2-084	aj_beasts2.txt:1207-1208	Perfil Perro Primigenio: M7 HA4 HP0 F3 R3 H1 I3 A1 Ld5, 6 pts	OK	data.js:3569 (hereda bm_hounds)	
+leg_vampires.tsv	leg_vampires-095	leg_vampires.txt:446	Perfil Zombi M4 HA2 HP0 F3 R3 H1 I1 A1 Ld2, 3 pts	OK	data.js:1885	
+faq_libros.tsv	C04	Cathay p.34 Special Rules	Quitar Unbreakable y añadir Flammable	OK	data.js:2241 sr incluye flammable y no unbreakable; efecto en rules.js:1730	
+aj_dwarfs2.tsv	aj_dwarfs2-026	aj_dwarfs2.txt L625	Clan Real: 0-1 Yunque del Destino o Señor de las Runas por 1.000 pts	OK	data.js:3432	
+leg_vampires.tsv	leg_vampires-223	leg_vampires.txt:1109-1118	Cetro de de Noirot 35: Nehek dos veces; con 1 pierde Herida	OK	data.js:3063; rules.js:6356-6362	
+leg_darkelves.tsv	leg_darkelves-151	leg_darkelves.txt:582-584	0-1 unidad por 1.000 pts: Disparar y huir o Exploradores +1	OK	data.js:3760-3761	
+cathay.tsv	cathay_aj-031	cathay_aj.txt 1387-1395	Muerte de un Dragon: heridas compartidas entre perfiles; primera vez a 0 en forma Dragon revierte a Humana con D3 herida	OK	rules.js:2606-2609	
+leg_daemons.tsv	leg_daemons-042	leg_daemons.txt L149-150	Heraldo de Khorne: Carga furiosa* (no montura), Impetuoso, Favor Infernal (1), RM (-1)	OK	data.js:1931	
+leg_vampires.tsv	leg_vampires-032	leg_vampires.txt:125	Conde: objetos mágicos hasta 100 pts	OK	data.js:1835 ib:100	
+dawn_renegade_sc.tsv	renegade_web-039	renegade_web.txt:85-87	Mago Proscrito: caballo de guerra +12, nivel 2 +30, nivel 3 +60, objetos hasta 75 pts	OK	data.js:5574-5577 (75/105 pts, +12 montado); ib:75	
+battlemarch_quickref.tsv	battlemarch-036	battlemarch.txt L1085-1092	Sturdham: primer turno por tirada enfrentada (gana y juega primero); cinco rondas	OK	rules.js:1058 RO bm_sturdham [0,0]; 210 turns:5	
+aj_tk2.tsv	aj_tk2-031	aj_tk2.txt L802-806	Culto Mortuorio: Banner of the King sustituye Mantened la posición: El PEB usa la versión de Banner of the King en lugar	OK	rules.js kingNear (~3206) y Inestable D3 (~5845); texto en rh.txt L5331	El PEB (Heraldo o Sacerdote Funerario del Culto Mortuorio) sustituye Mantened la posición: repetir cualquier chequeo de Liderazgo fallado (Miedo, Terror, Pánico, Reagrupar, Ruptura) y reducir Inestable en D3 (no acumulable con Indomitable).
+faq_libros.tsv	R37	RH p.149 Casket of Souls	Hechizos ligados con Nivel de Poder 2	OK	data.js:2354 (bound 2), tk_casket	
+leg_daemons.tsv	leg_daemons-041	leg_daemons.txt L147	Heraldo de Khorne: Dones hasta 50 pts	OK	data.js:1931 ib 50	
+aj_chaos2.tsv	aj_chaos2-092	aj_chaos2.txt L1162-1163	Fuego Oscuro del Caos: F4, FP-1, Arma de Aliento, Ataques Flamígeros y Mágicos	OK	data.js:1249 ranged s4 ap1 breath flaming magical	
+aj_bretonnia.tsv	aj_bretonnia-146	aj_bretonnia.txt L1572-1573	Averia 4-5: no dispara este turno	OK	rules.js:2294	
+aj_wood2.tsv	aj_wood2-038	aj_wood2.txt:881-881	Talsyn: 0-1 Danzante de las Sombras por unidad de Bailarines	OK	data.js:4650	
+aj_chaos2.tsv	aj_chaos2-084	aj_chaos2.txt L1097-1099	Galrauch: garras, Fuego Oscuro, Humos, escamas (cuentan como armadura completa)	OK	data.js:1249 Sv 3 (4+ completa con Piel blindada 1)	
+faq_core_1.tsv	FQ1-007	Errata p.110 Wizardly Dispel	Magos que huyen o no están en el campo no pueden ser nominados	OK	rules.js:3254-3257 (tryDispel: pool con !h.fleeing)	Reservas no están en s.units
+aj_empire2.tsv	aj_empire2-151	aj_empire2.txt:1572-1573	Objetos del Imperio: los marcados con * son extremadamente comunes	OK	data.js:2833,2839 (star:true)	
+battlemarch_quickref.tsv	battlemarch-180	battlemarch.txt L2788-2800	"Bastón Escupespinas (20): 24"" F4, Perforante (1), mágica, Pesada; en combate F+1"	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+leg_ogres.tsv	leg_ogres-151	leg_ogres.txt:632	"Buitre de sangre: 36"" F4 FP-1 Ignora cobertura, Mover y disparar, Disparo rápido"	OK	data.js:5204	
+leg_ogres.tsv	leg_ogres-176	leg_ogres.txt:787-794	Mawseeker 30: solo infantería; R+1; sufre Estupidez	OK	data.js:~5246 (bloque v700 Ogros)	infOnly
+dawn_renegade_sc.tsv	cathay_dawn-017	cathay_dawn.txt:293-306	Ocupar edificio: unidad de infantería con US ≤20 que contacta con él en Movimientos restantes; se retira de la mesa	OK	rules.js:1491-1520,6405 (edificios Dawn: garrison, plantillas, cañón, asalto, rotura)	No se limita la US a 20; entra si alcanza con su movimiento, no por contacto de peana
+core_5.tsv	C5-024	p.192 Light Cavalry	Los enemigos impactan contra la HA del jinete	OK	rules.js:4481,4225	Se usa dd.WS de la unidad (jinete)
+aj_highelves.tsv	aj_highelves-128	aj_highelves.txt:1654-1662	Lanza Estelar 45 pts: F+3, FP -4, mágica, Atacar primero; solo caballería/monstruo y solo el turno que carga	OK	data.js:2879, rules.js:4127	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-108	leg_chaosdwarfs.txt:286	Deathmask objetos hasta 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+faq_core_1.tsv	FQ1-057	Errata p.209 Enemy Shooting	Personaje unido a unidad del mismo tipo de tropa no puede ser objetivo salvo condiciones	OK	rules.js: reparto de impactos (mismo tt)	No se compara el tipo de tropa; los viñetas de la excepción no están en las líneas leídas
+leg_skaven.tsv	leg_skaven-017	leg_skaven.txt:80-86	Aliados hasta 25%: Guerreros del Caos (Incómodos)	OK	data.js ALLY_TABLE/allyArmyIssues; rules.js createGame allyInfo; main.js armyEditor (EDF ally)	Contingente WoC Incómodo hasta 25 %
+leg_darkelves.tsv	leg_darkelves-079	leg_darkelves.txt:307-311	Corcel Oscuro: caballería ligera, Caballería rápida, Zancada	OK	data.js:1580 sr fastCav,swiftstride	
+core_8.tsv	core_8-031	Ilusion p.330 l.10595	"Navaja Mental: Proyectil 7+, 15"", test de Ld: pasa D3 F3 FP-, falla D3+3 F4 FP-3"	OK	data.js:2347; rules.js:3406	
+core_2.tsv	C2-050	Forming Units: Formation Types	Formación fijada por reglas especiales; con varias se elige en el despliegue y se cambia reformando (p.125)	OK	rules.js reformar; main.js	Formación fijada por reglas especiales y reforma gratuita existentes; sin unidades con varias formaciones en los datos
+leg_skaven.tsv	leg_skaven-070	leg_skaven.txt:266-269	Incensario de plaga: F+2 solo primera ronda, FP-1, Poisoned, Two Hands	OK	data.js:4133 sb:2 ap:1 flailFirst	rules.js:4144
+faq_core_1.tsv	FQ1-061	Errata p.212&214 Flail	F+2, FP -2, Perforante (1), a dos manos; F y Perforante solo contra modelos cargados	OK	rules.js:4004-4006, data.js:496, 4041	
+leg_darkelves.tsv	leg_darkelves-014	leg_darkelves.txt:68	0-2 Lanzavirotes Segadores por 1.000 pts	OK	data.js:4574	
+leg_vampires.tsv	leg_vampires-119	leg_vampires.txt:536-539	Infantería monstruosa, 40x40, 3+	OK	data.js:1894 vc_fellbats monInf 3+	
+dawn_renegade_sc.tsv	renegade_web-028	renegade_web.txt:57-60	Duelistas Errantes: una vez por partida los modelos repiten los impactos con éxito de quien los ataca en combate	OK	rules.js duelSwing/combate noFeint; main.js; ai.js optionGroups fd	El jugador puede reservar Finta y esquiva (pref noFeint); la IA lo aprende
+core_8.tsv	core_8-106	Objetos arcanos p.341 l.11166	Pergamino de Dispersion* 20: un solo uso, tirada de disipacion con D6 extra; doble 1 en dos dados = Superado	OK	data.js:3161; rules.js:3290	Uso por heuristica
+leg_daemons.tsv	leg_daemons-162	leg_daemons.txt L751	Heraldo de Tzeentch: Dones hasta 50 pts	OK	data.js:1949 ib 50	
+faq_libros.tsv	R24	RH AJ WoC p.35 Storm's Wrath	F solo contra enemigos cargados	OK	rules.js:4436 (chargedIds)	
+faq_libros.tsv	F53	FoF AJ Bretonnia p.37 Guardian of the Sacred Sites	No incluye vórtices mágicos, campo abierto, colinas ni construcciones	OK	rules.js:1773	
+leg_vampires.tsv	leg_vampires-131	leg_vampires.txt:582	Armadura de placas en vez de pesada +5/modelo	OK	data.js:3860 fp	
+faq_libros.tsv	C21	Cathay p.48 Dragon Fire Bombs	Fuerza 3	OK	data.js:2486	
+faq_core_1.tsv	FQ1-041	Errata p.178 Stupidity	No puede intentar dispersión de Mago	OK	rules.js: tryDispel !h.stupid	
+battlemarch_quickref.tsv	battlemarch-184	battlemarch.txt L2832-2838	Cota Acolchada (20): armadura pesada; +1 de armadura contra FP - (máx 2+)	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	

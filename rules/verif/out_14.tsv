@@ -1,0 +1,51 @@
+tsv	id	veredicto	motivo
+faq_core_3.tsv	58	CONFIRMA	rules.js rallyTest/rallyingCry/rallyround: el chequeo lo hace la unidad nominada con su Ld y sus reglas; Horn of Falcon usa D(fh).Ld propio; sin Veterano del anfitrion
+aj_tk2.tsv	aj_tk2-006	CONFIRMA	rules.js scenario zandri first:0 (atacante = jugador 0 juega primero, rules.js:1161 SC.first)
+dawn_renegade_sc.tsv	renegade_web-014	CONFIRMA	rules.js:1709 gen=null si u.merc && !u.hansMerc; bsbNear/kingNear rules.js:3216 excluyen merc (Mantened la posicion); personajes ajenos rechazados rules.js:7013
+leg_vampires.tsv	leg_vampires-123	CONFIRMA	data.js vc_spirithosts (~1907): boundSpirits, ethereal, magical, undead, openOrder, regen 6, reserveMove, tt swarm 40x40, 3-6 (linea citada 1899 es otra unidad)
+aj_tk2.tsv	aj_tk2-118	CONFIRMA	data.js:2811 tkaj_awakening mcOnly+hpOnly awaken; rules.js:6366 +D3 Heridas si tt infanteria/caballeria (regInf,heavyInf,lightInf,lightCav,heavyCav) al usar Arise
+dawn_renegade_sc.tsv	cathay_dawn-036	CONFIRMA	dawn.js:8 WASTE[8]=fen (Pantano); dawn.js:54 fen -> ground diff:true (terreno dificil)
+aj_chaos2.tsv	aj_chaos2-015	CONFIRMA	rules.js:77 gazeRoll: en hollum owner 1 repite D6 si r<=gazeRR (def 2); el jugador fija umbral 0-5 (rules.js:7418, main.js:1276); aproxima la decision tras ver el dado con umbral previo
+core_3.tsv	c3-077	CONFIRMA	"rules.js:2232-2237,2255 limite M x2 (x3 columna), solo avanzar/virar; 2398 y 3890 impiden disparar y lanzar proyectil/vortice tras marchar; test Enemigo avistado 8"" (8022)"
+core_8.tsv	core_8-096	CONFIRMA	rules.js:7364 accion drink en Mando (strategy), main.js:1148-1156 boton Beber para humano; IA por ai.js:298
+leg_daemons.tsv	leg_daemons-070	PARCIAL	rules.js:5485 brazenWheels FP-3 ok, pero el Pisoton se omite por completo contra monstruos/behemot (!isMonster(e)) en vez de resolverse sin la FP-3
+leg_ogres.tsv	leg_ogres-163	CONFIRMA	"rules.js:5755 giantAttack r===2: plantilla 3"" (1.5 radio) sobre la unidad, impacto F FP-2 a enemigo y a unidades amigas/enemigas a <=4"" salvo el Gigante"
+leg_skaven.tsv	leg_skaven-047	CONFIRMA	data.js:1771 sk_engineer ib:50 (objetos magicos hasta 50)
+leg_daemons.tsv	leg_daemons-045	CONFIRMA	data.js:6110 dm_herald_khorne_jug mountAtk {a:2,S:5,ap:2} (Pezunas F, FP-2)
+leg_lizardmen.tsv	leg_lizardmen-141	PARCIAL	data.js:1749 lm_troglodon: perfil, 50x100, armadura pesada ok; falta el Skink Oracle como modelo con arma de mano (HA2 F3 I4 A1); sin entrada oracle/slots
+leg_daemons.tsv	leg_daemons-130	PARCIAL	Garras perforantes (ab2 ap1 extra1 twoHands) ok en Demonetas/Buscadores/Heraldo (data.js:5927,5963) pero Engendros de Slaanesh data.js:5921 melee {ab:2,ap:1} sin extra:1 ni twoHands
+core_2.tsv	C2-071	CONFIRMA	geom.js:dims anchura=min(files,models) centrada en u.x/u.y: una fila pierde modelos por ambos extremos por igual (implicito)
+core_8.tsv	core_8-094	PARCIAL	data.js:3189 pot_fool potion P -> fx potP solo se consulta en immuneToPanic (rules.js:3205); Miedo/Terror (rules.js:3551,3563,5165) usan has(u,immunePsy) y no la ignoran
+aj_tk2.tsv	aj_tk2-091	CONFIRMA	Cohortes de caballeria tk_cohort_cav[_cc]: unitCost evaluado con node da +6 campeon, +6 estandarte, +6 musico por unidad (data.js CMD tk_horsemen [6,6,6])
+dawn_renegade_sc.tsv	renegade_web-041	CONFIRMA	data.js:6226 rc_vsellswords ppm5 M4 WS4 BS3 S3 T3 I3 A1 Ld5 regInf 25x25 min5; CMD [7,5,5] (campeon +7, estandarte +5, musico +5); Oficial A2 Ld6 por campeon
+aj_highelves.tsv	aj_highelves-061	CONFIRMA	"data.js:1530 he_ishaya: M5 WS7 BS7 S4 T3 W3 I7 A3 Ld9 170pts, arm heavy+escudo (Sv4), arco 24"" F3, 25x25"
+cathay.tsv	cathay_aj-013	CONFIRMA	data.js:4544 ALLY_TABLE.ct (empire,dw,he fiables; bret,wood sospechosos) + ALLY_AOI ct; inversas dw/empire/bret->ct y he/wood->ct sospechoso; ALLY_MAX 0.25
+aj_empire2.tsv	aj_empire2-139	CONFIRMA	data.js:2862 empaj_ward 20pts mr:2 witchW; rules.js:2051 repite una salvacion de armadura fallida una vez por partida; mrItems rules.js:1785
+leg_vampires.tsv	leg_vampires-154	PARCIAL	data.js:1913 vc_hexwraith lightCav 30x60 5-10 y GWP (data.js:5577) ok; falta el ataque del Corcel espectral (casco: A1 F3 sin mountAtk/slots)
+leg_skaven.tsv	leg_skaven-112	CONFIRMA	data.js sk_globadiers min2 max10 regInf 25x25 sr scurry, skirmish, warband
+leg_daemons.tsv	leg_daemons-035	CONFIRMA	data.js:5872 opcion ga: melee sb2 ap3 ab2 twoHands last + monsterSlayer (Gran hacha del Heraldo de Khorne)
+leg_skaven.tsv	leg_skaven-018	CONFIRMA	data.js:2470 CMD sk_chieftain [null,25,null]; data.js:4783 solo un PEB por ejercito; bannerBudget sin limite si bsb (data.js:3387)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-206	CONFIRMA	rules.js:2676-2679 slowReload: si disparo el turno anterior D6 1-2 no dispara; +1 con Cargador ogro (ogreSlow data.js:5858)
+faq_core_1.tsv	FQ1-026	PARCIAL	rules.js:6508-6520 test Ld solo en Movimientos obligatorios tras las cargas, no en Declarar cargas; si falla elige automaticamente el objetivo mas cercano (sin eleccion del jugador ni popup)
+aj_wood2.tsv	aj_wood2-019	CONFIRMA	data.js:5114 lista owh: we_sisters (comp special) 0-1 por cada 1.000 pts
+core_2.tsv	C2-097	PARCIAL	rules.js:4318-4320 el Vortice se coloca en la posicion de la unidad objetivo y vortexClear lo desplaza automaticamente; el jugador no coloca la plantilla libremente dentro del alcance
+aj_bretonnia.tsv	aj_bretonnia-096	CONFIRMA	data.js:903 br_elisse: perfil, mountAtk a2 S4 ab2 (Ariandir), Caliz (rules.js:1662), Baculo de los Elementos (rules.js:1031), mago nivel 3
+core_4.tsv	C4-118	CONFIRMA	rules.js:2918 quickShot excluye el -1 de mover y disparar; rules.js:3628/3641 permite Plantar cara a cualquier distancia con quickShot
+aj_bretonnia.tsv	aj_bretonnia-027	CONFIRMA	data.js:3448 BR_EXILES no incluye br_duke, br_prophetess ni br_elisse
+leg_ogres.tsv	leg_ogres-116	CONFIRMA	data.js:4047 ok_yhetees opts sc +3 / vg +2 por modelo, per1000 (0-1 por 1.000), grupo v excluyente
+core_5.tsv	C5-144	CONFIRMA	rules.js:4782 fila extra con thrust y sin apoyo si cargo (!(thrust && chargeOK)); rules.js:4704 +1 I si cargado por el frente
+faq_core_1.tsv	FQ1-052	CONFIRMA	rules.js:5667 +1 resultado de combate si el bando tiene regInf/heavyInf y mayor Fuerza de Unidad (usAfter)
+aj_orcs2.tsv	aj_orcs2-114	PARCIAL	data.js:3106 aj_hagbrew 25pts solo chamanes ok; rules.js:1010 anade Magia de Trol, pero main.js:836 solo ofrece troll si !d.lores: Goblins/Goblins Nocturnos (con lores) no pueden elegirlo
+leg_darkelves.tsv	leg_darkelves-173	CONFIRMA	data.js de_coldchariot: tt heavyChar, 50x100, min1 max1, Sv 4
+faq_libros.tsv	C09	PARCIAL	"rules.js:3090 diveBomb sky: objetivo elegible por el jugador (main.js:1303), no trabado, dentro de 6""; pero excluye unidades en huida (!t.fleeing) que el texto permite"
+leg_skaven.tsv	leg_skaven-179	CONFIRMA	data.js:1833 sk_plaguepriest_furnace sr: draggedAlong, fear, frenzy, greatCenser, impact D3+1, large, magRes, poisoned, scurryMasses, stomp D3+1
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-155	PARCIAL	data.js:2192 cd_ironDaemon ranged cannonade ok (rules.js:2965), pero falta Pieza voluminosa (cumbersome): puede responder con Plantar cara (rules.js:2404)
+leg_vampires.tsv	leg_vampires-039	PARCIAL	data.js:4981-4986 valida con UNITS.general (elegibles) y no con el General designado (e.gen): cualquier personaje elegible no Mago invalida; rules.js:6303 elige General por Ld sin exigir Mago
+dawn_renegade_sc.tsv	renegade_web-008	CONFIRMA	data.js:3324 itemFacOk: objetos sin fac (Comunes) permitidos a cualquier personaje no Demonio con presupuesto
+core_2.tsv	C2-041	CONFIRMA	data.js baseW/baseD en mm por unidad; geom.js dims usa baseW/25.4 x baseD/25.4 (rectangular)
+leg_vampires.tsv	leg_vampires-222	CONFIRMA	data.js:3090 vcl_skullstaff dispR:3 dispB:1; rules.js:3975 suma alcance de disipacion, rules.js:4028 +1 a disipar
+aj_empire2.tsv	aj_empire2-099	CONFIRMA	data.js war_wagon: T5 W6 Sv3 impact S5 D6+1, stompS5, tripulacion WS3 BS3 S3 I3 Ld8, caballos M7 mountAtk A2 S3, 140pts, 60x100
+battlemarch_quickref.tsv	battlemarch-193	CONFIRMA	data.js:2506 bm_wmap wmap; rules.js:450 repite D6 de Terreno salvaje del portador/unidad; el jugador fija las caras a repetir (rules.js:7434)
+aj_dwarfs2.tsv	aj_dwarfs2-101	CONFIRMA	data.js dw_doomseeker: M3 WS5 BS0 S5 T4 W2 I3 randA 2D3 Ld10 50pts, ib 50 (runas de arma), impact D3+1
+cathay.tsv	cathay_aj-038	CONFIRMA	data.js ct_shugengan nivel2 +30 n3 (w3) +60 n4 (w4) ib100; ct_shugengan_gen nivel1 +30 n2 (w2) ib50 (texto OCR; nota Cathay confirma 100/50)
+leg_skaven.tsv	leg_skaven-030	CONFIRMA	data.js sk_greyseer: M5 WS3 BS3 S3 T4 W3 I5 A2 Ld7 25x25, arm none, wsTok (D3 fichas), melee ap1 (Warpstone Weapons)

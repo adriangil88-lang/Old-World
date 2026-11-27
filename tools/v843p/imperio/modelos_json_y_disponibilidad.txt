@@ -1,0 +1,157 @@
+Arcane familiar                               M2 B0 OK | 
+Arcane familiar                               M2 B0 OK | 
+Arcane familiar                               M2 B0 OK | 
+Battle Wizard Lord on Griffon                 M1 B0 OK | /Wizard Lord on Empire Griffon
+Captain of the Empire                         M2 B0 OK | 
+Captain of the Empire                         M2 B0 OK | 
+Captain of the Empire                         M2 B0 OK | 
+Captain of the Empire                         M2 B0 OK | 
+Captain of the Empire on Demigriffon          M2 B0 OK | 
+Captain of the Empire on Griffon              M2 B0 OK | 
+Captain of the Empire on Horse                M3 B0 OK | 
+Captain of the Empire on Pegasus              M5 B0 OK | 
+Champion                                      M1 B0 OK | /Demigryph Knights CH
+Chapter Master on Demigriffon                 M2 B0 OK | 
+Chapter Master on Horse                       M2 B0 OK | 
+Chapter Master on Pegasus                     M5 B0 OK | 
+Commander                                     M2 B0 OK | /General of the Empire on Horse
+Cooper                                        M0 B1 FALTA [('B', '505AA03C', 'X', '-')] | /Witch Hunter on Horse
+Demigryph Knights                             M2 B0 OK | 
+Demigryph Knights CH                          M3 B0 OK | 
+Demigryph Knights MU                          M3 B0 OK | 
+Demigryph Knights ST                          M3 B0 OK | 
+Electoral Cavalry                             M2 B0 OK | /Wizard Lord on Horse
+Empire Archers                                M2 B0 OK | 
+Empire Archers                                M2 B0 OK | 
+Empire Archers CH                             M3 B0 OK | 
+Empire Archers MU                             M3 B0 OK | 
+Empire Archers ST                             M3 B0 OK | 
+Empire Crewman                                M2 B0 OK | 
+Empire Crewman                                M2 B0 OK | 
+Empire Crewman                                M2 B0 OK | 
+Empire Crewman                                M2 B0 OK | 
+Empire Crewman                                M2 B0 OK | 
+Empire Crewman                                M2 B0 OK | 
+Empire Crewman                                M2 B0 OK | 
+Empire Engineer                               M2 B0 OK | 
+Empire Greatsword                             M2 B0 OK | 
+Empire Greatsword CH                          M3 B0 OK | 
+Empire Greatsword MU                          M3 B0 OK | 
+Empire Greatsword ST                          M3 B0 OK | 
+Empire Knights                                M2 B0 OK | 
+Empire Knights CH                             M3 B0 OK | 
+Empire Knights MU                             M3 B0 OK | 
+Empire Knights ST                             M3 B0 OK | 
+Empire Pistoliers                             M1 B0 OK | /Pistoliers
+Feldherr auf Greifen                          M1 B0 OK | /Captain of the Empire on Griffon
+Flagellants                                   M2 B0 OK | 
+Flagellants                                   M2 B0 OK | 
+Flagellants                                   M2 B0 OK | 
+Flagellants CH                                M3 B0 OK | 
+Flagellants MU                                M3 B0 OK | 
+Flagellants ST                                M3 B0 OK | 
+Free Company Militia                          M2 B0 OK | 
+Free Company Militia                          M2 B0 OK | 
+Free Company Militia CH                       M3 B0 OK | 
+General Of The Empire On Imperial Griffin     M1 B0 OK | /General of the Empire on Empire Griffon
+General of the Empire                         M2 B0 OK | 
+General of the Empire on Demigriffon          M2 B0 OK | 
+General of the Empire on Empire Griffon       M2 B0 OK | 
+General of the Empire on Griffon              M2 B0 OK | 
+General of the Empire on Horse                M3 B0 OK | 
+General of the Empire on Horse                M2 B0 OK | 
+General of the Empire on Horse                M2 B0 OK | 
+General of the Empire on Horse                M6 B0 OK | 
+General of the Empire on Horse                M2 B0 OK | 
+General of the Empire on Horse                M2 B0 OK | 
+General of the Empire on Pegasus              M5 B0 OK | 
+Gnoblarkieger                                 M2 B0 FALTA [('M', '85271639', 'X', 'X')] | 
+Gnoblarkieger                                 M2 B0 FALTA [('M', '6C0D135A', 'X', 'X')] | 
+Gnoblarkieger                                 M2 B0 FALTA [('M', '8B09E3E6', 'X', 'X')] | 
+Gnoblarkieger                                 M2 B0 FALTA [('M', '4AE1E6FB', 'X', 'X')] | 
+Gnoblarkieger                                 M2 B0 FALTA [('M', '33FFA740', 'X', 'X')] | 
+Gnoblarkieger CH                              M3 B0 FALTA [('M', '85271639', 'X', 'X')] | 
+Gnoblarkieger MU                              M3 B0 FALTA [('M', '6C0D135A', 'X', 'X')] | 
+Grand Master on Demigriffon                   M2 B0 OK | 
+Grand Master on Horse                         M2 B0 OK | 
+Grand Master on Pegasus                       M5 B0 OK | 
+Great Cannon                                  M2 B0 OK | 
+Harp                                          M1 B0 OK | /Demigryph Knights MU
+Hauptmann auf Demigreif                       M1 B0 OK | /Captain of the Empire on Demigriffon
+Helblaster Volley Gun                         M2 B0 OK | 
+Helstrom Rocket Battery                       M2 B0 OK | 
+High Priest of Ulric                          M2 B0 OK | 
+High Priest of Ulric on Horse                 M2 B0 OK | 
+Imperial Ogre                                 M2 B0 OK | 
+Imperial Ogre                                 M2 B0 OK | 
+Imperial Ogre                                 M2 B0 OK | 
+Imperial Ogre                                 M2 B0 OK | 
+Imperial Ogre                                 M2 B0 OK | 
+Imperial Ogre                                 M2 B0 OK | 
+Imperial Ogre CH                              M3 B0 OK | 
+Inner Circle Knights                          M2 B0 OK | 
+Inner Circle Knights CH                       M3 B0 OK | 
+Inner Circle Knights MU                       M3 B0 OK | 
+Inner Circle Knights ST                       M3 B0 OK | 
+Lector of Sigmar                              M2 B0 OK | 
+Lector of Sigmar                              M2 B0 OK | 
+Lector of Sigmar                              M2 B0 OK | 
+Lector of Sigmar                              M2 B0 OK | 
+Lector of Sigmar on Horse                     M2 B0 OK | 
+Lector of Sigmar on War Alter of Sigmar       M4 B0 OK | 
+Line of Sight 25x50                           M1 B0 FALTA [('M', '4723A774', 'X', 'X')] | /Wizard Lord on Horse
+Lord-Arcanum on Grypth-charger                M1 B0 OK | /General of the Empire on Demigriffon
+Marshal - Warhorse                            M2 B0 OK | /Captain of the Empire on Horse
+Master Mage                                   M2 B0 OK | 
+Master Mage                                   M2 B0 OK | 
+Master Mage                                   M2 B0 OK | 
+Master Mage on Horse                          M3 B0 OK | 
+Master Mage on Pegasus                        M4 B0 OK | 
+Missile Troop                                 M2 B0 OK | 
+Missile Troop                                 M2 B0 OK | 
+Missile Troop CH                              M3 B0 OK | 
+Missile Troop MU                              M3 B0 OK | 
+Missile Troop ST                              M3 B0 OK | 
+Mortar                                        M2 B0 OK | 
+Outriders                                     M2 B0 OK | 
+Outriders CH                                  M3 B0 OK | 
+Outriders MU                                  M3 B0 OK | 
+Pegasus Knight                                M4 B0 OK | /Captain of the Empire on Pegasus
+Pegasus Knight                                M1 B0 OK |  of the Empire on Pegasus/Pegasus Knight
+Pistoliers                                    M2 B0 OK | 
+Pistoliers CH                                 M3 B0 OK | 
+Pistoliers MU                                 M3 B0 OK | 
+Priest of Sigmar                              M2 B0 OK | 
+Priest of Sigmar                              M2 B0 OK | 
+Priest of Sigmar                              M2 B0 OK | 
+Priest of Sigmar                              M2 B0 OK | 
+Priest of Sigmar on Horse                     M2 B0 OK | 
+Priest of Ulric                               M2 B0 OK | 
+Priest of Ulric on Horse                      M2 B0 OK | 
+Standarte                                     M1 B0 OK | /Demigryph Knights ST
+State Troops                                  M2 B0 OK | 
+State Troops                                  M2 B0 OK | 
+State Troops CH                               M3 B0 OK | 
+State Troops MU                               M3 B0 OK | 
+State Troops ST                               M3 B0 OK | 
+Steam Tank                                    M2 B0 OK | 
+Teutogan Guard Warriors                       M2 B0 OK | 
+Teutogan Guard Warriors                       M2 B0 OK | 
+Teutogan Guard Warriors                       M2 B0 OK | 
+Teutogan Guard Warriors CH                    M3 B0 OK | 
+Teutogan Guard Warriors MU                    M3 B0 OK | 
+Teutogan Guard Warriors ST                    M3 B0 OK | 
+Vanguard-Pallador 5/5                         M1 B0 OK | /Chapter Master on Demigriffon
+Witch Hunter                                  M2 B0 OK | 
+Witch Hunter on Horse                         M1 B1 OK | 
+Witch Hunter on Pegasus                       M5 B0 OK | 
+Wizard - Pegasus                              M3 B0 OK | /Wizard Lord on Pegasus
+Wizard Lord                                   M2 B0 OK | 
+Wizard Lord                                   M2 B0 OK | 
+Wizard Lord                                   M2 B0 OK | 
+Wizard Lord on Empire Griffon                 M3 B0 OK | 
+Wizard Lord on Horse                          M3 B0 OK | 
+Wizard Lord on Pegasus                        M4 B0 OK | 
+[i]Cooper                                     M0 B1 OK | /Witch Hunter on Horse
+[i]Cooper                                     M0 B1 FALTA [('B', '70ED7901', 'X', '-')] | /Witch Hunter on Horse
+dice                                          M1 B0 OK | 

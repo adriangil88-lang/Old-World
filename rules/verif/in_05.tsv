@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+aj_orcs2.tsv	aj_orcs2-097	aj_orcs2.txt:1366-1377	"2. Troll Brainz: Maleficio VL 9+ 15""; permanece; Estupidez y -1 Ld"	OK	data.js:2376, rules.js:1428	
+core_8.tsv	core_8-091	Objetos encantados p.340 l.11105	Pocion de Fuerza* 25: +D3 F hasta fin de turno (max 10)	OK	data.js:3152; rules.js:3959	
+aj_empire2.tsv	aj_empire2-087	aj_empire2.txt:1302-1303	"Ogros Imperiales: pistola ogra 24"" F4 FP-1 Perforante (1) Disparo rápido"	OK	data.js:3517	
+aj_beasts2.tsv	aj_beasts2-143	aj_beasts2.txt:1675-1681	Tapiz Sucio 15 pts: Odio (todos los enemigos); todos los modelos enemigos Odian a la unidad	OK	data.js:bmaj_tapestry tapestry; rules.js hatred	Los enemigos tienen Odio contra la unidad portadora
+leg_daemons.tsv	leg_daemons-117	leg_daemons.txt L509-510	Guardian: Demoniaco, Favor (2), Objetivo grande, Lore of Daemons, Zancada, Terror	OK	data.js:1964	
+dawn_renegade_sc.tsv	sc_shores-005	sc_shores.txt:16-19	Tres marcadores de objetivo (dos de playa y uno de guarnición) colocados tras el terreno y antes del despliegue	OK	rules.js:198 marks; rules.js:725 s.locs	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-008	leg_chaosdwarfs.txt:71-75	Basicas: al menos 25% de puntos	OK	data.js:4789 (cd:{})	Porcentaje generico
+leg_darkelves.tsv	leg_darkelves-230	leg_darkelves.txt:1038-1039	Bendición de Hekarti: una vez por partida repetir una tirada de lanzamiento fallida	OK	rules.js:3924	
+leg_vampires.tsv	leg_vampires-015	leg_vampires.txt:92-94	Con Rey Ghoul Strigoi General: 0-1 unidad Vargheists o 0-1 Terrorgheist como Especial	OK	data.js:4333 catsOf	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-248	leg_chaosdwarfs.txt:706-716	Dagger of Malice 35: Frenzy, Hatred (all), Magical	OK	rules.js has1 noFrenzyLoss; data.js cdl_dagger	No verificado que el Frenesi no pueda perderse
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-253	leg_chaosdwarfs.txt:757-763	Hellshard 20: al perder su ultima Herida en combate, atacante sufre D6 impactos F5 FP-1	OK	data.js:2908; rules.js:4769	
+aj_highelves.tsv	aj_highelves-124	aj_highelves.txt:1588-1589	Frío debilitante: en contacto peana con peana los enemigos sufren -1 F (mínimo 1)	OK	rules.js:4156	
+leg_darkelves.tsv	leg_darkelves-204	leg_darkelves.txt:899-903	Fauces cavernosas FP -2, Perforante (1), Golpe letal (un ataque/turno); Tentáculos FP -2, Veneno	OK	data.js:1664 slots	
+aj_chaos2.tsv	aj_chaos2-139	aj_chaos2.txt L1434	Engendro Gigante M3D6 HA3 HP0 F6 R6 H6 I3 A D6+1 L10, 145 pts	OK	data.js:4276 SPAWN	
+faq_core_2.tsv	F2-061	FAQ Magia	Mago unido a unidad lanza Asalto solo estando en la fila de combate (no necesita contacto de peana)	OK	rules.js:3843-3855	Se lanza si la unidad esta trabada
+core_2.tsv	C2-082	Troop Type Table: Unit Strength	Monstruos y máquinas: FU igual a las Heridas iniciales	OK	rules.js usOf	Máquinas: heridas iniciales
+core_8.tsv	core_8-004	Daemonologia p.323 l.10261	Familiares Demoniacos: Asalto 8+, 2D6 impactos F2 sin salvacion de armadura (Ward y Regeneracion permitidas)	OK	data.js:2403 dm_familiars	noArmour sin noRegen
+cathay.tsv	cathay_aj-001	cathay_aj.txt 1095-1180	Personajes hasta 50% de los puntos	OK	data.js comp char + armyIssues (limites genericos Gran Ejercito)	
+leg_skaven.tsv	leg_skaven-130	leg_skaven.txt:502	Rat Ogres: un Packmaster por cada dos Ogros +5 c/u	OK	data.js:1797 maxPer 0.5	
+cathay.tsv	cathay_aj-076	cathay_aj.txt 2040	Montura de personaje: puntos se suman al jinete	OK	data.js:2202,2208 (200=65+135; 175=40+135)	T4 y ataques de tripulacion via data.js:5103
+aj_empire2.tsv	aj_empire2-126	aj_empire2.txt:1519-1521	Orden de Morr: Maestres/Círculo Interior ganan Miedo y Ataques mágicos	OK	data.js ord_morr (fear, magical)	
+core_3.tsv	c3-086	Redress the Ranks (p.125)	Mitad de M para quitar o añadir hasta 5 modelos del frente	OK	rules.js:1919-1921	
+core_3.tsv	c3-170	Dividing Attacks (p.147)	Fila trabada con varias unidades debe atacar las que toca; sin contacto, la más cercana	OK	fightGroup perFoe rules.js	Se reparte entre las unidades tocadas según contacto; las no tocadas no reciben ataques
+aj_beasts2.tsv	aj_beasts2-095	aj_beasts2.txt:1276-1279	Foe-render +7, portaestandarte +5, musico +5 (un Gor)	OK	data.js:2472 bm_gor [7,5,5]	
+aj_empire2.tsv	aj_empire2-012	aj_empire2.txt:723-724	Nuln AoI: lista de personajes limitada a Capitán, Maestro Mago, Cazador de Brujas, Sacerdote de Sigmar, Ingeniero y Alta	OK	data.js:INF.nuln.allow	Quitados Sumo Sacerdote de Ulric y Mago Señor; 0-1 Altar de Guerra
+faq_libros.tsv	Q25	FoF FAQ Bretonnia	Lanzavirotes contra Lanza: impactos por filas totales; flanco por fila más ancha	OK	rules.js:2854 (Atraviesa: filas totales de la Lanza)	
+aj_bretonnia.tsv	aj_bretonnia-028	aj_bretonnia.txt L804-806	Basicas: al menos 25% de los puntos	OK	data.js:4440 (cm 0.25)	
+leg_darkelves.tsv	leg_darkelves-025	leg_darkelves.txt:119	Señor Oscuro: objetos mágicos hasta 100 pts	OK	data.js:1577 ib:100	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-035	leg_chaosdwarfs.txt:116	Sorcerer-Prophet montado en Bale Taurus o Great Taurus	OK	data.js:2126, ~3604	Ambas monturas
+leg_daemons.tsv	leg_daemons-151	leg_daemons.txt L696	Senor del Cambio: M6 HA6 HP6 F6 R6 H6 I6 A4 Ld9, 310 pts	OK	data.js:1967	
+aj_tk2.tsv	aj_tk2-078	aj_tk2.txt L1207-1210	Cohortes Infantería: opciones campeón, portaestandarte, músico +5: Cada +5 por unidad	OK	data.js:3333 CMD heredado [5,5,5]	
+leg_darkelves.tsv	leg_darkelves-123	leg_darkelves.txt:471-474	0-1 unidad: Emboscadores / Corredores de carro / Veterano +1	OK	data.js:3752-3754 lim:1	
+faq_libros.tsv	R22	RH AJ O&G p.45 Torrent of Filth / Rapid Regeneration	Valor 7+ y 8+	OK	data.js SPELLS.torrent_filth cv7, rapid_regen cv8	
+leg_lizardmen.tsv	leg_lizardmen-061	leg_lizardmen.txt:252	Revered Guardian: objetos magicos hasta 50 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+aj_tk2.tsv	aj_tk2-019	aj_tk2.txt L656-661	Hueste Real: objetos mágicos Comunes o de Reyes Funerarios: Objetos comunes o de la lista Tomb Kings	OK	data.js:3433 itemFacOk (fac tk)	
+aj_chaos2.tsv	aj_chaos2-148	aj_chaos2.txt L1467-1470	Fauces rechinantes: FP-2, Golpea último, un ataque por turno, recupera 1 Herida por herida causada	OK	data.js:4276 maw heal last	
+leg_daemons.tsv	leg_daemons-059	leg_daemons.txt L222-224	Machacasangre: Hellblades, piel callosa (ligera), Juggernaut barding, pezunas PA-2	OK	data.js:1993 (Hellblade/pezuñas no separados)	Sin Hellblade (PA-1, Golpe cortante) ni pezunas PA-2; barding no | restos menores no modelados
+aj_wood2.tsv	aj_wood2-060	aj_wood2.txt:962-1008	Equipo: Capa de Isha, Garra de Halcón, Cuerno, Lanza de Kurnous	OK	data.js:712-724	
+faq_core_2.tsv	F2-024	Errata p.339 Hoja Berserker	Impetuoso (el portador es Impetuoso)	OK	data.js:2527 (grant impetuous); rules.js:5507-5518	
+faq_core_4.tsv	FC4-51	p17 dcha / Transmogrificación	Mago montado: solo se transforma el mago, no la montura	OK	rules.js:4640 (frog con mountAtk)	Solo se transforma el mago; los ataques de la montura se conservan
+leg_daemons.tsv	leg_daemons-286	leg_daemons.txt L1453-1459	Piercing claws: F, PA-1, Perforante 2, Ataques extra (1), dos manos	OK	data.js:1979,5348,1999	Demonetas sin PA-1; Heraldo sin Extra ni dos manos; Buscadores/Engendros sin garras
+battlemarch_quickref.tsv	battlemarch-045	battlemarch.txt L1182-1188	Helmgart: 20 Tropas Estatales con campeón, estandarte y músico, armas de mano y escudos, 135 pts	OK	data.js:5638	Coste motor = 135
+aj_chaos2.tsv	aj_chaos2-025	aj_chaos2.txt L727	Lobos: 0-1 Campeón Exaltado o Hechicero Exaltado por 1.000 pts	OK	data.js:3440 chk	
+faq_libros.tsv	RQ26	RH FAQ TK	Light of Protection no acumulable	OK	rules.js:3614, 1674	
+faq_core_3.tsv	21	FAQ Core p.11 Desafíos	El desafío continúa si el bando perdedor cede/cae en buen orden y el enemigo persigue o sigue	OK	rules.js:4134-4136 (setupDuels solo anula el desafío si ya no hay contacto)	
+leg_daemons.tsv	leg_daemons-081	leg_daemons.txt L339-341	Gran Inmundo: Lore of Daemons: descartar hechizo y elegir firma o hechizo de alineacion	OK	rules.js:~955 legSp (main.js boton Hechizo Legacy) elegido por el jugador; al azar solo si no elige	El motor sustituye al azar; el jugador no elige
+leg_darkelves.tsv	leg_darkelves-221	leg_darkelves.txt:1003-1007	Huevo de Dragón Negro 35: un uso, R6 y aliento nocivo hasta fin de turno	OK	data.js:2972	
+core_4.tsv	C4-055	Terreno y combate p.159	Terreno peligroso y bosques cuentan como difíciles en combate	OK	diffFrac rules.js	Peligroso/bosque/ciénaga/difícil unificados como difícil en combate
+aj_empire2.tsv	aj_empire2-068	aj_empire2.txt:1196-1200	Heraldo: Fanático (solo puede unirse a unidad con Celo Fanático)	OK	rules.js:6040	
+aj_orcs2.tsv	aj_orcs2-064	aj_orcs2.txt:1068-1072	Motherly Love 5-6 Mither: D6+1 impactos sin armadura; ward y Regeneración permitidas; -1 Ld hasta fin de turno	OK	rules.js motherlyAttack	Sin armadura; anulación y Regeneración permitidas; -1 Ld

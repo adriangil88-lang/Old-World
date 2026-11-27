@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+leg_skaven.tsv	leg_skaven-025	leg_skaven.txt:111	Armadura pesada en vez de ligera +3	OK	data.js:4075 SKW ha	
+cathay.tsv	cathay_aj-123	cathay_aj.txt 2838-2846	"Voluntad de los Dragones: repite Panico fallido si unidad amiga destruida a 6"" o atravesada por huida amiga"	OK	rules.js passPanicW/PANIC_WILL	"Solo por unidad destruida a 6"" o atravesada por huida"
+core_8.tsv	core_8-012	Magia Oscura p.325 l.10326	"Fantasmagoria: Vortice 9+, 12"", plantilla 3"" inmovil, terreno peligroso; enemigos que acaben movimiento a 12"" hacen Panico (huyen directamente lejos); si pasan son Impetuosos mientras esten a 12"""	OK	data.js:2396; rules.js:149,3643,6697	Impetuoso por proximidad no verificado linea a linea; pánico verificado
+aj_dwarfs2.tsv	aj_dwarfs2-129	aj_dwarfs2.txt L1232	IDM: Veterano puede comprar runas de arma hasta 25 pts	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-211	leg_chaosdwarfs.txt:657	Magma Cannon: Blackshard, Skirmishers	OK	data.js:2180 sr blackshard skirmish	
+core_8.tsv	core_8-081	Talismanes p.339 l.11098	Piedra de la Suerte* 15: un solo uso, repetir una salvacion de armadura fallada	OK	data.js:2549; rules.js:1713	
+battlemarch_quickref.tsv	battlemarch-172	battlemarch.txt L2679-2686	Secreto Alarde de duelista: matar a un personaje (30) o campeón (20) en desafío; una sola vez	OK	rules.js:259, 4754, 5841	
+battlemarch_quickref.tsv	battlemarch-188	battlemarch.txt L2871-2878	Talismán de Protección (15): salvación especial 6+ contra cualquier herida	OK	data.js:2491 ITEMS bm_* + hooks en rules.js (authTest:4829, wyrdTake:3580, rrFaces:352, glassMod:404, mantleSafe:2103)	
+aj_chaos2.tsv	aj_chaos2-127	aj_chaos2.txt L1358-1362	Huscarls: Marcas +2 por modelo	OK	data.js:3311 MARK_COST woc_huscarls 2	
+aj_wood2.tsv	aj_wood2-015	aj_wood2.txt:726-729	OWH Básicas: 0-1 unidad de Jinetes Salvajes por 1.000 pts	OK	data.js:3451 WE_OWH wild_riders special; catsOf owh	0-1 unidad de Jinetes Salvajes por 1.000 pts es Basica; el resto cuentan como Especiales
+aj_orcs2.tsv	aj_orcs2-059	aj_orcs2.txt:1023-1025	Bruja Troll: reglas especiales: Orden cerrado, Inflamable, Inmune Psicología, Hambre Indiscriminada, Gran Blanco, Amor M	OK	data.js:833 sr	
+faq_core_2.tsv	F2-005	Errata p.321 Pilar de Fuego	Unidad enemiga que se mueve a traves de la plantilla, o sobre la que pasa la plantilla, sufre D3+3 impactos	OK	rules.js: vortexMoveHits	Solo se aplica cuando la plantilla se desplaza sobre la unidad; no hay impactos cuando una unidad enemiga entra o atraviesa la plantilla al mover
+aj_highelves.tsv	aj_highelves-135	aj_highelves.txt:1687-1697	Estandarte de Lothern 55 pts: con lanzas de empuje, la mitad de la tercera fila hace ataques de apoyo	OK	data.js:2869, rules.js:4162	
+dawn_renegade_sc.tsv	cathay_dawn-119	cathay_dawn.txt:1310-1321	Estandarte de Xen Wun (15): declarar Plantar cara y disparar o Disparar y huir exige antes un chequeo de Ld	OK	data.js:2500; rules.js:3014	
+cathay.tsv	cathay_aj-022	cathay_aj.txt 1243-1245	Humana: Grito de reunion; Dragon: Volar (9), Objetivo grande, Pisoton (D6), Zancada, Terror	OK	data.js:2219-2226 sr rally/flyer/large/stomp/swiftstride/terror; FLYX ct_miaoying 9	
+aj_empire2.tsv	aj_empire2-147	aj_empire2.txt:1697-1704	Anillo de Taal: 20 pts, un uso, Escudo de Roble ligado NP3	OK	data.js:2842	
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-056	leg_chaosdwarfs.txt:163-164	Castellan objetos hasta 100; Seneschal hasta 50	OK	data.js:2109 ib:100; 2113 ib:50	
+cathay.tsv	cathay_aj-049	cathay_aj.txt 1772-1775	Toda la unidad: alabardas o escudos (gratis)	OK	data.js:2227,2230 (dos entradas)	
+leg_vampires.tsv	leg_vampires-133	leg_vampires.txt:584-586	Kastellan: poderes vampíricos 25 y objetos 25	OK	data.js:CHAMP_IB/champEligible/champIssues; rules.js:champView/duelSwing+bucle de combate; main.js:champPanel	Presupuesto de objetos del campeón con el número exacto del libro; solo el campeón los lleva (ataques propios y defensa en desafío)
+battlemarch_quickref.tsv	quickref-035	quickref.txt L126-130	Marchar: hasta doble M (triple en Columna de marcha); solo ruedas, ninguna otra maniobra	OK	rules.js:1871 previewMove (c3-077/078)	
+faq_libros.tsv	RQ03	RH FAQ O&G	Fanáticos no puntúan PV por separado (incluidos en la unidad)	OK	data.js:3672 (coste en la unidad), rules.js:5062	
+leg_daemons.tsv	leg_daemons-112	leg_daemons.txt L483-485	Aguijon venenoso: F, PA-1, Perforante 1; un ataque por turno	OK	rules.js:5235 mountAtk.sting + data.js opt vs	Efecto no verificado en motor (solo coste)
+core_2.tsv	C2-105	Magic: Casting Spells (FAQ p.108)	Un Mago intenta tantos hechizos por turno como su Nivel, cada hechizo una vez	OK	rules.js castCheck	Tope igual al Nivel
+core_4.tsv	C4-065	Pánico p.160	"Amigo destruido FU≥5 a 6"": pánico a amigos (medir desde la unidad destruida)"	OK	rules.js:2718-2730 (friendsPanicDestroyed)	FU al inicio de fase (FAQ)
+leg_darkelves.tsv	leg_darkelves-217	leg_darkelves.txt:963-970	Estandarte de Nagarythe 65: Tozudos y +1 resolución de combate	OK	data.js:2968	
+leg_vampires.tsv	leg_vampires-066	leg_vampires.txt:303-304	Objetos: Rey 100, Señor 50	OK	data.js:1867 vc_wightking ib 100	
+aj_highelves.tsv	aj_highelves-117	aj_highelves.txt:1524-1531	León de Guerra: sin campeón, portaestandarte ni músico en el texto	OK	data.js:CMD he_warlions null	El motor permite mejoras de mando que el texto no concede
+dawn_renegade_sc.tsv	cathay_dawn-019	cathay_dawn.txt:307-315	Salir del edificio (Movimientos restantes, seguimiento o persecución): un modelo en contacto; el movimiento termina	OK	rules.js:1491-1520,6405 (edificios Dawn: garrison, plantillas, cañón, asalto, rotura)	Solo mediante acción explícita; no al seguir/perseguir
+leg_daemons.tsv	leg_daemons-016	leg_daemons.txt L73-74	General Nurgle: Bestias de Nurgle y Zanganos de la Plaga pasan a Especiales	OK	data.js:4324	
+aj_bretonnia.tsv	aj_bretonnia-018	aj_bretonnia.txt L662-664	La fuerza de rescate disfruta de Bendiciones de la Dama sin rezar al inicio	OK	rules.js:155 has_ blessings u.rescue&&matorea; rules.js:~159	La fuerza de rescate (u.rescue) tiene Bendiciones sin rezar ni ganar
+dawn_renegade_sc.tsv	cathay_dawn-088	cathay_dawn.txt:1004-1018	Reconquista de Hollum: atacante +50 PV por personaje vivo y sin huir; defensor +50 PV por personaje muerto en desafío	OK	rules.js:5926-5929; rules.js:5035 chKills	
+core_5.tsv	C5-143	p.215 Throwing Spear	F, Fight in Extra Rank, solo en el turno de carga	OK	rules.js:3958	melee.thrown solo apoya si chargeOK
+faq_libros.tsv	R33	RH AJ TK p.42 Stone Shaper	Mejora la Regeneración en 1 hasta el final del turno	OK	rules.js:5402-5404, 1686	
+aj_highelves.tsv	aj_highelves-078	aj_highelves.txt:1276-1277	Comandante: escudo +2; armadura pesada +3	OK	data.js:4010	
+core_5.tsv	C5-021	p.191 Swarms / p.191 War Beasts	Undisciplined: no usan Presencia Inspiradora ni Mantened la Posicion	OK	rules.js:2654,1418,2658	undisc(u) con excepciones runPack/boundSpirits; bsbNear y gen lo respetan
+battlemarch_quickref.tsv	quickref-044	quickref.txt L158-170	Disparo: elegir unidad y declarar objetivo; secuencia completa por unidad, una a una	OK	rules.js:2030 shootCheck1 (c3-114)	
+dawn_renegade_sc.tsv	cathay_dawn-054	cathay_dawn.txt:552-566	Multijugador: con varias listas, la de más puntos es la fuerza primaria y las demás secundarias (o por acuerdo)	OK	rules.js timelyInit/forceSec/genVP/bsbVP/scoreVP	
+aj_wood2.tsv	aj_wood2-017	aj_wood2.txt:726-745	OWH Básicas: Guardia del Claro/Eterna/Dríadas no permitidas	OK	data.js:3328	
+leg_skaven.tsv	leg_skaven-085	leg_skaven.txt:307	Clanrats lanzas de empuje +1 por modelo	OK	data.js:3804	
+core_5.tsv	C5-147	p.216 Shortbow	"18"", F3, Quick Shot, Volley Fire"	OK	data.js:W.shortbow	
+core_6.tsv	core6-087	Allied Contingents / Creating	Contingente aliado dentro del % de aliados, con su propio General y mínimo 1 unidad no personaje	OK	data.js allyArmyIssues (General propio, >=1 unidad no personaje, min Básicas del principal); rules.js createGame promoción General aliado	Contingente único con su % y restricciones de lista
+aj_chaos2.tsv	aj_chaos2-146	aj_chaos2.txt L1460-1461	Tzeentch: Flamígeros, Mágicos y Resistencia a la Magia (-2)	OK	data.js:4274	
+aj_tk2.tsv	aj_tk2-097	aj_tk2.txt L1293-1294	Necroserpientes: base y tamaño: 50x100 mm; 2+	OK	data.js:3566 baseW 50 baseD 100 min 2	
+aj_empire2.tsv	aj_empire2-041	aj_empire2.txt:966-973	Caballeros del Corazón Ardiente (lista): Flagelantes Raros sin límite; sin Sumos Sacerdotes ni Sacerdotes de Ulric	OK	data.js:3467	
+aj_chaos2.tsv	aj_chaos2-111	aj_chaos2.txt L1254-1255	Berserkers: Frenesí, Marca Indivisa, Mover a través de cobertura, Orden Abierto, Guerreros Implacables, Escaramuzadores,	OK	data.js:3547 sr	
+battlemarch_quickref.tsv	battlemarch-019	battlemarch.txt L854-872	Bel-Cedas: el defensor lleva dos carros de equipaje (60x100 mm)	OK	rules.js:633 (dos bm_cart al defensor)	
+faq_core_2.tsv	F2-057	FAQ Magia	Si el Mago relanza un hechizo que Permanece en juego ya activo, el anterior termina inmediatamente	OK	rules.js: applySpell (removeRip si ya activo)	Se reemplaza el efecto/vortice del mismo lanzador; no se termina de forma independiente para otro objetivo
+aj_dwarfs2.tsv	aj_dwarfs2-170	aj_dwarfs2.txt L1475-1488	Runa Maestra de Perforar 40 pts: +1 Fuerza y Atravesar (Through & Through)	OK	data.js:2893; rules.js:2214	
+battlemarch_quickref.tsv	quickref-022	quickref.txt L77-80	Columna de marcha, trabadas o huyendo no pueden cargar	OK	rules.js ~3206 carga con Columna de Marcha (FAQ)	
+aj_chaos2.tsv	aj_chaos2-151	aj_chaos2.txt L1487-1490	Dragón Warpfire: behemoth, 60x100, unidad 1, garras, Ráfaga, escamas (armadura completa)	OK	data.js:4257 arm plate	

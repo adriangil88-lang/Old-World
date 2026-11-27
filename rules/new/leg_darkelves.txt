@@ -1,0 +1,1096 @@
+          DARK ELVES
+                         Legacy Army List
+                    For Use With Warhammer: The Old World Rules
+This document allows you to play a Dark Elves Army from the Warhammer Fantasy Battles range in games using
+    the rules from Warhammer: The Old World. To use the contents of this document, you will need a copy
+                                 of the Warhammer: The Old World rulebook.
+
+            The rules contained within this document allow players the opportunity to try out the
+             Warhammer: The Old World rules using models they may have in their collection.
+         They are not intended for use in matched play events and will not be updated in line with any
+                              future Warhammer: the Old World publications.
+                                              Dark Elves
+F  rom the chill land of Naggaroth, the black-hearted Dark Elf legions come. Bleak-eyed warriors march to battle alongside
+   cruel knights, merciless sorcerers and savage monsters. Dark Elf soldiers stand amongst the elite of the Warhammer
+world. They are ruthless killers and masters of all the many ways of death who see the world as both prey and prize. They
+take what they want from whomever they please, leaving nothing but ravaged bodies and ruined cities in their wake.
+
+This document contains the following information:                   CONTENTS
+Grand Army Composition List: The default army                       Dark Elves Legacy Army List ....................................................2
+composition list for the Dark Elves.                                 Grand Army Composition List .........................................................2
+                                                                     Magic Items ............................................................................................22
+Profiles: Every model available to the Dark Elves has a profile.     Special Rules ...........................................................................................25
+Here, you will find that model’s characteristics, its equipment,     Lore of Naggaroth ................................................................................26
+its points value, details of any special rules unique to it
+and more.
+
+Magic Items: As well as the Common magic items detailed
+in the Warhammer: the Old World rulebook, this army list
+includes a number of magic items unique to the Dark Elves.
+
+Special Rules: This section covers rules unique to the
+Dark Elves.
+
+The Lore of…: Unique spells used in conjunction with
+the Lores of Magic found in the Warhammer: the Old
+World rulebook.
+
+
+
+
+    © Copyright Games Workshop Limited 2024. Warhammer: the Old World, Citadel, Forge World, Games Workshop, GW,
+    Warhammer, the ‘winged-hammer’ Warhammer logo, and all associated logos, illustrations, images, names, creatures, races,
+          vehicles, locations, weapons, characters, and the distinctive likenesses thereof, are either ® or TM, and/or ©
+                                 Games Workshop Limited, variably registered around the world.
+                                                       All Rights Reserved.
+
+                                       Permission to download/print for personal use only.
+
+                 This is a work of fiction. All the characters and events portrayed in this download are fictional,
+                              and any resemblance to real people or incidents is purely coincidental.
+               Dark Elves Legacy Army List
+T   his page details the Grand Army composition list for the Dark Elves. This is the default army composition list for this
+    faction. Using this army composition list to write your muster list will give you the widest variety of units to choose
+from and create a broad and balanced force.
+
+This army list is intended for use alongside the ‘Forming Units’ and ‘Warhammer Armies’ sections of the Warhammer: the Old
+World rulebook. Over the following pages you will find profiles and rules for each of the models in your army. These pages give
+you all of the information that you need to shape your collection of models into the units which will in turn form a force ready
+for battle.
+
+Grand Army Composition List
+Characters                                                         Rare
+Up to 50% of your army’s points value may be spent on:             Up to 25% of your army’s points value may be spent on:
+
+• 0-1 Dark Elf Dreadlord or Supreme Sorceress per                  • Sisters of Slaughter, Bloodwrack Shrines, War Hydras,
+  1,000 points                                                       Kharibdyss and Bloodwrack Medusas
+• Dark Elf Masters, Sorceresses, High Beastmasters,                • 0-1 unit of Doomfire Warlocks per 1,000 points
+  Death Hags and Khainite Assassins                                • 0-2 Reaper Bolt Throwers per 1,000 points
+• 0-1 Cauldron of Blood per 1,000 points (taken as a mount
+  for a Death Hag)                                                 Mercenaries
+                                                                   Up to 20% of your army’s points value may be spent
+Core                                                               on mercenaries.
+At least 25% of your army’s points value must be spent on:
+                                                                   Allies
+• Dark Elf Warriors, Repeater Crossbowmen,                         Up to 25% of your army’s points value may be spent on a single
+  Black Ark Corsairs and Dark Riders                               allied contingent drawn from one of the following Grand
+• If your army includes one or more Death Hags, 0-1 unit of        Army composition lists:
+  Witch Elves may be taken as a Core choice
+                                                                   • Warriors of Chaos (Uneasy)
+Special
+Up to 50% of your army’s points value may be spent on:
+                                                                      Battle Standard Bearer
+• Har Ganeth Executioners, Witch Elves, Dark Elf Shades               A single Dark Elf Master in your army may be upgraded
+  and Harpies                                                         to be your Battle Standard Bearer for +25 points. In
+• 0-1 unit of Black Guard of Naggarond per                            addition to their usual allowance of points to spend on
+  Dark Elf Noble taken                                                magic items, a Battle Standard Bearer can purchase a
+• 0-1 unit of Cold One Knights per 1,000 points                       single magic standard with no points limit.
+• 0-2 Scourgerunner Chariots or Cold One Chariots per
+  1,000 points
+• If your General is a High Beastmaster, 0-1 War Hydra or
+  Kharibdyss may be taken as a Special choice
+Dark Elf Nobles
+                                                                                                                                                                    Character
+                                              M        WS         BS          S         T         W          I         A        Ld         Points
+Dark Elf Dreadlord                            5         7          7          4         3         3          6         4        10          130
+Dark Elf Master                               5         6          6          4         3         2          5         3         9           70             Dreadlords of Naggaroth
+                                                                                                                                                            Dreadlords are the so-
+Troop Type:                 Regular infantry (character)                                                                                                    called noble-born rulers of
+Base Size:                  25 x 25 mm                                                                                                                      Naggaroth. Whilst some of
+Unit Size:                  1                                                                                                                               these aristocrats are little
+Equipment:                  Hand weapon and light armour                                                                                                    more than sycophantic
+                                                                                                                                                            schemers desperately clinging
+Options:                                                                                                                                                    to whatever power they
+• May take one of the following:                                                                                                                            can hold on to, others are
+  - Additional hand weapon................................................................................................... +3 points                     feared tactical commanders
+  - Great weapon........................................................................................................................ +4 points          who have commanded the
+  - Halberd ................................................................................................................................... +3 points   Dark Elf legions across
+  - Lance (if appropriately mounted).................................................................................. +4 points                            countless battlefields. Dark
+• May take one of the following:                                                                                                                            Elf generals seldom inspire
+  - Repeater crossbow .............................................................................................................. +6 points              their warriors with heroic
+  - Repeater handbow .............................................................................................................. +5 points               speeches or displays of valour,
+  - Brace of repeater handbows...........................................................................................+10 points                         preferring to rule through
+• May take a shield........................................................................................................................ +2 points       fear, intimidation and torture
+• May replace light armour with:                                                                                                                            – the path most of them
+  - Heavy armour ....................................................................................................................... +3 points          walked in order to reach the
+  - Full plate armour ................................................................................................................. +6 points           lofty heights of Dark Elf high
+• May be mounted .......................................................................................................................See page 8          society. When they take to
+• May have the Sea Dragon Cloak special rule ................................................................... +4 points                                  the field themselves, there
+• A Dreadlord may purchase magic items up to a total of ............................................ 100 points                                             are few who have crossed
+• A Master may purchase magic items up to a total of .....................................................50 points                                         blades with these corrupt
+                                                                                                                                                            nobles and lived more than
+Special Rules: Eternal Hatred, Hatred (High Elves)*, Murderous, Strike First*                                                                               mere moments – for their
+                                                                                                                                                            martial skill and savage
+*Note that these special rules do not apply to this model’s mount (should it have one).                                                                     cruelty has been honed over
+                                                                                                                                                            many centuries of battle
+                                                                                                                                                            and bloodshed.
+Dark Elf Sorceresses
+                                                                                                                                                             Character
+                                            M        WS        BS          S        T        W          I        A        Ld         Points
+Supreme Sorceress                           5         4         4          3        3        3          5        2         8          150
+Sorceress                                   5         4         4          3        3        2          4        1         8           75            Dark Elf Sorceresses
+                                                                                                                                                     Unlike the mages of Ulthuan,
+Troop Type:                Regular infantry (character)                                                                                              the Sorceresses of Naggaroth
+Base Size:                 25 x 25 mm                                                                                                                care not for the dangers of
+Unit Size:                 1                                                                                                                         meddling with the darker
+Equipment:                 Hand weapon                                                                                                               Winds of Magic, for the
+                                                                                                                                                     pursuit of power knows no
+Magic: A Supreme Sorceress is a Level 3 Wizard. A Sorceress is a Level 1 Wizard. Every                                                               bounds within Dark Elf
+Dark Elf Sorceress knows spells from one of the following Lores of Magic:                                                                            society. Hidden within their
+• Battle Magic                                                                                                                                       great fortress, the Sorceresses
+• Daemonology                                                                                                                                        compete with one another in
+• Dark Magic                                                                                                                                         an effort to amass strength
+• Elementalism                                                                                                                                       and influence, constantly
+• Illusion                                                                                                                                           pushing the boundaries of
+                                                                                                                                                     safety and sanity through
+Options:                                                                                                                                             bloody sacrifices and infernal
+• May be mounted .......................................................................................................................See page 8   rituals in the pursuit of
+• A Supreme Sorceress may:                                                                                                                           power. The Sorceresses of
+  - Be a Level 4 Wizard ..........................................................................................................+30 points         the Dark Coven march to
+  - Purchase magic items up to a total of ......................................................................... 100 points                       war at the behest of the
+• A Sorceress may:                                                                                                                                   ruling elite of Naggaroth, but
+  - Be a Level 2 Wizard ..........................................................................................................+30 points         not without considerable
+  - Purchase magic items up to a total of ............................................................................50 points                      payment; be that prisoners
+                                                                                                                                                     of war to sacrifice upon
+Special Rules: Elven Reflexes, Eternal Hatred, Hatred (High Elves), Hekarti’s Blessing,                                                              dark altars, or hefty sums of
+               Lore of Naggaroth, Murderous                                                                                                          treasure to further their own
+                                                                                                                                                     nefarious machinations.
+High Beastmasters
+                                                                                                                                                                Character
+                                             M        WS         BS         S         T        W          I         A        Ld        Points
+High Beastmaster                             -         7          7         4         3        3          5         3         9          75
+                                                                                                                                                        Beastmasters
+Troop Type:                Regular infantry (character)                                                                                                 The Beastmasters of Clar
+Base Size:                 (as mount)                                                                                                                   Karond and Karond Kar
+Unit Size:                 1                                                                                                                            use a savage combination
+Equipment:                 Hand weapon, whip and light armour                                                                                           of torment and cruelty to
+                                                                                                                                                        enforce their will upon
+Options:                                                                                                                                                their charges. It matters not
+• May take a cavalry spear ......................................................................................................... +2 points          what the creature is, be it a
+• May take a repeater crossbow ............................................................................................... +6 points                monstrous Hydra, a savage
+• May take a shield........................................................................................................................ +2 points   Manticore or even a mighty
+• May replace light armour with heavy armour ................................................................ +3 points                                 Dragon, the Beastmasters
+• Must be mounted on one of the following:                                                                                                              will bring the creature to
+  - Scourgerunner Chariot ................................................................................................. See page 16                 heel. When the Dark Elves
+  - Manticore........................................................................................................................... See page 19    take to the battlefield, the
+• May have the Sea Dragon Cloak special rule ................................................................... +4 points                              Beastmasters drive their
+• May purchase magic items up to a total of ........................................................................75 points                           charges towards the enemy
+                                                                                                                                                        with barbed lashes and
+Special Rules: Eternal Hatred, Goad Beast, Hatred (High Elves)*, Murderous,                                                                             pointed blades, goading the
+               Strike First*                                                                                                                            poor beasts into a mindless
+                                                                                                                                                        frenzy of gnashing teeth
+*Note that these special rules do not apply to this model’s mount.                                                                                      and slicing claws. Thanks
+                                                                                                                                                        to the callous treatment
+Goad Beast                                                                                                                                              of their charges, the Dark
+The Beastmasters of Clar Karond excel at goading their charges to violence, none more so than the                                                       Elves’ monstrous menageries
+High Beastmasters.                                                                                                                                      are in constant need of
+                                                                                                                                                        replenishment, forcing the
+During the Command sub-phase of their turn, this character may goad a single friendly                                                                   Beastmasters to regularly
+model whose troop type is ‘monster’ and that is within their Command range (including                                                                   venture into the wilds of
+their own mount). Until the end of this turn, that model gains a +D3 modifier to its                                                                    Naggaroth in search of new
+Attacks characteristic (to a maximum of 10).                                                                                                            beasts to subjugate.
+Death Hags
+                                                                                                                                                               Character
+                                             M        WS        BS          S        T        W           I        A        Ld        Points
+Death Hag                                    5         6         6          4        3        2           7        3         8          70
+                                                                                                                                                       Death Hags of Khaine
+Troop Type:                Regular infantry (character)                                                                                                Death Hags are the warrior-
+Base Size:                 25 x 25 mm                                                                                                                  priestesses of the Witch Elves
+Unit Size:                 1                                                                                                                           and the guardians of the
+Equipment:                 Two hand weapons                                                                                                            Murder God’s mysteries. It
+                                                                                                                                                       is they who mix the heady
+Options:                                                                                                                                               potions that drive the Witch
+• May take one of the following gifts of Khaine:                                                                                                       Elves into their infamous
+  - Cry of War ...........................................................................................................................+15 points   battle frenzy, sending
+  - Rune of Khaine...................................................................................................................+10 points        themselves and their sisters
+  - Witchbrew ...........................................................................................................................+20 points    into a state of total lust
+• May be mounted on a Cauldron of Blood..................................................................... See page 15                               for blood and death. They
+• May purchase magic items up to a total of ........................................................................75 points                          also possess an intimate
+                                                                                                                                                       knowledge of lethal poisons
+Special Rules: Eternal Hatred, Frenzy, Hatred (all enemies), Loner, Murderous,                                                                         and potent toxins – second
+               Poisoned Attacks, Strike First                                                                                                          only to the Assassins of
+                                                                                                                                                       Khaine themselves – with
+                                                                                                                                                       which they craft fast-acting
+   Gifts Of Khaine                                                                                                                                     concoctions to coat the
+   Blessed by Khaine, a Death Hag and her minions are a fearful sight to behold.                                                                       blades of their followers.
+                                                                                                                                                       Along with their alchemical
+   As described above, a Death Hag may take one of the following gifts of Khaine:                                                                      practices, Death Hags evoke
+                                                                                                                                                       the secret names of their god
+   • Cry of War: Enemy units suffer a -1 modifier to their Leadership characteristic                                                                   to befuddle their foes and fill
+     whilst within the Command range of one or more Death Hags that have this                                                                          their minds with a madness
+     special rule and that are not fleeing.                                                                                                            that consumes all but the
+   • Rune of Khaine: This character has the Extra Attacks (+D3) special rule.                                                                          strongest of foes.
+   • Witchbrew: This character, their mount and any unit they have joined cannot lose
+     the Frenzy special rule.
+Khainite Assassins
+                                                                                                                                                                Character
+                                             M        WS         BS          S        T         W          I         A        Ld        Points
+Khainite Assassin                            5         8          7          4        3         2          7         3         8          80
+                                                                                                                                                         Assassins of Khaine
+Troop Type:                Regular infantry (character)                                                                                                  Masters of a subtle and
+Base Size:                 25 x 25 mm                                                                                                                    murderous magic, trained
+Unit Size:                 1                                                                                                                             from infancy to be the
+Equipment:                 Hand weapon and throwing weapons                                                                                              chosen warriors of Khaine,
+                                                                                                                                                         these masterful killers move
+Options:                                                                                                                                                 swiftly and silently about the
+• May take one of the following:                                                                                                                         battlefield. Striking at their
+  - Additional hand weapon................................................................................................... +3 points                  target with weapons laced
+  - Repeater handbow .............................................................................................................. +5 points            with some of the deadliest
+• May take one of the following forbidden poisons:                                                                                                       toxins to be found, leaving
+  - Black Lotus ............................................................................................................................ +5 points   enemy commanders and high
+  - Dark Venom ........................................................................................................................+15 points        ranking officials twitching
+  - Manbane...............................................................................................................................+15 points     in agony as the fast-acting
+• May purchase magic items up to a total of ........................................................................50 points                            poison ravages their nervous
+                                                                                                                                                         system and vital organs.
+Special Rules: Eternal Hatred, Hatred (All Enemies), Hidden, Immune to Psychology,                                                                       Even the serried ranks of
+               Murderous, Strike First                                                                                                                   Dark Elf city guard can be
+                                                                                                                                                         unaware that an Assassin of
+Hidden                                                                                                                                                   Khaine stalks amongst them
+Khainite Assassins hide amongst the ranks of Dark Elf infantry, revealing themselves only to strike                                                      until they reveal themselves,
+at the enemy.                                                                                                                                            surging past their shields to
+                                                                                                                                                         pounce upon their target
+Khainite Assassins are not placed on the battlefield at the start of the game. Instead, they                                                             with paired swords or pointed
+are ‘hidden’ within a friendly Dark Elf unit whose troop type is ‘infantry’ and that has a                                                               throwing daggers.
+Unit Strength of ten or more (excluding Harpies). Make a note of which unit each Assassin
+is hiding within. A hidden Assassin may be revealed during any Start of Turn sub-phase or
+at the start of any Combat phase. Position the revealed Assassin as you would a character
+that has joined the unit.
+
+If a unit in which a Khainite Assassin is hiding is destroyed or flees the battlefield before
+the Assassin is revealed, the Assassin is removed as a casualty. A Khainite Assassin cannot
+be your army General.
+
+
+   Forbidden Poisons
+   Khainite Assassins coat their weapons with a variety of terrible and forbidden poisons.
+
+   As described above, a Khainite Assassin may take one of the following
+   forbidden poisons:
+
+   • Black Lotus: For each unsaved Wound inflicted upon them by this character,
+     enemy characters suffer a -1 modifier to their Leadership characteristic for the
+     remainder of the game.
+   • Dark Venom: This character has the Killing Blow special rule.
+   • Manbane: When this character makes a roll To Wound, a roll of 4+ is always a
+     success, regardless of the target’s Toughness.
+Character Mounts
+                                                                                                                                                                     Character
+A character that can be mounted may choose a mount from the following list. Some
+mounts are covered in detail on this page. Those that are not have their own dedicated
+entries later in this army list.                                                                                                                             Dark Steeds
+                                                                                                                                                             The horses of the Dark Elves
+A Dark Elf Dreadlord or Master may be mounted on a:                                                                                                          are treated no differently to
+• Dark Steed ..................................................................................................................................+14 points    the many other beasts in the
+• Cold One .....................................................................................................................................+18 points   armies of Naggaroth, making
+• Cold One Chariot .................................................................................................................. See page 16            them just as foul tempered
+• Black Dragon (Dreadlord only) ........................................................................................ See page 18                         and spiteful as any other
+• Manticore (Dreadlord only) .............................................................................................. See page 19                      creature. That being said, the
+                                                                                                                                                             midnight-black steeds are as
+A Supreme Sorceress or Sorceress may be mounted on a:                                                                                                        swift as any horse to be found
+• Dark Steed ..................................................................................................................................+14 points    on Ulthuan, and allow Dark
+• Cold One .....................................................................................................................................+18 points   Riders to scout ahead of the
+• Dark Pegasus..............................................................................................................................+35 points       Dark Elf armies and terrorise
+• Black Dragon (Supreme Sorceress only) ........................................................................ See page 18                                 those who lie in their path.
+
+A High Beastmaster must be mounted on one of the following:                                                                                                  Cold Ones
+• Scourgerunner Chariot ........................................................................................................ See page 16                 These large, single-minded
+• Manticore ................................................................................................................................. See page 19    reptiles dwell in subterranean
+                                                                                                                                                             tunnels beneath Hag Graef,
+A Death Hag may be mounted on a:                                                                                                                             hunting whatever prey is
+• Cauldron of Blood ................................................................................................................. See page 15            foolish enough to enter their
+                                                                                                                                                             domain. Though it takes a
+Dark Steed                                                                                                                                                   skilled hand to break them,
+                                                                                                                                                             once they have been subdued
+                                               M        WS         BS          S         T        W           I         A        Ld         Points           they serve as mounts for the
+Dark Steed                                     9         3          -          3         -        -           4         1         -          +14             Dark Elves’ most elite knights.
+
+Troop Type:                 Light cavalry
+Base Size:                  30 x 60 mm
+Unit Size:                  1
+Equipment:                  Hooves (counts as a hand weapon)
+Special Rules:              Fast Cavalry, Swiftstride
+
+
+Cold One
+                           M WS BS            S     T     W                                                   I         A        Ld         Points
+Cold One                   7      3     -     4 (+1) -                                                        2         2         -          +18
+Note: A character mounted on a Cold One has +1 Toughness.
+
+Troop Type:                 Heavy cavalry
+Base Size:                  30 x 60 mm
+Unit Size:                  1
+Equipment:                  Claws and teeth (counts as a hand weapon)
+Special Rules:              Armour Bane (1, Cold One only), Armoured Hide (1), Fear, First Charge,
+                            Stupidity, Swiftstride
+Dark Pegasus
+                                                                                                                                      Character
+                           M WS BS            S     T    W                              I      A       Ld       Points
+Dark Pegasus               8     3      -     4     - (+1)                              4      3        -        +35
+Note: A character mounted on a Dark Pegasus has +1 Wound.                                                                     Dark Pegasus
+                                                                                                                              In the northernmost peaks
+Troop Type:           Monstrous cavalry                                                                                       of the Iron Mountains, Dark
+Base Size:            40 x 60 mm                                                                                              Pegasus make their nests. It
+Unit Size:            1                                                                                                       is from these lofty eyries that
+Equipment:            Hooves (counts as a hand weapon)                                                                        the Dark Elves steal juvenile
+Special Rules:        Armour Bane (1, Dark Pegasus only), Counter Charge, First Charge,                                       mounts to serve as steeds
+                      Fly (10), Swiftstride                                                                                   for the Sorceresses of the
+                                                                                                                              Dark Coven.
+
+Dark Elf City Guard
+                                                                                                                                       Infantry
+Dark Elf Warriors                    M      WS       BS        S       T      W         I      A       Ld       Points
+Dark Elf Warrior                     5       4        4        3       3      1         4      1        8         8
+Lordling                             5       4        4        3       3      1         4      2        8        +5           Dark Elf Warriors
+                                                                                                                              Regiments of Dark Elves
+Repeater Crossbowmen M                      WS       BS        S       T      W         I      A       Ld       Points        armed with sharp swords and
+Repeater Crossbowman 5                       4        4        3       3      1         4      1        8         11          heavy-bladed spears are made
+Lordling             5                       4        5        3       3      1         4      1        8        +5           up of warriors, both male
+                                                                                                                              and female, drawn from the
+Troop Type:   Regular infantry                                                                                                same city, and often the same
+Base Size:    25 x 25 mm                                                                                                      extended family. The role of
+Unit Size:    10+                                                                                                             these warriors is to defend
+Equipment:                                                                                                                    against enemy counter-
+• Dark Elf Warriors: Hand weapons, light armour and shields                                                                   attacks threatening the flanks
+• Repeater Crossbowmen: Hand weapons, repeater crossbows and light armour                                                     of other formations, and
+                                                                                                                              to protect the army’s war
+Options:                                                                                                                      machines and missile troops.
+• Any unit may:
+  - Upgrade one model to a Lordling (champion) ......................................... +5 points per unit                   Repeater Crossbowmen
+  - Upgrade one model to a standard bearer ................................................... +5 points per unit             Armed with their signature,
+  - Upgrade one model to a musician ................................................................ +5 points per unit       magazine-fed crossbows,
+• Any unit of Dark Elf Warriors may take thrusting spears .......................+1 point per model                           repeater crossbowmen take
+• Any unit of Repeater Crossbowmen may take shields ..............................+1 point per model                          up position at the rear of
+• 0-1 unit per 1,000 points may:                                                                                              the Dark Elf armies, dealing
+  - Have the Veteran special rule .......................................................................+1 point per model   death from afar. Though
+  - Purchase a magic standard worth up to........................................................................50 points    they prefer to avoid the cut
+                                                                                                                              and thrust of a melee, they
+Special Rules: Close Order, Elven Reflexes, Hatred (High Elves), Martial Prowess                                              are no less cruel than the rest
+                                                                                                                              of their kin – often forgoing
+                                                                                                                              shots that would slay their
+                                                                                                                              targets in favour of inflicting
+                                                                                                                              debilitating wounds.
+Black Ark Corsairs
+                                                                                                                                                             Infantry
+                                            M       WS         BS         S        T         W         I         A        Ld        Points
+Corsair                                     5        4          4         3        3         1         4         1         8          11
+Reaver                                      5        4          4         3        3         1         4         2         8         +6             Black Ark Corsairs
+                                                                                                                                                    Those who live along the
+Troop Type:               Regular infantry                                                                                                          coastlines of the Old World
+Base Size:                25 x 25 mm                                                                                                                have learned to fear the
+Unit Size:                10+                                                                                                                       Black Ark Corsairs, for these
+Equipment:                Hand weapons and light armour                                                                                             infamous raiders plunder
+                                                                                                                                                    and pillage with no mercy.
+Options:                                                                                                                                            Though it is a hard and
+• The entire unit must take one of the following:                                                                                                   dangerous life that they lead,
+  - Additional hand weapons ........................................................................................................... Free        serving aboard a Black Ark
+  - Repeater handbows ...................................................................................................................... Free   can see both captain and
+• Any unit may:                                                                                                                                     crew propelled towards fame
+  - Upgrade one model to a Reaver (champion) ............................................ +6 points per unit                                        and fortune, for although
+  - Upgrade one model to a standard bearer ................................................... +6 points per unit                                   their voyages can last for
+  - Upgrade one model to a musician ................................................................ +6 points per unit                             years, when they return to
+  - Purchase a magic standard worth up to........................................................................50 points                          Naggaroth, they do so laden
+                                                                                                                                                    with plunder.
+Special Rules: Elven Reflexes, Hatred (High Elves), Move through Cover, Open Order,
+               Sea Dragon Cloak                                                                                                                     Black Guard
+                                                                                                                                                    of Naggarond
+                                                                                                                                                    Trained to show no mercy
+Black Guard Of Naggarond                                                                                                                            and kill without thought, the
+                                                                                                                                                    Black Guard are the finest
+                                            M       WS         BS         S        T         W         I         A        Ld        Points          and most disciplined warriors
+Black Guard                                 5        5          4         3        3         1         5         1         9          15            in all of Naggaroth, each of
+Tower Master                                5        5          4         3        3         1         5         2         9         +7             whom is willing to shed a
+                                                                                                                                                    sea of blood in the name of
+Troop Type:               Regular infantry                                                                                                          their ruler. Though the risk
+Base Size:                25 x 25 mm                                                                                                                of serving at the right hand
+Unit Size:                10+                                                                                                                       of their cantankerous lord is
+Equipment:                Hand weapons, dread halberds (see below) and full plate armour                                                            great, for the Dread-King will
+                                                                                                                                                    often display his frustrations
+Options:                                                                                                                                            in a most violent fashion,
+• Any unit may:                                                                                                                                     those who serve him with
+  - Upgrade one model to a Tower Master (champion) .............................. +7 points per unit                                                loyalty and devotion are
+  - Upgrade one model to a standard bearer ................................................... +7 points per unit                                   richly rewarded.
+  - Upgrade one model to a musician ................................................................ +7 points per unit
+  - Have the Drilled special rule ........................................................................+1 point per model
+  - Purchase a magic standard worth up to..................................................................... 100 points
+• A Tower Master may purchase magic items up to a total of .......................................50 points
+
+Special Rules: Close Order, Elven Reflexes, Eternal Hatred, Hatred (High Elves),
+               Immune to Psychology, Martial Prowess, Stubborn
+
+                                  R     S     Special Rules AP
+Dread halberd                   Combat S+1                  -1
+                                              Armour Bane (1), Fight in Extra Rank,
+                                              Requires Two Hands
+Notes: A model wielding a dread halberd cannot make a supporting attack during a turn in
+which it charged.
+Har Ganeth Executioners
+                                                                                                                                                   Infantry
+                                         M       WS        BS        S        T       W         I        A       Ld        Points
+Executioner                              5        5         4        4        3       1         5        1        9          15
+Draich Master                            5        5         4        4        3       1         5        2        9         +6            Executioners of
+                                                                                                                                          Har Ganeth
+Troop Type:              Regular infantry                                                                                                 Har Ganeth is the spiritual
+Base Size:               25 x 25 mm                                                                                                       centre of Khaine’s worship,
+Unit Size:               10+                                                                                                              with many shrines dedicated
+Equipment:               Hand weapons, Har Ganeth greatswords and heavy armour                                                            to the Murder God. It is here
+                                                                                                                                          that the Executioners learn
+Options:                                                                                                                                  the bloody craft of execution,
+• Any unit may:                                                                                                                           becoming masters of dealing
+  - Upgrade one model to a Draich Master (champion) ............................. +6 points per unit                                      death with a single stroke of
+  - Upgrade one model to a standard bearer ................................................... +6 points per unit                         their blades. These pitiless
+  - Upgrade one model to a musician ................................................................ +6 points per unit                   killers are not like the wild
+  - Have the Drilled special rule ...................................................................... +2 points per model              and frenzied butchers that
+  - Purchase a magic standard worth up to........................................................................50 points                many Dark Elves become
+• A Draich Master may purchase magic items up to a total of ......................................25 points                               on the battlefield, instead
+                                                                                                                                          they are cold-blooded
+Special Rules:                Close Order, Elven Reflexes, Hatred (High Elves), Murderous, Veteran                                        professionals who take pride
+                                                                                                                                          in dispatching their foes with
+                               R     S                  AP         Special Rules                                                          the minimum effort. Just as
+Har Ganeth                   Combat S+2                 -1         Cleaving Blow, Requires Two Hands                                      famous as the Executioners
+greatsword                                                                                                                                themselves are the great
+                                                                                                                                          blades that they wield, crafted
+                                                                                                                                          by their own hands in order
+Dark Elf Shades                                                                                                                           to ensure that each weapon
+                                                                                                                                          is perfectly suited to the one
+                                         M       WS        BS        S        T       W         I        A       Ld        Points         who carries it.
+Shade                                    5        5         5        3        3       1         5        1        8          15
+Bloodshade                               5        5         6        3        3       1         5        1        8         +6            Dark Elf Shades
+                                                                                                                                          These outcast warriors
+Troop Type:              Regular infantry                                                                                                 once belonged to the ruling
+Base Size:               25 x 25 mm                                                                                                       families of Clar Karond, but
+Unit Size:               5+                                                                                                               since being betrayed and
+Equipment:               Hand weapons and repeater crossbows                                                                              exiled by their kin, they now
+                                                                                                                                          wander the harsh wilderness
+Options:                                                                                                                                  of the Blackspine Mountains.
+• The entire unit may take one of the following:                                                                                          Here, they move as silently
+  - Additional hand weapons ..............................................................................+1 point per model              as ghosts, slipping through
+  - Great weapons ................................................................................................. +2 points per model   petrified forests and razor-
+• The entire unit may take light armour ............................................................+1 point per model                    sharp boulder fields without
+• Any unit may upgrade one model to a Bloodshade (champion) .............. +6 points per unit                                             leaving a trace.
+• A Bloodshade may purchase magic items up to a total of ............................................25 points
+• 0-1 unit in your army may:
+  - Have the Ambushers special rule................................................................+1 point per model
+  - Have the Chariot Runners special rule .....................................................+1 point per model
+  - Have the Veteran special rule .......................................................................+1 point per model
+
+Special Rules: Elven Reflexes, Evasive, Hatred (High Elves), Move through Cover,
+               Scouts, Skirmishers
+Daughters Of Khaine
+                                                                                                                                      Infantry
+Witch Elves                          M        WS     BS       S       T       W        I       A      Ld       Points
+Witch Elf                            5         4      4       3       3       1        5       1       8         11
+Hag                                  5         4      4       3       3       1        5       2       8        +7           Witch Elves
+                                                                                                                             Witch Elves live only to serve
+Sisters of Slaughter                 M        WS     BS       S       T       W        I       A      Ld       Points        Khaine’s malevolent demands
+Sister of Slaughter                  5         5      4       3       3       1        6       2       9         17          for bloody sacrifice. Before
+Hag                                  5         5      4       3       3       1        6       3       9        +7           battle, they consume the
+                                                                                                                             blood of sacrificed prisoners
+Troop Type:     Regular infantry                                                                                             laced with all manner of
+Base Size:      25 x 25 mm                                                                                                   intoxicating herbs, driving
+Unit Size:      10+                                                                                                          them into a religious frenzy
+Equipment:                                                                                                                   that can only be sated by an
+• Witch Elves: Two hand weapons                                                                                              orgy of slaughter and death.
+• Sisters of Slaughter: Hand weapons and lash & buckler (see below)
+                                                                                                                             Sisters of Slaughter
+Options:                                                                                                                     There are countless
+• Any unit may:                                                                                                              gladiatorial arenas
+  - Upgrade one model to a Hag (champion) .................................................. +7 points per unit              throughout Naggaroth,
+  - Upgrade one model to a standard bearer ................................................... +7 points per unit            ranging from small pits
+  - Upgrade one model to a musician ................................................................ +7 points per unit      to grand stadia, but there
+  - Purchase a magic standard worth up to........................................................................50 points   is one thing common to
+                                                                                                                             all – the presence of the
+Special Rules:                                                                                                               Sisters of Slaughter. These
+• Witch Elves: Close Order, Elven Reflexes, Frenzy, Hatred (High Elves), Horde, Loner,                                       talented gladiators fight with
+                Murderous, Poisoned Attacks                                                                                  an intuitive and acrobatic
+• Sisters of Slaughter: Dance of Death, Elven Reflexes, Hatred (High Elves), Impetuous,                                      combat style honed over
+                Loner, Murderous, Open Order                                                                                 centuries. In battle, these lithe
+                                                                                                                             and dextrous fighters vault
+Dance Of Death                                                                                                               over shield walls and scatter
+Sisters of Slaughter weave through the enemy’s defences, plunging deep into their ranks.                                     enemy formations with
+                                                                                                                             cracks of their barbed lashes.
+If this unit makes a successful charge move (i.e., if the unit makes contact with the charge
+target), the charge target suffers a -1 modifier to its Maximum Rank Bonus until the end of                                  Harpies
+the Combat phase of that turn.                                                                                               Roosting atop the tallest
+                                                                                                                             spires of Karond Kar, these
+                            R             S        AP
+                                               Special Rules                                                                 winged hunters delight in
+Lash & buckler            Combat          S        -1
+                                               Armour Bane (1), Fight in Extra Rank,                                         the torment of their prey.
+                                               Requires Two Hands                                                            On the battlefield, Harpies
+Notes: A model equipped with a lash & buckler improves its armour value by 1.                                                descend from the heavens
+                                                                                                                             like frenzied birds of prey,
+                                                                                                                             slicing at their foes’ eyes and
+Harpies                                                                                                                      faces with their dagger-like
+                                                                                                                             talons, only finishing their
+                                     M        WS     BS       S       T       W        I       A      Ld       Points        victims off once the delight
+Harpy                                5         3      0       3       3       1        5       2       6         11          of their torment has finally
+                                                                                                                             lost its charm.
+Troop Type:           Regular infantry
+Base Size:            25 x 25 mm
+Unit Size:            5+
+Equipment:            Claws (counts as hand weapons)
+Special Rules:        Fly (10), Move through Cover, Scouts, Skirmishers, Swiftstride
+Cold One Knights
+                                                                                                                                                             Cavalry
+                                            M       WS         BS         S        T         W         I         A        Ld        Points
+Cold One Knight                             -        5          4         4        4         1         5         1         9          31
+Dread Knight                                -        5          4         4        4         1         5         2         9         +7             Cold One Knights
+Cold One                                    7        3          -         4        -         -         2         2         -           -            The skill of the Cold One
+                                                                                                                                                    Knights and the viciousness
+Troop Type:  Heavy cavalry                                                                                                                          of their mounts sets them
+Base Size:   30 x 60 mm                                                                                                                             above the cavalry of lesser
+Unit Size:   5+                                                                                                                                     races. They are often found
+Equipment:                                                                                                                                          at the forefront of the attack,
+• Cold One Knights: Hand weapons, lances, heavy armour and shields                                                                                  smashing into the enemy’s
+• Cold Ones: Claws and teeth (counts as hand weapons)                                                                                               most deadly regiments. But
+                                                                                                                                                    it is a daring Dark Elf who
+Options:                                                                                                                                            purchases a Cold One to ride,
+• Any unit may:                                                                                                                                     for the lizards savagely attack
+  - Upgrade one model to a Dread Knight (champion) ............................... +7 points per unit                                               all who come near them,
+  - Upgrade one model to a standard bearer ................................................... +7 points per unit                                   recognising warm-blooded
+  - Upgrade one model to a musician ................................................................ +7 points per unit                             creatures by their smell.
+  - Purchase a magic standard worth up to........................................................................50 points                          This is dangerous in itself
+  - Replace heavy armour with full plate armour ..................................... +4 points per model                                           and no few strutting nobles
+• A Dread Knight may purchase magic items up to a total of ........................................50 points                                        have been savaged by their
+                                                                                                                                                    own mounts, much to the
+Special Rules: Armour Bane (1, Cold One only), Armoured Hide (1), Close Order,                                                                      amusement of their rivals.
+               Elven Reflexes, Fear, First Charge, Hatred (High Elves), Stupidity,
+               Swiftstride                                                                                                                          Dark Riders
+                                                                                                                                                    In the time when Daemons
+Dark Riders                                                                                                                                         besieged Ulthuan, the Dark
+                                                                                                                                                    Riders were the ever vigilant
+                                            M       WS         BS         S        T         W         I         A        Ld        Points          sentinels that kept watch
+Dark Rider                                  -        4          4         3        3         1         4         1         8          16            for signs of invasion and
+Herald                                      -        4          4         3        3         1         4         2         8         +6             carried word of the Daemons’
+Dark Steed                                  9        3          -         3        -         -         4         1         -           -            movements. Ever since the
+                                                                                                                                                    civil war that tore Ulthuan
+Troop Type:   Light cavalry                                                                                                                         in two, these cloaked riders
+Base Size:    30 x 60 mm                                                                                                                            have become heralds of woe,
+Unit Size:    5+                                                                                                                                    ranging ahead of the Dark
+Equipment:                                                                                                                                          Elves, sowing terror and
+• Dark Riders: Hand weapons, cavalry spears and light armour                                                                                        disorder as the armies of
+• Dark Steeds: Hooves (counts as hand weapons)                                                                                                      the Dread-King approach.
+                                                                                                                                                    In battle, Dark Riders skirt
+Options:                                                                                                                                            the edge of the fight in order
+• The entire unit may take:                                                                                                                         to attack the flanks of their
+  - Repeater crossbows ........................................................................................ +2 points per model                 enemy rather than engage
+  - Shields ...................................................................................................................+1 point per model   head-on, chasing down
+• Any unit may:                                                                                                                                     exposed war machines and
+  - Upgrade one model to a Herald (champion) ............................................ +6 points per unit                                        cutting off supply lines in
+  - Upgrade one model to a standard bearer ................................................... +6 points per unit                                   order to disrupt the enemy.
+  - Upgrade one model to a musician ................................................................ +6 points per unit
+• 0-1 unit per 1,000 points may:
+  - Have the Fire & Flee special rule .................................................................+1 point per model
+  - Have the Scouts special rule..........................................................................+1 point per model
+
+Special Rules: Elven Reflexes, Fast Cavalry, Hatred (High Elves), Open Order,
+               Skirmishers, Swiftstride
+Doomfire Warlocks
+                                                                                                                                Cavalry
+                                   M     WS       BS       S      T      W        I      A      Ld      Points
+Doomfire Warlock                   -      4        4       4      3      1        5      1       8        22
+Master                             -      4        4       4      3      1        5      2       8       +6           Doomfire Warlocks
+Dark Steed                         9      3        -       3      -      -        4      1       -         -          Cursed by the Dread-King
+                                                                                                                      long ago, the Doomfire
+Troop Type:   Light cavalry                                                                                           Warlocks have since teetered
+Base Size:    30 x 60 mm                                                                                              between the mortal world
+Unit Size:    5+                                                                                                      and the Realm of Chaos.
+Equipment:                                                                                                            Whilst many Dark Elves
+• Doomfire Warlocks: Hand weapons                                                                                     fear the grip of Chaos, the
+• Dark Steeds: Hooves (counts as hand weapons)                                                                        Doomfire Warlocks feel
+                                                                                                                      the lure of dark powers far
+Options:                                                                                                              more keenly, knowing full
+• Any unit may upgrade one model to a Master (champion) ....................... +6 points per unit                    well that their fate is to be
+• A Master may purchase magic items up to a total of .....................................................25 points   claimed by the Ruinous
+                                                                                                                      Powers. In an effort to fend
+Special Rules: Cursed Coven, Dark Runes, Elven Reflexes,                                                              off their inevitable demise,
+               Fast Cavalry, Hatred (High Elves), Open Order,                                                         Doomfire Warlocks take to
+               Poisoned Attacks (Doomfire Warlocks and Master only), Swiftstride                                      the battlefield to find worthy
+                                                                                                                      souls to offer up as a sacrifice
+Cursed Coven                                                                                                          in their place – the mightier
+Devoted servants of the Ruinous Powers, the Warlock covens of Hag Graef practise                                      and purer the soul, the more
+powerful sorcery.                                                                                                     time it grants them. Yet, no
+                                                                                                                      matter how many souls they
+A unit of Doomfire Warlocks knows a single spell (chosen by their controlling player before                           offer up in their place, their
+armies are deployed) from either the Dark Magic or Daemonology Lore of Magic. The unit                                damnation cannot be averted.
+may cast this spell as a Bound spell:
+
+• If the unit has a Unit Strength of 10 or more and includes a Master, it may cast this
+  Bound spell with a Power Level of 2.
+• If the unit includes a Master, but has a Unit Strength of 9 or less, it may cast this Bound
+  spell with a Power Level of 1.
+• Otherwise, the unit may cast this Bound spell with a Power Level of 0.
+
+Dark Runes
+Infernal runes crawl across the skin of a Doomfire Warlock, blazing with an unholy fire when
+death draws near.
+
+This unit has a 5+ Ward save against any wounds suffered that were caused by a non-
+magical enemy attack.
+Cauldron Of Blood
+                                                                                                              Chariot
+                              M     WS     BS      S     T     W       I     A      Ld     Points
+Cauldron of Blood             2      -      -      5     5     5       -     -       -      +150
+Witch Elf Crew (x2)           -      4      4      3     -     -       5     1       9        -     The Cauldrons of Blood
+                                                                                                    These gruesome altars are
+Troop Type:   Heavy Chariot                                                                         rumoured to be divine gifts
+Base Size:    60 x 100 mm                                                                           from Khaine himself, a
+Unit Size:    1                                                                                     reward for the Witch Elves’
+Armour Value: 4+                                                                                    single-minded devotion to
+Equipment:                                                                                          his cause – or so the Hag
+• Witch Elf Crew: Two hand weapons                                                                  Sorceress Morathi claims.
+                                                                                                    Though they are usually kept
+Special Rules: Close Order, Dragged Along, Elven Reflexes, Frenzy, Hatred (High Elves),             deep within the chambers
+               Impact Hits (D6+1), Large Target, Magic Resistance (-1), Murderous,                  of Khaine’s great temples,
+               Poisoned Attacks, Terror                                                             they will occasionally be
+                                                                                                    brought forth to accompany
+                                                                                                    the worshippers of the god of
+  Blessings Of Khaine                                                                               murder onto the battlefield,
+                                                                                                    where the accursed artefact
+  As the Cauldron of Blood fills, the baleful spirit of Khaine surrounds his devoted daughters.     can be supplied with a near-
+                                                                                                    constant stream of fresh
+  Even if engaged in combat, this model can cast the following Bound spell, with a                  sacrifices. The seemingly-
+  Power Level of 2:                                                                                 bottomless brass cauldrons
+                                                                                                    greedily drink the vast
+  Type: Enchantment                                                                                 quantities of sacrificial blood
+  Casting Value: 9+                                                                                 that are poured into them,
+  Range: Self                                                                                       empowering the followers
+  Effect: Until your next Start of Turn sub-phase, this model and every friendly Death              of Khaine with renewed
+  Hag, unit of Witch Elves or unit of Sisters of Slaughter that is within its Command               strength and vitality until
+  range gains one of the following:                                                                 there is no blood left to spill.
+
+  • Fury of Khaine (the Furious Charge special rule)
+  • Strength of Khaine (the Cleaving Blow special rule)
+  • Bloodshield of Khaine (a 5+ Ward save against any wounds suffered)
+
+
+  Character Mount: A Cauldron of Blood may only be included in your army as a
+  character’s mount. Its points are added to that of its rider.
+Scourgerunner Chariots
+                                                                                                          Chariot
+                             M       WS    BS    S     T     W      I     A     Ld     Points
+Chariot                      -        -     -    4     4     4      -     -      -       85
+Beastmaster Crew (x2)        -        4     4    3     -     -      4     1      8        -     Scourgerunner Chariots
+Dark Steed (x2)              9        3     -    3     -     -      4     1      -        -     Beastmasters race about
+                                                                                                the battlefield aboard
+Troop Type:    Light chariot                                                                    swift chariots, seeking out
+Base Size:     50 x 100 mm                                                                      monsters amongst the enemy
+Unit Size:     1-3                                                                              ranks upon which they might
+Armour Value: 5+                                                                                turn their wicked ravager
+Equipment:                                                                                      harpoons. But death is not
+• Chariot:     Ravager harpoon (see below)                                                      their objective, instead the
+• Beastmaster Crew: Hand weapons, cavalry spears and repeater crossbows                         crews of Scourgerunner
+• Dark Steeds: Hooves (counts as hand weapons)                                                  Chariots will seek to subdue
+                                                                                                and capture the war beasts of
+Special Rules: Elven Reflexes, Hatred (High Elves), Impact Hits (D6), Open Order,               the foe before hauling them
+               Sea Dragon Cloak, Swiftstride                                                    back to the gladiatorial pits
+                                                                                                of Naggaroth.
+                        R        S        AP    Special Rules
+Ravager harpoon        24"       6        -3    Cumbersome, Multiple Wounds (D3),               Cold One Chariots
+                                                Ponderous                                       Cold One Chariots are
+Notes: During the Shooting phase, one of the Beastmaster Crew may fire this weapon instead of   occasionally given as gifts
+their repeater crossbow.                                                                        to those knights who have
+                                                                                                pleased the Dread-King
+                                                                                                with their devotion to him
+Cold One Chariots                                                                               and their prowess in battle.
+                                                                                                To possess such a vehicle is
+                             M       WS    BS    S     T     W      I     A     Ld     Points   a symbol of great prestige,
+Chariot                      -        -     -    5     5     4      -     -      -      125     ranked amongst the highest
+Knight Charioteer (x2)       -        5     4    4     -     -      5     1      9       -      stations of battle, even
+Cold One (x2)                7        3     -    4     -     -      2     2      -       -      though the Cold Ones’ erratic
+                                                                                                behaviour can often bring the
+Troop Type:   Heavy chariot                                                                     chariot to a jarring halt at the
+Base Size:    50 x 100 mm                                                                       worst moments.
+Unit Size:    1
+Armour Value: 4+
+Equipment:
+• Knight Charioteers: Hand weapons, cavalry spears and repeater crossbows
+• Cold Ones: Claws and teeth (counts as hand weapons)
+
+Special Rules: Armour Bane (1, Cold One only), Close Order, Elven Reflexes, Fear,
+               First Charge, Hatred (High Elves), Impact Hits (D6+1), Stupidity
+
+
+  Character Mount: A Scourgerunner Chariot or Cold One Chariot may be included
+  in your army as a character’s mount. If so, its points are added to that of its rider.
+Bloodwrack Shrine
+                                                                                                             Chariot
+                               M     WS      BS      S      T     W     I    A     Ld     Points
+Bloodwrack Shrine              2      -       -      5      5     5     -    -      -      175
+Shrinekeeper (x2)              -      4       4      3      -     -     5    1      8       -       Bloodwrack Shrines
+Bloodwrack Medusa              -      5       5      4      -     -     5    3      -       -       Long ago, each Bloodwrack
+                                                                                                    Medusae was a Sorceress
+Troop Type:   Heavy chariot                                                                         of Ghrond who used her
+Base Size:    60 x 100 mm                                                                           magic and blood-feasting
+Unit Size:    1                                                                                     rituals to make herself so
+Armour Value: 4+                                                                                    beautiful her visage rivalled
+Equipment:                                                                                          that of the gods. In doing
+• Shrinekeepers: Cavalry spears                                                                     so, these Sorceresses earned
+• Bloodwrack Medusa: Cavalry spear and petrifying gaze (see below)                                  the attention of Atharti, the
+                                                                                                    goddess of pleasure, who was
+Special Rules: Close Order, Dragged Along, Elven Reflexes, Frenzy, Hatred (High Elves),             outraged that mortals would
+               Impact Hits (D6+1), Large Target, Magic Resistance (-1), Murderous,                  dare to compete with her
+               Poisoned Attacks, Stony Stare, Terror                                                beauty. In her rage, she caged
+                                                                                                    the upstart mortals within
+Stony Stare                                                                                         pain-wracked, serpentine
+Where the creature’s gaze falls, its enemies turn painfully to stone.                               bodies and reduced their
+                                                                                                    minds to those of ferocious
+At the start of each Combat phase, enemy models in base contact with this model must                beasts. So great is their
+make an Initiative test. If this test is failed, they suffer D3 Strength 2 hits, with no armour     suffering, those around
+save permitted (Ward and Regeneration saves can be attempted as normal).                            them feel every ounce of
+                                                                                                    anguish the poor beasts
+                          R         S      AP     Special Rules                                     endure, provoking a feeling
+Petrifying gaze          18"        2     N/A Magical Attacks, Multiple Wounds (D3)                 of great unease in most, but
+Notes: When making a roll To Wound for an attack made with this weapon, substitute the              striking pure ecstasy within
+target’s Toughness with its Initiative. No armour save is permitted against wounds caused by this   the corrupt hearts of the
+weapon (Ward and Regeneration saves can be attempted as normal).                                    Dark Elves.
+Black Dragon
+                                                                                                         Monster
+                           M WS BS            S     T    W       I   A Ld               Points
+Black Dragon               6      6     -     7 (+3) (+6) 4           6     -            +280
+Note: A character mounted on a Black Dragon has +3 Toughness and +6 Wounds.                      Black Dragons
+                                                                                                 Black Dragons soar through
+Troop Type:    Behemoth                                                                          the air upon great leathery
+Base Size:     60 x 100 mm                                                                       wings, sowing death wherever
+Unit Size:     1                                                                                 their vast shadow passes.
+Equipment:     Wicked claws (see below), serrated maw (see below),                               Rather than spewing roaring
+               noxious breath (see below) and                                                    flame from its massive jaws,
+               draconic scales (counts as full plate armour)                                     Black Dragons expel noxious
+Special Rules: Close Order, Fly (10), Hatred (High Elves), Large Target,                         gas that withers the lungs
+               Stomp Attacks (D6), Swiftstride, Terror                                           of its victims and desiccates
+                                                                                                 their flesh. Those fortunate
+                       R         S      AP      Special Rules                                    enough to survive the choking
+Wicked claws         Combat      S      -2      -                                                fumes and land a blow upon
+                                                                                                 the beast often find their
+                        R       S     AP       Special Rules                                     blades turned aside by a thick
+Serrated maw        Combat S           -       Armour Bane (2), Multiple Wounds (2)              armoured hide, impervious
+Notes: In combat, this model must make one of its attacks each turn with this weapon.            to all but the most potent
+                                                                                                 weapons. Few linger long
+                         R       S      AP      Special Rules                                    enough to test their steel
+Noxious breath         N/A       4     N/A Breath Weapon                                         against the Dragon however,
+Notes: Until your next Start of Turn sub-phase, every model in a unit that suffers one or more   for even the sight of such
+unsaved wounds from this weapon suffers a -1 modifier to its Weapon Skill characteristic (to a   a beast is so terrifying that
+minimum of 1). No armour save is permitted against wounds caused by this weapon (Ward and        most warriors turn tail and
+Regeneration saves can be attempted as normal).                                                  flee for their lives.
+
+
+  Character Mount: A Black Dragon may only be included in your army as a
+  character’s mount. Its points are added to that of its rider.
+Manticore
+                                                                                                                                          Monster
+                            M WS BS            S    T      W     I   A                                    Ld      Points
+Manticore                   6     5      -     5 (+1) (+4) 5          4                                    -       +130
+Note: A character mounted on a Manticore has +1 Toughness and +4 Wounds.                                                         Manticores
+                                                                                                                                 Dark Elves hold no creature
+Troop Type:            Monstrous creature                                                                                        in higher esteem than the
+Base Size:             60 x 100 mm                                                                                               Manticore, for they believe
+Unit Size:             1                                                                                                         that the ferocious beast is one
+Equipment:             Wicked claws (see below) and scaly skin (counts as heavy armour)                                          of the many incarnations of
+                                                                                                                                 Khaine. Daring Beastmasters
+Options:                                                                                                                         will journey deep into the
+• May have a venomous tail (see below) .............................................................................+15 points   Chaos Wastes and perilous
+                                                                                                                                 mountains of Naggaroth in
+Special Rules: Close Order, Fly (9), Large Target, Stomp Attacks (D3), Swiftstride,                                              search of young Manticores
+               Terror, Wilful Beast                                                                                              to sell at auction, as the
+                                                                                                                                 wealthy will pay great sums
+Wilful Beast                                                                                                                     of gold for the chance to own
+Some monsters can never truly be tamed by a rider and, during the heat of battle, can be prone to                                one for themselves. Though
+giving in to their wild and frenzied nature.                                                                                     Manticores can be tamed
+                                                                                                                                 enough to accept a rider, they
+During the Start of Turn sub-phase of each of their turns, this model must make a                                                still remain feral at heart,
+Leadership test (using its own unmodified Leadership). If this test is passed, the rider is                                      occasionally ignoring the
+able to keep control of their mount. If, however, this test is failed, the rider has lost control                                will of its master in favour of
+and their mount becomes subject to the Frenzy special rule until their next Start of Turn                                        pursuing its own ends – but,
+sub-phase.                                                                                                                       a Dark Elf will consider this a
+                                                                                                                                 risk worth taking considering
+Note that the rider does not gain a +1 modifier to their Attacks characteristic.                                                 the fear and respect that
+                                                                                                                                 owning such a mount brings.
+                             R             S        AP         Special Rules
+Wicked claws               Combat          S        -2         -
+
+                        R       S     AP       Special Rules
+Venomous tail       Combat S           -       Poisoned Attacks, Strike First
+Notes: In combat, this model must make one of its attacks each turn with this weapon.
+
+
+   Character Mount: A Manticore may only be included in your army as a character’s
+   mount. Its points are added to that of its rider.
+War Hydra
+                                                                                                             Monster
+                          M             WS    BS     S      T     W     I    A     Ld     Points
+War Hydra                 6              4     0     5      5     5     3    2      6      200
+Beastmaster Handlers (x2) 6              4     -     3      -     -     4    1      8       -       War Hydras
+                                                                                                    Only the Dark Elves could
+Troop Type:   Behemoth                                                                              look upon a beast as vicious
+Base Size:    60 x 100 mm (War Hydra), 25 x 25 mm (Beastmaster Handlers)                            and powerful as a Hydra
+Unit Size:    1                                                                                     and deem it insufficient
+Armour Value: 5+                                                                                    for the task of murder and
+Equipment:                                                                                          destruction. Ever since the
+• War Hydra: Wicked claws, serrated maws and fiery breath (see below)                               Dread-King’s Beastmasters
+• Beastmaster Handlers: Hand weapons and whips                                                      first tamed the creatures, they
+                                                                                                    have continually been bred
+Special Rules: Close Order, Extra Attacks (+remaining Wounds),                                      to increase the raw ferocity
+               Immune to Psychology, Large Target, Monster Handlers,                                and power of successive
+               Regeneration (5+), Stomp Attacks (D3), Terror                                        generations. Thus the War
+                                                                                                    Hydras of Naggaroth’s armies
+                        R           S        AP    Special Rules                                    are a far more daunting foe
+Wicked claws          Combat        S        -2    -                                                than those the Dark Elves
+                                                                                                    first encountered many long
+                        R        S     AP     Special Rules                                         centuries ago in the Annulii
+Serrated maws        Combat S           -     Armour Bane (1), Multiple Wounds (2)                  Mountains. When a Hydra
+Notes: In combat, this model must make each attack granted by the Extra Attacks (+remaining         sets about the enemy, it
+Wounds) special rule with this weapon.                                                              does so without hesitation
+                                                                                                    or thought, with some of its
+                       R         S       AP     Special Rules                                       heads tearing a foe to shreds,
+Fiery breath          N/A        *        -1    Breath Weapon, Flaming Attacks                      as others try to swallow
+Notes: The Strength characteristic of this weapon is equal to this model’s remaining Wounds.        their prey whole or bathe its
+                                                                                                    victims in burning flame.
+
+Bloodwrack Medusa                                                                                   Bloodwrack Medusa
+                                                                                                    Not every Bloodwrack
+                               M        WS    BS     S      T     W     I    A     Ld     Points    Medusa is goaded into battle
+Bloodwrack Medusa              7         5     5     4      4     4     5    3      7       85      atop a massive, monolithic
+                                                                                                    shrine. Some emerge willingly
+Troop Type:        Monstrous creature                                                               from their lairs or are turned
+Base Size:         40 x 40 mm                                                                       loose to pursue the scent of
+Unit Size:         1                                                                                blood and war. But they are
+Equipment:         Hand weapon, petrifying gaze (see below) and light armour                        unreliable allies who pay no
+Special Rules:     Close Order, Elven Reflexes, Fear, Frenzy, Hatred (High Elves),                  mind to strategy or battle
+                   Magic Resistance (-1), Murderous, Poisoned Attacks, Stony Stare                  plans, seeking only to share
+                                                                                                    their own torment with
+Stony Stare                                                                                         their victims.
+Where the creature’s gaze falls, its enemies turn painfully to stone.
+
+At the start of each Combat phase, enemy models in base contact with this model must
+make an Initiative test. If this test is failed, they suffer D3 Strength 2 hits, with no armour
+save permitted (Ward and Regeneration saves can be attempted as normal).
+
+                          R         S      AP     Special Rules
+Petrifying gaze          18"        2     N/A Magical Attacks, Multiple Wounds (D3)
+Notes: When making a roll To Wound for an attack made with this weapon, substitute the
+target’s Toughness with its Initiative. No armour save is permitted against wounds caused by this
+weapon (Ward and Regeneration saves can be attempted as normal).
+Kharibdyss
+                                                                                                              Monster
+                          M           WS     BS    S     T     W      I      A     Ld     Points
+Kharibdyss                6            5      0    7     5     5      3      5      6      195
+Beastmaster Handlers (x2) 6            4      -    3     -     -      4      1      8       -        Kharibdyss
+                                                                                                     The Beastmasters of Clar
+Troop Type:   Behemoth                                                                               Karond covet the Kharibdyss
+Base Size:    60 x 100 mm (Kharibdyss), 25 x 25 mm (Beastmaster Handlers)                            more than any other
+Unit Size:    1                                                                                      creature, a prize beyond any
+Armour Value: 5+                                                                                     treasure. For not only is the
+Equipment:                                                                                           beast incredibly difficult to
+• Kharibdyss: Cavernous maw (see below) and writhing tentacles (see below)                           capture, requiring the aid of a
+• Beastmaster Handlers: Hand weapons and whips                                                       Sorceress to bait the creature
+                                                                                                     to the ocean’s surface, its
+Special Rules: Abyssal Howl, Close Order, Immune to Psychology, Large Target,                        destructive wrath is all but
+               Monster Handlers, Stomp Attacks (D3+1), Terror                                        unmatched on the battlefield.
+                                                                                                     With a crown of flailing
+Abyssal Howl                                                                                         tentacles powerful enough to
+The mournful wail of a Kharibdyss echoes across the battlefield and saps the courage of the enemy.   drag a ship to the inky depths
+                                                                                                     and jaws strong enough to
+Whilst within 6" of this model, enemy units suffer a -1 modifier to their Leadership                 crack the hull of even the
+characteristic (to a minimum of 2).                                                                  largest vessels, armoured
+                                                                                                     warriors and gallant knights
+Note that this modifier is not cumulative.                                                           stand little chance of avoiding
+                                                                                                     a painful, but mercifully
+                        R       S     AP       Special Rules                                         sudden, death.
+Cavernous maw Combat S                -2       Armour Bane (1), Killing Blow
+Notes: In combat, this model must make one of its attacks each turn with this weapon.
+                                                                                                          War Machine
+                     R            S        AP     Special Rules
+Writhing tentacles Combat         S        -2     Poisoned Attacks
+                                                                                                     Reaper Bolt Throwers
+                                                                                                     Used at sea to clear the decks
+Reaper Bolt Thrower                                                                                  of enemy ships and on land
+                                                                                                     to scythe down ranks of
+                              M       WS     BS    S     T     W      I      A     Ld     Points     enemy warriors, the Reaper
+Reaper Bolt Thrower           -        -      -    -     6     2      -      -      -       80       Bolt Thrower deals death
+Dark Elf Crew                 5        4      4    3     3     2      4      2      8        -       from afar. Through clever
+                                                                                                     engineering, the oversized
+Troop Type:       War machine                                                                        crossbow can either shoot a
+Base Size:        50 x 50 (war machine), 25 x 25 (crew)                                              hail of smaller bolts to cut
+Unit Size:        1                                                                                  down infantry, or launch
+Equipment:        Repeater bolt thrower, hand weapons and light armour                               a single massive projectile
+Special Rules:    Elven Reflexes, Hatred (High Elves), Skirmishers                                   with enough force to pierce a
+                                                                                                     Dragon’s hide.
+                                  Dark Elves                                                                                           Magic Items
+                                  Magic Items
+The pages that follow detail magic items unique to Dark Elves armies. These can be                                               Magic Items
+purchased by models within a Dark Elves army in exactly the same way as Common                                                   The weapons and armour of
+magic items, as described in the Warhammer: the Old World rulebook.                                                              the Dark Elves are as finely
+                                                                                                                                 made as any Elven artefact.
+Extremely Common Magic Items: Any magic item marked with an asterisk (*)                                                         Long, slender blades that
+is considered to be extremely common, as described in the Warhammer: the Old                                                     slice effortlessly through the
+World rulebook.                                                                                                                  air, exquisitely embroidered
+                                                                                                                                 banners and finely wrought
+Magic Weapons                                                                                                                    suits of armour are as
+                                                                                                                                 commonplace within the
+Executioner’s Axe ...........................................................................................70 points           ranks of the Druchii as they
+A single blow from this huge, black-bladed weapon can cut any opponent in half.                                                  are amongst their hated kin.
+                                                                                                                                 What sets apart the weapons
+                          R          S       AP     Special Rules                                                                and wargear of the Dark Elves
+Executioner’s Axe Combat S                   -2     Killing Blow, Magical Attacks, Strike Last                                   is the detail. Where the Elves
+Notes: When making a roll To Wound for a hit caused with the Executioner’s Axe, a roll of 2+ is                                  of Ulthuan craft refined and
+always a success, regardless of the target’s Toughness.                                                                          elegant weapons and armour,
+                                                                                                                                 the Druchii adorn their
+Sword Of Ruin .................................................................................................65 points         creations with jagged blades
+The wickedly sharp edge of the Sword of Ruin can cleave through armour as if it were air.                                        and wicked cutting edges
+                                                                                                                                 – cruel weapons that cause
+                     R        S      AP       Special Rules                                                                      grievous injury and searing
+Sword of Ruin      Combat S           *       Magical Attacks                                                                    pain to their victims.
+Notes: No armour, Ward or Regeneration saves are permitted against wounds caused by the
+Sword of Ruin.
+
+Lifetaker............................................................................................................35 points
+Finely fashioned from blackest steel, Lifetaker fires bolts dipped in the venom of a Black Dragon.
+
+                                R          S        AP         Special Rules
+Lifetaker                      24"         3        -1         Armour Bane (1), Magical Attacks,
+                                                               Multiple Shots (D3+1), Poisoned Attacks
+
+Whip Of Agony ...............................................................................................30 points
+An heirloom of the feared Beastlords of clan Rakarth, the Whip of Agony inflicts enduring
+torment upon its victims.
+
+                        R        S       AP       Special Rules
+Whip of Agony         Combat S+1         -1       Magical Attacks, Strike First
+Notes: High Beastmasters only. Any enemy model that suffers one or more unsaved wounds from
+the Whip of Agony suffers a -1 modifier to its Toughness characteristic (to a minimum of 1) for
+the remainder of the game.
+Magic Armour                                                                  Magic Standards
+Shield Of Ghrond ..............................................40 points      Banner Of Nagarythe ....................................... 65 points
+The Daemon-faced Shield of Ghrond consumes the strength of the                The personal banner of the Dread-King proclaims his reign over the
+enemy’s attacks                                                               Elven Kingdoms.
+
+The Shield of Ghrond is a shield. In addition, all attacks                    A unit carrying the Banner of Nagarythe gains the Stubborn
+directed against its bearer suffer a -1 modifier to their                     special rule. In addition, when calculating its combat result,
+Strength characteristic (to a minimum of 1).                                  the unit may claim an additional bonus of +1 combat
+                                                                              result point.
+Blood Armour .................................................... 30 points
+When anointed with the blood of the foe, this armour becomes ever             Standard Of Slaughter......................................40 points
+more endurable.                                                               Anointed with the blood of an Ulthuan Elf, this banner exudes a
+                                                                              sense of bitter determination.
+Models whose troop type is ‘infantry’ or ‘cavalry’ only. The
+Blood Armour is a suit of armour that gives its wearer an                     When calculating its combat result during a turn in which it
+armour value of 5+. For each unsaved wound the wearer inflicts,               charged, a unit carrying the Standard of Slaughter may claim
+this armour value is improved by 1, to a maximum of 2+.                       an additional bonus of +D3 combat result points.
+
+Talismans                                                                     Banner Of Har Ganeth .................................... 25 points
+                                                                              Under the influence of this ancient banner, warriors strike with
+Pendant Of Khaeleth ........................................40 points         deadly precision.
+The protection offered by this amulet grows to match the power of
+an enemy’s attack.                                                            A unit carrying the Banner of Har Ganeth improves the
+                                                                              Armour Piercing characteristic of its combat weapons by 1.
+The Pendant of Khaeleth gives its bearer a 5+ Ward save
+against any wounds suffered that were caused by an attack                     Cold-Blooded Banner .......................................20 points
+with a Strength of 4 or lower, and a 4+ Ward save against any                 Those that march beneath this Cold One blood-soaked banner
+wounds suffered that were caused by an attack with a Strength                 display a steely discipline.
+of 5 or higher.
+                                                                              Single use. A unit carrying the Cold-blooded Banner may use
+Pearl Of Infinite Bleakness ............................. 15 points           it when making any test against its Leadership characteristic,
+Swirled with red and black veins, this magical pearl emits a soul-            including a Break test. When it does, it may roll an extra D6
+numbing aura.                                                                 and discard the highest result.
+
+The bearer of the Pearl of Infinite Bleakness and any unit they
+have joined gains the Immune to Psychology special rule.
+Enchanted Items                                                                 Arcane Items
+Black Dragon Egg .............................................. 35 points       Black Staff ........................................................... 55 points
+When a Black Dragon egg is eaten, the properties of the Dragon are              A Black Staff is the talisman of the High Mistresses of the Convent
+temporarily passed on.                                                          of Sorceresses.
+
+Single use. During the Command sub-phase of their turn, the                     The bearer of the Black Staff may use it when attempting to
+bearer of a Black Dragon Egg can consume it. Until the end                      cast a spell. If they do so, roll an extra D6 when making the
+of that turn, the model has a Toughness characteristic of 6                     Casting roll and discard the lowest result. However, if a double
+(which cannot be improved further) and gains noxious breath                     1 is rolled on any two of the dice rolled, the spell is miscast.
+(see page 18).
+                                                                                Focus Familiar* .................................................. 10 points
+Hydra’s Tooth ..................................................... 30 points   The Wizard channels their spells through the eyes of an
+Fangs are taken from the maw of a slain Hydra and crafted into                  arcane homunculus.
+deadly throwing weapons.
+                                                                                Single use. The owner of a Focus Familiar may use it when
+A Hydra’s Tooth is a missile weapon with the following profile:                 they attempt to cast a spell. Place a marker (such as a Familiar
+                                                                                model) completely within 12" of the owner. The range and
+      R           S         AP     Special Rules                                all effects of the spell are measured from this marker, rather
+      9"          S         -3     Magical Attacks,                             than from the owner. If the spell requires a line of sight, this is
+                                   Move & Shoot, Quick Shot                     determined from the marker (which has a 360° vision arc).
+Notes: This weapon can target a specific model within the target
+unit, such as a champion or a character.                                        Tome Of Furion ................................................. 15 points
+                                                                                Furion of Clar Karond inscribed his knowledge onto sheets of
+The Guiding Eye ................................................. 25 points     flayed skin.
+Set in black iron, this oval ruby grants mystical sight to the wearer.
+                                                                                The bearer of the Tome of Furion knows one more spell
+Single use. The bearer of the Guiding Eye and any unit they                     (chosen in the usual way) than is normal for their Level
+have joined may re-roll any failed rolls To Hit made during the                 of Wizardry.
+Shooting phase.
+                       Dark Elves Special Rules
+A  game of Warhammer: the Old World is packed with fantastic creatures and skilled warriors with abilities so incredible
+   and varied that the basic rules cannot possibly cover them all. For such circumstances we have special rules –
+uncommon rules to govern uncommon circumstances.
+
+On this page you will find a full description for each of the Army special rules used by models drawn from the Dark Elves army list:
+
+Cleaving Blow                                                         Hekarti’s Blessing
+With a swift and deadly strike, a skilled warrior can cleave          Dark Elf Sorceresses make devotions to Hekarti, the Hydra Queen
+through armour.                                                       and Elven goddess of conjurations.
+
+If a model with this special rule rolls a natural 6 when making       Once per game, a model with this special rule may re-roll a
+a roll To Wound for an attack made in combat, it has struck           single failed Casting roll.
+a ‘Cleaving Blow’. Enemy models whose troop type is ‘regular
+infantry’, ‘heavy infantry’, ‘light cavalry’, ‘heavy cavalry’ or      Martial Prowess
+‘war beasts’ are not permitted an armour or Regeneration              Elven soldiers spend many hours perfecting their battlefield drill,
+save against a Cleaving Blow (Ward saves can be attempted             masterfully wielding their long spears with a skill and grace absent
+as normal).                                                           from the ranks of their enemies.
+
+Note that if an attack wounds automatically, this special rule        A unit with this special rule can make supporting attacks to its
+cannot be used.                                                       flank or rear, as well as to its front.
+
+Elven Reflexes                                                        Murderous
+Elves possess phenomenal speed and grace, striking at their enemies   Trained in the arts of murder from a young age, devotees of Khaine
+faster than the eye can see.                                          are deadly killers able to strike mortal wounds upon even the most
+                                                                      resilient of foes.
+A model with this special rule (but not its mount) has a +1
+modifier to its Initiative characteristic (to a maximum of 10)        When engaged in combat, a model with this special rule that is
+during the first round of any combat.                                 fighting with a hand weapon may re-roll any rolls To Wound
+                                                                      of a natural 1.
+Eternal Hatred
+The Dark Elves believe they have been wronged greatly by their        Note that this special rule only applies to a single, non-magical
+enemies over and over again, and the hatred they harbour has          hand weapon and does not apply to a model’s mount (should it
+grown to become an all-consuming passion.                             have one). If the model is using two hand weapons or any other sort
+                                                                      of weapon, this special rule ceases to apply.
+Against High Elves, this model’s Hatred applies in every round
+of close combat, not just the first.                                  Sea Dragon Cloak
+                                                                      The pelt of a Sea Dragon is worn by Dark Elf pirates and corsairs,
+Note that this special rule does not apply to this model’s mount      both as a mark of their rank and as armour against the missiles of
+(should it have one).                                                 the foe.
+
+                                                                      A model with this special rule improves its armour value by 1
+                                                                      (to a maximum of 2+) against non-magical shooting attacks.
+                                 Lore Of Naggaroth
+L   ike their High Elf Kin, Dark Elves are skilled manipulators of the Winds of Magic. Yet where the power available to the
+    Elves of Ulthuan is limited by their cautious approach, Dark Elves know no such limit, weaving high and dark magic
+with reckless abandon.
+
+A Wizard with the ‘Lore of Naggaroth’ special rule may discard one of their randomly generated spells as normal. When they do
+so, they may select instead either the signature spell of their chosen Lore of Magic, or one of the spells listed below.
+
+
+  Cursing Word                                                          Black Horror
+  As the Sorceress utters a string of forbidden words and curses,       The Sorceress tears the veil between reality and the æther, and
+  the bodies of her enemies bend and buckle, wracked with waves         a black cloud of roiling energy sweeps across the battlefield,
+  of agony.                                                             trailing slimy tentacles that drag unfortunate victims to an
+                                                                        unknown fate.
+  Type: Hex
+  Casting Value: 9+                                                     Type: Magical Vortex
+  Range: 12"                                                            Casting Value: 9+
+  Effect: Remains in play. Whilst this spell is in play, the            Range: 18"
+  target enemy unit suffers a -1 modifier to either its Weapon          Effect: Remains in play. Place a large (5") blast template
+  skill characteristic, or its Ballistic Skill characteristic (chosen   so that its central hole is within 18" of the caster. Whilst
+  by the casting Wizard’s controlling player, to minimum of             in play, the template is treated as dangerous terrain. The
+  1). If this spell is cast, the effects of any other Hex previously    template moves 2D6" in a random direction during every
+  cast on the target unit immediately expire.                           Start of Turn sub-phase. Any enemy unit the moving
+                                                                        template touches or moves over must immediately make
+                                                                        D6 Strength tests. For each test that is failed, the unit loses a
+                                                                        single Wound.
+

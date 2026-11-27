@@ -1,0 +1,13 @@
+// v838 — Estandartes y objetos con efecto numérico sobre la unidad: resolución de combate, disparos recibidos, HA
+import { T, N, R, DATA, game, pair, ok, eq, cur, put, U, join, diceAll, msgs, fight, shotOf, engage } from '../lib3.mjs';
+import { UNC } from './_items.mjs';
+const { ITEMS, UNITS } = DATA; const FILE = 'app/js/data.js (ITEMS: texto del objeto)';
+const crOf = (banner, charge) => { const { s, w, l } = pair('dw_warriors', { models: 20, std: true, ...(banner ? { banner } : {}) }, 'state_troops', { models: 20 }, { charge }); w.std = true; if (banner) w.banner = banner; cur(s); diceAll(1); const m = msgs(fight(s)); const x = /Combate: .* (\d+) – (\d+) /.exec(m); return x ? [+x[1], +x[2]] : null; };
+for (const key of UNC('s')) {
+  const it = ITEMS[key], txt = it.text || '';
+  if (it.cr && /^\+\d punto/.test(txt) && !it.single) T('v838-it-bn-cr-' + key, FILE, `${it.name}: +${it.cr} resolución de combate`, () => { const a = crOf(key, false), b = crOf(null, false); eq(a[0] - b[0], it.cr, `resolución ${b[0]} → ${a[0]}`); eq(a[1], b[1], 'la del rival no cambia'); });
+  if (it.crD3 && /D3/.test(txt) && !it.single) T('v838-it-bn-crd3-' + key, FILE, `${it.name}: +D3 resolución`, () => { const a = crOf(key, false), b = crOf(null, false); eq(a[0] - b[0], 1, `con dados a 1, D3 = 1 (${b[0]} → ${a[0]})`); });
+  if (it.crChD3 && /cargar/.test(txt)) T('v838-it-bn-crchd3-' + key, FILE, `${it.name}: al cargar, +D3 resolución`, () => { const a = crOf(key, true), b = crOf(null, true), c = crOf(key, false), d = crOf(null, false); eq(a[0] - b[0], 1, 'cargando suma D3'); eq(c[0] - d[0], 0, 'sin cargar no suma'); });
+  if (it.shootMinus && /disparos? contra la unidad|Los disparos/.test(txt)) T('v838-it-bn-sm-' + key, FILE, `${it.name}: −1 adicional para impactar a los disparos contra la unidad`, () => { const run = (bn) => { const s = game([{ type: 'emp_archers', models: 10 }], [{ type: 'dw_warriors', models: 20, std: true, ...(bn ? { banner: bn } : {}) }], { f: ['empire', 'dw'], phase: 'shoot' }); const a = put(U(s, 'emp_archers', 0), 36, 40), t = put(U(s, 'dw_warriors', 1), 36, 30, Math.PI / 2); t.std = true; if (bn) t.banner = bn; cur(s); diceAll(1); return shotOf(s, a, t).need; }; eq(run(key) - run(null), 1, 'el valor para impactar sube 1'); });
+  if (it.eyeWS && /\+1 a la HA/.test(txt)) T('v838-it-bn-ws-' + key, FILE, `${it.name}: +1 HA a la unidad`, () => { const run = (bn) => { const { s, w, l } = pair('dw_warriors', { models: 20, std: true, ...(bn ? { banner: bn } : {}) }, 'state_troops', { models: 20 }); w.banner = bn || undefined; cur(s); return R.attackProfile(w, l).ws; }; eq(run(key) - run(null), 1, 'HA efectiva +1'); });
+}

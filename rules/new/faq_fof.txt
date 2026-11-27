@@ -1,0 +1,361 @@
+                      Forces Of Fantasy TM
+                  FAQ & Errata – Version 1.5.2
+This document collects amendments to the rules contained within Forces of Fantasy and associated Arcane Journals, and
+presents our responses to players’ frequently asked questions. As this document is revised regularly, it has a version number;
+where a version number has a letter, e.g. 1.1a, this means it has had a local amendment, only in one language, to clarify a
+translation issue. When this document is revised in full, the version number will be incremented.
+
+Forces Of Fantasy Errata
+Below you will find errata to Forces of Fantasy and its associated Arcane Journals. When this document is revised, updated
+entries will be highlighted in [blue], while entirely new additions will be highlighted in [magenta].
+
+Designers’ Note: Errata marked with an asterisk (*) have been corrected in a later printing of the publication and may not apply.
+
+Page 15                                                                 Page 39
+Strike the Runes: Change the rule as follows:                           Rune Lore: Change the rule as follows:
+‘An Anvil of Doom can cast the following Bound spells, with a           A model with this special rule may be nominated to attempt
+Power Level of 2:’                                                      a Wizardly Dispel as if it were a Wizard. However, unlike
+                                                                        regular Wizards, models with this special rule do not have
+Rune of Oath & Steel: Change the spell’s Casting Value to               Levels of Wizardry with which to determine their Dispel
+‘8+/11+’ and change the first sentence of its effect as follows:        range or modify their Dispel rolls. Instead:
+‘If this Bound spell is cast with a casting result of 8 or more,
+the target friendly unit may re-roll any failed Armour                  • An Anvil of Doom has a Dispel range of 24" and may apply
+Save rolls.’                                                              a +3 modifier to its Dispel rolls.
+                                                                        • A Runelord has a Dispel range of 21" and may apply a +2
+Rune of Hearth & Home: Change the spell’s Casting Value                   modifier to their Dispel rolls.
+to ‘8+’.                                                                • A Runesmith has a Dispel range of 18" and may apply a +1
+                                                                          modifier to their Dispel rolls.
+Page 22
+Rangers: Change the Unit Size to ‘5-20’.                                Page 48
+                                                                        General of the Empire: Change the Leadership characteristic
+Page 23                                                                 to ‘10’.
+Hammerers: Add ‘Gromril Armour’ to the list of special rules.           Captain of the Empire: Change the Leadership characteristic
+                                                                        to ‘9’.
+Page 24
+Runes of Protection: Change the rule as follows:                        Page 52
+‘Models with this special rule have a 6+ Ward save against              Lector of Sigmar: Change the Leadership characteristic to ‘9’.
+any wounds suffered that were caused by a non-magical                   Priest of Sigmar: Change the Leadership characteristic to ‘8’.
+enemy attack.’
+                                                                        Page 53
+Page 25                                                                 High Priest of Ulric: Change the Leadership characteristic to ‘9’.
+Trollhammer Torpedo: Change the Strength characteristic                 Priest of Ulric: Change the Leadership characteristic to ‘8’.
+to ‘5’ and replace the ‘Dwarf Crafted’ special rule
+with ‘Cumbersome’.                                                      Page 54
+                                                                        Clouds of Soot & Smoke: Change the rule as follows:
+                                                                        ‘Unless it is mounted, this model is considered to be behind
+                                                                        full cover whilst it is within 3" of a friendly unit whose troop
+                                                                        type is ‘war machine’’.’
+
+                                                                        Page 57
+                                                                        Empire State Troops: Add ‘Horde’ to the State Troops and
+                                                                        Veteran State Troops lists of special rules.
+
+
+
+
+                                                                    1
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Page 60                                                                  Page 102
+Greatsword: Change the Strength characteristic to ‘4’.                   Knightly Virtues: Change the second paragraph as follows:
+Count’s Champion: Change the Strength characteristic to ‘4’.             ‘To represent this, some models may be given a Knightly
+                                                                         Virtue. A Virtue does not affect a model’s mount (should it
+Page 61                                                                  have one). Each Virtue may only be chosen once per army.’
+Flagellant & Prophet of Doom: Change the Toughness
+characteristics to ‘4’.                                                  Page 106
+                                                                         Falcon-horn of Fredemund: Change the first sentence of the
+Page 69                                                                  rule as follows:
+Steam Cannon: Add the following to the steam                             ‘Single use. During the Command sub-phase of their turn, if
+cannon ‘Notes’:                                                          they are not engaged in combat, the bearer of the Falcon-horn
+‘This weapon does not have a 360° line of sight, it can only shoot       of Fredemund may attempt to use it by making a Leadership
+into the Steam Tank’s front arc.’                                        test (using their own unmodified Leadership).’
+
+Page 70                                                                  Page 109
+Imperial Griffon Special Rules: Delete ‘Two Heads’ from the              Burning Gaze: Change the spell’s Casting Value to ‘9+’.
+end of the list of special rules.
+                                                                         Page 110
+Page 76                                                                  Combat Result Bonus: Change the entry as follows:
+Laurels of Victory: Change the rule as follows:                          ‘A unit in Lance formation with a Unit Strength of 5 or more
+‘When determining your combat result, each unsaved wound                 may claim a bonus of +1 combat result point.’
+caused by an attack made by the bearer of the Laurels of
+Victory (but not their mount) is worth 2 combat result points,           Page 124
+rather than the usual 1.’                                                Magic: Change the second sentence as follows:
+                                                                         ‘Every Treeman Ancient knows spells from one of the
+Wizard’s Staff: Add the following to the start of the rule:              following Lores of Magic:’
+‘0-1 per Wizard.’
+                                                                         Page 128
+Page 90                                                                  Glade Guard: Change the Points to ‘10’.
+Royal Pegasus: Change the Points to ‘+70’, then change the
+Troop Type to ‘Monstrous Creature’.                                      Page 129
+                                                                         Eternal Guard: Change the Points to ‘12’.
+Page 92
+Polearm: Change the weapon profile as follows:                           Page 133
+                                                                         Dryad & Nymph: Change the Movement characteristics to ‘6’,
+    Polearm             R          S    AP     Special Rules             then add ‘Armour Bane (1)’ to the list of special rules.
+Single-handed         Combat       S     -     Fight in
+                                               Extra Rank                Page 134
+Double-handed         Combat S+1 -1            Requires                  Glade Riders: Change the Points to ‘17’, then change the Unit
+                                               Two Hands                 Size to ‘4+’.
+Notes: A polearm has two profiles. You must choose which the unit
+will use when its combat is chosen during Step 1.1 of the Choose &       Page 135
+Fight Combat sub-phase. A model wielding a polearm cannot make           Sisters of the Thorn: Change the Points to ‘22’.
+a supporting attack during a turn in which it charged.
+                                                                         Daughters of Eternity: Change the rule as follows:
+Page 94                                                                  ‘Models with this special rule have a 4+ Ward save against any
+Battle Pilgrims: Change the Points to ‘6’, then change the Unit          wounds suffered.’
+Size as follows:
+‘5-30 Battle Pilgrims/0-1 Grail Reliquae’                                Deepwood Coven: Change the first sentence of the rule
+                                                                         as follows:
+Page 96                                                                  ‘A unit of Sisters of the Thorn knows a single, randomly
+Questing Knights: Change the Unit Size to ‘3+’.                          generated spell from either the Battle Magic or Elementalism
+                                                                         Lore of Magic. If you wish, this spell may be discarded and the
+Page 98                                                                  unit may instead select the signature spell of its chosen Lore
+Pegasus Knights: Change the Points to ‘59’ and delete ‘Lance             of Magic.’
+Formation’ from the list of special rules.
+
+
+                                                                     2
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Page 136                                                              Page 163
+Wild Riders: Change the Points to ‘26’.                               White Lions of Chrace: Add ‘Furious Charge’ to the list of
+                                                                      special rules.
+Page 145
+Woodland Ambush: Change the first sentence of the rule                Page 179
+as follows:                                                           Elven Honours: Change the second paragraph as follows:
+‘Once players have finished placing terrain, a Wood Elf Realms        ‘To represent this, some characters may be given an Elven
+player may place one additional wood measuring no less than           Honour. Each Honour gives the character certain benefits in
+3" at its narrowest and no more than 9" at its widest point.’         the form of unique equipment and additional special rules. An
+                                                                      Honour does not affect a model’s mount (should it have one):’
+Page 146
+Forest Walker: Change the spell’s Casting Value to ‘9+’.              Page 186
+                                                                      Hand of Khaine: Change the spell’s Casting Value to ‘7+’.
+Flock of Doom: Change the spell’s Casting Value to ‘8+’.
+
+
+Arcane Journal Dwarfen Mountain Holds Errata
+Page 37                                                               Page 41
+The Axe Of Dargo*: Change the Strength characteristic to              Doom Seekers: Delete (Character) from the Troop Type, then
+‘S+2’.                                                                add ‘Skirmishers’ to the list of special rules.
+
+Page 40                                                               Page 46
+Dwarf Engineer Sappers: Add ‘Hostile Terrain’ to the list of          Goblin Hewers: Change the crew’s Wounds and Attacks
+special rules.                                                        characteristics to ‘2’ and change the Base Size as follows:
+                                                                      • ‘Base Size: 50 x 75 mm’.
+
+Arcane Journal Empire Of Man Errata
+Page 37                                                               Page 46
+General Hans von Löwenhacke: Change the Leadership                    Von Trickschotte’s Wondrous Arquebus: Add ‘Magical
+characteristic to ‘10’.                                               Attacks’ to the list of special rules.
+
+Page 39
+Teutogen Guard: Delete ‘Guardians of the Temple’ from the
+list of special rules.
+
+
+Arcane Journal Kingdom Of Bretonnia Errata
+Page 37
+Guardian Of The Sacred Sites: Change the third sentence of            Page 42
+the second paragraph of the rule as follows:                          Warhorse: Change the Base Size as follows:
+‘It does not include magical vortexes, open ground or hills, or       • ‘Base Size: 25 x 50 mm (min), 30 x 60 mm (max)’
+any constructions, such as walls or buildings.’
+
+
+
+
+                                                                  3
+               Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Arcane Journal Wood Elf Realms Errata
+Page 34                                                            Page 45
+Orion: Delete ‘Fear’ from the list of special rules.               Fury of Athel Loren: Change the spell’s Casting Value to ‘9+’.
+
+Spectral Hounds: Add the following to the end of the rule:         Spiteful Torrent: Change the third, fourth and fifth sentences
+‘In addition, whilst one or more Hounds of Orion remains,          of the spell’s effect as follows:
+Orion himself cannot be targeted by enemy shooting.’               ‘Whilst in play, the template is treated as difficult terrain. The
+                                                                   template scatters D6" during every Start of Turn sub-phase.
+Page 37                                                            Any enemy unit that moves through the template, or that the
+Araloth, Lord of Talsyn: Change the Points to ‘150’.               template moves over, suffers 3D6 Strength 2 hits, each with an
+                                                                   AP of -1.’
+
+                                                                   Durthu’s Wrath: Change the spell’s Casting Value to ‘9+’.
+
+
+Arcane Journal High Elf Realms
+Page 29                                                            Page 48
+Warriors of the Wilderness: Change the first sentence of the       Ring of Fury: Change the rule as follows:
+rule as follows:                                                   ‘The wielder of the Ring of Fury can cast the Hammerhand
+‘Once players have finished placing terrain, a Chracian            spell from the Lore of Battle Magic as a Bound spell, with a
+Warhost player may place one additional wood measuring             Power Level of 1.’
+no less than 3" at its narrowest and no more than 9" at its
+widest point.’
+
+
+Arcane Journal The War Of Settra’s Fury
+Renegade Crowns
+
+Page 38                                                            Page 43
+Warhorses – Troop Type: Change the entry as follows:               Feint & Dodge: Change the entry as follows:
+‘Light cavalry (warhorse), heavy Cavalry (barded warhorse)’        ‘Once per game, when an enemy model directs its attacks
+                                                                   against a model with this special rule, you may make that
+Page 41                                                            enemy model re-roll its successful rolls To Hit.’
+Warhorse: Change the Toughness characteristic to ‘ - .’
+
+
+
+
+                                                               4
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Forces Of Fantasy Frequently Asked Questions
+Below you will find our answers to frequently asked questions. Where possible, answers are given immediately, followed by
+further explanations. When this document is revised, updated entries will be highlighted in [blue], while entirely new additions
+will be highlighted in [magenta].
+
+Dwarfen Mountain Holds                                                        Arcane Journal Dwarfen Mountain Holds
+Q: If I give armour runes to an Anvil of Doom, does the Anvil                 Q: When a ‘Dug In’ unit of Skirmishers is charged by an
+itself benefit, or just the crew?                                             enemy unit, does it lose that status?
+A: Just the crew.                                                             A: No.
+
+Q: Can the champion in a unit of Royal Clan Warriors or                       Q: If a unit that has ‘Dug In’ becomes engaged in combat, does
+Hammerers put weapon runes on a gromril great axe or                          it lose that status if a model within it accepts or declines a
+great hammer?                                                                 challenge and moves through the ranks?
+A: No. Weapon runes can only be inscribed upon a hand weapon                  A: No.
+or great weapon, as defined in the Warhammer: the Old World
+rulebook. The Royal Clan Warriors’ gromril great axes and the                 Q: Do runes inscribed upon a Doomseeker’s whirling blades of
+Hammerers’ great hammers are unique types of weapon, each with                death apply to Impact Hits?
+their own profile and rules.                                                  A: Yes. As stated under Whirlwind of Death, Impact Hits caused
+                                                                              by a Doomseeker are resolved using the profile of its whirling blades
+Q: When a model with the Slayer, Slayer of Daemons or                         of death, which includes any runes the weapon is inscribed with.
+Slayer of Dragons special rule hits an enemy unit using the
+Deathblow special rule, does that hit benefit from the Slayer                 Q: Can a Doomseeker join a unit of Slayers?
+special rule?                                                                 A: No, as per the errata, a Doomseeker is not a character. They are
+A: Yes.                                                                       loners and outcasts even amongst Slayers and, as such, act as a unit
+                                                                              of one model.
+Q: If the musician and/or standard bearer in a unit of Slayers
+are models that have been upgraded to Giant Slayers, what                     Q: When a Goblin Hewer shoots using the Whirling Death
+happens if they are slain, is their instrument and/or standard                special rule, does it add a D3 modifier to the number of shots
+picked up by another Giant Slayer or by a Troll Slayer?                       rolled for each rank or file, or just a single D3 modifier?
+A: It rather depends on the models that remain in the unit. If any            A: Just a single D3 modifier. You do not get an extra D3 per rank
+Giant Slayers remain, they will pick up the instrument or standard,           of file.
+replacing the slain models like for like. If no Giant Slayers remain, a
+Troll Slayer will take their place.                                           Empire Of Man
+                                                                              Q: Can a Steam Tank’s steam cannon fire grapeshot?
+Note also that Giant Slayers are not unit champions. Thus                     A: Yes. Grapeshot can be fired by any cannon (i.e., any weapon
+in a unit of Slayers, the standard bearer would be the last                   that fires using the ‘Cannon Fire’ special rule), as described on page
+model removed.                                                                226 of the Warhammer: the Old World rulebook.
+
+Q: If a unit bearing a standard inscribed with the Master                     Q: Can a Steam Tank’s Engineer Commander and steam
+Rune of Hesitation Falls Back in Good Order and is pursued                    cannon both shoot during the same turn?
+and caught by an enemy unit, does the rune take effect?                       A: Yes. The Engineer Commander doesn’t fire the steam cannon,
+A: Yes. When a pursuing unit catches an enemy unit that Fell Back             imagine there’s a (very hot and bothered) crew hidden away inside
+in Good Order, it counts as having charged that unit.                         the Steam Tank whose endeavours leave the Engineer Commander
+                                                                              free to fire their own weapon.
+Q: If a unit of enemy infantry charges a unit with the Master
+Rune of Hesitation, can it make use of the Press of Battle rule               Q: Before a Steam Tank charges, can it use the Steam Power
+to fight in two ranks?                                                        special rule to increase its Movement?
+A: No. Although the Rune prevents a charging enemy unit from                  A: No. The Steam Power special rule can be used by a Steam
+using certain weapons or special rules, the unit has still charged,           Tanks, a model that cannot march, instead of marching. In other
+and thus cannot make use of the Press of Battle rule.                         words, in instances where most models or units would increase their
+                                                                              movement by marching, a Steam Tank can instead make use of the
+Q: If a unit of enemy infantry charges a unit with the Master                 Steam Power special rule. Charging is not such an instance.
+Rune of Hesitation, does it gain the Initiative bonus for charging?
+A: Yes. The Master Rune of Hesitation only prevents the use of
+certain weapons and special rules.
+
+
+                                                                          5
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: Are unsaved wounds caused by the mount of a model                           and ‘chariots’, the momentum of such models when they charge
+bearing the Laurels of Victory worth 2 combat result points?                   will carry them into the archers, although they may be turned to
+A: No, only unsaved wounds caused by the bearer (the rider) count.             kindling in the attempt.
+
+Q: If a model bearing the Laurels of Victory Stands & Shoots                   Q: What happens if a unit in Lance formation that declares
+as a charge reaction, causing one or more unsaved wounds, are                  a charge finds its movement blocked by the presence of an
+those unsaved wounds each worth 2 combat result points?                        enemy unit to its flank, where the unit gets wider?
+A: No.                                                                         A: Such situations are covered by the rules for Accidental Contact
+                                                                               During a Charge. If the Lance can wheel around the enemy unit,
+Q: Does the Griffon Standard allow a unit to claim a higher                    it should do so. If not, the Lance has two choices; halting its charge
+Rank Bonus than normal for its troop type?                                     or continuing ahead and making contact with the enemy unit,
+A: Yes. As stated in the item’s rules, a unit carrying the Griffon             treating it as a redirected charge.
+Standard can claim a Rank Bonus of +2 for each extra rank behind
+the first, rather than the usual +1, meaning a unit with two extra             Q: How does a bolt thrower work when shooting at a unit in
+ranks could claim a Rank Bonus of +4, rather than the usual +2.                Lance formation?
+                                                                               A: The number of models hit is based on the number of ranks
+Arcane Journal Empire Of Man                                                   overall. For example, a Lance of six knights (arranged in ranks of
+Q: If Harald Gemunsen issues a second challenge using his                      one, two and three models) would suffer three hits. When a Lance is
+Skilled Duellist special rule, he can fight again immediately.                 shot in its flank by a bolt thrower, the number of hits is based on the
+Can his opponent in that challenge fight again?                                widest file. To continue the example above, three models would be
+A: Yes. If Harald’s second challenge is accepted it is fought                  hit based on the depth of the unit.
+immediately, meaning both Harald and his opponent can fight.
+However, Harald’s mount may not fight, and nor may his opponent’s.             Q: If a character whose mount has a different sized base to the
+                                                                               models in a unit making up a Lance formation wishes to join
+Q: A unit of Empire Road Wardens may replace its crossbows                     that unit, where should I place the model?
+with braces of pistols for +1 point per model. If it does so,                  A: The Lance formation offers a bit more flexibility than other
+must the Captain (champion) pay an additional +2 points to                     formations. For example, it is perfectly acceptable to place a character
+do the same?                                                                   such as a Duke or a Baron at the front of the Lance should you wish.
+A: No. If the entire unit replaces its crossbows with braces of pistols,       In the case of a Handmaiden of the Lady, the Shield of the Lady
+that includes the Captain. If the unit is armed with crossbows, the            special rule allows such models to be placed at the rear of such units.
+Captain has the option to replace theirs with a brace of pistols or a          Alternatively, they can be placed within the unit. In this case, the
+repeater pistol.                                                               extra base size will make very little difference to the shape of the unit.
+
+Kingdom Of Bretonnia                                                           Q: When a unit in Lance formation is engaged in combat,
+Q: Can a Bretonnian army pray for the Blessing of the Lady if                  every model on the outside counts as being in base contact.
+it includes an allied contingent?                                              How many enemy models count as being in base contact with
+A: Yes. However, an allied contingent of Bretonnians taken as part             the Lance?
+of any other army cannot pray. In order for Bretonnians to pray,               A: Every model within the first fighting rank that is within a
+the army they are part of must have the Blessings of the Lady rule,            number of inches equal to its Movement characteristic of the Lance.
+which only Kingdom of Bretonnia armies have.                                   In the case of enemy regular or heavy infantry, the second fighting
+                                                                               rank is not in base contact – there is another rank in the way.
+Q: Can a character with the Shield of the Lady special rule
+retire to the rear of their unit after issuing a challenge,                    When a Lance charges, it pierces deep into the enemy formation,
+enabling them to avoid their opponent’s attacks?                               pushing warriors back and causing the enemy lines to close
+A: No. Once a challenge has been issued and accepted neither                   around it. It’s very hard to show this on the table though, hence
+combatant can retire until the challenge is resolved. Chivalry                 the abstraction.
+demands it.
+                                                                               Note that this can create an area of ‘dead ground’ between a Lance
+Q: Can a unit with Defensive Stakes be hit by Impact Hits or                   and a unit it is engaged in combat with. If any enemy units are
+Stomp Attacks by a charging enemy?                                             caught within this, refer to the rules covering ‘accidental contact’ on
+A: Yes. Whilst the stakes might do tremendous damage to ‘cavalry’              page 131 of the Warhammer: the Old World rulebook.
+
+
+
+
+                                                                           6
+                  Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+Q: Is a charging Lance blunted if an enemy unit counter                       Arcane Journal Wood Elf Realms
+charges it?                                                                   Q: A Wood Elf Noble that belongs to a Wild Rider Kindred
+A: No. As both units are charging, the clause that a Lance is                 may only wear light armour, but can they also wear a
+blunted if it is charged and does not counter charge is negated.              magic helmet?
+                                                                              A: Yes, a helmet can be worn in addition to light armour.
+Q: Can a unit with the Finest Warhorses special rule re-roll
+the dice when using Swiftstride?                                              High Elf Realms
+A: No. Finest Warhorses allows a unit to re-roll its Charge roll, but         Q: Can a Wizard with the Warden of Saphery Elven Honour
+the D6 rolled when using Swiftstride is not part of the charge roll; it       purchase magic armour?
+is rolled to give a modifier to the result of the Charge roll.                A: No.
+
+Wood Elf Realms                                                               Q: Does the Martial Prowess special rule allow models to
+Q: The Hawk-eyed Archer rule allows a Waystalker to target                    make supporting attacks with weapons that do not have the
+any enemy character it can draw a line of sight to and to target              Fight in Extra Rank special rule?
+specific models within an enemy unit. Does this apply to magic                A: No. Martial Prowess grants the ability to make supporting attacks
+items that allow them to cast a Magic Missile?                                to the flank or rear, as well as to its front. It does not grant the ability
+ A: No, the rule applies only to their Asrai longbow. Hawk-eyed               to make supporting attacks to models not normally able to do so.
+they may be, but that does not mean they can snipe at enemy
+characters with powerful spells bound into magic items.                       Arcane Journal High Elf Realms
+                                                                              Q: Can Korhil Lionmane or a Chracian Chieftain join a unit
+Q: Can a Wood Elf Realms army that includes an allied                         of White Lions of Chrace?
+contingent place an additional wood using the Woodland                        A: Yes.
+Ambush rule?
+A: Yes. Note however that an allied contingent of Wood Elves taken            Arcane Journal The War Of Settra’s Fury
+as part of another army cannot.                                               Q: In a doubles event, as described in the Matched Play Guide,
+                                                                              which armies, if any, can a Renegade Crowns army ally with?
+Q: The Bow of Loren allows a Wood Elf character to make a                     A: If the primary force is a Renegade Crowns, Empire of Man, or
+number of shots equal to their Attacks characteristic. How                    Kingdom of Bretonnia army, Renegade Crowns can be fielded as
+does this interact with Enchanted Arrows?                                     trusted allies.
+A: When firing an Enchanted Arrow it is assumed the model is
+firing only once, as is the norm. Therefore, one of the shots fired
+from the Bow of Loren can be made using an Enchanted Arrow, the
+other shots are resolved using ordinary (i.e., not Enchanted) arrows.
+
+
+
+
+                                                                          7
+                 Permission to download/print for personal use only. © Copyright Games Workshop Limited 2026.
+

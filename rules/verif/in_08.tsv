@@ -1,0 +1,51 @@
+tsv	id	fuente	resumen	estado	referencia_codigo	nota
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-227	leg_chaosdwarfs.txt:870-876	Curse of Hashut: R test; superado D3 F2 FP-; fallado D3+2 F5 sin armadura ni regeneracion (ward si)	OK	rules.js:3498-3500	
+core_2.tsv	C2-090	Magic: Spell Categories	Seis categorías: Encantamiento, Maleficio, Traslado, Proyectil mágico, Vórtice, Asalto	OK	data.js SPELLS type enchant/hex/conveyance/missile/vortex/assail	
+core_8.tsv	core_8-066	Armas magicas p.337 l.10993	Espada de Precision* 15: +1 para impactar en la fase de Combate	OK	data.js:2530	
+leg_darkelves.tsv	leg_darkelves-200	leg_darkelves.txt:876-877	Kharibdyss 6/5/0/7/5/5/3/5/6, 195 pts; Cuidadores	OK	data.js:1664	
+core_5.tsv	C5-118	p.210 Challenges	Se emiten al elegir el combate (paso 1.1); un solo desafio por combate	OK	rules.js:4131-4180	setupDuels: return si ya hay duelo en el grupo
+leg_daemons.tsv	leg_daemons-127	leg_daemons.txt L550-556	Corcel: caballeria ligera 30x60, Perforante 1 (corcel), Contracarga, Caballeria rapida, Veneno (corcel), Zancada	OK	data.js:5646 (bloque v620) slots STEED	Perforante y Veneno no limitados al corcel
+aj_dwarfs2.tsv	aj_dwarfs2-135	aj_dwarfs2.txt L1260-1263	Scout Gyro: monstrous cavalry, 50x50, tamaño 1-2, arma de mano, fuselaje con armadura pesada	OK	data.js:1423 (tt monInf, max 2, arm heavy)	
+aj_empire2.tsv	aj_empire2-125	aj_empire2.txt:1514-1517	Orden de Morr: Odio (No muertos) y salvación 6+ contra ataques no mágicos	OK	data.js ord_morr; rules.js wardNM6	Odio No muertos y 6+ contra no mágicos
+aj_chaos2.tsv	aj_chaos2-071	aj_chaos2.txt L1042-1044	Frydaal: infantería pesada (personaje nombrado), peana 30x30, unidad 1	OK	data.js:4198 tt char baseW 30	
+leg_ogres.tsv	leg_ogres-091	leg_ogres.txt:360-362	"Cañón de plomo, bala maciza: 24"" F5 FP-2 Perforante (1) Engorroso Heridas múltiples (2)"	OK	data.js:~5246 (bloque v700 Ogros)	"Bala maciza 24"" F5 FP-2 Perf(1) Engorroso MW(2)"
+leg_daemons.tsv	leg_daemons-089	leg_daemons.txt L372	Heraldo de Nurgle: Palanquin de Nurgle +40	OK	data.js:1940 (135)	
+leg_skaven.tsv	leg_skaven-026	leg_skaven.txt:112-113	Objetos mágicos hasta 100 (Señor) / 50 (Jefe)	OK	data.js:1745 ib:100 / 1748 ib:50	
+aj_chaos2.tsv	aj_chaos2-064	aj_chaos2.txt L932-934	Heraldos: objetos Comunes o de Guerreros del Caos	OK	data.js:3221	
+battlemarch_quickref.tsv	battlemarch-093	battlemarch.txt L1693-1697	Karak Ziflin: 12 Atronadores con campeón, arma de mano, arcabuces y armadura pesada, 125 pts	OK	data.js:5639	Coste motor = 125
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-140	leg_chaosdwarfs.txt:378	0-1 unidad por 1.000: Reserve Move +1 por modelo	OK	data.js:5298 rm cost 1 per1000	
+dawn_renegade_sc.tsv	renegade_web-056	renegade_web.txt:136-136	Jinetes a Sueldo: 0-1 por 1.000: Fuga fingida +2, Movimiento de reserva +1, Vanguardia +1; estandarte mágico 50	OK	data.js:5615 ff/rm/vg; data.js:4461 chk; bnMax 50	
+aj_empire2.tsv	aj_empire2-002	aj_empire2.txt:525-527	"Escenario Stirhügel: Herdstone special feature de hasta 6"", cuenta como Monolito Arcano y Monumento de Gloria"	OK	rules.js:193 (feat tf, special:true, 6x6)	
+aj_tk2.tsv	aj_tk2-017	aj_tk2.txt L634-636,642-643	Hueste Real: Raras hasta 25%: 0-2 Catapultas de Calaveras por cada 1.000 pts	OK	data.js:3445 rare:0.25; chk catapult 2*per	
+leg_ogres.tsv	leg_ogres-033	leg_ogres.txt:135	Maestro Matarife: M6 HA4 HP3 F4 R5 H5 I3 A4 L8, 230 pts	OK	data.js:2062	
+leg_daemons.tsv	leg_daemons-161	leg_daemons.txt L747-750	Heraldo de Tzeentch: Disco +20, Carro de Tzeentch, Carro Ardiente	OK	data.js:1955 (+90 => 180)	Carro de Tzeentch (+90) cuesta 200 en total y su perfil difiere; ver filas de carro
+battlemarch_quickref.tsv	battlemarch-129	battlemarch.txt L2093-2100	No combatiente: no carga, persigue, arrolla ni sigue; sin Presencia inspiradora ni Mantened la posición	OK	rules.js chargeTargets, restrains 4241, 1424, 2690	
+battlemarch_quickref.tsv	battlemarch-124	battlemarch.txt L2058-2062	Carro completamente en la zona de despliegue enemiga al final: +25 PV a su dueño	OK	rules.js:5889	
+leg_lizardmen.tsv	leg_lizardmen-034	leg_lizardmen.txt:147	Skink Priest M6 HA2 HP3 F3 R2 H2 I4 A1 L6 60 pts	OK	data.js:1696-1697	
+aj_highelves.tsv	aj_highelves-066	aj_highelves.txt:1204-1205	Ira de Mathlann: el enemigo repite un impacto con éxito contra el portador en Combate	OK	rules.js:mathIre (fightGroup/duelSwing)	Repite un impacto con éxito por fase de Combate; anunciado en el log
+leg_daemons.tsv	leg_daemons-100	leg_daemons.txt L420	Tentaculos: F, PA-1, Perforante 1	OK	data.js:2011	Falta PA-1
+core_8.tsv	core_8-015	Elementalismo p.326 l.10405	"Llamada de la Tormenta: Hex 7+, 12"", -1 M e I (min 1) hasta tu proximo inicio; cancela otros Hex previos sobre el objetivo"	OK	rules.js:applySpell0 effect storm (HEX_ALL)	Cancela todos los Hex previos
+aj_empire2.tsv	aj_empire2-086	aj_empire2.txt:1298-1300	"Ogros Imperiales: cañón ligero 18"" F4 FP-1 Perforante (2), D3 impactos si impacta"	OK	data.js:3516 (wrg lc)	
+core_5.tsv	C5-052	p.197 War Machines	Weapon of War: no declaran cargas	OK	rules.js:2824	chargeTargets devuelve [] para mach
+leg_skaven.tsv	leg_skaven-015	leg_skaven.txt:71-74	Rare: Catapulta o Incensarios (0-1 por 1.000) si hay Sacerdote	OK	data.js:armyIssues sk	Límites separados Catapulta / Incensarios
+leg_darkelves.tsv	leg_darkelves-026	leg_darkelves.txt:120	Noble Oscuro: objetos mágicos hasta 50 pts	OK	data.js:1589 ib:50	
+leg_vampires.tsv	leg_vampires-219	leg_vampires.txt:1097-1108	Yelmo de Mando 40: Nigromantes y Tumularios, +D3 HA	OK	data.js:3060; rules cmdUse helm	
+dawn_renegade_sc.tsv	renegade_web-018	renegade_web.txt:42-44	Origen La Fuerza de Miragliano (25 pts): +1 Ld; gana Tozudo y Estoicismo tileano	OK	data.js:5543 mm; rules.js:148 has()	
+leg_skaven.tsv	leg_skaven-090	leg_skaven.txt:1766	Clanrats estandarte mágico (no concedido por el texto)	OK	data.js:sk_clanrats	bnMax eliminado
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-068	leg_chaosdwarfs.txt:188-190	Taur'ruk: Stampede (impactos con FP -2)	OK	rules.js:~2945 stampede => impactos FP-2	Regla sin efecto en rules.js (no se aplica FP-2 a los impactos)
+dawn_renegade_sc.tsv	cathay_dawn-031	cathay_dawn.txt:373-383	"Tabla Wasteland 3: Sendero (lineal estrecho; camino bien mantenido con 3"" de terreno difícil cada 12"")"	OK	dawn.js genDawn/buildLinear + rules.js createGame (tmode waste/shadow)	
+leg_vampires.tsv	leg_vampires-114	leg_vampires.txt:514	Vargoyle A4 +7	OK	data.js: CMD vc_vargheists [7,null,null]	
+leg_daemons.tsv	leg_daemons-268	leg_daemons.txt L1317-1318	Inestabilidad: fallo con doble 6 natural elimina la unidad	OK	rules.js:194 doble 6 elimina	No existe eliminacion por doble 6
+core_3.tsv	c3-005	Remains in Play (p.111)	Termina si el lanzador muere o abandona el campo	OK	rules.js:5356	Filtra fx.rip sin lanzador vivo
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-100	leg_chaosdwarfs.txt:274	Guard: great weapons +2	OK	data.js:4710 gw cost 2	
+aj_beasts2.tsv	aj_beasts2-023	aj_beasts2.txt:715	1 Manada de Minotauros por 1.000 pts como Basica	OK	data.js:3453 promote per; chk 3456	Se promueve a Basica y se exige >=1 por 1.000
+core_5.tsv	C5-031	p.194 Light Chariots	Impactos de carga/Pisoton usan la F del carro; carro a 0 Heridas retira el modelo	OK	rules.js:3092-3102	impact S por unidad en data.js; reserva unica de Heridas
+aj_beasts2.tsv	aj_beasts2-145	aj_beasts2.txt:1697-1702	Azote de los Cargados 25 pts: lanza Call of the Wild como hechizo ligado NP 2	OK	data.js:2821	
+aj_dwarfs2.tsv	aj_dwarfs2-019	aj_dwarfs2.txt L531-534	Entrenched Besiegers: el atacante nomina unidades que cuentan como Entrenched	OK	rules.js pnTasks(besieg) + ready; doCharge chargeDisordered/chargeObsK con entrenched	Atacante nomina unidades; Atrincherada = cobertura parcial + obstáculo bajo defendido
+cathay.tsv	cathay_aj-073	cathay_aj.txt 2011-2025	"Tabla de bombardeo: 1 pierde 1 herida; 2 enemigo 1 herida; 3-4 plantilla grande 5"" dispersa D6, F5 FP-2; 5-6 dos pequena"	OK	rules.js:2582-2587	Impactos aproximados por area cubierta
+faq_core_2.tsv	F2-082	FAQ Movimiento	Redirigir carga: no puede cargar a una unidad mas alla de su alcance maximo	OK	rules.js:2979-2980	reach en alt
+cathay.tsv	faq_cathay-003	faq_cathay.txt 42-44	Errata p.34 Comandante: borrar campeon del perfil	OK	data.js:2242 (sin champion)	
+leg_ogres.tsv	leg_ogres-111	leg_ogres.txt:434-437	Infantería regular 25x25, 20+; cosas punzantes (armas de mano y arrojadizas)	OK	data.js:~5246 (bloque v700 Ogros)	Armas arrojadizas
+leg_chaosdwarfs.tsv	leg_chaosdwarfs-044	leg_chaosdwarfs.txt:137-140	Sorcerer's Curse: en percance chequeo de R; si falla pierde 1 Herida y +1 R en vez de tabla	OK	rules.js:3319-3324 (curseT)	
+leg_lizardmen.tsv	leg_lizardmen-119	leg_lizardmen.txt:496-503	Toad Rage: un marcador por unidad de Ripperdactyl Riders sobre cualquier unidad enemiga tras Scouts; +1 Ataque y repetir	OK	rules.js:toadPlace/startBattle, toadMk; attackProfile rr1; main.js boton marcador; ai.js decider toad:	Marcador por unidad de Jinetes (no personajes) sobre cualquier enemigo; lo coloca el jugador (si no elige, se asigna a la de mayor coste y se anuncia) o la IA por valoracion aprendida; +1 Ataque y repetir 1 solo contra la unidad marcada
+core_3.tsv	c3-090	Flee Move (p.132)	Tirada de huida 2D6; avanza esa distancia recto, completa aunque salga de la mesa	OK	runAway rules.js:2732, pushAway 2771	

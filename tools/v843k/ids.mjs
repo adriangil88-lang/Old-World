@@ -1,0 +1,4 @@
+import { UNITS, FIG_ALIAS } from '/home/claude/tow/app/js/data.js';
+const ids='we_weaver_unicorn we_singer_unicorn br_prophetess_uni br_damsel_uni we_pack_cats we_pack_boars we_pack_bears we_pack_cats_sk we_pack_boars_sk we_pack_bears_sk he_warlions we_beastkeeper he_ishaya he_stormweaver_uni br_sergeant de_deathhag_cauldron de_beastmaster_chariot de_scourge bm_harpies bm_herdstone bm_wtroll bm_wmerc_hw bm_wmerc_sb bm_cart sk_thingscatcher goods_cart dw_cart_miner dm_bloodletters we_orion_hounds br_bowmen_fire br_bowmen_stakes tk_summoned imp_ogres dw_impmerc1 woc_hhandler bm_ravager squig_herder bm_warherd_gor_u tk_cohort_a tk_cohort_ca tk_cohort_ca_cc vc_risen dm_burning'.split(' ');
+for (const i of ids){const u=UNITS[i]; console.log(i,'|',u?u.name:'??','|',u?u.cat+'/'+u.tt+' base '+u.baseW+'x'+u.baseD:'', '| alias', FIG_ALIAS[i]||'-');}
+console.log(Object.keys(UNITS).filter(k=>/impmerc|warherd/.test(k)).join(' '));

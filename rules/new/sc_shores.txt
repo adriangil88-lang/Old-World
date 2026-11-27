@@ -1,0 +1,82 @@
+                           Upon Shrouded Shores
+I   n the early years of the Chainmaker’s invasion of the Empire’s northern coasts, the High Elves of the Shrouded Isle had
+    withdrawn from the affairs of the Men of Westerland, the Sea Lord tending instead to the mysterious affairs of the Ulthuan.
+Thus did Aislinn’s sleek vessels seemingly neglect the waters where the Sea of Claws meets the Manaansport Sea, giving the
+Wolves of the Sea the impression that they could ply the waves unchallenged. In time, glory-hungry warlords began to wonder
+if the isle had been abandoned. The first tribes to make landfall upon its shores would swiftly learn the error of their ways…
+
+Historical Recreation
+This battle upon the beaches of the Shrouded Isle represents       Set-up
+the Chainmaker’s forces trying to secure a foothold on the isle    Place terrain as described in the Warhammer: the Old World
+during the latter years of her invasion; they quickly learned      rulebook. As this battle takes place on a beach, the area within
+that the High Elves still stood vigilant. To represent this, the   24" of the attacker’s deployment zone should be kept fairly
+players should write two muster lists (one for the attacker and    sparse, whilst the remainder of the board can contain a few
+one for the defender) as follows:                                  Elven buildings and/or defensive barricades.
+
+The Attacker                                                       In addition, to represent the forces of Chaos trying to secure a
+The attacker should write a single 2,000 points muster list        beachhead, place three objective markers, each represented by
+using the Warriors of Chaos Grand Army composition list            a miniature diorama occupying a 40mm round base, after the
+or the Wolves of the Sea Army of Infamy composition list           battlefield has been set up but before deployment begins.
+(found in Ravening Hordes and Arcane Journal – Warriors of
+Chaos respectively).                                               Objective markers are set up as shown on the deployment
+                                                                   map. They cannot be placed within 3" of a terrain feature or
+The Defender                                                       straddling a low linear obstacle – if necessary, move the terrain
+The defender should write a single 2,000 points muster list        the smallest possible amount to allow the objective marker to
+using the High Elf Realms Grand Army composition list              be placed.
+or the Sea Guard Garrison Army of Infamy composition
+list (found in Forces of Fantasy and Arcane Journal – High Elf     Objective markers are a type of battlefield decoration,
+Realms respectively).                                              as described on page 271 of the Warhammer: the Old
+                                                                   World rulebook.
+Alternatively, this scenario may be played with any two armies
+of the players’ choosing.
+
+
+
+
+                                                 Attacker’s Deployment Zone
+                                   Beach Objective Marker          Beach Objective Marker
+                                    18"                                                 18"
+                                                                        12"
+
+
+
+                                                                        12"
+
+
+                                                   Garrison Objective Marker
+                                                 Defender’s Deployment Zone
+
+
+
+
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2025.
+Deployment                                                             Scenario Special Rules
+The defender deploys their entire army anywhere in the                 Controlling Objective Markers: At the end of each turn, an
+defender’s deployment zone, as shown on the map. Once                  objective marker can be controlled by a single Core unit that
+complete, the attacker then deploys their entire army within           is within 6" of it, that has a Unit Strength of 10 or more, that
+the attacker’s deployment zone, as shown on the map.                   is not fleeing and that has not succumbed to Stupidity. If two
+                                                                       or more eligible units are within 6" of an objective marker, the
+First Turn                                                             closest unit controls it. If two or more eligible units are equally
+In this scenario, the defender will automatically take the             close to an objective marker, the unit with the higher Unit
+first turn.                                                            Strength controls it.
+
+Game Length                                                            However, if two or more eligible enemy units are equally close
+The battle will last a random number of rounds or until                to an objective marker and both have the same Unit Strength,
+one side concedes. Starting at the end of the fourth round,            the objective marker is ‘contested’ and neither unit controls it.
+roll a D6 at the end of each round. Add the round number
+to the dice roll. If the score is nine or more, the battle ends        Victory!
+immediately. If the total is eight or less, the battle continues for   Once the battle has ended, use Victory Points (VP) to
+at least one more round.                                               determine which player is the winner, as described in the
+                                                                       Warhammer: the Old World rulebook. Additional VP are
+                                                                       awarded for control of objective markers, as described below:
+
+                                                                       • For each ‘beach’ objective marker a player controls at the
+                                                                         end of either player’s turn, they win a bonus of 50 VP.
+                                                                       • If a player controls the ‘garrison’ objective marker at the
+                                                                         end of either player’s turn, they win a bonus of 100 VP.
+
+
+
+
+                Permission to download/print for personal use only. © Copyright Games Workshop Limited 2025.
+

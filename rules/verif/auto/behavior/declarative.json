@@ -1,0 +1,15 @@
+{
+ "rh-qa-026": "Declarativa: comprueba la AUSENCIA de un objeto en el catálogo (ITEMS); no ejecuta código del motor que mutar. Se vigila con el lint de catálogo.",
+ "core-note-001": "Declarativa: lee el texto de la FAQ Core (no hay erratas con asterisco); ningún código del motor interviene.",
+ "cathay-note-001": "Declarativa: lee el texto de la FAQ de Cathay (asteriscos); ningún código del motor interviene.",
+ "fof-qa-037:ui": "Declarativa de interfaz (main.js): el motor no interviene; la comprobación es sobre el texto/estructura de la interfaz.",
+ "cathay-errata-014": "Declarativa: comprueba un campo de datos (LORES.yin.sig); sin comportamiento del motor que mutar.",
+ "core-errata-077": "Declarativa: tamaño de mapas (tabla de datos TABLES); sin comportamiento del motor que mutar.",
+ "core-errata-078": "Declarativa: tamaño de mapas (tabla de datos TABLES); sin comportamiento del motor que mutar.",
+ "rh-errata-025": "Declarativa: comprueba datos de objetos/unidades (catálogo); sin comportamiento del motor que mutar.",
+ "fof-errata-057": "Declarativa: comprueba que una unidad NO tiene una regla (datos de perfil); sin comportamiento del motor que mutar.",
+ "fof-errata-060": "Muere con el filtro exacto (verificado en v843l al ejecutarla sola): en la pasada por lotes la cobertura V8 por prueba es menor y el operador C no alcanza el código relevante; no es una aserción vacía.",
+ "rh-errata-010": "Declarativa: comprueba la ausencia de unidades (catálogo de monturas del Caos); sin comportamiento del motor que mutar.",
+ "core-qa-162": "Muere con el filtro exacto (verificado en v843l al ejecutarla sola): en la pasada por lotes la cobertura V8 por prueba es menor y el operador C no alcanza el código relevante; no es una aserción vacía.",
+ "v836-sr-align_khorne": "Muere con el filtro exacto (verificado en v843l al ejecutarla sola): en la pasada por lotes la cobertura V8 por prueba es menor y el operador C no alcanza el código relevante; no es una aserción vacía. Además se añadió un control (Nurgle no gana Fuerza; Khorne sin cargar tampoco)."
+}

@@ -1,0 +1,277 @@
+RENEGADE CROWNS - DATA FETCHED FROM https://tow.whfb.app (2026-11-16)
+NOTE: WebFetch returns model-processed output and REFUSED to transcribe pages verbatim. Unit data (profiles, points, options) is
+transcribed as returned; rule texts are paraphrases/partial quotes unless shown in quotation marks. NOT literal. Unit pages list special
+rules by NAME only (rule text lives on /special-rules/ pages). Items marked [ANOMALY] look inconsistent on the source page.
+
+================================================================================
+https://tow.whfb.app/warhammer-armies/renegade-crowns
+Source: Arcane Journal: The War of Settra's Fury, p. 37 (updated 2025 Oct 30). Army of Infamy.
+- Characters: up to 50% points. Up to one Renegade Prince per 1,000 pts, plus Renegade Captains and Outcast Wizards.
+- Core: at least 25%. Up to one unit of Veteran Sellswords per 1,000 pts, plus Sellsword Infantry, Freeblade Knights, Hireling Outriders, Free Company Militia, Empire Archers.
+- Special: up to 33%. Veteran Freeblades, plus up to two Border Princes Mortars per 1,000 pts.
+- Rare: up to 25%. Border Princes Brigands, plus up to one war machine per 1,000 pts chosen from Border Princes Organ Gun or Border Princes Bombard.
+- Mercenaries: up to 33%. Any Dogs of War from any Arcane Journal, including Badlands Ogre Bulls, Bonegrinder Giant, Doomseeker, Imperial Dwarf Mercenaries, Imperial Ogres. Mercenary units from another list gain the Mercenaries special rule and are subject to Misbehaving Mercenaries.
+- Battle Standard Bearer: one Renegade Captain may be upgraded for +25 pts. Beyond the usual magic item allowance, the Bearer may take one magic standard with no points limit.
+- Magic items: any model that can take magic items may take Common magic items.
+- Linked rules: The Origins of the Infamous, The Mercenary Hosts, The Outcast Knights, The Outlaw and Renegade, The Wandering Duelists.
+- (Fetch did not return per-category unit counts beyond the above; page says new profiles/rules are on following pages.)
+
+================================================================================
+https://tow.whfb.app/warhammer-armies/misbehaving-mercenaries
+Source: Rulebook p. 279 (updated 2024 Mar 24).
+Before deployment roll a D6 for each mercenary unit. 2+: arrives on time, counts as part of your army. 1: roll on table.
+ 1 Heavy Night: unit gains Stupidity; if it already has Stupidity, +1 modifier to every Stupidity test.
+ 2-3 Getting What You Paid For: -1 Movement and -1 Initiative for the battle (minimum 1).
+ 4-5 Late Arrival: gains Ambushers and starts in reserve; if it already has Ambushers it arrives on turn 2 only on a natural 6 instead of 4+.
+ 6 General Apathy: -1 Leadership for the battle (minimum 2).
+(Paraphrased by fetch tool.)
+
+================================================================================
+https://tow.whfb.app/special-rules/mercenaries   (Rulebook p. 173, updated 2024 Jan 31)
+Paraphrase: Mercenary bands travel looking for work in foreign armies. An army may include certain units from another list as mercenaries; such units gain this rule.
+Mercenary units cannot use the General's Inspiring Presence. Mercenary units cannot use the "Hold your Ground" rule of a Battle Standard. Characters from another army list cannot join mercenary units.
+
+================================================================================
+https://tow.whfb.app/special-rules/the-origins-of-the-infamous   (p. 37, updated 2025 Oct 29)
+Leaders in the Border Princes are usually outcasts; some travel with retainers, others gather companions or hired cutthroats.
+Characters in a Renegade Crowns Army of Infamy can purchase an Infamous Origin. Depending on origin, some units gain extra benefits.
+Origins: The Mercenary Hosts, The Outcast Knights, The Outlaw & Renegade, The Wandering Duelists.
+(Fetch gave no point costs for the Origins or the character-level origin names beyond those below: Might of Miragliano, Renegade Knight, Noble Outlaw, Wandering Diestro.)
+
+================================================================================
+https://tow.whfb.app/special-rules/the-mercenary-hosts   (p. 37, updated 2025 Oct 30)
+Flavour: Tilean mercenary regiments use deep formations, many ranks overwhelming enemies by numbers.
+Each character in your army with the Might of Miragliano Infamous Origin: 0-1 unit of Sellsword Infantry or Veteran Sellsword Infantry may change troop type to heavy infantry and may take the Phalanx special rule for +10 points per unit.
+
+================================================================================
+https://tow.whfb.app/special-rules/the-outcast-knights   (p. 37, updated 2025 Oct 30)
+"Though their honour may be besmirched, outcast knights retain the appearance of chivalry upon the battlefield."
+For each character with the Renegade Knight Infamous Origin: 0-1 unit of Freeblade Knights or Veteran Freeblade Knights may have the Lance Formation and the Noble Disdain special rules for +2 points per model.
+
+================================================================================
+https://tow.whfb.app/special-rules/the-outlaw-and-renegade   (p. 37, updated 2025 Oct 30)
+Flavour: lawless reaches where bandits and highwaymen ambush the unwary.
+For each character with the Noble Outlaw Infamous Origin: 0-1 unit of Hireling Outriders may have the Ambushers special rule for +1 point per model.
+
+================================================================================
+https://tow.whfb.app/special-rules/the-wandering-duelists   (p. 37)
+Flavour: exiled nobles and skilled duelists from distant lands band together.
+For each character with the Wandering Diestro Infamous Origin: one unit of Border Princes Brigands may take a +1 Weapon Skill modifier for +2 points per model (per fetch summary).
+Once per game, models in that unit can re-roll successful "To Hit" rolls against enemy models that attack them in the Combat phase (per fetch summary; wording uncertain).
+
+================================================================================
+UNITS
+================================================================================
+
+https://tow.whfb.app/unit/renegade-prince
+(Given by user, not fetched) 75 pts M4 WS6 BS4 S4 T4 W3 I5 A3 Ld8.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/renegade-captain   (Realms of Men; AJ War of Settra's Fury p. 38; updated 2025 Oct 30)
+M4 WS5 BS4 S4 T4 W2 I4 A2 Ld7
+35 points. Character. Regular Infantry. Base 25x25. Unit size 1.
+Equipment: hand weapon, light armour.
+Options: melee weapon (one): great weapon +4, halberd +3, lance if mounted +4, morning star +3.
+ Ranged weapon (one): warbow +3, crossbow +4, pistol +5, brace of pistols +10.
+ Shield +2. Armour (replaces light): heavy armour +3, full plate armour +6.
+ Mount: warhorse +12, barded warhorse +16.
+ Magic items: up to 50 points.
+Special rules: Rallying Cry, Veteran, Warband.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/outcast-wizard   (Kingdom of Bretonnia; AJ p. 42; updated 2024 Feb 23)
+M4 WS3 BS3 S3 T3 W2 I3 A1 Ld7
+45 points. Character. Regular Infantry and Character. Base 25x25. Unit size 1.
+Equipment: hand weapon.
+Level 1 Wizard; lore: Battle Magic, Daemonology, Dark Magic, Elementalism, Illusion, or Necromancy.
+Options: warhorse +12; Level 2 Wizard +30; Level 3 Wizard +60; magic items up to 75 points.
+Special rules: Magical Attacks, Magic Resistance (-1), Untutored Arcanist.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/veteran-sellswords   (Realms of Men; AJ p. 39; updated 2025 Oct 30)
+Veteran Sellsword: M4 WS4 BS3 S3 T3 W1 I3 A1 Ld5
+Veteran Officer:   M4 WS4 BS3 S3 T3 W1 I3 A2 Ld6
+5 points per model. Infantry, Regular Infantry. Base 25x25. Unit size 5+.
+Equipment: hand weapons, light armour.
+Options: whole unit one weapon: thrusting spears +1, halberds +1, great weapons +2, crossbows +2, handguns +3 (per model).
+ Whole unit: shields +1; heavy armour instead of light +2 (per model).
+ Upgrade one model: Officer (champion) +7 per unit; standard bearer +5; musician +5.
+ Veteran Sellswords only: magic standard up to 50 points; full plate instead of light +4 per model; Drilled +1 per model.
+ Veteran Officer: magic items up to 25 points.
+Special rules: Close Order, Detachment, Horde, Regimental Unit, Warband, Veteran, Drilled.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/sellsword-infantry   (Realms of Men; AJ p. 39; updated 2025 Oct 30)
+Sellsword: M4 WS3 BS3 S3 T3 W1 I3 A1 Ld5
+Officer:   M4 WS3 BS3 S3 T3 W1 I3 A2 Ld6
+4 points per model. Infantry, Regular Infantry. Base 25x25. Unit size 5+.
+Equipment: hand weapons, light armour.
+Options: whole unit one weapon: thrusting spears +1, halberds +1, great weapons +2, crossbows +2, handguns +3 (per model).
+ Also: shields +1; heavy armour instead of light +2 (per model).
+ One model: Officer (champion) +7 per unit; standard bearer +5; musician +5.
+Special rules: Close Order, Detachment, Horde, Regimental Unit, Warband. No magic items.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/freeblade-knights   (AJ p. 40; updated 2025 Oct 30)
+Freeblade Knight: M- WS4 BS3 S3 T3 W1 I3 A1 Ld8
+Commander:        M- WS4 BS3 S3 T3 W1 I3 A2 Ld8
+Warhorse:         M8 WS3 BS- S3 T- W- I3 A1 Ld-
+Barded Warhorse:  M7 WS3 BS- S3 T- W- I3 A1 Ld-
+18 points per model. Cavalry, Heavy Cavalry. Base 30x60. Unit size 5+.
+Equipment: hand weapons, heavy armour; warhorses iron-shod hooves (hand weapons); barded warhorses also barding.
+Options: whole unit MUST take lances or great weapons (+1 per model); shields +1 per model;
+ one model Commander (champion) +6 per unit; standard bearer +6; musician +6; barded warhorses +3 per model.
+Special rules: Close Order, Counter Charge, First Charge, Swiftstride. No magic items.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/hireling-outriders   (AJ p. 41; updated 2026 Apr 13)
+Hireling Outrider: M- WS3 BS3 S3 T3 W1 I3 A1 Ld7
+Captain:           M- WS3 BS4 S3 T3 W1 I3 A1 Ld7
+Warhorse:          M8 WS3 BS- S3 T- W- I3 A1 Ld-
+11 points per model. Cavalry, Light Cavalry. Base 30x60. Unit size 5+.
+Equipment: hand weapons; warhorse iron-shod hooves.
+Required (whole unit one): cavalry spears +1, shortbows +1, pistols +3, brace of pistols +6 (per model).
+Optional: light armour +1 or heavy armour +3; shields +1 (per model).
+One model Captain (champion) +6 per unit; standard bearer +6; musician +6.
+Special options (0-1 unit per 1,000 pts): Feigned Flight +2 per model; Reserve Move +1 per model; Vanguard +1 per model; magic standard up to 50 points.
+Special rules: Fast Cavalry, Fire & Flee, Open Order, Skirmishers, Swiftstride (+ option rules Feigned Flight, Reserve Move, Vanguard).
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/free-company-militia   (Empire of Man; Forces of Fantasy p. 59; updated 2026 Jul 10)
+Militia Fighter: M4 WS3 BS3 S3 T3 W1 I3 A1 Ld6
+Militia Leader:  M4 WS3 BS3 S3 T3 W1 I3 A2 Ld7
+6 points per model. Infantry, Regular Infantry. Base 25x25. Unit size 10+ (5+ if detachment).
+Equipment: mixed weapons (count as two hand weapons and throwing weapons).
+Options: one model Militia Leader (champion) +7 per unit.
+Special rules: Detachment, Furious Charge, Horde, Impetuous, Levies, Open Order, Warband.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/empire-archers   (Empire of Man; Forces of Fantasy p. 59; updated 2024 Feb 23)
+Archer:   M4 WS3 BS3 S3 T3 W1 I3 A1 Ld7
+Marksman: M4 WS3 BS4 S3 T3 W1 I3 A1 Ld7
+7 points per model. Infantry, Regular Infantry. Base 25x25. Unit size 5+.
+Equipment: hand weapons, warbows.
+Options: one model Marksman (champion) +5 per unit; Fire & Flee +1 per model; Scouts +1 per model.
+Special rules: Detachment, Move Through Cover, Open Order, Skirmishers, Vanguard (+ option rules Fire & Flee, Scouts).
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/veteran-freeblades   (Realms of Men; AJ p. 40; updated 2025 Oct 30)
+Veteran Freeblade: M- WS4 BS3 S4 T3 W1 I3 A1 Ld8
+Commander:         M- WS4 BS3 S4 T3 W1 I3 A2 Ld8
+Warhorse M8 WS3 S3 I3 A1; Barded Warhorse M7 WS3 S3 I3 A1.
+22 points per model. Cavalry, Heavy Cavalry. Base 30x60. Unit size 5+.
+Equipment: hand weapons, heavy armour; warhorse iron-shod hooves; barded also barding.
+Options: whole unit MUST take lances or great weapons (+1 per model); shields +1 per model;
+ one model Commander / standard bearer / musician +6 per unit each; barded warhorses +3 per model.
+ [ANOMALY: page text says "Veteran Sellsword Knights only": heavy armour -> full plate +4 per model; magic standard up to 50 points. Presumably applies to Veteran Freeblades.]
+Special rules: Close Order, Counter Charge, First Charge, Swiftstride, Veteran.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/border-princes-mortar   (AJ p. 42; updated 2025 Oct 30)
+Mortar: T7 W3 (other stats -). Gun Crew: M4 WS3 BS3 S3 T3 W3 I3 A3 Ld7 (as returned by fetch; W3 A3 look suspicious, may be crew-combined).
+90 points. War Machine. Base 50x75 (machine), 25x25 (crew). Unit size 1.
+Equipment: mortar, hand weapons. No options. Special rules: Levies, Skirmishers.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/border-princes-brigands   (Kingdom of Bretonnia; AJ p. 44; updated 2024 Aug 11)
+Brigand:   M4 WS3 BS3 S3 T3 W1 I3 A1 Ld6
+Desperado: M4 WS3 BS3 S3 T3 W1 I3 A2 Ld7
+4 points per model. Infantry, Regular Infantry. Base 25x25. Unit size 10+.
+Equipment: hand weapons, light armour.
+Options: any model one of: additional hand weapon +2, shield +1 (per model). Ranged (one): pistol +2, blunderbuss +4, crossbow +3 (per model).
+ One model Desperado (champion) +7 per unit; standard bearer +5; musician +5. Desperado magic items up to 50 points.
+ 0-1 unit per 1,000 pts: replace Open Order with Close Order (free) or with Skirmishers (free); Skirmishers may take Ambushers +2 per model or Scouts +1 per model.
+Special rules: Horde, Impetuous, Levies, Motley Crew, Open Order, Warband.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/border-princes-organ-gun   (AJ p. 42; updated 2025 Oct 30)
+Organ Gun: T7 W3. Gun Crew: M4 WS3 BS3 S3 T3 W3 I3 A3 Ld7.
+125 points. War Machine. Base 50x50 (machine), 25x25 (crew). Unit size 1.
+Equipment: organ gun, hand weapons. No options. Special rules: Levies, Skirmishers.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/border-princes-bombard   (Kingdom of Bretonnia; AJ p. 45; updated 2024 Aug 11)
+Bombard: T7 W3. Crew: M4 WS3 BS3 S3 T3 W3 I3 A3 Ld7.
+100 points. War Machine. Base 50x50 (machine), 25x25 (crew). Unit size 1.
+Equipment: bombard, hand weapons, light armour. No options. Special rules: Levies, Skirmishers.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/badlands-ogre-bulls   (Orc & Goblin Tribes; AJ p. 40; updated 2025 Oct 29)
+Ogre:    M6 WS3 BS2 S4 T4 W3 I2 A3 Ld7
+Crusher: M6 WS3 BS2 S4 T4 W3 I2 A4 Ld7
+31 points per model. Infantry, Monstrous Infantry. Base 40x40. Unit size 3+.
+Equipment: hand weapons, light armour.
+Options: any model one of: additional hand weapon +3, great weapon +4, ironfist +4 (per model).
+ Any unit: one model Crusher (champion) +7 per unit; standard bearer +6; Bellower (musician) +6; magic standard up to 50; heavy armour instead of light +4 per model.
+Special rules: Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/bonegrinder-giant   (Orc & Goblin Tribes; AJ p. 42; updated 2026 Jul 10)
+M6 WS3 BS1 S7 T7 W8 I3 A* Ld10
+300 points. Monster. Behemoth. Base 50x100 (min) to 100x150 (max). Unit size 1.
+Equipment: Bonegrinder Giant's club; calloused hide (light armour). No options/magic items.
+Special rules: Bonegrinder Giant Attacks, Close Order, Immune to Psychology, Large Target, Mercenaries, Stomp Attacks (D6+1), Terror, Timmm-berrr!, Unbreakable.
+Dogs of War: 0-1 as Mercenary in Orc & Goblin Tribes, Warriors of Chaos, Beastmen Brayherds.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/doomseeker   (Dwarfen Mountain Holds; AJ p. 41; updated 2026 Jan 29)
+M3 WS5 BS0 S5 T4 W2 I3 A2D3 Ld10
+50 points. Infantry. Heavy Infantry. Base 25x25. Unit size 1.
+Equipment: whirling blades of death (count as hand weapon).
+Options: weapon runes up to 50 points total; up to three runic tattoos.
+Special rules: Deathblow, Doomseeker, First to the Fray, Gromril Weapons, Hatred (Orcs & Goblins), Immune to Psychology, Impact Hits (D3+1), Loner, Magic Resistance (-2), Random Attacks, Resolute, Skirmishers, Unbreakable, Vanguard, Whirlwind of Death.
+Dogs of War: up to 3 as Mercenaries in Dwarfen Mountain Holds and Empire of Man lists.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/imperial-dwarf-mercenaries   (Dwarfen Mountain Holds; AJ p. 43; updated 2025 Oct 29)
+Warrior: M3 WS4 BS3 S3 T4 W1 I2 A1 Ld9
+Veteran: M3 WS4 BS3 S3 T4 W1 I2 A2 Ld9
+8 points per model. Infantry. Heavy Infantry. Base 25x25. Unit size 5+.
+Equipment: hand weapons, light armour.
+Options: whole unit one of: great weapons +2, thrusting spears +1, crossbows +2, handguns +3 (per model).
+ Any unit: Veteran (champion) +5 per unit; standard bearer +5; musician +5; shields +1 per model; heavy armour instead of light +1 per model; a Veteran may take weapon runes up to 25 points.
+ 0-1 unit per 1,000 pts: Drilled +1 per model; Veteran special rule +1 per model; standard runes up to 50 points.
+Special rules: Close Order, Hatred (Orcs & Goblins), Magic Resistance (-1), Resolute, Shieldwall.
+Dogs of War: 0-1 unit as Mercenary in Dwarfen Mountain Holds or Empire of Man lists.
+
+--------------------------------------------------------------------------------
+https://tow.whfb.app/unit/imperial-ogres   (Empire of Man; AJ p. 40; updated 2026 Jul 10)
+Imperial Ogre: M6 WS3 BS3 S4 T4 W3 I2 A3 Ld7
+Ogre Captain:  M6 WS3 BS4 S4 T4 W3 I2 A4 Ld7
+29 points per model. Infantry. Monstrous Infantry. Base 40x40. Unit size 3+.
+Equipment: hand weapons, light armour.
+Options: any model one of: great weapon +4, morning star +2, light cannon +8, ogre pistol +5 (per model).
+ Any unit: one model Ogre Captain (champion) +7 per unit; heavy armour instead of light +3 per model.
+Special rules: Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge.
+Dogs of War: 0-1 unit as Mercenaries in Dwarfen Mountain Holds and Empire of Man lists.
+
+================================================================================
+CITED SPECIAL RULES (paraphrased/partially quoted by fetch tool)
+================================================================================
+/special-rules/rallying-cry (Rulebook p. 175): In the Command sub-phase of its turn, if not engaged in combat, the character may nominate a single fleeing friendly unit within its Command range; "The nominated unit immediately makes a Rally test." If failed, the unit may attempt to rally again as normal in the Rally sub-phase.
+/special-rules/veteran (p. 180): "Veteran warriors have seen and done it all, and it takes a lot to unsettle them." "If the majority of the models in a unit have this special rule, the unit may re-roll any failed Leadership test." "Note that a Break test is not a Leadership test."
+/special-rules/warband: Keen for the fray but easily dismayed. Unless fleeing, adds a positive Leadership modifier equal to its current Rank Bonus, capped at Ld10. Not usable for Restraint tests; if Impetuous, not usable when checking whether it must declare a charge or may act normally. If most models have the rule, the unit may re-roll its Charge roll. A character's Leadership is not modified unless it has the rule. A Warband may use the highest of: its own modified Ld, the modified Ld of a Warband character, or the unmodified Ld of a non-Warband character.
+/special-rules/drilled (p. 167): A non-fleeing Drilled unit may perform a free "redress the ranks" manoeuvre just before it moves, then moves as usual. May march within 8" of an enemy without a Leadership test. Characters joining are treated as Drilled.
+/special-rules/phalanx: (page returned the Close Order rule text in error; Phalanx wording NOT obtained.) Returned text, apparently for Close Order: a Close Order unit in which the majority of models have the rule counts as being in Combat Order, not Marching Column, even if deeper than wide, as long as enough models per rank for a rank bonus; while deeper than wide it can claim rank bonus and charge but "cannot march at triple its Movement characteristic"; if charged by a unit with First Charge "it does not become Disrupted"; to adopt Marching Column it must be deeper than wide and have fewer models per rank than needed for a rank bonus. [UNVERIFIED which rule this belongs to]
+/special-rules/motley-crew: Units may mix models equipped differently or of different types. Different weapons: a fighting rank may include differing weapons; roll separate dice per model, state which model's attacks are made and where directed; attacks in each model's own Initiative order. Different armour: in combat use the armour value shared by most models in the fighting rank; against shooting, the value shared by most models in the unit. Casualties: vs shooting spread as evenly as possible; in combat from the majority models in the fighting rank; controlling player chooses which rear-rank models fill gaps.
+/special-rules/levies (p. 172): conscripted soldiers; Levy models cannot benefit from the General's Inspiring Presence or a Battle Standard's "Hold your Ground". Units without Levies need not take Panic tests when a friendly Levy unit Breaks and flees from combat.
+/special-rules/untutored-arcanist (AJ Bretonnia p. 42): "Many Outcast Wizards are poorly schooled in the arcane arts." "Thus, when their spellcasting falters, great calamity can befall them." "When required to roll on the Miscast table, a Wizard with this special rule must roll an extra D6," then keeps only the lower result.
+/special-rules/noble-disdain (AJ p. 43): a model with it whose troop type is Cavalry does not have to make a Panic test when (1) a friendly Infantry unit is destroyed within 6", or (2) a friendly Infantry unit flees through the model.
+/special-rules/lance-formation (Forces of Fantasy p. 107): "Bretonnian knights make use of a powerful formation called the 'Lance'." "This formation enables them to charge deep into enemy lines, causing great devastation." "A unit consisting of models with this special rule may adopt a Lance formation." (Formation details not on this page.)
+/special-rules/ambushers (Rulebook p. 166): may start in reserve instead of deploying. From round 2, in each of your Start of Turn sub-phases roll a D6 per Ambushers unit in reserve: 1-3 delayed until at least next turn; 4+ arrives as reinforcements in the Compulsory Moves sub-phase. Controlling player chooses any battlefield edge; cannot be placed within 8" of an enemy model. Any still in reserve at the start of round 5 arrive automatically.
+/special-rules/tilean-stoicism (AJ p. 43): "Should a character with this special rule join a unit prior to making their first Break Test of the game" the unit gains Stubborn, only until the character's first Break Test; joining after that has no effect. If the character leaves a unit they joined before its first Break Test, the unit immediately loses Stubborn for any reason.
+
+NOT FETCHED (not requested individually / not attempted): Detachment, Horde, Regimental Unit, Close Order (own page), Counter Charge, First Charge, Swiftstride, Feigned Flight, Reserve Move, Vanguard, Fast Cavalry, Fire & Flee, Open Order, Skirmishers, Impetuous, Furious Charge, Move Through Cover, Scouts, Magical Attacks, Magic Resistance, Phalanx (proper), Blunderbuss, Armour Bane, Impact Hits, Ogre Charge, Fear, Shieldwall, Resolute, Hatred and the Doomseeker/Bonegrinder rules.
+
+================================================================================
+ADDENDUM 2026-11-16 (second fetch; mechanics as returned, not literal)
+================================================================================
+/magic-items/infamous-origins (only Renegade Lords [Prince/Captain] and Outcast Wizards of a Renegade Crowns list; one origin each):
+ 1. The Might of Miragliano, 25 pts: +1 Leadership; gains Stubborn and Tilean Stoicism.
+ 2. The Renegade Knight, 25 pts: +1 WS and +1 S; gains Noble Disdain and Veteran; may buy magic items from the Kingdom of Bretonnia lists (FoF and AJ Bretonnia).
+ 3. The Noble Outlaw, 20 pts: +1 BS and +1 Ld; gains Hold the Line; may buy magic items from the Empire lists (FoF and AJ Empire of Man). Weapon (one): handgun +6, repeater handgun +8, repeater pistol +8, shortbow +2, longbow +4. Special rule (one): Ambushers +10 or Scouts +10.
+ 4. The Wandering Diestro, 20 pts: +2 WS; gains Feint & Dodge; may carry an additional hand weapon +3; cannot carry weapons with Strike Last.
+/special-rules/feint-and-dodge (AJ War of Settra's Fury p. 43): once per game, when an enemy model directs attacks against a model with this rule, you may force that enemy model to re-roll its successful To Hit rolls. (The Wandering Duelists page repeats it for Brigands.)
+/special-rules/hold-the-line (FoF p. 48): the model and any unit it has joined automatically pass any Panic tests.
+/special-rules/phalanx (AJ p. 37; the earlier "Close Order text" IS the Phalanx rule): in a Close Order unit where most models have Phalanx the unit counts as in Combat Order (not Marching Column) even if deeper than wide, as long as it has enough models per rank for rank bonus; deeper than wide it can claim rank bonus and make charge moves but cannot march at triple Movement; if charged by a unit with First Charge it is not Disrupted; to adopt Marching Column it must be deeper than wide with fewer models per rank than needed for rank bonus.
+/special-rules/noble-disdain (AJ p. 43): a Cavalry model with it need not take Panic tests when a friendly Infantry unit is destroyed within 6" or flees through the model.
